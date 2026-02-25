@@ -80,12 +80,20 @@ function fetch(url, options = {}) {
 // --- Reddit Scanner ---
 async function scanReddit() {
   const subreddits = [
-    'tickets', 'concerts', 'livemusic', 'comedyshows', 'comedy',
+    'tickets', 'concerts', 'livemusic', 'comedy', 'StandUpComedy',
     'boxing', 'mma', 'wrestling', 'soccer', 'baseball', 'basketball',
-    'hockey', 'lacrosse', 'rugby', 'esports', 'nfl', 'collegebasketball',
+    'hockey', 'lacrosse', 'rugby', 'esports', 'nfl',
     'cfb', 'wnba', 'nwsl', 'minorleaguebaseball', 'indycar', 'nascar',
     'rodeo', 'rollerderby', 'pickleball', 'discgolf',
-    'StubHub', 'EventTickets'
+    'StubHub', 'EventTickets',
+    // College sports (non-men's basketball)
+    'NCAAW', 'collegehockey', 'collegebaseball', 'wrestling',
+    'gymnastics', 'Rowing', 'trackandfield', 'swimming',
+    'volleyball', 'lacrosse', 'fencing', 'waterpolo',
+    'CollegeWrestling', 'collegesoftball',
+    // Specific college team subs with hot ticket demand
+    'OKState', 'PennStateUniversity', 'LSUTigers', 'OU',
+    'Huskers', 'IowaHawkeyes', 'OhioStateFootball'
   ];
 
   const queries = [
@@ -93,7 +101,18 @@ async function scanReddit() {
     'can\'t get tickets',
     'sold out instantly',
     'need tickets',
-    'sellout event'
+    'sellout event',
+    // College sports specific
+    'college wrestling sold out',
+    'college hockey sold out tickets',
+    'college gymnastics sold out',
+    'NCAAW tickets sold out',
+    'women\'s basketball sold out',
+    'college baseball tickets sold out',
+    'college lacrosse tickets',
+    'college volleyball sold out',
+    'swimming championship tickets',
+    'track and field championship tickets'
   ];
 
   const results = [];
@@ -244,10 +263,13 @@ function extractCleanEventInfo(mentions) {
 
   // Known artist/band/team subreddits — subreddit IS the event name
   const artistSubs = [
-    'TameImpala', 'JesseWelles', 'D4DJ', 'MySingingMonsters',
+    'TameImpala', 'JesseWelles', 'D4DJ',
+    // Add more as discovered
   ];
   const teamSubs = [
     'NPBtickets', 'WorldCup2026Tickets', 'wnba', 'nwsl',
+    'NCAAW', 'CollegeWrestling', 'collegehockey', 'collegebaseball',
+    'OKState', 'PennStateUniversity',
   ];
 
   // If subreddit is a known artist/team, use it directly
