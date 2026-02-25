@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-02-25T23:03:48.720Z",
-  "scanDurationMs": 48855,
+  "timestamp": "2026-02-25T23:21:58.140Z",
+  "scanDurationMs": 53781,
   "totalMentionsFound": 373,
   "eventsScored": 108,
   "events": [
@@ -41,7 +41,7 @@
           "title": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest with a free after party &amp; a late-night art museum",
           "text": "Hey All! Kinga here, back with this week's list. Three big cultural moments land on the same weekend: the Ramadan Night Market takes over City Hall Plaza for two nights (Friday &amp; Saturday, 9pm–1am), Chinatown shuts down Sunday for the annual Chinese New Year Lion Dance Parade, and Black History Month wraps up with events all weekend honoring a century of Black excellence in Boston. On top of that, it's last call for a bunch of winter stuff: Frostival Lodge, the Greenway Ferris Wheel, Snowpor",
           "url": "https://reddit.com/r/boston/comments/1reg46r/boston_events_worth_doing_this_weekend_a_ramadan/",
-          "score": 28,
+          "score": 29,
           "numComments": 5,
           "created": 1772032933,
           "author": "Top-Finger-4339"
@@ -124,7 +124,7 @@
           "title": "Stars on Ice has added a show in Tempe, AZ and a second date in Allen, TX!",
           "text": "The Tempe date is May 27, and the second Allen date is May 30. The first show in Allen is completely sold out save for the resale tickets going for extortionate prices.\n\nTickets here: https://www.starsonice.com/buy-tickets",
           "url": "https://reddit.com/r/FigureSkating/comments/1reqe9o/stars_on_ice_has_added_a_show_in_tempe_az_and_a/",
-          "score": 4,
+          "score": 3,
           "numComments": 2,
           "created": 1772054710,
           "author": "sofastsomaybe"
@@ -135,7 +135,7 @@
           "title": "Stars on Ice has added a show in Tempe, AZ and a second date in Allen, TX!",
           "text": "The Tempe date is May 27, and the second Allen date is May 30. The first show in Allen is sold out save for resale tickets.\n\nTickets here: https://www.starsonice.com/buy-tickets\n\n(I've also updated the [schedule](https://www.reddit.com/r/IliaQuadg0dMalinin/wiki/schedule) with the new dates!)",
           "url": "https://reddit.com/r/IliaQuadg0dMalinin/comments/1rem8uc/stars_on_ice_has_added_a_show_in_tempe_az_and_a/",
-          "score": 22,
+          "score": 24,
           "numComments": 5,
           "created": 1772045738,
           "author": "sofastsomaybe"
@@ -182,7 +182,7 @@
           "title": "Looking for a ticket World Championship",
           "text": "I am looking for the ticket for the World Champion  in Prague ISU FSWC 2026 | Exhibice, ne 29. 3. 2026 14:30\n\nIf someone wants to sell, please contact me",
           "url": "https://reddit.com/r/FigureSkating/comments/1relbks/looking_for_a_ticket_world_championship/",
-          "score": 1,
+          "score": 0,
           "numComments": 0,
           "created": 1772043829,
           "author": "Patient_Actuary8669"
@@ -218,7 +218,7 @@
           "title": "Lottery wins resold on theatr",
           "text": "I know I’m probably preaching to the choir here. I won the lottery for Every Brilliant Thing today and re-sold a worse ticket on Theatr, no problem there. Then I just happened to noticed a seat on theatr that was right next to my lottery winning seat up for sale on theatr for $242. It was, what a surprise, missing the price paid for it. I reported it, be careful out there theatre lovers. People suck.",
           "url": "https://reddit.com/r/Broadway/comments/1relex4/lottery_wins_resold_on_theatr/",
-          "score": 60,
+          "score": 61,
           "numComments": 21,
           "created": 1772044023,
           "author": "CT_nutmeg"
@@ -294,42 +294,6 @@
           "numComments": 16,
           "created": 1771985300,
           "author": "DufferDumbo"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "does anybody elses theater",
-      "displayName": "Scream",
-      "rawTitle": "Does anybody else's theater look like mine?",
-      "category": "sports",
-      "eventName": "Scream",
-      "eventType": "show",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Scream+broadway+tickets",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Scream",
-      "totalScore": 34,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 10
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "Scream",
-          "title": "Does anybody else's theater look like mine?",
-          "text": "I live in a college town, btw. Just find it kind of weird that a franchise like Scream that is marketed to the teenage and early 20s demographic would have nobody in my town buying tickets. Even when I went to the first showing of Wicked: For Good, there were maybe less than 20 people in the theater. Do people just not go to see movies at the theaters anymore? I always try to see horror movies in theaters, as I feel like the almost total darkness and the loud sound systems make the films scarier",
-          "url": "https://reddit.com/r/Scream/comments/1rdw8g0/does_anybody_elses_theater_look_like_mine/",
-          "score": 13,
-          "numComments": 47,
-          "created": 1771975003,
-          "author": "MisterZan25"
         }
       ],
       "sources": [
@@ -431,6 +395,42 @@
       ]
     },
     {
+      "eventKey": "good date story",
+      "displayName": "d have brought you only the",
+      "rawTitle": "Good date story",
+      "category": "other",
+      "eventName": "d have brought you only the",
+      "eventType": "team",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=d%20have%20brought%20you%20only%20the+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=d%20have%20brought%20you%20only%20the",
+      "totalScore": 31,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 10
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "CasualIreland",
+          "title": "Good date story",
+          "text": "So last week I matched with a girl on tinder. Same age as me, 24. I was just putting the chat on her very casual. Asked what I was doing for the weekend and I said I was going to a dinner dance fundraiser and said “I’d have brought you only the tickets were sold out”. Pure flirting.\n\nShe says “don’t worry I have mine already”. I thought ah yeah she’s flirting back or whatever. Didn’t think she was actually going. She then tells me she’s best friends with a girl I know who’s going and then I thin",
+          "url": "https://reddit.com/r/CasualIreland/comments/1resrro/good_date_story/",
+          "score": 105,
+          "numComments": 9,
+          "created": 1772060043,
+          "author": "eastlaoiscivilwar"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
       "eventKey": "tickets sold out",
       "displayName": "Tame Impala",
       "rawTitle": "Tickets sold out???",
@@ -492,8 +492,8 @@
           "title": "I scalped tickets and toys to pay off debt and buy a home",
           "text": "I resold tickets and toys to pay off my debts and to help buy a house\n\nIt started off as kind of an accident. I had bought four hundred dollars worth of tickets to an event that I ended up not being able to attend. I also was not in a situation where I could eat the tickets ......so I decided to sell them. I had never sold tickets before , and at the time the only options I heard of was craigslist and stubhub. I listed my tickets as the cheapest option on stubhub and to my surprise , made $1200 ",
           "url": "https://reddit.com/r/confession/comments/1rek5t3/i_scalped_tickets_and_toys_to_pay_off_debt_and/",
-          "score": 89,
-          "numComments": 79,
+          "score": 86,
+          "numComments": 81,
           "created": 1772041478,
           "author": "OwnGlove4922"
         }
@@ -528,46 +528,10 @@
           "title": "Exclusive Access Ticket Window Match Results",
           "text": "For those that have access to this ticket market portal, please take a second to list the matches that still had tickets available as well as the categories available for those matches.  If you want to go so far as also noting the price of each category available that would be welcome as well.  The last minute ticket window in April will likely have a similar availability to it so it would be nice to know what the future could hold.  I'll do my best to update the body of the post as information ",
           "url": "https://reddit.com/r/WorldCup2026Tickets/comments/1rei3w4/exclusive_access_ticket_window_match_results/",
-          "score": 41,
-          "numComments": 235,
+          "score": 43,
+          "numComments": 238,
           "created": 1772037219,
           "author": "BrandonBearski"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "500 in queue and",
-      "displayName": "Tame Impala",
-      "rawTitle": "#500 In Queue and Tickets were SOLD OUT",
-      "category": "other",
-      "eventName": "Tame Impala",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Tame%20Impala",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Tame%20Impala",
-      "totalScore": 29,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 2,
-        "obscurityBonus": 10,
-        "engagementBonus": 8
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "TameImpala",
-          "title": "#500 In Queue and Tickets were SOLD OUT",
-          "text": "how the hell does this happen? for more info I was buying tickets for toronto and the arena can fit around 17000 people???",
-          "url": "https://reddit.com/r/TameImpala/comments/1regewz/500_in_queue_and_tickets_were_sold_out/",
-          "score": 25,
-          "numComments": 32,
-          "created": 1772033605,
-          "author": "ExoPJ"
         }
       ],
       "sources": [
@@ -578,7 +542,7 @@
       "eventKey": "london irish fans ",
       "displayName": "rugbyunion",
       "rawTitle": "London Irish fans - Who do you follow now?",
-      "category": "sports",
+      "category": "minor-league",
       "eventName": "rugbyunion",
       "eventType": "team",
       "venueName": null,
@@ -600,10 +564,46 @@
           "title": "London Irish fans - Who do you follow now?",
           "text": "I went to my first rugby match in 2001 when London Irish came to my primary school and we got discounted tickets. It was a 48-12 win over Northampton Saints and I was hooked ever since.\n\nI had season tickets, went to away games, followed them in the Championship as well but since they went under I stopped watching rugby altogether. \n\nI’ve been off work for the past few weeks following the birth of my daughter and I’ve found myself getting back into it with the Six Nations and the Super Rugby kee",
           "url": "https://reddit.com/r/rugbyunion/comments/1rei102/london_irish_fans_who_do_you_follow_now/",
-          "score": 18,
+          "score": 19,
           "numComments": 19,
           "created": 1772037047,
           "author": "NTR-12"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "ticketmasters face value exchange",
+      "displayName": "Tame Impala",
+      "rawTitle": "Ticketmaster’s Face Value Exchange",
+      "category": "sports",
+      "eventName": "Tame Impala",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Tame%20Impala",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Tame%20Impala",
+      "totalScore": 28,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 5
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "TameImpala",
+          "title": "Ticketmaster’s Face Value Exchange",
+          "text": "Me personally… I don’t like it. Yes I understand it makes tickets cheaper but there’s no point of that if you can’t even get a ticket because it’s always sold out. I’d rather pay $200 and be there than the tickets be $100 and I can’t get them. Let me know what yall think about it.",
+          "url": "https://reddit.com/r/TameImpala/comments/1reqxup/ticketmasters_face_value_exchange/",
+          "score": 8,
+          "numComments": 21,
+          "created": 1772055926,
+          "author": "Kooky-Soup4663"
         }
       ],
       "sources": [
@@ -640,42 +640,6 @@
           "numComments": 2,
           "created": 1772051269,
           "author": "DiskPsychological576"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "ticketmasters face value exchange",
-      "displayName": "Tame Impala",
-      "rawTitle": "Ticketmaster’s Face Value Exchange",
-      "category": "sports",
-      "eventName": "Tame Impala",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Tame%20Impala",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Tame%20Impala",
-      "totalScore": 27,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 4,
-        "obscurityBonus": 10,
-        "engagementBonus": 4
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "TameImpala",
-          "title": "Ticketmaster’s Face Value Exchange",
-          "text": "Me personally… I don’t like it. Yes I understand it makes tickets cheaper but there’s no point of that if you can’t even get a ticket because it’s always sold out. I’d rather pay $200 and be there than the tickets be $100 and I can’t get them. Let me know what yall think about it.",
-          "url": "https://reddit.com/r/TameImpala/comments/1reqxup/ticketmasters_face_value_exchange/",
-          "score": 7,
-          "numComments": 20,
-          "created": 1772055926,
-          "author": "Kooky-Soup4663"
         }
       ],
       "sources": [
@@ -755,6 +719,42 @@
       ]
     },
     {
+      "eventKey": "missed finalissima 2026 tickets",
+      "displayName": "Finalissima 2026",
+      "rawTitle": "Missed Finalissima 2026 tickets due to Verification Code issue — any other chances?",
+      "category": "other",
+      "eventName": "Finalissima 2026",
+      "eventType": "show",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Finalissima%202026+broadway+tickets",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Finalissima%202026",
+      "totalScore": 26,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 5
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "qatar",
+          "title": "Missed Finalissima 2026 tickets due to Verification Code issue — any other chances?",
+          "text": "I tried really hard to get tickets for Finalissima 2026, but I didn’t receive the Verification Code during LogIn. By the time I could try again, it was showing as sold out.\n\nIs there any other chance to get tickets now? Will there be another release, resale, or any official way to buy them?\n\n",
+          "url": "https://reddit.com/r/qatar/comments/1rer68y/missed_finalissima_2026_tickets_due_to/",
+          "score": 3,
+          "numComments": 24,
+          "created": 1772056442,
+          "author": "birazdhl"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
       "eventKey": "exclusive ticket window not",
       "displayName": "World Cup2026",
       "rawTitle": "Exclusive Ticket Window Not Original Pricing",
@@ -780,7 +780,7 @@
           "title": "Exclusive Ticket Window Not Original Pricing",
           "text": "Was looking to get tickets for USA group games in Los Angeles. Only USA vs Paraguay was available. Maybe it's the team and venue but CAT 3 tickets were going for about $1200 and quickly sold out. Other tickets are $1900+. I think the original prices were much lower, around $300-$500. With FIFAs official price going higher now this might end up driving resale prices higher too.",
           "url": "https://reddit.com/r/WorldCup2026Tickets/comments/1rep1b6/exclusive_ticket_window_not_original_pricing/",
-          "score": 3,
+          "score": 4,
           "numComments": 15,
           "created": 1772051706,
           "author": "allusermanesaretaken"
@@ -816,46 +816,10 @@
           "title": "Was anyone able to buy Hanshin Tigers tickets when they went on sale yesterday?",
           "text": "I didn't try to buy this year, but I just checked their website and am seating no tickets available for any regular season game this year. Am I correct that every game is now sold out (14 hours after they went on sale to the general public)?\n\nHow was the buying experience for those who attempted it? Did anyone get tickets?  Did the site shutdown, did you have to wait hours in a queue? Did you get tickets you wanted or were there only scattered single bad seats available once you got access?\n\nPeo",
           "url": "https://reddit.com/r/NPBtickets/comments/1reiz8a/was_anyone_able_to_buy_hanshin_tigers_tickets/",
-          "score": 6,
+          "score": 7,
           "numComments": 12,
           "created": 1772039065,
           "author": "WoodyForestt"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "missed finalissima 2026 tickets",
-      "displayName": "Finalissima 2026",
-      "rawTitle": "Missed Finalissima 2026 tickets due to Verification Code issue — any other chances?",
-      "category": "other",
-      "eventName": "Finalissima 2026",
-      "eventType": "show",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Finalissima%202026+broadway+tickets",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Finalissima%202026",
-      "totalScore": 25,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 2,
-        "obscurityBonus": 10,
-        "engagementBonus": 4
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "qatar",
-          "title": "Missed Finalissima 2026 tickets due to Verification Code issue — any other chances?",
-          "text": "I tried really hard to get tickets for Finalissima 2026, but I didn’t receive the Verification Code during LogIn. By the time I could try again, it was showing as sold out.\n\nIs there any other chance to get tickets now? Will there be another release, resale, or any official way to buy them?\n\n",
-          "url": "https://reddit.com/r/qatar/comments/1rer68y/missed_finalissima_2026_tickets_due_to/",
-          "score": 4,
-          "numComments": 21,
-          "created": 1772056442,
-          "author": "birazdhl"
         }
       ],
       "sources": [
@@ -899,35 +863,35 @@
       ]
     },
     {
-      "eventKey": "this weekend at the",
-      "displayName": "IRSC @ The River",
-      "rawTitle": "This Weekend at The River - A Funny Thing Happened On The Way To The Forum",
+      "eventKey": "unpopular",
+      "displayName": "Backstreet Boys",
+      "rawTitle": "Until They're \"Unpopular\" Again",
       "category": "sports",
-      "eventName": "IRSC",
-      "eventType": "comedian",
-      "venueName": "The River",
-      "artistUrl": "https://www.google.com/search?q=IRSC+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=IRSC",
+      "eventName": "Backstreet Boys",
+      "eventType": "show",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Backstreet%20Boys+broadway+tickets",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Backstreet%20Boys",
       "totalScore": 25,
       "breakdown": {
         "volume": 5,
         "velocity": 4,
         "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 1
+        "obscurityBonus": 10,
+        "engagementBonus": 6
       },
       "mentionCount": 1,
       "mentions": [
         {
           "source": "reddit",
-          "subreddit": "IRSC",
-          "title": "This Weekend at The River - A Funny Thing Happened On The Way To The Forum",
-          "text": "A Comedy Tonight!\n\nCome see this hilarious musical romp at The River's McAlpin Fine Arts Center in Fort Pierce this weekend\n\n*A Funny Thing Happened on the Way to the Forum*\n\nThurs, Feb 26, 7 pm\n\nFri, Feb 27, 7 pm\n\nSat, Feb 28, 2 pm\n\nSun, Mar 1, 2 pm\n\n \n\nTickets: 772-462-4750 or [boxoffice@irsc.edu](mailto:boxoffice@irsc.edu) or [https://irsc.edu/community/performing-arts/](https://irsc.edu/performing-arts)\n\n \n\nPhoto Credit: Luisa Garrett, Indian River State College",
-          "url": "https://reddit.com/r/IRSC/comments/1refo6y/this_weekend_at_the_river_a_funny_thing_happened/",
-          "score": 10,
-          "numComments": 0,
-          "created": 1772031957,
-          "author": "faderjockey"
+          "subreddit": "BackstreetBoys",
+          "title": "Until They're \"Unpopular\" Again",
+          "text": "I share in the frustration of everyone trying to get tickets/feeling frustrated about not getting tickets/feeling rage about spending $1K+ for tickets but still doing it because you wanna see the Boys/feeling annoyed that you can't go to the show again if you had an easier time getting tickets for one of the earlier legs/etc. Ticketmaster and the artists who use their platform by choice or force make way too much money on dynamic pricing, \"official platinum\" seats, verified resale, and other asp",
+          "url": "https://reddit.com/r/BackstreetBoys/comments/1relcuv/until_theyre_unpopular_again/",
+          "score": 38,
+          "numComments": 11,
+          "created": 1772043900,
+          "author": "Aheadofmanyhats"
         }
       ],
       "sources": [
@@ -935,35 +899,71 @@
       ]
     },
     {
-      "eventKey": "message to future students",
-      "displayName": "IITBhilai_",
-      "rawTitle": "Message to future students: WHY YOU SHOULD NOT JOIN IIT BHILAI, and take this thread seriously",
+      "eventKey": "why we have trouble",
+      "displayName": "buy your ticket enjoy the",
+      "rawTitle": "Why we have trouble competing with the “blue bloods.”",
       "category": "sports",
-      "eventName": "IITBhilai_",
-      "eventType": "event",
+      "eventName": "buy your ticket enjoy the",
+      "eventType": "team",
       "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=IITBhilai_",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=IITBhilai_",
+      "artistUrl": "https://www.google.com/search?q=buy%20your%20ticket%20enjoy%20the+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=buy%20your%20ticket%20enjoy%20the",
       "totalScore": 25,
       "breakdown": {
         "volume": 5,
         "velocity": 4,
         "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 1
+        "obscurityBonus": 10,
+        "engagementBonus": 6
       },
       "mentionCount": 1,
       "mentions": [
         {
           "source": "reddit",
-          "subreddit": "IITBhilai_",
-          "title": "Message to future students: WHY YOU SHOULD NOT JOIN IIT BHILAI, and take this thread seriously",
-          "text": "Preface: Bhilai is in Chhattisgarh, and it has very extreme weather conditions. Very very hot in summer, very very cold in winter. Only one mall nearby.  \n  \n1) Shit bureaucracy, no help from Academics in case of emergencies, unnecessary protocols that won't even let you enjoy holidays. They expect you to leave on a certain date and come back on a certain date as if you can teleport and NO, THEY WON'T BOOK YOUR TICKETS OR COMPENSATE. And not to mention the no holidays beyond 9 days rule. How doe",
-          "url": "https://reddit.com/r/IITBhilai_/comments/1reepcm/message_to_future_students_why_you_should_not/",
+          "subreddit": "fsusports",
+          "title": "Why we have trouble competing with the “blue bloods.”",
+          "text": "I know everybody wants to be a top 10 team or better every year. But you wanna know why the big schools can do what they want,  and we can’t fire coach when most feel it’s needed? Or to recruit a player? It’s because we have a whole bunch of people that are fans that aren’t committed to the school. If you’re not a Booster, buy your ticket enjoy the game and just cheer for the school, but don’t complain about things that administration doesn’t do when you’re not willing to participate. For measly",
+          "url": "https://reddit.com/r/fsusports/comments/1rerwsa/why_we_have_trouble_competing_with_the_blue_bloods/",
           "score": 4,
-          "numComments": 3,
-          "created": 1772029761,
-          "author": "BrilliantPhrase9092"
+          "numComments": 28,
+          "created": 1772058091,
+          "author": "Educational_Walk1791"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "why doesnt the city",
+      "displayName": "providence",
+      "rawTitle": "Why doesn’t the city ticket businesses that don’t shovel?",
+      "category": "sports",
+      "eventName": "providence",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=providence",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=providence",
+      "totalScore": 25,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 6
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "providence",
+          "title": "Why doesn’t the city ticket businesses that don’t shovel?",
+          "text": "Property owners are required to clear the sidewalks in front of their homes or businesses. Why doesn’t the city of Providence ticket businesses they don’t do this? I’m not talking about little mom and pop businesses. I’m talking about, for example, stop &amp; shop in the North End,which never clears its huge stretch of sidewalk on Branch Avenue and W. River St. customer is walking in from the neighborhood or taking the bus have to walk in the street to get to the store to shop, endangering every",
+          "url": "https://reddit.com/r/providence/comments/1reqsym/why_doesnt_the_city_ticket_businesses_that_dont/",
+          "score": 39,
+          "numComments": 13,
+          "created": 1772055619,
+          "author": "checkmate508"
         }
       ],
       "sources": [
