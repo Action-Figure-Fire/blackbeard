@@ -23,6 +23,22 @@ const SCARCITY_KEYWORDS = [
 const EVENT_CATEGORIES = {
   comedy: ['comedy show', 'stand-up', 'standup', 'comedian', 'comedy tour', 'comedy special', 'open mic'],
   concerts: ['concert', 'tour', 'live show', 'music festival', 'gig', 'album tour', 'world tour', 'arena show'],
+  'college-sports': [
+    'college wrestling', 'ncaa wrestling', 'big ten wrestling', 'penn state wrestling',
+    'oklahoma state wrestling', 'iowa wrestling', 'college gymnastics', 'ncaa gymnastics',
+    'lsu gymnastics', 'college volleyball', 'nebraska volleyball', 'ncaaw',
+    'women\'s basketball', 'women\'s final four', 'college softball', 'wcws',
+    'women\'s college world series', 'college hockey', 'frozen four', 'beanpot',
+    'college lacrosse', 'ncaa swimming', 'ncaa championship', 'college baseball',
+    'college world series', 'regionals', 'super regional', 'sec tournament',
+    'big ten tournament', 'acc tournament', 'big 12 tournament'
+  ],
+  'minor-league': [
+    'minor league', 'milb', 'triple-a', 'double-a', 'single-a', 'aaa baseball',
+    'ironpigs', 'durham bulls', 'sugar land', 'savannah bananas', 'banana ball',
+    'jumbo shrimp', 'space cowboys', 'saints', 'sounds', 'aviators',
+    'bobblehead night', 'fireworks night', 'theme night', 'giveaway night'
+  ],
   sports: [
     'game tickets', 'match tickets', 'bout', 'fight night',
     'championship', 'finals tickets', 'playoff', 'derby',
