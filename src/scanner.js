@@ -224,6 +224,131 @@ function scoreEvent(mentions) {
   };
 }
 
+// --- Event Name Extraction ---
+// Try to pull out the actual artist/team/show name from a mention
+function extractCleanEventInfo(mentions) {
+  const texts = mentions.map(m => `${m.title} ${m.text}`).join(' ');
+  const lower = texts.toLowerCase();
+
+  let eventName = null;
+  let eventType = null; // 'artist', 'team', 'show', 'event'
+  let venueName = null;
+
+  // Try to extract from subreddit (often the artist/team name)
+  const subs = [...new Set(mentions.map(m => m.subreddit))];
+  const genericSubs = ['tickets', 'concerts', 'livemusic', 'comedy', 'Concerts',
+    'EventTickets', 'StubHub', 'mma', 'boxing', 'esports', 'confession',
+    'BostonSocialClub', 'boston', 'washdc', 'orangecounty', 'burlington',
+    'CUA', 'SocialParis', 'ChennaiBuyAndSell', 'concerts_india', 'Broadway'];
+  const specificSub = subs.find(s => !genericSubs.includes(s) && s.length > 2);
+
+  // Known artist/band/team subreddits — subreddit IS the event name
+  const artistSubs = [
+    'TameImpala', 'JesseWelles', 'D4DJ', 'MySingingMonsters',
+  ];
+  const teamSubs = [
+    'NPBtickets', 'WorldCup2026Tickets', 'wnba', 'nwsl',
+  ];
+
+  // If subreddit is a known artist/team, use it directly
+  for (const s of subs) {
+    if (artistSubs.includes(s)) {
+      eventName = s.replace(/([a-z])([A-Z])/g, '$1 $2');
+      eventType = 'artist';
+      break;
+    }
+    if (teamSubs.includes(s)) {
+      eventName = s.replace(/([a-z])([A-Z])/g, '$1 $2').replace('Tickets', '').replace('tickets', '').trim();
+      eventType = 'team';
+      break;
+    }
+  }
+
+  if (!eventName) {
+    // Pattern: "tickets to/for X" — the X is the event
+    const patterns = [
+      /tickets?\s+(?:to|for)\s+(?:the\s+)?([A-Z][A-Za-z0-9\s&\-'\.]{2,40}?)(?:\s*[-–—]|\s*concert|\s*show|\s*game|\s*match|\s*tour|\s*at\s|\s*[,.])/i,
+      /(?:looking for|need|want|wtb).*?(?:tickets?\s+(?:to|for)\s+)?(?:the\s+)?([A-Z][A-Za-z0-9\s&\-'\.]{2,40}?)(?:\s+concert|\s+show|\s+game|\s+tour|\s+tickets)/i,
+      /([A-Z][A-Za-z0-9\s&\-'\.]{2,40}?)\s+(?:tickets?|tix)\s+(?:sold|are|were)/i,
+      /([A-Z][A-Za-z0-9\s&\-'\.]{2,40}?)\s+sold\s*out/i,
+    ];
+
+    for (const pat of patterns) {
+      const match = texts.match(pat);
+      if (match && match[1]) {
+        const candidate = match[1].trim().replace(/\s+/g, ' ');
+        // Filter out garbage: must look like a proper name (not a sentence)
+        const wordCount = candidate.split(' ').length;
+        if (wordCount <= 6 && wordCount >= 1 && candidate.length >= 3 && !/^(I|My|The|Its|This|That|And|But|So|For|In|On|At|It|A)\s/i.test(candidate)) {
+          eventName = candidate;
+          break;
+        }
+      }
+    }
+  }
+
+  // Fall back to subreddit name ONLY if it looks like an artist/team name (not a city/generic sub)
+  const citySubs = ['boston', 'BostonSocialClub', 'washdc', 'orangecounty', 'burlington',
+    'CUA', 'SocialParis', 'ChennaiBuyAndSell', 'concerts_india', 'confession',
+    'pcmasterrace', 'watercooling', 'Eve', 'indianbikes', 'thesidehustle',
+    'SideHustleGold', 'OnlineIncomeHustle', 'AIDevelopmentSolution', 'AIAppInnovation',
+    'TwoXIndia', 'AskIndianWomen', 'riftboundtcg'];
+  if (!eventName && specificSub && !citySubs.includes(specificSub) && !genericSubs.includes(specificSub)) {
+    const cleaned = specificSub.replace(/([a-z])([A-Z])/g, '$1 $2');
+    if (cleaned.length >= 3 && cleaned.length <= 30) {
+      eventName = cleaned;
+    }
+  }
+
+  // Try to extract venue
+  const venuePatterns = [
+    /(?:at|@)\s+(?:the\s+)?([A-Z][A-Za-z0-9\s&\-'\.]{3,30}?)(?:\s*[-–—,\.]|\s+on\s|\s+in\s|$)/,
+    /(?:House of Blues|Red Rocks|The Fillmore|Madison Square Garden|MSG|Ryman|Greek Theatre|Hollywood Bowl|Radio City|Carnegie Hall|Lincoln Center|Beacon Theatre|Apollo Theater|Bowery Ballroom|9:30 Club|The Anthem|Gorge Amphitheatre)/i
+  ];
+  for (const vp of venuePatterns) {
+    const venueMatch = texts.match(vp);
+    if (venueMatch) { venueName = (venueMatch[1] || venueMatch[0]).trim(); break; }
+  }
+
+  // Determine event type
+  if (lower.match(/comedian|comedy|stand-?up|open mic/)) eventType = 'comedian';
+  else if (lower.match(/concert|tour|album|band|singer|music|festival|gig/)) eventType = 'artist';
+  else if (lower.match(/game|match|playoff|championship|derby|rivalry|team|league|vs\b/)) eventType = 'team';
+  else if (lower.match(/broadway|theater|theatre|musical|play|show/)) eventType = 'show';
+  else eventType = 'event';
+
+  return {
+    eventName: eventName || null,
+    eventType,
+    venueName,
+    subredditHint: specificSub || null
+  };
+}
+
+// Build Vivid Seats search URL
+function vividSeatsUrl(eventName) {
+  if (!eventName) return null;
+  const q = encodeURIComponent(eventName);
+  return `https://www.vividseats.com/search?searchTerm=${q}`;
+}
+
+// Build artist/team search URL (Google search as fallback, works for everything)
+function artistPageUrl(eventName, eventType) {
+  if (!eventName) return null;
+  const q = encodeURIComponent(eventName);
+  // Direct to likely pages based on type
+  if (eventType === 'artist' || eventType === 'comedian') {
+    return `https://www.google.com/search?q=${q}+official+site`;
+  }
+  if (eventType === 'team') {
+    return `https://www.google.com/search?q=${q}+official+site`;
+  }
+  if (eventType === 'show') {
+    return `https://www.google.com/search?q=${q}+broadway+tickets`;
+  }
+  return `https://www.google.com/search?q=${q}`;
+}
+
 // --- Relevance Filter ---
 const EVENT_SIGNALS = [
   'ticket', 'tickets', 'tix', 'sold out', 'sell out', 'sellout', 'sold-out',
@@ -239,14 +364,26 @@ const EVENT_SIGNALS = [
   'lacrosse', 'rugby', 'cricket', 'esports'
 ];
 
+const HARD_EVENT_SIGNALS = [
+  'ticket', 'tickets', 'tix', 'sold out', 'sell out', 'sellout', 'sold-out',
+  'presale', 'on sale', 'box office', 'stubhub', 'ticketmaster', 'seatgeek',
+  'vivid seats', 'face value', 'scalp', 'resale', 'waitlist',
+  'general admission', 'pit tickets', 'floor seats', 'standing room'
+];
+
 function isEventRelated(mention) {
   const text = `${mention.title} ${mention.text}`.toLowerCase();
-  let signals = 0;
+
+  // Must have at least one HARD signal (ticket-specific language)
+  const hasHardSignal = HARD_EVENT_SIGNALS.some(kw => text.includes(kw));
+  if (!hasHardSignal) return false;
+
+  // Plus at least one soft signal
+  let softSignals = 0;
   for (const kw of EVENT_SIGNALS) {
-    if (text.includes(kw)) signals++;
+    if (text.includes(kw)) softSignals++;
   }
-  // Need at least 2 event-related signals to qualify
-  return signals >= 2;
+  return softSignals >= 2;
 }
 
 // --- Event Extraction & Grouping ---
@@ -302,12 +439,24 @@ async function runScan() {
 
     const category = categorizeEvent(mentions.map(m => `${m.title} ${m.text}`).join(' '));
 
+    const info = extractCleanEventInfo(mentions);
+    const cleanName = info.eventName || mentions[0].title.substring(0, 100);
+    const displayTitle = info.eventName
+      ? `${info.eventName}${info.venueName ? ` @ ${info.venueName}` : ''}`
+      : mentions[0].title.substring(0, 100);
+
     scoredEvents.push({
       eventKey,
-      displayName: mentions[0].title.substring(0, 100),
+      displayName: displayTitle,
+      rawTitle: mentions[0].title.substring(0, 100),
       category,
+      eventName: info.eventName,
+      eventType: info.eventType,
+      venueName: info.venueName,
+      artistUrl: artistPageUrl(info.eventName, info.eventType),
+      vividSeatsUrl: vividSeatsUrl(info.eventName),
       ...scoring,
-      mentions: mentions.slice(0, 5), // top 5 links
+      mentions: mentions.slice(0, 5),
       sources: [...new Set(mentions.map(m => m.source))]
     });
   }
@@ -346,12 +495,18 @@ function formatReport(report) {
     const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `**#${i + 1}**`;
 
     msg += `${medal} ${emoji} **${e.displayName}**\n`;
+    if (e.rawTitle && e.eventName && e.rawTitle !== e.displayName) {
+      msg += `*"${e.rawTitle.substring(0, 80)}"*\n`;
+    }
     msg += `Score: **${e.totalScore}/100** · ${e.mentionCount} mentions · ${e.category}\n`;
-    msg += `Breakdown: Vol ${e.breakdown.volume} | Vel ${e.breakdown.velocity} | Scarcity ${e.breakdown.scarcity} | Obscurity ${e.breakdown.obscurityBonus} | Buzz ${e.breakdown.engagementBonus}\n`;
 
-    // Links
-    for (const m of e.mentions.slice(0, 3)) {
-      msg += `→ <${m.url}>\n`;
+    // Artist/team + Vivid Seats links
+    if (e.artistUrl) msg += `🔍 [Official Page](${e.artistUrl})\n`;
+    if (e.vividSeatsUrl) msg += `🎟️ [Vivid Seats Resale](${e.vividSeatsUrl})\n`;
+
+    // Source links
+    for (const m of e.mentions.slice(0, 2)) {
+      msg += `💬 <${m.url}>\n`;
     }
     msg += '\n';
   }
