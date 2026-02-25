@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#0a0a0f">
+  <title>Blackbeard 🏴‍☠️</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏴‍☠️</text></svg>">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+    :root {
+      --gold: #c9a227;
+      --gold-light: #ffd700;
+      --gold-dim: rgba(201, 162, 39, 0.15);
+      --bg: #0a0a0f;
+      --bg-card: #111118;
+      --bg-card-hover: #16161f;
+      --bg-elevated: #1a1a24;
+      --text: #e8e8ed;
+      --text-dim: #6b6b7b;
+      --text-muted: #44445a;
+      --border: #1e1e2a;
+      --red: #ff4757;
+      --green: #2ed573;
+      --blue: #5c9eed;
+      --purple: #a855f7;
+      --orange: #ff9f43;
+      --pink: #ff6b81;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    
+    body {
+      font-family: 'Inter', -apple-system, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      min-height: 100dvh;
+      overflow-x: hidden;
+    }
+
+    /* --- Top Nav --- */
+    .topbar {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 10, 15, 0.85);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 16px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .topbar-brand {
+      display: flex; align-items: center; gap: 8px;
+      font-weight: 800; font-size: 1.1rem; letter-spacing: -0.02em;
+    }
+    .topbar-brand span { color: var(--gold); }
+    .topbar-actions { display: flex; gap: 8px; }
+    .icon-btn {
+      background: var(--bg-elevated); border: 1px solid var(--border);
+      color: var(--text-dim); border-radius: 10px;
+      width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 1rem; transition: all 0.2s;
+    }
+    .icon-btn:active { transform: scale(0.92); background: var(--gold-dim); color: var(--gold); }
+    .icon-btn.scanning { animation: pulse 1s infinite; color: var(--gold); }
+
+    /* --- Hero Stats --- */
+    .hero {
+      padding: 20px 16px 16px;
+      background: linear-gradient(180deg, rgba(201,162,39,0.06) 0%, transparent 100%);
+    }
+    .hero-date { font-size: 0.75rem; color: var(--text-dim); font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; }
+    .hero-title { font-size: 1.6rem; font-weight: 800; letter-spacing: -0.03em; margin: 4px 0 16px; }
+    .hero-title em { font-style: normal; color: var(--gold); }
+
+    .stats-row {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+    }
+    .stat-card {
+      background: var(--bg-card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 12px; text-align: center;
+    }
+    .stat-card .val {
+      font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .stat-card .label { font-size: 0.65rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px; }
+
+    /* --- Filters --- */
+    .filters {
+      display: flex; gap: 6px; padding: 12px 16px; overflow-x: auto;
+      -webkit-overflow-scrolling: touch; scrollbar-width: none;
+    }
+    .filters::-webkit-scrollbar { display: none; }
+    .chip {
+      flex-shrink: 0; padding: 6px 14px; border-radius: 20px;
+      font-size: 0.8rem; font-weight: 600; cursor: pointer;
+      background: var(--bg-card); border: 1px solid var(--border);
+      color: var(--text-dim); transition: all 0.2s; white-space: nowrap;
+    }
+    .chip.active {
+      background: var(--gold-dim); border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    /* --- Event Cards --- */
+    .feed { padding: 0 12px 100px; }
+
+    .event {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      margin-bottom: 10px;
+      transition: all 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+    .event::before {
+      content: ''; position: absolute; top: 0; left: 0;
+      width: 3px; height: 100%; border-radius: 3px 0 0 3px;
+    }
+    .event.tier-gold::before { background: var(--gold); }
+    .event.tier-silver::before { background: #888; }
+    .event.tier-bronze::before { background: #8b5e3c; }
+    .event.tier-normal::before { background: var(--border); }
+
+    .event-top {
+      display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px;
+    }
+    .event-rank {
+      font-size: 1.4rem; line-height: 1; flex-shrink: 0; width: 32px; text-align: center;
+    }
+    .event-info { flex: 1; min-width: 0; }
+    .event-name {
+      font-size: 0.95rem; font-weight: 700; line-height: 1.3;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .event-cat {
+      display: inline-flex; align-items: center; gap: 3px;
+      font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em;
+      padding: 2px 8px; border-radius: 6px; margin-top: 4px;
+    }
+    .cat-comedy { background: rgba(255,193,7,0.12); color: #ffc107; }
+    .cat-concerts { background: rgba(168,85,247,0.12); color: #c084fc; }
+    .cat-sports { background: rgba(46,213,115,0.12); color: #2ed573; }
+    .cat-other { background: rgba(100,100,130,0.12); color: #8888aa; }
+    .cat-theater { background: rgba(255,107,129,0.12); color: #ff6b81; }
+
+    .event-score-badge {
+      flex-shrink: 0; text-align: center;
+      background: var(--bg-elevated); border-radius: 10px; padding: 6px 10px;
+      min-width: 48px;
+    }
+    .event-score-badge .num { font-size: 1.2rem; font-weight: 800; color: var(--gold); }
+    .event-score-badge .of { font-size: 0.55rem; color: var(--text-muted); }
+
+    /* Score breakdown bar */
+    .score-breakdown {
+      display: flex; height: 4px; border-radius: 2px; overflow: hidden;
+      background: var(--bg); margin-bottom: 8px; gap: 1px;
+    }
+    .sb-vol { background: var(--gold); }
+    .sb-vel { background: var(--orange); }
+    .sb-scar { background: var(--red); }
+    .sb-obs { background: var(--purple); }
+    .sb-buzz { background: var(--blue); }
+
+    .event-meta {
+      display: flex; gap: 12px; font-size: 0.75rem; color: var(--text-dim);
+      flex-wrap: wrap; margin-bottom: 6px;
+    }
+    .event-meta span { display: flex; align-items: center; gap: 3px; }
+
+    .event-links { display: flex; flex-direction: column; gap: 3px; }
+    .event-links a {
+      color: var(--blue); text-decoration: none; font-size: 0.78rem;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      padding: 3px 0; display: flex; align-items: center; gap: 4px;
+    }
+    .event-links a::before { content: '→'; color: var(--text-muted); font-size: 0.7rem; }
+
+    /* --- Score Legend (collapsible) --- */
+    .legend {
+      margin: 8px 12px; padding: 12px; background: var(--bg-card);
+      border: 1px solid var(--border); border-radius: 12px;
+    }
+    .legend-toggle {
+      display: flex; align-items: center; justify-content: space-between;
+      cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--text-dim);
+    }
+    .legend-body { display: none; margin-top: 10px; }
+    .legend.open .legend-body { display: block; }
+    .legend-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-size: 0.75rem; }
+    .legend-dot { width: 10px; height: 10px; border-radius: 3px; flex-shrink: 0; }
+
+    /* --- Empty / Loading --- */
+    .state-msg {
+      text-align: center; padding: 60px 20px; color: var(--text-dim);
+    }
+    .state-msg .icon { font-size: 3rem; margin-bottom: 12px; }
+    .state-msg .title { font-size: 1.1rem; font-weight: 700; margin-bottom: 4px; color: var(--text); }
+    .state-msg .desc { font-size: 0.85rem; }
+
+    /* --- Animations --- */
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    @keyframes slideUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .event { animation: slideUp 0.3s ease forwards; }
+    .event:nth-child(1) { animation-delay: 0s; }
+    .event:nth-child(2) { animation-delay: 0.03s; }
+    .event:nth-child(3) { animation-delay: 0.06s; }
+    .event:nth-child(4) { animation-delay: 0.09s; }
+    .event:nth-child(5) { animation-delay: 0.12s; }
+
+    /* --- Sort dropdown --- */
+    .sort-bar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 8px 16px; font-size: 0.75rem; color: var(--text-dim);
+    }
+    .sort-bar select {
+      background: var(--bg-card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 4px 8px; font-size: 0.75rem;
+      font-family: inherit;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="topbar-brand">🏴‍☠️ <span>BLACKBEARD</span></div>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="scanBtn" onclick="triggerScan()" title="Run Scan">⚔️</button>
+      <button class="icon-btn" onclick="loadReport()" title="Refresh">🔄</button>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-date" id="reportDate">Loading...</div>
+    <div class="hero-title">Treasure <em>Map</em></div>
+    <div class="stats-row">
+      <div class="stat-card"><div class="val" id="sEvents">—</div><div class="label">Events</div></div>
+      <div class="stat-card"><div class="val" id="sMentions">—</div><div class="label">Mentions</div></div>
+      <div class="stat-card"><div class="val" id="sTop">—</div><div class="label">Top Score</div></div>
+    </div>
+  </div>
+
+  <div class="filters" id="filters">
+    <div class="chip active" data-cat="all" onclick="filter('all',this)">All</div>
+    <div class="chip" data-cat="concerts" onclick="filter('concerts',this)">🎵 Concerts</div>
+    <div class="chip" data-cat="sports" onclick="filter('sports',this)">🏆 Sports</div>
+    <div class="chip" data-cat="comedy" onclick="filter('comedy',this)">🎤 Comedy</div>
+    <div class="chip" data-cat="other" onclick="filter('other',this)">🎟️ Other</div>
+  </div>
+
+  <div class="legend" id="legend">
+    <div class="legend-toggle" onclick="this.parentElement.classList.toggle('open')">
+      Score Breakdown <span>▾</span>
+    </div>
+    <div class="legend-body">
+      <div class="legend-row"><div class="legend-dot" style="background:var(--gold)"></div> Volume — how many people are talking</div>
+      <div class="legend-row"><div class="legend-dot" style="background:var(--orange)"></div> Velocity — how fast buzz is growing</div>
+      <div class="legend-row"><div class="legend-dot" style="background:var(--red)"></div> Scarcity — "sold out" / "can't get tickets" language</div>
+      <div class="legend-row"><div class="legend-dot" style="background:var(--purple)"></div> Obscurity — bonus for niche/small venue events</div>
+      <div class="legend-row"><div class="legend-dot" style="background:var(--blue)"></div> Buzz — engagement (upvotes, comments)</div>
+    </div>
+  </div>
+
+  <div class="sort-bar">
+    <span id="resultCount">0 events</span>
+    <select id="sortBy" onchange="renderEvents()">
+      <option value="score">Sort: Score ↓</option>
+      <option value="mentions">Sort: Mentions ↓</option>
+      <option value="scarcity">Sort: Scarcity ↓</option>
+      <option value="obscurity">Sort: Obscurity ↓</option>
+    </select>
+  </div>
+
+  <div class="feed" id="feed">
+    <div class="state-msg">
+      <div class="icon">⏳</div>
+      <div class="title">Loading treasure map...</div>
+    </div>
+  </div>
+
+  <script>
+    // Try local API first, fall back to static data file
+    const LOCAL_API = window.location.port ? window.location.origin : null;
+    let report = null;
+    let currentFilter = 'all';
+
+    async function loadReport() {
+      try {
+        // Try fetching from local API
+        if (LOCAL_API) {
+          const res = await fetch(`${LOCAL_API}/api/reports/latest`);
+          if (res.ok) { report = await res.json(); renderAll(); return; }
+        }
+        // Fall back to static data
+        const res = await fetch('./data/latest.json');
+        if (res.ok) { report = await res.json(); renderAll(); return; }
+        showEmpty();
+      } catch (e) {
+        // Try static
+        try {
+          const res = await fetch('./data/latest.json');
+          if (res.ok) { report = await res.json(); renderAll(); return; }
+        } catch (_) {}
+        showEmpty();
+      }
+    }
+
+    async function triggerScan() {
+      const btn = document.getElementById('scanBtn');
+      btn.classList.add('scanning');
+      try {
+        if (LOCAL_API) {
+          const res = await fetch(`${LOCAL_API}/api/scan`, { method: 'POST' });
+          if (res.ok) { report = await res.json(); renderAll(); }
+        }
+      } catch (e) { console.error(e); }
+      btn.classList.remove('scanning');
+    }
+
+    function showEmpty() {
+      document.getElementById('feed').innerHTML = `
+        <div class="state-msg">
+          <div class="icon">🏴‍☠️</div>
+          <div class="title">No treasure yet</div>
+          <div class="desc">Run a scan or wait for the daily report</div>
+        </div>`;
+    }
+
+    function filter(cat, el) {
+      currentFilter = cat;
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      el.classList.add('active');
+      renderEvents();
+    }
+
+    function renderAll() {
+      if (!report) return;
+      const d = report.timestamp ? new Date(report.timestamp) : new Date();
+      document.getElementById('reportDate').textContent = d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+      document.getElementById('sEvents').textContent = report.eventsScored || 0;
+      document.getElementById('sMentions').textContent = report.totalMentionsFound || 0;
+      document.getElementById('sTop').textContent = report.events?.length ? report.events[0].totalScore : '—';
+      renderEvents();
+    }
+
+    function renderEvents() {
+      if (!report?.events) return;
+      let events = report.events;
+      if (currentFilter !== 'all') events = events.filter(e => e.category === currentFilter);
+
+      const sort = document.getElementById('sortBy').value;
+      if (sort === 'mentions') events.sort((a, b) => b.mentionCount - a.mentionCount);
+      else if (sort === 'scarcity') events.sort((a, b) => b.breakdown.scarcity - a.breakdown.scarcity);
+      else if (sort === 'obscurity') events.sort((a, b) => b.breakdown.obscurityBonus - a.breakdown.obscurityBonus);
+      else events.sort((a, b) => b.totalScore - a.totalScore);
+
+      document.getElementById('resultCount').textContent = `${events.length} event${events.length !== 1 ? 's' : ''}`;
+
+      if (!events.length) {
+        document.getElementById('feed').innerHTML = `
+          <div class="state-msg">
+            <div class="icon">🔍</div>
+            <div class="title">Nothing in this category</div>
+            <div class="desc">Try a different filter</div>
+          </div>`;
+        return;
+      }
+
+      const medals = ['🥇', '🥈', '🥉'];
+      const catEmoji = { comedy: '🎤', concerts: '🎵', sports: '🏆', other: '🎟️', theater: '🎭' };
+      const catClass = { comedy: 'cat-comedy', concerts: 'cat-concerts', sports: 'cat-sports', other: 'cat-other' };
+
+      document.getElementById('feed').innerHTML = events.slice(0, 25).map((e, i) => {
+        const rank = medals[i] || `<span style="font-size:0.85rem;font-weight:800;color:var(--text-dim)">${i + 1}</span>`;
+        const tier = i === 0 ? 'tier-gold' : i === 1 ? 'tier-silver' : i === 2 ? 'tier-bronze' : 'tier-normal';
+        const b = e.breakdown;
+        const total = Math.max(b.volume + b.velocity + b.scarcity + b.obscurityBonus + b.engagementBonus, 1);
+
+        const links = (e.mentions || []).slice(0, 3).map(m => {
+          const domain = m.source === 'reddit' ? 'reddit' : m.source;
+          const short = m.url.replace(/https?:\/\/(www\.)?/, '').substring(0, 60);
+          return `<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(short)}</a>`;
+        }).join('');
+
+        return `
+          <div class="event ${tier}">
+            <div class="event-top">
+              <div class="event-rank">${rank}</div>
+              <div class="event-info">
+                <div class="event-name">${esc(e.displayName)}</div>
+                <span class="event-cat ${catClass[e.category] || 'cat-other'}">${catEmoji[e.category] || '🎟️'} ${e.category}</span>
+              </div>
+              <div class="event-score-badge">
+                <div class="num">${e.totalScore}</div>
+                <div class="of">/100</div>
+              </div>
+            </div>
+            <div class="score-breakdown">
+              <div class="sb-vol" style="flex:${b.volume}"></div>
+              <div class="sb-vel" style="flex:${b.velocity}"></div>
+              <div class="sb-scar" style="flex:${b.scarcity}"></div>
+              <div class="sb-obs" style="flex:${b.obscurityBonus}"></div>
+              <div class="sb-buzz" style="flex:${b.engagementBonus}"></div>
+            </div>
+            <div class="event-meta">
+              <span>💬 ${e.mentionCount} mention${e.mentionCount !== 1 ? 's' : ''}</span>
+              <span>📡 ${(e.sources || []).join(', ')}</span>
+            </div>
+            <div class="event-links">${links}</div>
+          </div>`;
+      }).join('');
+    }
+
+    function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+    loadReport();
+  </script>
+</body>
+</html>

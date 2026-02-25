@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackbeard 🏴‍☠️ — Treasure Map</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: #0a0a0f;
+      color: #e0e0e0;
+      min-height: 100vh;
+    }
+    .header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      padding: 2rem;
+      border-bottom: 2px solid #c9a227;
+      text-align: center;
+    }
+    .header h1 { font-size: 2.5rem; color: #c9a227; }
+    .header p { color: #888; margin-top: 0.5rem; }
+    .stats {
+      display: flex; gap: 2rem; justify-content: center;
+      margin-top: 1.5rem; flex-wrap: wrap;
+    }
+    .stat {
+      background: rgba(201, 162, 39, 0.1);
+      border: 1px solid #c9a227;
+      border-radius: 8px; padding: 1rem 2rem; text-align: center;
+    }
+    .stat-value { font-size: 2rem; font-weight: bold; color: #c9a227; }
+    .stat-label { font-size: 0.8rem; color: #888; text-transform: uppercase; }
+    .controls {
+      display: flex; gap: 1rem; justify-content: center;
+      margin-top: 1.5rem; flex-wrap: wrap;
+    }
+    .btn {
+      background: #c9a227; color: #0a0a0f; border: none;
+      padding: 0.6rem 1.5rem; border-radius: 6px; cursor: pointer;
+      font-weight: bold; font-size: 0.9rem; transition: all 0.2s;
+    }
+    .btn:hover { background: #dbb534; transform: translateY(-1px); }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-secondary { background: transparent; color: #c9a227; border: 1px solid #c9a227; }
+    .filter-bar {
+      display: flex; gap: 0.5rem; justify-content: center;
+      padding: 1rem 2rem; flex-wrap: wrap;
+    }
+    .filter-btn {
+      background: rgba(255,255,255,0.05); color: #888; border: 1px solid #333;
+      padding: 0.4rem 1rem; border-radius: 20px; cursor: pointer; font-size: 0.85rem;
+    }
+    .filter-btn.active { background: rgba(201, 162, 39, 0.2); color: #c9a227; border-color: #c9a227; }
+    .events { max-width: 900px; margin: 1rem auto; padding: 0 1rem; }
+    .event-card {
+      background: #12121a; border: 1px solid #222;
+      border-radius: 10px; padding: 1.5rem; margin-bottom: 1rem;
+      transition: border-color 0.2s;
+    }
+    .event-card:hover { border-color: #c9a227; }
+    .event-rank { font-size: 1.5rem; margin-right: 0.75rem; }
+    .event-header { display: flex; align-items: center; margin-bottom: 0.75rem; }
+    .event-title { font-size: 1.1rem; font-weight: bold; flex: 1; }
+    .event-category {
+      font-size: 0.75rem; padding: 0.2rem 0.6rem;
+      border-radius: 12px; text-transform: uppercase; font-weight: bold;
+    }
+    .cat-comedy { background: rgba(255, 193, 7, 0.15); color: #ffc107; }
+    .cat-concerts { background: rgba(156, 39, 176, 0.15); color: #ce93d8; }
+    .cat-sports { background: rgba(76, 175, 80, 0.15); color: #81c784; }
+    .cat-other { background: rgba(100, 100, 100, 0.15); color: #999; }
+    .score-bar {
+      height: 6px; background: #1a1a2e; border-radius: 3px;
+      margin: 0.5rem 0; overflow: hidden;
+    }
+    .score-fill {
+      height: 100%; border-radius: 3px;
+      transition: width 0.5s ease;
+    }
+    .score-high { background: linear-gradient(90deg, #c9a227, #ffd700); }
+    .score-mid { background: linear-gradient(90deg, #c9a227, #e0a800); }
+    .score-low { background: linear-gradient(90deg, #666, #888); }
+    .event-meta { display: flex; gap: 1.5rem; color: #888; font-size: 0.85rem; margin: 0.5rem 0; flex-wrap: wrap; }
+    .breakdown { font-size: 0.8rem; color: #555; margin: 0.25rem 0; }
+    .links { margin-top: 0.75rem; }
+    .links a {
+      display: block; color: #5c9eed; text-decoration: none;
+      font-size: 0.85rem; padding: 0.15rem 0;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .links a:hover { color: #82b5f7; }
+    .loading { text-align: center; padding: 3rem; color: #555; }
+    .empty { text-align: center; padding: 3rem; color: #555; font-size: 1.2rem; }
+    @media (max-width: 600px) {
+      .header h1 { font-size: 1.8rem; }
+      .stats { gap: 1rem; }
+      .stat { padding: 0.75rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🏴‍☠️ BLACKBEARD</h1>
+    <p>Hunting sold-out treasure across the internet</p>
+    <div class="stats">
+      <div class="stat"><div class="stat-value" id="totalEvents">—</div><div class="stat-label">Events Found</div></div>
+      <div class="stat"><div class="stat-value" id="totalMentions">—</div><div class="stat-label">Mentions</div></div>
+      <div class="stat"><div class="stat-value" id="topScore">—</div><div class="stat-label">Top Score</div></div>
+      <div class="stat"><div class="stat-value" id="lastScan">—</div><div class="stat-label">Last Scan</div></div>
+    </div>
+    <div class="controls">
+      <button class="btn" id="scanBtn" onclick="triggerScan()">⚔️ Run Scan Now</button>
+      <button class="btn btn-secondary" onclick="loadReport()">🔄 Refresh</button>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+    <button class="filter-btn active" data-cat="all" onclick="filterCat('all', this)">All</button>
+    <button class="filter-btn" data-cat="comedy" onclick="filterCat('comedy', this)">🎤 Comedy</button>
+    <button class="filter-btn" data-cat="concerts" onclick="filterCat('concerts', this)">🎵 Concerts</button>
+    <button class="filter-btn" data-cat="sports" onclick="filterCat('sports', this)">🏆 Sports</button>
+    <button class="filter-btn" data-cat="other" onclick="filterCat('other', this)">🎟️ Other</button>
+  </div>
+
+  <div class="events" id="eventsList">
+    <div class="loading">Loading treasure map...</div>
+  </div>
+
+  <script>
+    const API = window.location.origin;
+    let currentReport = null;
+    let currentFilter = 'all';
+
+    async function loadReport() {
+      try {
+        const res = await fetch(`${API}/api/reports/latest`);
+        currentReport = await res.json();
+        renderReport();
+      } catch (e) {
+        document.getElementById('eventsList').innerHTML = '<div class="empty">No reports yet. Run a scan! ⚔️</div>';
+      }
+    }
+
+    async function triggerScan() {
+      const btn = document.getElementById('scanBtn');
+      btn.disabled = true; btn.textContent = '⏳ Scanning...';
+      try {
+        const res = await fetch(`${API}/api/scan`, { method: 'POST' });
+        currentReport = await res.json();
+        renderReport();
+      } catch (e) {
+        alert('Scan failed: ' + e.message);
+      }
+      btn.disabled = false; btn.textContent = '⚔️ Run Scan Now';
+    }
+
+    function filterCat(cat, el) {
+      currentFilter = cat;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      el.classList.add('active');
+      renderReport();
+    }
+
+    function renderReport() {
+      if (!currentReport || !currentReport.events) {
+        document.getElementById('eventsList').innerHTML = '<div class="empty">No treasure found yet 🏴‍☠️</div>';
+        return;
+      }
+
+      const r = currentReport;
+      document.getElementById('totalEvents').textContent = r.eventsScored || 0;
+      document.getElementById('totalMentions').textContent = r.totalMentionsFound || 0;
+      document.getElementById('topScore').textContent = r.events.length ? r.events[0].totalScore + '/100' : '—';
+      document.getElementById('lastScan').textContent = r.timestamp ? new Date(r.timestamp).toLocaleTimeString() : '—';
+
+      let events = r.events;
+      if (currentFilter !== 'all') events = events.filter(e => e.category === currentFilter);
+
+      if (!events.length) {
+        document.getElementById('eventsList').innerHTML = '<div class="empty">No events in this category</div>';
+        return;
+      }
+
+      const medals = ['🥇', '🥈', '🥉'];
+      const catEmoji = { comedy: '🎤', concerts: '🎵', sports: '🏆', other: '🎟️' };
+
+      document.getElementById('eventsList').innerHTML = events.map((e, i) => {
+        const rank = medals[i] || `#${i + 1}`;
+        const scoreClass = e.totalScore >= 60 ? 'score-high' : e.totalScore >= 30 ? 'score-mid' : 'score-low';
+        const links = (e.mentions || []).slice(0, 3).map(m =>
+          `<a href="${m.url}" target="_blank" rel="noopener">→ ${m.url}</a>`
+        ).join('');
+
+        return `
+          <div class="event-card">
+            <div class="event-header">
+              <span class="event-rank">${rank}</span>
+              <span class="event-title">${esc(e.displayName)}</span>
+              <span class="event-category cat-${e.category}">${catEmoji[e.category] || '🎟️'} ${e.category}</span>
+            </div>
+            <div class="score-bar"><div class="score-fill ${scoreClass}" style="width:${e.totalScore}%"></div></div>
+            <div class="event-meta">
+              <span>⚡ Score: <strong>${e.totalScore}/100</strong></span>
+              <span>💬 ${e.mentionCount} mentions</span>
+              <span>📡 ${(e.sources || []).join(', ')}</span>
+            </div>
+            <div class="breakdown">Vol ${e.breakdown.volume} · Vel ${e.breakdown.velocity} · Scarcity ${e.breakdown.scarcity} · Obscurity ${e.breakdown.obscurityBonus} · Buzz ${e.breakdown.engagementBonus}</div>
+            <div class="links">${links}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+    loadReport();
+  </script>
+</body>
+</html>

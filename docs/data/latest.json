@@ -1,0 +1,802 @@
+{
+  "timestamp": "2026-02-25T21:11:21.596Z",
+  "scanDurationMs": 26630,
+  "totalMentionsFound": 181,
+  "eventsScored": 85,
+  "events": [
+    {
+      "eventKey": "boston events worth doing",
+      "displayName": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest wi",
+      "category": "other",
+      "totalScore": 37,
+      "breakdown": {
+        "volume": 10,
+        "velocity": 8,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 5
+      },
+      "mentionCount": 2,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "BostonSocialClub",
+          "title": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest with a free after party &amp; a late-night art museum",
+          "text": "Hey All! Kinga here, back with this week's list. Three big cultural moments land on the same weekend: the Ramadan Night Market takes over City Hall Plaza for two nights (Friday &amp; Saturday, 9pm–1am), Chinatown shuts down Sunday for the annual Chinese New Year Lion Dance Parade, and Black History Month wraps up with events all weekend honoring a century of Black excellence in Boston. On top of that, it's last call for a bunch of winter stuff: Frostival Lodge, the Greenway Ferris Wheel, Snowpor",
+          "url": "https://reddit.com/r/BostonSocialClub/comments/1rejmsy/boston_events_worth_doing_this_weekend_a_ramadan/",
+          "score": 18,
+          "numComments": 2,
+          "created": 1772040407,
+          "author": "Top-Finger-4339"
+        },
+        {
+          "source": "reddit",
+          "subreddit": "boston",
+          "title": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest with a free after party &amp; a late-night art museum",
+          "text": "Hey All! Kinga here, back with this week's list. Three big cultural moments land on the same weekend: the Ramadan Night Market takes over City Hall Plaza for two nights (Friday &amp; Saturday, 9pm–1am), Chinatown shuts down Sunday for the annual Chinese New Year Lion Dance Parade, and Black History Month wraps up with events all weekend honoring a century of Black excellence in Boston. On top of that, it's last call for a bunch of winter stuff: Frostival Lodge, the Greenway Ferris Wheel, Snowpor",
+          "url": "https://reddit.com/r/boston/comments/1reg46r/boston_events_worth_doing_this_weekend_a_ramadan/",
+          "score": 27,
+          "numComments": 5,
+          "created": 1772032933,
+          "author": "Top-Finger-4339"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "wtb looking for 2",
+      "displayName": "📌 [WTB] Looking for 2 Tickets to Hip Hop Adhi Concert – Huge Fan, Please Help 🙏",
+      "category": "concerts",
+      "totalScore": 33,
+      "breakdown": {
+        "volume": 10,
+        "velocity": 8,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 1
+      },
+      "mentionCount": 2,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "concerts_india",
+          "title": "📌 [WTB] Looking for 2 Tickets to Hip Hop Adhi Concert – Huge Fan, Please Help 🙏",
+          "text": "Hi everyone,\n\nI'm looking to buy tickets for the upcoming *Hip Hop Adhi concert*\n\nI've been a long-time fan, and his music honestly helped me through a very difficult phase in my life. After months of personal struggles, this concert feels like something really want to experience not just for entertainment, but for healing and motivation.\n\nUnfortunately, I couldn't book tickets in time and they're sold out now😔\n\nIf anyone has extra tickets, or plans have changed and you're willing to sel, I'd b",
+          "url": "https://reddit.com/r/concerts_india/comments/1renp6r/wtb_looking_for_2_tickets_to_hip_hop_adhi_concert/",
+          "score": 2,
+          "numComments": 1,
+          "created": 1772048807,
+          "author": "Hp_boy_who_lived"
+        },
+        {
+          "source": "reddit",
+          "subreddit": "ChennaiBuyAndSell",
+          "title": "📌 [WTB] Looking for 2 Tickets to Hip Hop Adhi Concert – Huge Fan, Please Help 🙏",
+          "text": "Hi everyone,\n\nI’m looking to buy tickets for the upcoming Hip Hop Adhi concert.\n\nI’ve been a long-time fan, and his music honestly helped me through a very difficult phase in my life. After months of personal struggles, this concert feels like something I really want to experience — not just for entertainment, but for healing.\n\nUnfortunately, I couldn’t book tickets in time and they’re sold out now 😞\nIf anyone has extra tickets, or plans have changed and you’re willing to sell, I’d be really gr",
+          "url": "https://reddit.com/r/ChennaiBuyAndSell/comments/1rekyee/wtb_looking_for_2_tickets_to_hip_hop_adhi_concert/",
+          "score": 1,
+          "numComments": 3,
+          "created": 1772043090,
+          "author": "Hp_boy_who_lived"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "lottery wins resold on",
+      "displayName": "Lottery wins resold on theatr",
+      "category": "other",
+      "totalScore": 32,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 6,
+        "obscurityBonus": 10,
+        "engagementBonus": 7
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "Broadway",
+          "title": "Lottery wins resold on theatr",
+          "text": "I know I’m probably preaching to the choir here. I won the lottery for Every Brilliant Thing today and re-sold a worse ticket on Theatr, no problem there. Then I just happened to noticed a seat on theatr that was right next to my lottery winning seat up for sale on theatr for $242. It was, what a surprise, missing the price paid for it. I reported it, be careful out there theatre lovers. People suck.",
+          "url": "https://reddit.com/r/Broadway/comments/1relex4/lottery_wins_resold_on_theatr/",
+          "score": 41,
+          "numComments": 18,
+          "created": 1772044023,
+          "author": "CT_nutmeg"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "heated rivalry night tickets",
+      "displayName": "Heated Rivalry Night tickets",
+      "category": "other",
+      "totalScore": 32,
+      "breakdown": {
+        "volume": 10,
+        "velocity": 8,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 2,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "burlington",
+          "title": "Heated Rivalry Night tickets",
+          "text": "Anyone want to buy 3 tickets to the Heated Rivalry Night (Club 90s) at Higher Ground on March 7th? My friend's plans changed and can no longer go, so we're trying to switch to the 20th but need to sell our tickets on the 8th (and the 7th is currently sold out). Cost is $34/ticket (exactly what we paid). They're digital tickets that just need to be emailed to the new person. \n\nEdited because I had the wrong date!",
+          "url": "https://reddit.com/r/burlington/comments/1regouw/heated_rivalry_night_tickets/",
+          "score": 0,
+          "numComments": 2,
+          "created": 1772034221,
+          "author": "dakota9514"
+        },
+        {
+          "source": "reddit",
+          "subreddit": "burlington",
+          "title": "Heated Rivalry Night tickets",
+          "text": "Anyone want to buy 3 tickets to the Heated Rivalry Night (Club 90s) at Higher Ground on March 8th? My friend's plans changed and can no longer go, so we're trying to switch to the 20th but need to sell our tickets on the 8th (and the 8th is currently sold out). Cost is $34/ticket (exactly what we paid). They're digital tickets that just need to be emailed to the new person. ",
+          "url": "https://reddit.com/r/burlington/comments/1regnsn/heated_rivalry_night_tickets/",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772034153,
+          "author": "dakota9514"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "using 2 tix for",
+      "displayName": "Using 2 tix for myself",
+      "category": "other",
+      "totalScore": 31,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 10
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "Concerts",
+          "title": "Using 2 tix for myself",
+          "text": "I just baught tix to Rufus du sol which I’m sure will sell out. I’m 6’4 240 and love to dance (move side to side nun crazy) but couldn’t snag pit so just bought 2 for my self to a have a little space. Am i an ass for this ?  ",
+          "url": "https://reddit.com/r/Concerts/comments/1rdusbq/using_2_tix_for_myself/",
+          "score": 34,
+          "numComments": 64,
+          "created": 1771971685,
+          "author": "Turbulent-Ad9097"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "i scalped tickets and",
+      "displayName": "I scalped tickets and toys to pay off debt and buy a home",
+      "category": "other",
+      "totalScore": 29,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 10
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "confession",
+          "title": "I scalped tickets and toys to pay off debt and buy a home",
+          "text": "I resold tickets and toys to pay off my debts and to help buy a house\n\nIt started off as kind of an accident. I had bought four hundred dollars worth of tickets to an event that I ended up not being able to attend. I also was not in a situation where I could eat the tickets ......so I decided to sell them. I had never sold tickets before , and at the time the only options I heard of was craigslist and stubhub. I listed my tickets as the cheapest option on stubhub and to my surprise , made $1200 ",
+          "url": "https://reddit.com/r/confession/comments/1rek5t3/i_scalped_tickets_and_toys_to_pay_off_debt_and/",
+          "score": 72,
+          "numComments": 66,
+          "created": 1772041478,
+          "author": "OwnGlove4922"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "exclusive access ticket window",
+      "displayName": "Exclusive Access Ticket Window Match Results",
+      "category": "other",
+      "totalScore": 29,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 10
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "WorldCup2026Tickets",
+          "title": "Exclusive Access Ticket Window Match Results",
+          "text": "For those that have access to this ticket market portal, please take a second to list the matches that still had tickets available as well as the categories available for those matches.  If you want to go so far as also noting the price of each category available that would be welcome as well.  The last minute ticket window in April will likely have a similar availability to it so it would be nice to know what the future could hold.  I'll do my best to update the body of the post as information ",
+          "url": "https://reddit.com/r/WorldCup2026Tickets/comments/1rei3w4/exclusive_access_ticket_window_match_results/",
+          "score": 36,
+          "numComments": 190,
+          "created": 1772037219,
+          "author": "BrandonBearski"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "tickets sold out",
+      "displayName": "Tickets sold out???",
+      "category": "other",
+      "totalScore": 28,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 8,
+        "obscurityBonus": 10,
+        "engagementBonus": 1
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "TameImpala",
+          "title": "Tickets sold out???",
+          "text": "Hi guys, so I live in Utah, I planned on going to the Denver or Pheonix show, waited in queue for presale for hours, and it said tickets are sold out, ive been checking back but it keeps just saying sold out check back soon, are pre-sale tickets just sold out or am I absolutely done for.",
+          "url": "https://reddit.com/r/TameImpala/comments/1repc2x/tickets_sold_out/",
+          "score": 0,
+          "numComments": 7,
+          "created": 1772052383,
+          "author": "Key_Contribution_917"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "house of blues ",
+      "displayName": "House of Blues - Tickets for Sold out shows?",
+      "category": "sports",
+      "totalScore": 28,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 15,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "orangecounty",
+          "title": "House of Blues - Tickets for Sold out shows?",
+          "text": "Looking to attend a sold out show at House of Blues in Anaheim. The resell tickets are ridiculously expensive and wanted to try my luck in getting tickets at the box office- whether it be day of or days before if possible. Anyone have experience with that?",
+          "url": "https://reddit.com/r/orangecounty/comments/1reou8d/house_of_blues_tickets_for_sold_out_shows/",
+          "score": 0,
+          "numComments": 1,
+          "created": 1772051269,
+          "author": "DiskPsychological576"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "500 in queue and",
+      "displayName": "#500 In Queue and Tickets were SOLD OUT",
+      "category": "other",
+      "totalScore": 28,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 7
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "TameImpala",
+          "title": "#500 In Queue and Tickets were SOLD OUT",
+          "text": "how the hell does this happen? for more info I was buying tickets for toronto and the arena can fit around 17000 people???",
+          "url": "https://reddit.com/r/TameImpala/comments/1regewz/500_in_queue_and_tickets_were_sold_out/",
+          "score": 24,
+          "numComments": 27,
+          "created": 1772033605,
+          "author": "ExoPJ"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "st patricks bar fest",
+      "displayName": "ST. PATRICK'S BAR FEST 3/14",
+      "category": "other",
+      "totalScore": 28,
+      "breakdown": {
+        "volume": 10,
+        "velocity": 8,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 2,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "CUA",
+          "title": "ST. PATRICK'S BAR FEST 3/14",
+          "text": "The annual St. Patrick's Day Bar Fest ,hosted by Mad City Fest, is back THIS MARCH 14TH! Purchase your [tickets here ](https://posh.vip/e/navy-yard-st-patricks-day-bar-fest-1?t=brigitte-kaba)to get access to 10+ of Navy Yard's best bars! \n\nAll you need to do is choose one bar to check in at and grab your exclusive event wristband!\n\nWe will have the best DJs, drink specials, and a pre/post game party at Mission running all day. \n\nIt's from 12PM-8PM, don't miss out! Wear green and let's party DC!",
+          "url": "https://reddit.com/r/CUA/comments/1repiio/st_patricks_bar_fest_314/",
+          "score": 1,
+          "numComments": 0,
+          "created": 1772052778,
+          "author": "Commercial_Formal451"
+        },
+        {
+          "source": "reddit",
+          "subreddit": "washdc",
+          "title": "ST. PATRICK'S BAR FEST 3/14",
+          "text": "The annual St. Patrick's Day Bar Fest ,hosted by Mad City Fest, is back THIS MARCH 14TH! Purchase your [tickets here ](https://posh.vip/e/navy-yard-st-patricks-day-bar-fest-1?t=brigitte-kaba)to get access to 10+ of Navy Yard's best bars! \n\nAll you need to do is choose one bar to check in at and grab your exclusive event wristband!\n\nWe will have the best DJs, drink specials, and a pre/post game party at Mission running all day. \n\nIt's from 12PM-8PM, don't miss out! Wear green and let's party DC!",
+          "url": "https://reddit.com/r/washdc/comments/1repeiv/st_patricks_bar_fest_314/",
+          "score": 2,
+          "numComments": 0,
+          "created": 1772052533,
+          "author": "Commercial_Formal451"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "looking for a ticket",
+      "displayName": "Looking for a ticket for The semi Marathon on The 8th",
+      "category": "sports",
+      "totalScore": 26,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 15,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "SocialParis",
+          "title": "Looking for a ticket for The semi Marathon on The 8th",
+          "text": "Hell everybody , my wife is looking for a ticket for the semi marathon organized by Hoka on the 8th of march  . The thing is sadly sold out and I thought maybe someone here a has a ticket to spare , paid of course. We live in the 9th so we can do a handover in person, or go the registration together , whatever works. Thanks in advance :)",
+          "url": "https://reddit.com/r/SocialParis/comments/1relf2t/looking_for_a_ticket_for_the_semi_marathon_on_the/",
+          "score": 1,
+          "numComments": 0,
+          "created": 1772044030,
+          "author": "Novoxbo"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "was anyone able to",
+      "displayName": "Was anyone able to buy Hanshin Tigers tickets when they went on sale yesterday?",
+      "category": "other",
+      "totalScore": 25,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 2
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "NPBtickets",
+          "title": "Was anyone able to buy Hanshin Tigers tickets when they went on sale yesterday?",
+          "text": "I didn't try to buy this year, but I just checked their website and am seating no tickets available for any regular season game this year. Am I correct that every game is now sold out (14 hours after they went on sale to the general public)?\n\nHow was the buying experience for those who attempted it? Did anyone get tickets?  Did the site shutdown, did you have to wait hours in a queue? Did you get tickets you wanted or were there only scattered single bad seats available once you got access?\n\nPeo",
+          "url": "https://reddit.com/r/NPBtickets/comments/1reiz8a/was_anyone_able_to_buy_hanshin_tigers_tickets/",
+          "score": 7,
+          "numComments": 8,
+          "created": 1772039065,
+          "author": "WoodyForestt"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "abyssmare 2nd concert alive",
+      "displayName": "Abyssmare 2nd Concert ALIVE - Attending via the foreigner tickets",
+      "category": "concerts",
+      "totalScore": 25,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 6
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "D4DJ",
+          "title": "Abyssmare 2nd Concert ALIVE - Attending via the foreigner tickets",
+          "text": "*Credit to my wife for the photos.  She probably uploaded them on twitter as well IDK.*\n\ntl;dr the live was incredible.  I'd say it's a once-in-a-lifetime experience but I really want to go to as many as I can before the project shuts down one day.  Absolutely go buy the live stream if you can.  Even if you don't like Abyssmare's music they gave a shout out to foreign fans during the day show's after-talk so you'll feel appreciated at least.\n\nSomeone else already made a post about going to the A",
+          "url": "https://reddit.com/r/D4DJ/comments/1re6tyw/abyssmare_2nd_concert_alive_attending_via_the/",
+          "score": 52,
+          "numComments": 6,
+          "created": 1772004876,
+          "author": "Wild_League4396"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "206 each for tickets",
+      "displayName": "$206 each for tickets? Actually feels exploitative to the point that Jesse should write a song about",
+      "category": "sports",
+      "totalScore": 25,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 4
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "JesseWelles",
+          "title": "$206 each for tickets? Actually feels exploitative to the point that Jesse should write a song about it.",
+          "text": "Imagine scalpers and they are especially targeting places like Portland where the locals would love to support Jesse and get some catharsis from a show like this. Oh well.\n\n*\"Tried to help folks, through a difficult time*\n\n*A ​couple of songs, for a couple of dime​​​​​s*\n\n*But the wolves come around, they can't hear me sing  ​*\n\n*But they​ always hear the sound of ​a big ol'​ cha-ching​*\n\n*Rip down the ticket sign, that said twenty cents*\n\n*Add a few zeros, fees for convenience*\n\n*Now were up to",
+          "url": "https://reddit.com/r/JesseWelles/comments/1re6tly/206_each_for_tickets_actually_feels_exploitative/",
+          "score": 15,
+          "numComments": 14,
+          "created": 1772004839,
+          "author": "TheBigPhilbowski"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "exclusive ticket window not",
+      "displayName": "Exclusive Ticket Window Not Original Pricing",
+      "category": "sports",
+      "totalScore": 24,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 1
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "WorldCup2026Tickets",
+          "title": "Exclusive Ticket Window Not Original Pricing",
+          "text": "Was looking to get tickets for USA group games in Los Angeles. Only USA vs Paraguay was available. Maybe it's the team and venue but CAT 3 tickets were going for about $1200 and quickly sold out. Other tickets are $1900+. I think the original prices were much lower, around $300-$500. With FIFAs official price going higher now this might end up driving resale prices higher too.",
+          "url": "https://reddit.com/r/WorldCup2026Tickets/comments/1rep1b6/exclusive_ticket_window_not_original_pricing/",
+          "score": 3,
+          "numComments": 8,
+          "created": 1772051706,
+          "author": "allusermanesaretaken"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "are general admissionoutfield district",
+      "displayName": "Are general admission/outfield district tickets sold out for the season?",
+      "category": "sports",
+      "totalScore": 24,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 1
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "Torontobluejays",
+          "title": "Are general admission/outfield district tickets sold out for the season?",
+          "text": "Edit: Resolved! Thank you very much everyone!\n\nOriginal post:\n\nI was hoping to purchase a few single-game tickets throughout the season specifically for the Outfield Distract/General Admission option. However, when I look at Ticketmaster for various games throughout the season, those tickets don't seem available for purchase.\n\nDoes anyone know if they’re already sold out, or if they get released at a later date?\n\nAny advice would be appreciated!",
+          "url": "https://reddit.com/r/Torontobluejays/comments/1rekhlv/are_general_admissionoutfield_district_tickets/",
+          "score": 0,
+          "numComments": 9,
+          "created": 1772042144,
+          "author": "rhim1619"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "need tickets for royal",
+      "displayName": "Need tickets for Royal Alcazar in Sevilla for Feb 26 or 27",
+      "category": "other",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "Seville",
+          "title": "Need tickets for Royal Alcazar in Sevilla for Feb 26 or 27",
+          "text": "Does anyone have Royal Alcazar tickets for Feb 26 or 27 that they are not able to use? We are going to Sevilla last minute and tickets are sold out.",
+          "url": "https://reddit.com/r/Seville/comments/1reoe7m/need_tickets_for_royal_alcazar_in_sevilla_for_feb/",
+          "score": 1,
+          "numComments": 1,
+          "created": 1772050297,
+          "author": "Own_Seaweed_7520"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "heartbroken",
+      "displayName": "Heartbroken",
+      "category": "other",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "redrising",
+          "title": "Heartbroken",
+          "text": "Local book store posted out of nowhere a sold out PB event! No announcement it was happening, just sold out.  lots of upset people, then they posted it was very limited event made possible by local educators… cool, cool cool but also why even post it if nobody public could go? Anyways, just butthurt and thought others may understand ",
+          "url": "https://reddit.com/r/redrising/comments/1remkfy/heartbroken/",
+          "score": 0,
+          "numComments": 2,
+          "created": 1772046406,
+          "author": "Practical_Aside_5963"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "stars on ice has",
+      "displayName": "Stars on Ice has added a show in Tempe, AZ and a second date in Allen, TX!",
+      "category": "other",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 2
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "IliaQuadg0dMalinin",
+          "title": "Stars on Ice has added a show in Tempe, AZ and a second date in Allen, TX!",
+          "text": "The Tempe date is May 27, and the second Allen date is May 30. The first show in Allen is sold out save for resale tickets.\n\nTickets here: https://www.starsonice.com/buy-tickets\n\n(I've also updated the [schedule](https://www.reddit.com/r/IliaQuadg0dMalinin/wiki/schedule) with the new dates!)",
+          "url": "https://reddit.com/r/IliaQuadg0dMalinin/comments/1rem8uc/stars_on_ice_has_added_a_show_in_tempe_az_and_a/",
+          "score": 21,
+          "numComments": 4,
+          "created": 1772045738,
+          "author": "sofastsomaybe"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "phantom of the opera",
+      "displayName": "Phantom of the Opera seat swap 2/5 matinee Suite K",
+      "category": "other",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "NewOrleansMarketplace",
+          "title": "Phantom of the Opera seat swap 2/5 matinee Suite K",
+          "text": "Was trying to upgrade my 2 Phantom tickets and thought I found great Thursday night seats in the mostly sold out run, but after I made the exchange, I realized it was the Thursday matinee (I didn't realize they did those!). Would love to swap for another showtime (any day but Friday or Sunday) for low balcony or orchestra. Hit me up if you're also wanting to switch days/times but unable due to the mostly sold outness of the show! ",
+          "url": "https://reddit.com/r/NewOrleansMarketplace/comments/1reku86/phantom_of_the_opera_seat_swap_25_matinee_suite_k/",
+          "score": 2,
+          "numComments": 0,
+          "created": 1772042856,
+          "author": "eboj-dm"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "tickets help",
+      "displayName": "Tickets Help",
+      "category": "concerts",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 2
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "REDBLACKS",
+          "title": "Tickets Help",
+          "text": "I am looking to buy tickets to any of the June home games but the box on the website is greyed out. Does this mean all tickets are sold out? I saw ticketmaster only sells season passes and I refuse to use StubHub after getting scammed on concert tickets before.\n\nAny advice or tickets people are selling?",
+          "url": "https://reddit.com/r/REDBLACKS/comments/1reiy6j/tickets_help/",
+          "score": 4,
+          "numComments": 8,
+          "created": 1772039004,
+          "author": "CivilEast752"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "anyone have a brookfest",
+      "displayName": "Anyone have a Brookfest Guest Ticket",
+      "category": "other",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 2
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "SBU",
+          "title": "Anyone have a Brookfest Guest Ticket",
+          "text": "Does anyone have an extra Brookfest bleacher Guest ticket? I was going to go with my friend but the tickets sold out and I even woke up early to get in the waiting room ahead of time. 😭 I would appreciate it a lot!! 🫶",
+          "url": "https://reddit.com/r/SBU/comments/1reep0m/anyone_have_a_brookfest_guest_ticket/",
+          "score": 8,
+          "numComments": 9,
+          "created": 1772029739,
+          "author": "Proud-Expression5633"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "anyone selling tickets to",
+      "displayName": "Anyone selling tickets to Violent Femmes tonight?",
+      "category": "concerts",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 2
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "sandiego",
+          "title": "Anyone selling tickets to Violent Femmes tonight?",
+          "text": "I usually wait to buy concert tickets last minute because I often get called into work last minute. Tonight and tomorrow night I am free though and I would absolutely love to see Violent Femmes in Del Mar but tickets are sold out on Ticketmaster for both days. Anyone have a ticket or two to sell for me and possibly my roommate too? Thanks!",
+          "url": "https://reddit.com/r/sandiego/comments/1reeouf/anyone_selling_tickets_to_violent_femmes_tonight/",
+          "score": 6,
+          "numComments": 7,
+          "created": 1772029727,
+          "author": "Glum_Objective447"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "review of the war",
+      "displayName": "Review of The War Within and why I have finally decided to quit the game",
+      "category": "other",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 4
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "wow",
+          "title": "Review of The War Within and why I have finally decided to quit the game",
+          "text": "Let me start off by saying that this was THE GAME for me. I've been playing for 15 years and I have loved and played every aspect of it. Raids, dungeons, battlegrounds, arenas, collecting, farming, questing, professions, pet battles, every class and spec... you name it - I’ve done it all.\n\nPlease keep in mind that this is strictly my opinion from the eyes of someone that likes to do everything in a game. This post isn't made to spark hate towards the game or anyone else. Its just my personal exp",
+          "url": "https://reddit.com/r/wow/comments/1rempv2/review_of_the_war_within_and_why_i_have_finally/",
+          "score": 0,
+          "numComments": 23,
+          "created": 1772046718,
+          "author": "Storcho36"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    }
+  ]
+}
