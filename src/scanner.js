@@ -37,7 +37,13 @@ const EVENT_CATEGORIES = {
     'minor league', 'milb', 'triple-a', 'double-a', 'single-a', 'aaa baseball',
     'ironpigs', 'durham bulls', 'sugar land', 'savannah bananas', 'banana ball',
     'jumbo shrimp', 'space cowboys', 'saints', 'sounds', 'aviators',
-    'bobblehead night', 'fireworks night', 'theme night', 'giveaway night'
+    'mud hens', 'railriders', 'clippers', 'red wings', 'tides', 'knights',
+    'wind surge', 'yard goats', 'trash pandas', 'biscuits', 'grasshoppers',
+    'river cats', 'chihuahuas', 'isotopes', 'aces', 'storm chasers',
+    'omaha', 'worcester', 'hartford', 'st. paul saints',
+    'bobblehead night', 'fireworks night', 'theme night', 'giveaway night',
+    'jersey night', 'star wars night', 'dog day', 'bark in the park',
+    'copa de la', 'marvel night', 'princess night'
   ],
   sports: [
     'game tickets', 'match tickets', 'bout', 'fight night',
@@ -102,14 +108,19 @@ async function scanReddit() {
     'cfb', 'wnba', 'nwsl', 'minorleaguebaseball', 'indycar', 'nascar',
     'rodeo', 'rollerderby', 'pickleball', 'discgolf',
     'StubHub', 'EventTickets',
-    // College sports (non-men's basketball)
+    // College sports (non-men's basketball, non-football)
     'NCAAW', 'collegehockey', 'collegebaseball', 'wrestling',
     'gymnastics', 'Rowing', 'trackandfield', 'swimming',
     'volleyball', 'lacrosse', 'fencing', 'waterpolo',
     'CollegeWrestling', 'collegesoftball',
-    // Specific college team subs with hot ticket demand
     'OKState', 'PennStateUniversity', 'LSUTigers', 'OU',
-    'Huskers', 'IowaHawkeyes', 'OhioStateFootball'
+    'Huskers', 'IowaHawkeyes', 'OhioStateFootball',
+    // Minor League Baseball
+    'minorleaguebaseball', 'milb', 'SavannahBananas',
+    'DurhamBulls', 'baseball',
+    'nashville', 'RailRiders', 'IronPigs',
+    // Premier Lacrosse League
+    'PLL', 'lacrosse'
   ];
 
   const queries = [
@@ -128,7 +139,20 @@ async function scanReddit() {
     'college lacrosse tickets',
     'college volleyball sold out',
     'swimming championship tickets',
-    'track and field championship tickets'
+    'track and field championship tickets',
+    // Minor league baseball
+    'minor league baseball sold out',
+    'milb sold out tickets',
+    'savannah bananas tickets',
+    'banana ball tickets',
+    'bobblehead night sold out',
+    'minor league sellout',
+    'ironpigs tickets',
+    'durham bulls sold out',
+    'triple-a baseball tickets',
+    'minor league fireworks night',
+    'minor league giveaway night',
+    'space cowboys tickets'
   ];
 
   const results = [];
@@ -155,15 +179,15 @@ async function scanReddit() {
           });
         }
       }
-      // Rate limit courtesy
-      await new Promise(r => setTimeout(r, 1500));
+      // Rate limit courtesy — Reddit throttles hard
+      await new Promise(r => setTimeout(r, 2500));
     } catch (e) {
       console.error(`Reddit search error for "${query}":`, e.message);
     }
   }
 
-  // Also check specific subreddits
-  for (const sub of subreddits.slice(0, 10)) {
+  // Also check specific subreddits (more of them now)
+  for (const sub of subreddits.slice(0, 15)) {
     try {
       const url = `https://www.reddit.com/r/${sub}/new.json?limit=25`;
       const res = await fetch(url);
@@ -188,7 +212,7 @@ async function scanReddit() {
           }
         }
       }
-      await new Promise(r => setTimeout(r, 1200));
+      await new Promise(r => setTimeout(r, 2500));
     } catch (e) {
       console.error(`Reddit sub /${sub} error:`, e.message);
     }
@@ -330,7 +354,11 @@ function extractCleanEventInfo(mentions) {
     'CUA', 'SocialParis', 'ChennaiBuyAndSell', 'concerts_india', 'confession',
     'pcmasterrace', 'watercooling', 'Eve', 'indianbikes', 'thesidehustle',
     'SideHustleGold', 'OnlineIncomeHustle', 'AIDevelopmentSolution', 'AIAppInnovation',
-    'TwoXIndia', 'AskIndianWomen', 'riftboundtcg'];
+    'TwoXIndia', 'AskIndianWomen', 'riftboundtcg', 'indianrailways', 'CasualIreland',
+    'MovieTheaterEmployees', 'SantiZapVideos', 'rugbyunion', 'FigureSkating',
+    'IliaQuadg0dMalinin', 'nextfuckinglevel', 'UNBGBBIIVCHIDCTIICBG',
+    'nashville', 'SeasonTickets', 'raiders', 'nba', 'buffalobills',
+    'CapitalOne', 'MLS'];
   if (!eventName && specificSub && !citySubs.includes(specificSub) && !genericSubs.includes(specificSub)) {
     const cleaned = specificSub.replace(/([a-z])([A-Z])/g, '$1 $2');
     if (cleaned.length >= 3 && cleaned.length <= 30) {
@@ -409,14 +437,32 @@ const HARD_EVENT_SIGNALS = [
   'general admission', 'pit tickets', 'floor seats', 'standing room'
 ];
 
+// Posts that are clearly not events
+const NOISE_KEYWORDS = [
+  'build', 'pc build', 'first build', 'gpu', 'cpu', 'motherboard',
+  'recipe', 'cooking', 'dating', 'date story', 'relationship',
+  'train', 'railway', 'railroad', 'transit', 'bus pass',
+  'movie theater', 'cinema', 'streaming', 'netflix',
+  'parking', 'apartment', 'rent', 'mortgage',
+  'credit card', 'bank account', 'loan',
+  'good date', 'bad date', 'first date'
+];
+
 function isEventRelated(mention) {
   const text = `${mention.title} ${mention.text}`.toLowerCase();
+
+  // Reject obvious noise
+  if (NOISE_KEYWORDS.some(kw => text.includes(kw))) {
+    // Unless it also has very strong event language
+    const strongEvent = ['sold out', 'sellout', 'sell out', 'sold-out', 'can\'t get tickets', 'tickets gone'];
+    if (!strongEvent.some(kw => text.includes(kw))) return false;
+  }
 
   // Must have at least one HARD signal (ticket-specific language)
   const hasHardSignal = HARD_EVENT_SIGNALS.some(kw => text.includes(kw));
   if (!hasHardSignal) return false;
 
-  // Plus at least one soft signal
+  // Plus at least 2 soft signals
   let softSignals = 0;
   for (const kw of EVENT_SIGNALS) {
     if (text.includes(kw)) softSignals++;
@@ -478,10 +524,21 @@ async function runScan() {
     const category = categorizeEvent(mentions.map(m => `${m.title} ${m.text}`).join(' '));
 
     const info = extractCleanEventInfo(mentions);
-    const cleanName = info.eventName || mentions[0].title.substring(0, 100);
-    const displayTitle = info.eventName
-      ? `${info.eventName}${info.venueName ? ` @ ${info.venueName}` : ''}`
-      : mentions[0].title.substring(0, 100);
+    
+    // If we couldn't extract a clean event name, use a cleaned-up title
+    let displayTitle;
+    if (info.eventName) {
+      displayTitle = `${info.eventName}${info.venueName ? ` @ ${info.venueName}` : ''}`;
+    } else {
+      // Clean up raw title: remove emoji, brackets, truncate at reasonable point
+      let cleaned = mentions[0].title
+        .replace(/[\u{1F300}-\u{1F9FF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]|📅|📌|🐐/gu, '')
+        .replace(/\[.*?\]/g, '')
+        .replace(/^\s*[-–—]\s*/, '')
+        .trim();
+      if (cleaned.length > 70) cleaned = cleaned.substring(0, 67) + '...';
+      displayTitle = cleaned;
+    }
 
     scoredEvents.push({
       eventKey,

@@ -1,113 +1,19 @@
 {
-  "timestamp": "2026-02-25T23:21:58.140Z",
-  "scanDurationMs": 53781,
-  "totalMentionsFound": 373,
-  "eventsScored": 108,
+  "timestamp": "2026-02-25T23:27:19.953Z",
+  "scanDurationMs": 3740,
+  "totalMentionsFound": 50,
+  "eventsScored": 40,
   "events": [
     {
-      "eventKey": "boston events worth doing",
-      "displayName": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest wi",
-      "rawTitle": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest wi",
+      "eventKey": "stars on ice has",
+      "displayName": "Stars on Ice has added a show in Tempe, AZ and a second date in All...",
+      "rawTitle": "Stars on Ice has added a show in Tempe, AZ and a second date in Allen, TX!",
       "category": "other",
       "eventName": null,
-      "eventType": "event",
+      "eventType": "show",
       "venueName": null,
       "artistUrl": null,
       "vividSeatsUrl": null,
-      "totalScore": 39,
-      "breakdown": {
-        "volume": 10,
-        "velocity": 8,
-        "scarcity": 4,
-        "obscurityBonus": 10,
-        "engagementBonus": 7
-      },
-      "mentionCount": 2,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "BostonSocialClub",
-          "title": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest with a free after party &amp; a late-night art museum",
-          "text": "Hey All! Kinga here, back with this week's list. Three big cultural moments land on the same weekend: the Ramadan Night Market takes over City Hall Plaza for two nights (Friday &amp; Saturday, 9pm–1am), Chinatown shuts down Sunday for the annual Chinese New Year Lion Dance Parade, and Black History Month wraps up with events all weekend honoring a century of Black excellence in Boston. On top of that, it's last call for a bunch of winter stuff: Frostival Lodge, the Greenway Ferris Wheel, Snowpor",
-          "url": "https://reddit.com/r/BostonSocialClub/comments/1rejmsy/boston_events_worth_doing_this_weekend_a_ramadan/",
-          "score": 24,
-          "numComments": 4,
-          "created": 1772040407,
-          "author": "Top-Finger-4339"
-        },
-        {
-          "source": "reddit",
-          "subreddit": "boston",
-          "title": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest with a free after party &amp; a late-night art museum",
-          "text": "Hey All! Kinga here, back with this week's list. Three big cultural moments land on the same weekend: the Ramadan Night Market takes over City Hall Plaza for two nights (Friday &amp; Saturday, 9pm–1am), Chinatown shuts down Sunday for the annual Chinese New Year Lion Dance Parade, and Black History Month wraps up with events all weekend honoring a century of Black excellence in Boston. On top of that, it's last call for a bunch of winter stuff: Frostival Lodge, the Greenway Ferris Wheel, Snowpor",
-          "url": "https://reddit.com/r/boston/comments/1reg46r/boston_events_worth_doing_this_weekend_a_ramadan/",
-          "score": 29,
-          "numComments": 5,
-          "created": 1772032933,
-          "author": "Top-Finger-4339"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "only la knight can",
-      "displayName": "WWE",
-      "rawTitle": "Only LA Knight can save wrestlemania.",
-      "category": "sports",
-      "eventName": "WWE",
-      "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=WWE+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=WWE",
-      "totalScore": 38,
-      "breakdown": {
-        "volume": 10,
-        "velocity": 8,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 10
-      },
-      "mentionCount": 2,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "WWE",
-          "title": "Only LA Knight can save wrestlemania.",
-          "text": "Only La Knight can save wrestlemania now. All of vision is out. La is still hot. He is in the chamber. Him winning and challenging for WHC with punk and roman will be something nobody expects. He has history with them. Finally he can pin Roman for the championship and take his revenge from before. Him winning chamber will itself increase the wrestlemania ticket sales. ",
-          "url": "https://reddit.com/r/WWE/comments/1re41e0/only_la_knight_can_save_wrestlemania/",
-          "score": 0,
-          "numComments": 7,
-          "created": 1771995753,
-          "author": "FeelingWrongdoer823"
-        },
-        {
-          "source": "reddit",
-          "subreddit": "SantiZapVideos",
-          "title": "Only LA Knight can save wrestlemania.",
-          "text": "Only La Knight can save wrestlemania now. All of vision is out. La is still hot. He is in the chamber. Him winning and challenging for WHC with punk and roman will be something nobody expects. He has history with them. Finally he can pin Roman for the championship and take his revenge from before. Him winning chamber will itself increase the wrestlemania ticket sales. ",
-          "url": "https://reddit.com/r/SantiZapVideos/comments/1re407q/only_la_knight_can_save_wrestlemania/",
-          "score": 75,
-          "numComments": 59,
-          "created": 1771995664,
-          "author": "FeelingWrongdoer823"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "stars on ice has",
-      "displayName": "Figure Skating",
-      "rawTitle": "Stars on Ice has added a show in Tempe, AZ and a second date in Allen, TX!",
-      "category": "other",
-      "eventName": "Figure Skating",
-      "eventType": "show",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Figure%20Skating+broadway+tickets",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Figure%20Skating",
       "totalScore": 36,
       "breakdown": {
         "volume": 10,
@@ -124,8 +30,8 @@
           "title": "Stars on Ice has added a show in Tempe, AZ and a second date in Allen, TX!",
           "text": "The Tempe date is May 27, and the second Allen date is May 30. The first show in Allen is completely sold out save for the resale tickets going for extortionate prices.\n\nTickets here: https://www.starsonice.com/buy-tickets",
           "url": "https://reddit.com/r/FigureSkating/comments/1reqe9o/stars_on_ice_has_added_a_show_in_tempe_az_and_a/",
-          "score": 3,
-          "numComments": 2,
+          "score": 4,
+          "numComments": 3,
           "created": 1772054710,
           "author": "sofastsomaybe"
         },
@@ -135,57 +41,10 @@
           "title": "Stars on Ice has added a show in Tempe, AZ and a second date in Allen, TX!",
           "text": "The Tempe date is May 27, and the second Allen date is May 30. The first show in Allen is sold out save for resale tickets.\n\nTickets here: https://www.starsonice.com/buy-tickets\n\n(I've also updated the [schedule](https://www.reddit.com/r/IliaQuadg0dMalinin/wiki/schedule) with the new dates!)",
           "url": "https://reddit.com/r/IliaQuadg0dMalinin/comments/1rem8uc/stars_on_ice_has_added_a_show_in_tempe_az_and_a/",
-          "score": 24,
+          "score": 23,
           "numComments": 5,
           "created": 1772045738,
           "author": "sofastsomaybe"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "looking for a ticket",
-      "displayName": "Figure Skating",
-      "rawTitle": "Looking for a ticket for The semi Marathon on The 8th",
-      "category": "sports",
-      "eventName": "Figure Skating",
-      "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Figure%20Skating+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Figure%20Skating",
-      "totalScore": 35,
-      "breakdown": {
-        "volume": 10,
-        "velocity": 8,
-        "scarcity": 2,
-        "obscurityBonus": 15,
-        "engagementBonus": 0
-      },
-      "mentionCount": 2,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "SocialParis",
-          "title": "Looking for a ticket for The semi Marathon on The 8th",
-          "text": "Hell everybody , my wife is looking for a ticket for the semi marathon organized by Hoka on the 8th of march  . The thing is sadly sold out and I thought maybe someone here a has a ticket to spare , paid of course. We live in the 9th so we can do a handover in person, or go the registration together , whatever works. Thanks in advance :)",
-          "url": "https://reddit.com/r/SocialParis/comments/1relf2t/looking_for_a_ticket_for_the_semi_marathon_on_the/",
-          "score": 1,
-          "numComments": 0,
-          "created": 1772044030,
-          "author": "Novoxbo"
-        },
-        {
-          "source": "reddit",
-          "subreddit": "FigureSkating",
-          "title": "Looking for a ticket World Championship",
-          "text": "I am looking for the ticket for the World Champion  in Prague ISU FSWC 2026 | Exhibice, ne 29. 3. 2026 14:30\n\nIf someone wants to sell, please contact me",
-          "url": "https://reddit.com/r/FigureSkating/comments/1relbks/looking_for_a_ticket_world_championship/",
-          "score": 0,
-          "numComments": 0,
-          "created": 1772043829,
-          "author": "Patient_Actuary8669"
         }
       ],
       "sources": [
@@ -218,82 +77,10 @@
           "title": "Lottery wins resold on theatr",
           "text": "I know I’m probably preaching to the choir here. I won the lottery for Every Brilliant Thing today and re-sold a worse ticket on Theatr, no problem there. Then I just happened to noticed a seat on theatr that was right next to my lottery winning seat up for sale on theatr for $242. It was, what a surprise, missing the price paid for it. I reported it, be careful out there theatre lovers. People suck.",
           "url": "https://reddit.com/r/Broadway/comments/1relex4/lottery_wins_resold_on_theatr/",
-          "score": 61,
-          "numComments": 21,
+          "score": 62,
+          "numComments": 22,
           "created": 1772044023,
           "author": "CT_nutmeg"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "why",
-      "displayName": "Movie Theater Employees",
-      "rawTitle": "Why?!",
-      "category": "sports",
-      "eventName": "Movie Theater Employees",
-      "eventType": "show",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Movie%20Theater%20Employees+broadway+tickets",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Movie%20Theater%20Employees",
-      "totalScore": 34,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 10
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "MovieTheaterEmployees",
-          "title": "Why?!",
-          "text": "Scream 7 this Friday. Only the 6-8 showing have sold any tickets. College town and it's midterms time, nobody coming in after 10p.",
-          "url": "https://reddit.com/r/MovieTheaterEmployees/comments/1rec6yr/why/",
-          "score": 58,
-          "numComments": 39,
-          "created": 1772023424,
-          "author": "OpportunityTop6376"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "thank you for your",
-      "displayName": "indianrailways",
-      "rawTitle": "Thank you for your service 🐐",
-      "category": "sports",
-      "eventName": "indianrailways",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=indianrailways",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=indianrailways",
-      "totalScore": 34,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 10
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "indianrailways",
-          "title": "Thank you for your service 🐐",
-          "text": "This helped me a lot during my college days...like every month those Unreserved tickets by this this were time saving.",
-          "url": "https://reddit.com/r/indianrailways/comments/1re0bfp/thank_you_for_your_service/",
-          "score": 156,
-          "numComments": 16,
-          "created": 1771985300,
-          "author": "DufferDumbo"
         }
       ],
       "sources": [
@@ -420,8 +207,8 @@
           "title": "Good date story",
           "text": "So last week I matched with a girl on tinder. Same age as me, 24. I was just putting the chat on her very casual. Asked what I was doing for the weekend and I said I was going to a dinner dance fundraiser and said “I’d have brought you only the tickets were sold out”. Pure flirting.\n\nShe says “don’t worry I have mine already”. I thought ah yeah she’s flirting back or whatever. Didn’t think she was actually going. She then tells me she’s best friends with a girl I know who’s going and then I thin",
           "url": "https://reddit.com/r/CasualIreland/comments/1resrro/good_date_story/",
-          "score": 105,
-          "numComments": 9,
+          "score": 129,
+          "numComments": 12,
           "created": 1772060043,
           "author": "eastlaoiscivilwar"
         }
@@ -457,7 +244,7 @@
           "text": "Hi guys, so I live in Utah, I planned on going to the Denver or Pheonix show, waited in queue for presale for hours, and it said tickets are sold out, ive been checking back but it keeps just saying sold out check back soon, are pre-sale tickets just sold out or am I absolutely done for.",
           "url": "https://reddit.com/r/TameImpala/comments/1repc2x/tickets_sold_out/",
           "score": 0,
-          "numComments": 11,
+          "numComments": 12,
           "created": 1772052383,
           "author": "Key_Contribution_917"
         }
@@ -492,7 +279,7 @@
           "title": "I scalped tickets and toys to pay off debt and buy a home",
           "text": "I resold tickets and toys to pay off my debts and to help buy a house\n\nIt started off as kind of an accident. I had bought four hundred dollars worth of tickets to an event that I ended up not being able to attend. I also was not in a situation where I could eat the tickets ......so I decided to sell them. I had never sold tickets before , and at the time the only options I heard of was craigslist and stubhub. I listed my tickets as the cheapest option on stubhub and to my surprise , made $1200 ",
           "url": "https://reddit.com/r/confession/comments/1rek5t3/i_scalped_tickets_and_toys_to_pay_off_debt_and/",
-          "score": 86,
+          "score": 90,
           "numComments": 81,
           "created": 1772041478,
           "author": "OwnGlove4922"
@@ -528,82 +315,10 @@
           "title": "Exclusive Access Ticket Window Match Results",
           "text": "For those that have access to this ticket market portal, please take a second to list the matches that still had tickets available as well as the categories available for those matches.  If you want to go so far as also noting the price of each category available that would be welcome as well.  The last minute ticket window in April will likely have a similar availability to it so it would be nice to know what the future could hold.  I'll do my best to update the body of the post as information ",
           "url": "https://reddit.com/r/WorldCup2026Tickets/comments/1rei3w4/exclusive_access_ticket_window_match_results/",
-          "score": 43,
+          "score": 41,
           "numComments": 238,
           "created": 1772037219,
           "author": "BrandonBearski"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "london irish fans ",
-      "displayName": "rugbyunion",
-      "rawTitle": "London Irish fans - Who do you follow now?",
-      "category": "minor-league",
-      "eventName": "rugbyunion",
-      "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=rugbyunion+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=rugbyunion",
-      "totalScore": 29,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 5
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "rugbyunion",
-          "title": "London Irish fans - Who do you follow now?",
-          "text": "I went to my first rugby match in 2001 when London Irish came to my primary school and we got discounted tickets. It was a 48-12 win over Northampton Saints and I was hooked ever since.\n\nI had season tickets, went to away games, followed them in the Championship as well but since they went under I stopped watching rugby altogether. \n\nI’ve been off work for the past few weeks following the birth of my daughter and I’ve found myself getting back into it with the Six Nations and the Super Rugby kee",
-          "url": "https://reddit.com/r/rugbyunion/comments/1rei102/london_irish_fans_who_do_you_follow_now/",
-          "score": 19,
-          "numComments": 19,
-          "created": 1772037047,
-          "author": "NTR-12"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "ticketmasters face value exchange",
-      "displayName": "Tame Impala",
-      "rawTitle": "Ticketmaster’s Face Value Exchange",
-      "category": "sports",
-      "eventName": "Tame Impala",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Tame%20Impala",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Tame%20Impala",
-      "totalScore": 28,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 4,
-        "obscurityBonus": 10,
-        "engagementBonus": 5
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "TameImpala",
-          "title": "Ticketmaster’s Face Value Exchange",
-          "text": "Me personally… I don’t like it. Yes I understand it makes tickets cheaper but there’s no point of that if you can’t even get a ticket because it’s always sold out. I’d rather pay $200 and be there than the tickets be $100 and I can’t get them. Let me know what yall think about it.",
-          "url": "https://reddit.com/r/TameImpala/comments/1reqxup/ticketmasters_face_value_exchange/",
-          "score": 8,
-          "numComments": 21,
-          "created": 1772055926,
-          "author": "Kooky-Soup4663"
         }
       ],
       "sources": [
@@ -647,71 +362,35 @@
       ]
     },
     {
-      "eventKey": "20 years old dui",
-      "displayName": "dui",
-      "rawTitle": "20 years old, DUI. i feel like screwed up my life so young…",
+      "eventKey": "ticketmasters face value exchange",
+      "displayName": "Tame Impala",
+      "rawTitle": "Ticketmaster’s Face Value Exchange",
       "category": "sports",
-      "eventName": "dui",
-      "eventType": "show",
+      "eventName": "Tame Impala",
+      "eventType": "event",
       "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=dui+broadway+tickets",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=dui",
+      "artistUrl": "https://www.google.com/search?q=Tame%20Impala",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Tame%20Impala",
       "totalScore": 27,
       "breakdown": {
         "volume": 5,
         "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 3
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "dui",
-          "title": "20 years old, DUI. i feel like screwed up my life so young…",
-          "text": "i’m in a state where they are very strict on DUIs and i’m worried there’s a very high chance it won’t get dismissed. i obviously have 2 other charges regarding underage consumption but this is literally my 4th time ever drinking in my life. i was literally parked in a parking lot making sure my buddy was alright and of course the cops show up because he was all fucked up and i catch charges. this is my first offense, not even a speeding ticket on my record. i even blew below the limit at the jai",
-          "url": "https://reddit.com/r/dui/comments/1re0bi4/20_years_old_dui_i_feel_like_screwed_up_my_life/",
-          "score": 11,
-          "numComments": 14,
-          "created": 1771985305,
-          "author": "Repulsive-Writer9522"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "using 2 tix for",
-      "displayName": "Using 2 tix for myself",
-      "rawTitle": "Using 2 tix for myself",
-      "category": "other",
-      "eventName": null,
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": null,
-      "vividSeatsUrl": null,
-      "totalScore": 27,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 0,
-        "scarcity": 2,
+        "scarcity": 4,
         "obscurityBonus": 10,
-        "engagementBonus": 10
+        "engagementBonus": 4
       },
       "mentionCount": 1,
       "mentions": [
         {
           "source": "reddit",
-          "subreddit": "Concerts",
-          "title": "Using 2 tix for myself",
-          "text": "I just baught tix to Rufus du sol which I’m sure will sell out. I’m 6’4 240 and love to dance (move side to side nun crazy) but couldn’t snag pit so just bought 2 for my self to a have a little space. Am i an ass for this ?  ",
-          "url": "https://reddit.com/r/Concerts/comments/1rdusbq/using_2_tix_for_myself/",
-          "score": 36,
-          "numComments": 64,
-          "created": 1771971685,
-          "author": "Turbulent-Ad9097"
+          "subreddit": "TameImpala",
+          "title": "Ticketmaster’s Face Value Exchange",
+          "text": "Me personally… I don’t like it. Yes I understand it makes tickets cheaper but there’s no point of that if you can’t even get a ticket because it’s always sold out. I’d rather pay $200 and be there than the tickets be $100 and I can’t get them. Let me know what yall think about it.",
+          "url": "https://reddit.com/r/TameImpala/comments/1reqxup/ticketmasters_face_value_exchange/",
+          "score": 7,
+          "numComments": 21,
+          "created": 1772055926,
+          "author": "Kooky-Soup4663"
         }
       ],
       "sources": [
@@ -744,7 +423,7 @@
           "title": "Missed Finalissima 2026 tickets due to Verification Code issue — any other chances?",
           "text": "I tried really hard to get tickets for Finalissima 2026, but I didn’t receive the Verification Code during LogIn. By the time I could try again, it was showing as sold out.\n\nIs there any other chance to get tickets now? Will there be another release, resale, or any official way to buy them?\n\n",
           "url": "https://reddit.com/r/qatar/comments/1rer68y/missed_finalissima_2026_tickets_due_to/",
-          "score": 3,
+          "score": 5,
           "numComments": 24,
           "created": 1772056442,
           "author": "birazdhl"
@@ -784,6 +463,42 @@
           "numComments": 15,
           "created": 1772051706,
           "author": "allusermanesaretaken"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "looking for a ticket",
+      "displayName": "Looking for a ticket for The semi Marathon on The 8th",
+      "rawTitle": "Looking for a ticket for The semi Marathon on The 8th",
+      "category": "sports",
+      "eventName": null,
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": null,
+      "vividSeatsUrl": null,
+      "totalScore": 26,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 15,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "SocialParis",
+          "title": "Looking for a ticket for The semi Marathon on The 8th",
+          "text": "Hell everybody , my wife is looking for a ticket for the semi marathon organized by Hoka on the 8th of march  . The thing is sadly sold out and I thought maybe someone here a has a ticket to spare , paid of course. We live in the 9th so we can do a handover in person, or go the registration together , whatever works. Thanks in advance :)",
+          "url": "https://reddit.com/r/SocialParis/comments/1relf2t/looking_for_a_ticket_for_the_semi_marathon_on_the/",
+          "score": 1,
+          "numComments": 0,
+          "created": 1772044030,
+          "author": "Novoxbo"
         }
       ],
       "sources": [
@@ -863,71 +578,35 @@
       ]
     },
     {
-      "eventKey": "unpopular",
-      "displayName": "Backstreet Boys",
-      "rawTitle": "Until They're \"Unpopular\" Again",
-      "category": "sports",
-      "eventName": "Backstreet Boys",
-      "eventType": "show",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Backstreet%20Boys+broadway+tickets",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Backstreet%20Boys",
-      "totalScore": 25,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 6
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "BackstreetBoys",
-          "title": "Until They're \"Unpopular\" Again",
-          "text": "I share in the frustration of everyone trying to get tickets/feeling frustrated about not getting tickets/feeling rage about spending $1K+ for tickets but still doing it because you wanna see the Boys/feeling annoyed that you can't go to the show again if you had an easier time getting tickets for one of the earlier legs/etc. Ticketmaster and the artists who use their platform by choice or force make way too much money on dynamic pricing, \"official platinum\" seats, verified resale, and other asp",
-          "url": "https://reddit.com/r/BackstreetBoys/comments/1relcuv/until_theyre_unpopular_again/",
-          "score": 38,
-          "numComments": 11,
-          "created": 1772043900,
-          "author": "Aheadofmanyhats"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "why we have trouble",
-      "displayName": "buy your ticket enjoy the",
-      "rawTitle": "Why we have trouble competing with the “blue bloods.”",
-      "category": "sports",
-      "eventName": "buy your ticket enjoy the",
+      "eventKey": "toronto slot update",
+      "displayName": "World Cup2026",
+      "rawTitle": "Toronto Slot Update",
+      "category": "other",
+      "eventName": "World Cup2026",
       "eventType": "team",
       "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=buy%20your%20ticket%20enjoy%20the+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=buy%20your%20ticket%20enjoy%20the",
-      "totalScore": 25,
+      "artistUrl": "https://www.google.com/search?q=World%20Cup2026+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=World%20Cup2026",
+      "totalScore": 24,
       "breakdown": {
         "volume": 5,
         "velocity": 4,
-        "scarcity": 0,
+        "scarcity": 2,
         "obscurityBonus": 10,
-        "engagementBonus": 6
+        "engagementBonus": 3
       },
       "mentionCount": 1,
       "mentions": [
         {
           "source": "reddit",
-          "subreddit": "fsusports",
-          "title": "Why we have trouble competing with the “blue bloods.”",
-          "text": "I know everybody wants to be a top 10 team or better every year. But you wanna know why the big schools can do what they want,  and we can’t fire coach when most feel it’s needed? Or to recruit a player? It’s because we have a whole bunch of people that are fans that aren’t committed to the school. If you’re not a Booster, buy your ticket enjoy the game and just cheer for the school, but don’t complain about things that administration doesn’t do when you’re not willing to participate. For measly",
-          "url": "https://reddit.com/r/fsusports/comments/1rerwsa/why_we_have_trouble_competing_with_the_blue_bloods/",
-          "score": 4,
-          "numComments": 28,
-          "created": 1772058091,
-          "author": "Educational_Walk1791"
+          "subreddit": "WorldCup2026Tickets",
+          "title": "Toronto Slot Update",
+          "text": "For anyone wondering what is left, the European fixtures all sold out in around 6-10 mins after 3 pm. The Germany game sold very very quick. All that remains is the Senegal game and the Ghana game. Going forward, expect there to be not much at all for the european fixutures in phase 4. Got my tickets for Senegal vs TBD and Germany vs Ivory Coast, very very thankful for it. There will be plenty of the Senegal game and the Ghana game tho. Good luck and congrats on who got tickets!\n\nI'm waiting to ",
+          "url": "https://reddit.com/r/WorldCup2026Tickets/comments/1reqdbx/toronto_slot_update/",
+          "score": 5,
+          "numComments": 17,
+          "created": 1772054653,
+          "author": "EggTemporary3598"
         }
       ],
       "sources": [
@@ -935,35 +614,323 @@
       ]
     },
     {
-      "eventKey": "why doesnt the city",
-      "displayName": "providence",
-      "rawTitle": "Why doesn’t the city ticket businesses that don’t shovel?",
-      "category": "sports",
-      "eventName": "providence",
+      "eventKey": "boston events worth doing",
+      "displayName": "Boston events worth doing this weekend: A Ramadan night market unti...",
+      "rawTitle": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest wi",
+      "category": "other",
+      "eventName": null,
       "eventType": "event",
       "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=providence",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=providence",
-      "totalScore": 25,
+      "artistUrl": null,
+      "vividSeatsUrl": null,
+      "totalScore": 24,
       "breakdown": {
         "volume": 5,
         "velocity": 4,
-        "scarcity": 0,
+        "scarcity": 2,
         "obscurityBonus": 10,
-        "engagementBonus": 6
+        "engagementBonus": 3
       },
       "mentionCount": 1,
       "mentions": [
         {
           "source": "reddit",
-          "subreddit": "providence",
-          "title": "Why doesn’t the city ticket businesses that don’t shovel?",
-          "text": "Property owners are required to clear the sidewalks in front of their homes or businesses. Why doesn’t the city of Providence ticket businesses they don’t do this? I’m not talking about little mom and pop businesses. I’m talking about, for example, stop &amp; shop in the North End,which never clears its huge stretch of sidewalk on Branch Avenue and W. River St. customer is walking in from the neighborhood or taking the bus have to walk in the street to get to the store to shop, endangering every",
-          "url": "https://reddit.com/r/providence/comments/1reqsym/why_doesnt_the_city_ticket_businesses_that_dont/",
-          "score": 39,
-          "numComments": 13,
-          "created": 1772055619,
-          "author": "checkmate508"
+          "subreddit": "BostonSocialClub",
+          "title": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest with a free after party &amp; a late-night art museum",
+          "text": "Hey All! Kinga here, back with this week's list. Three big cultural moments land on the same weekend: the Ramadan Night Market takes over City Hall Plaza for two nights (Friday &amp; Saturday, 9pm–1am), Chinatown shuts down Sunday for the annual Chinese New Year Lion Dance Parade, and Black History Month wraps up with events all weekend honoring a century of Black excellence in Boston. On top of that, it's last call for a bunch of winter stuff: Frostival Lodge, the Greenway Ferris Wheel, Snowpor",
+          "url": "https://reddit.com/r/BostonSocialClub/comments/1rejmsy/boston_events_worth_doing_this_weekend_a_ramadan/",
+          "score": 25,
+          "numComments": 4,
+          "created": 1772040407,
+          "author": "Top-Finger-4339"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "need tickets for royal",
+      "displayName": "Feb 26 or 27 th",
+      "rawTitle": "Need tickets for Royal Alcazar in Sevilla for Feb 26 or 27",
+      "category": "other",
+      "eventName": "Feb 26 or 27 th",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Feb%2026%20or%2027%20th",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Feb%2026%20or%2027%20th",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "Seville",
+          "title": "Need tickets for Royal Alcazar in Sevilla for Feb 26 or 27",
+          "text": "Does anyone have Royal Alcazar tickets for Feb 26 or 27 that they are not able to use? We are going to Sevilla last minute and tickets are sold out.",
+          "url": "https://reddit.com/r/Seville/comments/1reoe7m/need_tickets_for_royal_alcazar_in_sevilla_for_feb/",
+          "score": 0,
+          "numComments": 2,
+          "created": 1772050297,
+          "author": "Own_Seaweed_7520"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "heartbroken",
+      "displayName": "redrising",
+      "rawTitle": "Heartbroken",
+      "category": "other",
+      "eventName": "redrising",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=redrising",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=redrising",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "redrising",
+          "title": "Heartbroken",
+          "text": "Local book store posted out of nowhere a sold out PB event! No announcement it was happening, just sold out.  lots of upset people, then they posted it was very limited event made possible by local educators… cool, cool cool but also why even post it if nobody public could go? Anyways, just butthurt and thought others may understand ",
+          "url": "https://reddit.com/r/redrising/comments/1remkfy/heartbroken/",
+          "score": 2,
+          "numComments": 3,
+          "created": 1772046406,
+          "author": "Practical_Aside_5963"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "lcd soundsystem after dark",
+      "displayName": "bottlerock",
+      "rawTitle": "LCD Soundsystem After Dark",
+      "category": "minor-league",
+      "eventName": "bottlerock",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=bottlerock",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=bottlerock",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 2
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "bottlerock",
+          "title": "LCD Soundsystem After Dark",
+          "text": "I was 200th in line and was in within 3minutes but the tickets were already sold out!! How did that happen so fast? Was there a presale I wasn’t aware of? Sad 😕",
+          "url": "https://reddit.com/r/bottlerock/comments/1rel0md/lcd_soundsystem_after_dark/",
+          "score": 2,
+          "numComments": 9,
+          "created": 1772043217,
+          "author": "shroony99"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "phantom of the opera",
+      "displayName": "New Orleans Marketplace @ Thursday night seats",
+      "rawTitle": "Phantom of the Opera seat swap 2/5 matinee Suite K",
+      "category": "other",
+      "eventName": "New Orleans Marketplace",
+      "eventType": "show",
+      "venueName": "Thursday night seats",
+      "artistUrl": "https://www.google.com/search?q=New%20Orleans%20Marketplace+broadway+tickets",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=New%20Orleans%20Marketplace",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "NewOrleansMarketplace",
+          "title": "Phantom of the Opera seat swap 2/5 matinee Suite K",
+          "text": "Was trying to upgrade my 2 Phantom tickets and thought I found great Thursday night seats in the mostly sold out run, but after I made the exchange, I realized it was the Thursday matinee (I didn't realize they did those!). Would love to swap for another showtime (any day but Friday or Sunday) for low balcony or orchestra. Hit me up if you're also wanting to switch days/times but unable due to the mostly sold outness of the show! ",
+          "url": "https://reddit.com/r/NewOrleansMarketplace/comments/1reku86/phantom_of_the_opera_seat_swap_25_matinee_suite_k/",
+          "score": 3,
+          "numComments": 0,
+          "created": 1772042856,
+          "author": "eboj-dm"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "tickets help",
+      "displayName": "any of the June home",
+      "rawTitle": "Tickets Help",
+      "category": "concerts",
+      "eventName": "any of the June home",
+      "eventType": "artist",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=any%20of%20the%20June%20home+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=any%20of%20the%20June%20home",
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 2
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "REDBLACKS",
+          "title": "Tickets Help",
+          "text": "I am looking to buy tickets to any of the June home games but the box on the website is greyed out. Does this mean all tickets are sold out? I saw ticketmaster only sells season passes and I refuse to use StubHub after getting scammed on concert tickets before.\n\nAny advice or tickets people are selling?",
+          "url": "https://reddit.com/r/REDBLACKS/comments/1reiy6j/tickets_help/",
+          "score": 4,
+          "numComments": 8,
+          "created": 1772039004,
+          "author": "CivilEast752"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "cko100503  were sorry",
+      "displayName": "delta",
+      "rawTitle": "Trying to book award ticket causes error: \"CKO_100503 - We're sorry, but this option just sold out.\"",
+      "category": "sports",
+      "eventName": "delta",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=delta",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=delta",
+      "totalScore": 22,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 1
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "delta",
+          "title": "Trying to book award ticket causes error: \"CKO_100503 - We're sorry, but this option just sold out.\"",
+          "text": "I've tried about 4 flight combinations for my flight routing and keep getting the error noted above.  It says to search again, which reveals the same flight choices.  Customer service seems stumped too and basically at the present time I can't seem to book flights on Delta thanks to something with their IT system.  I just got a Delta Amex card and it was only recently applied to my SkyMiles profile to get the 15% miles discount.\n\nIn short: Anyone familiar enough with Delta website error codes to",
+          "url": "https://reddit.com/r/delta/comments/1rervza/trying_to_book_award_ticket_causes_error_cko/",
+          "score": 1,
+          "numComments": 6,
+          "created": 1772058039,
+          "author": "Mental_Worldliness34"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "nickatina tix",
+      "displayName": "Bay Rap",
+      "rawTitle": "Nickatina Tix?",
+      "category": "other",
+      "eventName": "Bay Rap",
+      "eventType": "show",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Bay%20Rap+broadway+tickets",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Bay%20Rap",
+      "totalScore": 22,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 1
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "BayRap",
+          "title": "Nickatina Tix?",
+          "text": "Shot in the dark but does anyone have any ticket(s) they're willing to sell for his show in SF on 3/19? A buddy dicked around too long and went to get tickets after the show sold out.",
+          "url": "https://reddit.com/r/BayRap/comments/1repwjk/nickatina_tix/",
+          "score": 5,
+          "numComments": 3,
+          "created": 1772053621,
+          "author": "Happily_Pesimistic"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "3 day tickets will",
+      "displayName": "bottlerock",
+      "rawTitle": "3 day tickets will sell out today",
+      "category": "other",
+      "eventName": "bottlerock",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=bottlerock",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=bottlerock",
+      "totalScore": 22,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 1
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "bottlerock",
+          "title": "3 day tickets will sell out today",
+          "text": "Sales seem to be doing well this year!",
+          "url": "https://reddit.com/r/bottlerock/comments/1ren37p/3_day_tickets_will_sell_out_today/",
+          "score": 7,
+          "numComments": 3,
+          "created": 1772047486,
+          "author": "Ground-Contro1"
         }
       ],
       "sources": [
