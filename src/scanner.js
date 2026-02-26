@@ -45,7 +45,11 @@ const EVENT_CATEGORIES = {
     'women\'s college world series', 'college hockey', 'frozen four', 'beanpot',
     'college lacrosse', 'ncaa swimming', 'ncaa championship', 'college baseball',
     'college world series', 'regionals', 'super regional', 'sec tournament',
-    'big ten tournament', 'acc tournament', 'big 12 tournament'
+    'big ten tournament', 'acc tournament', 'big 12 tournament',
+    'wiaa', 'ohsaa', 'ihsa', 'uil', 'piaa', 'mhsaa',
+    'state wrestling', 'state championship wrestling',
+    'ncaa tournament', 'conference tournament',
+    'naia', 'division ii', 'division iii', 'd2', 'd3'
   ],
   'minor-league': [
     'minor league', 'milb', 'triple-a', 'double-a', 'single-a', 'aaa baseball',
@@ -115,26 +119,25 @@ function fetch(url, options = {}) {
 
 // --- Reddit Scanner ---
 async function scanReddit() {
+  // Prioritized: college sports & MiLB first, then general
   const subreddits = [
-    'tickets', 'concerts', 'livemusic', 'comedy', 'StandUpComedy',
-    'boxing', 'mma', 'wrestling', 'soccer', 'baseball', 'basketball',
-    'hockey', 'lacrosse', 'rugby', 'esports', 'nfl',
-    'cfb', 'wnba', 'nwsl', 'minorleaguebaseball', 'indycar', 'nascar',
-    'rodeo', 'rollerderby', 'pickleball', 'discgolf',
-    'StubHub', 'EventTickets',
-    // College sports (non-men's basketball, non-football)
-    'NCAAW', 'collegehockey', 'collegebaseball', 'wrestling',
-    'gymnastics', 'Rowing', 'trackandfield', 'swimming',
-    'volleyball', 'lacrosse', 'fencing', 'waterpolo',
-    'CollegeWrestling', 'collegesoftball',
-    'OKState', 'PennStateUniversity', 'LSUTigers', 'OU',
-    'Huskers', 'IowaHawkeyes', 'OhioStateFootball',
+    // College sports (priority — underserved markets)
+    'CollegeWrestling', 'NCAAW', 'collegehockey', 'collegebaseball',
+    'collegesoftball', 'gymnastics', 'volleyball', 'swimming',
+    'trackandfield', 'lacrosse', 'waterpolo', 'fencing',
+    'OKState', 'PennStateUniversity', 'LSUTigers', 'Huskers',
+    'IowaHawkeyes', 'OU', 'Rowing',
     // Minor League Baseball
     'minorleaguebaseball', 'milb', 'SavannahBananas',
-    'DurhamBulls', 'baseball',
-    'nashville', 'RailRiders', 'IronPigs',
-    // Premier Lacrosse League
-    'PLL', 'lacrosse'
+    'DurhamBulls', 'RailRiders', 'IronPigs',
+    // Other niche sports
+    'wnba', 'nwsl', 'PLL', 'indycar', 'rodeo',
+    'rollerderby', 'pickleball',
+    // General ticket subs
+    'tickets', 'concerts', 'livemusic', 'comedy', 'StandUpComedy',
+    'StubHub', 'EventTickets',
+    // Major sports (for sold-out detection)
+    'wrestling', 'boxing', 'mma', 'baseball', 'hockey'
   ];
 
   const queries = [
@@ -201,7 +204,7 @@ async function scanReddit() {
   }
 
   // Also check specific subreddits (more of them now)
-  for (const sub of subreddits.slice(0, 15)) {
+  for (const sub of subreddits.slice(0, 30)) {
     try {
       const url = `https://www.reddit.com/r/${sub}/new.json?limit=25`;
       const res = await fetch(url);
