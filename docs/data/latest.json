@@ -1,9 +1,114 @@
 {
-  "timestamp": "2026-02-26T14:29:35.255Z",
-  "scanDurationMs": 142630,
-  "totalMentionsFound": 744,
-  "eventsScored": 180,
+  "timestamp": "2026-02-26T15:51:17.796Z",
+  "scanDurationMs": 176292,
+  "totalMentionsFound": 801,
+  "eventsScored": 228,
   "events": [
+    {
+      "eventKey": "the app saved my",
+      "displayName": "managers",
+      "rawTitle": "iOS 17's autocorrect was silently editing my users' form inputs right before submission and I spent ",
+      "category": "other",
+      "eventName": "managers",
+      "eventType": "team",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=managers+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=managers",
+      "totalScore": 49,
+      "breakdown": {
+        "volume": 20,
+        "velocity": 16,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 3
+      },
+      "mentionCount": 4,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "managers",
+          "title": "iOS 17's autocorrect was silently editing my users' form inputs right before submission and I spent 3 weeks blaming my users for it",
+          "text": "I was going through support tickets one night on my couch half paying attention to a game in the background and I read one that said\n\n\"the app saved my name as Duckling instead of Darkling\" \n\nand I genuinely just laughed and moved on. I thought it was a weird one-off. Then I scrolled and saw another user saying their bio had a random word replaced in it. Then another one. And then another one I was moving like that DJ khalid meme…  At some point I muted the game and just sat there because someth",
+          "url": "https://reddit.com/r/managers/comments/1rfbsd3/ios_17s_autocorrect_was_silently_editing_my_users/",
+          "score": 3,
+          "numComments": 0,
+          "created": 1772116582,
+          "author": "Various_Idea_7066"
+        },
+        {
+          "source": "reddit",
+          "subreddit": "ProductivityHQ",
+          "title": "iOS 17's autocorrect was silently editing my users' form inputs right before submission and I spent 3 weeks blaming my users for it",
+          "text": "I was going through support tickets one night on my couch half paying attention to a game in the background and I read one that said\n\n\"the app saved my name as Duckling instead of Darkling\" \n\nand I genuinely just laughed and moved on. I thought it was a weird one-off. Then I scrolled and saw another user saying their bio had a random word replaced in it. Then another one. And then another one I was moving like that DJ khalid meme…  At some point I muted the game and just sat there because someth",
+          "url": "https://reddit.com/r/ProductivityHQ/comments/1rfbpla/ios_17s_autocorrect_was_silently_editing_my_users/",
+          "score": 4,
+          "numComments": 2,
+          "created": 1772116397,
+          "author": "Various_Idea_7066"
+        },
+        {
+          "source": "reddit",
+          "subreddit": "SideProject",
+          "title": "iOS 17's autocorrect was silently editing my users' form inputs right before submission and I spent 3 weeks blaming my users for it",
+          "text": "I was going through support tickets one night on my couch half paying attention to a game in the background and I read one that said\n\n\"the app saved my name as Duckling instead of Darkling\" \n\nand I genuinely just laughed and moved on. I thought it was a weird one-off. Then I scrolled and saw another user saying their bio had a random word replaced in it. Then another one. And then another one I was moving like that DJ khalid meme…  At some point I muted the game and just sat there because someth",
+          "url": "https://reddit.com/r/SideProject/comments/1rfbnus/ios_17s_autocorrect_was_silently_editing_my_users/",
+          "score": 2,
+          "numComments": 5,
+          "created": 1772116277,
+          "author": "Various_Idea_7066"
+        },
+        {
+          "source": "reddit",
+          "subreddit": "MobileAppDevelopers",
+          "title": "iOS 17's autocorrect was silently editing my users' form inputs right before submission and I spent 3 weeks blaming my users for it",
+          "text": "I was going through support tickets one night on my couch half paying attention to a game in the background and I read one that said\n\n\"the app saved my name as Duckling instead of Darkling\" \n\nand I genuinely just laughed and moved on. I thought it was a weird one-off. Then I scrolled and saw another user saying their bio had a random word replaced in it. Then another one. And then another one I was moving like that DJ khalid meme…  At some point I muted the game and just sat there because someth",
+          "url": "https://reddit.com/r/MobileAppDevelopers/comments/1rfbmjd/ios_17s_autocorrect_was_silently_editing_my_users/",
+          "score": 1,
+          "numComments": 4,
+          "created": 1772116192,
+          "author": "Various_Idea_7066"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "connor snl tickets sold",
+      "displayName": "connor snl",
+      "rawTitle": "connor snl tickets sold out, his magazines sold out, april x screening sold out, his talk show ticke",
+      "category": "other",
+      "eventName": "connor snl",
+      "eventType": "show",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=connor%20snl+broadway+tickets",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=connor%20snl",
+      "totalScore": 47,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 18,
+        "obscurityBonus": 10,
+        "engagementBonus": 10
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "connor snl tickets sold out, his magazines sold out, april x screening sold out, his talk show tickets sold out, the fuc",
+          "text": "connor snl tickets sold out, his magazines sold out, april x screening sold out, his talk show tickets sold out, the fucking blue sweater he wore in the snl promo literally sold out don’t ever doubt connor’s star power",
+          "url": "https://x.com/i/status/2027042030010933406",
+          "score": 107,
+          "numComments": 1,
+          "created": 1772119455,
+          "author": "1946201679621181442"
+        }
+      ],
+      "sources": [
+        "twitter"
+      ]
+    },
     {
       "eventKey": "boston events worth doing",
       "displayName": "Boston events worth doing this weekend: A Ramadan night market unti...",
@@ -14,10 +119,10 @@
       "venueName": null,
       "artistUrl": null,
       "vividSeatsUrl": null,
-      "totalScore": 42,
+      "totalScore": 38,
       "breakdown": {
         "volume": 10,
-        "velocity": 8,
+        "velocity": 4,
         "scarcity": 4,
         "obscurityBonus": 10,
         "engagementBonus": 10
@@ -30,7 +135,7 @@
           "title": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest with a free after party &amp; a late-night art museum",
           "text": "Hey All! Kinga here, back with this week's list. Three big cultural moments land on the same weekend: the Ramadan Night Market takes over City Hall Plaza for two nights (Friday &amp; Saturday, 9pm–1am), Chinatown shuts down Sunday for the annual Chinese New Year Lion Dance Parade, and Black History Month wraps up with events all weekend honoring a century of Black excellence in Boston. On top of that, it's last call for a bunch of winter stuff: Frostival Lodge, the Greenway Ferris Wheel, Snowpor",
           "url": "https://reddit.com/r/BostonSocialClub/comments/1rejmsy/boston_events_worth_doing_this_weekend_a_ramadan/",
-          "score": 44,
+          "score": 47,
           "numComments": 5,
           "created": 1772040407,
           "author": "Top-Finger-4339"
@@ -41,7 +146,7 @@
           "title": "📅 Boston events worth doing this weekend: A Ramadan night market until 1am, a sold-out wine fest with a free after party &amp; a late-night art museum",
           "text": "Hey All! Kinga here, back with this week's list. Three big cultural moments land on the same weekend: the Ramadan Night Market takes over City Hall Plaza for two nights (Friday &amp; Saturday, 9pm–1am), Chinatown shuts down Sunday for the annual Chinese New Year Lion Dance Parade, and Black History Month wraps up with events all weekend honoring a century of Black excellence in Boston. On top of that, it's last call for a bunch of winter stuff: Frostival Lodge, the Greenway Ferris Wheel, Snowpor",
           "url": "https://reddit.com/r/boston/comments/1reg46r/boston_events_worth_doing_this_weekend_a_ramadan/",
-          "score": 40,
+          "score": 38,
           "numComments": 5,
           "created": 1772032933,
           "author": "Top-Finger-4339"
@@ -77,7 +182,7 @@
           "title": "My girlfriend booked corner seats with her male best friend and I’m feeling hurt. Am I overreacting?",
           "text": "Pata hai aaj kya hua... So I need some outside perspective because this is stuck in my head.\n\nMy girlfriend once went to watch “Do Deewaane Sheher Mein” with her male best friend. He used to like her, but she never liked him back. I knew about the movie plan because she told me. She booked the tickets herself. It was a 6:30 PM show.\nToday, we were going for a movie together. We usually book corner seats at the very back. So I booked those seats for us.\n\nOut of curiosity, I asked her to show me h",
           "url": "https://reddit.com/r/PataHaiAajKyaHua/comments/1rf01jb/my_girlfriend_booked_corner_seats_with_her_male/",
-          "score": 115,
+          "score": 113,
           "numComments": 177,
           "created": 1772078686,
           "author": "Boring-Apple7836"
@@ -99,46 +204,35 @@
       ]
     },
     {
-      "eventKey": "finalissima tickets sold out",
-      "displayName": "Finalissima",
-      "rawTitle": "Finalissima tickets sold out already?",
-      "category": "other",
-      "eventName": "Finalissima",
-      "eventType": "event",
+      "eventKey": "has anyone actually been",
+      "displayName": "Tame Impala",
+      "rawTitle": "Has anyone actually been able to get resale tickets off of TM",
+      "category": "concerts",
+      "eventName": "Tame Impala",
+      "eventType": "artist",
       "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Finalissima",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Finalissima",
+      "artistUrl": "https://www.google.com/search?q=Tame%20Impala+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Tame%20Impala",
       "totalScore": 36,
       "breakdown": {
-        "volume": 10,
-        "velocity": 8,
-        "scarcity": 8,
-        "obscurityBonus": 10,
-        "engagementBonus": 0
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 15,
+        "engagementBonus": 10
       },
-      "mentionCount": 2,
+      "mentionCount": 1,
       "mentions": [
         {
           "source": "reddit",
-          "subreddit": "qatar",
-          "title": "Finalissima tickets sold out already?",
-          "text": "are they going to release more tickets or is it completely sold out? Queued for 3 hours last night but couldn’t secure any ticket as its sold out already",
-          "url": "https://reddit.com/r/qatar/comments/1rfapfq/finalissima_tickets_sold_out_already/",
-          "score": 1,
-          "numComments": 0,
-          "created": 1772113929,
-          "author": "stardewvalley123"
-        },
-        {
-          "source": "reddit",
-          "subreddit": "u_pocketrocket99th",
-          "title": "Finalissima tickets sold out within 24 hours ??",
-          "text": "",
-          "url": "https://reddit.com/r/u_pocketrocket99th/comments/1rf4v75/finalissima_tickets_sold_out_within_24_hours/",
-          "score": 1,
-          "numComments": 0,
-          "created": 1772094809,
-          "author": "pocketrocket99th"
+          "subreddit": "TameImpala",
+          "title": "Has anyone actually been able to get resale tickets off of TM",
+          "text": "Asking because every time I refresh and see a new seat pop up on Ticketmaster, it gets snagged almost simultaneously. I believe that bots and scammers are just continuously monitoring the concerts for face value drops to resell them triple the value. I had a personal experience where a reddit user and I coordinated a time where they would drop their tickets so I could get them. As soon as they were available I added them to my cart and was in the process of checking out when I got notified they ",
+          "url": "https://reddit.com/r/TameImpala/comments/1rer1il/has_anyone_actually_been_able_to_get_resale/",
+          "score": 18,
+          "numComments": 41,
+          "created": 1772056149,
+          "author": "Adept_Contribution36"
         }
       ],
       "sources": [
@@ -193,35 +287,35 @@
       ]
     },
     {
-      "eventKey": "has anyone actually been",
-      "displayName": "Tame Impala",
-      "rawTitle": "Has anyone actually been able to get resale tickets off of TM",
+      "eventKey": "omgg also question",
+      "displayName": "lvjy",
+      "rawTitle": "OMGG ALSO QUESTION",
       "category": "concerts",
-      "eventName": "Tame Impala",
+      "eventName": "lvjy",
       "eventType": "artist",
       "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Tame%20Impala+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Tame%20Impala",
-      "totalScore": 35,
+      "artistUrl": "https://www.google.com/search?q=lvjy+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=lvjy",
+      "totalScore": 33,
       "breakdown": {
         "volume": 5,
         "velocity": 4,
-        "scarcity": 2,
+        "scarcity": 4,
         "obscurityBonus": 15,
-        "engagementBonus": 9
+        "engagementBonus": 5
       },
       "mentionCount": 1,
       "mentions": [
         {
           "source": "reddit",
-          "subreddit": "TameImpala",
-          "title": "Has anyone actually been able to get resale tickets off of TM",
-          "text": "Asking because every time I refresh and see a new seat pop up on Ticketmaster, it gets snagged almost simultaneously. I believe that bots and scammers are just continuously monitoring the concerts for face value drops to resell them triple the value. I had a personal experience where a reddit user and I coordinated a time where they would drop their tickets so I could get them. As soon as they were available I added them to my cart and was in the process of checking out when I got notified they ",
-          "url": "https://reddit.com/r/TameImpala/comments/1rer1il/has_anyone_actually_been_able_to_get_resale/",
-          "score": 16,
-          "numComments": 40,
-          "created": 1772056149,
-          "author": "Adept_Contribution36"
+          "subreddit": "lvjy",
+          "title": "OMGG ALSO QUESTION",
+          "text": "So omg Europe tour I can't I'm screaming just a question for people who have bought tickets how long until do they sell out cause I need to know cause I'll have class and need to try and get them I'm not talking about the america tour because obviously there's more of you but like people who have been to a england show or older Poland show or just a smaller show in general how long do the tickets take to sell out please I need answers help a girl out",
+          "url": "https://reddit.com/r/lvjy/comments/1rf74l6/omgg_also_question/",
+          "score": 13,
+          "numComments": 19,
+          "created": 1772103266,
+          "author": "Urt3nzn"
         }
       ],
       "sources": [
@@ -250,61 +344,25 @@
       "mentions": [
         {
           "source": "reddit",
-          "subreddit": "askspain",
-          "title": "Alhambra Question",
-          "text": "Hi,\n\nI have a business trip to Andalucía in late March, and I’ll be staying a few extra days to explore the region. Since I didn’t know I would be travelling, I wasn’t able to book Alhambra tickets in advance. I checked availability today and, as you may have guessed, full-access tickets are completely sold out until mid‑April (from the official site, not the overpriced resellers). The only tickets still available are the €12 ones for the Gardens, Generalife, and Alcazaba.\n\nIs there any way to m",
-          "url": "https://reddit.com/r/askspain/comments/1rfb6ae/alhambra_question/",
-          "score": 1,
-          "numComments": 0,
-          "created": 1772115073,
-          "author": "ReachEuphoric3595"
-        },
-        {
-          "source": "reddit",
           "subreddit": "GoingToSpain",
           "title": "Alhambra Question",
           "text": "Hi,\n\nI have a business trip to Andalucía in late March, and I’ll be staying a few extra days to explore the region. Since I didn’t know I would be travelling, I wasn’t able to book Alhambra tickets in advance. I checked availability today and, as you may have guessed, full-access tickets are completely sold out until mid‑April (from the official site, not the overpriced resellers). The only tickets still available are the €12 ones for the Gardens, Generalife, and Alcazaba.\n\nIs there any way to m",
           "url": "https://reddit.com/r/GoingToSpain/comments/1rfbipc/alhambra_question/",
           "score": 1,
-          "numComments": 0,
+          "numComments": 2,
           "created": 1772115925,
           "author": "ReachEuphoric3595"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "omgg also question",
-      "displayName": "lvjy",
-      "rawTitle": "OMGG ALSO QUESTION",
-      "category": "concerts",
-      "eventName": "lvjy",
-      "eventType": "artist",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=lvjy+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=lvjy",
-      "totalScore": 32,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 4,
-        "obscurityBonus": 15,
-        "engagementBonus": 4
-      },
-      "mentionCount": 1,
-      "mentions": [
+        },
         {
           "source": "reddit",
-          "subreddit": "lvjy",
-          "title": "OMGG ALSO QUESTION",
-          "text": "So omg Europe tour I can't I'm screaming just a question for people who have bought tickets how long until do they sell out cause I need to know cause I'll have class and need to try and get them I'm not talking about the america tour because obviously there's more of you but like people who have been to a england show or older Poland show or just a smaller show in general how long do the tickets take to sell out please I need answers help a girl out",
-          "url": "https://reddit.com/r/lvjy/comments/1rf74l6/omgg_also_question/",
-          "score": 8,
-          "numComments": 19,
-          "created": 1772103266,
-          "author": "Urt3nzn"
+          "subreddit": "askspain",
+          "title": "Alhambra Question",
+          "text": "Hi,\n\nI have a business trip to Andalucía in late March, and I’ll be staying a few extra days to explore the region. Since I didn’t know I would be travelling, I wasn’t able to book Alhambra tickets in advance. I checked availability today and, as you may have guessed, full-access tickets are completely sold out until mid‑April (from the official site, not the overpriced resellers). The only tickets still available are the €12 ones for the Gardens, Generalife, and Alcazaba.\n\nIs there any way to m",
+          "url": "https://reddit.com/r/askspain/comments/1rfb6ae/alhambra_question/",
+          "score": 0,
+          "numComments": 1,
+          "created": 1772115073,
+          "author": "ReachEuphoric3595"
         }
       ],
       "sources": [
@@ -337,7 +395,7 @@
           "title": "Per WrestleTix, tonight’s Dynamite is SOLD OUT",
           "text": "",
           "url": "https://reddit.com/r/SquaredCircle/comments/1reuuba/per_wrestletix_tonights_dynamite_is_sold_out/",
-          "score": 98,
+          "score": 105,
           "numComments": 43,
           "created": 1772064897,
           "author": "Subrick"
@@ -409,50 +467,14 @@
           "title": "Guest took a photo of my empty desk while I was helping them and wrote a review about “the level of service” 💀",
           "text": "So picture this.\n\nNearly sold out night. It’s around 8pm. The vibes are already “we have exactly 2 rooms left and they both hate humanity.”\n\nGuest comes down furious because the room they were assigned earlier in the day is “too loud.” (Not my shift, not my placement.)\n\nThey demand a quieter room.\n\nI check availability. I have exactly two rooms left. And I tell them, honestly:\n\n“I completely understand wanting something quieter, but the only two rooms I have available tonight are actually two of",
           "url": "https://reddit.com/r/TalesFromTheFrontDesk/comments/1rez1xb/guest_took_a_photo_of_my_empty_desk_while_i_was/",
-          "score": 491,
-          "numComments": 32,
+          "score": 541,
+          "numComments": 33,
           "created": 1772075912,
           "author": "Strict-Strain4600"
         }
       ],
       "sources": [
         "reddit"
-      ]
-    },
-    {
-      "eventKey": "tickets are going horrendously",
-      "displayName": "Fury who's already",
-      "rawTitle": "@EverythingBoxi2 \"tickets are going horrendously\" the fights in April and it's Febuary😄for example ",
-      "category": "sports",
-      "eventName": "Fury who's already",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Fury%20who's%20already",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Fury%20who's%20already",
-      "totalScore": 30,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 6,
-        "obscurityBonus": 15,
-        "engagementBonus": 0
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "twitter",
-          "subreddit": "",
-          "title": "@EverythingBoxi2 \"tickets are going horrendously\" the fights in April and it's Febuary😄for example AJ's fight against D",
-          "text": "@EverythingBoxi2 \"tickets are going horrendously\" the fights in April and it's Febuary😄for example AJ's fight against Dubois you could still buy tickets on the week of the fight, it sold out, Fury who's already sold out both Wembley and tottenham would of sold out without Benn or not.",
-          "url": "https://x.com/i/status/2027020145130938529",
-          "score": 0,
-          "numComments": 0,
-          "created": 1772114237,
-          "author": "1586704823319134208"
-        }
-      ],
-      "sources": [
-        "twitter"
       ]
     },
     {
@@ -465,13 +487,13 @@
       "venueName": null,
       "artistUrl": "https://www.google.com/search?q=we%20queued%20up%20to%20purchase",
       "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=we%20queued%20up%20to%20purchase",
-      "totalScore": 29,
+      "totalScore": 30,
       "breakdown": {
         "volume": 5,
         "velocity": 4,
         "scarcity": 2,
         "obscurityBonus": 10,
-        "engagementBonus": 8
+        "engagementBonus": 9
       },
       "mentionCount": 1,
       "mentions": [
@@ -481,46 +503,10 @@
           "title": "Feeling sour recently",
           "text": "I can't help the need to express my feelings about this: On the sale date of the sphere, we queued up to purchase tickets. By the time we were able to get in, there were barely any seats left (or so we thought). There were very few available seats (10%) in the seating map. Considering it's my best friend's birthday, we shelled out $380 for each tickets, thinking that it's already 80-90% sold out. However, we learned later on that so many available seats were hidden as now they are available - ha",
           "url": "https://reddit.com/r/Illenium/comments/1rf09at/feeling_sour_recently/",
-          "score": 24,
-          "numComments": 29,
+          "score": 27,
+          "numComments": 36,
           "created": 1772079312,
           "author": "CuddlyAsianBoi"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "hadestown sro",
-      "displayName": "Hadestown SRO?",
-      "rawTitle": "Hadestown SRO?",
-      "category": "sports",
-      "eventName": null,
-      "eventType": "show",
-      "venueName": null,
-      "artistUrl": null,
-      "vividSeatsUrl": null,
-      "totalScore": 29,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 4,
-        "obscurityBonus": 15,
-        "engagementBonus": 1
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "Broadway",
-          "title": "Hadestown SRO?",
-          "text": "Hi everyone! Like many of us, I’m trying to see Jack Wolfe before he leaves. I’m a bit confused about SRO though, especially since people haven’t posted much about it in the past few days.\n\nLast Saturday, I went to the box office as soon as tickets were sold out (got there around 1). Obviously realized this was a bit too late for the matinee, but I don’t think anyone even got SRO for the evening show—they said they were sold out about 15 minutes after the matinee started and I didn’t see the lin",
-          "url": "https://reddit.com/r/Broadway/comments/1reuxqo/hadestown_sro/",
-          "score": 5,
-          "numComments": 4,
-          "created": 1772065131,
-          "author": "obscureshawty"
         }
       ],
       "sources": [
@@ -553,8 +539,8 @@
           "title": "My school is giving away free tickets to Aus GP, YOU guys answer the question, ANYTHING goes.",
           "text": "no swear words but otherwise its aight",
           "url": "https://reddit.com/r/formuladank/comments/1rf7idy/my_school_is_giving_away_free_tickets_to_aus_gp/",
-          "score": 697,
-          "numComments": 117,
+          "score": 914,
+          "numComments": 132,
           "created": 1772104589,
           "author": "YCWP"
         }
@@ -589,7 +575,7 @@
           "title": "Patos Meme Coin Launches \"$PATOS Games\" | P2E &amp; GameFi on Solana",
           "text": "# Where to buy $PATOS Meme Coins today? \n\n[**PatosMemeCoin.com**](http://PatosMemeCoin.com)\n\n# Today, PATOS Games Launched | P2E &amp; GameFi on Solana\n\nThe narrative on Solana has shifted so people are now understanding what 'brand value' is and why its' important.\n\nWhile most presales are drowning in \"ghostware\" promises, **Patos Meme Coin** has solidified its position as the top contender through verified exchange confirmations and massive marketing saturation. Today, the project adds another",
           "url": "https://reddit.com/r/CryptoMoonShots/comments/1rf1gxb/patos_meme_coin_launches_patos_games_p2e_gamefi/",
-          "score": 97,
+          "score": 96,
           "numComments": 54,
           "created": 1772082989,
           "author": "Money-Studio-56"
@@ -597,6 +583,42 @@
       ],
       "sources": [
         "reddit"
+      ]
+    },
+    {
+      "eventKey": "ragavx bcci tncacricket tickets",
+      "displayName": "@ragav_x @BCCI @TNCACricket Tickets allocated to BMS must be sold o...",
+      "rawTitle": "@ragav_x @BCCI @TNCACricket Tickets allocated to BMS must be sold out. They don’t get the entire quo",
+      "category": "sports",
+      "eventName": null,
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": null,
+      "vividSeatsUrl": null,
+      "totalScore": 29,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 15,
+        "engagementBonus": 1
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "@ragav_x @BCCI @TNCACricket Tickets allocated to BMS must be sold out. They don’t get the entire quota",
+          "text": "@ragav_x @BCCI @TNCACricket Tickets allocated to BMS must be sold out. They don’t get the entire quota",
+          "url": "https://x.com/i/status/2027039877611835745",
+          "score": 15,
+          "numComments": 0,
+          "created": 1772118942,
+          "author": "769747615"
+        }
+      ],
+      "sources": [
+        "twitter"
       ]
     },
     {
@@ -636,212 +658,71 @@
       ]
     },
     {
-      "eventKey": "what is with the",
-      "displayName": "s to keep this",
-      "rawTitle": "What is with the community all the sudden??",
-      "category": "other",
-      "eventName": "s to keep this",
+      "eventKey": "so many empty seats",
+      "displayName": "So many empty seats in the Chepuk stadium for the game between Ind ...",
+      "rawTitle": "So many empty seats in the Chepuk stadium for the game between Ind vs Zim. Bookmyshow has been sold ",
+      "category": "sports",
+      "eventName": null,
       "eventType": "team",
       "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=s%20to%20keep%20this+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=s%20to%20keep%20this",
+      "artistUrl": null,
+      "vividSeatsUrl": null,
       "totalScore": 28,
       "breakdown": {
         "volume": 5,
         "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 9
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "JurassicWorldApp",
-          "title": "What is with the community all the sudden??",
-          "text": "Never seen it this negative. We just got a crazy good update that basically confirms without a shadow of a doubt that Ludia wants to keep this game alive and update it to a more modern standard.\n\nInstead, half the people here are complaining that there's no DNA tickets to purchase in the slot machine (what I call it) and saying Ludia has spit in your face and killed the game because now you don't get as much bucks from trading at the harbour, as if you EVER needed that to progress the amount of ",
-          "url": "https://reddit.com/r/JurassicWorldApp/comments/1rf05rx/what_is_with_the_community_all_the_sudden/",
-          "score": 12,
-          "numComments": 41,
-          "created": 1772079027,
-          "author": "farcillle"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "come and chat kappa",
-      "displayName": "swgoh_guilds",
-      "rawTitle": "Come and chat, KAPPA is recruiting! 640M+ GP Guild - Order 66 raid 375M box - RotE 40 stars, Zeffo, ",
-      "category": "other",
-      "eventName": "swgoh_guilds",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=swgoh_guilds",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=swgoh_guilds",
-      "totalScore": 28,
-      "breakdown": {
-        "volume": 10,
-        "velocity": 8,
-        "scarcity": 0,
-        "obscurityBonus": 10,
+        "scarcity": 4,
+        "obscurityBonus": 15,
         "engagementBonus": 0
-      },
-      "mentionCount": 2,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "swgoh_guilds",
-          "title": "Come and chat, KAPPA is recruiting! 640M+ GP Guild - Order 66 raid 375M box - RotE 40 stars, Zeffo, Mandalore, 35+ Reva Shards, Guild wide Insight",
-          "text": "\n**Eternal Kappas**  \n- 640M+ GP  \n- 18:30 PST / 21:30 EST / 02:30 GMT Guild Reset  \n- We Use HotUtils/HotBot for tracking tickets, guild event participation, and reminders.  \n- We have dedicated Discord channels for TB, TW, SBR, and Bots for members to use.\n\n**REQUIREMENTS:**  \n- 12M+ GP  \n- 7 GLs  \n- Good Mods/Mod Score  \n- 2 of Executor, Profundity and Leviathan  \n- 5M+ raid score  \n- 500 Tickets Daily minimum (prefer 600)  \n- Active Discord Use (mandatory for guild events)  \n- Synced and Pub",
-          "url": "https://reddit.com/r/swgoh_guilds/comments/1rf9iqk/come_and_chat_kappa_is_recruiting_640m_gp_guild/",
-          "score": 2,
-          "numComments": 0,
-          "created": 1772110824,
-          "author": "KappaOfficer"
-        },
-        {
-          "source": "reddit",
-          "subreddit": "SWGOHRecruiting",
-          "title": "Come and chat, KAPPA is recruiting! 640M+ GP Guild - Order 66 raid 375M box - RotE 40 stars, Zeffo, Mandalore, 35+ Reva Shards, Guild wide Insight",
-          "text": "\n**Eternal Kappas**  \n- 640M+ GP  \n- 18:30 PST / 21:30 EST / 02:30 GMT Guild Reset  \n- We Use HotUtils/HotBot for tracking tickets, guild event participation, and reminders.  \n- We have dedicated Discord channels for TB, TW, SBR, and Bots for members to use.\n\n**REQUIREMENTS:**  \n- 12M+ GP  \n- 7 GLs  \n- Good Mods/Mod Score  \n- 2 of Executor, Profundity and Leviathan  \n- 5M+ raid score  \n- 500 Tickets Daily minimum (prefer 600)  \n- Active Discord Use (mandatory for guild events)  \n- Synced and Pub",
-          "url": "https://reddit.com/r/SWGOHRecruiting/comments/1rf9iq9/come_and_chat_kappa_is_recruiting_640m_gp_guild/",
-          "score": 2,
-          "numComments": 0,
-          "created": 1772110824,
-          "author": "KappaOfficer"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "text bots suck for",
-      "displayName": "Entrepreneurs",
-      "rawTitle": "Text bots suck for real support.",
-      "category": "other",
-      "eventName": "Entrepreneurs",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Entrepreneurs",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Entrepreneurs",
-      "totalScore": 28,
-      "breakdown": {
-        "volume": 10,
-        "velocity": 8,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 0
-      },
-      "mentionCount": 2,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "Entrepreneurs",
-          "title": "Text bots suck for real support.",
-          "text": "I ordered something on Shopify at 8 PM. After 15 minutes I started worrying , where is my order? I opened the store chat and a bot quickly replied with a tracking link. Helpful, right? But did it really fix my worry?\n\n\n\n Most chatbots just save store owners money. They cut tickets and give quick answers. But you still gotta open chat, type, wait, and read walls of text. Even if it’s fast, it still feels like effort.\n\n\n\nSo I started thinking… what if a customer just presses one button on the webs",
-          "url": "https://reddit.com/r/Entrepreneurs/comments/1rf9nzq/text_bots_suck_for_real_support/",
-          "score": 2,
-          "numComments": 1,
-          "created": 1772111199,
-          "author": "Slight_Republic_4242"
-        },
-        {
-          "source": "reddit",
-          "subreddit": "startup",
-          "title": "Text bots suck for real support.",
-          "text": "I ordered something on Shopify at 8 PM. After 15 minutes I started worrying , where is my order? I opened the store chat and a bot quickly replied with a tracking link. Helpful, right? But did it really fix my worry?\n\n Most chatbots just save store owners money. They cut tickets and give quick answers. But you still gotta open chat, type, wait, and read walls of text. Even if it’s fast, it still feels like effort.\n\nSo I started thinking… what if a customer just presses one button on the website ",
-          "url": "https://reddit.com/r/startup/comments/1rf9le7/text_bots_suck_for_real_support/",
-          "score": 1,
-          "numComments": 0,
-          "created": 1772111007,
-          "author": "Slight_Republic_4242"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "lee is recruiting 700m",
-      "displayName": "swgoh_guilds",
-      "rawTitle": "LEE is recruiting! 700M+ GP Guild - O66 raid max box - RotE 45 stars, Zeffo, Mandalore, 9500 GET2/GE",
-      "category": "other",
-      "eventName": "swgoh_guilds",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=swgoh_guilds",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=swgoh_guilds",
-      "totalScore": 28,
-      "breakdown": {
-        "volume": 10,
-        "velocity": 8,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 0
-      },
-      "mentionCount": 2,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "swgoh_guilds",
-          "title": "LEE is recruiting! 700M+ GP Guild - O66 raid max box - RotE 45 stars, Zeffo, Mandalore, 9500 GET2/GET3 from SM - 90%+ TW win. Guild-wide Insight",
-          "text": "\n**Legion of the Eternal Empire (LEE)**  \n- 700M+ GP  \n- 18:30 PST / 21:30 EST / 02:30 GMT Guild Reset  \n- Guild-wide Insight  \n- We use HotUtils/HotBot for tracking tickets, guild event participation, and reminders.  \n- We have dedicated Discord channels for TB, TW, SBR, and Bots for members to use.\n\n**REQUIREMENTS:**  \n- 13M+ GP  \n- 9 GLs  \n- Good Mods/Mod Score  \n- All 3 of Executor, Profundity and Leviathan  \n- 10 M+ raid score and going higher soon\n- 15 TW omicrons \n- 600 Tickets Daily mini",
-          "url": "https://reddit.com/r/swgoh_guilds/comments/1rf9iqh/lee_is_recruiting_700m_gp_guild_o66_raid_max_box/",
-          "score": 1,
-          "numComments": 0,
-          "created": 1772110824,
-          "author": "Roombya"
-        },
-        {
-          "source": "reddit",
-          "subreddit": "SWGOHRecruiting",
-          "title": "LEE is recruiting! 700M+ GP Guild - O66 raid max box - RotE 45 stars, Zeffo, Mandalore, 9500 GET2/GET3 from SM - 90%+ TW win. Guild-wide Insight",
-          "text": "\n**Legion of the Eternal Empire (LEE)**  \n- 700M+ GP  \n- 18:30 PST / 21:30 EST / 02:30 GMT Guild Reset  \n- Guild-wide Insight  \n- We use HotUtils/HotBot for tracking tickets, guild event participation, and reminders.  \n- We have dedicated Discord channels for TB, TW, SBR, and Bots for members to use.\n\n**REQUIREMENTS:**  \n- 13M+ GP  \n- 9 GLs  \n- Good Mods/Mod Score  \n- All 3 of Executor, Profundity and Leviathan  \n- 10 M+ raid score and going higher soon\n- 15 TW omicrons \n- 600 Tickets Daily mini",
-          "url": "https://reddit.com/r/SWGOHRecruiting/comments/1rf9iq6/lee_is_recruiting_700m_gp_guild_o66_raid_max_box/",
-          "score": 1,
-          "numComments": 0,
-          "created": 1772110824,
-          "author": "Roombya"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "all 10 additional hapag",
-      "displayName": "ALL 10 ADDITIONAL HAPAG SLOTS",
-      "rawTitle": "ALL 10 ADDITIONAL HAPAG SLOTS SOLD OUT! 😱\n\nThank you to everyone who already bought their DE5TINO t",
-      "category": "other",
-      "eventName": "ALL 10 ADDITIONAL HAPAG SLOTS",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=ALL%2010%20ADDITIONAL%20HAPAG%20SLOTS",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=ALL%2010%20ADDITIONAL%20HAPAG%20SLOTS",
-      "totalScore": 28,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 8,
-        "obscurityBonus": 10,
-        "engagementBonus": 1
       },
       "mentionCount": 1,
       "mentions": [
         {
           "source": "twitter",
           "subreddit": "",
-          "title": "ALL 10 ADDITIONAL HAPAG SLOTS SOLD OUT! 😱\n\nThank you to everyone who already bought their DE5TINO tickets! Very few Sin",
-          "text": "ALL 10 ADDITIONAL HAPAG SLOTS SOLD OUT! 😱\n\nThank you to everyone who already bought their DE5TINO tickets! Very few Sinigang slots left. Grab n'yo na 'to!\n\nhttps://t.co/caSupDlL0S\n\nKindly expect confirmation emails this weekend. ✨\n\n#ALAMAT #DE5TINO\n#ALAMAT5thAnniversary https://t.co/d3RZNgP20C",
-          "url": "https://x.com/i/status/2027023447554191415",
-          "score": 10,
+          "title": "So many empty seats in the Chepuk stadium for the game between Ind vs Zim. Bookmyshow has been sold out for a while, ppl",
+          "text": "So many empty seats in the Chepuk stadium for the game between Ind vs Zim. Bookmyshow has been sold out for a while, ppl are forced to buy the more expensive tickets when clearly so many empty seats available. Feel cheated! @ICC @cricketworldcup #indvszim https://t.co/p6nDVz9P1r",
+          "url": "https://x.com/i/status/2027046589773258872",
+          "score": 0,
           "numComments": 0,
-          "created": 1772115024,
-          "author": "1618252954988941313"
+          "created": 1772120542,
+          "author": "574392733"
+        }
+      ],
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "eventKey": "spottingsanghis ragavx bcci tncacricket",
+      "displayName": "TNCACricket Better use brain.",
+      "rawTitle": "@spottingsanghis @ragav_x @BCCI @TNCACricket Better use brain. Tickets are closed for sale bcs of fu",
+      "category": "sports",
+      "eventName": "TNCACricket Better use brain.",
+      "eventType": "team",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=TNCACricket%20Better%20use%20brain.+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=TNCACricket%20Better%20use%20brain.",
+      "totalScore": 28,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 15,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "@spottingsanghis @ragav_x @BCCI @TNCACricket Better use brain. Tickets are closed for sale bcs of full house sold out. A",
+          "text": "@spottingsanghis @ragav_x @BCCI @TNCACricket Better use brain. Tickets are closed for sale bcs of full house sold out. And it's india match bro not any other . This is a literal scam. They block tickets and raise the price and sell it in black",
+          "url": "https://x.com/i/status/2027042462754361494",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772119558,
+          "author": "986142185593556993"
         }
       ],
       "sources": [
@@ -885,15 +766,51 @@
       ]
     },
     {
-      "eventKey": "we have sold out",
-      "displayName": "We have @ Plymouth",
-      "rawTitle": "We have sold out Exeter following the sell out at Plymouth, but there are limited tickets available ",
+      "eventKey": "what is with the",
+      "displayName": "s to keep this",
+      "rawTitle": "What is with the community all the sudden??",
       "category": "other",
-      "eventName": "We have",
-      "eventType": "event",
-      "venueName": "Plymouth",
-      "artistUrl": "https://www.google.com/search?q=We%20have",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=We%20have",
+      "eventName": "s to keep this",
+      "eventType": "team",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=s%20to%20keep%20this+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=s%20to%20keep%20this",
+      "totalScore": 27,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 8
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "JurassicWorldApp",
+          "title": "What is with the community all the sudden??",
+          "text": "Never seen it this negative. We just got a crazy good update that basically confirms without a shadow of a doubt that Ludia wants to keep this game alive and update it to a more modern standard.\n\nInstead, half the people here are complaining that there's no DNA tickets to purchase in the slot machine (what I call it) and saying Ludia has spit in your face and killed the game because now you don't get as much bucks from trading at the harbour, as if you EVER needed that to progress the amount of ",
+          "url": "https://reddit.com/r/JurassicWorldApp/comments/1rf05rx/what_is_with_the_community_all_the_sudden/",
+          "score": 12,
+          "numComments": 36,
+          "created": 1772079027,
+          "author": "farcillle"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "opening night thurs 26th",
+      "displayName": "Opening Night (Thurs 26th) of our TY musical All Shook Up is offici...",
+      "rawTitle": "🎭 Opening Night (Thurs 26th) of our TY musical All Shook Up is officially SOLD OUT!\n\nNo tickets ava",
+      "category": "other",
+      "eventName": null,
+      "eventType": "artist",
+      "venueName": null,
+      "artistUrl": null,
+      "vividSeatsUrl": null,
       "totalScore": 27,
       "breakdown": {
         "volume": 5,
@@ -907,17 +824,53 @@
         {
           "source": "twitter",
           "subreddit": "",
-          "title": "We have sold out Exeter following the sell out at Plymouth, but there are limited tickets available from the ticket offi",
-          "text": "We have sold out Exeter following the sell out at Plymouth, but there are limited tickets available from the ticket office up until tomorrow afternoon for Doncaster,no sales on day,over 2800 already sold  All digital tickets, so no collection or reprints. Any issues contact me. https://t.co/mPtlGyuDin",
-          "url": "https://x.com/i/status/2027027893889737209",
-          "score": 1,
+          "title": "🎭 Opening Night (Thurs 26th) of our TY musical All Shook Up is officially SOLD OUT!\n\nNo tickets available at the door t",
+          "text": "🎭 Opening Night (Thurs 26th) of our TY musical All Shook Up is officially SOLD OUT!\n\nNo tickets available at the door tonight.\n\n🎟️ Limited tickets remain for Fri &amp; Sat – book now: https://t.co/N8zFzExWSq\n\nThank you for the amazing support! ✨ https://t.co/nSIRLBaUBS",
+          "url": "https://x.com/i/status/2027043436461756444",
+          "score": 0,
           "numComments": 0,
-          "created": 1772116084,
-          "author": "2904949641"
+          "created": 1772119790,
+          "author": "2372598655"
         }
       ],
       "sources": [
         "twitter"
+      ]
+    },
+    {
+      "eventKey": "chingay tickets scalped to",
+      "displayName": "Tickets",
+      "rawTitle": "Chingay tickets scalped to $200+? Hype or skip the parade circus? 🎉😩",
+      "category": "other",
+      "eventName": "Tickets",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Tickets",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Tickets",
+      "totalScore": 26,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 3
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "singaporefi",
+          "title": "Chingay tickets scalped to $200+? Hype or skip the parade circus? 🎉😩",
+          "text": "Chingay Parade hype or scam? Tickets sold out in mins, but resale $200+ scalpers everywhere. Gov event gone capitalist? F1 vibes w/o the cars. Worth the hype or skip for free Marina views?\n\nYour Chingay Plan (Feb 27-28)?\n\n•\tVIP tickets ($$)\n\n•\tFree street view\n\n•\tNetflix instead 😂\n\n•\tOther (spill)\n\nParade madness incoming—who’s going? Pics/stories pls! 🎉🪄",
+          "url": "https://reddit.com/r/singaporefi/comments/1rfa9hm/chingay_tickets_scalped_to_200_hype_or_skip_the/",
+          "score": 0,
+          "numComments": 15,
+          "created": 1772112793,
+          "author": "Holiday_Tea_2341"
+        }
+      ],
+      "sources": [
+        "reddit"
       ]
     },
     {
@@ -946,7 +899,7 @@
           "title": "🍎 Wakas at Simula: Global Fan Package on sale February 26, 2026 12NN PHT",
           "text": "The Global Fan Package offers an exclusive and premium concert experience for international fans. It includes hotel accommodation, concert tickets, merchandise, transportation, and other special perks to ensure an unforgettable experience.\n\n**On sale at February 26, 2026 12NN PHT**\n\n**What is included in the Global Fan Package?**\n\n* **Concert Tickets:** Two (2) SVIP Seated\n* **3D/2N Hotel Accommodation:** Hyatt Regency Hotel or Nobu Hotel w/ Standard Room. \n* **Room type:** King Bed or Twin Bed ",
           "url": "https://reddit.com/r/sb19/comments/1rez5fi/wakas_at_simula_global_fan_package_on_sale/",
-          "score": 58,
+          "score": 60,
           "numComments": 6,
           "created": 1772076196,
           "author": "AloofandCranky"
@@ -983,13 +936,49 @@
           "text": "I can't decide if this is workable. We will be in Aruba for DS's 15th birthday. He loves flamingos but even if we could make peace with the fact that they are being held captive, I don't see a workable option price wise.\n\n1. If we can get tickets to Flamingo Island ($375) he would only have a one hour window when he'd be allowed? He does not look 15; I work on a college campus and people generally think he's an upperclassman. He's 6ft and mature. Do they check id for the \"adult only\" area?\n2. An",
           "url": "https://reddit.com/r/Aruba/comments/1rexff0/flamingos/",
           "score": 0,
-          "numComments": 11,
+          "numComments": 12,
           "created": 1772071529,
           "author": "OnlyDependent3986"
         }
       ],
       "sources": [
         "reddit"
+      ]
+    },
+    {
+      "eventKey": "ragavx tncacricket this is",
+      "displayName": "@ragav_x @TNCACricket This is why half the cricket lovers in the ci...",
+      "rawTitle": "@ragav_x @TNCACricket This is why half the cricket lovers in the city who actually wanna watch match",
+      "category": "sports",
+      "eventName": null,
+      "eventType": "team",
+      "venueName": null,
+      "artistUrl": null,
+      "vividSeatsUrl": null,
+      "totalScore": 26,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 15,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "@ragav_x @TNCACricket This is why half the cricket lovers in the city who actually wanna watch matches for a reasonable ",
+          "text": "@ragav_x @TNCACricket This is why half the cricket lovers in the city who actually wanna watch matches for a reasonable price don't get tickets. Not sure who blocks this (I'm guessing the TNCA), but they should be investigated. How tf is this sold out?",
+          "url": "https://x.com/i/status/2027047288473084052",
+          "score": 1,
+          "numComments": 0,
+          "created": 1772120708,
+          "author": "1534900214443560961"
+        }
+      ],
+      "sources": [
+        "twitter"
       ]
     }
   ]
