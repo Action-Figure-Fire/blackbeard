@@ -291,16 +291,28 @@ async function scanBrave() {
   if (!key) { console.log('  Brave: skipped (no API key)'); return []; }
 
   const queries = [
+    // Reddit via Brave (replaces Reddit API)
+    'site:reddit.com "sold out" tickets',
+    'site:reddit.com "can\'t get tickets"',
+    'site:reddit.com "sold out" concert OR show 2026',
+    'site:reddit.com "sold out" wrestling OR gymnastics tickets',
+    'site:reddit.com "sold out" volleyball OR softball tickets',
+    'site:reddit.com "sold out" minor league OR milb OR "banana ball"',
+    'site:reddit.com "need tickets" "sold out"',
+    'site:reddit.com "sold out" comedy OR comedian tickets',
+    'site:reddit.com "sold out" college sports tickets',
+    'site:reddit.com "sold out" hockey OR lacrosse tickets',
+    // General web
     '"sold out" tickets concert 2026',
-    '"sold out" college wrestling tickets',
-    '"sold out" college gymnastics tickets',
-    '"sold out" minor league baseball tickets',
+    '"sold out" college wrestling tickets 2026',
+    '"sold out" college gymnastics tickets 2026',
+    '"sold out" minor league baseball tickets 2026',
     '"sold out" comedy show tickets 2026',
-    '"sold out" college volleyball tickets',
-    '"sold out" college softball tickets',
-    '"sold out" lacrosse tickets',
+    '"sold out" college volleyball softball tickets 2026',
     '"can\'t get tickets" sold out event 2026',
-    'savannah bananas tickets sold out 2026'
+    'savannah bananas tickets sold out 2026',
+    '"sold out" Frozen Four NCAA tickets 2026',
+    '"sold out" Women\'s Final Four tickets 2026'
   ];
 
   const results = [];
