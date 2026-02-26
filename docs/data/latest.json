@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-02-26T21:01:35.326Z",
-  "scanDurationMs": 236383,
-  "totalMentionsFound": 888,
-  "eventsScored": 14,
+  "timestamp": "2026-02-26T21:10:21.016Z",
+  "scanDurationMs": 246183,
+  "totalMentionsFound": 885,
+  "eventsScored": 9,
   "events": [
     {
       "eventKey": "wiaa wrestling tournament sold",
@@ -14,6 +14,10 @@
       "venueName": null,
       "artistUrl": "https://www.google.com/search?q=WIAA%20wrestling%20tournament+official+site",
       "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=WIAA%20wrestling%20tournament",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
       "totalScore": 42,
       "breakdown": {
         "volume": 5,
@@ -33,7 +37,7 @@
           "url": "https://fox11online.com/sports/high-school-gametime/2026-wiaa-state-high-school-individual-wrestling-tournament-championships-kohl-center-sold-out-tv-streaming-viewing-options",
           "score": 0,
           "numComments": 0,
-          "created": 1772053270.238,
+          "created": 1772053790.805,
           "author": "fox11online.com"
         }
       ],
@@ -49,42 +53,6 @@
       }
     },
     {
-      "eventKey": "omgg also question",
-      "displayName": "Lvjy",
-      "rawTitle": "OMGG ALSO QUESTION",
-      "category": "concerts",
-      "eventName": "Lvjy",
-      "eventType": "artist",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Lvjy+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Lvjy",
-      "totalScore": 34,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 4,
-        "obscurityBonus": 15,
-        "engagementBonus": 6
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "lvjy",
-          "title": "OMGG ALSO QUESTION",
-          "text": "So omg Europe tour I can't I'm screaming just a question for people who have bought tickets how long until do they sell out cause I need to know cause I'll have class and need to try and get them I'm not talking about the america tour because obviously there's more of you but like people who have been to a england show or older Poland show or just a smaller show in general how long do the tickets take to sell out please I need answers help a girl out",
-          "url": "https://reddit.com/r/lvjy/comments/1rf74l6/omgg_also_question/",
-          "score": 21,
-          "numComments": 20,
-          "created": 1772103266,
-          "author": "Urt3nzn"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
       "eventKey": "per wrestletix tonights dynamite",
       "displayName": "Pro Wrestling",
       "rawTitle": "Per WrestleTix, tonight’s Dynamite is SOLD OUT",
@@ -94,6 +62,10 @@
       "venueName": null,
       "artistUrl": "https://www.google.com/search?q=Pro%20Wrestling+official+site",
       "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Pro%20Wrestling",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
       "totalScore": 31,
       "breakdown": {
         "volume": 5,
@@ -111,7 +83,7 @@
           "title": "Per WrestleTix, tonight’s Dynamite is SOLD OUT",
           "text": "",
           "url": "https://reddit.com/r/SquaredCircle/comments/1reuuba/per_wrestletix_tonights_dynamite_is_sold_out/",
-          "score": 110,
+          "score": 113,
           "numComments": 42,
           "created": 1772064897,
           "author": "Subrick"
@@ -138,6 +110,10 @@
       "venueName": null,
       "artistUrl": "https://www.google.com/search?q=Lvjy+official+site",
       "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Lvjy",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
       "totalScore": 23,
       "breakdown": {
         "volume": 5,
@@ -165,6 +141,46 @@
       ]
     },
     {
+      "eventKey": "nanolaivar congrats sb19 global",
+      "displayName": "Global Fan Packages",
+      "rawTitle": "@NanOlaivar Congrats SB19! Global Fan Packages sold out in a flash – that's the power of P-pop and d",
+      "category": "concerts",
+      "eventName": "Global Fan Packages",
+      "eventType": "artist",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Global%20Fan%20Packages+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Global%20Fan%20Packages",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
+      "totalScore": 23,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "@NanOlaivar Congrats SB19! Global Fan Packages sold out in a flash – that's the power of P-pop and dedicated fans worldw",
+          "text": "@NanOlaivar Congrats SB19! Global Fan Packages sold out in a flash – that's the power of P-pop and dedicated fans worldwide. The Trilogy Concert Finale on April 18 is shaping up to be massive. Still grabbing tickets via presale tomorrow? Let's go! 🚀🎤",
+          "url": "https://x.com/i/status/2027126684235747747",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772139638,
+          "author": "1720665183188922368"
+        }
+      ],
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
       "eventKey": "its so insane to",
       "displayName": "Minneapolis headline",
       "rawTitle": "It’s so insane to me that the first tier of tickets for my Minneapolis headline sold out so quickly ",
@@ -174,6 +190,10 @@
       "venueName": null,
       "artistUrl": "https://www.google.com/search?q=Minneapolis%20headline",
       "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Minneapolis%20headline",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
       "totalScore": 23,
       "breakdown": {
         "volume": 5,
@@ -210,6 +230,10 @@
       "venueName": "Gallagher-Iba Arena",
       "artistUrl": "https://www.google.com/search?q=Cowboys+official+site",
       "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Cowboys",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
       "totalScore": 22,
       "breakdown": {
         "volume": 5,
@@ -229,7 +253,7 @@
           "url": "https://www.themat.com/news/2026/february/22/no-3-oklahoma-state-reverses-loss-to-no-7-iowa-to-close-regular-season",
           "score": 0,
           "numComments": 0,
-          "created": 1772053270.238,
+          "created": 1772053790.805,
           "author": "www.themat.com"
         }
       ],
@@ -254,6 +278,10 @@
       "venueName": null,
       "artistUrl": "https://www.google.com/search?q=Lookouts%20opening%20game+official+site",
       "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Lookouts%20opening%20game",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
       "totalScore": 22,
       "breakdown": {
         "volume": 5,
@@ -272,7 +300,7 @@
           "url": "https://www.local3news.com/local-news/update-chattanooga-lookouts-opening-game-tickets-sold-out-with-50-days-to-go/article_6f37ec5b-ec98-4675-a8c0-06837827549c.html",
           "score": 0,
           "numComments": 0,
-          "created": 1772053272.602,
+          "created": 1772053793.98,
           "author": "www.local3news.com"
         }
       ],
@@ -290,6 +318,10 @@
       "venueName": null,
       "artistUrl": "https://www.google.com/search?q=late+broadway+tickets",
       "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=late",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
       "totalScore": 21,
       "breakdown": {
         "volume": 5,
@@ -325,50 +357,6 @@
       }
     },
     {
-      "eventKey": "selling 2 minneapolis tickets",
-      "displayName": "Doja Cat",
-      "rawTitle": "Selling 2 Minneapolis Tickets for Pre-Sale Price!!",
-      "category": "other",
-      "eventName": "Doja Cat",
-      "eventType": "artist",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Doja%20Cat+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Doja%20Cat",
-      "totalScore": 19,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 0,
-        "trendsBonus": 0
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "DojaCat",
-          "title": "Selling 2 Minneapolis Tickets for Pre-Sale Price!!",
-          "text": "Hi there! I'm selling 2 tickets for Doja's show in Minneapolis, MN on 10/4 (section 131, row T, seats 5-6)! Honestly, me and my friend really reallyyyy wanted to go to the show, but I'm moving in July and it's just not possible :/ I hope someone else gets to enjoy the show instead though!\n\nWe got these tickets during the pre-sale, so I actually got a really good price on them for how good the seats are. Tbh, I'm not really interested in profiting off them, we just don't want them to go to waste ",
-          "url": "https://reddit.com/r/DojaCat/comments/1rfif9l/selling_2_minneapolis_tickets_for_presale_price/",
-          "score": 2,
-          "numComments": 0,
-          "created": 1772131128,
-          "author": "444-itall"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ],
-      "googleTrends": {
-        "spike": 1.08,
-        "peak": 100,
-        "recentAvg": 23,
-        "trending": false,
-        "hot": false
-      }
-    },
-    {
       "eventKey": "need tickets for friday",
       "displayName": "Durham Bulls",
       "rawTitle": "need tickets for friday night? i have 5",
@@ -378,6 +366,10 @@
       "venueName": null,
       "artistUrl": "https://www.google.com/search?q=Durham%20Bulls+official+site",
       "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Durham%20Bulls",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
       "totalScore": 17,
       "breakdown": {
         "volume": 5,
@@ -399,182 +391,6 @@
           "numComments": 1,
           "created": 1680213378,
           "author": "Bugs4Brains0650"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ],
-      "googleTrends": {
-        "spike": 1.81,
-        "peak": 100,
-        "recentAvg": 46,
-        "trending": false,
-        "hot": false
-      }
-    },
-    {
-      "eventKey": "bruce springsteen 2026 tour",
-      "displayName": "Bruce Springsteen 2026",
-      "rawTitle": "Bruce Springsteen 2026 Tour: Where to Buy Tickets",
-      "category": "concerts",
-      "eventName": "Bruce Springsteen 2026",
-      "eventType": "artist",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Bruce%20Springsteen%202026+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Bruce%20Springsteen%202026",
-      "totalScore": 17,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 0,
-        "scarcity": 2,
-        "obscurityBonus": 10,
-        "engagementBonus": 0,
-        "trendsBonus": 0
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "brave",
-          "subreddit": "",
-          "title": "Bruce Springsteen 2026 Tour: Where to Buy Tickets",
-          "text": "Bruce Springsteen is taking the ... unsurprisingly, demand is high. <strong>Several cities sold out after tickets went on sale on Friday, with Variety reporting that they spotted online queues of up to 100,000</strong>....",
-          "url": "https://www.rollingstone.com/product-recommendations/tickets/bruce-springsteen-e-street-band-tour-tickets-buy-online-1235521364/",
-          "score": 0,
-          "numComments": 0,
-          "created": 1772053269.053,
-          "author": "www.rollingstone.com"
-        }
-      ],
-      "sources": [
-        "brave"
-      ],
-      "googleTrends": {
-        "spike": 0.47,
-        "peak": 100,
-        "recentAvg": 9,
-        "trending": false,
-        "hot": false
-      }
-    },
-    {
-      "eventKey": "simple plan 2026 tour",
-      "displayName": "Simple Plan 2026",
-      "rawTitle": "Simple Plan 2026 Tour Setlist, Dates & Tickets Presale",
-      "category": "concerts",
-      "eventName": "Simple Plan 2026",
-      "eventType": "artist",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Simple%20Plan%202026+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Simple%20Plan%202026",
-      "totalScore": 17,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 0,
-        "scarcity": 2,
-        "obscurityBonus": 10,
-        "engagementBonus": 0,
-        "trendsBonus": 0
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "brave",
-          "subreddit": "",
-          "title": "Simple Plan 2026 Tour Setlist, Dates & Tickets Presale",
-          "text": "Here is the expected setlist of ... Fans can also search for ticket deals on StubHub. If a show is sold out, <strong>tickets may still be available on StubHub</strong>....",
-          "url": "https://toursetlist.com/simple-plan-2026-tour-setlist-dates-presale/",
-          "score": 0,
-          "numComments": 0,
-          "created": 1772053269.053,
-          "author": "toursetlist.com"
-        }
-      ],
-      "sources": [
-        "brave"
-      ],
-      "googleTrends": {
-        "spike": 0,
-        "peak": 100,
-        "recentAvg": 0,
-        "trending": false,
-        "hot": false
-      }
-    },
-    {
-      "eventKey": "bts 2026 world tour",
-      "displayName": "BTS 2026",
-      "rawTitle": "BTS 2026 World Tour just dropped and I’m literally not okay  Stadiums sold out in MINUTES, Goyang 3 ",
-      "category": "concerts",
-      "eventName": "BTS 2026",
-      "eventType": "artist",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=BTS%202026+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=BTS%202026",
-      "totalScore": 13,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 0,
-        "scarcity": 8,
-        "obscurityBonus": 0,
-        "engagementBonus": 0,
-        "trendsBonus": 0
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "twitter",
-          "subreddit": "",
-          "title": "BTS 2026 World Tour just dropped and I’m literally not okay  Stadiums sold out in MINUTES, Goyang 3 nights, North Americ",
-          "text": "BTS 2026 World Tour just dropped and I’m literally not okay  Stadiums sold out in MINUTES, Goyang 3 nights, North America, Europe… ARMY we are SO BACK!!\n\n Which city are you manifesting tickets for? Or are you doing the live cinema thing? \n\nTell me your plans!!  Drop a  if https://t.co/FpVZ09PyeM",
-          "url": "https://x.com/i/status/2026675933596529075",
-          "score": 0,
-          "numComments": 0,
-          "created": 1772032171,
-          "author": "2024075807778582529"
-        }
-      ],
-      "sources": [
-        "twitter"
-      ],
-      "googleTrends": {
-        "spike": 0.38,
-        "peak": 100,
-        "recentAvg": 11,
-        "trending": false,
-        "hot": false
-      }
-    },
-    {
-      "eventKey": "ok to buy tix",
-      "displayName": "Durham Bulls",
-      "rawTitle": "Ok to buy tix at the stadium?",
-      "category": "minor-league",
-      "eventName": "Durham Bulls",
-      "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Durham%20Bulls+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Durham%20Bulls",
-      "totalScore": 7,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 0,
-        "scarcity": 2,
-        "obscurityBonus": 0,
-        "engagementBonus": 0,
-        "trendsBonus": 0
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "DurhamBulls",
-          "title": "Ok to buy tix at the stadium?",
-          "text": "Do tix sell out ahead of time, or ok to buy at the stadium?",
-          "url": "https://reddit.com/r/DurhamBulls/comments/p8s2n6/ok_to_buy_tix_at_the_stadium/",
-          "score": 3,
-          "numComments": 2,
-          "created": 1629554853,
-          "author": "branchtortuga"
         }
       ],
       "sources": [

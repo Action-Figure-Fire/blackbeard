@@ -860,10 +860,60 @@ async function runScan() {
       venueName: info.venueName,
       artistUrl: artistPageUrl(info.eventName, info.eventType),
       vividSeatsUrl: vividSeatsUrl(info.eventName),
+      venueCapacity: null,
+      venueFromSeatGeek: null,
+      venueCity: null,
+      venueState: null,
       ...scoring,
       mentions: mentions.slice(0, 5),
       sources: [...new Set(mentions.map(m => m.source))]
     });
+  }
+
+  // --- Big-Name / Big-Venue Filter ---
+  // These artists/acts consistently play 10k+ venues — not niche
+  const BIG_NAME_ACTS = [
+    'bts', 'taylor swift', 'bruce springsteen', 'beyonce', 'drake', 'bad bunny',
+    'travis scott', 'the weeknd', 'ed sheeran', 'coldplay', 'adele', 'harry styles',
+    'dua lipa', 'billie eilish', 'post malone', 'morgan wallen', 'luke combs',
+    'kenny chesney', 'garth brooks', 'u2', 'metallica', 'pink', 'rihanna',
+    'justin bieber', 'lady gaga', 'bruno mars', 'the rolling stones',
+    'foo fighters', 'red hot chili peppers', 'doja cat', 'sza', 'olivia rodrigo',
+    'noah kahan', 'zach bryan', 'chris stapleton', 'eric church',
+    'simple plan', 'green day', 'linkin park', 'sabrina carpenter',
+    'chappell roan', 'tyler the creator', 'kendrick lamar', 'j. cole',
+    'nba', 'nfl', 'mlb', 'nhl', 'mls', 'super bowl', 'world series',
+    'stanley cup', 'all-star game', 'pro bowl'
+  ];
+  // Also filter by venue keywords that indicate 10k+ capacity
+  const BIG_VENUE_KEYWORDS = [
+    'stadium', 'arena tour', 'world tour', 'stadium tour',
+    'msg', 'madison square garden', 'staples center', 'crypto.com arena',
+    'united center', 'td garden', 'barclays center', 'chase center',
+    'sofi stadium', 'metlife', 'at&t stadium', 'allegiant stadium',
+    'soldier field', 'lambeau', 'yankee stadium', 'dodger stadium',
+    'wrigley field', 'fenway park', 'oracle park', 'globe life field',
+    'mercedes-benz stadium', 'lucas oil', 'us bank stadium',
+    'state farm arena', 'ball arena', 'capital one arena',
+    'scotiabank arena', 'little caesars arena', 'amalie arena'
+  ];
+
+  const beforeFilter = scoredEvents.length;
+  for (let i = scoredEvents.length - 1; i >= 0; i--) {
+    const e = scoredEvents[i];
+    const nameLower = (e.eventName || '').toLowerCase();
+    const allText = (e.mentions || []).map(m => `${m.title} ${m.text}`).join(' ').toLowerCase();
+
+    const isBigName = BIG_NAME_ACTS.some(bn => nameLower.includes(bn));
+    const isBigVenue = BIG_VENUE_KEYWORDS.some(bv => allText.includes(bv));
+
+    if (isBigName || isBigVenue) {
+      console.log(`  ❌ Filtered: ${e.eventName} (${isBigName ? 'big-name act' : 'big venue'})`);
+      scoredEvents.splice(i, 1);
+    }
+  }
+  if (beforeFilter > scoredEvents.length) {
+    console.log(`  Venue filter: removed ${beforeFilter - scoredEvents.length} big-name/big-venue events`);
   }
 
   // Google Trends verification for top candidates (limit to save API calls)
