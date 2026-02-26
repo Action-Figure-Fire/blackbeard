@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-02-26T16:14:06.747Z",
-  "scanDurationMs": 185419,
-  "totalMentionsFound": 893,
-  "eventsScored": 139,
+  "timestamp": "2026-02-26T17:50:04.396Z",
+  "scanDurationMs": 230429,
+  "totalMentionsFound": 907,
+  "eventsScored": 22,
   "events": [
     {
       "eventKey": "has anyone actually been",
@@ -20,7 +20,8 @@
         "velocity": 4,
         "scarcity": 2,
         "obscurityBonus": 15,
-        "engagementBonus": 10
+        "engagementBonus": 10,
+        "trendsBonus": 0
       },
       "mentionCount": 1,
       "mentions": [
@@ -30,7 +31,7 @@
           "title": "Has anyone actually been able to get resale tickets off of TM",
           "text": "Asking because every time I refresh and see a new seat pop up on Ticketmaster, it gets snagged almost simultaneously. I believe that bots and scammers are just continuously monitoring the concerts for face value drops to resell them triple the value. I had a personal experience where a reddit user and I coordinated a time where they would drop their tickets so I could get them. As soon as they were available I added them to my cart and was in the process of checking out when I got notified they ",
           "url": "https://reddit.com/r/TameImpala/comments/1rer1il/has_anyone_actually_been_able_to_get_resale/",
-          "score": 19,
+          "score": 20,
           "numComments": 41,
           "created": 1772056149,
           "author": "Adept_Contribution36"
@@ -38,7 +39,14 @@
       ],
       "sources": [
         "reddit"
-      ]
+      ],
+      "googleTrends": {
+        "spike": 1.85,
+        "peak": 100,
+        "recentAvg": 28,
+        "trending": false,
+        "hot": false
+      }
     },
     {
       "eventKey": "omgg also question",
@@ -66,8 +74,8 @@
           "title": "OMGG ALSO QUESTION",
           "text": "So omg Europe tour I can't I'm screaming just a question for people who have bought tickets how long until do they sell out cause I need to know cause I'll have class and need to try and get them I'm not talking about the america tour because obviously there's more of you but like people who have been to a england show or older Poland show or just a smaller show in general how long do the tickets take to sell out please I need answers help a girl out",
           "url": "https://reddit.com/r/lvjy/comments/1rf74l6/omgg_also_question/",
-          "score": 16,
-          "numComments": 19,
+          "score": 18,
+          "numComments": 20,
           "created": 1772103266,
           "author": "Urt3nzn"
         }
@@ -77,370 +85,167 @@
       ]
     },
     {
-      "eventKey": "feeling sour recently",
-      "displayName": "Illenium",
-      "rawTitle": "Feeling sour recently",
-      "category": "sports",
-      "eventName": "Illenium",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Illenium",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Illenium",
-      "totalScore": 31,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 2,
-        "obscurityBonus": 10,
-        "engagementBonus": 10
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "Illenium",
-          "title": "Feeling sour recently",
-          "text": "I can't help the need to express my feelings about this: On the sale date of the sphere, we queued up to purchase tickets. By the time we were able to get in, there were barely any seats left (or so we thought). There were very few available seats (10%) in the seating map. Considering it's my best friend's birthday, we shelled out $380 for each tickets, thinking that it's already 80-90% sold out. However, we learned later on that so many available seats were hidden as now they are available - ha",
-          "url": "https://reddit.com/r/Illenium/comments/1rf09at/feeling_sour_recently/",
-          "score": 27,
-          "numComments": 38,
-          "created": 1772079312,
-          "author": "CuddlyAsianBoi"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "per wrestletix tonights dynamite",
-      "displayName": "Dynamite",
-      "rawTitle": "Per WrestleTix, tonight’s Dynamite is SOLD OUT",
+      "eventKey": "managed to enter the",
+      "displayName": "FIFA World Cup 2026 @ I wanted were already sold out",
+      "rawTitle": "Managed to enter the tickets sale page",
       "category": "other",
-      "eventName": "Dynamite",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Dynamite",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Dynamite",
-      "totalScore": 31,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 2,
-        "obscurityBonus": 10,
-        "engagementBonus": 10
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "SquaredCircle",
-          "title": "Per WrestleTix, tonight’s Dynamite is SOLD OUT",
-          "text": "",
-          "url": "https://reddit.com/r/SquaredCircle/comments/1reuuba/per_wrestletix_tonights_dynamite_is_sold_out/",
-          "score": 108,
-          "numComments": 43,
-          "created": 1772064897,
-          "author": "Subrick"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "guest took a photo",
-      "displayName": "Nearly",
-      "rawTitle": "Guest took a photo of my empty desk while I was helping them and wrote a review about “the level of ",
-      "category": "sports",
-      "eventName": "Nearly",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Nearly",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Nearly",
-      "totalScore": 31,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 2,
-        "obscurityBonus": 10,
-        "engagementBonus": 10
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "TalesFromTheFrontDesk",
-          "title": "Guest took a photo of my empty desk while I was helping them and wrote a review about “the level of service” 💀",
-          "text": "So picture this.\n\nNearly sold out night. It’s around 8pm. The vibes are already “we have exactly 2 rooms left and they both hate humanity.”\n\nGuest comes down furious because the room they were assigned earlier in the day is “too loud.” (Not my shift, not my placement.)\n\nThey demand a quieter room.\n\nI check availability. I have exactly two rooms left. And I tell them, honestly:\n\n“I completely understand wanting something quieter, but the only two rooms I have available tonight are actually two of",
-          "url": "https://reddit.com/r/TalesFromTheFrontDesk/comments/1rez1xb/guest_took_a_photo_of_my_empty_desk_while_i_was/",
-          "score": 551,
-          "numComments": 36,
-          "created": 1772075912,
-          "author": "Strict-Strain4600"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "my school is giving",
-      "displayName": "formuladank",
-      "rawTitle": "My school is giving away free tickets to Aus GP, YOU guys answer the question, ANYTHING goes.",
-      "category": "other",
-      "eventName": "formuladank",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=formuladank",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=formuladank",
-      "totalScore": 29,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 10
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "formuladank",
-          "title": "My school is giving away free tickets to Aus GP, YOU guys answer the question, ANYTHING goes.",
-          "text": "no swear words but otherwise its aight",
-          "url": "https://reddit.com/r/formuladank/comments/1rf7idy/my_school_is_giving_away_free_tickets_to_aus_gp/",
-          "score": 969,
-          "numComments": 135,
-          "created": 1772104589,
-          "author": "YCWP"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "patos games",
-      "displayName": "Crypto Moon Shots",
-      "rawTitle": "Patos Meme Coin Launches \"$PATOS Games\" | P2E &amp; GameFi on Solana",
-      "category": "other",
-      "eventName": "Crypto Moon Shots",
+      "eventName": "FIFA World Cup 2026",
       "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Crypto%20Moon%20Shots+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Crypto%20Moon%20Shots",
-      "totalScore": 29,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 10
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "CryptoMoonShots",
-          "title": "Patos Meme Coin Launches \"$PATOS Games\" | P2E &amp; GameFi on Solana",
-          "text": "# Where to buy $PATOS Meme Coins today? \n\n[**PatosMemeCoin.com**](http://PatosMemeCoin.com)\n\n# Today, PATOS Games Launched | P2E &amp; GameFi on Solana\n\nThe narrative on Solana has shifted so people are now understanding what 'brand value' is and why its' important.\n\nWhile most presales are drowning in \"ghostware\" promises, **Patos Meme Coin** has solidified its position as the top contender through verified exchange confirmations and massive marketing saturation. Today, the project adds another",
-          "url": "https://reddit.com/r/CryptoMoonShots/comments/1rf1gxb/patos_meme_coin_launches_patos_games_p2e_gamefi/",
-          "score": 96,
-          "numComments": 54,
-          "created": 1772082989,
-          "author": "Money-Studio-56"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "so many empty seats",
-      "displayName": "Bookmyshow has been",
-      "rawTitle": "So many empty seats in the Chepuk stadium for the game between Ind vs Zim. Bookmyshow has been sold ",
-      "category": "sports",
-      "eventName": "Bookmyshow has been",
-      "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Bookmyshow%20has%20been+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Bookmyshow%20has%20been",
-      "totalScore": 28,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 4,
-        "obscurityBonus": 15,
-        "engagementBonus": 0
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "twitter",
-          "subreddit": "",
-          "title": "So many empty seats in the Chepuk stadium for the game between Ind vs Zim. Bookmyshow has been sold out for a while, ppl",
-          "text": "So many empty seats in the Chepuk stadium for the game between Ind vs Zim. Bookmyshow has been sold out for a while, ppl are forced to buy the more expensive tickets when clearly so many empty seats available. Feel cheated! @ICC @cricketworldcup #indvszim https://t.co/p6nDVz9P1r",
-          "url": "https://x.com/i/status/2027046589773258872",
-          "score": 0,
-          "numComments": 0,
-          "created": 1772120542,
-          "author": "574392733"
-        }
-      ],
-      "sources": [
-        "twitter"
-      ]
-    },
-    {
-      "eventKey": "what is with the",
-      "displayName": "Jurassic World App",
-      "rawTitle": "What is with the community all the sudden??",
-      "category": "other",
-      "eventName": "Jurassic World App",
-      "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Jurassic%20World%20App+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Jurassic%20World%20App",
-      "totalScore": 27,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 8
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "JurassicWorldApp",
-          "title": "What is with the community all the sudden??",
-          "text": "Never seen it this negative. We just got a crazy good update that basically confirms without a shadow of a doubt that Ludia wants to keep this game alive and update it to a more modern standard.\n\nInstead, half the people here are complaining that there's no DNA tickets to purchase in the slot machine (what I call it) and saying Ludia has spit in your face and killed the game because now you don't get as much bucks from trading at the harbour, as if you EVER needed that to progress the amount of ",
-          "url": "https://reddit.com/r/JurassicWorldApp/comments/1rf05rx/what_is_with_the_community_all_the_sudden/",
-          "score": 13,
-          "numComments": 36,
-          "created": 1772079027,
-          "author": "farcillle"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "wakas at simula global",
-      "displayName": "sb19 @ February 26",
-      "rawTitle": "🍎 Wakas at Simula: Global Fan Package on sale February 26, 2026 12NN PHT",
-      "category": "concerts",
-      "eventName": "sb19",
-      "eventType": "artist",
-      "venueName": "February 26",
-      "artistUrl": "https://www.google.com/search?q=sb19+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=sb19",
-      "totalScore": 26,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 7
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "sb19",
-          "title": "🍎 Wakas at Simula: Global Fan Package on sale February 26, 2026 12NN PHT",
-          "text": "The Global Fan Package offers an exclusive and premium concert experience for international fans. It includes hotel accommodation, concert tickets, merchandise, transportation, and other special perks to ensure an unforgettable experience.\n\n**On sale at February 26, 2026 12NN PHT**\n\n**What is included in the Global Fan Package?**\n\n* **Concert Tickets:** Two (2) SVIP Seated\n* **3D/2N Hotel Accommodation:** Hyatt Regency Hotel or Nobu Hotel w/ Standard Room. \n* **Room type:** King Bed or Twin Bed ",
-          "url": "https://reddit.com/r/sb19/comments/1rez5fi/wakas_at_simula_global_fan_package_on_sale/",
-          "score": 58,
-          "numComments": 6,
-          "created": 1772076196,
-          "author": "AloofandCranky"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "not only this other",
-      "displayName": "BMS it ws mentioned",
-      "rawTitle": "Not only this other stands too which are not full only 80% is full and lounge asusual just 50% full ",
-      "category": "sports",
-      "eventName": "BMS it ws mentioned",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=BMS%20it%20ws%20mentioned",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=BMS%20it%20ws%20mentioned",
-      "totalScore": 26,
+      "venueName": "I wanted were already sold out",
+      "artistUrl": "https://www.google.com/search?q=FIFA%20World%20Cup%202026+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=FIFA%20World%20Cup%202026",
+      "totalScore": 23,
       "breakdown": {
         "volume": 5,
         "velocity": 4,
         "scarcity": 2,
-        "obscurityBonus": 15,
-        "engagementBonus": 0
+        "obscurityBonus": 10,
+        "engagementBonus": 2,
+        "trendsBonus": 0
       },
       "mentionCount": 1,
       "mentions": [
         {
-          "source": "twitter",
-          "subreddit": "",
-          "title": "Not only this other stands too which are not full only 80% is full and lounge asusual just 50% full ..what scam shit @TN",
-          "text": "Not only this other stands too which are not full only 80% is full and lounge asusual just 50% full ..what scam shit @TNCACricket is doing @BCCI high time you look into this,true cricket lovers did nt get any tickets where BMS it ws mentioned sold out but c here #T20WorldCup2026 https://t.co/I1vamddJt7",
-          "url": "https://x.com/i/status/2027044489500778637",
-          "score": 0,
-          "numComments": 0,
-          "created": 1772120041,
-          "author": "3177055921"
+          "source": "reddit",
+          "subreddit": "WorldCup2026Tickets",
+          "title": "Managed to enter the tickets sale page",
+          "text": "I managed to enter the last ticket sale link that I received by mail just a few moments, unfortunately the tickets that I wanted were already sold out, this are the only ones that were available ",
+          "url": "https://reddit.com/r/WorldCup2026Tickets/comments/1rf1c9s/managed_to_enter_the_tickets_sale_page/",
+          "score": 7,
+          "numComments": 11,
+          "created": 1772082576,
+          "author": "TENNSHIXX"
         }
       ],
       "sources": [
-        "twitter"
-      ]
+        "reddit"
+      ],
+      "googleTrends": {
+        "spike": 0.7,
+        "peak": 100,
+        "recentAvg": 25,
+        "trending": false,
+        "hot": false
+      }
     },
     {
-      "eventKey": "rjcole on reddit the",
-      "displayName": "Cole",
-      "rawTitle": "r/Jcole on Reddit: The Fall Off Tour - Sold Out?",
-      "category": "concerts",
-      "eventName": "Cole",
-      "eventType": "artist",
+      "eventKey": "arch enemy cologne",
+      "displayName": "Arch Enemy",
+      "rawTitle": "Arch Enemy Cologne",
+      "category": "other",
+      "eventName": "Arch Enemy",
+      "eventType": "event",
       "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Cole+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Cole",
-      "totalScore": 26,
+      "artistUrl": "https://www.google.com/search?q=Arch%20Enemy",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Arch%20Enemy",
+      "totalScore": 22,
       "breakdown": {
-        "volume": 10,
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 1,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "ArchEnemy",
+          "title": "Arch Enemy Cologne",
+          "text": "Hi fellow fans!\n\nI am after a ticket to the Arch Enemy show in Cologne! It sold out fast and I am travelling from overseas and will be in Cologne at that time 😢\n\nHappy to pay extra for the ticket!",
+          "url": "https://reddit.com/r/ArchEnemy/comments/1rf5oj4/arch_enemy_cologne/",
+          "score": 9,
+          "numComments": 4,
+          "created": 1772097941,
+          "author": "Potential_Algae_4877"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ],
+      "googleTrends": {
+        "spike": 1.27,
+        "peak": 100,
+        "recentAvg": 9,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "no 3 oklahoma state",
+      "displayName": "Cowboys @ Gallagher-Iba Arena",
+      "rawTitle": "No. 3 Oklahoma State reverses loss to No. 7 Iowa to close regular season | USA Wrestling",
+      "category": "sports",
+      "eventName": "Cowboys",
+      "eventType": "team",
+      "venueName": "Gallagher-Iba Arena",
+      "artistUrl": "https://www.google.com/search?q=Cowboys+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Cowboys",
+      "totalScore": 22,
+      "breakdown": {
+        "volume": 5,
         "velocity": 0,
-        "scarcity": 6,
-        "obscurityBonus": 10,
-        "engagementBonus": 0
+        "scarcity": 2,
+        "obscurityBonus": 15,
+        "engagementBonus": 0,
+        "trendsBonus": 0
       },
-      "mentionCount": 2,
+      "mentionCount": 1,
       "mentions": [
         {
           "source": "brave",
           "subreddit": "",
-          "title": "r/Jcole on Reddit: The Fall Off Tour - Sold Out?",
-          "text": "That means Ticketmaster bought the tickets themselves and then trickled them out. I hate when they do that because I’m sure some fans gave up and didn’t try again closer to the time ... This definitely isn’t “all” of the tickets. Ticketmaster is holding on to some of them ... Unfortunately it is. They had to add additional shows to the tour because it sold out so quickly in multiple spots.",
-          "url": "https://www.reddit.com/r/Jcole/comments/1ra0ik0/the_fall_off_tour_sold_out/",
+          "title": "No. 3 Oklahoma State reverses loss to No. 7 Iowa to close regular season | USA Wrestling",
+          "text": "David Taylor’s Cowboys sold out Gallagher-Iba Arena with <strong>12,629 fans</strong> for the second time this season, with a crowd os <strong>12,629 fans</strong> boosting this season’s average attendance to 9,259.",
+          "url": "https://www.themat.com/news/2026/february/22/no-3-oklahoma-state-reverses-loss-to-no-7-iowa-to-close-regular-season",
           "score": 0,
           "numComments": 0,
-          "created": 1772036010.246,
-          "author": "www.reddit.com"
-        },
+          "created": 1772041747.035,
+          "author": "www.themat.com"
+        }
+      ],
+      "sources": [
+        "brave"
+      ],
+      "googleTrends": {
+        "spike": 0.92,
+        "peak": 100,
+        "recentAvg": 55,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "update chattanooga lookouts opening",
+      "displayName": "Lookouts opening game",
+      "rawTitle": "UPDATE: Chattanooga Lookouts opening game tickets sold out with 50 days to go",
+      "category": "minor-league",
+      "eventName": "Lookouts opening game",
+      "eventType": "team",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Lookouts%20opening%20game+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Lookouts%20opening%20game",
+      "totalScore": 22,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 2,
+        "obscurityBonus": 15,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
         {
           "source": "brave",
           "subreddit": "",
-          "title": "r/Jcole on Reddit: The presale ticket prices for the pit at Kendrick/SZA concert and the floor seats at The Weeknd/Playb",
-          "text": "The Fall-Off out now. The Fall-Off Tour: July-December. On sale this week. ... J Cole sold out with this one, can&#x27;t wait to see the economic impact he made this time with the festival",
-          "url": "https://www.reddit.com/r/Jcole/comments/1r8kfq7/the_presale_ticket_prices_for_the_pit_at/",
+          "title": "UPDATE: Chattanooga Lookouts opening game tickets sold out with 50 days to go",
+          "text": "Facebook · Twitter · WhatsApp · SMS · Email · Print · Copy article link · Save · Double-a South · Double-a South Teams · Baseball · Sports · <strong>Minnesota Twins</strong> Minor League Affiliates ·",
+          "url": "https://www.local3news.com/local-news/update-chattanooga-lookouts-opening-game-tickets-sold-out-with-50-days-to-go/article_6f37ec5b-ec98-4675-a8c0-06837827549c.html",
           "score": 0,
           "numComments": 0,
-          "created": 1772036010.246,
-          "author": "www.reddit.com"
+          "created": 1772041749.318,
+          "author": "www.local3news.com"
         }
       ],
       "sources": [
@@ -448,179 +253,611 @@
       ]
     },
     {
-      "eventKey": "kate bush jukebox musical",
-      "displayName": "katebush @ Dartmouth College",
-      "rawTitle": "Kate Bush Jukebox Musical at Dartmouth College!",
-      "category": "sports",
-      "eventName": "katebush",
-      "eventType": "artist",
-      "venueName": "Dartmouth College",
-      "artistUrl": "https://www.google.com/search?q=katebush+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=katebush",
-      "totalScore": 25,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 1
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "katebush",
-          "title": "Kate Bush Jukebox Musical at Dartmouth College!",
-          "text": "Hey all, I wrote a Kate Bush jukebox musical being performed at the Hopkins Center for the Arts at Dartmouth College. Free seating and un-ticketed! Come check it out if you're in the area!\n\n[Show Info](https://hop.dartmouth.edu/events/hounds-love)\n\n2/27 @ 7PM\n\n2/28 @ 1PM\n\nhttps://preview.redd.it/42ml35dl2plg1.jpg?width=1545&amp;format=pjpg&amp;auto=webp&amp;s=5c0ce140fa5536ea732fd72c736070f0d7ba3a45",
-          "url": "https://reddit.com/r/katebush/comments/1renq1b/kate_bush_jukebox_musical_at_dartmouth_college/",
-          "score": 10,
-          "numComments": 0,
-          "created": 1772048860,
-          "author": "Scared-Focus-6942"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "live pro wrestling this",
-      "displayName": "asheville",
-      "rawTitle": "Live pro wrestling this Saturday in Asheville",
-      "category": "sports",
-      "eventName": "asheville",
-      "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=asheville+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=asheville",
-      "totalScore": 25,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 1
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "asheville",
-          "title": "Live pro wrestling this Saturday in Asheville",
-          "text": "Urban Combat Wrestling  presents FREEDOM AINT FREE 6! At Hi-Wire Brewing Biltmore Village\n\n2/28/26\nDoors Open: 6PM\nBell Time: 7PM\n\nPreSale: $12\nDay Of Show: $15\nVIP Pass: $20\n\nTickets available at \nhttps://www.simpletix.com/e/ucw-x-hi-wire-presents-freedom-ain-t-free-tickets-259422\n\nFULL CARD\n\nBrittany Jade returns to challenge “Mad Dog” Josh Powers for the UCW Championship Chain in the Main Event of the Evening!\n\nGMG (Kay Holiday &amp; Allen Brody) vs. “Safety First” Wes Rogers &amp; the debuti",
-          "url": "https://reddit.com/r/asheville/comments/1remsp6/live_pro_wrestling_this_saturday_in_asheville/",
-          "score": 8,
-          "numComments": 1,
-          "created": 1772046881,
-          "author": "chrisgullo"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "mazeroski game 7 walkoff",
-      "displayName": "baseballcards_vintage",
-      "rawTitle": "Mazeroski Game 7 Walk-off + Reggie (Mr. October) Tickets",
+      "eventKey": "dingaz kairothagod jayymaraj2 iamcardib",
+      "displayName": "Because",
+      "rawTitle": "@_dingaz @KairoThaGod @JayyMaraj2 @iamcardib You can change numbers and data I hope you’re aware of ",
       "category": "other",
-      "eventName": "baseballcards_vintage",
-      "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=baseballcards_vintage+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=baseballcards_vintage",
-      "totalScore": 25,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 6
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "baseballcards_vintage",
-          "title": "Mazeroski Game 7 Walk-off + Reggie (Mr. October) Tickets",
-          "text": "Another pair of historic milestones added to the collection — Bill Mazeroski’s unforgettable walk-off that ended the 1960 World Series and Reggie Jackson’s legendary three-home-run night that earned him the name “Mr. October.”\n\nMaz’s ticket feels even more meaningful now. I ended up buying it the day before he passed — a surreal reminder of how closely tied these pieces of paper are to the men and the moments that made them iconic.\n\nTrue baseball history, frozen in time. Hope you enjoy them as m",
-          "url": "https://reddit.com/r/baseballcards_vintage/comments/1reotf7/mazeroski_game_7_walkoff_reggie_mr_october_tickets/",
-          "score": 43,
-          "numComments": 9,
-          "created": 1772051218,
-          "author": "tkemp7"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "where should i sit",
-      "displayName": "SFGiants",
-      "rawTitle": "Where should I sit",
-      "category": "other",
-      "eventName": "SFGiants",
-      "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=SFGiants+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=SFGiants",
-      "totalScore": 25,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 6
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "SFGiants",
-          "title": "Where should I sit",
-          "text": "I’m bringing my family to a Giants game in April. We are huge baseball fans and Oracle has been on my list for a long time. 2 kids ages 11-9. Where should we sit? I’ve read first base side is the best. I’ve found tickets in Section 310 that look reasonable. There are also seats in 224 on the third base side that look good. Giants fans, where would you sit? Also should I wait to buy them as it gets closer to the game or pull the trigger now? ",
-          "url": "https://reddit.com/r/SFGiants/comments/1reij0o/where_should_i_sit/",
-          "score": 11,
-          "numComments": 28,
-          "created": 1772038116,
-          "author": "Confection_Jolly"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "19 tickets left hope",
-      "displayName": "Hope we can",
-      "rawTitle": "19 tickets left. Hope we can SOLD OUT tomorrow before the event. Still open for giveaway and donatio",
-      "category": "other",
-      "eventName": "Hope we can",
+      "eventName": "Because",
       "eventType": "event",
       "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=Hope%20we%20can",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Hope%20we%20can",
-      "totalScore": 25,
+      "artistUrl": "https://www.google.com/search?q=Because",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Because",
+      "totalScore": 21,
       "breakdown": {
         "volume": 5,
         "velocity": 4,
-        "scarcity": 4,
+        "scarcity": 2,
         "obscurityBonus": 10,
-        "engagementBonus": 2
+        "engagementBonus": 0,
+        "trendsBonus": 0
       },
       "mentionCount": 1,
       "mentions": [
         {
           "source": "twitter",
           "subreddit": "",
-          "title": "19 tickets left. Hope we can SOLD OUT tomorrow before the event. Still open for giveaway and donation. \n#JossGawin https",
-          "text": "19 tickets left. Hope we can SOLD OUT tomorrow before the event. Still open for giveaway and donation. \n#JossGawin https://t.co/HYcF02Rvzq",
-          "url": "https://x.com/i/status/2027044261603250444",
-          "score": 24,
+          "title": "@_dingaz @KairoThaGod @JayyMaraj2 @iamcardib You can change numbers and data I hope you’re aware of that. Because sold o",
+          "text": "@_dingaz @KairoThaGod @JayyMaraj2 @iamcardib You can change numbers and data I hope you’re aware of that. Because sold out where? Mind you the resellers are the democrats who purchased all the tickets 😂 just last month the whole floor seats was still blue babe. Houston’s show btw https://t.co/MZ3IeWwDrn",
+          "url": "https://x.com/i/status/2027069363434459359",
+          "score": 0,
           "numComments": 0,
-          "created": 1772119987,
-          "author": "1791734718007803905"
+          "created": 1772125972,
+          "author": "1983644955181555712"
+        }
+      ],
+      "sources": [
+        "twitter"
+      ],
+      "googleTrends": {
+        "spike": 0.83,
+        "peak": 100,
+        "recentAvg": 49,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "what should i do",
+      "displayName": "Tame Impala",
+      "rawTitle": "What should i do!?!?",
+      "category": "other",
+      "eventName": "Tame Impala",
+      "eventType": "artist",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Tame%20Impala+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Tame%20Impala",
+      "totalScore": 20,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 1,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "TameImpala",
+          "title": "What should i do!?!?",
+          "text": "So I bought the tickets from a seller on ticket master and they have said they its authorized from their side. I have ss of that and screen recording as well. But in the email, it shows that it still needs to be authorized. I need help please ",
+          "url": "https://reddit.com/r/TameImpala/comments/1rffhda/what_should_i_do/",
+          "score": 3,
+          "numComments": 7,
+          "created": 1772124824,
+          "author": "Bitter_Writing73"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ],
+      "googleTrends": {
+        "spike": 1.85,
+        "peak": 100,
+        "recentAvg": 28,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "price tickets for the",
+      "displayName": "FIFA World Cup 2026",
+      "rawTitle": "Price tickets for the bronze final in Miami",
+      "category": "other",
+      "eventName": "FIFA World Cup 2026",
+      "eventType": "team",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=FIFA%20World%20Cup%202026+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=FIFA%20World%20Cup%202026",
+      "totalScore": 20,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 1,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "WorldCup2026Tickets",
+          "title": "Price tickets for the bronze final in Miami",
+          "text": "",
+          "url": "https://reddit.com/r/WorldCup2026Tickets/comments/1rffbkr/price_tickets_for_the_bronze_final_in_miami/",
+          "score": 2,
+          "numComments": 7,
+          "created": 1772124469,
+          "author": "vibes7799"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ],
+      "googleTrends": {
+        "spike": 0.7,
+        "peak": 100,
+        "recentAvg": 25,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "looking for mens free",
+      "displayName": "Figure Skating",
+      "rawTitle": "Looking for men's free program tickets for the Prague world championship",
+      "category": "sports",
+      "eventName": "Figure Skating",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Figure%20Skating",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Figure%20Skating",
+      "totalScore": 19,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 0,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "FigureSkating",
+          "title": "Looking for men's free program tickets for the Prague world championship",
+          "text": "I know this is really late but I unexpectedly also got a few days off 😔if anyone has tickets for the men's free program or/and exhibit please feel free to message me ♥️ unfortunately these are the only days I'll be able to attend ",
+          "url": "https://reddit.com/r/FigureSkating/comments/1rfdwn1/looking_for_mens_free_program_tickets_for_the/",
+          "score": 3,
+          "numComments": 0,
+          "created": 1772121436,
+          "author": "Ok_Kangaroo8364"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ],
+      "googleTrends": {
+        "spike": 0.19,
+        "peak": 100,
+        "recentAvg": 2,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "swimming paul la tickets",
+      "displayName": "this",
+      "rawTitle": "Swimming Paul LA Tickets.",
+      "category": "other",
+      "eventName": "this",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=this",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=this",
+      "totalScore": 19,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 0,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "swimmingpaul",
+          "title": "Swimming Paul LA Tickets.",
+          "text": "I’m selling 3 tickets for this show. HMU if you’re interested. ",
+          "url": "https://reddit.com/r/swimmingpaul/comments/1renn1r/swimming_paul_la_tickets/",
+          "score": 4,
+          "numComments": 2,
+          "created": 1772048679,
+          "author": "Mary_Nolen"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ],
+      "googleTrends": {
+        "spike": 0.67,
+        "peak": 100,
+        "recentAvg": 36,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "looking for a ticket",
+      "displayName": "Figure Skating",
+      "rawTitle": "Looking for a ticket World Championship",
+      "category": "sports",
+      "eventName": "Figure Skating",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Figure%20Skating",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Figure%20Skating",
+      "totalScore": 19,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 0,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "FigureSkating",
+          "title": "Looking for a ticket World Championship",
+          "text": "I am looking for the ticket for the World Champion  in Prague ISU FSWC 2026 | Exhibice, ne 29. 3. 2026 14:30\n\nIf someone wants to sell, please contact me",
+          "url": "https://reddit.com/r/FigureSkating/comments/1relbks/looking_for_a_ticket_world_championship/",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772043829,
+          "author": "Patient_Actuary8669"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ],
+      "googleTrends": {
+        "spike": 0.19,
+        "peak": 100,
+        "recentAvg": 2,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "delamitrinews still cant get",
+      "displayName": "Glasgow",
+      "rawTitle": "@delamitrinews Still can't get tickets for Glasgow concert hall can't go to Barras as my wife can't ",
+      "category": "concerts",
+      "eventName": "Glasgow",
+      "eventType": "artist",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Glasgow+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Glasgow",
+      "totalScore": 19,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "@delamitrinews Still can't get tickets for Glasgow concert hall can't go to Barras as my wife can't stand for long perio",
+          "text": "@delamitrinews Still can't get tickets for Glasgow concert hall can't go to Barras as my wife can't stand for long periods I think you could have sold the hydro out no problem",
+          "url": "https://x.com/i/status/2026672684210225358",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772031396,
+          "author": "2010336051014021120"
+        }
+      ],
+      "sources": [
+        "twitter"
+      ],
+      "googleTrends": {
+        "spike": 0.84,
+        "peak": 100,
+        "recentAvg": 53,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "bxjohns jcolenc i was",
+      "displayName": "Charlotte shows",
+      "rawTitle": "@BXJohnS @JColeNC I was early in line, and a local. There were 37K people ahead of me for a 10K seat",
+      "category": "other",
+      "eventName": "Charlotte shows",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Charlotte%20shows",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Charlotte%20shows",
+      "totalScore": 19,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "@BXJohnS @JColeNC I was early in line, and a local. There were 37K people ahead of me for a 10K seat venue. Needless to ",
+          "text": "@BXJohnS @JColeNC I was early in line, and a local. There were 37K people ahead of me for a 10K seat venue. Needless to say, I didnt even sniff a chance at tickets even after both Charlotte shows sold out in minutes.",
+          "url": "https://x.com/i/status/2024930382198530344",
+          "score": 3,
+          "numComments": 1,
+          "created": 1771615999,
+          "author": "261031827"
+        }
+      ],
+      "sources": [
+        "twitter"
+      ],
+      "googleTrends": {
+        "spike": 0,
+        "peak": 100,
+        "recentAvg": 0,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "watched the sotu and",
+      "displayName": "real",
+      "rawTitle": "watched the SOTU and i've never seen so many people trying to keep their eyes open while someone str",
+      "category": "other",
+      "eventName": "real",
+      "eventType": "show",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=real+broadway+tickets",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=real",
+      "totalScore": 17,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 0,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "watched the SOTU and i've never seen so many people trying to keep their eyes open while someone struggles to read a tel",
+          "text": "watched the SOTU and i've never seen so many people trying to keep their eyes open while someone struggles to read a teleprompter. even the VP looked like he was calculating how many hours until bedtime. politics is just theater for people who can't get tickets to real shows",
+          "url": "https://x.com/i/status/2026700295997370461",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772037979,
+          "author": "2022866523413721088"
+        }
+      ],
+      "sources": [
+        "twitter"
+      ],
+      "googleTrends": {
+        "spike": 0.62,
+        "peak": 100,
+        "recentAvg": 40,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "bruce springsteen 2026 tour",
+      "displayName": "Bruce Springsteen 2026",
+      "rawTitle": "Bruce Springsteen 2026 Tour: Where to Buy Tickets",
+      "category": "concerts",
+      "eventName": "Bruce Springsteen 2026",
+      "eventType": "artist",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Bruce%20Springsteen%202026+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Bruce%20Springsteen%202026",
+      "totalScore": 17,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "brave",
+          "subreddit": "",
+          "title": "Bruce Springsteen 2026 Tour: Where to Buy Tickets",
+          "text": "Bruce Springsteen is taking the ... unsurprisingly, demand is high. <strong>Several cities sold out after tickets went on sale on Friday, with Variety reporting that they spotted online queues of up to 100,000</strong>....",
+          "url": "https://www.rollingstone.com/product-recommendations/tickets/bruce-springsteen-e-street-band-tour-tickets-buy-online-1235521364/",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772041745.904,
+          "author": "www.rollingstone.com"
+        }
+      ],
+      "sources": [
+        "brave"
+      ]
+    },
+    {
+      "eventKey": "simple plan 2026 tour",
+      "displayName": "Simple Plan 2026",
+      "rawTitle": "Simple Plan 2026 Tour Setlist, Dates & Tickets Presale",
+      "category": "concerts",
+      "eventName": "Simple Plan 2026",
+      "eventType": "artist",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Simple%20Plan%202026+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Simple%20Plan%202026",
+      "totalScore": 17,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "brave",
+          "subreddit": "",
+          "title": "Simple Plan 2026 Tour Setlist, Dates & Tickets Presale",
+          "text": "Here is the expected setlist of ... Fans can also search for ticket deals on StubHub. If a show is sold out, <strong>tickets may still be available on StubHub</strong>....",
+          "url": "https://toursetlist.com/simple-plan-2026-tour-setlist-dates-presale/",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772041745.904,
+          "author": "toursetlist.com"
+        }
+      ],
+      "sources": [
+        "brave"
+      ]
+    },
+    {
+      "eventKey": "2026 st jude dream",
+      "displayName": "Jude Dream Home",
+      "rawTitle": "2026 St. Jude Dream Home tickets are sold out",
+      "category": "other",
+      "eventName": "Jude Dream Home",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Jude%20Dream%20Home",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Jude%20Dream%20Home",
+      "totalScore": 17,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "brave",
+          "subreddit": "",
+          "title": "2026 St. Jude Dream Home tickets are sold out",
+          "text": "This year is the 14th FOX 8 St. Jude Dream Home, and we&#x27;re aiming to sell the highest number of tickets yet - <strong>28,000</strong>, an increase from 26,000 in previous years.",
+          "url": "https://fox8.com/news/buy-now-get-your-tickets-for-the-2026-st-jude-dream-home/",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772041750.485,
+          "author": "fox8.com"
+        }
+      ],
+      "sources": [
+        "brave"
+      ]
+    },
+    {
+      "eventKey": "ulta beauty world 2026",
+      "displayName": "Ulta Beauty World 2026",
+      "rawTitle": "Ulta Beauty World 2026 is sold out. Are more tickets coming out?",
+      "category": "other",
+      "eventName": "Ulta Beauty World 2026",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Ulta%20Beauty%20World%202026",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Ulta%20Beauty%20World%202026",
+      "totalScore": 17,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "brave",
+          "subreddit": "",
+          "title": "Ulta Beauty World 2026 is sold out. Are more tickets coming out?",
+          "text": "<strong>Feb. 16, 2026, 9:29 a.m.</strong>",
+          "url": "https://archive.is/GBup6",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772041751.641,
+          "author": "archive.is"
+        }
+      ],
+      "sources": [
+        "brave"
+      ]
+    },
+    {
+      "eventKey": "looking to buy womens",
+      "displayName": "Figure Skating",
+      "rawTitle": "Looking to buy womens free tickets",
+      "category": "sports",
+      "eventName": "Figure Skating",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Figure%20Skating",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Figure%20Skating",
+      "totalScore": 15,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 0,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "FigureSkating",
+          "title": "Looking to buy womens free tickets",
+          "text": "I am looking to buy tickets for the women free program at the world championships if anyone is selling please reach out",
+          "url": "https://reddit.com/r/FigureSkating/comments/1rejknd/looking_to_buy_womens_free_tickets/",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772040283,
+          "author": "Prestigious-Seat6171"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "bts 2026 world tour",
+      "displayName": "BTS 2026",
+      "rawTitle": "BTS 2026 World Tour just dropped and I’m literally not okay  Stadiums sold out in MINUTES, Goyang 3 ",
+      "category": "concerts",
+      "eventName": "BTS 2026",
+      "eventType": "artist",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=BTS%202026+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=BTS%202026",
+      "totalScore": 13,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 8,
+        "obscurityBonus": 0,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "BTS 2026 World Tour just dropped and I’m literally not okay  Stadiums sold out in MINUTES, Goyang 3 nights, North Americ",
+          "text": "BTS 2026 World Tour just dropped and I’m literally not okay  Stadiums sold out in MINUTES, Goyang 3 nights, North America, Europe… ARMY we are SO BACK!!\n\n Which city are you manifesting tickets for? Or are you doing the live cinema thing? \n\nTell me your plans!!  Drop a  if https://t.co/FpVZ09PyeM",
+          "url": "https://x.com/i/status/2026675933596529075",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772032171,
+          "author": "2024075807778582529"
         }
       ],
       "sources": [
@@ -628,291 +865,39 @@
       ]
     },
     {
-      "eventKey": "i need 4 india",
-      "displayName": "Sunday Eden Garden @ Edens",
-      "rawTitle": "I Need 4 India v West Indies Tickets please. Its my first time watching a Cricket Match at Edens. Re",
-      "category": "sports",
-      "eventName": "Sunday Eden Garden",
-      "eventType": "team",
-      "venueName": "Edens",
-      "artistUrl": "https://www.google.com/search?q=Sunday%20Eden%20Garden+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Sunday%20Eden%20Garden",
-      "totalScore": 24,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 0
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "kolkata",
-          "title": "I Need 4 India v West Indies Tickets please. Its my first time watching a Cricket Match at Edens. Really Excited",
-          "text": "I need 4 Tickets for the Sunday Eden Garden Game. Someone Please Help. ",
-          "url": "https://reddit.com/r/kolkata/comments/1rfdu0p/i_need_4_india_v_west_indies_tickets_please_its/",
-          "score": 1,
-          "numComments": 0,
-          "created": 1772121269,
-          "author": "Pootoosh"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "donation drive and raffle",
-      "displayName": "bangtan",
-      "rawTitle": "Donation Drive and Raffle to support Women's Foundation of Minnesota - Two tickets to ARIRANG in Los",
+      "eventKey": "anirudhofficial bookmyshow brandavatar hyderabad",
+      "displayName": "Pre-reg",
+      "rawTitle": "@anirudhofficial @bookmyshow @BrandAvatar Hyderabad showing full beast mode already! 🔥 Pre-reg sold",
       "category": "concerts",
-      "eventName": "bangtan",
+      "eventName": "Pre-reg",
       "eventType": "artist",
       "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=bangtan+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=bangtan",
-      "totalScore": 24,
+      "artistUrl": "https://www.google.com/search?q=Pre-reg+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Pre-reg",
+      "totalScore": 13,
       "breakdown": {
         "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 10,
-        "engagementBonus": 5
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "bangtan",
-          "title": "Donation Drive and Raffle to support Women's Foundation of Minnesota - Two tickets to ARIRANG in Los Angeles!",
-          "text": "[Hello](https://tenor.com/view/bts-love-yourself-army-concert-gif-13599889) r/bangtan!\n\nAbout a month ago, u/AmericanabroadNZ [offered to raffle 2 Los Angeles tickets to raise money for the a charity](https://www.reddit.com/r/bangtan/comments/1qkt1jw/comment/o2oiuus/\n) and reached out to us to help her host it on r/bangtan. She shortlisted Women’s Foundation of Minnesota as her chosen charity.\n\nWhile we don’t generally allow personal donation campaigns, this seemed like a worthy cause with every",
-          "url": "https://reddit.com/r/bangtan/comments/1rfcfcf/donation_drive_and_raffle_to_support_womens/",
-          "score": 49,
-          "numComments": 2,
-          "created": 1772118089,
-          "author": "chillypotahtoh"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "at what point have",
-      "displayName": "ghosting",
-      "rawTitle": "at what point have i been ghosted?",
-      "category": "concerts",
-      "eventName": "ghosting",
-      "eventType": "artist",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=ghosting+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=ghosting",
-      "totalScore": 24,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
+        "velocity": 0,
+        "scarcity": 8,
+        "obscurityBonus": 0,
         "engagementBonus": 0
       },
       "mentionCount": 1,
       "mentions": [
         {
-          "source": "reddit",
-          "subreddit": "ghosting",
-          "title": "at what point have i been ghosted?",
-          "text": "as i (21F) am writing this it is february 25, and the last text i got from him (21M) was on february 3. so yeah, i think it’s safe to say i’ve been ghosted. maybe i just need to vent. \n\nwe are both in college and we had a class together last spring, and then another class together in the fall. we never spoke until the fall semester as we were assigned to a group project together. so basically in may of 2025 i bought concert tickets for myself and another friend, and a few weeks before the concer",
-          "url": "https://reddit.com/r/ghosting/comments/1rf1v0l/at_what_point_have_i_been_ghosted/",
-          "score": 1,
+          "source": "twitter",
+          "subreddit": "",
+          "title": "@anirudhofficial @bookmyshow @BrandAvatar Hyderabad showing full beast mode already! 🔥 Pre-reg sold out in minutes and ",
+          "text": "@anirudhofficial @bookmyshow @BrandAvatar Hyderabad showing full beast mode already! 🔥 Pre-reg sold out in minutes and now general sale is flying too — this Anirudh concert is gonna be legendary. Gachibowli Outdoor Stadium on 21st March is about to erupt! 🚀 Grabbing my tickets rn before it’s gone again! 🙌\n #AnirudhXV",
+          "url": "https://x.com/i/status/2024733448028770425",
+          "score": 4,
           "numComments": 0,
-          "created": 1772084256,
-          "author": "Suspicious-Map-7086"
+          "created": 1771569046,
+          "author": "1852971287368601600"
         }
       ],
       "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "revels website could genuinely",
-      "displayName": "manipal",
-      "rawTitle": "Revels website could genuinely be so much better",
-      "category": "sports",
-      "eventName": "manipal",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=manipal",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=manipal",
-      "totalScore": 24,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 0
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "manipal",
-          "title": "Revels website could genuinely be so much better",
-          "text": "Not complaining,\n\nOnly opened the site because Seedhe Maut was performing . But the site just looks a bit dated you know? Like it gets the job done but it feels like it hasn’t been touched in a few years visually.\n\nIf you’re charging for tickets a slightly more polished experience would be nice. Especially from an engineering college lol, we literally have the people for it.",
-          "url": "https://reddit.com/r/manipal/comments/1reoapm/revels_website_could_genuinely_be_so_much_better/",
-          "score": 7,
-          "numComments": 0,
-          "created": 1772050086,
-          "author": "lowkeyyall"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "tickets for palmeiras game",
-      "displayName": "palmeiras",
-      "rawTitle": "Tickets for palmeiras game",
-      "category": "sports",
-      "eventName": "palmeiras",
-      "eventType": "team",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=palmeiras+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=palmeiras",
-      "totalScore": 24,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 0,
-        "obscurityBonus": 15,
-        "engagementBonus": 0
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "Brazil",
-          "title": "Tickets for palmeiras game",
-          "text": "Hello all, \n\nI will be visiting São Paulo for a few weeks next month to see my girlfriend. I am a big Palmeiras fan and know the Paulista competition is going on right now and they have a good chance to make the championship game. As a gringo I obviously dont have a CPF but can I use my girlfriends CPF to buy tickets for the both of us? I noticed on the ticket website I can use my document numbers instead of a CPF but, if I can use my girlfriends CPF for both that would be more convenient. Also,",
-          "url": "https://reddit.com/r/Brazil/comments/1reif0j/tickets_for_palmeiras_game/",
-          "score": 0,
-          "numComments": 3,
-          "created": 1772037878,
-          "author": "cawilsonn7"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "english standup tomorrow feb",
-      "displayName": "freiburg",
-      "rawTitle": "English stand-up tomorrow (Feb 27) – The American Apology Tour 😬🇺🇸",
-      "category": "comedy",
-      "eventName": "freiburg",
-      "eventType": "comedian",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=freiburg+official+site",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=freiburg",
-      "totalScore": 24,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 2,
-        "obscurityBonus": 10,
-        "engagementBonus": 3
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "freiburg",
-          "title": "English stand-up tomorrow (Feb 27) – The American Apology Tour 😬🇺🇸",
-          "text": "Hey! I’m an American comedian based in Berlin and I’m bringing my solo show *The American Apology Tour* to Freiburg tomorrow night.\n\nIt’s about living in Germany, being married to a German, becoming a German dog dad, and apologizing on behalf of the United States. A LOT.\n\nThe show has sold out in Berlin and Frankfurt, and I’m excited to bring it to Freiburg for the first time! It’s a small room, with a relaxed vibe. Sooooo....\n\nIf you’re into stand-up or just want something different on a Friday",
-          "url": "https://reddit.com/r/freiburg/comments/1rf58hw/english_standup_tomorrow_feb_27_the_american/",
-          "score": 13,
-          "numComments": 9,
-          "created": 1772096206,
-          "author": "LaughatPat"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "anything going on this",
-      "displayName": "aves LA",
-      "rawTitle": "Anything going on this weekend?",
-      "category": "other",
-      "eventName": "aves LA",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=aves%20LA",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=aves%20LA",
-      "totalScore": 24,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 2,
-        "obscurityBonus": 10,
-        "engagementBonus": 3
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "avesLA",
-          "title": "Anything going on this weekend?",
-          "text": "First time in weeks I have 3 days off so I wanted to go out and have a fun night anything going on this lovely weekend? I also just now saw the sold out event lol so I missed that. :(",
-          "url": "https://reddit.com/r/avesLA/comments/1rf3umg/anything_going_on_this_weekend/",
-          "score": 2,
-          "numComments": 18,
-          "created": 1772091051,
-          "author": "Atomsk1008"
-        }
-      ],
-      "sources": [
-        "reddit"
-      ]
-    },
-    {
-      "eventKey": "toronto show  2nd",
-      "displayName": "July 14th",
-      "rawTitle": "Toronto show - 2nd show",
-      "category": "other",
-      "eventName": "July 14th",
-      "eventType": "event",
-      "venueName": null,
-      "artistUrl": "https://www.google.com/search?q=July%2014th",
-      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=July%2014th",
-      "totalScore": 23,
-      "breakdown": {
-        "volume": 5,
-        "velocity": 4,
-        "scarcity": 2,
-        "obscurityBonus": 10,
-        "engagementBonus": 2
-      },
-      "mentionCount": 1,
-      "mentions": [
-        {
-          "source": "reddit",
-          "subreddit": "AngineDePoitrine",
-          "title": "Toronto show - 2nd show",
-          "text": "folks, did anybody get tickets for the July 14th show? I was in the ticketmaster website with two devices like an hour prior. once they were released (10am), i didn't even get the chance to buy them. sold out.\n\ndo we know if there's any possibility for a third show to be announced? or even changing venues?\n\nthis is unfair. the resale ticket prices are over the roof. outrageous.\n\nwhat a bummer :(",
-          "url": "https://reddit.com/r/AngineDePoitrine/comments/1rfco8t/toronto_show_2nd_show/",
-          "score": 12,
-          "numComments": 5,
-          "created": 1772118649,
-          "author": "hecvelcas"
-        }
-      ],
-      "sources": [
-        "reddit"
+        "twitter"
       ]
     }
   ]

@@ -457,10 +457,11 @@ function extractCleanEventInfo(mentions) {
     'TameImpala': { name: 'Tame Impala', type: 'artist' },
     'JesseWelles': { name: 'Jesse Welles', type: 'artist' },
     'WWE': { name: 'WWE', type: 'team' },
-    'AEWOfficial': { name: 'AEW Dynamite', type: 'team' },
+    'AEWOfficial': { name: 'AEW Wrestling', type: 'team' },
+    'SquaredCircle': { name: 'Pro Wrestling', type: 'team' },
     'Jcole': { name: 'J. Cole', type: 'artist' },
-    'NPBtickets': { name: 'NPB (Japan Baseball)', type: 'team' },
-    'WorldCup2026Tickets': { name: 'FIFA World Cup 2026', type: 'team' },
+    // NPBtickets removed — non-US
+    // WorldCup2026Tickets removed — non-US event
     'NCAAW': { name: 'NCAA Womens Basketball', type: 'team' },
     'CollegeWrestling': { name: 'College Wrestling', type: 'team' },
     'collegehockey': { name: 'College Hockey', type: 'team' },
@@ -471,7 +472,7 @@ function extractCleanEventInfo(mentions) {
     'LSUTigers': { name: 'LSU', type: 'team' },
     'Huskers': { name: 'Nebraska', type: 'team' },
     'IowaHawkeyes': { name: 'Iowa', type: 'team' },
-    'FigureSkating': { name: 'Figure Skating', type: 'event' },
+    // FigureSkating removed — mostly non-US events
     'SavannahBananas': { name: 'Savannah Bananas', type: 'team' },
     'DurhamBulls': { name: 'Durham Bulls', type: 'team' },
     'minorleaguebaseball': { name: 'Minor League Baseball', type: 'team' },
@@ -485,6 +486,12 @@ function extractCleanEventInfo(mentions) {
     'trackandfield': { name: 'Track & Field', type: 'team' },
     'lacrosse': { name: 'Lacrosse', type: 'team' },
     'lvjy': { name: 'Lvjy', type: 'artist' },
+    'Illenium': { name: 'Illenium', type: 'artist' },
+    'ArchEnemy': { name: 'Arch Enemy', type: 'artist' },
+    'ToolBand': { name: 'Tool', type: 'artist' },
+    'katebush': { name: 'Kate Bush', type: 'artist' },
+    'DojaCat': { name: 'Doja Cat', type: 'artist' },
+    'MadisonBeer': { name: 'Madison Beer', type: 'artist' },
   };
 
   for (const s of subs) {
@@ -521,14 +528,8 @@ function extractCleanEventInfo(mentions) {
     }
   }
 
-  // Subreddit fallback
-  if (!eventName) {
-    const specificSub = subs.find(s => !genericSubs.includes(s) && !junkSubs.includes(s) && s.length > 2);
-    if (specificSub) {
-      const cleaned = specificSub.replace(/([a-z])([A-Z])/g, '$1 $2');
-      if (cleaned.length >= 3 && cleaned.length <= 30) eventName = cleaned;
-    }
-  }
+  // NO subreddit fallback — only use known mappings or regex matches
+  // Random subreddit names (r/Rochester, r/roadtrip) are NOT events
 
   // Venue extraction
   const venuePatterns = [
@@ -564,10 +565,31 @@ function extractCleanEventInfo(mentions) {
       'tales from', 'pata hai', 'front desk', 'guest',
       'downfall', 'girlfriend', 'boyfriend', 'london irish', 'finalissima',
       'ind vs', 'tncacricket', 'adamp', 'victoria0', 'amc prarie',
-      'glimt', 'phoenix', 'each night', 'little miss', 'chattanooga'];
-    if (en.length < 3 || garbage.includes(en) || eventName.includes('@') || eventName.includes('http')
-        || en.split(' ').length > 6 || /^\d+/.test(en) || en.includes(' as ') || en.includes(' and ')
-        || /^(I |My |His |Her |Its |This |That |We |He |She |They |You |Just |Only )/i.test(eventName)) {
+      'glimt', 'phoenix', 'each night', 'little miss', 'chattanooga',
+      'ghosting', 'manipal', 'freiburg', 'palmeiras', 'kolkata',
+      'sfgiants', 'fifacareer', 'xclusiveprompt', 'eden garden',
+      'moon shot', 'meme coin', 'solana', 'baseballcard', 'vintage',
+      'jurassic world', 'revels', 'apology', 'prompt',
+      'mumbai', 'spain', 'hotels', 'witcher', 'officalpsl', 'karan',
+      'rochester', 'hkfan', 'hell\'s kitchen', 'geico', 'roadtrip',
+      'because', 'this', 'real', 'glasgow', 'charlotte shows',
+      'nearly', 'aves la', 'sunday', 'monday', 'bangtan', 'sb19',
+      'bookmyshow', 'bms it', 'hope we can', 'per wrestletix',
+      'guest took', 'empty seats', 'not only this', 'feeling sour',
+      'anything going', 'at what point', 'where should',
+      'what is with', 'looking for', 'need help',
+      'each night', 'little miss',
+      'eden garden', 'ind vs', 'west indies',
+      'victoria0', 'adamp', 'glimt', 'phoenix suns',
+      'july 14th', 'february',
+      'doja\'s', 'madison', 'sirat', 'jude dream home',
+      'ulta beauty'];
+    const isGarbage = garbage.some(g => en === g || en.includes(g));
+    const isSentence = /^(I |My |His |Her |Its |This |That |We |He |She |They |You |Just |Only |At |Per |Nearly |After |Before |Those |These |When |Where |Some |No |Not |More |Most |Such |Each |If )/i.test(eventName);
+    const hasVerbs = /\b(are|is|was|were|have|has|had|been|being|would|could|should|will|can|do|does|did|not|no|yes|but|yet|also|very|just|even|still|already|about|only|confirm|confirms|completely)\b/i.test(eventName);
+    const isGeneric = en.split(' ').length > 5 || /^\d+/.test(en) || en.includes(' as ') || en.includes('_');
+    const hasJunk = eventName.includes('@') || eventName.includes('http') || eventName.includes('...');
+    if (en.length < 4 || isGarbage || isSentence || hasVerbs || isGeneric || hasJunk) {
       eventName = null;
     }
   }
@@ -629,15 +651,61 @@ const NOISE_KEYWORDS = [
   'movie theater', 'cinema', 'streaming', 'netflix',
   'parking', 'apartment', 'rent', 'mortgage',
   'credit card', 'bank account', 'loan',
-  'good date', 'bad date', 'first date'
+  'good date', 'bad date', 'first date',
+  'crypto', 'meme coin', 'solana', 'blockchain', 'nft', 'token launch',
+  'baseball card', 'trading card', 'vintage card', 'collectible',
+  'jurassic', 'app store', 'google play', 'mobile game',
+  'ghosting', 'ghosted', 'confession', 'front desk', 'hotel guest',
+  'empty desk', 'review', 'my school is giving',
+  'donation drive', 'raffle', 'giveaway',
+  'fantasy league', 'fantasy football', 'career mode', 'fifa career'
+];
+
+// Non-US location indicators — reject posts about events outside the US
+const NON_US_INDICATORS = [
+  'india', 'mumbai', 'chennai', 'kolkata', 'delhi', 'bangalore', 'hyderabad',
+  'bookmyshow', 'bms', 'ipl', 'ind vs', 'chepuk',
+  'uk ', 'london', 'manchester', 'birmingham uk', 'glasgow', 'edinburgh',
+  'australia', 'melbourne', 'sydney', 'aus gp',
+  'spain', 'madrid', 'barcelona', 'la liga',
+  'germany', 'freiburg', 'bundesliga', 'dortmund',
+  'brazil', 'palmeiras', 'são paulo', 'rio',
+  'philippines', 'manila', 'pht', '12nn pht',
+  'japan', 'tokyo', 'osaka', 'npb',
+  'korea', 'seoul', 'kpop',
+  'qatar', 'doha', 'dubai', 'abu dhabi',
+  'paris', 'france',
+  'canada', 'toronto', 'vancouver', 'montreal',
+  'mexico', 'liga mx',
+  'eden garden', 'wankhede', 'manipal', 'revels',
+  'world cup 2026', 'fifa world cup',
+  'prague', 'vienna', 'amsterdam', 'rome', 'milan', 'lisbon',
+  'champions league', 'premier league', 'serie a'
 ];
 
 function isEventRelated(mention) {
   const text = `${mention.title} ${mention.text}`.toLowerCase();
+  const sub = (mention.subreddit || '').toLowerCase();
+
+  // Reject non-US events
+  if (NON_US_INDICATORS.some(kw => text.includes(kw))) return false;
+
+  // Reject junk subreddits outright
+  const junkSubs = ['pcmasterrace', 'watercooling', 'indianbikes', 'thesidehustle',
+    'sidehustlegold', 'onlineincomehustle', 'aidevelopmentsolution',
+    'twoxindia', 'askindianwomen', 'riftboundtcg', 'relationships', 'confession',
+    'talesfromthefrontdesk', 'amitheasshole', 'tifu', 'askreddit', 'teenindia',
+    'patahaikyahua', 'unpopularopinion', 'nostupidquestions', 'formuladank',
+    'sfgiants', 'baseballcards', 'jurassicworld', 'cryptocurrency', 'cryptomoonshots',
+    'wallstreetbets', 'memecoins', 'fifacareer', 'hkfan', 'officalpsl',
+    'tncacricket', 'rugbyunion', 'askspain', 'goingtospain', 'qatar',
+    'concerts_india', 'chennaibuyandsell', 'socialparis', 'uktrains',
+    'bangtan', 'bts', 'kpop', 'xclusiveprompt', 'productivityhq',
+    'worldcup2026tickets', 'npbtickets', 'figureskating'];
+  if (junkSubs.includes(sub)) return false;
 
   // Reject obvious noise
   if (NOISE_KEYWORDS.some(kw => text.includes(kw))) {
-    // Unless it also has very strong event language
     const strongEvent = ['sold out', 'sellout', 'sell out', 'sold-out', 'can\'t get tickets', 'tickets gone'];
     if (!strongEvent.some(kw => text.includes(kw))) return false;
   }
