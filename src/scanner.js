@@ -686,6 +686,43 @@ function groupMentions(mentions) {
   return groups;
 }
 
+// --- Google Trends Verification (via SerpAPI) ---
+async function checkGoogleTrends(eventName) {
+  const key = process.env.SERPAPI_KEY;
+  if (!key || !eventName) return null;
+
+  try {
+    const q = encodeURIComponent(eventName + ' tickets');
+    const url = `https://serpapi.com/search.json?engine=google_trends&q=${q}&data_type=TIMESERIES&date=today+1-m&api_key=${key}`;
+    const res = await fetch(url);
+    const json = JSON.parse(res.data);
+
+    if (json?.interest_over_time?.timeline_data) {
+      const points = json.interest_over_time.timeline_data;
+      if (points.length < 2) return null;
+
+      const recent = points.slice(-2).map(p => p.values?.[0]?.extracted_value || 0);
+      const older = points.slice(0, Math.max(1, points.length - 4)).map(p => p.values?.[0]?.extracted_value || 0);
+      const recentAvg = recent.reduce((a, b) => a + b, 0) / recent.length;
+      const olderAvg = older.reduce((a, b) => a + b, 0) / older.length || 1;
+
+      const spike = recentAvg / olderAvg;
+      const peak = Math.max(...points.map(p => p.values?.[0]?.extracted_value || 0));
+
+      return {
+        spike: Math.round(spike * 100) / 100,
+        peak,
+        recentAvg: Math.round(recentAvg),
+        trending: spike >= 2, // 2x+ spike = trending
+        hot: spike >= 5,      // 5x+ spike = on fire
+      };
+    }
+  } catch (e) {
+    // Don't fail the whole scan for trends errors
+  }
+  return null;
+}
+
 // --- Main Scanner ---
 async function runScan() {
   console.log('🏴‍☠️ Blackbeard scanning for treasure...');
@@ -734,7 +771,30 @@ async function runScan() {
     });
   }
 
-  // Sort by score descending
+  // Google Trends verification for top candidates (limit to save API calls)
+  scoredEvents.sort((a, b) => b.totalScore - a.totalScore);
+  const trendsChecks = scoredEvents.slice(0, 15);
+  for (const event of trendsChecks) {
+    if (event.eventName) {
+      const trends = await checkGoogleTrends(event.eventName);
+      if (trends) {
+        event.googleTrends = trends;
+        // Boost score based on trends
+        if (trends.hot) {
+          event.totalScore = Math.min(event.totalScore + 20, 100);
+          event.breakdown.trendsBonus = 20;
+        } else if (trends.trending) {
+          event.totalScore = Math.min(event.totalScore + 10, 100);
+          event.breakdown.trendsBonus = 10;
+        } else {
+          event.breakdown.trendsBonus = 0;
+        }
+      }
+      await new Promise(r => setTimeout(r, 800)); // rate limit courtesy
+    }
+  }
+
+  // Re-sort after trends boost
   scoredEvents.sort((a, b) => b.totalScore - a.totalScore);
 
   const report = {
@@ -772,6 +832,10 @@ function formatReport(report) {
       msg += `*"${e.rawTitle.substring(0, 80)}"*\n`;
     }
     msg += `Score: **${e.totalScore}/100** · ${e.mentionCount} mentions · ${e.category}\n`;
+
+    // Google Trends indicator
+    if (e.googleTrends?.hot) msg += `📈 **GOOGLE TRENDS: 🔥 ${e.googleTrends.spike}x spike** (peak: ${e.googleTrends.peak}/100)\n`;
+    else if (e.googleTrends?.trending) msg += `📈 Google Trends: ↑ ${e.googleTrends.spike}x spike (peak: ${e.googleTrends.peak}/100)\n`;
 
     // Artist/team + Vivid Seats links
     if (e.artistUrl) msg += `🔍 [Official Page](${e.artistUrl})\n`;
