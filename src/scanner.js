@@ -285,6 +285,62 @@ async function scanTwitter() {
   return dedup(results, 'url');
 }
 
+// --- Brave Web Scanner ---
+async function scanBrave() {
+  const key = process.env.BRAVE_API_KEY;
+  if (!key) { console.log('  Brave: skipped (no API key)'); return []; }
+
+  const queries = [
+    '"sold out" tickets concert 2026',
+    '"sold out" college wrestling tickets',
+    '"sold out" college gymnastics tickets',
+    '"sold out" minor league baseball tickets',
+    '"sold out" comedy show tickets 2026',
+    '"sold out" college volleyball tickets',
+    '"sold out" college softball tickets',
+    '"sold out" lacrosse tickets',
+    '"can\'t get tickets" sold out event 2026',
+    'savannah bananas tickets sold out 2026'
+  ];
+
+  const results = [];
+
+  for (const query of queries) {
+    try {
+      const url = `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}&count=10&freshness=pw`;
+      const res = await fetch(url, {
+        headers: { 'X-Subscription-Token': key }
+      });
+      const json = JSON.parse(res.data);
+      if (json?.web?.results) {
+        for (const r of json.web.results) {
+          // Only include results that look like real event chatter
+          const text = `${r.title} ${r.description || ''}`.toLowerCase();
+          const hasScarcity = SCARCITY_KEYWORDS.some(kw => text.includes(kw));
+          if (hasScarcity) {
+            results.push({
+              source: 'brave',
+              subreddit: '',
+              title: (r.title || '').substring(0, 120),
+              text: (r.description || '').substring(0, 500),
+              url: r.url,
+              score: 0,
+              numComments: 0,
+              created: r.age ? Date.now() / 1000 - 86400 : null,
+              author: r.url ? new URL(r.url).hostname : ''
+            });
+          }
+        }
+      }
+      await new Promise(r => setTimeout(r, 1000));
+    } catch (e) {
+      console.error(`Brave search error for "${query.substring(0, 40)}...":`, e.message);
+    }
+  }
+
+  return dedup(results, 'url');
+}
+
 // --- Dedup helper ---
 function dedup(arr, key) {
   const seen = new Set();
@@ -577,7 +633,10 @@ async function runScan() {
   const twitterResults = await scanTwitter();
   console.log(`  Twitter: ${twitterResults.length} mentions found`);
 
-  const allMentions = [...redditResults, ...twitterResults];
+  const braveResults = await scanBrave();
+  console.log(`  Brave: ${braveResults.length} mentions found`);
+
+  const allMentions = [...redditResults, ...twitterResults, ...braveResults];
 
   // Group by event
   const groups = groupMentions(allMentions);
