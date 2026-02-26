@@ -6,6 +6,20 @@
 
 const https = require('https');
 const http = require('http');
+const fs = require('fs');
+const path = require('path');
+
+// Load .env
+try {
+  const envPath = path.join(__dirname, '..', '.env');
+  if (fs.existsSync(envPath)) {
+    const lines = fs.readFileSync(envPath, 'utf8').split('\n');
+    for (const line of lines) {
+      const [key, ...val] = line.split('=');
+      if (key && val.length) process.env[key.trim()] = val.join('=').trim();
+    }
+  }
+} catch (e) { /* ignore */ }
 
 // --- Config ---
 const SCARCITY_KEYWORDS = [
@@ -215,6 +229,56 @@ async function scanReddit() {
       await new Promise(r => setTimeout(r, 2500));
     } catch (e) {
       console.error(`Reddit sub /${sub} error:`, e.message);
+    }
+  }
+
+  return dedup(results, 'url');
+}
+
+// --- Twitter/X Scanner ---
+async function scanTwitter() {
+  const token = process.env.TWITTER_BEARER_TOKEN;
+  if (!token) { console.log('  Twitter: skipped (no bearer token)'); return []; }
+
+  const queries = [
+    '"sold out" tickets -is:retweet lang:en',
+    '"can\'t get tickets" -is:retweet lang:en',
+    '"sold out in minutes" tickets -is:retweet lang:en',
+    '"need tickets" "sold out" -is:retweet lang:en',
+    '"sellout" concert OR show OR game -is:retweet lang:en',
+    '"sold out" wrestling OR gymnastics OR volleyball OR softball -is:retweet lang:en',
+    '"sold out" "minor league" OR milb OR "banana ball" -is:retweet lang:en',
+    '"sold out" comedy OR comedian -is:retweet lang:en'
+  ];
+
+  const results = [];
+
+  for (const query of queries) {
+    try {
+      const url = `https://api.twitter.com/2/tweets/search/recent?query=${encodeURIComponent(query)}&max_results=20&tweet.fields=created_at,public_metrics,author_id`;
+      const res = await fetch(url, {
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
+      const json = JSON.parse(res.data);
+      if (json?.data) {
+        for (const tweet of json.data) {
+          const metrics = tweet.public_metrics || {};
+          results.push({
+            source: 'twitter',
+            subreddit: '',
+            title: tweet.text.substring(0, 120),
+            text: tweet.text.substring(0, 500),
+            url: `https://x.com/i/status/${tweet.id}`,
+            score: (metrics.like_count || 0) + (metrics.retweet_count || 0) * 3,
+            numComments: metrics.reply_count || 0,
+            created: tweet.created_at ? new Date(tweet.created_at).getTime() / 1000 : null,
+            author: tweet.author_id || ''
+          });
+        }
+      }
+      await new Promise(r => setTimeout(r, 1500));
+    } catch (e) {
+      console.error(`Twitter search error for "${query.substring(0, 40)}...":`, e.message);
     }
   }
 
@@ -510,7 +574,10 @@ async function runScan() {
   const redditResults = await scanReddit();
   console.log(`  Reddit: ${redditResults.length} mentions found`);
 
-  const allMentions = [...redditResults];
+  const twitterResults = await scanTwitter();
+  console.log(`  Twitter: ${twitterResults.length} mentions found`);
+
+  const allMentions = [...redditResults, ...twitterResults];
 
   // Group by event
   const groups = groupMentions(allMentions);
