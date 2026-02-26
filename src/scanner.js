@@ -733,9 +733,32 @@ function extractEventName(mention) {
   return mention.title.substring(0, 80);
 }
 
-function categorizeEvent(text) {
+// Subreddits that indicate college sports or minor league
+const COLLEGE_SPORTS_SUBS = [
+  'collegewrestling', 'ncaaw', 'collegehockey', 'collegebaseball',
+  'collegesoftball', 'gymnastics', 'volleyball', 'swimming',
+  'trackandfield', 'lacrosse', 'waterpolo', 'fencing', 'rowing',
+  'okstate', 'pennstateuniversity', 'lsutigers', 'huskers',
+  'iowahawkeyes', 'ou', 'ohiostatefootball'
+];
+const MINOR_LEAGUE_SUBS = [
+  'minorleaguebaseball', 'milb', 'savannahbananas',
+  'durhambulls', 'railriders', 'ironpigs'
+];
+
+function categorizeEvent(text, subreddits) {
   const lower = text.toLowerCase();
-  for (const [cat, keywords] of Object.entries(EVENT_CATEGORIES)) {
+  const subs = (subreddits || []).map(s => s.toLowerCase());
+
+  // Check subreddit-based categorization first (most reliable signal)
+  if (subs.some(s => COLLEGE_SPORTS_SUBS.includes(s))) return 'college-sports';
+  if (subs.some(s => MINOR_LEAGUE_SUBS.includes(s))) return 'minor-league';
+
+  // Then keyword-based, specific categories first
+  const priorityOrder = ['college-sports', 'minor-league', 'comedy', 'concerts', 'sports'];
+  for (const cat of priorityOrder) {
+    const keywords = EVENT_CATEGORIES[cat];
+    if (!keywords) continue;
     for (const kw of keywords) {
       if (lower.includes(kw)) return cat;
     }
@@ -819,7 +842,8 @@ async function runScan() {
     const scoring = scoreEvent(mentions);
     if (!scoring) continue;
 
-    const category = categorizeEvent(mentions.map(m => `${m.title} ${m.text}`).join(' '));
+    const mentionSubs = [...new Set(mentions.map(m => m.subreddit).filter(Boolean))];
+    const category = categorizeEvent(mentions.map(m => `${m.title} ${m.text}`).join(' '), mentionSubs);
 
     const info = extractCleanEventInfo(mentions);
     // SKIP events without a clean identifiable name
