@@ -898,22 +898,63 @@ async function runScan() {
     'scotiabank arena', 'little caesars arena', 'amalie arena'
   ];
 
+  // --- SeatGeek Venue Capacity Lookup ---
+  const sgClientId = process.env.SEATGEEK_CLIENT_ID;
+  const MAX_CAPACITY = 10000;
+  if (sgClientId) {
+    console.log('  🎯 SeatGeek venue capacity check...');
+    for (const event of scoredEvents) {
+      try {
+        const q = encodeURIComponent(event.eventName);
+        const sgUrl = `https://api.seatgeek.com/2/events?q=${q}&client_id=${sgClientId}&per_page=3`;
+        const sgRes = await fetch(sgUrl);
+        const sgData = JSON.parse(sgRes.data);
+        if (sgData?.events?.length > 0) {
+          // Find best match — prefer smallest venue (niche)
+          let bestMatch = sgData.events[0];
+          for (const ev of sgData.events) {
+            if (ev.venue?.capacity > 0 && (bestMatch.venue?.capacity === 0 || ev.venue?.capacity < bestMatch.venue?.capacity)) {
+              bestMatch = ev;
+            }
+          }
+          const venue = bestMatch.venue;
+          if (venue) {
+            event.venueCapacity = venue.capacity || null;
+            event.venueFromSeatGeek = venue.name_v2 || venue.name || null;
+            event.venueCity = venue.city || null;
+            event.venueState = venue.state || null;
+          }
+        }
+        await new Promise(r => setTimeout(r, 350));
+      } catch (e) { /* SeatGeek lookup failed — continue */ }
+    }
+  }
+
+  // Filter: remove events at venues > 10k capacity OR matching big-name blocklist
   const beforeFilter = scoredEvents.length;
   for (let i = scoredEvents.length - 1; i >= 0; i--) {
     const e = scoredEvents[i];
     const nameLower = (e.eventName || '').toLowerCase();
     const allText = (e.mentions || []).map(m => `${m.title} ${m.text}`).join(' ').toLowerCase();
 
+    // SeatGeek capacity filter (most reliable)
+    if (e.venueCapacity && e.venueCapacity > MAX_CAPACITY) {
+      console.log(`  ❌ Filtered: ${e.eventName} — ${e.venueFromSeatGeek} (cap: ${e.venueCapacity.toLocaleString()})`);
+      scoredEvents.splice(i, 1);
+      continue;
+    }
+
+    // Fallback: big-name blocklist for events without SeatGeek data
     const isBigName = BIG_NAME_ACTS.some(bn => nameLower.includes(bn));
     const isBigVenue = BIG_VENUE_KEYWORDS.some(bv => allText.includes(bv));
 
     if (isBigName || isBigVenue) {
-      console.log(`  ❌ Filtered: ${e.eventName} (${isBigName ? 'big-name act' : 'big venue'})`);
+      console.log(`  ❌ Filtered: ${e.eventName} (${isBigName ? 'big-name act' : 'big venue keyword'})`);
       scoredEvents.splice(i, 1);
     }
   }
   if (beforeFilter > scoredEvents.length) {
-    console.log(`  Venue filter: removed ${beforeFilter - scoredEvents.length} big-name/big-venue events`);
+    console.log(`  Venue filter: removed ${beforeFilter - scoredEvents.length} events (>${MAX_CAPACITY.toLocaleString()} cap or big-name)`);
   }
 
   // Google Trends verification for top candidates (limit to save API calls)
