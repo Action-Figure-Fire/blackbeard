@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-02-27T03:06:48.821Z",
+  "shows": [
+    {
+      "comedian": "Big Jay Oakerson",
+      "venue": "Unknown venue",
+      "venueCapacity": null,
+      "source": "twitter",
+      "text": "I just bought tickets to Big Jay Oakerson @ Laugh Out Lo... https://t.co/TItdGgZTYV via @TicketWeb",
+      "url": "https://x.com/i/status/2027211228251123928",
+      "ticketUrl": "https://t.co/TItdGgZTYV",
+      "engagement": 0,
+      "created": "2026-02-27T02:36:35.000Z",
+      "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Shane Gillis",
+      "venue": "Unknown venue",
+      "venueCapacity": null,
+      "source": "twitter",
+      "text": "Got 2x Shane Gillis tickets for Chicago Apr 4th,  DM to get them!! https://t.co/tBSLTJHgGL",
+      "url": "https://x.com/i/status/2027011469917712478",
+      "ticketUrl": "https://t.co/tBSLTJHgGL",
+      "engagement": 0,
+      "created": "2026-02-26T13:22:49.000Z",
+      "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Theo Von",
+      "venue": "Unknown venue",
+      "venueCapacity": null,
+      "source": "twitter",
+      "text": "Got 4x theovon tickets at FatMan Feb 26th, Theo Von victim tickets, DM to get them!!https://t.co/tBSLTJHgGL",
+      "url": "https://x.com/i/status/2027003841615376564",
+      "ticketUrl": "https://t.co/tBSLTJHgGL",
+      "engagement": 0,
+      "created": "2026-02-26T12:52:30.000Z",
+      "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Nate Bargatze",
+      "venue": "Unknown venue",
+      "venueCapacity": null,
+      "source": "twitter",
+      "text": "🎤 Nate Bargatze hits the stage at @WynnLasVegas March 16 - 18 &amp; April 8 - 11! Get ready for a night of clean, clever laughs with the king of deadpan comedy. 🎟️Tickets on sale now! https://t.co/V",
+      "url": "https://x.com/i/status/2027081229200216142",
+      "ticketUrl": "https://t.co/V7KpPBvlAl",
+      "engagement": 0,
+      "created": "2026-02-26T18:00:01.000Z",
+      "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Stavros Halkias",
+      "venue": "Unknown venue",
+      "venueCapacity": null,
+      "source": "twitter",
+      "text": "Is there anyone looking to buy Stavros Halkias Prior Lake  (ticket) tickets? Message me.",
+      "url": "https://x.com/i/status/2027066573014384909",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-02-26T17:01:46.000Z",
+      "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Matt Rife",
+      "venue": "Unknown venue",
+      "venueCapacity": null,
+      "source": "brave",
+      "text": "Comedian Matt Rife is bringing his uproarious new Stay Golden Tour to Chicago in 2026! Don&#x27;t miss the fun - <strong>all Matt Rife Chicago Tickets are on-sale now</strong>.",
+      "url": "https://www.mattrifechicago.com/",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-02-25T09:12:54",
+      "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Unknown",
+      "venue": "Zanies (Nashville, cap: 300)",
+      "venueCapacity": 300,
+      "source": "brave",
+      "text": "<strong>Once tickets are purchased the ONLY thing you will show once doors open is the ticket purchaser&#x27;s driver&#x27;s license to get in</strong>. There is nothing to print or pick up ahead of t",
+      "url": "https://nashville.zanies.com/show/category/series/2026-corey-holcomb/zanies/nashville-tennessee/",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-02-26T03:41:21",
+      "isSmallVenue": true,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Unknown",
+      "venue": "The Stand (New York, cap: 200)",
+      "venueCapacity": 200,
+      "source": "brave",
+      "text": "Recently I did presale for Don Toliver floor tickets and his was listed $200. I checked later in the day and the standard ticket for the floor was sold out. Checked the resale value right now and it&#",
+      "url": "https://www.reddit.com/r/Jcole/comments/1r9g2xd/whoever_was_in_charge_of_presale_tickets_can_go/",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-02-20T00:10:34",
+      "isSmallVenue": true,
+      "isNewAnnouncement": false
+    }
+  ]
+}
