@@ -48,6 +48,17 @@ const COMEDIANS = [
   { name: 'Bobby Lee', twitter: 'bobby', handles: ['bobbyleelive'] },
   { name: 'Neal Brennan', twitter: 'neaboralbrennan', handles: ['nealbrennan'] },
   { name: 'Rachel Feinstein', twitter: 'rachelfeinstein', handles: ['rachelfeinstein'] },
+  { name: 'Dave Attell', twitter: 'daveattell', handles: ['daveattell'] },
+  { name: 'Mark Normand', twitter: 'marknormandcomedy', handles: ['marknormand'] },
+  { name: 'Jessica Kirson', twitter: 'jessicakirson', handles: ['jessicakirson'] },
+  { name: 'Ian Fidance', twitter: 'ianfidance', handles: ['ianfidance'] },
+  { name: 'Joe DeRosa', twitter: 'joederosacomedy', handles: ['joederosa'] },
+  { name: 'Sal Vulcano', twitter: 'salvulcano', handles: ['salvulcano'] },
+  { name: 'Brian Simpson', twitter: 'briansimpson', handles: ['briansimpsoncomedy'] },
+  { name: 'Tony Hinchcliffe', twitter: 'tonyhinchcliffe', handles: ['tonyhinchcliffe'] },
+  { name: 'William Montgomery', twitter: 'theWilliamMontgomery', handles: ['williammontgomery'] },
+  { name: 'Protect Our Parks', twitter: null, handles: [] },
+  { name: 'Kill Tony', twitter: 'killtony', handles: ['killtony'] },
 ];
 
 // Small comedy venues to monitor (< 500 cap)
@@ -177,6 +188,24 @@ async function scanComedyBrave() {
     // Reddit comedy ticket discussions
     'site:reddit.com comedy show tickets sold out 2026',
     'site:reddit.com standup tickets "sold out" OR "can\'t get"',
+    // Direct venue site scraping
+    'site:comedycellar.com tickets',
+    'site:thecomedystore.com tickets',
+    'site:zanies.com tickets',
+    'site:heliumcomedy.com tickets',
+    'site:comedymothership.com tickets',
+    'site:thestandnyc.com tickets',
+    'site:stressfactory.com tickets',
+    'site:improv.com tickets 2026',
+    'site:funnybone.com tickets 2026',
+    'site:capcitycomedy.com tickets',
+    // Eventbrite deep searches
+    'site:eventbrite.com "comedy" "sold out" tickets 2026',
+    'site:eventbrite.com standup comedy March April 2026 tickets',
+    // TicketWeb (used by many indie comedy clubs)
+    'site:ticketweb.com comedy standup 2026',
+    // AXS (another indie ticketing platform)
+    'site:axs.com comedy standup 2026',
   ];
 
   for (const query of queries) {
@@ -235,7 +264,8 @@ function processComedyResults(twitterResults, braveResults) {
     // Must have ticket/show language
     const hasTicketLanguage = /ticket|on sale|just added|just announced|surprise show|secret show|pop.?up|new show|added show|extra show/.test(text);
 
-    if ((comedian || venue) && hasTicketLanguage) {
+    // Include if: (comedian + any ticket language) OR (tracked venue + ticket language)
+    if ((comedian && hasTicketLanguage) || (venue && hasTicketLanguage) || (comedian && venue)) {
       shows.push({
         comedian: comedian || 'Unknown',
         venue: venue ? `${venue.name} (${venue.city}, cap: ${venue.cap})` : 'Unknown venue',
