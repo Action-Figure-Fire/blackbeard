@@ -1,4 +1,18 @@
 {
-  "timestamp": "2026-02-27T15:35:26.977Z",
-  "alerts": []
+  "timestamp": "2026-02-27T20:00:44.548Z",
+  "alerts": [
+    {
+      "subject": "YOU'RE IN",
+      "from": "\"Bert Kreischer\" <send@bertbertbert.com>",
+      "date": "2026-02-27T15:45:47.000Z",
+      "comedians": [
+        "bert kreischer"
+      ],
+      "isVenueEmail": false,
+      "hasShowKeyword": false,
+      "ticketUrls": [],
+      "score": 3,
+      "snippet": "https://bertbertbert.com/\nhttps://store.bertbertbert.com/collections/apparel\nhttps://store.bertbertbert.com/collections/accessories\nhttps://store.bertbertbert.com/\n\nhttps://store.bertbertbert.com/\n\nhttps://store.bertbertbert.com/\n\nhttps://www.bertbertbert.com/#tour2\n\nhttps://www.bertbertbert.com/#to"
+    }
+  ]
 }

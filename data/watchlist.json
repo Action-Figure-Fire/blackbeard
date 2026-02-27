@@ -1,0 +1,346 @@
+{
+  "lastUpdated": "2026-02-27T16:30:00Z",
+  "artists": [
+    {
+      "name": "Djo (Joe Keery)",
+      "category": "bands",
+      "tier": "A",
+      "notes": "Currently arenas 15-20K, predict 3-5K headline. Headline dates TBA.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "La Roux",
+      "category": "bands",
+      "tier": "A",
+      "notes": "Currently amphitheaters/arenas, predict 1.5-3K headline. No solo dates announced.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "Jade LeMac",
+      "category": "bands",
+      "tier": "B",
+      "notes": "Currently 300-600 cap solo, predict 1-2K post-Duff. Canadian tour just completed.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "Dominic Fike",
+      "category": "bands",
+      "tier": "B",
+      "notes": "First-ever support tour, predict 2-5K headline. This is his FIRST support slot ever.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "notes": "Currently 800-1.5K solo, predict 1.5-3K post-McLachlan. Grammy winner, niche but passionate.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "notes": "500-1.2K cap headline. PRESALE LIVE TODAY — 10AM LOCAL.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "Crankdat",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Bass/EDM. Bandsintown tracked.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "03/27/26", "getIn": "$86.00", "listings": 388 }
+    },
+    {
+      "name": "Its Murph",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Bandsintown tracked.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "04/04/26", "getIn": "$165.00", "listings": 322 }
+    },
+    {
+      "name": "Liquid Stranger",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Wakaan Rocks headliner. Bandsintown tracked.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "04/09/26", "getIn": "$63.60", "listings": 175 }
+    },
+    {
+      "name": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "notes": "2-night Red Rocks. Massive bass following. Bandsintown tracked.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "04/23-24/26", "getIn": "$112-$135", "listings": "660-860", "dayPassGetIn": "$255.26" }
+    },
+    {
+      "name": "The Elovaters",
+      "category": "bands",
+      "tier": "B",
+      "notes": "Reggae/rock. Bandsintown tracked.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "05/17/26", "getIn": "$136.74", "listings": 206 }
+    },
+    {
+      "name": "Flip Turn",
+      "category": "bands",
+      "tier": "B",
+      "notes": "Indie rock. w/ Richy Mitch. Bandsintown tracked.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "05/21/26", "getIn": "$97.92", "listings": 930 }
+    },
+    {
+      "name": "Fisher",
+      "category": "dj",
+      "tier": "A",
+      "notes": "House DJ. Big but club shows still sell well. Bandsintown tracked.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "05/23/26", "getIn": "$137.77", "listings": 1014 }
+    },
+    {
+      "name": "Rezz",
+      "category": "dj",
+      "tier": "A",
+      "notes": "Midtempo bass. Strong cult following. Bandsintown tracked.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "10/03/26", "getIn": "$107.57", "listings": 386 }
+    },
+    {
+      "name": "Stardew Valley Symphony",
+      "category": "bands",
+      "tier": "B",
+      "notes": "Video game symphony — niche crossover. Bandsintown tracked.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "Tucker Wetmore",
+      "category": "bands",
+      "tier": "B",
+      "notes": "Country. Bandsintown tracked.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "Nurse John",
+      "category": "comedy",
+      "tier": "B",
+      "notes": "Up-and-coming comedian, viral TikTok. Small venue sellouts.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "Sara Landry",
+      "category": "dj",
+      "tier": "A",
+      "notes": "Hard techno queen. Movement 2026, Coachella Do Lab. Blowing up fast.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "Knock2",
+      "category": "dj",
+      "tier": "A",
+      "notes": "Jersey club/bass. Festival circuit darling, club shows sell out.",
+      "addedDate": "2026-02-27",
+      "redRocks": null
+    },
+    {
+      "name": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Bass music. Hallow Rocks headliner.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "10/08-09/26", "getIn": "$89-$116", "listings": "455-473" }
+    },
+    {
+      "name": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Bass/dubstep. Rising fast.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "05/08/26", "getIn": "$66.66", "listings": 428 }
+    },
+    {
+      "name": "Mersiv",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Bass music. Two sets at Red Rocks.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "10/23/26", "getIn": "$65.79", "listings": 256 }
+    },
+    {
+      "name": "LSDREAM",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Bass/experimental. Dream Rocks 2.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "05/16/26", "getIn": "$96.75", "listings": 302 }
+    },
+    {
+      "name": "Ravenscoon",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Bass music w/ Jantsen.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "03/28/26", "getIn": "$70.00", "listings": 412 }
+    },
+    {
+      "name": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Electronic/bass.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "04/03/26", "getIn": "$75.00", "listings": 421 }
+    },
+    {
+      "name": "Cloonee",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Tech house. Rising UK export.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "05/09/26", "getIn": "$65.00", "listings": 644 }
+    },
+    {
+      "name": "Sammy Virji",
+      "category": "dj",
+      "tier": "B",
+      "notes": "UK garage/house. Breakout year.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "10/16/26", "getIn": "$98.80", "listings": 571 }
+    },
+    {
+      "name": "Seven Lions",
+      "category": "dj",
+      "tier": "A",
+      "notes": "Melodic bass/trance.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "05/22/26", "getIn": "$85.80", "listings": 425 }
+    },
+    {
+      "name": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Chill electronic duo.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "05/10/26", "getIn": "$73.14", "listings": 294 }
+    },
+    {
+      "name": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "notes": "Electronic/indie dance. w/ Cannons.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "04/26/26", "getIn": "$75.99", "listings": 373 }
+    },
+    {
+      "name": "Treaty Oak Revival",
+      "category": "bands",
+      "tier": "A",
+      "notes": "Country/Americana. HIGHEST get-in at Red Rocks ($192). 🔥",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "07/01/26", "getIn": "$192.08", "listings": 854 }
+    },
+    {
+      "name": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "notes": "Indie rock. 2-night Red Rocks, $147-160 get-in.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "08/13-14/26", "getIn": "$147-$160", "listings": "826-1328" }
+    },
+    {
+      "name": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "notes": "Indie/dark pop. Cult following.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "04/21/26", "getIn": "$74.35", "listings": 526 }
+    },
+    {
+      "name": "Electric Callboy",
+      "category": "bands",
+      "tier": "B",
+      "notes": "Metalcore/electrocore. Viral.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "04/30/26", "getIn": "$55.85", "listings": 462 }
+    },
+    {
+      "name": "Goose",
+      "category": "bands",
+      "tier": "A",
+      "notes": "Jam band. 2-night Red Rocks. Day pass $695, single $170-203.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "08/27-28/26", "getIn": "$170-$203", "listings": "372-594", "dayPassGetIn": "$695" }
+    },
+    {
+      "name": "Jon Bellion",
+      "category": "bands",
+      "tier": "A",
+      "notes": "Pop/hip-hop. $226 get-in — massive demand.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "06/11/26", "getIn": "$226.76", "listings": 513 }
+    },
+    {
+      "name": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "notes": "Indie folk/rock. $150 get-in.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "06/10/26", "getIn": "$150.49", "listings": 775 }
+    },
+    {
+      "name": "Amyl and The Sniffers",
+      "category": "bands",
+      "tier": "B",
+      "notes": "Punk rock. Buzzy Aussie band.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "06/17/26", "getIn": "$75.48", "listings": 433 }
+    },
+    {
+      "name": "Alex Warren",
+      "category": "bands",
+      "tier": "A",
+      "notes": "Pop/TikTok crossover. $223 get-in — Gen Z demand.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "06/02/26", "getIn": "$223.50", "listings": 749 }
+    },
+    {
+      "name": "Hilary Duff",
+      "category": "bands",
+      "tier": "A",
+      "notes": "Pop nostalgia. $223 get-in. Millennial demand.",
+      "addedDate": "2026-02-27",
+      "redRocks": { "date": "07/20/26", "getIn": "$223.50", "listings": 1323 }
+    }
+  ],
+  "redRocksReference": {
+    "venueCapacity": 9525,
+    "note": "Red Rocks get-in prices are a strong litmus test for demand in other markets. High get-in + low listings = extremely hot. Look for: get-in >$100 with <500 listings = potential sellout in smaller markets.",
+    "topGetInPrices": [
+      { "artist": "Sublime 2-Day Pass", "getIn": "$434.30" },
+      { "artist": "Subtronics 2-Day Pass", "getIn": "$255.26" },
+      { "artist": "Andrea Bocelli", "getIn": "$258.00" },
+      { "artist": "Jon Bellion", "getIn": "$226.76" },
+      { "artist": "Alex Warren", "getIn": "$223.50" },
+      { "artist": "Hilary Duff", "getIn": "$223.50" },
+      { "artist": "Goose 2-Day", "getIn": "$695.00" },
+      { "artist": "Treaty Oak Revival", "getIn": "$192.08" },
+      { "artist": "Sublime (single)", "getIn": "$177.38" },
+      { "artist": "Zac Brown Band", "getIn": "$172.80" },
+      { "artist": "Its Murph", "getIn": "$165.00" },
+      { "artist": "mike (Mike Stud)", "getIn": "$161.57" },
+      { "artist": "Mt. Joy", "getIn": "$160.00" },
+      { "artist": "The Head and The Heart", "getIn": "$159.50" },
+      { "artist": "David Guetta", "getIn": "$155.20" }
+    ]
+  }
+}

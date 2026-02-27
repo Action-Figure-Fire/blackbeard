@@ -1,0 +1,4620 @@
+{
+  "timestamp": "2026-02-27T21:05:57.628Z",
+  "newFinds": [
+    {
+      "artist": "La Roux",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff with La Roux and Jade LeMac",
+      "venue": "Ameris Bank Amphitheatre",
+      "city": "Alpharetta",
+      "state": "GA",
+      "capacity": 0,
+      "date": "2026-06-25T19:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2026-06-25-7-pm/concert/18070218",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "La Roux",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff with La Roux and Jade LeMac",
+      "venue": "The Pavilion at Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-06-30T19:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "La Roux",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff with special guests La Roux & Jade Lemac | 101.5 WCIL-FM | Today's Hit Music",
+      "url": "https://www.cilfm.com/2026/02/24/hilary-duff-with-special-guests-la-roux-jade-lemac",
+      "source": "brave",
+      "redRocks": null
+    },
+    {
+      "artist": "Jade LeMac",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hilary Duff with Jade LeMac",
+      "venue": "MidFlorida Credit Union Amphitheatre",
+      "city": "Tampa",
+      "state": "FL",
+      "capacity": 0,
+      "date": "2026-06-23T19:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/tampa-florida-midflorida-credit-union-amphitheatre-2026-06-23-7-pm/concert/18070220",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Jade LeMac",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hilary Duff with La Roux and Jade LeMac",
+      "venue": "Ameris Bank Amphitheatre",
+      "city": "Alpharetta",
+      "state": "GA",
+      "capacity": 0,
+      "date": "2026-06-25T19:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2026-06-25-7-pm/concert/18070218",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Jade LeMac",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hilary Duff with La Roux and Jade LeMac",
+      "venue": "The Pavilion at Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-06-30T19:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Dominic Fike",
+      "category": "bands",
+      "tier": "B",
+      "title": "Governors Ball - Sunday - with A$AP Rocky, JENNIE, Dominic Fike and more",
+      "venue": "Flushing Meadows Corona Park",
+      "city": "Queens",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-06-07T11:45:00",
+      "url": "https://seatgeek.com/governors-ball-music-festival-tickets/queens-new-york-flushing-meadows-corona-park-2026-06-07-11-45-am/music-festival/17994017",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Dominic Fike",
+      "category": "bands",
+      "tier": "B",
+      "title": "Tame Impala with Dominic Fike",
+      "venue": "Rogers Arena",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": 0,
+      "date": "2026-09-05T19:00:00",
+      "url": "https://seatgeek.com/tame-impala-tickets/vancouver-canada-rogers-arena-2026-09-05-7-pm/concert/18070209",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Dominic Fike",
+      "category": "bands",
+      "tier": "B",
+      "title": "Tame Impala with Dominic Fike",
+      "venue": "Rogers Arena",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": 0,
+      "date": "2026-09-06T19:00:00",
+      "url": "https://seatgeek.com/tame-impala-tickets/vancouver-canada-rogers-arena-2026-09-06-7-pm/concert/18080360",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Dominic Fike",
+      "category": "bands",
+      "tier": "B",
+      "title": "Tame Impala with Dominic Fike",
+      "venue": "Ball Arena",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 0,
+      "date": "2026-09-11T19:00:00",
+      "url": "https://seatgeek.com/tame-impala-tickets/denver-colorado-ball-arena-2026-09-11-7-pm/concert/18070193",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "title": "Mavis Staples with Allison Russell",
+      "venue": "Beacon Theatre",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 2894,
+      "date": "2026-02-28T20:00:00",
+      "url": "https://seatgeek.com/mavis-staples-tickets/new-york-new-york-beacon-theatre-2026-02-28-8-pm/concert/17694443",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "title": "Sarah McLachlan with Allison Russell",
+      "venue": "FirstBank Amphitheater",
+      "city": "Franklin",
+      "state": "TN",
+      "capacity": 0,
+      "date": "2026-07-01T19:30:00",
+      "url": "https://seatgeek.com/sarah-mclachlan-tickets/franklin-tennessee-firstbank-amphitheater-2026-07-01-7-30-pm/concert/18070702",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "title": "Sarah McLachlan with Allison Russell",
+      "venue": "Synovus Bank Amphitheatre at Chastain Park",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": 0,
+      "date": "2026-07-03T19:30:00",
+      "url": "https://seatgeek.com/sarah-mclachlan-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-07-03-7-30-pm/concert/18070703",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "title": "Sarah McLachlan with Allison Russell",
+      "venue": "Filene Center at The Wolf Trap",
+      "city": "Vienna",
+      "state": "VA",
+      "capacity": 7000,
+      "date": "2026-07-05T19:00:00",
+      "url": "https://seatgeek.com/sarah-mclachlan-tickets/vienna-virginia-filene-center-at-the-wolf-trap-2026-07-05-7-pm/concert/18070749",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "title": "Sarah McLachlan with Allison Russell",
+      "venue": "TD Pavilion at The Mann Center",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 7200,
+      "date": "2026-07-07T19:30:00",
+      "url": "https://seatgeek.com/sarah-mclachlan-tickets/philadelphia-pennsylvania-td-pavilion-at-the-mann-center-2026-07-07-7-30-pm/concert/18070705",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "title": "Sarah McLachlan with Allison Russell",
+      "venue": "Hartford HealthCare Amphitheater",
+      "city": "Bridgeport",
+      "state": "CT",
+      "capacity": 0,
+      "date": "2026-07-08T19:30:00",
+      "url": "https://seatgeek.com/sarah-mclachlan-tickets/bridgeport-connecticut-hartford-healthcare-amphitheater-2026-07-08-7-30-pm/concert/18070704",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "title": "Sarah McLachlan with Allison Russell",
+      "venue": "Leader Bank Pavilion",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": 0,
+      "date": "2026-07-10T19:30:00",
+      "url": "https://seatgeek.com/sarah-mclachlan-tickets/boston-massachusetts-leader-bank-pavilion-2026-07-10-7-30-pm/concert/18070706",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "title": "Sarah McLachlan with Allison Russell",
+      "venue": "Forest Hills Stadium",
+      "city": "Forest Hills",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-07-11T19:00:00",
+      "url": "https://seatgeek.com/sarah-mclachlan-tickets/forest-hills-new-york-forest-hills-stadium-2026-07-11-7-pm/concert/18070701",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "title": "Sarah McLachlan with Allison Russell",
+      "venue": "BankNH Pavilion",
+      "city": "Gilford",
+      "state": "NH",
+      "capacity": 0,
+      "date": "2026-07-12T19:30:00",
+      "url": "https://seatgeek.com/sarah-mclachlan-tickets/gilford-new-hampshire-banknh-pavilion-2026-07-12-7-30-pm/concert/18070713",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Allison Russell",
+      "category": "bands",
+      "tier": "B",
+      "title": "Sarah McLachlan with Allison Russell",
+      "venue": "Artpark Mainstage Theater",
+      "city": "Lewiston",
+      "state": "NY",
+      "capacity": 4400,
+      "date": "2026-07-14T19:30:00",
+      "url": "https://seatgeek.com/sarah-mclachlan-tickets/lewiston-new-york-artpark-mainstage-theater-2026-07-14-7-30-pm/concert/18070714",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hemlocke Springs",
+      "venue": "The Observatory",
+      "city": "Santa Ana",
+      "state": "CA",
+      "capacity": 550,
+      "date": "2026-05-17T19:00:00",
+      "url": "https://seatgeek.com/hemlocke-springs-tickets/santa-ana-california-the-observatory-2026-05-17-7-pm/concert/18072404",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hemlocke Springs",
+      "venue": "El Rey Theatre - Los Angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 771,
+      "date": "2026-05-19T20:00:00",
+      "url": "https://seatgeek.com/hemlocke-springs-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-05-19-8-pm/concert/18090944",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hemlocke Springs",
+      "venue": "The Fillmore - San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 1250,
+      "date": "2026-05-20T20:00:00",
+      "url": "https://seatgeek.com/hemlocke-springs-tickets/san-francisco-california-the-fillmore-san-francisco-2026-05-20-8-pm/concert/18072458",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hemlocke Springs",
+      "venue": "Bluebird Theater - Denver",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 400,
+      "date": "2026-05-26T20:00:00",
+      "url": "https://seatgeek.com/hemlocke-springs-tickets/denver-colorado-bluebird-theater-denver-2026-05-26-8-pm/concert/18092250",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hemlocke Springs",
+      "venue": "Varsity Theater - Minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": 300,
+      "date": "2026-05-29T19:00:00",
+      "url": "https://seatgeek.com/hemlocke-springs-tickets/minneapolis-minnesota-varsity-theater-minneapolis-2026-05-29-7-pm/concert/18072509",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hemlocke Springs",
+      "venue": "Saint Andrews Hall",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": 0,
+      "date": "2026-05-31T19:00:00",
+      "url": "https://seatgeek.com/hemlocke-springs-tickets/detroit-michigan-saint-andrews-hall-2026-05-31-7-pm/concert/18072426",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hemlocke Springs",
+      "venue": "The Mod Club",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": 620,
+      "date": "2026-06-02T19:00:00",
+      "url": "https://seatgeek.com/hemlocke-springs-tickets/toronto-canada-the-mod-club-2026-06-02-7-pm/concert/18072492",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hemlocke Springs",
+      "venue": "Paradise Rock Club",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": 650,
+      "date": "2026-06-04T19:00:00",
+      "url": "https://seatgeek.com/hemlocke-springs-tickets/boston-massachusetts-paradise-rock-club-2026-06-04-7-pm/concert/18072434",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hemlocke Springs",
+      "venue": "Union Transfer - Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 0,
+      "date": "2026-06-05T20:00:00",
+      "url": "https://seatgeek.com/hemlocke-springs-tickets/philadelphia-pennsylvania-union-transfer-philadelphia-2026-06-05-8-pm/concert/18092252",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Hemlocke Springs",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hemlocke Springs",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 1200,
+      "date": "2026-06-09T19:00:00",
+      "url": "https://seatgeek.com/hemlocke-springs-tickets/washington-district-of-columbia-9-30-club-2026-06-09-7-pm/concert/18072429",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Crankdat",
+      "category": "dj",
+      "tier": "B",
+      "title": "Crankdat",
+      "venue": "The Salt Shed - Indoors",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 0,
+      "date": "2026-02-27T20:00:00",
+      "url": "https://seatgeek.com/crankdat-tickets/chicago-illinois-the-salt-shed-indoors-2026-02-27-8-pm/concert/17944731",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "03/27/26",
+        "getIn": "$86.00",
+        "listings": 388
+      }
+    },
+    {
+      "artist": "Crankdat",
+      "category": "dj",
+      "tier": "B",
+      "title": "Crankdat",
+      "venue": "The Sylvee",
+      "city": "Madison",
+      "state": "WI",
+      "capacity": 0,
+      "date": "2026-02-28T19:30:00",
+      "url": "https://seatgeek.com/crankdat-tickets/madison-wisconsin-the-sylvee-2026-02-28-7-30-pm/concert/17944723",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "03/27/26",
+        "getIn": "$86.00",
+        "listings": 388
+      }
+    },
+    {
+      "artist": "Crankdat",
+      "category": "dj",
+      "tier": "B",
+      "title": "Crankdat with Dr. Fresch, Smoakland, Capochino, and HerShe",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-03-27T19:00:00",
+      "url": "https://seatgeek.com/crankdat-tickets/morrison-colorado-red-rocks-amphitheatre-2026-03-27-7-pm/concert/17890912",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "03/27/26",
+        "getIn": "$86.00",
+        "listings": 388
+      }
+    },
+    {
+      "artist": "Crankdat",
+      "category": "dj",
+      "tier": "B",
+      "title": "Gather Outdoors Festival - 2 Day Pass - with Crankdat, Daily Bread, Of The Trees, and more (18+)",
+      "venue": "Stratton Mountain Resort",
+      "city": "South Londonderry",
+      "state": "VT",
+      "capacity": 0,
+      "date": "2026-04-11T15:00:00",
+      "url": "https://seatgeek.com/gather-outdoors-festival-tickets/south-londonderry-vermont-stratton-mountain-resort-2026-04-11-3-pm/music-festival/18035076",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "03/27/26",
+        "getIn": "$86.00",
+        "listings": 388
+      }
+    },
+    {
+      "artist": "Crankdat",
+      "category": "dj",
+      "tier": "B",
+      "title": "Crankdat (18+)",
+      "venue": "Shrine Expo Hall",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 6300,
+      "date": "2026-08-27T21:00:00",
+      "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-27-9-pm/concert/18041837",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "03/27/26",
+        "getIn": "$86.00",
+        "listings": 388
+      }
+    },
+    {
+      "artist": "Crankdat",
+      "category": "dj",
+      "tier": "B",
+      "title": "Crankdat (18+)",
+      "venue": "Shrine Expo Hall",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 6300,
+      "date": "2026-08-28T21:00:00",
+      "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-28-9-pm/concert/18041840",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "03/27/26",
+        "getIn": "$86.00",
+        "listings": 388
+      }
+    },
+    {
+      "artist": "Crankdat",
+      "category": "dj",
+      "tier": "B",
+      "title": "Crankdat (18+)",
+      "venue": "Shrine Expo Hall",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 6300,
+      "date": "2026-08-29T21:00:00",
+      "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-29-9-pm/concert/18039855",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "03/27/26",
+        "getIn": "$86.00",
+        "listings": 388
+      }
+    },
+    {
+      "artist": "Crankdat",
+      "category": "dj",
+      "tier": "B",
+      "title": "Crankdat (18+)",
+      "venue": "Shrine Expo Hall",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 6300,
+      "date": "2026-08-30T20:00:00",
+      "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-30-8-pm/concert/18041846",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "03/27/26",
+        "getIn": "$86.00",
+        "listings": 388
+      }
+    },
+    {
+      "artist": "Its Murph",
+      "category": "dj",
+      "tier": "B",
+      "title": "it's murph",
+      "venue": "Bicentennial Capitol Mall State Park",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 0,
+      "date": "2026-03-21T15:00:00",
+      "url": "https://seatgeek.com/it-s-murph-tickets/nashville-tennessee-bicentennial-capitol-mall-state-park-2026-03-21-3-pm/concert/18028555",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/04/26",
+        "getIn": "$165.00",
+        "listings": 322
+      }
+    },
+    {
+      "artist": "Its Murph",
+      "category": "dj",
+      "tier": "B",
+      "title": "it's murph",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-04-04T20:00:00",
+      "url": "https://seatgeek.com/it-s-murph-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-04-8-pm/concert/17810692",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/04/26",
+        "getIn": "$165.00",
+        "listings": 322
+      }
+    },
+    {
+      "artist": "Its Murph",
+      "category": "dj",
+      "tier": "B",
+      "title": "it's murph",
+      "venue": "The Ritz - Raleigh",
+      "city": "Raleigh",
+      "state": "NC",
+      "capacity": 2000,
+      "date": "2026-04-17T19:00:00",
+      "url": "https://seatgeek.com/it-s-murph-tickets/raleigh-north-carolina-the-ritz-raleigh-2026-04-17-7-pm/concert/18052149",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/04/26",
+        "getIn": "$165.00",
+        "listings": 322
+      }
+    },
+    {
+      "artist": "Its Murph",
+      "category": "dj",
+      "tier": "B",
+      "title": "sprung: it's murph, SG Lewis, NEIL FRANCES & more (21+)",
+      "venue": "Berhta",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 0,
+      "date": "2026-04-18T16:00:00",
+      "url": "https://seatgeek.com/it-s-murph-tickets/washington-district-of-columbia-berhta-2026-04-18-4-pm/concert/18052145",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/04/26",
+        "getIn": "$165.00",
+        "listings": 322
+      }
+    },
+    {
+      "artist": "Its Murph",
+      "category": "dj",
+      "tier": "B",
+      "title": "it's murph",
+      "venue": "Malkin Bowl",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": 1500,
+      "date": "2026-05-08T18:00:00",
+      "url": "https://seatgeek.com/it-s-murph-tickets/vancouver-canada-malkin-bowl-2026-05-08-6-pm/concert/18052151",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/04/26",
+        "getIn": "$165.00",
+        "listings": 322
+      }
+    },
+    {
+      "artist": "Its Murph",
+      "category": "dj",
+      "tier": "B",
+      "title": "it's murph",
+      "venue": "BOXPAC Project",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": 0,
+      "date": "2026-05-09T21:00:00",
+      "url": "https://seatgeek.com/it-s-murph-tickets/salt-lake-city-utah-boxpac-project-2026-05-09-9-pm/concert/18052153",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/04/26",
+        "getIn": "$165.00",
+        "listings": 322
+      }
+    },
+    {
+      "artist": "Its Murph",
+      "category": "dj",
+      "tier": "B",
+      "title": "it's murph",
+      "venue": "The Fillmore - Charlotte",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": 2000,
+      "date": "2026-05-29T20:00:00",
+      "url": "https://seatgeek.com/it-s-murph-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-05-29-8-pm/concert/18052155",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/04/26",
+        "getIn": "$165.00",
+        "listings": 322
+      }
+    },
+    {
+      "artist": "Its Murph",
+      "category": "dj",
+      "tier": "B",
+      "title": "it's murph",
+      "venue": "Jannus Live",
+      "city": "Saint Petersburg",
+      "state": "FL",
+      "capacity": 850,
+      "date": "2026-05-30T19:00:00",
+      "url": "https://seatgeek.com/it-s-murph-tickets/saint-petersburg-florida-jannus-live-2026-05-30-7-pm/concert/18052157",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/04/26",
+        "getIn": "$165.00",
+        "listings": 322
+      }
+    },
+    {
+      "artist": "Its Murph",
+      "category": "dj",
+      "tier": "B",
+      "title": "it's murph (21+)",
+      "venue": "XS Nightclub at Encore",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 0,
+      "date": "2026-07-03T22:30:00",
+      "url": "https://seatgeek.com/it-s-murph-tickets/las-vegas-nevada-xs-nightclub-at-encore-5-2026-07-03-10-30-pm/concert/18052168",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/04/26",
+        "getIn": "$165.00",
+        "listings": 322
+      }
+    },
+    {
+      "artist": "Liquid Stranger",
+      "category": "dj",
+      "tier": "B",
+      "title": "System Overload - Friday - with Wooli, Liquid Stranger, HOL!, and more(18+)",
+      "venue": "Rawhide Event Center",
+      "city": "Chandler",
+      "state": "AZ",
+      "capacity": 0,
+      "date": "2026-02-27T19:00:00",
+      "url": "https://seatgeek.com/bommer-tickets/chandler-arizona-rawhide-event-center-2026-02-27-7-pm/concert/18015594",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/09/26",
+        "getIn": "$63.60",
+        "listings": 175
+      }
+    },
+    {
+      "artist": "Liquid Stranger",
+      "category": "dj",
+      "tier": "B",
+      "title": "GENESIS Festival (Saturday Pass) with Liquid Stranger",
+      "venue": "Uptown Theater - KC",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": 2300,
+      "date": "2026-02-28T18:00:00",
+      "url": "https://seatgeek.com/genesis-festival-tickets/kansas-city-missouri-uptown-theater-kc-2026-02-28-6-pm/music-festival/17970384",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/09/26",
+        "getIn": "$63.60",
+        "listings": 175
+      }
+    },
+    {
+      "artist": "Liquid Stranger",
+      "category": "dj",
+      "tier": "B",
+      "title": "Liquid Stranger",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-04-11T18:00:00",
+      "url": "https://seatgeek.com/liquid-stranger-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-11-6-pm/concert/17912400",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/09/26",
+        "getIn": "$63.60",
+        "listings": 175
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "Subtronics (21+) - 2 Day Pass",
+      "venue": "Brooklyn Storehouse at Brooklyn Navy Yard",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-02-27T03:30:00",
+      "url": "https://seatgeek.com/subtronics-tickets/brooklyn-new-york-brooklyn-storehouse-at-brooklyn-navy-yard-2026-02-27-3-30-am/concert/17861916",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "Subtronics (21+)",
+      "venue": "Brooklyn Storehouse at Brooklyn Navy Yard",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-02-27T22:00:00",
+      "url": "https://seatgeek.com/subtronics-tickets/brooklyn-new-york-brooklyn-storehouse-at-brooklyn-navy-yard-2026-02-27-10-pm/concert/17861914",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "Subtronics (21+)",
+      "venue": "Brooklyn Storehouse at Brooklyn Navy Yard",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-02-28T22:00:00",
+      "url": "https://seatgeek.com/subtronics-tickets/brooklyn-new-york-brooklyn-storehouse-at-brooklyn-navy-yard-2026-02-28-10-pm/concert/17861912",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "Subtronics - 2 Day Pass",
+      "venue": "The Met Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 0,
+      "date": "2026-03-06T03:30:00",
+      "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-06-3-30-am/concert/17837260",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "Subtronics with Juelz",
+      "venue": "The Met Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 0,
+      "date": "2026-03-06T19:30:00",
+      "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-06-7-30-pm/concert/17837258",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "Subtronics with Ahee",
+      "venue": "The Met Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 0,
+      "date": "2026-03-07T19:30:00",
+      "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-07-7-30-pm/concert/17837259",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "Subtronics with Ahee",
+      "venue": "The Factory STL",
+      "city": "Chesterfield",
+      "state": "MO",
+      "capacity": 0,
+      "date": "2026-03-12T19:00:00",
+      "url": "https://seatgeek.com/subtronics-tickets/chesterfield-missouri-the-factory-stl-2026-03-12-7-pm/concert/17837372",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "Subtronics with Ahee",
+      "venue": "Cable Dahmer Arena",
+      "city": "Independence",
+      "state": "MO",
+      "capacity": 0,
+      "date": "2026-03-13T20:00:00",
+      "url": "https://seatgeek.com/subtronics-tickets/independence-missouri-cable-dahmer-arena-2026-03-13-8-pm/concert/17836963",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "Subtronics with Ahee",
+      "venue": "MGM Music Hall at Fenway",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": 0,
+      "date": "2026-03-20T19:30:00",
+      "url": "https://seatgeek.com/subtronics-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-03-20-7-30-pm/concert/17837386",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "Twenty One Pilots, Tate McRae, Lorde headline Osheaga 2026 in Montreal",
+      "url": "https://www.cp24.com/news/entertainment/2026/02/24/twenty-one-pilots-tate-mcrae-lorde-headline-osheaga-2026-in-montreal/",
+      "source": "brave",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "Subtronics",
+      "category": "dj",
+      "tier": "A",
+      "title": "OSHEAGA 2026: Lorde, Twenty One Pilots, Tate Mcrae",
+      "url": "https://www.ticketnews.com/2026/02/osheaga-2026-lorde-twenty-one-pilots/",
+      "source": "brave",
+      "redRocks": {
+        "date": "04/23-24/26",
+        "getIn": "$112-$135",
+        "listings": "660-860",
+        "dayPassGetIn": "$255.26"
+      }
+    },
+    {
+      "artist": "The Elovaters",
+      "category": "bands",
+      "tier": "B",
+      "title": "The Elovaters with Shwayze",
+      "venue": "The Sound - Del Mar",
+      "city": "Del Mar",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-02-27T19:00:00",
+      "url": "https://seatgeek.com/the-elovaters-tickets/del-mar-california-the-sound-del-mar-2026-02-27-7-pm/concert/17812300",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/17/26",
+        "getIn": "$136.74",
+        "listings": 206
+      }
+    },
+    {
+      "artist": "The Elovaters",
+      "category": "bands",
+      "tier": "B",
+      "title": "The Elovaters with Shwayze",
+      "venue": "The Sound - Del Mar",
+      "city": "Del Mar",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-02-28T19:00:00",
+      "url": "https://seatgeek.com/the-elovaters-tickets/del-mar-california-the-sound-del-mar-2026-02-28-7-pm/concert/17812296",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/17/26",
+        "getIn": "$136.74",
+        "listings": 206
+      }
+    },
+    {
+      "artist": "The Elovaters",
+      "category": "bands",
+      "tier": "B",
+      "title": "The Elovaters",
+      "venue": "Marquee Theatre - Tempe, AZ",
+      "city": "Tempe",
+      "state": "AZ",
+      "capacity": 0,
+      "date": "2026-03-01T20:00:00",
+      "url": "https://seatgeek.com/the-elovaters-tickets/tempe-arizona-marquee-theatre-tempe-az-2026-03-01-8-pm/concert/17725608",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/17/26",
+        "getIn": "$136.74",
+        "listings": 206
+      }
+    },
+    {
+      "artist": "The Elovaters",
+      "category": "bands",
+      "tier": "B",
+      "title": "The Elovaters",
+      "venue": "Sunshine Theater",
+      "city": "Albuquerque",
+      "state": "NM",
+      "capacity": 0,
+      "date": "2026-03-03T20:00:00",
+      "url": "https://seatgeek.com/the-elovaters-tickets/albuquerque-new-mexico-sunshine-theater-2026-03-03-8-pm/concert/17727183",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/17/26",
+        "getIn": "$136.74",
+        "listings": 206
+      }
+    },
+    {
+      "artist": "The Elovaters",
+      "category": "bands",
+      "tier": "B",
+      "title": "The Elovaters with Jarv",
+      "venue": "Emo's Austin",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-03-05T18:00:00",
+      "url": "https://seatgeek.com/the-elovaters-tickets/austin-texas-emo-s-austin-2026-03-05-6-pm/concert/17725622",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/17/26",
+        "getIn": "$136.74",
+        "listings": 206
+      }
+    },
+    {
+      "artist": "The Elovaters",
+      "category": "bands",
+      "tier": "B",
+      "title": "The Elovaters",
+      "venue": "The Bomb Factory - Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 4300,
+      "date": "2026-03-06T20:00:00",
+      "url": "https://seatgeek.com/the-elovaters-tickets/dallas-texas-the-bomb-factory-dallas-2026-03-06-8-pm/concert/17727104",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/17/26",
+        "getIn": "$136.74",
+        "listings": 206
+      }
+    },
+    {
+      "artist": "The Elovaters",
+      "category": "bands",
+      "tier": "B",
+      "title": "The Elovaters with Shwayze",
+      "venue": "White Oak Music Hall - Downstairs",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-03-07T19:00:00",
+      "url": "https://seatgeek.com/the-elovaters-tickets/houston-texas-white-oak-music-hall-downstairs-2026-03-07-7-pm/concert/17725929",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/17/26",
+        "getIn": "$136.74",
+        "listings": 206
+      }
+    },
+    {
+      "artist": "The Elovaters",
+      "category": "bands",
+      "tier": "B",
+      "title": "The Elovaters",
+      "venue": "Pacific Amphitheatre",
+      "city": "Costa Mesa",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-07-11T18:00:00",
+      "url": "https://seatgeek.com/the-elovaters-tickets/costa-mesa-california-pacific-amphitheatre-2026-07-11-6-pm/concert/18033452",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/17/26",
+        "getIn": "$136.74",
+        "listings": 206
+      }
+    },
+    {
+      "artist": "The Elovaters",
+      "category": "bands",
+      "tier": "B",
+      "title": "Levitate Music & Arts Festival - Sunday - with CAAMP, Royel Otis, The Elovaters and more",
+      "venue": "Marshfield Fairgrounds",
+      "city": "Marshfield",
+      "state": "MA",
+      "capacity": 0,
+      "date": "2026-07-19T12:00:00",
+      "url": "https://seatgeek.com/levitate-music-arts-festival-tickets/marshfield-massachusetts-marshfield-fairgrounds-2026-07-19-12-pm/music-festival/17906054",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/17/26",
+        "getIn": "$136.74",
+        "listings": 206
+      }
+    },
+    {
+      "artist": "Fisher",
+      "category": "dj",
+      "tier": "A",
+      "title": "Creed Fisher (21+)",
+      "venue": "Doc's Tavern",
+      "city": "Greenville",
+      "state": "SC",
+      "capacity": 0,
+      "date": "2026-02-27T20:00:00",
+      "url": "https://seatgeek.com/creed-fisher-tickets/greenville-south-carolina-doc-s-tavern-2026-02-27-8-pm/concert/18006444",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/23/26",
+        "getIn": "$137.77",
+        "listings": 1014
+      }
+    },
+    {
+      "artist": "Fisher",
+      "category": "dj",
+      "tier": "A",
+      "title": "Creed Fisher",
+      "venue": "First Financial Music Hall",
+      "city": "El Dorado",
+      "state": "AR",
+      "capacity": 0,
+      "date": "2026-03-13T19:30:00",
+      "url": "https://seatgeek.com/creed-fisher-tickets/el-dorodo-arkansas-first-financial-music-hall-2026-03-13-7-30-pm/concert/17910687",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/23/26",
+        "getIn": "$137.77",
+        "listings": 1014
+      }
+    },
+    {
+      "artist": "Fisher",
+      "category": "dj",
+      "tier": "A",
+      "title": "Quad City Steamwheelers at Fishers Freight",
+      "venue": "Fishers Event Center",
+      "city": "Fishers",
+      "state": "IN",
+      "capacity": 0,
+      "date": "2026-03-14T17:00:00",
+      "url": "https://seatgeek.com/fishers-freight-tickets/football/2026-03-14-5-pm/18066789",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/23/26",
+        "getIn": "$137.77",
+        "listings": 1014
+      }
+    },
+    {
+      "artist": "Fisher",
+      "category": "dj",
+      "tier": "A",
+      "title": "Rob Fisher",
+      "venue": "Jacobs Music Center",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-03-14T19:30:00",
+      "url": "https://seatgeek.com/rob-fisher-tickets/san-diego-california-jacobs-music-center-2026-03-14-7-30-pm/concert/17843586",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/23/26",
+        "getIn": "$137.77",
+        "listings": 1014
+      }
+    },
+    {
+      "artist": "Fisher",
+      "category": "dj",
+      "tier": "A",
+      "title": "Fisher",
+      "venue": "Navy Pier",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 0,
+      "date": "2026-03-20T19:00:00",
+      "url": "https://seatgeek.com/fisher-tickets/chicago-illinois-navy-pier-2026-03-20-7-pm/concert/17957001",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/23/26",
+        "getIn": "$137.77",
+        "listings": 1014
+      }
+    },
+    {
+      "artist": "Fisher",
+      "category": "dj",
+      "tier": "A",
+      "title": "Jourdain Fisher",
+      "venue": "Tacoma Comedy Club - 6th and Proctor",
+      "city": "Tacoma",
+      "state": "WA",
+      "capacity": 0,
+      "date": "2026-03-20T19:30:00",
+      "url": "https://seatgeek.com/jourdain-fisher-tickets/comedy/2026-03-20-7-30-pm/18075175",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/23/26",
+        "getIn": "$137.77",
+        "listings": 1014
+      }
+    },
+    {
+      "artist": "Fisher",
+      "category": "dj",
+      "tier": "A",
+      "title": "Jourdain Fisher",
+      "venue": "Tacoma Comedy Club - 6th and Proctor",
+      "city": "Tacoma",
+      "state": "WA",
+      "capacity": 0,
+      "date": "2026-03-20T21:45:00",
+      "url": "https://seatgeek.com/jourdain-fisher-tickets/comedy/2026-03-20-9-45-pm/18075173",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/23/26",
+        "getIn": "$137.77",
+        "listings": 1014
+      }
+    },
+    {
+      "artist": "Fisher",
+      "category": "dj",
+      "tier": "A",
+      "title": "Jourdain Fisher",
+      "venue": "Tacoma Comedy Club - 6th and Proctor",
+      "city": "Tacoma",
+      "state": "WA",
+      "capacity": 0,
+      "date": "2026-03-21T19:30:00",
+      "url": "https://seatgeek.com/jourdain-fisher-tickets/comedy/2026-03-21-7-30-pm/18075176",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/23/26",
+        "getIn": "$137.77",
+        "listings": 1014
+      }
+    },
+    {
+      "artist": "Fisher",
+      "category": "dj",
+      "tier": "A",
+      "title": "A Conversation with Jefferson Fisher - Tour 2026",
+      "url": "https://au.thinkable.events/jefferson-fisher-tour/",
+      "source": "brave",
+      "redRocks": {
+        "date": "05/23/26",
+        "getIn": "$137.77",
+        "listings": 1014
+      }
+    },
+    {
+      "artist": "Rezz",
+      "category": "dj",
+      "tier": "A",
+      "title": "EDM star announces return for 8th annual Red Rocks takeover",
+      "url": "https://kdvr.com/news/local/edm-star-announces-return-for-8th-annual-red-rocks-takeover/",
+      "source": "brave",
+      "redRocks": {
+        "date": "10/03/26",
+        "getIn": "$107.57",
+        "listings": 386
+      }
+    },
+    {
+      "artist": "Rezz",
+      "category": "dj",
+      "tier": "A",
+      "title": "REZZ Reveals Lineup And On-Sale Info For REZZ ROCKS VIII | EDM Identity",
+      "url": "https://edmidentity.com/2026/02/23/rezz-rezz-rocks-viii-lineup/",
+      "source": "brave",
+      "redRocks": {
+        "date": "10/03/26",
+        "getIn": "$107.57",
+        "listings": 386
+      }
+    },
+    {
+      "artist": "Rezz",
+      "category": "dj",
+      "tier": "A",
+      "title": "REZZ Rocks 2026 Returns to Red Rocks for One Night Only This October | EDM Realm",
+      "url": "https://edmrealm.com/blog/rezz-rocks-2026-returns-to-red-rocks-for-one-night-only-this-october",
+      "source": "brave",
+      "redRocks": {
+        "date": "10/03/26",
+        "getIn": "$107.57",
+        "listings": 386
+      }
+    },
+    {
+      "artist": "Rezz",
+      "category": "dj",
+      "tier": "A",
+      "title": "Every 2026 Red Rocks concert that's been announced (so far)",
+      "url": "https://www.denverpost.com/2025/11/04/red-rocks-concerts-2026/",
+      "source": "brave",
+      "redRocks": {
+        "date": "10/03/26",
+        "getIn": "$107.57",
+        "listings": 386
+      }
+    },
+    {
+      "artist": "Stardew Valley Symphony",
+      "category": "bands",
+      "tier": "B",
+      "title": "Stardew Valley: Symphony Of Seasons - Waterbury",
+      "venue": "Palace Theater - Waterbury",
+      "city": "Waterbury",
+      "state": "CT",
+      "capacity": 0,
+      "date": "2026-02-27T20:00:00",
+      "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-02-27-8-pm/17622338",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Stardew Valley Symphony",
+      "category": "bands",
+      "tier": "B",
+      "title": "Stardew Valley: Symphony of Seasons",
+      "venue": "Chartway Arena",
+      "city": "Norfolk",
+      "state": "VA",
+      "capacity": 9100,
+      "date": "2026-02-28T20:00:00",
+      "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-02-28-8-pm/17489888",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Stardew Valley Symphony",
+      "category": "bands",
+      "tier": "B",
+      "title": "Stardew Valley: Symphony of Seasons - Salem",
+      "venue": "Salem Civic Center",
+      "city": "Salem",
+      "state": "VA",
+      "capacity": 0,
+      "date": "2026-03-02T20:00:00",
+      "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-03-02-8-pm/17489965",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Stardew Valley Symphony",
+      "category": "bands",
+      "tier": "B",
+      "title": "Stardew Valley: Symphony of Seasons - Cleveland",
+      "venue": "KeyBank State Theatre at Playhouse Square",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": 3400,
+      "date": "2026-03-04T20:00:00",
+      "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-03-04-8-pm/17920046",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Stardew Valley Symphony",
+      "category": "bands",
+      "tier": "B",
+      "title": "Stardew Valley: Symphony of Seasons - Pittsburgh",
+      "venue": "Benedum Center",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": 0,
+      "date": "2026-03-08T19:00:00",
+      "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-03-08-7-pm/17547651",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Stardew Valley Symphony",
+      "category": "bands",
+      "tier": "B",
+      "title": "Stardew Valley - Symphony of Seasons - Nashville",
+      "venue": "Tennessee Performing Arts Center - Andrew Jackson Hall",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 2472,
+      "date": "2026-03-14T20:00:00",
+      "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-03-14-8-pm/17523855",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Stardew Valley Symphony",
+      "category": "bands",
+      "tier": "B",
+      "title": "Stardew Valley: Symphony of Seasons",
+      "venue": "Hawaii Theatre",
+      "city": "Honolulu",
+      "state": "HI",
+      "capacity": 0,
+      "date": "2026-03-21T19:00:00",
+      "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-03-21-7-pm/17295983",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Stardew Valley Symphony",
+      "category": "bands",
+      "tier": "B",
+      "title": "Stardew Valley: Symphony of Seasons (Rescheduled from 2/24/26)",
+      "venue": "Providence Performing Arts Center",
+      "city": "Providence",
+      "state": "RI",
+      "capacity": 3232,
+      "date": "2026-04-10T19:30:00",
+      "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-04-10-7-30-pm/17513567",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Stardew Valley Symphony",
+      "category": "bands",
+      "tier": "B",
+      "title": "Stardew Valley - Symphony of Seasons",
+      "venue": "Providence Performing Arts Center",
+      "city": "Providence",
+      "state": "RI",
+      "capacity": 3232,
+      "date": "2026-04-24T19:30:00",
+      "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-04-24-7-30-pm/17511403",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Tucker Wetmore",
+      "category": "bands",
+      "tier": "B",
+      "title": "Tucker Wetmore with Dasha",
+      "venue": "The Factory STL",
+      "city": "Chesterfield",
+      "state": "MO",
+      "capacity": 0,
+      "date": "2026-02-27T19:30:00",
+      "url": "https://seatgeek.com/tucker-wetmore-tickets/chesterfield-missouri-the-factory-stl-2026-02-27-7-30-pm/concert/17847892",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Tucker Wetmore",
+      "category": "bands",
+      "tier": "B",
+      "title": "Tucker Wetmore",
+      "venue": "Choctaw Grand Theater",
+      "city": "Durant",
+      "state": "OK",
+      "capacity": 5500,
+      "date": "2026-02-28T20:00:00",
+      "url": "https://seatgeek.com/tucker-wetmore-tickets/durant-oklahoma-choctaw-grand-theater-2026-02-28-8-pm/concert/17910793",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Tucker Wetmore",
+      "category": "bands",
+      "tier": "B",
+      "title": "Tucker Wetmore",
+      "venue": "Round Rock Amp",
+      "city": "Round Rock",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-03-01T19:00:00",
+      "url": "https://seatgeek.com/tucker-wetmore-tickets/round-rock-texas-round-rock-amp-2026-03-01-7-pm/concert/17522739",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Tucker Wetmore",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hardy with Tucker Wetmore and McCoy Moore",
+      "venue": "Orion Amphitheater",
+      "city": "Huntsville",
+      "state": "AL",
+      "capacity": 0,
+      "date": "2026-05-22T19:00:00",
+      "url": "https://seatgeek.com/hardy-tickets/huntsville-alabama-orion-amphitheater-2026-05-22-7-pm/concert/17805620",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Tucker Wetmore",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hardy with Tucker Wetmore and McCoy Moore",
+      "venue": "The Wharf Amphitheater",
+      "city": "Orange Beach",
+      "state": "AL",
+      "capacity": 0,
+      "date": "2026-05-23T19:00:00",
+      "url": "https://seatgeek.com/hardy-tickets/orange-beach-alabama-the-wharf-amphitheater-2026-05-23-7-pm/concert/17805622",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Tucker Wetmore",
+      "category": "bands",
+      "tier": "B",
+      "title": "Hardy with Tucker Wetmore and McCoy Moore",
+      "venue": "Merriweather Post Pavilion",
+      "city": "Columbia",
+      "state": "MD",
+      "capacity": 0,
+      "date": "2026-06-11T19:00:00",
+      "url": "https://seatgeek.com/hardy-tickets/columbia-maryland-merriweather-post-pavilion-2026-06-11-7-pm/concert/17805636",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Nurse John",
+      "category": "comedy",
+      "tier": "B",
+      "title": "Netflix Is A Joke Fest Presents: Nurse John",
+      "venue": "Pacific Electric",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-05-08T19:00:00",
+      "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-08-7-pm/18022027",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Nurse John",
+      "category": "comedy",
+      "tier": "B",
+      "title": "Nurse John",
+      "venue": "Oxnard Levity Live",
+      "city": "Oxnard",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-07-16T19:30:00",
+      "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-16-7-30-pm/17727880",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Nurse John",
+      "category": "comedy",
+      "tier": "B",
+      "title": "Nurse John",
+      "venue": "Oxnard Levity Live",
+      "city": "Oxnard",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-07-17T19:00:00",
+      "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-17-7-pm/17653764",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Nurse John",
+      "category": "comedy",
+      "tier": "B",
+      "title": "Nurse John",
+      "venue": "Oxnard Levity Live",
+      "city": "Oxnard",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-07-17T21:15:00",
+      "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-17-9-15-pm/17653765",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Nurse John",
+      "category": "comedy",
+      "tier": "B",
+      "title": "Nurse John",
+      "venue": "Oxnard Levity Live",
+      "city": "Oxnard",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-07-18T18:00:00",
+      "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-18-6-pm/17653766",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Nurse John",
+      "category": "comedy",
+      "tier": "B",
+      "title": "Nurse John",
+      "venue": "Oxnard Levity Live",
+      "city": "Oxnard",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-07-18T20:30:00",
+      "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-18-8-30-pm/17653767",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Nurse John",
+      "category": "comedy",
+      "tier": "B",
+      "title": "Nurse John",
+      "venue": "Oxnard Levity Live",
+      "city": "Oxnard",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-07-19T18:00:00",
+      "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-19-6-pm/17727881",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Sara Landry",
+      "category": "dj",
+      "tier": "A",
+      "title": "Sara Landry (18+)",
+      "venue": "SILO - Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-04-11T21:00:00",
+      "url": "https://seatgeek.com/sara-landry-tickets/dallas-texas-silo-dallas-2026-04-11-9-pm/concert/17973185",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Sara Landry",
+      "category": "dj",
+      "tier": "A",
+      "title": "Sara Landry (18+)",
+      "venue": "SILO - Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-04-12T21:00:00",
+      "url": "https://seatgeek.com/sara-landry-tickets/dallas-texas-silo-dallas-2026-04-12-9-pm/concert/17973187",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Sara Landry",
+      "category": "dj",
+      "tier": "A",
+      "title": "Sara Landry (21+)",
+      "venue": "Under the K Bridge",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-07-31T19:00:00",
+      "url": "https://seatgeek.com/sara-landry-tickets/brooklyn-new-york-under-the-k-bridge-2026-07-31-7-pm/concert/18075533",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Sara Landry",
+      "category": "dj",
+      "tier": "A",
+      "title": "Sara Landry",
+      "venue": "Under the K Bridge",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-08-01T19:00:00",
+      "url": "https://seatgeek.com/sara-landry-tickets/brooklyn-new-york-under-the-k-bridge-2026-08-01-7-pm/concert/18071785",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Knock2",
+      "category": "dj",
+      "tier": "A",
+      "title": "Badlands Music Festival with Knock2 (18+)",
+      "venue": "Badland's Tent",
+      "city": "Calgary",
+      "state": "AB",
+      "capacity": 0,
+      "date": "2026-07-06T18:00:00",
+      "url": "https://seatgeek.com/badlands-music-festival-tickets/calgary-canada-badland-s-tent-2026-07-06-6-pm/music-festival/17934942",
+      "source": "seatgeek",
+      "redRocks": null
+    },
+    {
+      "artist": "Knock2",
+      "category": "dj",
+      "tier": "A",
+      "title": "Hard Summer 2026 Guide: Full Lineup, Dates And Ticket Sale Details For Hollywood Park Festival | US Buzz - Times Now",
+      "url": "https://www.timesnownews.com/world/us/us-buzz/hard-summer-2026-guide-full-lineup-dates-and-ticket-sale-details-for-hollywood-park-festival-article-153714048",
+      "source": "brave",
+      "redRocks": null
+    },
+    {
+      "artist": "Knock2",
+      "category": "dj",
+      "tier": "A",
+      "title": "Hard Summer 2026 Tickets Are On Sale Today - Here's The Full Lineup - ARTVOICE",
+      "url": "https://artvoice.com/2026/02/27/hard-summer-2026-tickets-are-on-sale-today-heres-the-full-lineup/",
+      "source": "brave",
+      "redRocks": null
+    },
+    {
+      "artist": "Knock2",
+      "category": "dj",
+      "tier": "A",
+      "title": "Hard Summer 2026: Zedd b2b Knock2, Kali Uchis and DJ Snake Lead Hollywood Park Lineup - FilmoGaz",
+      "url": "https://www.filmogaz.com/171961",
+      "source": "brave",
+      "redRocks": null
+    },
+    {
+      "artist": "Knock2",
+      "category": "dj",
+      "tier": "A",
+      "title": "HARD Summer drops Kali Uchis, Zedd for 2026, tickets on sale today - Art Threat",
+      "url": "https://artthreat.net/4413-18944-hard-summer-drops-kali-uchis-zedd-for-2026-tickets-on-sale-today/",
+      "source": "brave",
+      "redRocks": null
+    },
+    {
+      "artist": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "title": "Tape B",
+      "venue": "Gallagher Square at Petco Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-03-20T17:00:00",
+      "url": "https://seatgeek.com/tape-b-tickets/san-diego-california-gallagher-square-at-petco-park-1-2026-03-20-5-pm/concert/18006549",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/08-09/26",
+        "getIn": "$89-$116",
+        "listings": "455-473"
+      }
+    },
+    {
+      "artist": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "title": "ILLENIUM with Tape B",
+      "venue": "Sphere",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 0,
+      "date": "2026-04-04T21:30:00",
+      "url": "https://seatgeek.com/illenium-tickets/las-vegas-nevada-sphere-2026-04-04-9-30-pm/concert/17761795",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/08-09/26",
+        "getIn": "$89-$116",
+        "listings": "455-473"
+      }
+    },
+    {
+      "artist": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "title": "Tape B",
+      "venue": "Harrah's Resort Atlantic City",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "capacity": 2588,
+      "date": "2026-04-25T23:00:00",
+      "url": "https://seatgeek.com/tape-b-tickets/atlantic-city-new-jersey-harrah-s-resort-atlantic-city-2026-04-25-11-pm/concert/18006552",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/08-09/26",
+        "getIn": "$89-$116",
+        "listings": "455-473"
+      }
+    },
+    {
+      "artist": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "title": "Force Fields Music Festival - 2 Day Pass - with Zeds Dead, Ganja White Night, Tape B, and more",
+      "venue": "Chippewa Valley Music Festival Grounds",
+      "city": "Cadott",
+      "state": "WI",
+      "capacity": 0,
+      "date": "2026-06-05T03:30:00",
+      "url": "https://seatgeek.com/force-fields-music-festival-tickets/cadott-wisconsin-chippewa-valley-music-festival-grounds-2026-06-05-3-30-am/music-festival/18071890",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/08-09/26",
+        "getIn": "$89-$116",
+        "listings": "455-473"
+      }
+    },
+    {
+      "artist": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "title": "Tape B with Levity",
+      "venue": "KettleHouse Amphitheater",
+      "city": "Bonner",
+      "state": "MT",
+      "capacity": 0,
+      "date": "2026-07-17T18:00:00",
+      "url": "https://seatgeek.com/tape-b-tickets/bonner-montana-kettlehouse-amphitheater-2026-07-17-6-pm/concert/18010060",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/08-09/26",
+        "getIn": "$89-$116",
+        "listings": "455-473"
+      }
+    },
+    {
+      "artist": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "title": "Levity with Tape B",
+      "venue": "Hayden Homes Amphitheater",
+      "city": "Bend",
+      "state": "OR",
+      "capacity": 5000,
+      "date": "2026-07-18T18:00:00",
+      "url": "https://seatgeek.com/levity-tickets/bend-oregon-hayden-homes-amphitheater-2026-07-18-6-pm/concert/18009591",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/08-09/26",
+        "getIn": "$89-$116",
+        "listings": "455-473"
+      }
+    },
+    {
+      "artist": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "title": "Tape B with Levity",
+      "venue": "Morton Amphitheater",
+      "city": "Riverside",
+      "state": "MO",
+      "capacity": 0,
+      "date": "2026-07-23T19:00:00",
+      "url": "https://seatgeek.com/tape-b-tickets/riverside-missouri-morton-amphitheater-2026-07-23-7-pm/concert/18010225",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/08-09/26",
+        "getIn": "$89-$116",
+        "listings": "455-473"
+      }
+    },
+    {
+      "artist": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "title": "Levity with Tape B",
+      "venue": "Everwise Amphitheater at White River State Park",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": 6000,
+      "date": "2026-07-24T19:00:00",
+      "url": "https://seatgeek.com/levity-tickets/indianapolis-indiana-everwise-amphitheater-at-white-river-state-park-2026-07-24-7-pm/concert/18009491",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/08-09/26",
+        "getIn": "$89-$116",
+        "listings": "455-473"
+      }
+    },
+    {
+      "artist": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "title": "Levity with Tape B",
+      "venue": "PNC Pavilion",
+      "city": "Cincinnati",
+      "state": "OH",
+      "capacity": 0,
+      "date": "2026-07-25T19:00:00",
+      "url": "https://seatgeek.com/levity-tickets/cincinnati-ohio-pnc-pavilion-2026-07-25-7-pm/concert/18009579",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/08-09/26",
+        "getIn": "$89-$116",
+        "listings": "455-473"
+      }
+    },
+    {
+      "artist": "Tape B",
+      "category": "dj",
+      "tier": "B",
+      "title": "Tape B with Levity",
+      "venue": "Allianz Amphitheater at Riverfront",
+      "city": "Richmond",
+      "state": "VA",
+      "capacity": 0,
+      "date": "2026-07-30T19:00:00",
+      "url": "https://seatgeek.com/tape-b-tickets/richmond-virginia-allianz-amphitheater-at-riverfront-2026-07-30-7-pm/concert/18010221",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/08-09/26",
+        "getIn": "$89-$116",
+        "listings": "455-473"
+      }
+    },
+    {
+      "artist": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "title": "ALLEYCVT - Night 2 (18+)",
+      "venue": "Blackbox Theater - Charlotte",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": 0,
+      "date": "2026-02-27T22:00:00",
+      "url": "https://seatgeek.com/alleycvt-tickets/charlotte-north-carolina-blackbox-theater-charlotte-2026-02-27-10-pm/concert/17931425",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/08/26",
+        "getIn": "$66.66",
+        "listings": 428
+      }
+    },
+    {
+      "artist": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "title": "ALLEYCVT",
+      "venue": "The Plaza Live",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": 0,
+      "date": "2026-02-28T20:00:00",
+      "url": "https://seatgeek.com/alleycvt-tickets/orlando-florida-the-plaza-live-2026-02-28-8-pm/concert/17959861",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/08/26",
+        "getIn": "$66.66",
+        "listings": 428
+      }
+    },
+    {
+      "artist": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "title": "ALLEYCVT",
+      "venue": "The Regency Ballroom",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 4000,
+      "date": "2026-03-06T20:00:00",
+      "url": "https://seatgeek.com/alleycvt-tickets/san-francisco-california-the-regency-ballroom-2026-03-06-8-pm/concert/17929685",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/08/26",
+        "getIn": "$66.66",
+        "listings": 428
+      }
+    },
+    {
+      "artist": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "title": "ALLEYCVT (18+)",
+      "venue": "The Concourse Project",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-03-07T21:00:00",
+      "url": "https://seatgeek.com/alleycvt-tickets/austin-texas-the-concourse-project-2026-03-07-9-pm/concert/17999693",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/08/26",
+        "getIn": "$66.66",
+        "listings": 428
+      }
+    },
+    {
+      "artist": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "title": "ALLEYCVT",
+      "venue": "The Bomb Factory - Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 4300,
+      "date": "2026-03-13T20:00:00",
+      "url": "https://seatgeek.com/alleycvt-tickets/dallas-texas-the-bomb-factory-dallas-2026-03-13-8-pm/concert/17999371",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/08/26",
+        "getIn": "$66.66",
+        "listings": 428
+      }
+    },
+    {
+      "artist": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "title": "ALLEYCVT (18+)",
+      "venue": "The Novo",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 2300,
+      "date": "2026-03-14T21:00:00",
+      "url": "https://seatgeek.com/alleycvt-tickets/los-angeles-california-the-novo-2026-03-14-9-pm/concert/17890882",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/08/26",
+        "getIn": "$66.66",
+        "listings": 428
+      }
+    },
+    {
+      "artist": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "title": "ALLEYCVT - 2 Day Pass (3/20 - 3/21)",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 1200,
+      "date": "2026-03-20T03:30:00",
+      "url": "https://seatgeek.com/alleycvt-tickets/washington-district-of-columbia-9-30-club-2026-03-20-3-30-am/concert/17773954",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/08/26",
+        "getIn": "$66.66",
+        "listings": 428
+      }
+    },
+    {
+      "artist": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "title": "ALLEYCVT",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 1200,
+      "date": "2026-03-20T22:00:00",
+      "url": "https://seatgeek.com/alleycvt-tickets/washington-district-of-columbia-9-30-club-2026-03-20-10-pm/concert/17773952",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/08/26",
+        "getIn": "$66.66",
+        "listings": 428
+      }
+    },
+    {
+      "artist": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "title": "ALLEYCVT with Dennett",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 1200,
+      "date": "2026-03-21T22:00:00",
+      "url": "https://seatgeek.com/alleycvt-tickets/washington-district-of-columbia-9-30-club-2026-03-21-10-pm/concert/17773953",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/08/26",
+        "getIn": "$66.66",
+        "listings": 428
+      }
+    },
+    {
+      "artist": "ALLEYCVT",
+      "category": "dj",
+      "tier": "B",
+      "title": "ALLEYCVT with HABSTRAKT, Tynan, Costa and Tazu",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-05-08T20:00:00",
+      "url": "https://seatgeek.com/alleycvt-tickets/morrison-colorado-red-rocks-amphitheatre-2026-05-08-8-pm/concert/18066838",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/08/26",
+        "getIn": "$66.66",
+        "listings": 428
+      }
+    },
+    {
+      "artist": "Mersiv",
+      "category": "dj",
+      "tier": "B",
+      "title": "Mersiv (18+)",
+      "venue": "Laguna's Beach Bar + Grill",
+      "city": "Pensacola",
+      "state": "FL",
+      "capacity": 0,
+      "date": "2026-03-14T20:00:00",
+      "url": "https://seatgeek.com/mersiv-tickets/pensacola-florida-laguna-s-beach-bar-grill-2026-03-14-8-pm/concert/18090431",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/23/26",
+        "getIn": "$65.79",
+        "listings": 256
+      }
+    },
+    {
+      "artist": "Mersiv",
+      "category": "dj",
+      "tier": "B",
+      "title": "Mersiv",
+      "venue": "State Theatre - Portland, ME",
+      "city": "Portland",
+      "state": "ME",
+      "capacity": 0,
+      "date": "2026-03-20T19:00:00",
+      "url": "https://seatgeek.com/mersiv-tickets/portland-maine-state-theatre-portland-me-2026-03-20-7-pm/concert/18025910",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/23/26",
+        "getIn": "$65.79",
+        "listings": 256
+      }
+    },
+    {
+      "artist": "Mersiv",
+      "category": "dj",
+      "tier": "B",
+      "title": "Mersiv with Lumasi",
+      "venue": "Nevermore Hall",
+      "city": "Baltimore",
+      "state": "MD",
+      "capacity": 0,
+      "date": "2026-03-21T20:00:00",
+      "url": "https://seatgeek.com/mersiv-tickets/baltimore-maryland-nevermore-hall-2026-03-21-8-pm/concert/18026467",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/23/26",
+        "getIn": "$65.79",
+        "listings": 256
+      }
+    },
+    {
+      "artist": "Mersiv",
+      "category": "dj",
+      "tier": "B",
+      "title": "Mersiv (21+)",
+      "venue": "Royale - Boston",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": 660,
+      "date": "2026-05-01T22:00:00",
+      "url": "https://seatgeek.com/mersiv-tickets/boston-massachusetts-royale-boston-2026-05-01-10-pm/concert/18039387",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/23/26",
+        "getIn": "$65.79",
+        "listings": 256
+      }
+    },
+    {
+      "artist": "Mersiv",
+      "category": "dj",
+      "tier": "B",
+      "title": "Mersiv",
+      "venue": "Knitting Factory Concert House - Boise",
+      "city": "Boise",
+      "state": "ID",
+      "capacity": 0,
+      "date": "2026-05-07T20:00:00",
+      "url": "https://seatgeek.com/mersiv-tickets/boise-idaho-knitting-factory-concert-house-boise-2026-05-07-8-pm/concert/18025954",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/23/26",
+        "getIn": "$65.79",
+        "listings": 256
+      }
+    },
+    {
+      "artist": "Mersiv",
+      "category": "dj",
+      "tier": "B",
+      "title": "Mersiv",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-10-23T17:00:00",
+      "url": "https://seatgeek.com/mersiv-tickets/morrison-colorado-red-rocks-amphitheatre-2026-10-23-5-pm/concert/17982952",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/23/26",
+        "getIn": "$65.79",
+        "listings": 256
+      }
+    },
+    {
+      "artist": "LSDREAM",
+      "category": "dj",
+      "tier": "B",
+      "title": "LSDREAM",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-05-16T09:30:00",
+      "url": "https://seatgeek.com/lsdream-tickets/morrison-colorado-red-rocks-amphitheatre-2026-05-16-9-30-am/concert/17982949",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/16/26",
+        "getIn": "$96.75",
+        "listings": 302
+      }
+    },
+    {
+      "artist": "LSDREAM",
+      "category": "dj",
+      "tier": "B",
+      "title": "LSDREAM",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-05-16T18:00:00",
+      "url": "https://seatgeek.com/lsdream-tickets/morrison-colorado-red-rocks-amphitheatre-2026-05-16-6-pm/concert/17904764",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/16/26",
+        "getIn": "$96.75",
+        "listings": 302
+      }
+    },
+    {
+      "artist": "LSDREAM",
+      "category": "dj",
+      "tier": "B",
+      "title": "Griztronics with Subtronics, GRiZ, LSDREAM, and more - 2 Day Pass",
+      "venue": "Gorge Amphitheatre",
+      "city": "George",
+      "state": "WA",
+      "capacity": 0,
+      "date": "2026-05-23T03:30:00",
+      "url": "https://seatgeek.com/griztronics-tickets/george-washington-gorge-amphitheatre-2026-05-23-3-30-am/concert/17902647",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/16/26",
+        "getIn": "$96.75",
+        "listings": 302
+      }
+    },
+    {
+      "artist": "Ravenscoon",
+      "category": "dj",
+      "tier": "B",
+      "title": "Ravenscoon with Jantsen",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-03-28T18:00:00",
+      "url": "https://seatgeek.com/ravenscoon-tickets/morrison-colorado-red-rocks-amphitheatre-2026-03-28-6-pm/concert/17838456",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "03/28/26",
+        "getIn": "$70.00",
+        "listings": 412
+      }
+    },
+    {
+      "artist": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "title": "INZO (18+)",
+      "venue": "Echostage",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 0,
+      "date": "2026-02-27T22:00:00",
+      "url": "https://seatgeek.com/inzo-tickets/washington-district-of-columbia-echostage-2026-02-27-10-pm/concert/17748412",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/03/26",
+        "getIn": "$75.00",
+        "listings": 421
+      }
+    },
+    {
+      "artist": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "title": "INZO (18+)",
+      "venue": "Brooklyn Steel",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-02-28T21:00:00",
+      "url": "https://seatgeek.com/inzo-tickets/brooklyn-new-york-brooklyn-steel-2026-02-28-9-pm/concert/17861837",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/03/26",
+        "getIn": "$75.00",
+        "listings": 421
+      }
+    },
+    {
+      "artist": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "title": "INZO with Know Good",
+      "venue": "State Theatre - Portland, ME",
+      "city": "Portland",
+      "state": "ME",
+      "capacity": 0,
+      "date": "2026-03-05T19:30:00",
+      "url": "https://seatgeek.com/inzo-tickets/portland-maine-state-theatre-portland-me-2026-03-05-7-30-pm/concert/17747668",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/03/26",
+        "getIn": "$75.00",
+        "listings": 421
+      }
+    },
+    {
+      "artist": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "title": "INZO with Know Good (21+)",
+      "venue": "Big Night Live",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": 0,
+      "date": "2026-03-06T21:00:00",
+      "url": "https://seatgeek.com/inzo-tickets/boston-massachusetts-big-night-live-2026-03-06-9-pm/concert/17748705",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/03/26",
+        "getIn": "$75.00",
+        "listings": 421
+      }
+    },
+    {
+      "artist": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "title": "INZO (18+)",
+      "venue": "Town Ballroom - Buffalo",
+      "city": "Buffalo",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-03-07T20:00:00",
+      "url": "https://seatgeek.com/inzo-tickets/buffalo-new-york-town-ballroom-buffalo-2026-03-07-8-pm/concert/17760299",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/03/26",
+        "getIn": "$75.00",
+        "listings": 421
+      }
+    },
+    {
+      "artist": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "title": "INZO",
+      "venue": "Globe Iron",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": 0,
+      "date": "2026-03-08T20:00:00",
+      "url": "https://seatgeek.com/inzo-tickets/cleveland-ohio-globe-iron-2026-03-08-8-pm/concert/17760300",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/03/26",
+        "getIn": "$75.00",
+        "listings": 421
+      }
+    },
+    {
+      "artist": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "title": "INZO with Know Good",
+      "venue": "Bogarts - Cincinnati",
+      "city": "Cincinnati",
+      "state": "OH",
+      "capacity": 1464,
+      "date": "2026-03-11T19:00:00",
+      "url": "https://seatgeek.com/inzo-tickets/cincinnati-ohio-bogarts-cincinnati-2026-03-11-7-pm/concert/17748016",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/03/26",
+        "getIn": "$75.00",
+        "listings": 421
+      }
+    },
+    {
+      "artist": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "title": "INZO",
+      "venue": "KEMBA Live!",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": 0,
+      "date": "2026-03-12T20:00:00",
+      "url": "https://seatgeek.com/inzo-tickets/columbus-ohio-kemba-live-2026-03-12-8-pm/concert/17760304",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/03/26",
+        "getIn": "$75.00",
+        "listings": 421
+      }
+    },
+    {
+      "artist": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "title": "INZO",
+      "venue": "Radius Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 0,
+      "date": "2026-03-13T22:00:00",
+      "url": "https://seatgeek.com/inzo-tickets/chicago-illinois-radius-chicago-2026-03-13-10-pm/concert/17760306",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/03/26",
+        "getIn": "$75.00",
+        "listings": 421
+      }
+    },
+    {
+      "artist": "INZO",
+      "category": "dj",
+      "tier": "B",
+      "title": "INZO",
+      "venue": "The Intersection",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "capacity": 0,
+      "date": "2026-03-14T21:00:00",
+      "url": "https://seatgeek.com/inzo-tickets/grand-rapids-michigan-the-intersection-2026-03-14-9-pm/concert/17760308",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/03/26",
+        "getIn": "$75.00",
+        "listings": 421
+      }
+    },
+    {
+      "artist": "Cloonee",
+      "category": "dj",
+      "tier": "B",
+      "title": "Miami Music Week - Cloonee (21+)",
+      "venue": "Club Space Miami",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": 0,
+      "date": "2026-03-26T23:00:00",
+      "url": "https://seatgeek.com/miami-music-week-tickets/miami-florida-club-space-miami-2026-03-26-11-pm/concert/18025831",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/09/26",
+        "getIn": "$65.00",
+        "listings": 644
+      }
+    },
+    {
+      "artist": "Cloonee",
+      "category": "dj",
+      "tier": "B",
+      "title": "Cloonee (18+)",
+      "venue": "SILO - Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-04-25T21:00:00",
+      "url": "https://seatgeek.com/cloonee-tickets/dallas-texas-silo-dallas-2026-04-25-9-pm/concert/18035185",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/09/26",
+        "getIn": "$65.00",
+        "listings": 644
+      }
+    },
+    {
+      "artist": "Cloonee",
+      "category": "dj",
+      "tier": "B",
+      "title": "Cloonee",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-05-09T19:00:00",
+      "url": "https://seatgeek.com/cloonee-tickets/morrison-colorado-red-rocks-amphitheatre-2026-05-09-7-pm/concert/17947902",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/09/26",
+        "getIn": "$65.00",
+        "listings": 644
+      }
+    },
+    {
+      "artist": "Cloonee",
+      "category": "dj",
+      "tier": "B",
+      "title": "Cloonee",
+      "venue": "Brooklyn Army Terminal",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-08-15T16:00:00",
+      "url": "https://seatgeek.com/cloonee-tickets/brooklyn-new-york-brooklyn-army-terminal-2026-08-15-4-pm/concert/18086009",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/09/26",
+        "getIn": "$65.00",
+        "listings": 644
+      }
+    },
+    {
+      "artist": "Sammy Virji",
+      "category": "dj",
+      "tier": "B",
+      "title": "Sammy Virji",
+      "venue": "The Pinnacle - Nashville",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 0,
+      "date": "2026-05-07T20:00:00",
+      "url": "https://seatgeek.com/sammy-virji-tickets/nashville-tennessee-the-pinnacle-nashville-2026-05-07-8-pm/concert/18071598",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/16/26",
+        "getIn": "$98.80",
+        "listings": 571
+      }
+    },
+    {
+      "artist": "Sammy Virji",
+      "category": "dj",
+      "tier": "B",
+      "title": "Sammy Virji",
+      "venue": "Coca-Cola Roxy Theatre",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": 3000,
+      "date": "2026-05-08T20:00:00",
+      "url": "https://seatgeek.com/sammy-virji-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-05-08-8-pm/concert/18071200",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/16/26",
+        "getIn": "$98.80",
+        "listings": 571
+      }
+    },
+    {
+      "artist": "Sammy Virji",
+      "category": "dj",
+      "tier": "B",
+      "title": "Sammy Virji (18+)",
+      "venue": "Brooklyn Army Terminal",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-07-31T16:00:00",
+      "url": "https://seatgeek.com/sammy-virji-tickets/brooklyn-new-york-brooklyn-army-terminal-2026-07-31-4-pm/concert/18071600",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/16/26",
+        "getIn": "$98.80",
+        "listings": 571
+      }
+    },
+    {
+      "artist": "Sammy Virji",
+      "category": "dj",
+      "tier": "B",
+      "title": "Sammy Virji (18+)",
+      "venue": "Brooklyn Army Terminal",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-08-01T16:00:00",
+      "url": "https://seatgeek.com/sammy-virji-tickets/brooklyn-new-york-brooklyn-army-terminal-2026-08-01-4-pm/concert/18071602",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/16/26",
+        "getIn": "$98.80",
+        "listings": 571
+      }
+    },
+    {
+      "artist": "Sammy Virji",
+      "category": "dj",
+      "tier": "B",
+      "title": "Sammy Virji",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-10-16T18:00:00",
+      "url": "https://seatgeek.com/sammy-virji-tickets/morrison-colorado-red-rocks-amphitheatre-2026-10-16-6-pm/concert/18071604",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "10/16/26",
+        "getIn": "$98.80",
+        "listings": 571
+      }
+    },
+    {
+      "artist": "Seven Lions",
+      "category": "dj",
+      "tier": "A",
+      "title": "Seven Lions with MitiS",
+      "venue": "The Armory - Minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": 0,
+      "date": "2026-04-03T21:00:00",
+      "url": "https://seatgeek.com/seven-lions-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-04-03-9-pm/concert/17941197",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/22/26",
+        "getIn": "$85.80",
+        "listings": 425
+      }
+    },
+    {
+      "artist": "Seven Lions",
+      "category": "dj",
+      "tier": "A",
+      "title": "Seven Lions (18+)",
+      "venue": "Radius Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 0,
+      "date": "2026-04-04T22:00:00",
+      "url": "https://seatgeek.com/seven-lions-tickets/chicago-illinois-radius-chicago-2026-04-04-10-pm/concert/17941632",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/22/26",
+        "getIn": "$85.80",
+        "listings": 425
+      }
+    },
+    {
+      "artist": "Seven Lions",
+      "category": "dj",
+      "tier": "A",
+      "title": "Seven Lions (21+)",
+      "venue": "Brooklyn Navy Yard - Building 293",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": 0,
+      "date": "2026-04-11T22:00:00",
+      "url": "https://seatgeek.com/seven-lions-tickets/brooklyn-new-york-brooklyn-navy-yard-building-293-2026-04-11-10-pm/concert/18086195",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/22/26",
+        "getIn": "$85.80",
+        "listings": 425
+      }
+    },
+    {
+      "artist": "Seven Lions",
+      "category": "dj",
+      "tier": "A",
+      "title": "Seven Lions with MitiS",
+      "venue": "The Pavilion at Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-05-08T18:20:00",
+      "url": "https://seatgeek.com/seven-lions-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-05-08-6-20-pm/concert/17941185",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/22/26",
+        "getIn": "$85.80",
+        "listings": 425
+      }
+    },
+    {
+      "artist": "Seven Lions",
+      "category": "dj",
+      "tier": "A",
+      "title": "Seven Lions with Level Up",
+      "venue": "713 Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-05-09T20:20:00",
+      "url": "https://seatgeek.com/seven-lions-tickets/houston-texas-713-music-hall-2026-05-09-8-20-pm/concert/17941182",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/22/26",
+        "getIn": "$85.80",
+        "listings": 425
+      }
+    },
+    {
+      "artist": "Seven Lions",
+      "category": "dj",
+      "tier": "A",
+      "title": "Seven Lions",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-05-22T18:00:00",
+      "url": "https://seatgeek.com/seven-lions-tickets/morrison-colorado-red-rocks-amphitheatre-2026-05-22-6-pm/concert/17857983",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/22/26",
+        "getIn": "$85.80",
+        "listings": 425
+      }
+    },
+    {
+      "artist": "Seven Lions",
+      "category": "dj",
+      "tier": "A",
+      "title": "Seven Lions with Trivecta",
+      "venue": "Bill Graham Civic Auditorium",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-05-29T19:30:00",
+      "url": "https://seatgeek.com/seven-lions-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-05-29-7-30-pm/concert/17950733",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/22/26",
+        "getIn": "$85.80",
+        "listings": 425
+      }
+    },
+    {
+      "artist": "Seven Lions",
+      "category": "dj",
+      "tier": "A",
+      "title": "Seven Lions with Jason Ross",
+      "venue": "Bill Graham Civic Auditorium",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-05-30T19:30:00",
+      "url": "https://seatgeek.com/seven-lions-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-05-30-7-30-pm/concert/17940700",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/22/26",
+        "getIn": "$85.80",
+        "listings": 425
+      }
+    },
+    {
+      "artist": "Seven Lions",
+      "category": "dj",
+      "tier": "A",
+      "title": "Seven Lions and Tritonal announce north american ‘Horizon’ Tour with special gugest Kill The Noise! | EDM NATIONS",
+      "url": "https://archive.is/AiWxI",
+      "source": "brave",
+      "redRocks": {
+        "date": "05/22/26",
+        "getIn": "$85.80",
+        "listings": 425
+      }
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "title": "Hippie Sabotage",
+      "venue": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 1500,
+      "date": "2026-03-19T20:00:00",
+      "url": "https://seatgeek.com/hippie-sabotage-tickets/seattle-washington-showbox-sodo-2026-03-19-8-pm/concert/18059354",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/10/26",
+        "getIn": "$73.14",
+        "listings": 294
+      }
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "title": "Hippie Sabotage",
+      "venue": "Roseland Theater",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": 1550,
+      "date": "2026-03-20T20:00:00",
+      "url": "https://seatgeek.com/hippie-sabotage-tickets/portland-oregon-roseland-theater-2026-03-20-8-pm/concert/18059355",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/10/26",
+        "getIn": "$73.14",
+        "listings": 294
+      }
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "title": "Hippie Sabotage",
+      "venue": "Revolution Concert House & Event Center",
+      "city": "Garden City",
+      "state": "ID",
+      "capacity": 0,
+      "date": "2026-03-21T20:00:00",
+      "url": "https://seatgeek.com/hippie-sabotage-tickets/garden-city-idaho-revolution-concert-house-event-center-2026-03-21-8-pm/concert/18036114",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/10/26",
+        "getIn": "$73.14",
+        "listings": 294
+      }
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "title": "Hippie Sabotage",
+      "venue": "South Shore Room at Harrah's Lake Tahoe",
+      "city": "Stateline",
+      "state": "NV",
+      "capacity": 0,
+      "date": "2026-03-22T19:30:00",
+      "url": "https://seatgeek.com/hippie-sabotage-tickets/stateline-nevada-south-shore-room-at-harrah-s-lake-tahoe-2026-03-22-7-30-pm/concert/18035695",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/10/26",
+        "getIn": "$73.14",
+        "listings": 294
+      }
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "title": "Hippie Sabotage",
+      "venue": "Channel 24 - Sacramento",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-03-25T20:00:00",
+      "url": "https://seatgeek.com/hippie-sabotage-tickets/sacramento-california-channel-24-sacramento-2026-03-25-8-pm/concert/18036779",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/10/26",
+        "getIn": "$73.14",
+        "listings": 294
+      }
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "title": "Hippie Sabotage",
+      "venue": "1015 Folsom",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 1125,
+      "date": "2026-03-26T21:00:00",
+      "url": "https://seatgeek.com/hippie-sabotage-tickets/san-francisco-california-1015-folsom-2026-03-26-9-pm/concert/18059357",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/10/26",
+        "getIn": "$73.14",
+        "listings": 294
+      }
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "title": "Hippie Sabotage",
+      "venue": "The Belasco - Los Angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 1000,
+      "date": "2026-03-27T19:00:00",
+      "url": "https://seatgeek.com/hippie-sabotage-tickets/los-angeles-california-the-belasco-los-angeles-2026-03-27-7-pm/concert/18036102",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/10/26",
+        "getIn": "$73.14",
+        "listings": 294
+      }
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "title": "Hippie Sabotage",
+      "venue": "The Majestic Ventura Theater",
+      "city": "Ventura",
+      "state": "CA",
+      "capacity": 1200,
+      "date": "2026-03-28T20:00:00",
+      "url": "https://seatgeek.com/hippie-sabotage-tickets/ventura-california-the-majestic-ventura-theater-2026-03-28-8-pm/concert/18059359",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/10/26",
+        "getIn": "$73.14",
+        "listings": 294
+      }
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "title": "Hippie Sabotage",
+      "venue": "SOMA - San Diego",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": 3083,
+      "date": "2026-03-29T20:00:00",
+      "url": "https://seatgeek.com/hippie-sabotage-tickets/san-diego-california-soma-san-diego-2026-03-29-8-pm/concert/18059358",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/10/26",
+        "getIn": "$73.14",
+        "listings": 294
+      }
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "category": "dj",
+      "tier": "B",
+      "title": "Hippie Sabotage",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": 1800,
+      "date": "2026-03-30T20:00:00",
+      "url": "https://seatgeek.com/hippie-sabotage-tickets/phoenix-arizona-the-van-buren-2026-03-30-8-pm/concert/18059356",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "05/10/26",
+        "getIn": "$73.14",
+        "listings": 294
+      }
+    },
+    {
+      "artist": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "title": "Bob Moses with Cannons",
+      "venue": "Arizona Financial Theatre",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": 0,
+      "date": "2026-03-31T19:30:00",
+      "url": "https://seatgeek.com/bob-moses-tickets/phoenix-arizona-arizona-financial-theatre-2026-03-31-7-30-pm/concert/17880941",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/26/26",
+        "getIn": "$75.99",
+        "listings": 373
+      }
+    },
+    {
+      "artist": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "title": "Bob Moses with Cannons",
+      "venue": "The Bomb Factory - Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 4300,
+      "date": "2026-04-02T20:00:00",
+      "url": "https://seatgeek.com/bob-moses-tickets/dallas-texas-the-bomb-factory-dallas-2026-04-02-8-pm/concert/17915259",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/26/26",
+        "getIn": "$75.99",
+        "listings": 373
+      }
+    },
+    {
+      "artist": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "title": "Bob Moses with Cannons",
+      "venue": "Moody Amphitheater",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-04-03T19:00:00",
+      "url": "https://seatgeek.com/bob-moses-tickets/austin-texas-moody-amphitheater-2026-04-03-7-pm/concert/17881625",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/26/26",
+        "getIn": "$75.99",
+        "listings": 373
+      }
+    },
+    {
+      "artist": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "title": "Bob Moses with Cannons",
+      "venue": "713 Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-04-04T19:45:00",
+      "url": "https://seatgeek.com/bob-moses-tickets/houston-texas-713-music-hall-2026-04-04-7-45-pm/concert/17881464",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/26/26",
+        "getIn": "$75.99",
+        "listings": 373
+      }
+    },
+    {
+      "artist": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "title": "Bob Moses with Cannons",
+      "venue": "Coca-Cola Roxy Theatre",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": 3000,
+      "date": "2026-04-06T20:00:00",
+      "url": "https://seatgeek.com/bob-moses-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-04-06-8-pm/concert/17881354",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/26/26",
+        "getIn": "$75.99",
+        "listings": 373
+      }
+    },
+    {
+      "artist": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "title": "Bob Moses with Cannons",
+      "venue": "The Pinnacle - Nashville",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 0,
+      "date": "2026-04-07T19:30:00",
+      "url": "https://seatgeek.com/bob-moses-tickets/nashville-tennessee-the-pinnacle-nashville-2026-04-07-7-30-pm/concert/17934368",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/26/26",
+        "getIn": "$75.99",
+        "listings": 373
+      }
+    },
+    {
+      "artist": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "title": "Bob Moses with Cannons",
+      "venue": "The Fillmore - Charlotte",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": 2000,
+      "date": "2026-04-08T20:00:00",
+      "url": "https://seatgeek.com/bob-moses-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-04-08-8-pm/concert/17881042",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/26/26",
+        "getIn": "$75.99",
+        "listings": 373
+      }
+    },
+    {
+      "artist": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "title": "Bob Moses with Cannons",
+      "venue": "The Fillmore Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 0,
+      "date": "2026-04-10T19:30:00",
+      "url": "https://seatgeek.com/bob-moses-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-04-10-7-30-pm/concert/17881422",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/26/26",
+        "getIn": "$75.99",
+        "listings": 373
+      }
+    },
+    {
+      "artist": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "title": "Bob Moses",
+      "venue": "Stage AE",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": 0,
+      "date": "2026-04-11T19:30:00",
+      "url": "https://seatgeek.com/bob-moses-tickets/pittsburgh-pennsylvania-stage-ae-2026-04-11-7-30-pm/concert/17890367",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/26/26",
+        "getIn": "$75.99",
+        "listings": 373
+      }
+    },
+    {
+      "artist": "Bob Moses",
+      "category": "dj",
+      "tier": "B",
+      "title": "Bob Moses with Cannons",
+      "venue": "Roadrunner - Boston",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": 0,
+      "date": "2026-04-13T20:00:00",
+      "url": "https://seatgeek.com/bob-moses-tickets/boston-massachusetts-roadrunner-boston-2026-04-13-8-pm/concert/17939226",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/26/26",
+        "getIn": "$75.99",
+        "listings": 373
+      }
+    },
+    {
+      "artist": "Treaty Oak Revival",
+      "category": "bands",
+      "tier": "A",
+      "title": "Treaty Oak Revival with William Clark Green",
+      "venue": "Great Southern Bank Arena",
+      "city": "Springfield",
+      "state": "MO",
+      "capacity": 0,
+      "date": "2026-03-12T19:00:00",
+      "url": "https://seatgeek.com/treaty-oak-revival-tickets/springfield-missouri-great-southern-bank-arena-2026-03-12-7-pm/concert/17945112",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/01/26",
+        "getIn": "$192.08",
+        "listings": 854
+      }
+    },
+    {
+      "artist": "Treaty Oak Revival",
+      "category": "bands",
+      "tier": "A",
+      "title": "Treaty Oak Revival with William Clark Green",
+      "venue": "Simmons Bank Arena",
+      "city": "North Little Rock",
+      "state": "AR",
+      "capacity": 0,
+      "date": "2026-03-13T19:00:00",
+      "url": "https://seatgeek.com/treaty-oak-revival-tickets/north-little-rock-arkansas-simmons-bank-arena-2026-03-13-7-pm/concert/17945110",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/01/26",
+        "getIn": "$192.08",
+        "listings": 854
+      }
+    },
+    {
+      "artist": "Treaty Oak Revival",
+      "category": "bands",
+      "tier": "A",
+      "title": "Cattle Country Music Festival - (3 Day Pass) with Koe Wetzel, Treaty Oak Revival, Randy Houser, and more",
+      "venue": "The Boot",
+      "city": "Gonzales",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-04-10T03:30:00",
+      "url": "https://seatgeek.com/cattle-country-music-festival-tickets/gonzales-texas-the-boot-3-2026-04-10-3-30-am/music-festival/17923143",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/01/26",
+        "getIn": "$192.08",
+        "listings": 854
+      }
+    },
+    {
+      "artist": "Treaty Oak Revival",
+      "category": "bands",
+      "tier": "A",
+      "title": "Treaty Oak Revival with William Clark Green",
+      "venue": "Golden 1 Center",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-04-26T19:00:00",
+      "url": "https://seatgeek.com/treaty-oak-revival-tickets/sacramento-california-golden-1-center-2026-04-26-7-pm/concert/17945121",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/01/26",
+        "getIn": "$192.08",
+        "listings": 854
+      }
+    },
+    {
+      "artist": "Treaty Oak Revival",
+      "category": "bands",
+      "tier": "A",
+      "title": "Treaty Oak Revival with William Clark Green",
+      "venue": "WaMu Theater",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 0,
+      "date": "2026-04-30T19:00:00",
+      "url": "https://seatgeek.com/treaty-oak-revival-tickets/seattle-washington-wamu-theater-2026-04-30-7-pm/concert/17945122",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/01/26",
+        "getIn": "$192.08",
+        "listings": 854
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mt. Joy",
+      "venue": "Hard Rock Live - Hollywood",
+      "city": "Hollywood",
+      "state": "FL",
+      "capacity": 0,
+      "date": "2026-04-09T20:00:00",
+      "url": "https://seatgeek.com/mt-joy-tickets/hollywood-florida-hard-rock-live-hollywood-2026-04-09-8-pm/concert/17898586",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mt. Joy",
+      "venue": "St. Augustine Amphitheatre",
+      "city": "Saint Augustine",
+      "state": "FL",
+      "capacity": 3493,
+      "date": "2026-04-11T19:30:00",
+      "url": "https://seatgeek.com/mt-joy-tickets/saint-augustine-florida-st-augustine-amphitheatre-2026-04-11-7-30-pm/concert/17899546",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mt. Joy",
+      "venue": "Coca-Cola Amphitheater",
+      "city": "Birmingham",
+      "state": "AL",
+      "capacity": 0,
+      "date": "2026-04-14T20:00:00",
+      "url": "https://seatgeek.com/mt-joy-tickets/birmingham-alabama-coca-cola-amphitheater-2026-04-14-8-pm/concert/17899295",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mt. Joy",
+      "venue": "Live Oak Bank Pavilion",
+      "city": "Wilmington",
+      "state": "NC",
+      "capacity": 0,
+      "date": "2026-04-16T20:00:00",
+      "url": "https://seatgeek.com/mt-joy-tickets/wilmington-north-carolina-live-oak-bank-pavilion-2026-04-16-8-pm/concert/17898818",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mt. Joy",
+      "venue": "Synovus Bank Amphitheatre at Chastain Park",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": 0,
+      "date": "2026-04-18T20:00:00",
+      "url": "https://seatgeek.com/mt-joy-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-04-18-8-pm/concert/17897050",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mt. Joy",
+      "venue": "Starlight Theatre",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": 7947,
+      "date": "2026-04-21T19:00:00",
+      "url": "https://seatgeek.com/mt-joy-tickets/kansas-city-missouri-starlight-theatre-2026-04-21-7-pm/concert/17897106",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mt. Joy",
+      "venue": "Champions Square",
+      "city": "New Orleans",
+      "state": "LA",
+      "capacity": 0,
+      "date": "2026-04-23T20:00:00",
+      "url": "https://seatgeek.com/mt-joy-tickets/new-orleans-louisiana-champions-square-2026-04-23-8-pm/concert/17898147",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mt. Joy",
+      "venue": "Longhorn Backyard Amphitheater",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-04-24T20:00:00",
+      "url": "https://seatgeek.com/mt-joy-tickets/dallas-texas-longhorn-backyard-amphitheater-2026-04-24-8-pm/concert/17899544",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mt. Joy",
+      "venue": "Moody Center ATX",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-04-25T20:00:00",
+      "url": "https://seatgeek.com/mt-joy-tickets/austin-texas-moody-center-atx-2026-04-25-8-pm/concert/17898815",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Twenty One Pilots headlining Osheaga 2026 – 97X",
+      "url": "https://www.97xonline.com/news/twenty-one-pilots-headlining-osheaga-2026/AM4NJFGXGU75PELJFMTJ6IYOR4/",
+      "source": "brave",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Twenty One Pilots headlining Osheaga 2026 - Oxford Media Group",
+      "url": "https://www.oxfordmediagroup.net/alternative/twenty-one-pilots-headlining-osheaga-2026",
+      "source": "brave",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Twenty One Pilots headlining Osheaga 2026 – Regional Media News",
+      "url": "https://www.regionalmedianews.com/music/alternative/twenty-one-pilots-headlining-osheaga-2026/",
+      "source": "brave",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Mt. Joy",
+      "category": "bands",
+      "tier": "A",
+      "title": "Twenty One Pilots headlining Osheaga 2026 – 99.5 KISS FM",
+      "url": "https://www.kissrocks.com/news/twenty-one-pilots-headlining-osheaga-2026/AM4NJFGXGU75PELJFMTJ6IYOR4/",
+      "source": "brave",
+      "redRocks": {
+        "date": "08/13-14/26",
+        "getIn": "$147-$160",
+        "listings": "826-1328"
+      }
+    },
+    {
+      "artist": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "title": "Ethel Cain",
+      "venue": "The Rady Shell at Jacobs Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-04-14T19:00:00",
+      "url": "https://seatgeek.com/ethel-cain-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2026-04-14-7-pm/concert/18081820",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/21/26",
+        "getIn": "$74.35",
+        "listings": 526
+      }
+    },
+    {
+      "artist": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "title": "Ethel Cain with 9million",
+      "venue": "The Theater at Virgin Hotels",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 0,
+      "date": "2026-04-15T20:00:00",
+      "url": "https://seatgeek.com/ethel-cain-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-04-15-8-pm/concert/17808029",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/21/26",
+        "getIn": "$74.35",
+        "listings": 526
+      }
+    },
+    {
+      "artist": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "title": "Ethel Cain with 9million",
+      "venue": "The Great Saltair",
+      "city": "Magna",
+      "state": "UT",
+      "capacity": 0,
+      "date": "2026-04-19T19:00:00",
+      "url": "https://seatgeek.com/ethel-cain-tickets/magna-utah-the-great-saltair-2026-04-19-7-pm/concert/17808031",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/21/26",
+        "getIn": "$74.35",
+        "listings": 526
+      }
+    },
+    {
+      "artist": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "title": "Ethel Cain with 9Million",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-04-21T19:00:00",
+      "url": "https://seatgeek.com/ethel-cain-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-21-7-pm/concert/17808027",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/21/26",
+        "getIn": "$74.35",
+        "listings": 526
+      }
+    },
+    {
+      "artist": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "title": "Ethel Cain with 9Million",
+      "venue": "The Astro Theater - La Vista",
+      "city": "La Vista",
+      "state": "NE",
+      "capacity": 0,
+      "date": "2026-04-23T19:00:00",
+      "url": "https://seatgeek.com/ethel-cain-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-04-23-7-pm/concert/17805467",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/21/26",
+        "getIn": "$74.35",
+        "listings": 526
+      }
+    },
+    {
+      "artist": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "title": "Ethel Cain",
+      "venue": "Miller High Life Theatre",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": 4100,
+      "date": "2026-04-24T20:00:00",
+      "url": "https://seatgeek.com/ethel-cain-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-04-24-8-pm/concert/17812388",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/21/26",
+        "getIn": "$74.35",
+        "listings": 526
+      }
+    },
+    {
+      "artist": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "title": "Ethel Cain with 9Million",
+      "venue": "MegaCorp Pavilion",
+      "city": "Newport",
+      "state": "KY",
+      "capacity": 0,
+      "date": "2026-04-25T20:00:00",
+      "url": "https://seatgeek.com/ethel-cain-tickets/newport-kentucky-megacorp-pavilion-2026-04-25-8-pm/concert/17808034",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/21/26",
+        "getIn": "$74.35",
+        "listings": 526
+      }
+    },
+    {
+      "artist": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "title": "Ethel Cain with 9Million",
+      "venue": "The Factory STL",
+      "city": "Chesterfield",
+      "state": "MO",
+      "capacity": 0,
+      "date": "2026-04-28T20:00:00",
+      "url": "https://seatgeek.com/ethel-cain-tickets/chesterfield-missouri-the-factory-stl-2026-04-28-8-pm/concert/17805418",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/21/26",
+        "getIn": "$74.35",
+        "listings": 526
+      }
+    },
+    {
+      "artist": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "title": "Ethel Cain with 9Million",
+      "venue": "Iroquois Amphitheater",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": 0,
+      "date": "2026-04-29T20:00:00",
+      "url": "https://seatgeek.com/ethel-cain-tickets/louisville-kentucky-iroquois-amphitheater-2026-04-29-8-pm/concert/17803968",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/21/26",
+        "getIn": "$74.35",
+        "listings": 526
+      }
+    },
+    {
+      "artist": "Ethel Cain",
+      "category": "bands",
+      "tier": "B",
+      "title": "Ethel Cain with 9Million",
+      "venue": "FirstBank Amphitheater",
+      "city": "Franklin",
+      "state": "TN",
+      "capacity": 0,
+      "date": "2026-05-01T19:00:00",
+      "url": "https://seatgeek.com/ethel-cain-tickets/franklin-tennessee-firstbank-amphitheater-2026-05-01-7-pm/concert/17805371",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/21/26",
+        "getIn": "$74.35",
+        "listings": 526
+      }
+    },
+    {
+      "artist": "Electric Callboy",
+      "category": "bands",
+      "tier": "B",
+      "title": "Electric Callboy with Polaris and Scene Queen",
+      "venue": "South Side Ballroom in Gilley's",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 3500,
+      "date": "2026-04-17T19:00:00",
+      "url": "https://seatgeek.com/electric-callboy-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-04-17-7-pm/concert/17846412",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/30/26",
+        "getIn": "$55.85",
+        "listings": 462
+      }
+    },
+    {
+      "artist": "Electric Callboy",
+      "category": "bands",
+      "tier": "B",
+      "title": "Electric Callboy with Polaris and Scene Queen",
+      "venue": "Arizona Financial Theatre",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": 0,
+      "date": "2026-04-19T19:00:00",
+      "url": "https://seatgeek.com/electric-callboy-tickets/phoenix-arizona-arizona-financial-theatre-2026-04-19-7-pm/concert/17846414",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/30/26",
+        "getIn": "$55.85",
+        "listings": 462
+      }
+    },
+    {
+      "artist": "Electric Callboy",
+      "category": "bands",
+      "tier": "B",
+      "title": "Electric Callboy with Polaris and Scene Queen",
+      "venue": "The Masonic San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-04-22T19:00:00",
+      "url": "https://seatgeek.com/electric-callboy-tickets/san-francisco-california-the-masonic-san-francisco-2026-04-22-7-pm/concert/17846413",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/30/26",
+        "getIn": "$55.85",
+        "listings": 462
+      }
+    },
+    {
+      "artist": "Electric Callboy",
+      "category": "bands",
+      "tier": "B",
+      "title": "Electric Callboy with Polaris and Scene Queen",
+      "venue": "Paramount Theatre - WA",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 3000,
+      "date": "2026-04-24T19:00:00",
+      "url": "https://seatgeek.com/electric-callboy-tickets/seattle-washington-paramount-theatre-wa-2026-04-24-7-pm/concert/17846411",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/30/26",
+        "getIn": "$55.85",
+        "listings": 462
+      }
+    },
+    {
+      "artist": "Electric Callboy",
+      "category": "bands",
+      "tier": "B",
+      "title": "Electric Callboy with Polaris and Scene Queen",
+      "venue": "PNE Forum - Vancouver",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": 0,
+      "date": "2026-04-25T19:00:00",
+      "url": "https://seatgeek.com/electric-callboy-tickets/vancouver-canada-pne-forum-vancouver-2026-04-25-7-pm/concert/17846415",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/30/26",
+        "getIn": "$55.85",
+        "listings": 462
+      }
+    },
+    {
+      "artist": "Electric Callboy",
+      "category": "bands",
+      "tier": "B",
+      "title": "Electric Callboy",
+      "venue": "MGM Music Hall at Fenway",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": 0,
+      "date": "2026-04-27T19:00:00",
+      "url": "https://seatgeek.com/electric-callboy-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-04-27-7-pm/concert/18065158",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/30/26",
+        "getIn": "$55.85",
+        "listings": 462
+      }
+    },
+    {
+      "artist": "Electric Callboy",
+      "category": "bands",
+      "tier": "B",
+      "title": "Electric Callboy with Polaris and Scene Queen",
+      "venue": "The Union Event Center - Salt Lake City",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": 0,
+      "date": "2026-04-28T19:00:00",
+      "url": "https://seatgeek.com/electric-callboy-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-04-28-7-pm/concert/17846422",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/30/26",
+        "getIn": "$55.85",
+        "listings": 462
+      }
+    },
+    {
+      "artist": "Electric Callboy",
+      "category": "bands",
+      "tier": "B",
+      "title": "Electric Callboy with Polaris and Scene Queen",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-04-30T19:00:00",
+      "url": "https://seatgeek.com/electric-callboy-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-30-7-pm/concert/17846424",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/30/26",
+        "getIn": "$55.85",
+        "listings": 462
+      }
+    },
+    {
+      "artist": "Electric Callboy",
+      "category": "bands",
+      "tier": "B",
+      "title": "Electric Callboy with Polaris and Scene Queen",
+      "venue": "The Armory - Minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": 0,
+      "date": "2026-05-02T19:00:00",
+      "url": "https://seatgeek.com/electric-callboy-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-05-02-7-pm/concert/17846426",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "04/30/26",
+        "getIn": "$55.85",
+        "listings": 462
+      }
+    },
+    {
+      "artist": "Goose",
+      "category": "bands",
+      "tier": "A",
+      "title": "Beartooth with Silly Goose",
+      "venue": "The Deluxe at Old National Centre",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": 2500,
+      "date": "2026-02-27T19:30:00",
+      "url": "https://seatgeek.com/beartooth-tickets/indianapolis-indiana-the-deluxe-at-old-national-centre-2026-02-27-7-30-pm/concert/18040468",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/27-28/26",
+        "getIn": "$170-$203",
+        "listings": "372-594",
+        "dayPassGetIn": "$695"
+      }
+    },
+    {
+      "artist": "Goose",
+      "category": "bands",
+      "tier": "A",
+      "title": "Magnolia Park with Silly Goose",
+      "venue": "Black Sheep",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "capacity": 0,
+      "date": "2026-04-05T19:30:00",
+      "url": "https://seatgeek.com/magnolia-park-tickets/colorado-springs-colorado-black-sheep-2026-04-05-7-30-pm/concert/17914144",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/27-28/26",
+        "getIn": "$170-$203",
+        "listings": "372-594",
+        "dayPassGetIn": "$695"
+      }
+    },
+    {
+      "artist": "Goose",
+      "category": "bands",
+      "tier": "A",
+      "title": "Goose",
+      "venue": "Harrah's Cherokee Center - Asheville",
+      "city": "Asheville",
+      "state": "NC",
+      "capacity": 7654,
+      "date": "2026-04-10T19:00:00",
+      "url": "https://seatgeek.com/goose-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2026-04-10-7-pm/concert/17895513",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/27-28/26",
+        "getIn": "$170-$203",
+        "listings": "372-594",
+        "dayPassGetIn": "$695"
+      }
+    },
+    {
+      "artist": "Goose",
+      "category": "bands",
+      "tier": "A",
+      "title": "Goose",
+      "venue": "Coca-Cola Amphitheater",
+      "city": "Birmingham",
+      "state": "AL",
+      "capacity": 0,
+      "date": "2026-04-11T18:00:00",
+      "url": "https://seatgeek.com/goose-tickets/birmingham-alabama-coca-cola-amphitheater-2026-04-11-6-pm/concert/17895516",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/27-28/26",
+        "getIn": "$170-$203",
+        "listings": "372-594",
+        "dayPassGetIn": "$695"
+      }
+    },
+    {
+      "artist": "Goose",
+      "category": "bands",
+      "tier": "A",
+      "title": "Magnolia Park with Silly Goose",
+      "venue": "Majestic Theatre - WI",
+      "city": "Madison",
+      "state": "WI",
+      "capacity": 0,
+      "date": "2026-04-11T20:00:00",
+      "url": "https://seatgeek.com/magnolia-park-tickets/madison-wisconsin-majestic-theatre-wi-2026-04-11-8-pm/concert/17914386",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/27-28/26",
+        "getIn": "$170-$203",
+        "listings": "372-594",
+        "dayPassGetIn": "$695"
+      }
+    },
+    {
+      "artist": "Goose",
+      "category": "bands",
+      "tier": "A",
+      "title": "An Evening With Goose",
+      "venue": "FTL War Memorial Auditorium",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "capacity": 0,
+      "date": "2026-04-14T19:30:00",
+      "url": "https://seatgeek.com/goose-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-04-14-7-30-pm/concert/17900755",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/27-28/26",
+        "getIn": "$170-$203",
+        "listings": "372-594",
+        "dayPassGetIn": "$695"
+      }
+    },
+    {
+      "artist": "Goose",
+      "category": "bands",
+      "tier": "A",
+      "title": "An Evening With Goose",
+      "venue": "FTL War Memorial Auditorium",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "capacity": 0,
+      "date": "2026-04-15T19:30:00",
+      "url": "https://seatgeek.com/goose-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-04-15-7-30-pm/concert/17900756",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/27-28/26",
+        "getIn": "$170-$203",
+        "listings": "372-594",
+        "dayPassGetIn": "$695"
+      }
+    },
+    {
+      "artist": "Goose",
+      "category": "bands",
+      "tier": "A",
+      "title": "Magnolia Park with Silly Goose",
+      "venue": "Le Studio TD",
+      "city": "Montreal",
+      "state": "QC",
+      "capacity": 0,
+      "date": "2026-04-15T20:00:00",
+      "url": "https://seatgeek.com/magnolia-park-tickets/montreal-canada-le-studio-td-2026-04-15-8-pm/concert/17915043",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/27-28/26",
+        "getIn": "$170-$203",
+        "listings": "372-594",
+        "dayPassGetIn": "$695"
+      }
+    },
+    {
+      "artist": "Goose",
+      "category": "bands",
+      "tier": "A",
+      "title": "Goose",
+      "venue": "The Baycare Sound at Coachman Park",
+      "city": "Clearwater",
+      "state": "FL",
+      "capacity": 0,
+      "date": "2026-04-17T19:00:00",
+      "url": "https://seatgeek.com/goose-tickets/clearwater-florida-the-baycare-sound-at-coachman-park-2026-04-17-7-pm/concert/17895514",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "08/27-28/26",
+        "getIn": "$170-$203",
+        "listings": "372-594",
+        "dayPassGetIn": "$695"
+      }
+    },
+    {
+      "artist": "Jon Bellion",
+      "category": "bands",
+      "tier": "A",
+      "title": "Jon Bellion",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-06-11T19:00:00",
+      "url": "https://seatgeek.com/jon-bellion-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-11-7-pm/concert/18089843",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/11/26",
+        "getIn": "$226.76",
+        "listings": 513
+      }
+    },
+    {
+      "artist": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "title": "Lord Huron",
+      "venue": "Santa Barbara Bowl",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "capacity": 4562,
+      "date": "2026-06-02T19:00:00",
+      "url": "https://seatgeek.com/lord-huron-tickets/santa-barbara-california-santa-barbara-bowl-2026-06-02-7-pm/concert/18020078",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/10/26",
+        "getIn": "$150.49",
+        "listings": 775
+      }
+    },
+    {
+      "artist": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "title": "Lord Huron",
+      "venue": "Hayden Homes Amphitheater",
+      "city": "Bend",
+      "state": "OR",
+      "capacity": 5000,
+      "date": "2026-06-04T17:30:00",
+      "url": "https://seatgeek.com/lord-huron-tickets/bend-oregon-hayden-homes-amphitheater-2026-06-04-5-30-pm/concert/18074117",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/10/26",
+        "getIn": "$150.49",
+        "listings": 775
+      }
+    },
+    {
+      "artist": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "title": "Lord Huron",
+      "venue": "Hayden Homes Amphitheater",
+      "city": "Bend",
+      "state": "OR",
+      "capacity": 5000,
+      "date": "2026-06-04T19:00:00",
+      "url": "https://seatgeek.com/lord-huron-tickets/bend-oregon-hayden-homes-amphitheater-2026-06-04-7-pm/concert/18022213",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/10/26",
+        "getIn": "$150.49",
+        "listings": 775
+      }
+    },
+    {
+      "artist": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "title": "Lord Huron",
+      "venue": "KettleHouse Amphitheater",
+      "city": "Bonner",
+      "state": "MT",
+      "capacity": 0,
+      "date": "2026-06-06T20:30:00",
+      "url": "https://seatgeek.com/lord-huron-tickets/bonner-montana-kettlehouse-amphitheater-2026-06-06-8-30-pm/concert/18023967",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/10/26",
+        "getIn": "$150.49",
+        "listings": 775
+      }
+    },
+    {
+      "artist": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "title": "Lord Huron",
+      "venue": "KettleHouse Amphitheater",
+      "city": "Bonner",
+      "state": "MT",
+      "capacity": 0,
+      "date": "2026-06-07T20:30:00",
+      "url": "https://seatgeek.com/lord-huron-tickets/bonner-montana-kettlehouse-amphitheater-2026-06-07-8-30-pm/concert/18023968",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/10/26",
+        "getIn": "$150.49",
+        "listings": 775
+      }
+    },
+    {
+      "artist": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "title": "Lord Huron",
+      "venue": "The Lincoln",
+      "city": "Cheyenne",
+      "state": "WY",
+      "capacity": 0,
+      "date": "2026-06-09T20:00:00",
+      "url": "https://seatgeek.com/lord-huron-tickets/cheyenne-wyoming-the-lincoln-1-2026-06-09-8-pm/concert/18022214",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/10/26",
+        "getIn": "$150.49",
+        "listings": 775
+      }
+    },
+    {
+      "artist": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "title": "Lord Huron",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-06-10T18:00:00",
+      "url": "https://seatgeek.com/lord-huron-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-10-6-pm/concert/17947908",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/10/26",
+        "getIn": "$150.49",
+        "listings": 775
+      }
+    },
+    {
+      "artist": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "title": "Lord Huron",
+      "venue": "Harrah's Cherokee Center - Asheville",
+      "city": "Asheville",
+      "state": "NC",
+      "capacity": 7654,
+      "date": "2026-06-14T20:00:00",
+      "url": "https://seatgeek.com/lord-huron-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2026-06-14-8-pm/concert/18022215",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/10/26",
+        "getIn": "$150.49",
+        "listings": 775
+      }
+    },
+    {
+      "artist": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mumford & Sons with Lord Huron at Hersheypark Stadium 2026",
+      "url": "https://stories.hersheypa.com/mumford--sons-to-play-hersheypark-stadium-in-june/",
+      "source": "brave",
+      "redRocks": {
+        "date": "06/10/26",
+        "getIn": "$150.49",
+        "listings": 775
+      }
+    },
+    {
+      "artist": "Lord Huron",
+      "category": "bands",
+      "tier": "A",
+      "title": "Mumford & Sons announce summer tour with Lord Huron, Sierra Ferrell & more",
+      "url": "https://www.brooklynvegan.com/mumford-sons-announce-summer-tour-with-lord-huron-sierra-ferrell-more/",
+      "source": "brave",
+      "redRocks": {
+        "date": "06/10/26",
+        "getIn": "$150.49",
+        "listings": 775
+      }
+    },
+    {
+      "artist": "Amyl and The Sniffers",
+      "category": "bands",
+      "tier": "B",
+      "title": "Amyl and the Sniffers",
+      "venue": "Place Bell",
+      "city": "Laval",
+      "state": "QC",
+      "capacity": 0,
+      "date": "2026-06-05T20:00:00",
+      "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/laval-canada-place-bell-2026-06-05-8-pm/concert/17943616",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/17/26",
+        "getIn": "$75.48",
+        "listings": 433
+      }
+    },
+    {
+      "artist": "Amyl and The Sniffers",
+      "category": "bands",
+      "tier": "B",
+      "title": "Amyl and the Sniffers",
+      "venue": "Skyline Stage at the Mann",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 0,
+      "date": "2026-06-08T20:00:00",
+      "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/philadelphia-pennsylvania-skyline-stage-at-the-mann-2026-06-08-8-pm/concert/17943598",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/17/26",
+        "getIn": "$75.48",
+        "listings": 433
+      }
+    },
+    {
+      "artist": "Amyl and The Sniffers",
+      "category": "bands",
+      "tier": "B",
+      "title": "Amyl and the Sniffers",
+      "venue": "MGM Music Hall at Fenway",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": 0,
+      "date": "2026-06-09T20:00:00",
+      "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-06-09-8-pm/concert/17943600",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/17/26",
+        "getIn": "$75.48",
+        "listings": 433
+      }
+    },
+    {
+      "artist": "Amyl and The Sniffers",
+      "category": "bands",
+      "tier": "B",
+      "title": "Amyl and the Sniffers",
+      "venue": "The Anthem - DC",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 0,
+      "date": "2026-06-10T20:00:00",
+      "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/washington-district-of-columbia-the-anthem-dc-2026-06-10-8-pm/concert/17943602",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/17/26",
+        "getIn": "$75.48",
+        "listings": 433
+      }
+    },
+    {
+      "artist": "Amyl and The Sniffers",
+      "category": "bands",
+      "tier": "B",
+      "title": "Amyl and the Sniffers",
+      "venue": "The Factory STL",
+      "city": "Chesterfield",
+      "state": "MO",
+      "capacity": 0,
+      "date": "2026-06-12T20:00:00",
+      "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/chesterfield-missouri-the-factory-stl-2026-06-12-8-pm/concert/17943604",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/17/26",
+        "getIn": "$75.48",
+        "listings": 433
+      }
+    },
+    {
+      "artist": "Amyl and The Sniffers",
+      "category": "bands",
+      "tier": "B",
+      "title": "Amyl and the Sniffers",
+      "venue": "The Salt Shed - Outdoors",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 0,
+      "date": "2026-06-14T19:00:00",
+      "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/chicago-illinois-the-salt-shed-outdoors-2026-06-14-7-pm/concert/17943606",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/17/26",
+        "getIn": "$75.48",
+        "listings": 433
+      }
+    },
+    {
+      "artist": "Amyl and The Sniffers",
+      "category": "bands",
+      "tier": "B",
+      "title": "Amyl and the Sniffers",
+      "venue": "The Astro Theater - La Vista",
+      "city": "La Vista",
+      "state": "NE",
+      "capacity": 0,
+      "date": "2026-06-16T20:00:00",
+      "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-06-16-8-pm/concert/17944733",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/17/26",
+        "getIn": "$75.48",
+        "listings": 433
+      }
+    },
+    {
+      "artist": "Amyl and The Sniffers",
+      "category": "bands",
+      "tier": "B",
+      "title": "Amyl and The Sniffers",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-06-17T20:00:00",
+      "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-17-8-pm/concert/17945361",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/17/26",
+        "getIn": "$75.48",
+        "listings": 433
+      }
+    },
+    {
+      "artist": "Amyl and The Sniffers",
+      "category": "bands",
+      "tier": "B",
+      "title": "Amyl and the Sniffers (18+)",
+      "venue": "Surly Brewing Festival Field",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": 0,
+      "date": "2026-06-20T19:00:00",
+      "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/minneapolis-minnesota-surly-brewing-festival-field-2026-06-20-7-pm/concert/17945363",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/17/26",
+        "getIn": "$75.48",
+        "listings": 433
+      }
+    },
+    {
+      "artist": "Alex Warren",
+      "category": "bands",
+      "tier": "A",
+      "title": "Alex Warren",
+      "venue": "Bridgestone Arena",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 0,
+      "date": "2026-05-25T19:30:00",
+      "url": "https://seatgeek.com/alex-warren-tickets/nashville-tennessee-bridgestone-arena-2026-05-25-7-30-pm/concert/17906963",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/02/26",
+        "getIn": "$223.50",
+        "listings": 749
+      }
+    },
+    {
+      "artist": "Alex Warren",
+      "category": "bands",
+      "tier": "A",
+      "title": "Alex Warren",
+      "venue": "Dickies Arena",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-05-29T19:30:00",
+      "url": "https://seatgeek.com/alex-warren-tickets/fort-worth-texas-dickies-arena-2026-05-29-7-30-pm/concert/17906966",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/02/26",
+        "getIn": "$223.50",
+        "listings": 749
+      }
+    },
+    {
+      "artist": "Alex Warren",
+      "category": "bands",
+      "tier": "A",
+      "title": "Alex Warren",
+      "venue": "Moody Center ATX",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-05-30T19:30:00",
+      "url": "https://seatgeek.com/alex-warren-tickets/austin-texas-moody-center-atx-2026-05-30-7-30-pm/concert/17906965",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/02/26",
+        "getIn": "$223.50",
+        "listings": 749
+      }
+    },
+    {
+      "artist": "Alex Warren",
+      "category": "bands",
+      "tier": "A",
+      "title": "Alex Warren",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": 9450,
+      "date": "2026-06-02T19:30:00",
+      "url": "https://seatgeek.com/alex-warren-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-02-7-30-pm/concert/17906967",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/02/26",
+        "getIn": "$223.50",
+        "listings": 749
+      }
+    },
+    {
+      "artist": "Alex Warren",
+      "category": "bands",
+      "tier": "A",
+      "title": "Alex Warren",
+      "venue": "Viejas Arena at Aztec Bowl",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": 0,
+      "date": "2026-06-08T19:30:00",
+      "url": "https://seatgeek.com/alex-warren-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-06-08-7-30-pm/concert/17906976",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "06/02/26",
+        "getIn": "$223.50",
+        "listings": 749
+      }
+    },
+    {
+      "artist": "Alex Warren",
+      "category": "bands",
+      "tier": "A",
+      "title": "NDSF Grandstand Showpass on sale March 2: $130 for six nights of entertainment | KX NEWS",
+      "url": "https://www.kxnet.com/news/top-stories/ndsf-grandstand-showpass-on-sale-march-2-130-for-six-nights-of-entertainment/",
+      "source": "brave",
+      "redRocks": {
+        "date": "06/02/26",
+        "getIn": "$223.50",
+        "listings": 749
+      }
+    },
+    {
+      "artist": "Alex Warren",
+      "category": "bands",
+      "tier": "A",
+      "title": "Music notes: Jonas Brothers, Alex Warren and more – 101.9fm The MIX – WTMX Chicago",
+      "url": "https://wtmx.com/music-notes-jonas-brothers-alex-warren-and-more/",
+      "source": "brave",
+      "redRocks": {
+        "date": "06/02/26",
+        "getIn": "$223.50",
+        "listings": 749
+      }
+    },
+    {
+      "artist": "Alex Warren",
+      "category": "bands",
+      "tier": "A",
+      "title": "Music notes: Jonas Brothers, Alex Warren and more – MOViN 92.5",
+      "url": "https://www.movin925.com/music-notes-jonas-brothers-alex-warren-and-more",
+      "source": "brave",
+      "redRocks": {
+        "date": "06/02/26",
+        "getIn": "$223.50",
+        "listings": 749
+      }
+    },
+    {
+      "artist": "Alex Warren",
+      "category": "bands",
+      "tier": "A",
+      "title": "Music notes: Jonas Brothers, Alex Warren and more – WARM 106.9",
+      "url": "https://warm1069.com/music-notes-jonas-brothers-alex-warren-and-more/",
+      "source": "brave",
+      "redRocks": {
+        "date": "06/02/26",
+        "getIn": "$223.50",
+        "listings": 749
+      }
+    },
+    {
+      "artist": "Hilary Duff",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff",
+      "venue": "Voltaire at the Venetian Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 0,
+      "date": "2026-05-22T21:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/las-vegas-nevada-voltaire-at-the-venetian-las-vegas-2026-05-22-9-pm/concert/18024509",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/20/26",
+        "getIn": "$223.50",
+        "listings": 1323
+      }
+    },
+    {
+      "artist": "Hilary Duff",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff",
+      "venue": "Voltaire at the Venetian Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 0,
+      "date": "2026-05-23T21:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/las-vegas-nevada-voltaire-at-the-venetian-las-vegas-2026-05-23-9-pm/concert/18024511",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/20/26",
+        "getIn": "$223.50",
+        "listings": 1323
+      }
+    },
+    {
+      "artist": "Hilary Duff",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff",
+      "venue": "Voltaire at the Venetian Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 0,
+      "date": "2026-05-24T21:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/las-vegas-nevada-voltaire-at-the-venetian-las-vegas-2026-05-24-9-pm/concert/18024510",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/20/26",
+        "getIn": "$223.50",
+        "listings": 1323
+      }
+    },
+    {
+      "artist": "Hilary Duff",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff with Jade LeMac",
+      "venue": "MidFlorida Credit Union Amphitheatre",
+      "city": "Tampa",
+      "state": "FL",
+      "capacity": 0,
+      "date": "2026-06-23T19:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/tampa-florida-midflorida-credit-union-amphitheatre-2026-06-23-7-pm/concert/18070220",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/20/26",
+        "getIn": "$223.50",
+        "listings": 1323
+      }
+    },
+    {
+      "artist": "Hilary Duff",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff with La Roux and Jade LeMac",
+      "venue": "Ameris Bank Amphitheatre",
+      "city": "Alpharetta",
+      "state": "GA",
+      "capacity": 0,
+      "date": "2026-06-25T19:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2026-06-25-7-pm/concert/18070218",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/20/26",
+        "getIn": "$223.50",
+        "listings": 1323
+      }
+    },
+    {
+      "artist": "Hilary Duff",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff with La Roux and Jade LeMac",
+      "venue": "The Pavilion at Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": 0,
+      "date": "2026-06-30T19:00:00",
+      "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222",
+      "source": "seatgeek",
+      "redRocks": {
+        "date": "07/20/26",
+        "getIn": "$223.50",
+        "listings": 1323
+      }
+    },
+    {
+      "artist": "Hilary Duff",
+      "category": "bands",
+      "tier": "A",
+      "title": "Where to Find Cheapest Tickets for Hilary Duff Lucky Me Tour 2026",
+      "url": "https://www.sheknows.com/living/articles/1234970632/hilary-duff-lucky-me-tour-cheap-tickets/",
+      "source": "brave",
+      "redRocks": {
+        "date": "07/20/26",
+        "getIn": "$223.50",
+        "listings": 1323
+      }
+    },
+    {
+      "artist": "Hilary Duff",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff's Lucky Me Tour: 2026 Dates & How To Get Tickets Today | Glamour UK",
+      "url": "https://www.glamourmagazine.co.uk/article/hilary-duff-lucky-me-tour-2026-dates-buy-tickets",
+      "source": "brave",
+      "redRocks": {
+        "date": "07/20/26",
+        "getIn": "$223.50",
+        "listings": 1323
+      }
+    },
+    {
+      "artist": "Hilary Duff",
+      "category": "bands",
+      "tier": "A",
+      "title": "Hilary Duff Adds New Tour Dates For 2026 ‘The Lucky Me Tour’",
+      "url": "https://toursetlist.com/hilary-duff-adds-new-tour-dates-for-2026/",
+      "source": "brave",
+      "redRocks": {
+        "date": "07/20/26",
+        "getIn": "$223.50",
+        "listings": 1323
+      }
+    }
+  ],
+  "totalWatched": 40
+}

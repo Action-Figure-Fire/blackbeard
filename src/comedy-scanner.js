@@ -367,7 +367,7 @@ async function runComedyScan() {
   const shows = processComedyResults(twitterResults, braveResults);
   console.log(`  Processed: ${shows.length} unique comedy shows`);
 
-  const alert = formatComedyAlert(shows);
+  let alert = formatComedyAlert(shows);
 
   // Save results
   const reportDir = path.join(__dirname, '..', 'reports');
