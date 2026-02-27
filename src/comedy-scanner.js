@@ -347,6 +347,16 @@ async function runComedyScan() {
   const braveResults = await scanComedyBrave();
   console.log(`  Brave: ${braveResults.length} comedy mentions`);
 
+  // Email inbox scan
+  let emailAlert = null;
+  try {
+    const { runEmailScan } = require('./email-scanner');
+    const emailResult = await runEmailScan(12);
+    if (emailResult.message) emailAlert = emailResult.message;
+  } catch (e) {
+    console.log('  Email: skipped (' + e.message + ')');
+  }
+
   const shows = processComedyResults(twitterResults, braveResults);
   console.log(`  Processed: ${shows.length} unique comedy shows`);
 
@@ -359,6 +369,13 @@ async function runComedyScan() {
     path.join(reportDir, 'comedy-latest.json'),
     JSON.stringify({ timestamp: new Date().toISOString(), shows }, null, 2)
   );
+
+  // Combine alerts
+  if (emailAlert && alert) {
+    alert = alert + '\n---\n' + emailAlert;
+  } else if (emailAlert) {
+    alert = emailAlert;
+  }
 
   return { shows, alert };
 }
