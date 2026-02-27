@@ -206,6 +206,13 @@ async function scanComedyBrave() {
     'site:ticketweb.com comedy standup 2026',
     // AXS (another indie ticketing platform)
     'site:axs.com comedy standup 2026',
+    // Bandsintown (major comedian tour announcement platform)
+    'site:bandsintown.com "Shane Gillis" OR "Theo Von" OR "Mark Normand" OR "Matt Rife"',
+    'site:bandsintown.com "Nate Bargatze" OR "Andrew Schulz" OR "Taylor Tomlinson" OR "Stavros"',
+    'site:bandsintown.com "Tim Dillon" OR "Nikki Glaser" OR "Bert Kreischer" OR "Tom Segura"',
+    'site:bandsintown.com "Sam Morril" OR "Big Jay Oakerson" OR "Dan Soder" OR "Brian Simpson"',
+    // Songkick (another tour date aggregator)
+    'site:songkick.com comedy "just announced" OR "new show" 2026',
   ];
 
   for (const query of queries) {
