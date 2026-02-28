@@ -96,6 +96,80 @@ async function checkBrave(artistName) {
   } catch (e) { return []; }
 }
 
+// --- Twitter/X Scanner for watchlist artists ---
+async function checkTwitter(artists) {
+  const token = process.env.TWITTER_BEARER_TOKEN;
+  if (!token) { console.log('  Twitter/X: skipped (no bearer token)'); return []; }
+
+  const results = [];
+  
+  // Batch artists into groups of 4-5 per query (Twitter query length limits)
+  // Focus on tour/ticket announcements
+  const tierA = artists.filter(a => a.tier === 'A');
+  const tierB = artists.filter(a => a.tier === 'B');
+  
+  // Build queries — prioritize Tier A, sample Tier B
+  const queryArtists = [...tierA, ...tierB.slice(0, 15)]; // Cap at ~35 to save API calls
+  const batches = [];
+  for (let i = 0; i < queryArtists.length; i += 4) {
+    batches.push(queryArtists.slice(i, i + 4));
+  }
+
+  // Limit to 8 queries max (Twitter rate limits)
+  for (const batch of batches.slice(0, 8)) {
+    try {
+      const names = batch.map(a => `"${a.name}"`).join(' OR ');
+      const query = `(${names}) (tickets OR "on sale" OR "tour" OR "just announced" OR "presale" OR "sold out") -is:retweet lang:en`;
+      const url = `https://api.twitter.com/2/tweets/search/recent?query=${encodeURIComponent(query)}&max_results=20&tweet.fields=created_at,public_metrics,author_id`;
+      
+      const res = await fetch(url, {
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
+      
+      if (res.status === 200) {
+        const json = JSON.parse(res.data);
+        if (json?.data) {
+          for (const tweet of json.data) {
+            // Match which artist this tweet is about
+            let matchedArtist = null;
+            const tweetLower = tweet.text.toLowerCase();
+            for (const a of batch) {
+              if (tweetLower.includes(a.name.toLowerCase())) {
+                matchedArtist = a;
+                break;
+              }
+            }
+            
+            if (matchedArtist) {
+              const metrics = tweet.public_metrics || {};
+              results.push({
+                artist: matchedArtist.name,
+                category: matchedArtist.category,
+                tier: matchedArtist.tier,
+                text: tweet.text.substring(0, 200),
+                url: `https://x.com/i/status/${tweet.id}`,
+                likes: metrics.like_count || 0,
+                retweets: metrics.retweet_count || 0,
+                source: 'twitter',
+                created: tweet.created_at,
+                redRocks: matchedArtist.redRocks
+              });
+            }
+          }
+        }
+      } else if (res.status === 429) {
+        console.log('  Twitter/X: rate limited, stopping');
+        break;
+      }
+      await new Promise(r => setTimeout(r, 1500));
+    } catch (e) {
+      // continue on error
+    }
+  }
+  
+  return results;
+}
+
 async function runWatchlistScan() {
   console.log('👀 Blackbeard Watchlist Scanner running...');
   
@@ -103,6 +177,22 @@ async function runWatchlistScan() {
   const prev = loadPreviousEvents();
   const newFinds = [];
   
+  // --- Twitter/X scan ---
+  console.log('  🐦 Checking Twitter/X...');
+  const twitterFinds = await checkTwitter(watchlist.artists);
+  for (const tw of twitterFinds) {
+    const key = `twitter-${tw.artist}-${tw.url}`;
+    if (!prev.events[key]) {
+      prev.events[key] = { firstSeen: new Date().toISOString() };
+      // Only include high-engagement tweets or clear announcements
+      const text = tw.text.toLowerCase();
+      if (tw.likes > 50 || tw.retweets > 10 || /just announced|on sale|presale|new tour|sold out|new date|added show/.test(text)) {
+        newFinds.push(tw);
+      }
+    }
+  }
+  console.log(`  Twitter/X: ${twitterFinds.length} mentions, ${newFinds.length} new alerts`);
+
   for (const artist of watchlist.artists) {
     console.log(`  Checking: ${artist.name}...`);
     
@@ -178,6 +268,18 @@ async function runWatchlistScan() {
       for (const f of braveFinds.slice(0, 10)) {
         alert += `- **${f.artist}** [${f.tier}] — ${f.title}\n`;
         if (f.url) alert += `  <${f.url}>\n`;
+      }
+      alert += '\n';
+    }
+    
+    const twitterAlerts = newFinds.filter(f => f.source === 'twitter');
+    if (twitterAlerts.length > 0) {
+      alert += '**🐦 TWITTER BUZZ:**\n';
+      for (const f of twitterAlerts.slice(0, 10)) {
+        alert += `- **${f.artist}** [${f.tier}] — ${f.text.substring(0, 120)}...\n`;
+        alert += `  ❤️ ${f.likes} | 🔄 ${f.retweets}`;
+        if (f.url) alert += ` | <${f.url}>`;
+        alert += '\n';
       }
     }
   }
