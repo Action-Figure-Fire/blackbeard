@@ -1,6 +1,19 @@
 {
-  "timestamp": "2026-02-27T20:00:44.557Z",
+  "timestamp": "2026-02-28T16:01:29.209Z",
   "shows": [
+    {
+      "comedian": "Theo Von",
+      "venue": "Unknown venue",
+      "venueCapacity": null,
+      "source": "twitter",
+      "text": "Got 4x theovon tickets at Rosemont Mar 1st, Theo Von tickets, DM to get them!!",
+      "url": "https://x.com/i/status/2027388221429076061",
+      "ticketUrl": null,
+      "engagement": 1,
+      "created": "2026-02-27T14:19:53.000Z",
+      "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
     {
       "comedian": "Shane Gillis",
       "venue": "Unknown venue",
@@ -11,19 +24,6 @@
       "ticketUrl": null,
       "engagement": 0,
       "created": "2026-02-27T14:44:23.000Z",
-      "isSmallVenue": null,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Theo Von",
-      "venue": "Unknown venue",
-      "venueCapacity": null,
-      "source": "twitter",
-      "text": "Got 4x theovon tickets at Rosemont Mar 1st, Theo Von tickets, DM to get them!!",
-      "url": "https://x.com/i/status/2027388221429076061",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-02-27T14:19:53.000Z",
       "isSmallVenue": null,
       "isNewAnnouncement": false
     },
@@ -111,10 +111,10 @@
       "venueCapacity": 300,
       "source": "brave",
       "text": "Tickets: VIP <strong>tickets</strong> include priority seating ONLY (seating closest to the stage). Will Call is the ONLY option given when purchasing <strong>tickets</strong>. We do NOT give physical",
-      "url": "https://nashville.zanies.com/show/story-warz-w-big-jay-oakerson-luis-j-gomez-6/zanies/nashville-tennessee/",
+      "url": "https://nashville.zanies.com/show/story-warz-w-big-jay-oakerson-luis-j-gomez-5/zanies/nashville-tennessee/",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-02-21T07:30:21",
+      "created": "2026-02-21T07:30:20",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     },
@@ -123,11 +123,11 @@
       "venue": "Funny Bone (Various, cap: 350)",
       "venueCapacity": 350,
       "source": "brave",
-      "text": "Tickets · &amp;copy · 2026 · <strong>Funny Bone</strong> · Facebook-f Instagram · 9101 International Dr Suite 2310 Orlando, FL 32819 · (407) 480-5233 · Powered by ROCKHOUSE PARTNERS an ETIX company.",
-      "url": "https://orlando.funnybone.com/events/category/series/radel-ortiz/orlando-funny-bone/",
+      "text": "2026 · <strong>Funny Bone</strong> · Facebook-f Instagram · 560 S Prairie View Dr #100 West Des Moines, IA 50266 · (515) 270-2100 · Powered by ROCKHOUSE PARTNERS an ETIX company.",
+      "url": "https://desmoines.funnybone.com/events/category/series/akaash-singh/funny-bone-comedy-club/",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-02-20T03:44:40",
+      "created": "2026-02-27T02:22:41",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     },
