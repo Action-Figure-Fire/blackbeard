@@ -31,7 +31,15 @@ const SHOW_KEYWORDS = [
   'comedy show', 'standup', 'stand-up', 'special guest'
 ];
 
-// Tracked comedians (lowercase for matching)
+// Load watchlist artist names dynamically
+function getTrackedNames() {
+  try {
+    const wl = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'watchlist.json'), 'utf8'));
+    return wl.artists.map(a => a.name.toLowerCase());
+  } catch (e) { return []; }
+}
+
+// Tracked artists — comedians + all watchlist artists
 const COMEDIAN_NAMES = [
   'shane gillis', 'theo von', 'mark normand', 'sam morril',
   'stavros halkias', 'taylor tomlinson', 'matt rife', 'nate bargatze',
@@ -40,8 +48,10 @@ const COMEDIAN_NAMES = [
   'nikki glaser', 'dan soder', 'luis j gomez', 'big jay oakerson',
   'bobby lee', 'neal brennan', 'rachel feinstein', 'dave attell',
   'jessica kirson', 'sal vulcano', 'brian simpson', 'tony hinchcliffe',
-  'kill tony', 'protect our parks', 'christina p'
-];
+  'kill tony', 'protect our parks', 'christina p',
+  // Merge with watchlist at runtime
+  ...getTrackedNames()
+].filter((v, i, a) => a.indexOf(v) === i); // dedupe
 
 // Venue email domains we expect newsletters from
 const VENUE_DOMAINS = [
@@ -51,7 +61,10 @@ const VENUE_DOMAINS = [
   'comedyworks.com', 'comedymothership.com', 'capcitycomedy.com',
   'funnybone.com', 'wiseguyscomedy.com', 'punchlinecomedyclub.com',
   'eventbrite.com', 'ticketweb.com', 'axs.com', 'ticketmaster.com',
-  'seatgeek.com', 'dice.fm'
+  'seatgeek.com', 'dice.fm',
+  // Bandsintown alert domains
+  'bandsintown.com', 'notify.bandsintown.com', 'alerts.bandsintown.com',
+  'welcome.bandsintown.com', 'verify.bandsintown.com'
 ];
 
 function connectImap() {
@@ -138,8 +151,12 @@ function analyzeEmails(emails) {
     // Check for comedian names
     const mentionedComedians = COMEDIAN_NAMES.filter(name => combined.includes(name));
 
+    // Check if Bandsintown alert (highest priority)
+    const isBandsintown = fromDomain.includes('bandsintown.com');
+    
     // Score relevance
     let score = 0;
+    if (isBandsintown) score += 5; // Bandsintown alerts are always relevant
     if (isVenueEmail) score += 3;
     if (hasShowKeyword) score += 2;
     if (mentionedComedians.length > 0) score += 3;
@@ -152,7 +169,7 @@ function analyzeEmails(emails) {
       ticketUrls.push(match[1]);
     }
 
-    if (score >= 3) {
+    if (score >= 3 || isBandsintown) {
       alerts.push({
         subject: email.subject,
         from: email.from,
