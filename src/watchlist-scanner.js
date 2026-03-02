@@ -71,6 +71,10 @@ async function checkSeatGeek(artistName) {
       capacity: e.venue?.capacity || 0,
       date: e.datetime_local,
       url: e.url,
+      lowestPrice: e.stats?.lowest_sg_base_price || e.stats?.lowest_price || null,
+      avgPrice: e.stats?.average_price || null,
+      highestPrice: e.stats?.highest_price || null,
+      listingCount: e.stats?.listing_count || null,
       source: 'seatgeek'
     })).filter(e => e.capacity <= 10000 || e.capacity === 0); // Only small venues
   } catch (e) { return []; }
@@ -256,8 +260,15 @@ async function runWatchlistScan() {
       for (const f of sgFinds.slice(0, 15)) {
         const capStr = f.capacity ? ` (${f.capacity.toLocaleString()} cap)` : '';
         const rrStr = f.redRocks ? ` | RR get-in: ${typeof f.redRocks === 'object' ? f.redRocks.getIn : f.redRocks}` : '';
+        let priceStr = '';
+        if (f.lowestPrice) {
+          priceStr = ` | 💰 $${f.lowestPrice}`;
+          if (f.avgPrice) priceStr += ` / avg $${f.avgPrice}`;
+          if (f.highestPrice) priceStr += ` / high $${f.highestPrice}`;
+          if (f.listingCount) priceStr += ` (${f.listingCount} listings)`;
+        }
         alert += `- **${f.artist}** [${f.tier}] — ${f.venue}${capStr}, ${f.city} ${f.state}\n`;
-        alert += `  📅 ${f.date}${rrStr}\n`;
+        alert += `  📅 ${f.date}${priceStr}${rrStr}\n`;
         if (f.url) alert += `  <${f.url}>\n`;
       }
       alert += '\n';

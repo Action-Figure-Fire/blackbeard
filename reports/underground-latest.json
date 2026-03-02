@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-01T04:36:54.120Z",
+  "timestamp": "2026-03-02T09:00:39.884Z",
   "events": [
     {
       "eventName": "2026 Music Festivals: The Ultimate Guide You’ll Check All Year",
@@ -31,47 +31,18 @@
       "published": "2026-02-24T17:02:12"
     },
     {
-      "eventName": "Barcelona Concert 2026",
-      "category": "other",
-      "score": 8,
-      "signals": [
-        "SOLD OUT",
-        "Reddit",
-        "small venue"
-      ],
-      "text": "I bought 2 tickets to go with my bf, and any other concerts in UK, France, etc. are sold out. I know it is not a big deal, but I wanted to know if I’m missing any details I should know. Is it because ",
-      "url": "https://www.reddit.com/r/TheWeeknd/comments/1rg8zp2/barcelona_concert_2026/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-27T15:01:12"
-    },
-    {
-      "eventName": "These 37 New Markdown Look *so* Rich and *so* Expensive I Wouldn't Be Surprised If They Sold Out Bef",
-      "category": "electronic",
-      "score": 8,
-      "signals": [
-        "SOLD OUT",
-        "underground"
-      ],
-      "text": "Shopping These 37 New Markdown Look *so* Rich and *so* Expensive I Wouldn&#x27;t Be Surprised If They Sold Out Before The Week Ends When standards are high, but the budget is not. by Josephine Hadjilo",
-      "url": "https://www.whowhatwear.com/fashion/shopping/rich-looking-nordstrom-new-markdowns-february-2026",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-23T18:58:46"
-    },
-    {
-      "eventName": "UBC's Okanagan News",
+      "eventName": "King Concerts 2026 | Snow King Mountain | Jackson, WY",
       "category": "other",
       "score": 7,
       "signals": [
         "SOLD OUT",
         "small venue"
       ],
-      "text": "“Last year’s event sold out, so I’d recommend people get their tickets now.” · For more information about <strong>Pony Cabaret</strong>, or to purchase tickets, visit: www.inspiredwordcafe.com/events/",
-      "url": "https://news.ok.ubc.ca/2026/02/23/ten-years-in-pony-cabaret-keeps-pushing-queer-culture-forward/",
+      "text": "Originally gaining momentum through viral success and grassroots fan support, Gossett has amassed hundreds of millions of global streams with breakout songs such as “Coal,” “To Be Free,” and “Lone Ole",
+      "url": "https://snowkingmountain.com/king-concerts/",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-23T14:00:58"
+      "published": "2026-02-25T16:51:05"
     },
     {
       "eventName": "Metallica announces surprise Las Vegas concert series for 2026",
@@ -88,6 +59,48 @@
       "published": "2026-02-25T19:25:26"
     },
     {
+      "eventName": "Ticketmaster changed my seats : r/Concerts",
+      "category": "other",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "does ticketmaster do upgrades for free at the last minute in the box office if a concert is not sold out on the day of the show?",
+      "url": "https://www.reddit.com/r/Concerts/comments/1rd0yoh/ticketmaster_changed_my_seats/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-02-24T01:34:26"
+    },
+    {
+      "eventName": "If Ticketmaster is saying that the event is sold out at Petco Park in San Diego, why does it also sa",
+      "category": "other",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "<strong>Not necessarily true</strong>. Last year, people were selling floor and pit tickets at face value for NJ. ... Won’t happen for San Diego. Demand is too high. And it’s a fantastic venue.",
+      "url": "https://www.reddit.com/r/RUFUSDUSOL/comments/1rh92fj/if_ticketmaster_is_saying_that_the_event_is_sold/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-02-28T17:51:39"
+    },
+    {
+      "eventName": "Chicago Concert sold out!",
+      "category": "other",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "This was the most annoying ticketmaster experience in over 30 years. And believe me there have been past annoyances! I was 17,000+ in queue, starting half an hour before opening, and it took about 20 ",
+      "url": "https://www.reddit.com/r/BruceSpringsteen/comments/1rdtkx5/chicago_concert_sold_out/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-02-24T21:37:12"
+    },
+    {
       "eventName": "Tickets are available to select shows",
       "category": "other",
       "score": 6,
@@ -102,32 +115,32 @@
       "published": "2026-02-23T19:49:20"
     },
     {
-      "eventName": "2026 tours not coming to Texas",
-      "category": "indie/rock",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "I was suprised to see you guys hitting Green Bay so soon after your tour with INK was there last August. You proved me wrong though because it&#x27;s been sold out for a while now.",
-      "url": "https://www.reddit.com/r/Metalcore/comments/1regr7q/2026_tours_not_coming_to_texas/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-25T16:36:34"
-    },
-    {
-      "eventName": "AMC Theatres to ‘Block and Reserve Best Seats’ for A-List and Stubs Premiere Members | CEO Adam Aron",
+      "eventName": "Heartbroken - Our showing was cancelled",
       "category": "other",
       "score": 6,
       "signals": [
         "SOLD OUT",
         "Reddit"
       ],
-      "text": "I often go to the movies alone, and it is crazy to me how many times people will buy tickets after me, directly next to me, when other seats are open! Sometimes other solo watchers, sometimes groups. ",
-      "url": "https://www.reddit.com/r/Fauxmoi/comments/1rex3wp/amc_theatres_to_block_and_reserve_best_seats_for/",
+      "text": "I&#x27;m sad it&#x27;s sold out! ... a community dedicated to all things twenty one pilots: news, discussion, connection, and creativity. ... So...there are a lot more people going to the movie than I",
+      "url": "https://www.reddit.com/r/twentyonepilots/comments/1rhcmhv/heartbroken_our_showing_was_cancelled/",
       "source": "reddit",
       "matchedArtist": null,
-      "published": "2026-02-26T01:51:27"
+      "published": "2026-02-28T20:09:50"
+    },
+    {
+      "eventName": "concert tickets",
+      "category": "other",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "Best strategy now would be to see what tickets are day of online (I like tick pick because if includes fees/price you see is price you pay for tickets) then if they are not sold out or shooting sky hi",
+      "url": "https://www.reddit.com/r/fortwayne/comments/1rh94e0/concert_tickets/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-02-28T17:53:51"
     },
     {
       "eventName": "[ Removed by moderator ]",
@@ -144,18 +157,18 @@
       "published": "2026-02-26T05:41:49"
     },
     {
-      "eventName": "Ticketmaster changed my seats : r/Concerts",
+      "eventName": "Pros and cons of going to the first show of a tour?",
       "category": "other",
       "score": 6,
       "signals": [
         "SOLD OUT",
         "Reddit"
       ],
-      "text": "A happy place to post concert or festival news, upcoming tour dates, past recordings, line-ups, rumours, and general live music discussion. ... does ticketmaster do upgrades for free at the last minut",
-      "url": "https://www.reddit.com/r/Concerts/comments/1rd0yoh/ticketmaster_changed_my_seats/",
+      "text": "Speaking of merch Pro: if they have merch the chances of your size being sold out are a lot smaller. ... When it comes to the very small handful of artists that I follow on tour I always try to do fir",
+      "url": "https://www.reddit.com/r/Concerts/comments/1rgf5wu/pros_and_cons_of_going_to_the_first_show_of_a_tour/",
       "source": "reddit",
       "matchedArtist": null,
-      "published": "2026-02-24T01:34:26"
+      "published": "2026-02-27T18:44:48"
     },
     {
       "eventName": "Ticket Anxiety.",
@@ -172,33 +185,6 @@
       "published": "2026-02-24T07:57:38"
     },
     {
-      "eventName": "TWICE New York Concerts 2026 at UBS Arena: Full Fan Guide",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "<strong>TWICE will perform three nights at UBS Arena in Elmont, NY on Feb 18, 20, and 21, 2026</strong>. The shows mark TWICE’s return to the venue after two sold-out nights there in 2022.",
-      "url": "https://twicetours.com/new-york/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-22T10:01:30"
-    },
-    {
-      "eventName": "Creative Ways to Surprise Someone with Concert Tickets | TikTok",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "small venue",
-        "underground"
-      ],
-      "text": "Discover creative ways to surprise your loved ones with concert tickets! From unique gift ideas to DIY projects, make their day unforgettable.See more videos about Creative Way to Surprise Your Friend",
-      "url": "https://www.tiktok.com/discover/creative-ways-to-surprise-someone-with-concert-tickets?lang=en",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-23T00:00:00"
-    },
-    {
       "eventName": "Miami-Florida Baseball Weekend? First Two Games Are SOLD OUT | CanesInSight",
       "category": "other",
       "score": 5,
@@ -210,20 +196,6 @@
       "source": "web",
       "matchedArtist": null,
       "published": "2026-02-26T00:00:00"
-    },
-    {
-      "eventName": "DICE Reviews | Read Customer Service Reviews of dice.fm",
-      "category": "electronic",
-      "score": 5,
-      "signals": [
-        "DICE",
-        "underground"
-      ],
-      "text": "The ticketing process and DICE app worked great. the venue was excellent for the show perfect sized and intimate setting. <strong>Michael Wilbur</strong> and his lovely DJ put on a great show!",
-      "url": "https://www.trustpilot.com/review/dice.fm",
-      "source": "dice",
-      "matchedArtist": null,
-      "published": "2026-02-27T17:03:03"
     },
     {
       "eventName": "Review: Cardi B brought the 'Cardi Party' to Seattle for a sold-out show",
@@ -278,45 +250,6 @@
       "published": "2026-02-23T16:00:00"
     },
     {
-      "eventName": "48-ounce buckets of Dunkin' coffee already sold out at New England stores",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "For a limited time and at limited stores, Dunkin&#x27; is selling coffee in 48-ounce buckets. (AP Photo/Charles Krupa) By Katelyn Umholtz updated on February 25, 2026 · 2 minutes to read · Share · ...",
-      "url": "https://www.boston.com/food/food-news/2026/02/24/dunkin-iced-coffee-buckets/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-25T20:17:13"
-    },
-    {
-      "eventName": "The iPhone 17 Pro Max sold out in China, with over 10 million units activated and sold in 150 days. ",
-      "category": "electronic",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "According to Fast Technology on February 25, digital blogger &quot;Digital Chat Station&quot; recently revealed that <strong>as of the 7th week of 2026, the activated sales of the iPhone 17 Pro Max in",
-      "url": "https://kazam.mobi/the-iphone-17-pro-max-sold-out-in-china-with-over-10-million-units-activated-and-sold-in-150-days/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-25T09:40:11"
-    },
-    {
-      "eventName": "YouTube",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "SOLD OUT! Ascended Heroes ETBs Drop, Pokémon Acquires Excel &amp; Market ChaosGrab your PRISMADDICT Hoodies Here: https://www.thepokeoffice.com/collections/merch...",
-      "url": "https://www.youtube.com/watch?v=IGjG15BjY78",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-23T18:00:31"
-    },
-    {
       "eventName": "Dallas-Fort Worth's Best Concerts of March 2026",
       "category": "other",
       "score": 5,
@@ -330,17 +263,17 @@
       "published": "2026-02-25T18:30:00"
     },
     {
-      "eventName": "Theatre Weekly",
+      "eventName": "Upcoming Concert Events, Venue, Schedule & Passes In Warsaw",
       "category": "other",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "Following two sold out concert performances at Theatre Royal Drury Lane in 2024, <strong>Little Piece of You</strong> will return next month for a private",
-      "url": "https://theatreweekly.com/little-piece-of-you-announces-closed-workshop-presentation-at-sadlers-wells/",
+      "text": "[SOLD OUT] KWIAT JABŁONI - PRZESILENIE TOUR | 10.03.2026 | TEATR MUZYCZNY ROMA is happening on Tue 10 Mar 2026 from 8:30 PM onwards at Teatr Muzyczny ROMA, Warsaw",
+      "url": "https://allevents.in/warsaw/concerts",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-23T11:03:06"
+      "published": "2026-03-02T05:12:04"
     },
     {
       "eventName": "Comedy for a Cause - Lois Law Firm",
@@ -369,30 +302,31 @@
       "published": "2026-02-23T06:56:12"
     },
     {
-      "eventName": "All the shows on sale at Norwich theatres in February 2026 | Eastern Daily Press",
+      "eventName": "February 2026 - Minnesota Horse & Hunt Club",
       "category": "comedy",
       "score": 5,
       "signals": [
-        "SOLD OUT"
+        "small venue",
+        "underground"
       ],
-      "text": "<strong>Stevie Martin</strong>: Clout | October 11, 2026 <strong>Stevie Martin</strong> has been doing online comedy for a while, amassing 45 million views worldwide, but is now returning to live come",
-      "url": "https://www.edp24.co.uk/news/25881300.shows-sale-norwich-theatres-february-2026/",
+      "text": "Santi (for short) frequents Minneapolis comedy favorites such as the Comedy Corner Underground, Sisyphus Brewing, and Volstead’s Emporium. He’ll probably do an accent. Ticket price includes Prior Lake",
+      "url": "https://horseandhunt.com/product/comedy-night-february-2026/",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-25T12:00:00"
+      "published": "2026-02-24T04:27:39"
     },
     {
-      "eventName": "All the shows on sale at Norwich theatres in February 2026 | Norwich Evening News",
-      "category": "comedy",
+      "eventName": "2/25 Los Angeles Rave Itinerary",
+      "category": "electronic",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "<strong>Stevie Martin</strong>: Clout | October 11, 2026 <strong>Stevie Martin</strong> has been doing online comedy for a while, amassing 45 million views worldwide, but is now returning to live come",
-      "url": "https://www.eveningnews24.co.uk/news/25881300.shows-sale-norwich-theatres-february-2026/",
+      "text": "There is extremely limited capacity for this one! Grab your tickets now and get ready for some house &amp; tech house, and more! 🚀 · <strong>First two tiers of tickets are sold out, get GA tickets he",
+      "url": "https://www.thelaraver.com/p/2-25-los-angeles-rave-itinerary",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-25T12:00:00"
+      "published": "2026-02-26T01:03:08"
     },
     {
       "eventName": "Art Threat",
@@ -421,20 +355,6 @@
       "published": "2026-02-25T23:17:33"
     },
     {
-      "eventName": "$10 Off (4 Verified) Mar 2026",
-      "category": "electronic",
-      "score": 4,
-      "signals": [
-        "Eventbrite",
-        "small venue"
-      ],
-      "text": "The SimplyCodes community has identified recurring warehouse sales on Eventbrite where organizers offer unsold tickets at reduced prices, <strong>typically 2-3 weeks before event dates</strong>.",
-      "url": "https://simplycodes.com/store/eventbrite.com",
-      "source": "eventbrite",
-      "matchedArtist": null,
-      "published": "2026-02-28T00:00:00"
-    },
-    {
       "eventName": "I Got Jeremy’s Tic Tacs",
       "category": "other",
       "score": 4,
@@ -449,30 +369,17 @@
       "published": "2026-02-24T20:58:54"
     },
     {
-      "eventName": "My Shopping Hack for Finding Designer Deals? TJ Maxx’s Online Store",
+      "eventName": "More venues, bigger venues and selling fast: Chamber music festival’s growing appeal",
       "category": "other",
       "score": 4,
       "signals": [
         "selling fast"
       ],
-      "text": "I’m talking nearly 50% off brands like Rag &amp; Bone, Cartier, Burberry, and more. It’s almost unbelievable! But thankfully, this is real life, and my scrolling-through-hundreds-of-pages effort has u",
-      "url": "https://www.cosmopolitan.com/style-beauty/fashion/g70481196/tj-maxx-online-luxury-deals/",
+      "text": "More venues, bigger venues and selling fast: Chamber music festival’s growing appeal",
+      "url": "https://www.orangecitylife.com.au/news/more-venues-bigger-venues-and-selling-fast-chamber-music-festivals-growing-appeal-hte0m7cl",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-25T22:24:00"
-    },
-    {
-      "eventName": "Patio furniture, bedroom sets and more are up to 88% off at Wayfair ahead of spring | CNN Underscore",
-      "category": "other",
-      "score": 4,
-      "signals": [
-        "selling fast"
-      ],
-      "text": "This Wayfair-verified item has been selling fast over the past few days. If you&#x27;re tired of using outlet extenders and power strips, this midcentury side table has a built-in charging station to ",
-      "url": "https://www.cnn.com/cnn-underscored/deals/wayfair-tax-refund-sale-2026-02-24",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-25T21:08:12"
+      "published": "2026-03-01T13:01:00"
     }
   ]
 }
