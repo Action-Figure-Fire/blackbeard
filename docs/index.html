@@ -810,6 +810,105 @@ footer { text-align:center; padding:20px 0; color:#555; font-size:0.75rem; borde
   </div>
 </div>
 
+<!-- ========================= -->
+<!-- ➕ ADD TO WATCHLIST         -->
+<!-- ========================= -->
+<div class="section-header">
+  <h2>➕ Add to Watchlist</h2>
+</div>
+
+<div class="card tier-a" style="border-left-color:#27ae60;">
+  <div style="margin-bottom:12px; font-size:0.9rem; color:#ccc;">
+    Add an artist, band, or comedian to the daily watchlist scanner. Olga checks SeatGeek + Brave daily at 3 AM ET and alerts you when new events appear.
+  </div>
+  
+  <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px;">
+    <input type="text" id="artistName" placeholder="Artist name (e.g. Florence Road)" 
+      style="flex:1; min-width:200px; padding:10px 14px; background:#1a1a2e; border:1px solid #333; border-radius:6px; color:#fff; font-size:0.95rem; outline:none;"
+      onkeydown="if(event.key==='Enter')addArtist()">
+    
+    <select id="artistCategory" style="padding:10px; background:#1a1a2e; border:1px solid #333; border-radius:6px; color:#fff; font-size:0.85rem;">
+      <option value="band">🎵 Band/Solo</option>
+      <option value="dj">🎧 DJ/Electronic</option>
+      <option value="comedy">🎤 Comedy</option>
+      <option value="sports">🏟️ Sports</option>
+    </select>
+    
+    <select id="artistTier" style="padding:10px; background:#1a1a2e; border:1px solid #333; border-radius:6px; color:#fff; font-size:0.85rem;">
+      <option value="A">Tier A (priority)</option>
+      <option value="B">Tier B (standard)</option>
+    </select>
+    
+    <button onclick="addArtist()" style="padding:10px 20px; background:#27ae60; border:none; border-radius:6px; color:#fff; font-weight:700; font-size:0.9rem; cursor:pointer; white-space:nowrap;">
+      ➕ Add
+    </button>
+  </div>
+  
+  <div id="addResult" style="display:none; padding:10px 14px; border-radius:6px; font-size:0.85rem; margin-bottom:10px;"></div>
+  
+  <div id="pendingList" style="display:none; margin-top:12px;">
+    <div style="font-size:0.8rem; color:#888; margin-bottom:8px;">📋 Pending additions (copy & paste in #blackbeard🏴‍☠️ on Discord):</div>
+    <div id="pendingItems" style="background:#111; padding:10px 14px; border-radius:6px; font-family:monospace; font-size:0.85rem; color:#d4a017;"></div>
+    <button onclick="copyPending()" style="margin-top:8px; padding:8px 16px; background:#4a9eff; border:none; border-radius:6px; color:#fff; font-weight:600; font-size:0.8rem; cursor:pointer;">
+      📋 Copy to Clipboard
+    </button>
+  </div>
+  
+  <div style="margin-top:12px; padding:10px 14px; background:#111; border-radius:6px; font-size:0.8rem; color:#888;">
+    💡 <strong>Quick way:</strong> Just type in #blackbeard🏴‍☠️ on Discord: <code style="background:#1a1a2e; padding:2px 6px; border-radius:3px; color:#d4a017;">add [artist name]</code> — Olga will add them automatically.
+  </div>
+</div>
+
+<script>
+const pendingArtists = [];
+
+function addArtist() {
+  const name = document.getElementById('artistName').value.trim();
+  const category = document.getElementById('artistCategory').value;
+  const tier = document.getElementById('artistTier').value;
+  const resultDiv = document.getElementById('addResult');
+  
+  if (!name) {
+    resultDiv.style.display = 'block';
+    resultDiv.style.background = 'rgba(255,45,45,0.1)';
+    resultDiv.style.border = '1px solid rgba(255,45,45,0.3)';
+    resultDiv.style.color = '#ff6b6b';
+    resultDiv.textContent = '⚠️ Enter an artist name';
+    return;
+  }
+  
+  const catEmoji = {band:'🎵',dj:'🎧',comedy:'🎤',sports:'🏟️'}[category];
+  pendingArtists.push({name, category, tier});
+  
+  // Show success
+  resultDiv.style.display = 'block';
+  resultDiv.style.background = 'rgba(39,174,96,0.1)';
+  resultDiv.style.border = '1px solid rgba(39,174,96,0.3)';
+  resultDiv.style.color = '#27ae60';
+  resultDiv.textContent = `✅ ${catEmoji} ${name} (Tier ${tier}) queued! Paste the command in Discord to confirm.`;
+  
+  // Update pending list
+  const pendingDiv = document.getElementById('pendingList');
+  const itemsDiv = document.getElementById('pendingItems');
+  pendingDiv.style.display = 'block';
+  itemsDiv.textContent = pendingArtists.map(a => `add ${a.name} ${a.category} ${a.tier}`).join('\n');
+  
+  // Clear input
+  document.getElementById('artistName').value = '';
+  document.getElementById('artistName').focus();
+}
+
+function copyPending() {
+  const text = pendingArtists.map(a => `add ${a.name} ${a.category} ${a.tier}`).join('\n');
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = event.target;
+    btn.textContent = '✅ Copied!';
+    btn.style.background = '#27ae60';
+    setTimeout(() => { btn.textContent = '📋 Copy to Clipboard'; btn.style.background = '#4a9eff'; }, 2000);
+  });
+}
+</script>
+
 <footer>
   🏴‍☠️ Blackbeard v2.0 — Built by Olga for Zach<br>
   Data sources: SeatGeek API, Vivid Seats, StubHub, Gametime, Brave Search, Reddit, X/Twitter, Pollstar, BrooklynVegan, Billboard<br>
