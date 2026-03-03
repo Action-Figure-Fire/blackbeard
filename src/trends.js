@@ -1,15 +1,58 @@
 #!/usr/bin/env node
-// Google Trends data collection via Brave Search proxy
-// Since direct Google Trends API requires browser/cookies, we:
-// 1. Use Brave Search to find recent trend mentions and search volume indicators
-// 2. Use Google Trends RSS for daily trending topics
-// 3. Score relative interest based on multiple signals
+// Google Trends data via SerpAPI + Brave Search signals
+// Provides real Google Trends interest-over-time data plus web demand signals
 
 const https = require('https');
+const SERPAPI_KEY = process.env.SERPAPI_KEY || '';
 const BRAVE_KEY = process.env.BRAVE_API_KEY || '';
 
+// Google Trends via SerpAPI (real data)
+function getGoogleTrends(keyword) {
+  return new Promise((resolve) => {
+    if (!SERPAPI_KEY) { resolve(null); return; }
+    const url = `https://serpapi.com/search.json?engine=google_trends&q=${encodeURIComponent(keyword)}&data_type=TIMESERIES&date=today+3-m&geo=US&api_key=${SERPAPI_KEY}`;
+    https.get(url, { timeout: 15000 }, (res) => {
+      let d = '';
+      res.on('data', c => d += c);
+      res.on('end', () => {
+        try {
+          const j = JSON.parse(d);
+          const timeline = j.interest_over_time?.timeline_data || [];
+          if (timeline.length < 4) { resolve(null); return; }
+          const last4 = timeline.slice(-4);
+          const prev4 = timeline.slice(-8, -4);
+          const current = last4.reduce((s, p) => s + p.values[0].extracted_value, 0) / last4.length;
+          const previous = prev4.length ? prev4.reduce((s, p) => s + p.values[0].extracted_value, 0) / prev4.length : current;
+          const change = previous > 0 ? Math.round((current - previous) / previous * 100) : 0;
+          const peak = Math.max(...timeline.map(p => p.values[0].extracted_value));
+          const latest = timeline.slice(-1)[0]?.values[0].extracted_value || 0;
+          resolve({ current: Math.round(current), peak, change, latest, dataPoints: timeline.length });
+        } catch { resolve(null); }
+      });
+    }).on('error', () => resolve(null));
+  });
+}
+
+// Google search for sold-out/demand signals via SerpAPI
+function searchGoogle(query) {
+  return new Promise((resolve) => {
+    if (!SERPAPI_KEY) { resolve([]); return; }
+    const url = `https://serpapi.com/search.json?engine=google&q=${encodeURIComponent(query)}&num=10&api_key=${SERPAPI_KEY}`;
+    https.get(url, { timeout: 15000 }, (res) => {
+      let d = '';
+      res.on('data', c => d += c);
+      res.on('end', () => {
+        try { resolve(JSON.parse(d).organic_results || []); }
+        catch { resolve([]); }
+      });
+    }).on('error', () => resolve([]));
+  });
+}
+
+// Brave search fallback
 function braveSearch(query) {
   return new Promise((resolve) => {
+    if (!BRAVE_KEY) { resolve([]); return; }
     const url = `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}&count=5&freshness=pm`;
     https.get(url, { headers: { 'X-Subscription-Token': BRAVE_KEY, 'Accept': 'application/json' }, timeout: 10000 }, (res) => {
       let d = '';
@@ -19,117 +62,103 @@ function braveSearch(query) {
   });
 }
 
-function getTrendingRSS() {
-  return new Promise((resolve) => {
-    https.get('https://trends.google.com/trending/rss?geo=US', { headers: { 'User-Agent': 'Mozilla/5.0' }, timeout: 10000 }, (res) => {
-      let data = '';
-      res.on('data', c => data += c);
-      res.on('end', () => {
-        const items = [];
-        const regex = /<title>(.*?)<\/title>[\s\S]*?<ht:approx_traffic>(.*?)<\/ht:approx_traffic>/g;
-        let match;
-        while ((match = regex.exec(data)) !== null) {
-          items.push({ query: match[1], traffic: match[2] });
-        }
-        resolve(items);
-      });
-    }).on('error', () => resolve([]));
-  });
-}
+// Full analysis for a keyword
+async function analyzeEvent(keyword) {
+  const result = {
+    keyword,
+    googleTrends: null,
+    soldOutMentions: 0,
+    demandSignals: [],
+    score: 0,
+    trend: 'unknown'
+  };
 
-// Score search interest for a keyword using multiple signals
-async function scoreInterest(keyword) {
-  const signals = { keyword, searchVolume: 'unknown', trend: 'unknown', signals: [] };
-  
-  // 1. Check if keyword is in Google Trends daily trending
-  const trending = await getTrendingRSS();
-  const isTrending = trending.find(t => t.query.toLowerCase().includes(keyword.toLowerCase()));
-  if (isTrending) {
-    signals.signals.push(`🔥 Trending on Google (${isTrending.traffic} searches)`);
-    signals.trend = 'TRENDING';
-  }
-  
-  // 2. Brave search for "sold out" + keyword
-  const soldOutResults = await braveSearch(`"${keyword}" "sold out" tickets 2026`);
-  const soldOutCount = soldOutResults.filter(r => {
-    const text = (r.title + ' ' + (r.description || '')).toLowerCase();
-    return text.includes('sold out') && text.includes(keyword.toLowerCase().split(' ')[0]);
+  // 1. Google Trends (real data via SerpAPI)
+  result.googleTrends = await getGoogleTrends(keyword);
+  await sleep(1200);
+
+  // 2. Sold-out mentions via Google
+  const soldOutResults = await searchGoogle(`"${keyword}" "sold out" tickets 2026`);
+  result.soldOutMentions = soldOutResults.filter(r => {
+    const text = (r.title + ' ' + (r.snippet || '')).toLowerCase();
+    return text.includes('sold out') || text.includes('sell out');
   }).length;
-  if (soldOutCount > 0) {
-    signals.signals.push(`🎟️ ${soldOutCount} "sold out" mentions found`);
+  if (result.soldOutMentions > 0) {
+    result.demandSignals.push(`🎟️ ${result.soldOutMentions} "sold out" Google results`);
   }
-  
-  // 3. Brave search for tour/ticket demand
-  const demandResults = await braveSearch(`"${keyword}" tour tickets 2026 demand`);
-  const demandSignals = demandResults.filter(r => {
-    const text = (r.title + ' ' + (r.description || '')).toLowerCase();
-    return text.includes('sell') || text.includes('demand') || text.includes('added') || text.includes('upgrade');
-  }).length;
-  if (demandSignals > 0) {
-    signals.signals.push(`📈 ${demandSignals} demand/supply signals`);
-  }
-  
-  // 4. Check for "added dates" or "venue upgrade" signals
-  const upgradeResults = await braveSearch(`"${keyword}" "added" OR "upgrade" OR "second show" OR "extended" tour 2026`);
-  const upgradeCount = upgradeResults.filter(r => {
+  await sleep(1200);
+
+  // 3. Expansion signals (added dates, venue upgrades)
+  const expansionResults = await braveSearch(`"${keyword}" "added" OR "upgrade" OR "second show" OR "extended" tour 2026`);
+  const expansionCount = expansionResults.filter(r => {
     const text = (r.title + ' ' + (r.description || '')).toLowerCase();
     return (text.includes('added') || text.includes('upgrade') || text.includes('extended') || text.includes('second show')) &&
            text.includes(keyword.toLowerCase().split(' ')[0]);
   }).length;
-  if (upgradeCount > 0) {
-    signals.signals.push(`🚀 ${upgradeCount} expansion signals (added dates/venue upgrades)`);
+  if (expansionCount > 0) {
+    result.demandSignals.push(`🚀 ${expansionCount} expansion signals`);
   }
-  
-  // Score: 0-100 based on signals
+
+  // 4. Google Trends signals
+  if (result.googleTrends) {
+    const gt = result.googleTrends;
+    if (gt.change > 50) result.demandSignals.push(`📈 Google Trends: +${gt.change}% (4-week trend)`);
+    else if (gt.change > 10) result.demandSignals.push(`📈 Google Trends: +${gt.change}%`);
+    else if (gt.change < -30) result.demandSignals.push(`📉 Google Trends: ${gt.change}% (cooling)`);
+
+    if (gt.current >= 70) result.demandSignals.push(`🔥 Google Trends: ${gt.current}/100 interest`);
+  }
+
+  // 5. Composite score
   let score = 20; // baseline
-  if (isTrending) score += 30;
-  score += soldOutCount * 15;
-  score += demandSignals * 10;
-  score += upgradeCount * 12;
-  signals.score = Math.min(score, 100);
-  
-  // Trend classification
-  if (score >= 70) signals.trend = '🔺 HIGH DEMAND';
-  else if (score >= 50) signals.trend = '📈 RISING';
-  else if (score >= 35) signals.trend = '➡️ MODERATE';
-  else signals.trend = '⬜ LOW';
-  
-  return signals;
+  if (result.googleTrends) {
+    score += Math.min(result.googleTrends.current * 0.3, 30); // up to 30 from trends
+    if (result.googleTrends.change > 50) score += 15;
+    else if (result.googleTrends.change > 20) score += 8;
+  }
+  score += result.soldOutMentions * 10; // up to ~30 from sold-out mentions
+  score += expansionCount * 8; // up to ~16 from expansion signals
+  result.score = Math.min(Math.round(score), 100);
+
+  // 6. Trend classification
+  if (result.score >= 75) result.trend = '🔺 HIGH DEMAND';
+  else if (result.score >= 55) result.trend = '📈 ELEVATED';
+  else if (result.score >= 40) result.trend = '➡️ MODERATE';
+  else result.trend = '⬜ LOW';
+
+  return result;
 }
 
-// Batch score multiple keywords
-async function batchScore(keywords) {
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+async function batchAnalyze(keywords) {
   const results = [];
   for (const kw of keywords) {
-    console.log(`Scoring: ${kw}...`);
-    const result = await scoreInterest(kw);
-    results.push(result);
-    console.log(`  ${result.trend} (${result.score}/100) — ${result.signals.join(' | ') || 'No strong signals'}`);
-    await new Promise(r => setTimeout(r, 500)); // rate limit
+    console.log(`Analyzing: ${kw}...`);
+    const r = await analyzeEvent(kw);
+    results.push(r);
+    const gtStr = r.googleTrends ? ` | GT: ${r.googleTrends.current}/100 (${r.googleTrends.change > 0 ? '+' : ''}${r.googleTrends.change}%)` : '';
+    console.log(`  ${r.trend} ${r.score}/100${gtStr}`);
+    r.demandSignals.forEach(s => console.log(`    ${s}`));
+    await sleep(500);
   }
   return results;
 }
 
-// Export for use in other modules
-module.exports = { scoreInterest, batchScore, getTrendingRSS };
+module.exports = { analyzeEvent, batchAnalyze, getGoogleTrends, searchGoogle };
 
-// CLI mode
 if (require.main === module) {
   const keywords = process.argv.slice(2);
   if (keywords.length === 0) {
-    console.log('Usage: node trends.js "Freya Skye" "Cat Power" "Vanderbilt baseball"');
-    console.log('\nFetching daily trending topics instead...\n');
-    getTrendingRSS().then(items => {
-      items.forEach(i => console.log(`  ${i.query} — ${i.traffic} searches`));
-    });
-  } else {
-    batchScore(keywords).then(results => {
-      console.log('\n=== SUMMARY ===');
-      results.sort((a, b) => b.score - a.score);
-      results.forEach(r => {
-        console.log(`${r.trend} ${r.keyword}: ${r.score}/100`);
-        r.signals.forEach(s => console.log(`    ${s}`));
-      });
-    });
+    console.log('Usage: node trends.js "Freya Skye" "Cat Power tour" ...');
+    process.exit(0);
   }
+  batchAnalyze(keywords).then(results => {
+    console.log('\n=== SUMMARY ===');
+    results.sort((a, b) => b.score - a.score);
+    results.forEach(r => {
+      const gtStr = r.googleTrends ? ` (GT: ${r.googleTrends.current}/100, ${r.googleTrends.change > 0 ? '+' : ''}${r.googleTrends.change}%)` : '';
+      console.log(`${r.trend} ${r.keyword}: ${r.score}/100${gtStr}`);
+    });
+  });
 }
