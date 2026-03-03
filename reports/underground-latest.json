@@ -1,20 +1,6 @@
 {
-  "timestamp": "2026-03-02T09:00:39.884Z",
+  "timestamp": "2026-03-03T09:00:42.251Z",
   "events": [
-    {
-      "eventName": "2026 Music Festivals: The Ultimate Guide You’ll Check All Year",
-      "category": "other",
-      "score": 8,
-      "signals": [
-        "SOLD OUT",
-        "underground"
-      ],
-      "text": "The announcement, made late Monday, also included a surprise twist: <strong>Justin Bieber will headline the desert festival for the first time</strong>. The pop-heavy lineup paid off, as the fest is a",
-      "url": "https://www.ticketnews.com/2026/02/2026-music-festivals-the-ultimate-guide-youll-check-all-year/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-25T18:49:58"
-    },
     {
       "eventName": "Fan Club Presale Thread",
       "category": "other",
@@ -31,20 +17,6 @@
       "published": "2026-02-24T17:02:12"
     },
     {
-      "eventName": "King Concerts 2026 | Snow King Mountain | Jackson, WY",
-      "category": "other",
-      "score": 7,
-      "signals": [
-        "SOLD OUT",
-        "small venue"
-      ],
-      "text": "Originally gaining momentum through viral success and grassroots fan support, Gossett has amassed hundreds of millions of global streams with breakout songs such as “Coal,” “To Be Free,” and “Lone Ole",
-      "url": "https://snowkingmountain.com/king-concerts/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-25T16:51:05"
-    },
-    {
       "eventName": "Metallica announces surprise Las Vegas concert series for 2026",
       "category": "indie/rock",
       "score": 6,
@@ -57,20 +29,6 @@
       "source": "web",
       "matchedArtist": "mersiv",
       "published": "2026-02-25T19:25:26"
-    },
-    {
-      "eventName": "Ticketmaster changed my seats : r/Concerts",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "does ticketmaster do upgrades for free at the last minute in the box office if a concert is not sold out on the day of the show?",
-      "url": "https://www.reddit.com/r/Concerts/comments/1rd0yoh/ticketmaster_changed_my_seats/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-24T01:34:26"
     },
     {
       "eventName": "If Ticketmaster is saying that the event is sold out at Petco Park in San Diego, why does it also sa",
@@ -87,6 +45,34 @@
       "published": "2026-02-28T17:51:39"
     },
     {
+      "eventName": "Trying to book Sistine Chapel tickets- What is the difference between \"sold out\" and \"out of stock\"?",
+      "category": "other",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "How many are you trying to buy? If I remember correctly, &quot;out of stock&quot; means &quot;we have fewer tickets than you want but more than zero&quot; while <strong>&quot;sold out&quot; means &quo",
+      "url": "https://www.reddit.com/r/rome/comments/1ribd3x/trying_to_book_sistine_chapel_tickets_what_is_the/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-03-01T22:34:51"
+    },
+    {
+      "eventName": "Ticketmaster changed my seats : r/Concerts",
+      "category": "other",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "does ticketmaster do upgrades for free at the last minute in the box office if a concert is not sold out on the day of the show?",
+      "url": "https://www.reddit.com/r/Concerts/comments/1rd0yoh/ticketmaster_changed_my_seats/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-02-24T01:34:26"
+    },
+    {
       "eventName": "Chicago Concert sold out!",
       "category": "other",
       "score": 6,
@@ -99,20 +85,6 @@
       "source": "reddit",
       "matchedArtist": null,
       "published": "2026-02-24T21:37:12"
-    },
-    {
-      "eventName": "Tickets are available to select shows",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "It’s only companions seats but you can only buy them with the an accessible seat which are sold out.",
-      "url": "https://www.reddit.com/r/NoahKahan/comments/1rcrt4m/tickets_are_available_to_select_shows/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-23T19:49:20"
     },
     {
       "eventName": "Heartbroken - Our showing was cancelled",
@@ -141,6 +113,20 @@
       "source": "reddit",
       "matchedArtist": null,
       "published": "2026-02-28T17:53:51"
+    },
+    {
+      "eventName": "$206 each for tickets? Actually feels exploitative to the point that Jesse should write a song about",
+      "category": "other",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "Ticketmaster listed the Knoxville venue sold out almost immediately, but seemed to list new rounds of tickets several times throughout the day. For as much as 24 hours, some smaller cities up to 48, p",
+      "url": "https://www.reddit.com/r/JesseWelles/comments/1re6tly/206_each_for_tickets_actually_feels_exploitative/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-02-25T16:44:59"
     },
     {
       "eventName": "[ Removed by moderator ]",
@@ -198,26 +184,13 @@
       "published": "2026-02-26T00:00:00"
     },
     {
-      "eventName": "Review: Cardi B brought the 'Cardi Party' to Seattle for a sold-out show",
-      "category": "electronic",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "More than 17,000 eager fans gathered on Sunday for the ultimate Funday, when <strong>Cardi B</strong> brought her &quot;Cardi Party&quot; (DJ Ray G called it that, and it just stuck with me) to Seattl",
-      "url": "https://seattlerefined.com/lifestyle/cardi-b-seattle-tour-review-little-miss-drama-climate-pledge-arena-rap-pop-music",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-23T22:11:32"
-    },
-    {
       "eventName": "syracuse.com",
       "category": "other",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "How to secure <strong>Osheaga Festival 2026</strong> tickets before they sell out ... Madison Kemeny is a Commerce Reporter for syracuse.com | The Post-Standard, covering all things streaming and live",
+      "text": "Special guest Carter Faith will open most dates. Last year’s edition of the tour sold out major stadiums nationwide, so high demand is expected again.",
       "url": "https://www.syracuse.com/live-entertainment/2026/02/how-to-get-tickets-to-jelly-rolls-nearly-sold-out-syracuse-concert.html",
       "source": "web",
       "matchedArtist": null,
@@ -235,19 +208,6 @@
       "source": "web",
       "matchedArtist": null,
       "published": "2026-02-27T17:53:54"
-    },
-    {
-      "eventName": "YouTube",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "Fast weg. ⚠️<strong>Der Winter Deal ist bereits 93 % ausverkauft</strong>.Camping Packages und 1 Day Tickets gehen in die finale Runde.Letzte Chance auf den Winter Deal Preis...",
-      "url": "https://www.youtube.com/shorts/-JvpwygJPJk",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-23T16:00:00"
     },
     {
       "eventName": "Dallas-Fort Worth's Best Concerts of March 2026",
@@ -289,17 +249,17 @@
       "published": "2026-02-27T16:17:50"
     },
     {
-      "eventName": "March Comedy Festivals in Chicago 2026 2026",
+      "eventName": "Milwaukee Record Recommended Events: March 2-8, 2026 | Milwaukee Record",
       "category": "comedy",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "Analogy: Like a comedy buffet where you sample everything. <strong>Tickets start at $25</strong>; snag ’em via Second City’s official site. Past fests sold out in days; 2026’s “Riot Against Routine” t",
-      "url": "https://successknocks.com/march-comedy-festivals-in-chicago-2026/",
+      "text": "After a DJ set, host/emcee Steve Gillespie will lead a can’t-miss stand up show at The Cooperage that features a varied blend of comedy talents and other entertainers. Milwaukee’s own Canni Hemp Co. w",
+      "url": "https://milwaukeerecord.com/music/milwaukee-record-recommended-events-march-2-8-2026/",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-23T06:56:12"
+      "published": "2026-03-02T17:50:05"
     },
     {
       "eventName": "February 2026 - Minnesota Horse & Hunt Club",
@@ -355,6 +315,19 @@
       "published": "2026-02-25T23:17:33"
     },
     {
+      "eventName": "More venues, bigger venues and selling fast: Chamber music festival’s growing appeal",
+      "category": "other",
+      "score": 4,
+      "signals": [
+        "selling fast"
+      ],
+      "text": "More venues, bigger venues and selling fast: Chamber music festival’s growing appeal",
+      "url": "https://www.orangecitylife.com.au/news/more-venues-bigger-venues-and-selling-fast-chamber-music-festivals-growing-appeal-hte0m7cl",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-01T13:01:00"
+    },
+    {
       "eventName": "I Got Jeremy’s Tic Tacs",
       "category": "other",
       "score": 4,
@@ -367,19 +340,6 @@
       "source": "reddit",
       "matchedArtist": "matt rife",
       "published": "2026-02-24T20:58:54"
-    },
-    {
-      "eventName": "More venues, bigger venues and selling fast: Chamber music festival’s growing appeal",
-      "category": "other",
-      "score": 4,
-      "signals": [
-        "selling fast"
-      ],
-      "text": "More venues, bigger venues and selling fast: Chamber music festival’s growing appeal",
-      "url": "https://www.orangecitylife.com.au/news/more-venues-bigger-venues-and-selling-fast-chamber-music-festivals-growing-appeal-hte0m7cl",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-01T13:01:00"
     }
   ]
 }

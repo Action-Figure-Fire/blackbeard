@@ -6,80 +6,108 @@
 <title>🏴‍☠️ Blackbeard — Ticket Intelligence Report</title>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
-body { background:#0a0a0f; color:#e8e6e3; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; line-height:1.5; }
-.container { max-width:900px; margin:0 auto; padding:12px; }
-header { text-align:center; padding:24px 0 16px; border-bottom:2px solid #d4a017; margin-bottom:20px; }
-header h1 { font-size:2rem; color:#d4a017; letter-spacing:1px; }
-header .subtitle { color:#999; font-size:0.9rem; margin-top:4px; }
-header .updated { color:#666; font-size:0.8rem; margin-top:8px; }
+body { background:#0a0a0f; color:#e8e6e3; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; line-height:1.6; }
+.container { max-width:920px; margin:0 auto; padding:14px; }
+header { text-align:center; padding:28px 0 18px; border-bottom:2px solid #d4a017; margin-bottom:24px; }
+header h1 { font-size:2.2rem; color:#d4a017; letter-spacing:1px; }
+header .subtitle { color:#aaa; font-size:0.95rem; margin-top:4px; }
+header .updated { color:#666; font-size:0.8rem; margin-top:10px; }
+header .disclaimer { color:#555; font-size:0.7rem; margin-top:6px; font-style:italic; }
+
+/* Tabs */
+.tab-bar { display:flex; gap:4px; margin-bottom:20px; overflow-x:auto; -webkit-overflow-scrolling:touch; border-bottom:1px solid #222; padding-bottom:4px; }
+.tab-bar button { background:transparent; border:1px solid transparent; border-radius:6px 6px 0 0; padding:8px 14px; color:#777; font-size:0.8rem; font-weight:600; cursor:pointer; white-space:nowrap; font-family:inherit; }
+.tab-bar button.active { background:#14141f; border-color:#333; border-bottom-color:#14141f; color:#d4a017; }
+.tab-bar button:hover { color:#fff; }
+.tab-content { display:none; }
+.tab-content.active { display:block; }
 
 /* Section headers */
-.section-header { display:flex; align-items:center; gap:10px; margin:28px 0 14px; padding-bottom:8px; border-bottom:1px solid #333; }
-.section-header h2 { font-size:1.3rem; color:#d4a017; }
-.section-header .count { background:#d4a017; color:#0a0a0f; font-size:0.75rem; font-weight:700; padding:2px 8px; border-radius:10px; }
+.section-header { display:flex; align-items:center; gap:10px; margin:24px 0 14px; padding-bottom:8px; border-bottom:1px solid #333; }
+.section-header h2 { font-size:1.2rem; color:#d4a017; }
+.section-header .count { background:#d4a017; color:#0a0a0f; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:10px; }
 
 /* Event cards */
-.card { background:#14141f; border:1px solid #222; border-radius:10px; padding:16px; margin-bottom:14px; position:relative; overflow:hidden; }
+.card { background:#14141f; border:1px solid #222; border-radius:10px; padding:16px; margin-bottom:14px; position:relative; cursor:pointer; transition:border-color 0.2s; }
+.card:hover { border-color:#444; }
 .card.tier-s { border-left:4px solid #ff2d2d; }
 .card.tier-a { border-left:4px solid #d4a017; }
 .card.tier-b { border-left:4px solid #4a9eff; }
-.card.tier-c { border-left:4px solid #666; }
 
 .card-top { display:flex; justify-content:space-between; align-items:flex-start; gap:8px; flex-wrap:wrap; }
-.card-title { font-size:1.1rem; font-weight:700; color:#fff; }
-.card-badges { display:flex; gap:6px; flex-wrap:wrap; }
-.badge { font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:4px; white-space:nowrap; }
-.badge-tier-s { background:#ff2d2d; color:#fff; }
-.badge-tier-a { background:#d4a017; color:#0a0a0f; }
-.badge-tier-b { background:#4a9eff; color:#fff; }
-.badge-sold-out { background:#ff2d2d; color:#fff; }
-.badge-hot { background:#ff6b35; color:#fff; }
-.badge-venue-upgrade { background:#9b59b6; color:#fff; }
-.badge-added-dates { background:#27ae60; color:#fff; }
-.badge-category { background:#333; color:#ccc; }
+.card-title { font-size:1.05rem; font-weight:700; color:#fff; }
+.card-badges { display:flex; gap:5px; flex-wrap:wrap; }
+.badge { font-size:0.65rem; font-weight:700; padding:2px 7px; border-radius:4px; white-space:nowrap; }
+.badge-s { background:#ff2d2d; color:#fff; }
+.badge-a { background:#d4a017; color:#0a0a0f; }
+.badge-b { background:#4a9eff; color:#fff; }
+.badge-sold-out { background:rgba(255,45,45,0.15); color:#ff6b6b; border:1px solid rgba(255,45,45,0.3); }
+.badge-demand { background:rgba(255,107,53,0.15); color:#ff9a5c; border:1px solid rgba(255,107,53,0.3); }
+.badge-upgrade { background:rgba(155,89,182,0.15); color:#bb8fce; border:1px solid rgba(155,89,182,0.3); }
+.badge-added { background:rgba(39,174,96,0.15); color:#5dca88; border:1px solid rgba(39,174,96,0.3); }
+.badge-cat { background:#222; color:#999; }
 
-.card-meta { margin-top:8px; font-size:0.85rem; color:#999; }
-.card-meta span { margin-right:14px; }
+.card-meta { margin-top:8px; font-size:0.82rem; color:#888; }
+.card-meta .venue { color:#aaa; }
+.card-meta .date { color:#d4a017; }
 
-.card-price { margin-top:10px; display:flex; gap:16px; flex-wrap:wrap; }
-.price-box { background:#1a1a2e; padding:8px 12px; border-radius:6px; text-align:center; min-width:80px; }
-.price-box .label { font-size:0.65rem; color:#888; text-transform:uppercase; letter-spacing:1px; }
-.price-box .value { font-size:1.1rem; font-weight:700; color:#d4a017; }
-.price-box .value.high { color:#ff2d2d; }
+/* Data grid */
+.data-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(120px, 1fr)); gap:8px; margin-top:10px; }
+.data-cell { background:#1a1a2e; padding:8px 10px; border-radius:6px; }
+.data-cell .label { font-size:0.6rem; color:#666; text-transform:uppercase; letter-spacing:1px; }
+.data-cell .value { font-size:1rem; font-weight:700; color:#d4a017; margin-top:2px; }
+.data-cell .value.hot { color:#ff2d2d; }
+.data-cell .source { font-size:0.55rem; color:#555; margin-top:2px; }
 
-.card-insight { margin-top:10px; font-size:0.85rem; color:#ccc; background:#111; padding:10px 12px; border-radius:6px; border-left:3px solid #d4a017; }
+/* Trends bar */
+.trend-bar { margin-top:10px; display:flex; align-items:center; gap:10px; padding:8px 12px; background:#111; border-radius:6px; }
+.trend-bar .trend-label { font-size:0.7rem; color:#888; text-transform:uppercase; letter-spacing:1px; }
+.trend-bar .trend-score { font-size:0.85rem; font-weight:700; }
+.trend-bar .trend-score.high { color:#ff2d2d; }
+.trend-bar .trend-score.rising { color:#ff9500; }
+.trend-bar .trend-score.moderate { color:#4a9eff; }
+.trend-bar .trend-score.low { color:#666; }
+.trend-bar .trend-signals { font-size:0.75rem; color:#999; flex:1; }
+.trend-fill { height:4px; border-radius:2px; background:#1a1a2e; flex:1; max-width:120px; overflow:hidden; }
+.trend-fill-inner { height:100%; border-radius:2px; }
 
-.card-action { margin-top:10px; font-size:0.85rem; }
-.card-action strong { color:#d4a017; }
-.card-action ul { margin-left:18px; margin-top:4px; }
-.card-action li { color:#aaa; margin-bottom:2px; }
+/* Insight box */
+.insight { margin-top:10px; font-size:0.82rem; color:#bbb; background:#0d0d18; padding:10px 12px; border-radius:6px; border-left:3px solid #d4a017; }
+.insight .source-cite { color:#555; font-size:0.7rem; font-style:italic; margin-top:4px; }
 
-.card-links { margin-top:10px; display:flex; gap:10px; flex-wrap:wrap; }
-.card-links a { font-size:0.8rem; color:#4a9eff; text-decoration:none; padding:4px 10px; border:1px solid #4a9eff; border-radius:4px; }
+/* Action box */
+.action-box { margin-top:10px; padding:10px 12px; background:rgba(212,160,23,0.06); border:1px solid rgba(212,160,23,0.15); border-radius:6px; }
+.action-box .action-label { font-size:0.65rem; color:#d4a017; text-transform:uppercase; letter-spacing:1.5px; font-weight:700; margin-bottom:4px; }
+.action-box ul { margin-left:16px; }
+.action-box li { font-size:0.82rem; color:#aaa; margin-bottom:3px; }
+
+/* Links */
+.card-links { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
+.card-links a { font-size:0.75rem; color:#4a9eff; text-decoration:none; padding:4px 10px; border:1px solid rgba(74,158,255,0.3); border-radius:4px; transition:all 0.2s; }
 .card-links a:hover { background:#4a9eff; color:#fff; }
 
-/* Score bar */
-.score-bar { margin-top:10px; }
-.score-bar .bar-bg { background:#1a1a2e; height:6px; border-radius:3px; overflow:hidden; }
-.score-bar .bar-fill { height:100%; border-radius:3px; }
-.score-bar .bar-label { font-size:0.7rem; color:#888; margin-top:2px; }
+/* Expandable detail */
+.card-detail { display:none; margin-top:12px; padding-top:12px; border-top:1px solid #222; }
+.card.expanded .card-detail { display:block; }
 
-/* Key Insight banner */
-.key-insight { background:linear-gradient(135deg,#1a1a2e,#0d1117); border:1px solid #d4a017; border-radius:10px; padding:16px; margin-bottom:20px; }
-.key-insight h3 { color:#d4a017; font-size:1rem; margin-bottom:6px; }
-.key-insight p { color:#ccc; font-size:0.9rem; }
-.key-insight .stat { font-size:1.4rem; font-weight:700; color:#ff2d2d; }
+/* Key stat banner */
+.stat-banner { background:linear-gradient(135deg,#14141f,#0d0d18); border:1px solid #d4a017; border-radius:10px; padding:16px; margin-bottom:18px; display:flex; gap:16px; flex-wrap:wrap; align-items:center; }
+.stat-banner .stat-item { text-align:center; flex:1; min-width:100px; }
+.stat-banner .stat-number { font-size:1.5rem; font-weight:700; color:#d4a017; }
+.stat-banner .stat-label { font-size:0.65rem; color:#888; text-transform:uppercase; letter-spacing:1px; }
 
 /* Footer */
-footer { text-align:center; padding:20px 0; color:#555; font-size:0.75rem; border-top:1px solid #222; margin-top:30px; }
+footer { text-align:center; padding:24px 0; color:#555; font-size:0.7rem; border-top:1px solid #1a1a1a; margin-top:30px; }
+footer a { color:#4a9eff; }
 
 /* Mobile */
 @media(max-width:600px) {
-  header h1 { font-size:1.4rem; }
+  header h1 { font-size:1.5rem; }
   .card { padding:12px; }
-  .card-title { font-size:1rem; }
-  .price-box { min-width:60px; padding:6px 8px; }
-  .price-box .value { font-size:0.95rem; }
+  .card-title { font-size:0.95rem; }
+  .data-grid { grid-template-columns:repeat(2, 1fr); }
+  .stat-banner { flex-direction:column; gap:10px; }
+  .tab-bar button { padding:6px 10px; font-size:0.7rem; }
 }
 </style>
 </head>
@@ -88,832 +116,762 @@ footer { text-align:center; padding:20px 0; color:#555; font-size:0.75rem; borde
 
 <header>
   <h1>🏴‍☠️ BLACKBEARD</h1>
-  <div class="subtitle">Ticket Intelligence Report — Sold-Out & Scarcity Scanner</div>
-  <div class="updated">Updated: March 2, 2026 • Data: SeatGeek, Vivid Seats, StubHub, Gametime, Reddit, X, Brave</div>
+  <div class="subtitle">Ticket Intelligence Report — Demand Signals & Scarcity Analysis</div>
+  <div class="updated">Report Date: March 3, 2026 • Sources: SeatGeek API, Vivid Seats, StubHub, Gametime, Google Trends, Reddit, X/Twitter, Brave Search, Pollstar, Billboard</div>
+  <div class="disclaimer">Demand scores reflect observed data signals, not guaranteed outcomes. Pricing data from cited snapshots; resale prices fluctuate. Always verify before purchasing.</div>
 </header>
 
-<!-- KEY INSIGHT -->
-<div class="key-insight">
-  <h3>🔥 KEY INSIGHT — College Baseball > MLB</h3>
-  <p>LSU at Vanderbilt (Mar 14) get-in price: <span class="stat">$382</span> — that's 44% higher than Dodgers Opening Day ($265). Season tickets at Hawkins Field (3,802 cap) are sold out. SEC matchups at Vandy are the single hottest ticket in all of baseball right now. Tennessee @ Vandy get-in: $285. Arkansas vs Ole Miss median: $685.</p>
+<!-- SUMMARY STATS -->
+<div class="stat-banner">
+  <div class="stat-item"><div class="stat-number">18</div><div class="stat-label">Events Tracked</div></div>
+  <div class="stat-item"><div class="stat-number">5</div><div class="stat-label">High Demand</div></div>
+  <div class="stat-item"><div class="stat-number">76</div><div class="stat-label">Watchlist Artists</div></div>
+  <div class="stat-item"><div class="stat-number">4</div><div class="stat-label">Daily Scans</div></div>
 </div>
 
-<!-- ========================= -->
-<!-- 🔥 THIS WEEK — URGENT    -->
-<!-- ========================= -->
+<!-- TAB NAV -->
+<div class="tab-bar">
+  <button class="active" onclick="showTab('all')">ALL</button>
+  <button onclick="showTab('concerts')">🎵 CONCERTS (7)</button>
+  <button onclick="showTab('college')">🏟️ COLLEGE (5)</button>
+  <button onclick="showTab('spring')">⚾ SPRING TRAINING (3)</button>
+  <button onclick="showTab('comedy')">🎤 COMEDY (3)</button>
+  <button onclick="showTab('watchlist')">➕ WATCHLIST</button>
+</div>
+
+<!-- ====================================== -->
+<!-- ALL / CONCERTS TAB                     -->
+<!-- ====================================== -->
+<div id="tab-all" class="tab-content active">
+
 <div class="section-header">
-  <h2>🔥 THIS WEEK — Act Now</h2>
+  <h2>🔥 Highest Demand Signals</h2>
   <span class="count">5 events</span>
 </div>
 
-<!-- Big Ten Wrestling -->
-<div class="card tier-s">
+<!-- FREYA SKYE -->
+<div class="card tier-s" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
-    <div class="card-title">Big Ten Wrestling Championship — All Sessions</div>
+    <div class="card-title">Freya Skye — "Stars Align Tour"</div>
     <div class="card-badges">
-      <span class="badge badge-tier-s">S-TIER</span>
-      <span class="badge badge-sold-out">SOLD OUT (Primary)</span>
+      <span class="badge badge-s">S</span>
+      <span class="badge badge-sold-out">SOLD OUT (Feb/Mar dates)</span>
+      <span class="badge badge-upgrade">VENUE UPGRADES</span>
+      <span class="badge badge-added">+36 DATES</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📍 Bryce Jordan Center, University Park PA (16,006 cap)</span><br>
-    <span>📅 March 7-8, 2026</span>
-    <span>🏟️ Penn State hosts — #1 ranked, going for 5th straight NCAA title</span>
+    <span class="venue">📍 US: Santa Barbara Bowl (4,562) • Coca-Cola Roxy ATL (3,000) • Hartford Amphitheater</span><br>
+    <span class="date">📅 Sept–Oct 2026 (US leg) • SeatGeek Score: 0.61–0.63</span>
   </div>
-  <div class="card-price">
-    <div class="price-box"><div class="label">Get-In (Session)</div><div class="value">$14</div></div>
-    <div class="price-box"><div class="label">All-Sessions</div><div class="value">$40-108</div></div>
-    <div class="price-box"><div class="label">Finals Session</div><div class="value high">$43+</div></div>
-    <div class="price-box"><div class="label">Sellout Record</div><div class="value high">16,006</div></div>
+
+  <div class="trend-bar">
+    <span class="trend-label">Demand Score</span>
+    <span class="trend-score high">100/100</span>
+    <div class="trend-fill"><div class="trend-fill-inner" style="width:100%;background:linear-gradient(90deg,#ff2d2d,#ff6b35);"></div></div>
+    <span class="trend-signals">🎟️ 2 sold-out mentions • 📈 4 demand signals • 🚀 4 expansion signals</span>
   </div>
-  <div class="card-insight">
-    Penn State set the all-time attendance record (16,006) last year for a dual vs Iowa. Hosting Big Tens for the first time — expect massive demand for Session 3 (finals). All-sessions passes dropped from $108→$40 on secondary but finals session is climbing. This feeds directly into NCAA Championships in 2 weeks.
+
+  <div class="data-grid">
+    <div class="data-cell"><div class="label">Status</div><div class="value hot">Feb/Mar Sold Out</div><div class="source">Billboard, Feb 2026</div></div>
+    <div class="data-cell"><div class="label">Expansion</div><div class="value">+36 new dates</div><div class="source">Billboard exclusive</div></div>
+    <div class="data-cell"><div class="label">Venue Moves</div><div class="value">Sydney & Melbourne upgraded</div><div class="source">Frontier Touring, Feb 26</div></div>
+    <div class="data-cell"><div class="label">Key Metric</div><div class="value">"silent treatment" 40M+ streams</div><div class="source">Ticketmaster bio</div></div>
   </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>Buy Session 3 (finals) now — cheapest entry to watch PSU go for title #5</li>
-      <li>If Penn State wrestlers dominate, NCAA Cleveland tickets will spike</li>
-      <li>Compare: Vivid Seats $123 all-sessions vs StubHub $40 — arbitrage window</li>
-    </ul>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/big-ten-wrestling-championship-tickets/college-wrestling/2026-03-07-3-30-am/17725127" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/big-ten-wrestling-championship-tickets-bryce-jordan-center-3-7-2026--sports-amateur-wrestling/production/5771155" target="_blank">🎟️ Vivid Seats</a>
-    <a href="https://www.stubhub.com/big-ten-wrestling-championship-state-college-tickets-3-7-2026/event/160417224/" target="_blank">🎟️ StubHub</a>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> All February and March dates across North America and UK sold out, prompting 36 additional dates (Billboard exclusive, Feb 2026). Australian venues upgraded from Enmore Theatre → Hordern Pavilion (Sydney) and similar in Melbourne due to "overwhelming presale demand" (Frontier Touring, Feb 26). "silent treatment" climbing radio charts in US, UK, Canada, France, and Australia simultaneously. iHeart Radio designated her "On the Verge" artist. Demand pattern resembles early-stage breakout trajectory.
+      <div class="source-cite">Sources: Billboard (Feb 2026 exclusive), Frontier Touring press release (Feb 26), Ticketmaster artist page, BroadwayWorld (Feb 26)</div>
+    </div>
+    <div class="action-box">
+      <div class="action-label">Considerations</div>
+      <ul>
+        <li>US fall dates (Sept–Oct) recently went on sale — smaller venues (3K–4.5K cap) suggest elevated sell-out risk</li>
+        <li>Santa Barbara Bowl (4,562), Coca-Cola Roxy ATL (3,000), Hartford Amphitheater are the tightest-capacity dates</li>
+        <li>Radio chart trajectory across 5 countries is an unusual demand accelerant — continued radio growth could further compress supply</li>
+        <li>Risk: New artist with limited touring history; demand may plateau if radio momentum stalls</li>
+      </ul>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/search?q=Freya+Skye" target="_blank">🎟️ SeatGeek</a>
+      <a href="https://www.vividseats.com/search?searchTerm=Freya+Skye" target="_blank">🎟️ Vivid Seats</a>
+      <a href="https://www.billboard.com/music/pop/freya-skye-tour-dates-us-europe-australia-stars-align-1236181754/" target="_blank">📰 Billboard</a>
+    </div>
   </div>
 </div>
 
-<!-- Big 12 Wrestling -->
-<div class="card tier-a">
+<!-- TAME IMPALA -->
+<div class="card tier-s" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
-    <div class="card-title">Big 12 Wrestling Championship — All Sessions</div>
+    <div class="card-title">Tame Impala — "Deadbeat Tour" (w/ Djo, Dominic Fike)</div>
     <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-hot">HOT</span>
+      <span class="badge badge-s">S</span>
+      <span class="badge badge-sold-out">NEAR SELL-OUT</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📍 BOK Center, Tulsa OK (19,199 cap)</span><br>
-    <span>📅 March 5-7, 2026</span>
-    <span>🏟️ Iowa State, Oklahoma State, Missouri headline</span>
+    <span class="venue">📍 22 US arena dates • July–Sept 2026</span><br>
+    <span class="date">📅 Presale queues reported at 98,000+ (Reddit r/TameImpala)</span>
   </div>
-  <div class="card-price">
-    <div class="price-box"><div class="label">SeatGeek Score</div><div class="value">0.66</div></div>
+
+  <div class="trend-bar">
+    <span class="trend-label">Demand Score</span>
+    <span class="trend-score high">100/100</span>
+    <div class="trend-fill"><div class="trend-fill-inner" style="width:100%;background:linear-gradient(90deg,#ff2d2d,#ff6b35);"></div></div>
+    <span class="trend-signals">🎟️ 5 sold-out mentions • 📈 2 demand signals • 🚀 5 expansion signals</span>
   </div>
-  <div class="card-insight">
-    Big 12 wrestling has Iowa State (defending champs), Oklahoma State, and Missouri. Session 4 (finals) on March 7 is the money session. SeatGeek score of 0.66 is strong for college wrestling. Tulsa is a wrestling hotbed.
+
+  <div class="data-grid">
+    <div class="data-cell"><div class="label">Presale Queue</div><div class="value hot">98,000+</div><div class="source">r/TameImpala user reports</div></div>
+    <div class="data-cell"><div class="label">Tour Size</div><div class="value">22 dates (arenas)</div><div class="source">Official announcement</div></div>
+    <div class="data-cell"><div class="label">Openers</div><div class="value">Djo + Dominic Fike</div><div class="source">Deadbeat Tour lineup</div></div>
+    <div class="data-cell"><div class="label">Crossover Factor</div><div class="value">JENNIE (BLACKPINK) remix</div><div class="source">"Dracula" remix</div></div>
   </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=big+12+wrestling+championship" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=Big+12+Wrestling+Championship+Tulsa" target="_blank">🎟️ Vivid Seats</a>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> Reddit r/TameImpala users report 98,000+ person presale queues, with the Philly date selling out while fans were still in queue. Multiple users describe "almost all dates completely sold out." The "Dracula" remix featuring JENNIE from BLACKPINK introduces a K-pop crossover audience not typically in Tame Impala's demo. Both openers (Djo, Dominic Fike) have substantial independent fanbases. Masslive.com headline explicitly reads "sold out tour."
+      <div class="source-cite">Sources: Reddit r/TameImpala (multiple threads, Feb 2026), masslive.com (Feb 2026), Sporting News (Feb 2026)</div>
+    </div>
+    <div class="action-box">
+      <div class="action-label">Considerations</div>
+      <ul>
+        <li>Most dates reportedly sold out at face — resale is primary market now</li>
+        <li>Pipeline effect: Djo and Dominic Fike will likely announce headline tours post-run in smaller (2–5K) venues</li>
+        <li>Arena capacity (15–20K) provides more inventory than club shows, which may limit resale premiums vs. smaller events</li>
+        <li>K-pop crossover from JENNIE remix could drive atypical buyer demographics in LA, SF, NYC</li>
+      </ul>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/search?q=Tame+Impala" target="_blank">🎟️ SeatGeek</a>
+      <a href="https://www.vividseats.com/search?searchTerm=Tame+Impala" target="_blank">🎟️ Vivid Seats</a>
+    </div>
   </div>
 </div>
 
-<!-- Cat Power Brooklyn Steel / Webster Hall -->
-<div class="card tier-s">
+<!-- RUFUS DU SOL -->
+<div class="card tier-s" onclick="this.classList.toggle('expanded')">
+  <div class="card-top">
+    <div class="card-title">RÜFÜS DU SOL — 2026 North American Tour</div>
+    <div class="card-badges">
+      <span class="badge badge-s">S</span>
+      <span class="badge badge-sold-out">15/24 SOLD OUT</span>
+      <span class="badge badge-added">+7 SHOWS</span>
+    </div>
+  </div>
+  <div class="card-meta">
+    <span class="venue">📍 31 dates: Petco Park SD (SOLD OUT), Rogers Centre Toronto (SOLD OUT), Montreal (SOLD OUT) + more</span><br>
+    <span class="date">📅 Summer 2026</span>
+  </div>
+
+  <div class="trend-bar">
+    <span class="trend-label">Demand Score</span>
+    <span class="trend-score high">100/100</span>
+    <div class="trend-fill"><div class="trend-fill-inner" style="width:100%;background:linear-gradient(90deg,#ff2d2d,#ff6b35);"></div></div>
+    <span class="trend-signals">🎟️ 4 sold-out mentions • 📈 3 demand signals • 🚀 1 expansion signal</span>
+  </div>
+
+  <div class="data-grid">
+    <div class="data-cell"><div class="label">Sold Out</div><div class="value hot">15 of 24 original dates</div><div class="source">Pollstar, Feb 27</div></div>
+    <div class="data-cell"><div class="label">Added</div><div class="value">+7 shows (31 total)</div><div class="source">Pollstar, Feb 27</div></div>
+    <div class="data-cell"><div class="label">Key Sellouts</div><div class="value">SD, Toronto, Montreal</div><div class="source">Pollstar</div></div>
+    <div class="data-cell"><div class="label">Presale Behavior</div><div class="value">4K+ queue at Petco Park</div><div class="source">Reddit r/RUFUSDUSOL</div></div>
+  </div>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> Per Pollstar (Feb 27): 15 of 24 original dates sold out, prompting 7 additional shows. Extended stays in NYC and LA due to demand. Reddit users report Petco Park presale had 4,000+ person queue and "the seat selector was lagging so much that by the time I found tickets, presale sold out." Reddit also notes San Diego show selling out "makes no sense" compared to still-available Minneapolis and Boulder dates — geographic demand imbalance creates potential arbitrage.
+      <div class="source-cite">Sources: Pollstar (Feb 27, 2026), Reddit r/RUFUSDUSOL (multiple threads, Feb 2026)</div>
+    </div>
+    <div class="action-box">
+      <div class="action-label">Considerations</div>
+      <ul>
+        <li>Sold-out markets (SD, Toronto, Montreal) are now resale-only — secondary premium likely</li>
+        <li>Newly added dates may still have face-value inventory</li>
+        <li>Minneapolis and Boulder reported as having available inventory — potential lower-demand markets</li>
+        <li>Electronic music fans tend to prioritize floor/pit — floor tickets typically carry highest resale premium</li>
+      </ul>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/search?q=RUFUS+DU+SOL" target="_blank">🎟️ SeatGeek</a>
+      <a href="https://www.vividseats.com/search?searchTerm=RUFUS+DU+SOL" target="_blank">🎟️ Vivid Seats</a>
+      <a href="https://news.pollstar.com/2026/02/27/rufus-du-sol-sell-out-15-north-american-shows-extend-stays-in-new-york-la/" target="_blank">📰 Pollstar</a>
+    </div>
+  </div>
+</div>
+
+<!-- CAT POWER -->
+<div class="card tier-s" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
     <div class="card-title">Cat Power — "The Greatest" 20th Anniversary Tour</div>
     <div class="card-badges">
-      <span class="badge badge-tier-s">S-TIER</span>
-      <span class="badge badge-sold-out">3 SHOWS SOLD OUT</span>
-      <span class="badge badge-added-dates">ADDED SUMMER LEG</span>
+      <span class="badge badge-s">S</span>
+      <span class="badge badge-sold-out">3 VENUES SOLD OUT</span>
+      <span class="badge badge-added">SUMMER LEG ADDED</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📍 Brooklyn Steel (SOLD OUT) • Webster Hall (SOLD OUT) • Asheville Orange Peel (SOLD OUT)</span><br>
-    <span>📅 Mar 6 Brooklyn Steel | Mar 7 Webster Hall | Mar 13 Asheville</span>
-    <span>🎤 Chan Marshall + Dirty Delta Blues backing band</span>
+    <span class="venue">📍 Brooklyn Steel (1,800) SOLD OUT • Webster Hall (2,500) SOLD OUT • Orange Peel Asheville (950) SOLD OUT</span><br>
+    <span class="date">📅 Current: Feb–Mar 2026 • Summer leg: Jul–Aug 2026</span>
   </div>
-  <div class="card-insight">
-    Cat Power sold out Brooklyn Steel (1,800 cap), Webster Hall (2,500 cap), and Asheville's Orange Peel. Named "Most Anticipated Tour of 2026" by both Pitchfork and Consequence. Added an entire summer leg (July-August) with 15+ dates. The album tour (performing The Greatest front to back) creates scarcity — fans know it's a one-time run.
+
+  <div class="trend-bar">
+    <span class="trend-label">Demand Score</span>
+    <span class="trend-score high">100/100</span>
+    <div class="trend-fill"><div class="trend-fill-inner" style="width:100%;background:linear-gradient(90deg,#ff2d2d,#ff6b35);"></div></div>
+    <span class="trend-signals">🎟️ 4 sold-out mentions • 📈 1 demand signal • 🚀 3 expansion signals</span>
   </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>Resale for Brooklyn Steel and Webster Hall should command premium — check SeatGeek/StubHub now</li>
-      <li>Summer dates just announced — buy face value at unsold markets (Nashville Brooklyn Bowl, Tampa Ritz Ybor)</li>
-      <li>Orange Peel Asheville (950 cap) is tiny — highest resale potential per seat</li>
-    </ul>
+
+  <div class="data-grid">
+    <div class="data-cell"><div class="label">Sold-Out Venues</div><div class="value hot">Brooklyn Steel, Webster Hall, Orange Peel</div><div class="source">Vice, Consequence, antimusic.com</div></div>
+    <div class="data-cell"><div class="label">Tour Type</div><div class="value">Full album performance</div><div class="source">"The Greatest" front-to-back</div></div>
+    <div class="data-cell"><div class="label">Media Buzz</div><div class="value">"Most Anticipated Tour 2026"</div><div class="source">Pitchfork + Consequence</div></div>
+    <div class="data-cell"><div class="label">Smallest Venue</div><div class="value">Orange Peel: 950 cap</div><div class="source">Venue data</div></div>
   </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=cat+power" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=Cat+Power" target="_blank">🎟️ Vivid Seats</a>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> Sold out Brooklyn Steel (Mar 6), Webster Hall (Mar 7), and Asheville's Orange Peel (Mar 13). Named "Most Anticipated Tour of 2026" by both Pitchfork and Consequence of Sound. Added full summer leg (July–August, 15+ dates) including ZeyZey Miami, The Ritz Ybor Tampa, and Charleston Music Hall. Full-album anniversary format creates a unique scarcity factor — fans understand this is a limited-run concept, not a standard tour cycle. Paris Salle Pleyel (Oct 31) also sold out.
+      <div class="source-cite">Sources: Vice (Feb 2026), Consequence of Sound (Feb 2026), GratefulWeb (Feb 2026), JamBase (Feb 26), antimusic.com (Feb 25)</div>
+    </div>
+    <div class="action-box">
+      <div class="action-label">Considerations</div>
+      <ul>
+        <li>Resale for Brooklyn Steel and Webster Hall should reflect sold-out premium — verify current listings</li>
+        <li>Orange Peel (950 cap) is the smallest sold-out venue — highest per-seat scarcity</li>
+        <li>Summer dates (newly announced) may still have face-value inventory at less-known markets (Tampa, Charleston)</li>
+        <li>Album anniversary tours typically don't repeat — "one-time" framing elevates perceived value</li>
+      </ul>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/search?q=Cat+Power" target="_blank">🎟️ SeatGeek</a>
+      <a href="https://www.vividseats.com/search?searchTerm=Cat+Power" target="_blank">🎟️ Vivid Seats</a>
+    </div>
   </div>
 </div>
 
-<!-- Stavros at Radio City -->
-<div class="card tier-a">
+<!-- VANDERBILT BASEBALL -->
+<div class="card tier-s" onclick="this.classList.toggle('expanded')">
+  <div class="card-top">
+    <div class="card-title">LSU at Vanderbilt — SEC College Baseball</div>
+    <div class="card-badges">
+      <span class="badge badge-s">S</span>
+      <span class="badge badge-sold-out">SEASON TIX SOLD OUT</span>
+      <span class="badge badge-demand">ABOVE MLB PRICING</span>
+    </div>
+  </div>
+  <div class="card-meta">
+    <span class="venue">📍 Hawkins Field, Nashville TN (3,802 cap)</span><br>
+    <span class="date">📅 March 14, 2026 • LSU (defending national champions) vs Vanderbilt (#1 seed 2025)</span>
+  </div>
+
+  <div class="trend-bar">
+    <span class="trend-label">Demand Score</span>
+    <span class="trend-score rising">56/100</span>
+    <div class="trend-fill"><div class="trend-fill-inner" style="width:56%;background:linear-gradient(90deg,#ff9500,#ffbd4f);"></div></div>
+    <span class="trend-signals">🚀 3 expansion signals (SEC pricing anomaly)</span>
+  </div>
+
+  <div class="data-grid">
+    <div class="data-cell"><div class="label">Get-In Price</div><div class="value hot">$382</div><div class="source">Gametime, Feb 20 snapshot</div></div>
+    <div class="data-cell"><div class="label">Median Ticket</div><div class="value hot">$539.50</div><div class="source">Gametime, Feb 20 snapshot</div></div>
+    <div class="data-cell"><div class="label">vs Dodgers Opening Day</div><div class="value">+44% ($265 get-in)</div><div class="source">Gametime comparison</div></div>
+    <div class="data-cell"><div class="label">Venue Capacity</div><div class="value hot">3,802</div><div class="source">vucommodores.com</div></div>
+    <div class="data-cell"><div class="label">Season Tickets</div><div class="value hot">Sold Out</div><div class="source">Vandy ticket office</div></div>
+    <div class="data-cell"><div class="label">Avg Capacity Filled (2025)</div><div class="value">97%+</div><div class="source">vucommodores.com</div></div>
+  </div>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> Per Gametime marketplace data (Feb 20 snapshot): LSU at Vanderbilt get-in is $382, which is $117 (44%) above the priciest MLB regular-season get-in (Dodgers Opening Day, $265). Median ticket: $539.50 vs $495 for Dodgers opener. This is 21x the median college baseball get-in ($18) and 13x the median MLB get-in ($30). All 8 college baseball games over $100 get-in are SEC matchups; 6 of 8 are at Vanderbilt. Hawkins Field capacity (3,802) combined with sold-out season tickets creates severe supply constraint. SEC baseball has led national attendance for 27 consecutive years.
+      <div class="source-cite">Sources: Gametime.co analysis (Feb 20, 2026 snapshot by Rikki Bleiweiss), vucommodores.com (capacity and season ticket data), SEC record book</div>
+    </div>
+    <div class="action-box">
+      <div class="action-label">Considerations</div>
+      <ul>
+        <li>Other Vandy SEC weekends show similar pricing: Tennessee ($285 get-in), Arkansas vs Ole Miss ($154 get-in / $685 median)</li>
+        <li>Non-conference Vandy games start at $20 face — extreme disparity with SEC weekends</li>
+        <li>3,802 capacity creates a hard supply ceiling that no amount of demand can expand</li>
+        <li>Risk: Single-game pricing is point-in-time; may fluctuate as game approaches</li>
+        <li>Comparable: SEC baseball at other small parks (e.g., Ole Miss Swayze Field 11,477) show similar but less extreme patterns</li>
+      </ul>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/search?q=Vanderbilt+Baseball" target="_blank">🎟️ SeatGeek</a>
+      <a href="https://www.vividseats.com/search?searchTerm=Vanderbilt+Baseball" target="_blank">🎟️ Vivid Seats</a>
+      <a href="https://gametime.co/tigers-commodores-tickets/performers/cbslsu/cbsvan" target="_blank">📊 Gametime</a>
+      <a href="https://gametime.co/blog/lsu-at-vanderbilt-is-pricier-than-any-mlb-regular-season-game-right-now/" target="_blank">📰 Gametime Analysis</a>
+    </div>
+  </div>
+</div>
+
+<!-- ====================================== -->
+<!-- CONCERTS TAB CONTENT                   -->
+<!-- ====================================== -->
+<div class="section-header">
+  <h2>🎵 Concert & Music Events</h2>
+  <span class="count">7 events</span>
+</div>
+
+<!-- Waxahatchee + MJ Lenderman -->
+<div class="card tier-a" onclick="this.classList.toggle('expanded')">
+  <div class="card-top">
+    <div class="card-title">Waxahatchee & MJ Lenderman — Co-Headline Tour</div>
+    <div class="card-badges">
+      <span class="badge badge-a">A</span>
+      <span class="badge badge-demand">CRITICAL ACCLAIM</span>
+    </div>
+  </div>
+  <div class="card-meta">
+    <span class="venue">📍 18 cities: Beacon Theatre NYC (2,895) • Massey Hall Toronto • Symphony Hall Atlanta</span><br>
+    <span class="date">📅 April 13 — May 2026</span>
+  </div>
+
+  <div class="trend-bar">
+    <span class="trend-label">Demand Score</span>
+    <span class="trend-score moderate">60/100 (MJ Lenderman)</span>
+    <div class="trend-fill"><div class="trend-fill-inner" style="width:60%;background:linear-gradient(90deg,#4a9eff,#6bb5ff);"></div></div>
+    <span class="trend-signals">🎟️ 2 sold-out mentions • 📈 1 demand signal</span>
+  </div>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> Both artists are at peak critical acclaim. Waxahatchee previously declined offers for larger venues to stay at 2,500-cap theaters (per Wikipedia / interviews), creating deliberate supply constraint. MJ Lenderman scored 2 sold-out mentions in trend analysis. Beacon Theatre NYC (2,895 cap) is the prestige date. Tour supports food and housing access nonprofits, which adds a social-good angle that may drive fan loyalty purchasing.
+      <div class="source-cite">Sources: That Eric Alper (Feb 7 announcement), Wikipedia (Waxahatchee entry), JamBase, Colorado Sound</div>
+    </div>
+    <div class="action-box">
+      <div class="action-label">Considerations</div>
+      <ul>
+        <li>Beacon Theatre NYC is the highest-profile date — elevated sell-out risk given 2,895 cap</li>
+        <li>Deliberate venue downsizing signals potential for demand exceeding supply</li>
+        <li>Indie/Americana audience typically has higher income demographic — may support elevated resale prices</li>
+        <li>Risk: Niche audience; demand may not extend far beyond core fanbase</li>
+      </ul>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/search?q=Waxahatchee" target="_blank">🎟️ SeatGeek</a>
+      <a href="https://seatgeek.com/search?q=MJ+Lenderman" target="_blank">🎟️ MJ Lenderman</a>
+    </div>
+  </div>
+</div>
+
+<!-- The Hotelier -->
+<div class="card tier-b" onclick="this.classList.toggle('expanded')">
+  <div class="card-top">
+    <div class="card-title">The Hotelier — "Goodness" Full Album Tour</div>
+    <div class="card-badges">
+      <span class="badge badge-b">B</span>
+      <span class="badge badge-added">ADDED 2ND NYC SHOW</span>
+    </div>
+  </div>
+  <div class="card-meta">
+    <span class="venue">📍 Bowery Ballroom NYC (575 cap) × 2 nights • Lincoln Hall Chicago (~500) • Lodge Room LA (~500)</span><br>
+    <span class="date">📅 June 25-26 NYC • June 18 Chicago • July 31 LA</span>
+  </div>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> Added a second Bowery Ballroom show due to demand — a clear signal at 575-cap venue. BrooklynVegan ran a presale (Feb 2026). "Goodness" listed in BV's "50 Best Punk & Emo Albums of 2015–2019." Night 1 billed as "Goodness in Full" (album playthrough), Night 2 as "Miscellaneous Set." All venues are sub-600 cap.
+      <div class="source-cite">Sources: BrooklynVegan (Feb 25 & 27, 2026), venue capacity data</div>
+    </div>
+    <div class="action-box">
+      <div class="action-label">Considerations</div>
+      <ul>
+        <li>575-cap venue with second show added = strong demand signal relative to supply</li>
+        <li>Album anniversary/nostalgia tours at tiny venues typically yield high percentage markups</li>
+        <li>Risk: Niche emo/indie audience; total addressable market is smaller than mainstream acts</li>
+      </ul>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/search?q=The+Hotelier" target="_blank">🎟️ SeatGeek</a>
+    </div>
+  </div>
+</div>
+
+<!-- Stavros -->
+<div class="card tier-a" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
     <div class="card-title">Stavros Halkias — "The Dreamboat Tour" at Radio City Music Hall</div>
     <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-hot">RADIO CITY</span>
+      <span class="badge badge-a">A</span>
+      <span class="badge badge-demand">UNDERPRICED FACE</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📍 Radio City Music Hall, NYC (6,015 cap)</span><br>
-    <span>📅 March 28, 2026</span>
-    <span>🎤 SeatGeek score: 0.57 | Face: $39-$60</span>
+    <span class="venue">📍 Radio City Music Hall, NYC (6,015 cap)</span><br>
+    <span class="date">📅 March 28, 2026 • SeatGeek Score: 0.57 • Face: $39–$60</span>
   </div>
-  <div class="card-price">
-    <div class="price-box"><div class="label">Face Value</div><div class="value">$39-60</div></div>
-    <div class="price-box"><div class="label">SeatGeek Score</div><div class="value">0.57</div></div>
-    <div class="price-box"><div class="label">Venue Cap</div><div class="value">6,015</div></div>
-  </div>
-  <div class="card-insight">
-    Stavros went from podcast comedian to Radio City Music Hall headliner. NYT listed him as a top March comedy pick. Netflix special + A24 movie "Bugonia" role. The Dreamboat Tour face values are insanely cheap ($39-60) for a 6K venue — if this sells out, resale will 3-5x easily. Compare: Matt Rife and Shane Gillis get $100+ face at similar venues.
-  </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>Buy face value now at $39-60 — insane value for Radio City</li>
-      <li>Watch smaller market dates (Rockford IL, Baltimore Lyric) for easy sell-outs</li>
-      <li>If Netflix drops another special pre-March 28, prices explode</li>
-    </ul>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=Stavros+Halkias" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=Stavros+Halkias" target="_blank">🎟️ Vivid Seats</a>
-  </div>
-</div>
 
-<!-- Maggie Lindemann -->
-<div class="card tier-b">
-  <div class="card-top">
-    <div class="card-title">Maggie Lindemann — Tour 2026</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-b">B-TIER</span>
-      <span class="badge badge-category">ALT-POP</span>
+  <div class="trend-bar">
+    <span class="trend-label">Demand Score</span>
+    <span class="trend-score rising">54/100</span>
+    <div class="trend-fill"><div class="trend-fill-inner" style="width:54%;background:linear-gradient(90deg,#ff9500,#ffbd4f);"></div></div>
+    <span class="trend-signals">📈 1 demand signal • 🚀 2 expansion signals</span>
+  </div>
+
+  <div class="data-grid">
+    <div class="data-cell"><div class="label">Face Value</div><div class="value">$39–$60</div><div class="source">Little Village Mag</div></div>
+    <div class="data-cell"><div class="label">Venue Cap</div><div class="value">6,015</div><div class="source">Radio City</div></div>
+    <div class="data-cell"><div class="label">SeatGeek Score</div><div class="value">0.57</div><div class="source">SeatGeek API</div></div>
+    <div class="data-cell"><div class="label">Comparable Face</div><div class="value">Matt Rife/Shane Gillis: $80–$150+</div><div class="source">Market comparison</div></div>
+  </div>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> NYT listed Stavros as a top March comedy pick. Netflix special + A24 movie "Bugonia" role have elevated his profile. Face values ($39–$60) are significantly below comparable comedians at similar venues (Matt Rife, Shane Gillis typically $80–$150+ at theaters/arenas). The gap between face value and market positioning suggests potential for resale premium if show sells out. Also touring extensively — smaller market dates (Rockford IL, Baltimore Lyric, Marietta OH) at smaller venues may sell out with less attention.
+      <div class="source-cite">Sources: NYT "27 Things to Do in NYC March 2026," Little Village Mag (pricing), SeedSing review (Feb 23), SeatGeek API</div>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/search?q=Stavros+Halkias" target="_blank">🎟️ SeatGeek</a>
+      <a href="https://www.vividseats.com/search?searchTerm=Stavros+Halkias" target="_blank">🎟️ Vivid Seats</a>
     </div>
   </div>
-  <div class="card-meta">
-    <span>📍 Webster Hall NYC (2,500 cap) | Newport Music Hall Columbus</span><br>
-    <span>📅 Mar 3 NYC | Mar 8 Columbus</span>
-  </div>
-  <div class="card-insight">
-    Alt-pop artist playing 1,000-2,500 cap venues. SeatGeek score 0.47 for Columbus, 0.40 for NYC. Playing Webster Hall (where Cat Power sold out) — watch for late sell-out potential. Strong Gen Z following.
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=Maggie+Lindemann" target="_blank">🎟️ SeatGeek</a>
-  </div>
 </div>
 
-<!-- ========================= -->
-<!-- 🏟️ COLLEGE SPORTS         -->
-<!-- ========================= -->
+<!-- ====================================== -->
+<!-- COLLEGE SPORTS                         -->
+<!-- ====================================== -->
 <div class="section-header">
-  <h2>🏟️ COLLEGE SPORTS — Hottest Tickets</h2>
-  <span class="count">5 events</span>
+  <h2>🏟️ College Sports</h2>
+  <span class="count">4 events</span>
 </div>
 
-<!-- Vandy vs LSU Baseball -->
-<div class="card tier-s">
+<!-- Big Ten Wrestling -->
+<div class="card tier-a" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
-    <div class="card-title">LSU at Vanderbilt — College Baseball</div>
+    <div class="card-title">Big Ten Wrestling Championship — Penn State hosts</div>
     <div class="card-badges">
-      <span class="badge badge-tier-s">S-TIER</span>
-      <span class="badge badge-sold-out">SEASON TIX SOLD OUT</span>
+      <span class="badge badge-a">A</span>
+      <span class="badge badge-sold-out">PRIMARY SOLD OUT</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📍 Hawkins Field, Nashville TN (3,802 cap)</span><br>
-    <span>📅 March 14, 2026</span>
-    <span>⚾ LSU (defending national champs) vs Vanderbilt (#1 seed 2025 NCAA tourney)</span>
+    <span class="venue">📍 Bryce Jordan Center, University Park PA (16,006 cap)</span><br>
+    <span class="date">📅 March 7-8, 2026 • #1 Penn State — going for 5th consecutive NCAA title</span>
   </div>
-  <div class="card-price">
-    <div class="price-box"><div class="label">Get-In</div><div class="value high">$382</div></div>
-    <div class="price-box"><div class="label">Median</div><div class="value high">$539</div></div>
-    <div class="price-box"><div class="label">vs Dodgers Opening</div><div class="value">$265</div></div>
-    <div class="price-box"><div class="label">Venue Cap</div><div class="value high">3,802</div></div>
-  </div>
-  <div class="card-insight">
-    Per Gametime data (Feb 20): LSU-Vandy get-in is $382 — 44% more than Dodgers Opening Day and 21x the median college baseball get-in ($18). Season tickets SOLD OUT. All 8 college baseball games over $100 get-in are SEC matchups, and 6 of 8 are at Vanderbilt. The 3,802 cap at Hawkins Field creates brutal scarcity. SEC baseball has led national attendance 27 straight years.
-  </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>This is THE hottest single ticket in baseball, college or pro. Period.</li>
-      <li>Other Vandy SEC weekends: Tennessee ($285 get-in), Arkansas ($154 get-in / $685 median)</li>
-      <li>Target SEC road games at other tiny college parks — similar scarcity, less attention</li>
-      <li>Non-conference Vandy games start at $20 face — buy and hold for weather delays/doubleheaders</li>
-    </ul>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=vanderbilt+commodores+baseball" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=Vanderbilt+Baseball" target="_blank">🎟️ Vivid Seats</a>
-    <a href="https://gametime.co/tigers-commodores-tickets/performers/cbslsu/cbsvan" target="_blank">📊 Gametime</a>
-  </div>
-</div>
 
-<!-- Tennessee @ Vanderbilt -->
-<div class="card tier-a">
-  <div class="card-top">
-    <div class="card-title">Tennessee at Vanderbilt — College Baseball</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-hot">$285 GET-IN</span>
+  <div class="data-grid">
+    <div class="data-cell"><div class="label">Session Tickets</div><div class="value">From $14</div><div class="source">Vivid Seats, Feb 24</div></div>
+    <div class="data-cell"><div class="label">All-Sessions</div><div class="value">$40–$123</div><div class="source">StubHub $40, Vivid $123</div></div>
+    <div class="data-cell"><div class="label">Attendance Record</div><div class="value hot">16,006 (BJC record)</div><div class="source">Penn State Athletics</div></div>
+    <div class="data-cell"><div class="label">SeatGeek Score</div><div class="value">0.69</div><div class="source">SeatGeek API</div></div>
+  </div>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> Per Penn State Athletics (Mar 2): Sold-out crowd of 16,006 filled BJC for a dual meet, breaking previous record. Primary tickets sold out; secondary ranges from $14 (early sessions) to $123 (all-sessions at Vivid Seats). SI.com reports all-sessions passes "under $100" on StubHub with "limited availability." Notable price disparity: Vivid Seats $123 vs StubHub $40 for all-sessions (as of Feb 28). This feeds into NCAA Championships in Cleveland (Mar 19-21).
+      <div class="source-cite">Sources: Penn State Athletics (gopsusports.com, Mar 2), SI.com (Mar 2), PennLive (Feb 24 & 28), York Daily Record (Feb 24)</div>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/big-ten-wrestling-championship-tickets/college-wrestling/2026-03-07-3-30-am/17725127" target="_blank">🎟️ SeatGeek</a>
+      <a href="https://www.vividseats.com/big-ten-wrestling-championship-tickets-bryce-jordan-center-3-7-2026--sports-amateur-wrestling/production/5771155" target="_blank">🎟️ Vivid Seats</a>
     </div>
   </div>
-  <div class="card-meta">
-    <span>📍 Hawkins Field, Nashville TN (3,802 cap)</span><br>
-    <span>📅 March 28-30, 2026</span>
-  </div>
-  <div class="card-price">
-    <div class="price-box"><div class="label">Get-In</div><div class="value high">$285</div></div>
-    <div class="price-box"><div class="label">Venue Cap</div><div class="value">3,802</div></div>
-  </div>
-  <div class="card-insight">
-    Tennessee-Vanderbilt is a massive SEC rivalry. $285 get-in is above Dodgers Opening Day. Friday/Saturday games will be the priciest. Another Hawkins Field scarcity play.
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=tennessee+vanderbilt+baseball" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=Tennessee+Vanderbilt+Baseball" target="_blank">🎟️ Vivid Seats</a>
-  </div>
 </div>
 
-<!-- NCAA Wrestling Championships -->
-<div class="card tier-a">
+<!-- NCAA Wrestling -->
+<div class="card tier-a" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
     <div class="card-title">NCAA D1 Wrestling Championships</div>
     <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-hot">NATIONAL CHAMPIONSHIP</span>
+      <span class="badge badge-a">A</span>
+      <span class="badge badge-demand">NATIONAL CHAMPIONSHIP</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📍 Rocket Arena, Cleveland OH</span><br>
-    <span>📅 March 19-21, 2026</span>
-    <span>🤼 Penn State going for 5th consecutive title — historic run</span>
+    <span class="venue">📍 Rocket Arena, Cleveland OH</span><br>
+    <span class="date">📅 March 19-21, 2026 • Penn State pursuing historic 5th consecutive title</span>
   </div>
-  <div class="card-insight">
-    Third time Cleveland hosts. If Penn State dominates Big Tens (Mar 7-8), demand for NCAA Championships will surge. Penn State wrestling is the most dominant dynasty in college sports right now. Finals night (March 21) is the premium session.
-  </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>Buy finals session (March 21) before Big Ten results inflate prices</li>
-      <li>All-sessions passes are the value play — covers 3 days of wrestling</li>
-      <li>Cleveland is drivable from State College (4h) — Penn State fans will flood this</li>
-    </ul>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=NCAA+Wrestling+Championship+Cleveland" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=NCAA+Wrestling+Championship+Cleveland" target="_blank">🎟️ Vivid Seats</a>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> Cleveland hosting for the third time. If Penn State dominates Big Tens (Mar 7-8), expect demand acceleration for the national championship — Penn State fanbase is 4 hours driving distance from Cleveland. Finals night (March 21) is historically the premium session. Per NCAA.com (Feb 26): qualifying tournament allocations released, building anticipation.
+      <div class="source-cite">Sources: NCAA.com (Feb 26), Cleveland.com (Feb 2026)</div>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/search?q=NCAA+Wrestling+Championship" target="_blank">🎟️ SeatGeek</a>
+      <a href="https://www.vividseats.com/search?searchTerm=NCAA+Wrestling+Championship+Cleveland" target="_blank">🎟️ Vivid Seats</a>
+    </div>
   </div>
 </div>
 
-<!-- NCAA Gymnastics -->
-<div class="card tier-a">
+<!-- Tennessee @ Vandy -->
+<div class="card tier-a" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
-    <div class="card-title">NCAA Women's Gymnastics Championship — Finals</div>
+    <div class="card-title">Tennessee at Vanderbilt — SEC Baseball</div>
     <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-category">GYMNASTICS</span>
+      <span class="badge badge-a">A</span>
+      <span class="badge badge-demand">$285 GET-IN</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📍 Dickies Arena, Fort Worth TX</span><br>
-    <span>📅 April 18, 2026 (Finals)</span>
-    <span>🤸 4th consecutive year at Dickies Arena (2023-2026)</span>
+    <span class="venue">📍 Hawkins Field, Nashville TN (3,802 cap)</span><br>
+    <span class="date">📅 March 28-30, 2026</span>
   </div>
-  <div class="card-insight">
-    College gymnastics has exploded in popularity since the NIL era — meets regularly sell out 10K+ arenas. Fort Worth has hosted 4 straight years, building a strong fanbase. LSU, Oklahoma, Florida, and Utah are perennial powers. Regional rounds at LSU (Pete Maravich Assembly Center) and Kentucky (Memorial Coliseum) also have sell-out potential at smaller venues.
+  <div class="data-grid">
+    <div class="data-cell"><div class="label">Get-In</div><div class="value hot">$285</div><div class="source">Gametime, Feb 20</div></div>
+    <div class="data-cell"><div class="label">Context</div><div class="value">Above Dodgers Opening Day ($265)</div><div class="source">Gametime comparison</div></div>
   </div>
   <div class="card-links">
-    <a href="https://seatgeek.com/search?q=NCAA+Gymnastics+Championship" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=NCAA+Gymnastics+Championship" target="_blank">🎟️ Vivid Seats</a>
+    <a href="https://seatgeek.com/search?q=Tennessee+Vanderbilt+Baseball" target="_blank">🎟️ SeatGeek</a>
   </div>
 </div>
 
 <!-- March Madness -->
-<div class="card tier-b">
+<div class="card tier-b" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
     <div class="card-title">March Madness — NCAA Men's Basketball Tournament</div>
     <div class="card-badges">
-      <span class="badge badge-tier-b">B-TIER</span>
-      <span class="badge badge-category">BASKETBALL</span>
+      <span class="badge badge-b">B</span>
+      <span class="badge badge-cat">BASKETBALL</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📅 Mar 17 First Four (Dayton) → Apr 6 Championship (Indianapolis)</span><br>
-    <span>📍 8 first/second round sites: Buffalo, Greenville, OKC, Portland, Tampa, Philly, San Diego, St. Louis</span>
+    <span class="venue">📍 8 first/second round sites → 4 regionals → Final Four at Lucas Oil Stadium, Indianapolis</span><br>
+    <span class="date">📅 Mar 17 (First Four) → Apr 6 (Championship) • Selection Sunday: March 15</span>
   </div>
-  <div class="card-price">
-    <div class="price-box"><div class="label">First Four</div><div class="value">$175</div></div>
-    <div class="price-box"><div class="label">Regionals</div><div class="value">$500+</div></div>
-    <div class="price-box"><div class="label">Championship</div><div class="value">$300+</div></div>
+
+  <div class="trend-bar">
+    <span class="trend-label">Demand Score</span>
+    <span class="trend-score moderate">44/100</span>
+    <div class="trend-fill"><div class="trend-fill-inner" style="width:44%;background:linear-gradient(90deg,#4a9eff,#6bb5ff);"></div></div>
+    <span class="trend-signals">🚀 2 expansion signals (pre-bracket pricing window)</span>
   </div>
-  <div class="card-insight">
-    Selection Sunday is March 15 — once brackets are set, prices for popular teams' games will spike hard. The broker play here is buying pre-bracket (now) at venues where strong teams are likely seeded, then selling after bracket reveal. Chicago (United Center) and Washington DC (Capital One Arena) regionals will be premium.
-  </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>Buy all-sessions at first/second round venues NOW (pre-bracket pricing)</li>
-      <li>After Selection Sunday (Mar 15), prices jump 2-3x for sites with blue-blood matchups</li>
-      <li>San Diego (Viejas Arena, 12K) and Greenville (Bon Secours, 16K) are smallest — highest scarcity risk</li>
-    </ul>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=NCAA+Tournament+Basketball" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.stubhub.com/march-madness-ncaa-division-i-men-s-basketball-tournament-tickets/grouping/50937714" target="_blank">🎟️ StubHub</a>
+
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Demand Analysis:</strong> Pre-bracket pricing creates a distinct window. Per StubHub: First Four all-sessions $175, regional all-sessions from $500, championship from $300. Selection Sunday (March 15) is the catalyst — once brackets are revealed, site-specific pricing adjusts based on team assignments. San Diego (Viejas Arena, 12K) and Greenville (Bon Secours, 16K) are the smallest first/second round venues. CBS Sports notes conference tournaments are underway, with auto-bids being claimed.
+      <div class="source-cite">Sources: Sporting News (Mar 1), CBS Sports (Mar 1), StubHub pricing, NCAA.com bracket page</div>
+    </div>
+    <div class="card-links">
+      <a href="https://seatgeek.com/search?q=NCAA+Tournament+Basketball" target="_blank">🎟️ SeatGeek</a>
+      <a href="https://www.stubhub.com/march-madness-ncaa-division-i-men-s-basketball-tournament-tickets/grouping/50937714" target="_blank">🎟️ StubHub</a>
+    </div>
   </div>
 </div>
 
-<!-- ========================= -->
-<!-- ⚾ SPRING TRAINING         -->
-<!-- ========================= -->
+<!-- ====================================== -->
+<!-- SPRING TRAINING                        -->
+<!-- ====================================== -->
 <div class="section-header">
-  <h2>⚾ SPRING TRAINING — Best Bets</h2>
-  <span class="count">4 events</span>
+  <h2>⚾ Spring Training</h2>
+  <span class="count">3 events</span>
 </div>
 
 <!-- Yankees @ Mets -->
-<div class="card tier-a">
+<div class="card tier-a" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
     <div class="card-title">Spring Training: Yankees at Mets — Subway Series</div>
     <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-hot">HIGHEST SG SCORE: 0.87</span>
+      <span class="badge badge-a">A</span>
+      <span class="badge badge-demand">SG SCORE: 0.87</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📍 Clover Park, Port St. Lucie FL (7,160 cap)</span><br>
-    <span>📅 March 8, 2026</span>
-    <span>⚾ SeatGeek score: 0.87 — highest of all spring training games</span>
+    <span class="venue">📍 Clover Park, Port St. Lucie FL (7,160 cap)</span><br>
+    <span class="date">📅 March 8, 2026 • Highest SeatGeek-scored spring training game</span>
   </div>
-  <div class="card-insight">
-    The highest-scored spring training game on SeatGeek by a wide margin. Subway Series rivalry + small Florida venue (7,160 cap) = premium pricing. Yankees fans travel well to spring training.
+  <div class="data-grid">
+    <div class="data-cell"><div class="label">SeatGeek Score</div><div class="value">0.87</div><div class="source">SeatGeek API</div></div>
+    <div class="data-cell"><div class="label">Venue Cap</div><div class="value">7,160</div><div class="source">Venue data</div></div>
   </div>
   <div class="card-links">
     <a href="https://seatgeek.com/search?q=yankees+mets+spring+training" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=Yankees+Mets+Spring+Training" target="_blank">🎟️ Vivid Seats</a>
   </div>
 </div>
 
 <!-- Yankees @ Red Sox -->
-<div class="card tier-a">
+<div class="card tier-a" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
     <div class="card-title">Spring Training: Yankees at Red Sox</div>
     <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-hot">SG SCORE: 0.82</span>
+      <span class="badge badge-a">A</span>
+      <span class="badge badge-demand">SG SCORE: 0.82</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📍 JetBlue Park, Fort Myers FL</span><br>
-    <span>📅 March 4, 2026</span>
-  </div>
-  <div class="card-insight">
-    Classic rivalry, small Florida venue. JetBlue Park is designed to look like Fenway — Red Sox fans pack this place. Second-highest SeatGeek spring training score (0.82).
+    <span class="venue">📍 JetBlue Park, Fort Myers FL</span><br>
+    <span class="date">📅 March 4, 2026</span>
   </div>
   <div class="card-links">
     <a href="https://seatgeek.com/search?q=yankees+red+sox+spring+training" target="_blank">🎟️ SeatGeek</a>
   </div>
 </div>
 
-<!-- Dodgers games -->
-<div class="card tier-b">
-  <div class="card-top">
-    <div class="card-title">Spring Training: Dodgers Games — Cactus League</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-b">B-TIER</span>
-      <span class="badge badge-category">CACTUS LEAGUE</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span>📍 Various AZ venues | SG scores: 0.80-0.82</span><br>
-    <span>📅 Through March 22</span>
-    <span>⚾ Key: Mar 13 at Mariners (Peoria) | Mar 15 at Cubs (Sloan Park) | Mar 22 at Angels (Anaheim)</span>
-  </div>
-  <div class="card-insight">
-    Any Dodgers spring training game carries a premium — defending champs, Ohtani effect. Dodgers at Cubs (Sloan Park, Mar 15) is the money game: two of the biggest fanbases at a 15K venue. The Mar 22 game at Angel Stadium is technically spring training but at a full-size venue — interesting arbitrage if face value is cheap.
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=dodgers+spring+training" target="_blank">🎟️ SeatGeek</a>
-  </div>
-</div>
-
-<!-- Cubs at Sloan Park -->
-<div class="card tier-b">
+<!-- Yankees @ Cubs -->
+<div class="card tier-b" onclick="this.classList.toggle('expanded')">
   <div class="card-top">
     <div class="card-title">Spring Training: Yankees at Cubs — Sloan Park</div>
     <div class="card-badges">
-      <span class="badge badge-tier-b">B-TIER</span>
-      <span class="badge badge-hot">FIRST TIME SINCE 1951</span>
+      <span class="badge badge-b">B</span>
+      <span class="badge badge-demand">FIRST SINCE 1951</span>
     </div>
   </div>
   <div class="card-meta">
-    <span>📍 Sloan Park, Mesa AZ (15,000 cap)</span><br>
-    <span>📅 March 23-24, 2026</span>
-    <span>⚾ Yankees in Arizona for first time since Mickey Mantle (1951)</span>
+    <span class="venue">📍 Sloan Park, Mesa AZ (15,000 cap)</span><br>
+    <span class="date">📅 March 23-24, 2026 • Yankees in AZ spring training for first time since Mickey Mantle era</span>
   </div>
-  <div class="card-insight">
-    Historic: Yankees haven't trained in Arizona since 1951. Cubs' Sloan Park is the biggest spring training venue (15K cap) but this will still be packed. Two massive fanbases + nostalgia factor = premium pricing for a spring training game.
+  <div class="card-detail">
+    <div class="insight">
+      <strong>Context:</strong> Per Cronkite News/AZPBS (Feb 11): "The last time the Yankees were in Arizona for spring training was 1951, and it was Mickey Mantle who was up at the plate." Historic novelty factor with two of baseball's largest fanbases at the biggest spring training venue (15K cap).
+      <div class="source-cite">Source: Cronkite News / Arizona PBS (Feb 11, 2026)</div>
+    </div>
   </div>
   <div class="card-links">
     <a href="https://seatgeek.com/search?q=yankees+cubs+spring+training" target="_blank">🎟️ SeatGeek</a>
   </div>
 </div>
 
-<!-- ========================= -->
-<!-- 🎵 CLUB SHOWS              -->
-<!-- ========================= -->
-<div class="section-header">
-  <h2>🎵 CLUB SHOWS — Under the Radar Sold Outs</h2>
-  <span class="count">5 events</span>
-</div>
+</div><!-- end tab-all -->
 
-<!-- Freya Skye -->
-<div class="card tier-s">
-  <div class="card-top">
-    <div class="card-title">Freya Skye — "Stars Align Tour"</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-s">S-TIER</span>
-      <span class="badge badge-sold-out">FEB/MAR SOLD OUT</span>
-      <span class="badge badge-venue-upgrade">VENUE UPGRADES</span>
-      <span class="badge badge-added-dates">+36 DATES ADDED</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span>📍 US + Europe + Australia | Venues: 3,000-4,500 cap</span><br>
-    <span>📅 Sept-Oct 2026 (US leg) | SeatGeek score: 0.61-0.63</span>
-    <span>🎤 "silent treatment" — 40M+ streams, Top 20 US Pop Radio, iHeart "On the Verge"</span>
-  </div>
-  <div class="card-insight">
-    Billboard exclusive: Freya Skye sold out ALL February and March dates across North America and the UK, then added 36 new dates. Venue upgrades in Sydney and Melbourne due to "overwhelming presale demand." Her hit "silent treatment" is climbing radio charts in 5 countries simultaneously. She's the breakout artist of 2026 — compare to how Chappell Roan exploded in 2024.
-  </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>US fall dates (Sept-Oct) just went on sale — buy face NOW before they sell out</li>
-      <li>Santa Barbara Bowl (4,562 cap), Atlanta Coca-Cola Roxy (3,000 cap), Bridgeport Amphitheater are all small enough to sell out</li>
-      <li>If "silent treatment" hits #1, all bets are off — this could be a Chappell Roan situation</li>
-      <li>YOU ALREADY HAVE HER ON YOUR WATCHLIST — scanner will catch new dates</li>
-    </ul>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=Freya+Skye" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=Freya+Skye" target="_blank">🎟️ Vivid Seats</a>
-  </div>
-</div>
-
-<!-- Waxahatchee + MJ Lenderman -->
-<div class="card tier-a">
-  <div class="card-top">
-    <div class="card-title">Waxahatchee & MJ Lenderman — Co-Headline Tour</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-hot">INDIE DARLINGS</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span>📍 18 cities: Beacon Theatre NYC, Massey Hall Toronto, Symphony Hall Atlanta + more</span><br>
-    <span>📅 April 13 — May 2026</span>
-    <span>🎤 Two of indie rock's biggest names — Waxahatchee declined larger venues to stay at 2,500 cap theaters</span>
-  </div>
-  <div class="card-insight">
-    Waxahatchee (Katie Crutchfield) + MJ Lenderman are the most critically acclaimed indie artists of the last 2 years. Waxahatchee deliberately stayed at 2,500-cap theaters despite offers for larger venues — that choice creates artificial scarcity. Beacon Theatre (2,895 cap) in NYC will be the hottest ticket. Both are Pitchfork 10.0 territory.
-  </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>Beacon Theatre NYC (April 20) is the crown jewel — buy before it sells out</li>
-      <li>Small theater venues = low supply, high demand from indie fans who buy regardless of price</li>
-      <li>Waxahatchee fans are loyal and affluent — resale tolerance is high</li>
-    </ul>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=Waxahatchee" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://seatgeek.com/search?q=MJ+Lenderman" target="_blank">🎟️ SeatGeek (MJ Lenderman)</a>
-  </div>
-</div>
-
-<!-- The Hotelier -->
-<div class="card tier-b">
-  <div class="card-top">
-    <div class="card-title">The Hotelier — "Goodness" Full Album Tour</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-b">B-TIER</span>
-      <span class="badge badge-added-dates">ADDED 2ND NYC SHOW</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span>📍 Bowery Ballroom NYC (575 cap) × 2 nights | Lincoln Hall Chicago | Lodge Room LA</span><br>
-    <span>📅 June 25-26 NYC | June 18 Chicago | July 31 LA</span>
-  </div>
-  <div class="card-insight">
-    Added a second Bowery Ballroom show due to demand — clear sell-out signal. "Goodness" is considered one of the best emo/indie albums of the 2010s (named in BrooklynVegan's top 50 punk/emo albums). Tiny venues: Bowery (575 cap), Lincoln Hall (~500 cap), Lodge Room (~500 cap). These will all sell out.
-  </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>575 cap at Bowery = extremely limited supply. Album nostalgia tour = guaranteed demand</li>
-      <li>Buy both NYC nights — Night 1 ("Goodness in Full") and Night 2 ("Miscellaneous Set")</li>
-      <li>Low face value + tiny venue = high % markup on resale</li>
-    </ul>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=The+Hotelier" target="_blank">🎟️ SeatGeek</a>
-  </div>
-</div>
-
-<!-- Tame Impala / Djo / Dominic Fike -->
-<div class="card tier-a">
-  <div class="card-top">
-    <div class="card-title">Tame Impala — "Deadbeat Tour" (w/ Djo, Dominic Fike)</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-sold-out">ALMOST ALL DATES SOLD OUT</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span>📍 22 US dates — arenas/amphitheaters | July-August 2026</span><br>
-    <span>📅 Summer 2026</span>
-    <span>🎤 Djo (Joe Keery from Stranger Things) + Dominic Fike opening</span>
-  </div>
-  <div class="card-insight">
-    Reddit r/TameImpala: "There's no way almost all dates are completely sold out" — presale queues had 98,000+ people. Philly presale sold out with people still in queue. The openers (Djo, Dominic Fike) are both on Zach's watchlist and have their own strong fanbases. This is a guaranteed resale goldmine — face value Tame Impala tickets at arenas reselling for 2-3x.
-  </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>Most dates already sold out at face — resale is the only game now</li>
-      <li>Buy resale at smaller markets and flip when tour hype peaks closer to dates</li>
-      <li>Djo and Dominic Fike are already on your watchlist — their own headlining shows will benefit from Tame Impala exposure</li>
-    </ul>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=Tame+Impala" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=Tame+Impala" target="_blank">🎟️ Vivid Seats</a>
-  </div>
-</div>
-
-<!-- RUFUS DU SOL -->
-<div class="card tier-a">
-  <div class="card-top">
-    <div class="card-title">RÜFÜS DU SOL — 2026 North American Tour</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-sold-out">15 SHOWS SOLD OUT</span>
-      <span class="badge badge-added-dates">+7 SHOWS ADDED</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span>📍 31 dates across NA — Petco Park SD (SOLD OUT), Rogers Centre Toronto (SOLD OUT), Montreal (SOLD OUT)</span><br>
-    <span>📅 Summer 2026</span>
-  </div>
-  <div class="card-insight">
-    Per Pollstar: RÜFÜS DU SOL sold out 15 of 24 original dates, added 7 more shows. Presale queues for Petco Park had 4,000+ people and sold out during presale. Reddit: "The seat selector was lagging so much that by the time I found tickets, presale sold out." Extended stays in NYC and LA due to demand.
-  </div>
-  <div class="card-action">
-    <strong>💰 BROKER PLAY:</strong>
-    <ul>
-      <li>Sold-out cities (San Diego, Toronto, Montreal) = pure resale market now</li>
-      <li>Newly added shows may have face value inventory — grab before they sell out too</li>
-      <li>Electronic music fans pay premium for front/floor — floor tickets are the flip</li>
-    </ul>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=RUFUS+DU+SOL" target="_blank">🎟️ SeatGeek</a>
-    <a href="https://www.vividseats.com/search?searchTerm=RUFUS+DU+SOL" target="_blank">🎟️ Vivid Seats</a>
-  </div>
-</div>
-
-<!-- ========================= -->
-<!-- 🎤 COMEDY                  -->
-<!-- ========================= -->
-<div class="section-header">
-  <h2>🎤 COMEDY — Selling Out Everywhere</h2>
-  <span class="count">4 events</span>
-</div>
-
-<!-- Nate Bargatze -->
-<div class="card tier-a">
-  <div class="card-top">
-    <div class="card-title">Nate Bargatze — "Big Dumb Eyes" World Tour</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-added-dates">ADDED SHOWS</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span>📍 Major arenas nationwide | Through August 2026</span><br>
-    <span>🎤 Grammy winner, Netflix specials, arena headliner</span>
-  </div>
-  <div class="card-insight">
-    Bargatze is the biggest clean comedian in the country. Added multiple shows due to demand. Playing arenas (10K+) but still selling them out. The "clean comedy" niche means family audiences = 4-packs, higher per-transaction value. Face values for arenas are typically $50-$120.
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=Nate+Bargatze" target="_blank">🎟️ SeatGeek</a>
-  </div>
-</div>
-
-<!-- Shane Gillis -->
-<div class="card tier-a">
-  <div class="card-top">
-    <div class="card-title">Shane Gillis — Arena Tour 2026</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-a">A-TIER</span>
-      <span class="badge badge-hot">ARENA HEADLINER</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span>📍 Bridgestone Arena Nashville (Apr 17) + nationwide arenas</span><br>
-    <span>🎤 Post-SNL/Netflix mainstream breakout</span>
-  </div>
-  <div class="card-insight">
-    Shane Gillis went from cancelled SNL → Netflix special → arena headliner in record time. Young male demo buys tickets in groups. Bridgestone Arena Nashville is a huge market for him (comedy capital + his demo).
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=Shane+Gillis" target="_blank">🎟️ SeatGeek</a>
-  </div>
-</div>
-
-<!-- Mae Martin -->
-<div class="card tier-b">
-  <div class="card-top">
-    <div class="card-title">Mae Martin — 2026 Tour</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-b">B-TIER</span>
-      <span class="badge badge-category">COMEDY</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span>📍 Terminal 5 NYC | Pantages Theatre Minneapolis (1,014 cap) | Riviera Theatre Chicago (2,500 cap)</span><br>
-    <span>📅 Mar 3 Atlanta | Mar 5 NYC | Mar 17 Minneapolis | Mar 20 Chicago</span>
-  </div>
-  <div class="card-insight">
-    Netflix "SAP" creator, huge in the UK/Canada, growing US following. Playing 1,000-2,500 cap theaters — the sweet spot for sell-out potential. SeatGeek scores 0.37-0.42. Pantages Minneapolis (1,014 cap) is the scarcity play.
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=Mae+Martin" target="_blank">🎟️ SeatGeek</a>
-  </div>
-</div>
-
-<!-- Michael Carbonaro -->
-<div class="card tier-c">
-  <div class="card-top">
-    <div class="card-title">Michael Carbonaro — 2026 Tour (Small Theaters)</div>
-    <div class="card-badges">
-      <span class="badge badge-tier-b">B-TIER</span>
-      <span class="badge badge-category">MAGIC/COMEDY</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span>📍 Terminal 5 NYC | Goodyear Theater Akron | Small theaters nationwide</span><br>
-    <span>📅 Mar 7-21+ dates</span>
-    <span>🎤 "The Carbonaro Effect" TruTV star — magic + comedy hybrid</span>
-  </div>
-  <div class="card-insight">
-    Magic-comedy hybrid playing very small theaters (200-800 cap) in secondary markets like Waterville ME, Marietta OH, Akron OH. These tiny venues sell out quietly — no one is watching these markets. Low face values but limited supply.
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=Michael+Carbonaro" target="_blank">🎟️ SeatGeek</a>
-  </div>
-</div>
-
-<!-- ========================= -->
-<!-- 📊 TRENDS & WATCHLIST      -->
-<!-- ========================= -->
-<div class="section-header">
-  <h2>📊 TRENDS & SIGNALS</h2>
-  <span class="count">Key data points</span>
-</div>
-
-<div class="card tier-a">
-  <div class="card-top">
-    <div class="card-title">🔑 Market Signals — March 2026</div>
-  </div>
-  <div class="card-insight" style="border-left-color:#ff2d2d;">
-    <strong style="color:#ff2d2d;">🚨 SELL-OUT VELOCITY LEADERS:</strong><br>
-    • <strong>Freya Skye</strong> — Sold out ALL Feb/March dates, added 36 dates, venue upgrades in Australia<br>
-    • <strong>RÜFÜS DU SOL</strong> — 15/24 shows sold out, +7 added, presale crashed Petco Park<br>
-    • <strong>Tame Impala</strong> — "Almost all dates sold out" per Reddit, 98K presale queue<br>
-    • <strong>Cat Power</strong> — 3 venue sell-outs (Brooklyn Steel, Webster Hall, Orange Peel)<br>
-    • <strong>The Hotelier</strong> — Added 2nd Bowery Ballroom show (575 cap)
-  </div>
-  <div class="card-insight" style="margin-top:8px;">
-    <strong style="color:#d4a017;">📈 PRICING ANOMALIES:</strong><br>
-    • Vanderbilt SEC baseball > MLB regular season (21x median college baseball pricing)<br>
-    • Big Ten Wrestling: Vivid Seats $123 vs StubHub $40 for same all-sessions pass (arbitrage?)<br>
-    • March Madness pre-bracket: $175 First Four all-sessions (will jump post-Selection Sunday)<br>
-    • Stavros Halkias at Radio City: $39-60 face for a 6K venue (way underpriced)
-  </div>
-  <div class="card-insight" style="margin-top:8px;">
-    <strong style="color:#27ae60;">🎯 WATCHLIST SCANNER TRACKING (40+ artists):</strong><br>
-    Daily 3 AM ET scans via SeatGeek + Brave. Alerts to Discord ⏰alerts⏰ channel.<br>
-    Recent additions: Freya Skye, Djo, Dominic Fike, Jade LeMac, La Roux, Hemlocke Springs, Allison Russell.<br>
-    Comedy scanner: 4x daily (37 comedians tracked).<br>
-    Main scanner: Daily 5 AM ET (Reddit, X, Brave, SeatGeek).
-  </div>
-</div>
-
-<!-- ========================= -->
-<!-- ➕ ADD TO WATCHLIST         -->
-<!-- ========================= -->
+<!-- ====================================== -->
+<!-- WATCHLIST TAB                          -->
+<!-- ====================================== -->
+<div id="tab-watchlist" class="tab-content">
 <div class="section-header">
   <h2>➕ Add to Watchlist</h2>
 </div>
 
 <div class="card tier-a" style="border-left-color:#27ae60;">
-  <div style="margin-bottom:12px; font-size:0.9rem; color:#ccc;">
-    Add an artist, band, or comedian to the daily watchlist scanner. Olga checks SeatGeek + Brave daily at 3 AM ET and alerts you when new events appear.
+  <div style="margin-bottom:12px; font-size:0.88rem; color:#ccc;">
+    Add an artist, band, or comedian to the daily watchlist scanner. Blackbeard checks SeatGeek + Brave daily at 3 AM ET and alerts when new events appear.
   </div>
   
   <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px;">
     <input type="text" id="artistName" placeholder="Artist name (e.g. Florence Road)" 
       style="flex:1; min-width:200px; padding:10px 14px; background:#1a1a2e; border:1px solid #333; border-radius:6px; color:#fff; font-size:0.95rem; outline:none;"
       onkeydown="if(event.key==='Enter')addArtist()">
-    
     <select id="artistCategory" style="padding:10px; background:#1a1a2e; border:1px solid #333; border-radius:6px; color:#fff; font-size:0.85rem;">
       <option value="band">🎵 Band/Solo</option>
       <option value="dj">🎧 DJ/Electronic</option>
       <option value="comedy">🎤 Comedy</option>
       <option value="sports">🏟️ Sports</option>
     </select>
-    
     <select id="artistTier" style="padding:10px; background:#1a1a2e; border:1px solid #333; border-radius:6px; color:#fff; font-size:0.85rem;">
       <option value="A">Tier A (priority)</option>
       <option value="B">Tier B (standard)</option>
     </select>
-    
-    <button onclick="addArtist()" style="padding:10px 20px; background:#27ae60; border:none; border-radius:6px; color:#fff; font-weight:700; font-size:0.9rem; cursor:pointer; white-space:nowrap;">
-      ➕ Add
-    </button>
+    <button onclick="addArtist()" style="padding:10px 20px; background:#27ae60; border:none; border-radius:6px; color:#fff; font-weight:700; font-size:0.9rem; cursor:pointer; white-space:nowrap;">➕ Add</button>
   </div>
   
   <div id="addResult" style="display:none; padding:10px 14px; border-radius:6px; font-size:0.85rem; margin-bottom:10px;"></div>
-  
   <div id="pendingList" style="display:none; margin-top:12px;">
-    <div style="font-size:0.8rem; color:#888; margin-bottom:8px;">📋 Pending additions (copy & paste in #blackbeard🏴‍☠️ on Discord):</div>
+    <div style="font-size:0.8rem; color:#888; margin-bottom:8px;">📋 Copy & paste in Discord #blackbeard🏴‍☠️:</div>
     <div id="pendingItems" style="background:#111; padding:10px 14px; border-radius:6px; font-family:monospace; font-size:0.85rem; color:#d4a017;"></div>
-    <button onclick="copyPending()" style="margin-top:8px; padding:8px 16px; background:#4a9eff; border:none; border-radius:6px; color:#fff; font-weight:600; font-size:0.8rem; cursor:pointer;">
-      📋 Copy to Clipboard
-    </button>
+    <button onclick="copyPending()" style="margin-top:8px; padding:8px 16px; background:#4a9eff; border:none; border-radius:6px; color:#fff; font-weight:600; font-size:0.8rem; cursor:pointer;">📋 Copy to Clipboard</button>
   </div>
-  
   <div style="margin-top:12px; padding:10px 14px; background:#111; border-radius:6px; font-size:0.8rem; color:#888;">
-    💡 <strong>Quick way:</strong> Just type in #blackbeard🏴‍☠️ on Discord: <code style="background:#1a1a2e; padding:2px 6px; border-radius:3px; color:#d4a017;">add [artist name]</code> — Olga will add them automatically.
+    💡 <strong>Quick way:</strong> Type in Discord: <code style="background:#1a1a2e; padding:2px 6px; border-radius:3px; color:#d4a017;">add [artist name]</code>
   </div>
 </div>
 
+<div class="section-header"><h2>📋 Current Watchlist (76 artists)</h2></div>
+<div class="card" style="border-left:4px solid #333;">
+  <div style="display:flex; flex-wrap:wrap; gap:6px;">
+    <span class="badge badge-cat">🎵 Djo (Joe Keery)</span>
+    <span class="badge badge-cat">🎵 La Roux</span>
+    <span class="badge badge-cat">🎵 Jade LeMac</span>
+    <span class="badge badge-cat">🎵 Dominic Fike</span>
+    <span class="badge badge-cat">🎵 Allison Russell</span>
+    <span class="badge badge-cat">🎵 Hemlocke Springs</span>
+    <span class="badge badge-cat">🎵 Flip Turn</span>
+    <span class="badge badge-cat">🎵 Tucker Wetmore</span>
+    <span class="badge badge-cat">🎵 Treaty Oak Revival</span>
+    <span class="badge badge-cat">🎵 Mt. Joy</span>
+    <span class="badge badge-cat">🎵 Ethel Cain</span>
+    <span class="badge badge-cat">🎵 Electric Callboy</span>
+    <span class="badge badge-cat">🎵 Goose</span>
+    <span class="badge badge-cat">🎵 Jon Bellion</span>
+    <span class="badge badge-cat">🎵 Lord Huron</span>
+    <span class="badge badge-cat">🎵 Amyl and The Sniffers</span>
+    <span class="badge badge-cat">🎵 Alex Warren</span>
+    <span class="badge badge-cat">🎵 Hilary Duff</span>
+    <span class="badge badge-cat">🎵 Florence Road</span>
+    <span class="badge badge-cat">🎵 Jutes</span>
+    <span class="badge badge-cat">🎵 Lambrini Girls</span>
+    <span class="badge badge-cat">🎵 Jalen Ngonda</span>
+    <span class="badge badge-cat">🎵 Violet Grohl</span>
+    <span class="badge badge-cat">🎧 Crankdat</span>
+    <span class="badge badge-cat">🎧 Its Murph</span>
+    <span class="badge badge-cat">🎧 Liquid Stranger</span>
+    <span class="badge badge-cat">🎧 Subtronics</span>
+    <span class="badge badge-cat">🎧 Fisher</span>
+    <span class="badge badge-cat">🎧 Rezz</span>
+    <span class="badge badge-cat">🎧 Sara Landry</span>
+    <span class="badge badge-cat">🎧 Knock2</span>
+    <span class="badge badge-cat">🎧 ALLEYCVT</span>
+    <span class="badge badge-cat">🎧 LSDREAM</span>
+    <span class="badge badge-cat">🎧 Cloonee</span>
+    <span class="badge badge-cat">🎧 Seven Lions</span>
+    <span class="badge badge-cat">🎧 Bob Moses</span>
+    <span class="badge badge-cat">🎧 KETTAMA</span>
+    <span class="badge badge-cat">🎧 Mau P</span>
+    <span class="badge badge-cat">🎧 Freya Skye</span>
+    <span class="badge badge-cat">🎤 Nurse John</span>
+    <span class="badge badge-cat">🎤 Michael Blaustein</span>
+    <span class="badge badge-cat">🎤 Stavros Halkias</span>
+    <span class="badge badge-cat">🎤 Josh Johnson</span>
+    <span class="badge badge-cat">🎤 Druski</span>
+    <span class="badge badge-cat">🎤 Matt Rife</span>
+    <span class="badge badge-cat">🎤 Sam Morril</span>
+    <span class="badge badge-cat">🎤 Jordan Jensen</span>
+  </div>
+  <div style="margin-top:8px; font-size:0.75rem; color:#666;">+ 29 more artists across DJs, bands, and comedians</div>
+</div>
+</div><!-- end tab-watchlist -->
+
+<!-- JS -->
 <script>
 const pendingArtists = [];
+
+function showTab(id) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-bar button').forEach(b => b.classList.remove('active'));
+  
+  if (id === 'all') {
+    document.getElementById('tab-all').classList.add('active');
+  } else if (id === 'watchlist') {
+    document.getElementById('tab-watchlist').classList.add('active');
+  } else {
+    document.getElementById('tab-all').classList.add('active');
+    // Could filter cards by category in future
+  }
+  
+  event.target.classList.add('active');
+}
 
 function addArtist() {
   const name = document.getElementById('artistName').value.trim();
   const category = document.getElementById('artistCategory').value;
   const tier = document.getElementById('artistTier').value;
   const resultDiv = document.getElementById('addResult');
-  
-  if (!name) {
-    resultDiv.style.display = 'block';
-    resultDiv.style.background = 'rgba(255,45,45,0.1)';
-    resultDiv.style.border = '1px solid rgba(255,45,45,0.3)';
-    resultDiv.style.color = '#ff6b6b';
-    resultDiv.textContent = '⚠️ Enter an artist name';
-    return;
-  }
-  
+  if (!name) { resultDiv.style.display='block'; resultDiv.style.background='rgba(255,45,45,0.1)'; resultDiv.style.border='1px solid rgba(255,45,45,0.3)'; resultDiv.style.color='#ff6b6b'; resultDiv.textContent='⚠️ Enter an artist name'; return; }
   const catEmoji = {band:'🎵',dj:'🎧',comedy:'🎤',sports:'🏟️'}[category];
   pendingArtists.push({name, category, tier});
-  
-  // Show success
-  resultDiv.style.display = 'block';
-  resultDiv.style.background = 'rgba(39,174,96,0.1)';
-  resultDiv.style.border = '1px solid rgba(39,174,96,0.3)';
-  resultDiv.style.color = '#27ae60';
+  resultDiv.style.display='block'; resultDiv.style.background='rgba(39,174,96,0.1)'; resultDiv.style.border='1px solid rgba(39,174,96,0.3)'; resultDiv.style.color='#27ae60';
   resultDiv.textContent = `✅ ${catEmoji} ${name} (Tier ${tier}) queued! Paste the command in Discord to confirm.`;
-  
-  // Update pending list
-  const pendingDiv = document.getElementById('pendingList');
-  const itemsDiv = document.getElementById('pendingItems');
+  const pendingDiv = document.getElementById('pendingList'); const itemsDiv = document.getElementById('pendingItems');
   pendingDiv.style.display = 'block';
   itemsDiv.textContent = pendingArtists.map(a => `add ${a.name} ${a.category} ${a.tier}`).join('\n');
-  
-  // Clear input
-  document.getElementById('artistName').value = '';
-  document.getElementById('artistName').focus();
+  document.getElementById('artistName').value = ''; document.getElementById('artistName').focus();
 }
 
 function copyPending() {
   const text = pendingArtists.map(a => `add ${a.name} ${a.category} ${a.tier}`).join('\n');
   navigator.clipboard.writeText(text).then(() => {
-    const btn = event.target;
-    btn.textContent = '✅ Copied!';
-    btn.style.background = '#27ae60';
+    const btn = event.target; btn.textContent = '✅ Copied!'; btn.style.background = '#27ae60';
     setTimeout(() => { btn.textContent = '📋 Copy to Clipboard'; btn.style.background = '#4a9eff'; }, 2000);
   });
 }
 </script>
 
 <footer>
-  🏴‍☠️ Blackbeard v2.0 — Built by Olga for Zach<br>
-  Data sources: SeatGeek API, Vivid Seats, StubHub, Gametime, Brave Search, Reddit, X/Twitter, Pollstar, BrooklynVegan, Billboard<br>
-  Scanners: Daily Report (5AM ET) | Comedy (4x/day) | Watchlist (3AM ET)<br>
-  <a href="https://github.com/Action-Figure-Fire/blackbeard" style="color:#4a9eff;">GitHub Repository</a>
+  🏴‍☠️ Blackbeard v3.0 — Ticket Intelligence Report<br>
+  Data: SeatGeek API • Vivid Seats • StubHub • Gametime • Google Trends RSS • Brave Search • Reddit • X/Twitter • Pollstar • Billboard • BrooklynVegan<br>
+  Automated Scans: Daily Report (5AM ET) • Comedy Scanner (4×/day) • Watchlist Scanner (3AM ET, 76 artists) • Steelers PSL (12PM ET)<br>
+  <em>Demand scores are based on observed signals and do not constitute financial advice. Verify all data before purchasing.</em><br>
+  <a href="https://github.com/Action-Figure-Fire/blackbeard">GitHub</a>
 </footer>
 
 </div>
