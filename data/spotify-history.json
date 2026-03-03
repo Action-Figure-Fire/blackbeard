@@ -1,0 +1,79 @@
+{
+  "snapshots": [
+    {
+      "date": "2026-03-03",
+      "artists": {}
+    },
+    {
+      "date": "2026-03-03",
+      "artists": {}
+    },
+    {
+      "date": "2026-03-03",
+      "artists": {
+        "Crankdat": {
+          "monthlyListeners": 1000000
+        },
+        "Subtronics": {
+          "monthlyListeners": 2
+        },
+        "Flip Turn": {
+          "monthlyListeners": 3
+        },
+        "Fisher": {
+          "monthlyListeners": 125
+        },
+        "ALLEYCVT": {
+          "monthlyListeners": 617644
+        },
+        "Mersiv": {
+          "monthlyListeners": 185000
+        }
+      }
+    },
+    {
+      "date": "2026-03-03",
+      "artists": {
+        "ALLEYCVT": {
+          "monthlyListeners": 617644
+        },
+        "Flip Turn": {
+          "monthlyListeners": 2000000
+        },
+        "Crankdat": {
+          "monthlyListeners": 1000000
+        },
+        "Rezz": {
+          "monthlyListeners": 150
+        },
+        "Mersiv": {
+          "monthlyListeners": 185000
+        },
+        "Djo (Joe Keery)": {
+          "monthlyListeners": 10000000
+        },
+        "Nurse John": {
+          "monthlyListeners": 153
+        },
+        "Stardew Valley Symphony": {
+          "monthlyListeners": 1000
+        },
+        "Fisher": {
+          "monthlyListeners": 125
+        },
+        "Subtronics": {
+          "monthlyListeners": 2
+        },
+        "Its Murph": {
+          "monthlyListeners": 90
+        },
+        "Sara Landry": {
+          "monthlyListeners": 814
+        },
+        "La Roux": {
+          "monthlyListeners": 133
+        }
+      }
+    }
+  ]
+}
