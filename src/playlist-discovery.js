@@ -445,18 +445,18 @@ async function vetArtist(name) {
   await sleep(250);
   
   // === VET SCORING ===
-  // Three pillars: DEMAND + NUMBERS + MOMENTUM
+  // Four pillars: DEMAND + NUMBERS + MOMENTUM + RESALE PRICING
   
   let demandScore = 0;  // Max 40
   let numbersScore = 0; // Max 35
   let momentumScore = 0; // Max 25
   
   // DEMAND (hardest signal — proves people will pay)
-  if (stats.soldOutMentions >= 3) demandScore += 30;
-  else if (stats.soldOutMentions >= 2) demandScore += 22;
-  else if (stats.soldOutMentions >= 1) demandScore += 15;
-  if (stats.venueUpgrades >= 1) demandScore += 10;
-  if (stats.addedDates >= 1) demandScore += 8;
+  if (stats.soldOutMentions >= 3) demandScore += 25;
+  else if (stats.soldOutMentions >= 2) demandScore += 18;
+  else if (stats.soldOutMentions >= 1) demandScore += 12;
+  if (stats.venueUpgrades >= 1) demandScore += 8;
+  if (stats.addedDates >= 1) demandScore += 7;
   demandScore = Math.min(40, demandScore);
   
   // NUMBERS (proves real audience, not just hype)
@@ -487,7 +487,10 @@ async function vetArtist(name) {
   stats.numbersScore = numbersScore;
   stats.momentumScore = momentumScore;
   
-  // Tier assignment
+  // RESALE PRICING will be applied by the caller after checkTourDates()
+  // See applyPricingToVet() below
+  
+  // Base tier assignment (pricing will adjust)
   if (stats.vetScore >= 50 && demandScore >= 15) stats.vetTier = 'red_hot';
   else if (stats.vetScore >= 30 && (demandScore >= 10 || numbersScore >= 15)) stats.vetTier = 'warm';
   else stats.vetTier = 'unvetted';
@@ -501,20 +504,95 @@ async function vetArtist(name) {
   return stats;
 }
 
+// Apply SeatGeek pricing data to vet score
+function applyPricingToVet(stats, pricingSignal) {
+  if (!pricingSignal || !pricingSignal.showsWithPricing) return;
+  
+  stats.pricingSignal = pricingSignal;
+  
+  if (pricingSignal.tier === 'premium') {
+    // 💰💰💰 Avg get-in $150+ or 3+ shows over $100
+    stats.demandScore = Math.min(40, (stats.demandScore || 0) + 15);
+    stats.vetSignals.push(`💰 PREMIUM resale: avg get-in $${pricingSignal.avgGetIn} | ${pricingSignal.over100Count} shows over $100`);
+  } else if (pricingSignal.tier === 'strong') {
+    // 💰💰 Avg get-in $80+ or at least 1 show over $100
+    stats.demandScore = Math.min(40, (stats.demandScore || 0) + 10);
+    stats.vetSignals.push(`💰 Strong resale: avg get-in $${pricingSignal.avgGetIn} | ${pricingSignal.over100Count} shows over $100`);
+  } else if (pricingSignal.tier === 'moderate') {
+    // 💰 Avg get-in $40-80
+    stats.vetSignals.push(`💲 Moderate resale: avg get-in $${pricingSignal.avgGetIn}`);
+  } else if (pricingSignal.tier === 'weak' && stats.soldOutMentions >= 1) {
+    // ⚠️ Sold out BUT cheap resale = DOWNGRADE (this is the key insight)
+    stats.demandScore = Math.max(0, (stats.demandScore || 0) - 10);
+    stats.vetSignals.push(`⚠️ WEAK resale despite sold-out claims: avg get-in $${pricingSignal.avgGetIn || '?'} — low flip potential`);
+  }
+  
+  // Hot show callouts
+  for (const hs of (pricingSignal.hotShows || []).slice(0, 3)) {
+    stats.vetSignals.push(`🎟️ ${hs}`);
+  }
+  
+  // Recalculate total + tier
+  stats.vetScore = (stats.demandScore || 0) + (stats.numbersScore || 0) + (stats.momentumScore || 0);
+  
+  if (stats.vetScore >= 50 && (stats.demandScore || 0) >= 15) stats.vetTier = 'red_hot';
+  else if (stats.vetScore >= 30 && ((stats.demandScore || 0) >= 10 || (stats.numbersScore || 0) >= 15)) stats.vetTier = 'warm';
+  else stats.vetTier = 'unvetted';
+}
+
 async function checkTourDates(name) {
   try {
-    const r = await fetch(`https://api.seatgeek.com/2/events?q=${encodeURIComponent(name)}&per_page=10&sort=datetime_utc.asc&datetime_utc.gte=${new Date().toISOString().split('T')[0]}&client_id=${SEATGEEK_CLIENT_ID}`);
-    if (r.status !== 200) return { upcoming: 0, events: [] };
+    const r = await fetch(`https://api.seatgeek.com/2/events?q=${encodeURIComponent(name)}&per_page=25&sort=datetime_utc.asc&datetime_utc.gte=${new Date().toISOString().split('T')[0]}&client_id=${SEATGEEK_CLIENT_ID}`);
+    if (r.status !== 200) return { upcoming: 0, events: [], pricingSignal: null };
     const data = await r.json();
-    return {
-      upcoming: data.events?.length || 0,
-      events: (data.events || []).slice(0, 5).map(e => ({
-        title: e.title, date: e.datetime_utc?.split('T')[0],
-        venue: e.venue?.name, city: `${e.venue?.city}, ${e.venue?.state}`,
-        capacity: e.venue?.capacity, avgPrice: e.stats?.average_price, url: e.url
-      }))
+    if (!data?.events?.length) return { upcoming: 0, events: [], pricingSignal: null };
+    
+    const events = data.events.map(e => ({
+      title: e.title, date: e.datetime_utc?.split('T')[0],
+      venue: e.venue?.name, city: `${e.venue?.city}, ${e.venue?.state}`,
+      capacity: e.venue?.capacity,
+      lowestPrice: e.stats?.lowest_sg_base_price || e.stats?.lowest_price || null,
+      avgPrice: e.stats?.average_price || null,
+      highestPrice: e.stats?.highest_price || null,
+      listingCount: e.stats?.listing_count || null,
+      sgScore: e.score || null,
+      url: e.url
+    }));
+    
+    // === PRICING ANALYSIS ===
+    const priced = events.filter(e => e.lowestPrice && e.lowestPrice > 0);
+    const getIns = priced.map(e => e.lowestPrice);
+    const avgs = priced.filter(e => e.avgPrice > 0).map(e => e.avgPrice);
+    
+    let pricingSignal = {
+      showsWithPricing: priced.length,
+      minGetIn: getIns.length ? Math.min(...getIns) : null,
+      maxGetIn: getIns.length ? Math.max(...getIns) : null,
+      avgGetIn: getIns.length ? Math.round(getIns.reduce((a, b) => a + b, 0) / getIns.length) : null,
+      avgAvgPrice: avgs.length ? Math.round(avgs.reduce((a, b) => a + b, 0) / avgs.length) : null,
+      over100Count: getIns.filter(p => p >= 100).length,
+      over150Count: getIns.filter(p => p >= 150).length,
+      hotShows: [] // Shows with get-in >= $100
     };
-  } catch { return { upcoming: 0, events: [] }; }
+    
+    // Flag hot shows (get-in >= $80)
+    pricingSignal.hotShows = priced
+      .filter(e => e.lowestPrice >= 80)
+      .map(e => `${e.venue} (${e.city}) ${e.date} — $${e.lowestPrice} get-in / $${e.avgPrice || '?'} avg`);
+    
+    // Pricing tier
+    if (pricingSignal.avgGetIn >= 150 || pricingSignal.over100Count >= 3) {
+      pricingSignal.tier = 'premium'; // 💰💰💰
+    } else if (pricingSignal.avgGetIn >= 80 || pricingSignal.over100Count >= 1) {
+      pricingSignal.tier = 'strong';  // 💰💰
+    } else if (pricingSignal.avgGetIn >= 40) {
+      pricingSignal.tier = 'moderate'; // 💰
+    } else {
+      pricingSignal.tier = 'weak';    // ❌
+    }
+    
+    return { upcoming: events.length, events: events.slice(0, 8), pricingSignal };
+  } catch { return { upcoming: 0, events: [], pricingSignal: null }; }
 }
 
 function scoreArtist(a) {
@@ -627,12 +705,15 @@ async function run() {
       stats.tourDates = tour.events;
       stats.enrichedAt = new Date().toISOString();
       
+      // Apply SeatGeek pricing (the money check)
+      applyPricingToVet(stats, tour.pricingSignal);
+      
       // Add playlist momentum to vet score
       if (c.playlistCount >= 3) { stats.momentumScore = Math.min(25, (stats.momentumScore || 0) + 15); stats.vetSignals.push(`📋 ${c.playlistCount} Spotify editorial playlists`); }
       else if (c.playlistCount >= 2) { stats.momentumScore = Math.min(25, (stats.momentumScore || 0) + 10); stats.vetSignals.push(`📋 ${c.playlistCount} editorial playlists`); }
       stats.vetScore = (stats.demandScore || 0) + (stats.numbersScore || 0) + (stats.momentumScore || 0);
       
-      // Re-tier with playlist data
+      // Final tier with all data
       if (stats.vetScore >= 50 && (stats.demandScore || 0) >= 15) stats.vetTier = 'red_hot';
       else if (stats.vetScore >= 30 && ((stats.demandScore || 0) >= 10 || (stats.numbersScore || 0) >= 15)) stats.vetTier = 'warm';
       
@@ -641,7 +722,8 @@ async function run() {
       
       const tier = stats.vetTier === 'red_hot' ? '🔴' : stats.vetTier === 'warm' ? '🟡' : '⚪';
       const ml = stats.monthlyListeners ? `${(stats.monthlyListeners/1000000).toFixed(1)}M` : '?';
-      console.log(` ${tier} ${stats.vetTier.toUpperCase()} | vet ${stats.vetScore}/100 | ${ml} listeners | ${stats.soldOutMentions} sold-outs | ${tour.upcoming} shows`);
+      const price = tour.pricingSignal?.avgGetIn ? ` | $${tour.pricingSignal.avgGetIn} avg get-in` : '';
+      console.log(` ${tier} ${stats.vetTier.toUpperCase()} | vet ${stats.vetScore}/100 | ${ml} listeners | ${stats.soldOutMentions} sold-outs | ${tour.upcoming} shows${price}`);
       await sleep(100);
     } else {
       stats = { vetTier: 'unvetted', vetScore: 0 };
