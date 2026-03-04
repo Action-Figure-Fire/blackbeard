@@ -164,9 +164,9 @@ const WEEKLY_QUERIES = [
 // Choose which queries to run based on day of week
 function getDiscoveryQueries() {
   const dayOfWeek = new Date().getDay(); // 0=Sun, 1=Mon
-  if (dayOfWeek === 1) {
-    // Monday: full sweep (publications + daily)
-    console.log('  📅 Monday — running FULL publication sweep + daily signals');
+  if (dayOfWeek === 0) {
+    // Sunday: full sweep (publications + daily)
+    console.log('  📅 Sunday — running FULL publication sweep + daily signals');
     return [...WEEKLY_QUERIES, ...DAILY_QUERIES];
   } else {
     // Other days: just demand signals
@@ -347,33 +347,157 @@ function parseNumber(str) {
   return Math.round(num);
 }
 
-async function enrichNewArtist(name) {
-  // Single Brave query to get everything
-  const q = await braveSearch(`"${name}" spotify monthly listeners instagram tiktok concert "sold out" tour 2026`);
-  const stats = { monthlyListeners: null, instagramFollowers: null, tiktokFollowers: null, soldOutMentions: 0, albumCount: null };
+// ============================================================
+// VETTING PIPELINE — the money maker
+// 
+// An artist MUST pass multiple hard checks to be flagged:
+// 1. PROOF of demand (sold-out shows, venue upgrades, added dates)
+// 2. REAL numbers (Spotify listeners, social followers)  
+// 3. MOMENTUM (big single, viral moment, playlist placement)
+//
+// Tiers after vetting:
+//   🔴 RED HOT — sold out + big numbers + momentum (BUY NOW)
+//   🟡 WARM    — 2 of 3 signals confirmed (WATCH CLOSELY)
+//   ⚪ UNVETTED — found in publications but no hard proof yet
+// ============================================================
+
+async function vetArtist(name) {
+  // Query 1: Spotify + social numbers
+  const q1 = await braveSearch(`"${name}" spotify monthly listeners followers`);
+  const stats = {
+    monthlyListeners: null, spotifyFollowers: null,
+    instagramFollowers: null, tiktokFollowers: null, youtubeSubscribers: null,
+    soldOutMentions: 0, soldOutSnippets: [],
+    venueUpgrades: 0, addedDates: 0,
+    bigSingle: null, viralMoment: null,
+    albumCount: null, latestRelease: null,
+    vetScore: 0, vetTier: 'unvetted', vetSignals: []
+  };
   
-  if (q?.web?.results) {
-    for (const r of q.web.results) {
+  if (q1?.web?.results) {
+    for (const r of q1.web.results) {
       const text = `${r.title} ${r.description || ''}`;
+      // Monthly listeners
       if (!stats.monthlyListeners) {
         const m = text.match(/([\d,.]+)\s*(million|M|thousand|K)?\s*monthly\s*listeners?/i);
         if (m) stats.monthlyListeners = parseNumber(m[1] + ' ' + (m[2] || ''));
       }
+      // Spotify followers
+      if (!stats.spotifyFollowers) {
+        const m = text.match(/([\d,.]+)\s*(million|M|thousand|K)?\s*followers/i);
+        if (m) stats.spotifyFollowers = parseNumber(m[1] + ' ' + (m[2] || ''));
+      }
+      // Instagram
       if (!stats.instagramFollowers) {
-        const m = text.match(/instagram[^.]{0,30}?([\d,.]+)\s*(million|M|thousand|K)/i);
+        const m = text.match(/instagram[^.]{0,40}?([\d,.]+)\s*(million|M|thousand|K)/i) || text.match(/([\d,.]+)\s*(million|M|thousand|K)[^.]{0,40}?instagram/i);
         if (m) stats.instagramFollowers = parseNumber(m[1] + ' ' + (m[2] || ''));
       }
+      // TikTok
       if (!stats.tiktokFollowers) {
-        const m = text.match(/tiktok[^.]{0,30}?([\d,.]+)\s*(million|M|thousand|K)/i);
+        const m = text.match(/tiktok[^.]{0,40}?([\d,.]+)\s*(million|M|thousand|K)/i) || text.match(/([\d,.]+)\s*(million|M|thousand|K)[^.]{0,40}?tiktok/i);
         if (m) stats.tiktokFollowers = parseNumber(m[1] + ' ' + (m[2] || ''));
       }
-      if (/sold.out|sell.out|selling fast/i.test(text)) stats.soldOutMentions++;
+      // YouTube
+      if (!stats.youtubeSubscribers) {
+        const m = text.match(/youtube[^.]{0,40}?([\d,.]+)\s*(million|M|thousand|K)/i) || text.match(/([\d,.]+)\s*(million|M|thousand|K)[^.]{0,40}?(?:youtube|subscribers)/i);
+        if (m) stats.youtubeSubscribers = parseNumber(m[1] + ' ' + (m[2] || ''));
+      }
+      // Albums
       if (stats.albumCount === null) {
         const m = text.match(/(\d+)\s*(?:studio\s*)?albums?/i);
         if (m && parseInt(m[1]) <= 20) stats.albumCount = parseInt(m[1]);
       }
     }
   }
+  await sleep(250);
+  
+  // Query 2: Demand proof — sold out, venue upgrades, added dates, viral
+  const q2 = await braveSearch(`"${name}" "sold out" OR "venue upgrade" OR "added dates" OR "selling fast" OR "viral" concert tour 2025 OR 2026`);
+  if (q2?.web?.results) {
+    for (const r of q2.web.results) {
+      const text = `${r.title} ${r.description || ''}`.toLowerCase();
+      if (text.includes('sold out') || text.includes('sell out') || text.includes('sold-out')) {
+        stats.soldOutMentions++;
+        stats.soldOutSnippets.push({ title: r.title, snippet: (r.description || '').slice(0, 150), url: r.url });
+      }
+      if (text.includes('venue upgrade') || text.includes('upgraded venue') || text.includes('moved to a larger')) {
+        stats.venueUpgrades++;
+        stats.vetSignals.push('🏟️ Venue upgrade detected');
+      }
+      if (text.includes('added dates') || text.includes('additional dates') || text.includes('second show') || text.includes('added a second')) {
+        stats.addedDates++;
+        stats.vetSignals.push('📅 Added dates due to demand');
+      }
+      if (text.includes('viral') || text.includes('blew up') || text.includes('went viral')) {
+        stats.viralMoment = (r.description || '').slice(0, 150);
+        stats.vetSignals.push('📱 Viral moment detected');
+      }
+      // Big single detection
+      if (text.match(/(\d+)\s*(million|M|billion|B)\s*(streams?|plays?|views?)/i)) {
+        const sm = text.match(/(\d+)\s*(million|M|billion|B)\s*(streams?|plays?|views?)/i);
+        if (sm) {
+          stats.bigSingle = `${sm[1]}${sm[2]} ${sm[3]}`;
+          stats.vetSignals.push(`🎵 Big single: ${stats.bigSingle}`);
+        }
+      }
+    }
+  }
+  await sleep(250);
+  
+  // === VET SCORING ===
+  // Three pillars: DEMAND + NUMBERS + MOMENTUM
+  
+  let demandScore = 0;  // Max 40
+  let numbersScore = 0; // Max 35
+  let momentumScore = 0; // Max 25
+  
+  // DEMAND (hardest signal — proves people will pay)
+  if (stats.soldOutMentions >= 3) demandScore += 30;
+  else if (stats.soldOutMentions >= 2) demandScore += 22;
+  else if (stats.soldOutMentions >= 1) demandScore += 15;
+  if (stats.venueUpgrades >= 1) demandScore += 10;
+  if (stats.addedDates >= 1) demandScore += 8;
+  demandScore = Math.min(40, demandScore);
+  
+  // NUMBERS (proves real audience, not just hype)
+  const ml = stats.monthlyListeners || 0;
+  if (ml >= 1000000) numbersScore += 15;
+  else if (ml >= 500000) numbersScore += 12;
+  else if (ml >= 100000) numbersScore += 8;
+  else if (ml >= 50000) numbersScore += 4;
+  
+  const totalSocial = (stats.instagramFollowers || 0) + (stats.tiktokFollowers || 0) + (stats.youtubeSubscribers || 0);
+  if (totalSocial >= 2000000) numbersScore += 12;
+  else if (totalSocial >= 500000) numbersScore += 8;
+  else if (totalSocial >= 100000) numbersScore += 5;
+  
+  const socialPlatforms = [stats.instagramFollowers, stats.tiktokFollowers, stats.youtubeSubscribers].filter(Boolean).length;
+  if (socialPlatforms >= 2) numbersScore += 8;
+  numbersScore = Math.min(35, numbersScore);
+  
+  // MOMENTUM (timing signal — are they peaking RIGHT NOW?)
+  if (stats.bigSingle) momentumScore += 12;
+  if (stats.viralMoment) momentumScore += 10;
+  // Playlist presence counts as momentum (Spotify is pushing them)
+  // (playlistCount will be added by the caller)
+  momentumScore = Math.min(25, momentumScore);
+  
+  stats.vetScore = demandScore + numbersScore + momentumScore;
+  stats.demandScore = demandScore;
+  stats.numbersScore = numbersScore;
+  stats.momentumScore = momentumScore;
+  
+  // Tier assignment
+  if (stats.vetScore >= 50 && demandScore >= 15) stats.vetTier = 'red_hot';
+  else if (stats.vetScore >= 30 && (demandScore >= 10 || numbersScore >= 15)) stats.vetTier = 'warm';
+  else stats.vetTier = 'unvetted';
+  
+  // Add summary signals
+  if (stats.monthlyListeners) stats.vetSignals.unshift(`🎧 ${(stats.monthlyListeners/1000000).toFixed(1)}M Spotify listeners`);
+  if (stats.soldOutMentions) stats.vetSignals.unshift(`🔥 ${stats.soldOutMentions} sold-out mentions`);
+  if (stats.instagramFollowers) stats.vetSignals.push(`📸 IG: ${(stats.instagramFollowers/1000).toFixed(0)}K`);
+  if (stats.tiktokFollowers) stats.vetSignals.push(`🎵 TT: ${(stats.tiktokFollowers/1000000).toFixed(1)}M`);
+  
   return stats;
 }
 
@@ -481,11 +605,11 @@ async function run() {
   const candidates = [...merged.values()]
     .sort((a, b) => (b.playlistCount * 3 + b.blogMentions) - (a.playlistCount * 3 + a.blogMentions));
   
-  // Phase 4: Enrich only NEW artists not in cache (saves API calls)
-  console.log('\n🔍 Phase 4: Enriching new discoveries (1 Brave call each)...');
+  // Phase 4: VET candidates (2 Brave calls each — only top candidates)
+  console.log('\n🔍 Phase 4: Vetting top candidates (2 Brave calls each)...');
   const enriched = [];
   let enrichCount = 0;
-  const MAX_ENRICH = 20; // Only enrich top 20 new ones
+  const MAX_ENRICH = 25;
   
   for (const c of candidates) {
     const cacheKey = c.name.toLowerCase();
@@ -494,41 +618,55 @@ async function run() {
     
     let stats;
     if (cached && cacheAge < 7) {
-      // Use cached data (less than 7 days old)
       stats = cached;
     } else if (enrichCount < MAX_ENRICH) {
-      // Fresh enrichment
-      process.stdout.write(`  🆕 ${c.name}...`);
-      stats = await enrichNewArtist(c.name);
+      process.stdout.write(`  🔬 ${c.name}...`);
+      stats = await vetArtist(c.name);
       const tour = await checkTourDates(c.name);
       stats.upcomingShows = tour.upcoming;
       stats.tourDates = tour.events;
       stats.enrichedAt = new Date().toISOString();
+      
+      // Add playlist momentum to vet score
+      if (c.playlistCount >= 3) { stats.momentumScore = Math.min(25, (stats.momentumScore || 0) + 15); stats.vetSignals.push(`📋 ${c.playlistCount} Spotify editorial playlists`); }
+      else if (c.playlistCount >= 2) { stats.momentumScore = Math.min(25, (stats.momentumScore || 0) + 10); stats.vetSignals.push(`📋 ${c.playlistCount} editorial playlists`); }
+      stats.vetScore = (stats.demandScore || 0) + (stats.numbersScore || 0) + (stats.momentumScore || 0);
+      
+      // Re-tier with playlist data
+      if (stats.vetScore >= 50 && (stats.demandScore || 0) >= 15) stats.vetTier = 'red_hot';
+      else if (stats.vetScore >= 30 && ((stats.demandScore || 0) >= 10 || (stats.numbersScore || 0) >= 15)) stats.vetTier = 'warm';
+      
       cache.artists[cacheKey] = stats;
       enrichCount++;
       
+      const tier = stats.vetTier === 'red_hot' ? '🔴' : stats.vetTier === 'warm' ? '🟡' : '⚪';
       const ml = stats.monthlyListeners ? `${(stats.monthlyListeners/1000000).toFixed(1)}M` : '?';
-      console.log(` ${ml} listeners | ${stats.soldOutMentions} sold-outs | ${tour.upcoming} shows`);
-      await sleep(300);
+      console.log(` ${tier} ${stats.vetTier.toUpperCase()} | vet ${stats.vetScore}/100 | ${ml} listeners | ${stats.soldOutMentions} sold-outs | ${tour.upcoming} shows`);
+      await sleep(100);
     } else {
-      stats = {};
+      stats = { vetTier: 'unvetted', vetScore: 0 };
     }
     
     const result = {
       ...c,
+      ...stats,
       monthlyListeners: stats.monthlyListeners || null,
       instagramFollowers: stats.instagramFollowers || null,
       tiktokFollowers: stats.tiktokFollowers || null,
       soldOutMentions: stats.soldOutMentions || 0,
       albumCount: stats.albumCount || null,
       upcomingShows: stats.upcomingShows || 0,
-      tourDates: stats.tourDates || []
+      tourDates: stats.tourDates || [],
+      vetTier: stats.vetTier || 'unvetted',
+      vetScore: stats.vetScore || 0,
+      vetSignals: stats.vetSignals || []
     };
     result.risingStarScore = scoreArtist(result);
     enriched.push(result);
   }
   
-  enriched.sort((a, b) => b.risingStarScore - a.risingStarScore);
+  // Sort by vet score (not discovery score — vetted picks first)
+  enriched.sort((a, b) => b.vetScore - a.vetScore || b.risingStarScore - a.risingStarScore);
   saveCache(cache);
   
   // Save output
@@ -547,52 +685,75 @@ async function run() {
   
   fs.writeFileSync(path.join(DOCS_DATA_DIR, 'playlist-discoveries.json'), JSON.stringify(output, null, 2));
   
-  // Summary
-  const breakouts = enriched.filter(a => a.risingStarScore >= 45);
-  const newFinds = enriched.filter(a => !a.onWatchlist && a.risingStarScore >= 20);
+  // Summary — only show VETTED picks
+  const redHot = enriched.filter(a => a.vetTier === 'red_hot');
+  const warm = enriched.filter(a => a.vetTier === 'warm');
+  const unvetted = enriched.filter(a => a.vetTier === 'unvetted');
+  const newFinds = enriched.filter(a => !a.onWatchlist && a.vetScore >= 20);
   
   console.log('\n' + '='.repeat(50));
-  console.log('🏴‍☠️ DISCOVERY COMPLETE');
+  console.log('🏴‍☠️ DISCOVERY + VETTING COMPLETE');
   console.log(`  Playlist artists (2+): ${playlistArtists.length} (FREE)`);
-  console.log(`  Blog mentions: ${blogArtists.length} (~${DISCOVERY_QUERIES.length} Brave calls)`);
-  console.log(`  New enrichments: ${enrichCount} (~${enrichCount} Brave calls)`);
-  console.log(`  Total Brave calls: ${braveCallCount}`);
-  console.log(`  Breakouts (≥45): ${breakouts.length}`);
-  console.log(`  New discoveries: ${newFinds.length}`);
+  console.log(`  Blog mentions: ${blogArtists.length}`);
+  console.log(`  Vetted: ${enrichCount} artists`);
+  console.log(`  Brave calls: ${braveCallCount}`);
+  console.log(`  🔴 RED HOT: ${redHot.length}`);
+  console.log(`  🟡 WARM: ${warm.length}`);
+  console.log(`  ⚪ UNVETTED: ${unvetted.length}`);
   
-  console.log('\n🌟 TOP 20 DISCOVERIES:');
-  for (const a of enriched.slice(0, 20)) {
-    const ml = a.monthlyListeners ? `${(a.monthlyListeners/1000000).toFixed(1)}M` : '?';
-    const wl = a.onWatchlist ? ' 📋' : ' 🆕';
-    const pls = a.playlistCount ? `${a.playlistCount} playlists` : '';
-    const blogs = a.blogMentions ? `${a.blogMentions} blog mentions` : '';
-    const signals = [pls, blogs].filter(Boolean).join(', ');
-    console.log(`  ${a.risingStarScore}/100 | ${a.name}${wl} | ${signals} | ${ml} listeners | ${a.upcomingShows} shows`);
+  if (redHot.length) {
+    console.log('\n🔴 RED HOT — CONFIRMED BREAKOUTS (buy signal):');
+    for (const a of redHot) {
+      console.log(`  🔥 ${a.name} | Vet ${a.vetScore}/100 (demand:${a.demandScore} numbers:${a.numbersScore} momentum:${a.momentumScore})`);
+      for (const s of (a.vetSignals || [])) console.log(`     ${s}`);
+    }
   }
   
-  return { enriched, breakouts, newFinds };
+  if (warm.length) {
+    console.log('\n🟡 WARM — WATCH CLOSELY:');
+    for (const a of warm.slice(0, 10)) {
+      const ml = a.monthlyListeners ? `${(a.monthlyListeners/1000000).toFixed(1)}M` : '?';
+      console.log(`  ⚡ ${a.name} | Vet ${a.vetScore}/100 | ${ml} listeners | ${a.soldOutMentions} sold-outs`);
+      for (const s of (a.vetSignals || []).slice(0, 3)) console.log(`     ${s}`);
+    }
+  }
+  
+  return { enriched, redHot, warm, unvetted, newFinds };
 }
 
 function formatDiscordAlert(results) {
-  const { enriched, breakouts, newFinds } = results;
-  let msg = '📋 **DISCOVERY SCAN** 📋\n\n';
+  const { redHot, warm, newFinds } = results;
+  let msg = '📋 **DISCOVERY SCAN — VETTED PICKS** 📋\n\n';
   
-  if (breakouts.length) {
-    msg += '🚨 **BREAKOUT SIGNALS:**\n';
-    for (const b of breakouts.slice(0, 8)) {
-      const ml = b.monthlyListeners ? `${(b.monthlyListeners/1000000).toFixed(1)}M listeners` : '';
-      const signals = [];
-      if (b.playlistCount) signals.push(`${b.playlistCount} playlists`);
-      if (b.blogMentions) signals.push(`${b.blogMentions} blog mentions`);
-      if (b.soldOutMentions) signals.push(`${b.soldOutMentions} sold-outs`);
-      const wl = b.onWatchlist ? ' 📋' : ' 🆕';
-      msg += `> 🔥 **${b.name}**${wl} — **${b.risingStarScore}**/100 | ${signals.join(' | ')} | ${ml}\n`;
+  if (redHot.length) {
+    msg += '🔴 **RED HOT — CONFIRMED BREAKOUTS:**\n';
+    for (const a of redHot) {
+      const ml = a.monthlyListeners ? `${(a.monthlyListeners/1000000).toFixed(1)}M listeners` : '';
+      const signals = (a.vetSignals || []).slice(0, 4).join(' | ');
+      const wl = a.onWatchlist ? ' 📋' : ' 🆕';
+      msg += `> 🔥 **${a.name}**${wl} — Vet **${a.vetScore}**/100\n`;
+      if (signals) msg += `>    ${signals}\n`;
     }
     msg += '\n';
   }
   
+  if (warm.length) {
+    msg += '🟡 **WARM — WATCH CLOSELY:**\n';
+    for (const a of warm.slice(0, 8)) {
+      const ml = a.monthlyListeners ? `${(a.monthlyListeners/1000000).toFixed(1)}M` : '?';
+      const so = a.soldOutMentions ? ` | ${a.soldOutMentions} sold-outs` : '';
+      const wl = a.onWatchlist ? ' 📋' : ' 🆕';
+      msg += `> ⚡ **${a.name}**${wl} — Vet ${a.vetScore}/100 | ${ml} listeners${so}\n`;
+    }
+    msg += '\n';
+  }
+  
+  if (!redHot.length && !warm.length) {
+    msg += '⚪ No confirmed breakouts today — all candidates still unvetted.\n';
+  }
+  
   if (newFinds.length) {
-    msg += `🆕 **${newFinds.length} NEW discoveries** — consider adding to watchlist\n`;
+    msg += `\n🆕 ${newFinds.length} new vetted discoveries not on watchlist yet`;
   }
   
   return msg;

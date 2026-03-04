@@ -17,6 +17,7 @@
   "author": "Blackbeard",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^17.3.1",
     "express": "^4.18.0",
     "imap": "^0.8.19",
     "mailparser": "^3.9.3",
