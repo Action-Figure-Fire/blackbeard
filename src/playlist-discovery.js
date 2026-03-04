@@ -120,46 +120,151 @@ async function braveSearch(query) {
   } catch { return null; }
 }
 
-// Each query is designed to return LISTS of artists from music sites
-const DISCOVERY_QUERIES = [
-  // "Artists to watch" roundups — each article names 10-50 artists
-  'site:pitchfork.com "artists to watch" OR "rising" 2026',
-  'site:nme.com "artists to watch" OR "ones to watch" OR "breaking" 2026',
-  'site:stereogum.com "best new" OR "rising" OR "breakthrough" 2026',
-  '"artists to watch 2026" concert tour tickets',
-  '"breaking out" artist 2026 sold out tour',
-  '"ones to watch 2026" music emerging',
-  // Genre-specific rising artists
-  'EDM DJ "breaking out" OR "rising star" 2026 tour sold out',
-  'indie band "breaking out" OR "rising" 2026 tour tickets',
-  'rapper "blowing up" OR "rising" 2026 tour',
-  'country artist "breaking out" OR "rising star" 2026',
-  // Sold-out + venue upgrade signals (strongest buy signal)
-  'concert "sold out" "added dates" OR "venue upgrade" 2026',
-  '"first headlining tour" 2026 sold out tickets',
-  // Specific music sites with discovery lists
-  'site:billboard.com "emerging" OR "rising" artist 2026',
-  'site:consequenceofsound.net "artists to watch" OR "rising" 2026',
-  '"festival lineup" 2026 "breakout" OR "discovery" OR "ones to watch"',
+// ---- TOP 15 MUSIC PUBLICATIONS ----
+// Each publication runs annual "artists to watch" lists naming 10-50 artists.
+// One Brave query per pub = massive discovery ROI.
+const MUSIC_PUBS = [
+  { site: 'pitchfork.com', name: 'Pitchfork' },
+  { site: 'nme.com', name: 'NME' },
+  { site: 'stereogum.com', name: 'Stereogum' },
+  { site: 'consequence.net', name: 'Consequence of Sound' },
+  { site: 'thefader.com', name: 'The FADER' },
+  { site: 'billboard.com', name: 'Billboard' },
+  { site: 'clashmusic.com', name: 'Clash Magazine' },
+  { site: 'atwoodmagazine.com', name: 'Atwood Magazine' },
+  { site: 'onestowatch.com', name: 'Ones To Watch' },
+  { site: 'complex.com', name: 'Complex' },
+  { site: 'rollingstone.com', name: 'Rolling Stone' },
+  { site: 'diymag.com', name: 'DIY Magazine' },
+  { site: 'thelineofbestfit.com', name: 'Line of Best Fit' },
+  { site: 'pastemagazine.com', name: 'Paste Magazine' },
+  { site: 'stilllisteningmagazine.com', name: 'Still Listening' },
 ];
 
-function extractArtistNames(text) {
-  // Try to extract proper nouns / artist names from article snippets
-  // Look for patterns like "Artist Name sold out" or "Artist Name's tour"
+// --- DAILY queries (demand signals — 5 Brave calls) ---
+const DAILY_QUERIES = [
+  'concert "sold out" "added dates" OR "venue upgrade" 2026',
+  '"first headlining tour" 2026 sold out tickets',
+  '"selling fast" OR "ticket demand" emerging artist tour 2026',
+  'EDM OR indie OR rapper OR country "breaking out" 2026 tour sold out',
+  'Coachella OR Bonnaroo OR Lollapalooza 2026 undercard "ones to watch" OR "breakout"',
+];
+
+// --- WEEKLY queries (publication sweep — 20 Brave calls, run on Mondays) ---
+const WEEKLY_QUERIES = [
+  ...MUSIC_PUBS.map(p => `site:${p.site} "artists to watch" OR "ones to watch" OR "rising" OR "emerging" 2026`),
+  // Genre roundups
+  'EDM DJ "rising star" OR "ones to watch" 2026 tour',
+  'indie band "rising" OR "artists to watch" 2026 tour',
+  'rapper "next up" OR "ones to watch" 2026',
+  'country "rising star" OR "artists to watch" 2026',
+  'comedian "selling out" OR "breaking out" 2026 tour',
+];
+
+// Choose which queries to run based on day of week
+function getDiscoveryQueries() {
+  const dayOfWeek = new Date().getDay(); // 0=Sun, 1=Mon
+  if (dayOfWeek === 1) {
+    // Monday: full sweep (publications + daily)
+    console.log('  📅 Monday — running FULL publication sweep + daily signals');
+    return [...WEEKLY_QUERIES, ...DAILY_QUERIES];
+  } else {
+    // Other days: just demand signals
+    console.log('  📅 Daily mode — demand signals only');
+    return DAILY_QUERIES;
+  }
+}
+
+// For backward compat
+const DISCOVERY_QUERIES = DAILY_QUERIES;
+
+function extractArtistNames(text, title) {
   const names = new Set();
+  const fullText = `${title || ''} ${text || ''}`;
   
-  // Pattern: "Name" followed by musical context
-  const patterns = [
-    /(?:^|[.!,;]\s*)([A-Z][a-zA-Z]+(?:\s+[A-Z][a-zA-Z]+){0,3})\s+(?:sold out|selling fast|added dates|venue upgrade|tour|headlin|broke out|rising|breakout)/gi,
-    /(?:watch|emerging|rising|breakout|ones to watch)[^.]*?(?:include|featuring|like|such as)\s+([A-Z][a-zA-Z]+(?:\s+[A-Z][a-zA-Z]+){0,2})/gi,
+  // Common noise words that aren't artist names
+  const NOISE = new Set([
+    'the', 'and', 'for', 'are', 'but', 'not', 'you', 'all', 'can', 'her', 'was',
+    'one', 'our', 'out', 'new', 'has', 'his', 'how', 'its', 'may', 'who', 'did',
+    'get', 'got', 'let', 'say', 'she', 'too', 'use', 'way', 'many', 'some', 'than',
+    'them', 'then', 'what', 'when', 'will', 'with', 'from', 'have', 'been', 'more',
+    'also', 'back', 'been', 'here', 'just', 'like', 'make', 'made', 'much', 'over',
+    'such', 'take', 'that', 'this', 'very', 'well', 'were', 'year', 'your', 'best',
+    'artists', 'artist', 'watch', 'music', 'emerging', 'rising', 'ones', 'list',
+    'features', 'feature', 'album', 'albums', 'track', 'tracks', 'song', 'songs',
+    'tour', 'tours', 'concert', 'concerts', 'tickets', 'ticket', 'festival',
+    'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august',
+    'september', 'october', 'november', 'december', 'read', 'more', 'click',
+    'south', 'north', 'east', 'west', 'united', 'states', 'based', 'born',
+    'debut', 'released', 'release', 'latest', 'first', 'last', 'next',
+    'hype', 'audio', 'inception', 'define', 'could', 'future', 'world',
+    'check', 'listen', 'spotify', 'apple', 'youtube', 'instagram', 'tiktok'
+  ]);
+  
+  function isValidName(name) {
+    if (!name || name.length < 2 || name.length > 35) return false;
+    if (MAINSTREAM_FILTER.has(name.toLowerCase())) return false;
+    const words = name.toLowerCase().split(/\s+/);
+    if (words.length === 1 && NOISE.has(words[0])) return false;
+    if (words.every(w => NOISE.has(w))) return false;
+    // Must have at least one capitalized word or be all-caps (DJ names)
+    if (!/[A-Z]/.test(name) && !/^[A-Z0-9\s]+$/.test(name)) return false;
+    return true;
+  }
+  
+  // Pattern 1: Comma-separated lists (very common in "artists to watch" articles)
+  // "includes After, Jalen Ngonda, Mon Rovîa, Karri, Violet Grohl"
+  const listPatterns = [
+    /(?:include|including|featuring|like|such as|profiles?|spotlights?|picks?)[:\s]+([^.]+)/gi,
+    /(?:artists?|acts?|musicians?|performers?)[:\s]+([A-Z][^.]{10,200})/gi,
   ];
+  for (const pat of listPatterns) {
+    let m;
+    while ((m = pat.exec(fullText)) !== null) {
+      const list = m[1];
+      // Split on commas, semicolons, " and ", " & "
+      const parts = list.split(/,|;|\band\b|\b&\b/).map(s => s.trim()).filter(Boolean);
+      for (const part of parts) {
+        // Clean up: remove leading articles, trailing context
+        const clean = part
+          .replace(/^(the|a|an)\s+/i, '')
+          .replace(/\s+(is|are|was|were|has|have|who|whose|with|from|on|at|in|for|to|and|the|–|—|\|).*/i, '')
+          .trim();
+        if (isValidName(clean)) names.add(clean);
+      }
+    }
+  }
   
-  for (const pattern of patterns) {
-    let match;
-    while ((match = pattern.exec(text)) !== null) {
-      const name = match[1]?.trim();
-      if (name && name.length >= 3 && name.length <= 40 && !MAINSTREAM_FILTER.has(name.toLowerCase())) {
-        names.add(name);
+  // Pattern 2: "Artist Name" in bold or quoted
+  const boldPattern = /<strong>([^<]+)<\/strong>/gi;
+  let bm;
+  while ((bm = boldPattern.exec(fullText)) !== null) {
+    const name = bm[1].trim();
+    if (isValidName(name)) names.add(name);
+  }
+  
+  // Pattern 3: Names followed by musical context
+  const contextPatterns = [
+    /(?:^|[.!,;]\s*)([A-Z][a-zA-Zé']+(?:\s+[A-Z][a-zA-Zé']+){0,3})\s+(?:sold out|selling fast|added dates|venue upgrade|headlin|broke out|breakout|debut|released)/gi,
+    /(?:singer|rapper|DJ|producer|band|duo|trio|songwriter|vocalist|artist)\s+([A-Z][a-zA-Zé']+(?:\s+[A-Z][a-zA-Zé']+){0,2})/gi,
+    /([A-Z][a-zA-Zé']+(?:\s+[A-Z][a-zA-Zé']+){0,2})\s+(?:is\s+(?:a\s+)?(?:rising|emerging|breakout|up-and-coming))/gi,
+  ];
+  for (const pat of contextPatterns) {
+    let m;
+    while ((m = pat.exec(fullText)) !== null) {
+      const name = m[1]?.trim();
+      if (isValidName(name)) names.add(name);
+    }
+  }
+  
+  // Pattern 4: Title parsing — "Artists to Watch: Name1, Name2, Name3"
+  if (title) {
+    const titleList = title.match(/[:–—|]\s*(.+)/);
+    if (titleList) {
+      const parts = titleList[1].split(/,|;|\band\b|\b&\b/).map(s => s.trim());
+      for (const part of parts) {
+        const clean = part.replace(/\s+(more|\.{3}|…).*/i, '').trim();
+        if (isValidName(clean)) names.add(clean);
       }
     }
   }
@@ -168,18 +273,23 @@ function extractArtistNames(text) {
 }
 
 async function scanMusicBlogs() {
-  console.log('\n🌐 Scanning music blogs & sites (~15 Brave queries)...');
-  const artistMentions = new Map(); // artist -> { sources, snippets }
+  const queries = getDiscoveryQueries();
+  console.log(`\n🌐 Scanning music blogs & sites (${queries.length} Brave queries)...`);
+  const artistMentions = new Map();
   
-  for (const query of DISCOVERY_QUERIES) {
-    process.stdout.write(`  🔎 ${query.slice(0, 60)}...`);
+  for (let qi = 0; qi < queries.length; qi++) {
+    const query = queries[qi];
+    // Identify which publication this query targets
+    const pubMatch = MUSIC_PUBS.find(p => query.includes(p.site));
+    const pubName = pubMatch?.name || 'Web';
+    process.stdout.write(`  🔎 ${pubName}: ${query.slice(0, 50)}...`);
     const results = await braveSearch(query);
     if (!results?.web?.results) { console.log(' ❌'); continue; }
     
     let found = 0;
     for (const r of results.web.results) {
-      const text = `${r.title} ${r.description || ''}`;
-      const artists = extractArtistNames(text);
+      const text = r.description || '';
+      const artists = extractArtistNames(text, r.title);
       
       for (const name of artists) {
         if (artistMentions.has(name)) {
