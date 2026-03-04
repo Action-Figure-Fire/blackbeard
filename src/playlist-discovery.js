@@ -1,15 +1,17 @@
 #!/usr/bin/env node
 /**
- * Blackbeard Playlist Discovery Scanner
+ * Blackbeard Playlist & Music Blog Discovery Scanner v2.0
  * 
- * Scrapes Spotify editorial playlists via embed endpoint (no auth needed)
- * Identifies rising artists who appear across multiple playlists
- * Filters out established/mainstream acts
- * Enriches with Brave Search data (listeners, socials, sold-outs)
+ * TWO discovery methods, both API-efficient:
  * 
- * Key insight: Artists appearing in 2+ editorial playlists are being 
- * actively pushed by Spotify. If they haven't broken out yet (< 2M listeners),
- * they're likely about to blow up → ticket opportunity.
+ * 1. Spotify editorial playlists via embed scraping (FREE - 0 API calls)
+ *    - Scrapes 14 playlists, finds artists on 2+ playlists
+ * 
+ * 2. Music blog/site scanning via Brave Search (~15 queries total)
+ *    - Searches major music sites for "breaking out" / "rising" / "ones to watch"
+ *    - One query = dozens of artist names extracted
+ * 
+ * Combined: discovers 50+ rising artists for ~15 Brave calls
  */
 
 require('dotenv').config();
@@ -21,11 +23,12 @@ const SEATGEEK_CLIENT_ID = process.env.SEATGEEK_CLIENT_ID;
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const DOCS_DATA_DIR = path.join(__dirname, '..', 'docs', 'data');
+const CACHE_FILE = path.join(DATA_DIR, 'discovery-cache.json');
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 let braveCallCount = 0;
 
-// Big names to filter out (already mainstream, no ticket alpha)
+// Big names to filter
 const MAINSTREAM_FILTER = new Set([
   'bruno mars', 'lana del rey', 'blackpink', 'a$ap rocky', 'baby keem',
   'lil baby', 'don toliver', 'dababy', 'drake', 'taylor swift', 'beyonce',
@@ -37,10 +40,14 @@ const MAINSTREAM_FILTER = new Set([
   'mitski', 'raye', 'brent faiyaz', 'summer walker', 'kehlani',
   'bryson tiller', 'daniel caesar', 'bleachers', 'swae lee', 'kaskade',
   'ive', 'john summit', 'pinkpantheress', 'wet leg', 'courtney barnett',
-  'snail mail', 'arlo parks', 'lykke li', 'perfume genius', 'american football'
+  'snail mail', 'arlo parks', 'lykke li', 'perfume genius', 'american football',
+  'adele', 'coldplay', 'imagine dragons', 'maroon 5', 'twenty one pilots',
+  'the 1975', 'arctic monkeys', 'tame impala', 'mac demarco'
 ]);
 
-// --- Spotify Embed Scraping ---
+// ============================================================
+// PART 1: Spotify Playlist Scraping (FREE)
+// ============================================================
 
 const PLAYLISTS = [
   { id: '37i9dQZF1DWUa8ZRTfalHk', name: 'Pop Rising' },
@@ -51,8 +58,8 @@ const PLAYLISTS = [
   { id: '37i9dQZF1DX4JAvHpjipBk', name: 'New Music Friday' },
   { id: '37i9dQZF1DX4dyzvuaRJ0n', name: 'mint (Electronic)' },
   { id: '37i9dQZF1DXdbXrPNafg9d', name: 'Pollen' },
-  { id: '37i9dQZF1DX2RxBh64BHjQ', name: 'Most Necessary (Hip-Hop)' },
-  { id: '37i9dQZF1DX4SBhb3fqCJd', name: 'Are & Be (R&B)' },
+  { id: '37i9dQZF1DX2RxBh64BHjQ', name: 'Most Necessary' },
+  { id: '37i9dQZF1DX4SBhb3fqCJd', name: 'Are & Be' },
   { id: '37i9dQZF1DWXRqgorJj26U', name: 'Fresh Finds' },
   { id: '37i9dQZF1DX6J5NfMJS675', name: 'Anti Pop' },
   { id: '37i9dQZF1DX0XUsuxWHRQd', name: 'Rap Caviar' },
@@ -65,19 +72,47 @@ async function scrapePlaylist(id) {
       headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36' }
     });
     const html = await r.text();
-    const ndMatch = html.match(/<script id="__NEXT_DATA__"[^>]*>(.*?)<\/script>/s);
-    if (!ndMatch) return [];
-    const nd = JSON.parse(ndMatch[1]);
+    const m = html.match(/<script id="__NEXT_DATA__"[^>]*>(.*?)<\/script>/s);
+    if (!m) return [];
+    const nd = JSON.parse(m[1]);
     return nd.props?.pageProps?.state?.data?.entity?.trackList || [];
   } catch { return []; }
 }
 
-// --- Brave Search ---
+async function scanPlaylists() {
+  console.log('📋 Scanning Spotify editorial playlists (FREE)...');
+  const artistMap = new Map();
+  
+  for (const pl of PLAYLISTS) {
+    process.stdout.write(`  🎵 ${pl.name}...`);
+    const tracks = await scrapePlaylist(pl.id);
+    for (const t of tracks) {
+      const artist = t.subtitle?.split(',')[0]?.trim();
+      if (!artist || MAINSTREAM_FILTER.has(artist.toLowerCase())) continue;
+      if (artistMap.has(artist)) {
+        artistMap.get(artist).playlists.add(pl.name);
+      } else {
+        artistMap.set(artist, { name: artist, playlists: new Set([pl.name]) });
+      }
+    }
+    console.log(` ${tracks.length} tracks`);
+    await sleep(400);
+  }
+  
+  return [...artistMap.values()]
+    .map(a => ({ ...a, playlists: [...a.playlists], playlistCount: a.playlists.size }))
+    .filter(a => a.playlistCount >= 2)
+    .sort((a, b) => b.playlistCount - a.playlistCount);
+}
+
+// ============================================================
+// PART 2: Music Blog Discovery (~15 Brave queries)
+// ============================================================
 
 async function braveSearch(query) {
   braveCallCount++;
   try {
-    const r = await fetch(`https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}&count=8`, {
+    const r = await fetch(`https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}&count=10`, {
       headers: { 'X-Subscription-Token': BRAVE_API_KEY, 'Accept': 'application/json' }
     });
     if (r.status !== 200) return null;
@@ -85,242 +120,344 @@ async function braveSearch(query) {
   } catch { return null; }
 }
 
+// Each query is designed to return LISTS of artists from music sites
+const DISCOVERY_QUERIES = [
+  // "Artists to watch" roundups — each article names 10-50 artists
+  'site:pitchfork.com "artists to watch" OR "rising" 2026',
+  'site:nme.com "artists to watch" OR "ones to watch" OR "breaking" 2026',
+  'site:stereogum.com "best new" OR "rising" OR "breakthrough" 2026',
+  '"artists to watch 2026" concert tour tickets',
+  '"breaking out" artist 2026 sold out tour',
+  '"ones to watch 2026" music emerging',
+  // Genre-specific rising artists
+  'EDM DJ "breaking out" OR "rising star" 2026 tour sold out',
+  'indie band "breaking out" OR "rising" 2026 tour tickets',
+  'rapper "blowing up" OR "rising" 2026 tour',
+  'country artist "breaking out" OR "rising star" 2026',
+  // Sold-out + venue upgrade signals (strongest buy signal)
+  'concert "sold out" "added dates" OR "venue upgrade" 2026',
+  '"first headlining tour" 2026 sold out tickets',
+  // Specific music sites with discovery lists
+  'site:billboard.com "emerging" OR "rising" artist 2026',
+  'site:consequenceofsound.net "artists to watch" OR "rising" 2026',
+  '"festival lineup" 2026 "breakout" OR "discovery" OR "ones to watch"',
+];
+
+function extractArtistNames(text) {
+  // Try to extract proper nouns / artist names from article snippets
+  // Look for patterns like "Artist Name sold out" or "Artist Name's tour"
+  const names = new Set();
+  
+  // Pattern: "Name" followed by musical context
+  const patterns = [
+    /(?:^|[.!,;]\s*)([A-Z][a-zA-Z]+(?:\s+[A-Z][a-zA-Z]+){0,3})\s+(?:sold out|selling fast|added dates|venue upgrade|tour|headlin|broke out|rising|breakout)/gi,
+    /(?:watch|emerging|rising|breakout|ones to watch)[^.]*?(?:include|featuring|like|such as)\s+([A-Z][a-zA-Z]+(?:\s+[A-Z][a-zA-Z]+){0,2})/gi,
+  ];
+  
+  for (const pattern of patterns) {
+    let match;
+    while ((match = pattern.exec(text)) !== null) {
+      const name = match[1]?.trim();
+      if (name && name.length >= 3 && name.length <= 40 && !MAINSTREAM_FILTER.has(name.toLowerCase())) {
+        names.add(name);
+      }
+    }
+  }
+  
+  return [...names];
+}
+
+async function scanMusicBlogs() {
+  console.log('\n🌐 Scanning music blogs & sites (~15 Brave queries)...');
+  const artistMentions = new Map(); // artist -> { sources, snippets }
+  
+  for (const query of DISCOVERY_QUERIES) {
+    process.stdout.write(`  🔎 ${query.slice(0, 60)}...`);
+    const results = await braveSearch(query);
+    if (!results?.web?.results) { console.log(' ❌'); continue; }
+    
+    let found = 0;
+    for (const r of results.web.results) {
+      const text = `${r.title} ${r.description || ''}`;
+      const artists = extractArtistNames(text);
+      
+      for (const name of artists) {
+        if (artistMentions.has(name)) {
+          artistMentions.get(name).mentions++;
+          artistMentions.get(name).sources.add(r.url?.split('/')[2] || 'unknown');
+        } else {
+          artistMentions.set(name, {
+            name,
+            mentions: 1,
+            sources: new Set([r.url?.split('/')[2] || 'unknown']),
+            snippets: [{ title: r.title, url: r.url, snippet: (r.description || '').slice(0, 150) }]
+          });
+        }
+        found++;
+      }
+      
+      // Also store the full result for manual review
+      if (text.toLowerCase().includes('sold out') || text.toLowerCase().includes('venue upgrade') || text.toLowerCase().includes('added dates')) {
+        // These results are gold even without artist extraction
+      }
+    }
+    console.log(` ${found} artist mentions`);
+    await sleep(300);
+  }
+  
+  return [...artistMentions.values()]
+    .map(a => ({ ...a, sources: [...a.sources], sourceCount: a.sources.size }))
+    .sort((a, b) => b.mentions - a.mentions || b.sourceCount - a.sourceCount);
+}
+
+// ============================================================
+// PART 3: Combine & Enrich (only NEW artists, using cache)
+// ============================================================
+
+function loadCache() {
+  try { return JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8')); }
+  catch { return { artists: {}, lastUpdated: null }; }
+}
+
+function saveCache(cache) {
+  cache.lastUpdated = new Date().toISOString();
+  fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+}
+
 function parseNumber(str) {
   if (!str) return null;
   str = str.replace(/,/g, '').trim();
-  const match = str.match(/([\d.]+)\s*(billion|B|million|M|thousand|K)?/i);
-  if (!match) return null;
-  let num = parseFloat(match[1]);
-  const unit = (match[2] || '').toLowerCase();
+  const m = str.match(/([\d.]+)\s*(billion|B|million|M|thousand|K)?/i);
+  if (!m) return null;
+  let num = parseFloat(m[1]);
+  const unit = (m[2] || '').toLowerCase();
   if (unit === 'billion' || unit === 'b') num *= 1000000000;
   else if (unit === 'million' || unit === 'm') num *= 1000000;
   else if (unit === 'thousand' || unit === 'k') num *= 1000;
   return Math.round(num);
 }
 
-async function enrichArtist(name) {
-  const stats = {
-    monthlyListeners: null, instagramFollowers: null, tiktokFollowers: null,
-    youtubeSubscribers: null, albumCount: null, soldOutMentions: 0,
-    soldOutSnippets: [], spotifyUrl: null
-  };
-
-  // Spotify + social stats
-  const q1 = await braveSearch(`"${name}" spotify monthly listeners instagram tiktok`);
-  if (q1?.web?.results) {
-    for (const r of q1.web.results) {
+async function enrichNewArtist(name) {
+  // Single Brave query to get everything
+  const q = await braveSearch(`"${name}" spotify monthly listeners instagram tiktok concert "sold out" tour 2026`);
+  const stats = { monthlyListeners: null, instagramFollowers: null, tiktokFollowers: null, soldOutMentions: 0, albumCount: null };
+  
+  if (q?.web?.results) {
+    for (const r of q.web.results) {
       const text = `${r.title} ${r.description || ''}`;
       if (!stats.monthlyListeners) {
         const m = text.match(/([\d,.]+)\s*(million|M|thousand|K)?\s*monthly\s*listeners?/i);
         if (m) stats.monthlyListeners = parseNumber(m[1] + ' ' + (m[2] || ''));
       }
-      if (!stats.spotifyUrl && r.url?.includes('open.spotify.com/artist')) stats.spotifyUrl = r.url;
       if (!stats.instagramFollowers) {
-        const m = text.match(/instagram[^.]{0,30}?([\d,.]+)\s*(million|M|thousand|K)/i) || text.match(/([\d,.]+)\s*(million|M|thousand|K)[^.]{0,30}?instagram/i);
+        const m = text.match(/instagram[^.]{0,30}?([\d,.]+)\s*(million|M|thousand|K)/i);
         if (m) stats.instagramFollowers = parseNumber(m[1] + ' ' + (m[2] || ''));
       }
       if (!stats.tiktokFollowers) {
-        const m = text.match(/tiktok[^.]{0,30}?([\d,.]+)\s*(million|M|thousand|K)/i) || text.match(/([\d,.]+)\s*(million|M|thousand|K)[^.]{0,30}?tiktok/i);
+        const m = text.match(/tiktok[^.]{0,30}?([\d,.]+)\s*(million|M|thousand|K)/i);
         if (m) stats.tiktokFollowers = parseNumber(m[1] + ' ' + (m[2] || ''));
       }
+      if (/sold.out|sell.out|selling fast/i.test(text)) stats.soldOutMentions++;
       if (stats.albumCount === null) {
         const m = text.match(/(\d+)\s*(?:studio\s*)?albums?/i);
         if (m && parseInt(m[1]) <= 20) stats.albumCount = parseInt(m[1]);
       }
     }
   }
-  await sleep(250);
-
-  // Sold-out / tour buzz
-  const q2 = await braveSearch(`"${name}" concert "sold out" OR "selling fast" OR "added dates" 2025 OR 2026`);
-  if (q2?.web?.results) {
-    stats.soldOutSnippets = q2.web.results
-      .filter(r => /sold.out|sell.out|selling fast|added dates|venue upgrade/i.test(`${r.title} ${r.description}`))
-      .map(r => ({ title: r.title, snippet: (r.description || '').slice(0, 150), url: r.url }));
-    stats.soldOutMentions = stats.soldOutSnippets.length;
-  }
-  await sleep(250);
-
   return stats;
 }
 
 async function checkTourDates(name) {
   try {
-    const r = await fetch(`https://api.seatgeek.com/2/events?q=${encodeURIComponent(name)}&per_page=20&sort=datetime_utc.asc&datetime_utc.gte=${new Date().toISOString().split('T')[0]}&client_id=${SEATGEEK_CLIENT_ID}`);
+    const r = await fetch(`https://api.seatgeek.com/2/events?q=${encodeURIComponent(name)}&per_page=10&sort=datetime_utc.asc&datetime_utc.gte=${new Date().toISOString().split('T')[0]}&client_id=${SEATGEEK_CLIENT_ID}`);
     if (r.status !== 200) return { upcoming: 0, events: [] };
     const data = await r.json();
-    if (!data?.events?.length) return { upcoming: 0, events: [] };
     return {
-      upcoming: data.events.length,
-      events: data.events.slice(0, 5).map(e => ({
+      upcoming: data.events?.length || 0,
+      events: (data.events || []).slice(0, 5).map(e => ({
         title: e.title, date: e.datetime_utc?.split('T')[0],
         venue: e.venue?.name, city: `${e.venue?.city}, ${e.venue?.state}`,
-        capacity: e.venue?.capacity,
-        lowestPrice: e.stats?.lowest_sg_base_price, avgPrice: e.stats?.average_price,
-        url: e.url
+        capacity: e.venue?.capacity, avgPrice: e.stats?.average_price, url: e.url
       }))
     };
   } catch { return { upcoming: 0, events: [] }; }
 }
 
-// --- Scoring ---
-
 function scoreArtist(a) {
   let score = 0;
-  
-  // Playlist presence (strongest signal — Spotify editorial = curated push)
+  // Playlist presence
   if (a.playlistCount >= 4) score += 25;
   else if (a.playlistCount >= 3) score += 20;
   else if (a.playlistCount >= 2) score += 15;
-  else score += 5;
-  
-  // Monthly listeners sweet spot (hasn't broken through yet)
+  // Blog mentions
+  if (a.blogMentions >= 3) score += 15;
+  else if (a.blogMentions >= 2) score += 10;
+  else if (a.blogMentions >= 1) score += 5;
+  // Monthly listeners sweet spot
   const ml = a.monthlyListeners || 0;
-  if (ml > 0 && ml <= 500000) score += 20;        // Early stage — best opportunity
-  else if (ml > 500000 && ml <= 2000000) score += 15;  // Rising
-  else if (ml > 2000000 && ml <= 5000000) score += 8;  // Getting big
-  else if (ml === 0) score += 5;                        // Unknown = could be early
-  
-  // Sold-out history
+  if (ml > 0 && ml <= 500000) score += 20;
+  else if (ml <= 2000000) score += 12;
+  else if (ml <= 5000000) score += 5;
+  // Sold-outs
   if (a.soldOutMentions >= 3) score += 20;
   else if (a.soldOutMentions >= 1) score += 12;
-  
-  // Social buzz
-  const socials = [a.instagramFollowers, a.tiktokFollowers, a.youtubeSubscribers].filter(Boolean).length;
-  if (socials >= 2) score += 8;
-  else if (socials >= 1) score += 4;
-  
+  // Social
   if (a.tiktokFollowers > 500000) score += 5;
-  
-  // Album count (fewer = newer)
-  const albums = a.albumCount || 0;
-  if (albums >= 1 && albums <= 2) score += 10;
-  else if (albums === 0) score += 5;
-  
+  if (a.instagramFollowers > 100000) score += 3;
   // Tour scarcity
-  const shows = a.upcomingShows || 0;
-  if (shows >= 1 && shows <= 5) score += 10;
-  else if (shows === 0) score += 3;
-  
+  if (a.upcomingShows >= 1 && a.upcomingShows <= 5) score += 10;
+  else if (a.upcomingShows === 0) score += 3;
+  // Albums (new = good)
+  if (a.albumCount >= 1 && a.albumCount <= 2) score += 8;
   return Math.min(100, score);
 }
 
 // --- Main ---
 
 async function run() {
-  console.log('🏴‍☠️ Blackbeard Playlist Discovery Scanner');
+  console.log('🏴‍☠️ Blackbeard Discovery Scanner v2.0');
   console.log('='.repeat(50));
   
-  // Load existing watchlist to flag overlaps
+  const cache = loadCache();
   let watchlistNames = new Set();
   try {
     const wl = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'watchlist.json'), 'utf8'));
     watchlistNames = new Set(wl.artists.map(a => a.name.toLowerCase()));
   } catch {}
   
-  // Phase 1: Scrape all playlists
-  console.log('\n📋 Phase 1: Scraping editorial playlists...');
-  const artistMap = new Map();
+  // Phase 1: Playlists (FREE)
+  const playlistArtists = await scanPlaylists();
+  console.log(`\n  ✅ ${playlistArtists.length} artists on 2+ editorial playlists`);
   
-  for (const pl of PLAYLISTS) {
-    process.stdout.write(`  🎵 ${pl.name}...`);
-    const tracks = await scrapePlaylist(pl.id);
-    let newCount = 0;
-    for (const t of tracks) {
-      const artist = t.subtitle?.split(',')[0]?.trim();
-      if (!artist) continue;
-      if (MAINSTREAM_FILTER.has(artist.toLowerCase())) continue;
-      
-      if (artistMap.has(artist)) {
-        artistMap.get(artist).playlists.add(pl.name);
-        artistMap.get(artist).trackCount++;
-      } else {
-        artistMap.set(artist, { 
-          name: artist, playlists: new Set([pl.name]), trackCount: 1,
-          onWatchlist: watchlistNames.has(artist.toLowerCase())
-        });
-        newCount++;
-      }
-    }
-    console.log(` ${tracks.length} tracks, ${newCount} new artists`);
-    await sleep(500);
+  // Phase 2: Music blogs (~15 Brave calls)
+  const blogArtists = await scanMusicBlogs();
+  console.log(`\n  ✅ ${blogArtists.length} artists mentioned in music blogs`);
+  
+  // Phase 3: Merge & dedupe
+  const merged = new Map();
+  
+  for (const a of playlistArtists) {
+    merged.set(a.name.toLowerCase(), {
+      name: a.name,
+      playlists: a.playlists,
+      playlistCount: a.playlistCount,
+      blogMentions: 0,
+      blogSources: [],
+      onWatchlist: watchlistNames.has(a.name.toLowerCase()),
+      source: 'playlist'
+    });
   }
   
-  // Phase 2: Filter to rising candidates
-  const candidates = [...artistMap.values()]
-    .map(a => ({ ...a, playlists: [...a.playlists], playlistCount: a.playlists.size }))
-    .filter(a => a.playlistCount >= 2 || a.onWatchlist)
-    .sort((a, b) => b.playlistCount - a.playlistCount || b.trackCount - a.trackCount);
+  for (const a of blogArtists) {
+    const key = a.name.toLowerCase();
+    if (merged.has(key)) {
+      merged.get(key).blogMentions = a.mentions;
+      merged.get(key).blogSources = a.sources;
+      merged.get(key).source = 'playlist+blog';
+    } else {
+      merged.set(key, {
+        name: a.name,
+        playlists: [],
+        playlistCount: 0,
+        blogMentions: a.mentions,
+        blogSources: a.sources,
+        onWatchlist: watchlistNames.has(key),
+        source: 'blog'
+      });
+    }
+  }
   
-  console.log(`\n📊 ${candidates.length} candidates (2+ playlists or on watchlist)`);
+  // Sort by combined signal strength
+  const candidates = [...merged.values()]
+    .sort((a, b) => (b.playlistCount * 3 + b.blogMentions) - (a.playlistCount * 3 + a.blogMentions));
   
-  // Phase 3: Enrich with Brave + SeatGeek
-  console.log('\n🔍 Phase 3: Enriching candidates...');
+  // Phase 4: Enrich only NEW artists not in cache (saves API calls)
+  console.log('\n🔍 Phase 4: Enriching new discoveries (1 Brave call each)...');
   const enriched = [];
-  const MAX_ENRICH = 50;
+  let enrichCount = 0;
+  const MAX_ENRICH = 20; // Only enrich top 20 new ones
   
-  for (const c of candidates.slice(0, MAX_ENRICH)) {
-    process.stdout.write(`  🔎 ${c.name} (${c.playlistCount} playlists)...`);
+  for (const c of candidates) {
+    const cacheKey = c.name.toLowerCase();
+    const cached = cache.artists[cacheKey];
+    const cacheAge = cached ? (Date.now() - new Date(cached.enrichedAt).getTime()) / (1000*60*60*24) : Infinity;
     
-    const stats = await enrichArtist(c.name);
-    const tour = await checkTourDates(c.name);
+    let stats;
+    if (cached && cacheAge < 7) {
+      // Use cached data (less than 7 days old)
+      stats = cached;
+    } else if (enrichCount < MAX_ENRICH) {
+      // Fresh enrichment
+      process.stdout.write(`  🆕 ${c.name}...`);
+      stats = await enrichNewArtist(c.name);
+      const tour = await checkTourDates(c.name);
+      stats.upcomingShows = tour.upcoming;
+      stats.tourDates = tour.events;
+      stats.enrichedAt = new Date().toISOString();
+      cache.artists[cacheKey] = stats;
+      enrichCount++;
+      
+      const ml = stats.monthlyListeners ? `${(stats.monthlyListeners/1000000).toFixed(1)}M` : '?';
+      console.log(` ${ml} listeners | ${stats.soldOutMentions} sold-outs | ${tour.upcoming} shows`);
+      await sleep(300);
+    } else {
+      stats = {};
+    }
     
     const result = {
       ...c,
-      ...stats,
-      upcomingShows: tour.upcoming,
-      tourDates: tour.events,
-      source: c.onWatchlist ? 'watchlist+playlist' : 'playlist'
+      monthlyListeners: stats.monthlyListeners || null,
+      instagramFollowers: stats.instagramFollowers || null,
+      tiktokFollowers: stats.tiktokFollowers || null,
+      soldOutMentions: stats.soldOutMentions || 0,
+      albumCount: stats.albumCount || null,
+      upcomingShows: stats.upcomingShows || 0,
+      tourDates: stats.tourDates || []
     };
     result.risingStarScore = scoreArtist(result);
     enriched.push(result);
-    
-    const ml = stats.monthlyListeners ? `${(stats.monthlyListeners/1000000).toFixed(1)}M` : '?';
-    const wl = c.onWatchlist ? ' 📋' : '';
-    console.log(` ${ml} listeners | ${stats.soldOutMentions} sold-outs | ${tour.upcoming} shows | score ${result.risingStarScore}${wl}`);
-    
-    await sleep(100);
   }
   
-  // Sort by score
   enriched.sort((a, b) => b.risingStarScore - a.risingStarScore);
+  saveCache(cache);
   
-  // Save
+  // Save output
   if (!fs.existsSync(DOCS_DATA_DIR)) fs.mkdirSync(DOCS_DATA_DIR, { recursive: true });
   
   const output = {
     scanDate: new Date().toISOString().split('T')[0],
     scanTime: new Date().toISOString(),
     playlistsScanned: PLAYLISTS.length,
-    totalArtistsFound: artistMap.size,
-    candidatesEnriched: enriched.length,
+    blogQueriesUsed: DISCOVERY_QUERIES.length,
     braveCallsUsed: braveCallCount,
-    artists: enriched
+    totalCandidates: candidates.length,
+    enrichedCount: enrichCount,
+    artists: enriched.slice(0, 100) // Top 100
   };
   
   fs.writeFileSync(path.join(DOCS_DATA_DIR, 'playlist-discoveries.json'), JSON.stringify(output, null, 2));
   
   // Summary
-  const breakouts = enriched.filter(a => a.risingStarScore >= 50);
-  const newFinds = enriched.filter(a => !a.onWatchlist);
+  const breakouts = enriched.filter(a => a.risingStarScore >= 45);
+  const newFinds = enriched.filter(a => !a.onWatchlist && a.risingStarScore >= 20);
   
   console.log('\n' + '='.repeat(50));
-  console.log('🏴‍☠️ PLAYLIST DISCOVERY COMPLETE');
-  console.log(`  Playlists scanned: ${PLAYLISTS.length}`);
-  console.log(`  Total artists: ${artistMap.size}`);
-  console.log(`  Candidates enriched: ${enriched.length}`);
-  console.log(`  Already on watchlist: ${enriched.filter(a => a.onWatchlist).length}`);
-  console.log(`  NEW discoveries: ${newFinds.length}`);
-  console.log(`  Breakout alerts (≥50): ${breakouts.length}`);
-  console.log(`  Brave calls: ${braveCallCount}`);
+  console.log('🏴‍☠️ DISCOVERY COMPLETE');
+  console.log(`  Playlist artists (2+): ${playlistArtists.length} (FREE)`);
+  console.log(`  Blog mentions: ${blogArtists.length} (~${DISCOVERY_QUERIES.length} Brave calls)`);
+  console.log(`  New enrichments: ${enrichCount} (~${enrichCount} Brave calls)`);
+  console.log(`  Total Brave calls: ${braveCallCount}`);
+  console.log(`  Breakouts (≥45): ${breakouts.length}`);
+  console.log(`  New discoveries: ${newFinds.length}`);
   
-  console.log('\n🌟 TOP 20 PLAYLIST RISING STARS:');
+  console.log('\n🌟 TOP 20 DISCOVERIES:');
   for (const a of enriched.slice(0, 20)) {
     const ml = a.monthlyListeners ? `${(a.monthlyListeners/1000000).toFixed(1)}M` : '?';
     const wl = a.onWatchlist ? ' 📋' : ' 🆕';
-    const so = a.soldOutMentions ? ` | ${a.soldOutMentions}🔥` : '';
-    console.log(`  ${a.risingStarScore}/100 | ${a.name}${wl} | ${a.playlistCount} playlists | ${ml} listeners | ${a.upcomingShows || 0} shows${so}`);
-    console.log(`         └ ${a.playlists.join(', ')}`);
+    const pls = a.playlistCount ? `${a.playlistCount} playlists` : '';
+    const blogs = a.blogMentions ? `${a.blogMentions} blog mentions` : '';
+    const signals = [pls, blogs].filter(Boolean).join(', ');
+    console.log(`  ${a.risingStarScore}/100 | ${a.name}${wl} | ${signals} | ${ml} listeners | ${a.upcomingShows} shows`);
   }
   
   return { enriched, breakouts, newFinds };
@@ -328,27 +465,24 @@ async function run() {
 
 function formatDiscordAlert(results) {
   const { enriched, breakouts, newFinds } = results;
-  let msg = '📋 **PLAYLIST DISCOVERY SCAN** 📋\n';
-  msg += `Scanned ${PLAYLISTS.length} Spotify editorial playlists\n\n`;
+  let msg = '📋 **DISCOVERY SCAN** 📋\n\n';
   
   if (breakouts.length) {
     msg += '🚨 **BREAKOUT SIGNALS:**\n';
     for (const b of breakouts.slice(0, 8)) {
       const ml = b.monthlyListeners ? `${(b.monthlyListeners/1000000).toFixed(1)}M listeners` : '';
-      const pls = b.playlists.slice(0, 3).join(', ');
-      const so = b.soldOutMentions ? ` | ${b.soldOutMentions} sold-outs` : '';
+      const signals = [];
+      if (b.playlistCount) signals.push(`${b.playlistCount} playlists`);
+      if (b.blogMentions) signals.push(`${b.blogMentions} blog mentions`);
+      if (b.soldOutMentions) signals.push(`${b.soldOutMentions} sold-outs`);
       const wl = b.onWatchlist ? ' 📋' : ' 🆕';
-      msg += `> 🔥 **${b.name}**${wl} — **${b.risingStarScore}**/100 | ${b.playlistCount} playlists (${pls}) | ${ml}${so}\n`;
+      msg += `> 🔥 **${b.name}**${wl} — **${b.risingStarScore}**/100 | ${signals.join(' | ')} | ${ml}\n`;
     }
     msg += '\n';
   }
   
   if (newFinds.length) {
-    msg += `🆕 **${newFinds.length} NEW artists** not on watchlist yet — top picks:\n`;
-    for (const a of newFinds.filter(a => a.risingStarScore >= 30).slice(0, 10)) {
-      const ml = a.monthlyListeners ? `${(a.monthlyListeners/1000000).toFixed(1)}M` : '?';
-      msg += `> **${a.name}** — ${a.risingStarScore}/100 | ${a.playlistCount} playlists | ${ml} listeners | ${a.upcomingShows || 0} shows\n`;
-    }
+    msg += `🆕 **${newFinds.length} NEW discoveries** — consider adding to watchlist\n`;
   }
   
   return msg;

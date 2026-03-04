@@ -25,7 +25,7 @@ const RISING_STARS_FILE = path.join(DOCS_DATA_DIR, 'rising-stars.json');
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 let braveCallCount = 0;
-const MAX_BRAVE_CALLS = 280;
+const MAX_BRAVE_CALLS = 30; // Keep it tight — SerpAPI Starter Plan is 1000/mo
 
 // --- Brave Search ---
 
@@ -326,19 +326,42 @@ async function run() {
   const history = loadHistory();
   const today = new Date().toISOString().split('T')[0];
   
-  // === PHASE 1: Scan all watchlist artists via Brave + SeatGeek ===
+  // Load cache to skip recently-scanned artists
+  let cache = {};
+  const CACHE_PATH = path.join(DATA_DIR, 'watchlist-stats-cache.json');
+  try { cache = JSON.parse(fs.readFileSync(CACHE_PATH, 'utf8')); } catch {}
+  
+  // === PHASE 1: Scan watchlist artists (use cache for recent, Brave for stale) ===
   console.log(`\n📊 Phase 1: Scanning ${watchlist.artists.length} watchlist artists...`);
   const watchlistResults = [];
+  let freshScans = 0;
   
   for (const wa of watchlist.artists) {
-    if (braveCallCount >= MAX_BRAVE_CALLS) {
-      console.log(`\n  ⚠️ Brave limit reached (${braveCallCount}/${MAX_BRAVE_CALLS}), stopping watchlist scan`);
-      break;
-    }
-    process.stdout.write(`  🎵 ${wa.name}...`);
+    const cacheKey = wa.name.toLowerCase();
+    const cached = cache[cacheKey];
+    const cacheAge = cached ? (Date.now() - new Date(cached._cachedAt).getTime()) / (1000*60*60*24) : Infinity;
     
-    const stats = await getArtistStats(wa.name);
-    const tourData = await checkTourDates(wa.name);
+    let stats, tourData;
+    
+    if (cached && cacheAge < 7 && braveCallCount >= MAX_BRAVE_CALLS) {
+      // Use cache if Brave is exhausted
+      stats = cached;
+      tourData = { upcoming: cached._upcomingShows || 0, events: cached._tourDates || [] };
+      process.stdout.write(`  📦 ${wa.name} (cached)...`);
+    } else if (braveCallCount < MAX_BRAVE_CALLS && (cacheAge >= 3 || !cached)) {
+      // Fresh scan if cache is stale (>3 days) or missing
+      process.stdout.write(`  🎵 ${wa.name}...`);
+      stats = await getArtistStats(wa.name);
+      tourData = await checkTourDates(wa.name);
+      // Cache it
+      cache[cacheKey] = { ...stats, _cachedAt: new Date().toISOString(), _upcomingShows: tourData.upcoming, _tourDates: tourData.events };
+      freshScans++;
+    } else {
+      // Use cache
+      stats = cached || {};
+      tourData = { upcoming: cached?._upcomingShows || 0, events: cached?._tourDates || [] };
+      process.stdout.write(`  📦 ${wa.name} (cached)...`);
+    }
     const growth = calculateGrowth(wa.name, stats, history);
     
     const result = {
@@ -400,6 +423,10 @@ async function run() {
     const ml = stats.monthlyListeners ? `${(stats.monthlyListeners / 1000000).toFixed(1)}M` : '?';
     console.log(` ${ml} listeners | ${stats.albumCount || '?'} albums | score ${result.risingStarScore}`);
   }
+  
+  // Save cache
+  fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2));
+  console.log(`\n  Fresh scans: ${freshScans}, Cached: ${watchlistResults.length - freshScans}`);
   
   // === Save history ===
   const snapshot = { date: today, artists: {} };
