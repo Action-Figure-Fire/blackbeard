@@ -4,25 +4,31 @@
  * Announces start/finish to Discord alerts channel
  */
 
-const { run, formatDiscordAlert } = require('./spotify-scanner');
-
-const ALERT_CHANNEL = '1476967271334285497';
+const { run: runWatchlist, formatDiscordAlert: formatWatchlist } = require('./spotify-scanner');
+const { run: runPlaylist, formatDiscordAlert: formatPlaylist } = require('./playlist-discovery');
 
 async function sendDiscord(msg) {
-  // Output for OpenClaw to pick up
   console.log(`\n--- ALERT ---\n${msg}\n--- END ---`);
 }
 
 async function main() {
   const startTime = Date.now();
-  await sendDiscord('🌟 **Rising Stars scan starting...** Scanning all watchlist artists + discovering new talent.');
+  await sendDiscord('🌟 **Rising Stars scan starting...** Scanning watchlist + editorial playlists.');
   
   try {
-    const results = await run();
+    // Phase 1: Watchlist scan
+    console.log('\n========== WATCHLIST SCAN ==========');
+    const watchlistResults = await runWatchlist();
+    
+    // Phase 2: Playlist discovery
+    console.log('\n========== PLAYLIST DISCOVERY ==========');
+    const playlistResults = await runPlaylist();
+    
     const elapsed = ((Date.now() - startTime) / 1000 / 60).toFixed(1);
     
-    let msg = formatDiscordAlert(results);
-    msg += `\n⏱️ Scan completed in ${elapsed} min`;
+    let msg = formatWatchlist(watchlistResults);
+    msg += '\n\n' + formatPlaylist(playlistResults);
+    msg += `\n⏱️ Full scan completed in ${elapsed} min`;
     
     await sendDiscord(msg);
     
