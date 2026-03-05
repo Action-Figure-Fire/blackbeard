@@ -791,5 +791,350 @@
         "getIn": "$155.20"
       }
     ]
-  }
+  },
+  "trackedVenues": [
+    {
+      "name": "Bowery Ballroom",
+      "city": "New York",
+      "state": "NY",
+      "cap": 575,
+      "type": "ga"
+    },
+    {
+      "name": "Terminal 5",
+      "city": "New York",
+      "state": "NY",
+      "cap": 3000,
+      "type": "ga"
+    },
+    {
+      "name": "Webster Hall",
+      "city": "New York",
+      "state": "NY",
+      "cap": 1500,
+      "type": "ga"
+    },
+    {
+      "name": "Brooklyn Steel",
+      "city": "Brooklyn",
+      "state": "NY",
+      "cap": 1800,
+      "type": "ga"
+    },
+    {
+      "name": "Music Hall of Williamsburg",
+      "city": "Brooklyn",
+      "state": "NY",
+      "cap": 550,
+      "type": "ga"
+    },
+    {
+      "name": "Brooklyn Paramount",
+      "city": "Brooklyn",
+      "state": "NY",
+      "cap": 1800,
+      "type": "ga"
+    },
+    {
+      "name": "Avant Gardner",
+      "city": "Brooklyn",
+      "state": "NY",
+      "cap": 4500,
+      "type": "ga"
+    },
+    {
+      "name": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "cap": 1025,
+      "type": "ga"
+    },
+    {
+      "name": "Stage AE",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "cap": 5500,
+      "type": "ga"
+    },
+    {
+      "name": "Mr. Smalls Theatre",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "cap": 600,
+      "type": "ga"
+    },
+    {
+      "name": "Thunderbird Cafe",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "cap": 250,
+      "type": "ga"
+    },
+    {
+      "name": "The Bomb Factory",
+      "city": "Dallas",
+      "state": "TX",
+      "cap": 4300,
+      "type": "ga"
+    },
+    {
+      "name": "Trees",
+      "city": "Dallas",
+      "state": "TX",
+      "cap": 750,
+      "type": "ga"
+    },
+    {
+      "name": "Emos Austin",
+      "city": "Austin",
+      "state": "TX",
+      "cap": 850,
+      "type": "ga"
+    },
+    {
+      "name": "White Oak Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "cap": 3000,
+      "type": "ga"
+    },
+    {
+      "name": "Stubb's",
+      "city": "Austin",
+      "state": "TX",
+      "cap": 2100,
+      "type": "ga"
+    },
+    {
+      "name": "The Fonda Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "cap": 1200,
+      "type": "ga"
+    },
+    {
+      "name": "The Roxy",
+      "city": "Los Angeles",
+      "state": "CA",
+      "cap": 500,
+      "type": "ga"
+    },
+    {
+      "name": "The Novo",
+      "city": "Los Angeles",
+      "state": "CA",
+      "cap": 2300,
+      "type": "ga"
+    },
+    {
+      "name": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "cap": 1850,
+      "type": "ga"
+    },
+    {
+      "name": "Shrine Expo Hall",
+      "city": "Los Angeles",
+      "state": "CA",
+      "cap": 4800,
+      "type": "ga"
+    },
+    {
+      "name": "Metro Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "cap": 1100,
+      "type": "ga"
+    },
+    {
+      "name": "Thalia Hall",
+      "city": "Chicago",
+      "state": "IL",
+      "cap": 800,
+      "type": "ga"
+    },
+    {
+      "name": "Riviera Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "cap": 2500,
+      "type": "ga"
+    },
+    {
+      "name": "Concord Music Hall",
+      "city": "Chicago",
+      "state": "IL",
+      "cap": 1100,
+      "type": "ga"
+    },
+    {
+      "name": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "cap": 1200,
+      "type": "ga"
+    },
+    {
+      "name": "The Anthem",
+      "city": "Washington",
+      "state": "DC",
+      "cap": 6000,
+      "type": "ga"
+    },
+    {
+      "name": "Union Transfer",
+      "city": "Philadelphia",
+      "state": "PA",
+      "cap": 1200,
+      "type": "ga"
+    },
+    {
+      "name": "The Fillmore Philly",
+      "city": "Philadelphia",
+      "state": "PA",
+      "cap": 2500,
+      "type": "ga"
+    },
+    {
+      "name": "Marathon Music Works",
+      "city": "Nashville",
+      "state": "TN",
+      "cap": 1500,
+      "type": "ga"
+    },
+    {
+      "name": "The Basement East",
+      "city": "Nashville",
+      "state": "TN",
+      "cap": 800,
+      "type": "ga"
+    },
+    {
+      "name": "Variety Playhouse",
+      "city": "Atlanta",
+      "state": "GA",
+      "cap": 1100,
+      "type": "ga"
+    },
+    {
+      "name": "The Tabernacle",
+      "city": "Atlanta",
+      "state": "GA",
+      "cap": 2600,
+      "type": "ga"
+    },
+    {
+      "name": "Coca-Cola Roxy",
+      "city": "Atlanta",
+      "state": "GA",
+      "cap": 3600,
+      "type": "ga"
+    },
+    {
+      "name": "Gothic Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "cap": 1100,
+      "type": "ga"
+    },
+    {
+      "name": "Ogden Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "cap": 1600,
+      "type": "ga"
+    },
+    {
+      "name": "Mission Ballroom",
+      "city": "Denver",
+      "state": "CO",
+      "cap": 4000,
+      "type": "ga"
+    },
+    {
+      "name": "The Fillmore SF",
+      "city": "San Francisco",
+      "state": "CA",
+      "cap": 1315,
+      "type": "ga"
+    },
+    {
+      "name": "The Independent",
+      "city": "San Francisco",
+      "state": "CA",
+      "cap": 500,
+      "type": "ga"
+    },
+    {
+      "name": "Showbox",
+      "city": "Seattle",
+      "state": "WA",
+      "cap": 1100,
+      "type": "ga"
+    },
+    {
+      "name": "Wonder Ballroom",
+      "city": "Portland",
+      "state": "OR",
+      "cap": 800,
+      "type": "ga"
+    },
+    {
+      "name": "Crystal Ballroom",
+      "city": "Portland",
+      "state": "OR",
+      "cap": 1500,
+      "type": "ga"
+    },
+    {
+      "name": "Cannery Ballroom",
+      "city": "Nashville",
+      "state": "TN",
+      "cap": 1000,
+      "type": "ga"
+    },
+    {
+      "name": "First Avenue",
+      "city": "Minneapolis",
+      "state": "MN",
+      "cap": 1550,
+      "type": "ga"
+    },
+    {
+      "name": "The Rave",
+      "city": "Milwaukee",
+      "state": "WI",
+      "cap": 3500,
+      "type": "ga"
+    },
+    {
+      "name": "Agora Theatre",
+      "city": "Cleveland",
+      "state": "OH",
+      "cap": 2200,
+      "type": "ga"
+    },
+    {
+      "name": "Royale",
+      "city": "Boston",
+      "state": "MA",
+      "cap": 1200,
+      "type": "ga"
+    },
+    {
+      "name": "House of Blues Boston",
+      "city": "Boston",
+      "state": "MA",
+      "cap": 2425,
+      "type": "ga"
+    },
+    {
+      "name": "College Street Music Hall",
+      "city": "New Haven",
+      "state": "CT",
+      "cap": 1500,
+      "type": "ga"
+    }
+  ]
 }

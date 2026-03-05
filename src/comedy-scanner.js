@@ -83,6 +83,21 @@ const COMEDY_VENUES = [
   { name: 'Cap City Comedy', city: 'Austin', cap: 330, site: 'capcitycomedy.com' },
   { name: 'The Ice House', city: 'Pasadena', cap: 200, site: 'icehousecomedy.com' },
   { name: 'Funny Bone', city: 'Various', cap: 350, site: 'funnybone.com' },
+  // Bigger GA venues that host comedy specials/tapings
+  { name: 'Bowery Ballroom', city: 'New York', cap: 575, site: 'boweryballroom.com' },
+  { name: 'Terminal 5', city: 'New York', cap: 3000, site: 'terminal5nyc.com' },
+  { name: 'The Bomb Factory', city: 'Dallas', cap: 4300, site: 'thebombfactory.com' },
+  { name: 'Stage AE', city: 'Pittsburgh', cap: 5500, site: 'promowestlive.com' },
+  { name: 'Webster Hall', city: 'New York', cap: 1500, site: 'websterhall.com' },
+  { name: 'Brooklyn Steel', city: 'Brooklyn', cap: 1800, site: 'bfrg.com' },
+  { name: 'The Wiltern', city: 'Los Angeles', cap: 1850, site: 'thewiltern.com' },
+  { name: 'The Tabernacle', city: 'Atlanta', cap: 2600, site: 'tabernacleatl.com' },
+  { name: 'Riviera Theatre', city: 'Chicago', cap: 2500, site: 'rivieratheatre.com' },
+  { name: 'The Anthem', city: 'Washington DC', cap: 6000, site: 'theanthemdc.com' },
+  { name: 'Union Transfer', city: 'Philadelphia', cap: 1200, site: 'utphilly.com' },
+  { name: 'Mission Ballroom', city: 'Denver', cap: 4000, site: 'missionballroom.com' },
+  { name: 'Marathon Music Works', city: 'Nashville', cap: 1500, site: 'marathonmusicworks.com' },
+  { name: 'First Avenue', city: 'Minneapolis', cap: 1550, site: 'first-avenue.com' },
 ];
 
 // HTTP fetch helper

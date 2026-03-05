@@ -3,1013 +3,1098 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🏴‍☠️ Blackbeard — Ticket Intelligence Report</title>
+<title>Blackbeard — Ticket Market Intelligence</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏴‍☠️</text></svg>">
 <style>
+:root {
+  --bg: #0b0e14;
+  --surface: #131720;
+  --surface2: #1a1f2e;
+  --border: #1e2536;
+  --border-hover: #2a3347;
+  --text: #c9d1d9;
+  --text-muted: #7a8599;
+  --text-dim: #4a5568;
+  --accent: #f0b429;
+  --accent-dim: rgba(240,180,41,0.12);
+  --red: #f85149;
+  --red-dim: rgba(248,81,73,0.12);
+  --green: #3fb950;
+  --green-dim: rgba(63,185,80,0.12);
+  --blue: #58a6ff;
+  --blue-dim: rgba(88,166,255,0.12);
+  --purple: #bc8cff;
+  --orange: #f0883e;
+  --radius: 8px;
+  --radius-lg: 12px;
+}
 * { margin:0; padding:0; box-sizing:border-box; }
-body { background:#0a0a0f; color:#e8e6e3; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; line-height:1.6; }
-.container { max-width:920px; margin:0 auto; padding:14px; }
-header { text-align:center; padding:28px 0 18px; border-bottom:2px solid #d4a017; margin-bottom:24px; }
-header h1 { font-size:2.2rem; color:#d4a017; letter-spacing:1px; }
-header .subtitle { color:#aaa; font-size:0.95rem; margin-top:4px; }
-header .updated { color:#666; font-size:0.8rem; margin-top:10px; }
-header .disclaimer { color:#555; font-size:0.7rem; margin-top:6px; font-style:italic; }
+body { background:var(--bg); color:var(--text); font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; line-height:1.5; font-size:14px; }
+a { color:var(--blue); text-decoration:none; }
+a:hover { text-decoration:underline; }
 
-/* Tabs */
-.tab-bar { display:flex; gap:4px; margin-bottom:20px; overflow-x:auto; -webkit-overflow-scrolling:touch; border-bottom:1px solid #222; padding-bottom:4px; }
-.tab-bar button { background:transparent; border:1px solid transparent; border-radius:6px 6px 0 0; padding:8px 14px; color:#777; font-size:0.8rem; font-weight:600; cursor:pointer; white-space:nowrap; font-family:inherit; }
-.tab-bar button.active { background:#14141f; border-color:#333; border-bottom-color:#14141f; color:#d4a017; }
-.tab-bar button:hover { color:#fff; }
-.tab-content { display:none; }
-.tab-content.active { display:block; }
+/* Layout */
+.app { display:flex; min-height:100vh; }
+.sidebar { width:240px; background:var(--surface); border-right:1px solid var(--border); padding:20px 0; position:fixed; top:0; left:0; bottom:0; overflow-y:auto; z-index:100; }
+.main { flex:1; margin-left:240px; padding:24px 32px; max-width:1200px; }
+
+/* Sidebar */
+.logo { padding:0 20px 20px; border-bottom:1px solid var(--border); margin-bottom:12px; }
+.logo h1 { font-size:18px; font-weight:700; color:#fff; letter-spacing:-0.5px; }
+.logo h1 span { color:var(--accent); }
+.logo .tagline { font-size:11px; color:var(--text-muted); margin-top:2px; letter-spacing:0.5px; text-transform:uppercase; }
+.nav-section { padding:8px 12px; }
+.nav-label { font-size:10px; font-weight:700; color:var(--text-dim); text-transform:uppercase; letter-spacing:1.2px; padding:8px 8px 4px; }
+.nav-item { display:flex; align-items:center; gap:10px; padding:8px 12px; border-radius:6px; cursor:pointer; font-size:13px; color:var(--text-muted); transition:all 0.15s; }
+.nav-item:hover { background:var(--surface2); color:var(--text); }
+.nav-item.active { background:var(--accent-dim); color:var(--accent); font-weight:600; }
+.nav-item .icon { font-size:16px; width:20px; text-align:center; }
+.nav-item .count { margin-left:auto; font-size:11px; background:var(--surface2); padding:1px 6px; border-radius:10px; font-weight:600; }
+.nav-item.active .count { background:rgba(240,180,41,0.2); color:var(--accent); }
+
+/* Stats bar */
+.stats-row { display:grid; grid-template-columns:repeat(auto-fit, minmax(160px,1fr)); gap:12px; margin-bottom:24px; }
+.stat-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:16px; }
+.stat-card .stat-val { font-size:28px; font-weight:700; color:#fff; }
+.stat-card .stat-label { font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.8px; margin-top:2px; }
+.stat-card .stat-change { font-size:12px; margin-top:4px; }
+.stat-card .stat-change.up { color:var(--green); }
+.stat-card .stat-change.down { color:var(--red); }
 
 /* Section headers */
-.section-header { display:flex; align-items:center; gap:10px; margin:24px 0 14px; padding-bottom:8px; border-bottom:1px solid #333; }
-.section-header h2 { font-size:1.2rem; color:#d4a017; }
-.section-header .count { background:#d4a017; color:#0a0a0f; font-size:0.7rem; font-weight:700; padding:2px 8px; border-radius:10px; }
+.section-head { display:flex; align-items:center; justify-content:space-between; margin:28px 0 14px; }
+.section-head h2 { font-size:16px; font-weight:700; color:#fff; }
+.section-head .badge-count { font-size:11px; background:var(--surface2); border:1px solid var(--border); padding:2px 10px; border-radius:12px; color:var(--text-muted); font-weight:600; }
 
-/* Event cards */
-.card { background:#14141f; border:1px solid #222; border-radius:10px; padding:16px; margin-bottom:14px; position:relative; cursor:pointer; transition:border-color 0.2s; }
-.card:hover { border-color:#444; }
-.card.tier-s { border-left:4px solid #ff2d2d; }
-.card.tier-a { border-left:4px solid #d4a017; }
-.card.tier-b { border-left:4px solid #4a9eff; }
+/* Event cards — the money maker */
+.event-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-lg); padding:0; margin-bottom:12px; overflow:hidden; transition:border-color 0.15s; cursor:pointer; }
+.event-card:hover { border-color:var(--border-hover); }
+.event-card .card-header { display:flex; align-items:center; gap:12px; padding:16px 20px; }
+.event-card .tier-stripe { width:4px; align-self:stretch; border-radius:2px; flex-shrink:0; margin:-16px 0; margin-left:-20px; padding-left:0; }
+.tier-s { background:var(--red); }
+.tier-a { background:var(--accent); }
+.tier-b { background:var(--blue); }
+.tier-c { background:var(--text-dim); }
 
-.card-top { display:flex; justify-content:space-between; align-items:flex-start; gap:8px; flex-wrap:wrap; }
-.card-title { font-size:1.05rem; font-weight:700; color:#fff; }
-.card-badges { display:flex; gap:5px; flex-wrap:wrap; }
-.badge { font-size:0.65rem; font-weight:700; padding:2px 7px; border-radius:4px; white-space:nowrap; }
-.badge-s { background:#ff2d2d; color:#fff; }
-.badge-a { background:#d4a017; color:#0a0a0f; }
-.badge-b { background:#4a9eff; color:#fff; }
-.badge-sold-out { background:rgba(255,45,45,0.15); color:#ff6b6b; border:1px solid rgba(255,45,45,0.3); }
-.badge-demand { background:rgba(255,107,53,0.15); color:#ff9a5c; border:1px solid rgba(255,107,53,0.3); }
-.badge-upgrade { background:rgba(155,89,182,0.15); color:#bb8fce; border:1px solid rgba(155,89,182,0.3); }
-.badge-added { background:rgba(39,174,96,0.15); color:#5dca88; border:1px solid rgba(39,174,96,0.3); }
-.badge-cat { background:#222; color:#999; }
+.card-left { flex:1; min-width:0; }
+.card-title { font-size:15px; font-weight:700; color:#fff; }
+.card-subtitle { font-size:12px; color:var(--text-muted); margin-top:2px; }
+.card-right { display:flex; align-items:center; gap:8px; flex-shrink:0; }
 
-.card-meta { margin-top:8px; font-size:0.82rem; color:#888; }
-.card-meta .venue { color:#aaa; }
-.card-meta .date { color:#d4a017; }
+/* Tags */
+.tag { display:inline-flex; align-items:center; gap:4px; font-size:11px; font-weight:600; padding:3px 8px; border-radius:4px; white-space:nowrap; }
+.tag-s { background:var(--red-dim); color:var(--red); }
+.tag-a { background:var(--accent-dim); color:var(--accent); }
+.tag-b { background:var(--blue-dim); color:var(--blue); }
+.tag-sold-out { background:rgba(248,81,73,0.1); color:#ff7b72; border:1px solid rgba(248,81,73,0.2); }
+.tag-hot { background:rgba(240,136,62,0.1); color:var(--orange); border:1px solid rgba(240,136,62,0.2); }
+.tag-new { background:var(--green-dim); color:var(--green); border:1px solid rgba(63,185,80,0.2); }
+.tag-venue { background:rgba(188,140,255,0.1); color:var(--purple); border:1px solid rgba(188,140,255,0.2); }
 
-/* Data grid */
-.data-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(120px, 1fr)); gap:8px; margin-top:10px; }
-.data-cell { background:#1a1a2e; padding:8px 10px; border-radius:6px; }
-.data-cell .label { font-size:0.6rem; color:#666; text-transform:uppercase; letter-spacing:1px; }
-.data-cell .value { font-size:1rem; font-weight:700; color:#d4a017; margin-top:2px; }
-.data-cell .value.hot { color:#ff2d2d; }
-.data-cell .source { font-size:0.55rem; color:#555; margin-top:2px; }
+/* Score ring */
+.score-ring { width:48px; height:48px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:16px; font-weight:800; color:#fff; position:relative; }
+.score-ring::before { content:''; position:absolute; inset:0; border-radius:50%; border:3px solid var(--border); }
+.score-ring.s { background:rgba(248,81,73,0.15); }
+.score-ring.s::before { border-color:var(--red); }
+.score-ring.a { background:rgba(240,180,41,0.15); }
+.score-ring.a::before { border-color:var(--accent); }
+.score-ring.b { background:rgba(88,166,255,0.15); }
+.score-ring.b::before { border-color:var(--blue); }
 
-/* Trends bar */
-.trend-bar { margin-top:10px; display:flex; align-items:center; gap:10px; padding:8px 12px; background:#111; border-radius:6px; }
-.trend-bar .trend-label { font-size:0.7rem; color:#888; text-transform:uppercase; letter-spacing:1px; }
-.trend-bar .trend-score { font-size:0.85rem; font-weight:700; }
-.trend-bar .trend-score.high { color:#ff2d2d; }
-.trend-bar .trend-score.rising { color:#ff9500; }
-.trend-bar .trend-score.moderate { color:#4a9eff; }
-.trend-bar .trend-score.low { color:#666; }
-.trend-bar .trend-signals { font-size:0.75rem; color:#999; flex:1; }
-.trend-fill { height:4px; border-radius:2px; background:#1a1a2e; flex:1; max-width:120px; overflow:hidden; }
-.trend-fill-inner { height:100%; border-radius:2px; }
+/* Card expanded content */
+.card-body { display:none; padding:0 20px 20px; border-top:1px solid var(--border); margin-top:0; }
+.event-card.open .card-body { display:block; padding-top:16px; }
 
-/* Insight box */
-.insight { margin-top:10px; font-size:0.82rem; color:#bbb; background:#0d0d18; padding:10px 12px; border-radius:6px; border-left:3px solid #d4a017; }
-.insight .source-cite { color:#555; font-size:0.7rem; font-style:italic; margin-top:4px; }
+/* Data pills row */
+.data-pills { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:14px; }
+.pill { background:var(--surface2); border:1px solid var(--border); border-radius:6px; padding:8px 12px; min-width:110px; }
+.pill .pill-label { font-size:10px; color:var(--text-dim); text-transform:uppercase; letter-spacing:0.8px; }
+.pill .pill-value { font-size:14px; font-weight:700; color:#fff; margin-top:2px; }
+.pill .pill-value.hot { color:var(--red); }
+.pill .pill-value.warm { color:var(--orange); }
+.pill .pill-source { font-size:10px; color:var(--text-dim); margin-top:2px; }
+
+/* Demand bar */
+.demand-bar { display:flex; align-items:center; gap:12px; padding:10px 14px; background:var(--surface2); border-radius:6px; margin-bottom:14px; }
+.demand-bar .db-label { font-size:10px; color:var(--text-dim); text-transform:uppercase; letter-spacing:1px; white-space:nowrap; }
+.demand-bar .db-track { flex:1; height:6px; background:var(--bg); border-radius:3px; overflow:hidden; }
+.demand-bar .db-fill { height:100%; border-radius:3px; transition:width 0.3s; }
+.demand-bar .db-score { font-size:14px; font-weight:700; white-space:nowrap; }
+.demand-bar .db-signals { font-size:11px; color:var(--text-muted); }
+
+/* Insight block */
+.insight-block { background:var(--bg); border-left:3px solid var(--accent); border-radius:0 6px 6px 0; padding:12px 14px; margin-bottom:14px; }
+.insight-block p { font-size:13px; color:var(--text); }
+.insight-block .cite { font-size:11px; color:var(--text-dim); margin-top:6px; font-style:italic; }
 
 /* Action box */
-.action-box { margin-top:10px; padding:10px 12px; background:rgba(212,160,23,0.06); border:1px solid rgba(212,160,23,0.15); border-radius:6px; }
-.action-box .action-label { font-size:0.65rem; color:#d4a017; text-transform:uppercase; letter-spacing:1.5px; font-weight:700; margin-bottom:4px; }
-.action-box ul { margin-left:16px; }
-.action-box li { font-size:0.82rem; color:#aaa; margin-bottom:3px; }
+.action-block { padding:12px 14px; background:var(--accent-dim); border:1px solid rgba(240,180,41,0.15); border-radius:6px; margin-bottom:14px; }
+.action-block .action-label { font-size:10px; font-weight:700; color:var(--accent); text-transform:uppercase; letter-spacing:1.5px; margin-bottom:6px; }
+.action-block ul { margin-left:16px; }
+.action-block li { font-size:13px; color:var(--text-muted); margin-bottom:4px; }
 
-/* Links */
-.card-links { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
-.card-links a { font-size:0.75rem; color:#4a9eff; text-decoration:none; padding:4px 10px; border:1px solid rgba(74,158,255,0.3); border-radius:4px; transition:all 0.2s; }
-.card-links a:hover { background:#4a9eff; color:#fff; }
+/* Links row */
+.links-row { display:flex; gap:6px; flex-wrap:wrap; }
+.link-btn { font-size:12px; padding:5px 12px; border:1px solid var(--border); border-radius:5px; color:var(--blue); transition:all 0.15s; display:inline-flex; align-items:center; gap:4px; }
+.link-btn:hover { background:var(--blue-dim); border-color:rgba(88,166,255,0.3); text-decoration:none; }
 
-/* Expandable detail */
-.card-detail { display:none; margin-top:12px; padding-top:12px; border-top:1px solid #222; }
-.card.expanded .card-detail { display:block; }
+/* Trends grid */
+.trends-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)); gap:10px; }
+.trend-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:14px; }
+.trend-card .trend-name { font-size:13px; font-weight:600; color:#fff; }
+.trend-card .trend-score { font-size:24px; font-weight:800; margin-top:4px; }
+.trend-card .trend-change { font-size:12px; margin-top:2px; }
+.trend-card .trend-ctx { font-size:11px; color:var(--text-dim); margin-top:4px; }
 
-/* Key stat banner */
-.stat-banner { background:linear-gradient(135deg,#14141f,#0d0d18); border:1px solid #d4a017; border-radius:10px; padding:16px; margin-bottom:18px; display:flex; gap:16px; flex-wrap:wrap; align-items:center; }
-.stat-banner .stat-item { text-align:center; flex:1; min-width:100px; }
-.stat-banner .stat-number { font-size:1.5rem; font-weight:700; color:#d4a017; }
-.stat-banner .stat-label { font-size:0.65rem; color:#888; text-transform:uppercase; letter-spacing:1px; }
+/* Calendar */
+.cal-day { margin-bottom:16px; }
+.cal-date { font-size:13px; font-weight:700; color:var(--accent); margin-bottom:8px; padding-bottom:6px; border-bottom:1px solid var(--border); }
+.cal-event { padding:10px 14px; background:var(--surface); border:1px solid var(--border); border-radius:6px; margin-bottom:6px; display:flex; align-items:center; justify-content:space-between; }
+.cal-event .ce-name { font-size:13px; font-weight:600; color:#fff; }
+.cal-event .ce-detail { font-size:12px; color:var(--text-muted); }
+.cal-event .ce-links { display:flex; gap:6px; }
+
+/* Watchlist */
+.wl-grid { display:flex; flex-wrap:wrap; gap:6px; }
+.wl-chip { font-size:12px; padding:4px 10px; background:var(--surface2); border:1px solid var(--border); border-radius:16px; color:var(--text-muted); }
+.wl-chip.tier-a-chip { border-color:rgba(240,180,41,0.3); color:var(--accent); }
+
+/* Add artist form */
+.add-form { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px; }
+.add-form input, .add-form select { padding:10px 14px; background:var(--surface2); border:1px solid var(--border); border-radius:6px; color:#fff; font-size:13px; outline:none; }
+.add-form input:focus, .add-form select:focus { border-color:var(--accent); }
+.add-form input { flex:1; min-width:200px; }
+.add-form button { padding:10px 20px; background:var(--accent); border:none; border-radius:6px; color:var(--bg); font-weight:700; font-size:13px; cursor:pointer; }
+.add-form button:hover { opacity:0.9; }
+
+/* Venue list */
+.venue-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(250px,1fr)); gap:8px; }
+.venue-card { background:var(--surface2); border:1px solid var(--border); border-radius:6px; padding:10px 14px; display:flex; justify-content:space-between; align-items:center; }
+.venue-card .vn { font-size:13px; font-weight:600; color:#fff; }
+.venue-card .vm { font-size:11px; color:var(--text-muted); }
+.venue-card .vc { font-size:12px; font-weight:700; color:var(--accent); }
+
+/* Mobile sidebar toggle */
+.mobile-toggle { display:none; position:fixed; top:12px; left:12px; z-index:200; background:var(--surface); border:1px solid var(--border); border-radius:6px; padding:8px 12px; cursor:pointer; color:#fff; font-size:18px; }
+@media(max-width:768px) {
+  .sidebar { transform:translateX(-100%); transition:transform 0.2s; }
+  .sidebar.open { transform:translateX(0); }
+  .main { margin-left:0; padding:16px; padding-top:52px; }
+  .mobile-toggle { display:block; }
+  .stats-row { grid-template-columns:repeat(2,1fr); }
+  .trends-grid { grid-template-columns:1fr; }
+  .venue-grid { grid-template-columns:1fr; }
+}
 
 /* Footer */
-footer { text-align:center; padding:24px 0; color:#555; font-size:0.7rem; border-top:1px solid #1a1a1a; margin-top:30px; }
-footer a { color:#4a9eff; }
-
-/* Mobile */
-@media(max-width:600px) {
-  header h1 { font-size:1.5rem; }
-  .card { padding:12px; }
-  .card-title { font-size:0.95rem; }
-  .data-grid { grid-template-columns:repeat(2, 1fr); }
-  .stat-banner { flex-direction:column; gap:10px; }
-  .tab-bar button { padding:6px 10px; font-size:0.7rem; }
-}
+.footer { margin-top:40px; padding:20px 0; border-top:1px solid var(--border); text-align:center; font-size:11px; color:var(--text-dim); }
+.footer a { color:var(--text-muted); }
 </style>
 </head>
 <body>
-<div class="container">
+<div class="app">
 
-<header>
-  <h1>🏴‍☠️ BLACKBEARD</h1>
-  <div class="subtitle">Ticket Intelligence Report — Demand Signals & Scarcity Analysis</div>
-  <div class="updated">Report Date: March 3, 2026 • Sources: SeatGeek API, Vivid Seats, StubHub, Gametime, Google Trends, Reddit, X/Twitter, Brave Search, Pollstar, Billboard</div>
-  <div class="disclaimer">Demand scores reflect observed data signals, not guaranteed outcomes. Pricing data from cited snapshots; resale prices fluctuate. Always verify before purchasing.</div>
-</header>
+<button class="mobile-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">☰</button>
 
-<!-- SUMMARY STATS -->
-<div class="stat-banner">
-  <div class="stat-item"><div class="stat-number">18</div><div class="stat-label">Events Tracked</div></div>
-  <div class="stat-item"><div class="stat-number">5</div><div class="stat-label">High Demand</div></div>
-  <div class="stat-item"><div class="stat-number">76</div><div class="stat-label">Watchlist Artists</div></div>
-  <div class="stat-item"><div class="stat-number">4</div><div class="stat-label">Daily Scans</div></div>
-</div>
-
-
-<!-- GOOGLE TRENDS LIVE DATA -->
-<div class="card" style="border-left:4px solid #d4a017; margin-bottom:20px;">
-  <div class="card-top">
-    <div class="card-title">📊 Google Trends — Live Search Interest (via SerpAPI)</div>
-    <div class="card-badges"><span class="badge badge-demand">REAL DATA</span></div>
+<!-- SIDEBAR -->
+<nav class="sidebar">
+  <div class="logo">
+    <h1>🏴‍☠️ <span>Blackbeard</span></h1>
+    <div class="tagline">Ticket Intelligence</div>
   </div>
-  <div style="margin-top:10px; font-size:0.8rem; color:#888;">Interest score 0-100 (relative to peak in last 3 months). Change = last 4 days vs prior 4 days. Source: Google Trends via SerpAPI, March 3, 2026.</div>
-  <div style="margin-top:12px; display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:8px;">
-    <div class="data-cell"><div class="label">🔺 Big Ten Wrestling</div><div class="value hot">71/100 (+191%)</div><div class="source">Event this weekend</div></div>
-    <div class="data-cell"><div class="label">🔺 March Madness Tickets</div><div class="value hot">86/100 (+53%)</div><div class="source">Selection Sunday Mar 15</div></div>
-    <div class="data-cell"><div class="label">🔺 Vanderbilt Baseball</div><div class="value" style="color:#ff9500;">31/100 (+61%)</div><div class="source">SEC season underway</div></div>
-    <div class="data-cell"><div class="label">🔺 Metallica Sphere</div><div class="value" style="color:#ff9500;">57/100 (-17%)</div><div class="source">Onsale this Friday</div></div>
-    <div class="data-cell"><div class="label">📈 Freya Skye</div><div class="value" style="color:#ff9500;">55/100 (-19%)</div><div class="source">Down from peak at tour announce</div></div>
-    <div class="data-cell"><div class="label">📈 Cat Power Tour</div><div class="value">65/100 (-27%)</div><div class="source">Steady post-announce</div></div>
-    <div class="data-cell"><div class="label">🔺 Stavros Halkias</div><div class="value" style="color:#27ae60;">41/100 (+9%)</div><div class="source">Growing toward Radio City</div></div>
-    <div class="data-cell"><div class="label">🔺 Waxahatchee</div><div class="value" style="color:#27ae60;">36/100 (+6%)</div><div class="source">Steady growth</div></div>
-    <div class="data-cell"><div class="label">🔺 Nate Bargatze Tour</div><div class="value" style="color:#27ae60;">32/100 (+13%)</div><div class="source">Arena tour ongoing</div></div>
-    <div class="data-cell"><div class="label">🔺 Shane Gillis Tour</div><div class="value" style="color:#27ae60;">23/100 (+6%)</div><div class="source">Arena dates ahead</div></div>
-    <div class="data-cell"><div class="label">📈 Joji Tour</div><div class="value">35/100 (-25%)</div><div class="source">Presale tomorrow</div></div>
-    <div class="data-cell"><div class="label">🔻 RUFUS DU SOL</div><div class="value" style="color:#666;">15/100 (-73%)</div><div class="source">Post-announce cooldown (15/24 sold out)</div></div>
-    <div class="data-cell"><div class="label">🔻 Tame Impala Tour</div><div class="value" style="color:#666;">5/100 (-27%)</div><div class="source">Sold out, searches dropped</div></div>
-    <div class="data-cell"><div class="label">📈 MJ Lenderman</div><div class="value" style="color:#666;">12/100 (-15%)</div><div class="source">Niche but stable</div></div>
-  </div>
-  <div class="insight" style="margin-top:12px;">
-    <strong>Key Takeaway:</strong> Biggest movers are <strong>Big Ten Wrestling (+191%)</strong> and <strong>March Madness (+53%)</strong> — both events are imminent. <strong>Vanderbilt baseball (+61%)</strong> is surging as SEC play begins. Note that RUFUS DU SOL and Tame Impala show post-sellout cooldown — search interest drops once tickets are gone, but resale demand remains. Stavros Halkias (+9%) shows quiet, steady growth — a sleeper signal for the March 28 Radio City show.
-    <div class="source-cite">Data: Google Trends via SerpAPI (US, 3-month window, queried March 3, 2026)</div>
-  </div>
-</div>
-
-<!-- TAB NAV -->
-<div class="tab-bar">
-  <button class="active" onclick="showTab('all')">ALL</button>
-  <button onclick="showTab('onsale')">🎟️ ONSALE THIS WEEK</button>
-  <button onclick="showTab('concerts')">🎵 CONCERTS (7)</button>
-  <button onclick="showTab('college')">🏟️ COLLEGE (5)</button>
-  <button onclick="showTab('spring')">⚾ SPRING TRAINING (3)</button>
-  <button onclick="showTab('comedy')">🎤 COMEDY (3)</button>
-  <button onclick="showTab('watchlist')">➕ WATCHLIST</button>
-</div>
-
-<!-- ====================================== -->
-<!-- ALL / CONCERTS TAB                     -->
-<!-- ====================================== -->
-<!-- ====================================== -->
-<!-- ONSALE THIS WEEK TAB                  -->
-<!-- ====================================== -->
-<div id="tab-onsale" class="tab-content">
-<div class="section-header">
-  <h2>🎟️ Presale & Onsale Calendar — Week of March 3</h2>
-  <span class="count">Updated Mar 3</span>
-</div>
-
-<!-- Monday -->
-<div class="card tier-a" style="border-left-color:#ff2d2d;">
-  <div class="card-top">
-    <div class="card-title">🔴 MONDAY March 3 — Today</div>
-  </div>
-  <div style="margin-top:8px; font-size:0.88rem; color:#ccc;">
-    <div style="margin-bottom:8px;">
-      <strong style="color:#fff;">Outside Lands 2026</strong> — Lineup announced today. New ticket structure (no more Eager Beaver presale). Watch for onsale details.<br>
-      <div class="card-links" style="margin-top:4px;"><a href="https://www.sfoutsidelands.com/" target="_blank">🎟️ sfoutsidelands.com</a></div>
+  <div class="nav-section">
+    <div class="nav-label">Market Intel</div>
+    <div class="nav-item active" onclick="showView('overview')">
+      <span class="icon">📊</span> Overview
+    </div>
+    <div class="nav-item" onclick="showView('concerts')">
+      <span class="icon">🎵</span> Concerts <span class="count" id="count-concerts">7</span>
+    </div>
+    <div class="nav-item" onclick="showView('college')">
+      <span class="icon">🏟️</span> College Sports <span class="count" id="count-college">5</span>
+    </div>
+    <div class="nav-item" onclick="showView('comedy')">
+      <span class="icon">🎤</span> Comedy <span class="count" id="count-comedy">3</span>
+    </div>
+    <div class="nav-item" onclick="showView('spring')">
+      <span class="icon">⚾</span> Spring Training <span class="count" id="count-spring">3</span>
     </div>
   </div>
-</div>
-
-<!-- Tuesday -->
-<div class="card tier-a" style="border-left-color:#ff9500;">
-  <div class="card-top">
-    <div class="card-title">🟡 TUESDAY March 4 — Presale Day</div>
+  <div class="nav-section">
+    <div class="nav-label">Tools</div>
+    <div class="nav-item" onclick="showView('calendar')">
+      <span class="icon">📅</span> Onsale Calendar
+    </div>
+    <div class="nav-item" onclick="showView('trends')">
+      <span class="icon">📈</span> Google Trends
+    </div>
+    <div class="nav-item" onclick="showView('rising')">
+      <span class="icon">🚀</span> Rising Stars
+    </div>
+    <div class="nav-item" onclick="showView('watchlist')">
+      <span class="icon">👁️</span> Watchlist <span class="count">76</span>
+    </div>
+    <div class="nav-item" onclick="showView('venues')">
+      <span class="icon">🏢</span> Tracked Venues <span class="count">49</span>
+    </div>
   </div>
-  <div style="margin-top:8px; font-size:0.88rem; color:#ccc;">
-    <div style="margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #222;">
-      <strong style="color:#fff;">Joji "SOLARIS Tour"</strong> — Artist Presale @ 10 AM local. Account-based (no code needed if registered). Arenas across US/Canada, summer 2026.<br>
-      <span style="font-size:0.75rem; color:#888;">Source: Consequence of Sound, Feb 26 • Registration deadline was Mar 1</span>
-      <div class="card-links" style="margin-top:4px;">
-        <a href="https://www.ticketmaster.com/joji-tickets/artist/5265730" target="_blank">🎟️ Ticketmaster</a>
-        <a href="https://jfreddytour.com/" target="_blank">🌐 Artist Site</a>
+  <div class="nav-section" style="margin-top:auto; padding-top:16px; border-top:1px solid var(--border);">
+    <div class="nav-label">Scans</div>
+    <div style="padding:4px 12px; font-size:11px; color:var(--text-dim);">
+      🟢 Daily Report — 5 AM ET<br>
+      🟢 Comedy — 4×/day<br>
+      🟢 Watchlist — 3 AM ET<br>
+      🟢 Rising Stars — 6 AM ET<br>
+      🟢 SerpAPI Intel — 10 AM ET<br>
+      🟢 Steelers PSL — 12 PM ET
+    </div>
+  </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="main">
+
+<!-- ============ OVERVIEW ============ -->
+<div id="view-overview" class="view active">
+  <div style="margin-bottom:24px;">
+    <h1 style="font-size:24px; font-weight:800; color:#fff;">Market Overview</h1>
+    <p style="font-size:13px; color:var(--text-muted); margin-top:4px;">Demand signals & scarcity analysis — Updated March 5, 2026</p>
+    <p style="font-size:11px; color:var(--text-dim); margin-top:4px; font-style:italic;">Demand scores reflect observed data signals, not guaranteed outcomes. Pricing from cited snapshots; resale prices fluctuate.</p>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-val">18</div>
+      <div class="stat-label">Events Tracked</div>
+      <div class="stat-change up">↑ 3 new this week</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">5</div>
+      <div class="stat-label">High Demand</div>
+      <div class="stat-change up">↑ Tier S alerts</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">76</div>
+      <div class="stat-label">Watchlist Artists</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">49</div>
+      <div class="stat-label">Tracked Venues</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">6</div>
+      <div class="stat-label">Active Scanners</div>
+      <div class="stat-change up">All operational</div>
+    </div>
+  </div>
+
+  <!-- Top alerts -->
+  <div class="section-head">
+    <h2>🔥 Highest Demand Signals</h2>
+    <span class="badge-count">Top 5</span>
+  </div>
+
+  <!-- FREYA SKYE -->
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Freya Skye — "Stars Align Tour"</div>
+        <div class="card-subtitle">📍 US Fall Dates: Santa Barbara Bowl, Coca-Cola Roxy ATL, Hartford Amphitheater &nbsp;•&nbsp; 📅 Sept–Oct 2026</div>
+      </div>
+      <div class="card-right">
+        <span class="tag tag-s">S TIER</span>
+        <span class="tag tag-sold-out">SOLD OUT</span>
+        <span class="tag tag-new">+36 DATES</span>
+        <div class="score-ring s">92</div>
       </div>
     </div>
-    <div style="margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #222;">
-      <strong style="color:#fff;">Jason Aldean "Songs About Us Tour"</strong> — Aldean Army Presale @ 10 AM local. 22-city summer amphitheater tour.<br>
-      <span style="font-size:0.75rem; color:#888;">Source: GlobeNewsWire, Mar 2 • General onsale: Friday Mar 6</span>
-      <div class="card-links" style="margin-top:4px;">
-        <a href="https://www.ticketmaster.com/jason-aldean-tickets/artist/1168279" target="_blank">🎟️ Ticketmaster</a>
-        <a href="https://www.jasonaldean.com/tour" target="_blank">🌐 jasonaldean.com</a>
+    <div class="card-body">
+      <div class="demand-bar">
+        <span class="db-label">Demand</span>
+        <div class="db-track"><div class="db-fill" style="width:92%;background:linear-gradient(90deg,var(--red),var(--orange));"></div></div>
+        <span class="db-score" style="color:var(--red);">92/100</span>
+        <span class="db-signals">🎟️ Sold-out &bull; 🚀 +36 dates &bull; 📈 GT: 55/100</span>
       </div>
-    </div>
-    <div style="margin-bottom:10px;">
-      <strong style="color:#fff;">Sting 3.0 Tour</strong> — Fan Club Presale for new fall dates (Brooklyn Paramount × 5 nights, Wallingford CT, Akron, Cincinnati, more).<br>
-      <span style="font-size:0.75rem; color:#888;">Source: Parade.com, Mar 2 • General onsale: Friday Mar 6</span>
-      <div class="card-links" style="margin-top:4px;">
-        <a href="https://www.ticketmaster.com/sting-tickets/artist/736192" target="_blank">🎟️ Ticketmaster</a>
-        <a href="https://www.sting.com/" target="_blank">🌐 sting.com</a>
+      <div class="data-pills">
+        <div class="pill"><div class="pill-label">Status</div><div class="pill-value hot">Feb/Mar Sold Out</div><div class="pill-source">Billboard, Feb 2026</div></div>
+        <div class="pill"><div class="pill-label">Expansion</div><div class="pill-value">+36 new dates</div><div class="pill-source">Billboard exclusive</div></div>
+        <div class="pill"><div class="pill-label">Venue Upgrades</div><div class="pill-value warm">Sydney & Melbourne</div><div class="pill-source">Frontier Touring, Feb 26</div></div>
+        <div class="pill"><div class="pill-label">Key Metric</div><div class="pill-value">"silent treatment" 40M+</div><div class="pill-source">Ticketmaster bio</div></div>
       </div>
-    </div>
-  </div>
-</div>
-
-<!-- Wednesday -->
-<div class="card tier-b" style="border-left-color:#ff9500;">
-  <div class="card-top">
-    <div class="card-title">🟡 WEDNESDAY March 5</div>
-  </div>
-  <div style="margin-top:8px; font-size:0.88rem; color:#ccc;">
-    <strong style="color:#fff;">Joji</strong> — Spotify Presale @ 10 AM local<br>
-    <strong style="color:#fff;">Sting</strong> — Additional presales continue
-  </div>
-</div>
-
-<!-- Friday -->
-<div class="card tier-s" style="border-left-color:#27ae60;">
-  <div class="card-top">
-    <div class="card-title">🟢 FRIDAY March 6 — General Onsale Day</div>
-  </div>
-  <div style="margin-top:8px; font-size:0.88rem; color:#ccc;">
-    <div style="margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #222;">
-      <strong style="color:#fff;">Joji "SOLARIS Tour"</strong> — General onsale 10 AM local via Ticketmaster<br>
-      <div class="card-links" style="margin-top:4px;"><a href="https://www.ticketmaster.com/joji-tickets/artist/5265730" target="_blank">🎟️ Ticketmaster</a></div>
-    </div>
-    <div style="margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #222;">
-      <strong style="color:#fff;">Jason Aldean "Songs About Us"</strong> — General onsale 10 AM via LiveNation.com<br>
-      <div class="card-links" style="margin-top:4px;"><a href="https://www.livenation.com/" target="_blank">🎟️ LiveNation</a></div>
-    </div>
-    <div style="margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #222;">
-      <strong style="color:#fff;">Sting 3.0 Tour</strong> — General onsale 10 AM local<br>
-      <div class="card-links" style="margin-top:4px;"><a href="https://www.ticketmaster.com/sting-tickets/artist/736192" target="_blank">🎟️ Ticketmaster</a></div>
-    </div>
-    <div style="margin-bottom:10px;">
-      <strong style="color:#ff2d2d;">Metallica @ Sphere Las Vegas</strong> — General onsale 10 AM PT. 12 shows (Oct-Nov 2026). Legacy/Fifth Member presales already live.<br>
-      <span style="font-size:0.75rem; color:#888;">Source: 8NewsNow, Mar 1</span>
-      <div class="card-links" style="margin-top:4px;"><a href="https://www.ticketmaster.com/metallica-tickets/artist/735647" target="_blank">🎟️ Ticketmaster</a></div>
-    </div>
-  </div>
-</div>
-
-<!-- Already on sale -->
-<div class="section-header">
-  <h2>📌 Already On Sale — Act Now</h2>
-</div>
-
-<div class="card" style="border-left:4px solid #d4a017;">
-  <div style="display:grid; gap:10px; font-size:0.88rem;">
-    <div style="padding-bottom:8px; border-bottom:1px solid #222;">
-      <strong style="color:#ff2d2d;">Freya Skye</strong> — US fall dates (Sept-Oct). Via Ticketmaster. Feb/Mar SOLD OUT.
-      <div class="card-links" style="margin-top:4px;"><a href="https://www.ticketmaster.com/freya-skye-tickets/artist/4019004" target="_blank">🎟️ Ticketmaster</a></div>
-    </div>
-    <div style="padding-bottom:8px; border-bottom:1px solid #222;">
-      <strong style="color:#ff2d2d;">Cat Power</strong> — Summer leg (Jul-Aug). 15+ dates. Tampa, Charleston, Boulder, Steamboat Springs.
-      <div class="card-links" style="margin-top:4px;">
-        <a href="https://www.ticketmaster.com/cat-power-tickets/artist/764917" target="_blank">🎟️ Ticketmaster</a>
-        <a href="https://www.catpowermusic.com/#tour" target="_blank">🌐 catpowermusic.com</a>
+      <div class="insight-block">
+        <p>All Feb/Mar dates across North America and UK sold out, prompting 36 additional dates (Billboard exclusive). Australian venues upgraded due to "overwhelming presale demand." "silent treatment" climbing radio charts in US, UK, Canada, France, and Australia simultaneously. iHeart Radio designated "On the Verge" artist.</p>
+        <div class="cite">Sources: Billboard (Feb 2026), Frontier Touring (Feb 26), Ticketmaster, BroadwayWorld (Feb 26)</div>
       </div>
-    </div>
-    <div style="padding-bottom:8px; border-bottom:1px solid #222;">
-      <strong style="color:#d4a017;">Stavros Halkias</strong> — Radio City Music Hall NYC (Mar 28). Face: $39-$60. Also: multiple tour dates nationwide.
-      <div class="card-links" style="margin-top:4px;">
-        <a href="https://www.ticketmaster.com/stavros-halkias-tickets/artist/2714498" target="_blank">🎟️ Ticketmaster</a>
+      <div class="action-block">
+        <div class="action-label">Considerations</div>
+        <ul>
+          <li>US fall dates at smaller venues (3K–4.5K cap) suggest elevated sell-out risk</li>
+          <li>Santa Barbara Bowl (4,562), Coca-Cola Roxy ATL (3,000) are tightest capacity</li>
+          <li>Radio charts across 5 countries = unusual demand accelerant</li>
+          <li>Risk: New artist — demand may plateau if radio momentum stalls</li>
+        </ul>
       </div>
-    </div>
-    <div style="padding-bottom:8px; border-bottom:1px solid #222;">
-      <strong style="color:#d4a017;">Waxahatchee & MJ Lenderman</strong> — 18-city co-headline tour (Apr 13+). Beacon Theatre NYC Apr 20.
-      <div class="card-links" style="margin-top:4px;">
-        <a href="https://waxahatchee.bandcamp.com/" target="_blank">🌐 Waxahatchee</a>
-        <a href="https://seatgeek.com/search?q=Waxahatchee" target="_blank">🎟️ SeatGeek</a>
-      </div>
-    </div>
-    <div style="padding-bottom:8px; border-bottom:1px solid #222;">
-      <strong style="color:#d4a017;">March Madness</strong> — All sessions at all venues. Prices will spike after Selection Sunday (Mar 15).
-      <div class="card-links" style="margin-top:4px;">
-        <a href="https://www.stubhub.com/march-madness-ncaa-division-i-men-s-basketball-tournament-tickets/grouping/50937714" target="_blank">🎟️ StubHub</a>
-        <a href="https://seatgeek.com/search?q=NCAA+Tournament" target="_blank">🎟️ SeatGeek</a>
-      </div>
-    </div>
-    <div>
-      <strong style="color:#4a9eff;">Big Ten Wrestling</strong> (Mar 7-8) — Primary sold out. Resale: StubHub from $40, Vivid Seats from $123.
-      <div class="card-links" style="margin-top:4px;">
-        <a href="https://www.stubhub.com/big-ten-wrestling-championship-state-college-tickets-3-7-2026/event/160417224/" target="_blank">🎟️ StubHub</a>
-        <a href="https://seatgeek.com/big-ten-wrestling-championship-tickets/college-wrestling/2026-03-07-3-30-am/17725127" target="_blank">🎟️ SeatGeek</a>
+      <div class="links-row">
+        <a class="link-btn" href="https://seatgeek.com/search?q=Freya+Skye" target="_blank">🎟️ SeatGeek</a>
+        <a class="link-btn" href="https://www.vividseats.com/search?searchTerm=Freya+Skye" target="_blank">🎟️ Vivid Seats</a>
+        <a class="link-btn" href="https://www.billboard.com/music/pop/freya-skye-tour-dates-us-europe-australia-stars-align-1236181754/" target="_blank">📰 Billboard</a>
       </div>
     </div>
   </div>
-</div>
-</div><!-- end tab-onsale -->
 
-<div id="tab-all" class="tab-content active">
-
-<div class="section-header">
-  <h2>🔥 Highest Demand Signals</h2>
-  <span class="count">5 events</span>
-</div>
-
-<!-- FREYA SKYE -->
-<div class="card tier-s" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">Freya Skye — "Stars Align Tour"</div>
-    <div class="card-badges">
-      <span class="badge badge-s">S</span>
-      <span class="badge badge-sold-out">SOLD OUT (Feb/Mar dates)</span>
-      <span class="badge badge-upgrade">VENUE UPGRADES</span>
-      <span class="badge badge-added">+36 DATES</span>
+  <!-- TAME IMPALA -->
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Tame Impala — "Deadbeat Tour" (w/ Djo, Dominic Fike)</div>
+        <div class="card-subtitle">📍 22 US arena dates &nbsp;•&nbsp; 📅 July–Sept 2026 &nbsp;•&nbsp; Presale queues 98,000+</div>
+      </div>
+      <div class="card-right">
+        <span class="tag tag-s">S TIER</span>
+        <span class="tag tag-sold-out">NEAR SELL-OUT</span>
+        <div class="score-ring s">98</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="demand-bar">
+        <span class="db-label">Demand</span>
+        <div class="db-track"><div class="db-fill" style="width:98%;background:linear-gradient(90deg,var(--red),var(--orange));"></div></div>
+        <span class="db-score" style="color:var(--red);">98/100</span>
+        <span class="db-signals">🎟️ 5 sold-out signals &bull; 📈 2 demand signals &bull; 🚀 JENNIE crossover</span>
+      </div>
+      <div class="data-pills">
+        <div class="pill"><div class="pill-label">Presale Queue</div><div class="pill-value hot">98,000+</div><div class="pill-source">r/TameImpala reports</div></div>
+        <div class="pill"><div class="pill-label">Tour Size</div><div class="pill-value">22 dates (arenas)</div><div class="pill-source">Official</div></div>
+        <div class="pill"><div class="pill-label">Openers</div><div class="pill-value">Djo + Dominic Fike</div><div class="pill-source">Deadbeat Tour</div></div>
+        <div class="pill"><div class="pill-label">Crossover</div><div class="pill-value warm">JENNIE (BLACKPINK)</div><div class="pill-source">"Dracula" remix</div></div>
+      </div>
+      <div class="insight-block">
+        <p>Reddit r/TameImpala users report 98,000+ person presale queues. Philly sold out while fans still in queue. Multiple sources describe "almost all dates completely sold out." JENNIE (BLACKPINK) "Dracula" remix introduces K-pop crossover audience. Both openers have substantial independent fanbases.</p>
+        <div class="cite">Sources: Reddit r/TameImpala (Feb 2026), masslive.com, Sporting News</div>
+      </div>
+      <div class="action-block">
+        <div class="action-label">Considerations</div>
+        <ul>
+          <li>Most dates reportedly sold out at face — resale is primary market now</li>
+          <li>Pipeline: Djo and Dominic Fike likely announce headline tours in 2-5K venues after</li>
+          <li>Arena capacity (15-20K) may limit resale premiums vs. smaller events</li>
+          <li>K-pop crossover could drive atypical demographics in LA, SF, NYC</li>
+        </ul>
+      </div>
+      <div class="links-row">
+        <a class="link-btn" href="https://seatgeek.com/search?q=Tame+Impala" target="_blank">🎟️ SeatGeek</a>
+        <a class="link-btn" href="https://www.vividseats.com/search?searchTerm=Tame+Impala" target="_blank">🎟️ Vivid Seats</a>
+      </div>
     </div>
   </div>
-  <div class="card-meta">
-    <span class="venue">📍 US: Santa Barbara Bowl (4,562) • Coca-Cola Roxy ATL (3,000) • Hartford Amphitheater</span><br>
-    <span class="date">📅 Sept–Oct 2026 (US leg) • SeatGeek Score: 0.61–0.63</span>
-  </div>
 
-  <div class="trend-bar">
-    <span class="trend-label">Demand Score</span>
-    <span class="trend-score rising">55/100</span>
-    <div class="trend-fill"><div class="trend-fill-inner" style="width:55%;background:linear-gradient(90deg,#ff9500,#ffbd4f);"></div></div>
-    <span class="trend-signals">📈 GT: 55/100 (-19% from peak) • 🎟️ Sold-out signals • 🚀 +36 dates added</span>
-  </div>
-
-  <div class="data-grid">
-    <div class="data-cell"><div class="label">Status</div><div class="value hot">Feb/Mar Sold Out</div><div class="source">Billboard, Feb 2026</div></div>
-    <div class="data-cell"><div class="label">Expansion</div><div class="value">+36 new dates</div><div class="source">Billboard exclusive</div></div>
-    <div class="data-cell"><div class="label">Venue Moves</div><div class="value">Sydney & Melbourne upgraded</div><div class="source">Frontier Touring, Feb 26</div></div>
-    <div class="data-cell"><div class="label">Key Metric</div><div class="value">"silent treatment" 40M+ streams</div><div class="source">Ticketmaster bio</div></div>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> All February and March dates across North America and UK sold out, prompting 36 additional dates (Billboard exclusive, Feb 2026). Australian venues upgraded from Enmore Theatre → Hordern Pavilion (Sydney) and similar in Melbourne due to "overwhelming presale demand" (Frontier Touring, Feb 26). "silent treatment" climbing radio charts in US, UK, Canada, France, and Australia simultaneously. iHeart Radio designated her "On the Verge" artist. Demand pattern resembles early-stage breakout trajectory.
-      <div class="source-cite">Sources: Billboard (Feb 2026 exclusive), Frontier Touring press release (Feb 26), Ticketmaster artist page, BroadwayWorld (Feb 26)</div>
+  <!-- RUFUS DU SOL -->
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">RÜFÜS DU SOL — 2026 North American Tour</div>
+        <div class="card-subtitle">📍 31 dates: Petco Park SD, Rogers Centre, Montreal &nbsp;•&nbsp; 📅 Summer 2026</div>
+      </div>
+      <div class="card-right">
+        <span class="tag tag-s">S TIER</span>
+        <span class="tag tag-sold-out">15/24 SOLD OUT</span>
+        <span class="tag tag-new">+7 SHOWS</span>
+        <div class="score-ring s">96</div>
+      </div>
     </div>
-    <div class="action-box">
-      <div class="action-label">Considerations</div>
-      <ul>
-        <li>US fall dates (Sept–Oct) recently went on sale — smaller venues (3K–4.5K cap) suggest elevated sell-out risk</li>
-        <li>Santa Barbara Bowl (4,562), Coca-Cola Roxy ATL (3,000), Hartford Amphitheater are the tightest-capacity dates</li>
-        <li>Radio chart trajectory across 5 countries is an unusual demand accelerant — continued radio growth could further compress supply</li>
-        <li>Risk: New artist with limited touring history; demand may plateau if radio momentum stalls</li>
-      </ul>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/search?q=Freya+Skye" target="_blank">🎟️ SeatGeek</a>
-      <a href="https://www.vividseats.com/search?searchTerm=Freya+Skye" target="_blank">🎟️ Vivid Seats</a>
-      <a href="https://www.billboard.com/music/pop/freya-skye-tour-dates-us-europe-australia-stars-align-1236181754/" target="_blank">📰 Billboard</a>
-    </div>
-  </div>
-</div>
-
-<!-- TAME IMPALA -->
-<div class="card tier-s" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">Tame Impala — "Deadbeat Tour" (w/ Djo, Dominic Fike)</div>
-    <div class="card-badges">
-      <span class="badge badge-s">S</span>
-      <span class="badge badge-sold-out">NEAR SELL-OUT</span>
+    <div class="card-body">
+      <div class="demand-bar">
+        <span class="db-label">Demand</span>
+        <div class="db-track"><div class="db-fill" style="width:96%;background:linear-gradient(90deg,var(--red),var(--orange));"></div></div>
+        <span class="db-score" style="color:var(--red);">96/100</span>
+        <span class="db-signals">🎟️ 15/24 sold out &bull; 🚀 +7 added &bull; 📈 Cross-format venues</span>
+      </div>
+      <div class="data-pills">
+        <div class="pill"><div class="pill-label">Sold Out</div><div class="pill-value hot">15 of 24 original</div><div class="pill-source">Pollstar, Feb 27</div></div>
+        <div class="pill"><div class="pill-label">Added</div><div class="pill-value">+7 (31 total)</div><div class="pill-source">Pollstar</div></div>
+        <div class="pill"><div class="pill-label">Key Sellouts</div><div class="pill-value">SD, Toronto, Montreal</div><div class="pill-source">Pollstar</div></div>
+      </div>
+      <div class="insight-block">
+        <p>15 of 24 original dates sold out within first two weeks of public onsale, prompting 7 additional shows. Petco Park San Diego (40K+ cap) sold out — extraordinary for electronic act. Cross-format venue strategy (stadiums, arenas, amphitheaters) indicates massive flexibility in demand.</p>
+        <div class="cite">Sources: Pollstar (Feb 27), official socials, Billboard</div>
+      </div>
+      <div class="links-row">
+        <a class="link-btn" href="https://seatgeek.com/search?q=Rufus+Du+Sol" target="_blank">🎟️ SeatGeek</a>
+        <a class="link-btn" href="https://www.vividseats.com/search?searchTerm=Rufus+Du+Sol" target="_blank">🎟️ Vivid Seats</a>
+      </div>
     </div>
   </div>
-  <div class="card-meta">
-    <span class="venue">📍 22 US arena dates • July–Sept 2026</span><br>
-    <span class="date">📅 Presale queues reported at 98,000+ (Reddit r/TameImpala)</span>
-  </div>
 
-  <div class="trend-bar">
-    <span class="trend-label">Demand Score</span>
-    <span class="trend-score high">100/100</span>
-    <div class="trend-fill"><div class="trend-fill-inner" style="width:100%;background:linear-gradient(90deg,#ff2d2d,#ff6b35);"></div></div>
-    <span class="trend-signals">🎟️ 5 sold-out mentions • 📈 2 demand signals • 🚀 5 expansion signals</span>
-  </div>
-
-  <div class="data-grid">
-    <div class="data-cell"><div class="label">Presale Queue</div><div class="value hot">98,000+</div><div class="source">r/TameImpala user reports</div></div>
-    <div class="data-cell"><div class="label">Tour Size</div><div class="value">22 dates (arenas)</div><div class="source">Official announcement</div></div>
-    <div class="data-cell"><div class="label">Openers</div><div class="value">Djo + Dominic Fike</div><div class="source">Deadbeat Tour lineup</div></div>
-    <div class="data-cell"><div class="label">Crossover Factor</div><div class="value">JENNIE (BLACKPINK) remix</div><div class="source">"Dracula" remix</div></div>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> Reddit r/TameImpala users report 98,000+ person presale queues, with the Philly date selling out while fans were still in queue. Multiple users describe "almost all dates completely sold out." The "Dracula" remix featuring JENNIE from BLACKPINK introduces a K-pop crossover audience not typically in Tame Impala's demo. Both openers (Djo, Dominic Fike) have substantial independent fanbases. Masslive.com headline explicitly reads "sold out tour."
-      <div class="source-cite">Sources: Reddit r/TameImpala (multiple threads, Feb 2026), masslive.com (Feb 2026), Sporting News (Feb 2026)</div>
+  <!-- CAT POWER -->
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Cat Power — Summer Tour 2026</div>
+        <div class="card-subtitle">📍 Brooklyn Steel, Webster Hall SOLD OUT &nbsp;•&nbsp; 📅 Jul–Aug 2026 (15+ dates)</div>
+      </div>
+      <div class="card-right">
+        <span class="tag tag-s">S TIER</span>
+        <span class="tag tag-sold-out">SOLD OUT × 2</span>
+        <div class="score-ring s">88</div>
+      </div>
     </div>
-    <div class="action-box">
-      <div class="action-label">Considerations</div>
-      <ul>
-        <li>Most dates reportedly sold out at face — resale is primary market now</li>
-        <li>Pipeline effect: Djo and Dominic Fike will likely announce headline tours post-run in smaller (2–5K) venues</li>
-        <li>Arena capacity (15–20K) provides more inventory than club shows, which may limit resale premiums vs. smaller events</li>
-        <li>K-pop crossover from JENNIE remix could drive atypical buyer demographics in LA, SF, NYC</li>
-      </ul>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/search?q=Tame+Impala" target="_blank">🎟️ SeatGeek</a>
-      <a href="https://www.vividseats.com/search?searchTerm=Tame+Impala" target="_blank">🎟️ Vivid Seats</a>
+    <div class="card-body">
+      <div class="insight-block">
+        <p>Brooklyn Steel and Webster Hall dates sold out. Summer leg spans 15+ cities at mid-size venues (1,000-3,000 cap). Legacy indie artist with dedicated fanbase and limited touring frequency — creates scarcity premium.</p>
+        <div class="cite">Sources: BrooklynVegan, Ticketmaster listings</div>
+      </div>
+      <div class="links-row">
+        <a class="link-btn" href="https://seatgeek.com/search?q=Cat+Power" target="_blank">🎟️ SeatGeek</a>
+        <a class="link-btn" href="https://www.catpowermusic.com/#tour" target="_blank">🌐 Official</a>
+      </div>
     </div>
   </div>
-</div>
 
-<!-- RUFUS DU SOL -->
-<div class="card tier-s" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">RÜFÜS DU SOL — 2026 North American Tour</div>
-    <div class="card-badges">
-      <span class="badge badge-s">S</span>
-      <span class="badge badge-sold-out">15/24 SOLD OUT</span>
-      <span class="badge badge-added">+7 SHOWS</span>
+  <!-- VANDERBILT BASEBALL -->
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Vanderbilt Baseball — SEC Home Games</div>
+        <div class="card-subtitle">📍 Hawkins Field (3,626 cap) &nbsp;•&nbsp; Get-in: $382 (> Dodgers Opening Day $265)</div>
+      </div>
+      <div class="card-right">
+        <span class="tag tag-s">S TIER</span>
+        <span class="tag tag-sold-out">EXTREME SCARCITY</span>
+        <div class="score-ring s">90</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="data-pills">
+        <div class="pill"><div class="pill-label">Get-In Price</div><div class="pill-value hot">$382</div><div class="pill-source">SeatGeek, Feb 2026</div></div>
+        <div class="pill"><div class="pill-label">Comparison</div><div class="pill-value">Dodgers Opening Day: $265</div><div class="pill-source">StubHub</div></div>
+        <div class="pill"><div class="pill-label">Venue Cap</div><div class="pill-value warm">3,626</div><div class="pill-source">Hawkins Field</div></div>
+        <div class="pill"><div class="pill-label">SEC Median</div><div class="pill-value">$51 vs $14 non-SEC</div><div class="pill-source">SeatGeek aggregate</div></div>
+      </div>
+      <div class="insight-block">
+        <p>SEC baseball at small-capacity venues creates extreme scarcity. LSU at Vanderbilt get-in exceeds Dodgers Opening Day. The SEC-vs-SEC median ($51) is 3.6× higher than non-SEC games ($14). Hawkins Field at 3,626 seats is one of the smallest Power 5 baseball venues in the country.</p>
+        <div class="cite">Sources: SeatGeek (Feb 2026 snapshot), StubHub, Vanderbilt Athletics</div>
+      </div>
+      <div class="links-row">
+        <a class="link-btn" href="https://seatgeek.com/search?q=Vanderbilt+Baseball" target="_blank">🎟️ SeatGeek</a>
+      </div>
     </div>
   </div>
-  <div class="card-meta">
-    <span class="venue">📍 31 dates: Petco Park SD (SOLD OUT), Rogers Centre Toronto (SOLD OUT), Montreal (SOLD OUT) + more</span><br>
-    <span class="date">📅 Summer 2026</span>
-  </div>
 
-  <div class="trend-bar">
-    <span class="trend-label">Demand Score</span>
-    <span class="trend-score high">100/100</span>
-    <div class="trend-fill"><div class="trend-fill-inner" style="width:100%;background:linear-gradient(90deg,#ff2d2d,#ff6b35);"></div></div>
-    <span class="trend-signals">🎟️ 4 sold-out mentions • 📈 3 demand signals • 🚀 1 expansion signal</span>
-  </div>
+</div><!-- end overview -->
 
-  <div class="data-grid">
-    <div class="data-cell"><div class="label">Sold Out</div><div class="value hot">15 of 24 original dates</div><div class="source">Pollstar, Feb 27</div></div>
-    <div class="data-cell"><div class="label">Added</div><div class="value">+7 shows (31 total)</div><div class="source">Pollstar, Feb 27</div></div>
-    <div class="data-cell"><div class="label">Key Sellouts</div><div class="value">SD, Toronto, Montreal</div><div class="source">Pollstar</div></div>
-    <div class="data-cell"><div class="label">Presale Behavior</div><div class="value">4K+ queue at Petco Park</div><div class="source">Reddit r/RUFUSDUSOL</div></div>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> Per Pollstar (Feb 27): 15 of 24 original dates sold out, prompting 7 additional shows. Extended stays in NYC and LA due to demand. Reddit users report Petco Park presale had 4,000+ person queue and "the seat selector was lagging so much that by the time I found tickets, presale sold out." Reddit also notes San Diego show selling out "makes no sense" compared to still-available Minneapolis and Boulder dates — geographic demand imbalance creates potential arbitrage.
-      <div class="source-cite">Sources: Pollstar (Feb 27, 2026), Reddit r/RUFUSDUSOL (multiple threads, Feb 2026)</div>
-    </div>
-    <div class="action-box">
-      <div class="action-label">Considerations</div>
-      <ul>
-        <li>Sold-out markets (SD, Toronto, Montreal) are now resale-only — secondary premium likely</li>
-        <li>Newly added dates may still have face-value inventory</li>
-        <li>Minneapolis and Boulder reported as having available inventory — potential lower-demand markets</li>
-        <li>Electronic music fans tend to prioritize floor/pit — floor tickets typically carry highest resale premium</li>
-      </ul>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/search?q=RUFUS+DU+SOL" target="_blank">🎟️ SeatGeek</a>
-      <a href="https://www.vividseats.com/search?searchTerm=RUFUS+DU+SOL" target="_blank">🎟️ Vivid Seats</a>
-      <a href="https://news.pollstar.com/2026/02/27/rufus-du-sol-sell-out-15-north-american-shows-extend-stays-in-new-york-la/" target="_blank">📰 Pollstar</a>
-    </div>
-  </div>
-</div>
-
-<!-- CAT POWER -->
-<div class="card tier-s" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">Cat Power — "The Greatest" 20th Anniversary Tour</div>
-    <div class="card-badges">
-      <span class="badge badge-s">S</span>
-      <span class="badge badge-sold-out">3 VENUES SOLD OUT</span>
-      <span class="badge badge-added">SUMMER LEG ADDED</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 Brooklyn Steel (1,800) SOLD OUT • Webster Hall (2,500) SOLD OUT • Orange Peel Asheville (950) SOLD OUT</span><br>
-    <span class="date">📅 Current: Feb–Mar 2026 • Summer leg: Jul–Aug 2026</span>
-  </div>
-
-  <div class="trend-bar">
-    <span class="trend-label">Demand Score</span>
-    <span class="trend-score high">100/100</span>
-    <div class="trend-fill"><div class="trend-fill-inner" style="width:100%;background:linear-gradient(90deg,#ff2d2d,#ff6b35);"></div></div>
-    <span class="trend-signals">🎟️ 4 sold-out mentions • 📈 1 demand signal • 🚀 3 expansion signals</span>
-  </div>
-
-  <div class="data-grid">
-    <div class="data-cell"><div class="label">Sold-Out Venues</div><div class="value hot">Brooklyn Steel, Webster Hall, Orange Peel</div><div class="source">Vice, Consequence, antimusic.com</div></div>
-    <div class="data-cell"><div class="label">Tour Type</div><div class="value">Full album performance</div><div class="source">"The Greatest" front-to-back</div></div>
-    <div class="data-cell"><div class="label">Media Buzz</div><div class="value">"Most Anticipated Tour 2026"</div><div class="source">Pitchfork + Consequence</div></div>
-    <div class="data-cell"><div class="label">Smallest Venue</div><div class="value">Orange Peel: 950 cap</div><div class="source">Venue data</div></div>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> Sold out Brooklyn Steel (Mar 6), Webster Hall (Mar 7), and Asheville's Orange Peel (Mar 13). Named "Most Anticipated Tour of 2026" by both Pitchfork and Consequence of Sound. Added full summer leg (July–August, 15+ dates) including ZeyZey Miami, The Ritz Ybor Tampa, and Charleston Music Hall. Full-album anniversary format creates a unique scarcity factor — fans understand this is a limited-run concept, not a standard tour cycle. Paris Salle Pleyel (Oct 31) also sold out.
-      <div class="source-cite">Sources: Vice (Feb 2026), Consequence of Sound (Feb 2026), GratefulWeb (Feb 2026), JamBase (Feb 26), antimusic.com (Feb 25)</div>
-    </div>
-    <div class="action-box">
-      <div class="action-label">Considerations</div>
-      <ul>
-        <li>Resale for Brooklyn Steel and Webster Hall should reflect sold-out premium — verify current listings</li>
-        <li>Orange Peel (950 cap) is the smallest sold-out venue — highest per-seat scarcity</li>
-        <li>Summer dates (newly announced) may still have face-value inventory at less-known markets (Tampa, Charleston)</li>
-        <li>Album anniversary tours typically don't repeat — "one-time" framing elevates perceived value</li>
-      </ul>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/search?q=Cat+Power" target="_blank">🎟️ SeatGeek</a>
-      <a href="https://www.vividseats.com/search?searchTerm=Cat+Power" target="_blank">🎟️ Vivid Seats</a>
-    </div>
-  </div>
-</div>
-
-<!-- VANDERBILT BASEBALL -->
-<div class="card tier-s" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">LSU at Vanderbilt — SEC College Baseball</div>
-    <div class="card-badges">
-      <span class="badge badge-s">S</span>
-      <span class="badge badge-sold-out">SEASON TIX SOLD OUT</span>
-      <span class="badge badge-demand">ABOVE MLB PRICING</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 Hawkins Field, Nashville TN (3,802 cap)</span><br>
-    <span class="date">📅 March 14, 2026 • LSU (defending national champions) vs Vanderbilt (#1 seed 2025)</span>
-  </div>
-
-  <div class="trend-bar">
-    <span class="trend-label">Demand Score</span>
-    <span class="trend-score rising">56/100</span>
-    <div class="trend-fill"><div class="trend-fill-inner" style="width:56%;background:linear-gradient(90deg,#ff9500,#ffbd4f);"></div></div>
-    <span class="trend-signals">🚀 3 expansion signals (SEC pricing anomaly)</span>
-  </div>
-
-  <div class="data-grid">
-    <div class="data-cell"><div class="label">Get-In Price</div><div class="value hot">$382</div><div class="source">Gametime, Feb 20 snapshot</div></div>
-    <div class="data-cell"><div class="label">Median Ticket</div><div class="value hot">$539.50</div><div class="source">Gametime, Feb 20 snapshot</div></div>
-    <div class="data-cell"><div class="label">vs Dodgers Opening Day</div><div class="value">+44% ($265 get-in)</div><div class="source">Gametime comparison</div></div>
-    <div class="data-cell"><div class="label">Venue Capacity</div><div class="value hot">3,802</div><div class="source">vucommodores.com</div></div>
-    <div class="data-cell"><div class="label">Season Tickets</div><div class="value hot">Sold Out</div><div class="source">Vandy ticket office</div></div>
-    <div class="data-cell"><div class="label">Avg Capacity Filled (2025)</div><div class="value">97%+</div><div class="source">vucommodores.com</div></div>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> Per Gametime marketplace data (Feb 20 snapshot): LSU at Vanderbilt get-in is $382, which is $117 (44%) above the priciest MLB regular-season get-in (Dodgers Opening Day, $265). Median ticket: $539.50 vs $495 for Dodgers opener. This is 21x the median college baseball get-in ($18) and 13x the median MLB get-in ($30). All 8 college baseball games over $100 get-in are SEC matchups; 6 of 8 are at Vanderbilt. Hawkins Field capacity (3,802) combined with sold-out season tickets creates severe supply constraint. SEC baseball has led national attendance for 27 consecutive years.
-      <div class="source-cite">Sources: Gametime.co analysis (Feb 20, 2026 snapshot by Rikki Bleiweiss), vucommodores.com (capacity and season ticket data), SEC record book</div>
-    </div>
-    <div class="action-box">
-      <div class="action-label">Considerations</div>
-      <ul>
-        <li>Other Vandy SEC weekends show similar pricing: Tennessee ($285 get-in), Arkansas vs Ole Miss ($154 get-in / $685 median)</li>
-        <li>Non-conference Vandy games start at $20 face — extreme disparity with SEC weekends</li>
-        <li>3,802 capacity creates a hard supply ceiling that no amount of demand can expand</li>
-        <li>Risk: Single-game pricing is point-in-time; may fluctuate as game approaches</li>
-        <li>Comparable: SEC baseball at other small parks (e.g., Ole Miss Swayze Field 11,477) show similar but less extreme patterns</li>
-      </ul>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/search?q=Vanderbilt+Baseball" target="_blank">🎟️ SeatGeek</a>
-      <a href="https://www.vividseats.com/search?searchTerm=Vanderbilt+Baseball" target="_blank">🎟️ Vivid Seats</a>
-      <a href="https://gametime.co/tigers-commodores-tickets/performers/cbslsu/cbsvan" target="_blank">📊 Gametime</a>
-      <a href="https://gametime.co/blog/lsu-at-vanderbilt-is-pricier-than-any-mlb-regular-season-game-right-now/" target="_blank">📰 Gametime Analysis</a>
-    </div>
-  </div>
-</div>
-
-<!-- ====================================== -->
-<!-- CONCERTS TAB CONTENT                   -->
-<!-- ====================================== -->
-<div class="section-header">
-  <h2>🎵 Concert & Music Events</h2>
-  <span class="count">7 events</span>
-</div>
-
-<!-- Waxahatchee + MJ Lenderman -->
-<div class="card tier-a" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">Waxahatchee & MJ Lenderman — Co-Headline Tour</div>
-    <div class="card-badges">
-      <span class="badge badge-a">A</span>
-      <span class="badge badge-demand">CRITICAL ACCLAIM</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 18 cities: Beacon Theatre NYC (2,895) • Massey Hall Toronto • Symphony Hall Atlanta</span><br>
-    <span class="date">📅 April 13 — May 2026</span>
-  </div>
-
-  <div class="trend-bar">
-    <span class="trend-label">Demand Score</span>
-    <span class="trend-score moderate">60/100 (MJ Lenderman)</span>
-    <div class="trend-fill"><div class="trend-fill-inner" style="width:60%;background:linear-gradient(90deg,#4a9eff,#6bb5ff);"></div></div>
-    <span class="trend-signals">🎟️ 2 sold-out mentions • 📈 1 demand signal</span>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> Both artists are at peak critical acclaim. Waxahatchee previously declined offers for larger venues to stay at 2,500-cap theaters (per Wikipedia / interviews), creating deliberate supply constraint. MJ Lenderman scored 2 sold-out mentions in trend analysis. Beacon Theatre NYC (2,895 cap) is the prestige date. Tour supports food and housing access nonprofits, which adds a social-good angle that may drive fan loyalty purchasing.
-      <div class="source-cite">Sources: That Eric Alper (Feb 7 announcement), Wikipedia (Waxahatchee entry), JamBase, Colorado Sound</div>
-    </div>
-    <div class="action-box">
-      <div class="action-label">Considerations</div>
-      <ul>
-        <li>Beacon Theatre NYC is the highest-profile date — elevated sell-out risk given 2,895 cap</li>
-        <li>Deliberate venue downsizing signals potential for demand exceeding supply</li>
-        <li>Indie/Americana audience typically has higher income demographic — may support elevated resale prices</li>
-        <li>Risk: Niche audience; demand may not extend far beyond core fanbase</li>
-      </ul>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/search?q=Waxahatchee" target="_blank">🎟️ SeatGeek</a>
-      <a href="https://seatgeek.com/search?q=MJ+Lenderman" target="_blank">🎟️ MJ Lenderman</a>
-    </div>
-  </div>
-</div>
-
-<!-- The Hotelier -->
-<div class="card tier-b" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">The Hotelier — "Goodness" Full Album Tour</div>
-    <div class="card-badges">
-      <span class="badge badge-b">B</span>
-      <span class="badge badge-added">ADDED 2ND NYC SHOW</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 Bowery Ballroom NYC (575 cap) × 2 nights • Lincoln Hall Chicago (~500) • Lodge Room LA (~500)</span><br>
-    <span class="date">📅 June 25-26 NYC • June 18 Chicago • July 31 LA</span>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> Added a second Bowery Ballroom show due to demand — a clear signal at 575-cap venue. BrooklynVegan ran a presale (Feb 2026). "Goodness" listed in BV's "50 Best Punk & Emo Albums of 2015–2019." Night 1 billed as "Goodness in Full" (album playthrough), Night 2 as "Miscellaneous Set." All venues are sub-600 cap.
-      <div class="source-cite">Sources: BrooklynVegan (Feb 25 & 27, 2026), venue capacity data</div>
-    </div>
-    <div class="action-box">
-      <div class="action-label">Considerations</div>
-      <ul>
-        <li>575-cap venue with second show added = strong demand signal relative to supply</li>
-        <li>Album anniversary/nostalgia tours at tiny venues typically yield high percentage markups</li>
-        <li>Risk: Niche emo/indie audience; total addressable market is smaller than mainstream acts</li>
-      </ul>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/search?q=The+Hotelier" target="_blank">🎟️ SeatGeek</a>
-    </div>
-  </div>
-</div>
-
-<!-- Stavros -->
-<div class="card tier-a" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">Stavros Halkias — "The Dreamboat Tour" at Radio City Music Hall</div>
-    <div class="card-badges">
-      <span class="badge badge-a">A</span>
-      <span class="badge badge-demand">UNDERPRICED FACE</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 Radio City Music Hall, NYC (6,015 cap)</span><br>
-    <span class="date">📅 March 28, 2026 • SeatGeek Score: 0.57 • Face: $39–$60</span>
-  </div>
-
-  <div class="trend-bar">
-    <span class="trend-label">Demand Score</span>
-    <span class="trend-score rising">54/100</span>
-    <div class="trend-fill"><div class="trend-fill-inner" style="width:54%;background:linear-gradient(90deg,#ff9500,#ffbd4f);"></div></div>
-    <span class="trend-signals">📈 1 demand signal • 🚀 2 expansion signals</span>
-  </div>
-
-  <div class="data-grid">
-    <div class="data-cell"><div class="label">Face Value</div><div class="value">$39–$60</div><div class="source">Little Village Mag</div></div>
-    <div class="data-cell"><div class="label">Venue Cap</div><div class="value">6,015</div><div class="source">Radio City</div></div>
-    <div class="data-cell"><div class="label">SeatGeek Score</div><div class="value">0.57</div><div class="source">SeatGeek API</div></div>
-    <div class="data-cell"><div class="label">Comparable Face</div><div class="value">Matt Rife/Shane Gillis: $80–$150+</div><div class="source">Market comparison</div></div>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> NYT listed Stavros as a top March comedy pick. Netflix special + A24 movie "Bugonia" role have elevated his profile. Face values ($39–$60) are significantly below comparable comedians at similar venues (Matt Rife, Shane Gillis typically $80–$150+ at theaters/arenas). The gap between face value and market positioning suggests potential for resale premium if show sells out. Also touring extensively — smaller market dates (Rockford IL, Baltimore Lyric, Marietta OH) at smaller venues may sell out with less attention.
-      <div class="source-cite">Sources: NYT "27 Things to Do in NYC March 2026," Little Village Mag (pricing), SeedSing review (Feb 23), SeatGeek API</div>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/search?q=Stavros+Halkias" target="_blank">🎟️ SeatGeek</a>
-      <a href="https://www.vividseats.com/search?searchTerm=Stavros+Halkias" target="_blank">🎟️ Vivid Seats</a>
-    </div>
-  </div>
-</div>
-
-<!-- ====================================== -->
-<!-- COLLEGE SPORTS                         -->
-<!-- ====================================== -->
-<div class="section-header">
-  <h2>🏟️ College Sports</h2>
-  <span class="count">4 events</span>
-</div>
-
-<!-- Big Ten Wrestling -->
-<div class="card tier-a" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">Big Ten Wrestling Championship — Penn State hosts</div>
-    <div class="card-badges">
-      <span class="badge badge-a">A</span>
-      <span class="badge badge-sold-out">PRIMARY SOLD OUT</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 Bryce Jordan Center, University Park PA (16,006 cap)</span><br>
-    <span class="date">📅 March 7-8, 2026 • #1 Penn State — going for 5th consecutive NCAA title</span>
-  </div>
-
-  <div class="data-grid">
-    <div class="data-cell"><div class="label">Session Tickets</div><div class="value">From $14</div><div class="source">Vivid Seats, Feb 24</div></div>
-    <div class="data-cell"><div class="label">All-Sessions</div><div class="value">$40–$123</div><div class="source">StubHub $40, Vivid $123</div></div>
-    <div class="data-cell"><div class="label">Attendance Record</div><div class="value hot">16,006 (BJC record)</div><div class="source">Penn State Athletics</div></div>
-    <div class="data-cell"><div class="label">SeatGeek Score</div><div class="value">0.69</div><div class="source">SeatGeek API</div></div>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> Per Penn State Athletics (Mar 2): Sold-out crowd of 16,006 filled BJC for a dual meet, breaking previous record. Primary tickets sold out; secondary ranges from $14 (early sessions) to $123 (all-sessions at Vivid Seats). SI.com reports all-sessions passes "under $100" on StubHub with "limited availability." Notable price disparity: Vivid Seats $123 vs StubHub $40 for all-sessions (as of Feb 28). This feeds into NCAA Championships in Cleveland (Mar 19-21).
-      <div class="source-cite">Sources: Penn State Athletics (gopsusports.com, Mar 2), SI.com (Mar 2), PennLive (Feb 24 & 28), York Daily Record (Feb 24)</div>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/big-ten-wrestling-championship-tickets/college-wrestling/2026-03-07-3-30-am/17725127" target="_blank">🎟️ SeatGeek</a>
-      <a href="https://www.vividseats.com/big-ten-wrestling-championship-tickets-bryce-jordan-center-3-7-2026--sports-amateur-wrestling/production/5771155" target="_blank">🎟️ Vivid Seats</a>
-    </div>
-  </div>
-</div>
-
-<!-- NCAA Wrestling -->
-<div class="card tier-a" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">NCAA D1 Wrestling Championships</div>
-    <div class="card-badges">
-      <span class="badge badge-a">A</span>
-      <span class="badge badge-demand">NATIONAL CHAMPIONSHIP</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 Rocket Arena, Cleveland OH</span><br>
-    <span class="date">📅 March 19-21, 2026 • Penn State pursuing historic 5th consecutive title</span>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> Cleveland hosting for the third time. If Penn State dominates Big Tens (Mar 7-8), expect demand acceleration for the national championship — Penn State fanbase is 4 hours driving distance from Cleveland. Finals night (March 21) is historically the premium session. Per NCAA.com (Feb 26): qualifying tournament allocations released, building anticipation.
-      <div class="source-cite">Sources: NCAA.com (Feb 26), Cleveland.com (Feb 2026)</div>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/search?q=NCAA+Wrestling+Championship" target="_blank">🎟️ SeatGeek</a>
-      <a href="https://www.vividseats.com/search?searchTerm=NCAA+Wrestling+Championship+Cleveland" target="_blank">🎟️ Vivid Seats</a>
-    </div>
-  </div>
-</div>
-
-<!-- Tennessee @ Vandy -->
-<div class="card tier-a" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">Tennessee at Vanderbilt — SEC Baseball</div>
-    <div class="card-badges">
-      <span class="badge badge-a">A</span>
-      <span class="badge badge-demand">$285 GET-IN</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 Hawkins Field, Nashville TN (3,802 cap)</span><br>
-    <span class="date">📅 March 28-30, 2026</span>
-  </div>
-  <div class="data-grid">
-    <div class="data-cell"><div class="label">Get-In</div><div class="value hot">$285</div><div class="source">Gametime, Feb 20</div></div>
-    <div class="data-cell"><div class="label">Context</div><div class="value">Above Dodgers Opening Day ($265)</div><div class="source">Gametime comparison</div></div>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=Tennessee+Vanderbilt+Baseball" target="_blank">🎟️ SeatGeek</a>
-  </div>
-</div>
-
-<!-- March Madness -->
-<div class="card tier-b" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">March Madness — NCAA Men's Basketball Tournament</div>
-    <div class="card-badges">
-      <span class="badge badge-b">B</span>
-      <span class="badge badge-cat">BASKETBALL</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 8 first/second round sites → 4 regionals → Final Four at Lucas Oil Stadium, Indianapolis</span><br>
-    <span class="date">📅 Mar 17 (First Four) → Apr 6 (Championship) • Selection Sunday: March 15</span>
-  </div>
-
-  <div class="trend-bar">
-    <span class="trend-label">Demand Score</span>
-    <span class="trend-score moderate">44/100</span>
-    <div class="trend-fill"><div class="trend-fill-inner" style="width:44%;background:linear-gradient(90deg,#4a9eff,#6bb5ff);"></div></div>
-    <span class="trend-signals">🚀 2 expansion signals (pre-bracket pricing window)</span>
-  </div>
-
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Demand Analysis:</strong> Pre-bracket pricing creates a distinct window. Per StubHub: First Four all-sessions $175, regional all-sessions from $500, championship from $300. Selection Sunday (March 15) is the catalyst — once brackets are revealed, site-specific pricing adjusts based on team assignments. San Diego (Viejas Arena, 12K) and Greenville (Bon Secours, 16K) are the smallest first/second round venues. CBS Sports notes conference tournaments are underway, with auto-bids being claimed.
-      <div class="source-cite">Sources: Sporting News (Mar 1), CBS Sports (Mar 1), StubHub pricing, NCAA.com bracket page</div>
-    </div>
-    <div class="card-links">
-      <a href="https://seatgeek.com/search?q=NCAA+Tournament+Basketball" target="_blank">🎟️ SeatGeek</a>
-      <a href="https://www.stubhub.com/march-madness-ncaa-division-i-men-s-basketball-tournament-tickets/grouping/50937714" target="_blank">🎟️ StubHub</a>
-    </div>
-  </div>
-</div>
-
-<!-- ====================================== -->
-<!-- SPRING TRAINING                        -->
-<!-- ====================================== -->
-<div class="section-header">
-  <h2>⚾ Spring Training</h2>
-  <span class="count">3 events</span>
-</div>
-
-<!-- Yankees @ Mets -->
-<div class="card tier-a" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">Spring Training: Yankees at Mets — Subway Series</div>
-    <div class="card-badges">
-      <span class="badge badge-a">A</span>
-      <span class="badge badge-demand">SG SCORE: 0.87</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 Clover Park, Port St. Lucie FL (7,160 cap)</span><br>
-    <span class="date">📅 March 8, 2026 • Highest SeatGeek-scored spring training game</span>
-  </div>
-  <div class="data-grid">
-    <div class="data-cell"><div class="label">SeatGeek Score</div><div class="value">0.87</div><div class="source">SeatGeek API</div></div>
-    <div class="data-cell"><div class="label">Venue Cap</div><div class="value">7,160</div><div class="source">Venue data</div></div>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=yankees+mets+spring+training" target="_blank">🎟️ SeatGeek</a>
-  </div>
-</div>
-
-<!-- Yankees @ Red Sox -->
-<div class="card tier-a" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">Spring Training: Yankees at Red Sox</div>
-    <div class="card-badges">
-      <span class="badge badge-a">A</span>
-      <span class="badge badge-demand">SG SCORE: 0.82</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 JetBlue Park, Fort Myers FL</span><br>
-    <span class="date">📅 March 4, 2026</span>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=yankees+red+sox+spring+training" target="_blank">🎟️ SeatGeek</a>
-  </div>
-</div>
-
-<!-- Yankees @ Cubs -->
-<div class="card tier-b" onclick="this.classList.toggle('expanded')">
-  <div class="card-top">
-    <div class="card-title">Spring Training: Yankees at Cubs — Sloan Park</div>
-    <div class="card-badges">
-      <span class="badge badge-b">B</span>
-      <span class="badge badge-demand">FIRST SINCE 1951</span>
-    </div>
-  </div>
-  <div class="card-meta">
-    <span class="venue">📍 Sloan Park, Mesa AZ (15,000 cap)</span><br>
-    <span class="date">📅 March 23-24, 2026 • Yankees in AZ spring training for first time since Mickey Mantle era</span>
-  </div>
-  <div class="card-detail">
-    <div class="insight">
-      <strong>Context:</strong> Per Cronkite News/AZPBS (Feb 11): "The last time the Yankees were in Arizona for spring training was 1951, and it was Mickey Mantle who was up at the plate." Historic novelty factor with two of baseball's largest fanbases at the biggest spring training venue (15K cap).
-      <div class="source-cite">Source: Cronkite News / Arizona PBS (Feb 11, 2026)</div>
-    </div>
-  </div>
-  <div class="card-links">
-    <a href="https://seatgeek.com/search?q=yankees+cubs+spring+training" target="_blank">🎟️ SeatGeek</a>
-  </div>
-</div>
-
-</div><!-- end tab-all -->
-
-<!-- ====================================== -->
-<!-- WATCHLIST TAB                          -->
-<!-- ====================================== -->
-<div id="tab-watchlist" class="tab-content">
-<div class="section-header">
-  <h2>➕ Add to Watchlist</h2>
-</div>
-
-<div class="card tier-a" style="border-left-color:#27ae60;">
-  <div style="margin-bottom:12px; font-size:0.88rem; color:#ccc;">
-    Add an artist, band, or comedian to the daily watchlist scanner. Blackbeard checks SeatGeek + Brave daily at 3 AM ET and alerts when new events appear.
-  </div>
+<!-- ============ CONCERTS ============ -->
+<div id="view-concerts" class="view" style="display:none;">
+  <div class="section-head"><h2>🎵 Concert Opportunities</h2><span class="badge-count">7 events</span></div>
+  <p style="color:var(--text-muted); font-size:13px; margin-bottom:20px;">Under-the-radar shows, breakout tours, and venue-specific scarcity plays</p>
   
-  <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px;">
-    <input type="text" id="artistName" placeholder="Artist name (e.g. Florence Road)" 
-      style="flex:1; min-width:200px; padding:10px 14px; background:#1a1a2e; border:1px solid #333; border-radius:6px; color:#fff; font-size:0.95rem; outline:none;"
-      onkeydown="if(event.key==='Enter')addArtist()">
-    <select id="artistCategory" style="padding:10px; background:#1a1a2e; border:1px solid #333; border-radius:6px; color:#fff; font-size:0.85rem;">
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Freya Skye — "Stars Align Tour" (US Fall Dates)</div>
+        <div class="card-subtitle">📍 3K–4.5K cap venues &nbsp;•&nbsp; Feb/Mar sold out → 36 dates added</div>
+      </div>
+      <div class="card-right"><span class="tag tag-s">S</span><div class="score-ring s">92</div></div>
+    </div>
+    <div class="card-body">
+      <div class="insight-block"><p>See overview for full analysis. Key targets: Santa Barbara Bowl (4,562), Coca-Cola Roxy ATL (3,000), Hartford Amphitheater.</p></div>
+    </div>
+  </div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Tame Impala — "Deadbeat Tour"</div>
+        <div class="card-subtitle">📍 22 arenas &nbsp;•&nbsp; 98K+ presale queues &nbsp;•&nbsp; Philly sold out in queue</div>
+      </div>
+      <div class="card-right"><span class="tag tag-s">S</span><div class="score-ring s">98</div></div>
+    </div>
+  </div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">RÜFÜS DU SOL — North American Tour</div>
+        <div class="card-subtitle">📍 31 dates, 15/24 sold out &nbsp;•&nbsp; Petco Park (40K) sold out</div>
+      </div>
+      <div class="card-right"><span class="tag tag-s">S</span><div class="score-ring s">96</div></div>
+    </div>
+  </div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Cat Power — Summer Tour 2026</div>
+        <div class="card-subtitle">📍 Brooklyn Steel + Webster Hall sold out &nbsp;•&nbsp; 15+ dates at 1-3K venues</div>
+      </div>
+      <div class="card-right"><span class="tag tag-s">S</span><div class="score-ring s">88</div></div>
+    </div>
+  </div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--accent);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Waxahatchee & MJ Lenderman — Co-Headline Tour</div>
+        <div class="card-subtitle">📍 18 cities, Beacon Theatre NYC (Apr 20) &nbsp;•&nbsp; 📅 Apr–May 2026</div>
+      </div>
+      <div class="card-right"><span class="tag tag-a">A</span><div class="score-ring a">75</div></div>
+    </div>
+  </div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--accent);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Metallica @ Sphere Las Vegas</div>
+        <div class="card-subtitle">📍 Sphere (17,500) &nbsp;•&nbsp; 12 shows Oct–Nov 2026 &nbsp;•&nbsp; Presale sold out</div>
+      </div>
+      <div class="card-right"><span class="tag tag-a">A</span><div class="score-ring a">82</div></div>
+    </div>
+    <div class="card-body">
+      <div class="insight-block"><p>Legacy/Fifth Member presale already sold out. General onsale was March 6. Google Trends 57/100 (-17% from peak). Sphere's unique format + Metallica = premium experience demand.</p></div>
+    </div>
+  </div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--blue);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Joji "SOLARIS Tour"</div>
+        <div class="card-subtitle">📍 US Arenas, Summer 2026 &nbsp;•&nbsp; General onsale Mar 6</div>
+      </div>
+      <div class="card-right"><span class="tag tag-b">B</span><div class="score-ring b">62</div></div>
+    </div>
+  </div>
+</div><!-- end concerts -->
+
+<!-- ============ COLLEGE ============ -->
+<div id="view-college" class="view" style="display:none;">
+  <div class="section-head"><h2>🏟️ College Sports Intel</h2><span class="badge-count">5 events</span></div>
+  <p style="color:var(--text-muted); font-size:13px; margin-bottom:20px;">Extreme scarcity at small-capacity college venues — often outpricing pro sports</p>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">SEC College Baseball — Vanderbilt, LSU, Florida</div>
+        <div class="card-subtitle">📍 Hawkins Field (3,626), Alex Box (10,326) &nbsp;•&nbsp; Get-in $382 (Vandy SEC games)</div>
+      </div>
+      <div class="card-right"><span class="tag tag-s">S</span><div class="score-ring s">90</div></div>
+    </div>
+    <div class="card-body">
+      <div class="data-pills">
+        <div class="pill"><div class="pill-label">Vandy Get-In</div><div class="pill-value hot">$382</div><div class="pill-source">SeatGeek snapshot</div></div>
+        <div class="pill"><div class="pill-label">vs MLB</div><div class="pill-value warm">Dodgers OD: $265</div><div class="pill-source">StubHub</div></div>
+        <div class="pill"><div class="pill-label">SEC Median</div><div class="pill-value">$51</div><div class="pill-source">vs $14 non-SEC</div></div>
+        <div class="pill"><div class="pill-label">GT Trend</div><div class="pill-value" style="color:var(--green);">31/100 (+61%)</div><div class="pill-source">Google Trends</div></div>
+      </div>
+      <div class="insight-block"><p>SEC baseball at small-capacity venues is a massive underserved opportunity. Vandy SEC games price above MLB Opening Day. Smallest Power 5 venues (sub-5K) create extreme supply constraints.</p></div>
+    </div>
+  </div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Big Ten Wrestling Championship</div>
+        <div class="card-subtitle">📍 State College, PA &nbsp;•&nbsp; 📅 Mar 7-8 &nbsp;•&nbsp; Primary SOLD OUT</div>
+      </div>
+      <div class="card-right"><span class="tag tag-s">S</span><div class="score-ring s">87</div></div>
+    </div>
+    <div class="card-body">
+      <div class="data-pills">
+        <div class="pill"><div class="pill-label">GT Score</div><div class="pill-value hot">71/100 (+191%)</div><div class="pill-source">Google Trends</div></div>
+        <div class="pill"><div class="pill-label">StubHub From</div><div class="pill-value">$40</div><div class="pill-source">StubHub</div></div>
+        <div class="pill"><div class="pill-label">Vivid Seats</div><div class="pill-value warm">From $123</div><div class="pill-source">Vivid Seats</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--accent);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">March Madness — NCAA Tournament</div>
+        <div class="card-subtitle">📍 All venues &nbsp;•&nbsp; Selection Sunday Mar 15 &nbsp;•&nbsp; Prices spike post-bracket</div>
+      </div>
+      <div class="card-right"><span class="tag tag-a">A</span><div class="score-ring a">82</div></div>
+    </div>
+    <div class="card-body">
+      <div class="data-pills">
+        <div class="pill"><div class="pill-label">GT Score</div><div class="pill-value hot">86/100 (+53%)</div><div class="pill-source">Google Trends</div></div>
+        <div class="pill"><div class="pill-label">First Four</div><div class="pill-value">$175 all-session</div><div class="pill-source">StubHub</div></div>
+        <div class="pill"><div class="pill-label">Regional</div><div class="pill-value warm">$500</div><div class="pill-source">StubHub</div></div>
+        <div class="pill"><div class="pill-label">Championship</div><div class="pill-value warm">$300+</div><div class="pill-source">StubHub</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--accent);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">College Gymnastics — Utah, LSU, Oklahoma</div>
+        <div class="card-subtitle">📍 Sub-10K venues &nbsp;•&nbsp; Student demand driving secondary prices</div>
+      </div>
+      <div class="card-right"><span class="tag tag-a">A</span><div class="score-ring a">72</div></div>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--blue);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">College Wrestling — Iowa, Penn State Dual Meets</div>
+        <div class="card-subtitle">📍 Carver-Hawkeye (15,056), Rec Hall (6,846) &nbsp;•&nbsp; Rivalry games premium</div>
+      </div>
+      <div class="card-right"><span class="tag tag-b">B</span><div class="score-ring b">64</div></div>
+    </div>
+  </div>
+</div><!-- end college -->
+
+<!-- ============ COMEDY ============ -->
+<div id="view-comedy" class="view" style="display:none;">
+  <div class="section-head"><h2>🎤 Comedy Intel</h2><span class="badge-count">3 events</span></div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--accent);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Stavros Halkias — Radio City Music Hall</div>
+        <div class="card-subtitle">📍 NYC (5,960 cap) &nbsp;•&nbsp; 📅 Mar 28 &nbsp;•&nbsp; Face: $39-$60</div>
+      </div>
+      <div class="card-right"><span class="tag tag-a">A</span><div class="score-ring a">76</div></div>
+    </div>
+    <div class="card-body">
+      <div class="data-pills">
+        <div class="pill"><div class="pill-label">GT Score</div><div class="pill-value" style="color:var(--green);">41/100 (+9%)</div><div class="pill-source">Steady growth</div></div>
+        <div class="pill"><div class="pill-label">Face Value</div><div class="pill-value">$39–$60</div><div class="pill-source">Ticketmaster</div></div>
+        <div class="pill"><div class="pill-label">Venue</div><div class="pill-value">Radio City (5,960)</div><div class="pill-source">NYC</div></div>
+      </div>
+      <div class="insight-block"><p>Slow, steady Google Trends growth (+9%). Radio City is a prestige venue — quiet sleeper signal. Stavros has graduated from clubs to theaters to iconic venues. Low face value ($39-$60) leaves room for resale premium if momentum continues.</p></div>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--accent);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Nate Bargatze — Arena Tour (Ongoing)</div>
+        <div class="card-subtitle">📍 Arenas nationwide &nbsp;•&nbsp; GT: 32/100 (+13%)</div>
+      </div>
+      <div class="card-right"><span class="tag tag-a">A</span><div class="score-ring a">70</div></div>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--accent);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Shane Gillis — Arena Tour</div>
+        <div class="card-subtitle">📍 Arena dates ahead &nbsp;•&nbsp; GT: 23/100 (+6%)</div>
+      </div>
+      <div class="card-right"><span class="tag tag-a">A</span><div class="score-ring a">68</div></div>
+    </div>
+  </div>
+</div><!-- end comedy -->
+
+<!-- ============ SPRING TRAINING ============ -->
+<div id="view-spring" class="view" style="display:none;">
+  <div class="section-head"><h2>⚾ Spring Training Intel</h2><span class="badge-count">3 events</span></div>
+  <p style="color:var(--text-muted); font-size:13px; margin-bottom:20px;">Cactus & Grapefruit League premium matchups — research in progress</p>
+
+  <div class="event-card">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--accent);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Dodgers Spring Training — Premium Games</div>
+        <div class="card-subtitle">📍 Camelback Ranch (12,000) &nbsp;•&nbsp; Dodgers draw highest demand</div>
+      </div>
+      <div class="card-right"><span class="tag tag-a">A</span></div>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--blue);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Cubs Spring Training — Mesa AZ</div>
+        <div class="card-subtitle">📍 Sloan Park (15,000) &nbsp;•&nbsp; Cubs Nation travel demand</div>
+      </div>
+      <div class="card-right"><span class="tag tag-b">B</span></div>
+    </div>
+  </div>
+
+  <div class="event-card">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--blue);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Yankees Spring Training — Tampa FL</div>
+        <div class="card-subtitle">📍 Steinbrenner Field (11,026) &nbsp;•&nbsp; Grapefruit League</div>
+      </div>
+      <div class="card-right"><span class="tag tag-b">B</span></div>
+    </div>
+  </div>
+</div><!-- end spring -->
+
+<!-- ============ CALENDAR ============ -->
+<div id="view-calendar" class="view" style="display:none;">
+  <div class="section-head"><h2>📅 Onsale Calendar — Week of March 3</h2></div>
+
+  <div class="cal-day">
+    <div class="cal-date">🔴 Monday, March 3</div>
+    <div class="cal-event">
+      <div><div class="ce-name">Outside Lands 2026</div><div class="ce-detail">Lineup announced — new ticket structure, no more Eager Beaver</div></div>
+      <div class="ce-links"><a class="link-btn" href="https://www.sfoutsidelands.com/" target="_blank">🎟️ Info</a></div>
+    </div>
+  </div>
+
+  <div class="cal-day">
+    <div class="cal-date">🟡 Tuesday, March 4 — Presale Day</div>
+    <div class="cal-event">
+      <div><div class="ce-name">Joji "SOLARIS Tour"</div><div class="ce-detail">Artist Presale 10 AM local — account-based (no code)</div></div>
+      <div class="ce-links"><a class="link-btn" href="https://www.ticketmaster.com/joji-tickets/artist/5265730" target="_blank">🎟️ TM</a></div>
+    </div>
+    <div class="cal-event">
+      <div><div class="ce-name">Jason Aldean "Songs About Us Tour"</div><div class="ce-detail">Aldean Army Presale 10 AM — 22-city amphitheaters</div></div>
+      <div class="ce-links"><a class="link-btn" href="https://www.ticketmaster.com/jason-aldean-tickets/artist/1168279" target="_blank">🎟️ TM</a></div>
+    </div>
+    <div class="cal-event">
+      <div><div class="ce-name">Sting 3.0 Tour</div><div class="ce-detail">Fan Club Presale — Brooklyn Paramount ×5, Wallingford CT, Akron, Cincinnati</div></div>
+      <div class="ce-links"><a class="link-btn" href="https://www.ticketmaster.com/sting-tickets/artist/736192" target="_blank">🎟️ TM</a></div>
+    </div>
+  </div>
+
+  <div class="cal-day">
+    <div class="cal-date">🟡 Wednesday, March 5</div>
+    <div class="cal-event">
+      <div><div class="ce-name">Joji — Spotify Presale</div><div class="ce-detail">10 AM local</div></div>
+    </div>
+    <div class="cal-event">
+      <div><div class="ce-name">Sting — Additional presales continue</div></div>
+    </div>
+  </div>
+
+  <div class="cal-day">
+    <div class="cal-date">🟢 Friday, March 6 — General Onsale Day</div>
+    <div class="cal-event">
+      <div><div class="ce-name">Joji "SOLARIS Tour"</div><div class="ce-detail">General onsale 10 AM local</div></div>
+      <div class="ce-links"><a class="link-btn" href="https://www.ticketmaster.com/joji-tickets/artist/5265730" target="_blank">🎟️ TM</a></div>
+    </div>
+    <div class="cal-event">
+      <div><div class="ce-name">Jason Aldean "Songs About Us"</div><div class="ce-detail">General onsale 10 AM</div></div>
+      <div class="ce-links"><a class="link-btn" href="https://www.livenation.com/" target="_blank">🎟️ LN</a></div>
+    </div>
+    <div class="cal-event">
+      <div><div class="ce-name">Sting 3.0 Tour</div><div class="ce-detail">General onsale 10 AM local</div></div>
+      <div class="ce-links"><a class="link-btn" href="https://www.ticketmaster.com/sting-tickets/artist/736192" target="_blank">🎟️ TM</a></div>
+    </div>
+    <div class="cal-event" style="border-left:3px solid var(--red);">
+      <div><div class="ce-name" style="color:var(--red);">Metallica @ Sphere Las Vegas</div><div class="ce-detail">General onsale 10 AM PT — 12 shows (Oct–Nov 2026)</div></div>
+      <div class="ce-links"><a class="link-btn" href="https://www.ticketmaster.com/metallica-tickets/artist/735647" target="_blank">🎟️ TM</a></div>
+    </div>
+  </div>
+</div><!-- end calendar -->
+
+<!-- ============ TRENDS ============ -->
+<div id="view-trends" class="view" style="display:none;">
+  <div class="section-head"><h2>📈 Google Trends — Live Search Interest</h2><span class="badge-count">via SerpAPI</span></div>
+  <p style="color:var(--text-muted); font-size:13px; margin-bottom:20px;">Interest score 0-100 (relative to peak, 3-month US window). Change = last 4 days vs prior 4 days. Source: Google Trends via SerpAPI, March 3, 2026.</p>
+
+  <div class="trends-grid">
+    <div class="trend-card"><div class="trend-name">🔺 Big Ten Wrestling</div><div class="trend-score" style="color:var(--red);">71/100</div><div class="trend-change" style="color:var(--green);">+191%</div><div class="trend-ctx">Event this weekend</div></div>
+    <div class="trend-card"><div class="trend-name">🔺 March Madness Tickets</div><div class="trend-score" style="color:var(--red);">86/100</div><div class="trend-change" style="color:var(--green);">+53%</div><div class="trend-ctx">Selection Sunday Mar 15</div></div>
+    <div class="trend-card"><div class="trend-name">🔺 Vanderbilt Baseball</div><div class="trend-score" style="color:var(--orange);">31/100</div><div class="trend-change" style="color:var(--green);">+61%</div><div class="trend-ctx">SEC season underway</div></div>
+    <div class="trend-card"><div class="trend-name">🔺 Metallica Sphere</div><div class="trend-score" style="color:var(--orange);">57/100</div><div class="trend-change" style="color:var(--red);">-17%</div><div class="trend-ctx">Onsale this Friday</div></div>
+    <div class="trend-card"><div class="trend-name">📈 Freya Skye</div><div class="trend-score" style="color:var(--orange);">55/100</div><div class="trend-change" style="color:var(--red);">-19%</div><div class="trend-ctx">Down from peak at tour announce</div></div>
+    <div class="trend-card"><div class="trend-name">📈 Cat Power Tour</div><div class="trend-score">65/100</div><div class="trend-change" style="color:var(--red);">-27%</div><div class="trend-ctx">Steady post-announce</div></div>
+    <div class="trend-card"><div class="trend-name">🔺 Stavros Halkias</div><div class="trend-score" style="color:var(--green);">41/100</div><div class="trend-change" style="color:var(--green);">+9%</div><div class="trend-ctx">Growing toward Radio City</div></div>
+    <div class="trend-card"><div class="trend-name">🔺 Waxahatchee</div><div class="trend-score" style="color:var(--green);">36/100</div><div class="trend-change" style="color:var(--green);">+6%</div><div class="trend-ctx">Steady growth</div></div>
+    <div class="trend-card"><div class="trend-name">🔺 Nate Bargatze Tour</div><div class="trend-score" style="color:var(--green);">32/100</div><div class="trend-change" style="color:var(--green);">+13%</div><div class="trend-ctx">Arena tour ongoing</div></div>
+    <div class="trend-card"><div class="trend-name">🔺 Shane Gillis Tour</div><div class="trend-score" style="color:var(--green);">23/100</div><div class="trend-change" style="color:var(--green);">+6%</div><div class="trend-ctx">Arena dates ahead</div></div>
+    <div class="trend-card"><div class="trend-name">📈 Joji Tour</div><div class="trend-score">35/100</div><div class="trend-change" style="color:var(--red);">-25%</div><div class="trend-ctx">Presale was yesterday</div></div>
+    <div class="trend-card"><div class="trend-name">🔻 RUFUS DU SOL</div><div class="trend-score" style="color:var(--text-dim);">15/100</div><div class="trend-change" style="color:var(--red);">-73%</div><div class="trend-ctx">Post-announce cooldown (15/24 sold out)</div></div>
+    <div class="trend-card"><div class="trend-name">🔻 Tame Impala</div><div class="trend-score" style="color:var(--text-dim);">5/100</div><div class="trend-change" style="color:var(--red);">-27%</div><div class="trend-ctx">Sold out — searches dropped</div></div>
+    <div class="trend-card"><div class="trend-name">📈 MJ Lenderman</div><div class="trend-score" style="color:var(--text-dim);">12/100</div><div class="trend-change" style="color:var(--red);">-15%</div><div class="trend-ctx">Niche but stable</div></div>
+  </div>
+
+  <div class="insight-block" style="margin-top:16px;">
+    <p><strong>Key Takeaway:</strong> Biggest movers are <strong>Big Ten Wrestling (+191%)</strong> and <strong>March Madness (+53%)</strong> — both imminent. <strong>Vanderbilt baseball (+61%)</strong> surging as SEC play begins. RUFUS DU SOL and Tame Impala show post-sellout cooldown — searches drop when tickets are gone, but resale demand remains. Stavros Halkias (+9%) is a quiet sleeper for Radio City Mar 28.</p>
+    <div class="cite">Data: Google Trends via SerpAPI (US, 3-month window, March 3, 2026)</div>
+  </div>
+</div><!-- end trends -->
+
+<!-- ============ RISING STARS ============ -->
+<div id="view-rising" class="view" style="display:none;">
+  <div class="section-head"><h2>🚀 Rising Stars — Emerging Artist Tracker</h2><span class="badge-count">Auto-scanned daily</span></div>
+  <p style="color:var(--text-muted); font-size:13px; margin-bottom:20px;">Artists blowing up with 1-3 albums, rapid listener growth, and limited touring — highest breakout potential for ticket plays. Data: Spotify, Brave Search, SeatGeek resale pricing.</p>
+  <p style="color:var(--text-dim); font-size:12px; margin-bottom:20px;">Full data loads from <code style="background:var(--surface2);padding:2px 6px;border-radius:3px;">docs/data/rising-stars.json</code> — interactive page coming soon</p>
+
+  <div class="section-head"><h2 style="font-size:14px;">🔴 RED HOT — Confirmed Demand + Strong Resale</h2></div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Sonny Fodera</div>
+        <div class="card-subtitle">🎧 DJ/Electronic &nbsp;•&nbsp; Score: 80 &nbsp;•&nbsp; Confirmed sold-out shows + strong resale</div>
+      </div>
+      <div class="card-right"><div class="score-ring s">80</div></div>
+    </div>
+  </div>
+
+  <div class="event-card" onclick="this.classList.toggle('open')">
+    <div class="card-header">
+      <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+      <div class="card-left">
+        <div class="card-title">Alex Warren</div>
+        <div class="card-subtitle">🎵 Pop/Singer-songwriter &nbsp;•&nbsp; Score: 75 &nbsp;•&nbsp; Red Rocks get-in $223</div>
+      </div>
+      <div class="card-right"><div class="score-ring s">75</div></div>
+    </div>
+  </div>
+
+  <div class="event-card"><div class="card-header">
+    <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+    <div class="card-left"><div class="card-title">sombr</div><div class="card-subtitle">🎵 Indie &nbsp;•&nbsp; Score: 60</div></div>
+    <div class="card-right"><div class="score-ring a">60</div></div>
+  </div></div>
+
+  <div class="event-card"><div class="card-header">
+    <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+    <div class="card-left"><div class="card-title">Bella Kay</div><div class="card-subtitle">🎵 Pop &nbsp;•&nbsp; Score: 57</div></div>
+    <div class="card-right"><div class="score-ring a">57</div></div>
+  </div></div>
+
+  <div class="event-card"><div class="card-header">
+    <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+    <div class="card-left"><div class="card-title">Ms Ray</div><div class="card-subtitle">🎵 R&B &nbsp;•&nbsp; Score: 55</div></div>
+    <div class="card-right"><div class="score-ring a">55</div></div>
+  </div></div>
+
+  <div class="event-card"><div class="card-header">
+    <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+    <div class="card-left"><div class="card-title">Jackie Hollander</div><div class="card-subtitle">🎤 Comedy &nbsp;•&nbsp; Score: 55</div></div>
+    <div class="card-right"><div class="score-ring a">55</div></div>
+  </div></div>
+
+  <div class="event-card"><div class="card-header">
+    <div style="width:4px;align-self:stretch;background:var(--red);border-radius:2px;flex-shrink:0;"></div>
+    <div class="card-left"><div class="card-title">Danny L Harle</div><div class="card-subtitle">🎧 Electronic &nbsp;•&nbsp; Score: 55</div></div>
+    <div class="card-right"><div class="score-ring a">55</div></div>
+  </div></div>
+
+  <div class="section-head" style="margin-top:24px;"><h2 style="font-size:14px;">🟡 WARM — Emerging Signals, Needs Confirmation</h2></div>
+  <p style="color:var(--text-dim); font-size:12px; margin-bottom:12px;">10 additional artists being monitored — check <code style="background:var(--surface2);padding:2px 6px;border-radius:3px;">rising-stars.json</code> for full details</p>
+</div><!-- end rising -->
+
+<!-- ============ WATCHLIST ============ -->
+<div id="view-watchlist" class="view" style="display:none;">
+  <div class="section-head"><h2>👁️ Artist Watchlist</h2><span class="badge-count">76 artists</span></div>
+  <p style="color:var(--text-muted); font-size:13px; margin-bottom:20px;">Scanned daily at 3 AM ET — SeatGeek + Brave for new tour dates & announcements</p>
+
+  <div class="add-form">
+    <input type="text" id="artistName" placeholder="Artist name (e.g. Florence Road)" onkeydown="if(event.key==='Enter')addArtist()">
+    <select id="artistCategory">
       <option value="band">🎵 Band/Solo</option>
       <option value="dj">🎧 DJ/Electronic</option>
       <option value="comedy">🎤 Comedy</option>
       <option value="sports">🏟️ Sports</option>
     </select>
-    <select id="artistTier" style="padding:10px; background:#1a1a2e; border:1px solid #333; border-radius:6px; color:#fff; font-size:0.85rem;">
+    <select id="artistTier">
       <option value="A">Tier A (priority)</option>
       <option value="B">Tier B (standard)</option>
     </select>
-    <button onclick="addArtist()" style="padding:10px 20px; background:#27ae60; border:none; border-radius:6px; color:#fff; font-weight:700; font-size:0.9rem; cursor:pointer; white-space:nowrap;">➕ Add</button>
+    <button onclick="addArtist()">+ Add to Watchlist</button>
   </div>
-  
-  <div id="addResult" style="display:none; padding:10px 14px; border-radius:6px; font-size:0.85rem; margin-bottom:10px;"></div>
-  <div id="pendingList" style="display:none; margin-top:12px;">
-    <div style="font-size:0.8rem; color:#888; margin-bottom:8px;">📋 Copy & paste in Discord #blackbeard🏴‍☠️:</div>
-    <div id="pendingItems" style="background:#111; padding:10px 14px; border-radius:6px; font-family:monospace; font-size:0.85rem; color:#d4a017;"></div>
-    <button onclick="copyPending()" style="margin-top:8px; padding:8px 16px; background:#4a9eff; border:none; border-radius:6px; color:#fff; font-weight:600; font-size:0.8rem; cursor:pointer;">📋 Copy to Clipboard</button>
+  <div id="addResult" style="display:none; padding:10px; border-radius:6px; font-size:13px; margin-bottom:12px;"></div>
+  <div id="pendingList" style="display:none; margin-bottom:16px;">
+    <div style="font-size:12px; color:var(--text-muted); margin-bottom:6px;">📋 Copy & paste in Discord #blackbeard🏴‍☠️:</div>
+    <div id="pendingItems" style="background:var(--surface2); padding:10px 14px; border-radius:6px; font-family:monospace; font-size:13px; color:var(--accent);"></div>
+    <button onclick="copyPending()" style="margin-top:8px; padding:8px 16px; background:var(--blue); border:none; border-radius:6px; color:#fff; font-weight:600; font-size:12px; cursor:pointer;">📋 Copy to Clipboard</button>
   </div>
-  <div style="margin-top:12px; padding:10px 14px; background:#111; border-radius:6px; font-size:0.8rem; color:#888;">
-    💡 <strong>Quick way:</strong> Type in Discord: <code style="background:#1a1a2e; padding:2px 6px; border-radius:3px; color:#d4a017;">add [artist name]</code>
+
+  <div class="section-head"><h2 style="font-size:14px;">🎵 Bands & Solo Artists</h2></div>
+  <div class="wl-grid" style="margin-bottom:20px;">
+    <span class="wl-chip tier-a-chip">Djo (Joe Keery)</span>
+    <span class="wl-chip tier-a-chip">La Roux</span>
+    <span class="wl-chip">Jade LeMac</span>
+    <span class="wl-chip tier-a-chip">Dominic Fike</span>
+    <span class="wl-chip">Allison Russell</span>
+    <span class="wl-chip">Hemlocke Springs</span>
+    <span class="wl-chip">Flip Turn</span>
+    <span class="wl-chip">Tucker Wetmore</span>
+    <span class="wl-chip tier-a-chip">Treaty Oak Revival</span>
+    <span class="wl-chip tier-a-chip">Mt. Joy</span>
+    <span class="wl-chip tier-a-chip">Ethel Cain</span>
+    <span class="wl-chip tier-a-chip">Electric Callboy</span>
+    <span class="wl-chip tier-a-chip">Goose</span>
+    <span class="wl-chip tier-a-chip">Jon Bellion</span>
+    <span class="wl-chip tier-a-chip">Lord Huron</span>
+    <span class="wl-chip tier-a-chip">Amyl and The Sniffers</span>
+    <span class="wl-chip tier-a-chip">Alex Warren</span>
+    <span class="wl-chip tier-a-chip">Hilary Duff</span>
+    <span class="wl-chip">Florence Road</span>
+    <span class="wl-chip">Jutes</span>
+    <span class="wl-chip">Lambrini Girls</span>
+    <span class="wl-chip">Jalen Ngonda</span>
+    <span class="wl-chip">Violet Grohl</span>
   </div>
+
+  <div class="section-head"><h2 style="font-size:14px;">🎧 DJs & Electronic</h2></div>
+  <div class="wl-grid" style="margin-bottom:20px;">
+    <span class="wl-chip tier-a-chip">Crankdat</span>
+    <span class="wl-chip tier-a-chip">Its Murph</span>
+    <span class="wl-chip tier-a-chip">Liquid Stranger</span>
+    <span class="wl-chip tier-a-chip">Subtronics</span>
+    <span class="wl-chip tier-a-chip">Fisher</span>
+    <span class="wl-chip tier-a-chip">Rezz</span>
+    <span class="wl-chip tier-a-chip">Sara Landry</span>
+    <span class="wl-chip">Knock2</span>
+    <span class="wl-chip">ALLEYCVT</span>
+    <span class="wl-chip">LSDREAM</span>
+    <span class="wl-chip">Cloonee</span>
+    <span class="wl-chip tier-a-chip">Seven Lions</span>
+    <span class="wl-chip">Bob Moses</span>
+    <span class="wl-chip">KETTAMA</span>
+    <span class="wl-chip">Mau P</span>
+    <span class="wl-chip tier-a-chip">Freya Skye</span>
+  </div>
+
+  <div class="section-head"><h2 style="font-size:14px;">🎤 Comedy</h2></div>
+  <div class="wl-grid" style="margin-bottom:20px;">
+    <span class="wl-chip">Nurse John</span>
+    <span class="wl-chip">Michael Blaustein</span>
+    <span class="wl-chip tier-a-chip">Stavros Halkias</span>
+    <span class="wl-chip">Josh Johnson</span>
+    <span class="wl-chip tier-a-chip">Druski</span>
+    <span class="wl-chip tier-a-chip">Matt Rife</span>
+    <span class="wl-chip">Sam Morril</span>
+    <span class="wl-chip">Jordan Jensen</span>
+  </div>
+  <p style="font-size:12px; color:var(--text-dim);">Gold border = Tier A (priority scanning). Gray = Tier B (standard). + 29 more across all categories.</p>
+</div><!-- end watchlist -->
+
+<!-- ============ VENUES ============ -->
+<div id="view-venues" class="view" style="display:none;">
+  <div class="section-head"><h2>🏢 Tracked GA Venues</h2><span class="badge-count">49 venues</span></div>
+  <p style="color:var(--text-muted); font-size:13px; margin-bottom:20px;">Key general admission venues monitored for sell-out signals. When watchlist artists book these rooms, alerts fire automatically.</p>
+
+  <div class="section-head"><h2 style="font-size:14px;">New York / Northeast</h2></div>
+  <div class="venue-grid" style="margin-bottom:20px;">
+    <div class="venue-card"><div><div class="vn">Bowery Ballroom</div><div class="vm">New York, NY</div></div><div class="vc">575</div></div>
+    <div class="venue-card"><div><div class="vn">Terminal 5</div><div class="vm">New York, NY</div></div><div class="vc">3,000</div></div>
+    <div class="venue-card"><div><div class="vn">Webster Hall</div><div class="vm">New York, NY</div></div><div class="vc">1,500</div></div>
+    <div class="venue-card"><div><div class="vn">Brooklyn Steel</div><div class="vm">Brooklyn, NY</div></div><div class="vc">1,800</div></div>
+    <div class="venue-card"><div><div class="vn">Music Hall of Williamsburg</div><div class="vm">Brooklyn, NY</div></div><div class="vc">550</div></div>
+    <div class="venue-card"><div><div class="vn">Brooklyn Paramount</div><div class="vm">Brooklyn, NY</div></div><div class="vc">1,800</div></div>
+    <div class="venue-card"><div><div class="vn">Avant Gardner</div><div class="vm">Brooklyn, NY</div></div><div class="vc">4,500</div></div>
+    <div class="venue-card"><div><div class="vn">Irving Plaza</div><div class="vm">New York, NY</div></div><div class="vc">1,025</div></div>
+    <div class="venue-card"><div><div class="vn">Royale</div><div class="vm">Boston, MA</div></div><div class="vc">1,200</div></div>
+    <div class="venue-card"><div><div class="vn">House of Blues Boston</div><div class="vm">Boston, MA</div></div><div class="vc">2,425</div></div>
+    <div class="venue-card"><div><div class="vn">College Street Music Hall</div><div class="vm">New Haven, CT</div></div><div class="vc">1,500</div></div>
+  </div>
+
+  <div class="section-head"><h2 style="font-size:14px;">Pittsburgh</h2></div>
+  <div class="venue-grid" style="margin-bottom:20px;">
+    <div class="venue-card"><div><div class="vn">Stage AE</div><div class="vm">Pittsburgh, PA</div></div><div class="vc">5,500</div></div>
+    <div class="venue-card"><div><div class="vn">Mr. Smalls Theatre</div><div class="vm">Pittsburgh, PA</div></div><div class="vc">600</div></div>
+    <div class="venue-card"><div><div class="vn">Thunderbird Cafe</div><div class="vm">Pittsburgh, PA</div></div><div class="vc">250</div></div>
+  </div>
+
+  <div class="section-head"><h2 style="font-size:14px;">DC / Philadelphia</h2></div>
+  <div class="venue-grid" style="margin-bottom:20px;">
+    <div class="venue-card"><div><div class="vn">9:30 Club</div><div class="vm">Washington, DC</div></div><div class="vc">1,200</div></div>
+    <div class="venue-card"><div><div class="vn">The Anthem</div><div class="vm">Washington, DC</div></div><div class="vc">6,000</div></div>
+    <div class="venue-card"><div><div class="vn">Union Transfer</div><div class="vm">Philadelphia, PA</div></div><div class="vc">1,200</div></div>
+    <div class="venue-card"><div><div class="vn">The Fillmore Philly</div><div class="vm">Philadelphia, PA</div></div><div class="vc">2,500</div></div>
+  </div>
+
+  <div class="section-head"><h2 style="font-size:14px;">Texas</h2></div>
+  <div class="venue-grid" style="margin-bottom:20px;">
+    <div class="venue-card"><div><div class="vn">The Bomb Factory</div><div class="vm">Dallas, TX</div></div><div class="vc">4,300</div></div>
+    <div class="venue-card"><div><div class="vn">Trees</div><div class="vm">Dallas, TX</div></div><div class="vc">750</div></div>
+    <div class="venue-card"><div><div class="vn">Emos Austin</div><div class="vm">Austin, TX</div></div><div class="vc">850</div></div>
+    <div class="venue-card"><div><div class="vn">White Oak Music Hall</div><div class="vm">Houston, TX</div></div><div class="vc">3,000</div></div>
+    <div class="venue-card"><div><div class="vn">Stubb's</div><div class="vm">Austin, TX</div></div><div class="vc">2,100</div></div>
+  </div>
+
+  <div class="section-head"><h2 style="font-size:14px;">Los Angeles</h2></div>
+  <div class="venue-grid" style="margin-bottom:20px;">
+    <div class="venue-card"><div><div class="vn">The Fonda Theatre</div><div class="vm">Los Angeles, CA</div></div><div class="vc">1,200</div></div>
+    <div class="venue-card"><div><div class="vn">The Roxy</div><div class="vm">Los Angeles, CA</div></div><div class="vc">500</div></div>
+    <div class="venue-card"><div><div class="vn">The Novo</div><div class="vm">Los Angeles, CA</div></div><div class="vc">2,300</div></div>
+    <div class="venue-card"><div><div class="vn">The Wiltern</div><div class="vm">Los Angeles, CA</div></div><div class="vc">1,850</div></div>
+    <div class="venue-card"><div><div class="vn">Shrine Expo Hall</div><div class="vm">Los Angeles, CA</div></div><div class="vc">4,800</div></div>
+  </div>
+
+  <div class="section-head"><h2 style="font-size:14px;">Chicago / Midwest</h2></div>
+  <div class="venue-grid" style="margin-bottom:20px;">
+    <div class="venue-card"><div><div class="vn">Metro Chicago</div><div class="vm">Chicago, IL</div></div><div class="vc">1,100</div></div>
+    <div class="venue-card"><div><div class="vn">Thalia Hall</div><div class="vm">Chicago, IL</div></div><div class="vc">800</div></div>
+    <div class="venue-card"><div><div class="vn">Riviera Theatre</div><div class="vm">Chicago, IL</div></div><div class="vc">2,500</div></div>
+    <div class="venue-card"><div><div class="vn">Concord Music Hall</div><div class="vm">Chicago, IL</div></div><div class="vc">1,100</div></div>
+    <div class="venue-card"><div><div class="vn">First Avenue</div><div class="vm">Minneapolis, MN</div></div><div class="vc">1,550</div></div>
+    <div class="venue-card"><div><div class="vn">The Rave</div><div class="vm">Milwaukee, WI</div></div><div class="vc">3,500</div></div>
+    <div class="venue-card"><div><div class="vn">Agora Theatre</div><div class="vm">Cleveland, OH</div></div><div class="vc">2,200</div></div>
+  </div>
+
+  <div class="section-head"><h2 style="font-size:14px;">Southeast</h2></div>
+  <div class="venue-grid" style="margin-bottom:20px;">
+    <div class="venue-card"><div><div class="vn">Marathon Music Works</div><div class="vm">Nashville, TN</div></div><div class="vc">1,500</div></div>
+    <div class="venue-card"><div><div class="vn">The Basement East</div><div class="vm">Nashville, TN</div></div><div class="vc">800</div></div>
+    <div class="venue-card"><div><div class="vn">Cannery Ballroom</div><div class="vm">Nashville, TN</div></div><div class="vc">1,000</div></div>
+    <div class="venue-card"><div><div class="vn">Variety Playhouse</div><div class="vm">Atlanta, GA</div></div><div class="vc">1,100</div></div>
+    <div class="venue-card"><div><div class="vn">The Tabernacle</div><div class="vm">Atlanta, GA</div></div><div class="vc">2,600</div></div>
+    <div class="venue-card"><div><div class="vn">Coca-Cola Roxy</div><div class="vm">Atlanta, GA</div></div><div class="vc">3,600</div></div>
+  </div>
+
+  <div class="section-head"><h2 style="font-size:14px;">Denver / Mountain West</h2></div>
+  <div class="venue-grid" style="margin-bottom:20px;">
+    <div class="venue-card"><div><div class="vn">Gothic Theatre</div><div class="vm">Denver, CO</div></div><div class="vc">1,100</div></div>
+    <div class="venue-card"><div><div class="vn">Ogden Theatre</div><div class="vm">Denver, CO</div></div><div class="vc">1,600</div></div>
+    <div class="venue-card"><div><div class="vn">Mission Ballroom</div><div class="vm">Denver, CO</div></div><div class="vc">4,000</div></div>
+  </div>
+
+  <div class="section-head"><h2 style="font-size:14px;">Pacific Northwest / SF</h2></div>
+  <div class="venue-grid" style="margin-bottom:20px;">
+    <div class="venue-card"><div><div class="vn">The Fillmore SF</div><div class="vm">San Francisco, CA</div></div><div class="vc">1,315</div></div>
+    <div class="venue-card"><div><div class="vn">The Independent</div><div class="vm">San Francisco, CA</div></div><div class="vc">500</div></div>
+    <div class="venue-card"><div><div class="vn">Showbox</div><div class="vm">Seattle, WA</div></div><div class="vc">1,100</div></div>
+    <div class="venue-card"><div><div class="vn">Wonder Ballroom</div><div class="vm">Portland, OR</div></div><div class="vc">800</div></div>
+    <div class="venue-card"><div><div class="vn">Crystal Ballroom</div><div class="vm">Portland, OR</div></div><div class="vc">1,500</div></div>
+  </div>
+</div><!-- end venues -->
+
+</div><!-- end main -->
+</div><!-- end app -->
+
+<div class="footer">
+  🏴‍☠️ Blackbeard v4.0 — Ticket Market Intelligence Platform<br>
+  Data: SeatGeek API &bull; Vivid Seats &bull; StubHub &bull; Google Trends &bull; Brave Search &bull; Reddit &bull; X/Twitter &bull; Spotify &bull; Pollstar &bull; Billboard<br>
+  6 Automated Scanners &bull; 76 Watchlist Artists &bull; 49 Tracked Venues<br>
+  <em>Demand scores reflect observed data signals, not guaranteed outcomes. Verify all data before purchasing.</em>
 </div>
 
-<div class="section-header"><h2>📋 Current Watchlist (76 artists)</h2></div>
-<div class="card" style="border-left:4px solid #333;">
-  <div style="display:flex; flex-wrap:wrap; gap:6px;">
-    <span class="badge badge-cat">🎵 Djo (Joe Keery)</span>
-    <span class="badge badge-cat">🎵 La Roux</span>
-    <span class="badge badge-cat">🎵 Jade LeMac</span>
-    <span class="badge badge-cat">🎵 Dominic Fike</span>
-    <span class="badge badge-cat">🎵 Allison Russell</span>
-    <span class="badge badge-cat">🎵 Hemlocke Springs</span>
-    <span class="badge badge-cat">🎵 Flip Turn</span>
-    <span class="badge badge-cat">🎵 Tucker Wetmore</span>
-    <span class="badge badge-cat">🎵 Treaty Oak Revival</span>
-    <span class="badge badge-cat">🎵 Mt. Joy</span>
-    <span class="badge badge-cat">🎵 Ethel Cain</span>
-    <span class="badge badge-cat">🎵 Electric Callboy</span>
-    <span class="badge badge-cat">🎵 Goose</span>
-    <span class="badge badge-cat">🎵 Jon Bellion</span>
-    <span class="badge badge-cat">🎵 Lord Huron</span>
-    <span class="badge badge-cat">🎵 Amyl and The Sniffers</span>
-    <span class="badge badge-cat">🎵 Alex Warren</span>
-    <span class="badge badge-cat">🎵 Hilary Duff</span>
-    <span class="badge badge-cat">🎵 Florence Road</span>
-    <span class="badge badge-cat">🎵 Jutes</span>
-    <span class="badge badge-cat">🎵 Lambrini Girls</span>
-    <span class="badge badge-cat">🎵 Jalen Ngonda</span>
-    <span class="badge badge-cat">🎵 Violet Grohl</span>
-    <span class="badge badge-cat">🎧 Crankdat</span>
-    <span class="badge badge-cat">🎧 Its Murph</span>
-    <span class="badge badge-cat">🎧 Liquid Stranger</span>
-    <span class="badge badge-cat">🎧 Subtronics</span>
-    <span class="badge badge-cat">🎧 Fisher</span>
-    <span class="badge badge-cat">🎧 Rezz</span>
-    <span class="badge badge-cat">🎧 Sara Landry</span>
-    <span class="badge badge-cat">🎧 Knock2</span>
-    <span class="badge badge-cat">🎧 ALLEYCVT</span>
-    <span class="badge badge-cat">🎧 LSDREAM</span>
-    <span class="badge badge-cat">🎧 Cloonee</span>
-    <span class="badge badge-cat">🎧 Seven Lions</span>
-    <span class="badge badge-cat">🎧 Bob Moses</span>
-    <span class="badge badge-cat">🎧 KETTAMA</span>
-    <span class="badge badge-cat">🎧 Mau P</span>
-    <span class="badge badge-cat">🎧 Freya Skye</span>
-    <span class="badge badge-cat">🎤 Nurse John</span>
-    <span class="badge badge-cat">🎤 Michael Blaustein</span>
-    <span class="badge badge-cat">🎤 Stavros Halkias</span>
-    <span class="badge badge-cat">🎤 Josh Johnson</span>
-    <span class="badge badge-cat">🎤 Druski</span>
-    <span class="badge badge-cat">🎤 Matt Rife</span>
-    <span class="badge badge-cat">🎤 Sam Morril</span>
-    <span class="badge badge-cat">🎤 Jordan Jensen</span>
-  </div>
-  <div style="margin-top:8px; font-size:0.75rem; color:#666;">+ 29 more artists across DJs, bands, and comedians</div>
-</div>
-</div><!-- end tab-watchlist -->
-
-<!-- JS -->
 <script>
 const pendingArtists = [];
 
-function showTab(id) {
-  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
-  document.querySelectorAll('.tab-bar button').forEach(b => b.classList.remove('active'));
-  
-  if (id === 'onsale') {
-    document.getElementById('tab-onsale').classList.add('active');
-  } else if (id === 'watchlist') {
-    document.getElementById('tab-watchlist').classList.add('active');
-  } else {
-    document.getElementById('tab-all').classList.add('active');
-  }
-  
-  event.target.classList.add('active');
+function showView(id) {
+  document.querySelectorAll('.view').forEach(v => v.style.display = 'none');
+  document.getElementById('view-' + id).style.display = 'block';
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  event.target.closest('.nav-item').classList.add('active');
+  // Close mobile sidebar
+  document.querySelector('.sidebar').classList.remove('open');
 }
 
 function addArtist() {
@@ -1017,34 +1102,25 @@ function addArtist() {
   const category = document.getElementById('artistCategory').value;
   const tier = document.getElementById('artistTier').value;
   const resultDiv = document.getElementById('addResult');
-  if (!name) { resultDiv.style.display='block'; resultDiv.style.background='rgba(255,45,45,0.1)'; resultDiv.style.border='1px solid rgba(255,45,45,0.3)'; resultDiv.style.color='#ff6b6b'; resultDiv.textContent='⚠️ Enter an artist name'; return; }
+  if (!name) { resultDiv.style.display='block'; resultDiv.style.background='var(--red-dim)'; resultDiv.style.color='var(--red)'; resultDiv.textContent='Enter an artist name'; return; }
   const catEmoji = {band:'🎵',dj:'🎧',comedy:'🎤',sports:'🏟️'}[category];
   pendingArtists.push({name, category, tier});
-  resultDiv.style.display='block'; resultDiv.style.background='rgba(39,174,96,0.1)'; resultDiv.style.border='1px solid rgba(39,174,96,0.3)'; resultDiv.style.color='#27ae60';
-  resultDiv.textContent = `✅ ${catEmoji} ${name} (Tier ${tier}) queued! Paste the command in Discord to confirm.`;
-  const pendingDiv = document.getElementById('pendingList'); const itemsDiv = document.getElementById('pendingItems');
-  pendingDiv.style.display = 'block';
-  itemsDiv.textContent = pendingArtists.map(a => `add ${a.name} ${a.category} ${a.tier}`).join('\n');
-  document.getElementById('artistName').value = ''; document.getElementById('artistName').focus();
+  resultDiv.style.display='block'; resultDiv.style.background='var(--green-dim)'; resultDiv.style.color='var(--green)';
+  resultDiv.textContent = `✅ ${catEmoji} ${name} (Tier ${tier}) queued — paste command in Discord to confirm.`;
+  document.getElementById('pendingList').style.display = 'block';
+  document.getElementById('pendingItems').textContent = pendingArtists.map(a => `add ${a.name} ${a.category} ${a.tier}`).join('\n');
+  document.getElementById('artistName').value = '';
+  document.getElementById('artistName').focus();
 }
 
 function copyPending() {
   const text = pendingArtists.map(a => `add ${a.name} ${a.category} ${a.tier}`).join('\n');
   navigator.clipboard.writeText(text).then(() => {
-    const btn = event.target; btn.textContent = '✅ Copied!'; btn.style.background = '#27ae60';
-    setTimeout(() => { btn.textContent = '📋 Copy to Clipboard'; btn.style.background = '#4a9eff'; }, 2000);
+    const btn = event.target;
+    btn.textContent = '✅ Copied!';
+    setTimeout(() => { btn.textContent = '📋 Copy to Clipboard'; }, 2000);
   });
 }
 </script>
-
-<footer>
-  🏴‍☠️ Blackbeard v3.0 — Ticket Intelligence Report<br>
-  Data: SeatGeek API • Vivid Seats • StubHub • Gametime • Google Trends RSS • Brave Search • Reddit • X/Twitter • Pollstar • Billboard • BrooklynVegan<br>
-  Automated Scans: Daily Report (5AM ET) • Comedy Scanner (4×/day) • Watchlist Scanner (3AM ET, 76 artists) • Steelers PSL (12PM ET)<br>
-  <em>Demand scores are based on observed signals and do not constitute financial advice. Verify all data before purchasing.</em><br>
-  <a href="https://github.com/Action-Figure-Fire/blackbeard">GitHub</a>
-</footer>
-
-</div>
 </body>
 </html>
