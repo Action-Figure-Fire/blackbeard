@@ -94,6 +94,41 @@
           "monthlyListeners": 133
         }
       }
+    },
+    {
+      "date": "2026-03-05",
+      "artists": {
+        "Flip Turn": {
+          "monthlyListeners": 2000000
+        },
+        "Allison Russell": {
+          "monthlyListeners": 1000000
+        },
+        "Crankdat": {
+          "monthlyListeners": 1000000
+        },
+        "Rezz": {
+          "monthlyListeners": 141
+        },
+        "Djo (Joe Keery)": {
+          "monthlyListeners": 10000000
+        },
+        "Stardew Valley Symphony": {
+          "monthlyListeners": 1000
+        },
+        "Nurse John": {
+          "monthlyListeners": 153
+        },
+        "Fisher": {
+          "monthlyListeners": 125
+        },
+        "Its Murph": {
+          "monthlyListeners": 90
+        },
+        "La Roux": {
+          "monthlyListeners": 133
+        }
+      }
     }
   ]
 }

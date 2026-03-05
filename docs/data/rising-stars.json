@@ -1,11 +1,33 @@
 {
-  "scanDate": "2026-03-04",
-  "scanTime": "2026-03-04T11:00:44.552Z",
+  "scanDate": "2026-03-05",
+  "scanTime": "2026-03-05T11:00:43.573Z",
   "watchlistCount": 76,
   "discoveryCount": 0,
   "totalArtists": 76,
   "braveCallsUsed": 30,
   "artists": [
+    {
+      "name": "Flip Turn",
+      "tier": "B",
+      "source": "watchlist",
+      "monthlyListeners": 2000000,
+      "spotifyFollowers": 30867,
+      "instagramFollowers": 167000,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/7FKTg75ADVMZgY3P9ZMRtH",
+      "upcomingShows": 0,
+      "tourDates": [],
+      "listenerGrowth": 66666566.7,
+      "isNewToTracking": false,
+      "risingStarScore": 44
+    },
     {
       "name": "Allison Russell",
       "tier": "B",
@@ -28,6 +50,82 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/3JBmecDGXTll46ygrnGTM6",
+      "_cachedAt": "2026-03-04T11:00:22.281Z",
+      "_upcomingShows": 25,
+      "_tourDates": [
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-02",
+          "venue": "FirstBank Amphitheater",
+          "city": "Franklin, TN",
+          "capacity": 0,
+          "score": 0.2927235601,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/franklin-tennessee-firstbank-amphitheater-2026-07-01-7-30-pm/concert/18070702"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-03",
+          "venue": "Synovus Bank Amphitheatre at Chastain Park",
+          "city": "Atlanta, GA",
+          "capacity": 0,
+          "score": 0.3544348941,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-07-03-7-30-pm/concert/18070703"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-05",
+          "venue": "Filene Center at The Wolf Trap",
+          "city": "Vienna, VA",
+          "capacity": 7000,
+          "score": 0.4331430655,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/vienna-virginia-filene-center-at-the-wolf-trap-2026-07-05-7-pm/concert/18070749"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-07",
+          "venue": "TD Pavilion at The Mann Center",
+          "city": "Philadelphia, PA",
+          "capacity": 7200,
+          "score": 0.4336440082,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/philadelphia-pennsylvania-td-pavilion-at-the-mann-center-2026-07-07-7-30-pm/concert/18070705"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-08",
+          "venue": "Hartford HealthCare Amphitheater",
+          "city": "Bridgeport, CT",
+          "capacity": 0,
+          "score": 0.314488604,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/bridgeport-connecticut-hartford-healthcare-amphitheater-2026-07-08-7-30-pm/concert/18070704"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-10",
+          "venue": "Leader Bank Pavilion",
+          "city": "Boston, MA",
+          "capacity": 0,
+          "score": 0.3814651353,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/boston-massachusetts-leader-bank-pavilion-2026-07-10-7-30-pm/concert/18070706"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-11",
+          "venue": "Forest Hills Stadium",
+          "city": "Forest Hills, NY",
+          "capacity": 0,
+          "score": 0.3657287516,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/forest-hills-new-york-forest-hills-stadium-2026-07-11-7-pm/concert/18070701"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-12",
+          "venue": "BankNH Pavilion",
+          "city": "Gilford, NH",
+          "capacity": 0,
+          "score": 0.3069046377,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/gilford-new-hampshire-banknh-pavilion-2026-07-12-7-30-pm/concert/18070713"
+        }
+      ],
       "upcomingShows": 25,
       "tourDates": [
         {
@@ -103,8 +201,8 @@
           "url": "https://seatgeek.com/sarah-mclachlan-tickets/gilford-new-hampshire-banknh-pavilion-2026-07-12-7-30-pm/concert/18070713"
         }
       ],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
       "risingStarScore": 41
     },
     {
@@ -123,6 +221,73 @@
       "soldOutSnippets": [],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/5lCekoJW9jNq01B1wiqdAb",
+      "_cachedAt": "2026-03-04T11:00:27.899Z",
+      "_upcomingShows": 7,
+      "_tourDates": [
+        {
+          "title": "Crankdat with Whethan (18+)",
+          "date": "2026-03-22",
+          "venue": "Tacoma Dome",
+          "city": "Tacoma, WA",
+          "capacity": 23000,
+          "score": 0.4223341485,
+          "url": "https://seatgeek.com/crankdat-tickets/tacoma-washington-tacoma-dome-2026-03-21-7-pm/concert/17836683"
+        },
+        {
+          "title": "Crankdat with Dr. Fresch, Smoakland, Capochino, and HerShe",
+          "date": "2026-03-28",
+          "venue": "Red Rocks Amphitheatre",
+          "city": "Morrison, CO",
+          "capacity": 9450,
+          "score": 0.5289013413,
+          "url": "https://seatgeek.com/crankdat-tickets/morrison-colorado-red-rocks-amphitheatre-2026-03-27-7-pm/concert/17890912"
+        },
+        {
+          "title": "Gather Outdoors Festival - 2 Day Pass - with Crankdat, Daily Bread, Of The Trees, and more (18+)",
+          "date": "2026-04-11",
+          "venue": "Stratton Mountain Resort",
+          "city": "South Londonderry, VT",
+          "capacity": 0,
+          "score": 0.2737385329,
+          "url": "https://seatgeek.com/gather-outdoors-festival-tickets/south-londonderry-vermont-stratton-mountain-resort-2026-04-11-3-pm/music-festival/18035076"
+        },
+        {
+          "title": "Crankdat (18+)",
+          "date": "2026-08-28",
+          "venue": "Shrine Expo Hall",
+          "city": "Los Angeles, CA",
+          "capacity": 6300,
+          "score": 0.2347317443,
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-27-9-pm/concert/18041837"
+        },
+        {
+          "title": "Crankdat (18+)",
+          "date": "2026-08-29",
+          "venue": "Shrine Expo Hall",
+          "city": "Los Angeles, CA",
+          "capacity": 6300,
+          "score": 0.2906617128,
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-28-9-pm/concert/18041840"
+        },
+        {
+          "title": "Crankdat (18+)",
+          "date": "2026-08-30",
+          "venue": "Shrine Expo Hall",
+          "city": "Los Angeles, CA",
+          "capacity": 6300,
+          "score": 0.2928327005,
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-29-9-pm/concert/18039855"
+        },
+        {
+          "title": "Crankdat (18+)",
+          "date": "2026-08-31",
+          "venue": "Shrine Expo Hall",
+          "city": "Los Angeles, CA",
+          "capacity": 6300,
+          "score": 0.2896912731,
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-30-8-pm/concert/18041846"
+        }
+      ],
       "upcomingShows": 7,
       "tourDates": [
         {
@@ -194,6 +359,49 @@
       "risingStarScore": 40
     },
     {
+      "name": "Rezz",
+      "tier": "A",
+      "source": "watchlist",
+      "monthlyListeners": 141,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": 12,
+      "genres": [],
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "Rezz Tickets, 2026 Concert Tour Dates | Ticketmaster",
+          "snippet": "Find TicketsMontreal, QC, Canada, Parc Jean Drapeau, îLESONIQ 2026 - 2-jours<strong>8/8/26, 12:00 AM</strong> ... 28-year-old Canadian DJ/producer Isa",
+          "url": "https://www.ticketmaster.com/rezz-tickets/artist/2116"
+        },
+        {
+          "title": "Rezz Concert Tour Dates & Shows: 2025-2026 Tickets | Hypebot",
+          "snippet": "Show sold out last minute. Rezz played Nightmare on Rezz Street. Woohoo! Red Rocks Amphitheatre Morrison, CO ... Yes, Rezz is currently on tour. If yo",
+          "url": "https://concerts.hypebot.com/artist/r/880264-rezz"
+        }
+      ],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/4aKdmOXdUKX07HVd3sGgzw",
+      "upcomingShows": 1,
+      "tourDates": [
+        {
+          "title": "Rezz",
+          "date": "2026-10-04",
+          "venue": "Red Rocks Amphitheatre",
+          "city": "Morrison, CO",
+          "capacity": 9450,
+          "score": 0.4113245981,
+          "url": "https://seatgeek.com/rezz-tickets/morrison-colorado-red-rocks-amphitheatre-2026-10-03-6-pm/concert/18100551"
+        }
+      ],
+      "listenerGrowth": -6,
+      "isNewToTracking": false,
+      "risingStarScore": 32
+    },
+    {
       "name": "Djo (Joe Keery)",
       "tier": "A",
       "source": "watchlist",
@@ -215,6 +423,9 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/5p9HO3XC5P3BLxJs5Mtrhm",
+      "_cachedAt": "2026-03-04T11:00:10.789Z",
+      "_upcomingShows": 0,
+      "_tourDates": [],
       "upcomingShows": 0,
       "tourDates": [],
       "listenerGrowth": 0,
@@ -237,6 +448,82 @@
       "soldOutSnippets": [],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/52PdgUJOjvS6Mpmjy1SAlx",
+      "_cachedAt": "2026-03-04T11:00:25.008Z",
+      "_upcomingShows": 14,
+      "_tourDates": [
+        {
+          "title": "Hemlocke Springs",
+          "date": "2026-05-18",
+          "venue": "The Observatory",
+          "city": "Santa Ana, CA",
+          "capacity": 550,
+          "score": 0.2291387539,
+          "url": "https://seatgeek.com/hemlocke-springs-tickets/santa-ana-california-the-observatory-2026-05-17-7-pm/concert/18072404"
+        },
+        {
+          "title": "Hemlocke Springs",
+          "date": "2026-05-20",
+          "venue": "El Rey Theatre - Los Angeles",
+          "city": "Los Angeles, CA",
+          "capacity": 771,
+          "score": 0.1898285299,
+          "url": "https://seatgeek.com/hemlocke-springs-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-05-19-8-pm/concert/18090944"
+        },
+        {
+          "title": "Hemlocke Springs",
+          "date": "2026-05-21",
+          "venue": "The Fillmore - San Francisco",
+          "city": "San Francisco, CA",
+          "capacity": 1250,
+          "score": 0.2522528109,
+          "url": "https://seatgeek.com/hemlocke-springs-tickets/san-francisco-california-the-fillmore-san-francisco-2026-05-20-8-pm/concert/18072458"
+        },
+        {
+          "title": "Hemlocke Springs",
+          "date": "2026-05-24",
+          "venue": "The Showbox",
+          "city": "Seattle, WA",
+          "capacity": 0,
+          "score": 0.2316234789,
+          "url": "https://seatgeek.com/hemlocke-springs-tickets/seattle-washington-the-showbox-2026-05-23-8-pm/concert/18100700"
+        },
+        {
+          "title": "Hemlocke Springs",
+          "date": "2026-05-27",
+          "venue": "Bluebird Theater - Denver",
+          "city": "Denver, CO",
+          "capacity": 400,
+          "score": 0.2150004448,
+          "url": "https://seatgeek.com/hemlocke-springs-tickets/denver-colorado-bluebird-theater-denver-2026-05-26-8-pm/concert/18092250"
+        },
+        {
+          "title": "Hemlocke Springs",
+          "date": "2026-05-30",
+          "venue": "Varsity Theater - Minneapolis",
+          "city": "Minneapolis, MN",
+          "capacity": 300,
+          "score": 0.2198645892,
+          "url": "https://seatgeek.com/hemlocke-springs-tickets/minneapolis-minnesota-varsity-theater-minneapolis-2026-05-29-7-pm/concert/18072509"
+        },
+        {
+          "title": "Hemlocke Springs",
+          "date": "2026-05-31",
+          "venue": "Saint Andrews Hall",
+          "city": "Detroit, MI",
+          "capacity": 0,
+          "score": 0.274928935,
+          "url": "https://seatgeek.com/hemlocke-springs-tickets/detroit-michigan-saint-andrews-hall-2026-05-31-7-pm/concert/18072426"
+        },
+        {
+          "title": "Hemlocke Springs",
+          "date": "2026-06-02",
+          "venue": "The Mod Club",
+          "city": "Toronto, ON",
+          "capacity": 620,
+          "score": 0.1495606472,
+          "url": "https://seatgeek.com/hemlocke-springs-tickets/toronto-canada-the-mod-club-2026-06-02-7-pm/concert/18072492"
+        }
+      ],
       "upcomingShows": 14,
       "tourDates": [
         {
@@ -317,6 +604,158 @@
       "risingStarScore": 25
     },
     {
+      "name": "Tucker Wetmore",
+      "tier": "B",
+      "source": "watchlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 3,
+      "soldOutSnippets": [
+        {
+          "title": "Tucker Wetmore Adds 17 New 2026 Tour Dates After Red Rocks Breakout",
+          "snippet": "Wetmore has already sold out shows ... World Tour 2026 • Newly Added Dates: 17 additional shows • Presale Begins: <strong>Wednesday, March 4 at 10 a.m",
+          "url": "https://countrymusicontour.com/tucker-wetmore-adds-17-new-2026-tour-dates-after-red-rocks-breakout/"
+        },
+        {
+          "title": "Tucker Wetmore Tour 2026 Schedule & Tickets | Live Concert Dates",
+          "snippet": "Catch the electrifying Tucker Wetmore on his 2026 world tour! Experience an unforgettable night of music with hits and new releases. Secure your ticke",
+          "url": "https://tuckerwetmoretour.org/"
+        },
+        {
+          "title": "Tucker Wetmore Extends 'The Brunette World Tour' with New U.S. Dates",
+          "snippet": "The live show heads overseas this spring for dates across the U.K. and EU, including <strong>three sold-out nights in London</strong>. This summer, We",
+          "url": "https://www.broadwayworld.com/bwwmusic/article/Tucker-Wetmore-Extends-The-Brunette-World-Tour-with-New-US-Dates-20260302"
+        }
+      ],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/4sCKpwwEsgReZxjtKFm2A0",
+      "upcomingShows": 25,
+      "tourDates": [
+        {
+          "title": "Hardy with Tucker Wetmore and McCoy Moore",
+          "date": "2026-05-21",
+          "venue": "Riverbend Music Center",
+          "city": "Cincinnati, OH",
+          "capacity": 20500,
+          "score": 0.4455316346,
+          "url": "https://seatgeek.com/hardy-tickets/cincinnati-ohio-riverbend-music-center-2026-05-21-7-pm/concert/17805618"
+        },
+        {
+          "title": "Hardy with Tucker Wetmore and McCoy Moore",
+          "date": "2026-05-23",
+          "venue": "Orion Amphitheater",
+          "city": "Huntsville, AL",
+          "capacity": 0,
+          "score": 0.4607811815,
+          "url": "https://seatgeek.com/hardy-tickets/huntsville-alabama-orion-amphitheater-2026-05-22-7-pm/concert/17805620"
+        },
+        {
+          "title": "Hardy with Tucker Wetmore and McCoy Moore",
+          "date": "2026-05-24",
+          "venue": "The Wharf Amphitheater",
+          "city": "Orange Beach, AL",
+          "capacity": 0,
+          "score": 0.4553193868,
+          "url": "https://seatgeek.com/hardy-tickets/orange-beach-alabama-the-wharf-amphitheater-2026-05-23-7-pm/concert/17805622"
+        },
+        {
+          "title": "Hardy with Tucker Wetmore and McCoy Moore",
+          "date": "2026-05-28",
+          "venue": "Blossom Music Center",
+          "city": "Cuyahoga Falls, OH",
+          "capacity": 19200,
+          "score": 0.5263322831,
+          "url": "https://seatgeek.com/hardy-tickets/cuyahoga-falls-ohio-blossom-music-center-2026-05-28-7-pm/concert/17805624"
+        },
+        {
+          "title": "Hardy with Tucker Wetmore and McCoy Moore",
+          "date": "2026-05-29",
+          "venue": "Darien Lake Amphitheater",
+          "city": "Darien Center, NY",
+          "capacity": 21000,
+          "score": 0.405522502,
+          "url": "https://seatgeek.com/hardy-tickets/darien-center-new-york-darien-lake-amphitheater-2026-05-29-7-pm/concert/17805626"
+        },
+        {
+          "title": "Hardy with Tucker Wetmore and McCoy Moore",
+          "date": "2026-05-30",
+          "venue": "Bethel Woods Center for the Arts",
+          "city": "Bethel, NY",
+          "capacity": 15000,
+          "score": 0.4070526335,
+          "url": "https://seatgeek.com/hardy-tickets/bethel-new-york-bethel-woods-center-for-the-arts-2026-05-30-7-pm/concert/17805628"
+        },
+        {
+          "title": "Hardy with Tucker Wetmore and McCoy Moore",
+          "date": "2026-06-11",
+          "venue": "Merriweather Post Pavilion",
+          "city": "Columbia, MD",
+          "capacity": 0,
+          "score": 0.4447938912,
+          "url": "https://seatgeek.com/hardy-tickets/columbia-maryland-merriweather-post-pavilion-2026-06-11-7-pm/concert/17805636"
+        },
+        {
+          "title": "Hardy with Tucker Wetmore and McCoy Moore",
+          "date": "2026-06-12",
+          "venue": "Veterans United Home Loans Amphitheater at Virginia Beach",
+          "city": "Virginia Beach, VA",
+          "capacity": 20000,
+          "score": 0.4310992144,
+          "url": "https://seatgeek.com/hardy-tickets/virginia-beach-virginia-veterans-united-home-loans-amphitheater-at-virginia-beach-2026-06-12-7-pm/concert/17805638"
+        }
+      ],
+      "listenerGrowth": null,
+      "isNewToTracking": true,
+      "risingStarScore": 23
+    },
+    {
+      "name": "Knock2",
+      "tier": "A",
+      "source": "watchlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": 3,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/6mmSS7itNWKbapgG2eZbIg",
+      "upcomingShows": 2,
+      "tourDates": [
+        {
+          "title": "Okeechobee Music and Arts Festival - Thursday - with Cage the Elephant, Dirty Heads, Knock2, and more",
+          "date": "2026-03-19",
+          "venue": "Sunshine Grove",
+          "city": "Okeechobee, FL",
+          "capacity": 35000,
+          "score": 0.4040637173,
+          "url": "https://seatgeek.com/okeechobee-music-and-arts-festival-tickets/okeechobee-florida-sunshine-grove-2026-03-19-12-pm/music-festival/17484937"
+        },
+        {
+          "title": "Badlands Music Festival with Knock2 (18+)",
+          "date": "2026-07-07",
+          "venue": "Badland's Tent",
+          "city": "Calgary, AB",
+          "capacity": 0,
+          "score": 0.1777165114,
+          "url": "https://seatgeek.com/badlands-music-festival-tickets/calgary-canada-badland-s-tent-2026-07-06-6-pm/music-festival/17934942"
+        }
+      ],
+      "listenerGrowth": null,
+      "isNewToTracking": true,
+      "risingStarScore": 22
+    },
+    {
       "name": "Dominic Fike",
       "tier": "B",
       "source": "watchlist",
@@ -343,6 +782,82 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/6USv9qhCn6zfxlBQIYJ9qs",
+      "_cachedAt": "2026-03-04T11:00:19.497Z",
+      "_upcomingShows": 13,
+      "_tourDates": [
+        {
+          "title": "Governors Ball - Sunday - with A$AP Rocky, JENNIE, Dominic Fike and more",
+          "date": "2026-06-07",
+          "venue": "Flushing Meadows Corona Park",
+          "city": "Queens, NY",
+          "capacity": 0,
+          "score": 0.4194230693,
+          "url": "https://seatgeek.com/governors-ball-music-festival-tickets/queens-new-york-flushing-meadows-corona-park-2026-06-07-11-45-am/music-festival/17994017"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-08-25",
+          "venue": "Nationwide Arena",
+          "city": "Columbus, OH",
+          "capacity": 19500,
+          "score": 0.7218186422,
+          "url": "https://seatgeek.com/tame-impala-tickets/columbus-ohio-nationwide-arena-2026-08-25-7-pm/concert/18070187"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-08-29",
+          "venue": "Target Center",
+          "city": "Minneapolis, MN",
+          "capacity": 25500,
+          "score": 0.6930345006,
+          "url": "https://seatgeek.com/tame-impala-tickets/minneapolis-minnesota-target-center-2026-08-28-7-pm/concert/18070208"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-09-02",
+          "venue": "Climate Pledge Arena",
+          "city": "Seattle, WA",
+          "capacity": 17459,
+          "score": 0.6936846027,
+          "url": "https://seatgeek.com/tame-impala-tickets/seattle-washington-climate-pledge-arena-2026-09-01-7-pm/concert/18070189"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-09-03",
+          "venue": "Climate Pledge Arena",
+          "city": "Seattle, WA",
+          "capacity": 17459,
+          "score": 0.6783173739,
+          "url": "https://seatgeek.com/tame-impala-tickets/seattle-washington-climate-pledge-arena-2026-09-02-7-pm/concert/18080353"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-09-06",
+          "venue": "Rogers Arena",
+          "city": "Vancouver, BC",
+          "capacity": 0,
+          "score": 0.5609166153,
+          "url": "https://seatgeek.com/tame-impala-tickets/vancouver-canada-rogers-arena-2026-09-05-7-pm/concert/18070209"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-09-07",
+          "venue": "Rogers Arena",
+          "city": "Vancouver, BC",
+          "capacity": 0,
+          "score": 0.6415823819,
+          "url": "https://seatgeek.com/tame-impala-tickets/vancouver-canada-rogers-arena-2026-09-06-7-pm/concert/18080360"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-09-09",
+          "venue": "Moda Center",
+          "city": "Portland, OR",
+          "capacity": 20630,
+          "score": 0.7318120369,
+          "url": "https://seatgeek.com/tame-impala-tickets/portland-oregon-moda-center-2026-09-08-7-pm/concert/18070911"
+        }
+      ],
       "upcomingShows": 13,
       "tourDates": [
         {
@@ -423,6 +938,332 @@
       "risingStarScore": 21
     },
     {
+      "name": "Stardew Valley Symphony",
+      "tier": "B",
+      "source": "watchlist",
+      "monthlyListeners": 1000,
+      "spotifyFollowers": null,
+      "instagramFollowers": 22000,
+      "tiktokFollowers": 131300,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/11DreNt9xMPnhRXUxkj3dk",
+      "upcomingShows": 6,
+      "tourDates": [
+        {
+          "title": "Stardew Valley: Symphony of Seasons - Pittsburgh",
+          "date": "2026-03-08",
+          "venue": "Benedum Center",
+          "city": "Pittsburgh, PA",
+          "capacity": 0,
+          "score": 0.4770447203,
+          "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-03-08-7-pm/17547651"
+        },
+        {
+          "title": "Stardew Valley - Symphony of Seasons - Nashville",
+          "date": "2026-03-15",
+          "venue": "Tennessee Performing Arts Center - Andrew Jackson Hall",
+          "city": "Nashville, TN",
+          "capacity": 2472,
+          "score": 0.4533656057,
+          "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-03-14-8-pm/17523855"
+        },
+        {
+          "title": "Stardew Valley: Symphony of Seasons",
+          "date": "2026-03-22",
+          "venue": "Hawaii Theatre",
+          "city": "Honolulu, HI",
+          "capacity": 0,
+          "score": 0.3894912578,
+          "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-03-21-7-pm/17295983"
+        },
+        {
+          "title": "Stardew Valley: Symphony of Seasons (Rescheduled from 2/24/26)",
+          "date": "2026-04-10",
+          "venue": "Providence Performing Arts Center",
+          "city": "Providence, RI",
+          "capacity": 3232,
+          "score": 0.3569878035,
+          "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-04-10-7-30-pm/17513567"
+        },
+        {
+          "title": "Stardew Valley - Symphony of Seasons",
+          "date": "2026-04-24",
+          "venue": "Providence Performing Arts Center",
+          "city": "Providence, RI",
+          "capacity": 3232,
+          "score": 0.2242763077,
+          "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-04-24-7-30-pm/17511403"
+        },
+        {
+          "title": "Stardew Valley: Symphony of Seasons",
+          "date": "2026-10-26",
+          "venue": "Red Rocks Amphitheatre",
+          "city": "Morrison, CO",
+          "capacity": 9450,
+          "score": 0.105876257,
+          "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-10-25-7-30-pm/18106301"
+        }
+      ],
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 21
+    },
+    {
+      "name": "Nurse John",
+      "tier": "B",
+      "source": "watchlist",
+      "monthlyListeners": 153,
+      "spotifyFollowers": null,
+      "instagramFollowers": 5000000,
+      "tiktokFollowers": 300000,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/2QLNbtsMZIDzv1joO799WA",
+      "upcomingShows": 7,
+      "tourDates": [
+        {
+          "title": "Netflix Is A Joke Fest Presents: Nurse John",
+          "date": "2026-05-09",
+          "venue": "Pacific Electric",
+          "city": "Los Angeles, CA",
+          "capacity": 0,
+          "score": 0.2362814614,
+          "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-08-7-pm/18022027"
+        },
+        {
+          "title": "Nurse John",
+          "date": "2026-07-17",
+          "venue": "Oxnard Levity Live",
+          "city": "Oxnard, CA",
+          "capacity": 0,
+          "score": 0.1692094171,
+          "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-16-7-30-pm/17727880"
+        },
+        {
+          "title": "Nurse John",
+          "date": "2026-07-18",
+          "venue": "Oxnard Levity Live",
+          "city": "Oxnard, CA",
+          "capacity": 0,
+          "score": 0.170912301,
+          "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-17-7-pm/17653764"
+        },
+        {
+          "title": "Nurse John",
+          "date": "2026-07-18",
+          "venue": "Oxnard Levity Live",
+          "city": "Oxnard, CA",
+          "capacity": 0,
+          "score": 0.1547451955,
+          "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-17-9-15-pm/17653765"
+        },
+        {
+          "title": "Nurse John",
+          "date": "2026-07-19",
+          "venue": "Oxnard Levity Live",
+          "city": "Oxnard, CA",
+          "capacity": 0,
+          "score": 0.1772949873,
+          "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-18-6-pm/17653766"
+        },
+        {
+          "title": "Nurse John",
+          "date": "2026-07-19",
+          "venue": "Oxnard Levity Live",
+          "city": "Oxnard, CA",
+          "capacity": 0,
+          "score": 0.1619548663,
+          "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-18-8-30-pm/17653767"
+        },
+        {
+          "title": "Nurse John",
+          "date": "2026-07-20",
+          "venue": "Oxnard Levity Live",
+          "city": "Oxnard, CA",
+          "capacity": 0,
+          "score": 0.1760529767,
+          "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-19-6-pm/17727881"
+        }
+      ],
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 21
+    },
+    {
+      "name": "Sara Landry",
+      "tier": "A",
+      "source": "watchlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": 1000000,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/7eILArMiTFTQf8SEh5fFHK",
+      "upcomingShows": 5,
+      "tourDates": [
+        {
+          "title": "Sara Landry (18+)",
+          "date": "2026-04-12",
+          "venue": "SILO - Dallas",
+          "city": "Dallas, TX",
+          "capacity": 0,
+          "score": 0.406028019,
+          "url": "https://seatgeek.com/sara-landry-tickets/dallas-texas-silo-dallas-2026-04-11-9-pm/concert/17973185"
+        },
+        {
+          "title": "Sara Landry (18+)",
+          "date": "2026-04-13",
+          "venue": "SILO - Dallas",
+          "city": "Dallas, TX",
+          "capacity": 0,
+          "score": 0.2748854045,
+          "url": "https://seatgeek.com/sara-landry-tickets/dallas-texas-silo-dallas-2026-04-12-9-pm/concert/17973187"
+        },
+        {
+          "title": "Sara Landry",
+          "date": "2026-05-30",
+          "venue": "Olympic Stadium Montreal (Stade Olympique)",
+          "city": "Montreal, QC",
+          "capacity": 66308,
+          "score": 0.265327844,
+          "url": "https://seatgeek.com/sara-landry-tickets/montreal-canada-olympic-stadium-montreal-stade-olympique-2026-05-29-9-pm/concert/18101926"
+        },
+        {
+          "title": "Sara Landry (21+)",
+          "date": "2026-07-31",
+          "venue": "Under the K Bridge",
+          "city": "Brooklyn, NY",
+          "capacity": 0,
+          "score": 0.2329768712,
+          "url": "https://seatgeek.com/sara-landry-tickets/brooklyn-new-york-under-the-k-bridge-2026-07-31-7-pm/concert/18075533"
+        },
+        {
+          "title": "Sara Landry",
+          "date": "2026-08-01",
+          "venue": "Under the K Bridge",
+          "city": "Brooklyn, NY",
+          "capacity": 0,
+          "score": 0.2715328862,
+          "url": "https://seatgeek.com/sara-landry-tickets/brooklyn-new-york-under-the-k-bridge-2026-08-01-7-pm/concert/18071785"
+        }
+      ],
+      "listenerGrowth": null,
+      "isNewToTracking": false,
+      "risingStarScore": 21
+    },
+    {
+      "name": "Fisher",
+      "tier": "A",
+      "source": "watchlist",
+      "monthlyListeners": 125,
+      "spotifyFollowers": null,
+      "instagramFollowers": 48000,
+      "tiktokFollowers": 1000000,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/1VJ0briNOlXRtJUAzoUJdt",
+      "upcomingShows": 25,
+      "tourDates": [
+        {
+          "title": "Creed Fisher",
+          "date": "2026-03-08",
+          "venue": "Cowboys Dance Hall",
+          "city": "Largo, FL",
+          "capacity": 0,
+          "score": 0.4086577662,
+          "url": "https://seatgeek.com/creed-fisher-tickets/largo-florida-cowboys-dance-hall-3-2026-03-07-7-pm/concert/18097863"
+        },
+        {
+          "title": "Creed Fisher",
+          "date": "2026-03-14",
+          "venue": "First Financial Music Hall",
+          "city": "El Dorado, AR",
+          "capacity": 0,
+          "score": 0.2374311551,
+          "url": "https://seatgeek.com/creed-fisher-tickets/el-dorodo-arkansas-first-financial-music-hall-2026-03-13-7-30-pm/concert/17910687"
+        },
+        {
+          "title": "Quad City Steamwheelers at Fishers Freight",
+          "date": "2026-03-14",
+          "venue": "Fishers Event Center",
+          "city": "Fishers, IN",
+          "capacity": 0,
+          "score": 0.3853967826,
+          "url": "https://seatgeek.com/fishers-freight-tickets/football/2026-03-14-5-pm/18066789"
+        },
+        {
+          "title": "Rob Fisher",
+          "date": "2026-03-15",
+          "venue": "Jacobs Music Center",
+          "city": "San Diego, CA",
+          "capacity": 0,
+          "score": 0.3023324537,
+          "url": "https://seatgeek.com/rob-fisher-tickets/san-diego-california-jacobs-music-center-2026-03-14-7-30-pm/concert/17843586"
+        },
+        {
+          "title": "Okeechobee Music and Arts Festival - 4 Day Pass - with Cage the Elephant, Griz, T-Pain, Fisher, The Lumineers, and more",
+          "date": "2026-03-19",
+          "venue": "Sunshine Grove",
+          "city": "Okeechobee, FL",
+          "capacity": 35000,
+          "score": 0.4362912537,
+          "url": "https://seatgeek.com/okeechobee-music-and-arts-festival-tickets/okeechobee-florida-sunshine-grove-2026-03-19-3-30-am/music-festival/17643057"
+        },
+        {
+          "title": "Fisher",
+          "date": "2026-03-21",
+          "venue": "Navy Pier",
+          "city": "Chicago, IL",
+          "capacity": 0,
+          "score": 0.6547460194,
+          "url": "https://seatgeek.com/fisher-tickets/chicago-illinois-navy-pier-2026-03-20-7-pm/concert/17957001"
+        },
+        {
+          "title": "Jourdain Fisher",
+          "date": "2026-03-21",
+          "venue": "Tacoma Comedy Club - 6th and Proctor",
+          "city": "Tacoma, WA",
+          "capacity": 0,
+          "score": 0.2019747167,
+          "url": "https://seatgeek.com/jourdain-fisher-tickets/comedy/2026-03-20-7-30-pm/18075175"
+        },
+        {
+          "title": "Jourdain Fisher",
+          "date": "2026-03-21",
+          "venue": "Tacoma Comedy Club - 6th and Proctor",
+          "city": "Tacoma, WA",
+          "capacity": 0,
+          "score": 0.1902339212,
+          "url": "https://seatgeek.com/jourdain-fisher-tickets/comedy/2026-03-20-9-45-pm/18075173"
+        }
+      ],
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 20
+    },
+    {
       "name": "Its Murph",
       "tier": "B",
       "source": "watchlist",
@@ -438,6 +1279,82 @@
       "soldOutSnippets": [],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/3zW0xazqnHoq9QV9zBROVC",
+      "_cachedAt": "2026-03-04T11:00:30.738Z",
+      "_upcomingShows": 9,
+      "_tourDates": [
+        {
+          "title": "it's murph",
+          "date": "2026-03-21",
+          "venue": "Bicentennial Capitol Mall State Park",
+          "city": "Nashville, TN",
+          "capacity": 0,
+          "score": 0.341576949,
+          "url": "https://seatgeek.com/it-s-murph-tickets/nashville-tennessee-bicentennial-capitol-mall-state-park-2026-03-21-3-pm/concert/18028555"
+        },
+        {
+          "title": "it's murph",
+          "date": "2026-04-05",
+          "venue": "Red Rocks Amphitheatre",
+          "city": "Morrison, CO",
+          "capacity": 9450,
+          "score": 0.633799345,
+          "url": "https://seatgeek.com/it-s-murph-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-04-8-pm/concert/17810692"
+        },
+        {
+          "title": "it's murph",
+          "date": "2026-04-17",
+          "venue": "The Ritz - Raleigh",
+          "city": "Raleigh, NC",
+          "capacity": 2000,
+          "score": 0.4932124558,
+          "url": "https://seatgeek.com/it-s-murph-tickets/raleigh-north-carolina-the-ritz-raleigh-2026-04-17-7-pm/concert/18052149"
+        },
+        {
+          "title": "sprung: it's murph, SG Lewis, NEIL FRANCES & more (21+)",
+          "date": "2026-04-18",
+          "venue": "Berhta",
+          "city": "Washington, DC",
+          "capacity": 0,
+          "score": 0.3618800131,
+          "url": "https://seatgeek.com/it-s-murph-tickets/washington-district-of-columbia-berhta-2026-04-18-4-pm/concert/18052145"
+        },
+        {
+          "title": "it's murph",
+          "date": "2026-05-09",
+          "venue": "Malkin Bowl",
+          "city": "Vancouver, BC",
+          "capacity": 1500,
+          "score": 0.251020543,
+          "url": "https://seatgeek.com/it-s-murph-tickets/vancouver-canada-malkin-bowl-2026-05-08-6-pm/concert/18052151"
+        },
+        {
+          "title": "it's murph",
+          "date": "2026-05-10",
+          "venue": "BOXPAC Project",
+          "city": "Salt Lake City, UT",
+          "capacity": 0,
+          "score": 0.3736258274,
+          "url": "https://seatgeek.com/it-s-murph-tickets/salt-lake-city-utah-boxpac-project-2026-05-09-9-pm/concert/18052153"
+        },
+        {
+          "title": "it's murph",
+          "date": "2026-05-30",
+          "venue": "The Fillmore - Charlotte",
+          "city": "Charlotte, NC",
+          "capacity": 2000,
+          "score": 0.338064687,
+          "url": "https://seatgeek.com/it-s-murph-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-05-29-8-pm/concert/18052155"
+        },
+        {
+          "title": "it's murph",
+          "date": "2026-05-30",
+          "venue": "Jannus Live",
+          "city": "Saint Petersburg, FL",
+          "capacity": 850,
+          "score": 0.4124662919,
+          "url": "https://seatgeek.com/it-s-murph-tickets/saint-petersburg-florida-jannus-live-2026-05-30-7-pm/concert/18052157"
+        }
+      ],
       "upcomingShows": 9,
       "tourDates": [
         {
@@ -533,6 +1450,19 @@
       "soldOutSnippets": [],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/4YJsSCuag8W1TFTgSeEc2k",
+      "_cachedAt": "2026-03-04T11:00:33.607Z",
+      "_upcomingShows": 1,
+      "_tourDates": [
+        {
+          "title": "Liquid Stranger",
+          "date": "2026-04-12",
+          "venue": "Red Rocks Amphitheatre",
+          "city": "Morrison, CO",
+          "capacity": 9450,
+          "score": 0.399730598,
+          "url": "https://seatgeek.com/liquid-stranger-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-11-6-pm/concert/17912400"
+        }
+      ],
       "upcomingShows": 1,
       "tourDates": [
         {
@@ -565,6 +1495,82 @@
       "soldOutSnippets": [],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/3NJ94iuAmmMjbszODYT6pO",
+      "_cachedAt": "2026-03-04T11:00:36.548Z",
+      "_upcomingShows": 13,
+      "_tourDates": [
+        {
+          "title": "Subtronics - 2 Day Pass",
+          "date": "2026-03-06",
+          "venue": "The Met Philadelphia",
+          "city": "Philadelphia, PA",
+          "capacity": 0,
+          "score": 0.3681540687,
+          "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-06-3-30-am/concert/17837260"
+        },
+        {
+          "title": "Subtronics with Juelz",
+          "date": "2026-03-07",
+          "venue": "The Met Philadelphia",
+          "city": "Philadelphia, PA",
+          "capacity": 0,
+          "score": 0.4952098984,
+          "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-06-7-30-pm/concert/17837258"
+        },
+        {
+          "title": "Subtronics with Ahee",
+          "date": "2026-03-08",
+          "venue": "The Met Philadelphia",
+          "city": "Philadelphia, PA",
+          "capacity": 0,
+          "score": 0.550751471,
+          "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-07-7-30-pm/concert/17837259"
+        },
+        {
+          "title": "Subtronics with Ahee",
+          "date": "2026-03-13",
+          "venue": "The Factory STL",
+          "city": "Chesterfield, MO",
+          "capacity": 0,
+          "score": 0.4866678365,
+          "url": "https://seatgeek.com/subtronics-tickets/chesterfield-missouri-the-factory-stl-2026-03-12-7-pm/concert/17837372"
+        },
+        {
+          "title": "Subtronics with Ahee",
+          "date": "2026-03-14",
+          "venue": "Cable Dahmer Arena",
+          "city": "Independence, MO",
+          "capacity": 0,
+          "score": 0.5844682063,
+          "url": "https://seatgeek.com/subtronics-tickets/independence-missouri-cable-dahmer-arena-2026-03-13-8-pm/concert/17836963"
+        },
+        {
+          "title": "Subtronics with TroyBoi",
+          "date": "2026-03-15",
+          "venue": "Germania Insurance Amphitheater",
+          "city": "Austin, TX",
+          "capacity": 14000,
+          "score": 0.5274638857,
+          "url": "https://seatgeek.com/subtronics-tickets/austin-texas-germania-insurance-amphitheater-2026-03-14-7-30-pm/concert/17837221"
+        },
+        {
+          "title": "Subtronics with Ahee",
+          "date": "2026-03-20",
+          "venue": "MGM Music Hall at Fenway",
+          "city": "Boston, MA",
+          "capacity": 0,
+          "score": 0.4885446048,
+          "url": "https://seatgeek.com/subtronics-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-03-20-7-30-pm/concert/17837386"
+        },
+        {
+          "title": "Subtronics",
+          "date": "2026-03-21",
+          "venue": "MGM Music Hall at Fenway",
+          "city": "Boston, MA",
+          "capacity": 0,
+          "score": 0.493409253,
+          "url": "https://seatgeek.com/subtronics-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-03-21-7-30-pm/concert/17941249"
+        }
+      ],
       "upcomingShows": 13,
       "tourDates": [
         {
@@ -660,6 +1666,82 @@
       "soldOutSnippets": [],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/4JnJjqxsTp8E5rZsyITf63",
+      "_cachedAt": "2026-03-04T11:00:16.851Z",
+      "_upcomingShows": 25,
+      "_tourDates": [
+        {
+          "title": "Hilary Duff with Jade LeMac",
+          "date": "2026-06-21",
+          "venue": "iTHINK Financial Amphitheatre",
+          "city": "West Palm Beach, FL",
+          "capacity": 19000,
+          "score": 0.6164253519,
+          "url": "https://seatgeek.com/hilary-duff-tickets/west-palm-beach-florida-ithink-financial-amphitheatre-2026-06-21-7-pm/concert/18082684"
+        },
+        {
+          "title": "Hilary Duff with Jade LeMac",
+          "date": "2026-06-22",
+          "venue": "iTHINK Financial Amphitheatre",
+          "city": "West Palm Beach, FL",
+          "capacity": 19000,
+          "score": 0.5358979545,
+          "url": "https://seatgeek.com/hilary-duff-tickets/west-palm-beach-florida-ithink-financial-amphitheatre-2026-06-22-7-pm/concert/18070221"
+        },
+        {
+          "title": "Hilary Duff with Jade LeMac",
+          "date": "2026-06-23",
+          "venue": "MidFlorida Credit Union Amphitheatre",
+          "city": "Tampa, FL",
+          "capacity": 0,
+          "score": 0.5594342244,
+          "url": "https://seatgeek.com/hilary-duff-tickets/tampa-florida-midflorida-credit-union-amphitheatre-2026-06-23-7-pm/concert/18070220"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-06-25",
+          "venue": "Ameris Bank Amphitheatre",
+          "city": "Alpharetta, GA",
+          "capacity": 0,
+          "score": 0.5904514963,
+          "url": "https://seatgeek.com/hilary-duff-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2026-06-25-7-pm/concert/18070218"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-06-28",
+          "venue": "The Cynthia Woods Mitchell Pavilion presented by Huntsman",
+          "city": "The Woodlands, TX",
+          "capacity": 17000,
+          "score": 0.6311341115,
+          "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-06-29",
+          "venue": "Germania Insurance Amphitheater",
+          "city": "Austin, TX",
+          "capacity": 14000,
+          "score": 0.6370563455,
+          "url": "https://seatgeek.com/hilary-duff-tickets/austin-texas-germania-insurance-amphitheater-2026-06-28-7-pm/concert/18070223"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-07-01",
+          "venue": "The Pavilion at Toyota Music Factory",
+          "city": "Irving, TX",
+          "capacity": 0,
+          "score": 0.6066286415,
+          "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-07-03",
+          "venue": "First Financial Credit Union Amphitheater",
+          "city": "Albuquerque, NM",
+          "capacity": 15000,
+          "score": 0.6098853124,
+          "url": "https://seatgeek.com/hilary-duff-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2026-07-02-7-pm/concert/18095401"
+        }
+      ],
       "upcomingShows": 25,
       "tourDates": [
         {
@@ -738,106 +1820,6 @@
       "listenerGrowth": null,
       "isNewToTracking": true,
       "risingStarScore": 16
-    },
-    {
-      "name": "The Elovaters",
-      "tier": "B",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 10
-    },
-    {
-      "name": "Flip Turn",
-      "tier": "B",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": false,
-      "risingStarScore": 10
-    },
-    {
-      "name": "Fisher",
-      "tier": "A",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": false,
-      "risingStarScore": 10
-    },
-    {
-      "name": "Rezz",
-      "tier": "A",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": false,
-      "risingStarScore": 10
-    },
-    {
-      "name": "Stardew Valley Symphony",
-      "tier": "B",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": false,
-      "risingStarScore": 10
-    },
-    {
-      "name": "Tucker Wetmore",
-      "tier": "B",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 10
-    },
-    {
-      "name": "Nurse John",
-      "tier": "B",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": false,
-      "risingStarScore": 10
-    },
-    {
-      "name": "Sara Landry",
-      "tier": "A",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": false,
-      "risingStarScore": 10
-    },
-    {
-      "name": "Knock2",
-      "tier": "A",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 10
-    },
-    {
-      "name": "Tape B",
-      "tier": "B",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 10
     },
     {
       "name": "ALLEYCVT",
@@ -1400,6 +2382,101 @@
       "risingStarScore": 10
     },
     {
+      "name": "Tape B",
+      "tier": "B",
+      "source": "watchlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": 197000,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/59tlsKpLWoLTxjNNS2wdPi",
+      "upcomingShows": 19,
+      "tourDates": [
+        {
+          "title": "Tape B",
+          "date": "2026-03-21",
+          "venue": "Gallagher Square at Petco Park",
+          "city": "San Diego, CA",
+          "capacity": 0,
+          "score": 0.4708456189,
+          "url": "https://seatgeek.com/tape-b-tickets/san-diego-california-gallagher-square-at-petco-park-1-2026-03-20-5-pm/concert/18006549"
+        },
+        {
+          "title": "ILLENIUM with Tape B",
+          "date": "2026-04-05",
+          "venue": "Sphere",
+          "city": "Las Vegas, NV",
+          "capacity": 0,
+          "score": 0.6383462195,
+          "url": "https://seatgeek.com/illenium-tickets/las-vegas-nevada-sphere-2026-04-04-9-30-pm/concert/17761795"
+        },
+        {
+          "title": "Tape B",
+          "date": "2026-04-26",
+          "venue": "Harrah's Resort Atlantic City",
+          "city": "Atlantic City, NJ",
+          "capacity": 2588,
+          "score": 0.2652614776,
+          "url": "https://seatgeek.com/tape-b-tickets/atlantic-city-new-jersey-harrah-s-resort-atlantic-city-2026-04-25-11-pm/concert/18006552"
+        },
+        {
+          "title": "Force Fields Music Festival - 2 Day Pass - with Zeds Dead, Ganja White Night, Tape B, and more",
+          "date": "2026-06-05",
+          "venue": "Chippewa Valley Music Festival Grounds",
+          "city": "Cadott, WI",
+          "capacity": 0,
+          "score": 0.28680863,
+          "url": "https://seatgeek.com/force-fields-music-festival-tickets/cadott-wisconsin-chippewa-valley-music-festival-grounds-2026-06-05-3-30-am/music-festival/18071890"
+        },
+        {
+          "title": "Tape B with Levity",
+          "date": "2026-07-18",
+          "venue": "KettleHouse Amphitheater",
+          "city": "Bonner, MT",
+          "capacity": 0,
+          "score": 0.3264118303,
+          "url": "https://seatgeek.com/tape-b-tickets/bonner-montana-kettlehouse-amphitheater-2026-07-17-6-pm/concert/18010060"
+        },
+        {
+          "title": "Levity with Tape B",
+          "date": "2026-07-19",
+          "venue": "Hayden Homes Amphitheater",
+          "city": "Bend, OR",
+          "capacity": 5000,
+          "score": 0.3091858757,
+          "url": "https://seatgeek.com/levity-tickets/bend-oregon-hayden-homes-amphitheater-2026-07-18-6-pm/concert/18009591"
+        },
+        {
+          "title": "Tape B with Levity",
+          "date": "2026-07-24",
+          "venue": "Morton Amphitheater",
+          "city": "Riverside, MO",
+          "capacity": 0,
+          "score": 0.2597627357,
+          "url": "https://seatgeek.com/tape-b-tickets/riverside-missouri-morton-amphitheater-2026-07-23-7-pm/concert/18010225"
+        },
+        {
+          "title": "Levity with Tape B",
+          "date": "2026-07-24",
+          "venue": "Everwise Amphitheater at White River State Park",
+          "city": "Indianapolis, IN",
+          "capacity": 6000,
+          "score": 0.3679447595,
+          "url": "https://seatgeek.com/levity-tickets/indianapolis-indiana-everwise-amphitheater-at-white-river-state-park-2026-07-24-7-pm/concert/18009491"
+        }
+      ],
+      "listenerGrowth": null,
+      "isNewToTracking": true,
+      "risingStarScore": 9
+    },
+    {
       "name": "La Roux",
       "tier": "A",
       "source": "watchlist",
@@ -1415,6 +2492,82 @@
       "soldOutSnippets": [],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/3K2zB87GZv1krx031en5VA",
+      "_cachedAt": "2026-03-04T11:00:13.900Z",
+      "_upcomingShows": 25,
+      "_tourDates": [
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-06-25",
+          "venue": "Ameris Bank Amphitheatre",
+          "city": "Alpharetta, GA",
+          "capacity": 0,
+          "score": 0.5904514963,
+          "url": "https://seatgeek.com/hilary-duff-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2026-06-25-7-pm/concert/18070218"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-06-28",
+          "venue": "The Cynthia Woods Mitchell Pavilion presented by Huntsman",
+          "city": "The Woodlands, TX",
+          "capacity": 17000,
+          "score": 0.6311341115,
+          "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-06-29",
+          "venue": "Germania Insurance Amphitheater",
+          "city": "Austin, TX",
+          "capacity": 14000,
+          "score": 0.6370563455,
+          "url": "https://seatgeek.com/hilary-duff-tickets/austin-texas-germania-insurance-amphitheater-2026-06-28-7-pm/concert/18070223"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-07-01",
+          "venue": "The Pavilion at Toyota Music Factory",
+          "city": "Irving, TX",
+          "capacity": 0,
+          "score": 0.6066286415,
+          "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-07-03",
+          "venue": "First Financial Credit Union Amphitheater",
+          "city": "Albuquerque, NM",
+          "capacity": 15000,
+          "score": 0.6098853124,
+          "url": "https://seatgeek.com/hilary-duff-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2026-07-02-7-pm/concert/18095401"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-07-04",
+          "venue": "Talking Stick Resort Amphitheatre",
+          "city": "Phoenix, AZ",
+          "capacity": 20000,
+          "score": 0.6215702574,
+          "url": "https://seatgeek.com/hilary-duff-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2026-07-03-7-pm/concert/18070230"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-07-09",
+          "venue": "Kia Forum",
+          "city": "Inglewood, CA",
+          "capacity": 18000,
+          "score": 0.5754765654,
+          "url": "https://seatgeek.com/hilary-duff-tickets/inglewood-california-kia-forum-2026-07-08-7-pm/concert/18070232"
+        },
+        {
+          "title": "Hilary Duff with La Roux and Jade LeMac",
+          "date": "2026-07-10",
+          "venue": "Kia Forum",
+          "city": "Inglewood, CA",
+          "capacity": 18000,
+          "score": 0.5915646328,
+          "url": "https://seatgeek.com/hilary-duff-tickets/inglewood-california-kia-forum-2026-07-09-7-pm/concert/18077386"
+        }
+      ],
       "upcomingShows": 25,
       "tourDates": [
         {
@@ -1493,6 +2646,101 @@
       "listenerGrowth": 0,
       "isNewToTracking": false,
       "risingStarScore": 2
+    },
+    {
+      "name": "The Elovaters",
+      "tier": "B",
+      "source": "watchlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": 7,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/2bBTnfGpjGCTRozyAodDa3",
+      "upcomingShows": 19,
+      "tourDates": [
+        {
+          "title": "The Elovaters with Jarv",
+          "date": "2026-03-06",
+          "venue": "Emo's Austin",
+          "city": "Austin, TX",
+          "capacity": 0,
+          "score": 0.288420706,
+          "url": "https://seatgeek.com/the-elovaters-tickets/austin-texas-emo-s-austin-2026-03-05-6-pm/concert/17725622"
+        },
+        {
+          "title": "The Elovaters",
+          "date": "2026-03-07",
+          "venue": "The Bomb Factory - Dallas",
+          "city": "Dallas, TX",
+          "capacity": 4300,
+          "score": 0.396533222,
+          "url": "https://seatgeek.com/the-elovaters-tickets/dallas-texas-the-bomb-factory-dallas-2026-03-06-8-pm/concert/17727104"
+        },
+        {
+          "title": "The Elovaters with Shwayze",
+          "date": "2026-03-08",
+          "venue": "White Oak Music Hall - Downstairs",
+          "city": "Houston, TX",
+          "capacity": 0,
+          "score": 0.3158214288,
+          "url": "https://seatgeek.com/the-elovaters-tickets/houston-texas-white-oak-music-hall-downstairs-2026-03-07-7-pm/concert/17725929"
+        },
+        {
+          "title": "The Elovaters",
+          "date": "2026-07-12",
+          "venue": "Pacific Amphitheatre",
+          "city": "Costa Mesa, CA",
+          "capacity": 0,
+          "score": 0.3943416782,
+          "url": "https://seatgeek.com/the-elovaters-tickets/costa-mesa-california-pacific-amphitheatre-2026-07-11-6-pm/concert/18033452"
+        },
+        {
+          "title": "Levitate Music & Arts Festival - Sunday - with CAAMP, Royel Otis, The Elovaters and more",
+          "date": "2026-07-19",
+          "venue": "Marshfield Fairgrounds",
+          "city": "Marshfield, MA",
+          "capacity": 0,
+          "score": 0.2240611997,
+          "url": "https://seatgeek.com/levitate-music-arts-festival-tickets/marshfield-massachusetts-marshfield-fairgrounds-2026-07-19-12-pm/music-festival/17906054"
+        },
+        {
+          "title": "Slightly Stoopid with The Elovaters and Bumpin Uglies",
+          "date": "2026-07-23",
+          "venue": "Jacobs Pavilion at Nautica",
+          "city": "Cleveland, OH",
+          "capacity": 0,
+          "score": 0.3956857708,
+          "url": "https://seatgeek.com/slightly-stoopid-tickets/cleveland-ohio-jacobs-pavilion-at-nautica-2026-07-23-7-30-pm/concert/18105175"
+        },
+        {
+          "title": "Slightly Stoopid with The Elovaters and Bumpin Uglies",
+          "date": "2026-07-24",
+          "venue": "Outer Harbor Live at Terminal B",
+          "city": "Buffalo, NY",
+          "capacity": 0,
+          "score": 0.2680190327,
+          "url": "https://seatgeek.com/slightly-stoopid-tickets/buffalo-new-york-outer-harbor-live-at-terminal-b-2026-07-24-7-30-pm/concert/18105176"
+        },
+        {
+          "title": "Slightly Stoopid with The Elovaters and Bumpin Uglies",
+          "date": "2026-07-25",
+          "venue": "KEMBA Live!",
+          "city": "Columbus, OH",
+          "capacity": 0,
+          "score": 0.3293040345,
+          "url": "https://seatgeek.com/slightly-stoopid-tickets/columbus-ohio-kemba-live-2026-07-25-7-30-pm/concert/18105174"
+        }
+      ],
+      "listenerGrowth": null,
+      "isNewToTracking": true,
+      "risingStarScore": 0
     }
   ]
 }
