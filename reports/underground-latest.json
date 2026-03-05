@@ -1,34 +1,47 @@
 {
-  "timestamp": "2026-03-03T09:00:42.251Z",
+  "timestamp": "2026-03-05T09:00:36.881Z",
   "events": [
     {
-      "eventName": "Fan Club Presale Thread",
+      "eventName": "FIFA World Cup 2026: Gianni Infantino lie, Tickets, availability, prices surprise sale, sold out cla",
       "category": "other",
       "score": 8,
       "signals": [
         "SOLD OUT",
-        "Reddit",
-        "small venue"
+        "underground"
       ],
-      "text": "I was 8,000 in line... finally got into the July 24th show and everything is sold out other then a few in the 100s that have limited view and general admission.... tickets are already on resale for ov",
-      "url": "https://www.reddit.com/r/BackstreetBoys/comments/1rdluhm/fan_club_presale_thread/",
-      "source": "reddit",
+      "text": "In a stunning backflip, <strong>FIFA last week launched a sudden campaign to sell tickets for at least 64 of the tournament&#x27;s 104 matches this June and July</strong>, including high-profile fixtu",
+      "url": "https://www.nine.com.au/sport/football/fifa-world-cup-2026-tickets-availability-gianni-infantino-prices-surprise-sale-sold-out-claims-20260303-p5o738.html",
+      "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-24T17:02:12"
+      "published": "2026-03-03T02:49:23"
     },
     {
-      "eventName": "Metallica announces surprise Las Vegas concert series for 2026",
-      "category": "indie/rock",
-      "score": 6,
+      "eventName": "Birmingham Live",
+      "category": "other",
+      "score": 7,
       "signals": [
-        "underground",
-        "watchlist: mersiv"
+        "SOLD OUT",
+        "small venue"
       ],
-      "text": "Metallica revealed its “<strong>Life Burns Faster</strong>” residency set for October 2026 at the Sphere in Las Vegas. The eight‑show run will use the venue’s immersive sound and visuals..",
-      "url": "https://www.cleveland.com/news/2026/02/metallica-announces-surprise-las-vegas-concert-series-for-2026.html",
+      "text": "The slim fit tracksuit features an embroidered club crest and adidas Trefoil logo on the chest but many sizes are already sold out at time of writing. The Aston Villa adidas Originals Crew Sweater (£7",
+      "url": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-adidas-originals-collection-33502356",
       "source": "web",
-      "matchedArtist": "mersiv",
-      "published": "2026-02-25T19:25:26"
+      "matchedArtist": null,
+      "published": "2026-02-27T14:22:31"
+    },
+    {
+      "eventName": "ERT Open",
+      "category": "other",
+      "score": 7,
+      "signals": [
+        "SOLD OUT",
+        "small venue"
+      ],
+      "text": "SENSER For the 1st time in 12 years Σάββατο 28 Μαρτίου 2026 An Club (Σολωμού 13-15, Εξάρχεια) Special guests: Kidney Black Doors open: 20.30 Τιμές εισιτηρίων: <strong>€24 (early birds - sold out)</str",
+      "url": "https://www.ertopen.com/index.php/ekdiloseis/item/79312-senser-savvato-28-martiou-2026-an-club",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-03T08:27:17"
     },
     {
       "eventName": "If Ticketmaster is saying that the event is sold out at Petco Park in San Diego, why does it also sa",
@@ -59,32 +72,18 @@
       "published": "2026-03-01T22:34:51"
     },
     {
-      "eventName": "Ticketmaster changed my seats : r/Concerts",
+      "eventName": "Can Concerts survive the recent explosion in Price",
       "category": "other",
       "score": 6,
       "signals": [
         "SOLD OUT",
         "Reddit"
       ],
-      "text": "does ticketmaster do upgrades for free at the last minute in the box office if a concert is not sold out on the day of the show?",
-      "url": "https://www.reddit.com/r/Concerts/comments/1rd0yoh/ticketmaster_changed_my_seats/",
+      "text": "As an example, I&#x27;m going to a concert ... accommodations, and merch. <strong>The show is one of dozens of completely sold-out stadium shows covering five continents, with an average audience size",
+      "url": "https://www.reddit.com/r/Concerts/comments/1rizghf/can_concerts_survive_the_recent_explosion_in_price/",
       "source": "reddit",
       "matchedArtist": null,
-      "published": "2026-02-24T01:34:26"
-    },
-    {
-      "eventName": "Chicago Concert sold out!",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "This was the most annoying ticketmaster experience in over 30 years. And believe me there have been past annoyances! I was 17,000+ in queue, starting half an hour before opening, and it took about 20 ",
-      "url": "https://www.reddit.com/r/BruceSpringsteen/comments/1rdtkx5/chicago_concert_sold_out/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-24T21:37:12"
+      "published": "2026-03-02T17:38:52"
     },
     {
       "eventName": "Heartbroken - Our showing was cancelled",
@@ -101,6 +100,34 @@
       "published": "2026-02-28T20:09:50"
     },
     {
+      "eventName": "So many good concerts.",
+      "category": "other",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "All the GA for Failure are sold out, damn. I&#x27;m probably going to end up coughing up the $250 for VIP.... ... I&#x27;ll be at the cc Spiritual Cramp show. ... Coming up this month… The Jack Fords ",
+      "url": "https://www.reddit.com/r/Cleveland/comments/1rjditf/so_many_good_concerts/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-03-03T02:44:29"
+    },
+    {
+      "eventName": "Fall Tour (early?) announcement",
+      "category": "other",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "Because so many shows are sold out already.",
+      "url": "https://www.reddit.com/r/BillyStrings/comments/1rgio2b/fall_tour_early_announcement/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-02-27T20:57:12"
+    },
+    {
       "eventName": "concert tickets",
       "category": "other",
       "score": 6,
@@ -115,73 +142,31 @@
       "published": "2026-02-28T17:53:51"
     },
     {
-      "eventName": "$206 each for tickets? Actually feels exploitative to the point that Jesse should write a song about",
+      "eventName": "260304 Twitter Update - TWICE <THIS IS FOR> WORLD TOUR IN MONTREAL Montreal ONCE, you had us speechl",
       "category": "other",
       "score": 6,
       "signals": [
         "SOLD OUT",
         "Reddit"
       ],
-      "text": "Ticketmaster listed the Knoxville venue sold out almost immediately, but seemed to list new rounds of tickets several times throughout the day. For as much as 24 hours, some smaller cities up to 48, p",
-      "url": "https://www.reddit.com/r/JesseWelles/comments/1re6tly/206_each_for_tickets_actually_feels_exploitative/",
+      "text": "<strong>It wasn&#x27;t completely sold-out, but the venue was mostly packed</strong>. ... I fully expected Montreal to be the runt of all of the bigger arenas they are playing in this tour. But for th",
+      "url": "https://www.reddit.com/r/twice/comments/1rkc89t/260304_twitter_update_twice_this_is_for_world/",
       "source": "reddit",
       "matchedArtist": null,
-      "published": "2026-02-25T16:44:59"
+      "published": "2026-03-04T04:47:00"
     },
     {
-      "eventName": "[ Removed by moderator ]",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "All of Ariana Grande’s US shows for ‘the eternal sunshine tour’ have officially sold out, but some fans aren’t happy with Ticketmaster and resellers!",
-      "url": "https://www.reddit.com/r/Concerts/comments/1rf1xx2/removed_by_moderator/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-26T05:41:49"
-    },
-    {
-      "eventName": "Pros and cons of going to the first show of a tour?",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "Speaking of merch Pro: if they have merch the chances of your size being sold out are a lot smaller. ... When it comes to the very small handful of artists that I follow on tour I always try to do fir",
-      "url": "https://www.reddit.com/r/Concerts/comments/1rgf5wu/pros_and_cons_of_going_to_the_first_show_of_a_tour/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-27T18:44:48"
-    },
-    {
-      "eventName": "Ticket Anxiety.",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "Tickets were hidden from buyers to give the illusion of high demand and people paid a lot of money to get tickets to shows that were far from sold out. Check out the second night in Vancouver: https:/",
-      "url": "https://www.reddit.com/r/rush/comments/1rda9f5/ticket_anxiety/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-24T07:57:38"
-    },
-    {
-      "eventName": "Miami-Florida Baseball Weekend? First Two Games Are SOLD OUT | CanesInSight",
+      "eventName": "Broadway Shows Sold-Out This Month: March 2026",
       "category": "other",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "If you were planning on grabbing tickets later in the week for Miami vs. Florida… yeah, that might not work. The first two games at Mark Light are already gone through the school. Sunday’s still avail",
-      "url": "https://www.canesinsight.com/articles/miami-florida-baseball-weekend-first-two-games-are-sold-out.11250",
+      "text": "What Broadway Shows Have Sold Out Of All Their Tickets This Month: Sold-Out Shows For March 2026",
+      "url": "https://www.nytix.com/news/what-broadway-shows-have-sold-all-tickets-this-month",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-26T00:00:00"
+      "published": "2026-02-26T22:24:21"
     },
     {
       "eventName": "syracuse.com",
@@ -210,30 +195,30 @@
       "published": "2026-02-27T17:53:54"
     },
     {
-      "eventName": "Dallas-Fort Worth's Best Concerts of March 2026",
+      "eventName": "CashorTrade",
       "category": "other",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "So, we’ve taken the time to check the calendars of almost every big venue in town and compile a list of shows we wouldn’t want to miss this month. We start off March strong, and we end it that way, to",
-      "url": "https://www.dallasobserver.com/music/the-best-concerts-in-dallas-in-march-40647288/",
+      "text": "Expect a night filled with constant, wildly hypnotic movement and unexpected sounds that morph, expand, and spin off into their own strange orbits. The March 13th show at <strong>Bearsville Theater</s",
+      "url": "https://about.cashortrade.org/giveaways/mike-gordon-bearsville-theater-grateful-giveaway/?temp=discover&roi=og",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-25T18:30:00"
+      "published": "2026-03-03T13:40:17"
     },
     {
-      "eventName": "Upcoming Concert Events, Venue, Schedule & Passes In Warsaw",
+      "eventName": "Upcoming Concert Events, Venue, Schedule & Passes In Doncaster",
       "category": "other",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "[SOLD OUT] KWIAT JABŁONI - PRZESILENIE TOUR | 10.03.2026 | TEATR MUZYCZNY ROMA is happening on Tue 10 Mar 2026 from 8:30 PM onwards at Teatr Muzyczny ROMA, Warsaw",
-      "url": "https://allevents.in/warsaw/concerts",
+      "text": "Jersey Boys Tribute Night - Sold Out is happening on Fri 06 Mar 2026 from 7:00 PM onwards at <strong>Best Western Premier Mount Pleasant Hotel, Doncaster</strong> · What are the Concerts happening in ",
+      "url": "https://allevents.in/doncaster/concerts",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-03-02T05:12:04"
+      "published": "2026-03-03T16:39:23"
     },
     {
       "eventName": "Comedy for a Cause - Lois Law Firm",
@@ -246,34 +231,20 @@
       "url": "https://loisllc.com/event/lois-laughs-2026-comedy-for-a-cause/",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-27T16:17:50"
+      "published": "2026-03-03T16:16:46"
     },
     {
-      "eventName": "Milwaukee Record Recommended Events: March 2-8, 2026 | Milwaukee Record",
+      "eventName": "‘Tonight’s Special Comedy Special’: Arts council’s most sold out 2025 show! | The Arts | yesweekly.c",
       "category": "comedy",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "After a DJ set, host/emcee Steve Gillespie will lead a can’t-miss stand up show at The Cooperage that features a varied blend of comedy talents and other entertainers. Milwaukee’s own Canni Hemp Co. w",
-      "url": "https://milwaukeerecord.com/music/milwaukee-record-recommended-events-march-2-8-2026/",
+      "text": "On Saturday, March 14 at 8 p.m. people will enter the Milton Rhodes Center for the Arts, walk up the most beautiful staircase in Winston-Salem and enter Mountcastle Forum to see “Tonight’s Special Com",
+      "url": "https://www.yesweekly.com/thearts/tonight-s-special-comedy-special-arts-council-s-most-sold-out-2025-show/article_dc5f252c-2066-4b52-8a51-4c17bbfa576c.html",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-03-02T17:50:05"
-    },
-    {
-      "eventName": "February 2026 - Minnesota Horse & Hunt Club",
-      "category": "comedy",
-      "score": 5,
-      "signals": [
-        "small venue",
-        "underground"
-      ],
-      "text": "Santi (for short) frequents Minneapolis comedy favorites such as the Comedy Corner Underground, Sisyphus Brewing, and Volstead’s Emporium. He’ll probably do an accent. Ticket price includes Prior Lake",
-      "url": "https://horseandhunt.com/product/comedy-night-february-2026/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-24T04:27:39"
+      "published": "2026-03-04T16:32:55"
     },
     {
       "eventName": "2/25 Los Angeles Rave Itinerary",
@@ -289,57 +260,43 @@
       "published": "2026-02-26T01:03:08"
     },
     {
-      "eventName": "Art Threat",
-      "category": "hip-hop",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "Liberty Champion – Exclusive coverage of Josiah Queen’s sold-out concert at <strong>Liberty University</strong> · Josiah Queen Official Website – Artist biography and tour information · Wikipedia – Jo",
-      "url": "https://artthreat.net/3772-46709-liberty-university-breaks-concert-record-with-sold-out-josiah-queen-show/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-25T03:25:41"
-    },
-    {
-      "eventName": "Brown Univ. students host benefit concert to thank Providence after campus shooting",
+      "eventName": "Machu Picchu Entrance Tickets 2026 — Official Booking",
       "category": "other",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "THEO AND ELLISON TELL ME THEY’RE EXPECTING A SOLD OUT CROWD · Updated: 6:07 PM EST Feb 25, 2026 Editorial Standards ⓘ ... Brown Univ. students host benefit concert to thank Providence after campus sho",
-      "url": "https://www.wcvb.com/article/brown-students-benefit-concert-providence/70503432",
+      "text": "Available: {{ circuit.available ... ⚠️ Availability Update (Last updated: March 4, 2026): <strong>Circuit 2 (Routes 2A and 2B) is currently sold out through May 2026</strong>....",
+      "url": "https://www.machu-picchu.org/tickets/",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-25T23:17:33"
+      "published": "2026-03-04T00:04:05"
     },
     {
-      "eventName": "More venues, bigger venues and selling fast: Chamber music festival’s growing appeal",
+      "eventName": "\"We Are Naturally Mortified At The Issues And Inconvenience Raised For Our Fans\"",
+      "category": "other",
+      "score": 5,
+      "signals": [
+        "SOLD OUT"
+      ],
+      "text": "Dave and I have been friends for years and we are very proud to have them as our special guests on their last-ever world tour. I think our fans will really appreciate this and it will make it an even ",
+      "url": "https://bravewords.com/news/college-football-clash-reschedules-iron-maidens-sold-out-los-angeles-concert-we-are-naturally-mortified-at-the-issues-and-inconvenience-raised-for-our-fans/",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-04T19:12:47"
+    },
+    {
+      "eventName": "mlive.com",
       "category": "other",
       "score": 4,
       "signals": [
         "selling fast"
       ],
-      "text": "More venues, bigger venues and selling fast: Chamber music festival’s growing appeal",
-      "url": "https://www.orangecitylife.com.au/news/more-venues-bigger-venues-and-selling-fast-chamber-music-festivals-growing-appeal-hte0m7cl",
+      "text": "The Detroit Tigers will look to impress their fans for the first time in 2026 next month. Find your seats for the team’s home opener against the St.",
+      "url": "https://www.mlive.com/sports/event-tickets/2026/03/tickets-for-the-tigers-home-opener-are-selling-fast-buy-yours-today.html",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-03-01T13:01:00"
-    },
-    {
-      "eventName": "I Got Jeremy’s Tic Tacs",
-      "category": "other",
-      "score": 4,
-      "signals": [
-        "Reddit",
-        "watchlist: matt rife"
-      ],
-      "text": "487 votes, 24 comments. I was very lucky to get tickets to the Matt Rife and Jeremy show, which was a 5pm show announced just a few days before it…",
-      "url": "https://www.reddit.com/r/Killtony/comments/1rdsifx/i_got_jeremys_tic_tacs/",
-      "source": "reddit",
-      "matchedArtist": "matt rife",
-      "published": "2026-02-24T20:58:54"
+      "published": "2026-03-03T14:01:28"
     }
   ]
 }

@@ -1,0 +1,368 @@
+{
+  "timestamp": "2026-03-04T10:09:21.470Z",
+  "scanDurationMs": 85060,
+  "totalMentionsFound": 465,
+  "eventsScored": 8,
+  "events": [
+    {
+      "eventKey": "connor storrie watch parties",
+      "displayName": "Connor Storrie watch parties",
+      "rawTitle": "Connor Storrie watch parties sold out, SNL sold out in minutes, lines longer than nile river for fan",
+      "category": "sports",
+      "eventName": "Connor Storrie watch parties",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Connor%20Storrie%20watch%20parties",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Connor%20Storrie%20watch%20parties",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
+      "totalScore": 37,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 12,
+        "obscurityBonus": 10,
+        "engagementBonus": 10
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "Connor Storrie watch parties sold out, SNL sold out in minutes, lines longer than nile river for fans waiting to get tic",
+          "text": "Connor Storrie watch parties sold out, SNL sold out in minutes, lines longer than nile river for fans waiting to get tickets, SNL engagements through the roof, everybody talking about him. Oh Connor Storrie the heartthrob that you are!!!!!!",
+          "url": "https://x.com/i/status/2027879186317320526",
+          "score": 394,
+          "numComments": 0,
+          "created": 1772319048,
+          "author": "228489437"
+        }
+      ],
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "eventKey": "pittsburgh march 6th",
+      "displayName": "Early show",
+      "rawTitle": "Pittsburgh March 6th‼️",
+      "category": "comedy",
+      "eventName": "Early show",
+      "eventType": "comedian",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Early%20show+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Early%20show",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
+      "totalScore": 32,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 1,
+        "trendsBonus": 10
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "u_JiaoyingSummers",
+          "title": "Pittsburgh March 6th‼️",
+          "text": "Early show sold out, 10pm show is added! Get the last few tickets now 🎟️Jiaoyingcomedy.com\n\n\\#pittsburgh #standupcomedy #comedyshow",
+          "url": "https://reddit.com/r/u_JiaoyingSummers/comments/1rk3l7c/pittsburgh_march_6th/",
+          "score": 8,
+          "numComments": 1,
+          "created": 1772576664,
+          "author": "JiaoyingSummers"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ],
+      "googleTrends": {
+        "spike": 2.02,
+        "peak": 100,
+        "recentAvg": 32,
+        "trending": true,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "culture room",
+      "displayName": "Machine girl",
+      "rawTitle": "CULTURE ROOM!",
+      "category": "other",
+      "eventName": "Machine girl",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Machine%20girl",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Machine%20girl",
+      "venueCapacity": null,
+      "venueFromSeatGeek": "The Underground at The Fillmore - Charlotte",
+      "venueCity": "Charlotte",
+      "venueState": "NC",
+      "totalScore": 22,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 1,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "fortlauderdale",
+          "title": "CULTURE ROOM!",
+          "text": "Hi everyone I already posted in the Machine girl thread but i thought i’d try here too! I’m looking for 2x tickets for the Machine girl show at the Culture Room! Please help!!!! Tickets were sold out as soon as i got paid ",
+          "url": "https://reddit.com/r/fortlauderdale/comments/1rk7593/culture_room/",
+          "score": 2,
+          "numComments": 4,
+          "created": 1772585444,
+          "author": "princessham1303"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ],
+      "googleTrends": {
+        "spike": 1.19,
+        "peak": 100,
+        "recentAvg": 37,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "not a chance",
+      "displayName": "Epic shows",
+      "rawTitle": "Dumbest question",
+      "category": "other",
+      "eventName": "Epic shows",
+      "eventType": "event",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Epic%20shows",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Epic%20shows",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
+      "totalScore": 22,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 1
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "UniversalEpicUniverse",
+          "title": "Dumbest question",
+          "text": "I live in Orlando, I do Disney all the time, if Epic shows sold out for a day, what are the chances I can walk up and buy tickets in the AM? This is such a shit post and I apologize, but my wife is asking me and I have to make an effort. Google said \"not a chance\". ",
+          "url": "https://reddit.com/r/UniversalEpicUniverse/comments/1rk28bf/dumbest_question/",
+          "score": 1,
+          "numComments": 9,
+          "created": 1772573528,
+          "author": "SwollenSpleen"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "wiaa wrestling tournament sold",
+      "displayName": "WIAA wrestling tournament",
+      "rawTitle": "WIAA wrestling tournament sold out; watch on CW 14 and fox11online.com",
+      "category": "college-sports",
+      "eventName": "WIAA wrestling tournament",
+      "eventType": "artist",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=WIAA%20wrestling%20tournament+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=WIAA%20wrestling%20tournament",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
+      "totalScore": 22,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 2,
+        "obscurityBonus": 15,
+        "engagementBonus": 0,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "brave",
+          "subreddit": "",
+          "title": "WIAA wrestling tournament sold out; watch on CW 14 and fox11online.com",
+          "text": "(WLUK/Mackenzie May) 0Comment · ... to this weekend&#x27;s individual high school wrestling state tournament can watch on <strong>CW 14 and fox11online.com</strong>....",
+          "url": "https://fox11online.com/sports/high-school-gametime/2026-wiaa-state-high-school-individual-wrestling-tournament-championships-kohl-center-sold-out-tv-streaming-viewing-options",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772532538.168,
+          "author": "fox11online.com"
+        }
+      ],
+      "sources": [
+        "brave"
+      ],
+      "googleTrends": {
+        "spike": 0,
+        "peak": 100,
+        "recentAvg": 0,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "dublin show  the",
+      "displayName": "Freddie Gibbs Dublin",
+      "rawTitle": "Dublin Show - The Last rabbit tour",
+      "category": "concerts",
+      "eventName": "Freddie Gibbs Dublin",
+      "eventType": "artist",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=Freddie%20Gibbs%20Dublin+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Freddie%20Gibbs%20Dublin",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
+      "totalScore": 21,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 4,
+        "scarcity": 2,
+        "obscurityBonus": 10,
+        "engagementBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "reddit",
+          "subreddit": "redveil",
+          "title": "Dublin Show - The Last rabbit tour",
+          "text": "Anyone tryna resell tickets to Freddie Gibbs Dublin show April 10th? My friend and I really wanna see Redveil and Gibbs but they were already sold out before it was announced Redveil would be opening up for Gibbs :(",
+          "url": "https://reddit.com/r/redveil/comments/1rk9qr1/dublin_show_the_last_rabbit_tour/",
+          "score": 2,
+          "numComments": 0,
+          "created": 1772592375,
+          "author": "Plus-Till-7376"
+        }
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "eventKey": "mrwills96 many people dont",
+      "displayName": "that",
+      "rawTitle": "@MrWills96 Many people don’t understand Messi influence. In the MLS when Messi is going to any City/",
+      "category": "other",
+      "eventName": "that",
+      "eventType": "team",
+      "venueName": null,
+      "artistUrl": "https://www.google.com/search?q=that+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=that",
+      "venueCapacity": null,
+      "venueFromSeatGeek": "New World Stages - Stage 4",
+      "venueCity": "New York",
+      "venueState": "NY",
+      "totalScore": 19,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "twitter",
+          "subreddit": "",
+          "title": "@MrWills96 Many people don’t understand Messi influence. In the MLS when Messi is going to any City/state, tickets for t",
+          "text": "@MrWills96 Many people don’t understand Messi influence. In the MLS when Messi is going to any City/state, tickets for that game are 10x higher than normal prices and are usually sold out in minutes or hours tops. Thats how much influence this guy has. It’s something to witness",
+          "url": "https://x.com/i/status/2027267360193683486",
+          "score": 4,
+          "numComments": 0,
+          "created": 1772173178,
+          "author": "2010394218800562176"
+        }
+      ],
+      "sources": [
+        "twitter"
+      ],
+      "googleTrends": {
+        "spike": 0.77,
+        "peak": 100,
+        "recentAvg": 54,
+        "trending": false,
+        "hot": false
+      }
+    },
+    {
+      "eventKey": "rrufusdusol on reddit if",
+      "displayName": "Petco Park in San Diego @ Petco Park",
+      "rawTitle": "r/RUFUSDUSOL on Reddit: If Ticketmaster is saying that the event is sold out at Petco Park in San Di",
+      "category": "concerts",
+      "eventName": "Petco Park in San Diego",
+      "eventType": "artist",
+      "venueName": "Petco Park",
+      "artistUrl": "https://www.google.com/search?q=Petco%20Park%20in%20San%20Diego+official+site",
+      "vividSeatsUrl": "https://www.vividseats.com/search?searchTerm=Petco%20Park%20in%20San%20Diego",
+      "venueCapacity": null,
+      "venueFromSeatGeek": null,
+      "venueCity": null,
+      "venueState": null,
+      "totalScore": 19,
+      "breakdown": {
+        "volume": 5,
+        "velocity": 0,
+        "scarcity": 4,
+        "obscurityBonus": 10,
+        "engagementBonus": 0,
+        "trendsBonus": 0
+      },
+      "mentionCount": 1,
+      "mentions": [
+        {
+          "source": "brave",
+          "subreddit": "",
+          "title": "r/RUFUSDUSOL on Reddit: If Ticketmaster is saying that the event is sold out at Petco Park in San Diego, why does it als",
+          "text": "They will list tickets again later along with resale as &quot;platinum&quot; for $$$$$. ... They already announced there would be no dynamic pricing on the tour. Most of the venue was sold during the presale. During the general sale, for the hell of it, I joined the queue 15 minutes after it went live and I was 30k in line. This show is most definitely sold out.",
+          "url": "https://www.reddit.com/r/RUFUSDUSOL/comments/1rh92fj/if_ticketmaster_is_saying_that_the_event_is_sold/",
+          "score": 0,
+          "numComments": 0,
+          "created": 1772532513.96,
+          "author": "www.reddit.com"
+        }
+      ],
+      "sources": [
+        "brave"
+      ],
+      "googleTrends": {
+        "spike": 0,
+        "peak": 100,
+        "recentAvg": 0,
+        "trending": false,
+        "hot": false
+      }
+    }
+  ]
+}

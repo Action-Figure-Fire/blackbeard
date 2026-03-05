@@ -1,0 +1,961 @@
+{
+  "picks": [
+    {
+      "name": "Sonny Fodera",
+      "tier": "red_hot",
+      "vetScore": 80,
+      "pickedAt": "2026-03-05T21:23:38.131Z",
+      "initialData": {
+        "monthlyListeners": 9100000,
+        "soldOutMentions": 7,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 3,
+        "signals": [
+          "🔥 7 sold-out mentions",
+          "🎧 9.1M Spotify listeners",
+          "🎵 TT: 4.9M",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:39.505Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 4,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Bella Kay",
+      "tier": "red_hot",
+      "vetScore": 57,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 938,
+        "soldOutMentions": 3,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 3 sold-out mentions",
+          "🎧 0.0M Spotify listeners",
+          "🎵 TT: 5.7M",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:40.622Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 0,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Ralph Castelli",
+      "tier": "red_hot",
+      "vetScore": 57,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 1128177,
+        "soldOutMentions": 2,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 1.1M Spotify listeners",
+          "📱 Viral moment detected",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:41.692Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 0,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Ms Ray",
+      "tier": "red_hot",
+      "vetScore": 55,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 206000,
+        "soldOutMentions": 2,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 3,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 0.2M Spotify listeners",
+          "📱 Viral moment detected",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:42.878Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 0,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Jackie Hollander",
+      "tier": "red_hot",
+      "vetScore": 55,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 85,
+        "soldOutMentions": 2,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 3,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 0.0M Spotify listeners",
+          "📅 Added dates due to demand",
+          "📱 Viral moment detected",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:44.004Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 1,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Elmiene",
+      "tier": "red_hot",
+      "vetScore": 53,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 2000000,
+        "soldOutMentions": 2,
+        "upcomingShows": 20,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 2.0M Spotify listeners",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:45.228Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 10,
+          "soldOutMentions": 3,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Silva Bumpa",
+      "tier": "red_hot",
+      "vetScore": 52,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 1500000,
+        "soldOutMentions": 2,
+        "upcomingShows": 2,
+        "avgGetIn": null,
+        "playlists": 3,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 1.5M Spotify listeners",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:46.457Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 2,
+          "soldOutMentions": 4,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 4 (was 2)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "BigXthaPlug",
+      "tier": "red_hot",
+      "vetScore": 52,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 1,
+        "upcomingShows": 6,
+        "avgGetIn": null,
+        "playlists": 3,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "📱 Viral moment detected",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:47.590Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 6,
+          "soldOutMentions": 5,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 5 (was 1)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "GENA",
+      "tier": "red_hot",
+      "vetScore": 50,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 20,
+        "soldOutMentions": 2,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 0.0M Spotify listeners",
+          "📱 Viral moment detected",
+          "📅 Added dates due to demand",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:48.724Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 8,
+          "soldOutMentions": 5,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 5 (was 2)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "svn4vr",
+      "tier": "red_hot",
+      "vetScore": 50,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 138000,
+        "soldOutMentions": 2,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 0.1M Spotify listeners",
+          "📱 Viral moment detected",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:49.838Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 0,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Elujay",
+      "tier": "red_hot",
+      "vetScore": 50,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 3,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 3 sold-out mentions",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:51.061Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 2,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "redveil",
+      "tier": "warm",
+      "vetScore": 49,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 730000,
+        "soldOutMentions": 2,
+        "upcomingShows": 10,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 0.7M Spotify listeners",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:52.346Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 10,
+          "soldOutMentions": 5,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 5 (was 2)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "Sarah Kinsley",
+      "tier": "warm",
+      "vetScore": 49,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 700000,
+        "soldOutMentions": 2,
+        "upcomingShows": 10,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 0.7M Spotify listeners",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:53.555Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 10,
+          "soldOutMentions": 2,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "doggone",
+      "tier": "warm",
+      "vetScore": 47,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 7,
+        "soldOutMentions": 2,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 4,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 0.0M Spotify listeners",
+          "📱 Viral moment detected",
+          "📋 4 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:54.757Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 2,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Peso Pluma",
+      "tier": "warm",
+      "vetScore": 45,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 45000000,
+        "soldOutMentions": 1,
+        "upcomingShows": 25,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "🎧 45.0M Spotify listeners",
+          "🏟️ Venue upgrade detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:55.979Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 10,
+          "soldOutMentions": 4,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 4 (was 1)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "Odd Mob",
+      "tier": "warm",
+      "vetScore": 43,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 5100000,
+        "soldOutMentions": 2,
+        "upcomingShows": 8,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 5.1M Spotify listeners",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:57.213Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 8,
+          "soldOutMentions": 4,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 4 (was 2)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "Zack Villere",
+      "tier": "warm",
+      "vetScore": 42,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 2,
+        "upcomingShows": 1,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:58.438Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 1,
+          "soldOutMentions": 4,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 4 (was 2)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "Concrete Boys",
+      "tier": "warm",
+      "vetScore": 40,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 341,
+        "soldOutMentions": 1,
+        "upcomingShows": 10,
+        "avgGetIn": null,
+        "playlists": 3,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "🎧 0.0M Spotify listeners",
+          "📱 Viral moment detected",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:23:59.556Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 10,
+          "soldOutMentions": 4,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 4 (was 1)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "Yebba",
+      "tier": "warm",
+      "vetScore": 40,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 144,
+        "soldOutMentions": 2,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 0.0M Spotify listeners",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:00.797Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 2,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Fcukers",
+      "tier": "warm",
+      "vetScore": 40,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 1,
+        "upcomingShows": 10,
+        "avgGetIn": null,
+        "playlists": 5,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "📱 Viral moment detected",
+          "📸 IG: 74K",
+          "📋 5 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:02.125Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 10,
+          "soldOutMentions": 3,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 3 (was 1)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "MPH",
+      "tier": "warm",
+      "vetScore": 40,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 1,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 3,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "📱 Viral moment detected",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:03.355Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 3,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 3 (was 1)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "Tini Gessler",
+      "tier": "warm",
+      "vetScore": 39,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 1,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "📱 Viral moment detected",
+          "📅 Added dates due to demand",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:04.579Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 0,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Ydegirl",
+      "tier": "warm",
+      "vetScore": 38,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 2,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:05.704Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 1,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "MUNA",
+      "tier": "warm",
+      "vetScore": 37,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 2,
+        "soldOutMentions": 2,
+        "upcomingShows": 8,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 2 sold-out mentions",
+          "🎧 0.0M Spotify listeners",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:06.939Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 8,
+          "soldOutMentions": 5,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 5 (was 2)",
+      "daysToOutcome": 0
+    },
+    {
+      "name": "the sound chalk makes",
+      "tier": "warm",
+      "vetScore": 35,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 1,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:08.063Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 0,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "waterbaby",
+      "tier": "warm",
+      "vetScore": 35,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 1,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "📱 Viral moment detected",
+          "📱 Viral moment detected",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:09.286Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 0,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Sassy 009",
+      "tier": "warm",
+      "vetScore": 35,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 1,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:10.731Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 1,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "Andrew Aged",
+      "tier": "warm",
+      "vetScore": 35,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 1,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "📱 Viral moment detected",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:11.853Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 0,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "BLOND:ISH",
+      "tier": "warm",
+      "vetScore": 32,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": null,
+        "soldOutMentions": 1,
+        "upcomingShows": 0,
+        "avgGetIn": null,
+        "playlists": 2,
+        "signals": [
+          "🔥 1 sold-out mentions",
+          "📱 Viral moment detected",
+          "📋 2 editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:12.978Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 0,
+          "soldOutMentions": 1,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "pending",
+      "outcomeReason": null,
+      "daysToOutcome": null
+    },
+    {
+      "name": "sosocamo",
+      "tier": "warm",
+      "vetScore": 30,
+      "pickedAt": "2026-03-05T21:23:38.132Z",
+      "initialData": {
+        "monthlyListeners": 5000000,
+        "soldOutMentions": 0,
+        "upcomingShows": 8,
+        "avgGetIn": null,
+        "playlists": 3,
+        "signals": [
+          "🎧 5.0M Spotify listeners",
+          "📋 3 Spotify editorial playlists"
+        ]
+      },
+      "checkHistory": [
+        {
+          "checkedAt": "2026-03-05T21:24:14.213Z",
+          "daysSincePick": 0,
+          "currentAvgGetIn": null,
+          "currentShows": 8,
+          "soldOutMentions": 2,
+          "initialAvgGetIn": null
+        }
+      ],
+      "outcome": "confirmed",
+      "outcomeReason": "New sold-out mentions: 2 (was 0)",
+      "daysToOutcome": 0
+    }
+  ],
+  "stats": {
+    "total": 30,
+    "confirmed": 12,
+    "busted": 0,
+    "pending": 18,
+    "hitRate": 100
+  },
+  "lastUpdated": "2026-03-05T21:24:14.415Z"
+}
