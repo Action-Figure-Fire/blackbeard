@@ -32,10 +32,18 @@ async function main() {
     
     await sendDiscord(msg);
     
+    // Fetch artist images for any new/missing thumbnails
+    console.log('\n========== FETCHING ARTIST IMAGES ==========');
+    try {
+      require('./fetch-images-auto')();
+    } catch (e) {
+      console.log('Image fetch skipped:', e.message?.slice(0, 100));
+    }
+
     // Git commit the results
     const { execSync } = require('child_process');
     try {
-      execSync('cd /home/node/.openclaw/workspace/blackbeard && git add docs/data/rising-stars.json data/spotify-data.json data/spotify-history.json && git commit -m "Rising Stars scan $(date +%Y-%m-%d)" && git push', { stdio: 'pipe' });
+      execSync('cd /home/node/.openclaw/workspace/blackbeard && git add docs/data/ data/ && git commit -m "Rising Stars scan $(date +%Y-%m-%d)" && git push', { stdio: 'pipe' });
       console.log('Git push complete');
     } catch (e) {
       console.log('Git push skipped:', e.message?.slice(0, 100));
