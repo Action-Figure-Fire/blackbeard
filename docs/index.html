@@ -6,153 +6,153 @@
 <title>Blackbeard — Presale Intelligence for Ticket Brokers</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏴‍☠️</text></svg>">
 <style>
-:root {
-  --bg: #0b0e14;
-  --surface: #131720;
-  --surface2: #1a1f2e;
-  --border: #1e2536;
-  --border-hover: #2a3347;
-  --text: #c9d1d9;
-  --text-muted: #7a8599;
-  --text-dim: #4a5568;
-  --accent: #f0b429;
-  --accent-dim: rgba(240,180,41,0.12);
-  --red: #f85149;
-  --red-dim: rgba(248,81,73,0.12);
-  --green: #3fb950;
-  --green-dim: rgba(63,185,80,0.12);
-  --blue: #58a6ff;
-  --blue-dim: rgba(88,166,255,0.12);
-  --purple: #bc8cff;
-  --orange: #f0883e;
-  --radius: 8px;
-  --radius-lg: 12px;
-}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.5;font-size:14px}
+:root{
+  --bg:#09090b;--surface:#18181b;--surface2:#1f1f23;--border:#27272a;--border2:#3f3f46;
+  --text:#fafafa;--text2:#d4d4d8;--text3:#a1a1aa;--text4:#71717a;--text5:#52525b;
+  --purple:#a78bfa;--purple-dim:rgba(167,139,250,0.06);--purple-b:#312e81;
+  --red:#ef4444;--red-dim:rgba(239,68,68,0.06);
+  --green:#4ade80;--green-dim:rgba(74,222,128,0.04);--green-b:#14532d;
+  --yellow:#fbbf24;--yellow-dim:rgba(251,191,36,0.06);
+  --teal:#2dd4bf;--teal-dim:rgba(45,212,191,0.04);
+  --orange:#fb923c;--blue:#60a5fa;
+  --radius:8px;--radius-lg:12px;
+}
+body{background:var(--bg);color:var(--text2);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.5;font-size:14px}
 a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 
+/* Layout */
 .app{display:flex;min-height:100vh}
-.sidebar{width:220px;background:var(--surface);border-right:1px solid var(--border);padding:20px 0;position:fixed;top:0;left:0;bottom:0;overflow-y:auto;z-index:100}
+.sidebar{width:220px;background:var(--surface);border-right:1px solid var(--border);position:fixed;top:0;left:0;bottom:0;overflow-y:auto;z-index:100;padding:20px 0}
 .main{flex:1;margin-left:220px;padding:24px 32px;max-width:1100px}
 
+/* Sidebar */
 .logo{padding:0 20px 20px;border-bottom:1px solid var(--border);margin-bottom:12px}
 .logo h1{font-size:18px;font-weight:700;color:#fff;letter-spacing:-0.5px}
-.logo h1 span{color:var(--accent)}
-.logo .tagline{font-size:10px;color:var(--text-muted);margin-top:2px;letter-spacing:0.5px;text-transform:uppercase}
-
+.logo h1 span{color:var(--yellow)}
+.logo .tagline{font-size:10px;color:var(--text4);margin-top:2px;letter-spacing:0.5px;text-transform:uppercase}
 .nav-section{padding:8px 12px}
-.nav-label{font-size:10px;font-weight:700;color:var(--text-dim);text-transform:uppercase;letter-spacing:1.2px;padding:8px 8px 4px}
-.nav-item{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:6px;cursor:pointer;font-size:13px;color:var(--text-muted);transition:all 0.15s}
-.nav-item:hover{background:var(--surface2);color:var(--text)}
-.nav-item.active{background:var(--accent-dim);color:var(--accent);font-weight:600}
+.nav-label{font-size:10px;font-weight:700;color:var(--text5);text-transform:uppercase;letter-spacing:1.2px;padding:8px 8px 4px}
+.nav-item{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:6px;cursor:pointer;font-size:13px;color:var(--text4);transition:all 0.15s}
+.nav-item:hover{background:var(--surface2);color:var(--text2)}
+.nav-item.active{background:var(--yellow-dim);color:var(--yellow);font-weight:600}
 .nav-item .icon{font-size:16px;width:20px;text-align:center}
-.nav-item .count{margin-left:auto;font-size:11px;background:var(--surface2);padding:1px 6px;border-radius:10px;font-weight:600}
-.nav-item.active .count{background:rgba(240,180,41,0.2);color:var(--accent)}
 
+/* Section heads */
 .section-head{display:flex;align-items:center;justify-content:space-between;margin:28px 0 14px}
 .section-head:first-child{margin-top:0}
 .section-head h2{font-size:16px;font-weight:700;color:#fff}
-.section-head .badge-count{font-size:11px;background:var(--surface2);border:1px solid var(--border);padding:2px 10px;border-radius:12px;color:var(--text-muted);font-weight:600}
+.badge{font-size:11px;background:var(--surface2);border:1px solid var(--border);padding:2px 10px;border-radius:12px;color:var(--text4);font-weight:600}
 
-/* Day headers for calendar */
-.day-header{display:flex;align-items:center;gap:10px;margin:20px 0 10px;padding-bottom:8px;border-bottom:1px solid var(--border)}
-.day-header .day-name{font-size:14px;font-weight:700;color:var(--accent)}
-.day-header .day-date{font-size:12px;color:var(--text-muted)}
-.day-header .day-badge{font-size:10px;font-weight:700;padding:2px 8px;border-radius:4px}
-.day-badge.hot{background:var(--red-dim);color:var(--red)}
-.day-badge.active{background:var(--green-dim);color:var(--green)}
-.day-badge.upcoming{background:var(--blue-dim);color:var(--blue)}
+/* Filter buttons */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.fbtn{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:6px 14px;color:var(--text4);font-size:12px;font-weight:600;cursor:pointer;transition:all 0.15s}
+.fbtn:hover{border-color:var(--border2);color:var(--text2)}
+.fbtn.active{background:var(--yellow-dim);border-color:rgba(251,191,36,0.3);color:var(--yellow)}
 
-/* Presale event rows */
-.presale-row{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 18px;margin-bottom:8px;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:start;transition:border-color 0.15s}
-.presale-row:hover{border-color:var(--border-hover)}
-.pr-left{min-width:0}
-.pr-name{font-size:14px;font-weight:700;color:#fff}
-.pr-detail{font-size:12px;color:var(--text-muted);margin-top:3px}
-.pr-detail span{margin-right:12px}
-.pr-code{display:inline-flex;align-items:center;gap:4px;background:var(--accent-dim);border:1px solid rgba(240,180,41,0.25);padding:3px 10px;border-radius:4px;font-family:monospace;font-size:13px;font-weight:700;color:var(--accent);cursor:pointer;margin-top:6px}
-.pr-code:hover{background:rgba(240,180,41,0.2)}
-.pr-code::before{content:'🔑'}
-.pr-signup{display:inline-flex;align-items:center;gap:4px;background:var(--blue-dim);border:1px solid rgba(88,166,255,0.25);padding:3px 10px;border-radius:4px;font-size:12px;font-weight:600;color:var(--blue);margin-top:6px;margin-left:6px}
-.pr-signup:hover{background:rgba(88,166,255,0.2);text-decoration:none}
-.pr-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0}
-.pr-time{font-size:13px;font-weight:700;color:#fff;white-space:nowrap}
-.pr-type{font-size:10px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap}
-.type-artist{background:rgba(188,140,255,0.12);color:var(--purple)}
-.type-venue{background:rgba(240,180,41,0.12);color:var(--accent)}
-.type-spotify{background:rgba(63,185,80,0.12);color:var(--green)}
-.type-general{background:rgba(88,166,255,0.12);color:var(--blue)}
-.type-amex{background:rgba(248,81,73,0.12);color:var(--red)}
-.type-livenation{background:rgba(240,136,62,0.12);color:var(--orange)}
-.pr-links{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
-.pr-links a{font-size:11px;padding:3px 8px;border:1px solid var(--border);border-radius:4px;color:var(--blue);transition:all 0.15s}
-.pr-links a:hover{background:var(--blue-dim);text-decoration:none}
+/* ── Optimus-style Card ── */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);cursor:pointer;overflow:hidden;margin-bottom:10px;transition:all 0.25s}
+.card:hover{border-color:var(--border2)}
+.card.expanded{transform:translateY(-1px);box-shadow:0 8px 32px rgba(0,0,0,0.3)}
+.card-accent{height:3px}
+.card-header{padding:16px 20px;display:flex;align-items:flex-start;gap:14}
+.card-score{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
+.card-score .num{font-size:24px;font-weight:800;line-height:1}
+.card-score .tier{font-size:9px;font-weight:700;letter-spacing:1.5px;margin-top:2px;padding:2px 6px;border-radius:4px}
+.card-info{flex:1;min-width:0}
+.card-name{font-size:15px;font-weight:600;color:var(--text);line-height:1.3}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.tag{font-size:10px;padding:3px 8px;border-radius:5px;font-weight:500;border:1px solid}
+.tag-genre{background:#1e1b4b;color:var(--purple);border-color:var(--purple-b)}
+.tag-venue{background:#162217;color:var(--green);border-color:var(--green-b)}
+.tag-hot{background:var(--red-dim);color:var(--red);border-color:rgba(239,68,68,0.2);font-weight:700;letter-spacing:0.5px}
+.tag-new{background:rgba(251,191,36,0.08);color:var(--yellow);border-color:rgba(251,191,36,0.2);font-weight:700}
+.sale-status{font-size:11px;font-weight:600;margin-top:6px;letter-spacing:0.3px}
+.sale-live{color:var(--red)}.sale-soon{color:var(--yellow)}.sale-info{color:var(--text4)}
+.card-arrow{flex-shrink:0;font-size:18px;color:var(--text5);transition:transform 0.2s}
+.card.expanded .card-arrow{transform:rotate(180deg)}
 
-/* Demand score pill */
-.demand-pill{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px}
-.demand-hot{background:var(--red-dim);color:var(--red)}
-.demand-high{background:rgba(240,136,62,0.12);color:var(--orange)}
-.demand-moderate{background:var(--blue-dim);color:var(--blue)}
+/* Expanded body */
+.card-body{display:none;padding:0 20px 20px;border-top:1px solid var(--border)}
+.card.expanded .card-body{display:block;padding-top:16px}
 
-/* Artist cards for emerging artists */
-.artist-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:0;margin-bottom:10px;overflow:hidden;cursor:pointer;transition:border-color 0.15s}
-.artist-card:hover{border-color:var(--border-hover)}
-.artist-card .ac-header{display:flex;align-items:center;gap:14px;padding:16px 20px}
-.ac-stripe{width:4px;align-self:stretch;border-radius:2px;flex-shrink:0}
-.ac-info{flex:1;min-width:0}
-.ac-name{font-size:15px;font-weight:700;color:#fff}
-.ac-meta{font-size:12px;color:var(--text-muted);margin-top:2px}
-.ac-right{display:flex;align-items:center;gap:8px;flex-shrink:0}
-.ac-score{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:800;color:#fff}
-.ac-score.s{background:rgba(248,81,73,0.15);border:3px solid var(--red)}
-.ac-score.a{background:rgba(240,180,41,0.15);border:3px solid var(--accent)}
-.ac-score.b{background:rgba(88,166,255,0.15);border:3px solid var(--blue)}
-.tag{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;padding:3px 8px;border-radius:4px;white-space:nowrap}
-.tag-hot{background:var(--red-dim);color:var(--red)}
-.tag-rising{background:rgba(240,136,62,0.1);color:var(--orange)}
-.tag-new{background:var(--green-dim);color:var(--green)}
+/* Sale info box */
+.sale-box{padding:12px 14px;background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:14px;font-size:12px;color:var(--text2);line-height:1.6}
+.sale-box .label{font-size:9px;font-weight:700;letter-spacing:1.5px;margin-bottom:4px}
 
-.ac-body{display:none;padding:0 20px 16px;border-top:1px solid var(--border)}
-.artist-card.open .ac-body{display:block;padding-top:14px}
-.ac-signals{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
-.signal{font-size:12px;color:var(--text);padding:4px 10px;background:var(--surface2);border-radius:4px}
-.ac-insight{font-size:13px;color:var(--text-muted);background:var(--bg);border-left:3px solid var(--accent);padding:10px 12px;border-radius:0 6px 6px 0;margin-bottom:10px}
+/* Stat grid */
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-bottom:14px}
+.stat-box{background:#0f0f11;border-radius:var(--radius);padding:10px 12px;border:1px solid #1a1a1e}
+.stat-box .sl{font-size:9px;color:var(--text5);letter-spacing:1.5px;margin-bottom:4px;font-weight:600}
+.stat-box .sv{font-size:12px;font-weight:500;color:var(--text3);line-height:1.5}
 
-/* Trends grid */
+/* Analysis */
+.analysis{font-size:13px;color:var(--text3);line-height:1.65;margin-bottom:14px}
+.analysis .al{font-weight:600;font-size:10px;letter-spacing:1px}
+
+/* Target cities */
+.targets{padding:12px 14px;background:var(--green-dim);border:1px solid rgba(52,211,153,0.15);border-radius:var(--radius);margin-bottom:14px}
+.targets .tl{font-size:9px;font-weight:700;letter-spacing:2px;color:#34d399;margin-bottom:8px}
+.target-row{display:flex;gap:8px;align-items:flex-start;font-size:12px;line-height:1.5;margin-bottom:6px}
+.target-row .tc{color:var(--text);font-weight:600}
+.target-row .tv{color:var(--text4)}
+.target-row .td{color:var(--purple);font-weight:500}
+.target-row .tw{color:var(--text3);font-size:11px;margin-top:2px}
+
+/* Presale code highlight */
+.code-box{display:inline-flex;align-items:center;gap:4px;background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.25);padding:4px 12px;border-radius:4px;font-family:monospace;font-size:13px;font-weight:700;color:var(--yellow);cursor:pointer;margin-top:6px;margin-right:6px}
+.code-box:hover{background:rgba(251,191,36,0.18)}
+
+/* Action box */
+.action-box{padding:10px 14px;background:var(--purple-dim);border:1px solid rgba(167,139,250,0.15);border-radius:var(--radius);font-size:12px;color:#c4b5fd;line-height:1.5;margin-bottom:14px}
+
+/* Tour dates in card */
+.tour-dates{margin-bottom:14px}
+.tour-dates .tdl{font-size:9px;font-weight:700;letter-spacing:1.5px;color:var(--text5);margin-bottom:6px}
+.tour-row{display:flex;gap:12px;font-size:12px;padding:4px 0;border-bottom:1px solid #1a1a1e;color:var(--text3)}
+.tour-row:last-child{border:none}
+.tour-row .tdate{color:var(--text4);width:80px;flex-shrink:0}
+.tour-row .tvenue{flex:1;color:var(--text2)}
+.tour-row .tprice{color:var(--yellow);font-weight:600;flex-shrink:0}
+
+/* Sold out signals */
+.so-box{padding:12px 14px;background:var(--red-dim);border:1px solid rgba(239,68,68,0.15);border-radius:var(--radius);margin-bottom:14px}
+.so-box .sol{font-size:9px;font-weight:700;letter-spacing:1.5px;color:var(--red);margin-bottom:6px}
+.so-item{font-size:12px;color:var(--text3);padding:4px 0;border-left:3px solid rgba(239,68,68,0.3);padding-left:10px;margin-bottom:4px}
+
+/* Buttons */
+.card-buttons{display:flex;gap:8px;justify-content:flex-end}
+.btn-tickets{background:var(--purple);color:#000;border:none;border-radius:var(--radius);padding:8px 20px;cursor:pointer;text-decoration:none;font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:6px;transition:all 0.2s}
+.btn-tickets:hover{opacity:0.9;text-decoration:none}
+.btn-sg{background:rgba(96,165,250,0.08);color:var(--blue);border:1px solid rgba(96,165,250,0.2);border-radius:var(--radius);padding:8px 16px;cursor:pointer;text-decoration:none;font-size:11px;font-weight:600;display:inline-flex;align-items:center;gap:4px}
+
+/* Trends */
 .trends-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
 .trend-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px}
 .trend-card .tn{font-size:13px;font-weight:600;color:#fff}
 .trend-card .ts{font-size:22px;font-weight:800;margin-top:4px}
 .trend-card .tc{font-size:12px;margin-top:2px}
-.trend-card .tx{font-size:11px;color:var(--text-dim);margin-top:4px}
+.trend-card .tx{font-size:11px;color:var(--text5);margin-top:4px}
 
-/* Alert feed */
+/* Alerts */
 .alert-item{display:flex;gap:10px;padding:12px 14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:6px}
 .alert-icon{font-size:18px;flex-shrink:0}
 .alert-body{flex:1;min-width:0}
 .alert-body .ab-title{font-size:13px;font-weight:600;color:#fff}
-.alert-body .ab-detail{font-size:12px;color:var(--text-muted);margin-top:2px}
-.alert-body .ab-time{font-size:11px;color:var(--text-dim);margin-top:3px}
-
-/* Empty state */
-.empty{text-align:center;padding:40px 20px;color:var(--text-dim);font-size:13px}
+.alert-body .ab-detail{font-size:12px;color:var(--text3);margin-top:2px}
+.alert-body .ab-time{font-size:11px;color:var(--text5);margin-top:3px}
 
 /* Mobile */
 .mobile-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:8px 12px;cursor:pointer;color:#fff;font-size:18px}
 @media(max-width:768px){
   .sidebar{transform:translateX(-100%);transition:transform 0.2s}.sidebar.open{transform:translateX(0)}
   .main{margin-left:0;padding:16px;padding-top:52px}.mobile-toggle{display:block}
-  .presale-row{grid-template-columns:1fr}
-  .pr-right{flex-direction:row;align-items:center}
+  .stat-grid{grid-template-columns:1fr}
   .trends-grid{grid-template-columns:1fr 1fr}
 }
 
-.filter-btn{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:6px 14px;color:var(--text-muted);font-size:12px;font-weight:600;cursor:pointer;transition:all 0.15s}
-.filter-btn:hover{border-color:var(--border-hover);color:var(--text)}
-.filter-btn.active{background:var(--accent-dim);border-color:rgba(240,180,41,0.3);color:var(--accent)}
-
-.footer{margin-top:40px;padding:20px 0;border-top:1px solid var(--border);text-align:center;font-size:11px;color:var(--text-dim)}
+.footer{margin-top:40px;padding:20px 0;border-top:1px solid var(--border);text-align:center;font-size:11px;color:var(--text5)}
+.empty{text-align:center;padding:40px 20px;color:var(--text5);font-size:13px}
 </style>
 </head>
 <body>
@@ -167,28 +167,18 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   </div>
   <div class="nav-section">
     <div class="nav-label">Presales</div>
-    <div class="nav-item active" onclick="showView('thisweek')">
-      <span class="icon">🎟️</span> This Week
-    </div>
-    <div class="nav-item" onclick="showView('nextweek')">
-      <span class="icon">📅</span> Next Week
-    </div>
+    <div class="nav-item active" onclick="showView('thisweek')"><span class="icon">🎟️</span> This Week</div>
+    <div class="nav-item" onclick="showView('nextweek')"><span class="icon">📅</span> Next Week</div>
   </div>
   <div class="nav-section">
     <div class="nav-label">Intelligence</div>
-    <div class="nav-item" onclick="showView('emerging')">
-      <span class="icon">🔮</span> Emerging Artists
-    </div>
-    <div class="nav-item" onclick="showView('trends')">
-      <span class="icon">📈</span> Google Trends
-    </div>
-    <div class="nav-item" onclick="showView('alerts')">
-      <span class="icon">🔥</span> Live Alerts
-    </div>
+    <div class="nav-item" onclick="showView('emerging')"><span class="icon">🔮</span> Emerging Artists</div>
+    <div class="nav-item" onclick="showView('trends')"><span class="icon">📈</span> Google Trends</div>
+    <div class="nav-item" onclick="showView('alerts')"><span class="icon">🔥</span> Live Alerts</div>
   </div>
   <div class="nav-section" style="margin-top:auto;padding-top:16px;border-top:1px solid var(--border)">
-    <div style="padding:8px 12px;font-size:11px;color:var(--text-dim)">
-      <strong style="color:var(--text-muted)">12 Scanners Active</strong><br>
+    <div style="padding:8px 12px;font-size:11px;color:var(--text5)">
+      <strong style="color:var(--text4)">12 Scanners Active</strong><br>
       Twitter • Brave • SeatGeek<br>
       Spotify • Reddit • SerpAPI<br>
       <span style="color:var(--green)">●</span> All operational
@@ -198,353 +188,51 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 
 <div class="main">
 
-<!-- ============ THIS WEEK ============ -->
+<!-- THIS WEEK -->
 <div id="view-thisweek" class="view">
   <div class="section-head">
     <h2>🎟️ Presales This Week</h2>
-    <span class="badge-count">Week of March 3, 2026</span>
+    <span class="badge">Week of March 3, 2026</span>
   </div>
-  <p style="color:var(--text-muted);font-size:13px;margin-bottom:20px">Every presale and general onsale happening this week. Codes and signup links updated as they're found by our scanners.</p>
+  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Every presale and onsale happening this week. Codes and signup links updated as found by our 12 scanners.</p>
+  <div id="thisweek-cards"></div>
+</div>
 
-  <!-- TUESDAY -->
-  <div class="day-header">
-    <span class="day-name">Tuesday, March 4</span>
-    <span class="day-date">Peak Presale Day</span>
-    <span class="day-badge hot">5 PRESALES</span>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Joji — "SOLARIS Tour"</div>
-      <div class="pr-detail">
-        <span>📍 US Arenas (summer 2026)</span>
-        <span>🎤 Artist Presale — account-based registration</span>
-      </div>
-      <div style="margin-top:6px">
-        <span class="demand-pill demand-high">B TIER — 62/100</span>
-      </div>
-      <div class="pr-links">
-        <a href="https://www.ticketmaster.com/joji-tickets/artist/5265730" target="_blank">🎟️ Ticketmaster</a>
-        <a href="https://jfreddytour.com/" target="_blank">📝 Register</a>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">10 AM local</div>
-      <div class="pr-type type-artist">ARTIST PRESALE</div>
-    </div>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Jason Aldean — "Songs About Us Tour"</div>
-      <div class="pr-detail">
-        <span>📍 22-city amphitheater tour (summer 2026)</span>
-        <span>🎤 Aldean Army Fan Club Presale</span>
-      </div>
-      <div class="pr-links">
-        <a href="https://www.ticketmaster.com/jason-aldean-tickets/artist/1168279" target="_blank">🎟️ Ticketmaster</a>
-        <a href="https://www.jasonaldean.com/tour" target="_blank">🌐 Official</a>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">10 AM local</div>
-      <div class="pr-type type-artist">FAN CLUB</div>
-    </div>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Sting — 3.0 Tour (New Fall Dates)</div>
-      <div class="pr-detail">
-        <span>📍 Brooklyn Paramount ×5, Wallingford CT, Akron, Cincinnati</span>
-        <span>🎤 Fan Club Presale</span>
-      </div>
-      <div class="pr-links">
-        <a href="https://www.ticketmaster.com/sting-tickets/artist/736192" target="_blank">🎟️ Ticketmaster</a>
-        <a href="https://www.sting.com/" target="_blank">🌐 sting.com</a>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">10 AM local</div>
-      <div class="pr-type type-artist">FAN CLUB</div>
-    </div>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Alex Warren — Tour Dates</div>
-      <div class="pr-detail">
-        <span>📍 Multiple US cities</span>
-        <span>🎤 Artist Presale</span>
-      </div>
-      <div class="pr-code" onclick="navigator.clipboard.writeText('AWFORD');this.textContent='✅ Copied!';setTimeout(()=>this.textContent='🔑 AWFORD',2000)">AWFORD</div>
-      <div style="margin-top:6px">
-        <span class="demand-pill demand-hot">S TIER — Red Rocks get-in $223</span>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">10 AM local</div>
-      <div class="pr-type type-artist">ARTIST PRESALE</div>
-    </div>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Arlo Parks — Desire Tour</div>
-      <div class="pr-detail">
-        <span>📍 North American dates including Orpheum Vancouver (Sep 22)</span>
-        <span>🎤 Venue Presale starts Thu Mar 12</span>
-      </div>
-      <div class="pr-code" onclick="navigator.clipboard.writeText('MODO');this.textContent='✅ Copied!';setTimeout(()=>this.textContent='🔑 MODO',2000)">MODO</div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">Thu 10 AM</div>
-      <div class="pr-type type-venue">VENUE PRESALE</div>
-    </div>
-  </div>
-
-  <!-- WEDNESDAY -->
-  <div class="day-header">
-    <span class="day-name">Wednesday, March 5</span>
-    <span class="day-badge active">2 PRESALES</span>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Joji — "SOLARIS Tour"</div>
-      <div class="pr-detail"><span>Spotify Presale</span></div>
-      <div class="pr-links">
-        <a href="https://www.ticketmaster.com/joji-tickets/artist/5265730" target="_blank">🎟️ Ticketmaster</a>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">10 AM local</div>
-      <div class="pr-type type-spotify">SPOTIFY</div>
-    </div>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Sting — 3.0 Tour</div>
-      <div class="pr-detail"><span>Additional presales continue (Citi, venue, etc.)</span></div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">Various</div>
-      <div class="pr-type type-amex">CITI / VENUE</div>
-    </div>
-  </div>
-
-  <!-- THURSDAY -->
-  <div class="day-header">
-    <span class="day-name">Thursday, March 6</span>
-    <span class="day-badge active">1 PRESALE</span>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Josh Johnson — Comedy Boot Camp Tour</div>
-      <div class="pr-detail">
-        <span>📍 Orpheum Theater Madison WI (Oct 16), The Burt Asheville (Jun 14), + more</span>
-        <span>🎤 Just announced via Twitter — onsale Fri 3/7</span>
-      </div>
-      <div style="margin-top:6px">
-        <span class="tag tag-new">🐦 JUST ANNOUNCED</span>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">TBA</div>
-      <div class="pr-type type-venue">VENUE</div>
-    </div>
-  </div>
-
-  <!-- FRIDAY -->
-  <div class="day-header">
-    <span class="day-name">Friday, March 7</span>
-    <span class="day-date">General Onsale Day</span>
-    <span class="day-badge hot">4 ONSALES</span>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Metallica @ Sphere Las Vegas</div>
-      <div class="pr-detail">
-        <span>📍 Sphere (17,500 cap) — 12 shows Oct-Nov 2026</span>
-        <span>💥 Legacy/Fifth Member presales SOLD OUT</span>
-      </div>
-      <div style="margin-top:6px">
-        <span class="demand-pill demand-hot">S TIER — Presale sold out</span>
-      </div>
-      <div class="pr-links">
-        <a href="https://www.ticketmaster.com/metallica-tickets/artist/735647" target="_blank">🎟️ Ticketmaster</a>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">10 AM PT</div>
-      <div class="pr-type type-general">GENERAL ONSALE</div>
-    </div>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Joji — "SOLARIS Tour"</div>
-      <div class="pr-detail"><span>General onsale via Ticketmaster</span></div>
-      <div class="pr-links">
-        <a href="https://www.ticketmaster.com/joji-tickets/artist/5265730" target="_blank">🎟️ Ticketmaster</a>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">10 AM local</div>
-      <div class="pr-type type-general">GENERAL ONSALE</div>
-    </div>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Jason Aldean — "Songs About Us"</div>
-      <div class="pr-detail"><span>General onsale via LiveNation</span></div>
-      <div class="pr-links">
-        <a href="https://www.livenation.com/" target="_blank">🎟️ LiveNation</a>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">10 AM local</div>
-      <div class="pr-type type-general">GENERAL ONSALE</div>
-    </div>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Sting — 3.0 Tour</div>
-      <div class="pr-detail"><span>General onsale for new fall dates</span></div>
-      <div class="pr-links">
-        <a href="https://www.ticketmaster.com/sting-tickets/artist/736192" target="_blank">🎟️ Ticketmaster</a>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">10 AM local</div>
-      <div class="pr-type type-general">GENERAL ONSALE</div>
-    </div>
-  </div>
-
-  <!-- LATE WEEK ADDITIONS -->
-  <div class="day-header">
-    <span class="day-name">Added Shows (Demand-Driven)</span>
-    <span class="day-badge hot">🔥 WATCH</span>
-  </div>
-
-  <div class="presale-row" style="border-left:3px solid var(--red)">
-    <div class="pr-left">
-      <div class="pr-name">Metallica @ Sphere — Additional Dates Added</div>
-      <div class="pr-detail">
-        <span>📢 Caught via Twitter: "added even more dates to Life Burns Faster residency"</span>
-      </div>
-      <div style="margin-top:6px">
-        <span class="tag tag-hot">🔥 EXPANSION — DUE TO DEMAND</span>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">TBA</div>
-      <div class="pr-type type-general">ADDED SHOWS</div>
-    </div>
-  </div>
-
-  <div class="presale-row" style="border-left:3px solid var(--orange)">
-    <div class="pr-left">
-      <div class="pr-name">Jordan Jensen — Buffalo, NY</div>
-      <div class="pr-detail">
-        <span>📢 Just announced via Twitter — "Get tickets before it's too late!"</span>
-        <span>📍 Buffalo, NY — March 18</span>
-      </div>
-      <div style="margin-top:6px">
-        <span class="tag tag-new">🐦 JUST ANNOUNCED</span>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">On sale now</div>
-      <div class="pr-type type-general">NEW SHOW</div>
-    </div>
-  </div>
-
-</div><!-- end thisweek -->
-
-<!-- ============ NEXT WEEK ============ -->
+<!-- NEXT WEEK -->
 <div id="view-nextweek" class="view" style="display:none">
   <div class="section-head">
     <h2>📅 Presales Next Week</h2>
-    <span class="badge-count">Week of March 10, 2026</span>
+    <span class="badge">Week of March 10, 2026</span>
   </div>
-  <p style="color:var(--text-muted);font-size:13px;margin-bottom:20px">Upcoming presales to prepare for. Register now where required — most artist presales require signup 48-72h before.</p>
+  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Upcoming presales to prepare for. Register now where required — most artist presales need signup 48-72h early.</p>
+  <div id="nextweek-cards"></div>
+</div>
 
-  <div class="day-header">
-    <span class="day-name">Tuesday, March 11</span>
-    <span class="day-badge upcoming">PRESALE DAY</span>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Arlo Parks — Desire Tour</div>
-      <div class="pr-detail">
-        <span>📍 North American dates (fall 2026)</span>
-        <span>🎤 Artist Presale expected — register now</span>
-      </div>
-      <div class="pr-links">
-        <a href="https://www.arloparks.com/" target="_blank">📝 Check for signup</a>
-      </div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">Expected 10 AM</div>
-      <div class="pr-type type-artist">ARTIST PRESALE</div>
-    </div>
-  </div>
-
-  <div class="day-header">
-    <span class="day-name">Thursday, March 13</span>
-  </div>
-
-  <div class="presale-row">
-    <div class="pr-left">
-      <div class="pr-name">Arlo Parks — Desire Tour</div>
-      <div class="pr-detail"><span>Venue Presale (Orpheum Vancouver confirmed)</span></div>
-      <div class="pr-code" onclick="navigator.clipboard.writeText('MODO');this.textContent='✅ Copied!';setTimeout(()=>this.textContent='🔑 MODO',2000)">MODO</div>
-    </div>
-    <div class="pr-right">
-      <div class="pr-time">10 AM local</div>
-      <div class="pr-type type-venue">VENUE PRESALE</div>
-    </div>
-  </div>
-
-  <div style="margin-top:20px;padding:20px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);text-align:center">
-    <div style="font-size:14px;color:var(--text-muted)">📡 Scanners are monitoring for new presale announcements</div>
-    <div style="font-size:12px;color:var(--text-dim);margin-top:6px">Most tours announce presales on Tuesday. This page updates automatically as announcements drop.</div>
-  </div>
-</div><!-- end nextweek -->
-
-<!-- ============ EMERGING ARTISTS ============ -->
+<!-- EMERGING ARTISTS -->
 <div id="view-emerging" class="view" style="display:none">
   <div class="section-head">
     <h2>🔮 Emerging Artists — Breakout Predictor</h2>
-    <span class="badge-count" id="emerging-count">Loading...</span>
+    <span class="badge" id="emerging-count">Loading...</span>
   </div>
-  <p style="color:var(--text-muted);font-size:13px;margin-bottom:6px">Artists most likely to crush their next presale. Scored 0-100 using listener velocity, venue progression, social momentum, and scarcity signals.</p>
-  <p style="color:var(--text-dim);font-size:12px;margin-bottom:12px">🔥 Hot (50+) &nbsp;•&nbsp; ⚡ Rising (30-49) &nbsp;•&nbsp; 📡 Tracking (&lt;30)</p>
-  <div style="margin-bottom:16px;display:flex;gap:8px;flex-wrap:wrap">
-    <button class="filter-btn active" onclick="filterArtists('all',this)">All</button>
-    <button class="filter-btn" onclick="filterArtists('hot',this)">🔥 Hot (50+)</button>
-    <button class="filter-btn" onclick="filterArtists('rising',this)">⚡ Rising (30+)</button>
-    <button class="filter-btn" onclick="filterArtists('soldout',this)">🎟️ Sold-Out History</button>
-    <button class="filter-btn" onclick="filterArtists('touring',this)">🗺️ On Tour</button>
+  <p style="color:var(--text4);font-size:13px;margin-bottom:6px">Artists most likely to crush their next presale. Scored 0-100 using listener velocity, venue progression, social momentum, and scarcity signals.</p>
+  <p style="color:var(--text5);font-size:12px;margin-bottom:12px">🔥 Hot (50+) &nbsp;•&nbsp; ⚡ Rising (30-49) &nbsp;•&nbsp; 📡 Tracking (&lt;30)</p>
+  <div class="filters">
+    <button class="fbtn active" onclick="filterArtists('all',this)">All</button>
+    <button class="fbtn" onclick="filterArtists('hot',this)">🔥 Hot (50+)</button>
+    <button class="fbtn" onclick="filterArtists('rising',this)">⚡ Rising (30+)</button>
+    <button class="fbtn" onclick="filterArtists('soldout',this)">🎟️ Sold-Out History</button>
+    <button class="fbtn" onclick="filterArtists('touring',this)">🗺️ On Tour</button>
   </div>
-  <div id="emerging-artists"></div>
-</div><!-- end emerging -->
+  <div id="emerging-cards"></div>
+</div>
 
-<!-- ============ GOOGLE TRENDS ============ -->
+<!-- GOOGLE TRENDS -->
 <div id="view-trends" class="view" style="display:none">
   <div class="section-head">
     <h2>📈 Google Trends — Search Interest</h2>
-    <span class="badge-count">via SerpAPI • March 3, 2026</span>
+    <span class="badge">via SerpAPI • March 3, 2026</span>
   </div>
-  <p style="color:var(--text-muted);font-size:13px;margin-bottom:20px">Interest score 0-100 (relative to peak, 3-month US window). Change = last 4 days vs prior 4 days.</p>
-
+  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Interest score 0-100 (relative to peak, 3-month US window). Change = last 4 days vs prior 4 days.</p>
   <div class="trends-grid">
     <div class="trend-card"><div class="tn">March Madness Tickets</div><div class="ts" style="color:var(--red)">86</div><div class="tc" style="color:var(--green)">+53%</div><div class="tx">Selection Sunday Mar 15</div></div>
     <div class="trend-card"><div class="tn">Big Ten Wrestling</div><div class="ts" style="color:var(--red)">71</div><div class="tc" style="color:var(--green)">+191%</div><div class="tx">Event this weekend</div></div>
@@ -557,236 +245,437 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
     <div class="trend-card"><div class="tn">Nate Bargatze</div><div class="ts" style="color:var(--green)">32</div><div class="tc" style="color:var(--green)">+13%</div><div class="tx">Arena tour ongoing</div></div>
     <div class="trend-card"><div class="tn">Vanderbilt Baseball</div><div class="ts" style="color:var(--orange)">31</div><div class="tc" style="color:var(--green)">+61%</div><div class="tx">SEC season — get-in $382</div></div>
     <div class="trend-card"><div class="tn">Shane Gillis</div><div class="ts" style="color:var(--green)">23</div><div class="tc" style="color:var(--green)">+6%</div><div class="tx">Arena dates ahead</div></div>
-    <div class="trend-card"><div class="tn">RUFUS DU SOL</div><div class="ts" style="color:var(--text-dim)">15</div><div class="tc" style="color:var(--red)">-73%</div><div class="tx">Post-sellout cooldown</div></div>
-    <div class="trend-card"><div class="tn">MJ Lenderman</div><div class="ts" style="color:var(--text-dim)">12</div><div class="tc" style="color:var(--red)">-15%</div><div class="tx">Niche but stable</div></div>
-    <div class="trend-card"><div class="tn">Tame Impala</div><div class="ts" style="color:var(--text-dim)">5</div><div class="tc" style="color:var(--red)">-27%</div><div class="tx">Sold out — searches dropped</div></div>
+    <div class="trend-card"><div class="tn">RUFUS DU SOL</div><div class="ts" style="color:var(--text5)">15</div><div class="tc" style="color:var(--red)">-73%</div><div class="tx">Post-sellout cooldown</div></div>
+    <div class="trend-card"><div class="tn">Tame Impala</div><div class="ts" style="color:var(--text5)">5</div><div class="tc" style="color:var(--red)">-27%</div><div class="tx">Sold out — searches dropped</div></div>
   </div>
-</div><!-- end trends -->
+</div>
 
-<!-- ============ LIVE ALERTS ============ -->
+<!-- LIVE ALERTS -->
 <div id="view-alerts" class="view" style="display:none">
   <div class="section-head">
     <h2>🔥 Live Alerts</h2>
-    <span class="badge-count">From 12 scanners</span>
+    <span class="badge">From 12 scanners</span>
   </div>
-  <p style="color:var(--text-muted);font-size:13px;margin-bottom:20px">Real-time feed from Twitter, Brave, SeatGeek, Spotify, and Reddit scanners. Presale codes, sold-out signals, added shows, and tour announcements.</p>
-
-  <div class="alert-item" style="border-left:3px solid var(--accent)">
+  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Real-time feed from Twitter, Brave, SeatGeek, Spotify, and Reddit scanners.</p>
+  <div class="alert-item" style="border-left:3px solid var(--yellow)">
     <div class="alert-icon">🔑</div>
-    <div class="alert-body">
-      <div class="ab-title">Alex Warren — Presale Code: AWFORD</div>
-      <div class="ab-detail">Artist presale happening today 3/5, 10a-10p</div>
-      <div class="ab-time">🐦 Twitter • 2 hours ago</div>
-    </div>
+    <div class="alert-body"><div class="ab-title">Alex Warren — Presale Code: AWFORD</div><div class="ab-detail">Artist presale happening today 3/5, 10a-10p</div><div class="ab-time">🐦 Twitter • 2 hours ago</div></div>
   </div>
-
+  <div class="alert-item" style="border-left:3px solid var(--yellow)">
+    <div class="alert-icon">🔑</div>
+    <div class="alert-body"><div class="ab-title">Josh Johnson — Canada Presale Code: THISONETIME</div><div class="ab-detail">"Following a sold out tour last year" — Comedy Band Camp across 11+ venues</div><div class="ab-time">🐦 Twitter • 3 hours ago</div></div>
+  </div>
   <div class="alert-item" style="border-left:3px solid var(--red)">
     <div class="alert-icon">🚨</div>
-    <div class="alert-body">
-      <div class="ab-title">Metallica @ Sphere — Added more dates to residency</div>
-      <div class="ab-detail">"Added even more dates to Life Burns Faster residency"</div>
-      <div class="ab-time">🐦 Twitter • 3 hours ago</div>
-    </div>
+    <div class="alert-body"><div class="ab-title">Metallica @ Sphere — Added more dates to residency</div><div class="ab-detail">"Added even more dates to Life Burns Faster residency"</div><div class="ab-time">🐦 Twitter • 3 hours ago</div></div>
   </div>
-
   <div class="alert-item" style="border-left:3px solid var(--green)">
     <div class="alert-icon">📢</div>
-    <div class="alert-body">
-      <div class="ab-title">Josh Johnson — Comedy Boot Camp Tour announced</div>
-      <div class="ab-detail">Orpheum Theater Madison WI (Oct 16), The Burt Asheville (Jun 14). Onsale Fri 3/7 at 10 AM.</div>
-      <div class="ab-time">🐦 Twitter • 5 hours ago</div>
-    </div>
+    <div class="alert-body"><div class="ab-title">Josh Johnson — Comedy Boot Camp Tour (11+ venues announced)</div><div class="ab-detail">Ryman Nashville, Paramount Theatre (3 nights), The Factory (2 nights), Taft Cincinnati (2 nights), Masonic SF, Riverside Milwaukee + more</div><div class="ab-time">🐦 Twitter • 5 hours ago</div></div>
   </div>
-
   <div class="alert-item" style="border-left:3px solid var(--green)">
     <div class="alert-icon">📢</div>
-    <div class="alert-body">
-      <div class="ab-title">Jordan Jensen — Buffalo, NY show announced</div>
-      <div class="ab-detail">"Get tickets before it's too late!" — March 18</div>
-      <div class="ab-time">🐦 Twitter • 6 hours ago</div>
-    </div>
+    <div class="alert-body"><div class="ab-title">Jordan Jensen — Buffalo, NY show announced</div><div class="ab-detail">"Get tickets before it's too late!" — March 18</div><div class="ab-time">🐦 Twitter • 6 hours ago</div></div>
   </div>
+</div>
 
-  <div class="alert-item">
-    <div class="alert-icon">🔑</div>
-    <div class="alert-body">
-      <div class="ab-title">Arlo Parks — Venue Presale Code: MODO</div>
-      <div class="ab-detail">Orpheum Vancouver, Sep 22. Presale Thu Mar 12 at 10 AM.</div>
-      <div class="ab-time">🐦 Twitter • 8 hours ago</div>
-    </div>
-  </div>
-
-  <div class="alert-item">
-    <div class="alert-icon">🔥</div>
-    <div class="alert-body">
-      <div class="ab-title">Freya Skye — New venue listing: The Wellmont Theater</div>
-      <div class="ab-detail">Presale detected via Brave Search</div>
-      <div class="ab-time">🔍 Brave • 12 hours ago</div>
-    </div>
-  </div>
-
-  <div class="alert-item">
-    <div class="alert-icon">🎟️</div>
-    <div class="alert-body">
-      <div class="ab-title">Crankdat — Phoenix show announced</div>
-      <div class="ab-detail">Rawhide, May 9, 2026. Relentless Beats presents.</div>
-      <div class="ab-time">🔍 Brave • 14 hours ago</div>
-    </div>
-  </div>
-
-</div><!-- end alerts -->
-
-</div><!-- end main -->
-</div><!-- end app -->
+</div><!-- main -->
+</div><!-- app -->
 
 <div class="footer">
-  🏴‍☠️ Blackbeard v5.0 — Presale Intelligence for Ticket Brokers<br>
+  🏴‍☠️ Blackbeard v5.2 — Presale Intelligence for Ticket Brokers<br>
   12 Automated Scanners • Twitter/X • Brave Search • SeatGeek • Spotify • Reddit • SerpAPI • Google Trends<br>
-  <em>Data reflects observed signals. Verify all presale times and codes before purchasing.</em>
+  <em>Data reflects observed signals and may not be complete. Verify all presale times and codes before purchasing.</em>
 </div>
 
 <script>
-let allArtists = [];
+/* ── Presale Data (inline, updated by scanners) ── */
+const PRESALE_DATA = {
+  thisWeek: [
+    {
+      name: "Josh Johnson — Comedy Band Camp Tour", score: 82, tier: "A",
+      genre: "Stand-Up Comedy", venueSize: "Theater (1.5-3K cap)",
+      saleStatus: "🔴 GENERAL ONSALE FRI MAR 6 10AM LOCAL",
+      saleDetails: "JUST ANNOUNCED massive tour. Onsale Fri Mar 6 10am local at all venues. Canada presale code: THISONETIME. Multi-night runs: Paramount Theatre (3 nights Nov 20-22), The Factory (2 nights Oct 30-31), Taft Theatre Cincinnati (2 shows Aug 1), Orpheum Theatre (3 nights Aug 14-16), Masonic SF (Aug 28-29).",
+      streams: "Daily Show correspondent. NAACP Image Award nominee. 'Funniest guy on the internet.'",
+      lastTour: "2025 (SOLD OUT tour — confirmed by promoters)",
+      scarcity: "EXTREME — Last tour sold out entirely. Now doing multi-night runs at theaters (a sign promoters expect single-night sellouts). 11+ venues announced in one day. Ryman Nashville Sep 26 = premium comedy venue.",
+      reasoning: "Josh Johnson is having a massive breakout. His previous tour sold out completely, forcing promoters to book multi-night runs at theaters this time. When a comedian goes from 1-night stands to 3-night residencies at theaters like The Paramount, that's nuclear demand. The NAACP Image Award nomination adds mainstream credibility. Daily Show platform gives him constant exposure. The Canada presale code THISONETIME was caught by our Twitter scanner. Ryman Nashville is the crown jewel — the most prestigious comedy/music venue in the country at ~2,300 cap.",
+      action: "🚨 BUY ONSALE FRI MAR 6 10AM — Target Ryman Nashville (Sep 26), Orpheum Madison WI (Oct 16), Asheville (Jun 14). Multi-night venues will sell out — buy early nights first.",
+      targetCities: [
+        {emoji:"🎵",city:"Nashville, TN",venue:"Ryman Auditorium (Sep 26)",why:"THE comedy venue. 2,300 cap. Josh Johnson at the Ryman = prestige show. Country/comedy crossover audience."},
+        {emoji:"🌊",city:"Asheville, NC",venue:"The Burt (Jun 14)",why:"Small market, tight venue. Onsale Fri 3/6. Will sell out fast."},
+        {emoji:"🧀",city:"Milwaukee, WI",venue:"Riverside Theater (Oct 17)",why:"Only Wisconsin date. Milwaukee comedy demand funneled into one show."},
+        {emoji:"🌁",city:"San Francisco, CA",venue:"The Masonic (Aug 28-29)",why:"2-night run. Bay Area tech demo pays premium for comedy."},
+      ],
+      ticketLink: "https://www.ticketmaster.com/josh-johnson-tickets/artist/2735042",
+      artistLink: "https://joshjohnsoncomedy.com",
+      codes: [{code:"THISONETIME",note:"Canada presale"}]
+    },
+    {
+      name: "Alex Warren — 2026 Tour", score: 88, tier: "S",
+      genre: "Pop / Singer-songwriter", venueSize: "Theater/Arena (2-9K cap)",
+      saleStatus: "🔴 ARTIST PRESALE LIVE — CODE: AWFORD",
+      saleDetails: "Artist presale happening 3/5, 10a-10p. Code: AWFORD (caught via Twitter scanner). Red Rocks get-in $223 on secondary. Multiple US cities.",
+      streams: "54M monthly listeners on Spotify. TikTok-driven fanbase, young demo.",
+      lastTour: "2025 (previous dates sold well, Red Rocks premium confirmed)",
+      scarcity: "HIGH — Red Rocks get-in already at $223 (top 3 on Red Rocks demand index). Young fanbase = impulsive secondary buyers.",
+      reasoning: "Alex Warren's Red Rocks secondary pricing ($223 get-in) puts him in elite company — only Jon Bellion ($226) and Hilary Duff ($223) are higher. His 54M monthly Spotify listeners confirm massive reach. TikTok-to-touring pipeline means his audience skews young (16-24), the demo most willing to pay secondary premiums. Presale code AWFORD was caught by our Twitter scanner within minutes of posting.",
+      action: "🚨 USE CODE AWFORD NOW — Presale live today. Target dates where secondary is already high. Red Rocks is the flagship play.",
+      ticketLink: "https://www.ticketmaster.com/alex-warren-tickets/artist/2826199",
+      artistLink: "https://alexwarrenmusic.com",
+      codes: [{code:"AWFORD",note:"Artist presale 3/5 10a-10p"}]
+    },
+    {
+      name: "Metallica — Life Burns Faster at the Sphere", score: 96, tier: "S",
+      genre: "Heavy Metal / Thrash", venueSize: "Sphere Las Vegas (~18K cap)",
+      saleStatus: "🔴 GENERAL ONSALE FRI MAR 6 10AM PT",
+      saleDetails: "Legacy Member presale Mon Mar 2 ✅. Fifth Member presale Tue Mar 3 ✅. SiriusXM presale Thu Mar 5 10am PT. General onsale Fri Mar 6 10am PT. 8 shows: Oct 1, 3, 15, 17, 22, 24, 29, 31. 'No Repeat Weekends' = unique setlist each night. 2-night and single-night packages available. MORE DATES JUST ADDED (caught via Twitter).",
+      streams: "28M+ monthly. 125M+ albums sold worldwide. One of the biggest bands in history.",
+      lastTour: "2025 (M72 World Tour — stadiums)",
+      scarcity: "EXTREME — 8 Sphere dates only. 'No Repeat Weekends' = unique setlist each night drives completist demand for multiple shows. Sphere ~18K cap. Halloween Oct 31 = crown jewel. Legacy/Fifth Member presales SOLD OUT. Just added more dates due to demand.",
+      reasoning: "This is the biggest ticket drop of 2026. Metallica at the Sphere — the most immersive venue on earth + the biggest metal band in history. Only 8 shows total. 'No Repeat Weekends' means each pair has unique setlists, driving completist demand. The Sphere has proven with BSB (35 sold-out dates) and U2 that it commands massive secondary premiums from the venue alone. Add Metallica = nuclear demand. Halloween (Oct 29 & 31) will be the most expensive — Metallica + Halloween + Sphere is once-in-a-lifetime. Our Twitter scanner caught that they're ADDING MORE DATES due to demand.",
+      action: "🚨 HIGHEST PRIORITY — General onsale Fri Mar 6 10am PT. Buy 2-night packages (Thu+Sat). Halloween weekend (Oct 29+31) = highest premiums. Buy IMMEDIATELY.",
+      targetCities: [
+        {emoji:"🎰",city:"Las Vegas, NV",venue:"Sphere (Oct 1 & 3)",why:"First weekend. 'Discovery' pricing slightly lower. Buy early, sell as hype builds."},
+        {emoji:"🎃",city:"Las Vegas, NV",venue:"Sphere (Oct 29 & 31)",why:"HALLOWEEN WEEKEND. Metallica at Sphere on Halloween = single most expensive ticket of 2026."},
+      ],
+      ticketLink: "https://www.ticketmaster.com/metallica-tickets/artist/735647",
+      artistLink: "https://www.metallica.com"
+    },
+    {
+      name: "Sting — 3.0 Tour (12 New Fall Dates)", score: 83, tier: "A",
+      genre: "Rock / Pop", venueSize: "Theater (2-5K cap)",
+      saleStatus: "🔴 ONSALE FRI MAR 6 10AM LOCAL",
+      saleDetails: "Fan club presale Tue Mar 3 ✅. Live Nation presale Thu Mar 5 ✅. General onsale Fri Mar 6 10am local. 12 new dates: Brooklyn Paramount (6-night residency), Montreal, St. Louis, Indianapolis, Akron, Cincinnati, Wallingford CT, Tampa.",
+      streams: "22M+ monthly. The Police + solo catalog.",
+      lastTour: "2025-26 (Sting 3.0 spring/summer legs)",
+      scarcity: "HIGH — Intimate power trio format in 2-5K theaters. 6-night Brooklyn Paramount residency. Montreal = return to first Police venue.",
+      reasoning: "Sting in small venues is always money. Power trio format = intimate experience fans pay premium for. 6-night Brooklyn Paramount residency (~2K cap) will have collector demand. Montreal's Théâtre St-Denis = first Police concert venue = sentimental premium.",
+      action: "BUY ONSALE FRI MAR 6 — Brooklyn Paramount residency (any night) + Montreal St-Denis = highest flip potential.",
+      targetCities: [
+        {emoji:"🗽",city:"Brooklyn, NY",venue:"Brooklyn Paramount (6 nights)",why:"Sting in a 2K-cap room = NYC demand crushed into tiny venue. Every night sells out."},
+        {emoji:"🍁",city:"Montreal, QC",venue:"Théâtre St-Denis",why:"First Police concert venue. Sentimental return = collector ticket."},
+      ],
+      ticketLink: "https://www.ticketmaster.com/sting-tickets/artist/736192",
+      artistLink: "https://www.sting.com"
+    },
+    {
+      name: "Joji — SOLARIS World Tour", score: 85, tier: "A",
+      genre: "Indie Pop / R&B / Alternative", venueSize: "Arena (15-20K cap)",
+      saleStatus: "🔴 GENERAL ONSALE FRI MAR 6 10AM LOCAL",
+      saleDetails: "Citi presale ended. General onsale Fri Mar 6 10am local via Ticketmaster. NA dates Jun 16 (Newark) → Jul 23 (Denver). 18 arena dates.",
+      streams: "25M+ monthly. 'Glimpse of Us' = 1.5B+ streams. Former Filthy Frank → mainstream crossover.",
+      lastTour: "2023 (Smithereens Tour — sold out arenas)",
+      scarcity: "HIGH — 18 NA arena dates after album drop = peak demand. Demo 18-28, internet-native, impulsive secondary buyers.",
+      reasoning: "Joji has massive dedicated internet fanbase PLUS mainstream pop success. Arena tour supporting new album. His demo buys impulsively and pays secondary premiums. SLC is smallest market with best margins.",
+      action: "ONSALE FRI MAR 6 — Target SLC (smallest market), Charlotte (Southeast gap), Portland (PNW).",
+      targetCities: [
+        {emoji:"⛷️",city:"Salt Lake City, UT",venue:"Maverik Center",why:"SMALLEST market on tour. Mountain West funnel. Zero broker competition."},
+      ],
+      ticketLink: "https://www.ticketmaster.com/joji-tickets/artist/5265730",
+      artistLink: "https://jfreddytour.com"
+    },
+    {
+      name: "Jason Aldean — Songs About Us Tour", score: 82, tier: "A",
+      genre: "Country", venueSize: "Amphitheater (8-15K cap)",
+      saleStatus: "🔴 ONSALE FRI MAR 6 10AM LOCAL",
+      saleDetails: "Aldean Army fan club presale ✅. General onsale Fri Mar 6 10am local via LiveNation. 22 amphitheater dates Jul-Sep.",
+      streams: "18M+ monthly. 27 #1 country singles. New album Apr 24.",
+      lastTour: "2025-26 (Full Throttle Tour)",
+      scarcity: "MEDIUM-HIGH — Amphitheater routing constrains supply. New album drops Apr 24 = peak demand.",
+      reasoning: "Aldean is a consistent sellout machine. Small-market amphitheater dates have the best margins because national brokers skip them.",
+      action: "BUY ONSALE FRI — Target Nampa ID, Bossier City LA, Brandon MS = zero broker competition.",
+      ticketLink: "https://www.ticketmaster.com/jason-aldean-tickets/artist/1168279",
+      artistLink: "https://www.jasonaldean.com/tour"
+    },
+    {
+      name: "Arlo Parks — Desire Tour", score: 72, tier: "B+",
+      genre: "Indie Pop / Neo-Soul", venueSize: "Theater (1.5-3K cap)",
+      saleStatus: "🟡 VENUE PRESALE THU MAR 12 — CODE: MODO",
+      saleDetails: "Venue presale Thu Mar 12 10am local. Code: MODO (Orpheum Vancouver confirmed). General onsale TBA. North American fall dates.",
+      streams: "8M+ monthly. Mercury Prize winner. Critical darling with devoted fanbase.",
+      scarcity: "MODERATE-HIGH — Theater routing in 1.5-3K cap rooms. Indie fanbase that travels for shows.",
+      reasoning: "Mercury Prize winner touring theaters is always a strong secondary play. Indie/neo-soul demo pays for experience. The venue presale code MODO gives you a 48h head start.",
+      action: "USE CODE MODO for venue presale Thu Mar 12. Target smaller market dates.",
+      ticketLink: "https://www.ticketmaster.com/arlo-parks-tickets/artist/2692217",
+      artistLink: "https://www.arloparks.com",
+      codes: [{code:"MODO",note:"Venue presale (Orpheum Vancouver + more)"}]
+    },
+    {
+      name: "Jordan Jensen — New Shows", score: 70, tier: "A",
+      genre: "Stand-Up Comedy", venueSize: "Club/Theater (500-2K cap)",
+      saleStatus: "🟢 ON SALE NOW",
+      saleDetails: "Buffalo NY Mar 18 just announced via Twitter. Additional dates expected as demand grows.",
+      streams: "Rising viral comedian. Our Twitter scanner caught the announcement.",
+      scarcity: "HIGH — Small venue dates sell out quickly. On our watchlist as Tier A.",
+      reasoning: "Jordan Jensen is on our watchlist for a reason — consistent sellouts at small venues. New shows being added = demand signal. Buffalo announcement caught by Twitter scanner before most brokers notice.",
+      action: "BUY NOW — Small comedy venue dates sell out fast and flip well.",
+      ticketLink: "https://seatgeek.com/search?q=Jordan+Jensen",
+      artistLink: "https://www.jordanjensencomedy.com"
+    }
+  ],
+  nextWeek: [
+    {
+      name: "Arlo Parks — Desire Tour (Artist Presale)", score: 72, tier: "B+",
+      genre: "Indie Pop / Neo-Soul", venueSize: "Theater (1.5-3K cap)",
+      saleStatus: "🟡 EXPECTED TUE MAR 11 — REGISTER NOW",
+      saleDetails: "Artist presale expected Tue Mar 11 (registration required). Venue presale Thu Mar 13 — Code: MODO. North American fall dates.",
+      streams: "8M+ monthly. Mercury Prize winner.",
+      scarcity: "MODERATE-HIGH — Theater routing.",
+      reasoning: "Register now for artist presale access. Venue code MODO confirmed for Thu Mar 13.",
+      action: "REGISTER at arloparks.com NOW for artist presale. Have MODO ready for venue presale Thu.",
+      ticketLink: "https://www.arloparks.com",
+      artistLink: "https://www.arloparks.com",
+      codes: [{code:"MODO",note:"Venue presale Thu Mar 13"}]
+    }
+  ]
+};
 
+/* ── Tier Colors (matching Optimus) ── */
+const TIERS = {
+  'S+': {bg:'#ef4444',glow:'rgba(239,68,68,0.1)'},
+  'S':  {bg:'#ef4444',glow:'rgba(239,68,68,0.1)'},
+  'A':  {bg:'#fbbf24',glow:'rgba(251,191,36,0.1)'},
+  'B+': {bg:'#a78bfa',glow:'rgba(167,139,250,0.1)'},
+  'B':  {bg:'#60a5fa',glow:'rgba(96,165,250,0.1)'},
+  'C':  {bg:'#71717a',glow:'rgba(113,113,122,0.1)'},
+};
+
+function getTier(t) { return TIERS[t] || TIERS.C; }
+
+/* ── Build Optimus-style card HTML ── */
+function buildCard(a, id) {
+  const tc = getTier(a.tier);
+  const isLive = a.saleStatus && (a.saleStatus.includes('🔴') || a.saleStatus.includes('LIVE') || a.saleStatus.includes('TODAY'));
+  const isSoon = a.saleStatus && a.saleStatus.includes('🟡');
+
+  let html = `<div class="card" id="${id}" onclick="toggleCard('${id}')">`;
+  html += `<div class="card-accent" style="background:linear-gradient(90deg,${tc.bg},${tc.bg}88)"></div>`;
+  html += `<div class="card-header">`;
+
+  // Score + tier
+  html += `<div class="card-score"><div class="num" style="color:${tc.bg}">${a.score}</div><div class="tier" style="color:${tc.bg};background:${tc.glow}">${a.tier}</div></div>`;
+
+  // Info
+  html += `<div class="card-info"><div class="card-name">${a.name}</div><div class="card-tags">`;
+  if (a.genre) html += `<span class="tag tag-genre">${a.genre}</span>`;
+  if (a.venueSize) html += `<span class="tag tag-venue">${a.venueSize}</span>`;
+  if (a.codes && a.codes.length) html += `<span class="tag tag-new">🔑 CODE AVAILABLE</span>`;
+  if (a.soldOutMentions >= 3) html += `<span class="tag tag-hot">🔥 SELLING OUT</span>`;
+  html += `</div>`;
+  if (a.saleStatus) html += `<div class="sale-status ${isLive?'sale-live':isSoon?'sale-soon':'sale-info'}">${a.saleStatus}</div>`;
+  html += `</div>`;
+
+  // Arrow
+  html += `<div class="card-arrow">▾</div>`;
+  html += `</div>`; // end header
+
+  // Body
+  html += `<div class="card-body">`;
+
+  // Sale info
+  if (a.saleDetails) {
+    html += `<div class="sale-box"><div class="label" style="color:${isLive?'var(--red)':'var(--yellow)'}">SALE INFO</div>${a.saleDetails}</div>`;
+  }
+
+  // Presale codes
+  if (a.codes && a.codes.length) {
+    html += '<div style="margin-bottom:14px">';
+    for (const c of a.codes) {
+      html += `<span class="code-box" onclick="event.stopPropagation();navigator.clipboard.writeText('${c.code}');this.innerHTML='✅ Copied!';setTimeout(()=>this.innerHTML='🔑 ${c.code}',2000)">🔑 ${c.code}</span>`;
+      if (c.note) html += `<span style="font-size:11px;color:var(--text4);margin-left:4px">${c.note}</span>`;
+    }
+    html += '</div>';
+  }
+
+  // Stat grid
+  const stats = [
+    {l:'STREAMS', v:a.streams},
+    {l:'LAST TOUR', v:a.lastTour},
+    {l:'SCARCITY', v:a.scarcity},
+  ].filter(s => s.v);
+  if (stats.length) {
+    html += '<div class="stat-grid">';
+    for (const s of stats) {
+      html += `<div class="stat-box"><div class="sl">${s.l}</div><div class="sv">${s.v}</div></div>`;
+    }
+    html += '</div>';
+  }
+
+  // Analysis
+  if (a.reasoning) {
+    html += `<div class="analysis"><span class="al" style="color:${tc.bg}">ANALYSIS </span>${a.reasoning}</div>`;
+  }
+
+  // Target cities
+  if (a.targetCities && a.targetCities.length) {
+    html += '<div class="targets"><div class="tl">🎯 TARGET CITIES</div>';
+    for (const c of a.targetCities) {
+      html += `<div class="target-row"><span>${c.emoji||'📍'}</span><div><span class="tc">${c.city}</span>`;
+      if (c.venue) html += ` <span class="tv">— ${c.venue}</span>`;
+      if (c.date) html += ` <span class="td">(${c.date})</span>`;
+      if (c.why) html += `<div class="tw">${c.why}</div>`;
+      html += '</div></div>';
+    }
+    html += '</div>';
+  }
+
+  // Sold-out signals (for emerging artists)
+  if (a.soldOutSnippets && a.soldOutSnippets.length) {
+    html += '<div class="so-box"><div class="sol">🔥 SOLD-OUT SIGNALS</div>';
+    for (const s of a.soldOutSnippets.slice(0, 3)) {
+      html += `<div class="so-item">${s.title || ''}${s.snippet ? ' — ' + s.snippet : ''}</div>`;
+    }
+    html += '</div>';
+  }
+
+  // Tour dates (for emerging artists)
+  if (a.tourDates && a.tourDates.length) {
+    html += '<div class="tour-dates"><div class="tdl">UPCOMING SHOWS</div>';
+    for (const t of a.tourDates.slice(0, 6)) {
+      const price = t.avgPrice ? `$${t.avgPrice} avg` : '';
+      html += `<div class="tour-row"><span class="tdate">${t.date||'TBA'}</span><span class="tvenue">${t.venue||''}, ${t.city||''}</span><span class="tprice">${price}</span></div>`;
+    }
+    if (a.tourDates.length > 6) html += `<div style="font-size:11px;color:var(--text5);padding:4px 0">+ ${a.tourDates.length - 6} more shows</div>`;
+    html += '</div>';
+  }
+
+  // Action
+  if (a.action) {
+    html += `<div class="action-box">⚡ ${a.action}</div>`;
+  }
+
+  // Buttons
+  html += '<div class="card-buttons">';
+  if (a.artistLink) html += `<a href="${a.artistLink}" target="_blank" class="btn-sg" onclick="event.stopPropagation()">🌐 Artist Site</a>`;
+  if (a.ticketLink) html += `<a href="${a.ticketLink}" target="_blank" class="btn-tickets" onclick="event.stopPropagation()">🎟️ Get Tickets</a>`;
+  const nameEnc = encodeURIComponent(a.name.split(' — ')[0].split(' – ')[0]);
+  if (!a.ticketLink) html += `<a href="https://seatgeek.com/search?q=${nameEnc}" target="_blank" class="btn-tickets" onclick="event.stopPropagation()">🎟️ SeatGeek</a>`;
+  html += `<a href="https://www.vividseats.com/search?searchTerm=${nameEnc}" target="_blank" class="btn-sg" onclick="event.stopPropagation()">🎟️ Vivid Seats</a>`;
+  html += '</div>';
+
+  html += '</div>'; // body
+  html += '</div>'; // card
+
+  return html;
+}
+
+function toggleCard(id) {
+  const el = document.getElementById(id);
+  el.classList.toggle('expanded');
+}
+
+/* ── Build Emerging Artist Card from JSON data ── */
+function buildEmerging(a, id) {
+  const score = a.score || 0;
+  let tier, tierColor;
+  if (score >= 50) { tier = 'S'; }
+  else if (score >= 40) { tier = 'A'; }
+  else if (score >= 30) { tier = 'B+'; }
+  else if (score >= 15) { tier = 'B'; }
+  else { tier = 'C'; }
+
+  const ml = a.monthlyListeners ? (a.monthlyListeners >= 1000000 ? (a.monthlyListeners/1000000).toFixed(1)+'M' : Math.round(a.monthlyListeners/1000)+'K') : null;
+  const ig = a.instagramFollowers ? (a.instagramFollowers >= 1000000 ? (a.instagramFollowers/1000000).toFixed(1)+'M' : Math.round(a.instagramFollowers/1000)+'K') : null;
+  const tt = a.tiktokFollowers ? (a.tiktokFollowers >= 1000000 ? (a.tiktokFollowers/1000000).toFixed(1)+'M' : Math.round(a.tiktokFollowers/1000)+'K') : null;
+
+  const card = {
+    name: a.name,
+    score: score,
+    tier: tier,
+    genre: a.genre || (a.tier === 'A' ? 'Watchlist Tier A' : 'Watchlist'),
+    venueSize: a.upcomingShows ? `${a.upcomingShows} upcoming shows` : null,
+    streams: ml ? `${ml} monthly Spotify listeners` + (ig ? ` • IG: ${ig}` : '') + (tt ? ` • TikTok: ${tt}` : '') : null,
+    scarcity: a.soldOutMentions ? `${a.soldOutMentions} sold-out signal${a.soldOutMentions>1?'s':''} detected via Brave Search` : null,
+    lastTour: a.albumCount ? `${a.albumCount} album${a.albumCount>1?'s':''}` : null,
+    tourDates: a.tourDates,
+    soldOutMentions: a.soldOutMentions || 0,
+    soldOutSnippets: a.soldOutSnippets || [],
+    ticketLink: `https://seatgeek.com/search?q=${encodeURIComponent(a.name)}`,
+    artistLink: `https://open.spotify.com/search/${encodeURIComponent(a.name)}`,
+  };
+
+  return buildCard(card, id);
+}
+
+/* ── View Switching ── */
 function showView(id) {
   document.querySelectorAll('.view').forEach(v => v.style.display = 'none');
   document.getElementById('view-' + id).style.display = 'block';
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-  if (event && event.target) event.target.closest('.nav-item').classList.add('active');
+  if (event && event.target) {
+    const navItem = event.target.closest('.nav-item');
+    if (navItem) navItem.classList.add('active');
+  }
   document.querySelector('.sidebar').classList.remove('open');
 }
 
-function fmt(n) {
-  if (!n) return null;
-  if (n >= 1000000) return (n/1000000).toFixed(1) + 'M';
-  if (n >= 1000) return Math.round(n/1000) + 'K';
-  return n.toString();
+/* ── Render Presale Cards ── */
+function renderPresales() {
+  const tw = document.getElementById('thisweek-cards');
+  tw.innerHTML = PRESALE_DATA.thisWeek.map((a, i) => buildCard(a, 'tw-' + i)).join('');
+
+  const nw = document.getElementById('nextweek-cards');
+  if (PRESALE_DATA.nextWeek.length) {
+    nw.innerHTML = PRESALE_DATA.nextWeek.map((a, i) => buildCard(a, 'nw-' + i)).join('');
+  } else {
+    nw.innerHTML = '<div class="empty">📡 Scanners monitoring for next week\'s presale announcements. Most tours announce on Tuesdays.</div>';
+  }
 }
 
-function renderArtists(artists) {
-  const container = document.getElementById('emerging-artists');
+/* ── Emerging Artists ── */
+let allArtists = [];
+
+function renderEmerging(artists) {
+  const container = document.getElementById('emerging-cards');
   if (!artists.length) { container.innerHTML = '<div class="empty">No artists match this filter.</div>'; return; }
 
   let html = '';
-  let lastTier = '';
+  let lastGroup = '';
 
-  for (const a of artists) {
+  for (let i = 0; i < artists.length; i++) {
+    const a = artists[i];
     const score = a.score || 0;
-    let tier, tierLabel, stripeColor, scoreClass;
-    if (score >= 50) { tier = 'hot'; tierLabel = '🔥 Hot'; stripeColor = 'var(--red)'; scoreClass = 's'; }
-    else if (score >= 30) { tier = 'rising'; tierLabel = '⚡ Rising'; stripeColor = 'var(--accent)'; scoreClass = 'a'; }
-    else { tier = 'tracking'; tierLabel = '📡 Tracking'; stripeColor = 'var(--blue)'; scoreClass = 'b'; }
+    let group;
+    if (score >= 50) group = '🔥 Hot';
+    else if (score >= 30) group = '⚡ Rising';
+    else group = '📡 Tracking';
 
-    if (tier !== lastTier) {
-      html += '<div class="section-head"><h2 style="font-size:14px">' + tierLabel + '</h2></div>';
-      lastTier = tier;
+    if (group !== lastGroup) {
+      html += `<div class="section-head"><h2 style="font-size:14px">${group}</h2></div>`;
+      lastGroup = group;
     }
-
-    const ml = fmt(a.monthlyListeners);
-    const ig = fmt(a.instagramFollowers);
-    const tt = fmt(a.tiktokFollowers);
-    const so = a.soldOutMentions || 0;
-    const shows = a.upcomingShows || 0;
-
-    // Build meta line
-    const metaParts = [];
-    if (a.tier) metaParts.push('[' + a.tier + ']');
-    if (ml) metaParts.push('🎧 ' + ml + ' listeners');
-    if (shows > 0) metaParts.push('🗺️ ' + shows + ' shows');
-    if (so > 0) metaParts.push('🔥 ' + so + ' sold-out mentions');
-
-    // Build signals for expanded view
-    let signals = '';
-    if (ml) signals += '<span class="signal">🎧 ' + ml + ' monthly listeners</span>';
-    if (ig) signals += '<span class="signal">📸 IG: ' + ig + '</span>';
-    if (tt) signals += '<span class="signal">🎵 TikTok: ' + tt + '</span>';
-    if (a.albumCount) signals += '<span class="signal">💿 ' + a.albumCount + ' albums</span>';
-    if (shows > 0) signals += '<span class="signal">🗺️ ' + shows + ' upcoming shows</span>';
-    if (so > 0) signals += '<span class="signal">🔥 ' + so + ' sold-out mentions</span>';
-
-    // Tour dates preview
-    let tourHtml = '';
-    if (a.tourDates && a.tourDates.length > 0) {
-      tourHtml = '<div style="margin-top:8px"><div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:4px">UPCOMING SHOWS:</div>';
-      for (const t of a.tourDates.slice(0, 5)) {
-        const price = t.avgPrice ? ' — avg $' + t.avgPrice : '';
-        tourHtml += '<div style="font-size:12px;color:var(--text);padding:2px 0">' + (t.date||'TBA') + ' • ' + (t.venue||'') + ', ' + (t.city||'') + price + '</div>';
-      }
-      if (a.tourDates.length > 5) tourHtml += '<div style="font-size:11px;color:var(--text-dim)">+ ' + (a.tourDates.length - 5) + ' more shows</div>';
-      tourHtml += '</div>';
-    }
-
-    // Sold out snippets
-    let snippetHtml = '';
-    if (a.soldOutSnippets && a.soldOutSnippets.length > 0) {
-      snippetHtml = '<div style="margin-top:8px"><div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:4px">SOLD-OUT SIGNALS:</div>';
-      for (const s of a.soldOutSnippets.slice(0, 3)) {
-        snippetHtml += '<div class="ac-insight">' + (s.title || '') + (s.snippet ? ' — ' + s.snippet : '') + '</div>';
-      }
-      snippetHtml += '</div>';
-    }
-
-    // Tags
-    let tags = '';
-    if (so >= 3) tags += '<span class="tag tag-hot">SELLING OUT</span>';
-    else if (so >= 1) tags += '<span class="tag tag-rising">DEMAND SIGNAL</span>';
-
-    const nameEnc = encodeURIComponent(a.name);
-
-    html += '<div class="artist-card" data-score="' + score + '" data-soldout="' + so + '" data-shows="' + shows + '" onclick="this.classList.toggle(\'open\')">' +
-      '<div class="ac-header">' +
-        '<div class="ac-stripe" style="background:' + stripeColor + '"></div>' +
-        '<div class="ac-info">' +
-          '<div class="ac-name">' + a.name + '</div>' +
-          '<div class="ac-meta">' + metaParts.join(' &nbsp;•&nbsp; ') + '</div>' +
-        '</div>' +
-        '<div class="ac-right">' + tags +
-          '<div class="ac-score ' + scoreClass + '">' + score + '</div>' +
-        '</div>' +
-      '</div>' +
-      '<div class="ac-body">' +
-        '<div class="ac-signals">' + signals + '</div>' +
-        tourHtml + snippetHtml +
-        '<div class="pr-links" style="margin-top:10px">' +
-          '<a href="https://seatgeek.com/search?q=' + nameEnc + '" target="_blank">🎟️ SeatGeek</a>' +
-          '<a href="https://www.vividseats.com/search?searchTerm=' + nameEnc + '" target="_blank">🎟️ Vivid Seats</a>' +
-          '<a href="https://open.spotify.com/search/' + nameEnc + '" target="_blank">🎧 Spotify</a>' +
-        '</div>' +
-      '</div>' +
-    '</div>';
+    html += buildEmerging(a, 'em-' + i);
   }
 
   container.innerHTML = html;
 }
 
 function filterArtists(type, btn) {
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.fbtn').forEach(b => b.classList.remove('active'));
   if (btn) btn.classList.add('active');
-  
   let filtered = allArtists;
   if (type === 'hot') filtered = allArtists.filter(a => (a.score||0) >= 50);
   else if (type === 'rising') filtered = allArtists.filter(a => (a.score||0) >= 30);
   else if (type === 'soldout') filtered = allArtists.filter(a => (a.soldOutMentions||0) > 0);
   else if (type === 'touring') filtered = allArtists.filter(a => (a.upcomingShows||0) > 0);
-  
-  renderArtists(filtered);
+  renderEmerging(filtered);
 }
 
-// Load data on page load
+/* ── Init ── */
+renderPresales();
+
 (async function() {
   try {
     const res = await fetch('data/rising-stars.json');
     const data = await res.json();
     allArtists = (data.artists || []).sort((a, b) => (b.score||0) - (a.score||0));
-    
-    document.getElementById('emerging-count').textContent = allArtists.length + ' artists tracked • ' + data.scanDate;
-    
-    // Update nav count
-    const hotCount = allArtists.filter(a => (a.score||0) >= 50).length;
-    
-    renderArtists(allArtists);
+    document.getElementById('emerging-count').textContent = allArtists.length + ' artists • ' + data.scanDate;
+    renderEmerging(allArtists);
   } catch (e) {
     console.log('Could not load rising-stars.json:', e);
+    document.getElementById('emerging-cards').innerHTML = '<div class="empty">Rising Stars data not available.</div>';
   }
 })();
 </script>
