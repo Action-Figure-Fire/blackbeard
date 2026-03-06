@@ -148,6 +148,10 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   .trends-grid{grid-template-columns:1fr 1fr}
 }
 
+.filter-btn{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:6px 14px;color:var(--text-muted);font-size:12px;font-weight:600;cursor:pointer;transition:all 0.15s}
+.filter-btn:hover{border-color:var(--border-hover);color:var(--text)}
+.filter-btn.active{background:var(--accent-dim);border-color:rgba(240,180,41,0.3);color:var(--accent)}
+
 .footer{margin-top:40px;padding:20px 0;border-top:1px solid var(--border);text-align:center;font-size:11px;color:var(--text-dim)}
 </style>
 </head>
@@ -519,201 +523,18 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 <div id="view-emerging" class="view" style="display:none">
   <div class="section-head">
     <h2>🔮 Emerging Artists — Breakout Predictor</h2>
-    <span class="badge-count">Scored by Blackbeard AI</span>
+    <span class="badge-count" id="emerging-count">Loading...</span>
   </div>
   <p style="color:var(--text-muted);font-size:13px;margin-bottom:6px">Artists most likely to crush their next presale. Scored 0-100 using listener velocity, venue progression, social momentum, and scarcity signals.</p>
-  <p style="color:var(--text-dim);font-size:12px;margin-bottom:20px">🔮 Breakout Imminent (80+) &nbsp;•&nbsp; ⚡ High Potential (60-79) &nbsp;•&nbsp; 📡 On The Radar (40-59)</p>
-
-  <!-- S-TIER -->
-  <div class="section-head"><h2 style="font-size:14px">🔮 Breakout Imminent</h2></div>
-
-  <div class="artist-card" onclick="this.classList.toggle('open')">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--red)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Freya Skye</div>
-        <div class="ac-meta">🎵 Pop &nbsp;•&nbsp; 3.3M monthly listeners &nbsp;•&nbsp; Feb/Mar dates SOLD OUT &nbsp;•&nbsp; +36 dates added</div>
-      </div>
-      <div class="ac-right">
-        <span class="tag tag-hot">SOLD OUT</span>
-        <div class="ac-score s">92</div>
-      </div>
-    </div>
-    <div class="ac-body">
-      <div class="ac-signals">
-        <span class="signal">📈 3.3M listeners, climbing</span>
-        <span class="signal">🎟️ Feb/Mar sold out → 36 dates added</span>
-        <span class="signal">🚀 Venue upgrades in Sydney & Melbourne</span>
-        <span class="signal">📻 iHeart "On the Verge" artist</span>
-        <span class="signal">🌎 Radio charts: US, UK, Canada, France, Australia</span>
-      </div>
-      <div class="ac-insight">US fall dates (Sept-Oct) at 3K-4.5K cap venues. Santa Barbara Bowl, Coca-Cola Roxy ATL, Hartford Amphitheater are tightest capacity. "silent treatment" has 40M+ streams and climbing radio charts across 5 countries simultaneously.</div>
-      <div class="pr-links" style="margin-top:10px">
-        <a href="https://seatgeek.com/search?q=Freya+Skye" target="_blank">🎟️ SeatGeek</a>
-        <a href="https://www.vividseats.com/search?searchTerm=Freya+Skye" target="_blank">🎟️ Vivid Seats</a>
-      </div>
-    </div>
+  <p style="color:var(--text-dim);font-size:12px;margin-bottom:12px">🔥 Hot (50+) &nbsp;•&nbsp; ⚡ Rising (30-49) &nbsp;•&nbsp; 📡 Tracking (&lt;30)</p>
+  <div style="margin-bottom:16px;display:flex;gap:8px;flex-wrap:wrap">
+    <button class="filter-btn active" onclick="filterArtists('all',this)">All</button>
+    <button class="filter-btn" onclick="filterArtists('hot',this)">🔥 Hot (50+)</button>
+    <button class="filter-btn" onclick="filterArtists('rising',this)">⚡ Rising (30+)</button>
+    <button class="filter-btn" onclick="filterArtists('soldout',this)">🎟️ Sold-Out History</button>
+    <button class="filter-btn" onclick="filterArtists('touring',this)">🗺️ On Tour</button>
   </div>
-
-  <div class="artist-card" onclick="this.classList.toggle('open')">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--red)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Alex Warren</div>
-        <div class="ac-meta">🎵 Pop/Singer-songwriter &nbsp;•&nbsp; Red Rocks get-in $223 &nbsp;•&nbsp; Presale code: AWFORD</div>
-      </div>
-      <div class="ac-right">
-        <span class="tag tag-hot">🔑 CODE</span>
-        <div class="ac-score s">88</div>
-      </div>
-    </div>
-    <div class="ac-body">
-      <div class="ac-signals">
-        <span class="signal">💰 Red Rocks get-in $223</span>
-        <span class="signal">🔑 Presale code: AWFORD (caught via Twitter)</span>
-        <span class="signal">📈 TikTok-driven fanbase, young demo</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="artist-card" onclick="this.classList.toggle('open')">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--red)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Sonny Fodera</div>
-        <div class="ac-meta">🎧 DJ/Electronic &nbsp;•&nbsp; Confirmed sold-out shows &nbsp;•&nbsp; Strong resale pricing</div>
-      </div>
-      <div class="ac-right">
-        <div class="ac-score s">80</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- A-TIER -->
-  <div class="section-head"><h2 style="font-size:14px">⚡ High Potential</h2></div>
-
-  <div class="artist-card">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--accent)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Stavros Halkias</div>
-        <div class="ac-meta">🎤 Comedy &nbsp;•&nbsp; Radio City NYC Mar 28 &nbsp;•&nbsp; Face $39-$60 &nbsp;•&nbsp; GT: 41/100 (+9%)</div>
-      </div>
-      <div class="ac-right"><div class="ac-score a">76</div></div>
-    </div>
-  </div>
-
-  <div class="artist-card">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--accent)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Josh Johnson</div>
-        <div class="ac-meta">🎤 Comedy &nbsp;•&nbsp; Comedy Boot Camp Tour just announced &nbsp;•&nbsp; Onsale Fri 3/7</div>
-      </div>
-      <div class="ac-right">
-        <span class="tag tag-new">JUST ANNOUNCED</span>
-        <div class="ac-score a">70</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="artist-card">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--accent)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Treaty Oak Revival</div>
-        <div class="ac-meta">🎵 Country/Americana &nbsp;•&nbsp; Red Rocks get-in $192 &nbsp;•&nbsp; West Texas Degenerate Tour on sale</div>
-      </div>
-      <div class="ac-right"><div class="ac-score a">72</div></div>
-    </div>
-  </div>
-
-  <div class="artist-card">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--accent)"></div>
-      <div class="ac-info">
-        <div class="ac-name">sombr</div>
-        <div class="ac-meta">🎵 Indie &nbsp;•&nbsp; Rising Stars RED HOT &nbsp;•&nbsp; Score: 60</div>
-      </div>
-      <div class="ac-right"><div class="ac-score a">60</div></div>
-    </div>
-  </div>
-
-  <div class="artist-card">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--accent)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Bella Kay</div>
-        <div class="ac-meta">🎵 Pop &nbsp;•&nbsp; Rising Stars RED HOT &nbsp;•&nbsp; Score: 57</div>
-      </div>
-      <div class="ac-right"><div class="ac-score a">57</div></div>
-    </div>
-  </div>
-
-  <!-- RADAR -->
-  <div class="section-head"><h2 style="font-size:14px">📡 On The Radar</h2></div>
-
-  <div class="artist-card">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--blue)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Ms Ray</div>
-        <div class="ac-meta">🎵 R&B &nbsp;•&nbsp; Rising Stars RED HOT &nbsp;•&nbsp; Score: 55</div>
-      </div>
-      <div class="ac-right"><div class="ac-score b">55</div></div>
-    </div>
-  </div>
-
-  <div class="artist-card">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--blue)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Jackie Hollander</div>
-        <div class="ac-meta">🎤 Comedy &nbsp;•&nbsp; Rising Stars RED HOT &nbsp;•&nbsp; Score: 55</div>
-      </div>
-      <div class="ac-right"><div class="ac-score b">55</div></div>
-    </div>
-  </div>
-
-  <div class="artist-card">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--blue)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Danny L Harle</div>
-        <div class="ac-meta">🎧 Electronic &nbsp;•&nbsp; Rising Stars RED HOT &nbsp;•&nbsp; Score: 55</div>
-      </div>
-      <div class="ac-right"><div class="ac-score b">55</div></div>
-    </div>
-  </div>
-
-  <div class="artist-card">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--blue)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Hemlocke Springs</div>
-        <div class="ac-meta">🎵 Indie &nbsp;•&nbsp; Opening for Tame Impala → headline incoming &nbsp;•&nbsp; 14 cities</div>
-      </div>
-      <div class="ac-right">
-        <span class="tag tag-rising">SUPPORT → HEADLINE</span>
-        <div class="ac-score b">45</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="artist-card">
-    <div class="ac-header">
-      <div class="ac-stripe" style="background:var(--blue)"></div>
-      <div class="ac-info">
-        <div class="ac-name">Jade LeMac</div>
-        <div class="ac-meta">🎵 Pop &nbsp;•&nbsp; Opening for Hilary Duff → headline incoming &nbsp;•&nbsp; 18 cities</div>
-      </div>
-      <div class="ac-right">
-        <span class="tag tag-rising">SUPPORT → HEADLINE</span>
-        <div class="ac-score b">42</div>
-      </div>
-    </div>
-  </div>
-
+  <div id="emerging-artists"></div>
 </div><!-- end emerging -->
 
 <!-- ============ GOOGLE TRENDS ============ -->
@@ -825,6 +646,8 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 </div>
 
 <script>
+let allArtists = [];
+
 function showView(id) {
   document.querySelectorAll('.view').forEach(v => v.style.display = 'none');
   document.getElementById('view-' + id).style.display = 'block';
@@ -832,6 +655,140 @@ function showView(id) {
   if (event && event.target) event.target.closest('.nav-item').classList.add('active');
   document.querySelector('.sidebar').classList.remove('open');
 }
+
+function fmt(n) {
+  if (!n) return null;
+  if (n >= 1000000) return (n/1000000).toFixed(1) + 'M';
+  if (n >= 1000) return Math.round(n/1000) + 'K';
+  return n.toString();
+}
+
+function renderArtists(artists) {
+  const container = document.getElementById('emerging-artists');
+  if (!artists.length) { container.innerHTML = '<div class="empty">No artists match this filter.</div>'; return; }
+
+  let html = '';
+  let lastTier = '';
+
+  for (const a of artists) {
+    const score = a.score || 0;
+    let tier, tierLabel, stripeColor, scoreClass;
+    if (score >= 50) { tier = 'hot'; tierLabel = '🔥 Hot'; stripeColor = 'var(--red)'; scoreClass = 's'; }
+    else if (score >= 30) { tier = 'rising'; tierLabel = '⚡ Rising'; stripeColor = 'var(--accent)'; scoreClass = 'a'; }
+    else { tier = 'tracking'; tierLabel = '📡 Tracking'; stripeColor = 'var(--blue)'; scoreClass = 'b'; }
+
+    if (tier !== lastTier) {
+      html += '<div class="section-head"><h2 style="font-size:14px">' + tierLabel + '</h2></div>';
+      lastTier = tier;
+    }
+
+    const ml = fmt(a.monthlyListeners);
+    const ig = fmt(a.instagramFollowers);
+    const tt = fmt(a.tiktokFollowers);
+    const so = a.soldOutMentions || 0;
+    const shows = a.upcomingShows || 0;
+
+    // Build meta line
+    const metaParts = [];
+    if (a.tier) metaParts.push('[' + a.tier + ']');
+    if (ml) metaParts.push('🎧 ' + ml + ' listeners');
+    if (shows > 0) metaParts.push('🗺️ ' + shows + ' shows');
+    if (so > 0) metaParts.push('🔥 ' + so + ' sold-out mentions');
+
+    // Build signals for expanded view
+    let signals = '';
+    if (ml) signals += '<span class="signal">🎧 ' + ml + ' monthly listeners</span>';
+    if (ig) signals += '<span class="signal">📸 IG: ' + ig + '</span>';
+    if (tt) signals += '<span class="signal">🎵 TikTok: ' + tt + '</span>';
+    if (a.albumCount) signals += '<span class="signal">💿 ' + a.albumCount + ' albums</span>';
+    if (shows > 0) signals += '<span class="signal">🗺️ ' + shows + ' upcoming shows</span>';
+    if (so > 0) signals += '<span class="signal">🔥 ' + so + ' sold-out mentions</span>';
+
+    // Tour dates preview
+    let tourHtml = '';
+    if (a.tourDates && a.tourDates.length > 0) {
+      tourHtml = '<div style="margin-top:8px"><div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:4px">UPCOMING SHOWS:</div>';
+      for (const t of a.tourDates.slice(0, 5)) {
+        const price = t.avgPrice ? ' — avg $' + t.avgPrice : '';
+        tourHtml += '<div style="font-size:12px;color:var(--text);padding:2px 0">' + (t.date||'TBA') + ' • ' + (t.venue||'') + ', ' + (t.city||'') + price + '</div>';
+      }
+      if (a.tourDates.length > 5) tourHtml += '<div style="font-size:11px;color:var(--text-dim)">+ ' + (a.tourDates.length - 5) + ' more shows</div>';
+      tourHtml += '</div>';
+    }
+
+    // Sold out snippets
+    let snippetHtml = '';
+    if (a.soldOutSnippets && a.soldOutSnippets.length > 0) {
+      snippetHtml = '<div style="margin-top:8px"><div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:4px">SOLD-OUT SIGNALS:</div>';
+      for (const s of a.soldOutSnippets.slice(0, 3)) {
+        snippetHtml += '<div class="ac-insight">' + (s.title || '') + (s.snippet ? ' — ' + s.snippet : '') + '</div>';
+      }
+      snippetHtml += '</div>';
+    }
+
+    // Tags
+    let tags = '';
+    if (so >= 3) tags += '<span class="tag tag-hot">SELLING OUT</span>';
+    else if (so >= 1) tags += '<span class="tag tag-rising">DEMAND SIGNAL</span>';
+
+    const nameEnc = encodeURIComponent(a.name);
+
+    html += '<div class="artist-card" data-score="' + score + '" data-soldout="' + so + '" data-shows="' + shows + '" onclick="this.classList.toggle(\'open\')">' +
+      '<div class="ac-header">' +
+        '<div class="ac-stripe" style="background:' + stripeColor + '"></div>' +
+        '<div class="ac-info">' +
+          '<div class="ac-name">' + a.name + '</div>' +
+          '<div class="ac-meta">' + metaParts.join(' &nbsp;•&nbsp; ') + '</div>' +
+        '</div>' +
+        '<div class="ac-right">' + tags +
+          '<div class="ac-score ' + scoreClass + '">' + score + '</div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="ac-body">' +
+        '<div class="ac-signals">' + signals + '</div>' +
+        tourHtml + snippetHtml +
+        '<div class="pr-links" style="margin-top:10px">' +
+          '<a href="https://seatgeek.com/search?q=' + nameEnc + '" target="_blank">🎟️ SeatGeek</a>' +
+          '<a href="https://www.vividseats.com/search?searchTerm=' + nameEnc + '" target="_blank">🎟️ Vivid Seats</a>' +
+          '<a href="https://open.spotify.com/search/' + nameEnc + '" target="_blank">🎧 Spotify</a>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+  }
+
+  container.innerHTML = html;
+}
+
+function filterArtists(type, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  
+  let filtered = allArtists;
+  if (type === 'hot') filtered = allArtists.filter(a => (a.score||0) >= 50);
+  else if (type === 'rising') filtered = allArtists.filter(a => (a.score||0) >= 30);
+  else if (type === 'soldout') filtered = allArtists.filter(a => (a.soldOutMentions||0) > 0);
+  else if (type === 'touring') filtered = allArtists.filter(a => (a.upcomingShows||0) > 0);
+  
+  renderArtists(filtered);
+}
+
+// Load data on page load
+(async function() {
+  try {
+    const res = await fetch('data/rising-stars.json');
+    const data = await res.json();
+    allArtists = (data.artists || []).sort((a, b) => (b.score||0) - (a.score||0));
+    
+    document.getElementById('emerging-count').textContent = allArtists.length + ' artists tracked • ' + data.scanDate;
+    
+    // Update nav count
+    const hotCount = allArtists.filter(a => (a.score||0) >= 50).length;
+    
+    renderArtists(allArtists);
+  } catch (e) {
+    console.log('Could not load rising-stars.json:', e);
+  }
+})();
 </script>
 </body>
 </html>
