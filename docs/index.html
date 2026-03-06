@@ -147,6 +147,75 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .alert-body .ab-detail{font-size:12px;color:var(--text3);margin-top:2px}
 .alert-body .ab-time{font-size:11px;color:var(--text5);margin-top:3px}
 
+/* Countdown timer */
+.countdown{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;color:var(--red);margin-left:8px}
+.countdown.soon{color:var(--yellow)}
+.countdown .cd-pulse{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--red);animation:pulse 1.5s infinite}
+.countdown.soon .cd-pulse{background:var(--yellow)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+
+/* Score breakdown tooltip */
+.score-breakdown{display:none;position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:#1a1a2e;border:1px solid var(--border2);border-radius:8px;padding:10px 12px;white-space:nowrap;z-index:50;font-size:11px;box-shadow:0 8px 24px rgba(0,0,0,0.5)}
+.score-breakdown::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);border:6px solid transparent;border-top-color:#1a1a2e}
+.card-thumb-wrap:hover .score-breakdown,.card-score:hover .score-breakdown{display:block}
+.sb-row{display:flex;justify-content:space-between;gap:16px;padding:2px 0}
+.sb-label{color:var(--text4)}.sb-val{font-weight:700}
+
+/* Social icons */
+.social-links{display:flex;gap:6px;margin-top:4px}
+.social-links a{display:flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:4px;font-size:11px;opacity:0.5;transition:opacity 0.15s;text-decoration:none}
+.social-links a:hover{opacity:1;text-decoration:none}
+
+/* Timestamp */
+.timestamp{font-size:10px;color:var(--text5);margin-top:2px}
+
+/* Calendar button */
+.btn-cal{background:rgba(45,212,191,0.08);color:var(--teal);border:1px solid rgba(45,212,191,0.2);border-radius:var(--radius);padding:8px 16px;cursor:pointer;text-decoration:none;font-size:11px;font-weight:600;display:inline-flex;align-items:center;gap:4px}
+.btn-cal:hover{background:rgba(45,212,191,0.15);text-decoration:none}
+
+/* ROI Calculator */
+.roi-calc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 20px;margin-bottom:14px}
+.roi-calc input{background:#0f0f11;border:1px solid var(--border);border-radius:6px;padding:6px 10px;color:var(--text);font-size:13px;width:80px;margin:0 6px}
+.roi-result{margin-top:10px;padding:10px;background:var(--green-dim);border:1px solid rgba(74,222,128,0.15);border-radius:6px;font-size:13px;color:var(--green);font-weight:600}
+
+/* Card animations */
+.card{animation:fadeSlideIn 0.3s ease-out;animation-fill-mode:both}
+.card:nth-child(1){animation-delay:0s}
+.card:nth-child(2){animation-delay:0.05s}
+.card:nth-child(3){animation-delay:0.1s}
+.card:nth-child(4){animation-delay:0.15s}
+.card:nth-child(5){animation-delay:0.2s}
+.card:nth-child(6){animation-delay:0.25s}
+.card:nth-child(7){animation-delay:0.3s}
+.card:nth-child(8){animation-delay:0.35s}
+@keyframes fadeSlideIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.card:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,0.2)}
+.card.expanded:hover{transform:translateY(-1px)}
+.card-body{animation:expandIn 0.2s ease-out}
+@keyframes expandIn{from{opacity:0}to{opacity:1}}
+
+/* Sidebar notification badges */
+.nav-badge{margin-left:auto;min-width:18px;height:18px;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border-radius:9px;padding:0 5px}
+.nav-badge.red{background:var(--red);color:#fff}
+.nav-badge.yellow{background:rgba(251,191,36,0.2);color:var(--yellow)}
+.nav-badge.green{background:rgba(74,222,128,0.15);color:var(--green)}
+.nav-pulse{width:8px;height:8px;border-radius:50%;background:var(--red);margin-left:auto;animation:pulse 1.5s infinite}
+
+/* Dark/light toggle */
+.theme-toggle{padding:8px 12px;cursor:pointer;font-size:12px;color:var(--text4);display:flex;align-items:center;gap:8px;border-radius:6px;transition:all 0.15s}
+.theme-toggle:hover{background:var(--surface2);color:var(--text2)}
+
+/* Push notification banner */
+.push-banner{background:linear-gradient(135deg,#1e1b4b,#312e81);border:1px solid var(--purple-b);border-radius:var(--radius-lg);padding:14px 20px;margin-bottom:20px;display:flex;align-items:center;gap:14px}
+.push-banner .pb-text{flex:1}
+.push-banner .pb-title{font-size:13px;font-weight:700;color:var(--text)}
+.push-banner .pb-sub{font-size:11px;color:var(--text3);margin-top:2px}
+.push-banner .pb-btn{background:var(--purple);color:#000;border:none;border-radius:6px;padding:8px 16px;font-size:12px;font-weight:700;cursor:pointer}
+
+/* Last updated bar */
+.updated-bar{display:flex;align-items:center;gap:8px;padding:8px 16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:16px;font-size:11px;color:var(--text5)}
+.updated-bar .ub-dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
+
 /* Mobile */
 .mobile-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:8px 12px;cursor:pointer;color:#fff;font-size:18px}
 @media(max-width:768px){
@@ -154,6 +223,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   .main{margin-left:0;padding:16px;padding-top:52px}.mobile-toggle{display:block}
   .stat-grid{grid-template-columns:1fr}
   .trends-grid{grid-template-columns:1fr 1fr}
+  .push-banner{flex-direction:column;text-align:center}
 }
 
 .footer{margin-top:40px;padding:20px 0;border-top:1px solid var(--border);text-align:center;font-size:11px;color:var(--text5)}
@@ -172,17 +242,22 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   </div>
   <div class="nav-section">
     <div class="nav-label">Presales</div>
-    <div class="nav-item active" onclick="showView('thisweek')"><span class="icon">🎟️</span> This Week</div>
+    <div class="nav-item active" id="nav-thisweek" onclick="showView('thisweek')"><span class="icon">🎟️</span> This Week <div class="nav-pulse" id="live-pulse" style="display:none"></div></div>
     <div class="nav-item" onclick="showView('nextweek')"><span class="icon">📅</span> Next Week</div>
   </div>
   <div class="nav-section">
     <div class="nav-label">Intelligence</div>
-    <div class="nav-item" onclick="showView('emerging')"><span class="icon">🔮</span> Emerging Artists</div>
+    <div class="nav-item" onclick="showView('emerging')"><span class="icon">🔮</span> Emerging Artists <span class="nav-badge green" id="badge-emerging"></span></div>
     <div class="nav-item" onclick="showView('trends')"><span class="icon">📈</span> Google Trends</div>
-    <div class="nav-item" onclick="showView('alerts')"><span class="icon">🔥</span> Live Alerts</div>
+    <div class="nav-item" onclick="showView('alerts')"><span class="icon">🔥</span> Live Alerts <span class="nav-badge red" id="badge-alerts">5</span></div>
   </div>
-  <div class="nav-section" style="margin-top:auto;padding-top:16px;border-top:1px solid var(--border)">
-    <div style="padding:8px 12px;font-size:11px;color:var(--text5)">
+  <div class="nav-section">
+    <div class="nav-label">Tools</div>
+    <div class="nav-item" onclick="showView('roi')"><span class="icon">💰</span> ROI Calculator</div>
+  </div>
+  <div class="nav-section" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--border)">
+    <div class="theme-toggle" onclick="toggleTheme()">🌓 <span id="theme-label">Dark Mode</span></div>
+    <div style="padding:8px 12px;font-size:11px;color:var(--text5);margin-top:4px">
       <strong style="color:var(--text4)">12 Scanners Active</strong><br>
       Twitter • Brave • SeatGeek<br>
       Spotify • Reddit • SerpAPI<br>
@@ -193,8 +268,19 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 
 <div class="main">
 
+<!-- Push notification banner -->
+<div class="push-banner" id="push-banner">
+  <div style="font-size:24px">🔔</div>
+  <div class="pb-text">
+    <div class="pb-title">Get presale codes the second they drop</div>
+    <div class="pb-sub">Enable push notifications for instant alerts — presale codes, sold-out warnings, and new tour announcements.</div>
+  </div>
+  <button class="pb-btn" onclick="enablePush()">Enable Notifications</button>
+</div>
+
 <!-- THIS WEEK -->
 <div id="view-thisweek" class="view">
+  <div class="updated-bar"><div class="ub-dot"></div><span>Last updated: <strong id="last-updated-time">Scanning...</strong></span><span style="margin-left:auto">12 scanners active • Next scan in <span id="next-scan-countdown">--</span></span></div>
   <div class="section-head">
     <h2>🎟️ Presales This Week</h2>
     <span class="badge">Week of March 3, 2026</span>
@@ -294,6 +380,47 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   </div>
 </div>
 
+<!-- ROI CALCULATOR -->
+<div id="view-roi" class="view" style="display:none">
+  <div class="section-head">
+    <h2>💰 ROI Calculator</h2>
+    <span class="badge">Estimate your flip</span>
+  </div>
+  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Enter face value, quantity, and expected resale to calculate your potential profit. Based on historical data for similar events.</p>
+  <div class="roi-calc">
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:13px;color:var(--text2)">
+      <div>
+        <div style="font-size:10px;color:var(--text5);letter-spacing:1px;margin-bottom:4px;font-weight:600">FACE VALUE</div>
+        $<input type="number" id="roi-face" value="85" min="0" oninput="calcROI()">
+      </div>
+      <div>
+        <div style="font-size:10px;color:var(--text5);letter-spacing:1px;margin-bottom:4px;font-weight:600">QUANTITY</div>
+        <input type="number" id="roi-qty" value="4" min="1" max="50" oninput="calcROI()">
+      </div>
+      <div>
+        <div style="font-size:10px;color:var(--text5);letter-spacing:1px;margin-bottom:4px;font-weight:600">EST. RESALE</div>
+        $<input type="number" id="roi-resale" value="165" min="0" oninput="calcROI()">
+      </div>
+      <div>
+        <div style="font-size:10px;color:var(--text5);letter-spacing:1px;margin-bottom:4px;font-weight:600">PLATFORM FEE %</div>
+        <input type="number" id="roi-fee" value="15" min="0" max="50" oninput="calcROI()"> %
+      </div>
+    </div>
+    <div class="roi-result" id="roi-result"></div>
+  </div>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 20px">
+    <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:10px">💡 Quick Reference — Typical Resale Multipliers</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:12px">
+      <div style="color:var(--text3)">🔥 S-Tier (sold-out presale)</div><div style="color:var(--green);font-weight:600">2-5x face</div>
+      <div style="color:var(--text3)">⚡ A-Tier (high demand)</div><div style="color:var(--yellow);font-weight:600">1.5-3x face</div>
+      <div style="color:var(--text3)">📡 B-Tier (moderate demand)</div><div style="color:var(--text4);font-weight:600">1.2-2x face</div>
+      <div style="color:var(--text3)">🎭 Comedy (small venue)</div><div style="color:var(--green);font-weight:600">2-4x face</div>
+      <div style="color:var(--text3)">🏟️ Sports (conference tourney)</div><div style="color:var(--yellow);font-weight:600">1.5-3x face</div>
+      <div style="color:var(--text3)">🏔️ Red Rocks</div><div style="color:var(--green);font-weight:600">2-6x face</div>
+    </div>
+  </div>
+</div>
+
 </div><!-- main -->
 </div><!-- app -->
 
@@ -308,7 +435,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 const PRESALE_DATA = {
   thisWeek: [
     {
-      name: "Josh Johnson — Comedy Band Camp Tour", score: 82, tier: "A", imageUrl: "https://seatgeekimages.com/performers-landscape/josh-johnson-c540b4/272582/huge.jpg",
+      name: "Josh Johnson — Comedy Band Camp Tour", score: 82, tier: "A", imageUrl: "https://seatgeekimages.com/performers-landscape/josh-johnson-c540b4/272582/huge.jpg", onsaleDate: "2026-03-06",
       genre: "Stand-Up Comedy", venueSize: "Theater (1.5-3K cap)",
       saleStatus: "🔴 GENERAL ONSALE FRI MAR 6 10AM LOCAL",
       saleDetails: "JUST ANNOUNCED massive tour. Onsale Fri Mar 6 10am local at all venues. Canada presale code: THISONETIME. Multi-night runs: Paramount Theatre (3 nights Nov 20-22), The Factory (2 nights Oct 30-31), Taft Theatre Cincinnati (2 shows Aug 1), Orpheum Theatre (3 nights Aug 14-16), Masonic SF (Aug 28-29).",
@@ -342,7 +469,7 @@ const PRESALE_DATA = {
       codes: [{code:"AWFORD",note:"Artist presale 3/5 10a-10p"}]
     },
     {
-      name: "Metallica — Life Burns Faster at the Sphere", score: 96, tier: "S", imageUrl: "https://seatgeekimages.com/performers-landscape/metallica-33f6d8/45/huge.jpg",
+      name: "Metallica — Life Burns Faster at the Sphere", score: 96, tier: "S", onsaleDate: "2026-03-06", imageUrl: "https://seatgeekimages.com/performers-landscape/metallica-33f6d8/45/huge.jpg",
       genre: "Heavy Metal / Thrash", venueSize: "Sphere Las Vegas (~18K cap)",
       saleStatus: "🔴 GENERAL ONSALE FRI MAR 6 10AM PT",
       saleDetails: "Legacy Member presale Mon Mar 2 ✅. Fifth Member presale Tue Mar 3 ✅. SiriusXM presale Thu Mar 5 10am PT. General onsale Fri Mar 6 10am PT. 8 shows: Oct 1, 3, 15, 17, 22, 24, 29, 31. 'No Repeat Weekends' = unique setlist each night. 2-night and single-night packages available. MORE DATES JUST ADDED (caught via Twitter).",
@@ -359,7 +486,7 @@ const PRESALE_DATA = {
       artistLink: "https://www.metallica.com"
     },
     {
-      name: "Sting — 3.0 Tour (12 New Fall Dates)", score: 83, tier: "A", imageUrl: "https://seatgeekimages.com/performers-landscape/sting-3cb2a6/1698/huge.jpg",
+      name: "Sting — 3.0 Tour (12 New Fall Dates)", score: 83, tier: "A", onsaleDate: "2026-03-06", imageUrl: "https://seatgeekimages.com/performers-landscape/sting-3cb2a6/1698/huge.jpg",
       genre: "Rock / Pop", venueSize: "Theater (2-5K cap)",
       saleStatus: "🔴 ONSALE FRI MAR 6 10AM LOCAL",
       saleDetails: "Fan club presale Tue Mar 3 ✅. Live Nation presale Thu Mar 5 ✅. General onsale Fri Mar 6 10am local. 12 new dates: Brooklyn Paramount (6-night residency), Montreal, St. Louis, Indianapolis, Akron, Cincinnati, Wallingford CT, Tampa.",
@@ -376,7 +503,7 @@ const PRESALE_DATA = {
       artistLink: "https://www.sting.com"
     },
     {
-      name: "Joji — SOLARIS World Tour", score: 85, tier: "A", imageUrl: "https://seatgeekimages.com/performers-landscape/joji-93c77a/694767/huge.jpg",
+      name: "Joji — SOLARIS World Tour", score: 85, tier: "A", onsaleDate: "2026-03-06", imageUrl: "https://seatgeekimages.com/performers-landscape/joji-93c77a/694767/huge.jpg",
       genre: "Indie Pop / R&B / Alternative", venueSize: "Arena (15-20K cap)",
       saleStatus: "🔴 GENERAL ONSALE FRI MAR 6 10AM LOCAL",
       saleDetails: "Citi presale ended. General onsale Fri Mar 6 10am local via Ticketmaster. NA dates Jun 16 (Newark) → Jul 23 (Denver). 18 arena dates.",
@@ -392,7 +519,7 @@ const PRESALE_DATA = {
       artistLink: "https://jfreddytour.com"
     },
     {
-      name: "Jason Aldean — Songs About Us Tour", score: 82, tier: "A", imageUrl: "https://seatgeekimages.com/performers-landscape/jason-aldean-48c55b/918/huge.jpg",
+      name: "Jason Aldean — Songs About Us Tour", score: 82, tier: "A", onsaleDate: "2026-03-06", imageUrl: "https://seatgeekimages.com/performers-landscape/jason-aldean-48c55b/918/huge.jpg",
       genre: "Country", venueSize: "Amphitheater (8-15K cap)",
       saleStatus: "🔴 ONSALE FRI MAR 6 10AM LOCAL",
       saleDetails: "Aldean Army fan club presale ✅. General onsale Fri Mar 6 10am local via LiveNation. 22 amphitheater dates Jul-Sep.",
@@ -469,11 +596,12 @@ function buildCard(a, id) {
   html += `<div class="card-accent" style="background:linear-gradient(90deg,${tc.bg},${tc.bg}88)"></div>`;
   html += `<div class="card-header">`;
 
-  // Thumbnail + Score
+  // Thumbnail + Score + Breakdown
+  const breakdown = a._raw ? buildScoreBreakdown(a._raw) : '';
   if (a.imageUrl) {
-    html += `<div class="card-thumb-wrap"><img class="card-thumb" src="${a.imageUrl}" alt="" loading="lazy"><div class="card-score"><div class="num" style="color:${tc.bg};border-color:${tc.bg}">${a.score}</div></div></div>`;
+    html += `<div class="card-thumb-wrap"><img class="card-thumb" src="${a.imageUrl}" alt="" loading="lazy"><div class="card-score"><div class="num" style="color:${tc.bg};border-color:${tc.bg}">${a.score}</div></div>${breakdown}</div>`;
   } else {
-    html += `<div class="card-score"><div class="num" style="color:${tc.bg}">${a.score}</div><div class="tier" style="color:${tc.bg};background:${tc.glow}">${a.tier}</div></div>`;
+    html += `<div class="card-score" style="position:relative"><div class="num" style="color:${tc.bg}">${a.score}</div><div class="tier" style="color:${tc.bg};background:${tc.glow}">${a.tier}</div>${breakdown}</div>`;
   }
 
   // Info
@@ -565,6 +693,12 @@ function buildCard(a, id) {
     html += `<div class="action-box">⚡ ${a.action}</div>`;
   }
 
+  // Calendar button (if has sale date)
+  if (a.onsaleDate) {
+    const calNotes = (a.codes ? a.codes.map(c => 'Code: ' + c.code + (c.note ? ' (' + c.note + ')' : '')).join('\\n') + '\\n' : '') + (a.ticketLink || '');
+    html += `<div style="margin-bottom:14px"><button class="btn-cal" onclick="addToCal('${a.name.replace(/'/g,"\\'")} — Onsale','${a.onsaleDate}','${calNotes.replace(/'/g,"\\'")}')">📅 Add to Calendar</button></div>`;
+  }
+
   // Buttons
   html += '<div class="card-buttons">';
   if (a.artistLink) html += `<a href="${a.artistLink}" target="_blank" class="btn-sg" onclick="event.stopPropagation()">🌐 Artist Site</a>`;
@@ -614,6 +748,7 @@ function buildEmerging(a, id) {
     ticketLink: `https://seatgeek.com/search?q=${encodeURIComponent(a.name)}`,
     artistLink: `https://open.spotify.com/search/${encodeURIComponent(a.name)}`,
     imageUrl: a.imageUrl || null,
+    _raw: a, // Pass raw data for score breakdown
   };
 
   return buildCard(card, id);
@@ -715,15 +850,169 @@ function filterGenre(type, btn) {
   applyFilters();
 }
 
+/* ── Countdown Timers ── */
+function addCountdowns() {
+  document.querySelectorAll('[data-onsale-time]').forEach(el => {
+    const target = new Date(el.dataset.onsaleTime).getTime();
+    function update() {
+      const now = Date.now();
+      const diff = target - now;
+      if (diff <= 0) {
+        el.innerHTML = '<span class="cd-pulse"></span> LIVE NOW';
+        el.className = 'countdown';
+        return;
+      }
+      const h = Math.floor(diff / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      const s = Math.floor((diff % 60000) / 1000);
+      el.innerHTML = `<span class="cd-pulse"></span> ${h > 0 ? h + 'h ' : ''}${m}m ${s}s`;
+      el.className = h > 2 ? 'countdown soon' : 'countdown';
+      setTimeout(update, 1000);
+    }
+    update();
+  });
+}
+
+/* ── Score Breakdown ── */
+function buildScoreBreakdown(a) {
+  const ml = a.monthlyListeners || 0;
+  let listScore = 0;
+  if (ml >= 500000 && ml <= 3000000) listScore = 20;
+  else if (ml >= 100000 && ml <= 5000000) listScore = 12;
+  else if (ml >= 50000 && ml <= 10000000) listScore = 5;
+  else if (ml > 0) listScore = 2;
+
+  const so = a.soldOutMentions || 0;
+  let soScore = so >= 4 ? 25 : so >= 2 ? 18 : so >= 1 ? 12 : 0;
+
+  const shows = a.upcomingShows || 0;
+  let showScore = (shows >= 1 && shows <= 5) ? 12 : shows === 0 ? 5 : shows <= 15 ? 3 : 0;
+
+  const socials = [a.instagramFollowers, a.tiktokFollowers, a.twitterFollowers, a.youtubeSubscribers].filter(Boolean).length;
+  let socScore = socials >= 3 ? 12 : socials >= 2 ? 8 : socials >= 1 ? 4 : 0;
+
+  const tierBonus = a.tier === 'A' ? 5 : 0;
+
+  return `<div class="score-breakdown">
+    <div style="font-size:10px;font-weight:700;color:var(--text);margin-bottom:4px;letter-spacing:1px">SCORE BREAKDOWN</div>
+    <div class="sb-row"><span class="sb-label">Listeners</span><span class="sb-val" style="color:var(--purple)">+${listScore}</span></div>
+    <div class="sb-row"><span class="sb-label">Sold-out signals</span><span class="sb-val" style="color:var(--red)">+${soScore}</span></div>
+    <div class="sb-row"><span class="sb-label">Tour scarcity</span><span class="sb-val" style="color:var(--yellow)">+${showScore}</span></div>
+    <div class="sb-row"><span class="sb-label">Social presence</span><span class="sb-val" style="color:var(--blue)">+${socScore}</span></div>
+    ${tierBonus ? '<div class="sb-row"><span class="sb-label">Watchlist Tier A</span><span class="sb-val" style="color:var(--green)">+5</span></div>' : ''}
+  </div>`;
+}
+
+/* ── Add to Calendar ── */
+function addToCal(title, date, notes) {
+  event.stopPropagation();
+  const d = new Date(date + 'T10:00:00');
+  const end = new Date(d.getTime() + 3600000);
+  const fmt = d => d.toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
+  const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${fmt(d)}/${fmt(end)}&details=${encodeURIComponent(notes)}`;
+  window.open(url, '_blank');
+}
+
+/* ── Push Notifications ── */
+async function enablePush() {
+  if (!('Notification' in window)) {
+    alert('Your browser doesn\'t support push notifications. Try Chrome or Firefox.');
+    return;
+  }
+  const perm = await Notification.requestPermission();
+  if (perm === 'granted') {
+    new Notification('🏴‍☠️ Blackbeard Alerts Enabled', {
+      body: 'You\'ll get instant alerts for presale codes and tour announcements.',
+      icon: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🏴‍☠️</text></svg>'
+    });
+    document.getElementById('push-banner').style.display = 'none';
+    localStorage.setItem('bb-push', 'enabled');
+  } else {
+    alert('Notifications blocked. Check your browser settings to enable them.');
+  }
+}
+if (localStorage.getItem('bb-push') === 'enabled') {
+  const pb = document.getElementById('push-banner');
+  if (pb) pb.style.display = 'none';
+}
+
+/* ── ROI Calculator ── */
+function calcROI() {
+  const face = parseFloat(document.getElementById('roi-face').value) || 0;
+  const qty = parseInt(document.getElementById('roi-qty').value) || 0;
+  const resale = parseFloat(document.getElementById('roi-resale').value) || 0;
+  const fee = parseFloat(document.getElementById('roi-fee').value) || 0;
+
+  const cost = face * qty;
+  const gross = resale * qty;
+  const fees = gross * (fee / 100);
+  const net = gross - fees;
+  const profit = net - cost;
+  const roi = cost > 0 ? ((profit / cost) * 100).toFixed(0) : 0;
+
+  const el = document.getElementById('roi-result');
+  if (profit > 0) {
+    el.style.background = 'rgba(74,222,128,0.04)';
+    el.style.borderColor = 'rgba(74,222,128,0.15)';
+    el.style.color = 'var(--green)';
+    el.innerHTML = `💰 <strong>$${profit.toFixed(0)} profit</strong> (${roi}% ROI) — Cost: $${cost.toFixed(0)} → Gross: $${gross.toFixed(0)} – Fees: $${fees.toFixed(0)} = Net: $${net.toFixed(0)}`;
+  } else {
+    el.style.background = 'rgba(239,68,68,0.04)';
+    el.style.borderColor = 'rgba(239,68,68,0.15)';
+    el.style.color = 'var(--red)';
+    el.innerHTML = `📉 <strong>-$${Math.abs(profit).toFixed(0)} loss</strong> — Cost: $${cost.toFixed(0)} → Net after fees: $${net.toFixed(0)}`;
+  }
+}
+
+/* ── Theme Toggle ── */
+function toggleTheme() {
+  const body = document.body;
+  const isLight = body.classList.toggle('light-theme');
+  document.getElementById('theme-label').textContent = isLight ? 'Light Mode' : 'Dark Mode';
+  localStorage.setItem('bb-theme', isLight ? 'light' : 'dark');
+}
+if (localStorage.getItem('bb-theme') === 'light') {
+  document.body.classList.add('light-theme');
+  document.getElementById('theme-label').textContent = 'Light Mode';
+}
+
+/* ── Timestamps ── */
+function updateTimestamps() {
+  const now = new Date();
+  const fmt = d => d.toLocaleTimeString('en-US', {hour:'numeric',minute:'2-digit',hour12:true});
+  const el = document.getElementById('last-updated-time');
+  if (el) el.textContent = fmt(now) + ' ET — ' + now.toLocaleDateString('en-US', {month:'short',day:'numeric',year:'numeric'});
+}
+
+/* ── Live Pulse ── */
+function checkLivePresales() {
+  const now = new Date();
+  const day = now.getDay();
+  const hour = now.getHours();
+  // Presales typically live 10 AM - 10 PM on weekdays
+  const isLive = day >= 1 && day <= 5 && hour >= 10 && hour <= 22;
+  const pulse = document.getElementById('live-pulse');
+  if (pulse) pulse.style.display = isLive ? 'block' : 'none';
+}
+
 /* ── Init ── */
 renderPresales();
+calcROI();
+updateTimestamps();
+checkLivePresales();
+setInterval(updateTimestamps, 60000);
+setInterval(checkLivePresales, 60000);
 
+// Update emerging artist badge
 (async function() {
   try {
     const res = await fetch('data/rising-stars.json');
     const data = await res.json();
     allArtists = (data.artists || []).sort((a, b) => (b.score||0) - (a.score||0));
     document.getElementById('emerging-count').textContent = allArtists.length + ' artists • ' + data.scanDate;
+    const hotCount = allArtists.filter(a => (a.score||0) >= 50).length;
+    const badgeEl = document.getElementById('badge-emerging');
+    if (badgeEl) badgeEl.textContent = hotCount > 0 ? hotCount + '🔥' : allArtists.length;
     renderEmerging(allArtists);
   } catch (e) {
     console.log('Could not load rising-stars.json:', e);
