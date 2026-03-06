@@ -95,7 +95,8 @@
           "url": "https://seatgeek.com/tame-impala-tickets/portland-oregon-moda-center-2026-09-08-7-pm/concert/18070911"
         }
       ],
-      "score": 58
+      "score": 58,
+      "genre": "Pop/Alternative"
     },
     {
       "name": "Hurricane Wisdom",
@@ -127,7 +128,8 @@
           "url": "https://seatgeek.com/nocap-tickets/orlando-florida-the-vanguard-9-2035-03-02-3-30-am/concert/17390317"
         }
       ],
-      "score": 52
+      "score": 52,
+      "genre": "Hip-Hop"
     },
     {
       "name": "Alex Warren",
@@ -230,7 +232,8 @@
           "url": "https://seatgeek.com/alex-warren-tickets/los-angeles-california-crypto-com-arena-2026-06-06-7-30-pm/concert/17906974"
         }
       ],
-      "score": 49
+      "score": 49,
+      "genre": "Pop"
     },
     {
       "name": "Ethel Cain",
@@ -343,7 +346,8 @@
           "url": "https://seatgeek.com/ethel-cain-tickets/chesterfield-missouri-the-factory-stl-2026-04-28-8-pm/concert/17805418"
         }
       ],
-      "score": 49
+      "score": 49,
+      "genre": "Indie/Gothic"
     },
     {
       "name": "Amyl and The Sniffers",
@@ -431,7 +435,8 @@
           "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-06-16-8-pm/concert/17944733"
         }
       ],
-      "score": 47
+      "score": 47,
+      "genre": "Rock/Punk"
     },
     {
       "name": "ALLEYCVT",
@@ -519,7 +524,8 @@
           "url": "https://seatgeek.com/alleycvt-tickets/morrison-colorado-red-rocks-amphitheatre-2026-05-08-8-pm/concert/18066838"
         }
       ],
-      "score": 47
+      "score": 47,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Tucker Wetmore",
@@ -622,7 +628,8 @@
           "url": "https://seatgeek.com/hardy-tickets/virginia-beach-virginia-veterans-united-home-loans-amphitheater-at-virginia-beach-2026-06-12-7-pm/concert/17805638"
         }
       ],
-      "score": 46
+      "score": 46,
+      "genre": "Country"
     },
     {
       "name": "Jalen Ngonda",
@@ -645,7 +652,8 @@
       ],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 42
+      "score": 42,
+      "genre": "Soul/R&B"
     },
     {
       "name": "Stavros Halkias",
@@ -738,7 +746,8 @@
           "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2026-04-07-7-pm/17851085"
         }
       ],
-      "score": 41
+      "score": 41,
+      "genre": "Comedy"
     },
     {
       "name": "Allison Russell",
@@ -826,7 +835,8 @@
           "url": "https://seatgeek.com/sarah-mclachlan-tickets/gilford-new-hampshire-banknh-pavilion-2026-07-12-7-30-pm/concert/18070713"
         }
       ],
-      "score": 41
+      "score": 41,
+      "genre": "Folk/Americana"
     },
     {
       "name": "Crankdat",
@@ -908,7 +918,8 @@
           "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-30-8-pm/concert/18041846"
         }
       ],
-      "score": 40
+      "score": 40,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Freya Skye",
@@ -996,7 +1007,8 @@
           "url": "https://seatgeek.com/freya-skye-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-09-30-8-pm/concert/18084644"
         }
       ],
-      "score": 38
+      "score": 38,
+      "genre": "Pop"
     },
     {
       "name": "LEVEL UP",
@@ -1084,7 +1096,8 @@
           "url": "https://seatgeek.com/level-up-tickets/brooklyn-new-york-brooklyn-steel-2026-04-03-9-pm/concert/17836214"
         }
       ],
-      "score": 38
+      "score": 38,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "KETTAMA",
@@ -1166,7 +1179,8 @@
           "url": "https://seatgeek.com/kettama-tickets/san-diego-california-fit-social-san-diego-2026-05-10-3-pm/concert/18062198"
         }
       ],
-      "score": 37
+      "score": 37,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Rezz",
@@ -1203,7 +1217,8 @@
           "url": "https://seatgeek.com/rezz-tickets/morrison-colorado-red-rocks-amphitheatre-2026-10-03-6-pm/concert/18100551"
         }
       ],
-      "score": 37
+      "score": 37,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Hilary Duff",
@@ -1306,7 +1321,8 @@
           "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219"
         }
       ],
-      "score": 35
+      "score": 35,
+      "genre": "Pop"
     },
     {
       "name": "Sam Morril",
@@ -1338,7 +1354,8 @@
           "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-07-9-45-pm/18022017"
         }
       ],
-      "score": 35
+      "score": 35,
+      "genre": "Comedy"
     },
     {
       "name": "Jay Jurden",
@@ -1370,7 +1387,8 @@
           "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-08-9-30-pm/18103529"
         }
       ],
-      "score": 35
+      "score": 35,
+      "genre": "Comedy"
     },
     {
       "name": "MC4D",
@@ -1402,7 +1420,8 @@
           "url": "https://seatgeek.com/mc4d-tickets/miami-florida-komodo-2026-03-07-10-pm/concert/18028640"
         }
       ],
-      "score": 35
+      "score": 35,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Mt. Joy",
@@ -1495,7 +1514,8 @@
           "url": "https://seatgeek.com/mt-joy-tickets/new-orleans-louisiana-champions-square-2026-04-23-8-pm/concert/17898147"
         }
       ],
-      "score": 34
+      "score": 34,
+      "genre": "Indie Rock"
     },
     {
       "name": "Flip Turn",
@@ -1512,7 +1532,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 34
+      "score": 34,
+      "genre": "Indie Rock"
     },
     {
       "name": "Druski",
@@ -1529,7 +1550,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 33
+      "score": 33,
+      "genre": "Comedy"
     },
     {
       "name": "Electric Callboy",
@@ -1611,7 +1633,8 @@
           "url": "https://seatgeek.com/electric-callboy-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-04-28-7-pm/concert/17846422"
         }
       ],
-      "score": 33
+      "score": 33,
+      "genre": "Rock/Metal"
     },
     {
       "name": "Djo (Joe Keery)",
@@ -1634,7 +1657,8 @@
       ],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 32
+      "score": 32,
+      "genre": "Indie Pop"
     },
     {
       "name": "Michael Blaustein",
@@ -1732,7 +1756,8 @@
           "url": "https://seatgeek.com/michael-blaustein-tickets/comedy/2026-06-27-7-pm/18094079"
         }
       ],
-      "score": 31
+      "score": 31,
+      "genre": "Comedy"
     },
     {
       "name": "Prospa",
@@ -1780,7 +1805,8 @@
           "url": "https://seatgeek.com/prospa-tickets/los-angeles-california-sound-nightclub-2026-04-15-10-pm/concert/18095683"
         }
       ],
-      "score": 31
+      "score": 31,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Laci Kaye Booth",
@@ -1862,7 +1888,8 @@
           "url": "https://seatgeek.com/ella-langley-tickets/canandaigua-new-york-constellation-brands-marvin-sands-performing-arts-center-cmac-2026-07-31-7-pm/concert/18046800"
         }
       ],
-      "score": 29
+      "score": 29,
+      "genre": "Country"
     },
     {
       "name": "Jordan Jensen",
@@ -1955,7 +1982,8 @@
           "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-12-7-30-pm/17948450"
         }
       ],
-      "score": 28
+      "score": 28,
+      "genre": "Comedy"
     },
     {
       "name": "Knock2",
@@ -1989,7 +2017,8 @@
           "url": "https://seatgeek.com/badlands-music-festival-tickets/calgary-canada-badland-s-tent-2026-07-06-6-pm/music-festival/17934942"
         }
       ],
-      "score": 28
+      "score": 28,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Treaty Oak Revival",
@@ -2077,7 +2106,8 @@
           "url": "https://seatgeek.com/treaty-oak-revival-tickets/seattle-washington-wamu-theater-2026-04-30-7-pm/concert/17945122"
         }
       ],
-      "score": 27
+      "score": 27,
+      "genre": "Country"
     },
     {
       "name": "Mau P",
@@ -2165,7 +2195,8 @@
           "url": "https://seatgeek.com/mau-p-tickets/brooklyn-new-york-brooklyn-army-terminal-2026-09-11-3-pm/concert/18047581"
         }
       ],
-      "score": 27
+      "score": 27,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Fisher",
@@ -2247,7 +2278,8 @@
           "url": "https://seatgeek.com/jourdain-fisher-tickets/comedy/2026-03-20-9-45-pm/18075173"
         }
       ],
-      "score": 25
+      "score": 25,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Hippie Sabotage",
@@ -2340,7 +2372,8 @@
           "url": "https://seatgeek.com/hippie-sabotage-tickets/ventura-california-the-majestic-ventura-theater-2026-03-28-8-pm/concert/18059359"
         }
       ],
-      "score": 25
+      "score": 25,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Josh Johnson",
@@ -2422,7 +2455,8 @@
           "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-06-14-8-30-pm/18103618"
         }
       ],
-      "score": 24
+      "score": 24,
+      "genre": "Comedy"
     },
     {
       "name": "Florence Road",
@@ -2504,7 +2538,8 @@
           "url": "https://seatgeek.com/the-last-dinner-party-tickets/washington-district-of-columbia-the-anthem-dc-2026-04-07-8-pm/concert/17838391"
         }
       ],
-      "score": 24
+      "score": 24,
+      "genre": "Indie/Country"
     },
     {
       "name": "Subtronics",
@@ -2586,7 +2621,8 @@
           "url": "https://seatgeek.com/subtronics-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-03-21-7-30-pm/concert/17941249"
         }
       ],
-      "score": 24
+      "score": 24,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Lambrini Girls",
@@ -2668,7 +2704,8 @@
           "url": "https://seatgeek.com/lambrini-girls-tickets/indianapolis-indiana-the-vogue-theatre-in-2026-05-02-7-pm/concert/18066416"
         }
       ],
-      "score": 24
+      "score": 24,
+      "genre": "Rock/Punk"
     },
     {
       "name": "Gianmarco Soresi",
@@ -2756,7 +2793,8 @@
           "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-15-7-30-pm/18107320"
         }
       ],
-      "score": 23
+      "score": 23,
+      "genre": "Comedy"
     },
     {
       "name": "Jon Bellion",
@@ -2782,7 +2820,8 @@
           "url": "https://seatgeek.com/jon-bellion-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-11-7-pm/concert/18089843"
         }
       ],
-      "score": 22
+      "score": 22,
+      "genre": "Pop/R&B"
     },
     {
       "name": "Lord Huron",
@@ -2870,7 +2909,8 @@
           "url": "https://seatgeek.com/lord-huron-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-10-6-pm/concert/17947908"
         }
       ],
-      "score": 22
+      "score": 22,
+      "genre": "Indie Folk"
     },
     {
       "name": "Matt Rife",
@@ -2952,7 +2992,8 @@
           "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-07-7-pm/18021992"
         }
       ],
-      "score": 22
+      "score": 22,
+      "genre": "Comedy"
     },
     {
       "name": "Sara Landry",
@@ -3010,7 +3051,8 @@
           "url": "https://seatgeek.com/sara-landry-tickets/brooklyn-new-york-under-the-k-bridge-2026-08-01-7-pm/concert/18071785"
         }
       ],
-      "score": 22
+      "score": 22,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Marten Lou",
@@ -3033,7 +3075,8 @@
       ],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 22
+      "score": 22,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Mersiv",
@@ -3105,7 +3148,8 @@
           "url": "https://seatgeek.com/mersiv-tickets/morrison-colorado-red-rocks-amphitheatre-2026-10-23-5-pm/concert/17982952"
         }
       ],
-      "score": 22
+      "score": 22,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Sammy Virji",
@@ -3163,7 +3207,8 @@
           "url": "https://seatgeek.com/sammy-virji-tickets/morrison-colorado-red-rocks-amphitheatre-2026-10-16-6-pm/concert/18071604"
         }
       ],
-      "score": 22
+      "score": 22,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Stardew Valley Symphony",
@@ -3229,7 +3274,8 @@
           "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-10-25-7-30-pm/18106301"
         }
       ],
-      "score": 21
+      "score": 21,
+      "genre": "Gaming/Orchestral"
     },
     {
       "name": "Nurse John",
@@ -3303,7 +3349,8 @@
           "url": "https://seatgeek.com/nurse-john-tickets/comedy/2026-07-19-6-pm/17727881"
         }
       ],
-      "score": 21
+      "score": 21,
+      "genre": "Comedy"
     },
     {
       "name": "Zarna Garg",
@@ -3385,7 +3432,8 @@
           "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-22-7-pm/18025797"
         }
       ],
-      "score": 19
+      "score": 19,
+      "genre": "Comedy"
     },
     {
       "name": "Jackie Hollander",
@@ -3402,7 +3450,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 19
+      "score": 19,
+      "genre": "Comedy"
     },
     {
       "name": "LSDREAM",
@@ -3444,7 +3493,8 @@
           "url": "https://seatgeek.com/griztronics-tickets/george-washington-gorge-amphitheatre-2026-05-23-3-30-am/concert/17902647"
         }
       ],
-      "score": 19
+      "score": 19,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Ravenscoon",
@@ -3470,7 +3520,8 @@
           "url": "https://seatgeek.com/ravenscoon-tickets/morrison-colorado-red-rocks-amphitheatre-2026-03-28-6-pm/concert/17838456"
         }
       ],
-      "score": 19
+      "score": 19,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Jutes",
@@ -3487,7 +3538,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 17
+      "score": 17,
+      "genre": "Pop/Hip-Hop"
     },
     {
       "name": "Atsuko Okatsuka",
@@ -3575,7 +3627,8 @@
           "url": "https://seatgeek.com/atsuko-okatsuka-tickets/comedy/2026-04-15-7-pm/17983653"
         }
       ],
-      "score": 17
+      "score": 17,
+      "genre": "Comedy"
     },
     {
       "name": "Odd Mob",
@@ -3657,7 +3710,8 @@
           "url": "https://seatgeek.com/odd-mob-tickets/new-york-new-york-capital-one-city-parks-foundation-summerstage-2026-07-03-5-30-pm/concert/18033966"
         }
       ],
-      "score": 17
+      "score": 17,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Jade LeMac",
@@ -3739,7 +3793,8 @@
           "url": "https://seatgeek.com/hilary-duff-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2026-07-02-7-pm/concert/18095401"
         }
       ],
-      "score": 17
+      "score": 17,
+      "genre": "Pop"
     },
     {
       "name": "Hemlocke Springs",
@@ -3821,7 +3876,8 @@
           "url": "https://seatgeek.com/hemlocke-springs-tickets/toronto-canada-the-mod-club-2026-06-02-7-pm/concert/18072492"
         }
       ],
-      "score": 17
+      "score": 17,
+      "genre": "Indie Pop"
     },
     {
       "name": "Its Murph",
@@ -3903,7 +3959,8 @@
           "url": "https://seatgeek.com/it-s-murph-tickets/saint-petersburg-florida-jannus-live-2026-05-30-7-pm/concert/18052157"
         }
       ],
-      "score": 17
+      "score": 17,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Liquid Stranger",
@@ -3929,7 +3986,8 @@
           "url": "https://seatgeek.com/liquid-stranger-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-11-6-pm/concert/17912400"
         }
       ],
-      "score": 17
+      "score": 17,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Cloonee",
@@ -3987,7 +4045,8 @@
           "url": "https://seatgeek.com/cloonee-tickets/brooklyn-new-york-brooklyn-army-terminal-2026-08-15-4-pm/concert/18086009"
         }
       ],
-      "score": 17
+      "score": 17,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "MOLIY",
@@ -4004,7 +4063,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 16
+      "score": 16,
+      "genre": "Afropop/R&B"
     },
     {
       "name": "Seven Lions",
@@ -4086,7 +4146,8 @@
           "url": "https://seatgeek.com/seven-lions-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-05-29-7-30-pm/concert/17950733"
         }
       ],
-      "score": 15
+      "score": 15,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Violet Grohl",
@@ -4103,7 +4164,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 14
+      "score": 14,
+      "genre": "Rock"
     },
     {
       "name": "Bob Moses",
@@ -4191,7 +4253,8 @@
           "url": "https://seatgeek.com/bob-moses-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-04-10-7-30-pm/concert/17881422"
         }
       ],
-      "score": 14
+      "score": 14,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Goose",
@@ -4273,7 +4336,8 @@
           "url": "https://seatgeek.com/magnolia-park-tickets/montreal-canada-le-studio-td-2026-04-15-8-pm/concert/17915043"
         }
       ],
-      "score": 12
+      "score": 12,
+      "genre": "Jam/Rock"
     },
     {
       "name": "FentiFriedChicken",
@@ -4290,7 +4354,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 12
+      "score": 12,
+      "genre": "Comedy"
     },
     {
       "name": "Carlita",
@@ -4307,7 +4372,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 12
+      "score": 12,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Proppa",
@@ -4324,7 +4390,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 12
+      "score": 12,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Brunello",
@@ -4341,7 +4408,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 12
+      "score": 12,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "KinAhau",
@@ -4358,7 +4426,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 12
+      "score": 12,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "Febuary",
@@ -4375,7 +4444,8 @@
       "soldOutSnippets": [],
       "upcomingShows": 0,
       "tourDates": [],
-      "score": 12
+      "score": 12,
+      "genre": "R&B"
     },
     {
       "name": "Nate Jackson",
@@ -4457,7 +4527,8 @@
           "url": "https://seatgeek.com/nate-jackson-tickets/comedy/2026-03-21-7-pm/18094614"
         }
       ],
-      "score": 11
+      "score": 11,
+      "genre": "Comedy"
     },
     {
       "name": "The Elovaters",
@@ -4539,7 +4610,8 @@
           "url": "https://seatgeek.com/slightly-stoopid-tickets/chicago-illinois-the-salt-shed-outdoors-2026-07-26-6-30-pm/concert/18102720"
         }
       ],
-      "score": 11
+      "score": 11,
+      "genre": "Reggae/Rock"
     },
     {
       "name": "Tape B",
@@ -4621,7 +4693,8 @@
           "url": "https://seatgeek.com/levity-tickets/indianapolis-indiana-everwise-amphitheater-at-white-river-state-park-2026-07-24-7-pm/concert/18009491"
         }
       ],
-      "score": 11
+      "score": 11,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "INZO",
@@ -4703,7 +4776,8 @@
           "url": "https://seatgeek.com/inzo-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2026-03-15-6-30-pm/concert/17748316"
         }
       ],
-      "score": 11
+      "score": 11,
+      "genre": "DJ/Electronic"
     },
     {
       "name": "La Roux",
@@ -4785,7 +4859,8 @@
           "url": "https://seatgeek.com/hilary-duff-tickets/inglewood-california-kia-forum-2026-07-09-7-pm/concert/18077386"
         }
       ],
-      "score": 7
+      "score": 7,
+      "genre": "Synth Pop"
     },
     {
       "name": "Vincent Mason",
@@ -4867,7 +4942,8 @@
           "url": "https://seatgeek.com/vincent-mason-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2026-04-25-8-pm/concert/17860030"
         }
       ],
-      "score": 7
+      "score": 7,
+      "genre": "Pop"
     }
   ]
 }

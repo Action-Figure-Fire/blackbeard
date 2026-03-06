@@ -216,12 +216,22 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   </div>
   <p style="color:var(--text4);font-size:13px;margin-bottom:6px">Artists most likely to crush their next presale. Scored 0-100 using listener velocity, venue progression, social momentum, and scarcity signals.</p>
   <p style="color:var(--text5);font-size:12px;margin-bottom:12px">🔥 Hot (50+) &nbsp;•&nbsp; ⚡ Rising (30-49) &nbsp;•&nbsp; 📡 Tracking (&lt;30)</p>
-  <div class="filters">
+  <div class="filters" id="score-filters">
     <button class="fbtn active" onclick="filterArtists('all',this)">All</button>
     <button class="fbtn" onclick="filterArtists('hot',this)">🔥 Hot (50+)</button>
     <button class="fbtn" onclick="filterArtists('rising',this)">⚡ Rising (30+)</button>
     <button class="fbtn" onclick="filterArtists('soldout',this)">🎟️ Sold-Out History</button>
     <button class="fbtn" onclick="filterArtists('touring',this)">🗺️ On Tour</button>
+  </div>
+  <div class="filters" id="genre-filters">
+    <button class="fbtn active" onclick="filterGenre('all',this)">All Genres</button>
+    <button class="fbtn" onclick="filterGenre('DJ/Electronic',this)">🎧 DJs / Electronic</button>
+    <button class="fbtn" onclick="filterGenre('Comedy',this)">🎤 Comedy</button>
+    <button class="fbtn" onclick="filterGenre('Pop',this)">🎵 Pop</button>
+    <button class="fbtn" onclick="filterGenre('Rock',this)">🎸 Rock / Punk</button>
+    <button class="fbtn" onclick="filterGenre('Indie',this)">🌿 Indie</button>
+    <button class="fbtn" onclick="filterGenre('Country',this)">🤠 Country</button>
+    <button class="fbtn" onclick="filterGenre('R&B',this)">🎹 R&B / Soul</button>
   </div>
   <div id="emerging-cards"></div>
 </div>
@@ -584,7 +594,7 @@ function buildEmerging(a, id) {
     name: a.name,
     score: score,
     tier: tier,
-    genre: a.genre || (a.tier === 'A' ? 'Watchlist Tier A' : 'Watchlist'),
+    genre: a.genre || null,
     venueSize: a.upcomingShows ? `${a.upcomingShows} upcoming shows` : null,
     streams: ml ? `${ml} monthly Spotify listeners` + (ig ? ` • IG: ${ig}` : '') + (tt ? ` • TikTok: ${tt}` : '') : null,
     scarcity: a.soldOutMentions ? `${a.soldOutMentions} sold-out signal${a.soldOutMentions>1?'s':''} detected via Brave Search` : null,
@@ -626,6 +636,8 @@ function renderPresales() {
 
 /* ── Emerging Artists ── */
 let allArtists = [];
+let activeScoreFilter = 'all';
+let activeGenreFilter = 'all';
 
 function renderEmerging(artists) {
   const container = document.getElementById('emerging-cards');
@@ -643,7 +655,10 @@ function renderEmerging(artists) {
     else group = '📡 Tracking';
 
     if (group !== lastGroup) {
-      html += `<div class="section-head"><h2 style="font-size:14px">${group}</h2></div>`;
+      html += `<div class="section-head"><h2 style="font-size:14px">${group}</h2><span class="badge">${artists.filter(x => {
+        const s = x.score||0;
+        return group === '🔥 Hot' ? s >= 50 : group === '⚡ Rising' ? (s >= 30 && s < 50) : s < 30;
+      }).length} artists</span></div>`;
       lastGroup = group;
     }
     html += buildEmerging(a, 'em-' + i);
@@ -652,15 +667,42 @@ function renderEmerging(artists) {
   container.innerHTML = html;
 }
 
-function filterArtists(type, btn) {
-  document.querySelectorAll('.fbtn').forEach(b => b.classList.remove('active'));
-  if (btn) btn.classList.add('active');
+function applyFilters() {
   let filtered = allArtists;
-  if (type === 'hot') filtered = allArtists.filter(a => (a.score||0) >= 50);
-  else if (type === 'rising') filtered = allArtists.filter(a => (a.score||0) >= 30);
-  else if (type === 'soldout') filtered = allArtists.filter(a => (a.soldOutMentions||0) > 0);
-  else if (type === 'touring') filtered = allArtists.filter(a => (a.upcomingShows||0) > 0);
+
+  // Score filter
+  if (activeScoreFilter === 'hot') filtered = filtered.filter(a => (a.score||0) >= 50);
+  else if (activeScoreFilter === 'rising') filtered = filtered.filter(a => (a.score||0) >= 30);
+  else if (activeScoreFilter === 'soldout') filtered = filtered.filter(a => (a.soldOutMentions||0) > 0);
+  else if (activeScoreFilter === 'touring') filtered = filtered.filter(a => (a.upcomingShows||0) > 0);
+
+  // Genre filter
+  if (activeGenreFilter !== 'all') {
+    filtered = filtered.filter(a => {
+      const g = (a.genre || '').toLowerCase();
+      const f = activeGenreFilter.toLowerCase();
+      return g.includes(f) || (f === 'rock' && (g.includes('rock') || g.includes('punk') || g.includes('metal'))) ||
+             (f === 'indie' && (g.includes('indie') || g.includes('folk') || g.includes('americana'))) ||
+             (f === 'r&b' && (g.includes('r&b') || g.includes('soul') || g.includes('afropop'))) ||
+             (f === 'pop' && g.includes('pop') && !g.includes('afropop'));
+    });
+  }
+
   renderEmerging(filtered);
+}
+
+function filterArtists(type, btn) {
+  document.querySelectorAll('#score-filters .fbtn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  activeScoreFilter = type;
+  applyFilters();
+}
+
+function filterGenre(type, btn) {
+  document.querySelectorAll('#genre-filters .fbtn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  activeGenreFilter = type;
+  applyFilters();
 }
 
 /* ── Init ── */
