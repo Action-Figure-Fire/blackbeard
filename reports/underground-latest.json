@@ -1,47 +1,19 @@
 {
-  "timestamp": "2026-03-05T09:00:36.881Z",
+  "timestamp": "2026-03-06T09:00:36.916Z",
   "events": [
     {
-      "eventName": "FIFA World Cup 2026: Gianni Infantino lie, Tickets, availability, prices surprise sale, sold out cla",
-      "category": "other",
-      "score": 8,
-      "signals": [
-        "SOLD OUT",
-        "underground"
-      ],
-      "text": "In a stunning backflip, <strong>FIFA last week launched a sudden campaign to sell tickets for at least 64 of the tournament&#x27;s 104 matches this June and July</strong>, including high-profile fixtu",
-      "url": "https://www.nine.com.au/sport/football/fifa-world-cup-2026-tickets-availability-gianni-infantino-prices-surprise-sale-sold-out-claims-20260303-p5o738.html",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-03T02:49:23"
-    },
-    {
-      "eventName": "Birmingham Live",
+      "eventName": "Are The Players Championship 2026 tickets sold out? Availability and price explored",
       "category": "other",
       "score": 7,
       "signals": [
         "SOLD OUT",
         "small venue"
       ],
-      "text": "The slim fit tracksuit features an embroidered club crest and adidas Trefoil logo on the chest but many sizes are already sold out at time of writing. The Aston Villa adidas Originals Crew Sweater (£7",
-      "url": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-adidas-originals-collection-33502356",
+      "text": "For the second round of the event, scheduled to take place on Friday, March 13, the Stadium Pass is available for the same amount as that of Thursday, and the <strong>Intracoastal Club tickets are ava",
+      "url": "https://www.sportskeeda.com/golf/news-are-the-players-championship-2026-tickets-sold-out-availability-price-explored",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-27T14:22:31"
-    },
-    {
-      "eventName": "ERT Open",
-      "category": "other",
-      "score": 7,
-      "signals": [
-        "SOLD OUT",
-        "small venue"
-      ],
-      "text": "SENSER For the 1st time in 12 years Σάββατο 28 Μαρτίου 2026 An Club (Σολωμού 13-15, Εξάρχεια) Special guests: Kidney Black Doors open: 20.30 Τιμές εισιτηρίων: <strong>€24 (early birds - sold out)</str",
-      "url": "https://www.ertopen.com/index.php/ekdiloseis/item/79312-senser-savvato-28-martiou-2026-an-club",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-03T08:27:17"
+      "published": "2026-03-06T04:48:45"
     },
     {
       "eventName": "If Ticketmaster is saying that the event is sold out at Petco Park in San Diego, why does it also sa",
@@ -86,6 +58,20 @@
       "published": "2026-03-02T17:38:52"
     },
     {
+      "eventName": "concert tickets",
+      "category": "other",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "Best strategy now would be to see what tickets are day of online (I like tick pick because if includes fees/price you see is price you pay for tickets) then if they are not sold out or shooting sky hi",
+      "url": "https://www.reddit.com/r/fortwayne/comments/1rh94e0/concert_tickets/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-02-28T17:53:51"
+    },
+    {
       "eventName": "Heartbroken - Our showing was cancelled",
       "category": "other",
       "score": 6,
@@ -128,20 +114,6 @@
       "published": "2026-02-27T20:57:12"
     },
     {
-      "eventName": "concert tickets",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "Best strategy now would be to see what tickets are day of online (I like tick pick because if includes fees/price you see is price you pay for tickets) then if they are not sold out or shooting sky hi",
-      "url": "https://www.reddit.com/r/fortwayne/comments/1rh94e0/concert_tickets/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-28T17:53:51"
-    },
-    {
       "eventName": "260304 Twitter Update - TWICE <THIS IS FOR> WORLD TOUR IN MONTREAL Montreal ONCE, you had us speechl",
       "category": "other",
       "score": 6,
@@ -156,17 +128,17 @@
       "published": "2026-03-04T04:47:00"
     },
     {
-      "eventName": "Broadway Shows Sold-Out This Month: March 2026",
+      "eventName": "FIFA World Cup 2026: Gianni Infantino lie, Tickets ...",
       "category": "other",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "What Broadway Shows Have Sold Out Of All Their Tickets This Month: Sold-Out Shows For March 2026",
-      "url": "https://www.nytix.com/news/what-broadway-shows-have-sold-all-tickets-this-month",
+      "text": "<strong>Just days after FIFA president Gianni Infantino boasted that every 2026 World Cup match was &quot;already sold out&quot;, the governing body suddenly pivoted</strong> — a move that suggests th",
+      "url": "https://www.nine.com.au/sport/football/fifa-world-cup-2026-tickets-availability-gianni-infantino-prices-surprise-sale-sold-out-claims-20260303-p5o738.html",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-26T22:24:21"
+      "published": "2026-03-03T02:49:23"
     },
     {
       "eventName": "syracuse.com",
@@ -182,6 +154,19 @@
       "published": "2026-02-27T19:22:02"
     },
     {
+      "eventName": "The Forum",
+      "category": "other",
+      "score": 5,
+      "signals": [
+        "SOLD OUT"
+      ],
+      "text": "However, after years of following ... Eilish and really wanted to see her, but <strong>most tickets sold out immediately, and the remaining [tickets] were extremely expensive, all over $500</strong>,”",
+      "url": "https://readtheforum.org/28328/arts/the-cost-of-a-concert-how-fans-are-being-priced-out/",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-04T01:14:49"
+    },
+    {
       "eventName": "Star-Studded Lineup For Billy Joel Tribute Concert At Carnegie Hall Revealed",
       "category": "other",
       "score": 5,
@@ -193,6 +178,32 @@
       "source": "web",
       "matchedArtist": null,
       "published": "2026-02-27T17:53:54"
+    },
+    {
+      "eventName": "Legendary punk band The Undertones to perform at Bristol Sounds this year | Bristol Live",
+      "category": "indie/rock",
+      "score": 5,
+      "signals": [
+        "SOLD OUT"
+      ],
+      "text": "With big demand for OMD’s date, tickets are now limited and expected to sell out. Tickets can be purchased here. <strong>Hospitality tickets for this date are now sold out</strong>. ... The full Brist",
+      "url": "https://www.bristolpost.co.uk/whats-on/music-nightlife/legendary-punk-band-undertones-perform-10849023",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-05T12:17:51"
+    },
+    {
+      "eventName": "Travel to the Fallas with Renfe at unbeatable prices",
+      "category": "electronic",
+      "score": 5,
+      "signals": [
+        "SOLD OUT"
+      ],
+      "text": "The national operator has launched ... starting from just €9 each way. <strong>Tickets can be purchased until 9 March (or until sold out) for travel between 1 and 19 March, in Standard Class</strong>.",
+      "url": "https://www.trainvelling.com/en/news/travel-to-the-fallas-with-renfe-at-unbeatable-prices/",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-03T11:55:37"
     },
     {
       "eventName": "CashorTrade",
@@ -221,17 +232,17 @@
       "published": "2026-03-03T16:39:23"
     },
     {
-      "eventName": "Comedy for a Cause - Lois Law Firm",
+      "eventName": "Houston Nightlife, Comedy & Date Nights This Week: March 2-8, 2026 | 365 Houston",
       "category": "comedy",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "WHERE: LoisLAB, 66 State Route 17N, Paramus, NJ, 07652 WHEN: Thursday, March 5th – Cocktail hour 5:30pm to 6:30pm, Show starts 6:45pm (doors close at 6:30pm!) WHAT: Food, Drinks, &amp; Comedy! To rese",
-      "url": "https://loisllc.com/event/lois-laughs-2026-comedy-for-a-cause/",
+      "text": "Comedian Akaash Singh at White Oak Music Hall – Known for hosting the Flagrant podcast with Andrew Schulz, the powerhouse comic plays his final—not sold out—show in the Near Northside. 9:30pm. Get tic",
+      "url": "https://365thingsinhouston.com/houston-nightlife-comedy-date-night-this-week-march-12-8-2026/",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-03-03T16:16:46"
+      "published": "2026-03-06T01:07:11"
     },
     {
       "eventName": "‘Tonight’s Special Comedy Special’: Arts council’s most sold out 2025 show! | The Arts | yesweekly.c",
@@ -245,32 +256,6 @@
       "source": "web",
       "matchedArtist": null,
       "published": "2026-03-04T16:32:55"
-    },
-    {
-      "eventName": "2/25 Los Angeles Rave Itinerary",
-      "category": "electronic",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "There is extremely limited capacity for this one! Grab your tickets now and get ready for some house &amp; tech house, and more! 🚀 · <strong>First two tiers of tickets are sold out, get GA tickets he",
-      "url": "https://www.thelaraver.com/p/2-25-los-angeles-rave-itinerary",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-26T01:03:08"
-    },
-    {
-      "eventName": "Machu Picchu Entrance Tickets 2026 — Official Booking",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "Available: {{ circuit.available ... ⚠️ Availability Update (Last updated: March 4, 2026): <strong>Circuit 2 (Routes 2A and 2B) is currently sold out through May 2026</strong>....",
-      "url": "https://www.machu-picchu.org/tickets/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-04T00:04:05"
     },
     {
       "eventName": "\"We Are Naturally Mortified At The Issues And Inconvenience Raised For Our Fans\"",

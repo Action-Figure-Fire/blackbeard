@@ -1,20 +1,19 @@
 {
-  "scanDate": "2026-03-05",
-  "scanTime": "2026-03-05T11:01:47.309Z",
+  "scanDate": "2026-03-06",
+  "scanTime": "2026-03-06T11:01:43.210Z",
   "playlistsScanned": 14,
   "blogQueriesUsed": 5,
   "braveCallsUsed": 55,
-  "totalCandidates": 140,
+  "totalCandidates": 158,
   "enrichedCount": 25,
   "artists": [
     {
       "name": "Sonny Fodera",
       "playlists": [
         "Dance Rising",
-        "New Music Friday",
         "mint (Electronic)"
       ],
-      "playlistCount": 3,
+      "playlistCount": 2,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
@@ -82,15 +81,130 @@
       "upcomingShows": 0,
       "tourDates": [],
       "enrichedAt": "2026-03-04T02:47:20.341Z",
-      "risingStarScore": 48
+      "risingStarScore": 43
+    },
+    {
+      "name": "Olivia Dean",
+      "playlists": [
+        "Pop Rising",
+        "Are & Be"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 1,
+      "blogSources": [
+        "1minutecritic.com"
+      ],
+      "onWatchlist": false,
+      "source": "playlist+blog",
+      "monthlyListeners": 57200000,
+      "spotifyFollowers": 3300000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 6,
+      "soldOutSnippets": [
+        {
+          "title": "Olivia Dean Reacts After 2026 Tour Sells Out Presale Tickets, Shows Added Due to Demand | Music, Olivia Dean, Shopping, Tickets | Celebrity News and Gossip | Entertainment, Photos and Videos | Just Jared",
+          "snippet": "The 26-year-old British singer, who has a hit song right now with “Man I Need,” just launched the pre-sale for her upcoming 2026 The Art of Loving Tou",
+          "url": "https://www.justjared.com/2025/11/18/olivia-dean-reacts-after-2026-tour-sells-out-presale-tickets-shows-added-due-to-demand/"
+        },
+        {
+          "title": "JUST ANNOUNCED: OLIVIA DEAN | Target Center",
+          "snippet": "Previously this year, Olivia opened for Sabrina Carpenter on her ‘Short n’ Sweet’ tour, including five sold-out nights at Madison Square Garden. ... S",
+          "url": "https://www.targetcenter.com/news/detail/just-announced-olivia-dean"
+        },
+        {
+          "title": "Presale tickets for Olivia Dean's 2026 tour quickly sold out ...",
+          "snippet": "We cannot provide a description for this page right now",
+          "url": "https://www.facebook.com/Noisey/posts/presale-tickets-for-olivia-deans-2026-tour-quickly-sold-out-on-november-18-but-a/1208521757813750/"
+        },
+        {
+          "title": "Four places left to buy Olivia Dean tour tickets after Albert Hall gig 'sold out in less than a minute'",
+          "snippet": "This year, Olivia is taking her new music on the road with huge performances lined up in Manchester, London, and Glasgow. ... The 26-year-old is also ",
+          "url": "https://www.ladbible.com/entertainment/music/olivia-dean-art-of-loving-albert-hall-manchester-resale-tickets-897587-20260202"
+        },
+        {
+          "title": "r/ukpopculture on Reddit: Theory About Olivia Dean's 4 sold out O2 Arena shows",
+          "snippet": "TL;DR: A combination of &quot;TikTok marketing&quot;, medium sized gig venueus going extinct, and worrying econmoic trends means that there are a lot ",
+          "url": "https://www.reddit.com/r/ukpopculture/comments/1n5mrk9/theory_about_olivia_deans_4_sold_out_o2_arena/"
+        },
+        {
+          "title": "Olivia Dean — The Art Of Loving | Co-op Live",
+          "snippet": "And whether it’s a Mercury Prize and 3 BRIT Awards nominations or soundtracking the latest Bridget Jones’ fi lm Mad About The Boy, a whole host of vir",
+          "url": "https://www.cooplive.com/events/olivia-dean-ywql"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "And whether it’s a Mercury Prize and 3 BRIT Awards nominations or soundtracking the latest Bridget Jones’ fi lm Mad About The Boy, a whole host of vir",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 65,
+      "vetTier": "red_hot",
+      "vetSignals": [
+        "🔥 6 sold-out mentions",
+        "🎧 57.2M Spotify listeners",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 30,
+      "numbersScore": 15,
+      "momentumScore": 20,
+      "upcomingShows": 10,
+      "tourDates": [
+        {
+          "title": "Olivia Dean",
+          "date": "2026-07-11",
+          "venue": "Chase Center",
+          "city": "San Francisco, CA",
+          "capacity": 18064,
+          "url": "https://seatgeek.com/olivia-dean-tickets/san-francisco-california-chase-center-2026-07-10-8-pm/concert/17906859"
+        },
+        {
+          "title": "Olivia Dean",
+          "date": "2026-07-12",
+          "venue": "Chase Center",
+          "city": "San Francisco, CA",
+          "capacity": 18064,
+          "url": "https://seatgeek.com/olivia-dean-tickets/san-francisco-california-chase-center-2026-07-11-8-pm/concert/17916631"
+        },
+        {
+          "title": "Olivia Dean",
+          "date": "2026-07-15",
+          "venue": "Crypto.com Arena",
+          "city": "Los Angeles, CA",
+          "capacity": 20000,
+          "url": "https://seatgeek.com/olivia-dean-tickets/los-angeles-california-crypto-com-arena-2026-07-14-8-pm/concert/17906881"
+        },
+        {
+          "title": "Olivia Dean",
+          "date": "2026-07-16",
+          "venue": "Crypto.com Arena",
+          "city": "Los Angeles, CA",
+          "capacity": 20000,
+          "url": "https://seatgeek.com/olivia-dean-tickets/los-angeles-california-crypto-com-arena-2026-07-15-8-pm/concert/17916633"
+        },
+        {
+          "title": "Olivia Dean",
+          "date": "2026-07-19",
+          "venue": "MGM Grand Garden Arena",
+          "city": "Las Vegas, NV",
+          "capacity": 17157,
+          "url": "https://seatgeek.com/olivia-dean-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-07-18-8-pm/concert/17906884"
+        }
+      ],
+      "enrichedAt": "2026-03-04T11:01:09.547Z",
+      "risingStarScore": 40
     },
     {
       "name": "Bella Kay",
       "playlists": [
+        "Pop Rising",
         "All New Indie",
         "Pollen"
       ],
-      "playlistCount": 2,
+      "playlistCount": 3,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
@@ -138,7 +252,7 @@
       "upcomingShows": 0,
       "tourDates": [],
       "enrichedAt": "2026-03-04T02:47:08.300Z",
-      "risingStarScore": 63
+      "risingStarScore": 68
     },
     {
       "name": "Ralph Castelli",
@@ -248,10 +362,9 @@
       "name": "Jackie Hollander",
       "playlists": [
         "Dance Rising",
-        "New Music Friday",
         "mint (Electronic)"
       ],
-      "playlistCount": 3,
+      "playlistCount": 2,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": true,
@@ -295,172 +408,135 @@
       "upcomingShows": 0,
       "tourDates": [],
       "enrichedAt": "2026-03-04T02:47:26.200Z",
-      "risingStarScore": 55
+      "risingStarScore": 50
     },
     {
-      "name": "Elmiene",
+      "name": "Danny L Harle",
       "playlists": [
-        "New Music Friday",
-        "Are & Be"
+        "Pop Rising",
+        "mint (Electronic)"
       ],
       "playlistCount": 2,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
       "source": "playlist",
-      "monthlyListeners": 2000000,
+      "monthlyListeners": 3000000,
       "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 4,
+      "soldOutSnippets": [
+        {
+          "title": "Danny L Harle - Sold Out, True Blue, Toxe (DJ) Tickets, Friday, ...",
+          "snippet": "Eventbrite - Elsewhere presents Danny L Harle - Sold Out, True Blue, Toxe (DJ) - <strong>Friday, February 27, 2026</strong> at Elsewhere - The Hall, B",
+          "url": "https://www.eventbrite.com/e/danny-l-harle-sold-out-tickets-1977734665624"
+        },
+        {
+          "title": "Danny L Harle - Sold Out, True Blue, Toxe (DJ)",
+          "snippet": "Danny L Harle performing on <strong>Friday February 27, 2026</strong> at The Hall from 7:00 PM at Elsewhere, Brooklyn NY",
+          "url": "https://www.elsewhere.club/events/1977734665624"
+        },
+        {
+          "title": "Danny L Harle - Sold Out Tickets, Fri, Feb 27, 2026 at 7:00 PM | Eventbrite",
+          "snippet": "Eventbrite - Elsewhere presents Danny L Harle - Sold Out - <strong>Friday, February 27, 2026</strong> at Elsewhere - The Hall, Brooklyn, NY. Find even",
+          "url": "https://www.eventbrite.com/e/danny-l-harle-sold-out-tickets-1977734665624?aff=ebdssbdestsearch"
+        },
+        {
+          "title": "Danny L Harle - Sold Out Tickets, Friday, Feb 27 from 7 pm to 10:30 pm | Eventbrite",
+          "snippet": "Eventbrite - Elsewhere presents Danny L Harle - Sold Out - <strong>Friday, February 27, 2026</strong> at Elsewhere - The Hall, Brooklyn, NY. Find even",
+          "url": "https://www.eventbrite.com/e/danny-l-harle-sold-out-tickets-1977734665624?aff=ebdssbcategorybrowse"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 55,
+      "vetTier": "red_hot",
+      "vetSignals": [
+        "🔥 4 sold-out mentions",
+        "🎧 3.0M Spotify listeners",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 30,
+      "numbersScore": 15,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-04T02:47:41.449Z",
+      "risingStarScore": 43
+    },
+    {
+      "name": "Malcolm Todd",
+      "playlists": [
+        "Pop Rising",
+        "All New Indie"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": 1100000,
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
       "soldOutMentions": 2,
       "soldOutSnippets": [
         {
-          "title": "Elmiene Tickets, Concerts & 2026 Tour Dates",
-          "snippet": "Tickets to Elmiene shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets av",
-          "url": "https://www.eventticketscenter.com/elmiene-tickets/49323/c"
+          "title": "Malcolm Todd - SOLD OUT!!!",
+          "snippet": "<strong>May 6, 2025 @ 7:00pm to 11:59pm</strong> - When Malcolm Todd graduated high school in 2022, he told his parents he would be taking a gap year ",
+          "url": "https://www.jointherevolution.net/concerts/malcolm-todd/"
         },
         {
-          "title": "Are Concerts Losing Popularity in 2025? The Truth Behind the Trends",
-          "snippet": "But swing the spotlight to indie and mid-level artists, and the vibe changes. Great musicians. Critically adored albums. But not enough devoted fans t",
-          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+          "title": "Malcolm Todd: The Wholesome Rockstar Tour - Tuesday June 3rd, 2025 At The Complex Salt Lake City, Utah Events",
+          "snippet": "Tickets purchased for resale are routinely canceled, meaning that a ticket that was sold to you by a third party could be invalid.** -- S&amp;S Presen",
+          "url": "https://www.thecomplexslc.com/event-2649.htm"
         }
       ],
-      "venueUpgrades": 0,
+      "venueUpgrades": 1,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "But swing the spotlight to indie and mid-level artists, and the vibe changes. Great musicians. Critically adored albums. But not enough devoted fans t",
+      "viralMoment": "Handsome Tours &amp; Laneway Presents ... Todd in 2026! Los Angeles-born songwriter Malcolm Todd has gone from scooping ice cream to racking up millio",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 53,
+      "vetScore": 52,
       "vetTier": "red_hot",
       "vetSignals": [
         "🔥 2 sold-out mentions",
-        "🎧 2.0M Spotify listeners",
+        "🏟️ Venue upgrade detected",
         "📱 Viral moment detected",
         "📋 2 editorial playlists"
       ],
-      "demandScore": 18,
-      "numbersScore": 15,
+      "demandScore": 32,
+      "numbersScore": 0,
       "momentumScore": 20,
-      "upcomingShows": 20,
+      "upcomingShows": 1,
       "tourDates": [
         {
-          "title": "Elmiene",
-          "date": "2026-04-30",
-          "venue": "Saint Andrews Hall",
-          "city": "Detroit, MI",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.3764194223,
-          "url": "https://seatgeek.com/elmiene-tickets/detroit-michigan-saint-andrews-hall-2026-04-30-7-pm/concert/18032411"
-        },
-        {
-          "title": "Elmiene",
-          "date": "2026-05-02",
-          "venue": "House of Blues Chicago",
-          "city": "Chicago, IL",
-          "capacity": 1300,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.4291581371,
-          "url": "https://seatgeek.com/elmiene-tickets/chicago-illinois-house-of-blues-chicago-2026-05-01-7-pm/concert/18032412"
-        },
-        {
-          "title": "Elmiene",
-          "date": "2026-05-03",
-          "venue": "The Opera House - Toronto",
-          "city": "Toronto, ON",
-          "capacity": 950,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.3314688393,
-          "url": "https://seatgeek.com/elmiene-tickets/toronto-canada-the-opera-house-toronto-2026-05-03-7-pm/concert/18032441"
-        },
-        {
-          "title": "Elmiene",
-          "date": "2026-05-05",
-          "venue": "Brooklyn Paramount",
-          "city": "Brooklyn, NY",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.3571353067,
-          "url": "https://seatgeek.com/elmiene-tickets/brooklyn-new-york-brooklyn-paramount-2026-05-05-7-pm/concert/18102599"
-        },
-        {
-          "title": "Elmiene",
-          "date": "2026-05-06",
-          "venue": "Brooklyn Paramount",
-          "city": "Brooklyn, NY",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.4179168438,
-          "url": "https://seatgeek.com/elmiene-tickets/brooklyn-new-york-brooklyn-paramount-2026-05-06-7-pm/concert/18032410"
-        },
-        {
-          "title": "Elmiene",
-          "date": "2026-05-08",
-          "venue": "The Fillmore - Silver Spring",
-          "city": "Silver Spring, MD",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.4333807431,
-          "url": "https://seatgeek.com/elmiene-tickets/silver-spring-maryland-the-fillmore-silver-spring-2026-05-07-8-pm/concert/18032413"
-        },
-        {
-          "title": "Elmiene",
-          "date": "2026-05-10",
-          "venue": "Theatre of Living Arts",
-          "city": "Philadelphia, PA",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.377735637,
-          "url": "https://seatgeek.com/elmiene-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2026-05-09-8-pm/concert/18032415"
-        },
-        {
-          "title": "Elmiene",
-          "date": "2026-05-12",
-          "venue": "The Underground at The Fillmore - Charlotte",
-          "city": "Charlotte, NC",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.3753055544,
-          "url": "https://seatgeek.com/elmiene-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2026-05-11-8-pm/concert/18032414"
+          "title": "Malcolm Todd",
+          "date": "2026-03-25",
+          "venue": "Bryce Jordan Center",
+          "city": "University Park, PA",
+          "capacity": 16000,
+          "url": "https://seatgeek.com/malcolm-todd-tickets/university-park-pennsylvania-bryce-jordan-center-2026-03-24-8-pm/concert/18083988"
         }
       ],
-      "enrichedAt": "2026-03-05T11:01:43.369Z",
-      "risingStarScore": 39
+      "enrichedAt": "2026-03-04T11:01:11.387Z",
+      "risingStarScore": 49
     },
     {
       "name": "Silva Bumpa",
       "playlists": [
         "Dance Rising",
-        "New Music Friday",
         "mint (Electronic)"
       ],
-      "playlistCount": 3,
+      "playlistCount": 2,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
@@ -519,16 +595,62 @@
         }
       ],
       "enrichedAt": "2026-03-04T02:47:24.002Z",
-      "risingStarScore": 54
+      "risingStarScore": 49
+    },
+    {
+      "name": "ANOTR",
+      "playlists": [
+        "Dance Rising",
+        "New Music Friday",
+        "mint (Electronic)"
+      ],
+      "playlistCount": 3,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": 3900000,
+      "spotifyFollowers": 201107,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
+          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
+          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Cultural moments: Taylor Swift&#x27;s Eras Tour became a social phenomenon beyond just a concert · Cross-generational appeal: Acts like Billy Joel and",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 52,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "🎧 3.9M Spotify listeners",
+        "📱 Viral moment detected",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 15,
+      "momentumScore": 25,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:06.015Z",
+      "risingStarScore": 40
     },
     {
       "name": "BigXthaPlug",
       "playlists": [
-        "New Music Friday",
         "Most Necessary",
         "Rap Caviar"
       ],
-      "playlistCount": 3,
+      "playlistCount": 2,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
@@ -606,111 +728,7 @@
         }
       ],
       "enrichedAt": "2026-03-04T02:47:29.922Z",
-      "risingStarScore": 44
-    },
-    {
-      "name": "GENA",
-      "playlists": [
-        "Rock Rising",
-        "New Music Friday"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "monthlyListeners": 20,
-      "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "youtubeSubscribers": null,
-      "soldOutMentions": 2,
-      "soldOutSnippets": [
-        {
-          "title": "Belarusians are snapping up tickets for concerts of Gen Z artist Vanya Dmitrienko from Krasnoyarsk, not only in Minsk but also in the regions",
-          "snippet": "It all started on <strong>December 31, 2025</strong> – that&#x27;s when Dmitrienko announced he would perform in Minsk&#x27;s Palace of Sports in Apri",
-          "url": "https://nashaniva.com/en/389189"
-        },
-        {
-          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
-          "snippet": "The newly added dates include <strong>April 28 at Raymond James Stadium in Tampa, complementing shows on April 25 and 26, and May 19 at Stanford Stadi",
-          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
-        }
-      ],
-      "venueUpgrades": 0,
-      "addedDates": 1,
-      "bigSingle": null,
-      "viralMoment": "Megan Rapinoe Says Trump ‘Used’ U.S. Men’s Hockey Team During Viral Phone Call ... View post: 1971 Hit Reached No. 1 55 Years Ago Today — Five Months ",
-      "albumCount": null,
-      "latestRelease": null,
-      "vetScore": 50,
-      "vetTier": "red_hot",
-      "vetSignals": [
-        "🔥 2 sold-out mentions",
-        "🎧 0.0M Spotify listeners",
-        "📱 Viral moment detected",
-        "📅 Added dates due to demand",
-        "📋 2 editorial playlists"
-      ],
-      "demandScore": 30,
-      "numbersScore": 0,
-      "momentumScore": 20,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "enrichedAt": "2026-03-04T11:01:34.044Z",
-      "risingStarScore": 50
-    },
-    {
-      "name": "svn4vr",
-      "playlists": [
-        "Rock Rising",
-        "Pollen"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "monthlyListeners": 138000,
-      "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "youtubeSubscribers": null,
-      "soldOutMentions": 2,
-      "soldOutSnippets": [
-        {
-          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
-          "snippet": "<strong>BTS World Tour Arirang 2026</strong> tickets sold out instantly during pre-sale as ARMYs flooded booking platforms worldwide. BigHit Music has",
-          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
-        },
-        {
-          "title": "Mastering Anniversary Event Campaigns in 2026: Turning Milestones into Sold-Out Celebrations | Ticket Fairy Promoter Blog",
-          "snippet": "Supercharge your event’s revenue in 2026 with smart upselling strategies! Learn how festivals &amp; concerts worldwide boost per-attendee spend throug",
-          "url": "https://www.ticketfairy.com/blog/mastering-anniversary-event-campaigns-in-2026-turning-milestones-into-sold-out-celebrations"
-        }
-      ],
-      "venueUpgrades": 0,
-      "addedDates": 0,
-      "bigSingle": null,
-      "viralMoment": "Megan Rapinoe Says Trump ‘Used’ U.S. Men’s Hockey Team During Viral Phone Call ... View post: 1971 Hit Reached No. 1 55 Years Ago Today — Five Months ",
-      "albumCount": null,
-      "latestRelease": null,
-      "vetScore": 50,
-      "vetTier": "red_hot",
-      "vetSignals": [
-        "🔥 2 sold-out mentions",
-        "🎧 0.1M Spotify listeners",
-        "📱 Viral moment detected",
-        "📱 Viral moment detected",
-        "📋 2 editorial playlists"
-      ],
-      "demandScore": 22,
-      "numbersScore": 8,
-      "momentumScore": 20,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "enrichedAt": "2026-03-04T11:01:37.814Z",
-      "risingStarScore": 50
+      "risingStarScore": 39
     },
     {
       "name": "Elujay",
@@ -766,6 +784,98 @@
       "tourDates": [],
       "enrichedAt": "2026-03-04T11:01:47.014Z",
       "risingStarScore": 50
+    },
+    {
+      "name": "Sarah Kinsley",
+      "playlists": [
+        "Pop Rising",
+        "All New Indie",
+        "Pollen"
+      ],
+      "playlistCount": 3,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": 700000,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "r/sarahkinsley",
+          "snippet": "It&#x27;s sold out (didn&#x27;t even realize it was being sold till now tbh :&#x27;). I have the signed Escaper vinyl and I was hoping to start a lil ",
+          "url": "https://www.reddit.com/r/sarahkinsley/"
+        },
+        {
+          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
+          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
+          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 49,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "🎧 0.7M Spotify listeners",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 22,
+      "numbersScore": 12,
+      "momentumScore": 15,
+      "upcomingShows": 10,
+      "tourDates": [
+        {
+          "title": "Sarah Kinsley",
+          "date": "2026-03-26",
+          "venue": "The Crocodile",
+          "city": "Seattle, WA",
+          "capacity": 0,
+          "url": "https://seatgeek.com/sarah-kinsley-tickets/seattle-washington-the-crocodile-2026-03-25-8-pm/concert/18087166"
+        },
+        {
+          "title": "Sarah Kinsley with girlpuppy",
+          "date": "2026-03-27",
+          "venue": "Hollywood Theatre - Vancouver",
+          "city": "Vancouver, BC",
+          "capacity": 0,
+          "url": "https://seatgeek.com/sarah-kinsley-tickets/vancouver-canada-hollywood-theatre-vancouver-2026-03-26-7-pm/concert/17939776"
+        },
+        {
+          "title": "Sarah Kinsley",
+          "date": "2026-03-29",
+          "venue": "Wonder Ballroom",
+          "city": "Portland, OR",
+          "capacity": 0,
+          "url": "https://seatgeek.com/sarah-kinsley-tickets/portland-oregon-wonder-ballroom-2026-03-28-8-pm/concert/18033809"
+        },
+        {
+          "title": "Sarah Kinsley with girlpuppy",
+          "date": "2026-03-31",
+          "venue": "August Hall",
+          "city": "San Francisco, CA",
+          "capacity": 0,
+          "url": "https://seatgeek.com/sarah-kinsley-tickets/san-francisco-california-august-hall-2026-03-30-8-pm/concert/17939541"
+        },
+        {
+          "title": "Sarah Kinsley",
+          "date": "2026-04-01",
+          "venue": "The Fonda Theatre",
+          "city": "Los Angeles, CA",
+          "capacity": 0,
+          "url": "https://seatgeek.com/sarah-kinsley-tickets/los-angeles-california-the-fonda-theatre-2026-03-31-8-30-pm/concert/17969270"
+        }
+      ],
+      "enrichedAt": "2026-03-04T02:47:10.123Z",
+      "risingStarScore": 44
     },
     {
       "name": "redveil",
@@ -859,105 +969,13 @@
       "risingStarScore": 39
     },
     {
-      "name": "Sarah Kinsley",
-      "playlists": [
-        "All New Indie",
-        "Pollen"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "monthlyListeners": 700000,
-      "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "youtubeSubscribers": null,
-      "soldOutMentions": 2,
-      "soldOutSnippets": [
-        {
-          "title": "r/sarahkinsley",
-          "snippet": "It&#x27;s sold out (didn&#x27;t even realize it was being sold till now tbh :&#x27;). I have the signed Escaper vinyl and I was hoping to start a lil ",
-          "url": "https://www.reddit.com/r/sarahkinsley/"
-        },
-        {
-          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
-          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
-          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
-        }
-      ],
-      "venueUpgrades": 0,
-      "addedDates": 0,
-      "bigSingle": null,
-      "viralMoment": null,
-      "albumCount": null,
-      "latestRelease": null,
-      "vetScore": 49,
-      "vetTier": "warm",
-      "vetSignals": [
-        "🔥 2 sold-out mentions",
-        "🎧 0.7M Spotify listeners",
-        "📋 3 Spotify editorial playlists"
-      ],
-      "demandScore": 22,
-      "numbersScore": 12,
-      "momentumScore": 15,
-      "upcomingShows": 10,
-      "tourDates": [
-        {
-          "title": "Sarah Kinsley",
-          "date": "2026-03-26",
-          "venue": "The Crocodile",
-          "city": "Seattle, WA",
-          "capacity": 0,
-          "url": "https://seatgeek.com/sarah-kinsley-tickets/seattle-washington-the-crocodile-2026-03-25-8-pm/concert/18087166"
-        },
-        {
-          "title": "Sarah Kinsley with girlpuppy",
-          "date": "2026-03-27",
-          "venue": "Hollywood Theatre - Vancouver",
-          "city": "Vancouver, BC",
-          "capacity": 0,
-          "url": "https://seatgeek.com/sarah-kinsley-tickets/vancouver-canada-hollywood-theatre-vancouver-2026-03-26-7-pm/concert/17939776"
-        },
-        {
-          "title": "Sarah Kinsley",
-          "date": "2026-03-29",
-          "venue": "Wonder Ballroom",
-          "city": "Portland, OR",
-          "capacity": 0,
-          "url": "https://seatgeek.com/sarah-kinsley-tickets/portland-oregon-wonder-ballroom-2026-03-28-8-pm/concert/18033809"
-        },
-        {
-          "title": "Sarah Kinsley with girlpuppy",
-          "date": "2026-03-31",
-          "venue": "August Hall",
-          "city": "San Francisco, CA",
-          "capacity": 0,
-          "url": "https://seatgeek.com/sarah-kinsley-tickets/san-francisco-california-august-hall-2026-03-30-8-pm/concert/17939541"
-        },
-        {
-          "title": "Sarah Kinsley",
-          "date": "2026-04-01",
-          "venue": "The Fonda Theatre",
-          "city": "Los Angeles, CA",
-          "capacity": 0,
-          "url": "https://seatgeek.com/sarah-kinsley-tickets/los-angeles-california-the-fonda-theatre-2026-03-31-8-30-pm/concert/17969270"
-        }
-      ],
-      "enrichedAt": "2026-03-04T02:47:10.123Z",
-      "risingStarScore": 39
-    },
-    {
       "name": "doggone",
       "playlists": [
         "Rock Rising",
         "All New Indie",
-        "New Music Friday",
         "Pollen"
       ],
-      "playlistCount": 4,
+      "playlistCount": 3,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
@@ -1000,158 +1018,211 @@
       "upcomingShows": 0,
       "tourDates": [],
       "enrichedAt": "2026-03-04T02:47:04.534Z",
-      "risingStarScore": 60
+      "risingStarScore": 55
     },
     {
-      "name": "Peso Pluma",
+      "name": "Daniela Andrade",
       "playlists": [
+        "All New Indie",
         "New Music Friday",
-        "Viva Latino"
+        "Pollen"
       ],
-      "playlistCount": 2,
+      "playlistCount": 3,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
       "source": "playlist",
-      "monthlyListeners": 45000000,
-      "spotifyFollowers": null,
+      "monthlyListeners": null,
+      "spotifyFollowers": 392049,
       "instagramFollowers": null,
       "tiktokFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 1990000,
       "soldOutMentions": 1,
       "soldOutSnippets": [
         {
-          "title": "Peso Pluma Tickets, Concerts & 2026 Tour Dates",
-          "snippet": "Tickets to Peso Pluma shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets",
-          "url": "https://www.eventticketscenter.com/peso-pluma-tickets/35711/c"
+          "title": "Jollibee giving away tickets to fast-rising girl group’s sold-out concert in San Francisco",
+          "snippet": "The group also starred in a viral Gap ad that has gained 400 million views in three days. ... KATSEYE debuted in 2024 with the EP “SIS (Soft Is Strong",
+          "url": "https://www.yahoo.com/entertainment/music/articles/jollibee-giving-away-tickets-fast-225116234.html"
         }
       ],
-      "venueUpgrades": 1,
+      "venueUpgrades": 0,
       "addedDates": 0,
-      "bigSingle": null,
-      "viralMoment": null,
+      "bigSingle": "400million views",
+      "viralMoment": "The group also starred in a viral Gap ad that has gained 400 million views in three days. ... KATSEYE debuted in 2024 with the EP “SIS (Soft Is Strong",
       "albumCount": null,
       "latestRelease": null,
       "vetScore": 45,
       "vetTier": "warm",
       "vetSignals": [
         "🔥 1 sold-out mentions",
-        "🎧 45.0M Spotify listeners",
-        "🏟️ Venue upgrade detected",
-        "📋 2 editorial playlists"
+        "📱 Viral moment detected",
+        "🎵 Big single: 400million views",
+        "📋 3 Spotify editorial playlists"
       ],
-      "demandScore": 20,
-      "numbersScore": 15,
-      "momentumScore": 10,
-      "upcomingShows": 25,
+      "demandScore": 12,
+      "numbersScore": 8,
+      "momentumScore": 25,
+      "upcomingShows": 5,
       "tourDates": [
         {
-          "title": "Peso Pluma with Tito Double P",
-          "date": "2026-03-07",
-          "venue": "Talking Stick Resort Amphitheatre",
-          "city": "Phoenix, AZ",
-          "capacity": 20000,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.774642978,
-          "url": "https://seatgeek.com/peso-pluma-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2026-03-06-8-pm/concert/18020251"
-        },
-        {
-          "title": "Peso Pluma with Tito Double P",
-          "date": "2026-03-09",
-          "venue": "Glen Helen Amphitheater",
-          "city": "San Bernardino, CA",
-          "capacity": 65000,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.7087618199,
-          "url": "https://seatgeek.com/peso-pluma-tickets/san-bernardino-california-glen-helen-amphitheater-2026-03-08-7-pm/concert/18020248"
-        },
-        {
-          "title": "Peso Pluma with Tito Double P",
-          "date": "2026-03-11",
-          "venue": "Save Mart Center",
-          "city": "Fresno, CA",
+          "title": "Daniela Andrade",
+          "date": "2026-06-19",
+          "venue": "The 27 Club",
+          "city": "Ottawa, ON",
           "capacity": 0,
           "lowestPrice": null,
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.6895409666,
-          "url": "https://seatgeek.com/peso-pluma-tickets/fresno-california-save-mart-center-2026-03-10-8-pm/concert/18020252"
+          "sgScore": 0.0775795188,
+          "url": "https://seatgeek.com/daniela-andrade-tickets/ottawa-canada-the-27-club-2026-06-19-7-pm/concert/18091723"
         },
         {
-          "title": "Peso Pluma with Tito Double P",
-          "date": "2026-03-12",
-          "venue": "Honda Center",
-          "city": "Anaheim, CA",
-          "capacity": 18900,
+          "title": "Daniela Andrade",
+          "date": "2026-06-20",
+          "venue": "The Mod Club",
+          "city": "Toronto, ON",
+          "capacity": 620,
           "lowestPrice": null,
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.7230636474,
-          "url": "https://seatgeek.com/peso-pluma-tickets/anaheim-california-honda-center-2026-03-11-8-pm/concert/18020257"
+          "sgScore": 0.1340573969,
+          "url": "https://seatgeek.com/daniela-andrade-tickets/toronto-canada-the-mod-club-2026-06-20-7-pm/concert/18091477"
         },
         {
-          "title": "Peso Pluma with Tito Double P",
-          "date": "2026-03-14",
-          "venue": "T-Mobile Arena",
-          "city": "Las Vegas, NV",
+          "title": "Daniela Andrade",
+          "date": "2026-06-22",
+          "venue": "The Atlantis",
+          "city": "Washington, DC",
           "capacity": 0,
           "lowestPrice": null,
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.7691586651,
-          "url": "https://seatgeek.com/peso-pluma-tickets/las-vegas-nevada-t-mobile-arena-2026-03-13-8-pm/concert/18020261"
+          "sgScore": 0.1391279125,
+          "url": "https://seatgeek.com/daniela-andrade-tickets/washington-district-of-columbia-the-atlantis-2026-06-22-6-30-pm/concert/18091780"
         },
         {
-          "title": "Peso Pluma with Tito Double P",
-          "date": "2026-03-15",
-          "venue": "North Island Credit Union Amphitheatre",
-          "city": "Chula Vista, CA",
-          "capacity": 19492,
+          "title": "Daniela Andrade",
+          "date": "2026-06-27",
+          "venue": "El Rey Theatre - Los Angeles",
+          "city": "Los Angeles, CA",
+          "capacity": 771,
           "lowestPrice": null,
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.7218893744,
-          "url": "https://seatgeek.com/peso-pluma-tickets/chula-vista-california-north-island-credit-union-amphitheatre-2026-03-14-8-pm/concert/18020260"
+          "sgScore": 0.1193112064,
+          "url": "https://seatgeek.com/daniela-andrade-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-06-26-8-pm/concert/18106265"
         },
         {
-          "title": "Peso Pluma with Tito Double P",
-          "date": "2026-03-16",
-          "venue": "Acrisure Arena",
-          "city": "Thousand Palms, CA",
+          "title": "Daniela Andrade",
+          "date": "2026-07-01",
+          "venue": "Hollywood Theatre - Vancouver",
+          "city": "Vancouver, BC",
           "capacity": 0,
           "lowestPrice": null,
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.6293077836,
-          "url": "https://seatgeek.com/peso-pluma-tickets/thousand-palms-california-acrisure-arena-2026-03-15-8-pm/concert/18020262"
-        },
-        {
-          "title": "Peso Pluma with Tito Double P",
-          "date": "2026-03-18",
-          "venue": "Acrisure Arena",
-          "city": "Thousand Palms, CA",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.5747069405,
-          "url": "https://seatgeek.com/peso-pluma-tickets/thousand-palms-california-acrisure-arena-2026-03-17-8-pm/concert/18041311"
+          "sgScore": 0.0731093348,
+          "url": "https://seatgeek.com/daniela-andrade-tickets/vancouver-canada-hollywood-theatre-vancouver-2026-06-30-7-pm/concert/18091757"
         }
       ],
-      "enrichedAt": "2026-03-05T11:01:45.349Z",
-      "risingStarScore": 27
+      "enrichedAt": "2026-03-06T11:01:07.934Z",
+      "risingStarScore": 54
+    },
+    {
+      "name": "Dominic Fike",
+      "playlists": [
+        "Pop Rising",
+        "All New Indie"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": true,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": 5000000,
+      "instagramFollowers": 19500000,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "Where to buy tickets to Tame Impala 2026 sold out tour with Djo, Dominic Fike - masslive.com",
+          "snippet": "Tame Impala announced a slate of North American tour dates as part of their 2026 Deadbeat Tour. The summer tour features 13 dates with breakout supers",
+          "url": "https://www.masslive.com/live-entertainment/2026/02/tame-impala-adds-2026-north-american-tour-dates-with-djo-dominic-fike-where-to-buy-tickets.html"
+        },
+        {
+          "title": "Dominic Fike Tickets, Concerts & 2026 Tour Dates",
+          "snippet": "Tickets to Dominic Fike shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has ticke",
+          "url": "https://www.eventticketscenter.com/dominic-fike-tickets/9129/c"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 44,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📸 IG: 19500K",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 22,
+      "numbersScore": 12,
+      "momentumScore": 10,
+      "upcomingShows": 10,
+      "tourDates": [
+        {
+          "title": "Governors Ball - Sunday - with A$AP Rocky, JENNIE, Dominic Fike and more",
+          "date": "2026-06-07",
+          "venue": "Flushing Meadows Corona Park",
+          "city": "Queens, NY",
+          "capacity": 0,
+          "url": "https://seatgeek.com/governors-ball-music-festival-tickets/queens-new-york-flushing-meadows-corona-park-2026-06-07-11-45-am/music-festival/17994017"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-08-25",
+          "venue": "Nationwide Arena",
+          "city": "Columbus, OH",
+          "capacity": 19500,
+          "url": "https://seatgeek.com/tame-impala-tickets/columbus-ohio-nationwide-arena-2026-08-25-7-pm/concert/18070187"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-08-29",
+          "venue": "Target Center",
+          "city": "Minneapolis, MN",
+          "capacity": 25500,
+          "url": "https://seatgeek.com/tame-impala-tickets/minneapolis-minnesota-target-center-2026-08-28-7-pm/concert/18070208"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-09-02",
+          "venue": "Climate Pledge Arena",
+          "city": "Seattle, WA",
+          "capacity": 17459,
+          "url": "https://seatgeek.com/tame-impala-tickets/seattle-washington-climate-pledge-arena-2026-09-01-7-pm/concert/18070189"
+        },
+        {
+          "title": "Tame Impala with Dominic Fike",
+          "date": "2026-09-03",
+          "venue": "Climate Pledge Arena",
+          "city": "Seattle, WA",
+          "capacity": 17459,
+          "url": "https://seatgeek.com/tame-impala-tickets/seattle-washington-climate-pledge-arena-2026-09-02-7-pm/concert/18080353"
+        }
+      ],
+      "enrichedAt": "2026-03-04T11:01:05.795Z",
+      "risingStarScore": 42
     },
     {
       "name": "Odd Mob",
@@ -1309,10 +1380,10 @@
       "risingStarScore": 27
     },
     {
-      "name": "Zack Villere",
+      "name": "Shakira",
       "playlists": [
-        "Rock Rising",
-        "New Music Friday"
+        "New Music Friday",
+        "Viva Latino"
       ],
       "playlistCount": 2,
       "blogMentions": 0,
@@ -1320,148 +1391,179 @@
       "onWatchlist": false,
       "source": "playlist",
       "monthlyListeners": null,
-      "spotifyFollowers": 582,
+      "spotifyFollowers": 41200000,
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 2,
+      "soldOutMentions": 3,
       "soldOutSnippets": [
         {
-          "title": "Zack Villere Tickets, Concerts & 2026 Tour Dates",
-          "snippet": "Tickets to Zack Villere shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has ticke",
-          "url": "https://www.eventticketscenter.com/zack-villere-tickets/9903/c"
+          "title": "Shakira Adds Second Stadium Show in Los Angeles to ‘Las Mujeres Ya No Lloran World Tour’ Due to Fan Demand | SoFi Stadium",
+          "snippet": "Less than a week after releasing ... her Las Mujeres Ya No Lloran stadium world tour, shattering records with <strong>7 sold out shows in Mexico City<",
+          "url": "https://www.sofistadium.com/news/detail/shakira-adds-second-stadium-show-in-los-angeles-to-las-mujeres-ya-no-lloran-world-tour-due-to-fan-demand"
         },
         {
-          "title": "Zack Fox Tour 2026 | Get Tickets & See Concert Dates! - Zack Fox Tour",
-          "snippet": "Consider venue layout and sightlines—some theaters or arenas offer better audio-visual experiences from certain sections. Plan early, as popular citie",
-          "url": "https://www.zackfoxtour.com/tour"
+          "title": "The good reason Shakira postponed the start of her U.S. tour: See the new dates",
+          "snippet": "Meanwhile, the Latin American shows, including nine sold-out dates in Mexico, are still scheduled for <strong>March 2025</strong>. However, we’re stil",
+          "url": "https://www.hola.com/us/entertainment/20241021725385/reason-shakira-postponed-us-tour-dates/"
+        },
+        {
+          "title": "Shakira brings free concert to Mexico City in March | Reuters",
+          "snippet": "The musician sold out more than 12 concerts in Mexico City&#x27;s Estadio GNP during her &quot;Las Mujeres Ya No Lloran&quot; (Women Don&#x27;t Cry An",
+          "url": "https://www.reuters.com/business/media-telecom/shakira-brings-free-concert-mexico-city-march-2026-02-20/"
         }
       ],
       "venueUpgrades": 0,
-      "addedDates": 0,
+      "addedDates": 1,
       "bigSingle": null,
-      "viralMoment": "Consider venue layout and sightlines—some theaters or arenas offer better audio-visual experiences from certain sections. Plan early, as popular citie",
+      "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
       "vetScore": 42,
       "vetTier": "warm",
       "vetSignals": [
-        "🔥 2 sold-out mentions",
-        "📱 Viral moment detected",
+        "🔥 3 sold-out mentions",
+        "📅 Added dates due to demand",
         "📋 2 editorial playlists"
       ],
-      "demandScore": 22,
+      "demandScore": 32,
       "numbersScore": 0,
-      "momentumScore": 20,
-      "upcomingShows": 1,
-      "tourDates": [
-        {
-          "title": "Zack Villere with Brandon",
-          "date": "2026-04-05",
-          "venue": "The Echo - Los Angeles",
-          "city": "Los Angeles, CA",
-          "capacity": 350,
-          "url": "https://seatgeek.com/zack-villere-tickets/los-angeles-california-the-echo-los-angeles-2026-04-04-7-pm/concert/18013373"
-        }
-      ],
-      "enrichedAt": "2026-03-04T11:01:48.864Z",
-      "risingStarScore": 49
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:35.818Z",
+      "risingStarScore": 50
     },
     {
-      "name": "Concrete Boys",
+      "name": "Lilly Palmer",
       "playlists": [
         "New Music Friday",
-        "Most Necessary",
-        "Rap Caviar"
+        "mint (Electronic)",
+        "Anti Pop"
       ],
       "playlistCount": 3,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
       "source": "playlist",
-      "monthlyListeners": 341,
-      "spotifyFollowers": null,
-      "instagramFollowers": null,
+      "monthlyListeners": null,
+      "spotifyFollowers": 300000,
+      "instagramFollowers": 1600000,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 1,
+      "soldOutMentions": 2,
       "soldOutSnippets": [
         {
-          "title": "Are Concerts Losing Popularity in 2025? The Truth Behind the Trends",
-          "snippet": "But swing the spotlight to indie and mid-level artists, and the vibe changes. Great musicians. Critically adored albums. But not enough devoted fans t",
-          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+          "title": "Lilly Palmer Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to Lilly Palmer shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has ticke",
+          "url": "https://www.eventticketscenter.com/lilly-palmer-tickets/27390/c"
+        },
+        {
+          "title": "Lilly Palmer: Bigger than techno album premiere – Sold Out - WestWeelde",
+          "snippet": "This show is fully sold out: no doorsale! Try your luck at Ticketswap · On <strong>October 24th, 2025</strong>, a new era of electronic music ignites ",
+          "url": "https://www.westweelde.nl/events/lilly-palmer-presents-2025-10-24"
         }
       ],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "But swing the spotlight to indie and mid-level artists, and the vibe changes. Great musicians. Critically adored albums. But not enough devoted fans t",
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 41,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📸 IG: 1600K",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 18,
+      "numbersScore": 8,
+      "momentumScore": 15,
+      "upcomingShows": 1,
+      "tourDates": [
+        {
+          "title": "Lilly Palmer (18+)",
+          "date": "2026-04-12",
+          "venue": "Blackbox Theater - Charlotte",
+          "city": "Charlotte, NC",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1101813571,
+          "url": "https://seatgeek.com/lilly-palmer-tickets/charlotte-north-carolina-blackbox-theater-charlotte-2026-04-11-10-pm/concert/18052389"
+        }
+      ],
+      "enrichedAt": "2026-03-06T11:01:09.827Z",
+      "risingStarScore": 57
+    },
+    {
+      "name": "Cameron Winter",
+      "playlists": [
+        "Rock Rising",
+        "All New Indie",
+        "New Music Friday",
+        "Pollen"
+      ],
+      "playlistCount": 4,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": 22,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 3,
+      "soldOutSnippets": [
+        {
+          "title": "Cameron Winter Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to Cameron Winter shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tic",
+          "url": "https://www.eventticketscenter.com/cameron-winter-tickets/82815/c"
+        },
+        {
+          "title": "Inside Cameron Winter’s Extremely Sold-Out Carnegie Hall Show | GQ",
+          "snippet": "Almost exactly a year before Winter filled every seat in the country’s most famous eggshell-and-gold concert hall, he quietly released Heavy Metal, a ",
+          "url": "https://www.gq.com/story/cameron-winter-carnegie-hall"
+        },
+        {
+          "title": "Cameron Winter @ The Palace Theatre [12/13/2025] – UCLA Radio",
+          "snippet": "Every time the air around Winter can’t seem to grow any hotter, he somehow manages to propel himself further into the limelight. His mini-residency at",
+          "url": "https://uclaradio.com/cameron-winter-the-palace-theatre-12-13-2025/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
       "vetScore": 40,
       "vetTier": "warm",
       "vetSignals": [
-        "🔥 1 sold-out mentions",
+        "🔥 3 sold-out mentions",
         "🎧 0.0M Spotify listeners",
-        "📱 Viral moment detected",
-        "📋 3 Spotify editorial playlists"
+        "📋 4 Spotify editorial playlists"
       ],
-      "demandScore": 15,
+      "demandScore": 25,
       "numbersScore": 0,
-      "momentumScore": 25,
-      "upcomingShows": 10,
-      "tourDates": [
-        {
-          "title": "Concrete Boys",
-          "date": "2026-04-11",
-          "venue": "A&R Music Bar",
-          "city": "Columbus, OH",
-          "capacity": 0,
-          "url": "https://seatgeek.com/concrete-boys-tickets/columbus-ohio-a-r-music-bar-2026-04-10-8-pm/concert/18103667"
-        },
-        {
-          "title": "Concrete Boys",
-          "date": "2026-04-11",
-          "venue": "Saint Andrews Hall",
-          "city": "Detroit, MI",
-          "capacity": 0,
-          "url": "https://seatgeek.com/concrete-boys-tickets/detroit-michigan-saint-andrews-hall-2026-04-11-7-pm/concert/18102018"
-        },
-        {
-          "title": "Concrete Boys",
-          "date": "2026-04-13",
-          "venue": "The Mod Club",
-          "city": "Toronto, ON",
-          "capacity": 620,
-          "url": "https://seatgeek.com/concrete-boys-tickets/toronto-canada-the-mod-club-2026-04-13-6-pm/concert/18102325"
-        },
-        {
-          "title": "Concrete Boys",
-          "date": "2026-04-16",
-          "venue": "Irving Plaza",
-          "city": "New York, NY",
-          "capacity": 0,
-          "url": "https://seatgeek.com/concrete-boys-tickets/new-york-new-york-irving-plaza-2026-04-16-7-pm/concert/18102355"
-        },
-        {
-          "title": "Concrete Boys",
-          "date": "2026-04-18",
-          "venue": "Theatre of Living Arts",
-          "city": "Philadelphia, PA",
-          "capacity": 0,
-          "url": "https://seatgeek.com/concrete-boys-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2026-04-17-8-pm/concert/18102034"
-        }
-      ],
-      "enrichedAt": "2026-03-04T02:47:35.690Z",
-      "risingStarScore": 52
+      "momentumScore": 15,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:00:58.529Z",
+      "risingStarScore": 68
     },
     {
       "name": "Yebba",
       "playlists": [
         "All New Indie",
+        "New Music Friday",
         "Pollen"
       ],
-      "playlistCount": 2,
+      "playlistCount": 3,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
@@ -1503,7 +1605,7 @@
       "upcomingShows": 0,
       "tourDates": [],
       "enrichedAt": "2026-03-05T11:01:39.569Z",
-      "risingStarScore": 50
+      "risingStarScore": 55
     },
     {
       "name": "Fcukers",
@@ -1511,10 +1613,11 @@
         "Rock Rising",
         "Dance Rising",
         "All New Indie",
+        "New Music Friday",
         "mint (Electronic)",
         "Pollen"
       ],
-      "playlistCount": 5,
+      "playlistCount": 6,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
@@ -1596,13 +1699,99 @@
       "risingStarScore": 49
     },
     {
+      "name": "Concrete Boys",
+      "playlists": [
+        "Most Necessary",
+        "Rap Caviar"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": 341,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Are Concerts Losing Popularity in 2025? The Truth Behind the Trends",
+          "snippet": "But swing the spotlight to indie and mid-level artists, and the vibe changes. Great musicians. Critically adored albums. But not enough devoted fans t",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "But swing the spotlight to indie and mid-level artists, and the vibe changes. Great musicians. Critically adored albums. But not enough devoted fans t",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 40,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "🎧 0.0M Spotify listeners",
+        "📱 Viral moment detected",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 15,
+      "numbersScore": 0,
+      "momentumScore": 25,
+      "upcomingShows": 10,
+      "tourDates": [
+        {
+          "title": "Concrete Boys",
+          "date": "2026-04-11",
+          "venue": "A&R Music Bar",
+          "city": "Columbus, OH",
+          "capacity": 0,
+          "url": "https://seatgeek.com/concrete-boys-tickets/columbus-ohio-a-r-music-bar-2026-04-10-8-pm/concert/18103667"
+        },
+        {
+          "title": "Concrete Boys",
+          "date": "2026-04-11",
+          "venue": "Saint Andrews Hall",
+          "city": "Detroit, MI",
+          "capacity": 0,
+          "url": "https://seatgeek.com/concrete-boys-tickets/detroit-michigan-saint-andrews-hall-2026-04-11-7-pm/concert/18102018"
+        },
+        {
+          "title": "Concrete Boys",
+          "date": "2026-04-13",
+          "venue": "The Mod Club",
+          "city": "Toronto, ON",
+          "capacity": 620,
+          "url": "https://seatgeek.com/concrete-boys-tickets/toronto-canada-the-mod-club-2026-04-13-6-pm/concert/18102325"
+        },
+        {
+          "title": "Concrete Boys",
+          "date": "2026-04-16",
+          "venue": "Irving Plaza",
+          "city": "New York, NY",
+          "capacity": 0,
+          "url": "https://seatgeek.com/concrete-boys-tickets/new-york-new-york-irving-plaza-2026-04-16-7-pm/concert/18102355"
+        },
+        {
+          "title": "Concrete Boys",
+          "date": "2026-04-18",
+          "venue": "Theatre of Living Arts",
+          "city": "Philadelphia, PA",
+          "capacity": 0,
+          "url": "https://seatgeek.com/concrete-boys-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2026-04-17-8-pm/concert/18102034"
+        }
+      ],
+      "enrichedAt": "2026-03-04T02:47:35.690Z",
+      "risingStarScore": 47
+    },
+    {
       "name": "MPH",
       "playlists": [
         "Dance Rising",
-        "New Music Friday",
         "mint (Electronic)"
       ],
-      "playlistCount": 3,
+      "playlistCount": 2,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
@@ -1639,7 +1828,88 @@
       "upcomingShows": 0,
       "tourDates": [],
       "enrichedAt": "2026-03-04T02:47:22.228Z",
-      "risingStarScore": 47
+      "risingStarScore": 42
+    },
+    {
+      "name": "Cash Cobain",
+      "playlists": [
+        "New Music Friday",
+        "Most Necessary",
+        "Rap Caviar"
+      ],
+      "playlistCount": 3,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": 4500000,
+      "spotifyFollowers": 212999,
+      "instagramFollowers": 61100,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "At writing time, Cash Cobain’s official 2025-2026 tour itinerary isn’t announced. Fans should check back for confirmed markets and venues. Past North ",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 40,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🎧 4.5M Spotify listeners",
+        "📱 Viral moment detected",
+        "📸 IG: 61K",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 15,
+      "momentumScore": 25,
+      "upcomingShows": 3,
+      "tourDates": [
+        {
+          "title": "Cash Cobain (21+)",
+          "date": "2026-03-08",
+          "venue": "Echoplex",
+          "city": "Los Angeles, CA",
+          "capacity": 500,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2519934285,
+          "url": "https://seatgeek.com/cash-cobain-tickets/los-angeles-california-echoplex-2026-03-07-8-pm/concert/17583590"
+        },
+        {
+          "title": "Cash Cobain",
+          "date": "2026-03-13",
+          "venue": "Cervantes' Masterpiece",
+          "city": "Denver, CO",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3819124704,
+          "url": "https://seatgeek.com/cash-cobain-tickets/denver-colorado-cervantes-masterpiece-2026-03-12-8-pm/concert/17803918"
+        },
+        {
+          "title": "Cash Cobain",
+          "date": "2035-09-23",
+          "venue": "Showbox SoDo",
+          "city": "Seattle, WA",
+          "capacity": 1500,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": null,
+          "url": "https://seatgeek.com/cash-cobain-tickets/seattle-washington-showbox-sodo-2035-09-23-3-30-am/concert/17585251"
+        }
+      ],
+      "enrichedAt": "2026-03-06T11:01:11.676Z",
+      "risingStarScore": 35
     },
     {
       "name": "Tini Gessler",
@@ -1685,6 +1955,56 @@
       "upcomingShows": 0,
       "tourDates": [],
       "enrichedAt": "2026-03-05T11:01:35.779Z",
+      "risingStarScore": 42
+    },
+    {
+      "name": "RHR",
+      "playlists": [
+        "Rock Rising",
+        "New Music Friday"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
+          "snippet": "BTS’ Arirang World Tour 2026 tickets sold out instantly during pre-sale, prompting BigHit Music to add new concert dates in North America.",
+          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
+        },
+        {
+          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
+          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
+          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "With months still to go before the calendar flips, additional legacy acts are expected to announce 2026 dates as routing and venue availability fall i",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 38,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 18,
+      "numbersScore": 0,
+      "momentumScore": 20,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:24.820Z",
       "risingStarScore": 42
     },
     {
@@ -1740,10 +2060,11 @@
     {
       "name": "MUNA",
       "playlists": [
+        "Pop Rising",
         "All New Indie",
         "Pollen"
       ],
-      "playlistCount": 2,
+      "playlistCount": 3,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
@@ -1826,7 +2147,95 @@
         }
       ],
       "enrichedAt": "2026-03-04T02:47:06.440Z",
-      "risingStarScore": 47
+      "risingStarScore": 52
+    },
+    {
+      "name": "Denzel Curry",
+      "playlists": [
+        "New Music Friday",
+        "Rap Caviar"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": 10000000,
+      "spotifyFollowers": 2855517,
+      "instagramFollowers": 20000000,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 37,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🎧 10.0M Spotify listeners",
+        "📸 IG: 20000K",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 27,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:39.494Z",
+      "risingStarScore": 21
+    },
+    {
+      "name": "waterbaby",
+      "playlists": [
+        "Rock Rising",
+        "All New Indie",
+        "New Music Friday",
+        "Pollen"
+      ],
+      "playlistCount": 4,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
+          "snippet": "BTS’ highly anticipated World Tour Arirang 2026 kicked off with an explosive response as <strong>all pre-sale tickets for the South Korea shows sold o",
+          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Has there ever been an idol that’s gone more viral at a single event than Eunbi at Waterbomb this weekend? ... Simply a place to have open and critica",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 35,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📱 Viral moment detected",
+        "📱 Viral moment detected",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 15,
+      "numbersScore": 0,
+      "momentumScore": 20,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-04T11:01:28.475Z",
+      "risingStarScore": 52
     },
     {
       "name": "the sound chalk makes",
@@ -1871,53 +2280,6 @@
       "upcomingShows": 0,
       "tourDates": [],
       "enrichedAt": "2026-03-04T11:01:13.237Z",
-      "risingStarScore": 42
-    },
-    {
-      "name": "waterbaby",
-      "playlists": [
-        "Rock Rising",
-        "All New Indie"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "monthlyListeners": null,
-      "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "youtubeSubscribers": null,
-      "soldOutMentions": 1,
-      "soldOutSnippets": [
-        {
-          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
-          "snippet": "BTS’ highly anticipated World Tour Arirang 2026 kicked off with an explosive response as <strong>all pre-sale tickets for the South Korea shows sold o",
-          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
-        }
-      ],
-      "venueUpgrades": 0,
-      "addedDates": 0,
-      "bigSingle": null,
-      "viralMoment": "Has there ever been an idol that’s gone more viral at a single event than Eunbi at Waterbomb this weekend? ... Simply a place to have open and critica",
-      "albumCount": null,
-      "latestRelease": null,
-      "vetScore": 35,
-      "vetTier": "warm",
-      "vetSignals": [
-        "🔥 1 sold-out mentions",
-        "📱 Viral moment detected",
-        "📱 Viral moment detected",
-        "📱 Viral moment detected",
-        "📋 2 editorial playlists"
-      ],
-      "demandScore": 15,
-      "numbersScore": 0,
-      "momentumScore": 20,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "enrichedAt": "2026-03-04T11:01:28.475Z",
       "risingStarScore": 42
     },
     {
@@ -2012,7 +2374,57 @@
       "risingStarScore": 42
     },
     {
-      "name": "BLOND:ISH",
+      "name": "Baby Nova",
+      "playlists": [
+        "Pop Rising",
+        "New Music Friday",
+        "Pollen"
+      ],
+      "playlistCount": 3,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
+          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
+          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
+        },
+        {
+          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
+          "snippet": "BTS World Tour Arirang 2026 tickets sold out instantly during pre-sale as ARMYs flooded booking platforms worldwide. BigHit Music has now added more c",
+          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 33,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 18,
+      "numbersScore": 0,
+      "momentumScore": 15,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:02.356Z",
+      "risingStarScore": 47
+    },
+    {
+      "name": "Channel Tres",
       "playlists": [
         "Dance Rising",
         "New Music Friday"
@@ -2031,14 +2443,14 @@
       "soldOutSnippets": [
         {
           "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
-          "snippet": "BTS World Tour Arirang 2026 tickets sold out instantly during pre-sale as ARMYs flooded booking platforms worldwide. BigHit Music has now added more c",
+          "snippet": "<strong>BTS World Tour Arirang 2026</strong> tickets sold out instantly during pre-sale as ARMYs flooded booking platforms worldwide. BigHit Music has",
           "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
         }
       ],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Discover cutting-edge venue marketing strategies for 2026 that will pack your house night after night. Learn how to build a unique venue brand, domina",
+      "viralMoment": "Megan Rapinoe Says Trump ‘Used’ U.S. Men’s Hockey Team During Viral Phone Call ... View post: 1971 Hit Reached No. 1 55 Years Ago Today — Five Months ",
       "albumCount": null,
       "latestRelease": null,
       "vetScore": 32,
@@ -2053,88 +2465,55 @@
       "momentumScore": 20,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-05T11:01:15.297Z",
+      "enrichedAt": "2026-03-06T11:01:32.071Z",
       "risingStarScore": 42
     },
     {
-      "name": "sosocamo",
+      "name": "Isaiah Falls",
       "playlists": [
         "New Music Friday",
-        "Most Necessary",
-        "Rap Caviar"
+        "Are & Be"
       ],
-      "playlistCount": 3,
+      "playlistCount": 2,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
       "source": "playlist",
-      "monthlyListeners": 5000000,
-      "spotifyFollowers": 151371,
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 0,
-      "soldOutSnippets": [],
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Isaiah Falls Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to Isaiah Falls shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has ticke",
+          "url": "https://www.eventticketscenter.com/isaiah-falls-tickets/72371/c"
+        }
+      ],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": null,
+      "viralMoment": "And smaller venue shows? They’re getting ghosted altogether. In 2024 alone, dozens of tours were postponed or quietly canceled—not for illness or weat",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 30,
+      "vetScore": 32,
       "vetTier": "warm",
       "vetSignals": [
-        "🎧 5.0M Spotify listeners",
-        "📋 3 Spotify editorial playlists"
+        "🔥 1 sold-out mentions",
+        "📱 Viral moment detected",
+        "📱 Viral moment detected",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
       ],
-      "demandScore": 0,
-      "numbersScore": 15,
-      "momentumScore": 15,
-      "upcomingShows": 8,
-      "tourDates": [
-        {
-          "title": "sosocamo",
-          "date": "2026-04-01",
-          "venue": "KLTRE",
-          "city": "Las Vegas, NV",
-          "capacity": 0,
-          "url": "https://seatgeek.com/sosocamo-tickets/las-vegas-nevada-kltre-2026-03-31-8-pm/concert/18081878"
-        },
-        {
-          "title": "sosocamo",
-          "date": "2026-04-02",
-          "venue": "Voodoo Room at the House of Blues - San Diego",
-          "city": "San Diego, CA",
-          "capacity": 0,
-          "url": "https://seatgeek.com/sosocamo-tickets/san-diego-california-voodoo-room-at-the-house-of-blues-san-diego-2-2026-04-01-7-pm/concert/18081837"
-        },
-        {
-          "title": "sosocamo",
-          "date": "2026-04-04",
-          "venue": "Echoplex",
-          "city": "Los Angeles, CA",
-          "capacity": 500,
-          "url": "https://seatgeek.com/sosocamo-tickets/los-angeles-california-echoplex-2026-04-03-7-pm/concert/18081341"
-        },
-        {
-          "title": "sosocamo",
-          "date": "2026-04-05",
-          "venue": "Momo Sacramento",
-          "city": "Sacramento, CA",
-          "capacity": 0,
-          "url": "https://seatgeek.com/sosocamo-tickets/sacramento-california-momo-sacramento-2026-04-04-8-pm/concert/18089287"
-        },
-        {
-          "title": "sosocamo",
-          "date": "2026-04-09",
-          "venue": "Barboza",
-          "city": "Seattle, WA",
-          "capacity": 0,
-          "url": "https://seatgeek.com/sosocamo-tickets/seattle-washington-barboza-2026-04-08-7-pm/concert/18087932"
-        }
-      ],
-      "enrichedAt": "2026-03-04T02:47:31.805Z",
-      "risingStarScore": 25
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 20,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:43.088Z",
+      "risingStarScore": 42
     },
     {
       "name": "Cam Stockman",
@@ -2420,9 +2799,9 @@
       "risingStarScore": 45
     },
     {
-      "name": "Jayda G",
+      "name": "Bebe Rexha",
       "playlists": [
-        "Dance Rising",
+        "Pop Rising",
         "New Music Friday"
       ],
       "playlistCount": 2,
@@ -2431,21 +2810,21 @@
       "onWatchlist": false,
       "source": "playlist",
       "monthlyListeners": null,
-      "spotifyFollowers": null,
+      "spotifyFollowers": 8855099,
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
       "soldOutMentions": 2,
       "soldOutSnippets": [
         {
-          "title": "Mastering YouTube Ads for Event Promotion in 2026: High-Impact Video Campaigns that Turn Viewers into Ticket Buyers | Ticket Fairy Promoter Blog",
-          "snippet": "Learn how to sell out events with YouTube Ads in 2026! ? This detailed guide reveals how event marketers can create budget-friendly video ads, target ",
-          "url": "https://www.ticketfairy.com/blog/mastering-youtube-ads-for-event-promotion-in-2026-high-impact-video-campaigns-that-turn-viewers-into-ticket-buyers"
+          "title": "Bebe Rexha Concerts & Live Tour Dates: 2026-2027 Tickets | Bandsintown",
+          "snippet": "Surprised that it was not sold out for a small venue. Concert was great. Good music. Our seats were upgraded to 2 sections forward and we were moved t",
+          "url": "https://www.bandsintown.com/a/1390751-bebe-rexha"
         },
         {
-          "title": "11 Most Anticipated Music Tours of 2025 | Trill",
-          "snippet": "She finished her American leg of the tour in Inglewood on November 18th. She is set to start back in Dublin on <strong>March 3rd</strong>. The prices ",
-          "url": "https://www.trillmag.com/entertainment/music/most-anticipated-tours-for-2025/"
+          "title": "Bebe Rexha Tickets 2025 | Tour Dates | Concerts Schedule 🎵 Jan 2025",
+          "snippet": "The Bebe Rexha tickets are being sold out at a lightning speed but there’s still a chance to book the spots for an amazing price! First of all, every ",
+          "url": "https://concertstour.com/bebe-rexha"
         }
       ],
       "venueUpgrades": 0,
@@ -2465,7 +2844,56 @@
       "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-05T11:01:09.355Z",
+      "enrichedAt": "2026-03-06T11:01:17.356Z",
+      "risingStarScore": 42
+    },
+    {
+      "name": "Juice WRLD",
+      "playlists": [
+        "New Music Friday",
+        "Rap Caviar"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": 44400000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "Juice Wrld Memorial Concert Tickets 2025 | Expedia",
+          "snippet": "Buy Juice Wrld Memorial Concert tickets at Expedia. Great seats available for sold out events. Juice Wrld Memorial Concert 2025 schedule.",
+          "url": "https://www.expedia.com/event-tickets/juice-wrld-memorial-concert-tickets.p"
+        },
+        {
+          "title": "Juice Wrld Day Tickets 2026 | Expedia",
+          "snippet": "Buy Juice Wrld Day tickets at Expedia. Great seats available for sold out events. Juice Wrld Day 2026 schedule.",
+          "url": "https://www.expedia.com/event-tickets/juice-wrld-day-tickets.p"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 28,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 18,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:41.265Z",
       "risingStarScore": 42
     },
     {
@@ -2623,6 +3051,150 @@
       "risingStarScore": 39
     },
     {
+      "name": "Sleepy Hallow",
+      "playlists": [
+        "Hot Country",
+        "New Music Friday",
+        "Most Necessary",
+        "Rap Caviar"
+      ],
+      "playlistCount": 4,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": 113,
+      "spotifyFollowers": 2535197,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Sleepy Hallow Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to Sleepy Hallow shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tick",
+          "url": "https://www.eventticketscenter.com/sleepy-hallow-tickets/12592/c"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 27,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "🎧 0.0M Spotify listeners",
+        "📋 4 Spotify editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 15,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:00.488Z",
+      "risingStarScore": 60
+    },
+    {
+      "name": "KARRAHBOOO",
+      "playlists": [
+        "Rock Rising",
+        "New Music Friday",
+        "Most Necessary"
+      ],
+      "playlistCount": 3,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": 702000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
+          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
+          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 27,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 15,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:04.257Z",
+      "risingStarScore": 47
+    },
+    {
+      "name": "Flying Lotus",
+      "playlists": [
+        "Rock Rising",
+        "New Music Friday"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": 1000000,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 25,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 1.0M Spotify listeners",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 15,
+      "momentumScore": 10,
+      "upcomingShows": 1,
+      "tourDates": [
+        {
+          "title": "Big Ears Festival - (4-Day Pass) with Laurie Anderson, John Zorn, Flying Lotus, and more!",
+          "date": "2026-03-26",
+          "venue": "Big Ears Festival: Downtown - Knoxville, TN",
+          "city": "Knoxville, TN",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3185168503,
+          "url": "https://seatgeek.com/big-ears-festival-tickets/knoxville-tennessee-big-ears-festival-downtown-knoxville-tn-2026-03-26-3-30-am/music-festival/17725100"
+        }
+      ],
+      "enrichedAt": "2026-03-06T11:01:23.027Z",
+      "risingStarScore": 37
+    },
+    {
       "name": "Jordan Ward",
       "playlists": [
         "Rock Rising",
@@ -2702,6 +3274,58 @@
       "risingStarScore": 27
     },
     {
+      "name": "Ty Dolla $ign",
+      "playlists": [
+        "New Music Friday",
+        "Are & Be"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": 67000000,
+      "spotifyFollowers": 5000000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 25,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 67.0M Spotify listeners",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 15,
+      "momentumScore": 10,
+      "upcomingShows": 1,
+      "tourDates": [
+        {
+          "title": "Kevin Gates with Shoreline Mafia and Ty Dolla $ign",
+          "date": "2026-05-20",
+          "venue": "Red Rocks Amphitheatre",
+          "city": "Morrison, CO",
+          "capacity": 9450,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5376250299,
+          "url": "https://seatgeek.com/kevin-gates-tickets/morrison-colorado-red-rocks-amphitheatre-2026-05-19-7-pm/concert/17963367"
+        }
+      ],
+      "enrichedAt": "2026-03-06T11:01:37.659Z",
+      "risingStarScore": 25
+    },
+    {
       "name": "Joshwa",
       "playlists": [
         "Dance Rising",
@@ -2745,6 +3369,64 @@
       "tourDates": [],
       "enrichedAt": "2026-03-05T11:01:13.044Z",
       "risingStarScore": 50
+    },
+    {
+      "name": "James Hype",
+      "playlists": [
+        "Dance Rising",
+        "New Music Friday"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "James Hype Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to James Hype shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets",
+          "url": "https://www.eventticketscenter.com/james-hype-tickets/14724/c"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 22,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 1,
+      "tourDates": [
+        {
+          "title": "James Hype with GUDFELLA",
+          "date": "2026-03-15",
+          "venue": "Club Space Miami",
+          "city": "Miami, FL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2970042823,
+          "url": "https://seatgeek.com/james-hype-tickets/miami-florida-club-space-miami-2026-03-15-7-pm/concert/18088912"
+        }
+      ],
+      "enrichedAt": "2026-03-06T11:01:30.194Z",
+      "risingStarScore": 49
     },
     {
       "name": "PEEKABOO",
@@ -2897,10 +3579,10 @@
       "risingStarScore": 47
     },
     {
-      "name": "HoneyLuv",
+      "name": "GIRLSET",
       "playlists": [
-        "New Music Friday",
-        "mint (Electronic)"
+        "Pop Rising",
+        "New Music Friday"
       ],
       "playlistCount": 2,
       "blogMentions": 0,
@@ -2915,9 +3597,9 @@
       "soldOutMentions": 1,
       "soldOutSnippets": [
         {
-          "title": "Mastering YouTube Ads for Event Promotion in 2026: High-Impact Video Campaigns that Turn Viewers into Ticket Buyers | Ticket Fairy Promoter Blog",
-          "snippet": "Learn how to sell out events with YouTube Ads in 2026! ? This detailed guide reveals how event marketers can create budget-friendly video ads, target ",
-          "url": "https://www.ticketfairy.com/blog/mastering-youtube-ads-for-event-promotion-in-2026-high-impact-video-campaigns-that-turn-viewers-into-ticket-buyers"
+          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
+          "snippet": "<strong>BTS World Tour Arirang 2026</strong> tickets sold out instantly during pre-sale as ARMYs flooded booking platforms worldwide. BigHit Music has",
+          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
         }
       ],
       "venueUpgrades": 0,
@@ -2937,13 +3619,13 @@
       "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-05T11:01:47.183Z",
+      "enrichedAt": "2026-03-06T11:01:13.492Z",
       "risingStarScore": 42
     },
     {
-      "name": "Harry Hayes",
+      "name": "Ayra Starr",
       "playlists": [
-        "Dance Rising",
+        "Pop Rising",
         "New Music Friday"
       ],
       "playlistCount": 2,
@@ -2951,36 +3633,85 @@
       "blogSources": [],
       "onWatchlist": false,
       "source": "playlist",
-      "monthlyListeners": 9,
+      "monthlyListeners": null,
       "spotifyFollowers": null,
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 0,
-      "soldOutSnippets": [],
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Ayra Starr Concerts & Live Tour Dates: 2025-2026 Tickets | Bandsintown",
+          "snippet": "Retro Groovy Im Starr Doing Starr Thi... ... Moth Astrology Circle Constellations ... ... Retro Groovy Im AYRA Doing AYRA Thing... ... Ayala Name Its ",
+          "url": "https://www.bandsintown.com/a/15501171-ayra-starr"
+        }
+      ],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "In 2021, Walker Hayes is heading out on his Fancy Like tour in 2022. Named after his viral hit &quot;Fancy Like,&quot; the tour launches on <strong>Ja",
+      "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 20,
+      "vetScore": 22,
       "vetTier": "unvetted",
       "vetSignals": [
-        "🎧 0.0M Spotify listeners",
-        "📱 Viral moment detected",
+        "🔥 1 sold-out mentions",
         "📋 2 editorial playlists"
       ],
-      "demandScore": 0,
+      "demandScore": 12,
       "numbersScore": 0,
-      "momentumScore": 20,
+      "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-05T11:01:32.072Z",
-      "risingStarScore": 38
+      "enrichedAt": "2026-03-06T11:01:15.325Z",
+      "risingStarScore": 42
     },
     {
-      "name": "Dua Saleh",
+      "name": "2D0GS",
+      "playlists": [
+        "Rock Rising",
+        "New Music Friday"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
+          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
+          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 22,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:26.590Z",
+      "risingStarScore": 42
+    },
+    {
+      "name": "Loukeman",
       "playlists": [
         "Rock Rising",
         "Pollen"
@@ -2997,24 +3728,24 @@
       "youtubeSubscribers": null,
       "soldOutMentions": 0,
       "soldOutSnippets": [],
-      "venueUpgrades": 1,
+      "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": null,
+      "viralMoment": "With months still to go before the calendar flips, additional legacy acts are expected to announce 2026 dates as routing and venue availability fall i",
       "albumCount": null,
       "latestRelease": null,
       "vetScore": 20,
       "vetTier": "unvetted",
       "vetSignals": [
-        "🏟️ Venue upgrade detected",
+        "📱 Viral moment detected",
         "📋 2 editorial playlists"
       ],
-      "demandScore": 10,
+      "demandScore": 0,
       "numbersScore": 0,
-      "momentumScore": 10,
+      "momentumScore": 20,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-04T11:01:19.119Z",
+      "enrichedAt": "2026-03-06T11:01:21.064Z",
       "risingStarScore": 30
     },
     {
@@ -3133,86 +3864,6 @@
       "risingStarScore": 30
     },
     {
-      "name": "rum.gold",
-      "playlists": [
-        "Rock Rising",
-        "New Music Friday"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "monthlyListeners": null,
-      "spotifyFollowers": 32000,
-      "instagramFollowers": 32000,
-      "tiktokFollowers": null,
-      "youtubeSubscribers": null,
-      "soldOutMentions": 0,
-      "soldOutSnippets": [],
-      "venueUpgrades": 0,
-      "addedDates": 0,
-      "bigSingle": null,
-      "viralMoment": "Megan Rapinoe Says Trump ‘Used’ U.S. Men’s Hockey Team During Viral Phone Call ... View post: 1971 Hit Reached No. 1 55 Years Ago Today — Five Months ",
-      "albumCount": null,
-      "latestRelease": null,
-      "vetScore": 20,
-      "vetTier": "unvetted",
-      "vetSignals": [
-        "📱 Viral moment detected",
-        "📸 IG: 32K",
-        "📋 2 editorial playlists"
-      ],
-      "demandScore": 0,
-      "numbersScore": 0,
-      "momentumScore": 20,
-      "upcomingShows": 10,
-      "tourDates": [
-        {
-          "title": "Oakland Golden Grizzlies at Tennessee Volunteers Baseball",
-          "date": "2026-03-04",
-          "venue": "Lindsey Nelson Stadium",
-          "city": "Knoxville, TN",
-          "capacity": 0,
-          "url": "https://seatgeek.com/tennessee-volunteers-baseball-tickets/ncaa-baseball/2026-03-04-4-pm/17900288"
-        },
-        {
-          "title": "Golden Girls: The Laughs Continue",
-          "date": "2026-03-04",
-          "venue": "Confederation Centre of the Arts - Sobey Family Theatre",
-          "city": "Charlottetown, PE",
-          "capacity": 0,
-          "url": "https://seatgeek.com/golden-girls-tickets/comedy/2026-03-04-7-pm/18051582"
-        },
-        {
-          "title": "Minnesota Golden Gophers at Indiana Hoosiers Mens Basketball",
-          "date": "2026-03-04",
-          "venue": "Simon Skjodt Assembly Hall",
-          "city": "Bloomington, IN",
-          "capacity": 0,
-          "url": "https://seatgeek.com/indiana-hoosiers-mens-basketball-tickets/ncaa-basketball/2026-03-04-6-30-pm/17739293"
-        },
-        {
-          "title": "Vegas Golden Knights at Detroit Red Wings",
-          "date": "2026-03-05",
-          "venue": "Little Caesars Arena",
-          "city": "Detroit, MI",
-          "capacity": 0,
-          "url": "https://seatgeek.com/detroit-red-wings-tickets/3-4-2026-detroit-michigan-little-caesars-arena/nhl/17627909"
-        },
-        {
-          "title": "Nicholls State Colonels at Southern Miss Golden Eagles Baseball",
-          "date": "2026-03-05",
-          "venue": "Pete Taylor Park",
-          "city": "Hattiesburg, MS",
-          "capacity": 0,
-          "url": "https://seatgeek.com/southern-miss-golden-eagles-baseball-tickets/ncaa-baseball/2026-03-04-6-pm/17874191"
-        }
-      ],
-      "enrichedAt": "2026-03-04T11:01:26.678Z",
-      "risingStarScore": 27
-    },
-    {
       "name": "Avalon Emerson",
       "playlists": [
         "Rock Rising",
@@ -3263,10 +3914,9 @@
       "name": "Buck Meek",
       "playlists": [
         "All New Indie",
-        "New Music Friday",
         "Pollen"
       ],
-      "playlistCount": 3,
+      "playlistCount": 2,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
@@ -3312,7 +3962,7 @@
         }
       ],
       "enrichedAt": "2026-03-04T02:47:27.956Z",
-      "risingStarScore": 42
+      "risingStarScore": 37
     },
     {
       "name": "Grace Ives",
@@ -3394,89 +4044,10 @@
       "risingStarScore": 32
     },
     {
-      "name": "CHASE B",
-      "playlists": [
-        "New Music Friday",
-        "Most Necessary",
-        "Rap Caviar"
-      ],
-      "playlistCount": 3,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "monthlyListeners": null,
-      "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "youtubeSubscribers": null,
-      "soldOutMentions": 0,
-      "soldOutSnippets": [],
-      "venueUpgrades": 0,
-      "addedDates": 0,
-      "bigSingle": null,
-      "viralMoment": null,
-      "albumCount": null,
-      "latestRelease": null,
-      "vetScore": 15,
-      "vetTier": "unvetted",
-      "vetSignals": [
-        "📋 3 Spotify editorial playlists"
-      ],
-      "demandScore": 0,
-      "numbersScore": 0,
-      "momentumScore": 15,
-      "upcomingShows": 10,
-      "tourDates": [
-        {
-          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
-          "date": "2026-05-13",
-          "venue": "BOK Center",
-          "city": "Tulsa, OK",
-          "capacity": 19199,
-          "url": "https://seatgeek.com/don-toliver-tickets/tulsa-oklahoma-bok-center-2026-05-12-7-30-pm/concert/18050459"
-        },
-        {
-          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
-          "date": "2026-05-15",
-          "venue": "Toyota Center",
-          "city": "Houston, TX",
-          "capacity": 19300,
-          "url": "https://seatgeek.com/don-toliver-tickets/houston-texas-toyota-center-2026-05-14-7-30-pm/concert/18050460"
-        },
-        {
-          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
-          "date": "2026-05-17",
-          "venue": "Colonial Life Arena",
-          "city": "Columbia, SC",
-          "capacity": 0,
-          "url": "https://seatgeek.com/don-toliver-tickets/columbia-south-carolina-colonial-life-arena-2026-05-17-7-30-pm/concert/18050461"
-        },
-        {
-          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
-          "date": "2026-05-19",
-          "venue": "State Farm Arena",
-          "city": "Atlanta, GA",
-          "capacity": 0,
-          "url": "https://seatgeek.com/don-toliver-tickets/atlanta-georgia-state-farm-arena-1-2026-05-19-7-30-pm/concert/18050463"
-        },
-        {
-          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
-          "date": "2026-05-21",
-          "venue": "Spectrum Center - Charlotte",
-          "city": "Charlotte, NC",
-          "capacity": 18504,
-          "url": "https://seatgeek.com/don-toliver-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-05-21-7-30-pm/concert/18050464"
-        }
-      ],
-      "enrichedAt": "2026-03-04T02:47:33.762Z",
-      "risingStarScore": 32
-    },
-    {
       "name": "Joji",
       "playlists": [
-        "All New Indie",
-        "Pollen"
+        "Pop Rising",
+        "All New Indie"
       ],
       "playlistCount": 2,
       "blogMentions": 0,
@@ -3551,17 +4122,17 @@
       "risingStarScore": 27
     },
     {
-      "name": "Hether",
+      "name": "CHASE B",
       "playlists": [
-        "Rock Rising",
-        "All New Indie"
+        "Most Necessary",
+        "Rap Caviar"
       ],
       "playlistCount": 2,
       "blogMentions": 0,
       "blogSources": [],
       "onWatchlist": false,
       "source": "playlist",
-      "monthlyListeners": 551,
+      "monthlyListeners": null,
       "spotifyFollowers": null,
       "instagramFollowers": null,
       "tiktokFollowers": null,
@@ -3574,19 +4145,59 @@
       "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 10,
+      "vetScore": 15,
       "vetTier": "unvetted",
       "vetSignals": [
-        "🎧 0.0M Spotify listeners",
-        "📋 2 editorial playlists"
+        "📋 3 Spotify editorial playlists"
       ],
       "demandScore": 0,
       "numbersScore": 0,
-      "momentumScore": 10,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "enrichedAt": "2026-03-04T11:01:35.950Z",
-      "risingStarScore": 38
+      "momentumScore": 15,
+      "upcomingShows": 10,
+      "tourDates": [
+        {
+          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
+          "date": "2026-05-13",
+          "venue": "BOK Center",
+          "city": "Tulsa, OK",
+          "capacity": 19199,
+          "url": "https://seatgeek.com/don-toliver-tickets/tulsa-oklahoma-bok-center-2026-05-12-7-30-pm/concert/18050459"
+        },
+        {
+          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
+          "date": "2026-05-15",
+          "venue": "Toyota Center",
+          "city": "Houston, TX",
+          "capacity": 19300,
+          "url": "https://seatgeek.com/don-toliver-tickets/houston-texas-toyota-center-2026-05-14-7-30-pm/concert/18050460"
+        },
+        {
+          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
+          "date": "2026-05-17",
+          "venue": "Colonial Life Arena",
+          "city": "Columbia, SC",
+          "capacity": 0,
+          "url": "https://seatgeek.com/don-toliver-tickets/columbia-south-carolina-colonial-life-arena-2026-05-17-7-30-pm/concert/18050461"
+        },
+        {
+          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
+          "date": "2026-05-19",
+          "venue": "State Farm Arena",
+          "city": "Atlanta, GA",
+          "capacity": 0,
+          "url": "https://seatgeek.com/don-toliver-tickets/atlanta-georgia-state-farm-arena-1-2026-05-19-7-30-pm/concert/18050463"
+        },
+        {
+          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
+          "date": "2026-05-21",
+          "venue": "Spectrum Center - Charlotte",
+          "city": "Charlotte, NC",
+          "capacity": 18504,
+          "url": "https://seatgeek.com/don-toliver-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-05-21-7-30-pm/concert/18050464"
+        }
+      ],
+      "enrichedAt": "2026-03-04T02:47:33.762Z",
+      "risingStarScore": 27
     },
     {
       "name": "WHIPPED CREAM",
@@ -3754,10 +4365,10 @@
       "risingStarScore": 37
     },
     {
-      "name": "Josh Baker",
+      "name": "Stephen Sanchez",
       "playlists": [
-        "Dance Rising",
-        "mint (Electronic)"
+        "Pop Rising",
+        "New Music Friday"
       ],
       "playlistCount": 2,
       "blogMentions": 0,
@@ -3765,97 +4376,7 @@
       "onWatchlist": false,
       "source": "playlist",
       "monthlyListeners": null,
-      "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "youtubeSubscribers": null,
-      "soldOutMentions": 0,
-      "soldOutSnippets": [],
-      "venueUpgrades": 0,
-      "addedDates": 0,
-      "bigSingle": null,
-      "viralMoment": null,
-      "albumCount": null,
-      "latestRelease": null,
-      "vetScore": 10,
-      "vetTier": "unvetted",
-      "vetSignals": [
-        "📋 2 editorial playlists"
-      ],
-      "demandScore": 0,
-      "numbersScore": 0,
-      "momentumScore": 10,
-      "upcomingShows": 4,
-      "tourDates": [
-        {
-          "title": "Teksupport: Prospa b2b Josh Baker & Mink (21+)",
-          "date": "2026-03-21",
-          "venue": "Brooklyn Storehouse at Brooklyn Navy Yard",
-          "city": "Brooklyn, NY",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.4385497884,
-          "url": "https://seatgeek.com/prospa-tickets/brooklyn-new-york-brooklyn-storehouse-at-brooklyn-navy-yard-2026-03-20-10-pm/concert/17982552"
-        },
-        {
-          "title": "Josh Baker",
-          "date": "2026-03-22",
-          "venue": "It'll Do Club",
-          "city": "Dallas, TX",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.2432754582,
-          "url": "https://seatgeek.com/josh-baker-tickets/dallas-texas-it-ll-do-club-2026-03-21-9-pm/concert/18100753"
-        },
-        {
-          "title": "Josh Baker",
-          "date": "2026-04-03",
-          "venue": "CODA - Toronto",
-          "city": "Toronto, ON",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.2333460845,
-          "url": "https://seatgeek.com/josh-baker-tickets/toronto-canada-coda-toronto-2026-04-02-11-pm/concert/18078466"
-        },
-        {
-          "title": "Josh Baker",
-          "date": "2026-05-24",
-          "venue": "Ocean Resort Casino - HQ2 Beachclub",
-          "city": "Atlantic City, NJ",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.1974321894,
-          "url": "https://seatgeek.com/josh-baker-tickets/atlantic-city-new-jersey-ocean-resort-casino-hq2-beachclub-2026-05-23-11-pm/concert/18074916"
-        }
-      ],
-      "enrichedAt": "2026-03-05T11:01:33.946Z",
-      "risingStarScore": 37
-    },
-    {
-      "name": "Charlotte Day Wilson",
-      "playlists": [
-        "Rock Rising",
-        "Pollen"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "monthlyListeners": null,
-      "spotifyFollowers": null,
+      "spotifyFollowers": 0,
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
@@ -3877,7 +4398,44 @@
       "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-04T11:01:17.192Z",
+      "enrichedAt": "2026-03-06T11:01:19.218Z",
+      "risingStarScore": 30
+    },
+    {
+      "name": "Arima Ederra",
+      "playlists": [
+        "Rock Rising",
+        "New Music Friday"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": 2812,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 10,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-06T11:01:28.439Z",
       "risingStarScore": 30
     },
     {
@@ -4280,6 +4838,148 @@
       "risingStarScore": 27
     },
     {
+      "name": "Cobrah",
+      "playlists": [
+        "Dance Rising",
+        "New Music Friday"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 10,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 19,
+      "tourDates": [
+        {
+          "title": "Cobrah",
+          "date": "2026-03-31",
+          "venue": "Showbox SoDo",
+          "city": "Seattle, WA",
+          "capacity": 1500,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3290465667,
+          "url": "https://seatgeek.com/cobrah-tickets/seattle-washington-showbox-sodo-2026-03-30-8-pm/concert/18071868"
+        },
+        {
+          "title": "Cobrah",
+          "date": "2026-04-03",
+          "venue": "Commodore Ballroom",
+          "city": "Vancouver, BC",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1816229302,
+          "url": "https://seatgeek.com/cobrah-tickets/vancouver-canada-commodore-ballroom-2026-04-02-7-pm/concert/18048841"
+        },
+        {
+          "title": "Cobrah",
+          "date": "2026-04-05",
+          "venue": "Midway - Edmonton",
+          "city": "Edmonton, AB",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1610041095,
+          "url": "https://seatgeek.com/cobrah-tickets/edmonton-canada-midway-edmonton-2026-04-04-7-pm/concert/18049124"
+        },
+        {
+          "title": "Cobrah",
+          "date": "2026-04-06",
+          "venue": "The Palace Theatre - Calgary",
+          "city": "Calgary, AB",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2424413637,
+          "url": "https://seatgeek.com/cobrah-tickets/calgary-canada-the-palace-theatre-calgary-2026-04-05-7-pm/concert/18107137"
+        },
+        {
+          "title": "Cobrah",
+          "date": "2026-04-08",
+          "venue": "Knitting Factory Spokane",
+          "city": "Spokane, WA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1787517959,
+          "url": "https://seatgeek.com/cobrah-tickets/spokane-washington-knitting-factory-spokane-2026-04-07-8-pm/concert/18048215"
+        },
+        {
+          "title": "Cobrah",
+          "date": "2026-04-10",
+          "venue": "The Grand At The Complex",
+          "city": "Salt Lake City, UT",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.270804566,
+          "url": "https://seatgeek.com/cobrah-tickets/salt-lake-city-utah-the-grand-at-the-complex-2026-04-09-8-pm/concert/18058974"
+        },
+        {
+          "title": "Cobrah",
+          "date": "2026-04-11",
+          "venue": "House of Blues - Las Vegas",
+          "city": "Las Vegas, NV",
+          "capacity": 1800,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2190899535,
+          "url": "https://seatgeek.com/cobrah-tickets/las-vegas-nevada-house-of-blues-las-vegas-2026-04-10-7-30-pm/concert/18047946"
+        },
+        {
+          "title": "Cobrah",
+          "date": "2026-04-15",
+          "venue": "The Sound - Del Mar",
+          "city": "Del Mar, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2388212604,
+          "url": "https://seatgeek.com/cobrah-tickets/del-mar-california-the-sound-del-mar-2026-04-14-8-pm/concert/18081833"
+        }
+      ],
+      "enrichedAt": "2026-03-06T11:01:33.890Z",
+      "risingStarScore": 27
+    },
+    {
       "name": "hemlocke springs",
       "playlists": [
         "All New Indie",
@@ -4422,7 +5122,30 @@
       "risingStarScore": 27
     },
     {
-      "name": "she's green",
+      "name": "Manuel Turizo",
+      "playlists": [
+        "New Music Friday",
+        "Viva Latino"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "The Brook & The Bluff",
       "playlists": [
         "New Music Friday",
         "Pollen"
@@ -4445,10 +5168,10 @@
       "risingStarScore": 30
     },
     {
-      "name": "That Mexican OT",
+      "name": "Aldous Harding",
       "playlists": [
         "New Music Friday",
-        "Most Necessary"
+        "Pollen"
       ],
       "playlistCount": 2,
       "blogMentions": 0,
@@ -4468,30 +5191,7 @@
       "risingStarScore": 30
     },
     {
-      "name": "Ndotz",
-      "playlists": [
-        "New Music Friday",
-        "Most Necessary"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 30
-    },
-    {
-      "name": "Hannah Laing",
+      "name": "LP Giobbi",
       "playlists": [
         "New Music Friday",
         "mint (Electronic)"
@@ -4514,99 +5214,7 @@
       "risingStarScore": 30
     },
     {
-      "name": "Susannah Joffe",
-      "playlists": [
-        "New Music Friday",
-        "Pollen"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 30
-    },
-    {
-      "name": "Joyner Lucas",
-      "playlists": [
-        "New Music Friday",
-        "Rap Caviar"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 30
-    },
-    {
-      "name": "Asal",
-      "playlists": [
-        "New Music Friday",
-        "Pollen"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 30
-    },
-    {
-      "name": "Quiet Light",
-      "playlists": [
-        "New Music Friday",
-        "Pollen"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 30
-    },
-    {
-      "name": "Kromow",
+      "name": "Skrilla",
       "playlists": [
         "New Music Friday",
         "Most Necessary"
@@ -4629,7 +5237,260 @@
       "risingStarScore": 30
     },
     {
-      "name": "Ritt Momney",
+      "name": "Truman Sinclair",
+      "playlists": [
+        "New Music Friday",
+        "Pollen"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "Isaia Huron",
+      "playlists": [
+        "New Music Friday",
+        "Are & Be"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "Nettspend",
+      "playlists": [
+        "New Music Friday",
+        "Most Necessary"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "B Jack$",
+      "playlists": [
+        "New Music Friday",
+        "Most Necessary"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "Solya",
+      "playlists": [
+        "New Music Friday",
+        "Pollen"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "Maya Hawke",
+      "playlists": [
+        "New Music Friday",
+        "Pollen"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "Friko",
+      "playlists": [
+        "New Music Friday",
+        "Pollen"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "The Army",
+      "playlists": [
+        "New Music Friday",
+        "Pollen"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "villagerrr",
+      "playlists": [
+        "New Music Friday",
+        "Pollen"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "slayr",
+      "playlists": [
+        "New Music Friday",
+        "Most Necessary"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "Dutch Interior",
+      "playlists": [
+        "New Music Friday",
+        "Pollen"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
+      "name": "almost monday",
       "playlists": [
         "New Music Friday",
         "Pollen"
@@ -4721,6 +5582,29 @@
       "risingStarScore": 30
     },
     {
+      "name": "MAF Teeski",
+      "playlists": [
+        "Most Necessary",
+        "Rap Caviar"
+      ],
+      "playlistCount": 2,
+      "blogMentions": 0,
+      "blogSources": [],
+      "onWatchlist": false,
+      "source": "playlist",
+      "vetTier": "unvetted",
+      "vetScore": 0,
+      "monthlyListeners": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "soldOutMentions": 0,
+      "albumCount": null,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "vetSignals": [],
+      "risingStarScore": 30
+    },
+    {
       "name": "Trap Dickey",
       "playlists": [
         "Most Necessary",
@@ -4765,496 +5649,6 @@
       "tourDates": [],
       "vetSignals": [],
       "risingStarScore": 30
-    },
-    {
-      "name": "Tkandz",
-      "playlists": [
-        "Most Necessary",
-        "Rap Caviar"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 30
-    },
-    {
-      "name": "EsDeeKid",
-      "playlists": [
-        "Most Necessary",
-        "Rap Caviar"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 30
-    },
-    {
-      "name": "Taffy",
-      "playlists": [
-        "Most Necessary",
-        "Rap Caviar"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 30
-    },
-    {
-      "name": "Monaleo",
-      "playlists": [
-        "Most Necessary",
-        "Rap Caviar"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 30
-    },
-    {
-      "name": "Fridayy",
-      "playlists": [
-        "Most Necessary",
-        "Are & Be"
-      ],
-      "playlistCount": 2,
-      "blogMentions": 0,
-      "blogSources": [],
-      "onWatchlist": false,
-      "source": "playlist",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 30
-    },
-    {
-      "name": "The Strokes",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 2,
-      "blogSources": [
-        "sfstandard.com",
-        "wire.extrachill.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 25
-    },
-    {
-      "name": "Oct. 20 — RAC Arena, Perth",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "www.billboard.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "Manhattan",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "www.myfirstevent.us"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "Brooklyn",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "www.myfirstevent.us"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "Jersey City",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "www.myfirstevent.us"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "<strong>Ariana Grande",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "theyear2026.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "Lily Allen</strong>",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "theyear2026.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "like <strong>Ariana Grande",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "theyear2026.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "Ariana Grande and Lily Allen",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "theyear2026.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "<strong>Taylor Swift</strong>&#x27",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "www.accio.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "s Eras",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "www.accio.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "dominated? Explore",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "www.accio.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "Top Grossing Artists & Trends",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "www.accio.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "Tour Schedules",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "edmtrain.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "Edmtrain",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "edmtrain.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "Zach Bryan",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "pitchfork.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
-    },
-    {
-      "name": "Pitchfork",
-      "playlists": [],
-      "playlistCount": 0,
-      "blogMentions": 1,
-      "blogSources": [
-        "pitchfork.com"
-      ],
-      "onWatchlist": false,
-      "source": "blog",
-      "vetTier": "unvetted",
-      "vetScore": 0,
-      "monthlyListeners": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "soldOutMentions": 0,
-      "albumCount": null,
-      "upcomingShows": 0,
-      "tourDates": [],
-      "vetSignals": [],
-      "risingStarScore": 20
     }
   ]
 }
