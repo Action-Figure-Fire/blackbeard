@@ -14,29 +14,16 @@
       "isNewAnnouncement": false
     },
     {
-      "comedian": "Nate Bargatze",
+      "comedian": "Matt Rife",
       "venue": "Unknown venue",
       "venueCapacity": null,
       "source": "twitter",
-      "text": "It’s fine. Everything’s fine. Nate Bargatze stars in #TheBreadwinnerMovie - coming to Megaplex May 29.\n\nGet tickets here: https://t.co/yadb8eKZob https://t.co/Kr10MIxlZz",
-      "url": "https://x.com/i/status/2029271182881501507",
-      "ticketUrl": "https://t.co/yadb8eKZob",
+      "text": "I am selling 2 tickets, verified through Ticketmaster, for Matt Rife on April 13, 2026 in Ziggo Dome, Amsterdam. Are you interested?\n https://t.co/FcZ2r66285",
+      "url": "https://x.com/i/status/2029675826979934704",
+      "ticketUrl": "https://t.co/FcZ2r66285",
       "engagement": 1,
-      "created": "2026-03-04T19:02:06.000Z",
+      "created": "2026-03-05T21:50:01.000Z",
       "isSmallVenue": null,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Unknown",
-      "venue": "Comedy Cellar (New York, cap: 115)",
-      "venueCapacity": 115,
-      "source": "twitter",
-      "text": "\"Who here’s ever tried to be ‘productive’ at 2 AM… only to organize their sock drawer like it’s a museum exhibit  Last night’s crowd at the Comedy Cellar ate that relatable chaos UP. Next show: Friday",
-      "url": "https://x.com/i/status/2029515012952178912",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-03-05T11:11:00.000Z",
-      "isSmallVenue": true,
       "isNewAnnouncement": false
     },
     {
@@ -53,15 +40,15 @@
       "isNewAnnouncement": false
     },
     {
-      "comedian": "Matt Rife",
+      "comedian": "Nate Bargatze",
       "venue": "Unknown venue",
       "venueCapacity": null,
       "source": "twitter",
-      "text": "Matt Rife or Poppy tickets to treat myself for payday?",
-      "url": "https://x.com/i/status/2029521536554521068",
-      "ticketUrl": null,
+      "text": "Nate Bargatze: Big Dumb Eyes World Tour - #London 🇨🇦 18 Apr, 2026 🗓️\n\nGet your Tickets Now, https://t.co/qgXlLFhcb5 https://t.co/f1VQasC4o0",
+      "url": "https://x.com/i/status/2029757208460677606",
+      "ticketUrl": "https://t.co/qgXlLFhcb5",
       "engagement": 0,
-      "created": "2026-03-05T11:36:55.000Z",
+      "created": "2026-03-06T03:13:24.000Z",
       "isSmallVenue": null,
       "isNewAnnouncement": false
     },
@@ -71,23 +58,10 @@
       "venueCapacity": null,
       "source": "twitter",
       "text": "Is there anyone looking to buy Stavros Halkias Rockford  (ticket) tickets? Message me.",
-      "url": "https://x.com/i/status/2029243817182757336",
+      "url": "https://x.com/i/status/2029612227934695809",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-03-04T17:13:22.000Z",
-      "isSmallVenue": null,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Bert Kreischer",
-      "venue": "Unknown venue",
-      "venueCapacity": null,
-      "source": "twitter",
-      "text": "ONE WEEK.🔥😂 Bert Kreischer is almost here, and this show is going to be WILD!\n\nLast chance to grab tickets 👉 https://t.co/yZdsSLrdQj\n\n#BertKreischer #StandUpComedy #ComedyShow #LiveFromYoungstown h",
-      "url": "https://x.com/i/status/2028561056054776294",
-      "ticketUrl": "https://t.co/yZdsSLrdQj",
-      "engagement": 0,
-      "created": "2026-03-02T20:00:19.000Z",
+      "created": "2026-03-05T17:37:18.000Z",
       "isSmallVenue": null,
       "isNewAnnouncement": false
     },
@@ -105,19 +79,6 @@
       "isNewAnnouncement": false
     },
     {
-      "comedian": "Unknown",
-      "venue": "Zanies (Nashville, cap: 300)",
-      "venueCapacity": 300,
-      "source": "brave",
-      "text": "<strong>Once tickets are purchased the ONLY thing you will show once doors open is the ticket purchaser&#x27;s driver&#x27;s license to get in</strong>. There is nothing to print or pick up ahead of t",
-      "url": "https://nashville.zanies.com/show/category/series/2026-corey-holcomb/zanies/nashville-tennessee/",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-02-26T03:41:21",
-      "isSmallVenue": true,
-      "isNewAnnouncement": false
-    },
-    {
       "comedian": "Ian Fidance",
       "venue": "Zanies (Nashville, cap: 300)",
       "venueCapacity": 300,
@@ -127,6 +88,19 @@
       "ticketUrl": null,
       "engagement": 0,
       "created": "2026-03-01T11:06:54",
+      "isSmallVenue": true,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Unknown",
+      "venue": "Zanies (Nashville, cap: 300)",
+      "venueCapacity": 300,
+      "source": "brave",
+      "text": "Zanies uses All-In Ticket Pricing. The total price listed includes ticket fees and taxes.",
+      "url": "https://nashville.zanies.com/show/fall-follies-spring-sprollies/the-lab/",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-03-05T15:56:29",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     },
@@ -157,19 +131,6 @@
       "isNewAnnouncement": false
     },
     {
-      "comedian": "Unknown",
-      "venue": "The Stand (New York, cap: 200)",
-      "venueCapacity": 200,
-      "source": "brave",
-      "text": "<strong>They are available from the standard ticketing vendor and there is often no announcement</strong>. So like a week out from the show, check in a few times a day. ... By “better price” I meant t",
-      "url": "https://www.reddit.com/r/Concerts/comments/1rfik2q/box_office/",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-02-26T18:43:44",
-      "isSmallVenue": true,
-      "isNewAnnouncement": false
-    },
-    {
       "comedian": "Mark Normand",
       "venue": "Zanies (Nashville, cap: 300)",
       "venueCapacity": 300,
@@ -178,7 +139,20 @@
       "url": "https://nashville.zanies.com/show/mark-normand-14/zanies/nashville-tennessee/",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-02-28T19:32:43",
+      "created": "2026-03-05T15:42:32",
+      "isSmallVenue": true,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Andrew Schulz",
+      "venue": "Zanies (Nashville, cap: 300)",
+      "venueCapacity": 300,
+      "source": "brave",
+      "text": "Tickets: Will Call is the ONLY option given when purchasing <strong>tickets</strong>. We do NOT give physical or digital <strong>tickets</strong> for entry to our shows. Once <strong>tickets</strong> ",
+      "url": "https://nashville.zanies.com/show/andrew-schulz/zanies/nashville-tennessee/",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-03-05T15:21:15",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     },

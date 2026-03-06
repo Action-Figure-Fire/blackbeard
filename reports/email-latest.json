@@ -1,18 +1,4 @@
 {
-  "timestamp": "2026-03-05T14:00:55.890Z",
-  "alerts": [
-    {
-      "subject": "Tickets Running Low: Bert Kreischer in Youngstown, OH.",
-      "from": "\"Bandsintown\" <notifications@updates.bandsintown.com>",
-      "date": "2026-03-05T11:59:36.000Z",
-      "comedians": [
-        "bert kreischer"
-      ],
-      "isVenueEmail": true,
-      "hasShowKeyword": false,
-      "ticketUrls": [],
-      "score": 11,
-      "snippet": ""
-    }
-  ]
+  "timestamp": "2026-03-06T14:01:08.498Z",
+  "alerts": []
 }
