@@ -2164,5 +2164,887 @@
     "topSong": null,
     "spotifyUrl": null,
     "_cachedAt": "2026-03-06T16:40:23.188Z"
+  },
+  "sabrina carpenter": {
+    "monthlyListeners": 82000000,
+    "spotifyFollowers": null,
+    "instagramFollowers": 50000000,
+    "tiktokFollowers": null,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": null,
+    "genres": [],
+    "soldOutMentions": 4,
+    "soldOutSnippets": [
+      {
+        "title": "Sabrina Carpenter Tour 2026 - Get Tickets & Enjoy Live Show!",
+        "snippet": "If you’re going with family or ... well as teens and adults alike. Tickets for Sabrina’s tour in 2026 are <strong>anticipated to sell out quickly So m",
+        "url": "https://sabrinacarpentertour.us/"
+      },
+      {
+        "title": "Sabrina Carpenter Tickets: How to Buy Sold Out Tickets for 2025 Tour Dates | Music, Sabrina Carpenter, Tickets | Just Jared: Celebrity News and Gossip | Entertainment",
+        "snippet": "Sabrina Carpenter Tickets: How to Buy Sold Out Tickets for 2025 Tour Dates Sabrina Carpenter is heading back to the U.S. to wrap up her Short n&#x27; ",
+        "url": "https://www.justjared.com/2025/03/10/sabrina-carpenter-tickets-how-to-buy-sold-out-tickets-for-2025-tour-dates/"
+      },
+      {
+        "title": "How to get Sabrina Carpenter tickets: Austin, New York, Los Angeles, and more",
+        "snippet": "Original standard tickets for Sabrina Carpenter’s 2025 Short N’ Sweet Tour were previously sold on Ticketmaster; however, much like the first leg of h",
+        "url": "https://www.businessinsider.com/guides/tickets/how-to-buy-sabrina-carpenter-tickets-concert-tour"
+      },
+      {
+        "title": "Sabrina Carpenter's 2025 US Tour: How To Guarantee Tickets",
+        "snippet": "Tickets for Sabrina Carpenter’s 2025 “Short n’ Sweet Tour” quickly sold out upon going on sale. However, fans can look for deals or get tickets to sol",
+        "url": "https://consequence.net/2025/03/sabrina-carpenter-2025-tour-how-to-buy/"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B",
+    "_cachedAt": "2026-03-07T11:00:06.506Z",
+    "_upcomingShows": 2,
+    "_tourDates": [
+      {
+        "title": "Coachella - 3 Day Pass - Weekend 1 with Sabrina Carpenter, Justin Bieber, Karol G, and more",
+        "date": "2026-04-10",
+        "venue": "Empire Polo Club",
+        "city": "Indio, CA",
+        "capacity": 0,
+        "score": 0.7235147392,
+        "url": "https://seatgeek.com/coachella-tickets/indio-california-empire-polo-club-2026-04-10-3-30-am/music-festival/17489455"
+      },
+      {
+        "title": "Coachella - 3 Day Pass - Weekend 2 with Sabrina Carpenter, Justin Bieber, Karol G, and more",
+        "date": "2026-04-17",
+        "venue": "Empire Polo Club",
+        "city": "Indio, CA",
+        "capacity": 0,
+        "score": 0.6141992559,
+        "url": "https://seatgeek.com/coachella-tickets/indio-california-empire-polo-club-2026-04-17-3-30-am/music-festival/17489460"
+      }
+    ]
+  },
+  "teddy swims": {
+    "monthlyListeners": 0,
+    "spotifyFollowers": 6200000,
+    "instagramFollowers": null,
+    "tiktokFollowers": null,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 14,
+    "genres": [],
+    "soldOutMentions": 0,
+    "soldOutSnippets": [],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/33qOK5uJ8AR2xuQQAhHump",
+    "_cachedAt": "2026-03-07T11:00:09.484Z",
+    "_upcomingShows": 9,
+    "_tourDates": [
+      {
+        "title": "New Orleans Jazz Festival: Weekend 2 - 4 Day Pass (4/30 - 5/3) with Eagles, Lainey Wilson, Teddy Swims, and more",
+        "date": "2026-04-30",
+        "venue": "New Orleans Fair Grounds",
+        "city": "New Orleans, LA",
+        "capacity": 0,
+        "score": 0.5294599891,
+        "url": "https://seatgeek.com/new-orleans-jazz-and-heritage-festival-tickets/new-orleans-louisiana-new-orleans-fair-grounds-2026-04-30-3-30-am/music-festival/17535681"
+      },
+      {
+        "title": "BottleRock Napa Valley - Friday - with Lorde, Teddy Swims, Lil Wayne, and more",
+        "date": "2026-05-22",
+        "venue": "Napa Valley Expo",
+        "city": "Napa, CA",
+        "capacity": 0,
+        "score": 0.495610943,
+        "url": "https://seatgeek.com/bottlerock-napa-valley-tickets/napa-california-napa-valley-expo-2026-05-22-11-30-am/music-festival/17540864"
+      },
+      {
+        "title": "Teddy Swims",
+        "date": "2026-06-05",
+        "venue": "Mohegan Sun Arena",
+        "city": "Uncasville, CT",
+        "capacity": 12000,
+        "score": 0.5856747363,
+        "url": "https://seatgeek.com/teddy-swims-tickets/uncasville-connecticut-mohegan-sun-arena-2026-06-04-8-pm/concert/18035310"
+      },
+      {
+        "title": "Teddy Swims with Marc Scibilia",
+        "date": "2026-06-06",
+        "venue": "Constellation Brands-Marvin Sands Performing Arts Center: CMAC",
+        "city": "Canandaigua, NY",
+        "capacity": 5000,
+        "score": 0.5596159916,
+        "url": "https://seatgeek.com/teddy-swims-tickets/canandaigua-new-york-constellation-brands-marvin-sands-performing-arts-center-cmac-2026-06-05-8-pm/concert/18035999"
+      },
+      {
+        "title": "Teddy Swims with Marc Scibilia",
+        "date": "2026-06-08",
+        "venue": "Petersen Events Center",
+        "city": "Pittsburgh, PA",
+        "capacity": 12508,
+        "score": 0.4964596943,
+        "url": "https://seatgeek.com/teddy-swims-tickets/pittsburgh-pennsylvania-petersen-events-center-2026-06-07-8-pm/concert/18035755"
+      },
+      {
+        "title": "Teddy Swims with Marc Scibilia",
+        "date": "2026-06-10",
+        "venue": "Chartway Arena",
+        "city": "Norfolk, VA",
+        "capacity": 9100,
+        "score": 0.4994351537,
+        "url": "https://seatgeek.com/teddy-swims-tickets/norfolk-virginia-chartway-arena-2026-06-09-8-pm/concert/18037900"
+      },
+      {
+        "title": "Teddy Swims with Marc Scibilia",
+        "date": "2026-06-11",
+        "venue": "North Charleston Coliseum",
+        "city": "North Charleston, SC",
+        "capacity": 0,
+        "score": 0.4611762558,
+        "url": "https://seatgeek.com/teddy-swims-tickets/north-charleston-south-carolina-north-charleston-coliseum-2026-06-10-8-pm/concert/18035625"
+      },
+      {
+        "title": "Teddy Swims with Marc Scibilia",
+        "date": "2026-06-12",
+        "venue": "District Park",
+        "city": "Easley, SC",
+        "capacity": 0,
+        "score": 0.4187845652,
+        "url": "https://seatgeek.com/teddy-swims-tickets/easley-south-carolina-district-park-2026-06-12-7-pm/concert/18036782"
+      }
+    ]
+  },
+  "tyler childers": {
+    "monthlyListeners": 4000000,
+    "spotifyFollowers": null,
+    "instagramFollowers": null,
+    "tiktokFollowers": 6700000,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 13,
+    "genres": [],
+    "soldOutMentions": 1,
+    "soldOutSnippets": [
+      {
+        "title": "SOLD OUT: Tyler Childers: On The Road – Friday, October 3, 2025",
+        "snippet": "SOLD OUT: Tyler Childers: On The Road with Tyler Childers, Hayes Carll – <strong>Friday, October 3, 2025</strong> at Riverbend Music Center in Cincinn",
+        "url": "https://riverbend.org/events/2025/10/sold-out-tyler-childers-on-the-road"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/13ZEDW6vyBF12HYcZRr4EV",
+    "_cachedAt": "2026-03-07T11:00:12.428Z",
+    "_upcomingShows": 16,
+    "_tourDates": [
+      {
+        "title": "Tyler Childers",
+        "date": "2026-04-23",
+        "venue": "Dos Equis Pavilion",
+        "city": "Dallas, TX",
+        "capacity": 20111,
+        "score": 0.6308301235,
+        "url": "https://seatgeek.com/tyler-childers-tickets/dallas-texas-dos-equis-pavilion-2026-04-23-6-30-pm/concert/17940231"
+      },
+      {
+        "title": "Tyler Childers",
+        "date": "2026-06-04",
+        "venue": "Coca-Cola Amphitheater",
+        "city": "Birmingham, AL",
+        "capacity": 0,
+        "score": 0.5429873173,
+        "url": "https://seatgeek.com/tyler-childers-tickets/birmingham-alabama-coca-cola-amphitheater-2026-06-04-6-30-pm/concert/17940232"
+      },
+      {
+        "title": "Tyler Childers with Evan Honer",
+        "date": "2026-06-05",
+        "venue": "Bon Secours Wellness Arena",
+        "city": "Greenville, SC",
+        "capacity": 0,
+        "score": 0.5812822517,
+        "url": "https://seatgeek.com/tyler-childers-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-06-05-7-30-pm/concert/17956033"
+      },
+      {
+        "title": "Railbird Festival - 2 Day Pass - with The Lumineers, Tyler Childers, CAAMP and more",
+        "date": "2026-06-06",
+        "venue": "The Red Mile",
+        "city": "Lexington, KY",
+        "capacity": 0,
+        "score": 0.4792055654,
+        "url": "https://seatgeek.com/railbird-festival-tickets/lexington-kentucky-the-red-mile-2026-06-06-3-30-am/music-festival/17846196"
+      },
+      {
+        "title": "Railbird Festival - Sunday - with Tyler Childers, Zach Top, Ella Langley and more",
+        "date": "2026-06-07",
+        "venue": "The Red Mile",
+        "city": "Lexington, KY",
+        "capacity": 0,
+        "score": 0.4629837411,
+        "url": "https://seatgeek.com/railbird-festival-tickets/lexington-kentucky-the-red-mile-2026-06-07-3-30-am/music-festival/17846215"
+      },
+      {
+        "title": "Tyler Childers",
+        "date": "2026-06-10",
+        "venue": "Darien Lake Amphitheater",
+        "city": "Darien Center, NY",
+        "capacity": 21000,
+        "score": 0.5088014177,
+        "url": "https://seatgeek.com/tyler-childers-tickets/darien-center-new-york-darien-lake-amphitheater-2026-06-10-7-30-pm/concert/17940235"
+      },
+      {
+        "title": "Tyler Childers",
+        "date": "2026-06-11",
+        "venue": "Hersheypark Stadium",
+        "city": "Hershey, PA",
+        "capacity": 30000,
+        "score": 0.5856011195,
+        "url": "https://seatgeek.com/tyler-childers-tickets/hershey-pennsylvania-hersheypark-stadium-2026-06-11-6-30-pm/concert/17940236"
+      },
+      {
+        "title": "Buckeye Country Superfest with Tyler Childers, The Red Clay Strays and many more!",
+        "date": "2026-06-13",
+        "venue": "Ohio Stadium",
+        "city": "Columbus, OH",
+        "capacity": 0,
+        "score": 0.6079120473,
+        "url": "https://seatgeek.com/buckeye-country-superfest-tickets/columbus-ohio-ohio-stadium-2026-06-13-3-pm/music-festival/17716249"
+      }
+    ]
+  },
+  "zach bryan": {
+    "monthlyListeners": 26000000,
+    "spotifyFollowers": null,
+    "instagramFollowers": null,
+    "tiktokFollowers": null,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 18,
+    "genres": [],
+    "soldOutMentions": 2,
+    "soldOutSnippets": [
+      {
+        "title": "Zach Bryan Adds Dates To Upcoming 'With Heaven On Tour' - MusicRow.com",
+        "snippet": "Bryan is coming off a massive fall ... to release his upcoming album With Heaven on Top on Jan. 9. Newly-Added Dates: – <strong>Friday, April 3, 2026<",
+        "url": "https://musicrow.com/2025/12/zach-bryan-adds-dates-to-upcoming-with-heaven-on-tour/"
+      },
+      {
+        "title": "How to get cheap Zach Bryan tickets for Cleveland, Ohio May 9 concert tour date - cleveland.com",
+        "snippet": "Zach Bryan is bringing “With Heaven On Tour” to Cleveland and tickets are already selling fast. Get concert details and how to snag the cheapest ticke",
+        "url": "https://www.cleveland.com/live-entertainment/2025/12/zach-bryan-cleveland-tickets-are-selling-fast-score-discounts-before-theyre-gone.html"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/40ZNYROS4zLfyyBSs2PGe2",
+    "_cachedAt": "2026-03-07T11:00:15.317Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Zach Bryan with CAAMP and J.R. Carroll",
+        "date": "2026-03-08",
+        "venue": "The Dome at America's Center",
+        "city": "St. Louis, MO",
+        "capacity": 66965,
+        "score": 0.7856096896,
+        "url": "https://seatgeek.com/zach-bryan-tickets/st-louis-missouri-the-dome-at-america-s-center-2026-03-07-7-pm/concert/17930409"
+      },
+      {
+        "title": "Zach Bryan with CAAMP and J.R. Carroll",
+        "date": "2026-03-14",
+        "venue": "Raymond James Stadium",
+        "city": "Tampa, FL",
+        "capacity": 0,
+        "score": 0.8498613757,
+        "url": "https://seatgeek.com/zach-bryan-tickets/tampa-florida-raymond-james-stadium-2026-03-14-7-pm/concert/17930410"
+      },
+      {
+        "title": "Zach Bryan with CAAMP and J.R. Carroll",
+        "date": "2026-03-22",
+        "venue": "Alamodome",
+        "city": "San Antonio, TX",
+        "capacity": 65000,
+        "score": 0.7462113149,
+        "url": "https://seatgeek.com/zach-bryan-tickets/san-antonio-texas-alamodome-2026-03-21-7-pm/concert/17930411"
+      },
+      {
+        "title": "Zach Bryan with CAAMP and J.R. Carroll",
+        "date": "2026-03-29",
+        "venue": "Tiger Stadium",
+        "city": "Baton Rouge, LA",
+        "capacity": 0,
+        "score": 0.7044683676,
+        "url": "https://seatgeek.com/zach-bryan-tickets/baton-rouge-louisiana-tiger-stadium-2026-03-28-7-pm/concert/17930413"
+      },
+      {
+        "title": "Zach Bryan",
+        "date": "2026-04-04",
+        "venue": "HA Chapman Stadium",
+        "city": "Tulsa, OK",
+        "capacity": 0,
+        "score": 0.6485109451,
+        "url": "https://seatgeek.com/zach-bryan-tickets/tulsa-oklahoma-ha-chapman-stadium-2026-04-03-7-pm/concert/17944250"
+      },
+      {
+        "title": "Zach Bryan",
+        "date": "2026-04-05",
+        "venue": "HA Chapman Stadium",
+        "city": "Tulsa, OK",
+        "capacity": 0,
+        "score": 0.6766284172,
+        "url": "https://seatgeek.com/zach-bryan-tickets/tulsa-oklahoma-ha-chapman-stadium-2026-04-04-7-pm/concert/17944252"
+      },
+      {
+        "title": "Zach Bryan with Kings of Leon and J.R. Carroll",
+        "date": "2026-04-11",
+        "venue": "L&N Federal Credit Union Stadium",
+        "city": "Louisville, KY",
+        "capacity": 0,
+        "score": 0.7078415579,
+        "url": "https://seatgeek.com/zach-bryan-tickets/louisville-kentucky-l-n-federal-credit-union-stadium-2026-04-11-7-pm/concert/17930414"
+      },
+      {
+        "title": "Zach Bryan with CAAMP and J.R. Carroll",
+        "date": "2026-04-18",
+        "venue": "Bank of America Stadium",
+        "city": "Charlotte, NC",
+        "capacity": 0,
+        "score": 0.7392739664,
+        "url": "https://seatgeek.com/zach-bryan-tickets/charlotte-north-carolina-bank-of-america-stadium-2026-04-18-7-pm/concert/17930412"
+      }
+    ]
+  },
+  "noah kahan": {
+    "monthlyListeners": null,
+    "spotifyFollowers": null,
+    "instagramFollowers": 4000000,
+    "tiktokFollowers": 3300000,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 13,
+    "genres": [],
+    "soldOutMentions": 3,
+    "soldOutSnippets": [
+      {
+        "title": "Noah Kahan tickets: Best deals for added tour dates before they’re sold out",
+        "snippet": "Updated: Feb. 13, 2026, 10:34 a.m. ... Noah Kahan performs here at the 2025 BottleRock Napa Valley on <strong>Sunday, May 25, 2025</strong>, at Napa V",
+        "url": "https://www.cleveland.com/live-entertainment/2026/02/noah-kahan-tickets-best-deals-for-added-tour-dates-before-theyre-sold-out.html"
+      },
+      {
+        "title": "Are Noah Kahan tickets sold out? Vivid Seats takes $30 off for new customers - al.com",
+        "snippet": "Not even a month after the official tour announcement came via Kahan’s personal Instagram account, all shows—aside from Kahan’s upcoming music festiva",
+        "url": "https://www.al.com/live-entertainment/2026/03/noah-kahan-sold-out-heres-how-fans-are-still-scoring-seats-and-saving-30-today.html"
+      },
+      {
+        "title": "Noah Kahan ‘The Great Divide’ tour tickets are selling fast: How to secure your tickets before they are gone - al.com",
+        "snippet": "Luckily for those still looking to attend one Noah Kahan&#x27;s upcoming stadium shows this summer, <strong>tickets are still available for purchase</",
+        "url": "https://www.al.com/live-entertainment/2026/02/noah-kahan-the-great-divide-tour-tickets-are-selling-fast-how-to-secure-your-tickets-before-they-are-gone.html"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B",
+    "_cachedAt": "2026-03-07T11:00:18.199Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Bonnaroo Music Festival (4 Day Pass) with The Strokes, Rufus Du Sol, Noah Kahan and more",
+        "date": "2026-06-11",
+        "venue": "Manchester Farm",
+        "city": "Manchester, TN",
+        "capacity": 0,
+        "score": 0.4523358034,
+        "url": "https://seatgeek.com/bonnaroo-music-festival-tickets/manchester-tennessee-manchester-farm-2026-06-11-3-30-am/music-festival/17632120"
+      },
+      {
+        "title": "Noah Kahan with Gigi Perez",
+        "date": "2026-06-11",
+        "venue": "Kia Center",
+        "city": "Orlando, FL",
+        "capacity": 0,
+        "score": 0.6476255709,
+        "url": "https://seatgeek.com/noah-kahan-tickets/orlando-florida-kia-center-2026-06-11-6-30-pm/concert/18046668"
+      },
+      {
+        "title": "Noah Kahan with Gigi Perez",
+        "date": "2026-06-12",
+        "venue": "Kia Center",
+        "city": "Orlando, FL",
+        "capacity": 0,
+        "score": 0.6860080502,
+        "url": "https://seatgeek.com/noah-kahan-tickets/orlando-florida-kia-center-2026-06-12-7-30-pm/concert/18065510"
+      },
+      {
+        "title": "Bonnaroo Music Festival (Sunday) with Noah Kahan, Role Model, Kesha and more",
+        "date": "2026-06-14",
+        "venue": "Manchester Farm",
+        "city": "Manchester, TN",
+        "capacity": 0,
+        "score": 0.4129807796,
+        "url": "https://seatgeek.com/bonnaroo-music-festival-tickets/manchester-tennessee-manchester-farm-2026-06-14-12-pm/music-festival/17632124"
+      },
+      {
+        "title": "Noah Kahan with Gigi Perez",
+        "date": "2026-06-26",
+        "venue": "Citizens Bank Park",
+        "city": "Philadelphia, PA",
+        "capacity": 43647,
+        "score": 0.7691820221,
+        "url": "https://seatgeek.com/noah-kahan-tickets/philadelphia-pennsylvania-citizens-bank-park-2026-06-26-6-30-pm/concert/18046665"
+      },
+      {
+        "title": "Noah Kahan with Gigi Perez",
+        "date": "2026-06-28",
+        "venue": "Rogers Stadium - Toronto",
+        "city": "Toronto, ON",
+        "capacity": 0,
+        "score": 0.6675241581,
+        "url": "https://seatgeek.com/noah-kahan-tickets/toronto-canada-rogers-stadium-toronto-2026-06-28-6-30-pm/concert/18046694"
+      },
+      {
+        "title": "Noah Kahan with Gigi Perez",
+        "date": "2026-07-01",
+        "venue": "Great American Ball Park",
+        "city": "Cincinnati, OH",
+        "capacity": 0,
+        "score": 0.7137461503,
+        "url": "https://seatgeek.com/noah-kahan-tickets/cincinnati-ohio-great-american-ball-park-2026-07-01-6-30-pm/concert/18046666"
+      },
+      {
+        "title": "Noah Kahan with Gigi Perez",
+        "date": "2026-07-03",
+        "venue": "PNC Park",
+        "city": "Pittsburgh, PA",
+        "capacity": 0,
+        "score": 0.6918432639,
+        "url": "https://seatgeek.com/noah-kahan-tickets/pittsburgh-pennsylvania-pnc-park-2026-07-03-6-30-pm/concert/18046667"
+      }
+    ]
+  },
+  "benson boone": {
+    "monthlyListeners": null,
+    "spotifyFollowers": null,
+    "instagramFollowers": 7000000,
+    "tiktokFollowers": 9300000,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": null,
+    "genres": [],
+    "soldOutMentions": 3,
+    "soldOutSnippets": [
+      {
+        "title": "Benson Boone American Heart Tour 2026: Final Birmingham Finale Guide",
+        "snippet": "After months of sold-out arenas, soaring falsettos, and backflips worthy of stadium legend status, the tour is now heading toward its emotional finale",
+        "url": "https://backyarddrunkard.com/celebrity-news/benson-boone-american-heart-tour-birmingham-finale-2026/"
+      },
+      {
+        "title": "How much are Benson Boone tickets? Final dates for 2025 compared",
+        "snippet": "Benson Boone&#x27;s coming tour sold out fast, but it&#x27;s not too late to find tickets to see him live. Here are the dates and prices compared for ",
+        "url": "https://www.businessinsider.com/guides/tickets/how-to-get-benson-boone-tickets-concert-tour"
+      },
+      {
+        "title": "Benson Boone's 'American Heart' Tour Tickets Sold Out in Seconds. Here's Where to Find Stubs Online",
+        "snippet": "Boone will play shows in Chicago, Illinois, Detroit, Michigan, and Austin, Texas. Tickets sold out in seconds, according to Boone’s Instagram post. ..",
+        "url": "https://www.rollingstone.com/product-recommendations/tickets/buy-benson-boone-american-heart-tour-tickets-online-2025-1235337209/"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/22wbnEMDvgVIAGdFeek6ET",
+    "_cachedAt": "2026-03-07T11:00:21.113Z",
+    "_upcomingShows": 0,
+    "_tourDates": []
+  },
+  "post malone": {
+    "monthlyListeners": null,
+    "spotifyFollowers": 48300000,
+    "instagramFollowers": null,
+    "tiktokFollowers": null,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": null,
+    "genres": [],
+    "soldOutMentions": 2,
+    "soldOutSnippets": [
+      {
+        "title": "Cheap Post Malone Tickets & 2026 Concert Tour Dates",
+        "snippet": "Get the best Post Malone tickets price of any ticket site on TickPick and catch his concerts live in 2026. While tickets usually sell out at the box o",
+        "url": "https://www.tickpick.com/concerts/post-malone-tickets/"
+      },
+      {
+        "title": "Post Malone Tour Dates 2026 & Concert Tickets",
+        "snippet": "After 2017 years since releasing &#x27;Deja Vu&#x27; and making a huge impact in the industry, fans still gather to hear Post Malone appear live to pe",
+        "url": "https://concertfix.com/tours/post-malone"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60",
+    "_cachedAt": "2026-03-07T11:00:24.740Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Tortuga Music Festival - 3 Day Pass - with Post Malone, Riley Green, Kenny Chesney and more",
+        "date": "2026-04-10",
+        "venue": "Fort Lauderdale Beach Park",
+        "city": "Fort Lauderdale, FL",
+        "capacity": 0,
+        "score": 0.4978990299,
+        "url": "https://seatgeek.com/tortuga-music-festival-tickets/fort-lauderdale-florida-fort-lauderdale-beach-park-2026-04-10-3-30-am/music-festival/17656705"
+      },
+      {
+        "title": "Stagecoach Country Music Festival with Cody Johnson, Lainey Wilson, Post Malone, and more  - 3 Day Pass",
+        "date": "2026-04-24",
+        "venue": "Empire Polo Club",
+        "city": "Indio, CA",
+        "capacity": 0,
+        "score": 0.5337096814,
+        "url": "https://seatgeek.com/stagecoach-country-music-festival-tickets/indio-california-empire-polo-club-2026-04-24-3-30-am/music-festival/17565099"
+      },
+      {
+        "title": "Stagecoach Country Music Festival with Post Malone, Brooks & Dunn, Hootie & The Blowfish, and more - Sunday",
+        "date": "2026-04-26",
+        "venue": "Empire Polo Club",
+        "city": "Indio, CA",
+        "capacity": 0,
+        "score": 0.4099571997,
+        "url": "https://seatgeek.com/stagecoach-country-music-festival-tickets/indio-california-empire-polo-club-2026-04-26-12-pm/music-festival/17565105"
+      },
+      {
+        "title": "Post Malone with Jelly Roll and Carter Faith",
+        "date": "2026-05-14",
+        "venue": "Sun Bowl Stadium",
+        "city": "El Paso, TX",
+        "capacity": 0,
+        "score": 0.6489449716,
+        "url": "https://seatgeek.com/post-malone-tickets/el-paso-texas-sun-bowl-stadium-2026-05-13-7-30-pm/concert/18046626"
+      },
+      {
+        "title": "Post Malone with Jelly Roll and Carter Faith",
+        "date": "2026-05-20",
+        "venue": "McLane Stadium",
+        "city": "Waco, TX",
+        "capacity": 0,
+        "score": 0.6998529723,
+        "url": "https://seatgeek.com/post-malone-tickets/waco-texas-mclane-stadium-2026-05-19-7-30-pm/concert/18046625"
+      },
+      {
+        "title": "Post Malone with Jelly Roll and Carter Faith",
+        "date": "2026-05-24",
+        "venue": "Tiger Stadium",
+        "city": "Baton Rouge, LA",
+        "capacity": 0,
+        "score": 0.6665561328,
+        "url": "https://seatgeek.com/post-malone-tickets/baton-rouge-louisiana-tiger-stadium-2026-05-23-7-30-pm/concert/18042737"
+      },
+      {
+        "title": "Post Malone with Jelly Roll and Carter Faith",
+        "date": "2026-05-27",
+        "venue": "Protective Stadium",
+        "city": "Birmingham, AL",
+        "capacity": 0,
+        "score": 0.5745663938,
+        "url": "https://seatgeek.com/post-malone-tickets/birmingham-alabama-protective-stadium-2026-05-26-7-30-pm/concert/18046624"
+      },
+      {
+        "title": "Gulf Coast Jam - (4 Day Pass) with Keith Urban, Chris Stapleton, Riley Green, Post Malone",
+        "date": "2026-05-28",
+        "venue": "Frank Brown Park",
+        "city": "Panama City Beach, FL",
+        "capacity": 0,
+        "score": 0.4947720838,
+        "url": "https://seatgeek.com/gulf-coast-jam-tickets/panama-city-beach-florida-frank-brown-park-2026-05-28-3-30-am/music-festival/17548703"
+      }
+    ]
+  },
+  "morgan wallen": {
+    "monthlyListeners": null,
+    "spotifyFollowers": 14800000,
+    "instagramFollowers": 9000000,
+    "tiktokFollowers": 191500,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 16,
+    "genres": [],
+    "soldOutMentions": 2,
+    "soldOutSnippets": [
+      {
+        "title": "Morgan Wallen's 2026 Stadium Tour: How to Get Tickets",
+        "snippet": "Tickets for Morgan Wallen’s 2026 “Still The Problem Tour” went on sale <strong>Friday, November 7th</strong> and quickly sold out. Fns can still look ",
+        "url": "https://consequence.net/2025/11/morgan-wallen-2026-tour-how-to-get-tickets/"
+      },
+      {
+        "title": "Get Morgan Wallen tickets for ‘Still the Problem’ before they sell out",
+        "snippet": "Morgan Wallen’s 2025 “I’m the Problem” Stadium Tour was one of the hottest tickets of the year, with <strong>nearly every show selling out within hour",
+        "url": "https://www.cleveland.com/live-entertainment/2025/10/get-morgan-wallen-tickets-for-still-the-problem-before-they-sell-out.html"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM",
+    "_cachedAt": "2026-03-07T11:00:27.608Z",
+    "_upcomingShows": 24,
+    "_tourDates": [
+      {
+        "title": "Morgan Wallen with Thomas Rhett, Gavin Adcock, and Vincent Mason",
+        "date": "2026-04-10",
+        "venue": "U.S. Bank Stadium",
+        "city": "Minneapolis, MN",
+        "capacity": 0,
+        "score": 0.7181304389,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/minneapolis-minnesota-u-s-bank-stadium-2026-04-10-5-30-pm/concert/17873132"
+      },
+      {
+        "title": "Morgan Wallen with HARDY, Gavin Adcock, and Vincent Mason",
+        "date": "2026-04-11",
+        "venue": "U.S. Bank Stadium",
+        "city": "Minneapolis, MN",
+        "capacity": 0,
+        "score": 0.7423997579,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/minneapolis-minnesota-u-s-bank-stadium-2026-04-11-5-30-pm/concert/17873133"
+      },
+      {
+        "title": "Wallen & Wilson: Tribute To Morgan Wallen & Lainey Wilson",
+        "date": "2026-04-17",
+        "venue": "The Venue at Thunder Valley Casino Resort",
+        "city": "Lincoln, CA",
+        "capacity": 0,
+        "score": 0.2281399842,
+        "url": "https://seatgeek.com/legends-of-new-country-wallen-wilson-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2026-04-16-7-30-pm/concert/17808732"
+      },
+      {
+        "title": "Morgan Wallen with Ella Langley, Vincent Mason and Zach John King",
+        "date": "2026-04-18",
+        "venue": "Bryant-Denny Stadium",
+        "city": "Tuscaloosa, AL",
+        "capacity": 0,
+        "score": 0.784253463,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/tuscaloosa-alabama-bryant-denny-stadium-2026-04-18-5-30-pm/concert/17873108"
+      },
+      {
+        "title": "Morgan Wallen with Brooks & Dunn, Gavin Adcock and Vincent Mason",
+        "date": "2026-05-02",
+        "venue": "Allegiant Stadium",
+        "city": "Las Vegas, NV",
+        "capacity": 0,
+        "score": 0.7788194485,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/las-vegas-nevada-allegiant-stadium-2026-05-01-5-30-pm/concert/17873117"
+      },
+      {
+        "title": "Morgan Wallen with Thomas Rhett, Gavin Adcock and. Vincent Mason",
+        "date": "2026-05-03",
+        "venue": "Allegiant Stadium",
+        "city": "Las Vegas, NV",
+        "capacity": 0,
+        "score": 0.77207437,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/las-vegas-nevada-allegiant-stadium-2026-05-02-5-30-pm/concert/17873110"
+      },
+      {
+        "title": "Morgan Wallen with  Brooks & Dunn, Hudson Westbrook and Zach John King",
+        "date": "2026-05-08",
+        "venue": "Lucas Oil Stadium",
+        "city": "Indianapolis, IN",
+        "capacity": 0,
+        "score": 0.6864273065,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/indianapolis-indiana-lucas-oil-stadium-2026-05-08-5-30-pm/concert/17873109"
+      },
+      {
+        "title": "Morgan Wallen with Ella Langley, Flatland Cavalry, and Zach John King",
+        "date": "2026-05-09",
+        "venue": "Lucas Oil Stadium",
+        "city": "Indianapolis, IN",
+        "capacity": 0,
+        "score": 0.7243645608,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/indianapolis-indiana-lucas-oil-stadium-2026-05-09-5-30-pm/concert/17873148"
+      }
+    ]
+  },
+  "luke combs": {
+    "monthlyListeners": null,
+    "spotifyFollowers": null,
+    "instagramFollowers": null,
+    "tiktokFollowers": null,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 17,
+    "genres": [],
+    "soldOutMentions": 1,
+    "soldOutSnippets": [
+      {
+        "title": "Luke Combs Tickets, Tour Dates & Schedule - Luke Combs Tour",
+        "snippet": "The emotional highs and singalong ... are among the most in-demand in country music. Due to high demand, <strong>many dates sold out quickly during fa",
+        "url": "https://www.lukecombstour.net/"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/718COspgdWOnwOFpJHRZHS",
+    "_cachedAt": "2026-03-07T11:00:30.435Z",
+    "_upcomingShows": 13,
+    "_tourDates": [
+      {
+        "title": "Luke Combs with Dierks Bentley, Ty Myers and Thelma & James",
+        "date": "2026-03-22",
+        "venue": "Allegiant Stadium",
+        "city": "Las Vegas, NV",
+        "capacity": 0,
+        "score": 0.8215225931,
+        "url": "https://seatgeek.com/luke-combs-tickets/las-vegas-nevada-allegiant-stadium-2026-03-21-5-50-pm/concert/17808786"
+      },
+      {
+        "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+        "date": "2026-04-04",
+        "venue": "Scott Stadium",
+        "city": "Charlottesville, VA",
+        "capacity": 0,
+        "score": 0.7065864647,
+        "url": "https://seatgeek.com/luke-combs-tickets/charlottesville-virginia-scott-stadium-2026-04-04-5-20-pm/concert/17808788"
+      },
+      {
+        "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+        "date": "2026-04-11",
+        "venue": "MidAmerican Energy Field at Jack Trice Stadium",
+        "city": "Ames, IA",
+        "capacity": 0,
+        "score": 0.6630071834,
+        "url": "https://seatgeek.com/luke-combs-tickets/ames-iowa-midamerican-energy-field-at-jack-trice-stadium-2026-04-11-5-20-pm/concert/17808787"
+      },
+      {
+        "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+        "date": "2026-04-18",
+        "venue": "Notre Dame Stadium",
+        "city": "Notre Dame, IN",
+        "capacity": 0,
+        "score": 0.7242163104,
+        "url": "https://seatgeek.com/luke-combs-tickets/notre-dame-indiana-notre-dame-stadium-2026-04-18-5-20-pm/concert/17808790"
+      },
+      {
+        "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+        "date": "2026-04-25",
+        "venue": "Ohio Stadium",
+        "city": "Columbus, OH",
+        "capacity": 0,
+        "score": 0.7184248937,
+        "url": "https://seatgeek.com/luke-combs-tickets/columbus-ohio-ohio-stadium-2026-04-25-5-20-pm/concert/17808789"
+      },
+      {
+        "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+        "date": "2026-05-02",
+        "venue": "Neyland Stadium",
+        "city": "Knoxville, TN",
+        "capacity": 0,
+        "score": 0.6635734525,
+        "url": "https://seatgeek.com/luke-combs-tickets/knoxville-tennessee-neyland-stadium-2026-05-02-5-20-pm/concert/17808791"
+      },
+      {
+        "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+        "date": "2026-05-09",
+        "venue": "Gaylord Family Oklahoma Memorial Stadium",
+        "city": "Norman, OK",
+        "capacity": 86112,
+        "score": 0.6908021147,
+        "url": "https://seatgeek.com/luke-combs-tickets/norman-oklahoma-gaylord-family-oklahoma-memorial-stadium-2026-05-09-5-pm/concert/17808803"
+      },
+      {
+        "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+        "date": "2026-05-15",
+        "venue": "Lambeau Field",
+        "city": "Green Bay, WI",
+        "capacity": 0,
+        "score": 0.6253088508,
+        "url": "https://seatgeek.com/luke-combs-tickets/green-bay-wisconsin-lambeau-field-2026-05-15-5-20-pm/concert/17835227"
+      }
+    ]
+  },
+  "chris stapleton": {
+    "monthlyListeners": 1000,
+    "spotifyFollowers": null,
+    "instagramFollowers": null,
+    "tiktokFollowers": null,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 6,
+    "genres": [],
+    "soldOutMentions": 2,
+    "soldOutSnippets": [
+      {
+        "title": "Chris Stapleton Tickets, 2026 Concert Tour Dates | Ticketmaster",
+        "snippet": "Tickets for newly-added dates on ... fan club will have early access to tickets with a presale starting <strong>Tuesday, January 13 at 10:00 a.m. loca",
+        "url": "https://www.ticketmaster.com/chris-stapleton-tickets/artist/1828177"
+      },
+      {
+        "title": "Chris Stapleton Tour 2026 - See Tour Dates & Get Tickets",
+        "snippet": "Tickets are on sale now, but they’re selling fast! Don’t miss your chance to see one of country music’s most celebrated artists perform his hits along",
+        "url": "https://www.chrisstapletontour2023.com/"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/4YLtscXsxbVgi031ovDDdh",
+    "_cachedAt": "2026-03-07T11:00:33.439Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Houston Rodeo - Chris Stapleton",
+        "date": "2026-03-12",
+        "venue": "NRG Stadium",
+        "city": "Houston, TX",
+        "capacity": 0,
+        "score": 0.8367438832,
+        "url": "https://seatgeek.com/houston-rodeo-tickets/rodeo/2026-03-12-6-45-pm/17521795"
+      },
+      {
+        "title": "Two Step Inn Festival - 2 Day Pass - with Chris Stapleton, Brooks & Dunn, The Red Clay Strays, and more",
+        "date": "2026-04-18",
+        "venue": "San Gabriel Park",
+        "city": "Georgetown, TX",
+        "capacity": 0,
+        "score": 0.531614269,
+        "url": "https://seatgeek.com/two-step-inn-festival-tickets/georgetown-texas-san-gabriel-park-2026-04-18-3-30-am/music-festival/17762950"
+      },
+      {
+        "title": "Two Step Inn Festival - Sunday - with Chris Stapleton, the Red Clay Strays, Tedeschi Trucks Band, and more",
+        "date": "2026-04-19",
+        "venue": "San Gabriel Park",
+        "city": "Georgetown, TX",
+        "capacity": 0,
+        "score": 0.5332800937,
+        "url": "https://seatgeek.com/two-step-inn-festival-tickets/georgetown-texas-san-gabriel-park-2026-04-19-12-pm/music-festival/17759877"
+      },
+      {
+        "title": "Outlaw State of Mind - Chris Stapleton Tribute",
+        "date": "2026-05-21",
+        "venue": "Palace Theatre - Greensburg, PA",
+        "city": "Greensburg, PA",
+        "capacity": 0,
+        "score": 0.1296888377,
+        "url": "https://seatgeek.com/outlaw-state-of-mind-chris-stapleton-tribute-tickets/greensburg-pennsylvania-palace-theatre-greensburg-pa-2026-05-21-7-30-pm/concert/17854070"
+      },
+      {
+        "title": "Chris Stapleton's All-American Road Show",
+        "date": "2026-05-23",
+        "venue": "Nissan Stadium",
+        "city": "Nashville, TN",
+        "capacity": 0,
+        "score": 0.8779199128,
+        "url": "https://seatgeek.com/chris-stapleton-tickets/nashville-tennessee-nissan-stadium-2026-05-23-6-pm/concert/17990981"
+      },
+      {
+        "title": "Gulf Coast Jam - (4 Day Pass) with Keith Urban, Chris Stapleton, Riley Green, Post Malone",
+        "date": "2026-05-28",
+        "venue": "Frank Brown Park",
+        "city": "Panama City Beach, FL",
+        "capacity": 0,
+        "score": 0.4947720838,
+        "url": "https://seatgeek.com/gulf-coast-jam-tickets/panama-city-beach-florida-frank-brown-park-2026-05-28-3-30-am/music-festival/17548703"
+      },
+      {
+        "title": "Gulf Coast Jam - (Friday) with Chris Stapleton",
+        "date": "2026-05-29",
+        "venue": "Frank Brown Park",
+        "city": "Panama City Beach, FL",
+        "capacity": 0,
+        "score": 0.3200524636,
+        "url": "https://seatgeek.com/gulf-coast-jam-tickets/panama-city-beach-florida-frank-brown-park-2026-05-29-2-pm/music-festival/17548707"
+      },
+      {
+        "title": "Chris Stapleton with Allen Stone",
+        "date": "2026-06-11",
+        "venue": "VyStar Veterans Memorial Arena",
+        "city": "Jacksonville, FL",
+        "capacity": 0,
+        "score": 0.6212772448,
+        "url": "https://seatgeek.com/chris-stapleton-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2026-06-11-7-30-pm/concert/18004695"
+      }
+    ]
   }
 }
