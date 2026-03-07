@@ -844,6 +844,2276 @@
       "tier": "A",
       "addedDate": "2026-03-02",
       "genre": "Pop"
+    },
+    {
+      "name": "Sabrina Carpenter",
+      "genre": "Popular",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 7,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Teddy Swims",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 12,
+      "totalEvents": 32,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Tyler Childers",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 16,
+      "totalEvents": 22,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Zach Bryan",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 24,
+      "totalEvents": 38,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Noah Kahan",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 29,
+      "totalEvents": 31,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Benson Boone",
+      "genre": "Popular",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 3,
+      "totalEvents": 4,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Post Malone",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 19,
+      "totalEvents": 22,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Morgan Wallen",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 23,
+      "totalEvents": 23,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Luke Combs",
+      "genre": "Popular",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 9,
+      "totalEvents": 23,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Chris Stapleton",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 34,
+      "totalEvents": 37,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Jelly Roll",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 30,
+      "totalEvents": 35,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Bailey Zimmerman",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 32,
+      "totalEvents": 52,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Lainey Wilson",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 21,
+      "totalEvents": 23,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Shaboozey",
+      "genre": "Popular",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 6,
+      "totalEvents": 7,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Tommy Richman",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 22,
+      "totalEvents": 37,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Doja Cat",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 28,
+      "totalEvents": 46,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Deftones",
+      "genre": "Popular",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 26,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "The Killers",
+      "genre": "Popular",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 3,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Cage The Elephant",
+      "genre": "Popular",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 3,
+      "totalEvents": 3,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Twenty One Pilots",
+      "genre": "Popular",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 18,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Tame Impala",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 24,
+      "totalEvents": 67,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Japanese Breakfast",
+      "genre": "Popular",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 11,
+      "totalEvents": 13,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Turnstile",
+      "genre": "Popular",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 5,
+      "totalEvents": 23,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Fontaines D.C.",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 7,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Mannequin Pussy",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 13,
+      "totalEvents": 21,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Snail Mail",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 26,
+      "totalEvents": 31,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Soccer Mommy",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Alex G",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 10,
+      "totalEvents": 11,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "MJ Lenderman",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 22,
+      "totalEvents": 22,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Geese",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 33,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Black Country New Road",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 12,
+      "totalEvents": 35,
+      "soldOutEvents": 1
+    },
+    {
+      "name": "Dry Cleaning",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 17,
+      "totalEvents": 41,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Yard Act",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 6,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Wet Leg",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 18,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Beabadoobee",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "PinkPantheress",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 15,
+      "totalEvents": 22,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Raye",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 43,
+      "totalEvents": 53,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "FKA twigs",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 13,
+      "totalEvents": 19,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Men I Trust",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 3,
+      "totalEvents": 30,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Peach Pit",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 5,
+      "totalEvents": 5,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Dijon",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 6,
+      "totalEvents": 26,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Ravyn Lenae",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Big Thief",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 32,
+      "soldOutEvents": 2
+    },
+    {
+      "name": "Waxahatchee",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 15,
+      "totalEvents": 15,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Cat Power",
+      "genre": "Indie",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 25,
+      "totalEvents": 56,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Lucy Dacus",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 8,
+      "totalEvents": 10,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Mitski",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 6,
+      "totalEvents": 24,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Kim Gordon",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "St. Vincent",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 9,
+      "totalEvents": 11,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Perfume Genius",
+      "genre": "Indie",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 9,
+      "totalEvents": 11,
+      "soldOutEvents": 2
+    },
+    {
+      "name": "Skrillex",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 3,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "John Summit",
+      "genre": "Electronic",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 15,
+      "totalEvents": 35,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Dom Dolla",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 6,
+      "totalEvents": 26,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Chris Lake",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 8,
+      "totalEvents": 11,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Disclosure",
+      "genre": "Electronic",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 22,
+      "totalEvents": 30,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "RÜFÜS DU SOL",
+      "genre": "Electronic",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 26,
+      "totalEvents": 43,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Lane 8",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 4,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Above & Beyond",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 7,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "ZHU",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 6,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Griz",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 7,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "CloZee",
+      "genre": "Electronic",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 10,
+      "totalEvents": 12,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Elderbrook",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 13,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Four Tet",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 8,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Jamie xx",
+      "genre": "Electronic",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 30,
+      "totalEvents": 30,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Tycho",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 6,
+      "totalEvents": 6,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Big Wild",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Louis The Child",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 7,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Madeon",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Porter Robinson",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 4,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Illenium",
+      "genre": "Electronic",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 11,
+      "totalEvents": 14,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Excision",
+      "genre": "Electronic",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 15,
+      "totalEvents": 15,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Zeds Dead",
+      "genre": "Electronic",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 22,
+      "totalEvents": 28,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "GRiZ",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 7,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Tiesto",
+      "genre": "Electronic",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 36,
+      "totalEvents": 47,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "deadmau5",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 8,
+      "totalEvents": 10,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Eric Prydz",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 4,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Peggy Gou",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 5,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Charlotte De Witte",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 7,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Amelie Lens",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 4,
+      "totalEvents": 30,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "I Hate Models",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 12,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Indira Paganotto",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 4,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "HoneyLuv",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 8,
+      "totalEvents": 17,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "LP Giobbi",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 11,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Of The Trees",
+      "genre": "Electronic",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 14,
+      "totalEvents": 14,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Wreckno",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 6,
+      "totalEvents": 6,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "G Jones",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 3,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Eprom",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 4,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Chase & Status",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 3,
+      "totalEvents": 5,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Dimension",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 13,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Sub Focus",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 8,
+      "totalEvents": 18,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Netsky",
+      "genre": "Electronic",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Nate Bargatze",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 44,
+      "totalEvents": 52,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Shane Gillis",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 9,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Mark Normand",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 3,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Theo Von",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Andrew Schulz",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "John Mulaney",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 53,
+      "totalEvents": 65,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Ali Wong",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 26,
+      "totalEvents": 37,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Hasan Minhaj",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 12,
+      "totalEvents": 13,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Sebastian Maniscalco",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 14,
+      "totalEvents": 14,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Bert Kreischer",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 28,
+      "totalEvents": 30,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Whitney Cummings",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 8,
+      "totalEvents": 8,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Iliza Shlesinger",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 12,
+      "totalEvents": 12,
+      "soldOutEvents": 1
+    },
+    {
+      "name": "Taylor Tomlinson",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Nikki Glaser",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 44,
+      "totalEvents": 52,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Matt Friend",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Ronny Chieng",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 9,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Deon Cole",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 10,
+      "totalEvents": 10,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Fortune Feimster",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 6,
+      "totalEvents": 6,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Matteo Lane",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 6,
+      "totalEvents": 13,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Rachel Bloom",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Tim Dillon",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 8,
+      "totalEvents": 8,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Kill Tony",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Tony Hinchcliffe",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 3,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Bobby Lee",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 4,
+      "totalEvents": 4,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Andrew Santino",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 4,
+      "totalEvents": 4,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Sal Vulcano",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 16,
+      "totalEvents": 16,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Joe List",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 11,
+      "totalEvents": 14,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Dan Soder",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 18,
+      "totalEvents": 18,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Big Jay Oakerson",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Yannis Pappas",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 3,
+      "totalEvents": 3,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Akaash Singh",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 14,
+      "totalEvents": 18,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Nimesh Patel",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 13,
+      "totalEvents": 14,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Jerrod Carmichael",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 3,
+      "totalEvents": 3,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Michelle Buteau",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 17,
+      "totalEvents": 18,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Sam Jay",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 8,
+      "totalEvents": 8,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Dulce Sloan",
+      "genre": "Comedy",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 10,
+      "totalEvents": 10,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Liza Treyger",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Ian Fidance",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Jacqueline Novak",
+      "genre": "Comedy",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 9,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Cody Johnson",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 25,
+      "totalEvents": 32,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Parker McCollum",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 41,
+      "totalEvents": 50,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Cody Jinks",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 50,
+      "totalEvents": 52,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Turnpike Troubadours",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 14,
+      "totalEvents": 15,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Caamp",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 28,
+      "totalEvents": 35,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Sierra Ferrell",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 29,
+      "totalEvents": 42,
+      "soldOutEvents": 1
+    },
+    {
+      "name": "Charley Crockett",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 32,
+      "totalEvents": 32,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Colter Wall",
+      "genre": "Country",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 8,
+      "totalEvents": 8,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Jason Isbell",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 26,
+      "totalEvents": 28,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Billy Strings",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 23,
+      "totalEvents": 23,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Trampled by Turtles",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 24,
+      "totalEvents": 26,
+      "soldOutEvents": 4
+    },
+    {
+      "name": "Hailey Whitters",
+      "genre": "Country",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Megan Moroney",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 39,
+      "totalEvents": 48,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Ella Langley",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 31,
+      "totalEvents": 33,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Nate Smith",
+      "genre": "Country",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 5,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Muscadine Bloodline",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 17,
+      "totalEvents": 18,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Flatland Cavalry",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 40,
+      "totalEvents": 40,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Koe Wetzel",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 54,
+      "totalEvents": 63,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Whiskey Myers",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 41,
+      "totalEvents": 42,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Midland",
+      "genre": "Country",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Brothers Osborne",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 16,
+      "totalEvents": 23,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Old Crow Medicine Show",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 32,
+      "totalEvents": 34,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Greensky Bluegrass",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 17,
+      "totalEvents": 18,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Railroad Earth",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 16,
+      "totalEvents": 16,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "The Avett Brothers",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 21,
+      "totalEvents": 21,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Brandi Carlile",
+      "genre": "Country",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 18,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Marcus King",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 10,
+      "totalEvents": 14,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Larkin Poe",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 25,
+      "totalEvents": 26,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Orville Peck",
+      "genre": "Country",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 7,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Tanya Tucker",
+      "genre": "Country",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Wynonna Judd",
+      "genre": "Country",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Ashley McBryde",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 12,
+      "totalEvents": 17,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Elle King",
+      "genre": "Country",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Hardy",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 34,
+      "totalEvents": 35,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Ernest",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 23,
+      "totalEvents": 23,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Jessie Murph",
+      "genre": "Country",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 6,
+      "totalEvents": 8,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Warren Zeiders",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 25,
+      "totalEvents": 48,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Kameron Marlowe",
+      "genre": "Country",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 24,
+      "totalEvents": 31,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Freddie Gibbs",
+      "genre": "Hiphop",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 18,
+      "totalEvents": 27,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Vince Staples",
+      "genre": "Hiphop",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 4,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Smino",
+      "genre": "Hiphop",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 23,
+      "totalEvents": 24,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "IDK",
+      "genre": "Hiphop",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Curren$y",
+      "genre": "Hiphop",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 42,
+      "totalEvents": 42,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Boldy James",
+      "genre": "Hiphop",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 3,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Danny Brown",
+      "genre": "Hiphop",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 18,
+      "totalEvents": 33,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Armand Hammer",
+      "genre": "Hiphop",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 21,
+      "totalEvents": 35,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Injury Reserve",
+      "genre": "Hiphop",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 22,
+      "totalEvents": 42,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Saba",
+      "genre": "Hiphop",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Little Simz",
+      "genre": "Hiphop",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 19,
+      "totalEvents": 26,
+      "soldOutEvents": 1
+    },
+    {
+      "name": "Summer Walker",
+      "genre": "Hiphop",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 16,
+      "totalEvents": 20,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Rival Sons",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Spiritbox",
+      "genre": "Rock",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 28,
+      "totalEvents": 55,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Knocked Loose",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 3,
+      "totalEvents": 23,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Turnover",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 2,
+      "totalEvents": 2,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Touche Amore",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 7,
+      "totalEvents": 26,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Deafheaven",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 24,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Show Me The Body",
+      "genre": "Rock",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 15,
+      "totalEvents": 31,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Drain",
+      "genre": "Rock",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 20,
+      "totalEvents": 31,
+      "soldOutEvents": 2
+    },
+    {
+      "name": "Militarie Gun",
+      "genre": "Rock",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 27,
+      "totalEvents": 36,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Osees",
+      "genre": "Rock",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 25,
+      "totalEvents": 30,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Ty Segall",
+      "genre": "Rock",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 24,
+      "totalEvents": 42,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Thee Oh Sees",
+      "genre": "Rock",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 25,
+      "totalEvents": 30,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Frankie and the Witch Fingers",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 6,
+      "totalEvents": 28,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Psychedelic Porn Crumpets",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 16,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Power Trip",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 4,
+      "totalEvents": 4,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "High On Fire",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 3,
+      "totalEvents": 17,
+      "soldOutEvents": 1
+    },
+    {
+      "name": "Melvins",
+      "genre": "Rock",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 30,
+      "totalEvents": 30,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Queens of the Stone Age",
+      "genre": "Rock",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 14,
+      "totalEvents": 28,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Mastodon",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 3,
+      "totalEvents": 25,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Baroness",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 5,
+      "totalEvents": 6,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Gojira",
+      "genre": "Rock",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 4,
+      "totalEvents": 21,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Widespread Panic",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 12,
+      "totalEvents": 12,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Lettuce",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 11,
+      "totalEvents": 12,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Lotus",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 15,
+      "totalEvents": 15,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "STS9",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 11,
+      "totalEvents": 11,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "moe.",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 47,
+      "totalEvents": 47,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Dark Star Orchestra",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 26,
+      "totalEvents": 26,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Pigeons Playing Ping Pong",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 25,
+      "totalEvents": 25,
+      "soldOutEvents": 1
+    },
+    {
+      "name": "Eggy",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 50,
+      "totalEvents": 51,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Neighbor",
+      "genre": "Jam",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 9,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Spafford",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 17,
+      "totalEvents": 17,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Circles Around The Sun",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 11,
+      "totalEvents": 11,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Tauk",
+      "genre": "Jam",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 5,
+      "totalEvents": 5,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Cory Wong",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 17,
+      "totalEvents": 27,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Snarky Puppy",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 31,
+      "totalEvents": 58,
+      "soldOutEvents": 1
+    },
+    {
+      "name": "Lake Street Dive",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 36,
+      "totalEvents": 61,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Lawrence",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 14,
+      "totalEvents": 14,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "The Revivalists",
+      "genre": "Jam",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 10,
+      "totalEvents": 10,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Tank and the Bangas",
+      "genre": "Jam",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 9,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Peso Pluma",
+      "genre": "Latin",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 32,
+      "totalEvents": 32,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Fuerza Regida",
+      "genre": "Latin",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 11,
+      "totalEvents": 11,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Junior H",
+      "genre": "Latin",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 3,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Ivan Cornejo",
+      "genre": "Latin",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 1,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Los Tigres del Norte",
+      "genre": "Latin",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 29,
+      "totalEvents": 31,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Banda MS",
+      "genre": "Latin",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 5,
+      "totalEvents": 9,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Christian Nodal",
+      "genre": "Latin",
+      "tier": "B",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 1,
+      "totalEvents": 3,
+      "soldOutEvents": 0
+    },
+    {
+      "name": "Carín León",
+      "genre": "Latin",
+      "tier": "A",
+      "source": "auto-discovery",
+      "addedDate": "2026-03-07",
+      "bandsintownEvents": 37,
+      "totalEvents": 53,
+      "soldOutEvents": 0
     }
   ],
   "redRocksReference": {
@@ -1256,5 +3526,7 @@
       "cap": 1500,
       "type": "ga"
     }
-  ]
+  ],
+  "lastDiscovery": "2026-03-07T04:10:45.716Z",
+  "totalArtists": 303
 }
