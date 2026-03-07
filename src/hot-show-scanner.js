@@ -10,7 +10,7 @@ const path = require('path');
 
 const BRAVE_API_KEY = process.env.BRAVE_API_KEY;
 const DATA_PATH = path.join(__dirname, '..', 'docs', 'data', 'rising-stars.json');
-const MAX_BRAVE_CALLS = 40;
+const MAX_BRAVE_CALLS = 65;
 
 let braveCallsUsed = 0;
 

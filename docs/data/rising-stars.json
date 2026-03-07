@@ -3609,12 +3609,20 @@
           "venue": "Red Rocks Amphitheatre",
           "city": "Morrison, CO",
           "capacity": 9450,
-          "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-10-25-7-30-pm/18106301"
+          "url": "https://seatgeek.com/stardew-valley-symphony-of-seasons-tickets/orchestral/2026-10-25-7-30-pm/18106301",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.reddit.com/r/StardewValley/comments/1r0jqxg/went_to_the_stardew_valley_symphony_of_seasons/"
         }
       ],
       "score": 21,
       "genre": "Gaming/Orchestral",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/stardew-valley-symphony-of-seasons-4ade74/1960425/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/stardew-valley-symphony-of-seasons-4ade74/1960425/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 1,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Nurse John",
@@ -3745,7 +3753,11 @@
           "venue": "The Barns at Wolf Trap",
           "city": "Vienna, VA",
           "capacity": 3527,
-          "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-21-4-pm/18025793"
+          "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-21-4-pm/18025793",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.seekyoursounds.com/contests/win-tickets-to-zarna-garg-at-avalon-theatre-at-fallsview-casino"
         },
         {
           "title": "Zarna Garg",
@@ -3753,7 +3765,11 @@
           "venue": "The Barns at Wolf Trap",
           "city": "Vienna, VA",
           "capacity": 3527,
-          "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-21-7-pm/17924681"
+          "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-21-7-pm/17924681",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.seekyoursounds.com/contests/win-tickets-to-zarna-garg-at-avalon-theatre-at-fallsview-casino"
         },
         {
           "title": "Zarna Garg",
@@ -3761,7 +3777,11 @@
           "venue": "The Barns at Wolf Trap",
           "city": "Vienna, VA",
           "capacity": 3527,
-          "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-22-4-pm/18025795"
+          "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-22-4-pm/18025795",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.seekyoursounds.com/contests/win-tickets-to-zarna-garg-at-avalon-theatre-at-fallsview-casino"
         },
         {
           "title": "Zarna Garg",
@@ -3769,12 +3789,20 @@
           "venue": "The Barns at Wolf Trap",
           "city": "Vienna, VA",
           "capacity": 3527,
-          "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-22-7-pm/18025797"
+          "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-22-7-pm/18025797",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.seekyoursounds.com/contests/win-tickets-to-zarna-garg-at-avalon-theatre-at-fallsview-casino"
         }
       ],
       "score": 19,
       "genre": "Comedy",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/zarna-garg-33fe69/789764/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/zarna-garg-33fe69/789764/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 4,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Jackie Hollander",
@@ -4113,7 +4141,11 @@
           "venue": "The Cynthia Woods Mitchell Pavilion presented by Huntsman",
           "city": "The Woodlands, TX",
           "capacity": 17000,
-          "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219"
+          "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.cleveland.com/live-entertainment/2026/02/hilary-duff-las-vegas-tickets-last-minute-deals-to-sold-out-dates.html"
         },
         {
           "title": "Hilary Duff with La Roux and Jade LeMac",
@@ -4129,7 +4161,11 @@
           "venue": "The Pavilion at Toyota Music Factory",
           "city": "Irving, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222"
+          "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.cleveland.com/live-entertainment/2026/02/hilary-duff-las-vegas-tickets-last-minute-deals-to-sold-out-dates.html"
         },
         {
           "title": "Hilary Duff with La Roux and Jade LeMac",
@@ -4142,7 +4178,11 @@
       ],
       "score": 17,
       "genre": "Pop",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jade-lemac-c0f0c3/1962125/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/jade-lemac-c0f0c3/1962125/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 2,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Hemlocke Springs",
@@ -4909,7 +4949,11 @@
       ],
       "score": 11,
       "genre": "Comedy",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/nate-jackson-2a707b/254561/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/nate-jackson-2a707b/254561/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 0,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "The Elovaters",
@@ -4932,7 +4976,11 @@
           "venue": "The Bomb Factory - Dallas",
           "city": "Dallas, TX",
           "capacity": 4300,
-          "url": "https://seatgeek.com/the-elovaters-tickets/dallas-texas-the-bomb-factory-dallas-2026-03-06-8-pm/concert/17727104"
+          "url": "https://seatgeek.com/the-elovaters-tickets/dallas-texas-the-bomb-factory-dallas-2026-03-06-8-pm/concert/17727104",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://tahoeonstage.com/showtime/the-elovaters-ascending-to-tahoe-for-a-sold-out-show/"
         },
         {
           "title": "The Elovaters with Shwayze",
@@ -4988,12 +5036,20 @@
           "venue": "The Salt Shed - Outdoors",
           "city": "Chicago, IL",
           "capacity": 0,
-          "url": "https://seatgeek.com/slightly-stoopid-tickets/chicago-illinois-the-salt-shed-outdoors-2026-07-26-6-30-pm/concert/18102720"
+          "url": "https://seatgeek.com/slightly-stoopid-tickets/chicago-illinois-the-salt-shed-outdoors-2026-07-26-6-30-pm/concert/18102720",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://tahoeonstage.com/showtime/the-elovaters-ascending-to-tahoe-for-a-sold-out-show/"
         }
       ],
       "score": 11,
       "genre": "Reggae/Rock",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/the-elovaters-e6d1ff/23682/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/the-elovaters-e6d1ff/23682/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 2,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Tape B",
@@ -5192,7 +5248,11 @@
           "venue": "The Cynthia Woods Mitchell Pavilion presented by Huntsman",
           "city": "The Woodlands, TX",
           "capacity": 17000,
-          "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219"
+          "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219",
+          "hot": true,
+          "hotPrice": 900,
+          "hotSoldOut": true,
+          "hotSource": "https://www.reddit.com/r/popheads/comments/1r2uhfj/hilary_duff_announces_the_lucky_me_world_tour/"
         },
         {
           "title": "Hilary Duff with La Roux and Jade LeMac",
@@ -5208,7 +5268,11 @@
           "venue": "The Pavilion at Toyota Music Factory",
           "city": "Irving, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222"
+          "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222",
+          "hot": true,
+          "hotPrice": 900,
+          "hotSoldOut": true,
+          "hotSource": "https://www.reddit.com/r/popheads/comments/1r2uhfj/hilary_duff_announces_the_lucky_me_world_tour/"
         },
         {
           "title": "Hilary Duff with La Roux and Jade LeMac",
@@ -5216,7 +5280,11 @@
           "venue": "First Financial Credit Union Amphitheater",
           "city": "Albuquerque, NM",
           "capacity": 15000,
-          "url": "https://seatgeek.com/hilary-duff-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2026-07-02-7-pm/concert/18095401"
+          "url": "https://seatgeek.com/hilary-duff-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2026-07-02-7-pm/concert/18095401",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://economictimes.indiatimes.com/news/international/us/how-to-get-tickets-for-hilary-duffs-lucky-me-tour-presale-general-sale-and-resale-options/articleshow/128521508.cms?from=mdr"
         },
         {
           "title": "Hilary Duff with La Roux and Jade LeMac",
@@ -5245,7 +5313,11 @@
       ],
       "score": 7,
       "genre": "Synth Pop",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/la-roux-f2d541/2467/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/la-roux-f2d541/2467/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 3,
+      "confirmedSoldOut": true,
+      "peakPrice": 900
     },
     {
       "name": "Vincent Mason",
@@ -5332,5 +5404,5 @@
       "imageUrl": "https://seatgeekimages.com/performers-landscape/vincent-mason-f7034a/1955531/huge.jpg"
     }
   ],
-  "hotShowScan": "2026-03-07T01:56:04.417Z"
+  "hotShowScan": "2026-03-07T02:06:04.878Z"
 }
