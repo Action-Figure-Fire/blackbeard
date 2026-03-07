@@ -17,7 +17,8 @@
       "notes": "Currently amphitheaters/arenas, predict 1.5-3K headline. No solo dates announced.",
       "addedDate": "2026-02-27",
       "redRocks": null,
-      "genre": "Synth Pop"
+      "genre": "Synth Pop",
+      "website": "https://www.leroux.band/"
     },
     {
       "name": "Jade LeMac",
@@ -26,7 +27,8 @@
       "notes": "Currently 300-600 cap solo, predict 1-2K post-Duff. Canadian tour just completed.",
       "addedDate": "2026-02-27",
       "redRocks": null,
-      "genre": "Pop"
+      "genre": "Pop",
+      "website": "https://www.jadelemac.com/"
     },
     {
       "name": "Dominic Fike",
@@ -35,7 +37,8 @@
       "notes": "First-ever support tour, predict 2-5K headline. This is his FIRST support slot ever.",
       "addedDate": "2026-02-27",
       "redRocks": null,
-      "genre": "Pop/Alternative"
+      "genre": "Pop/Alternative",
+      "website": "https://www.dominicfike.com/"
     },
     {
       "name": "Allison Russell",
@@ -44,7 +47,8 @@
       "notes": "Currently 800-1.5K solo, predict 1.5-3K post-McLachlan. Grammy winner, niche but passionate.",
       "addedDate": "2026-02-27",
       "redRocks": null,
-      "genre": "Folk/Americana"
+      "genre": "Folk/Americana",
+      "website": "https://allisonrussellmusic.com/"
     },
     {
       "name": "Hemlocke Springs",
@@ -53,7 +57,8 @@
       "notes": "500-1.2K cap headline. PRESALE LIVE TODAY — 10AM LOCAL.",
       "addedDate": "2026-02-27",
       "redRocks": null,
-      "genre": "Indie Pop"
+      "genre": "Indie Pop",
+      "website": "https://hemlockesprings.net/home/"
     },
     {
       "name": "Crankdat",
@@ -66,7 +71,8 @@
         "getIn": "$86.00",
         "listings": 388
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://crankdat.com/"
     },
     {
       "name": "Its Murph",
@@ -92,7 +98,8 @@
         "getIn": "$63.60",
         "listings": 175
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://liquidstranger.com/"
     },
     {
       "name": "Subtronics",
@@ -106,7 +113,8 @@
         "listings": "660-860",
         "dayPassGetIn": "$255.26"
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://subtronics.net/"
     },
     {
       "name": "The Elovaters",
@@ -119,7 +127,8 @@
         "getIn": "$136.74",
         "listings": 206
       },
-      "genre": "Reggae/Rock"
+      "genre": "Reggae/Rock",
+      "website": "https://theelovaters.com/"
     },
     {
       "name": "Flip Turn",
@@ -132,7 +141,8 @@
         "getIn": "$97.92",
         "listings": 930
       },
-      "genre": "Indie Rock"
+      "genre": "Indie Rock",
+      "website": "https://flipturn.band/"
     },
     {
       "name": "Fisher",
@@ -145,7 +155,8 @@
         "getIn": "$137.77",
         "listings": 1014
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://followthefishtv.com/"
     },
     {
       "name": "Rezz",
@@ -158,7 +169,8 @@
         "getIn": "$107.57",
         "listings": 386
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://www.officialrezz.com/"
     },
     {
       "name": "Stardew Valley Symphony",
@@ -176,7 +188,8 @@
       "notes": "Country. Bandsintown tracked.",
       "addedDate": "2026-02-27",
       "redRocks": null,
-      "genre": "Country"
+      "genre": "Country",
+      "website": "https://www.tuckerwetmore.com/"
     },
     {
       "name": "Nurse John",
@@ -194,7 +207,8 @@
       "notes": "Hard techno queen. Movement 2026, Coachella Do Lab. Blowing up fast.",
       "addedDate": "2026-02-27",
       "redRocks": null,
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://www.saralandry.com/"
     },
     {
       "name": "Knock2",
@@ -203,7 +217,8 @@
       "notes": "Jersey club/bass. Festival circuit darling, club shows sell out.",
       "addedDate": "2026-02-27",
       "redRocks": null,
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://www.knock2music.com/"
     },
     {
       "name": "Tape B",
@@ -216,7 +231,8 @@
         "getIn": "$89-$116",
         "listings": "455-473"
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://tapebbeats.com/"
     },
     {
       "name": "ALLEYCVT",
@@ -229,7 +245,8 @@
         "getIn": "$66.66",
         "listings": 428
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://alleycvt.com/"
     },
     {
       "name": "Mersiv",
@@ -242,7 +259,8 @@
         "getIn": "$65.79",
         "listings": 256
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://www.mersiv.net/"
     },
     {
       "name": "LSDREAM",
@@ -255,7 +273,8 @@
         "getIn": "$96.75",
         "listings": 302
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://www.lsdreammusic.com/"
     },
     {
       "name": "Ravenscoon",
@@ -268,7 +287,8 @@
         "getIn": "$70.00",
         "listings": 412
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://ravenscoon.myshopify.com/"
     },
     {
       "name": "INZO",
@@ -281,7 +301,8 @@
         "getIn": "$75.00",
         "listings": 421
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://www.inzomusic.com/"
     },
     {
       "name": "Cloonee",
@@ -294,7 +315,8 @@
         "getIn": "$65.00",
         "listings": 644
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://cloonee.com"
     },
     {
       "name": "Sammy Virji",
@@ -307,7 +329,8 @@
         "getIn": "$98.80",
         "listings": 571
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://www.itsvirjiisntit.com/"
     },
     {
       "name": "Seven Lions",
@@ -320,7 +343,8 @@
         "getIn": "$85.80",
         "listings": 425
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://sevenlions.com/"
     },
     {
       "name": "Hippie Sabotage",
@@ -333,7 +357,8 @@
         "getIn": "$73.14",
         "listings": 294
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://www.hippiesabotage.com"
     },
     {
       "name": "Bob Moses",
@@ -346,7 +371,8 @@
         "getIn": "$75.99",
         "listings": 373
       },
-      "genre": "DJ/Electronic"
+      "genre": "DJ/Electronic",
+      "website": "https://www.bobmosesmusic.com/"
     },
     {
       "name": "Treaty Oak Revival",
@@ -359,7 +385,8 @@
         "getIn": "$192.08",
         "listings": 854
       },
-      "genre": "Country"
+      "genre": "Country",
+      "website": "https://treatyoakrevival.com/"
     },
     {
       "name": "Mt. Joy",
@@ -372,7 +399,8 @@
         "getIn": "$147-$160",
         "listings": "826-1328"
       },
-      "genre": "Indie Rock"
+      "genre": "Indie Rock",
+      "website": "https://www.mtjoyband.com/"
     },
     {
       "name": "Ethel Cain",
@@ -385,7 +413,8 @@
         "getIn": "$74.35",
         "listings": 526
       },
-      "genre": "Indie/Gothic"
+      "genre": "Indie/Gothic",
+      "website": "https://www.daughtersofcain.com/"
     },
     {
       "name": "Electric Callboy",
@@ -398,7 +427,8 @@
         "getIn": "$55.85",
         "listings": 462
       },
-      "genre": "Rock/Metal"
+      "genre": "Rock/Metal",
+      "website": "https://www.electriccallboy.com/"
     },
     {
       "name": "Goose",
@@ -412,7 +442,8 @@
         "listings": "372-594",
         "dayPassGetIn": "$695"
       },
-      "genre": "Jam/Rock"
+      "genre": "Jam/Rock",
+      "website": "https://gaggle.fun/goose-goose-duck"
     },
     {
       "name": "Jon Bellion",
@@ -425,7 +456,8 @@
         "getIn": "$226.76",
         "listings": 513
       },
-      "genre": "Pop/R&B"
+      "genre": "Pop/R&B",
+      "website": "https://jonbellion.beautifulmind.club/"
     },
     {
       "name": "Lord Huron",
@@ -438,7 +470,8 @@
         "getIn": "$150.49",
         "listings": 775
       },
-      "genre": "Indie Folk"
+      "genre": "Indie Folk",
+      "website": "https://www.lordhuron.com/"
     },
     {
       "name": "Amyl and The Sniffers",
@@ -451,7 +484,8 @@
         "getIn": "$75.48",
         "listings": 433
       },
-      "genre": "Rock/Punk"
+      "genre": "Rock/Punk",
+      "website": "https://www.amylandthesniffers.com/"
     },
     {
       "name": "Alex Warren",
@@ -464,7 +498,8 @@
         "getIn": "$223.50",
         "listings": 749
       },
-      "genre": "Pop"
+      "genre": "Pop",
+      "website": "https://www.alexwarrenofficial.com/"
     },
     {
       "name": "Hilary Duff",
@@ -477,7 +512,8 @@
         "getIn": "$223.50",
         "listings": 1323
       },
-      "genre": "Pop"
+      "genre": "Pop",
+      "website": "https://www.hilaryduff.com/"
     },
     {
       "name": "Michael Blaustein",
@@ -486,7 +522,8 @@
       "notes": "3.5M TikTok, 164M likes. Stiff Socks podcast. 25+ city 2026 tour.",
       "addedDate": "2026-02-28",
       "redRocks": null,
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "website": "https://blaucomedy.com/"
     },
     {
       "name": "Stavros Halkias",
@@ -495,7 +532,8 @@
       "notes": "Netflix Fat Rascal, A24 Bourdain biopic. Dreamboat Tour 40+ cities.",
       "addedDate": "2026-02-28",
       "redRocks": null,
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "website": "https://www.stavvy.biz/"
     },
     {
       "name": "Gianmarco Soresi",
@@ -504,7 +542,8 @@
       "notes": "500K YouTube. The Downside podcast. NYC observational.",
       "addedDate": "2026-02-28",
       "redRocks": null,
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "website": "https://gianmarcosoresi.com/"
     },
     {
       "name": "Jordan Jensen",
@@ -513,7 +552,8 @@
       "notes": "Bradley Cooper film debut. Billboard Critics Pick. Rising FAST.",
       "addedDate": "2026-02-28",
       "redRocks": null,
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "website": "https://www.jordanjensencomedy.com/"
     },
     {
       "name": "Josh Johnson",
@@ -522,7 +562,8 @@
       "notes": "Daily Show. COMPLETELY SOLD OUT Flowers Tour 2025. High sell-out risk.",
       "addedDate": "2026-02-28",
       "redRocks": null,
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "website": "https://www.joshjohnsoncomedy.com/"
     },
     {
       "name": "Zarna Garg",
@@ -531,7 +572,8 @@
       "notes": "1.2M TikTok. NYT bestselling memoir. Interrobang Comedian of Year.",
       "addedDate": "2026-02-28",
       "redRocks": null,
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "website": "https://zarnagarg.com/"
     },
     {
       "name": "Sam Morril",
@@ -549,7 +591,8 @@
       "notes": "2M+ TikTok. HBO special. Viral dance challenges.",
       "addedDate": "2026-02-28",
       "redRocks": null,
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "website": "https://atsukocomedy.com/"
     },
     {
       "name": "Druski",
@@ -567,7 +610,8 @@
       "notes": "4M+ TikTok. Physical comedy. Selling fast at small venues.",
       "addedDate": "2026-02-28",
       "redRocks": null,
-      "genre": "Comedy"
+      "genre": "Comedy",
+      "website": "https://www.natejacksoncomedy.com/"
     },
     {
       "name": "FentiFriedChicken",
