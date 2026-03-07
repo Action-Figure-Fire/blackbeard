@@ -97,7 +97,11 @@
       ],
       "score": 58,
       "genre": "Pop/Alternative",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/dominic-fike-1f832b/743077/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/dominic-fike-1f832b/743077/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 0,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Hurricane Wisdom",
@@ -290,7 +294,11 @@
           "venue": "The Rady Shell at Jacobs Park",
           "city": "San Diego, CA",
           "capacity": 0,
-          "url": "https://seatgeek.com/ethel-cain-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2026-04-14-7-pm/concert/18081820"
+          "url": "https://seatgeek.com/ethel-cain-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2026-04-14-7-pm/concert/18081820",
+          "hot": true,
+          "hotPrice": 100,
+          "hotSoldOut": true,
+          "hotSource": "https://www.capitalcitytickets.com/blog/discounted-2026-ethel-cain-tickets-at-the-orion-amphitheater-the-moon-and-st-augustine-amphitheatre/"
         },
         {
           "title": "Ethel Cain with 9million",
@@ -298,7 +306,11 @@
           "venue": "The Theater at Virgin Hotels",
           "city": "Las Vegas, NV",
           "capacity": 0,
-          "url": "https://seatgeek.com/ethel-cain-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-04-15-8-pm/concert/17808029"
+          "url": "https://seatgeek.com/ethel-cain-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-04-15-8-pm/concert/17808029",
+          "hot": true,
+          "hotPrice": 100,
+          "hotSoldOut": true,
+          "hotSource": "https://www.capitalcitytickets.com/blog/discounted-2026-ethel-cain-tickets-at-the-orion-amphitheater-the-moon-and-st-augustine-amphitheatre/"
         },
         {
           "title": "Ethel Cain with 9million",
@@ -306,7 +318,11 @@
           "venue": "The Great Saltair",
           "city": "Magna, UT",
           "capacity": 0,
-          "url": "https://seatgeek.com/ethel-cain-tickets/magna-utah-the-great-saltair-2026-04-19-7-pm/concert/17808031"
+          "url": "https://seatgeek.com/ethel-cain-tickets/magna-utah-the-great-saltair-2026-04-19-7-pm/concert/17808031",
+          "hot": true,
+          "hotPrice": 100,
+          "hotSoldOut": true,
+          "hotSource": "https://www.capitalcitytickets.com/blog/discounted-2026-ethel-cain-tickets-at-the-orion-amphitheater-the-moon-and-st-augustine-amphitheatre/"
         },
         {
           "title": "Ethel Cain with 9Million",
@@ -314,7 +330,11 @@
           "venue": "Red Rocks Amphitheatre",
           "city": "Morrison, CO",
           "capacity": 9450,
-          "url": "https://seatgeek.com/ethel-cain-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-21-7-pm/concert/17808027"
+          "url": "https://seatgeek.com/ethel-cain-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-21-7-pm/concert/17808027",
+          "hot": true,
+          "hotPrice": 110,
+          "hotSoldOut": false,
+          "hotSource": "https://www.reddit.com/r/Ethelcain/comments/1r62w4p/ethel_cain_merch_prices_melbourneaus/"
         },
         {
           "title": "Ethel Cain with 9Million",
@@ -322,7 +342,11 @@
           "venue": "The Astro Theater - La Vista",
           "city": "La Vista, NE",
           "capacity": 0,
-          "url": "https://seatgeek.com/ethel-cain-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-04-23-7-pm/concert/17805467"
+          "url": "https://seatgeek.com/ethel-cain-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-04-23-7-pm/concert/17805467",
+          "hot": true,
+          "hotPrice": 100,
+          "hotSoldOut": true,
+          "hotSource": "https://www.capitalcitytickets.com/blog/discounted-2026-ethel-cain-tickets-at-the-orion-amphitheater-the-moon-and-st-augustine-amphitheatre/"
         },
         {
           "title": "Ethel Cain",
@@ -338,7 +362,11 @@
           "venue": "MegaCorp Pavilion",
           "city": "Newport, KY",
           "capacity": 0,
-          "url": "https://seatgeek.com/ethel-cain-tickets/newport-kentucky-megacorp-pavilion-2026-04-25-8-pm/concert/17808034"
+          "url": "https://seatgeek.com/ethel-cain-tickets/newport-kentucky-megacorp-pavilion-2026-04-25-8-pm/concert/17808034",
+          "hot": true,
+          "hotPrice": 129,
+          "hotSoldOut": true,
+          "hotSource": "https://www.capitalcitytickets.com/blog/affordable-ethel-cain-tickets-at-megacorp-pavilion-the-factory-chesterfield-and-iroquois-amphitheater/"
         },
         {
           "title": "Ethel Cain with 9Million",
@@ -346,12 +374,20 @@
           "venue": "The Factory STL",
           "city": "Chesterfield, MO",
           "capacity": 0,
-          "url": "https://seatgeek.com/ethel-cain-tickets/chesterfield-missouri-the-factory-stl-2026-04-28-8-pm/concert/17805418"
+          "url": "https://seatgeek.com/ethel-cain-tickets/chesterfield-missouri-the-factory-stl-2026-04-28-8-pm/concert/17805418",
+          "hot": true,
+          "hotPrice": 100,
+          "hotSoldOut": true,
+          "hotSource": "https://www.capitalcitytickets.com/blog/discounted-2026-ethel-cain-tickets-at-the-orion-amphitheater-the-moon-and-st-augustine-amphitheatre/"
         }
       ],
       "score": 49,
       "genre": "Indie/Gothic",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ethel-cain-deebec/798453/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/ethel-cain-deebec/798453/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 7,
+      "confirmedSoldOut": true,
+      "peakPrice": 129
     },
     {
       "name": "Amyl and The Sniffers",
@@ -591,7 +627,11 @@
           "venue": "The Wharf Amphitheater",
           "city": "Orange Beach, AL",
           "capacity": 0,
-          "url": "https://seatgeek.com/hardy-tickets/orange-beach-alabama-the-wharf-amphitheater-2026-05-23-7-pm/concert/17805622"
+          "url": "https://seatgeek.com/hardy-tickets/orange-beach-alabama-the-wharf-amphitheater-2026-05-23-7-pm/concert/17805622",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.thatericalper.com/2026/03/04/226669/"
         },
         {
           "title": "Hardy with Tucker Wetmore and McCoy Moore",
@@ -636,7 +676,11 @@
       ],
       "score": 46,
       "genre": "Country",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tucker-wetmore-b71da6/1955060/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/tucker-wetmore-b71da6/1955060/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 1,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Jalen Ngonda",
@@ -846,7 +890,11 @@
       ],
       "score": 41,
       "genre": "Folk/Americana",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/allison-russell-408916/793808/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/allison-russell-408916/793808/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 0,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Crankdat",
@@ -893,7 +941,11 @@
           "venue": "The Metropolitan - New Orleans",
           "city": "New Orleans, LA",
           "capacity": 0,
-          "url": "https://seatgeek.com/crankdat-tickets/new-orleans-louisiana-the-metropolitan-new-orleans-2026-05-02-10-pm/concert/18106494"
+          "url": "https://seatgeek.com/crankdat-tickets/new-orleans-louisiana-the-metropolitan-new-orleans-2026-05-02-10-pm/concert/18106494",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.electrofans.com/crankdat-phoenix/"
         },
         {
           "title": "Crankdat (18+)",
@@ -901,7 +953,11 @@
           "venue": "Shrine Expo Hall",
           "city": "Los Angeles, CA",
           "capacity": 6300,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-27-9-pm/concert/18041837"
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-27-9-pm/concert/18041837",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.ticketnews.com/2026/02/relentless-beats-2026-calendar-crankdat-date/"
         },
         {
           "title": "Crankdat (18+)",
@@ -909,7 +965,11 @@
           "venue": "Shrine Expo Hall",
           "city": "Los Angeles, CA",
           "capacity": 6300,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-28-9-pm/concert/18041840"
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-28-9-pm/concert/18041840",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.ticketnews.com/2026/02/relentless-beats-2026-calendar-crankdat-date/"
         },
         {
           "title": "Crankdat (18+)",
@@ -917,7 +977,11 @@
           "venue": "Shrine Expo Hall",
           "city": "Los Angeles, CA",
           "capacity": 6300,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-29-9-pm/concert/18039855"
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-29-9-pm/concert/18039855",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.ticketnews.com/2026/02/relentless-beats-2026-calendar-crankdat-date/"
         },
         {
           "title": "Crankdat (18+)",
@@ -925,12 +989,20 @@
           "venue": "Shrine Expo Hall",
           "city": "Los Angeles, CA",
           "capacity": 6300,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-30-8-pm/concert/18041846"
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-30-8-pm/concert/18041846",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.ticketnews.com/2026/02/relentless-beats-2026-calendar-crankdat-date/"
         }
       ],
       "score": 40,
       "genre": "DJ/Electronic",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/crankdat-bf7746/415513/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/crankdat-bf7746/415513/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 5,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Freya Skye",
@@ -1333,12 +1405,20 @@
           "venue": "The Cynthia Woods Mitchell Pavilion presented by Huntsman",
           "city": "The Woodlands, TX",
           "capacity": 17000,
-          "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219"
+          "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219",
+          "hot": true,
+          "hotPrice": 300,
+          "hotSoldOut": true,
+          "hotSource": "https://www.rollingstone.com/product-recommendations/tickets/how-to-buy-hilary-duff-the-lucky-me-tour-tickets-deals-discounts-1235519955/"
         }
       ],
       "score": 35,
       "genre": "Pop",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/hilary-duff-6dc8bb/247569/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/hilary-duff-6dc8bb/247569/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 1,
+      "confirmedSoldOut": true,
+      "peakPrice": 1011
     },
     {
       "name": "Sam Morril",
@@ -1780,7 +1860,11 @@
       ],
       "score": 31,
       "genre": "Comedy",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/michael-blaustein-29021e/25750/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/michael-blaustein-29021e/25750/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 0,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Prospa",
@@ -1948,7 +2032,11 @@
           "venue": "The Houston Improv",
           "city": "Houston, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-06-7-30-pm/17908123"
+          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-06-7-30-pm/17908123",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://statetheatreportland.com/events/jordan-jensen/"
         },
         {
           "title": "Jordan Jensen",
@@ -1956,7 +2044,11 @@
           "venue": "The Houston Improv",
           "city": "Houston, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-06-9-45-pm/17530932"
+          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-06-9-45-pm/17530932",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://statetheatreportland.com/events/jordan-jensen/"
         },
         {
           "title": "Jordan Jensen",
@@ -1964,7 +2056,11 @@
           "venue": "The Houston Improv",
           "city": "Houston, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-07-7-pm/17908122"
+          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-07-7-pm/17908122",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://statetheatreportland.com/events/jordan-jensen/"
         },
         {
           "title": "Jordan Jensen",
@@ -1972,7 +2068,11 @@
           "venue": "The Houston Improv",
           "city": "Houston, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-07-9-30-pm/17908124"
+          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-07-9-30-pm/17908124",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://statetheatreportland.com/events/jordan-jensen/"
         },
         {
           "title": "Jordan Jensen",
@@ -1980,7 +2080,11 @@
           "venue": "The Howlin' Wolf",
           "city": "New Orleans, LA",
           "capacity": 1200,
-          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-08-7-pm/17991640"
+          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-08-7-pm/17991640",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://statetheatreportland.com/events/jordan-jensen/"
         },
         {
           "title": "Jordan Jensen",
@@ -1996,7 +2100,11 @@
           "venue": "The Orange Peel",
           "city": "Asheville, NC",
           "capacity": 0,
-          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-11-8-pm/17973197"
+          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-11-8-pm/17973197",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://statetheatreportland.com/events/jordan-jensen/"
         },
         {
           "title": "Jordan Jensen",
@@ -2004,12 +2112,20 @@
           "venue": "The Fillmore - Charlotte",
           "city": "Charlotte, NC",
           "capacity": 2000,
-          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-12-7-30-pm/17948450"
+          "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-12-7-30-pm/17948450",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://statetheatreportland.com/events/jordan-jensen/"
         }
       ],
       "score": 28,
       "genre": "Comedy",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jordan-jensen-d967ec/807858/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/jordan-jensen-d967ec/807858/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 7,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Knock2",
@@ -2114,7 +2230,11 @@
           "venue": "The Boot",
           "city": "Gonzales, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/cattle-country-music-festival-tickets/gonzales-texas-the-boot-3-2026-04-10-3-30-am/music-festival/17923143"
+          "url": "https://seatgeek.com/cattle-country-music-festival-tickets/gonzales-texas-the-boot-3-2026-04-10-3-30-am/music-festival/17923143",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://onwardstate.com/2026/02/09/photo-story-treaty-oak-revival-performs-for-a-sold-out-bryce-jordan-center/"
         },
         {
           "title": "Treaty Oak Revival with William Clark Green",
@@ -2135,7 +2255,11 @@
       ],
       "score": 27,
       "genre": "Country",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/treaty-oak-revival-4871bc/800864/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/treaty-oak-revival-4871bc/800864/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 1,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Mau P",
@@ -2225,7 +2349,11 @@
       ],
       "score": 27,
       "genre": "DJ/Electronic",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mau-p-b9e8da/800757/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/mau-p-b9e8da/800757/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 0,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Fisher",
@@ -2256,7 +2384,11 @@
           "venue": "First Financial Music Hall",
           "city": "El Dorado, AR",
           "capacity": 0,
-          "url": "https://seatgeek.com/creed-fisher-tickets/el-dorado-arkansas-first-financial-music-hall-2026-03-13-7-30-pm/concert/17910687"
+          "url": "https://seatgeek.com/creed-fisher-tickets/el-dorado-arkansas-first-financial-music-hall-2026-03-13-7-30-pm/concert/17910687",
+          "hot": true,
+          "hotPrice": 189,
+          "hotSoldOut": false,
+          "hotSource": "https://themusicnetwork.com/fisher-out-2-lunch-festival-tickets-dates/"
         },
         {
           "title": "Quad City Steamwheelers at Fishers Freight",
@@ -2309,7 +2441,11 @@
       ],
       "score": 25,
       "genre": "DJ/Electronic",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 1,
+      "confirmedSoldOut": true,
+      "peakPrice": 189
     },
     {
       "name": "Hippie Sabotage",
@@ -2391,7 +2527,11 @@
           "venue": "The Belasco - Los Angeles",
           "city": "Los Angeles, CA",
           "capacity": 1000,
-          "url": "https://seatgeek.com/hippie-sabotage-tickets/los-angeles-california-the-belasco-los-angeles-2026-03-27-7-pm/concert/18036102"
+          "url": "https://seatgeek.com/hippie-sabotage-tickets/los-angeles-california-the-belasco-los-angeles-2026-03-27-7-pm/concert/18036102",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.visitnorfolk.com/event/hippie-sabotage-3/"
         },
         {
           "title": "Hippie Sabotage",
@@ -2399,12 +2539,20 @@
           "venue": "The Majestic Ventura Theater",
           "city": "Ventura, CA",
           "capacity": 0,
-          "url": "https://seatgeek.com/hippie-sabotage-tickets/ventura-california-the-majestic-ventura-theater-2026-03-28-8-pm/concert/18059359"
+          "url": "https://seatgeek.com/hippie-sabotage-tickets/ventura-california-the-majestic-ventura-theater-2026-03-28-8-pm/concert/18059359",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.visitnorfolk.com/event/hippie-sabotage-3/"
         }
       ],
       "score": 25,
       "genre": "DJ/Electronic",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/hippie-sabotage-98b576/310374/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/hippie-sabotage-98b576/310374/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 2,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Josh Johnson",
@@ -2427,7 +2575,11 @@
           "venue": "The Wiltern",
           "city": "Los Angeles, CA",
           "capacity": 2400,
-          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-03-20-7-pm/18069054"
+          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-03-20-7-pm/18069054",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.broadwayworld.com/philadelphia/article/Josh-Johnson-Reveals-Dates-for2026-Tour-JOSH-JOHNSONS-COMEDY-BAND-CAMP-20260303"
         },
         {
           "title": "Josh Johnson",
@@ -2435,7 +2587,11 @@
           "venue": "The Wiltern",
           "city": "Los Angeles, CA",
           "capacity": 2400,
-          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-03-20-9-30-pm/18069051"
+          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-03-20-9-30-pm/18069051",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.broadwayworld.com/philadelphia/article/Josh-Johnson-Reveals-Dates-for2026-Tour-JOSH-JOHNSONS-COMEDY-BAND-CAMP-20260303"
         },
         {
           "title": "Josh Johnson",
@@ -2443,7 +2599,11 @@
           "venue": "Comedy Zone Charlotte",
           "city": "Charlotte, NC",
           "capacity": 0,
-          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-04-10-7-pm/18092304"
+          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-04-10-7-pm/18092304",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.broadwayworld.com/philadelphia/article/Josh-Johnson-Reveals-Dates-for2026-Tour-JOSH-JOHNSONS-COMEDY-BAND-CAMP-20260303"
         },
         {
           "title": "Josh Johnson",
@@ -2451,7 +2611,11 @@
           "venue": "Comedy Zone Charlotte",
           "city": "Charlotte, NC",
           "capacity": 0,
-          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-04-10-9-30-pm/18092306"
+          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-04-10-9-30-pm/18092306",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.broadwayworld.com/philadelphia/article/Josh-Johnson-Reveals-Dates-for2026-Tour-JOSH-JOHNSONS-COMEDY-BAND-CAMP-20260303"
         },
         {
           "title": "Josh Johnson",
@@ -2459,7 +2623,11 @@
           "venue": "Comedy Zone Charlotte",
           "city": "Charlotte, NC",
           "capacity": 0,
-          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-04-11-6-pm/18092308"
+          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-04-11-6-pm/18092308",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.broadwayworld.com/philadelphia/article/Josh-Johnson-Reveals-Dates-for2026-Tour-JOSH-JOHNSONS-COMEDY-BAND-CAMP-20260303"
         },
         {
           "title": "Josh Johnson",
@@ -2467,7 +2635,11 @@
           "venue": "Comedy Zone Charlotte",
           "city": "Charlotte, NC",
           "capacity": 0,
-          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-04-11-8-45-pm/18092310"
+          "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-04-11-8-45-pm/18092310",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.broadwayworld.com/philadelphia/article/Josh-Johnson-Reveals-Dates-for2026-Tour-JOSH-JOHNSONS-COMEDY-BAND-CAMP-20260303"
         },
         {
           "title": "Josh Johnson",
@@ -2488,7 +2660,11 @@
       ],
       "score": 24,
       "genre": "Comedy",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/josh-johnson-c540b4/272582/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/josh-johnson-c540b4/272582/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 6,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Florence Road",
@@ -2519,7 +2695,11 @@
           "venue": "The Bomb Factory - Dallas",
           "city": "Dallas, TX",
           "capacity": 4300,
-          "url": "https://seatgeek.com/the-last-dinner-party-tickets/dallas-texas-the-bomb-factory-dallas-2026-03-28-8-pm/concert/17838379"
+          "url": "https://seatgeek.com/the-last-dinner-party-tickets/dallas-texas-the-bomb-factory-dallas-2026-03-28-8-pm/concert/17838379",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.nme.com/blogs/nme-radar/neighbourhood-festival-2026-keo-and-florence-road-lead-first-wave-of-line-up-buy-tickets-nme-radar-3933136"
         },
         {
           "title": "The Last Dinner Party with Florence Road",
@@ -2535,7 +2715,11 @@
           "venue": "The Midland Theatre - MO",
           "city": "Kansas City, MO",
           "capacity": 3200,
-          "url": "https://seatgeek.com/the-last-dinner-party-tickets/kansas-city-missouri-the-midland-theatre-mo-2026-04-01-8-pm/concert/17838381"
+          "url": "https://seatgeek.com/the-last-dinner-party-tickets/kansas-city-missouri-the-midland-theatre-mo-2026-04-01-8-pm/concert/17838381",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.nme.com/blogs/nme-radar/neighbourhood-festival-2026-keo-and-florence-road-lead-first-wave-of-line-up-buy-tickets-nme-radar-3933136"
         },
         {
           "title": "The Last Dinner Party with Florence Road",
@@ -2551,7 +2735,11 @@
           "venue": "The Salt Shed - Indoors",
           "city": "Chicago, IL",
           "capacity": 0,
-          "url": "https://seatgeek.com/the-last-dinner-party-tickets/chicago-illinois-the-salt-shed-indoors-2026-04-04-7-30-pm/concert/17838382"
+          "url": "https://seatgeek.com/the-last-dinner-party-tickets/chicago-illinois-the-salt-shed-indoors-2026-04-04-7-30-pm/concert/17838382",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.nme.com/blogs/nme-radar/neighbourhood-festival-2026-keo-and-florence-road-lead-first-wave-of-line-up-buy-tickets-nme-radar-3933136"
         },
         {
           "title": "The Last Dinner Party with Florence Road",
@@ -2567,12 +2755,20 @@
           "venue": "The Anthem - DC",
           "city": "Washington, DC",
           "capacity": 0,
-          "url": "https://seatgeek.com/the-last-dinner-party-tickets/washington-district-of-columbia-the-anthem-dc-2026-04-07-8-pm/concert/17838391"
+          "url": "https://seatgeek.com/the-last-dinner-party-tickets/washington-district-of-columbia-the-anthem-dc-2026-04-07-8-pm/concert/17838391",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.nme.com/blogs/nme-radar/neighbourhood-festival-2026-keo-and-florence-road-lead-first-wave-of-line-up-buy-tickets-nme-radar-3933136"
         }
       ],
       "score": 24,
       "genre": "Indie/Country",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/florence-road-b214d5/1966712/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/florence-road-b214d5/1966712/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 4,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Subtronics",
@@ -2595,7 +2791,11 @@
           "venue": "The Met Philadelphia",
           "city": "Philadelphia, PA",
           "capacity": 0,
-          "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-06-3-30-am/concert/17837260"
+          "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-06-3-30-am/concert/17837260",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://edm.com/events/edc-las-vegas-lineup-2026/"
         },
         {
           "title": "Subtronics with Juelz",
@@ -2603,7 +2803,11 @@
           "venue": "The Met Philadelphia",
           "city": "Philadelphia, PA",
           "capacity": 0,
-          "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-06-7-30-pm/concert/17837258"
+          "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-06-7-30-pm/concert/17837258",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://edm.com/events/edc-las-vegas-lineup-2026/"
         },
         {
           "title": "Subtronics with Ahee",
@@ -2611,7 +2815,11 @@
           "venue": "The Met Philadelphia",
           "city": "Philadelphia, PA",
           "capacity": 0,
-          "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-07-7-30-pm/concert/17837259"
+          "url": "https://seatgeek.com/subtronics-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-03-07-7-30-pm/concert/17837259",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://edm.com/events/edc-las-vegas-lineup-2026/"
         },
         {
           "title": "Subtronics with Ahee",
@@ -2619,7 +2827,11 @@
           "venue": "The Factory STL",
           "city": "Chesterfield, MO",
           "capacity": 0,
-          "url": "https://seatgeek.com/subtronics-tickets/chesterfield-missouri-the-factory-stl-2026-03-12-7-pm/concert/17837372"
+          "url": "https://seatgeek.com/subtronics-tickets/chesterfield-missouri-the-factory-stl-2026-03-12-7-pm/concert/17837372",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://edm.com/events/edc-las-vegas-lineup-2026/"
         },
         {
           "title": "Subtronics with Ahee",
@@ -2656,7 +2868,11 @@
       ],
       "score": 24,
       "genre": "DJ/Electronic",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/subtronics-12a605/607337/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/subtronics-12a605/607337/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 4,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Lambrini Girls",
@@ -2687,7 +2903,11 @@
           "venue": "The Orange Peel",
           "city": "Asheville, NC",
           "capacity": 0,
-          "url": "https://seatgeek.com/lambrini-girls-tickets/asheville-north-carolina-the-orange-peel-2026-04-22-7-30-pm/concert/18069158"
+          "url": "https://seatgeek.com/lambrini-girls-tickets/asheville-north-carolina-the-orange-peel-2026-04-22-7-30-pm/concert/18069158",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.reddit.com/r/triplej/comments/1rf3jql/saw_the_lambrini_girls_in_melbourne_on_monday/"
         },
         {
           "title": "Lambrini Girls",
@@ -2719,7 +2939,11 @@
           "venue": "The Concert Hall - Toronto",
           "city": "Toronto, ON",
           "capacity": 0,
-          "url": "https://seatgeek.com/lambrini-girls-tickets/toronto-canada-the-concert-hall-toronto-2026-04-28-7-pm/concert/18008505"
+          "url": "https://seatgeek.com/lambrini-girls-tickets/toronto-canada-the-concert-hall-toronto-2026-04-28-7-pm/concert/18008505",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.reddit.com/r/triplej/comments/1rf3jql/saw_the_lambrini_girls_in_melbourne_on_monday/"
         },
         {
           "title": "Lambrini Girls",
@@ -2727,7 +2951,11 @@
           "venue": "Metro Chicago",
           "city": "Chicago, IL",
           "capacity": 1100,
-          "url": "https://seatgeek.com/lambrini-girls-tickets/chicago-illinois-metro-chicago-2026-04-30-8-pm/concert/18058318"
+          "url": "https://seatgeek.com/lambrini-girls-tickets/chicago-illinois-metro-chicago-2026-04-30-8-pm/concert/18058318",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.theaureview.com/music/photo-gallery-lambrini-girls-big-wett-metro-theatre-sydney-27-02-26/"
         },
         {
           "title": "Lambrini Girls",
@@ -2735,12 +2963,20 @@
           "venue": "The Vogue Theatre - IN",
           "city": "Indianapolis, IN",
           "capacity": 0,
-          "url": "https://seatgeek.com/lambrini-girls-tickets/indianapolis-indiana-the-vogue-theatre-in-2026-05-02-7-pm/concert/18066416"
+          "url": "https://seatgeek.com/lambrini-girls-tickets/indianapolis-indiana-the-vogue-theatre-in-2026-05-02-7-pm/concert/18066416",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.reddit.com/r/triplej/comments/1rf3jql/saw_the_lambrini_girls_in_melbourne_on_monday/"
         }
       ],
       "score": 24,
       "genre": "Rock/Punk",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/lambrini-girls-0d13df/1955395/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/lambrini-girls-0d13df/1955395/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 4,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Gianmarco Soresi",
@@ -2769,7 +3005,11 @@
           "venue": "The Wooly",
           "city": "Gainesville, FL",
           "capacity": 0,
-          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-10-6-pm/17976984"
+          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-10-6-pm/17976984",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://en.wikipedia.org/wiki/Gianmarco_Soresi"
         },
         {
           "title": "Gianmarco Soresi (Rescheduled from 12/7/2025)",
@@ -2777,7 +3017,11 @@
           "venue": "The Wooly",
           "city": "Gainesville, FL",
           "capacity": 0,
-          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-10-9-pm/17767811"
+          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-10-9-pm/17767811",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://en.wikipedia.org/wiki/Gianmarco_Soresi"
         },
         {
           "title": "Gianmarco Soresi",
@@ -2785,7 +3029,11 @@
           "venue": "The Houston Improv",
           "city": "Houston, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-12-7-30-pm/17943228"
+          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-12-7-30-pm/17943228",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://en.wikipedia.org/wiki/Gianmarco_Soresi"
         },
         {
           "title": "Gianmarco Soresi",
@@ -2793,7 +3041,11 @@
           "venue": "The Houston Improv",
           "city": "Houston, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-13-7-30-pm/17943231"
+          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-13-7-30-pm/17943231",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://en.wikipedia.org/wiki/Gianmarco_Soresi"
         },
         {
           "title": "Gianmarco Soresi",
@@ -2801,7 +3053,11 @@
           "venue": "The Houston Improv",
           "city": "Houston, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-13-9-45-pm/17943230"
+          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-13-9-45-pm/17943230",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://en.wikipedia.org/wiki/Gianmarco_Soresi"
         },
         {
           "title": "Gianmarco Soresi",
@@ -2809,7 +3065,11 @@
           "venue": "The Houston Improv",
           "city": "Houston, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-14-7-pm/17943229"
+          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-14-7-pm/17943229",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://en.wikipedia.org/wiki/Gianmarco_Soresi"
         },
         {
           "title": "Gianmarco Soresi",
@@ -2817,7 +3077,11 @@
           "venue": "The Houston Improv",
           "city": "Houston, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-14-9-30-pm/17943227"
+          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-14-9-30-pm/17943227",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://en.wikipedia.org/wiki/Gianmarco_Soresi"
         },
         {
           "title": "Gianmarco Soresi",
@@ -2825,12 +3089,20 @@
           "venue": "The Houston Improv",
           "city": "Houston, TX",
           "capacity": 0,
-          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-15-7-30-pm/18107320"
+          "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-15-7-30-pm/18107320",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://en.wikipedia.org/wiki/Gianmarco_Soresi"
         }
       ],
       "score": 23,
       "genre": "Comedy",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/gianmarco-soresi-4e5ed3/692034/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/gianmarco-soresi-4e5ed3/692034/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 8,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Jon Bellion",
@@ -2853,12 +3125,20 @@
           "venue": "Red Rocks Amphitheatre",
           "city": "Morrison, CO",
           "capacity": 9450,
-          "url": "https://seatgeek.com/jon-bellion-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-11-7-pm/concert/18089843"
+          "url": "https://seatgeek.com/jon-bellion-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-11-7-pm/concert/18089843",
+          "hot": true,
+          "hotPrice": 250,
+          "hotSoldOut": false,
+          "hotSource": "https://www.reddit.com/r/JonBellion/comments/1rfh3a0/red_rocks_tickets_discussion_megathread/"
         }
       ],
       "score": 22,
       "genre": "Pop/R&B",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jon-bellion-463f61/261158/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/jon-bellion-463f61/261158/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 1,
+      "confirmedSoldOut": false,
+      "peakPrice": 250
     },
     {
       "name": "Lord Huron",
@@ -2979,7 +3259,11 @@
           "venue": "Benchmark International Arena",
           "city": "Tampa, FL",
           "capacity": 0,
-          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-03-13-8-pm/17895243"
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2026-03-13-8-pm/17895243",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://www.tbnweekly.com/diversions/article_c19a07ad-e400-496b-93ae-a894e1519069.html"
         },
         {
           "title": "Matt Rife",
@@ -3019,7 +3303,11 @@
           "venue": "The Comedy Store - Los Angeles",
           "city": "Los Angeles, CA",
           "capacity": 450,
-          "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-06-7-pm/18021621"
+          "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-06-7-pm/18021621",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://xodivad.com/2026/02/18/matt-rifes-stay-golden-tour-explodes-into-2026-new-shows-sold-outs-and-nonstop-comedy-domination/"
         },
         {
           "title": "Netflix Is A Joke Fest Presents: Matt Rife",
@@ -3027,12 +3315,20 @@
           "venue": "The Comedy Store - Los Angeles",
           "city": "Los Angeles, CA",
           "capacity": 450,
-          "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-07-7-pm/18021992"
+          "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-07-7-pm/18021992",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://xodivad.com/2026/02/18/matt-rifes-stay-golden-tour-explodes-into-2026-new-shows-sold-outs-and-nonstop-comedy-domination/"
         }
       ],
       "score": 22,
       "genre": "Comedy",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/matt-rife-1-4975be/807517/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/matt-rife-1-4975be/807517/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 3,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Sara Landry",
@@ -4260,7 +4556,11 @@
           "venue": "The Bomb Factory - Dallas",
           "city": "Dallas, TX",
           "capacity": 4300,
-          "url": "https://seatgeek.com/bob-moses-tickets/dallas-texas-the-bomb-factory-dallas-2026-04-02-8-pm/concert/17915259"
+          "url": "https://seatgeek.com/bob-moses-tickets/dallas-texas-the-bomb-factory-dallas-2026-04-02-8-pm/concert/17915259",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://beatselectormagazine.com/bob-moses-notre-dame-unite-on-new-single-on-my-mind/"
         },
         {
           "title": "Bob Moses with Cannons",
@@ -4292,7 +4592,11 @@
           "venue": "The Pinnacle - Nashville",
           "city": "Nashville, TN",
           "capacity": 0,
-          "url": "https://seatgeek.com/bob-moses-tickets/nashville-tennessee-the-pinnacle-nashville-2026-04-07-7-30-pm/concert/17934368"
+          "url": "https://seatgeek.com/bob-moses-tickets/nashville-tennessee-the-pinnacle-nashville-2026-04-07-7-30-pm/concert/17934368",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://beatselectormagazine.com/bob-moses-notre-dame-unite-on-new-single-on-my-mind/"
         },
         {
           "title": "Bob Moses with Cannons",
@@ -4300,7 +4604,11 @@
           "venue": "The Fillmore - Charlotte",
           "city": "Charlotte, NC",
           "capacity": 2000,
-          "url": "https://seatgeek.com/bob-moses-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-04-08-8-pm/concert/17881042"
+          "url": "https://seatgeek.com/bob-moses-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-04-08-8-pm/concert/17881042",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://beatselectormagazine.com/bob-moses-notre-dame-unite-on-new-single-on-my-mind/"
         },
         {
           "title": "Bob Moses with Cannons",
@@ -4308,12 +4616,20 @@
           "venue": "The Fillmore Philadelphia",
           "city": "Philadelphia, PA",
           "capacity": 0,
-          "url": "https://seatgeek.com/bob-moses-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-04-10-7-30-pm/concert/17881422"
+          "url": "https://seatgeek.com/bob-moses-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2026-04-10-7-30-pm/concert/17881422",
+          "hot": true,
+          "hotPrice": null,
+          "hotSoldOut": true,
+          "hotSource": "https://beatselectormagazine.com/bob-moses-notre-dame-unite-on-new-single-on-my-mind/"
         }
       ],
       "score": 14,
       "genre": "DJ/Electronic",
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/bob-moses-9291b5/134030/huge.jpg"
+      "imageUrl": "https://seatgeekimages.com/performers-landscape/bob-moses-9291b5/134030/huge.jpg",
+      "hasHotShows": true,
+      "hotShowCount": 4,
+      "confirmedSoldOut": true,
+      "peakPrice": 0
     },
     {
       "name": "Goose",
@@ -5015,5 +5331,6 @@
       "genre": "Pop",
       "imageUrl": "https://seatgeekimages.com/performers-landscape/vincent-mason-f7034a/1955531/huge.jpg"
     }
-  ]
+  ],
+  "hotShowScan": "2026-03-07T01:56:04.417Z"
 }

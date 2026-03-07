@@ -119,6 +119,10 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .tour-row .tdate{color:var(--text4);width:80px;flex-shrink:0}
 .tour-row .tvenue{flex:1;color:var(--text2)}
 .tour-row .tprice{color:var(--yellow);font-weight:600;flex-shrink:0}
+.tour-row.hot-show{background:rgba(255,59,48,0.08);border-radius:6px;padding:4px 6px;border-bottom:1px solid rgba(255,59,48,0.15)}
+.hot-badge{font-size:10px;background:linear-gradient(135deg,#ff3b30,#ff6b35);color:#fff;padding:1px 6px;border-radius:4px;font-weight:700;letter-spacing:0.5px;margin-left:6px}
+.soldout-badge{font-size:10px;background:linear-gradient(135deg,#ff3b30,#cc0000);color:#fff;padding:1px 6px;border-radius:4px;font-weight:700;letter-spacing:0.5px;margin-left:6px}
+.artist-hot-flag{display:inline-flex;align-items:center;gap:4px;font-size:10px;background:rgba(255,59,48,0.12);color:#ff6b35;padding:2px 8px;border-radius:4px;font-weight:600;margin-left:8px}
 
 /* Sold out signals */
 .so-box{padding:12px 14px;background:var(--red-dim);border:1px solid rgba(239,68,68,0.15);border-radius:var(--radius);margin-bottom:14px}
@@ -312,6 +316,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
     <button class="fbtn" onclick="filterArtists('hot',this)">🔥 Hot (50+)</button>
     <button class="fbtn" onclick="filterArtists('rising',this)">⚡ Rising (30+)</button>
     <button class="fbtn" onclick="filterArtists('soldout',this)">🎟️ Sold-Out History</button>
+    <button class="fbtn" onclick="filterArtists('confirmed',this)">🔥 Confirmed Hot</button>
     <button class="fbtn" onclick="filterArtists('touring',this)">🗺️ On Tour</button>
   </div>
   <div class="filters" id="genre-filters">
@@ -609,7 +614,9 @@ function buildCard(a, id) {
   if (a.genre) html += `<span class="tag tag-genre">${a.genre}</span>`;
   if (a.venueSize) html += `<span class="tag tag-venue">${a.venueSize}</span>`;
   if (a.codes && a.codes.length) html += `<span class="tag tag-new">🔑 CODE AVAILABLE</span>`;
-  if (a.soldOutMentions >= 3) html += `<span class="tag tag-hot">🔥 SELLING OUT</span>`;
+  if (a.confirmedSoldOut) html += `<span class="tag tag-hot">🔥 CONFIRMED HOT</span>`;
+  else if (a.hasHotShows) html += `<span class="tag tag-hot">💰 HIGH DEMAND</span>`;
+  else if (a.soldOutMentions >= 3) html += `<span class="tag tag-hot">🔥 SELLING OUT</span>`;
   html += `</div>`;
   if (a.saleStatus) html += `<div class="sale-status ${isLive?'sale-live':isSoon?'sale-soon':'sale-info'}">${a.saleStatus}</div>`;
   html += `</div>`;
@@ -679,12 +686,16 @@ function buildCard(a, id) {
 
   // Tour dates (for emerging artists)
   if (a.tourDates && a.tourDates.length) {
-    html += '<div class="tour-dates"><div class="tdl">UPCOMING SHOWS</div>';
-    for (const t of a.tourDates.slice(0, 6)) {
-      const price = t.avgPrice ? `$${t.avgPrice} avg` : '';
-      html += `<div class="tour-row"><span class="tdate">${t.date||'TBA'}</span><span class="tvenue">${t.venue||''}, ${t.city||''}</span><span class="tprice">${price}</span></div>`;
+    html += '<div class="tour-dates"><div class="tdl">UPCOMING SHOWS';
+    if (a.confirmedSoldOut || a.hasHotShows) html += ' <span class="artist-hot-flag">🔥 ' + (a.confirmedSoldOut ? 'SOLD OUT SHOWS' : 'HOT') + '</span>';
+    html += '</div>';
+    for (const t of a.tourDates.slice(0, 8)) {
+      const price = t.hotPrice ? `$${t.hotPrice}+` : (t.avgPrice ? `$${t.avgPrice} avg` : '');
+      const hotClass = t.hot ? ' hot-show' : '';
+      const badge = t.hotSoldOut ? '<span class="soldout-badge">SOLD OUT</span>' : (t.hot ? '<span class="hot-badge">$100+</span>' : '');
+      html += `<div class="tour-row${hotClass}"><span class="tdate">${t.date||'TBA'}</span><span class="tvenue">${t.venue||''}, ${t.city||''}${badge}</span><span class="tprice">${price}</span></div>`;
     }
-    if (a.tourDates.length > 6) html += `<div style="font-size:11px;color:var(--text5);padding:4px 0">+ ${a.tourDates.length - 6} more shows</div>`;
+    if (a.tourDates.length > 8) html += `<div style="font-size:11px;color:var(--text5);padding:4px 0">+ ${a.tourDates.length - 8} more shows</div>`;
     html += '</div>';
   }
 
@@ -818,6 +829,7 @@ function applyFilters() {
   // Score filter
   if (activeScoreFilter === 'hot') filtered = filtered.filter(a => (a.score||0) >= 50);
   else if (activeScoreFilter === 'rising') filtered = filtered.filter(a => (a.score||0) >= 30);
+  else if (activeScoreFilter === 'confirmed') filtered = filtered.filter(a => a.confirmedSoldOut || a.hasHotShows);
   else if (activeScoreFilter === 'soldout') filtered = filtered.filter(a => (a.soldOutMentions||0) > 0);
   else if (activeScoreFilter === 'touring') filtered = filtered.filter(a => (a.upcomingShows||0) > 0);
 
