@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-07T14:01:01.450Z",
+  "timestamp": "2026-03-08T14:00:49.263Z",
   "shows": [
     {
-      "comedian": "Theo Von",
-      "venue": "Unknown venue",
-      "venueCapacity": null,
+      "comedian": "Unknown",
+      "venue": "Funny Bone (Various, cap: 350)",
+      "venueCapacity": 350,
       "source": "twitter",
-      "text": "We're sending you and a friend to see Theo Von on Saturday March 14th at the Florida Theatre for his 9:30p show! Listen to us on our free iHeartRadio app, set us as your #1 preset and tab the contest ",
-      "url": "https://x.com/i/status/2028644024270361011",
-      "ticketUrl": "https://t.co/7X72r98j43",
-      "engagement": 2,
-      "created": "2026-03-03T01:30:00.000Z",
-      "isSmallVenue": null,
+      "text": "@ComedianSHANG Looking forward to a laugh at the Shang Live at The Funny Bone Comedy! 🎉 Von Decarlo's feature show should be a blast! Hope to see you there! 🎫🎭 Tickets available at https:https://t.",
+      "url": "https://x.com/i/status/2030588529584033986",
+      "ticketUrl": "https://t.co/hgZ6AOezmY...",
+      "engagement": 0,
+      "created": "2026-03-08T10:16:46.000Z",
+      "isSmallVenue": true,
       "isNewAnnouncement": false
     },
     {
@@ -29,6 +29,19 @@
     },
     {
       "comedian": "Matt Rife",
+      "venue": "Unknown venue",
+      "venueCapacity": null,
+      "source": "twitter",
+      "text": "I Have two extra tickets for Matt Rife show on March 13 at Benchmark International Arena, Tampa, FL. Letting them go for face value but open to offers. DM me if interested! 🫶 WTS WTB ISO WTT",
+      "url": "https://x.com/i/status/2030305120273993957",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-03-07T15:30:36.000Z",
+      "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Matt Rife",
       "venue": "The Stand (New York, cap: 200)",
       "venueCapacity": 200,
       "source": "twitter",
@@ -41,54 +54,15 @@
       "isNewAnnouncement": false
     },
     {
-      "comedian": "Matt Rife",
-      "venue": "Unknown venue",
-      "venueCapacity": null,
-      "source": "twitter",
-      "text": "matt rife is bringing his stay golden tour to tampa next friday! very few tickets remain, grab your seat now 🎟️ https://t.co/7wTNsJNxN1 https://t.co/kCwOpSNeQI",
-      "url": "https://x.com/i/status/2029995430990217628",
-      "ticketUrl": "https://t.co/7wTNsJNxN1",
-      "engagement": 0,
-      "created": "2026-03-06T19:00:00.000Z",
-      "isSmallVenue": null,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Nate Bargatze",
-      "venue": "Unknown venue",
-      "venueCapacity": null,
-      "source": "twitter",
-      "text": "Nate Bargatze: Big Dumb Eyes World Tour - #London 🇨🇦 18 Apr, 2026 🗓️\n\nGet your Tickets Now, https://t.co/qgXlLFhcb5 https://t.co/f1VQasC4o0",
-      "url": "https://x.com/i/status/2029757208460677606",
-      "ticketUrl": "https://t.co/qgXlLFhcb5",
-      "engagement": 0,
-      "created": "2026-03-06T03:13:24.000Z",
-      "isSmallVenue": null,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Stavros Halkias",
-      "venue": "Unknown venue",
-      "venueCapacity": null,
-      "source": "twitter",
-      "text": "Is there anyone looking to buy Stavros Halkias Rockford  (ticket) tickets? Message me.",
-      "url": "https://x.com/i/status/2029988974278693066",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-03-06T18:34:21.000Z",
-      "isSmallVenue": null,
-      "isNewAnnouncement": false
-    },
-    {
       "comedian": "Bert Kreischer",
       "venue": "Unknown venue",
       "venueCapacity": null,
       "source": "twitter",
-      "text": "🚨 ONE WEEK AWAY 🚨\nBert Kreischer is bringing the laughs, the stories, and the Permission To Party Tour to the Mayo Civic Center on March 13, 2026!\n\n🎟️Get your tickets now! https://t.co/oCAdnP52qu h",
-      "url": "https://x.com/i/status/2029957747345662279",
-      "ticketUrl": "https://t.co/oCAdnP52qu",
+      "text": "Know Before You Go: Bert Kreischer Permission to Party World Tour \n\nGet ready for a night of nonstop laughs when Bert Kreischer comes to Youngstown. Plan ahead, arrive early, and get ready for a hilar",
+      "url": "https://x.com/i/status/2030373037762126291",
+      "ticketUrl": "https://t.co/yZdsSLrdQj",
       "engagement": 0,
-      "created": "2026-03-06T16:30:16.000Z",
+      "created": "2026-03-07T20:00:29.000Z",
       "isSmallVenue": null,
       "isNewAnnouncement": false
     },
@@ -106,6 +80,19 @@
       "isNewAnnouncement": false
     },
     {
+      "comedian": "Unknown",
+      "venue": "Zanies (Nashville, cap: 300)",
+      "venueCapacity": 300,
+      "source": "brave",
+      "text": "This includes, but is not limited to, the following sites: Event Tickets Center, Craigslist, Vivid Seats, Seat Geek, Cheap Tickets, Tickets On Sale.com, Stubhub and any site that is not Etix.com or za",
+      "url": "https://chicago.zanies.com/calendar/category/series/2026-katie-boyle/zanies-comedy-club-chicago/chicago-illinois/",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-03-08T03:54:21",
+      "isSmallVenue": true,
+      "isNewAnnouncement": false
+    },
+    {
       "comedian": "Ian Fidance",
       "venue": "Zanies (Nashville, cap: 300)",
       "venueCapacity": 300,
@@ -115,19 +102,6 @@
       "ticketUrl": null,
       "engagement": 0,
       "created": "2026-03-01T11:06:54",
-      "isSmallVenue": true,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Unknown",
-      "venue": "Zanies (Nashville, cap: 300)",
-      "venueCapacity": 300,
-      "source": "brave",
-      "text": "Zanies uses All-In Ticket Pricing. The total price listed includes ticket fees and taxes.",
-      "url": "https://nashville.zanies.com/show/fall-follies-spring-sprollies/the-lab/",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-03-05T15:56:29",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     },
@@ -167,32 +141,6 @@
       "ticketUrl": null,
       "engagement": 0,
       "created": "2026-03-05T16:02:46",
-      "isSmallVenue": true,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Andrew Schulz",
-      "venue": "Zanies (Nashville, cap: 300)",
-      "venueCapacity": 300,
-      "source": "brave",
-      "text": "Tickets: Will Call is the ONLY option given when purchasing <strong>tickets</strong>. We do NOT give physical or digital <strong>tickets</strong> for entry to our shows. Once <strong>tickets</strong> ",
-      "url": "https://nashville.zanies.com/show/andrew-schulz/zanies/nashville-tennessee/",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-03-05T15:21:15",
-      "isSmallVenue": true,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Unknown",
-      "venue": "Funny Bone (Various, cap: 350)",
-      "venueCapacity": 350,
-      "source": "brave",
-      "text": "Tickets · &amp;copy · 2026 · <strong>Funny Bone</strong> · Facebook-f Instagram · 9101 International Dr Suite 2310 Orlando, FL 32819 · (407) 480-5233 · Powered by ROCKHOUSE PARTNERS an ETIX company.",
-      "url": "https://orlando.funnybone.com/events/category/series/martin-amini/orlando-funny-bone/",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-03-02T19:43:25",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     }
