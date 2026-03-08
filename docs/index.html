@@ -133,6 +133,17 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .presale-type{font-size:10px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;color:var(--text4);min-width:90px}
 .presale-unknown{font-size:11px;color:var(--text5);font-style:italic}
 .presale-date{font-size:10px;color:var(--text5);margin-left:auto}
+.btn-notify{background:var(--surface2);border:1px solid var(--border2);color:var(--text4);padding:6px 14px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.15s}
+.btn-notify:hover{border-color:var(--yellow);color:var(--yellow)}
+.btn-notify.notified{background:rgba(251,191,36,0.1);border-color:var(--yellow);color:var(--yellow)}
+.feed-item{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;display:flex;gap:12px;align-items:flex-start}
+.feed-item .feed-icon{font-size:20px;flex-shrink:0;margin-top:2px}
+.feed-item .feed-body{flex:1}
+.feed-item .feed-artist{font-weight:700;color:var(--text);font-size:14px}
+.feed-item .feed-detail{font-size:12px;color:var(--text3);margin-top:4px}
+.feed-item .feed-meta{font-size:11px;color:var(--text5);margin-top:6px;display:flex;gap:12px;align-items:center}
+.feed-item .feed-verified{font-size:10px;color:var(--green);font-weight:600}
+.feed-item .feed-thumb{width:40px;height:40px;border-radius:6px;object-fit:cover;flex-shrink:0}
 
 /* Sold out signals */
 .so-box{padding:12px 14px;background:var(--red-dim);border:1px solid rgba(239,68,68,0.15);border-radius:var(--radius);margin-bottom:14px}
@@ -356,33 +367,22 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   </div>
 </div>
 
-<!-- LIVE ALERTS -->
+<!-- NEWSFEED (Sold-Out + New Shows) -->
 <div id="view-alerts" class="view" style="display:none">
   <div class="section-head">
-    <h2>🔥 Live Alerts</h2>
-    <span class="badge">From 12 scanners</span>
+    <h2>📰 Newsfeed</h2>
+    <span class="badge" id="feed-count">Loading...</span>
   </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Real-time feed from Twitter, Brave, SeatGeek, Spotify, and Reddit scanners.</p>
-  <div class="alert-item" style="border-left:3px solid var(--yellow)">
-    <div class="alert-icon">🔑</div>
-    <div class="alert-body"><div class="ab-title">Alex Warren — Presale Code: AWFORD</div><div class="ab-detail">Artist presale happening today 3/5, 10a-10p</div><div class="ab-time">🐦 Twitter • 2 hours ago</div></div>
+  <p style="color:var(--text4);font-size:13px;margin-bottom:12px">Verified sold-out announcements and new show additions. Each event confirmed by 2+ sources.</p>
+  
+  <div style="display:flex;gap:6px;margin-bottom:16px">
+    <button class="tab-btn active" onclick="filterFeed('all',this)" style="padding:4px 12px;font-size:11px">All</button>
+    <button class="tab-btn" onclick="filterFeed('sold_out',this)" style="padding:4px 12px;font-size:11px">🔴 Sold Out</button>
+    <button class="tab-btn" onclick="filterFeed('new_show',this)" style="padding:4px 12px;font-size:11px">🆕 New Shows</button>
+    <button class="tab-btn" onclick="filterFeed('new_tour',this)" style="padding:4px 12px;font-size:11px">🎉 New Tours</button>
   </div>
-  <div class="alert-item" style="border-left:3px solid var(--yellow)">
-    <div class="alert-icon">🔑</div>
-    <div class="alert-body"><div class="ab-title">Josh Johnson — Canada Presale Code: THISONETIME</div><div class="ab-detail">"Following a sold out tour last year" — Comedy Band Camp across 11+ venues</div><div class="ab-time">🐦 Twitter • 3 hours ago</div></div>
-  </div>
-  <div class="alert-item" style="border-left:3px solid var(--red)">
-    <div class="alert-icon">🚨</div>
-    <div class="alert-body"><div class="ab-title">Metallica @ Sphere — Added more dates to residency</div><div class="ab-detail">"Added even more dates to Life Burns Faster residency"</div><div class="ab-time">🐦 Twitter • 3 hours ago</div></div>
-  </div>
-  <div class="alert-item" style="border-left:3px solid var(--green)">
-    <div class="alert-icon">📢</div>
-    <div class="alert-body"><div class="ab-title">Josh Johnson — Comedy Boot Camp Tour (11+ venues announced)</div><div class="ab-detail">Ryman Nashville, Paramount Theatre (3 nights), The Factory (2 nights), Taft Cincinnati (2 nights), Masonic SF, Riverside Milwaukee + more</div><div class="ab-time">🐦 Twitter • 5 hours ago</div></div>
-  </div>
-  <div class="alert-item" style="border-left:3px solid var(--green)">
-    <div class="alert-icon">📢</div>
-    <div class="alert-body"><div class="ab-title">Jordan Jensen — Buffalo, NY show announced</div><div class="ab-detail">"Get tickets before it's too late!" — March 18</div><div class="ab-time">🐦 Twitter • 6 hours ago</div></div>
-  </div>
+  
+  <div id="feed-list" style="display:flex;flex-direction:column;gap:8px"></div>
 </div>
 
 <!-- SUBMIT ARTIST -->
@@ -868,6 +868,9 @@ function buildCard(a, id) {
   const nameEnc = encodeURIComponent(a.name.split(' — ')[0].split(' – ')[0]);
   if (!a.ticketLink) html += `<a href="https://seatgeek.com/search?q=${nameEnc}" target="_blank" class="btn-tickets" onclick="event.stopPropagation()">🎟️ SeatGeek</a>`;
   html += `<a href="https://www.vividseats.com/search?searchTerm=${nameEnc}" target="_blank" class="btn-sg" onclick="event.stopPropagation()">🎟️ Vivid Seats</a>`;
+  const artistClean = a.name.split(' — ')[0].split(' – ')[0].replace(/'/g, "\\'");
+  const isNotified = (JSON.parse(localStorage.getItem('bb-notify') || '[]')).includes(artistClean);
+  html += `<button class="btn-notify ${isNotified?'notified':''}" onclick="event.stopPropagation();toggleNotify('${artistClean}',this)">${isNotified?'🔔 Notifying':'🔕 Notify Me'}</button>`;
   html += '</div>';
 
   html += '</div>'; // body
@@ -1288,6 +1291,75 @@ function trackAll() {
   renderTrackList();
 }
 
+/* ── Notify Me ── */
+function toggleNotify(artist, btn) {
+  let list = JSON.parse(localStorage.getItem('bb-notify') || '[]');
+  if (list.includes(artist)) {
+    list = list.filter(a => a !== artist);
+    if (btn) { btn.classList.remove('notified'); btn.innerHTML = '🔕 Notify Me'; }
+  } else {
+    list.push(artist);
+    if (btn) { btn.classList.add('notified'); btn.innerHTML = '🔔 Notifying'; }
+  }
+  localStorage.setItem('bb-notify', JSON.stringify(list));
+}
+
+/* ── Newsfeed ── */
+let feedData = [];
+let activeFeedFilter = 'all';
+
+async function loadFeed() {
+  try {
+    const res = await fetch('data/feed.json');
+    const data = await res.json();
+    feedData = data.events || [];
+    document.getElementById('feed-count').textContent = feedData.length + ' events';
+    renderFeed();
+  } catch (e) {
+    document.getElementById('feed-list').innerHTML = '<div class="empty">Feed data not available yet.</div>';
+  }
+}
+
+function renderFeed() {
+  const el = document.getElementById('feed-list');
+  let filtered = feedData;
+  if (activeFeedFilter !== 'all') filtered = filtered.filter(e => e.type === activeFeedFilter);
+  
+  if (!filtered.length) { el.innerHTML = '<div class="empty">No events match this filter.</div>'; return; }
+  
+  el.innerHTML = filtered.slice(0, 50).map(e => {
+    const icon = e.type === 'sold_out' ? '🔴' : e.type === 'new_show' ? '🆕' : e.type === 'new_tour' ? '🎉' : '📢';
+    const label = e.type === 'sold_out' ? 'SOLD OUT' : e.type === 'new_show' ? 'NEW SHOW' : 'NEW TOUR';
+    const venue = e.venue ? `${e.venue}${e.city ? ', ' + e.city : ''}` : '';
+    const date = e.date || '';
+    const snippet = e.sourceSnippet ? `<div style="font-size:11px;color:var(--text4);margin-top:4px;font-style:italic">"${e.sourceSnippet}"</div>` : '';
+    const verified = e.verified ? '<span class="feed-verified">✅ Verified</span>' : '<span style="font-size:10px;color:var(--text5)">⚠️ Unverified</span>';
+    const sources = (e.sources || []).filter(s => s && !s.startsWith('http')).join(' + ');
+    const thumb = e.imageUrl ? `<img class="feed-thumb" src="${e.imageUrl}" alt="">` : '';
+    const notifyList = JSON.parse(localStorage.getItem('bb-notify') || '[]');
+    const isNotified = notifyList.includes(e.artist);
+    const notifyBtn = `<button class="btn-notify ${isNotified?'notified':''}" onclick="toggleNotify('${e.artist.replace(/'/g,"\\'")}',this)" style="padding:3px 10px;font-size:10px">${isNotified?'🔔':'🔕'}</button>`;
+    
+    return `<div class="feed-item">
+      ${thumb}
+      <div class="feed-icon">${icon}</div>
+      <div class="feed-body">
+        <div class="feed-artist">${e.artist} <span style="font-size:11px;font-weight:400;color:var(--text4)">${e.genre}</span></div>
+        <div class="feed-detail">${label}${venue ? ' — ' + venue : ''}${date ? ' (' + date + ')' : ''}</div>
+        ${snippet}
+        <div class="feed-meta">${verified} <span>${sources}</span> ${notifyBtn}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function filterFeed(type, btn) {
+  activeFeedFilter = type;
+  document.querySelectorAll('#view-alerts .tab-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  renderFeed();
+}
+
 /* ── To Do List ── */
 const TODO_KEY = 'bb-todos';
 const DEFAULT_TODOS = [
@@ -1411,6 +1483,7 @@ renderSubmissionHistory();
 loadPrefs();
 loadPhone();
 renderTodos();
+loadFeed();
 </script>
 </body>
 </html>
