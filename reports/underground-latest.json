@@ -1,19 +1,20 @@
 {
-  "timestamp": "2026-03-06T09:00:36.916Z",
+  "timestamp": "2026-03-07T09:00:38.275Z",
   "events": [
     {
-      "eventName": "Are The Players Championship 2026 tickets sold out? Availability and price explored",
+      "eventName": "Heartbroken - Our showing was cancelled",
       "category": "other",
-      "score": 7,
+      "score": 9,
       "signals": [
         "SOLD OUT",
-        "small venue"
+        "Reddit",
+        "watchlist: twenty one pilots"
       ],
-      "text": "For the second round of the event, scheduled to take place on Friday, March 13, the Stadium Pass is available for the same amount as that of Thursday, and the <strong>Intracoastal Club tickets are ava",
-      "url": "https://www.sportskeeda.com/golf/news-are-the-players-championship-2026-tickets-sold-out-availability-price-explored",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-06T04:48:45"
+      "text": "I&#x27;m sad it&#x27;s sold out! ... a community dedicated to all things twenty one pilots: news, discussion, connection, and creativity. ... So...there are a lot more people going to the movie than I",
+      "url": "https://www.reddit.com/r/twentyonepilots/comments/1rhcmhv/heartbroken_our_showing_was_cancelled/",
+      "source": "reddit",
+      "matchedArtist": "twenty one pilots",
+      "published": "2026-02-28T20:09:50"
     },
     {
       "eventName": "If Ticketmaster is saying that the event is sold out at Petco Park in San Diego, why does it also sa",
@@ -44,20 +45,6 @@
       "published": "2026-03-01T22:34:51"
     },
     {
-      "eventName": "Can Concerts survive the recent explosion in Price",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "As an example, I&#x27;m going to a concert ... accommodations, and merch. <strong>The show is one of dozens of completely sold-out stadium shows covering five continents, with an average audience size",
-      "url": "https://www.reddit.com/r/Concerts/comments/1rizghf/can_concerts_survive_the_recent_explosion_in_price/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-03-02T17:38:52"
-    },
-    {
       "eventName": "concert tickets",
       "category": "other",
       "score": 6,
@@ -70,20 +57,6 @@
       "source": "reddit",
       "matchedArtist": null,
       "published": "2026-02-28T17:53:51"
-    },
-    {
-      "eventName": "Heartbroken - Our showing was cancelled",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "I&#x27;m sad it&#x27;s sold out! ... a community dedicated to all things twenty one pilots: news, discussion, connection, and creativity. ... So...there are a lot more people going to the movie than I",
-      "url": "https://www.reddit.com/r/twentyonepilots/comments/1rhcmhv/heartbroken_our_showing_was_cancelled/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-28T20:09:50"
     },
     {
       "eventName": "So many good concerts.",
@@ -100,20 +73,6 @@
       "published": "2026-03-03T02:44:29"
     },
     {
-      "eventName": "Fall Tour (early?) announcement",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "Because so many shows are sold out already.",
-      "url": "https://www.reddit.com/r/BillyStrings/comments/1rgio2b/fall_tour_early_announcement/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-27T20:57:12"
-    },
-    {
       "eventName": "260304 Twitter Update - TWICE <THIS IS FOR> WORLD TOUR IN MONTREAL Montreal ONCE, you had us speechl",
       "category": "other",
       "score": 6,
@@ -126,6 +85,33 @@
       "source": "reddit",
       "matchedArtist": null,
       "published": "2026-03-04T04:47:00"
+    },
+    {
+      "eventName": "The \"convenience fee\" racket is out of control. How do you guys actually get cheap tickets nowadays?",
+      "category": "comedy",
+      "score": 6,
+      "signals": [
+        "SOLD OUT",
+        "Reddit"
+      ],
+      "text": "The headliner and said he was told it was a sold out show and the reseller bots are getting stupidly out of hand. An empty theater isn&#x27;t fun for comedy. Same is true of sports. It used to be a fu",
+      "url": "https://www.reddit.com/r/Frugal/comments/1rk0wnt/the_convenience_fee_racket_is_out_of_control_how/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-03-06T10:27:10"
+    },
+    {
+      "eventName": "Comedy Shows Near Denver 2026 | Stand Up Comedy In Denver | AllEvents.in",
+      "category": "comedy",
+      "score": 5,
+      "signals": [
+        "SOLD OUT"
+      ],
+      "text": "Chelsea Handler Denver is happening on Fri 20 Mar 2026 from 8:00 PM onwards at Denver, CO · Denver, CO : David Nihill at Comedy Works Downtown. 11 &amp; 12th sold out.",
+      "url": "https://allevents.in/denver/comedy",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-07T00:38:22"
     },
     {
       "eventName": "FIFA World Cup 2026: Gianni Infantino lie, Tickets ...",
@@ -141,19 +127,6 @@
       "published": "2026-03-03T02:49:23"
     },
     {
-      "eventName": "syracuse.com",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "Special guest Carter Faith will open most dates. Last year’s edition of the tour sold out major stadiums nationwide, so high demand is expected again.",
-      "url": "https://www.syracuse.com/live-entertainment/2026/02/how-to-get-tickets-to-jelly-rolls-nearly-sold-out-syracuse-concert.html",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-27T19:22:02"
-    },
-    {
       "eventName": "The Forum",
       "category": "other",
       "score": 5,
@@ -167,45 +140,6 @@
       "published": "2026-03-04T01:14:49"
     },
     {
-      "eventName": "Star-Studded Lineup For Billy Joel Tribute Concert At Carnegie Hall Revealed",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "<strong>Tickets for the tribute concert sold out before the lineup was announced</strong>.",
-      "url": "https://www.jambase.com/article/billy-joel-tribute-concert-carnegie-hall-lineup-2026",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-02-27T17:53:54"
-    },
-    {
-      "eventName": "Legendary punk band The Undertones to perform at Bristol Sounds this year | Bristol Live",
-      "category": "indie/rock",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "With big demand for OMD’s date, tickets are now limited and expected to sell out. Tickets can be purchased here. <strong>Hospitality tickets for this date are now sold out</strong>. ... The full Brist",
-      "url": "https://www.bristolpost.co.uk/whats-on/music-nightlife/legendary-punk-band-undertones-perform-10849023",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-05T12:17:51"
-    },
-    {
-      "eventName": "Travel to the Fallas with Renfe at unbeatable prices",
-      "category": "electronic",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "The national operator has launched ... starting from just €9 each way. <strong>Tickets can be purchased until 9 March (or until sold out) for travel between 1 and 19 March, in Standard Class</strong>.",
-      "url": "https://www.trainvelling.com/en/news/travel-to-the-fallas-with-renfe-at-unbeatable-prices/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-03T11:55:37"
-    },
-    {
       "eventName": "CashorTrade",
       "category": "other",
       "score": 5,
@@ -217,32 +151,6 @@
       "source": "web",
       "matchedArtist": null,
       "published": "2026-03-03T13:40:17"
-    },
-    {
-      "eventName": "Upcoming Concert Events, Venue, Schedule & Passes In Doncaster",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "Jersey Boys Tribute Night - Sold Out is happening on Fri 06 Mar 2026 from 7:00 PM onwards at <strong>Best Western Premier Mount Pleasant Hotel, Doncaster</strong> · What are the Concerts happening in ",
-      "url": "https://allevents.in/doncaster/concerts",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-03T16:39:23"
-    },
-    {
-      "eventName": "Houston Nightlife, Comedy & Date Nights This Week: March 2-8, 2026 | 365 Houston",
-      "category": "comedy",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "Comedian Akaash Singh at White Oak Music Hall – Known for hosting the Flagrant podcast with Andrew Schulz, the powerhouse comic plays his final—not sold out—show in the Near Northside. 9:30pm. Get tic",
-      "url": "https://365thingsinhouston.com/houston-nightlife-comedy-date-night-this-week-march-12-8-2026/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-06T01:07:11"
     },
     {
       "eventName": "‘Tonight’s Special Comedy Special’: Arts council’s most sold out 2025 show! | The Arts | yesweekly.c",
@@ -282,6 +190,34 @@
       "source": "web",
       "matchedArtist": null,
       "published": "2026-03-03T14:01:28"
+    },
+    {
+      "eventName": "Favorite Dopapod Shows",
+      "category": "jam",
+      "score": 4,
+      "signals": [
+        "Reddit",
+        "watchlist: moe."
+      ],
+      "text": "Heyyyyy r/jambands fam! Hot Like Mars here 👋 We’re headed to the East Coast and we could really use some help spreading the word about the shows 🙏 If you love Funk, Soul &amp; Jams, then you’re gonn",
+      "url": "https://www.reddit.com/r/jambands/comments/1rhfa3u/favorite_dopapod_shows/",
+      "source": "reddit",
+      "matchedArtist": "moe.",
+      "published": "2026-02-28T21:58:09"
+    },
+    {
+      "eventName": "I just impulsively bought killer’s of kill tony tickets. Was it a mistake?",
+      "category": "other",
+      "score": 4,
+      "signals": [
+        "Reddit",
+        "watchlist: kill tony"
+      ],
+      "text": "I just bought the tickets online when i saw they were coming to our town in April. Immediately after i thought, oh shit. I hate most of the new…",
+      "url": "https://www.reddit.com/r/Killtony/comments/1rh40d8/i_just_impulsively_bought_killers_of_kill_tony/",
+      "source": "reddit",
+      "matchedArtist": "kill tony",
+      "published": "2026-02-28T14:28:03"
     }
   ]
 }

@@ -1,41 +1,73 @@
 # 🏴‍☠️ Blackbeard
 
-Sold-out event treasure hunter. Scans Reddit, X, and fan forums for buzz around sold-out concerts, comedy shows, and sporting events (especially obscure ones).
+Emerging artist discovery & ticket market intelligence platform. Tracks 300+ artists across multiple data sources to identify breakout tours, underpriced tickets, and presale opportunities before the market catches on.
 
-## API Endpoints
+## What It Does
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/health` | Health check |
-| GET | `/api/reports/latest` | Latest scan report (JSON) |
-| GET | `/api/reports/:date` | Report by date (YYYY-MM-DD) |
-| GET | `/api/reports` | List all reports |
-| GET | `/api/reports/latest/formatted` | Discord-formatted report |
-| POST | `/api/scan` | Trigger manual scan |
-| GET | `/` | Web dashboard |
+- **Artist Discovery** — Scans Bandsintown, Songkick, Spotify, and X/Twitter for emerging artists with growing demand
+- **Presale Intel** — Monitors upcoming presales and onsales across all genres (3x daily)
+- **Breakout Prediction** — Identifies artists likely to outgrow their venue tier (accuracy tracked)
+- **Comedy Scanner** — Dedicated comedy show tracking with sellout detection
+- **Venue Monitoring** — Tracks 49 GA venues for pricing trends and sellout velocity
+- **Routing Gap Analysis** — Finds cities artists haven't played in 3+ years
+
+## Scanners (18 active crons)
+
+| Scanner | Schedule | Channel |
+|---------|----------|---------|
+| Watchlist | Daily 3AM UTC | #blackbeard |
+| Underground | Daily 4AM ET | #blackbeard |
+| Bandsintown | Daily 7AM ET | #blackbeard |
+| Rising Stars | Daily 6AM ET | #blackbeard |
+| Breakout Predictor | Daily 11AM ET | #blackbeard |
+| SerpAPI Intelligence | Daily 10AM ET | #blackbeard |
+| Venue Price Monitor | Daily 8AM ET | #blackbeard |
+| Comedy | Daily 2PM UTC | #alerts |
+| Presale Scanner | 7AM / 12PM / 5PM UTC | #alerts |
+| Twitter/X | 8AM + 8PM ET (Sun-Fri) | #blackbeard |
+| Accuracy Tracker | Mon + Thu 9AM ET | #blackbeard |
+| Steelers PSL | Daily 12PM ET | #blackbeard |
+
+## Artist Tiers
+
+- 🔴 **RED HOT** — Vet score 75+, high demand signals, immediate action needed
+- 🟠 **WARM** — Vet score 50-74, worth watching, may escalate
+- ⚪ **UNVETTED** — Newly discovered, needs enrichment
+
+## Data Sources
+
+- **Bandsintown API** (free, no key needed)
+- **Brave Search** (API key in .env)
+- **SeatGeek** (API key in .env) — pricing, event links
+- **X/Twitter** (Bearer token in .env) — tour announcements, presale intel
+- **Songkick** (scraped via search)
+
+## Structure
+
+```
+src/           — Scanner modules (35 files)
+data/          — Cache files, watchlist, state
+reports/       — Daily scan outputs
+docs/          — Web dashboard (GitHub Pages)
+```
 
 ## Quick Start
 
 ```bash
 npm install
-npm start          # Start API server on port 3001
-npm run scan       # Run a one-off scan
+npm start          # API server on port 3001
+npm run scan       # One-off scan
 ```
 
-## Scoring (0-100)
+## Dashboard
 
-- **Volume** (0-40): Number of mentions
-- **Velocity** (0-20): How recent the buzz is
-- **Scarcity** (0-25): Intensity of "sold out" / "can't get tickets" language
-- **Obscurity** (0-15): Bonus for niche/small events (venues <10k)
-- **Engagement** (0-10): Reddit upvotes + comment activity
+Live at: `docs/index.html` (deploy via GitHub Pages)
+Features: Optimus-style cards, genre filters, artist photos, ROI calculator
 
-## Config
+## Roadmap
 
-- `BLACKBEARD_PORT` — API port (default: 3001)
-
-## Filters
-
-- US events only
-- Excludes large venues (>10k capacity indicators)
-- Categories: Comedy 🎤 | Concerts 🎵 | Sports 🏆 | Other 🎟️
+- [ ] OneSignal push notifications
+- [ ] Historical accuracy tracker (predictions vs outcomes)
+- [ ] Custom alert rules by genre/region
+- [ ] Broker-facing landing page + pricing
+- [ ] Spotify integration (awaiting credentials)

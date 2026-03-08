@@ -1,4 +1,18 @@
 {
-  "timestamp": "2026-03-06T14:01:08.498Z",
-  "alerts": []
+  "timestamp": "2026-03-07T14:01:01.438Z",
+  "alerts": [
+    {
+      "subject": "Just announced: Umphrey's McGee",
+      "from": "\"Songkick\" <emails@songkick.com>",
+      "date": "2026-03-07T10:03:31.000Z",
+      "comedians": [
+        "moe."
+      ],
+      "isVenueEmail": false,
+      "hasShowKeyword": true,
+      "ticketUrls": [],
+      "score": 5,
+      "snippet": "There’s a new event for an artist you track on Songkick. Don’t miss out!\n\n\n\n# August\n\n\nFriday 14\n  MOE. and Umphrey's McGee at Evans Amphitheater, Cain Park, Cleveland Heights\n\n  Buy tickets:\n  https://www.songkick.com/concerts/43087325-moe-at-evans-amphitheater-cain-park?utm_campaign=upcoming%2Fdai"
+    }
+  ]
 }
