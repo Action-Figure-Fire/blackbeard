@@ -7,6 +7,7 @@
 const { run: runWatchlist, formatDiscordAlert: formatWatchlist } = require('./spotify-scanner');
 const { run: runPlaylist, formatDiscordAlert: formatPlaylist } = require('./playlist-discovery');
 const { run: runTikTok, formatDiscordAlert: formatTikTok } = require('./tiktok-trend-scanner');
+const { run: runPodcast, formatDiscordAlert: formatPodcast } = require('./comedy-podcast-scanner');
 
 async function sendDiscord(msg) {
   console.log(`\n--- ALERT ---\n${msg}\n--- END ---`);
@@ -39,6 +40,16 @@ async function main() {
     let msg = formatWatchlist(watchlistResults);
     msg += '\n\n' + formatPlaylist(playlistResults);
     if (tiktokResults) msg += '\n\n' + formatTikTok(tiktokResults);
+    
+    // Phase 4: Comedy podcast scan
+    console.log('\n========== COMEDY PODCAST SCAN ==========');
+    let podcastResults = null;
+    try {
+      podcastResults = await runPodcast();
+    } catch (e) {
+      console.log('Podcast scan error:', e.message?.slice(0, 200));
+    }
+    if (podcastResults) msg += '\n\n' + formatPodcast(podcastResults);
     msg += `\n⏱️ Full scan completed in ${elapsed} min`;
     
     await sendDiscord(msg);

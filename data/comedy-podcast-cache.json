@@ -1,0 +1,444 @@
+{
+  "lastScan": "2026-03-08T22:55:27.403Z",
+  "elapsed": "16.9s",
+  "apiCalls": {
+    "brave": 20
+  },
+  "appearances": [
+    {
+      "comedian": "Steve",
+      "podcast": "Joe Rogan Experience",
+      "podcastShort": "JRE",
+      "weight": 10,
+      "title": "#2463 - Steve-O - The Joe Rogan Experience - Apple Podcasts",
+      "snippet": "The Joe Rogan Experience · Frequency · Updated Daily · Published · March 4, 2026 at 6:00 PM UTC · Length · 2h 44m · Episode · 2.5K · Rating · Explicit · To listen to explicit episodes, sign in. Sign I",
+      "url": "https://podcasts.apple.com/us/podcast/2463-steve-o/id360084272?i=1000753092900",
+      "published": "5 days ago",
+      "podcastAppearances": [
+        {
+          "podcast": "JRE",
+          "weight": 10
+        },
+        {
+          "podcast": "JRE",
+          "weight": 10
+        },
+        {
+          "podcast": "JRE",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "comedian": "Kevin",
+      "podcast": "This Past Weekend (Theo Von)",
+      "podcastShort": "Theo Von",
+      "weight": 8,
+      "title": "This Past Weekend w/ Theo Von - Podcast - Apple Podcasts",
+      "snippet": "<strong>Kevin James</strong> is an actor and comedian known for his roles in King of Queens, Grown Ups, Hitch and more. His new movie “Solo Mio” is out now. Kevin joins Theo to talk about cold cut sup",
+      "url": "https://podcasts.apple.com/us/podcast/this-past-weekend-w-theo-von/id1190981360",
+      "published": "3 days ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Theo Von",
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "comedian": "Blonde Girl Podcast",
+      "podcast": "This Past Weekend (Theo Von)",
+      "podcastShort": "Theo Von",
+      "weight": 8,
+      "title": "Theo Von with Blonde Girl Podcast | TikTok",
+      "snippet": "Tune in for unforgettable moments!See more videos about <strong>Blonde Girl</strong> on Podcast, <strong>Blonde Girl</strong> from Whatever Podcast, Girl with Blonde Hair Podcast, <strong>Blonde Girl<",
+      "url": "https://www.tiktok.com/discover/theo-von-with-blonde-girl-podcast",
+      "published": "1 week ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Theo Von",
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "comedian": "Nate Bargatze",
+      "podcast": "Matt and Shane's Secret Podcast",
+      "podcastShort": "Shane Gillis",
+      "weight": 8,
+      "title": "Comedians Kevin Ryan & H. Foley Prepping New ‘Are You Garbage?’ Special",
+      "snippet": "While the Are You Garbage? guys may or may not be familiar to those in Hollywood proper, they’ve cultivated a major following for their podcast since its February 2020 launch, consistently ranking in ",
+      "url": "https://deadline.com/2026/03/are-you-garbage-special-taping-tampa-march-1236744016/",
+      "published": "4 days ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Shane Gillis",
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "comedian": "Gillis",
+      "podcast": "Matt and Shane's Secret Podcast",
+      "podcastShort": "Shane Gillis",
+      "weight": 8,
+      "title": "Shane Gillis’ Ex Girlfriend Says Her Podcast Appearance Blasting Zach Bryan Was Hard To Watch: “I Didn’t Seem Articulate Or Smart” | Whiskey Riff",
+      "snippet": "She took to the social media app to share her thoughts on the podcast, saying she talked about some very personal topics and wanted to be “respectful and kind” regarding her relationship and some of t",
+      "url": "https://www.whiskeyriff.com/2026/03/02/shane-gillis-ex-girlfriend-says-her-podcast-appearance-blasting-zach-bryan-was-hard-to-watch-i-didnt-seem-articulate-or-smart/",
+      "published": "1 week ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Shane Gillis",
+          "weight": 8
+        }
+      ]
+    },
+    {
+      "comedian": "Kill Tony",
+      "podcast": "Kill Tony",
+      "podcastShort": "Kill Tony",
+      "weight": 7,
+      "title": "Kill Tony Tickets - Get Yours Now from BigStub!",
+      "snippet": "Killers of Kill Tony: David Lucas, Hans Kim, Martin Phillips &amp; Ahren Belisle at Eccles Theater Salt Lake City, UT on Mar 6, 2026 · Get ready for an unforgettable night of comedy with Kill Tony, th",
+      "url": "https://www.bigstub.com/Kill-Tony-Tickets",
+      "published": "1 week ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Kill Tony",
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "comedian": "Tony Scar",
+      "podcast": "Kill Tony",
+      "podcastShort": "Kill Tony",
+      "weight": 7,
+      "title": "Guitar Comedian Surprises Kill Tony 🤣🔥😂 | Kill Tony ft. Tony Scar, Donnell Rawlings - YouTube",
+      "snippet": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "url": "https://www.youtube.com/shorts/LjKrGxUM0h4",
+      "published": "5 days ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Kill Tony",
+          "weight": 7
+        }
+      ]
+    }
+  ],
+  "touring": [
+    {
+      "comedian": "Steve",
+      "podcast": "Joe Rogan Experience",
+      "podcastShort": "JRE",
+      "weight": 10,
+      "title": "#2463 - Steve-O - The Joe Rogan Experience - Apple Podcasts",
+      "snippet": "The Joe Rogan Experience · Frequency · Updated Daily · Published · March 4, 2026 at 6:00 PM UTC · Length · 2h 44m · Episode · 2.5K · Rating · Explicit · To listen to explicit episodes, sign in. Sign I",
+      "url": "https://podcasts.apple.com/us/podcast/2463-steve-o/id360084272?i=1000753092900",
+      "published": "5 days ago",
+      "podcastAppearances": [
+        {
+          "podcast": "JRE",
+          "weight": 10
+        },
+        {
+          "podcast": "JRE",
+          "weight": 10
+        },
+        {
+          "podcast": "JRE",
+          "weight": 10
+        }
+      ],
+      "tourSignals": 9,
+      "tourSnippets": [
+        {
+          "title": "Comedy Shows 2026 | Complete Tour Dates & Event Schedule",
+          "snippet": "Steve Martin · Upcoming Events: 5 · DAR Constitution Hall Mar 13, 2026 7:30 PM · Margaret Cho · Upcoming Events: 7 · Bijou Theatre - TN Mar 13, 2026 8",
+          "url": "https://comedy.tickets/"
+        },
+        {
+          "title": "Steve-O - Wikipedia",
+          "snippet": "In November 2010, Steve-O began touring the United States performing stand-up comedy on what he called &quot;Steve-O&#x27;s Entirely Too Much Informat",
+          "url": "https://en.wikipedia.org/wiki/Steve-O"
+        },
+        {
+          "title": "Steve Earle Tickets, 2026 Tour Dates, and More",
+          "snippet": "Find tickets for 77 upcoming Steve Earle concerts. ... Get notified about nearby concerts. ... There are no upcoming tour dates near you.",
+          "url": "https://www.jambase.com/band/steve-earle"
+        }
+      ]
+    },
+    {
+      "comedian": "Kevin",
+      "podcast": "This Past Weekend (Theo Von)",
+      "podcastShort": "Theo Von",
+      "weight": 8,
+      "title": "This Past Weekend w/ Theo Von - Podcast - Apple Podcasts",
+      "snippet": "<strong>Kevin James</strong> is an actor and comedian known for his roles in King of Queens, Grown Ups, Hitch and more. His new movie “Solo Mio” is out now. Kevin joins Theo to talk about cold cut sup",
+      "url": "https://podcasts.apple.com/us/podcast/this-past-weekend-w-theo-von/id1190981360",
+      "published": "3 days ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Theo Von",
+          "weight": 8
+        }
+      ],
+      "tourSignals": 9,
+      "tourSnippets": [
+        {
+          "title": "Kevin Smith Tour 2026 | Live Show Tickets",
+          "snippet": "<strong>Tickets available now</strong>. ... Kevin Smith - the legendary filmmaker, storyteller, podcaster, and pop-culture icon behind cult classics l",
+          "url": "https://www.kevinsmithtour.com/"
+        },
+        {
+          "title": "Comedian Kevin James cancels standup show in Minneapolis - Bring Me The News",
+          "snippet": "The “Paul Blart: Mall Cop” ... 4, 2026 4:42 PM EST ... Comedian Kevin James has <strong>canceled his upcoming gig at the State Theatre in Minneapolis ",
+          "url": "https://bringmethenews.com/minnesota-lifestyle/comedian-kevin-james-cancels-standup-show-in-minneapolis"
+        },
+        {
+          "title": "Comedy Guide 2025 & 2026 | Comedians on Tour | Ticketmaster UK",
+          "snippet": "Scotland’s comedy powerhouse Kevin Bridges returns to the stage in 2026 with a brand-new stand-up show. ... Laura Belbin is returning to the stage wit",
+          "url": "https://guides.ticketmaster.co.uk/comedy-guide/"
+        }
+      ]
+    },
+    {
+      "comedian": "Blonde Girl Podcast",
+      "podcast": "This Past Weekend (Theo Von)",
+      "podcastShort": "Theo Von",
+      "weight": 8,
+      "title": "Theo Von with Blonde Girl Podcast | TikTok",
+      "snippet": "Tune in for unforgettable moments!See more videos about <strong>Blonde Girl</strong> on Podcast, <strong>Blonde Girl</strong> from Whatever Podcast, Girl with Blonde Hair Podcast, <strong>Blonde Girl<",
+      "url": "https://www.tiktok.com/discover/theo-von-with-blonde-girl-podcast",
+      "published": "1 week ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Theo Von",
+          "weight": 8
+        }
+      ],
+      "tourSignals": 2,
+      "tourSnippets": [
+        {
+          "title": "Blonde Female Podcast Host and Comedian | TikTok",
+          "snippet": "Join the hilarious blonde female podcast host and comedian as she shares laughs and stories. Discover the latest episodes with top guests!See more vid",
+          "url": "https://www.tiktok.com/discover/blonde-female-podcast-host-and-comedian?lang=en"
+        },
+        {
+          "title": "Theo Von with Blonde Girl Podcast | TikTok",
+          "snippet": "🤔🤓👨‍🎤 #theoreticalclips #theovon #theovonclips #fionacauley #podcastclips #theovonpodcastclips #fyp #dating #boy #weekend #talkshow #different #ha",
+          "url": "https://www.tiktok.com/discover/theo-von-with-blonde-girl-podcast"
+        }
+      ]
+    },
+    {
+      "comedian": "Nate Bargatze",
+      "podcast": "Matt and Shane's Secret Podcast",
+      "podcastShort": "Shane Gillis",
+      "weight": 8,
+      "title": "Comedians Kevin Ryan & H. Foley Prepping New ‘Are You Garbage?’ Special",
+      "snippet": "While the Are You Garbage? guys may or may not be familiar to those in Hollywood proper, they’ve cultivated a major following for their podcast since its February 2020 launch, consistently ranking in ",
+      "url": "https://deadline.com/2026/03/are-you-garbage-special-taping-tampa-march-1236744016/",
+      "published": "4 days ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Shane Gillis",
+          "weight": 8
+        }
+      ],
+      "tourSignals": 8,
+      "tourSnippets": [
+        {
+          "title": "Nate Bargatze tickets on sale in San Jose at SAP Center",
+          "snippet": "Nate Bargatze will bring his popular stand-up comedy tour to SAP Center in San Jose, California, on <strong>July 17, 2026</strong>. The comedian has b",
+          "url": "https://www.ticketnews.com/2026/03/nate-bargatze-tickets-on-sale-in-san-jose-at-sap-center/"
+        },
+        {
+          "title": "Nate Bargatze on comedy retirement, 'Big Dumb Eyes' tour and his surprising napkin phobia",
+          "snippet": "For now, retirement is just a thought and not a concrete plan. Bargatze is still very much on the road. For tour information and tickets, go to nateba",
+          "url": "https://thenationaldesk.com/news/entertainment/comedina-nate-bargatze-on-big-dumb-eyes-tour-retirement-rumors-fear-of-napkins-phobia-game-show-greatest-average-american-nashville"
+        },
+        {
+          "title": "Comedian Nate Bargatze addresses future in stand-up comedy - silive.com",
+          "snippet": "“I’m not quitting stand-up right now. I got this [current] tour, we’re doing another tour, but there’s gonna be a point where it’s gonna get hard to t",
+          "url": "https://www.silive.com/entertainment/2026/03/comedian-nate-bargatze-addresses-future-in-stand-up-comedy.html"
+        }
+      ]
+    },
+    {
+      "comedian": "Gillis",
+      "podcast": "Matt and Shane's Secret Podcast",
+      "podcastShort": "Shane Gillis",
+      "weight": 8,
+      "title": "Shane Gillis’ Ex Girlfriend Says Her Podcast Appearance Blasting Zach Bryan Was Hard To Watch: “I Didn’t Seem Articulate Or Smart” | Whiskey Riff",
+      "snippet": "She took to the social media app to share her thoughts on the podcast, saying she talked about some very personal topics and wanted to be “respectful and kind” regarding her relationship and some of t",
+      "url": "https://www.whiskeyriff.com/2026/03/02/shane-gillis-ex-girlfriend-says-her-podcast-appearance-blasting-zach-bryan-was-hard-to-watch-i-didnt-seem-articulate-or-smart/",
+      "published": "1 week ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Shane Gillis",
+          "weight": 8
+        }
+      ],
+      "tourSignals": 3,
+      "tourSnippets": [
+        {
+          "title": "When The Genius of Shane Gillis is Realized - YouTube",
+          "snippet": "#shanegillis #comedy #beautifuldogs Timestamp:00:00:00 - When The Genius of Shane Gillis is Realized00:13:58 - The Shane Gillis Controversy…00:20:53 -",
+          "url": "https://www.youtube.com/watch?v=aTifdhEUMOw"
+        },
+        {
+          "title": "Shane Gillis Tracing His Pennsylvania Roots: The Birthplace That Shaped a Comedy Icon - Saint Augustines University",
+          "snippet": "2026-03-08 Dane Ashton 2684 views · In the quiet, snow-dusted alleys of Allen Township, Pennsylvania, Shane Gillis—comedian, podcaster, and viral narr",
+          "url": "https://explore.st-aug.edu/exp/shane-gillis-tracing-his-pennsylvania-roots-the-birthplace-that-shaped-a-comedy-icon"
+        },
+        {
+          "title": "How Old Is Shane Gillis? The Rapid Rise of a Controversial Comedy Icon - Saint Augustines University",
+          "snippet": "For many observers, Shane Gillis’s age is less a chronological detail and more a symbol of accelerated influence. As of 2024, he stands at 33—a mid-th",
+          "url": "https://explore.st-aug.edu/exp/how-old-is-shane-gillis-the-rapid-rise-of-a-controversial-comedy-icon"
+        }
+      ]
+    },
+    {
+      "comedian": "Kill Tony",
+      "podcast": "Kill Tony",
+      "podcastShort": "Kill Tony",
+      "weight": 7,
+      "title": "Kill Tony Tickets - Get Yours Now from BigStub!",
+      "snippet": "Killers of Kill Tony: David Lucas, Hans Kim, Martin Phillips &amp; Ahren Belisle at Eccles Theater Salt Lake City, UT on Mar 6, 2026 · Get ready for an unforgettable night of comedy with Kill Tony, th",
+      "url": "https://www.bigstub.com/Kill-Tony-Tickets",
+      "published": "1 week ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Kill Tony",
+          "weight": 7
+        }
+      ],
+      "tourSignals": 8,
+      "tourSnippets": [
+        {
+          "title": "Kill Tony Tickets - Get Yours Now from BigStub!",
+          "snippet": "Killers of Kill Tony: David Lucas, Hans Kim, Martin Phillips &amp; Ahren Belisle at Eccles Theater Salt Lake City, UT on Mar 6, 2026 · Get ready for a",
+          "url": "https://www.bigstub.com/Kill-Tony-Tickets"
+        },
+        {
+          "title": "Kill Tony - Wikipedia",
+          "snippet": "Kill Tony is an American live podcast stand-up comedy variety show created and hosted by Tony Hinchcliffe and produced and co-hosted by Brian Redban. ",
+          "url": "https://en.wikipedia.org/wiki/Kill_Tony"
+        },
+        {
+          "title": "Comedy Shows 2026 | Complete Tour Dates & Event Schedule",
+          "snippet": "Limited availability View Tickets · Mar · 06 · 2026 · 7:00 PM · Fri · Killers of Kill Tony: David Lucas, Hans Kim, Martin Phillips &amp; Ahren Belisle",
+          "url": "https://comedy.tickets/"
+        }
+      ]
+    },
+    {
+      "comedian": "Tony Scar",
+      "podcast": "Kill Tony",
+      "podcastShort": "Kill Tony",
+      "weight": 7,
+      "title": "Guitar Comedian Surprises Kill Tony 🤣🔥😂 | Kill Tony ft. Tony Scar, Donnell Rawlings - YouTube",
+      "snippet": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+      "url": "https://www.youtube.com/shorts/LjKrGxUM0h4",
+      "published": "5 days ago",
+      "podcastAppearances": [
+        {
+          "podcast": "Kill Tony",
+          "weight": 7
+        }
+      ],
+      "tourSignals": 1,
+      "tourSnippets": [
+        {
+          "title": "KT #758 Tony Scar - Epstein's Island - YouTube",
+          "snippet": "Full Appearance on KT 758, Special thanks to Adam Ray as Randolph Davies.#standupcomedy#musicalcomedy#killtony #funny",
+          "url": "https://www.youtube.com/watch?v=6TQtzK3KtTk"
+        }
+      ]
+    }
+  ],
+  "podcasterGrowth": [
+    {
+      "comedian": "Andrew Schulz",
+      "podcast": "Flagrant",
+      "platform": "YouTube",
+      "signals": 1,
+      "snippets": [
+        {
+          "title": "Akaash Singh - Wikipedia",
+          "snippet": "Singh co-hosts the Flagrant podcast with fellow comedian Andrew Schulz, with support from AlexxMedia and Mark Gagnon. Originally intended to be a spor"
+        }
+      ]
+    },
+    {
+      "comedian": "Theo Von",
+      "podcast": "This Past Weekend",
+      "platform": "YouTube",
+      "signals": 3,
+      "snippets": [
+        {
+          "title": "r/TheoVon on Reddit: Ray | This Past Weekend w/ Theo Von #643",
+          "snippet": "<strong>122K subscribers</strong> in the TheoVon community. The place for stand-up, podcasts, videos, and comedic ramblings of Theo Von. Watch out for"
+        },
+        {
+          "title": "90 Best PodcastOne Podcasts to Listen to in 2026",
+          "snippet": "Headline comedians Chris D&#x27;Elia and Erik Griffin join Brendan Schaub and top-tier comedian guest appearances weekly, including the show Alum Theo"
+        }
+      ]
+    },
+    {
+      "comedian": "Shane Gillis",
+      "podcast": "Matt and Shane's Secret Podcast",
+      "platform": "YouTube/Patreon",
+      "signals": 3,
+      "snippets": [
+        {
+          "title": "'Are You Garbage?': New Special Taping In Tampa In Late March (EXCLUSIVE)",
+          "snippet": "Notably, they also have a major Patreon following, ranking in the top 10 comedy campaigns on the direct-to-consumer platform with <strong>22,000 subsc"
+        },
+        {
+          "title": "Grace Brassel is Still OBSESSED with Shane Gillis! - YouTube",
+          "snippet": "Support us and get bonus shows every month on Patreon - http://bit.ly/watp-patreonBecca Moore is a creator with half a million Instagram followers who"
+        }
+      ]
+    },
+    {
+      "comedian": "Mark Normand",
+      "podcast": "Tuesdays with Stories / We Might Be Drunk",
+      "platform": "YouTube",
+      "signals": 1,
+      "snippets": [
+        {
+          "title": "Andrew Schulz – Official Biography - Andrew Schulz Tour 2026: Tickets, Event Dates & Schedule",
+          "snippet": "In the streaming era, many breakthroughs come from viral crowd work clips or a self-released special on YouTube that reaches millions without network "
+        }
+      ]
+    },
+    {
+      "comedian": "Stavros Halkias",
+      "podcast": "Stav World",
+      "platform": "YouTube/Patreon",
+      "signals": 2,
+      "snippets": [
+        {
+          "title": "Stavros Halkias - Wikipedia",
+          "snippet": "In 2022, this series evolved into the podcast Stavvy&#x27;s World. In 2022, Halkias released his first comedy special, Live At The Lodge Room, on his "
+        },
+        {
+          "title": "Stavvy's World - Podcast - Apple Podcasts",
+          "snippet": "Comedy Interviews Podcast · Updated Weekly · A podcast where you can hang out with your pal Stav. Every week Stavros Halkias and his friends will help"
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-03-08",
+      "appearances": 7,
+      "touring": 7,
+      "growth": 5
+    }
+  ]
+}
