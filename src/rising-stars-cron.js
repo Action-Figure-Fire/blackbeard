@@ -8,6 +8,7 @@ const { run: runWatchlist, formatDiscordAlert: formatWatchlist } = require('./sp
 const { run: runPlaylist, formatDiscordAlert: formatPlaylist } = require('./playlist-discovery');
 const { run: runTikTok, formatDiscordAlert: formatTikTok } = require('./tiktok-trend-scanner');
 const { run: runPodcast, formatDiscordAlert: formatPodcast } = require('./comedy-podcast-scanner');
+const { run: runGaming, formatDiscordAlert: formatGaming } = require('./gaming-culture-scanner');
 
 async function sendDiscord(msg) {
   console.log(`\n--- ALERT ---\n${msg}\n--- END ---`);
@@ -50,6 +51,16 @@ async function main() {
       console.log('Podcast scan error:', e.message?.slice(0, 200));
     }
     if (podcastResults) msg += '\n\n' + formatPodcast(podcastResults);
+    
+    // Phase 5: Gaming & culture scan
+    console.log('\n========== GAMING & CULTURE SCAN ==========');
+    let gamingResults = null;
+    try {
+      gamingResults = await runGaming();
+    } catch (e) {
+      console.log('Gaming scan error:', e.message?.slice(0, 200));
+    }
+    if (gamingResults) msg += '\n\n' + formatGaming(gamingResults);
     msg += `\n⏱️ Full scan completed in ${elapsed} min`;
     
     await sendDiscord(msg);
