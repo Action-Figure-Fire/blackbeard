@@ -1,34 +1,19 @@
 {
-  "timestamp": "2026-03-07T09:00:38.275Z",
+  "timestamp": "2026-03-08T08:00:36.987Z",
   "events": [
     {
-      "eventName": "Heartbroken - Our showing was cancelled",
-      "category": "other",
-      "score": 9,
+      "eventName": "Comedy Shows Near Gdansk, PM 2026 | Stand Up Comedy In Gdansk, PM | AllEvents.in",
+      "category": "comedy",
+      "score": 7,
       "signals": [
         "SOLD OUT",
-        "Reddit",
-        "watchlist: twenty one pilots"
+        "small venue"
       ],
-      "text": "I&#x27;m sad it&#x27;s sold out! ... a community dedicated to all things twenty one pilots: news, discussion, connection, and creativity. ... So...there are a lot more people going to the movie than I",
-      "url": "https://www.reddit.com/r/twentyonepilots/comments/1rhcmhv/heartbroken_our_showing_was_cancelled/",
-      "source": "reddit",
-      "matchedArtist": "twenty one pilots",
-      "published": "2026-02-28T20:09:50"
-    },
-    {
-      "eventName": "If Ticketmaster is saying that the event is sold out at Petco Park in San Diego, why does it also sa",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "<strong>Not necessarily true</strong>. Last year, people were selling floor and pit tickets at face value for NJ. ... Won’t happen for San Diego. Demand is too high. And it’s a fantastic venue.",
-      "url": "https://www.reddit.com/r/RUFUSDUSOL/comments/1rh92fj/if_ticketmaster_is_saying_that_the_event_is_sold/",
-      "source": "reddit",
+      "text": "What are the Comedy events happening in Gdansk this March 2026? Gdańsk/Sopot! Mateusz Socha - &quot;Szur&quot; is happening on Fri 27 Mar 2026 from 7:00 PM onwards at ERGO ARENA, Gdansk · ⭐️21.03.2026",
+      "url": "https://allevents.in/gdansk-pm/comedy",
+      "source": "web",
       "matchedArtist": null,
-      "published": "2026-02-28T17:51:39"
+      "published": "2026-03-04T05:36:35"
     },
     {
       "eventName": "Trying to book Sistine Chapel tickets- What is the difference between \"sold out\" and \"out of stock\"?",
@@ -43,20 +28,6 @@
       "source": "reddit",
       "matchedArtist": null,
       "published": "2026-03-01T22:34:51"
-    },
-    {
-      "eventName": "concert tickets",
-      "category": "other",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "Best strategy now would be to see what tickets are day of online (I like tick pick because if includes fees/price you see is price you pay for tickets) then if they are not sold out or shooting sky hi",
-      "url": "https://www.reddit.com/r/fortwayne/comments/1rh94e0/concert_tickets/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-02-28T17:53:51"
     },
     {
       "eventName": "So many good concerts.",
@@ -127,6 +98,33 @@
       "published": "2026-03-03T02:49:23"
     },
     {
+      "eventName": "Arlo Chicago",
+      "category": "other",
+      "score": 5,
+      "signals": [
+        "small venue",
+        "underground"
+      ],
+      "text": "The Chicago concert calendar doesn’t stop with the superstars. Intimate performances and niche events dot smaller venues around town, keeping live music buzzing year-round. From the Byline Bank Aragon",
+      "url": "https://arlohotels.com/chicago-downtown-hotel/blog/major-chicago-concerts-2026-a-full-schedule-for-fans/",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-07T20:39:59"
+    },
+    {
+      "eventName": "Where to find BTS tickets: Buy seats for the sold-out 2026 tour",
+      "category": "other",
+      "score": 5,
+      "signals": [
+        "SOLD OUT"
+      ],
+      "text": "BTS is finally back, and fans are excited to see them live. <strong>Tickets sold out moments after release, but you can find them from verified resellers</strong>.",
+      "url": "https://www.businessinsider.com/guides/tickets/where-to-find-bts-tickets-concert-tour",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-02T22:09:34"
+    },
+    {
       "eventName": "The Forum",
       "category": "other",
       "score": 5,
@@ -138,6 +136,19 @@
       "source": "web",
       "matchedArtist": null,
       "published": "2026-03-04T01:14:49"
+    },
+    {
+      "eventName": "One News Page",
+      "category": "indie/rock",
+      "score": 5,
+      "signals": [
+        "SOLD OUT"
+      ],
+      "text": "Saturday, March 7, 2026 · Upworthy 07 Mar 2026 0 shares 1 views · Facebook Twitter LinkedIn Reddit Pinterest WhatsApp Email · Published 07 Mar 2026 · Sold out — but not completely closed off Although ",
+      "url": "https://www.onenewspage.com/n/World/1ztelp34ho/How-can-fans-still-get-Metallica-Sphere-tickets.htm",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-07T03:07:43"
     },
     {
       "eventName": "CashorTrade",
@@ -179,6 +190,19 @@
       "published": "2026-03-04T19:12:47"
     },
     {
+      "eventName": "Washington and Lee University",
+      "category": "other",
+      "score": 5,
+      "signals": [
+        "SOLD OUT"
+      ],
+      "text": "- Opening up the 2026 NCAA Division III Women&#x27;s Basketball Tournament in front of a sold out crowd at <strong>Holekamp Gym</strong>, the third-ranked Washington and Lee University women&#x27;s ba",
+      "url": "https://generalssports.com/news/2026/3/7/womens-basketball-no-3-womens-basketball-soars-past-seahawks-in-ncaa-first-round.aspx",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-07T00:33:58"
+    },
+    {
       "eventName": "mlive.com",
       "category": "other",
       "score": 4,
@@ -190,34 +214,6 @@
       "source": "web",
       "matchedArtist": null,
       "published": "2026-03-03T14:01:28"
-    },
-    {
-      "eventName": "Favorite Dopapod Shows",
-      "category": "jam",
-      "score": 4,
-      "signals": [
-        "Reddit",
-        "watchlist: moe."
-      ],
-      "text": "Heyyyyy r/jambands fam! Hot Like Mars here 👋 We’re headed to the East Coast and we could really use some help spreading the word about the shows 🙏 If you love Funk, Soul &amp; Jams, then you’re gonn",
-      "url": "https://www.reddit.com/r/jambands/comments/1rhfa3u/favorite_dopapod_shows/",
-      "source": "reddit",
-      "matchedArtist": "moe.",
-      "published": "2026-02-28T21:58:09"
-    },
-    {
-      "eventName": "I just impulsively bought killer’s of kill tony tickets. Was it a mistake?",
-      "category": "other",
-      "score": 4,
-      "signals": [
-        "Reddit",
-        "watchlist: kill tony"
-      ],
-      "text": "I just bought the tickets online when i saw they were coming to our town in April. Immediately after i thought, oh shit. I hate most of the new…",
-      "url": "https://www.reddit.com/r/Killtony/comments/1rh40d8/i_just_impulsively_bought_killers_of_kill_tony/",
-      "source": "reddit",
-      "matchedArtist": "kill tony",
-      "published": "2026-02-28T14:28:03"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "scanDate": "2026-03-07",
-  "scanTime": "2026-03-07T11:00:41.281Z",
+  "scanDate": "2026-03-08",
+  "scanTime": "2026-03-08T10:00:40.607Z",
   "watchlistCount": 303,
   "discoveryCount": 0,
   "totalArtists": 303,
@@ -37,10 +37,9 @@
       "_cachedAt": "2026-03-06T16:40:27.285Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 60,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/dominic-fike-1f832b/743077/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 60
     },
     {
       "name": "Ethel Cain",
@@ -93,10 +92,9 @@
       "_cachedAt": "2026-03-06T16:39:31.790Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 54,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ethel-cain-deebec/798453/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 54
     },
     {
       "name": "Tucker Wetmore",
@@ -141,8 +139,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 51,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tucker-wetmore-b71da6/1955060/huge.jpg"
+      "risingStarScore": 51
     },
     {
       "name": "Amyl and The Sniffers",
@@ -170,10 +167,9 @@
       "_cachedAt": "2026-03-06T16:39:35.788Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 49,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/amyl-and-the-sniffers-5675d9/676490/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 49
     },
     {
       "name": "Alex Warren",
@@ -216,10 +212,9 @@
       "_cachedAt": "2026-03-06T16:39:00.665Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 49,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/alex-warren-338c2b/805174/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 49
     },
     {
       "name": "Sabrina Carpenter",
@@ -259,6 +254,28 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/74KM79TiuVKeVCqs8QtB0B",
+      "_cachedAt": "2026-03-07T11:00:06.506Z",
+      "_upcomingShows": 2,
+      "_tourDates": [
+        {
+          "title": "Coachella - 3 Day Pass - Weekend 1 with Sabrina Carpenter, Justin Bieber, Karol G, and more",
+          "date": "2026-04-10",
+          "venue": "Empire Polo Club",
+          "city": "Indio, CA",
+          "capacity": 0,
+          "score": 0.7235147392,
+          "url": "https://seatgeek.com/coachella-tickets/indio-california-empire-polo-club-2026-04-10-3-30-am/music-festival/17489455"
+        },
+        {
+          "title": "Coachella - 3 Day Pass - Weekend 2 with Sabrina Carpenter, Justin Bieber, Karol G, and more",
+          "date": "2026-04-17",
+          "venue": "Empire Polo Club",
+          "city": "Indio, CA",
+          "capacity": 0,
+          "score": 0.6141992559,
+          "url": "https://seatgeek.com/coachella-tickets/indio-california-empire-polo-club-2026-04-17-3-30-am/music-festival/17489460"
+        }
+      ],
       "upcomingShows": 2,
       "tourDates": [
         {
@@ -280,10 +297,9 @@
           "url": "https://seatgeek.com/coachella-tickets/indio-california-empire-polo-club-2026-04-17-3-30-am/music-festival/17489460"
         }
       ],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 48,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/sabrina-carpenter-0a6732/281749/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 48
     },
     {
       "name": "ALLEYCVT",
@@ -461,8 +477,7 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 47,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/alleycvt-012309/1955366/huge.jpg"
+      "risingStarScore": 47
     },
     {
       "name": "Hurricane Wisdom",
@@ -490,10 +505,9 @@
       "_cachedAt": "2026-03-06T16:40:21.350Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 45,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/hurricane-wisdom-df7f8a/1959543/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 45
     },
     {
       "name": "Benson Boone",
@@ -528,12 +542,14 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/22wbnEMDvgVIAGdFeek6ET",
+      "_cachedAt": "2026-03-07T11:00:21.113Z",
+      "_upcomingShows": 0,
+      "_tourDates": [],
       "upcomingShows": 0,
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 44,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/benson-boone-5dd613/798506/huge.jpg"
+      "risingStarScore": 44
     },
     {
       "name": "Jalen Ngonda",
@@ -561,189 +577,9 @@
       "_cachedAt": "2026-03-06T16:40:13.974Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 42,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jalen-ngonda-67a623/801304/huge.jpg"
-    },
-    {
-      "name": "Allison Russell",
-      "tier": "B",
-      "genre": "Folk/Americana",
-      "source": "watchlist",
-      "monthlyListeners": 1000000,
-      "spotifyFollowers": null,
-      "instagramFollowers": 132000,
-      "tiktokFollowers": null,
-      "twitterFollowers": null,
-      "youtubeSubscribers": null,
-      "albumCount": null,
-      "genres": [],
-      "soldOutMentions": 1,
-      "soldOutSnippets": [
-        {
-          "title": "Sarah McLachlan Announces 2026 Summer Leg of Better Broken Tour: Allison Russell Joins for Amphitheater Run - Ticket News Now - Events, Dates, On-Sale",
-          "snippet": "Announced on <strong>February 12, 2026</strong>, this fresh run supports her critically praised tenth studio album Better Broken (released September 1",
-          "url": "https://www.capitalcitytickets.com/blog/sarah-mclachlan-announces-2026-summer-leg-of-better-broken-tour-allison-russell-joins-for-amphitheater-run/"
-        }
-      ],
-      "topSong": null,
-      "spotifyUrl": "https://open.spotify.com/artist/3JBmecDGXTll46ygrnGTM6",
-      "_cachedAt": "2026-03-04T11:00:22.281Z",
-      "_upcomingShows": 25,
-      "_tourDates": [
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-02",
-          "venue": "FirstBank Amphitheater",
-          "city": "Franklin, TN",
-          "capacity": 0,
-          "score": 0.2927235601,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/franklin-tennessee-firstbank-amphitheater-2026-07-01-7-30-pm/concert/18070702"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-03",
-          "venue": "Synovus Bank Amphitheatre at Chastain Park",
-          "city": "Atlanta, GA",
-          "capacity": 0,
-          "score": 0.3544348941,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-07-03-7-30-pm/concert/18070703"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-05",
-          "venue": "Filene Center at The Wolf Trap",
-          "city": "Vienna, VA",
-          "capacity": 7000,
-          "score": 0.4331430655,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/vienna-virginia-filene-center-at-the-wolf-trap-2026-07-05-7-pm/concert/18070749"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-07",
-          "venue": "TD Pavilion at The Mann Center",
-          "city": "Philadelphia, PA",
-          "capacity": 7200,
-          "score": 0.4336440082,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/philadelphia-pennsylvania-td-pavilion-at-the-mann-center-2026-07-07-7-30-pm/concert/18070705"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-08",
-          "venue": "Hartford HealthCare Amphitheater",
-          "city": "Bridgeport, CT",
-          "capacity": 0,
-          "score": 0.314488604,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/bridgeport-connecticut-hartford-healthcare-amphitheater-2026-07-08-7-30-pm/concert/18070704"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-10",
-          "venue": "Leader Bank Pavilion",
-          "city": "Boston, MA",
-          "capacity": 0,
-          "score": 0.3814651353,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/boston-massachusetts-leader-bank-pavilion-2026-07-10-7-30-pm/concert/18070706"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-11",
-          "venue": "Forest Hills Stadium",
-          "city": "Forest Hills, NY",
-          "capacity": 0,
-          "score": 0.3657287516,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/forest-hills-new-york-forest-hills-stadium-2026-07-11-7-pm/concert/18070701"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-12",
-          "venue": "BankNH Pavilion",
-          "city": "Gilford, NH",
-          "capacity": 0,
-          "score": 0.3069046377,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/gilford-new-hampshire-banknh-pavilion-2026-07-12-7-30-pm/concert/18070713"
-        }
-      ],
-      "upcomingShows": 25,
-      "tourDates": [
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-02",
-          "venue": "FirstBank Amphitheater",
-          "city": "Franklin, TN",
-          "capacity": 0,
-          "score": 0.2927235601,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/franklin-tennessee-firstbank-amphitheater-2026-07-01-7-30-pm/concert/18070702"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-03",
-          "venue": "Synovus Bank Amphitheatre at Chastain Park",
-          "city": "Atlanta, GA",
-          "capacity": 0,
-          "score": 0.3544348941,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-07-03-7-30-pm/concert/18070703"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-05",
-          "venue": "Filene Center at The Wolf Trap",
-          "city": "Vienna, VA",
-          "capacity": 7000,
-          "score": 0.4331430655,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/vienna-virginia-filene-center-at-the-wolf-trap-2026-07-05-7-pm/concert/18070749"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-07",
-          "venue": "TD Pavilion at The Mann Center",
-          "city": "Philadelphia, PA",
-          "capacity": 7200,
-          "score": 0.4336440082,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/philadelphia-pennsylvania-td-pavilion-at-the-mann-center-2026-07-07-7-30-pm/concert/18070705"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-08",
-          "venue": "Hartford HealthCare Amphitheater",
-          "city": "Bridgeport, CT",
-          "capacity": 0,
-          "score": 0.314488604,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/bridgeport-connecticut-hartford-healthcare-amphitheater-2026-07-08-7-30-pm/concert/18070704"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-10",
-          "venue": "Leader Bank Pavilion",
-          "city": "Boston, MA",
-          "capacity": 0,
-          "score": 0.3814651353,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/boston-massachusetts-leader-bank-pavilion-2026-07-10-7-30-pm/concert/18070706"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-11",
-          "venue": "Forest Hills Stadium",
-          "city": "Forest Hills, NY",
-          "capacity": 0,
-          "score": 0.3657287516,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/forest-hills-new-york-forest-hills-stadium-2026-07-11-7-pm/concert/18070701"
-        },
-        {
-          "title": "Sarah McLachlan with Allison Russell",
-          "date": "2026-07-12",
-          "venue": "BankNH Pavilion",
-          "city": "Gilford, NH",
-          "capacity": 0,
-          "score": 0.3069046377,
-          "url": "https://seatgeek.com/sarah-mclachlan-tickets/gilford-new-hampshire-banknh-pavilion-2026-07-12-7-30-pm/concert/18070713"
-        }
-      ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 41,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/allison-russell-408916/793808/huge.jpg"
+      "risingStarScore": 42
     },
     {
       "name": "Stavros Halkias",
@@ -776,165 +612,9 @@
       "_cachedAt": "2026-03-06T16:39:06.394Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 41,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/stavros-halkias-797abf/591646/huge.jpg"
-    },
-    {
-      "name": "Crankdat",
-      "tier": "B",
-      "genre": "DJ/Electronic",
-      "source": "watchlist",
-      "monthlyListeners": 1000000,
-      "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": 1100000,
-      "twitterFollowers": null,
-      "youtubeSubscribers": null,
-      "albumCount": null,
-      "genres": [],
-      "soldOutMentions": 0,
-      "soldOutSnippets": [],
-      "topSong": null,
-      "spotifyUrl": "https://open.spotify.com/artist/5lCekoJW9jNq01B1wiqdAb",
-      "_cachedAt": "2026-03-04T11:00:27.899Z",
-      "_upcomingShows": 7,
-      "_tourDates": [
-        {
-          "title": "Crankdat with Whethan (18+)",
-          "date": "2026-03-22",
-          "venue": "Tacoma Dome",
-          "city": "Tacoma, WA",
-          "capacity": 23000,
-          "score": 0.4223341485,
-          "url": "https://seatgeek.com/crankdat-tickets/tacoma-washington-tacoma-dome-2026-03-21-7-pm/concert/17836683"
-        },
-        {
-          "title": "Crankdat with Dr. Fresch, Smoakland, Capochino, and HerShe",
-          "date": "2026-03-28",
-          "venue": "Red Rocks Amphitheatre",
-          "city": "Morrison, CO",
-          "capacity": 9450,
-          "score": 0.5289013413,
-          "url": "https://seatgeek.com/crankdat-tickets/morrison-colorado-red-rocks-amphitheatre-2026-03-27-7-pm/concert/17890912"
-        },
-        {
-          "title": "Gather Outdoors Festival - 2 Day Pass - with Crankdat, Daily Bread, Of The Trees, and more (18+)",
-          "date": "2026-04-11",
-          "venue": "Stratton Mountain Resort",
-          "city": "South Londonderry, VT",
-          "capacity": 0,
-          "score": 0.2737385329,
-          "url": "https://seatgeek.com/gather-outdoors-festival-tickets/south-londonderry-vermont-stratton-mountain-resort-2026-04-11-3-pm/music-festival/18035076"
-        },
-        {
-          "title": "Crankdat (18+)",
-          "date": "2026-08-28",
-          "venue": "Shrine Expo Hall",
-          "city": "Los Angeles, CA",
-          "capacity": 6300,
-          "score": 0.2347317443,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-27-9-pm/concert/18041837"
-        },
-        {
-          "title": "Crankdat (18+)",
-          "date": "2026-08-29",
-          "venue": "Shrine Expo Hall",
-          "city": "Los Angeles, CA",
-          "capacity": 6300,
-          "score": 0.2906617128,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-28-9-pm/concert/18041840"
-        },
-        {
-          "title": "Crankdat (18+)",
-          "date": "2026-08-30",
-          "venue": "Shrine Expo Hall",
-          "city": "Los Angeles, CA",
-          "capacity": 6300,
-          "score": 0.2928327005,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-29-9-pm/concert/18039855"
-        },
-        {
-          "title": "Crankdat (18+)",
-          "date": "2026-08-31",
-          "venue": "Shrine Expo Hall",
-          "city": "Los Angeles, CA",
-          "capacity": 6300,
-          "score": 0.2896912731,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-30-8-pm/concert/18041846"
-        }
-      ],
-      "upcomingShows": 7,
-      "tourDates": [
-        {
-          "title": "Crankdat with Whethan (18+)",
-          "date": "2026-03-22",
-          "venue": "Tacoma Dome",
-          "city": "Tacoma, WA",
-          "capacity": 23000,
-          "score": 0.4223341485,
-          "url": "https://seatgeek.com/crankdat-tickets/tacoma-washington-tacoma-dome-2026-03-21-7-pm/concert/17836683"
-        },
-        {
-          "title": "Crankdat with Dr. Fresch, Smoakland, Capochino, and HerShe",
-          "date": "2026-03-28",
-          "venue": "Red Rocks Amphitheatre",
-          "city": "Morrison, CO",
-          "capacity": 9450,
-          "score": 0.5289013413,
-          "url": "https://seatgeek.com/crankdat-tickets/morrison-colorado-red-rocks-amphitheatre-2026-03-27-7-pm/concert/17890912"
-        },
-        {
-          "title": "Gather Outdoors Festival - 2 Day Pass - with Crankdat, Daily Bread, Of The Trees, and more (18+)",
-          "date": "2026-04-11",
-          "venue": "Stratton Mountain Resort",
-          "city": "South Londonderry, VT",
-          "capacity": 0,
-          "score": 0.2737385329,
-          "url": "https://seatgeek.com/gather-outdoors-festival-tickets/south-londonderry-vermont-stratton-mountain-resort-2026-04-11-3-pm/music-festival/18035076"
-        },
-        {
-          "title": "Crankdat (18+)",
-          "date": "2026-08-28",
-          "venue": "Shrine Expo Hall",
-          "city": "Los Angeles, CA",
-          "capacity": 6300,
-          "score": 0.2347317443,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-27-9-pm/concert/18041837"
-        },
-        {
-          "title": "Crankdat (18+)",
-          "date": "2026-08-29",
-          "venue": "Shrine Expo Hall",
-          "city": "Los Angeles, CA",
-          "capacity": 6300,
-          "score": 0.2906617128,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-28-9-pm/concert/18041840"
-        },
-        {
-          "title": "Crankdat (18+)",
-          "date": "2026-08-30",
-          "venue": "Shrine Expo Hall",
-          "city": "Los Angeles, CA",
-          "capacity": 6300,
-          "score": 0.2928327005,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-29-9-pm/concert/18039855"
-        },
-        {
-          "title": "Crankdat (18+)",
-          "date": "2026-08-31",
-          "venue": "Shrine Expo Hall",
-          "city": "Los Angeles, CA",
-          "capacity": 6300,
-          "score": 0.2896912731,
-          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-30-8-pm/concert/18041846"
-        }
-      ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 40,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/crankdat-bf7746/415513/huge.jpg"
+      "risingStarScore": 41
     },
     {
       "name": "LEVEL UP",
@@ -962,10 +642,9 @@
       "_cachedAt": "2026-03-06T16:40:02.308Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 40,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/level-up-dd287e/736933/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 40
     },
     {
       "name": "Electric Callboy",
@@ -987,10 +666,9 @@
       "_cachedAt": "2026-03-06T16:39:33.942Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 38,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/electric-callboy-885dec/801839/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 38
     },
     {
       "name": "Freya Skye",
@@ -1020,8 +698,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 38,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/freya-skye-6dd25e/1967389/huge.jpg"
+      "risingStarScore": 38
     },
     {
       "name": "Tyler Childers",
@@ -1046,6 +723,82 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/13ZEDW6vyBF12HYcZRr4EV",
+      "_cachedAt": "2026-03-07T11:00:12.428Z",
+      "_upcomingShows": 16,
+      "_tourDates": [
+        {
+          "title": "Tyler Childers",
+          "date": "2026-04-23",
+          "venue": "Dos Equis Pavilion",
+          "city": "Dallas, TX",
+          "capacity": 20111,
+          "score": 0.6308301235,
+          "url": "https://seatgeek.com/tyler-childers-tickets/dallas-texas-dos-equis-pavilion-2026-04-23-6-30-pm/concert/17940231"
+        },
+        {
+          "title": "Tyler Childers",
+          "date": "2026-06-04",
+          "venue": "Coca-Cola Amphitheater",
+          "city": "Birmingham, AL",
+          "capacity": 0,
+          "score": 0.5429873173,
+          "url": "https://seatgeek.com/tyler-childers-tickets/birmingham-alabama-coca-cola-amphitheater-2026-06-04-6-30-pm/concert/17940232"
+        },
+        {
+          "title": "Tyler Childers with Evan Honer",
+          "date": "2026-06-05",
+          "venue": "Bon Secours Wellness Arena",
+          "city": "Greenville, SC",
+          "capacity": 0,
+          "score": 0.5812822517,
+          "url": "https://seatgeek.com/tyler-childers-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-06-05-7-30-pm/concert/17956033"
+        },
+        {
+          "title": "Railbird Festival - 2 Day Pass - with The Lumineers, Tyler Childers, CAAMP and more",
+          "date": "2026-06-06",
+          "venue": "The Red Mile",
+          "city": "Lexington, KY",
+          "capacity": 0,
+          "score": 0.4792055654,
+          "url": "https://seatgeek.com/railbird-festival-tickets/lexington-kentucky-the-red-mile-2026-06-06-3-30-am/music-festival/17846196"
+        },
+        {
+          "title": "Railbird Festival - Sunday - with Tyler Childers, Zach Top, Ella Langley and more",
+          "date": "2026-06-07",
+          "venue": "The Red Mile",
+          "city": "Lexington, KY",
+          "capacity": 0,
+          "score": 0.4629837411,
+          "url": "https://seatgeek.com/railbird-festival-tickets/lexington-kentucky-the-red-mile-2026-06-07-3-30-am/music-festival/17846215"
+        },
+        {
+          "title": "Tyler Childers",
+          "date": "2026-06-10",
+          "venue": "Darien Lake Amphitheater",
+          "city": "Darien Center, NY",
+          "capacity": 21000,
+          "score": 0.5088014177,
+          "url": "https://seatgeek.com/tyler-childers-tickets/darien-center-new-york-darien-lake-amphitheater-2026-06-10-7-30-pm/concert/17940235"
+        },
+        {
+          "title": "Tyler Childers",
+          "date": "2026-06-11",
+          "venue": "Hersheypark Stadium",
+          "city": "Hershey, PA",
+          "capacity": 30000,
+          "score": 0.5856011195,
+          "url": "https://seatgeek.com/tyler-childers-tickets/hershey-pennsylvania-hersheypark-stadium-2026-06-11-6-30-pm/concert/17940236"
+        },
+        {
+          "title": "Buckeye Country Superfest with Tyler Childers, The Red Clay Strays and many more!",
+          "date": "2026-06-13",
+          "venue": "Ohio Stadium",
+          "city": "Columbus, OH",
+          "capacity": 0,
+          "score": 0.6079120473,
+          "url": "https://seatgeek.com/buckeye-country-superfest-tickets/columbus-ohio-ohio-stadium-2026-06-13-3-pm/music-festival/17716249"
+        }
+      ],
       "upcomingShows": 16,
       "tourDates": [
         {
@@ -1121,10 +874,126 @@
           "url": "https://seatgeek.com/buckeye-country-superfest-tickets/columbus-ohio-ohio-stadium-2026-06-13-3-pm/music-festival/17716249"
         }
       ],
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 36
+    },
+    {
+      "name": "Jelly Roll",
+      "tier": "A",
+      "genre": "Popular",
+      "source": "watchlist",
+      "monthlyListeners": 2,
+      "spotifyFollowers": null,
+      "instagramFollowers": 6000000,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 4,
+      "soldOutSnippets": [
+        {
+          "title": "Book Jelly Roll 2026 Tour Tickets | Upcoming Concert Dates",
+          "snippet": "Get your tickets for Jelly Roll&#x27;s 2026 tour at jellyrollconcert.com. Secure your seats for an unforgettable night of music near you. Tickets are ",
+          "url": "https://jellyrollconcert.com/"
+        },
+        {
+          "title": "Jelly Roll Concert Tour Dates & Shows: 2025-2026 Tickets",
+          "snippet": "Now after a history-making “breakthrough year” (American Songwriter), having just sold-out Nashville’s Bridgestone Arena, releasing the riveting anthe",
+          "url": "https://concerts.hypebot.com/artist/j/528013-jelly-roll"
+        },
+        {
+          "title": "Jelly Roll Concerts & Live Tour Dates: 2025-2026 Tickets | Bandsintown",
+          "snippet": "Jelly Roll’s ‘Need a Favor’ Makes History on Billboard Rock, Country ChartsTampa, FL@ ... JellyRoll: 10/12/23 “‘What’s a JellyRoll’ a friend recently ",
+          "url": "https://www.bandsintown.com/a/528013-jelly-roll"
+        },
+        {
+          "title": "Jelly Roll Tour Dates 2026 & 2027 | Setlists | News | Tickets",
+          "snippet": "Jelly Roll plays his sold-out hometown Bridgestone Arena concert date <strong>12/9/22.</strong>",
+          "url": "https://countrymusicontour.com/jelly-roll-tour-dates-2025/"
+        }
+      ],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/19k8AgwwTSxeaxkOuCQEJs",
+      "upcomingShows": 25,
+      "tourDates": [
+        {
+          "title": "Netflix Is A Joke Fest Presents: Beautifully Broken Comedy with Jelly Roll",
+          "date": "2026-05-09",
+          "venue": "The Greek Theatre - Los Angeles",
+          "city": "Los Angeles, CA",
+          "capacity": 5870,
+          "score": 0.5044713809,
+          "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-08-8-pm/18022243"
+        },
+        {
+          "title": "Post Malone with Jelly Roll and Carter Faith",
+          "date": "2026-05-14",
+          "venue": "Sun Bowl Stadium",
+          "city": "El Paso, TX",
+          "capacity": 0,
+          "score": 0.6489449716,
+          "url": "https://seatgeek.com/post-malone-tickets/el-paso-texas-sun-bowl-stadium-2026-05-13-7-30-pm/concert/18046626"
+        },
+        {
+          "title": "Post Malone with Jelly Roll and Carter Faith",
+          "date": "2026-05-20",
+          "venue": "McLane Stadium",
+          "city": "Waco, TX",
+          "capacity": 0,
+          "score": 0.6998529723,
+          "url": "https://seatgeek.com/post-malone-tickets/waco-texas-mclane-stadium-2026-05-19-7-30-pm/concert/18046625"
+        },
+        {
+          "title": "Post Malone with Jelly Roll and Carter Faith",
+          "date": "2026-05-24",
+          "venue": "Tiger Stadium",
+          "city": "Baton Rouge, LA",
+          "capacity": 0,
+          "score": 0.6665561328,
+          "url": "https://seatgeek.com/post-malone-tickets/baton-rouge-louisiana-tiger-stadium-2026-05-23-7-30-pm/concert/18042737"
+        },
+        {
+          "title": "Post Malone with Jelly Roll and Carter Faith",
+          "date": "2026-05-27",
+          "venue": "Protective Stadium",
+          "city": "Birmingham, AL",
+          "capacity": 0,
+          "score": 0.5745663938,
+          "url": "https://seatgeek.com/post-malone-tickets/birmingham-alabama-protective-stadium-2026-05-26-7-30-pm/concert/18046624"
+        },
+        {
+          "title": "Jelly Roll with Kashus Culpepper",
+          "date": "2026-05-28",
+          "venue": "iTHINK Financial Amphitheatre",
+          "city": "West Palm Beach, FL",
+          "capacity": 19000,
+          "score": 0.6137393705,
+          "url": "https://seatgeek.com/jelly-roll-tickets/west-palm-beach-florida-ithink-financial-amphitheatre-2026-05-28-7-pm/concert/18089475"
+        },
+        {
+          "title": "Rock The Country - 2 Day Pass - with Jelly Roll, Miranda Lambert, Ian Munsick and more",
+          "date": "2026-05-29",
+          "venue": "Ottawa Farms",
+          "city": "Bloomingdale, GA",
+          "capacity": 0,
+          "score": 0.4334350698,
+          "url": "https://seatgeek.com/rock-the-country-tickets/bloomingdale-georgia-ottawa-farms-2026-05-29-3-30-am/music-festival/18008600"
+        },
+        {
+          "title": "Post Malone with Jelly Roll and Carter Faith",
+          "date": "2026-05-29",
+          "venue": "Raymond James Stadium",
+          "city": "Tampa, FL",
+          "capacity": 0,
+          "score": 0.6391517795,
+          "url": "https://seatgeek.com/post-malone-tickets/tampa-florida-raymond-james-stadium-2026-05-29-7-30-pm/concert/18046629"
+        }
+      ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 36,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tyler-childers-d01951/403650/huge.jpg"
+      "risingStarScore": 36
     },
     {
       "name": "Hilary Duff",
@@ -1169,8 +1038,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 35,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/hilary-duff-6dc8bb/247569/huge.jpg"
+      "risingStarScore": 35
     },
     {
       "name": "Flip Turn",
@@ -1229,10 +1097,9 @@
       "_cachedAt": "2026-03-06T16:38:52.880Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 34,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mt-joy-c5b83a/609942/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 34
     },
     {
       "name": "KETTAMA",
@@ -1254,10 +1121,9 @@
       "_cachedAt": "2026-03-06T16:39:16.021Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 34,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/kettama-967a49/1964404/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 34
     },
     {
       "name": "Noah Kahan",
@@ -1292,6 +1158,82 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B",
+      "_cachedAt": "2026-03-07T11:00:18.199Z",
+      "_upcomingShows": 25,
+      "_tourDates": [
+        {
+          "title": "Bonnaroo Music Festival (4 Day Pass) with The Strokes, Rufus Du Sol, Noah Kahan and more",
+          "date": "2026-06-11",
+          "venue": "Manchester Farm",
+          "city": "Manchester, TN",
+          "capacity": 0,
+          "score": 0.4523358034,
+          "url": "https://seatgeek.com/bonnaroo-music-festival-tickets/manchester-tennessee-manchester-farm-2026-06-11-3-30-am/music-festival/17632120"
+        },
+        {
+          "title": "Noah Kahan with Gigi Perez",
+          "date": "2026-06-11",
+          "venue": "Kia Center",
+          "city": "Orlando, FL",
+          "capacity": 0,
+          "score": 0.6476255709,
+          "url": "https://seatgeek.com/noah-kahan-tickets/orlando-florida-kia-center-2026-06-11-6-30-pm/concert/18046668"
+        },
+        {
+          "title": "Noah Kahan with Gigi Perez",
+          "date": "2026-06-12",
+          "venue": "Kia Center",
+          "city": "Orlando, FL",
+          "capacity": 0,
+          "score": 0.6860080502,
+          "url": "https://seatgeek.com/noah-kahan-tickets/orlando-florida-kia-center-2026-06-12-7-30-pm/concert/18065510"
+        },
+        {
+          "title": "Bonnaroo Music Festival (Sunday) with Noah Kahan, Role Model, Kesha and more",
+          "date": "2026-06-14",
+          "venue": "Manchester Farm",
+          "city": "Manchester, TN",
+          "capacity": 0,
+          "score": 0.4129807796,
+          "url": "https://seatgeek.com/bonnaroo-music-festival-tickets/manchester-tennessee-manchester-farm-2026-06-14-12-pm/music-festival/17632124"
+        },
+        {
+          "title": "Noah Kahan with Gigi Perez",
+          "date": "2026-06-26",
+          "venue": "Citizens Bank Park",
+          "city": "Philadelphia, PA",
+          "capacity": 43647,
+          "score": 0.7691820221,
+          "url": "https://seatgeek.com/noah-kahan-tickets/philadelphia-pennsylvania-citizens-bank-park-2026-06-26-6-30-pm/concert/18046665"
+        },
+        {
+          "title": "Noah Kahan with Gigi Perez",
+          "date": "2026-06-28",
+          "venue": "Rogers Stadium - Toronto",
+          "city": "Toronto, ON",
+          "capacity": 0,
+          "score": 0.6675241581,
+          "url": "https://seatgeek.com/noah-kahan-tickets/toronto-canada-rogers-stadium-toronto-2026-06-28-6-30-pm/concert/18046694"
+        },
+        {
+          "title": "Noah Kahan with Gigi Perez",
+          "date": "2026-07-01",
+          "venue": "Great American Ball Park",
+          "city": "Cincinnati, OH",
+          "capacity": 0,
+          "score": 0.7137461503,
+          "url": "https://seatgeek.com/noah-kahan-tickets/cincinnati-ohio-great-american-ball-park-2026-07-01-6-30-pm/concert/18046666"
+        },
+        {
+          "title": "Noah Kahan with Gigi Perez",
+          "date": "2026-07-03",
+          "venue": "PNC Park",
+          "city": "Pittsburgh, PA",
+          "capacity": 0,
+          "score": 0.6918432639,
+          "url": "https://seatgeek.com/noah-kahan-tickets/pittsburgh-pennsylvania-pnc-park-2026-07-03-6-30-pm/concert/18046667"
+        }
+      ],
       "upcomingShows": 25,
       "tourDates": [
         {
@@ -1369,8 +1311,7 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 34,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/noah-kahan-ef4f0d/615350/huge.jpg"
+      "risingStarScore": 34
     },
     {
       "name": "Rezz",
@@ -1427,33 +1368,7 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 32,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
-    },
-    {
-      "name": "Subtronics",
-      "tier": "A",
-      "genre": "DJ/Electronic",
-      "source": "watchlist",
-      "monthlyListeners": 540,
-      "spotifyFollowers": 12600,
-      "instagramFollowers": null,
-      "tiktokFollowers": 518200,
-      "twitterFollowers": null,
-      "youtubeSubscribers": null,
-      "albumCount": null,
-      "genres": [],
-      "soldOutMentions": 0,
-      "soldOutSnippets": [],
-      "topSong": null,
-      "spotifyUrl": "https://open.spotify.com/artist/3NJ94iuAmmMjbszODYT6pO",
-      "_cachedAt": "2026-03-06T16:39:25.845Z",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": 26900,
-      "isNewToTracking": false,
-      "risingStarScore": 31,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/subtronics-12a605/607337/huge.jpg"
+      "risingStarScore": 32
     },
     {
       "name": "Laci Kaye Booth",
@@ -1475,10 +1390,9 @@
       "_cachedAt": "2026-03-06T16:40:19.402Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 31,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/laci-kaye-booth-b96525/1959287/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 31
     },
     {
       "name": "Hippie Sabotage",
@@ -1511,10 +1425,116 @@
       "_cachedAt": "2026-03-06T16:40:50.743Z",
       "upcomingShows": 0,
       "tourDates": [],
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 30
+    },
+    {
+      "name": "Bailey Zimmerman",
+      "tier": "A",
+      "genre": "Popular",
+      "source": "watchlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": 3500000,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": 6,
+      "genres": [],
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "Bailey Zimmerman Tour | Tickets | Event Dates & Concert Schedule",
+          "snippet": "Buy Bailey Zimmerman concert tickets now directly via our official site using the links above. Hurry—tickets are selling fast! Check back often as fre",
+          "url": "https://www.baileyzimmerman.org/"
+        },
+        {
+          "title": "Bailey Zimmerman Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to Bailey Zimmerman shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has t",
+          "url": "https://www.eventticketscenter.com/bailey-zimmerman-tickets/17980/c"
+        }
+      ],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/3win9vGIxFfBRag9S63wwf",
+      "upcomingShows": 25,
+      "tourDates": [
+        {
+          "title": "Bailey Zimmerman",
+          "date": "2026-03-09",
+          "venue": "History",
+          "city": "Toronto, ON",
+          "capacity": 0,
+          "score": 0.4682754266,
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets/toronto-canada-history-2026-03-09-7-pm/concert/18078934"
+        },
+        {
+          "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+          "date": "2026-03-12",
+          "venue": "Van Andel Arena",
+          "city": "Grand Rapids, MI",
+          "capacity": 0,
+          "score": 0.6754610459,
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets/grand-rapids-michigan-van-andel-arena-2026-03-12-7-pm/concert/17721249"
+        },
+        {
+          "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+          "date": "2026-03-14",
+          "venue": "Vibrant Arena at The Mark",
+          "city": "Moline, IL",
+          "capacity": 12000,
+          "score": 0.6733779508,
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets/moline-illinois-vibrant-arena-at-the-mark-2026-03-13-7-pm/concert/17721251"
+        },
+        {
+          "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+          "date": "2026-03-15",
+          "venue": "Ford Center - IN",
+          "city": "Evansville, IN",
+          "capacity": 11000,
+          "score": 0.6745591412,
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets/evansville-indiana-ford-center-in-2026-03-14-7-pm/concert/17721253"
+        },
+        {
+          "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+          "date": "2026-03-28",
+          "venue": "The Wharf Amphitheater",
+          "city": "Orange Beach, AL",
+          "capacity": 0,
+          "score": 0.5715574304,
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets/orange-beach-alabama-the-wharf-amphitheater-2026-03-27-7-pm/concert/17721255"
+        },
+        {
+          "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+          "date": "2026-04-03",
+          "venue": "Dickies Arena",
+          "city": "Fort Worth, TX",
+          "capacity": 0,
+          "score": 0.6583321349,
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets/fort-worth-texas-dickies-arena-2026-04-02-7-pm/concert/17721257"
+        },
+        {
+          "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+          "date": "2026-04-04",
+          "venue": "Raising Cane's River Center",
+          "city": "Baton Rouge, LA",
+          "capacity": 0,
+          "score": 0.554052464,
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets/baton-rouge-louisiana-raising-cane-s-river-center-2026-04-03-7-pm/concert/17721259"
+        },
+        {
+          "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+          "date": "2026-04-05",
+          "venue": "Hilliard Center Arena",
+          "city": "Corpus Christi, TX",
+          "capacity": 10000,
+          "score": 0.5465014719,
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets/corpus-christi-texas-hilliard-center-arena-2026-04-04-7-pm/concert/17721261"
+        }
+      ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 30,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/hippie-sabotage-98b576/310374/huge.jpg"
+      "risingStarScore": 30
     },
     {
       "name": "Morgan Wallen",
@@ -1544,6 +1564,82 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM",
+      "_cachedAt": "2026-03-07T11:00:27.608Z",
+      "_upcomingShows": 24,
+      "_tourDates": [
+        {
+          "title": "Morgan Wallen with Thomas Rhett, Gavin Adcock, and Vincent Mason",
+          "date": "2026-04-10",
+          "venue": "U.S. Bank Stadium",
+          "city": "Minneapolis, MN",
+          "capacity": 0,
+          "score": 0.7181304389,
+          "url": "https://seatgeek.com/morgan-wallen-tickets/minneapolis-minnesota-u-s-bank-stadium-2026-04-10-5-30-pm/concert/17873132"
+        },
+        {
+          "title": "Morgan Wallen with HARDY, Gavin Adcock, and Vincent Mason",
+          "date": "2026-04-11",
+          "venue": "U.S. Bank Stadium",
+          "city": "Minneapolis, MN",
+          "capacity": 0,
+          "score": 0.7423997579,
+          "url": "https://seatgeek.com/morgan-wallen-tickets/minneapolis-minnesota-u-s-bank-stadium-2026-04-11-5-30-pm/concert/17873133"
+        },
+        {
+          "title": "Wallen & Wilson: Tribute To Morgan Wallen & Lainey Wilson",
+          "date": "2026-04-17",
+          "venue": "The Venue at Thunder Valley Casino Resort",
+          "city": "Lincoln, CA",
+          "capacity": 0,
+          "score": 0.2281399842,
+          "url": "https://seatgeek.com/legends-of-new-country-wallen-wilson-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2026-04-16-7-30-pm/concert/17808732"
+        },
+        {
+          "title": "Morgan Wallen with Ella Langley, Vincent Mason and Zach John King",
+          "date": "2026-04-18",
+          "venue": "Bryant-Denny Stadium",
+          "city": "Tuscaloosa, AL",
+          "capacity": 0,
+          "score": 0.784253463,
+          "url": "https://seatgeek.com/morgan-wallen-tickets/tuscaloosa-alabama-bryant-denny-stadium-2026-04-18-5-30-pm/concert/17873108"
+        },
+        {
+          "title": "Morgan Wallen with Brooks & Dunn, Gavin Adcock and Vincent Mason",
+          "date": "2026-05-02",
+          "venue": "Allegiant Stadium",
+          "city": "Las Vegas, NV",
+          "capacity": 0,
+          "score": 0.7788194485,
+          "url": "https://seatgeek.com/morgan-wallen-tickets/las-vegas-nevada-allegiant-stadium-2026-05-01-5-30-pm/concert/17873117"
+        },
+        {
+          "title": "Morgan Wallen with Thomas Rhett, Gavin Adcock and. Vincent Mason",
+          "date": "2026-05-03",
+          "venue": "Allegiant Stadium",
+          "city": "Las Vegas, NV",
+          "capacity": 0,
+          "score": 0.77207437,
+          "url": "https://seatgeek.com/morgan-wallen-tickets/las-vegas-nevada-allegiant-stadium-2026-05-02-5-30-pm/concert/17873110"
+        },
+        {
+          "title": "Morgan Wallen with  Brooks & Dunn, Hudson Westbrook and Zach John King",
+          "date": "2026-05-08",
+          "venue": "Lucas Oil Stadium",
+          "city": "Indianapolis, IN",
+          "capacity": 0,
+          "score": 0.6864273065,
+          "url": "https://seatgeek.com/morgan-wallen-tickets/indianapolis-indiana-lucas-oil-stadium-2026-05-08-5-30-pm/concert/17873109"
+        },
+        {
+          "title": "Morgan Wallen with Ella Langley, Flatland Cavalry, and Zach John King",
+          "date": "2026-05-09",
+          "venue": "Lucas Oil Stadium",
+          "city": "Indianapolis, IN",
+          "capacity": 0,
+          "score": 0.7243645608,
+          "url": "https://seatgeek.com/morgan-wallen-tickets/indianapolis-indiana-lucas-oil-stadium-2026-05-09-5-30-pm/concert/17873148"
+        }
+      ],
       "upcomingShows": 24,
       "tourDates": [
         {
@@ -1621,8 +1717,7 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 29,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/morgan-wallen-fdf508/562860/huge.jpg"
+      "risingStarScore": 29
     },
     {
       "name": "Michael Blaustein",
@@ -1662,8 +1757,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 28,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/michael-blaustein-29021e/25750/huge.jpg"
+      "risingStarScore": 28
     },
     {
       "name": "Gianmarco Soresi",
@@ -1691,10 +1785,9 @@
       "_cachedAt": "2026-03-06T16:39:37.729Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 28,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/gianmarco-soresi-4e5ed3/692034/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 28
     },
     {
       "name": "Jordan Jensen",
@@ -1729,8 +1822,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 28,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jordan-jensen-d967ec/807858/huge.jpg"
+      "risingStarScore": 28
     },
     {
       "name": "Sam Morril",
@@ -1758,10 +1850,9 @@
       "_cachedAt": "2026-03-06T16:39:41.514Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 28,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/sam-morril-a33ac2/15906/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 28
     },
     {
       "name": "Druski",
@@ -1783,10 +1874,9 @@
       "_cachedAt": "2026-03-06T16:39:12.129Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 28,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/druski-e58221/801032/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 28
     },
     {
       "name": "Jay Jurden",
@@ -1814,10 +1904,9 @@
       "_cachedAt": "2026-03-06T16:39:48.973Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 28,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jay-jurden-1-f1450f/802665/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 28
     },
     {
       "name": "MC4D",
@@ -1845,10 +1934,9 @@
       "_cachedAt": "2026-03-06T16:40:04.253Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 28,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mc4d-fd53ac/802537/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 28
     },
     {
       "name": "Djo (Joe Keery)",
@@ -1873,9 +1961,6 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/5p9HO3XC5P3BLxJs5Mtrhm",
-      "_cachedAt": "2026-03-04T11:00:10.789Z",
-      "_upcomingShows": 0,
-      "_tourDates": [],
       "upcomingShows": 0,
       "tourDates": [],
       "listenerGrowth": 0,
@@ -1908,10 +1993,93 @@
       "_cachedAt": "2026-03-06T16:38:50.838Z",
       "upcomingShows": 0,
       "tourDates": [],
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 27
+    },
+    {
+      "name": "Shaboozey",
+      "tier": "B",
+      "genre": "Popular",
+      "source": "watchlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": 1600000,
+      "instagramFollowers": null,
+      "tiktokFollowers": 1300000,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": 7,
+      "genres": [],
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Shaboozey 2025 Tour Dates, Tickets, and Presale Codes | TickPick",
+          "snippet": "Plenty of fans just witnessed it for themselves: Shaboozey is a fantastic live performer. His music is perfect for large audiences. Tickets to the “Gr",
+          "url": "https://www.tickpick.com/blog/how-to-buy-shaboozey-tickets-presale-codes-and-tour-info/"
+        }
+      ],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/3y2cIKLjiOlp1Np37WiUdH",
+      "upcomingShows": 6,
+      "tourDates": [
+        {
+          "title": "Houston Rodeo - Shaboozey",
+          "date": "2026-03-13",
+          "venue": "NRG Stadium",
+          "city": "Houston, TX",
+          "capacity": 0,
+          "score": 0.7479507233,
+          "url": "https://seatgeek.com/houston-rodeo-tickets/rodeo/2026-03-13-6-45-pm/17521800"
+        },
+        {
+          "title": "RILEY GREEN, KOE WETZEL, SHABOOZEY AT LONE STAR SMOKEOUT 3-DAY PASS",
+          "date": "2026-04-24",
+          "venue": "AT&T Stadium",
+          "city": "Arlington, TX",
+          "capacity": 80000,
+          "score": 0.6910172496,
+          "url": "https://seatgeek.com/lone-star-smokeout-tickets/arlington-texas-at-t-stadium-2026-04-24-2-pm/concert/17836548"
+        },
+        {
+          "title": "Shaboozey + Max McNown - Friday of Lone Star Smokeout",
+          "date": "2026-04-24",
+          "venue": "AT&T Stadium",
+          "city": "Arlington, TX",
+          "capacity": 80000,
+          "score": 0.6359984125,
+          "url": "https://seatgeek.com/lone-star-smokeout-tickets/arlington-texas-at-t-stadium-2026-04-24-2-pm/concert/17829410"
+        },
+        {
+          "title": "Koe Wetzel + Casey Donahew - Saturday  of Lone Star Smokeout",
+          "date": "2026-04-25",
+          "venue": "AT&T Stadium",
+          "city": "Arlington, TX",
+          "capacity": 80000,
+          "score": 0.6720216056,
+          "url": "https://seatgeek.com/lone-star-smokeout-tickets/arlington-texas-at-t-stadium-2026-04-25-1-pm/concert/17836486"
+        },
+        {
+          "title": "Riley Green + Sam Barber - Sunday of Lone Star Smokeout",
+          "date": "2026-04-26",
+          "venue": "AT&T Stadium",
+          "city": "Arlington, TX",
+          "capacity": 80000,
+          "score": 0.8511478152,
+          "url": "https://seatgeek.com/lone-star-smokeout-tickets/arlington-texas-at-t-stadium-2026-04-26-1-30-pm/concert/17836487"
+        },
+        {
+          "title": "Boots and Hearts Music Festival (Saturday Pass) with Shaboozey",
+          "date": "2026-08-29",
+          "venue": "Fan Park at ICE District",
+          "city": "Edmonton, AB",
+          "capacity": 0,
+          "score": 0.14764431,
+          "url": "https://seatgeek.com/boots-and-hearts-music-festival-tickets/edmonton-canada-fan-park-at-ice-district-2026-08-29-2-30-pm/music-festival/17941261"
+        }
+      ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 27,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/treaty-oak-revival-4871bc/800864/huge.jpg"
+      "risingStarScore": 27
     },
     {
       "name": "Lambrini Girls",
@@ -1933,10 +2101,9 @@
       "_cachedAt": "2026-03-06T16:40:09.986Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 26,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/lambrini-girls-0d13df/1955395/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 26
     },
     {
       "name": "Mersiv",
@@ -1964,10 +2131,9 @@
       "_cachedAt": "2026-03-06T16:40:39.164Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": -99.7,
+      "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 24,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mersiv-0faf02/692209/huge.jpg"
+      "risingStarScore": 24
     },
     {
       "name": "Josh Johnson",
@@ -1989,10 +2155,9 @@
       "_cachedAt": "2026-03-06T16:39:10.082Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 24,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/josh-johnson-c540b4/272582/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 24
     },
     {
       "name": "Zarna Garg",
@@ -2014,10 +2179,9 @@
       "_cachedAt": "2026-03-06T16:39:39.607Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 24,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/zarna-garg-33fe69/789764/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 24
     },
     {
       "name": "Prospa",
@@ -2045,10 +2209,9 @@
       "_cachedAt": "2026-03-06T16:39:50.841Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 24,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/prospa-7b7603/783449/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 24
     },
     {
       "name": "Mau P",
@@ -2076,10 +2239,9 @@
       "_cachedAt": "2026-03-06T16:39:18.067Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 24,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mau-p-b9e8da/800757/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 24
     },
     {
       "name": "Florence Road",
@@ -2101,10 +2263,9 @@
       "_cachedAt": "2026-03-06T16:39:20.007Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 24,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/florence-road-b214d5/1966712/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 24
     },
     {
       "name": "Post Malone",
@@ -2134,6 +2295,82 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60",
+      "_cachedAt": "2026-03-07T11:00:24.740Z",
+      "_upcomingShows": 25,
+      "_tourDates": [
+        {
+          "title": "Tortuga Music Festival - 3 Day Pass - with Post Malone, Riley Green, Kenny Chesney and more",
+          "date": "2026-04-10",
+          "venue": "Fort Lauderdale Beach Park",
+          "city": "Fort Lauderdale, FL",
+          "capacity": 0,
+          "score": 0.4978990299,
+          "url": "https://seatgeek.com/tortuga-music-festival-tickets/fort-lauderdale-florida-fort-lauderdale-beach-park-2026-04-10-3-30-am/music-festival/17656705"
+        },
+        {
+          "title": "Stagecoach Country Music Festival with Cody Johnson, Lainey Wilson, Post Malone, and more  - 3 Day Pass",
+          "date": "2026-04-24",
+          "venue": "Empire Polo Club",
+          "city": "Indio, CA",
+          "capacity": 0,
+          "score": 0.5337096814,
+          "url": "https://seatgeek.com/stagecoach-country-music-festival-tickets/indio-california-empire-polo-club-2026-04-24-3-30-am/music-festival/17565099"
+        },
+        {
+          "title": "Stagecoach Country Music Festival with Post Malone, Brooks & Dunn, Hootie & The Blowfish, and more - Sunday",
+          "date": "2026-04-26",
+          "venue": "Empire Polo Club",
+          "city": "Indio, CA",
+          "capacity": 0,
+          "score": 0.4099571997,
+          "url": "https://seatgeek.com/stagecoach-country-music-festival-tickets/indio-california-empire-polo-club-2026-04-26-12-pm/music-festival/17565105"
+        },
+        {
+          "title": "Post Malone with Jelly Roll and Carter Faith",
+          "date": "2026-05-14",
+          "venue": "Sun Bowl Stadium",
+          "city": "El Paso, TX",
+          "capacity": 0,
+          "score": 0.6489449716,
+          "url": "https://seatgeek.com/post-malone-tickets/el-paso-texas-sun-bowl-stadium-2026-05-13-7-30-pm/concert/18046626"
+        },
+        {
+          "title": "Post Malone with Jelly Roll and Carter Faith",
+          "date": "2026-05-20",
+          "venue": "McLane Stadium",
+          "city": "Waco, TX",
+          "capacity": 0,
+          "score": 0.6998529723,
+          "url": "https://seatgeek.com/post-malone-tickets/waco-texas-mclane-stadium-2026-05-19-7-30-pm/concert/18046625"
+        },
+        {
+          "title": "Post Malone with Jelly Roll and Carter Faith",
+          "date": "2026-05-24",
+          "venue": "Tiger Stadium",
+          "city": "Baton Rouge, LA",
+          "capacity": 0,
+          "score": 0.6665561328,
+          "url": "https://seatgeek.com/post-malone-tickets/baton-rouge-louisiana-tiger-stadium-2026-05-23-7-30-pm/concert/18042737"
+        },
+        {
+          "title": "Post Malone with Jelly Roll and Carter Faith",
+          "date": "2026-05-27",
+          "venue": "Protective Stadium",
+          "city": "Birmingham, AL",
+          "capacity": 0,
+          "score": 0.5745663938,
+          "url": "https://seatgeek.com/post-malone-tickets/birmingham-alabama-protective-stadium-2026-05-26-7-30-pm/concert/18046624"
+        },
+        {
+          "title": "Gulf Coast Jam - (4 Day Pass) with Keith Urban, Chris Stapleton, Riley Green, Post Malone",
+          "date": "2026-05-28",
+          "venue": "Frank Brown Park",
+          "city": "Panama City Beach, FL",
+          "capacity": 0,
+          "score": 0.4947720838,
+          "url": "https://seatgeek.com/gulf-coast-jam-tickets/panama-city-beach-florida-frank-brown-park-2026-05-28-3-30-am/music-festival/17548703"
+        }
+      ],
       "upcomingShows": 25,
       "tourDates": [
         {
@@ -2211,8 +2448,7 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 23,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/post-malone-369d0f/356214/huge.jpg"
+      "risingStarScore": 23
     },
     {
       "name": "Jade LeMac",
@@ -2236,8 +2472,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 22,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jade-lemac-c0f0c3/1962125/huge.jpg"
+      "risingStarScore": 22
     },
     {
       "name": "Lord Huron",
@@ -2267,8 +2502,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 22,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/lord-huron-98559c/8736/huge.jpg"
+      "risingStarScore": 22
     },
     {
       "name": "Atsuko Okatsuka",
@@ -2298,8 +2532,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 22,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/atsuko-okatsuka-70e0bd/795990/huge.jpg"
+      "risingStarScore": 22
     },
     {
       "name": "Matt Rife",
@@ -2323,8 +2556,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 22,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/matt-rife-1-4975be/807517/huge.jpg"
+      "risingStarScore": 22
     },
     {
       "name": "Marten Lou",
@@ -2355,6 +2587,132 @@
       "listenerGrowth": null,
       "isNewToTracking": true,
       "risingStarScore": 22
+    },
+    {
+      "name": "Allison Russell",
+      "tier": "B",
+      "genre": "Folk/Americana",
+      "source": "watchlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": 133000,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Sarah McLachlan Announces 2026 Summer Leg of Better Broken Tour: Allison Russell Joins for Amphitheater Run - Ticket News Now - Events, Dates, On-Sale",
+          "snippet": "Announced on <strong>February 12, 2026</strong>, this fresh run supports her critically praised tenth studio album Better Broken (released September 1",
+          "url": "https://www.capitalcitytickets.com/blog/sarah-mclachlan-announces-2026-summer-leg-of-better-broken-tour-allison-russell-joins-for-amphitheater-run/"
+        }
+      ],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/3JBmecDGXTll46ygrnGTM6",
+      "upcomingShows": 25,
+      "tourDates": [
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-02",
+          "venue": "FirstBank Amphitheater",
+          "city": "Franklin, TN",
+          "capacity": 0,
+          "score": 0.2887292484,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/franklin-tennessee-firstbank-amphitheater-2026-07-01-7-30-pm/concert/18070702"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-03",
+          "venue": "Synovus Bank Amphitheatre at Chastain Park",
+          "city": "Atlanta, GA",
+          "capacity": 0,
+          "score": 0.3489764872,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-07-03-7-30-pm/concert/18070703"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-05",
+          "venue": "Filene Center at The Wolf Trap",
+          "city": "Vienna, VA",
+          "capacity": 7000,
+          "score": 0.4276206408,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/vienna-virginia-filene-center-at-the-wolf-trap-2026-07-05-7-pm/concert/18070749"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-07",
+          "venue": "TD Pavilion at The Mann Center",
+          "city": "Philadelphia, PA",
+          "capacity": 7200,
+          "score": 0.4268145757,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/philadelphia-pennsylvania-td-pavilion-at-the-mann-center-2026-07-07-7-30-pm/concert/18070705"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-08",
+          "venue": "Hartford HealthCare Amphitheater",
+          "city": "Bridgeport, CT",
+          "capacity": 0,
+          "score": 0.3103046929,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/bridgeport-connecticut-hartford-healthcare-amphitheater-2026-07-08-7-30-pm/concert/18070704"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-10",
+          "venue": "Leader Bank Pavilion",
+          "city": "Boston, MA",
+          "capacity": 0,
+          "score": 0.3760222191,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/boston-massachusetts-leader-bank-pavilion-2026-07-10-7-30-pm/concert/18070706"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-11",
+          "venue": "Forest Hills Stadium",
+          "city": "Forest Hills, NY",
+          "capacity": 0,
+          "score": 0.3586699553,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/forest-hills-new-york-forest-hills-stadium-2026-07-11-7-pm/concert/18070701"
+        },
+        {
+          "title": "Sarah McLachlan with Allison Russell",
+          "date": "2026-07-12",
+          "venue": "BankNH Pavilion",
+          "city": "Gilford, NH",
+          "capacity": 0,
+          "score": 0.301941244,
+          "url": "https://seatgeek.com/sarah-mclachlan-tickets/gilford-new-hampshire-banknh-pavilion-2026-07-12-7-30-pm/concert/18070713"
+        }
+      ],
+      "listenerGrowth": null,
+      "isNewToTracking": false,
+      "risingStarScore": 21
+    },
+    {
+      "name": "Subtronics",
+      "tier": "A",
+      "genre": "DJ/Electronic",
+      "source": "watchlist",
+      "monthlyListeners": 540,
+      "spotifyFollowers": 12600,
+      "instagramFollowers": null,
+      "tiktokFollowers": 518200,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/3NJ94iuAmmMjbszODYT6pO",
+      "_cachedAt": "2026-03-06T16:39:25.845Z",
+      "upcomingShows": 0,
+      "tourDates": [],
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 21
     },
     {
       "name": "Stardew Valley Symphony",
@@ -2490,8 +2848,7 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 21,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/stardew-valley-symphony-of-seasons-4ade74/1960425/huge.jpg"
+      "risingStarScore": 21
     },
     {
       "name": "Nurse John",
@@ -2645,8 +3002,103 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 21,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/nurse-john-f77016/811254/huge.jpg"
+      "risingStarScore": 21
+    },
+    {
+      "name": "Crankdat",
+      "tier": "B",
+      "genre": "DJ/Electronic",
+      "source": "watchlist",
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": 1100000,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/5lCekoJW9jNq01B1wiqdAb",
+      "upcomingShows": 8,
+      "tourDates": [
+        {
+          "title": "Crankdat with Whethan (18+)",
+          "date": "2026-03-22",
+          "venue": "Tacoma Dome",
+          "city": "Tacoma, WA",
+          "capacity": 23000,
+          "score": 0.4460937578,
+          "url": "https://seatgeek.com/crankdat-tickets/tacoma-washington-tacoma-dome-2026-03-21-7-pm/concert/17836683"
+        },
+        {
+          "title": "Crankdat with Dr. Fresch, Smoakland, Capochino, and HerShe",
+          "date": "2026-03-28",
+          "venue": "Red Rocks Amphitheatre",
+          "city": "Morrison, CO",
+          "capacity": 9450,
+          "score": 0.5404608661,
+          "url": "https://seatgeek.com/crankdat-tickets/morrison-colorado-red-rocks-amphitheatre-2026-03-27-7-pm/concert/17890912"
+        },
+        {
+          "title": "Gather Outdoors Festival - 2 Day Pass - with Crankdat, Daily Bread, Of The Trees, and more (18+)",
+          "date": "2026-04-11",
+          "venue": "Stratton Mountain Resort",
+          "city": "South Londonderry, VT",
+          "capacity": 0,
+          "score": 0.2765757991,
+          "url": "https://seatgeek.com/gather-outdoors-festival-tickets/south-londonderry-vermont-stratton-mountain-resort-2026-04-11-3-pm/music-festival/18035076"
+        },
+        {
+          "title": "Crankdat",
+          "date": "2026-05-03",
+          "venue": "The Metropolitan - New Orleans",
+          "city": "New Orleans, LA",
+          "capacity": 0,
+          "score": 0.2448553593,
+          "url": "https://seatgeek.com/crankdat-tickets/new-orleans-louisiana-the-metropolitan-new-orleans-2026-05-02-10-pm/concert/18106494"
+        },
+        {
+          "title": "Crankdat (18+)",
+          "date": "2026-08-28",
+          "venue": "Shrine Expo Hall",
+          "city": "Los Angeles, CA",
+          "capacity": 6300,
+          "score": 0.2324772474,
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-27-9-pm/concert/18041837"
+        },
+        {
+          "title": "Crankdat (18+)",
+          "date": "2026-08-29",
+          "venue": "Shrine Expo Hall",
+          "city": "Los Angeles, CA",
+          "capacity": 6300,
+          "score": 0.2875612759,
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-28-9-pm/concert/18041840"
+        },
+        {
+          "title": "Crankdat (18+)",
+          "date": "2026-08-30",
+          "venue": "Shrine Expo Hall",
+          "city": "Los Angeles, CA",
+          "capacity": 6300,
+          "score": 0.2898843262,
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-29-9-pm/concert/18039855"
+        },
+        {
+          "title": "Crankdat (18+)",
+          "date": "2026-08-31",
+          "venue": "Shrine Expo Hall",
+          "city": "Los Angeles, CA",
+          "capacity": 6300,
+          "score": 0.2865060503,
+          "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-30-8-pm/concert/18041846"
+        }
+      ],
+      "listenerGrowth": null,
+      "isNewToTracking": false,
+      "risingStarScore": 20
     },
     {
       "name": "Fisher",
@@ -2818,8 +3270,7 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 20,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
+      "risingStarScore": 20
     },
     {
       "name": "Zach Bryan",
@@ -2849,6 +3300,82 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/40ZNYROS4zLfyyBSs2PGe2",
+      "_cachedAt": "2026-03-07T11:00:15.317Z",
+      "_upcomingShows": 25,
+      "_tourDates": [
+        {
+          "title": "Zach Bryan with CAAMP and J.R. Carroll",
+          "date": "2026-03-08",
+          "venue": "The Dome at America's Center",
+          "city": "St. Louis, MO",
+          "capacity": 66965,
+          "score": 0.7856096896,
+          "url": "https://seatgeek.com/zach-bryan-tickets/st-louis-missouri-the-dome-at-america-s-center-2026-03-07-7-pm/concert/17930409"
+        },
+        {
+          "title": "Zach Bryan with CAAMP and J.R. Carroll",
+          "date": "2026-03-14",
+          "venue": "Raymond James Stadium",
+          "city": "Tampa, FL",
+          "capacity": 0,
+          "score": 0.8498613757,
+          "url": "https://seatgeek.com/zach-bryan-tickets/tampa-florida-raymond-james-stadium-2026-03-14-7-pm/concert/17930410"
+        },
+        {
+          "title": "Zach Bryan with CAAMP and J.R. Carroll",
+          "date": "2026-03-22",
+          "venue": "Alamodome",
+          "city": "San Antonio, TX",
+          "capacity": 65000,
+          "score": 0.7462113149,
+          "url": "https://seatgeek.com/zach-bryan-tickets/san-antonio-texas-alamodome-2026-03-21-7-pm/concert/17930411"
+        },
+        {
+          "title": "Zach Bryan with CAAMP and J.R. Carroll",
+          "date": "2026-03-29",
+          "venue": "Tiger Stadium",
+          "city": "Baton Rouge, LA",
+          "capacity": 0,
+          "score": 0.7044683676,
+          "url": "https://seatgeek.com/zach-bryan-tickets/baton-rouge-louisiana-tiger-stadium-2026-03-28-7-pm/concert/17930413"
+        },
+        {
+          "title": "Zach Bryan",
+          "date": "2026-04-04",
+          "venue": "HA Chapman Stadium",
+          "city": "Tulsa, OK",
+          "capacity": 0,
+          "score": 0.6485109451,
+          "url": "https://seatgeek.com/zach-bryan-tickets/tulsa-oklahoma-ha-chapman-stadium-2026-04-03-7-pm/concert/17944250"
+        },
+        {
+          "title": "Zach Bryan",
+          "date": "2026-04-05",
+          "venue": "HA Chapman Stadium",
+          "city": "Tulsa, OK",
+          "capacity": 0,
+          "score": 0.6766284172,
+          "url": "https://seatgeek.com/zach-bryan-tickets/tulsa-oklahoma-ha-chapman-stadium-2026-04-04-7-pm/concert/17944252"
+        },
+        {
+          "title": "Zach Bryan with Kings of Leon and J.R. Carroll",
+          "date": "2026-04-11",
+          "venue": "L&N Federal Credit Union Stadium",
+          "city": "Louisville, KY",
+          "capacity": 0,
+          "score": 0.7078415579,
+          "url": "https://seatgeek.com/zach-bryan-tickets/louisville-kentucky-l-n-federal-credit-union-stadium-2026-04-11-7-pm/concert/17930414"
+        },
+        {
+          "title": "Zach Bryan with CAAMP and J.R. Carroll",
+          "date": "2026-04-18",
+          "venue": "Bank of America Stadium",
+          "city": "Charlotte, NC",
+          "capacity": 0,
+          "score": 0.7392739664,
+          "url": "https://seatgeek.com/zach-bryan-tickets/charlotte-north-carolina-bank-of-america-stadium-2026-04-18-7-pm/concert/17930412"
+        }
+      ],
       "upcomingShows": 25,
       "tourDates": [
         {
@@ -2924,10 +3451,9 @@
           "url": "https://seatgeek.com/zach-bryan-tickets/charlotte-north-carolina-bank-of-america-stadium-2026-04-18-7-pm/concert/17930412"
         }
       ],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 20,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/zach-bryan-e20379/794528/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 20
     },
     {
       "name": "Chris Stapleton",
@@ -2957,6 +3483,82 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/4YLtscXsxbVgi031ovDDdh",
+      "_cachedAt": "2026-03-07T11:00:33.439Z",
+      "_upcomingShows": 25,
+      "_tourDates": [
+        {
+          "title": "Houston Rodeo - Chris Stapleton",
+          "date": "2026-03-12",
+          "venue": "NRG Stadium",
+          "city": "Houston, TX",
+          "capacity": 0,
+          "score": 0.8367438832,
+          "url": "https://seatgeek.com/houston-rodeo-tickets/rodeo/2026-03-12-6-45-pm/17521795"
+        },
+        {
+          "title": "Two Step Inn Festival - 2 Day Pass - with Chris Stapleton, Brooks & Dunn, The Red Clay Strays, and more",
+          "date": "2026-04-18",
+          "venue": "San Gabriel Park",
+          "city": "Georgetown, TX",
+          "capacity": 0,
+          "score": 0.531614269,
+          "url": "https://seatgeek.com/two-step-inn-festival-tickets/georgetown-texas-san-gabriel-park-2026-04-18-3-30-am/music-festival/17762950"
+        },
+        {
+          "title": "Two Step Inn Festival - Sunday - with Chris Stapleton, the Red Clay Strays, Tedeschi Trucks Band, and more",
+          "date": "2026-04-19",
+          "venue": "San Gabriel Park",
+          "city": "Georgetown, TX",
+          "capacity": 0,
+          "score": 0.5332800937,
+          "url": "https://seatgeek.com/two-step-inn-festival-tickets/georgetown-texas-san-gabriel-park-2026-04-19-12-pm/music-festival/17759877"
+        },
+        {
+          "title": "Outlaw State of Mind - Chris Stapleton Tribute",
+          "date": "2026-05-21",
+          "venue": "Palace Theatre - Greensburg, PA",
+          "city": "Greensburg, PA",
+          "capacity": 0,
+          "score": 0.1296888377,
+          "url": "https://seatgeek.com/outlaw-state-of-mind-chris-stapleton-tribute-tickets/greensburg-pennsylvania-palace-theatre-greensburg-pa-2026-05-21-7-30-pm/concert/17854070"
+        },
+        {
+          "title": "Chris Stapleton's All-American Road Show",
+          "date": "2026-05-23",
+          "venue": "Nissan Stadium",
+          "city": "Nashville, TN",
+          "capacity": 0,
+          "score": 0.8779199128,
+          "url": "https://seatgeek.com/chris-stapleton-tickets/nashville-tennessee-nissan-stadium-2026-05-23-6-pm/concert/17990981"
+        },
+        {
+          "title": "Gulf Coast Jam - (4 Day Pass) with Keith Urban, Chris Stapleton, Riley Green, Post Malone",
+          "date": "2026-05-28",
+          "venue": "Frank Brown Park",
+          "city": "Panama City Beach, FL",
+          "capacity": 0,
+          "score": 0.4947720838,
+          "url": "https://seatgeek.com/gulf-coast-jam-tickets/panama-city-beach-florida-frank-brown-park-2026-05-28-3-30-am/music-festival/17548703"
+        },
+        {
+          "title": "Gulf Coast Jam - (Friday) with Chris Stapleton",
+          "date": "2026-05-29",
+          "venue": "Frank Brown Park",
+          "city": "Panama City Beach, FL",
+          "capacity": 0,
+          "score": 0.3200524636,
+          "url": "https://seatgeek.com/gulf-coast-jam-tickets/panama-city-beach-florida-frank-brown-park-2026-05-29-2-pm/music-festival/17548707"
+        },
+        {
+          "title": "Chris Stapleton with Allen Stone",
+          "date": "2026-06-11",
+          "venue": "VyStar Veterans Memorial Arena",
+          "city": "Jacksonville, FL",
+          "capacity": 0,
+          "score": 0.6212772448,
+          "url": "https://seatgeek.com/chris-stapleton-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2026-06-11-7-30-pm/concert/18004695"
+        }
+      ],
       "upcomingShows": 25,
       "tourDates": [
         {
@@ -3032,10 +3634,9 @@
           "url": "https://seatgeek.com/chris-stapleton-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2026-06-11-7-30-pm/concert/18004695"
         }
       ],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 20,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/chris-stapleton-14371f/111894/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 20
     },
     {
       "name": "Hemlocke Springs",
@@ -3059,8 +3660,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 19,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/hemlocke-springs-89d988/805728/huge.jpg"
+      "risingStarScore": 19
     },
     {
       "name": "Odd Mob",
@@ -3082,10 +3682,9 @@
       "_cachedAt": "2026-03-06T16:39:54.733Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 19,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/odd-mob-954b6f/788152/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 19
     },
     {
       "name": "Jackie Hollander",
@@ -3107,10 +3706,9 @@
       "_cachedAt": "2026-03-06T16:40:08.035Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 19,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jackie-hollander-419291/1955209/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 19
     },
     {
       "name": "Its Murph",
@@ -3129,82 +3727,6 @@
       "soldOutSnippets": [],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/3zW0xazqnHoq9QV9zBROVC",
-      "_cachedAt": "2026-03-04T11:00:30.738Z",
-      "_upcomingShows": 9,
-      "_tourDates": [
-        {
-          "title": "it's murph",
-          "date": "2026-03-21",
-          "venue": "Bicentennial Capitol Mall State Park",
-          "city": "Nashville, TN",
-          "capacity": 0,
-          "score": 0.341576949,
-          "url": "https://seatgeek.com/it-s-murph-tickets/nashville-tennessee-bicentennial-capitol-mall-state-park-2026-03-21-3-pm/concert/18028555"
-        },
-        {
-          "title": "it's murph",
-          "date": "2026-04-05",
-          "venue": "Red Rocks Amphitheatre",
-          "city": "Morrison, CO",
-          "capacity": 9450,
-          "score": 0.633799345,
-          "url": "https://seatgeek.com/it-s-murph-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-04-8-pm/concert/17810692"
-        },
-        {
-          "title": "it's murph",
-          "date": "2026-04-17",
-          "venue": "The Ritz - Raleigh",
-          "city": "Raleigh, NC",
-          "capacity": 2000,
-          "score": 0.4932124558,
-          "url": "https://seatgeek.com/it-s-murph-tickets/raleigh-north-carolina-the-ritz-raleigh-2026-04-17-7-pm/concert/18052149"
-        },
-        {
-          "title": "sprung: it's murph, SG Lewis, NEIL FRANCES & more (21+)",
-          "date": "2026-04-18",
-          "venue": "Berhta",
-          "city": "Washington, DC",
-          "capacity": 0,
-          "score": 0.3618800131,
-          "url": "https://seatgeek.com/it-s-murph-tickets/washington-district-of-columbia-berhta-2026-04-18-4-pm/concert/18052145"
-        },
-        {
-          "title": "it's murph",
-          "date": "2026-05-09",
-          "venue": "Malkin Bowl",
-          "city": "Vancouver, BC",
-          "capacity": 1500,
-          "score": 0.251020543,
-          "url": "https://seatgeek.com/it-s-murph-tickets/vancouver-canada-malkin-bowl-2026-05-08-6-pm/concert/18052151"
-        },
-        {
-          "title": "it's murph",
-          "date": "2026-05-10",
-          "venue": "BOXPAC Project",
-          "city": "Salt Lake City, UT",
-          "capacity": 0,
-          "score": 0.3736258274,
-          "url": "https://seatgeek.com/it-s-murph-tickets/salt-lake-city-utah-boxpac-project-2026-05-09-9-pm/concert/18052153"
-        },
-        {
-          "title": "it's murph",
-          "date": "2026-05-30",
-          "venue": "The Fillmore - Charlotte",
-          "city": "Charlotte, NC",
-          "capacity": 2000,
-          "score": 0.338064687,
-          "url": "https://seatgeek.com/it-s-murph-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-05-29-8-pm/concert/18052155"
-        },
-        {
-          "title": "it's murph",
-          "date": "2026-05-30",
-          "venue": "Jannus Live",
-          "city": "Saint Petersburg, FL",
-          "capacity": 850,
-          "score": 0.4124662919,
-          "url": "https://seatgeek.com/it-s-murph-tickets/saint-petersburg-florida-jannus-live-2026-05-30-7-pm/concert/18052157"
-        }
-      ],
       "upcomingShows": 9,
       "tourDates": [
         {
@@ -3213,7 +3735,7 @@
           "venue": "Bicentennial Capitol Mall State Park",
           "city": "Nashville, TN",
           "capacity": 0,
-          "score": 0.341576949,
+          "score": 0.3502889987,
           "url": "https://seatgeek.com/it-s-murph-tickets/nashville-tennessee-bicentennial-capitol-mall-state-park-2026-03-21-3-pm/concert/18028555"
         },
         {
@@ -3222,7 +3744,7 @@
           "venue": "Red Rocks Amphitheatre",
           "city": "Morrison, CO",
           "capacity": 9450,
-          "score": 0.633799345,
+          "score": 0.6360023818,
           "url": "https://seatgeek.com/it-s-murph-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-04-8-pm/concert/17810692"
         },
         {
@@ -3231,7 +3753,7 @@
           "venue": "The Ritz - Raleigh",
           "city": "Raleigh, NC",
           "capacity": 2000,
-          "score": 0.4932124558,
+          "score": 0.4943590254,
           "url": "https://seatgeek.com/it-s-murph-tickets/raleigh-north-carolina-the-ritz-raleigh-2026-04-17-7-pm/concert/18052149"
         },
         {
@@ -3240,7 +3762,7 @@
           "venue": "Berhta",
           "city": "Washington, DC",
           "capacity": 0,
-          "score": 0.3618800131,
+          "score": 0.4174644776,
           "url": "https://seatgeek.com/it-s-murph-tickets/washington-district-of-columbia-berhta-2026-04-18-4-pm/concert/18052145"
         },
         {
@@ -3249,7 +3771,7 @@
           "venue": "Malkin Bowl",
           "city": "Vancouver, BC",
           "capacity": 1500,
-          "score": 0.251020543,
+          "score": 0.2509027408,
           "url": "https://seatgeek.com/it-s-murph-tickets/vancouver-canada-malkin-bowl-2026-05-08-6-pm/concert/18052151"
         },
         {
@@ -3258,7 +3780,7 @@
           "venue": "BOXPAC Project",
           "city": "Salt Lake City, UT",
           "capacity": 0,
-          "score": 0.3736258274,
+          "score": 0.3537464154,
           "url": "https://seatgeek.com/it-s-murph-tickets/salt-lake-city-utah-boxpac-project-2026-05-09-9-pm/concert/18052153"
         },
         {
@@ -3267,7 +3789,7 @@
           "venue": "The Fillmore - Charlotte",
           "city": "Charlotte, NC",
           "capacity": 2000,
-          "score": 0.338064687,
+          "score": 0.3164807608,
           "url": "https://seatgeek.com/it-s-murph-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-05-29-8-pm/concert/18052155"
         },
         {
@@ -3276,14 +3798,13 @@
           "venue": "Jannus Live",
           "city": "Saint Petersburg, FL",
           "capacity": 850,
-          "score": 0.4124662919,
+          "score": 0.4345116801,
           "url": "https://seatgeek.com/it-s-murph-tickets/saint-petersburg-florida-jannus-live-2026-05-30-7-pm/concert/18052157"
         }
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 17,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-d60b99/677165/47517/huge.jpg"
+      "risingStarScore": 17
     },
     {
       "name": "The Elovaters",
@@ -3305,10 +3826,9 @@
       "_cachedAt": "2026-03-06T16:40:32.920Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 16,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/the-elovaters-e6d1ff/23682/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 16
     },
     {
       "name": "Knock2",
@@ -3330,10 +3850,9 @@
       "_cachedAt": "2026-03-06T16:39:29.944Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 16,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/knock2-9a7792/805173/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 16
     },
     {
       "name": "Tape B",
@@ -3355,10 +3874,9 @@
       "_cachedAt": "2026-03-06T16:40:37.226Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 16,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tape-b-3d4fca/801319/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 16
     },
     {
       "name": "INZO",
@@ -3380,10 +3898,9 @@
       "_cachedAt": "2026-03-06T16:40:44.907Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 16,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/inzo-d694fe/751279/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 16
     },
     {
       "name": "Nate Jackson",
@@ -3405,10 +3922,9 @@
       "_cachedAt": "2026-03-06T16:39:45.312Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 16,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/nate-jackson-2a707b/254561/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 16
     },
     {
       "name": "MOLIY",
@@ -3430,10 +3946,9 @@
       "_cachedAt": "2026-03-06T16:40:23.188Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 16,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/moliy-97a6f5/1965802/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 16
     },
     {
       "name": "Sammy Virji",
@@ -3455,10 +3970,9 @@
       "_cachedAt": "2026-03-06T16:40:48.796Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 15,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/sammy-virji-94b8af/807993/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 15
     },
     {
       "name": "Luke Combs",
@@ -3483,6 +3997,82 @@
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/718COspgdWOnwOFpJHRZHS",
+      "_cachedAt": "2026-03-07T11:00:30.435Z",
+      "_upcomingShows": 13,
+      "_tourDates": [
+        {
+          "title": "Luke Combs with Dierks Bentley, Ty Myers and Thelma & James",
+          "date": "2026-03-22",
+          "venue": "Allegiant Stadium",
+          "city": "Las Vegas, NV",
+          "capacity": 0,
+          "score": 0.8215225931,
+          "url": "https://seatgeek.com/luke-combs-tickets/las-vegas-nevada-allegiant-stadium-2026-03-21-5-50-pm/concert/17808786"
+        },
+        {
+          "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+          "date": "2026-04-04",
+          "venue": "Scott Stadium",
+          "city": "Charlottesville, VA",
+          "capacity": 0,
+          "score": 0.7065864647,
+          "url": "https://seatgeek.com/luke-combs-tickets/charlottesville-virginia-scott-stadium-2026-04-04-5-20-pm/concert/17808788"
+        },
+        {
+          "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+          "date": "2026-04-11",
+          "venue": "MidAmerican Energy Field at Jack Trice Stadium",
+          "city": "Ames, IA",
+          "capacity": 0,
+          "score": 0.6630071834,
+          "url": "https://seatgeek.com/luke-combs-tickets/ames-iowa-midamerican-energy-field-at-jack-trice-stadium-2026-04-11-5-20-pm/concert/17808787"
+        },
+        {
+          "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+          "date": "2026-04-18",
+          "venue": "Notre Dame Stadium",
+          "city": "Notre Dame, IN",
+          "capacity": 0,
+          "score": 0.7242163104,
+          "url": "https://seatgeek.com/luke-combs-tickets/notre-dame-indiana-notre-dame-stadium-2026-04-18-5-20-pm/concert/17808790"
+        },
+        {
+          "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+          "date": "2026-04-25",
+          "venue": "Ohio Stadium",
+          "city": "Columbus, OH",
+          "capacity": 0,
+          "score": 0.7184248937,
+          "url": "https://seatgeek.com/luke-combs-tickets/columbus-ohio-ohio-stadium-2026-04-25-5-20-pm/concert/17808789"
+        },
+        {
+          "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+          "date": "2026-05-02",
+          "venue": "Neyland Stadium",
+          "city": "Knoxville, TN",
+          "capacity": 0,
+          "score": 0.6635734525,
+          "url": "https://seatgeek.com/luke-combs-tickets/knoxville-tennessee-neyland-stadium-2026-05-02-5-20-pm/concert/17808791"
+        },
+        {
+          "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+          "date": "2026-05-09",
+          "venue": "Gaylord Family Oklahoma Memorial Stadium",
+          "city": "Norman, OK",
+          "capacity": 86112,
+          "score": 0.6908021147,
+          "url": "https://seatgeek.com/luke-combs-tickets/norman-oklahoma-gaylord-family-oklahoma-memorial-stadium-2026-05-09-5-pm/concert/17808803"
+        },
+        {
+          "title": "Luke Combs with Dierks Bentley, Ty Myers, Jake Worthington and Thelma & James",
+          "date": "2026-05-15",
+          "venue": "Lambeau Field",
+          "city": "Green Bay, WI",
+          "capacity": 0,
+          "score": 0.6253088508,
+          "url": "https://seatgeek.com/luke-combs-tickets/green-bay-wisconsin-lambeau-field-2026-05-15-5-20-pm/concert/17835227"
+        }
+      ],
       "upcomingShows": 13,
       "tourDates": [
         {
@@ -3560,8 +4150,7 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 15,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/luke-combs-5e4efc/347303/huge.jpg"
+      "risingStarScore": 15
     },
     {
       "name": "Bob Moses",
@@ -3739,8 +4328,7 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 14,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/bob-moses-9291b5/134030/huge.jpg"
+      "risingStarScore": 14
     },
     {
       "name": "Violet Grohl",
@@ -3786,10 +4374,9 @@
       "_cachedAt": "2026-03-06T16:40:41.012Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 12,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/lsdream-9b66f0/693020/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 12
     },
     {
       "name": "Ravenscoon",
@@ -3811,10 +4398,9 @@
       "_cachedAt": "2026-03-06T16:40:42.954Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 12,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ravenscoon-73977f/796722/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 12
     },
     {
       "name": "Goose",
@@ -3836,10 +4422,9 @@
       "_cachedAt": "2026-03-06T16:38:54.728Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 12,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-6e7fea/677165/35972/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 12
     },
     {
       "name": "FentiFriedChicken",
@@ -3861,8 +4446,8 @@
       "_cachedAt": "2026-03-06T16:39:47.152Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
       "risingStarScore": 12
     },
     {
@@ -3885,10 +4470,9 @@
       "_cachedAt": "2026-03-06T16:39:52.777Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 12,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/carlita-003d7a/809260/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 12
     },
     {
       "name": "Proppa",
@@ -3910,10 +4494,9 @@
       "_cachedAt": "2026-03-06T16:39:56.563Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 12,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/proppa-82c858/1967882/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 12
     },
     {
       "name": "Brunello",
@@ -3935,10 +4518,9 @@
       "_cachedAt": "2026-03-06T16:39:58.513Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 12,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mario-brunello-9891a8/522686/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 12
     },
     {
       "name": "KinAhau",
@@ -3960,10 +4542,9 @@
       "_cachedAt": "2026-03-06T16:40:00.363Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 12,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/kinahau-53dcb8/1961383/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 12
     },
     {
       "name": "Jutes",
@@ -3985,10 +4566,9 @@
       "_cachedAt": "2026-03-06T16:39:21.862Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 12,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jutes-2e6f17/1961959/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 12
     },
     {
       "name": "Febuary",
@@ -4010,8 +4590,8 @@
       "_cachedAt": "2026-03-06T16:40:12.029Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
       "risingStarScore": 12
     },
     {
@@ -4034,10 +4614,9 @@
       "_cachedAt": "2026-03-06T16:40:17.663Z",
       "upcomingShows": 0,
       "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 12,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/vincent-mason-f7034a/1955531/huge.jpg"
+      "listenerGrowth": 0,
+      "isNewToTracking": false,
+      "risingStarScore": 12
     },
     {
       "name": "Liquid Stranger",
@@ -4061,8 +4640,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/liquid-stranger-e15c50/31994/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Sara Landry",
@@ -4086,8 +4664,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": false,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/sara-landry-683f44/807058/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Cloonee",
@@ -4111,8 +4688,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/cloonee-0e4267/725815/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Seven Lions",
@@ -4284,8 +4860,7 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/seven-lions-dd9926/25009/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Jon Bellion",
@@ -4309,68 +4884,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jon-bellion-463f61/261158/huge.jpg"
-    },
-    {
-      "name": "Jelly Roll",
-      "tier": "A",
-      "genre": "Popular",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
-    },
-    {
-      "name": "Bailey Zimmerman",
-      "tier": "A",
-      "genre": "Popular",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/bailey-zimmerman-23dd91/797285/huge.jpg"
-    },
-    {
-      "name": "Lainey Wilson",
-      "tier": "A",
-      "genre": "Popular",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/lainey-wilson-587fb3/703721/huge.jpg"
-    },
-    {
-      "name": "Shaboozey",
-      "tier": "B",
-      "genre": "Popular",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/shaboozey-8ec091/809672/huge.jpg"
-    },
-    {
-      "name": "Tommy Richman",
-      "tier": "A",
-      "genre": "Popular",
-      "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
-      "listenerGrowth": null,
-      "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tommy-richman-ff71c6/1956804/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Doja Cat",
@@ -4381,8 +4895,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/doja-cat-383d1c/297762/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Deftones",
@@ -4393,8 +4906,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-sports-6d25d0/677214/35941/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "The Killers",
@@ -4405,8 +4917,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/depeche-mode-the-killers-tributes-1f0344/709052/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Cage The Elephant",
@@ -4417,8 +4928,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/cage-the-elephant-58f5f9/4276/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Twenty One Pilots",
@@ -4429,8 +4939,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/twenty-one-pilots-85d95d/15670/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Tame Impala",
@@ -4441,8 +4950,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tame-impala-f07574/6284/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Japanese Breakfast",
@@ -4453,8 +4961,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/japanese-breakfast-6ebe08/666653/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Turnstile",
@@ -4465,8 +4972,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/turnstile-1-a2122e/159824/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Fontaines D.C.",
@@ -4477,8 +4983,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/fontaines-d-c-b4e9a7/663776/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Mannequin Pussy",
@@ -4489,8 +4994,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mannequin-pussy-182bfa/310661/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Snail Mail",
@@ -4501,8 +5005,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/snail-mail-1c2b5c/607199/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Soccer Mommy",
@@ -4513,8 +5016,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/soccer-mommy-e06b4d/586506/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Alex G",
@@ -4525,8 +5027,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/alex-g-fe358c/76445/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "MJ Lenderman",
@@ -4537,8 +5038,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mj-lenderman-2f7d4d/780208/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Geese",
@@ -4549,8 +5049,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/geese-bb198e/794882/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Black Country New Road",
@@ -4561,8 +5060,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/black-country-new-road-c4213a/795399/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Dry Cleaning",
@@ -4573,8 +5071,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/dry-cleaning-fd6bfc/788059/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Yard Act",
@@ -4585,8 +5082,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/yard-act-e7e7ee/797257/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Wet Leg",
@@ -4597,8 +5093,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/wet-leg-14f41d/795993/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Beabadoobee",
@@ -4609,8 +5104,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/beabadoobee-982876/749283/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "PinkPantheress",
@@ -4621,8 +5115,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/pinkpantheress-eff089/796567/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Raye",
@@ -4633,8 +5126,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/raye-44e75c/325253/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "FKA twigs",
@@ -4645,8 +5137,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/fka-twigs-a02397/272390/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Men I Trust",
@@ -4657,8 +5148,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/men-i-trust-d30211/483095/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Peach Pit",
@@ -4669,8 +5159,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/peach-pit-3d8024/511342/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Dijon",
@@ -4681,8 +5170,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/dijon-b38326/715434/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Ravyn Lenae",
@@ -4693,8 +5181,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ravyn-lenae-e82d78/396346/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Big Thief",
@@ -4705,8 +5192,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/big-thief-935565/304126/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Waxahatchee",
@@ -4717,8 +5203,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/waxahatchee-8dbf9f/60936/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Cat Power",
@@ -4729,8 +5214,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/cat-power-d7f53b/418/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Lucy Dacus",
@@ -4741,8 +5225,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/lucy-dacus-cfc398/358064/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Mitski",
@@ -4753,8 +5236,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mitski-3c207d/302319/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Kim Gordon",
@@ -4765,8 +5247,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/kim-gordon-c0c18f/753075/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "St. Vincent",
@@ -4777,8 +5258,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-college-basketball-c62a73/677205/35949/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Perfume Genius",
@@ -4789,8 +5269,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/perfume-genius-c2896d/14719/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Skrillex",
@@ -4812,8 +5291,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/john-summit-5ef927/783794/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Dom Dolla",
@@ -4824,8 +5302,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/dom-dolla-dfa72e/471021/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Chris Lake",
@@ -4836,8 +5313,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/chris-laker-43c0c2/312137/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Disclosure",
@@ -4848,8 +5324,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/disclosure-144433/23775/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "RÜFÜS DU SOL",
@@ -4860,8 +5335,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/rufus-du-sol-0323b1/267482/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Lane 8",
@@ -4872,8 +5346,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/lane-8-c8d165/293706/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Above & Beyond",
@@ -4884,8 +5357,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/above-beyond-a8ef0e/6683/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "ZHU",
@@ -4896,8 +5368,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/zhuki-b19e9c/156272/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Griz",
@@ -4908,8 +5379,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/grizmatik-44362a/160799/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "CloZee",
@@ -4920,8 +5390,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/clozee-be798a/342423/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Elderbrook",
@@ -4932,8 +5401,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/elderbrook-c49481/373610/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Four Tet",
@@ -4944,8 +5412,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/four-tet-bf83c1/4129/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Jamie xx",
@@ -4956,8 +5423,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jamie-xx-67541d/22175/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Tycho",
@@ -4968,8 +5434,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tycho-fd6059/11940/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Big Wild",
@@ -4980,8 +5445,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/big-wild-3b379b/303756/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Louis The Child",
@@ -4992,8 +5456,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/louis-the-child-6135a0/309697/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Madeon",
@@ -5004,8 +5467,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Porter Robinson",
@@ -5016,8 +5478,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/porter-robinson-cdc124/11870/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Illenium",
@@ -5028,8 +5489,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/illenium-71aaec/297734/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Excision",
@@ -5040,8 +5500,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/excision-fcc947/7257/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Zeds Dead",
@@ -5052,8 +5511,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/zeds-dead-af57b3/9722/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "GRiZ",
@@ -5064,8 +5522,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/grizmatik-44362a/160799/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Tiesto",
@@ -5076,8 +5533,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tiesto-27db95/622/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "deadmau5",
@@ -5088,8 +5544,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/deadmau5-69ff71/569/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Eric Prydz",
@@ -5100,8 +5555,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-6e7fea/677165/35972/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Peggy Gou",
@@ -5112,8 +5566,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/peggy-gou-5ec6b2/694677/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Charlotte De Witte",
@@ -5124,8 +5577,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Amelie Lens",
@@ -5136,8 +5588,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/amelie-lens-ec91cb/413738/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "I Hate Models",
@@ -5148,8 +5599,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/i-hate-models-f15f4c/661509/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Indira Paganotto",
@@ -5160,8 +5610,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/indira-paganotto-c14d28/803076/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "HoneyLuv",
@@ -5172,8 +5621,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/honeyluv-87c5ef/801507/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "LP Giobbi",
@@ -5184,8 +5632,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/lp-giobbi-e10b01/721189/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Of The Trees",
@@ -5196,8 +5643,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/of-the-trees-a76c1f/343673/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Wreckno",
@@ -5208,8 +5654,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/wreckno-0ce5c3/794854/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "G Jones",
@@ -5220,8 +5665,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-comedy-fa0d9e/677157/35975/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Eprom",
@@ -5232,8 +5676,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/eprom-e23491/28538/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Chase & Status",
@@ -5244,8 +5687,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/chase-status-6d5f09/13746/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Dimension",
@@ -5256,8 +5698,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-6e7fea/677165/35972/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Sub Focus",
@@ -5268,8 +5709,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/sub-focus-02fe5d/22560/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Netsky",
@@ -5280,8 +5720,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/netsky-58207e/26657/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Nate Bargatze",
@@ -5292,8 +5731,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/nate-bargatze-9a2b78/20947/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Shane Gillis",
@@ -5304,8 +5742,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/shane-gillis-742abb/701771/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Mark Normand",
@@ -5316,8 +5753,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mark-normand-b7c8b4/108506/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Theo Von",
@@ -5328,8 +5764,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/theo-von-daae6e/145993/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Andrew Schulz",
@@ -5340,8 +5775,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/andrew-schulz-14cc28/21037/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "John Mulaney",
@@ -5352,8 +5786,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/john-mulaney-77969c/10230/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Ali Wong",
@@ -5364,8 +5797,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ali-wong-47e2f3/14398/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Hasan Minhaj",
@@ -5376,8 +5808,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/hasan-minhaj-83bb66/305200/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Sebastian Maniscalco",
@@ -5388,8 +5819,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/sebastian-maniscalco-837c62/11090/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Bert Kreischer",
@@ -5400,8 +5830,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/bert-kreischer-e93a03/11087/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Whitney Cummings",
@@ -5412,8 +5841,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/whitney-cummings-f88380/9912/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Iliza Shlesinger",
@@ -5424,8 +5852,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/iliza-shlesinger-516af6/14496/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Taylor Tomlinson",
@@ -5436,8 +5863,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/taylor-tomlinson-04b4cb/307847/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Nikki Glaser",
@@ -5448,8 +5874,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/nikki-glaser-12138f/18761/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Matt Friend",
@@ -5460,8 +5885,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/matt-friend-6a96d3/809752/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Ronny Chieng",
@@ -5472,8 +5896,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ronny-chieng-c95426/370900/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Deon Cole",
@@ -5484,8 +5907,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/deon-cole-79f1be/13252/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Fortune Feimster",
@@ -5496,8 +5918,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/fortune-feimster-3131a0/62286/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Matteo Lane",
@@ -5508,8 +5929,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/matteo-lane-9f74c7/267552/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Rachel Bloom",
@@ -5520,8 +5940,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/rachel-bloom-c56001/162726/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Tim Dillon",
@@ -5532,8 +5951,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tim-dillon-0bf448/502986/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Kill Tony",
@@ -5544,8 +5962,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-comedy-fa0d9e/677157/35975/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Tony Hinchcliffe",
@@ -5556,8 +5973,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tony-hinchcliffe-e1be58/260143/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Bobby Lee",
@@ -5568,8 +5984,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/bobby-lee-49ee44/8320/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Andrew Santino",
@@ -5580,8 +5995,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/andrew-santino-75c070/250334/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Sal Vulcano",
@@ -5592,8 +6006,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/sal-vulcano-06b2bb/610362/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Joe List",
@@ -5604,8 +6017,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/joe-list-c8bf5a/21015/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Dan Soder",
@@ -5616,8 +6028,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/dan-soder-4d54ae/21012/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Big Jay Oakerson",
@@ -5628,8 +6039,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/big-jay-oakerson-4fac59/18314/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Yannis Pappas",
@@ -5640,8 +6050,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/yannis-pappas-47d9b5/25510/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Akaash Singh",
@@ -5652,8 +6061,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/akaash-singh-b385d0/779448/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Nimesh Patel",
@@ -5664,8 +6072,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/nimesh-patel-d335e2/798721/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Jerrod Carmichael",
@@ -5676,8 +6083,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-comedy-fa0d9e/677157/35975/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Michelle Buteau",
@@ -5688,8 +6094,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/michelle-buteau-5a05db/106644/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Sam Jay",
@@ -5700,8 +6105,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/sam-jay-c3bcba/314639/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Dulce Sloan",
@@ -5712,8 +6116,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/dulce-sloan-6aa994/557109/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Liza Treyger",
@@ -5724,8 +6127,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/liza-treyger-4000f3/286785/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Ian Fidance",
@@ -5736,8 +6138,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ian-fidance-7a87ac/720668/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Jacqueline Novak",
@@ -5748,8 +6149,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-theater-9d56d0/677168/35973/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Cody Johnson",
@@ -5760,8 +6160,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/cody-johnson-5618d4/60868/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Parker McCollum",
@@ -5772,8 +6171,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/parker-mccollum-037db3/340818/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Cody Jinks",
@@ -5784,8 +6182,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/cody-jinks-26964c/87766/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Turnpike Troubadours",
@@ -5796,8 +6193,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/turnpike-troubadours-b07ef2/15777/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Caamp",
@@ -5808,8 +6204,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/caamp-7cc5a7/592446/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Sierra Ferrell",
@@ -5820,8 +6215,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/sierra-ferrell-6f0197/695289/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Charley Crockett",
@@ -5832,8 +6226,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/charley-crockett-ec0cdc/474029/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Colter Wall",
@@ -5844,8 +6237,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/colter-wall-6ea81a/414543/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Jason Isbell",
@@ -5856,8 +6248,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jason-isbell-d070f7/920/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Billy Strings",
@@ -5868,8 +6259,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/billy-strings-873364/299503/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Trampled by Turtles",
@@ -5880,8 +6270,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/trampled-by-turtles-3479b6/1937/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Hailey Whitters",
@@ -5892,8 +6281,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/hailey-whitters-a67f1a/357776/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Megan Moroney",
@@ -5904,8 +6292,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/megan-moroney-6d1465/801315/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Ella Langley",
@@ -5916,8 +6303,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ella-langley-2fc8bc/795429/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Nate Smith",
@@ -5928,8 +6314,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/nate-smith-1-f97b73/807217/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Muscadine Bloodline",
@@ -5940,8 +6325,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/muscadine-bloodline-3179c4/476260/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Flatland Cavalry",
@@ -5952,8 +6336,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/flatland-cavalry-2e4752/383263/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Koe Wetzel",
@@ -5964,8 +6347,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/koe-wetzel-277b19/571455/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Whiskey Myers",
@@ -5976,8 +6358,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/whiskey-myers-20cf1d/15372/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Midland",
@@ -5988,8 +6369,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/midland-ea441a/29032/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Brothers Osborne",
@@ -6000,8 +6380,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/brothers-osborne-12e1cd/257168/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Old Crow Medicine Show",
@@ -6012,8 +6391,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/old-crow-medicine-show-91294d/1365/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Greensky Bluegrass",
@@ -6024,8 +6402,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/greensky-bluegrass-4ebb1a/9656/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Railroad Earth",
@@ -6036,8 +6413,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/railroad-earth-d7bea6/1486/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "The Avett Brothers",
@@ -6048,8 +6424,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/the-avett-brothers-187cdc/1768/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Brandi Carlile",
@@ -6060,8 +6435,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/brandi-carlile-s-mothership-weekend-df6a18/800918/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Marcus King",
@@ -6072,8 +6446,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/marcus-king-64699c/325718/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Larkin Poe",
@@ -6084,8 +6457,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/larkin-poe-a2fd88/58156/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Orville Peck",
@@ -6096,8 +6468,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/orville-peck-e8df29/700342/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Tanya Tucker",
@@ -6108,8 +6479,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tanya-tucker-4fa549/1740/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Wynonna Judd",
@@ -6120,8 +6490,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/wynonna-judd-bf3ae0/2028/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Ashley McBryde",
@@ -6132,8 +6501,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ashley-mcbryde-014a08/436785/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Elle King",
@@ -6144,8 +6512,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/elle-king-3c205e/268760/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Hardy",
@@ -6156,8 +6523,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-6e7fea/677165/35972/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Ernest",
@@ -6168,8 +6534,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Jessie Murph",
@@ -6180,8 +6545,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/jessie-murph-72428f/794942/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Warren Zeiders",
@@ -6192,8 +6556,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/warren-zeiders-08b72b/797196/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Kameron Marlowe",
@@ -6204,8 +6567,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/kameron-marlowe-894730/793039/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Freddie Gibbs",
@@ -6216,8 +6578,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/freddie-gibbs-madlib-7710e0/729760/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Vince Staples",
@@ -6228,8 +6589,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/vince-staples-7a783c/101828/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Smino",
@@ -6240,8 +6600,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/smino-f4a682/412236/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "IDK",
@@ -6252,8 +6611,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Curren$y",
@@ -6264,8 +6622,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/curren-y-837ea5/7636/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Boldy James",
@@ -6276,8 +6633,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/boldy-james-ac2246/134083/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Danny Brown",
@@ -6288,8 +6644,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/danny-brown-5cc429/19889/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Armand Hammer",
@@ -6300,8 +6655,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/armand-hammer-cf7b7c/752440/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Injury Reserve",
@@ -6312,8 +6666,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/injury-reserve-4becde/420718/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Saba",
@@ -6324,8 +6677,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Little Simz",
@@ -6336,8 +6688,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/little-simz-38b7a7/294393/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Summer Walker",
@@ -6348,8 +6699,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/summer-walker-ba4d4e/691095/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Rival Sons",
@@ -6360,8 +6710,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/rival-sons-54ba1b/10596/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Spiritbox",
@@ -6372,8 +6721,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/spiritbox-ea6e5f/795827/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Knocked Loose",
@@ -6384,8 +6732,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/knocked-loose-742ab0/347395/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Turnover",
@@ -6396,8 +6743,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/turnover-us-7c6f30/655801/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Touche Amore",
@@ -6408,8 +6754,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/touche-amore-1b8d32/13561/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Deafheaven",
@@ -6420,8 +6765,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/deafheaven-c019a3/17498/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Show Me The Body",
@@ -6432,8 +6776,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/show-me-the-body-204ede/405046/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Drain",
@@ -6444,8 +6787,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/drainland-22b467/175046/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Militarie Gun",
@@ -6456,8 +6798,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/militarie-gun-172029/796965/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Osees",
@@ -6468,8 +6809,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/osees-7f8c8d/2657/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Ty Segall",
@@ -6480,8 +6820,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ty-segall-d0ddb4/10320/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Thee Oh Sees",
@@ -6492,8 +6831,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-6e7fea/677165/35972/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Frankie and the Witch Fingers",
@@ -6504,8 +6842,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/frankie-and-the-witch-fingers-8e0338/777731/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Psychedelic Porn Crumpets",
@@ -6516,8 +6853,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/psychedelic-porn-crumpets-bf6fae/528802/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Power Trip",
@@ -6528,8 +6864,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/power-trip-la-e599fd/674471/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "High On Fire",
@@ -6540,8 +6875,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/high-on-fire-49cc76/5013/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Melvins",
@@ -6552,8 +6886,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/melvins-seals-and-jgb-a940c1/745603/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Queens of the Stone Age",
@@ -6564,8 +6897,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/queens-of-the-stone-age-573334/7978/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Mastodon",
@@ -6576,8 +6908,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/mastodon-989bca/1205/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Baroness",
@@ -6588,8 +6919,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/baroness-88a1f6/22514/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Gojira",
@@ -6600,8 +6930,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/gojira-5773ae/801/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Widespread Panic",
@@ -6612,8 +6941,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-6e7fea/677165/35972/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Lettuce",
@@ -6624,8 +6952,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/lettuce-1e10df/9051/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Lotus",
@@ -6636,8 +6963,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "STS9",
@@ -6648,8 +6974,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/david-phipps-of-sts9-7541ca/680440/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "moe.",
@@ -6660,8 +6985,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-95afb8/677165/47517/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Dark Star Orchestra",
@@ -6672,8 +6996,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/dark-star-orchestra-6f7191/542/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Pigeons Playing Ping Pong",
@@ -6684,8 +7007,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/pigeons-playing-ping-pong-abb4f7/14980/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Eggy",
@@ -6696,8 +7018,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/eggy-a35c44/779420/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Neighbor",
@@ -6708,8 +7029,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/neighbor-3f17e9/456283/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Spafford",
@@ -6720,8 +7040,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/spafford-fbc1a6/102962/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Circles Around The Sun",
@@ -6732,8 +7051,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/circles-around-the-sun-b85f33/599240/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Tauk",
@@ -6744,8 +7062,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tauking-mcgee-77868b/424836/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Cory Wong",
@@ -6756,8 +7073,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/cory-wong-eefd95/651405/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Snarky Puppy",
@@ -6768,8 +7084,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-concerts-6e7fea/677165/35972/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Lake Street Dive",
@@ -6780,8 +7095,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/lake-street-dive-6e3359/32475/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Lawrence",
@@ -6792,8 +7106,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-comedy-fa0d9e/677157/35975/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "The Revivalists",
@@ -6804,8 +7117,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/the-revivalists-0bf840/20576/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Tank and the Bangas",
@@ -6816,8 +7128,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/tank-and-the-bangas-05788c/259924/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Peso Pluma",
@@ -6828,8 +7139,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/generic-sports-400fe7/677214/35941/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Fuerza Regida",
@@ -6840,8 +7150,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/fuerza-regida-c53c88/774960/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Junior H",
@@ -6852,8 +7161,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/junior-h-a690ef/794936/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Ivan Cornejo",
@@ -6864,8 +7172,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/ivan-cornejo-858239/800610/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Los Tigres del Norte",
@@ -6876,8 +7183,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/los-tigres-del-norte-5f5b0e/1145/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Banda MS",
@@ -6888,8 +7194,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/banda-ms-be6011/147231/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Christian Nodal",
@@ -6900,8 +7205,7 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/christian-nodal-cb3720/639169/huge.jpg"
+      "risingStarScore": 10
     },
     {
       "name": "Carín León",
@@ -6912,8 +7216,103 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/carin-leon-b2ec9c/788493/huge.jpg"
+      "risingStarScore": 10
+    },
+    {
+      "name": "Lainey Wilson",
+      "tier": "A",
+      "genre": "Popular",
+      "source": "watchlist",
+      "monthlyListeners": 36,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": null,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/6tPHARSq45lQ8BSALCfkFC",
+      "upcomingShows": 18,
+      "tourDates": [
+        {
+          "title": "Houston Rodeo - Lainey Wilson",
+          "date": "2026-03-19",
+          "venue": "NRG Stadium",
+          "city": "Houston, TX",
+          "capacity": 0,
+          "score": 0.7737751676,
+          "url": "https://seatgeek.com/houston-rodeo-tickets/rodeo/2026-03-19-6-45-pm/17521815"
+        },
+        {
+          "title": "Lainey Wilson",
+          "date": "2026-03-21",
+          "venue": "Lucas Oil Live at WinStar World Casino and Resort",
+          "city": "Thackerville, OK",
+          "capacity": 6500,
+          "score": 0.7437321092,
+          "url": "https://seatgeek.com/lainey-wilson-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-03-20-8-pm/concert/17781198"
+        },
+        {
+          "title": "Lainey Wilson",
+          "date": "2026-03-22",
+          "venue": "Lucas Oil Live at WinStar World Casino and Resort",
+          "city": "Thackerville, OK",
+          "capacity": 6500,
+          "score": 0.7450754462,
+          "url": "https://seatgeek.com/lainey-wilson-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-03-21-8-pm/concert/17781199"
+        },
+        {
+          "title": "Lainey Wilson",
+          "date": "2026-04-12",
+          "venue": "Laughlin Event Center",
+          "city": "Laughlin, NV",
+          "capacity": 0,
+          "score": 0.6360388833,
+          "url": "https://seatgeek.com/lainey-wilson-tickets/laughlin-nevada-laughlin-event-center-2026-04-11-7-pm/concert/17890585"
+        },
+        {
+          "title": "Wallen & Wilson: Tribute To Morgan Wallen & Lainey Wilson",
+          "date": "2026-04-17",
+          "venue": "The Venue at Thunder Valley Casino Resort",
+          "city": "Lincoln, CA",
+          "capacity": 0,
+          "score": 0.2281399842,
+          "url": "https://seatgeek.com/legends-of-new-country-wallen-wilson-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2026-04-16-7-30-pm/concert/17808732"
+        },
+        {
+          "title": "Stagecoach Country Music Festival with Cody Johnson, Lainey Wilson, Post Malone, and more  - 3 Day Pass",
+          "date": "2026-04-24",
+          "venue": "Empire Polo Club",
+          "city": "Indio, CA",
+          "capacity": 0,
+          "score": 0.5322674443,
+          "url": "https://seatgeek.com/stagecoach-country-music-festival-tickets/indio-california-empire-polo-club-2026-04-24-3-30-am/music-festival/17565099"
+        },
+        {
+          "title": "Stagecoach Country Music Festival with Lainey Wilson, Riley Green, Journey, and more- Saturday",
+          "date": "2026-04-25",
+          "venue": "Empire Polo Club",
+          "city": "Indio, CA",
+          "capacity": 0,
+          "score": 0.4775028943,
+          "url": "https://seatgeek.com/billy-bob-thornton-the-boxmasters-tickets/indio-california-empire-polo-club-2026-04-25-12-pm/concert/17565103"
+        },
+        {
+          "title": "New Orleans Jazz Festival: Weekend 2 - 4 Day Pass (4/30 - 5/3) with Eagles, Lainey Wilson, Teddy Swims, and more",
+          "date": "2026-04-30",
+          "venue": "New Orleans Fair Grounds",
+          "city": "New Orleans, LA",
+          "capacity": 0,
+          "score": 0.5288630133,
+          "url": "https://seatgeek.com/new-orleans-jazz-and-heritage-festival-tickets/new-orleans-louisiana-new-orleans-fair-grounds-2026-04-30-3-30-am/music-festival/17535681"
+        }
+      ],
+      "listenerGrowth": null,
+      "isNewToTracking": true,
+      "risingStarScore": 7
     },
     {
       "name": "Teddy Swims",
@@ -6932,6 +7331,82 @@
       "soldOutSnippets": [],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/33qOK5uJ8AR2xuQQAhHump",
+      "_cachedAt": "2026-03-07T11:00:09.484Z",
+      "_upcomingShows": 9,
+      "_tourDates": [
+        {
+          "title": "New Orleans Jazz Festival: Weekend 2 - 4 Day Pass (4/30 - 5/3) with Eagles, Lainey Wilson, Teddy Swims, and more",
+          "date": "2026-04-30",
+          "venue": "New Orleans Fair Grounds",
+          "city": "New Orleans, LA",
+          "capacity": 0,
+          "score": 0.5294599891,
+          "url": "https://seatgeek.com/new-orleans-jazz-and-heritage-festival-tickets/new-orleans-louisiana-new-orleans-fair-grounds-2026-04-30-3-30-am/music-festival/17535681"
+        },
+        {
+          "title": "BottleRock Napa Valley - Friday - with Lorde, Teddy Swims, Lil Wayne, and more",
+          "date": "2026-05-22",
+          "venue": "Napa Valley Expo",
+          "city": "Napa, CA",
+          "capacity": 0,
+          "score": 0.495610943,
+          "url": "https://seatgeek.com/bottlerock-napa-valley-tickets/napa-california-napa-valley-expo-2026-05-22-11-30-am/music-festival/17540864"
+        },
+        {
+          "title": "Teddy Swims",
+          "date": "2026-06-05",
+          "venue": "Mohegan Sun Arena",
+          "city": "Uncasville, CT",
+          "capacity": 12000,
+          "score": 0.5856747363,
+          "url": "https://seatgeek.com/teddy-swims-tickets/uncasville-connecticut-mohegan-sun-arena-2026-06-04-8-pm/concert/18035310"
+        },
+        {
+          "title": "Teddy Swims with Marc Scibilia",
+          "date": "2026-06-06",
+          "venue": "Constellation Brands-Marvin Sands Performing Arts Center: CMAC",
+          "city": "Canandaigua, NY",
+          "capacity": 5000,
+          "score": 0.5596159916,
+          "url": "https://seatgeek.com/teddy-swims-tickets/canandaigua-new-york-constellation-brands-marvin-sands-performing-arts-center-cmac-2026-06-05-8-pm/concert/18035999"
+        },
+        {
+          "title": "Teddy Swims with Marc Scibilia",
+          "date": "2026-06-08",
+          "venue": "Petersen Events Center",
+          "city": "Pittsburgh, PA",
+          "capacity": 12508,
+          "score": 0.4964596943,
+          "url": "https://seatgeek.com/teddy-swims-tickets/pittsburgh-pennsylvania-petersen-events-center-2026-06-07-8-pm/concert/18035755"
+        },
+        {
+          "title": "Teddy Swims with Marc Scibilia",
+          "date": "2026-06-10",
+          "venue": "Chartway Arena",
+          "city": "Norfolk, VA",
+          "capacity": 9100,
+          "score": 0.4994351537,
+          "url": "https://seatgeek.com/teddy-swims-tickets/norfolk-virginia-chartway-arena-2026-06-09-8-pm/concert/18037900"
+        },
+        {
+          "title": "Teddy Swims with Marc Scibilia",
+          "date": "2026-06-11",
+          "venue": "North Charleston Coliseum",
+          "city": "North Charleston, SC",
+          "capacity": 0,
+          "score": 0.4611762558,
+          "url": "https://seatgeek.com/teddy-swims-tickets/north-charleston-south-carolina-north-charleston-coliseum-2026-06-10-8-pm/concert/18035625"
+        },
+        {
+          "title": "Teddy Swims with Marc Scibilia",
+          "date": "2026-06-12",
+          "venue": "District Park",
+          "city": "Easley, SC",
+          "capacity": 0,
+          "score": 0.4187845652,
+          "url": "https://seatgeek.com/teddy-swims-tickets/easley-south-carolina-district-park-2026-06-12-7-pm/concert/18036782"
+        }
+      ],
       "upcomingShows": 9,
       "tourDates": [
         {
@@ -7009,8 +7484,7 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 3,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/teddy-swims-55bf84/781071/huge.jpg"
+      "risingStarScore": 3
     },
     {
       "name": "La Roux",
@@ -7029,82 +7503,6 @@
       "soldOutSnippets": [],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/3K2zB87GZv1krx031en5VA",
-      "_cachedAt": "2026-03-04T11:00:13.900Z",
-      "_upcomingShows": 25,
-      "_tourDates": [
-        {
-          "title": "Hilary Duff with La Roux and Jade LeMac",
-          "date": "2026-06-25",
-          "venue": "Ameris Bank Amphitheatre",
-          "city": "Alpharetta, GA",
-          "capacity": 0,
-          "score": 0.5904514963,
-          "url": "https://seatgeek.com/hilary-duff-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2026-06-25-7-pm/concert/18070218"
-        },
-        {
-          "title": "Hilary Duff with La Roux and Jade LeMac",
-          "date": "2026-06-28",
-          "venue": "The Cynthia Woods Mitchell Pavilion presented by Huntsman",
-          "city": "The Woodlands, TX",
-          "capacity": 17000,
-          "score": 0.6311341115,
-          "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219"
-        },
-        {
-          "title": "Hilary Duff with La Roux and Jade LeMac",
-          "date": "2026-06-29",
-          "venue": "Germania Insurance Amphitheater",
-          "city": "Austin, TX",
-          "capacity": 14000,
-          "score": 0.6370563455,
-          "url": "https://seatgeek.com/hilary-duff-tickets/austin-texas-germania-insurance-amphitheater-2026-06-28-7-pm/concert/18070223"
-        },
-        {
-          "title": "Hilary Duff with La Roux and Jade LeMac",
-          "date": "2026-07-01",
-          "venue": "The Pavilion at Toyota Music Factory",
-          "city": "Irving, TX",
-          "capacity": 0,
-          "score": 0.6066286415,
-          "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222"
-        },
-        {
-          "title": "Hilary Duff with La Roux and Jade LeMac",
-          "date": "2026-07-03",
-          "venue": "First Financial Credit Union Amphitheater",
-          "city": "Albuquerque, NM",
-          "capacity": 15000,
-          "score": 0.6098853124,
-          "url": "https://seatgeek.com/hilary-duff-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2026-07-02-7-pm/concert/18095401"
-        },
-        {
-          "title": "Hilary Duff with La Roux and Jade LeMac",
-          "date": "2026-07-04",
-          "venue": "Talking Stick Resort Amphitheatre",
-          "city": "Phoenix, AZ",
-          "capacity": 20000,
-          "score": 0.6215702574,
-          "url": "https://seatgeek.com/hilary-duff-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2026-07-03-7-pm/concert/18070230"
-        },
-        {
-          "title": "Hilary Duff with La Roux and Jade LeMac",
-          "date": "2026-07-09",
-          "venue": "Kia Forum",
-          "city": "Inglewood, CA",
-          "capacity": 18000,
-          "score": 0.5754765654,
-          "url": "https://seatgeek.com/hilary-duff-tickets/inglewood-california-kia-forum-2026-07-08-7-pm/concert/18070232"
-        },
-        {
-          "title": "Hilary Duff with La Roux and Jade LeMac",
-          "date": "2026-07-10",
-          "venue": "Kia Forum",
-          "city": "Inglewood, CA",
-          "capacity": 18000,
-          "score": 0.5915646328,
-          "url": "https://seatgeek.com/hilary-duff-tickets/inglewood-california-kia-forum-2026-07-09-7-pm/concert/18077386"
-        }
-      ],
       "upcomingShows": 25,
       "tourDates": [
         {
@@ -7113,7 +7511,7 @@
           "venue": "Ameris Bank Amphitheatre",
           "city": "Alpharetta, GA",
           "capacity": 0,
-          "score": 0.5904514963,
+          "score": 0.592932749,
           "url": "https://seatgeek.com/hilary-duff-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2026-06-25-7-pm/concert/18070218"
         },
         {
@@ -7122,7 +7520,7 @@
           "venue": "The Cynthia Woods Mitchell Pavilion presented by Huntsman",
           "city": "The Woodlands, TX",
           "capacity": 17000,
-          "score": 0.6311341115,
+          "score": 0.6190726537,
           "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219"
         },
         {
@@ -7131,7 +7529,7 @@
           "venue": "Germania Insurance Amphitheater",
           "city": "Austin, TX",
           "capacity": 14000,
-          "score": 0.6370563455,
+          "score": 0.6324332643,
           "url": "https://seatgeek.com/hilary-duff-tickets/austin-texas-germania-insurance-amphitheater-2026-06-28-7-pm/concert/18070223"
         },
         {
@@ -7140,7 +7538,7 @@
           "venue": "The Pavilion at Toyota Music Factory",
           "city": "Irving, TX",
           "capacity": 0,
-          "score": 0.6066286415,
+          "score": 0.6143337052,
           "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222"
         },
         {
@@ -7149,7 +7547,7 @@
           "venue": "First Financial Credit Union Amphitheater",
           "city": "Albuquerque, NM",
           "capacity": 15000,
-          "score": 0.6098853124,
+          "score": 0.529223154,
           "url": "https://seatgeek.com/hilary-duff-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2026-07-02-7-pm/concert/18095401"
         },
         {
@@ -7158,7 +7556,7 @@
           "venue": "Talking Stick Resort Amphitheatre",
           "city": "Phoenix, AZ",
           "capacity": 20000,
-          "score": 0.6215702574,
+          "score": 0.6256331457,
           "url": "https://seatgeek.com/hilary-duff-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2026-07-03-7-pm/concert/18070230"
         },
         {
@@ -7167,7 +7565,7 @@
           "venue": "Kia Forum",
           "city": "Inglewood, CA",
           "capacity": 18000,
-          "score": 0.5754765654,
+          "score": 0.5854443398,
           "url": "https://seatgeek.com/hilary-duff-tickets/inglewood-california-kia-forum-2026-07-08-7-pm/concert/18070232"
         },
         {
@@ -7176,14 +7574,109 @@
           "venue": "Kia Forum",
           "city": "Inglewood, CA",
           "capacity": 18000,
-          "score": 0.5915646328,
+          "score": 0.583228541,
           "url": "https://seatgeek.com/hilary-duff-tickets/inglewood-california-kia-forum-2026-07-09-7-pm/concert/18077386"
         }
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 2,
-      "imageUrl": "https://seatgeekimages.com/performers-landscape/la-roux-f2d541/2467/huge.jpg"
+      "risingStarScore": 2
+    },
+    {
+      "name": "Tommy Richman",
+      "tier": "A",
+      "genre": "Popular",
+      "source": "watchlist",
+      "monthlyListeners": 11100000,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "twitterFollowers": null,
+      "youtubeSubscribers": null,
+      "albumCount": 13,
+      "genres": [],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "topSong": null,
+      "spotifyUrl": "https://open.spotify.com/artist/1WaFQSHVGZQJTbf0BdxdNo",
+      "upcomingShows": 25,
+      "tourDates": [
+        {
+          "title": "The Kid LAROI with Tommy Richman",
+          "date": "2026-04-29",
+          "venue": "Coca-Cola Roxy Theatre",
+          "city": "Atlanta, GA",
+          "capacity": 3000,
+          "score": 0.5587315649,
+          "url": "https://seatgeek.com/the-kid-laroi-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-04-29-7-30-pm/concert/18076457"
+        },
+        {
+          "title": "The Kid LAROI with Tommy Richman",
+          "date": "2026-05-01",
+          "venue": "Yuengling Center",
+          "city": "Tampa, FL",
+          "capacity": 0,
+          "score": 0.5285602095,
+          "url": "https://seatgeek.com/the-kid-laroi-tickets/tampa-florida-yuengling-center-2026-05-01-7-30-pm/concert/18076459"
+        },
+        {
+          "title": "The Kid LAROI with Tommy Richman",
+          "date": "2026-05-03",
+          "venue": "The Fillmore - Charlotte",
+          "city": "Charlotte, NC",
+          "capacity": 2000,
+          "score": 0.5613808036,
+          "url": "https://seatgeek.com/the-kid-laroi-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-05-03-7-30-pm/concert/18076460"
+        },
+        {
+          "title": "The Kid LAROI with Tommy Richman",
+          "date": "2026-05-05",
+          "venue": "Leader Bank Pavilion",
+          "city": "Boston, MA",
+          "capacity": 0,
+          "score": 0.5329954061,
+          "url": "https://seatgeek.com/the-kid-laroi-tickets/boston-massachusetts-leader-bank-pavilion-2026-05-05-7-30-pm/concert/18076461"
+        },
+        {
+          "title": "The Kid LAROI with Tommy Richman",
+          "date": "2026-05-06",
+          "venue": "Toyota Oakdale Theatre",
+          "city": "Wallingford, CT",
+          "capacity": 0,
+          "score": 0.4785632899,
+          "url": "https://seatgeek.com/the-kid-laroi-tickets/wallingford-connecticut-toyota-oakdale-theatre-2026-05-06-7-30-pm/concert/18076462"
+        },
+        {
+          "title": "The Kid LAROI with Tommy Richman",
+          "date": "2026-05-08",
+          "venue": "The Met Philadelphia",
+          "city": "Philadelphia, PA",
+          "capacity": 0,
+          "score": 0.5520734821,
+          "url": "https://seatgeek.com/the-kid-laroi-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-05-08-7-30-pm/concert/18076469"
+        },
+        {
+          "title": "The Kid LAROI with Tommy Richman",
+          "date": "2026-05-12",
+          "venue": "The Anthem - DC",
+          "city": "Washington, DC",
+          "capacity": 0,
+          "score": 0.5135956854,
+          "url": "https://seatgeek.com/the-kid-laroi-tickets/washington-district-of-columbia-the-anthem-dc-2026-05-11-8-pm/concert/18076470"
+        },
+        {
+          "title": "The Kid LAROI with Tommy Richman",
+          "date": "2026-05-15",
+          "venue": "Coca-Cola Coliseum",
+          "city": "Toronto, ON",
+          "capacity": 9250,
+          "score": 0.4174183258,
+          "url": "https://seatgeek.com/the-kid-laroi-tickets/toronto-canada-coca-cola-coliseum-2026-05-15-7-30-pm/concert/18076497"
+        }
+      ],
+      "listenerGrowth": null,
+      "isNewToTracking": true,
+      "risingStarScore": 2
     }
   ]
 }

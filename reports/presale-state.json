@@ -99,6 +99,14 @@
     "Sal Vulcano-https://www.salvulcanotour.com/": {
       "firstSeen": "2026-03-07T17:00:02.802Z",
       "urgency": "TODAY"
+    },
+    "Tame Impala-https://www.ad-hoc-news.de/boerse/news/ueberblick/tame-impala-the-next-psychedelic-era-is-loading/68646066": {
+      "firstSeen": "2026-03-08T12:00:34.672Z",
+      "urgency": "CODE FOUND"
+    },
+    "PinkPantheress-https://prismatic.vipnation.eu/PinkPantheress": {
+      "firstSeen": "2026-03-08T12:00:34.672Z",
+      "urgency": "TODAY"
     }
   },
   "codes": {
@@ -109,5 +117,5 @@
       "foundAt": "2026-03-05T23:26:56.128Z"
     }
   },
-  "lastScan": "2026-03-07T22:00:04.361Z"
+  "lastScan": "2026-03-08T12:00:34.672Z"
 }

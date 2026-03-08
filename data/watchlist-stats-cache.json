@@ -18,7 +18,7 @@
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/5p9HO3XC5P3BLxJs5Mtrhm",
-    "_cachedAt": "2026-03-04T11:00:10.789Z",
+    "_cachedAt": "2026-03-08T10:00:07.174Z",
     "_upcomingShows": 0,
     "_tourDates": []
   },
@@ -35,7 +35,7 @@
     "soldOutSnippets": [],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/3K2zB87GZv1krx031en5VA",
-    "_cachedAt": "2026-03-04T11:00:13.900Z",
+    "_cachedAt": "2026-03-08T10:00:10.037Z",
     "_upcomingShows": 25,
     "_tourDates": [
       {
@@ -44,7 +44,7 @@
         "venue": "Ameris Bank Amphitheatre",
         "city": "Alpharetta, GA",
         "capacity": 0,
-        "score": 0.5904514963,
+        "score": 0.592932749,
         "url": "https://seatgeek.com/hilary-duff-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2026-06-25-7-pm/concert/18070218"
       },
       {
@@ -53,7 +53,7 @@
         "venue": "The Cynthia Woods Mitchell Pavilion presented by Huntsman",
         "city": "The Woodlands, TX",
         "capacity": 17000,
-        "score": 0.6311341115,
+        "score": 0.6190726537,
         "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219"
       },
       {
@@ -62,7 +62,7 @@
         "venue": "Germania Insurance Amphitheater",
         "city": "Austin, TX",
         "capacity": 14000,
-        "score": 0.6370563455,
+        "score": 0.6324332643,
         "url": "https://seatgeek.com/hilary-duff-tickets/austin-texas-germania-insurance-amphitheater-2026-06-28-7-pm/concert/18070223"
       },
       {
@@ -71,7 +71,7 @@
         "venue": "The Pavilion at Toyota Music Factory",
         "city": "Irving, TX",
         "capacity": 0,
-        "score": 0.6066286415,
+        "score": 0.6143337052,
         "url": "https://seatgeek.com/hilary-duff-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-06-30-7-pm/concert/18070222"
       },
       {
@@ -80,7 +80,7 @@
         "venue": "First Financial Credit Union Amphitheater",
         "city": "Albuquerque, NM",
         "capacity": 15000,
-        "score": 0.6098853124,
+        "score": 0.529223154,
         "url": "https://seatgeek.com/hilary-duff-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2026-07-02-7-pm/concert/18095401"
       },
       {
@@ -89,7 +89,7 @@
         "venue": "Talking Stick Resort Amphitheatre",
         "city": "Phoenix, AZ",
         "capacity": 20000,
-        "score": 0.6215702574,
+        "score": 0.6256331457,
         "url": "https://seatgeek.com/hilary-duff-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2026-07-03-7-pm/concert/18070230"
       },
       {
@@ -98,7 +98,7 @@
         "venue": "Kia Forum",
         "city": "Inglewood, CA",
         "capacity": 18000,
-        "score": 0.5754765654,
+        "score": 0.5854443398,
         "url": "https://seatgeek.com/hilary-duff-tickets/inglewood-california-kia-forum-2026-07-08-7-pm/concert/18070232"
       },
       {
@@ -107,7 +107,7 @@
         "venue": "Kia Forum",
         "city": "Inglewood, CA",
         "capacity": 18000,
-        "score": 0.5915646328,
+        "score": 0.583228541,
         "url": "https://seatgeek.com/hilary-duff-tickets/inglewood-california-kia-forum-2026-07-09-7-pm/concert/18077386"
       }
     ]
@@ -154,9 +154,9 @@
     "_cachedAt": "2026-03-06T16:40:27.285Z"
   },
   "allison russell": {
-    "monthlyListeners": 1000000,
+    "monthlyListeners": null,
     "spotifyFollowers": null,
-    "instagramFollowers": 132000,
+    "instagramFollowers": 133000,
     "tiktokFollowers": null,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
@@ -172,7 +172,7 @@
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/3JBmecDGXTll46ygrnGTM6",
-    "_cachedAt": "2026-03-04T11:00:22.281Z",
+    "_cachedAt": "2026-03-08T10:00:12.996Z",
     "_upcomingShows": 25,
     "_tourDates": [
       {
@@ -181,7 +181,7 @@
         "venue": "FirstBank Amphitheater",
         "city": "Franklin, TN",
         "capacity": 0,
-        "score": 0.2927235601,
+        "score": 0.2887292484,
         "url": "https://seatgeek.com/sarah-mclachlan-tickets/franklin-tennessee-firstbank-amphitheater-2026-07-01-7-30-pm/concert/18070702"
       },
       {
@@ -190,7 +190,7 @@
         "venue": "Synovus Bank Amphitheatre at Chastain Park",
         "city": "Atlanta, GA",
         "capacity": 0,
-        "score": 0.3544348941,
+        "score": 0.3489764872,
         "url": "https://seatgeek.com/sarah-mclachlan-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-07-03-7-30-pm/concert/18070703"
       },
       {
@@ -199,7 +199,7 @@
         "venue": "Filene Center at The Wolf Trap",
         "city": "Vienna, VA",
         "capacity": 7000,
-        "score": 0.4331430655,
+        "score": 0.4276206408,
         "url": "https://seatgeek.com/sarah-mclachlan-tickets/vienna-virginia-filene-center-at-the-wolf-trap-2026-07-05-7-pm/concert/18070749"
       },
       {
@@ -208,7 +208,7 @@
         "venue": "TD Pavilion at The Mann Center",
         "city": "Philadelphia, PA",
         "capacity": 7200,
-        "score": 0.4336440082,
+        "score": 0.4268145757,
         "url": "https://seatgeek.com/sarah-mclachlan-tickets/philadelphia-pennsylvania-td-pavilion-at-the-mann-center-2026-07-07-7-30-pm/concert/18070705"
       },
       {
@@ -217,7 +217,7 @@
         "venue": "Hartford HealthCare Amphitheater",
         "city": "Bridgeport, CT",
         "capacity": 0,
-        "score": 0.314488604,
+        "score": 0.3103046929,
         "url": "https://seatgeek.com/sarah-mclachlan-tickets/bridgeport-connecticut-hartford-healthcare-amphitheater-2026-07-08-7-30-pm/concert/18070704"
       },
       {
@@ -226,7 +226,7 @@
         "venue": "Leader Bank Pavilion",
         "city": "Boston, MA",
         "capacity": 0,
-        "score": 0.3814651353,
+        "score": 0.3760222191,
         "url": "https://seatgeek.com/sarah-mclachlan-tickets/boston-massachusetts-leader-bank-pavilion-2026-07-10-7-30-pm/concert/18070706"
       },
       {
@@ -235,7 +235,7 @@
         "venue": "Forest Hills Stadium",
         "city": "Forest Hills, NY",
         "capacity": 0,
-        "score": 0.3657287516,
+        "score": 0.3586699553,
         "url": "https://seatgeek.com/sarah-mclachlan-tickets/forest-hills-new-york-forest-hills-stadium-2026-07-11-7-pm/concert/18070701"
       },
       {
@@ -244,7 +244,7 @@
         "venue": "BankNH Pavilion",
         "city": "Gilford, NH",
         "capacity": 0,
-        "score": 0.3069046377,
+        "score": 0.301941244,
         "url": "https://seatgeek.com/sarah-mclachlan-tickets/gilford-new-hampshire-banknh-pavilion-2026-07-12-7-30-pm/concert/18070713"
       }
     ]
@@ -265,7 +265,7 @@
     "_cachedAt": "2026-03-06T16:40:29.133Z"
   },
   "crankdat": {
-    "monthlyListeners": 1000000,
+    "monthlyListeners": null,
     "spotifyFollowers": null,
     "instagramFollowers": null,
     "tiktokFollowers": 1100000,
@@ -277,8 +277,8 @@
     "soldOutSnippets": [],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/5lCekoJW9jNq01B1wiqdAb",
-    "_cachedAt": "2026-03-04T11:00:27.899Z",
-    "_upcomingShows": 7,
+    "_cachedAt": "2026-03-08T10:00:16.253Z",
+    "_upcomingShows": 8,
     "_tourDates": [
       {
         "title": "Crankdat with Whethan (18+)",
@@ -286,7 +286,7 @@
         "venue": "Tacoma Dome",
         "city": "Tacoma, WA",
         "capacity": 23000,
-        "score": 0.4223341485,
+        "score": 0.4460937578,
         "url": "https://seatgeek.com/crankdat-tickets/tacoma-washington-tacoma-dome-2026-03-21-7-pm/concert/17836683"
       },
       {
@@ -295,7 +295,7 @@
         "venue": "Red Rocks Amphitheatre",
         "city": "Morrison, CO",
         "capacity": 9450,
-        "score": 0.5289013413,
+        "score": 0.5404608661,
         "url": "https://seatgeek.com/crankdat-tickets/morrison-colorado-red-rocks-amphitheatre-2026-03-27-7-pm/concert/17890912"
       },
       {
@@ -304,8 +304,17 @@
         "venue": "Stratton Mountain Resort",
         "city": "South Londonderry, VT",
         "capacity": 0,
-        "score": 0.2737385329,
+        "score": 0.2765757991,
         "url": "https://seatgeek.com/gather-outdoors-festival-tickets/south-londonderry-vermont-stratton-mountain-resort-2026-04-11-3-pm/music-festival/18035076"
+      },
+      {
+        "title": "Crankdat",
+        "date": "2026-05-03",
+        "venue": "The Metropolitan - New Orleans",
+        "city": "New Orleans, LA",
+        "capacity": 0,
+        "score": 0.2448553593,
+        "url": "https://seatgeek.com/crankdat-tickets/new-orleans-louisiana-the-metropolitan-new-orleans-2026-05-02-10-pm/concert/18106494"
       },
       {
         "title": "Crankdat (18+)",
@@ -313,7 +322,7 @@
         "venue": "Shrine Expo Hall",
         "city": "Los Angeles, CA",
         "capacity": 6300,
-        "score": 0.2347317443,
+        "score": 0.2324772474,
         "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-27-9-pm/concert/18041837"
       },
       {
@@ -322,7 +331,7 @@
         "venue": "Shrine Expo Hall",
         "city": "Los Angeles, CA",
         "capacity": 6300,
-        "score": 0.2906617128,
+        "score": 0.2875612759,
         "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-28-9-pm/concert/18041840"
       },
       {
@@ -331,7 +340,7 @@
         "venue": "Shrine Expo Hall",
         "city": "Los Angeles, CA",
         "capacity": 6300,
-        "score": 0.2928327005,
+        "score": 0.2898843262,
         "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-29-9-pm/concert/18039855"
       },
       {
@@ -340,7 +349,7 @@
         "venue": "Shrine Expo Hall",
         "city": "Los Angeles, CA",
         "capacity": 6300,
-        "score": 0.2896912731,
+        "score": 0.2865060503,
         "url": "https://seatgeek.com/crankdat-tickets/los-angeles-california-shrine-expo-hall-2026-08-30-8-pm/concert/18041846"
       }
     ]
@@ -358,7 +367,7 @@
     "soldOutSnippets": [],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/3zW0xazqnHoq9QV9zBROVC",
-    "_cachedAt": "2026-03-04T11:00:30.738Z",
+    "_cachedAt": "2026-03-08T10:00:19.039Z",
     "_upcomingShows": 9,
     "_tourDates": [
       {
@@ -367,7 +376,7 @@
         "venue": "Bicentennial Capitol Mall State Park",
         "city": "Nashville, TN",
         "capacity": 0,
-        "score": 0.341576949,
+        "score": 0.3502889987,
         "url": "https://seatgeek.com/it-s-murph-tickets/nashville-tennessee-bicentennial-capitol-mall-state-park-2026-03-21-3-pm/concert/18028555"
       },
       {
@@ -376,7 +385,7 @@
         "venue": "Red Rocks Amphitheatre",
         "city": "Morrison, CO",
         "capacity": 9450,
-        "score": 0.633799345,
+        "score": 0.6360023818,
         "url": "https://seatgeek.com/it-s-murph-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-04-8-pm/concert/17810692"
       },
       {
@@ -385,7 +394,7 @@
         "venue": "The Ritz - Raleigh",
         "city": "Raleigh, NC",
         "capacity": 2000,
-        "score": 0.4932124558,
+        "score": 0.4943590254,
         "url": "https://seatgeek.com/it-s-murph-tickets/raleigh-north-carolina-the-ritz-raleigh-2026-04-17-7-pm/concert/18052149"
       },
       {
@@ -394,7 +403,7 @@
         "venue": "Berhta",
         "city": "Washington, DC",
         "capacity": 0,
-        "score": 0.3618800131,
+        "score": 0.4174644776,
         "url": "https://seatgeek.com/it-s-murph-tickets/washington-district-of-columbia-berhta-2026-04-18-4-pm/concert/18052145"
       },
       {
@@ -403,7 +412,7 @@
         "venue": "Malkin Bowl",
         "city": "Vancouver, BC",
         "capacity": 1500,
-        "score": 0.251020543,
+        "score": 0.2509027408,
         "url": "https://seatgeek.com/it-s-murph-tickets/vancouver-canada-malkin-bowl-2026-05-08-6-pm/concert/18052151"
       },
       {
@@ -412,7 +421,7 @@
         "venue": "BOXPAC Project",
         "city": "Salt Lake City, UT",
         "capacity": 0,
-        "score": 0.3736258274,
+        "score": 0.3537464154,
         "url": "https://seatgeek.com/it-s-murph-tickets/salt-lake-city-utah-boxpac-project-2026-05-09-9-pm/concert/18052153"
       },
       {
@@ -421,7 +430,7 @@
         "venue": "The Fillmore - Charlotte",
         "city": "Charlotte, NC",
         "capacity": 2000,
-        "score": 0.338064687,
+        "score": 0.3164807608,
         "url": "https://seatgeek.com/it-s-murph-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-05-29-8-pm/concert/18052155"
       },
       {
@@ -430,7 +439,7 @@
         "venue": "Jannus Live",
         "city": "Saint Petersburg, FL",
         "capacity": 850,
-        "score": 0.4124662919,
+        "score": 0.4345116801,
         "url": "https://seatgeek.com/it-s-murph-tickets/saint-petersburg-florida-jannus-live-2026-05-30-7-pm/concert/18052157"
       }
     ]
@@ -3044,6 +3053,476 @@
         "capacity": 0,
         "score": 0.6212772448,
         "url": "https://seatgeek.com/chris-stapleton-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2026-06-11-7-30-pm/concert/18004695"
+      }
+    ]
+  },
+  "jelly roll": {
+    "monthlyListeners": 2,
+    "spotifyFollowers": null,
+    "instagramFollowers": 6000000,
+    "tiktokFollowers": null,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": null,
+    "genres": [],
+    "soldOutMentions": 4,
+    "soldOutSnippets": [
+      {
+        "title": "Book Jelly Roll 2026 Tour Tickets | Upcoming Concert Dates",
+        "snippet": "Get your tickets for Jelly Roll&#x27;s 2026 tour at jellyrollconcert.com. Secure your seats for an unforgettable night of music near you. Tickets are ",
+        "url": "https://jellyrollconcert.com/"
+      },
+      {
+        "title": "Jelly Roll Concert Tour Dates & Shows: 2025-2026 Tickets",
+        "snippet": "Now after a history-making “breakthrough year” (American Songwriter), having just sold-out Nashville’s Bridgestone Arena, releasing the riveting anthe",
+        "url": "https://concerts.hypebot.com/artist/j/528013-jelly-roll"
+      },
+      {
+        "title": "Jelly Roll Concerts & Live Tour Dates: 2025-2026 Tickets | Bandsintown",
+        "snippet": "Jelly Roll’s ‘Need a Favor’ Makes History on Billboard Rock, Country ChartsTampa, FL@ ... JellyRoll: 10/12/23 “‘What’s a JellyRoll’ a friend recently ",
+        "url": "https://www.bandsintown.com/a/528013-jelly-roll"
+      },
+      {
+        "title": "Jelly Roll Tour Dates 2026 & 2027 | Setlists | News | Tickets",
+        "snippet": "Jelly Roll plays his sold-out hometown Bridgestone Arena concert date <strong>12/9/22.</strong>",
+        "url": "https://countrymusicontour.com/jelly-roll-tour-dates-2025/"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/19k8AgwwTSxeaxkOuCQEJs",
+    "_cachedAt": "2026-03-08T10:00:21.932Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Netflix Is A Joke Fest Presents: Beautifully Broken Comedy with Jelly Roll",
+        "date": "2026-05-09",
+        "venue": "The Greek Theatre - Los Angeles",
+        "city": "Los Angeles, CA",
+        "capacity": 5870,
+        "score": 0.5044713809,
+        "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-08-8-pm/18022243"
+      },
+      {
+        "title": "Post Malone with Jelly Roll and Carter Faith",
+        "date": "2026-05-14",
+        "venue": "Sun Bowl Stadium",
+        "city": "El Paso, TX",
+        "capacity": 0,
+        "score": 0.6489449716,
+        "url": "https://seatgeek.com/post-malone-tickets/el-paso-texas-sun-bowl-stadium-2026-05-13-7-30-pm/concert/18046626"
+      },
+      {
+        "title": "Post Malone with Jelly Roll and Carter Faith",
+        "date": "2026-05-20",
+        "venue": "McLane Stadium",
+        "city": "Waco, TX",
+        "capacity": 0,
+        "score": 0.6998529723,
+        "url": "https://seatgeek.com/post-malone-tickets/waco-texas-mclane-stadium-2026-05-19-7-30-pm/concert/18046625"
+      },
+      {
+        "title": "Post Malone with Jelly Roll and Carter Faith",
+        "date": "2026-05-24",
+        "venue": "Tiger Stadium",
+        "city": "Baton Rouge, LA",
+        "capacity": 0,
+        "score": 0.6665561328,
+        "url": "https://seatgeek.com/post-malone-tickets/baton-rouge-louisiana-tiger-stadium-2026-05-23-7-30-pm/concert/18042737"
+      },
+      {
+        "title": "Post Malone with Jelly Roll and Carter Faith",
+        "date": "2026-05-27",
+        "venue": "Protective Stadium",
+        "city": "Birmingham, AL",
+        "capacity": 0,
+        "score": 0.5745663938,
+        "url": "https://seatgeek.com/post-malone-tickets/birmingham-alabama-protective-stadium-2026-05-26-7-30-pm/concert/18046624"
+      },
+      {
+        "title": "Jelly Roll with Kashus Culpepper",
+        "date": "2026-05-28",
+        "venue": "iTHINK Financial Amphitheatre",
+        "city": "West Palm Beach, FL",
+        "capacity": 19000,
+        "score": 0.6137393705,
+        "url": "https://seatgeek.com/jelly-roll-tickets/west-palm-beach-florida-ithink-financial-amphitheatre-2026-05-28-7-pm/concert/18089475"
+      },
+      {
+        "title": "Rock The Country - 2 Day Pass - with Jelly Roll, Miranda Lambert, Ian Munsick and more",
+        "date": "2026-05-29",
+        "venue": "Ottawa Farms",
+        "city": "Bloomingdale, GA",
+        "capacity": 0,
+        "score": 0.4334350698,
+        "url": "https://seatgeek.com/rock-the-country-tickets/bloomingdale-georgia-ottawa-farms-2026-05-29-3-30-am/music-festival/18008600"
+      },
+      {
+        "title": "Post Malone with Jelly Roll and Carter Faith",
+        "date": "2026-05-29",
+        "venue": "Raymond James Stadium",
+        "city": "Tampa, FL",
+        "capacity": 0,
+        "score": 0.6391517795,
+        "url": "https://seatgeek.com/post-malone-tickets/tampa-florida-raymond-james-stadium-2026-05-29-7-30-pm/concert/18046629"
+      }
+    ]
+  },
+  "bailey zimmerman": {
+    "monthlyListeners": null,
+    "spotifyFollowers": null,
+    "instagramFollowers": null,
+    "tiktokFollowers": 3500000,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 6,
+    "genres": [],
+    "soldOutMentions": 2,
+    "soldOutSnippets": [
+      {
+        "title": "Bailey Zimmerman Tour | Tickets | Event Dates & Concert Schedule",
+        "snippet": "Buy Bailey Zimmerman concert tickets now directly via our official site using the links above. Hurry—tickets are selling fast! Check back often as fre",
+        "url": "https://www.baileyzimmerman.org/"
+      },
+      {
+        "title": "Bailey Zimmerman Tickets, Concerts & 2025 Tour Dates",
+        "snippet": "Tickets to Bailey Zimmerman shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has t",
+        "url": "https://www.eventticketscenter.com/bailey-zimmerman-tickets/17980/c"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/3win9vGIxFfBRag9S63wwf",
+    "_cachedAt": "2026-03-08T10:00:24.653Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Bailey Zimmerman",
+        "date": "2026-03-09",
+        "venue": "History",
+        "city": "Toronto, ON",
+        "capacity": 0,
+        "score": 0.4682754266,
+        "url": "https://seatgeek.com/bailey-zimmerman-tickets/toronto-canada-history-2026-03-09-7-pm/concert/18078934"
+      },
+      {
+        "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+        "date": "2026-03-12",
+        "venue": "Van Andel Arena",
+        "city": "Grand Rapids, MI",
+        "capacity": 0,
+        "score": 0.6754610459,
+        "url": "https://seatgeek.com/bailey-zimmerman-tickets/grand-rapids-michigan-van-andel-arena-2026-03-12-7-pm/concert/17721249"
+      },
+      {
+        "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+        "date": "2026-03-14",
+        "venue": "Vibrant Arena at The Mark",
+        "city": "Moline, IL",
+        "capacity": 12000,
+        "score": 0.6733779508,
+        "url": "https://seatgeek.com/bailey-zimmerman-tickets/moline-illinois-vibrant-arena-at-the-mark-2026-03-13-7-pm/concert/17721251"
+      },
+      {
+        "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+        "date": "2026-03-15",
+        "venue": "Ford Center - IN",
+        "city": "Evansville, IN",
+        "capacity": 11000,
+        "score": 0.6745591412,
+        "url": "https://seatgeek.com/bailey-zimmerman-tickets/evansville-indiana-ford-center-in-2026-03-14-7-pm/concert/17721253"
+      },
+      {
+        "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+        "date": "2026-03-28",
+        "venue": "The Wharf Amphitheater",
+        "city": "Orange Beach, AL",
+        "capacity": 0,
+        "score": 0.5715574304,
+        "url": "https://seatgeek.com/bailey-zimmerman-tickets/orange-beach-alabama-the-wharf-amphitheater-2026-03-27-7-pm/concert/17721255"
+      },
+      {
+        "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+        "date": "2026-04-03",
+        "venue": "Dickies Arena",
+        "city": "Fort Worth, TX",
+        "capacity": 0,
+        "score": 0.6583321349,
+        "url": "https://seatgeek.com/bailey-zimmerman-tickets/fort-worth-texas-dickies-arena-2026-04-02-7-pm/concert/17721257"
+      },
+      {
+        "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+        "date": "2026-04-04",
+        "venue": "Raising Cane's River Center",
+        "city": "Baton Rouge, LA",
+        "capacity": 0,
+        "score": 0.554052464,
+        "url": "https://seatgeek.com/bailey-zimmerman-tickets/baton-rouge-louisiana-raising-cane-s-river-center-2026-04-03-7-pm/concert/17721259"
+      },
+      {
+        "title": "Bailey Zimmerman with Hudson Westbrook and Blake Whiten",
+        "date": "2026-04-05",
+        "venue": "Hilliard Center Arena",
+        "city": "Corpus Christi, TX",
+        "capacity": 10000,
+        "score": 0.5465014719,
+        "url": "https://seatgeek.com/bailey-zimmerman-tickets/corpus-christi-texas-hilliard-center-arena-2026-04-04-7-pm/concert/17721261"
+      }
+    ]
+  },
+  "lainey wilson": {
+    "monthlyListeners": 36,
+    "spotifyFollowers": null,
+    "instagramFollowers": null,
+    "tiktokFollowers": null,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": null,
+    "genres": [],
+    "soldOutMentions": 0,
+    "soldOutSnippets": [],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/6tPHARSq45lQ8BSALCfkFC",
+    "_cachedAt": "2026-03-08T10:00:27.466Z",
+    "_upcomingShows": 18,
+    "_tourDates": [
+      {
+        "title": "Houston Rodeo - Lainey Wilson",
+        "date": "2026-03-19",
+        "venue": "NRG Stadium",
+        "city": "Houston, TX",
+        "capacity": 0,
+        "score": 0.7737751676,
+        "url": "https://seatgeek.com/houston-rodeo-tickets/rodeo/2026-03-19-6-45-pm/17521815"
+      },
+      {
+        "title": "Lainey Wilson",
+        "date": "2026-03-21",
+        "venue": "Lucas Oil Live at WinStar World Casino and Resort",
+        "city": "Thackerville, OK",
+        "capacity": 6500,
+        "score": 0.7437321092,
+        "url": "https://seatgeek.com/lainey-wilson-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-03-20-8-pm/concert/17781198"
+      },
+      {
+        "title": "Lainey Wilson",
+        "date": "2026-03-22",
+        "venue": "Lucas Oil Live at WinStar World Casino and Resort",
+        "city": "Thackerville, OK",
+        "capacity": 6500,
+        "score": 0.7450754462,
+        "url": "https://seatgeek.com/lainey-wilson-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-03-21-8-pm/concert/17781199"
+      },
+      {
+        "title": "Lainey Wilson",
+        "date": "2026-04-12",
+        "venue": "Laughlin Event Center",
+        "city": "Laughlin, NV",
+        "capacity": 0,
+        "score": 0.6360388833,
+        "url": "https://seatgeek.com/lainey-wilson-tickets/laughlin-nevada-laughlin-event-center-2026-04-11-7-pm/concert/17890585"
+      },
+      {
+        "title": "Wallen & Wilson: Tribute To Morgan Wallen & Lainey Wilson",
+        "date": "2026-04-17",
+        "venue": "The Venue at Thunder Valley Casino Resort",
+        "city": "Lincoln, CA",
+        "capacity": 0,
+        "score": 0.2281399842,
+        "url": "https://seatgeek.com/legends-of-new-country-wallen-wilson-tickets/lincoln-california-the-venue-at-thunder-valley-casino-resort-2026-04-16-7-30-pm/concert/17808732"
+      },
+      {
+        "title": "Stagecoach Country Music Festival with Cody Johnson, Lainey Wilson, Post Malone, and more  - 3 Day Pass",
+        "date": "2026-04-24",
+        "venue": "Empire Polo Club",
+        "city": "Indio, CA",
+        "capacity": 0,
+        "score": 0.5322674443,
+        "url": "https://seatgeek.com/stagecoach-country-music-festival-tickets/indio-california-empire-polo-club-2026-04-24-3-30-am/music-festival/17565099"
+      },
+      {
+        "title": "Stagecoach Country Music Festival with Lainey Wilson, Riley Green, Journey, and more- Saturday",
+        "date": "2026-04-25",
+        "venue": "Empire Polo Club",
+        "city": "Indio, CA",
+        "capacity": 0,
+        "score": 0.4775028943,
+        "url": "https://seatgeek.com/billy-bob-thornton-the-boxmasters-tickets/indio-california-empire-polo-club-2026-04-25-12-pm/concert/17565103"
+      },
+      {
+        "title": "New Orleans Jazz Festival: Weekend 2 - 4 Day Pass (4/30 - 5/3) with Eagles, Lainey Wilson, Teddy Swims, and more",
+        "date": "2026-04-30",
+        "venue": "New Orleans Fair Grounds",
+        "city": "New Orleans, LA",
+        "capacity": 0,
+        "score": 0.5288630133,
+        "url": "https://seatgeek.com/new-orleans-jazz-and-heritage-festival-tickets/new-orleans-louisiana-new-orleans-fair-grounds-2026-04-30-3-30-am/music-festival/17535681"
+      }
+    ]
+  },
+  "shaboozey": {
+    "monthlyListeners": null,
+    "spotifyFollowers": 1600000,
+    "instagramFollowers": null,
+    "tiktokFollowers": 1300000,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 7,
+    "genres": [],
+    "soldOutMentions": 1,
+    "soldOutSnippets": [
+      {
+        "title": "Shaboozey 2025 Tour Dates, Tickets, and Presale Codes | TickPick",
+        "snippet": "Plenty of fans just witnessed it for themselves: Shaboozey is a fantastic live performer. His music is perfect for large audiences. Tickets to the “Gr",
+        "url": "https://www.tickpick.com/blog/how-to-buy-shaboozey-tickets-presale-codes-and-tour-info/"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/3y2cIKLjiOlp1Np37WiUdH",
+    "_cachedAt": "2026-03-08T10:00:30.303Z",
+    "_upcomingShows": 6,
+    "_tourDates": [
+      {
+        "title": "Houston Rodeo - Shaboozey",
+        "date": "2026-03-13",
+        "venue": "NRG Stadium",
+        "city": "Houston, TX",
+        "capacity": 0,
+        "score": 0.7479507233,
+        "url": "https://seatgeek.com/houston-rodeo-tickets/rodeo/2026-03-13-6-45-pm/17521800"
+      },
+      {
+        "title": "RILEY GREEN, KOE WETZEL, SHABOOZEY AT LONE STAR SMOKEOUT 3-DAY PASS",
+        "date": "2026-04-24",
+        "venue": "AT&T Stadium",
+        "city": "Arlington, TX",
+        "capacity": 80000,
+        "score": 0.6910172496,
+        "url": "https://seatgeek.com/lone-star-smokeout-tickets/arlington-texas-at-t-stadium-2026-04-24-2-pm/concert/17836548"
+      },
+      {
+        "title": "Shaboozey + Max McNown - Friday of Lone Star Smokeout",
+        "date": "2026-04-24",
+        "venue": "AT&T Stadium",
+        "city": "Arlington, TX",
+        "capacity": 80000,
+        "score": 0.6359984125,
+        "url": "https://seatgeek.com/lone-star-smokeout-tickets/arlington-texas-at-t-stadium-2026-04-24-2-pm/concert/17829410"
+      },
+      {
+        "title": "Koe Wetzel + Casey Donahew - Saturday  of Lone Star Smokeout",
+        "date": "2026-04-25",
+        "venue": "AT&T Stadium",
+        "city": "Arlington, TX",
+        "capacity": 80000,
+        "score": 0.6720216056,
+        "url": "https://seatgeek.com/lone-star-smokeout-tickets/arlington-texas-at-t-stadium-2026-04-25-1-pm/concert/17836486"
+      },
+      {
+        "title": "Riley Green + Sam Barber - Sunday of Lone Star Smokeout",
+        "date": "2026-04-26",
+        "venue": "AT&T Stadium",
+        "city": "Arlington, TX",
+        "capacity": 80000,
+        "score": 0.8511478152,
+        "url": "https://seatgeek.com/lone-star-smokeout-tickets/arlington-texas-at-t-stadium-2026-04-26-1-30-pm/concert/17836487"
+      },
+      {
+        "title": "Boots and Hearts Music Festival (Saturday Pass) with Shaboozey",
+        "date": "2026-08-29",
+        "venue": "Fan Park at ICE District",
+        "city": "Edmonton, AB",
+        "capacity": 0,
+        "score": 0.14764431,
+        "url": "https://seatgeek.com/boots-and-hearts-music-festival-tickets/edmonton-canada-fan-park-at-ice-district-2026-08-29-2-30-pm/music-festival/17941261"
+      }
+    ]
+  },
+  "tommy richman": {
+    "monthlyListeners": 11100000,
+    "spotifyFollowers": null,
+    "instagramFollowers": null,
+    "tiktokFollowers": null,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 13,
+    "genres": [],
+    "soldOutMentions": 0,
+    "soldOutSnippets": [],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/1WaFQSHVGZQJTbf0BdxdNo",
+    "_cachedAt": "2026-03-08T10:00:33.050Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "The Kid LAROI with Tommy Richman",
+        "date": "2026-04-29",
+        "venue": "Coca-Cola Roxy Theatre",
+        "city": "Atlanta, GA",
+        "capacity": 3000,
+        "score": 0.5587315649,
+        "url": "https://seatgeek.com/the-kid-laroi-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-04-29-7-30-pm/concert/18076457"
+      },
+      {
+        "title": "The Kid LAROI with Tommy Richman",
+        "date": "2026-05-01",
+        "venue": "Yuengling Center",
+        "city": "Tampa, FL",
+        "capacity": 0,
+        "score": 0.5285602095,
+        "url": "https://seatgeek.com/the-kid-laroi-tickets/tampa-florida-yuengling-center-2026-05-01-7-30-pm/concert/18076459"
+      },
+      {
+        "title": "The Kid LAROI with Tommy Richman",
+        "date": "2026-05-03",
+        "venue": "The Fillmore - Charlotte",
+        "city": "Charlotte, NC",
+        "capacity": 2000,
+        "score": 0.5613808036,
+        "url": "https://seatgeek.com/the-kid-laroi-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-05-03-7-30-pm/concert/18076460"
+      },
+      {
+        "title": "The Kid LAROI with Tommy Richman",
+        "date": "2026-05-05",
+        "venue": "Leader Bank Pavilion",
+        "city": "Boston, MA",
+        "capacity": 0,
+        "score": 0.5329954061,
+        "url": "https://seatgeek.com/the-kid-laroi-tickets/boston-massachusetts-leader-bank-pavilion-2026-05-05-7-30-pm/concert/18076461"
+      },
+      {
+        "title": "The Kid LAROI with Tommy Richman",
+        "date": "2026-05-06",
+        "venue": "Toyota Oakdale Theatre",
+        "city": "Wallingford, CT",
+        "capacity": 0,
+        "score": 0.4785632899,
+        "url": "https://seatgeek.com/the-kid-laroi-tickets/wallingford-connecticut-toyota-oakdale-theatre-2026-05-06-7-30-pm/concert/18076462"
+      },
+      {
+        "title": "The Kid LAROI with Tommy Richman",
+        "date": "2026-05-08",
+        "venue": "The Met Philadelphia",
+        "city": "Philadelphia, PA",
+        "capacity": 0,
+        "score": 0.5520734821,
+        "url": "https://seatgeek.com/the-kid-laroi-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-05-08-7-30-pm/concert/18076469"
+      },
+      {
+        "title": "The Kid LAROI with Tommy Richman",
+        "date": "2026-05-12",
+        "venue": "The Anthem - DC",
+        "city": "Washington, DC",
+        "capacity": 0,
+        "score": 0.5135956854,
+        "url": "https://seatgeek.com/the-kid-laroi-tickets/washington-district-of-columbia-the-anthem-dc-2026-05-11-8-pm/concert/18076470"
+      },
+      {
+        "title": "The Kid LAROI with Tommy Richman",
+        "date": "2026-05-15",
+        "venue": "Coca-Cola Coliseum",
+        "city": "Toronto, ON",
+        "capacity": 9250,
+        "score": 0.4174183258,
+        "url": "https://seatgeek.com/the-kid-laroi-tickets/toronto-canada-coca-cola-coliseum-2026-05-15-7-30-pm/concert/18076497"
       }
     ]
   }

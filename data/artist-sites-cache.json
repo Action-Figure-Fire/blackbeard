@@ -2,7 +2,7 @@
   "Ethel Cain": {
     "usEvents": 18,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:07.661Z",
+    "lastScan": "2026-03-08T11:01:59.139Z",
     "events": [
       {
         "date": "2026-04-14",
@@ -78,7 +78,7 @@
       },
       {
         "date": "2026-05-09",
-        "venue": "Jackie Gleason Theater",
+        "venue": "Backstage at the Fillmore Miami Beach",
         "city": "Miami Beach, FL",
         "soldOut": false
       },
@@ -117,7 +117,7 @@
   "Josh Johnson": {
     "usEvents": 31,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:11.626Z",
+    "lastScan": "2026-03-08T11:02:01.696Z",
     "events": [
       {
         "date": "2026-03-20",
@@ -310,7 +310,7 @@
   "Jon Bellion": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:08.545Z",
+    "lastScan": "2026-03-08T11:01:59.681Z",
     "events": [
       {
         "date": "2026-05-22",
@@ -329,7 +329,7 @@
   "Gianmarco Soresi": {
     "usEvents": 76,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:10.909Z",
+    "lastScan": "2026-03-08T11:02:01.264Z",
     "events": [
       {
         "date": "2026-03-09",
@@ -790,16 +790,10 @@
     ]
   },
   "La Roux": {
-    "usEvents": 32,
+    "usEvents": 31,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:00:58.284Z",
+    "lastScan": "2026-03-08T11:01:52.845Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "M3F 2026",
-        "city": "Phoenix, AZ",
-        "soldOut": false
-      },
       {
         "date": "2026-03-14",
         "venue": "CRSSD Festival 2026",
@@ -991,7 +985,7 @@
   "Jade LeMac": {
     "usEvents": 34,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:00:58.619Z",
+    "lastScan": "2026-03-08T11:01:53.089Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -1202,7 +1196,7 @@
   "Dominic Fike": {
     "usEvents": 12,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:00:58.923Z",
+    "lastScan": "2026-03-08T11:01:53.288Z",
     "events": [
       {
         "date": "2026-04-08",
@@ -1281,7 +1275,7 @@
   "Allison Russell": {
     "usEvents": 26,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:00:59.230Z",
+    "lastScan": "2026-03-08T11:01:53.494Z",
     "events": [
       {
         "date": "2026-07-01",
@@ -1444,7 +1438,7 @@
   "Hemlocke Springs": {
     "usEvents": 20,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:00:59.533Z",
+    "lastScan": "2026-03-08T11:01:53.743Z",
     "events": [
       {
         "date": "2026-03-25",
@@ -1571,7 +1565,7 @@
   "Crankdat": {
     "usEvents": 23,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:00:59.860Z",
+    "lastScan": "2026-03-08T11:01:53.971Z",
     "events": [
       {
         "date": "2026-03-21",
@@ -1716,7 +1710,7 @@
   "Liquid Stranger": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:00.377Z",
+    "lastScan": "2026-03-08T11:01:54.308Z",
     "events": [
       {
         "date": "2026-04-11",
@@ -1727,22 +1721,10 @@
     ]
   },
   "Subtronics": {
-    "usEvents": 23,
+    "usEvents": 21,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:00.688Z",
+    "lastScan": "2026-03-08T11:01:54.503Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "SUBTRONICS - FIBONACCI TOUR - PHILADELPHIA",
-        "city": "Philadelphia, PA",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "SUBTRONICS - FIBONACCI TOUR - PHILADELPHIA",
-        "city": "Philadelphia, PA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-12",
         "venue": "SUBTRONICS - FIBONACCI TOUR - ST. LOUIS",
@@ -1872,22 +1854,10 @@
     ]
   },
   "The Elovaters": {
-    "usEvents": 24,
+    "usEvents": 22,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:00.992Z",
+    "lastScan": "2026-03-08T11:01:54.747Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "The Factory In Deep Ellum",
-        "city": "Dallas, TX",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "White Oak Music Hall",
-        "city": "Houston, TX",
-        "soldOut": false
-      },
       {
         "date": "2026-05-17",
         "venue": "Red Rocks Amphitheatre",
@@ -2120,7 +2090,7 @@
   "Fisher": {
     "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:01.547Z",
+    "lastScan": "2026-03-08T11:01:55.080Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -2157,7 +2127,7 @@
   "Rezz": {
     "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:01.816Z",
+    "lastScan": "2026-03-08T11:01:55.246Z",
     "events": [
       {
         "date": "2026-04-11",
@@ -2194,7 +2164,7 @@
   "Tucker Wetmore": {
     "usEvents": 45,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:02.511Z",
+    "lastScan": "2026-03-08T11:01:55.690Z",
     "events": [
       {
         "date": "2026-05-21",
@@ -2471,7 +2441,7 @@
   "Sara Landry": {
     "usEvents": 9,
     "soldOut": 1,
-    "lastScan": "2026-03-07T12:01:03.113Z",
+    "lastScan": "2026-03-08T11:01:56.075Z",
     "events": [
       {
         "date": "2026-03-27",
@@ -2530,16 +2500,10 @@
     ]
   },
   "Knock2": {
-    "usEvents": 7,
+    "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:03.377Z",
+    "lastScan": "2026-03-08T11:01:56.247Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "LIV Nightclub Las Vegas",
-        "city": "Las Vegas, NV",
-        "soldOut": false
-      },
       {
         "date": "2026-03-19",
         "venue": "Okeechobee Music & Arts Festival 2026",
@@ -2581,7 +2545,7 @@
   "Tape B": {
     "usEvents": 20,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:03.674Z",
+    "lastScan": "2026-03-08T11:01:56.450Z",
     "events": [
       {
         "date": "2026-03-20",
@@ -2706,22 +2670,10 @@
     ]
   },
   "ALLEYCVT": {
-    "usEvents": 11,
+    "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:03.956Z",
+    "lastScan": "2026-03-08T11:01:56.646Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "The Regency Ballroom",
-        "city": "San Francisco, CA",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "The Concourse Project",
-        "city": "Austin, TX",
-        "soldOut": false
-      },
       {
         "date": "2026-03-13",
         "venue": "The Bomb Factory",
@@ -2781,7 +2733,7 @@
   "Mersiv": {
     "usEvents": 15,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:04.266Z",
+    "lastScan": "2026-03-08T11:01:56.853Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -2878,7 +2830,7 @@
   "LSDREAM": {
     "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:04.556Z",
+    "lastScan": "2026-03-08T11:01:57.034Z",
     "events": [
       {
         "date": "2026-03-22",
@@ -2937,22 +2889,10 @@
     ]
   },
   "Ravenscoon": {
-    "usEvents": 4,
+    "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:04.815Z",
+    "lastScan": "2026-03-08T11:01:57.212Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Kia Forum",
-        "city": "Inglewood, CA",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Tribal Roots Warehouse",
-        "city": "Wichita, KS",
-        "soldOut": false
-      },
       {
         "date": "2026-03-19",
         "venue": "Okeechobee Music & Arts Festival 2026",
@@ -2968,22 +2908,10 @@
     ]
   },
   "INZO": {
-    "usEvents": 17,
+    "usEvents": 15,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:05.117Z",
+    "lastScan": "2026-03-08T11:01:57.407Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Big Night Live",
-        "city": "Boston, MA",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Town Ballroom",
-        "city": "Buffalo, NY",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Globe Iron",
@@ -3077,16 +3005,10 @@
     ]
   },
   "Cloonee": {
-    "usEvents": 20,
+    "usEvents": 19,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:05.423Z",
+    "lastScan": "2026-03-08T11:01:57.618Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "LIV Beach",
-        "city": "Las Vegas, NV",
-        "soldOut": false
-      },
       {
         "date": "2026-03-25",
         "venue": "DJ Mag Presents MMW Pool Party",
@@ -3132,7 +3054,7 @@
       {
         "date": "2026-05-15",
         "venue": "EDC Las Vegas 2026",
-        "city": "Las Vegas, Nevada",
+        "city": "Las Vegas, NV",
         "soldOut": false
       },
       {
@@ -3206,7 +3128,7 @@
   "Sammy Virji": {
     "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:05.730Z",
+    "lastScan": "2026-03-08T11:01:57.818Z",
     "events": [
       {
         "date": "2026-05-07",
@@ -3249,7 +3171,7 @@
   "Seven Lions": {
     "usEvents": 12,
     "soldOut": 1,
-    "lastScan": "2026-03-07T12:01:06.007Z",
+    "lastScan": "2026-03-08T11:01:58.005Z",
     "events": [
       {
         "date": "2026-03-27",
@@ -3328,7 +3250,7 @@
   "Hippie Sabotage": {
     "usEvents": 37,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:06.341Z",
+    "lastScan": "2026-03-08T11:01:58.241Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -3557,7 +3479,7 @@
   "Bob Moses": {
     "usEvents": 27,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:06.661Z",
+    "lastScan": "2026-03-08T11:01:58.459Z",
     "events": [
       {
         "date": "2026-03-08",
@@ -3726,7 +3648,7 @@
   "Treaty Oak Revival": {
     "usEvents": 31,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:06.983Z",
+    "lastScan": "2026-03-08T11:01:58.660Z",
     "events": [
       {
         "date": "2026-03-12",
@@ -3919,7 +3841,7 @@
   "Mt. Joy": {
     "usEvents": 40,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:07.328Z",
+    "lastScan": "2026-03-08T11:01:58.939Z",
     "events": [
       {
         "date": "2026-04-09",
@@ -4166,7 +4088,7 @@
   "Electric Callboy": {
     "usEvents": 17,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:07.995Z",
+    "lastScan": "2026-03-08T11:01:59.356Z",
     "events": [
       {
         "date": "2026-04-17",
@@ -4283,7 +4205,7 @@
   "Lord Huron": {
     "usEvents": 21,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:08.849Z",
+    "lastScan": "2026-03-08T11:01:59.909Z",
     "events": [
       {
         "date": "2026-06-02",
@@ -4416,7 +4338,7 @@
   "Amyl and The Sniffers": {
     "usEvents": 10,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:09.150Z",
+    "lastScan": "2026-03-08T11:02:00.105Z",
     "events": [
       {
         "date": "2026-06-06",
@@ -4483,7 +4405,7 @@
   "Alex Warren": {
     "usEvents": 27,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:09.510Z",
+    "lastScan": "2026-03-08T11:02:00.349Z",
     "events": [
       {
         "date": "2026-05-25",
@@ -4547,7 +4469,7 @@
       },
       {
         "date": "2026-06-13",
-        "venue": "Climate Pledge Arena ",
+        "venue": "Tom's Watch Bar - Climate Pledge Arena",
         "city": "Seattle, WA",
         "soldOut": false
       },
@@ -4652,7 +4574,7 @@
   "Hilary Duff": {
     "usEvents": 32,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:09.892Z",
+    "lastScan": "2026-03-08T11:02:00.618Z",
     "events": [
       {
         "date": "2026-06-21",
@@ -4851,7 +4773,7 @@
   "Michael Blaustein": {
     "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:10.177Z",
+    "lastScan": "2026-03-08T11:02:00.794Z",
     "events": [
       {
         "date": "2026-03-11",
@@ -4879,14 +4801,14 @@
       },
       {
         "date": "2026-04-26",
-        "venue": "Knitting Factory Brooklyn",
-        "city": "Brooklyn, NY",
+        "venue": "Brooklyn Improv",
+        "city": "New York City, NY",
         "soldOut": false
       },
       {
         "date": "2026-04-26",
-        "venue": "Knitting Factory Brooklyn",
-        "city": "Brooklyn, NY",
+        "venue": "Brooklyn Improv",
+        "city": "New York City, NY",
         "soldOut": false
       },
       {
@@ -4910,16 +4832,10 @@
     ]
   },
   "Stavros Halkias": {
-    "usEvents": 11,
+    "usEvents": 10,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:10.470Z",
+    "lastScan": "2026-03-08T11:02:00.972Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Hard Rock Live Rockford",
-        "city": "Rockford, IL",
-        "soldOut": false
-      },
       {
         "date": "2026-03-28",
         "venue": "Radio City Music Hall",
@@ -4983,22 +4899,10 @@
     ]
   },
   "Jordan Jensen": {
-    "usEvents": 19,
+    "usEvents": 17,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:11.205Z",
+    "lastScan": "2026-03-08T11:02:01.451Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Houston Improv Comedy Club",
-        "city": "Houston, TX",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Houston Improv Comedy Club",
-        "city": "Houston, TX",
-        "soldOut": false
-      },
       {
         "date": "2026-03-11",
         "venue": "The Orange Peel",
@@ -5106,14 +5010,8 @@
   "Zarna Garg": {
     "usEvents": 55,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:12.041Z",
+    "lastScan": "2026-03-08T11:02:01.977Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Parx Xcite Center - Bensalem, PA: Saturday, 8:00PM Show",
-        "city": "Bensalem, PA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-12",
         "venue": "Southern Theatre - Columbus, OH: Thursday, 7:30PM Show",
@@ -5244,6 +5142,12 @@
         "date": "2026-05-08",
         "venue": "Netflix is a Joke Festival - The United Theater - Los Angeles, CA: Friday, 7:00PM Show",
         "city": "Los Angeles, CA",
+        "soldOut": false
+      },
+      {
+        "date": "2026-05-09",
+        "venue": "Brea Improv",
+        "city": "Brea, CA",
         "soldOut": false
       },
       {
@@ -5443,7 +5347,7 @@
   "Atsuko Okatsuka": {
     "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:12.603Z",
+    "lastScan": "2026-03-08T11:02:02.318Z",
     "events": [
       {
         "date": "2026-04-15",
@@ -5480,7 +5384,7 @@
   "Nate Jackson": {
     "usEvents": 41,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:13.163Z",
+    "lastScan": "2026-03-08T11:02:02.716Z",
     "events": [
       {
         "date": "2026-03-12",
@@ -5733,7 +5637,7 @@
   "Matt Rife": {
     "usEvents": 38,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:13.985Z",
+    "lastScan": "2026-03-08T11:02:03.133Z",
     "events": [
       {
         "date": "2026-03-12",
@@ -5966,16 +5870,10 @@
     ]
   },
   "Jay Jurden": {
-    "usEvents": 7,
+    "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:14.277Z",
+    "lastScan": "2026-03-08T11:02:03.309Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "The Stand NYC (Main Room)",
-        "city": "New York City, NY",
-        "soldOut": false
-      },
       {
         "date": "2026-04-04",
         "venue": "Irvine Improv",
@@ -6017,7 +5915,7 @@
   "KETTAMA": {
     "usEvents": 19,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:14.616Z",
+    "lastScan": "2026-03-08T11:02:03.523Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -6117,7 +6015,7 @@
       },
       {
         "date": "2026-08-02",
-        "venue": "HQ2 Beachclub at Ocean Casino Resort",
+        "venue": "Ocean Casino Resort",
         "city": "Atlantic City, NJ",
         "soldOut": false
       },
@@ -6138,7 +6036,7 @@
   "Prospa": {
     "usEvents": 8,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:14.921Z",
+    "lastScan": "2026-03-08T11:02:03.723Z",
     "events": [
       {
         "date": "2026-03-20",
@@ -6193,7 +6091,7 @@
   "Carlita": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:15.196Z",
+    "lastScan": "2026-03-08T11:02:03.926Z",
     "events": [
       {
         "date": "2026-03-28",
@@ -6212,7 +6110,7 @@
   "Odd Mob": {
     "usEvents": 15,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:15.504Z",
+    "lastScan": "2026-03-08T11:02:04.198Z",
     "events": [
       {
         "date": "2026-03-12",
@@ -6252,7 +6150,7 @@
       },
       {
         "date": "2026-03-21",
-        "venue": "HQ2 Beachclub at Ocean Casino Resort",
+        "venue": "HQ2 Beachclub",
         "city": "Atlantic City, NJ",
         "soldOut": false
       },
@@ -6309,27 +6207,21 @@
   "Proppa": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:15.768Z",
+    "lastScan": "2026-03-08T11:02:04.364Z",
     "events": [
       {
         "date": "2026-03-28",
-        "venue": "MAD CLUB",
+        "venue": "MAD LIVE at MAD Club Wynwood",
         "city": "Miami, FL",
         "soldOut": false
       }
     ]
   },
   "KinAhau": {
-    "usEvents": 5,
+    "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:16.315Z",
+    "lastScan": "2026-03-08T11:02:04.709Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Spy Bar",
-        "city": "Chicago, IL",
-        "soldOut": false
-      },
       {
         "date": "2026-04-03",
         "venue": "Club Vinyl",
@@ -6359,20 +6251,8 @@
   "LEVEL UP": {
     "usEvents": 11,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:16.597Z",
+    "lastScan": "2026-03-08T11:02:04.892Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "LEVEL UP & ZINGARA PARALLEL SPIRITS TOUR - MADISON ",
-        "city": "Madison, WI",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "LEVEL UP & ZINGARA PARALLEL SPIRITS TOUR - GRAND RAPIDS ",
-        "city": "Grand Rapids, MI",
-        "soldOut": false
-      },
       {
         "date": "2026-03-12",
         "venue": "LEVEL UP & ZINGARA PARALLEL SPIRITS TOUR - MILWAUKEE",
@@ -6410,6 +6290,12 @@
         "soldOut": false
       },
       {
+        "date": "2026-03-28",
+        "venue": "Mana Wynwood",
+        "city": "Miami, FL",
+        "soldOut": false
+      },
+      {
         "date": "2026-04-03",
         "venue": "LEVEL UP & ZINGARA PARALLEL SPIRITS TOUR - NYC",
         "city": "Brooklyn, NY",
@@ -6426,20 +6312,20 @@
         "venue": "713 Music Hall",
         "city": "Houston, TX",
         "soldOut": false
+      },
+      {
+        "date": "2026-08-07",
+        "venue": "Woodlands Outside of Pocono Raceway",
+        "city": "Long Pond, PA",
+        "soldOut": false
       }
     ]
   },
   "MC4D": {
-    "usEvents": 7,
+    "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:16.879Z",
+    "lastScan": "2026-03-08T11:02:05.075Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Komodo",
-        "city": "Dallas, TX",
-        "soldOut": false
-      },
       {
         "date": "2026-03-19",
         "venue": "E11EVEN",
@@ -6479,22 +6365,10 @@
     ]
   },
   "Mau P": {
-    "usEvents": 19,
+    "usEvents": 17,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:17.218Z",
+    "lastScan": "2026-03-08T11:02:05.307Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "M3F 2026",
-        "city": "Phoenix, AZ",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-06",
-        "venue": "Art Of The Wild 2026",
-        "city": "Las Vegas, NV",
-        "soldOut": false
-      },
       {
         "date": "2026-03-13",
         "venue": "Pier 48 - Lot #39",
@@ -6602,7 +6476,7 @@
   "Marten Lou": {
     "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:17.511Z",
+    "lastScan": "2026-03-08T11:02:05.492Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -6651,7 +6525,7 @@
   "Jackie Hollander": {
     "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:17.774Z",
+    "lastScan": "2026-03-08T11:02:05.687Z",
     "events": [
       {
         "date": "2026-03-27",
@@ -6676,7 +6550,7 @@
   "Florence Road": {
     "usEvents": 16,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:18.181Z",
+    "lastScan": "2026-03-08T11:02:05.921Z",
     "events": [
       {
         "date": "2026-03-12",
@@ -6779,7 +6653,7 @@
   "Jutes": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:18.692Z",
+    "lastScan": "2026-03-08T11:02:06.154Z",
     "events": [
       {
         "date": "2026-07-17",
@@ -6792,7 +6666,7 @@
   "Lambrini Girls": {
     "usEvents": 10,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:19.000Z",
+    "lastScan": "2026-03-08T11:02:06.359Z",
     "events": [
       {
         "date": "2026-04-21",
@@ -6859,7 +6733,7 @@
   "Febuary": {
     "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:19.267Z",
+    "lastScan": "2026-03-08T11:02:06.527Z",
     "events": [
       {
         "date": "2026-03-12",
@@ -6897,7 +6771,7 @@
   "Violet Grohl": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:19.977Z",
+    "lastScan": "2026-03-08T11:02:06.960Z",
     "events": [
       {
         "date": "2026-09-20",
@@ -6908,22 +6782,10 @@
     ]
   },
   "Vincent Mason": {
-    "usEvents": 40,
+    "usEvents": 38,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:20.295Z",
+    "lastScan": "2026-03-08T11:02:07.189Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "House of Blues Orlando",
-        "city": "Lake Buena Vista, FL",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "The Moon",
-        "city": "Tallahassee, FL",
-        "soldOut": false
-      },
       {
         "date": "2026-03-11",
         "venue": "Steel Creek American Whiskey Co.",
@@ -7157,7 +7019,7 @@
   "Laci Kaye Booth": {
     "usEvents": 16,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:20.606Z",
+    "lastScan": "2026-03-08T11:02:07.385Z",
     "events": [
       {
         "date": "2026-03-26",
@@ -7260,7 +7122,7 @@
   "Hurricane Wisdom": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:20.890Z",
+    "lastScan": "2026-03-08T11:02:07.545Z",
     "events": [
       {
         "date": "2026-03-21",
@@ -7273,7 +7135,7 @@
   "Freya Skye": {
     "usEvents": 16,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:21.491Z",
+    "lastScan": "2026-03-08T11:02:07.948Z",
     "events": [
       {
         "date": "2026-09-19",
@@ -7376,7 +7238,7 @@
   "Sabrina Carpenter": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:21.781Z",
+    "lastScan": "2026-03-08T11:02:08.128Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -7395,7 +7257,7 @@
   "Teddy Swims": {
     "usEvents": 12,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:22.120Z",
+    "lastScan": "2026-03-08T11:02:08.344Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -7474,7 +7336,7 @@
   "Tyler Childers": {
     "usEvents": 16,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:22.449Z",
+    "lastScan": "2026-03-08T11:02:08.567Z",
     "events": [
       {
         "date": "2026-04-23",
@@ -7575,16 +7437,10 @@
     ]
   },
   "Zach Bryan": {
-    "usEvents": 24,
+    "usEvents": 23,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:22.997Z",
+    "lastScan": "2026-03-08T11:02:08.785Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "The Dome at America's Center",
-        "city": "St. Louis, MO",
-        "soldOut": false
-      },
       {
         "date": "2026-03-14",
         "venue": "Raymond James Stadium",
@@ -7728,7 +7584,7 @@
   "Noah Kahan": {
     "usEvents": 29,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:23.321Z",
+    "lastScan": "2026-03-08T11:02:08.995Z",
     "events": [
       {
         "date": "2026-06-11",
@@ -7909,7 +7765,7 @@
   "Benson Boone": {
     "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:23.596Z",
+    "lastScan": "2026-03-08T11:02:09.178Z",
     "events": [
       {
         "date": "2026-09-04",
@@ -7934,7 +7790,7 @@
   "Post Malone": {
     "usEvents": 19,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:23.903Z",
+    "lastScan": "2026-03-08T11:02:09.387Z",
     "events": [
       {
         "date": "2026-05-13",
@@ -8055,7 +7911,7 @@
   "Morgan Wallen": {
     "usEvents": 23,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:24.212Z",
+    "lastScan": "2026-03-08T11:02:09.587Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -8200,7 +8056,7 @@
   "Luke Combs": {
     "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:24.526Z",
+    "lastScan": "2026-03-08T11:02:09.788Z",
     "events": [
       {
         "date": "2026-03-21",
@@ -8261,7 +8117,7 @@
   "Chris Stapleton": {
     "usEvents": 34,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:24.858Z",
+    "lastScan": "2026-03-08T11:02:10.012Z",
     "events": [
       {
         "date": "2026-03-12",
@@ -8472,7 +8328,7 @@
   "Jelly Roll": {
     "usEvents": 30,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:25.243Z",
+    "lastScan": "2026-03-08T11:02:10.427Z",
     "events": [
       {
         "date": "2026-05-13",
@@ -8657,16 +8513,10 @@
     ]
   },
   "Bailey Zimmerman": {
-    "usEvents": 32,
+    "usEvents": 31,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:25.595Z",
+    "lastScan": "2026-03-08T11:02:10.674Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "GATA Jam 2026",
-        "city": "Statesboro, GA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-12",
         "venue": "Different Night Same Rodeo Tour",
@@ -8858,7 +8708,7 @@
   "Lainey Wilson": {
     "usEvents": 21,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:25.931Z",
+    "lastScan": "2026-03-08T11:02:10.887Z",
     "events": [
       {
         "date": "2026-03-10",
@@ -8991,7 +8841,7 @@
   "Shaboozey": {
     "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:26.214Z",
+    "lastScan": "2026-03-08T11:02:11.058Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -9034,7 +8884,7 @@
   "Tommy Richman": {
     "usEvents": 22,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:26.781Z",
+    "lastScan": "2026-03-08T11:02:11.290Z",
     "events": [
       {
         "date": "2026-04-29",
@@ -9173,7 +9023,7 @@
   "Doja Cat": {
     "usEvents": 28,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:27.191Z",
+    "lastScan": "2026-03-08T11:02:11.530Z",
     "events": [
       {
         "date": "2026-10-01",
@@ -9348,7 +9198,7 @@
   "Deftones": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:27.530Z",
+    "lastScan": "2026-03-08T11:02:11.747Z",
     "events": [
       {
         "date": "2026-10-24",
@@ -9361,7 +9211,7 @@
   "The Killers": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:27.820Z",
+    "lastScan": "2026-03-08T11:02:11.906Z",
     "events": [
       {
         "date": "2026-04-08",
@@ -9374,7 +9224,7 @@
   "Cage The Elephant": {
     "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:28.112Z",
+    "lastScan": "2026-03-08T11:02:12.091Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -9399,7 +9249,7 @@
   "Twenty One Pilots": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:28.417Z",
+    "lastScan": "2026-03-08T11:02:12.276Z",
     "events": [
       {
         "date": "2026-09-19",
@@ -9418,7 +9268,7 @@
   "Tame Impala": {
     "usEvents": 24,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:28.771Z",
+    "lastScan": "2026-03-08T11:02:12.541Z",
     "events": [
       {
         "date": "2026-07-06",
@@ -9569,7 +9419,7 @@
   "Japanese Breakfast": {
     "usEvents": 11,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:29.057Z",
+    "lastScan": "2026-03-08T11:02:12.733Z",
     "events": [
       {
         "date": "2026-03-20",
@@ -9642,7 +9492,7 @@
   "Turnstile": {
     "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:29.389Z",
+    "lastScan": "2026-03-08T11:02:12.925Z",
     "events": [
       {
         "date": "2026-05-08",
@@ -9679,7 +9529,7 @@
   "Fontaines D.C.": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:29.656Z",
+    "lastScan": "2026-03-08T11:02:13.094Z",
     "events": [
       {
         "date": "2026-09-18",
@@ -9692,7 +9542,7 @@
   "Mannequin Pussy": {
     "usEvents": 13,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:29.951Z",
+    "lastScan": "2026-03-08T11:02:13.291Z",
     "events": [
       {
         "date": "2026-05-09",
@@ -9777,7 +9627,7 @@
   "Snail Mail": {
     "usEvents": 26,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:30.275Z",
+    "lastScan": "2026-03-08T11:02:13.510Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -9940,7 +9790,7 @@
   "Soccer Mommy": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:30.538Z",
+    "lastScan": "2026-03-08T11:02:13.675Z",
     "events": [
       {
         "date": "2026-07-09",
@@ -9959,7 +9809,7 @@
   "Alex G": {
     "usEvents": 10,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:30.810Z",
+    "lastScan": "2026-03-08T11:02:13.847Z",
     "events": [
       {
         "date": "2026-05-07",
@@ -10026,7 +9876,7 @@
   "MJ Lenderman": {
     "usEvents": 22,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:31.119Z",
+    "lastScan": "2026-03-08T11:02:14.061Z",
     "events": [
       {
         "date": "2026-03-26",
@@ -10165,7 +10015,7 @@
   "Geese": {
     "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:31.447Z",
+    "lastScan": "2026-03-08T11:02:14.271Z",
     "events": [
       {
         "date": "2026-06-07",
@@ -10214,7 +10064,7 @@
   "Black Country New Road": {
     "usEvents": 12,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:31.775Z",
+    "lastScan": "2026-03-08T11:02:14.488Z",
     "events": [
       {
         "date": "2026-06-21",
@@ -10293,7 +10143,7 @@
   "Dry Cleaning": {
     "usEvents": 17,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:32.095Z",
+    "lastScan": "2026-03-08T11:02:14.733Z",
     "events": [
       {
         "date": "2026-04-30",
@@ -10402,7 +10252,7 @@
   "Yard Act": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:32.377Z",
+    "lastScan": "2026-03-08T11:02:14.906Z",
     "events": [
       {
         "date": "2026-08-07",
@@ -10415,7 +10265,7 @@
   "Wet Leg": {
     "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:32.692Z",
+    "lastScan": "2026-03-08T11:02:15.109Z",
     "events": [
       {
         "date": "2026-04-15",
@@ -10464,7 +10314,7 @@
   "Beabadoobee": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:32.955Z",
+    "lastScan": "2026-03-08T11:02:15.277Z",
     "events": [
       {
         "date": "2026-07-30",
@@ -10477,7 +10327,7 @@
   "PinkPantheress": {
     "usEvents": 15,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:33.249Z",
+    "lastScan": "2026-03-08T11:02:15.480Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -10574,7 +10424,7 @@
   "Raye": {
     "usEvents": 43,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:33.641Z",
+    "lastScan": "2026-03-08T11:02:15.738Z",
     "events": [
       {
         "date": "2026-03-31",
@@ -10839,7 +10689,7 @@
   "FKA twigs": {
     "usEvents": 13,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:33.934Z",
+    "lastScan": "2026-03-08T11:02:15.935Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -10924,7 +10774,7 @@
   "Men I Trust": {
     "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:34.256Z",
+    "lastScan": "2026-03-08T11:02:16.138Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -10949,7 +10799,7 @@
   "Peach Pit": {
     "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:34.529Z",
+    "lastScan": "2026-03-08T11:02:16.313Z",
     "events": [
       {
         "date": "2026-04-18",
@@ -10986,7 +10836,7 @@
   "Dijon": {
     "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:34.825Z",
+    "lastScan": "2026-03-08T11:02:16.523Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -11029,7 +10879,7 @@
   "Ravyn Lenae": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:35.109Z",
+    "lastScan": "2026-03-08T11:02:16.689Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -11048,7 +10898,7 @@
   "Big Thief": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:35.415Z",
+    "lastScan": "2026-03-08T11:02:16.923Z",
     "events": [
       {
         "date": "2026-09-19",
@@ -11067,7 +10917,7 @@
   "Waxahatchee": {
     "usEvents": 15,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:35.690Z",
+    "lastScan": "2026-03-08T11:02:17.127Z",
     "events": [
       {
         "date": "2026-04-13",
@@ -11162,22 +11012,10 @@
     ]
   },
   "Cat Power": {
-    "usEvents": 25,
+    "usEvents": 23,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:36.103Z",
+    "lastScan": "2026-03-08T11:02:17.392Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Cat Power ‘The Greatest’ 20th Anniversary Tour",
-        "city": "Brooklyn, NY",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Cat Power ‘The Greatest’ 20th Anniversary Tour",
-        "city": "New York, NY",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Cat Power ‘The Greatest’ 20th Anniversary Tour",
@@ -11321,7 +11159,7 @@
   "Lucy Dacus": {
     "usEvents": 8,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:36.368Z",
+    "lastScan": "2026-03-08T11:02:17.571Z",
     "events": [
       {
         "date": "2026-05-10",
@@ -11374,16 +11212,10 @@
     ]
   },
   "Mitski": {
-    "usEvents": 6,
+    "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:36.673Z",
+    "lastScan": "2026-03-08T11:02:17.790Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "The Shed",
-        "city": "New York, NY",
-        "soldOut": false
-      },
       {
         "date": "2026-03-09",
         "venue": "The Shed",
@@ -11419,7 +11251,7 @@
   "Kim Gordon": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:36.959Z",
+    "lastScan": "2026-03-08T11:02:17.971Z",
     "events": [
       {
         "date": "2026-06-25",
@@ -11430,16 +11262,10 @@
     ]
   },
   "St. Vincent": {
-    "usEvents": 9,
+    "usEvents": 8,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:37.243Z",
+    "lastScan": "2026-03-08T11:02:18.151Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Portland Jazz Festival 2026",
-        "city": "Portland, OR",
-        "soldOut": false
-      },
       {
         "date": "2026-03-19",
         "venue": "Luck Reunion 2026",
@@ -11493,7 +11319,7 @@
   "Perfume Genius": {
     "usEvents": 9,
     "soldOut": 1,
-    "lastScan": "2026-03-07T12:01:37.518Z",
+    "lastScan": "2026-03-08T11:02:18.341Z",
     "events": [
       {
         "date": "2026-03-25",
@@ -11554,7 +11380,7 @@
   "Skrillex": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:37.770Z",
+    "lastScan": "2026-03-08T11:02:18.518Z",
     "events": [
       {
         "date": "2026-06-11",
@@ -11565,16 +11391,10 @@
     ]
   },
   "John Summit": {
-    "usEvents": 15,
+    "usEvents": 14,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:38.086Z",
+    "lastScan": "2026-03-08T11:02:18.736Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "LIV Nightclub Las Vegas",
-        "city": "Las Vegas, NV",
-        "soldOut": false
-      },
       {
         "date": "2026-03-21",
         "venue": "Experts Only Vail Ski Weekender",
@@ -11664,7 +11484,7 @@
   "Dom Dolla": {
     "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:38.369Z",
+    "lastScan": "2026-03-08T11:02:18.930Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -11707,7 +11527,7 @@
   "Chris Lake": {
     "usEvents": 8,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:38.653Z",
+    "lastScan": "2026-03-08T11:02:19.111Z",
     "events": [
       {
         "date": "2026-04-04",
@@ -11762,7 +11582,7 @@
   "Disclosure": {
     "usEvents": 22,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:38.980Z",
+    "lastScan": "2026-03-08T11:02:19.325Z",
     "events": [
       {
         "date": "2026-04-07",
@@ -11901,7 +11721,7 @@
   "RÜFÜS DU SOL": {
     "usEvents": 26,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:39.376Z",
+    "lastScan": "2026-03-08T11:02:19.556Z",
     "events": [
       {
         "date": "2026-06-05",
@@ -12064,7 +11884,7 @@
   "Lane 8": {
     "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:39.675Z",
+    "lastScan": "2026-03-08T11:02:19.731Z",
     "events": [
       {
         "date": "2026-06-06",
@@ -12095,7 +11915,7 @@
   "Above & Beyond": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:39.947Z",
+    "lastScan": "2026-03-08T11:02:19.908Z",
     "events": [
       {
         "date": "2026-09-11",
@@ -12108,7 +11928,7 @@
   "ZHU": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:40.221Z",
+    "lastScan": "2026-03-08T11:02:20.083Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -12127,7 +11947,7 @@
   "Griz": {
     "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:40.501Z",
+    "lastScan": "2026-03-08T11:02:20.258Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -12174,22 +11994,10 @@
     ]
   },
   "CloZee": {
-    "usEvents": 10,
+    "usEvents": 8,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:40.766Z",
+    "lastScan": "2026-03-08T11:02:20.444Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "10 Mile Music Hall",
-        "city": "Frisco, CO",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "10 Mile Music Hall",
-        "city": "Frisco, CO",
-        "soldOut": false
-      },
       {
         "date": "2026-03-13",
         "venue": "Belly Up Aspen",
@@ -12241,22 +12049,10 @@
     ]
   },
   "Elderbrook": {
-    "usEvents": 7,
+    "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:41.038Z",
+    "lastScan": "2026-03-08T11:02:20.621Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "M3F Festival",
-        "city": "Phoenix, AZ",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "M3F After Dark - The Icehouse",
-        "city": "Phoenix, AZ",
-        "soldOut": false
-      },
       {
         "date": "2026-06-05",
         "venue": "High Tide Festival 2026",
@@ -12292,7 +12088,7 @@
   "Four Tet": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:41.319Z",
+    "lastScan": "2026-03-08T11:02:20.785Z",
     "events": [
       {
         "date": "2026-05-01",
@@ -12311,7 +12107,7 @@
   "Jamie xx": {
     "usEvents": 30,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:41.641Z",
+    "lastScan": "2026-03-08T11:02:20.984Z",
     "events": [
       {
         "date": "2026-08-26",
@@ -12498,7 +12294,7 @@
   "Tycho": {
     "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:41.905Z",
+    "lastScan": "2026-03-08T11:02:21.154Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -12541,7 +12337,7 @@
   "Big Wild": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:42.178Z",
+    "lastScan": "2026-03-08T11:02:21.322Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -12558,16 +12354,10 @@
     ]
   },
   "Louis The Child": {
-    "usEvents": 7,
+    "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:42.438Z",
+    "lastScan": "2026-03-08T11:02:21.495Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Louis The Child (Playground Set) @ Belly Up, Aspen",
-        "city": "Aspen, CO",
-        "soldOut": false
-      },
       {
         "date": "2026-04-18",
         "venue": "Marquee Dayclub",
@@ -12609,7 +12399,7 @@
   "Madeon": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:42.703Z",
+    "lastScan": "2026-03-08T11:02:21.654Z",
     "events": [
       {
         "date": "2026-03-27",
@@ -12628,7 +12418,7 @@
   "Porter Robinson": {
     "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:42.983Z",
+    "lastScan": "2026-03-08T11:02:21.838Z",
     "events": [
       {
         "date": "2026-05-15",
@@ -12657,22 +12447,10 @@
     ]
   },
   "Illenium": {
-    "usEvents": 11,
+    "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:43.283Z",
+    "lastScan": "2026-03-08T11:02:22.028Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Sphere",
-        "city": "Las Vegas, NV",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Sphere",
-        "city": "Las Vegas, NV",
-        "soldOut": false
-      },
       {
         "date": "2026-03-12",
         "venue": "Sphere",
@@ -12730,22 +12508,10 @@
     ]
   },
   "Excision": {
-    "usEvents": 15,
+    "usEvents": 13,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:43.599Z",
+    "lastScan": "2026-03-08T11:02:22.206Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Excision Winter Tour 2026",
-        "city": "Inglewood, CA",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Excision Winter Tour 2026",
-        "city": "Inglewood, CA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-13",
         "venue": "Excision Winter Tour 2026",
@@ -12829,7 +12595,7 @@
   "Zeds Dead": {
     "usEvents": 22,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:43.917Z",
+    "lastScan": "2026-03-08T11:02:22.427Z",
     "events": [
       {
         "date": "2026-03-26",
@@ -12968,7 +12734,7 @@
   "GRiZ": {
     "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:44.289Z",
+    "lastScan": "2026-03-08T11:02:22.616Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -13017,7 +12783,7 @@
   "Tiesto": {
     "usEvents": 36,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:44.702Z",
+    "lastScan": "2026-03-08T11:02:22.842Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -13240,7 +13006,7 @@
   "deadmau5": {
     "usEvents": 8,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:44.978Z",
+    "lastScan": "2026-03-08T11:02:23.025Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -13295,7 +13061,7 @@
   "Eric Prydz": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:45.243Z",
+    "lastScan": "2026-03-08T11:02:23.192Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -13312,16 +13078,10 @@
     ]
   },
   "Peggy Gou": {
-    "usEvents": 2,
+    "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:45.517Z",
+    "lastScan": "2026-03-08T11:02:23.355Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Pier 48 - Lot #39",
-        "city": "San Francisco, CA",
-        "soldOut": false
-      },
       {
         "date": "2026-05-09",
         "venue": "Under the 'K' Bridge Park",
@@ -13333,7 +13093,7 @@
   "Charlotte De Witte": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:45.792Z",
+    "lastScan": "2026-03-08T11:02:23.535Z",
     "events": [
       {
         "date": "2026-05-14",
@@ -13352,7 +13112,7 @@
   "Amelie Lens": {
     "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:46.119Z",
+    "lastScan": "2026-03-08T11:02:23.744Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -13383,7 +13143,7 @@
   "I Hate Models": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:46.409Z",
+    "lastScan": "2026-03-08T11:02:23.922Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -13402,7 +13162,7 @@
   "Indira Paganotto": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:46.674Z",
+    "lastScan": "2026-03-08T11:02:24.089Z",
     "events": [
       {
         "date": "2026-03-20",
@@ -13415,7 +13175,7 @@
   "HoneyLuv": {
     "usEvents": 8,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:46.978Z",
+    "lastScan": "2026-03-08T11:02:24.265Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -13470,7 +13230,7 @@
   "LP Giobbi": {
     "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:47.253Z",
+    "lastScan": "2026-03-08T11:02:24.443Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -13517,16 +13277,10 @@
     ]
   },
   "Of The Trees": {
-    "usEvents": 14,
+    "usEvents": 13,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:47.560Z",
+    "lastScan": "2026-03-08T11:02:24.626Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "M3F 2026",
-        "city": "Phoenix, AZ",
-        "soldOut": false
-      },
       {
         "date": "2026-03-20",
         "venue": "Deep Tropics | Music, Art & Style Festival 2026",
@@ -13610,7 +13364,7 @@
   "Wreckno": {
     "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:47.849Z",
+    "lastScan": "2026-03-08T11:02:24.806Z",
     "events": [
       {
         "date": "2026-03-20",
@@ -13651,16 +13405,10 @@
     ]
   },
   "G Jones": {
-    "usEvents": 3,
+    "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:48.116Z",
+    "lastScan": "2026-03-08T11:02:24.983Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "SILO Brooklyn",
-        "city": "Downtown Brooklyn, NY",
-        "soldOut": false
-      },
       {
         "date": "2026-03-20",
         "venue": "Bicentennial Capitol Mall State Park",
@@ -13676,16 +13424,10 @@
     ]
   },
   "Eprom": {
-    "usEvents": 4,
+    "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:48.408Z",
+    "lastScan": "2026-03-08T11:02:25.145Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "SILO Brooklyn",
-        "city": "Downtown Brooklyn, NY",
-        "soldOut": false
-      },
       {
         "date": "2026-03-19",
         "venue": "Okeechobee Music & Arts Festival 2026",
@@ -13709,7 +13451,7 @@
   "Chase & Status": {
     "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:48.681Z",
+    "lastScan": "2026-03-08T11:02:25.320Z",
     "events": [
       {
         "date": "2026-05-23",
@@ -13734,7 +13476,7 @@
   "Dimension": {
     "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:48.986Z",
+    "lastScan": "2026-03-08T11:02:25.503Z",
     "events": [
       {
         "date": "2026-03-27",
@@ -13783,7 +13525,7 @@
   "Sub Focus": {
     "usEvents": 8,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:49.295Z",
+    "lastScan": "2026-03-08T11:02:25.688Z",
     "events": [
       {
         "date": "2026-03-27",
@@ -13838,7 +13580,7 @@
   "Netsky": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:49.577Z",
+    "lastScan": "2026-03-08T11:02:25.862Z",
     "events": [
       {
         "date": "2026-04-24",
@@ -13857,7 +13599,7 @@
   "Nate Bargatze": {
     "usEvents": 44,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:50.029Z",
+    "lastScan": "2026-03-08T11:02:26.118Z",
     "events": [
       {
         "date": "2026-03-16",
@@ -13891,7 +13633,7 @@
       },
       {
         "date": "2026-03-28",
-        "venue": "CAJUNDOME Arena & Convention Center",
+        "venue": "CAJUNDOME",
         "city": "Lafayette, LA",
         "soldOut": false
       },
@@ -14128,7 +13870,7 @@
   "Shane Gillis": {
     "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:50.319Z",
+    "lastScan": "2026-03-08T11:02:26.286Z",
     "events": [
       {
         "date": "2026-04-03",
@@ -14189,7 +13931,7 @@
   "Mark Normand": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:50.579Z",
+    "lastScan": "2026-03-08T11:02:26.450Z",
     "events": [
       {
         "date": "2026-04-23",
@@ -14202,7 +13944,7 @@
   "Theo Von": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:50.829Z",
+    "lastScan": "2026-03-08T11:02:26.612Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -14221,7 +13963,7 @@
   "Andrew Schulz": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:51.116Z",
+    "lastScan": "2026-03-08T11:02:26.777Z",
     "events": [
       {
         "date": "2026-04-13",
@@ -14232,22 +13974,10 @@
     ]
   },
   "John Mulaney": {
-    "usEvents": 53,
+    "usEvents": 51,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:51.663Z",
+    "lastScan": "2026-03-08T11:02:27.058Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Celebrity Theatre",
-        "city": "Phoenix, AZ",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Fantasy Springs Resort Casino",
-        "city": "Indio, CA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-19",
         "venue": "Orpheum Theater",
@@ -14454,7 +14184,7 @@
       },
       {
         "date": "2026-08-01",
-        "venue": "Musikfest",
+        "venue": "Musikfest 2026",
         "city": "Bethlehem, PA",
         "soldOut": false
       },
@@ -14559,7 +14289,7 @@
   "Ali Wong": {
     "usEvents": 26,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:51.972Z",
+    "lastScan": "2026-03-08T11:02:27.265Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -14722,7 +14452,7 @@
   "Hasan Minhaj": {
     "usEvents": 12,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:52.280Z",
+    "lastScan": "2026-03-08T11:02:27.454Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -14801,7 +14531,7 @@
   "Sebastian Maniscalco": {
     "usEvents": 14,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:52.574Z",
+    "lastScan": "2026-03-08T11:02:27.630Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -14890,16 +14620,10 @@
     ]
   },
   "Bert Kreischer": {
-    "usEvents": 28,
+    "usEvents": 27,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:52.893Z",
+    "lastScan": "2026-03-08T11:02:27.832Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Hard Rock Live Bristol",
-        "city": "Bristol, VA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Covelli Centre",
@@ -15065,16 +14789,10 @@
     ]
   },
   "Whitney Cummings": {
-    "usEvents": 8,
+    "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:53.167Z",
+    "lastScan": "2026-03-08T11:02:28.011Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Mayo Civic Center",
-        "city": "Rochester, MN",
-        "soldOut": false
-      },
       {
         "date": "2026-03-13",
         "venue": "Channel 24",
@@ -15120,16 +14838,10 @@
     ]
   },
   "Iliza Shlesinger": {
-    "usEvents": 12,
+    "usEvents": 11,
     "soldOut": 1,
-    "lastScan": "2026-03-07T12:01:53.464Z",
+    "lastScan": "2026-03-08T11:02:28.185Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Castle Theater",
-        "city": "Kahului, HI",
-        "soldOut": false
-      },
       {
         "date": "2026-03-14",
         "venue": "Wheeler Opera House",
@@ -15201,7 +14913,7 @@
   "Taylor Tomlinson": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:53.913Z",
+    "lastScan": "2026-03-08T11:02:28.350Z",
     "events": [
       {
         "date": "2026-05-06",
@@ -15214,7 +14926,7 @@
   "Nikki Glaser": {
     "usEvents": 44,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:54.284Z",
+    "lastScan": "2026-03-08T11:02:28.591Z",
     "events": [
       {
         "date": "2026-05-06",
@@ -15485,7 +15197,7 @@
   "Matt Friend": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:54.558Z",
+    "lastScan": "2026-03-08T11:02:28.753Z",
     "events": [
       {
         "date": "2026-03-21",
@@ -15498,7 +15210,7 @@
   "Ronny Chieng": {
     "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:54.840Z",
+    "lastScan": "2026-03-08T11:02:28.927Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -15557,16 +15269,10 @@
     ]
   },
   "Deon Cole": {
-    "usEvents": 10,
+    "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:55.139Z",
+    "lastScan": "2026-03-08T11:02:29.107Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Hollywood Improv",
-        "city": "Hollywood, CA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-09",
         "venue": "Hollywood Improv",
@@ -15624,16 +15330,10 @@
     ]
   },
   "Fortune Feimster": {
-    "usEvents": 6,
+    "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:55.396Z",
+    "lastScan": "2026-03-08T11:02:29.289Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "San Diego Civic Theatre",
-        "city": "San Diego, CA",
-        "soldOut": false
-      },
       {
         "date": "2026-04-02",
         "venue": "The Criterion",
@@ -15667,16 +15367,10 @@
     ]
   },
   "Matteo Lane": {
-    "usEvents": 6,
+    "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:55.686Z",
+    "lastScan": "2026-03-08T11:02:29.456Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Mahaffey Theater",
-        "city": "Saint Petersburg, FL",
-        "soldOut": false
-      },
       {
         "date": "2026-03-14",
         "venue": "The Paramount",
@@ -15712,7 +15406,7 @@
   "Rachel Bloom": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:55.930Z",
+    "lastScan": "2026-03-08T11:02:29.634Z",
     "events": [
       {
         "date": "2026-04-19",
@@ -15729,16 +15423,10 @@
     ]
   },
   "Tim Dillon": {
-    "usEvents": 8,
+    "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:56.203Z",
+    "lastScan": "2026-03-08T11:02:29.812Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Hollywood Improv",
-        "city": "Hollywood, CA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Tim Dillon & Friends",
@@ -15786,7 +15474,7 @@
   "Kill Tony": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:56.476Z",
+    "lastScan": "2026-03-08T11:02:29.971Z",
     "events": [
       {
         "date": "2026-05-07",
@@ -15799,7 +15487,7 @@
   "Tony Hinchcliffe": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:56.758Z",
+    "lastScan": "2026-03-08T11:02:30.144Z",
     "events": [
       {
         "date": "2026-04-24",
@@ -15818,7 +15506,7 @@
   "Bobby Lee": {
     "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:57.057Z",
+    "lastScan": "2026-03-08T11:02:30.345Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -15849,7 +15537,7 @@
   "Andrew Santino": {
     "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:57.319Z",
+    "lastScan": "2026-03-08T11:02:30.508Z",
     "events": [
       {
         "date": "2026-03-11",
@@ -15878,16 +15566,10 @@
     ]
   },
   "Sal Vulcano": {
-    "usEvents": 16,
+    "usEvents": 15,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:57.622Z",
+    "lastScan": "2026-03-08T11:02:30.693Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Taft Theatre",
-        "city": "Cincinnati, OH",
-        "soldOut": false
-      },
       {
         "date": "2026-03-27",
         "venue": "Kodak Center",
@@ -15981,22 +15663,10 @@
     ]
   },
   "Joe List": {
-    "usEvents": 11,
+    "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:57.913Z",
+    "lastScan": "2026-03-08T11:02:30.856Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Laugh Out Loud Comedy Club",
-        "city": "San Antonio, TX",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Laugh Out Loud Comedy Club",
-        "city": "San Antonio, TX",
-        "soldOut": false
-      },
       {
         "date": "2026-03-10",
         "venue": "The Stand - Upstairs, (212) 677-2600",
@@ -16011,7 +15681,7 @@
       },
       {
         "date": "2026-03-18",
-        "venue": "The Stand - Upstairs, (212) 677-2600",
+        "venue": "The Stand NYC (Main Room)",
         "city": "New York City, NY",
         "soldOut": false
       },
@@ -16054,22 +15724,10 @@
     ]
   },
   "Dan Soder": {
-    "usEvents": 18,
+    "usEvents": 16,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:58.204Z",
+    "lastScan": "2026-03-08T11:02:31.037Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Boch Center Shubert Theatre - The Golden Retriever of Comedy Tour",
-        "city": "Boston, MA",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Miller Theater - The Golden Retriever of Comedy Tour",
-        "city": "Philadelphia, PA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-19",
         "venue": "Texas Theatre - The Golden Retriever of Comedy Tour",
@@ -16169,16 +15827,10 @@
     ]
   },
   "Big Jay Oakerson": {
-    "usEvents": 2,
+    "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:58.487Z",
+    "lastScan": "2026-03-08T11:01:02.844Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Cobb's Comedy Club",
-        "city": "San Francisco, CA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-07",
         "venue": "Cobb's Comedy Club",
@@ -16190,7 +15842,7 @@
   "Yannis Pappas": {
     "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:58.757Z",
+    "lastScan": "2026-03-08T11:02:31.366Z",
     "events": [
       {
         "date": "2026-04-24",
@@ -16213,22 +15865,10 @@
     ]
   },
   "Akaash Singh": {
-    "usEvents": 14,
+    "usEvents": 12,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:59.061Z",
+    "lastScan": "2026-03-08T11:02:31.555Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "White Oak Music Hall",
-        "city": "Houston, TX",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Paramount Theatre",
-        "city": "Austin, TX",
-        "soldOut": false
-      },
       {
         "date": "2026-03-20",
         "venue": "Majestic Theatre",
@@ -16306,7 +15946,7 @@
   "Nimesh Patel": {
     "usEvents": 13,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:59.357Z",
+    "lastScan": "2026-03-08T11:02:31.752Z",
     "events": [
       {
         "date": "2026-03-11",
@@ -16391,7 +16031,7 @@
   "Jerrod Carmichael": {
     "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:59.625Z",
+    "lastScan": "2026-03-08T11:02:31.914Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -16407,7 +16047,7 @@
       },
       {
         "date": "2026-05-06",
-        "venue": "The Belasco Theater",
+        "venue": "Below at The Belasco",
         "city": "Los Angeles, CA",
         "soldOut": false
       }
@@ -16416,7 +16056,7 @@
   "Michelle Buteau": {
     "usEvents": 17,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:01:59.903Z",
+    "lastScan": "2026-03-08T11:02:32.095Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -16525,7 +16165,7 @@
   "Sam Jay": {
     "usEvents": 8,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:00.174Z",
+    "lastScan": "2026-03-08T11:02:32.260Z",
     "events": [
       {
         "date": "2026-03-12",
@@ -16580,7 +16220,7 @@
   "Dulce Sloan": {
     "usEvents": 10,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:00.454Z",
+    "lastScan": "2026-03-08T11:02:32.437Z",
     "events": [
       {
         "date": "2026-03-09",
@@ -16647,7 +16287,7 @@
   "Liza Treyger": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:00.721Z",
+    "lastScan": "2026-03-08T11:02:32.605Z",
     "events": [
       {
         "date": "2026-05-06",
@@ -16660,7 +16300,7 @@
   "Ian Fidance": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:00.992Z",
+    "lastScan": "2026-03-08T11:02:32.778Z",
     "events": [
       {
         "date": "2026-11-13",
@@ -16679,7 +16319,7 @@
   "Jacqueline Novak": {
     "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:01.283Z",
+    "lastScan": "2026-03-08T11:02:32.964Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -16689,7 +16329,7 @@
       },
       {
         "date": "2026-03-20",
-        "venue": "Palace Of Fine Arts Theatre",
+        "venue": "Palace of Fine Arts Theatre",
         "city": "San Francisco, CA",
         "soldOut": false
       },
@@ -16738,22 +16378,10 @@
     ]
   },
   "Cody Johnson": {
-    "usEvents": 25,
+    "usEvents": 23,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:01.597Z",
+    "lastScan": "2026-03-08T11:02:33.185Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "PPG Paints Arena",
-        "city": "Pittsburgh, PA",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "CFG Bank Arena",
-        "city": "Baltimore, MD",
-        "soldOut": false
-      },
       {
         "date": "2026-03-22",
         "venue": "Cody Johnson - RODEOHOUSTON",
@@ -16897,7 +16525,7 @@
   "Parker McCollum": {
     "usEvents": 41,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:02.008Z",
+    "lastScan": "2026-03-08T11:02:33.426Z",
     "events": [
       {
         "date": "2026-03-20",
@@ -17150,7 +16778,7 @@
   "Cody Jinks": {
     "usEvents": 50,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:02.416Z",
+    "lastScan": "2026-03-08T11:02:33.673Z",
     "events": [
       {
         "date": "2026-03-20",
@@ -17457,7 +17085,7 @@
   "Turnpike Troubadours": {
     "usEvents": 14,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:02.713Z",
+    "lastScan": "2026-03-08T11:02:33.865Z",
     "events": [
       {
         "date": "2026-03-27",
@@ -17546,16 +17174,10 @@
     ]
   },
   "Caamp": {
-    "usEvents": 28,
+    "usEvents": 27,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:03.029Z",
+    "lastScan": "2026-03-08T11:02:34.093Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "The Dome at America's Center",
-        "city": "St. Louis, MO",
-        "soldOut": false
-      },
       {
         "date": "2026-03-14",
         "venue": "Raymond James Stadium",
@@ -17723,7 +17345,7 @@
   "Sierra Ferrell": {
     "usEvents": 29,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:03.438Z",
+    "lastScan": "2026-03-08T11:02:34.333Z",
     "events": [
       {
         "date": "2026-05-30",
@@ -17902,16 +17524,10 @@
     ]
   },
   "Charley Crockett": {
-    "usEvents": 32,
+    "usEvents": 31,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:03.771Z",
+    "lastScan": "2026-03-08T11:02:34.555Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Wind Creek Bethlehem",
-        "city": "Bethlehem, PA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Roadrunner",
@@ -18101,22 +17717,10 @@
     ]
   },
   "Colter Wall": {
-    "usEvents": 8,
+    "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:04.038Z",
+    "lastScan": "2026-03-08T11:02:34.713Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Stifel Theatre",
-        "city": "St Louis, MO",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Prairie Home Alliance Theater",
-        "city": "Peoria, IL",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Victory Theatre",
@@ -18156,22 +17760,10 @@
     ]
   },
   "Jason Isbell": {
-    "usEvents": 26,
+    "usEvents": 24,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:04.355Z",
+    "lastScan": "2026-03-08T11:02:34.922Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "The Salt Shed",
-        "city": "Chicago, IL",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "The Salt Shed",
-        "city": "Chicago, IL",
-        "soldOut": false
-      },
       {
         "date": "2026-03-13",
         "venue": "Cayamo Cruise 2026",
@@ -18321,7 +17913,7 @@
   "Billy Strings": {
     "usEvents": 23,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:04.669Z",
+    "lastScan": "2026-03-08T11:02:35.122Z",
     "events": [
       {
         "date": "2026-04-02",
@@ -18466,7 +18058,7 @@
   "Trampled by Turtles": {
     "usEvents": 24,
     "soldOut": 4,
-    "lastScan": "2026-03-07T12:02:04.975Z",
+    "lastScan": "2026-03-08T11:02:35.328Z",
     "events": [
       {
         "date": "2026-03-12",
@@ -18617,7 +18209,7 @@
   "Hailey Whitters": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:05.248Z",
+    "lastScan": "2026-03-08T11:02:35.492Z",
     "events": [
       {
         "date": "2026-03-22",
@@ -18630,7 +18222,7 @@
   "Megan Moroney": {
     "usEvents": 39,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:05.727Z",
+    "lastScan": "2026-03-08T11:02:35.737Z",
     "events": [
       {
         "date": "2026-03-10",
@@ -18871,7 +18463,7 @@
   "Ella Langley": {
     "usEvents": 31,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:06.050Z",
+    "lastScan": "2026-03-08T11:02:35.937Z",
     "events": [
       {
         "date": "2026-04-18",
@@ -19062,16 +18654,10 @@
     ]
   },
   "Nate Smith": {
-    "usEvents": 5,
+    "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:06.332Z",
+    "lastScan": "2026-03-08T11:02:36.112Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "The National",
-        "city": "Richmond, VA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-28",
         "venue": "Big Ears Festival 2026",
@@ -19099,22 +18685,10 @@
     ]
   },
   "Muscadine Bloodline": {
-    "usEvents": 17,
+    "usEvents": 15,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:06.617Z",
+    "lastScan": "2026-03-08T11:02:36.295Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Longleaf Lo-fi Tour",
-        "city": "Beaumont, TX",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Longleaf Lo-fi Tour",
-        "city": "San Antonio, TX",
-        "soldOut": false
-      },
       {
         "date": "2026-03-28",
         "venue": "Auburn Rodeo 2026",
@@ -19210,7 +18784,7 @@
   "Flatland Cavalry": {
     "usEvents": 40,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:06.936Z",
+    "lastScan": "2026-03-08T11:02:36.518Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -19455,16 +19029,10 @@
     ]
   },
   "Koe Wetzel": {
-    "usEvents": 54,
+    "usEvents": 53,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:07.434Z",
+    "lastScan": "2026-03-08T11:02:36.798Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Boots In The Park - Norco, CA 2026",
-        "city": "Norco, CA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-18",
         "venue": "RODEO HOUSTON - NRG Stadium",
@@ -19788,7 +19356,7 @@
   "Whiskey Myers": {
     "usEvents": 41,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:07.842Z",
+    "lastScan": "2026-03-08T11:02:37.035Z",
     "events": [
       {
         "date": "2026-03-28",
@@ -20041,7 +19609,7 @@
   "Midland": {
     "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:08.118Z",
+    "lastScan": "2026-03-08T11:02:37.214Z",
     "events": [
       {
         "date": "2026-04-17",
@@ -20090,7 +19658,7 @@
   "Brothers Osborne": {
     "usEvents": 16,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:08.397Z",
+    "lastScan": "2026-03-08T11:02:37.438Z",
     "events": [
       {
         "date": "2026-06-11",
@@ -20193,7 +19761,7 @@
   "Old Crow Medicine Show": {
     "usEvents": 32,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:08.720Z",
+    "lastScan": "2026-03-08T11:02:37.657Z",
     "events": [
       {
         "date": "2026-03-18",
@@ -20392,7 +19960,7 @@
   "Greensky Bluegrass": {
     "usEvents": 17,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:09.041Z",
+    "lastScan": "2026-03-08T11:02:37.846Z",
     "events": [
       {
         "date": "2026-04-16",
@@ -20501,7 +20069,7 @@
   "Railroad Earth": {
     "usEvents": 16,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:09.348Z",
+    "lastScan": "2026-03-08T11:02:38.028Z",
     "events": [
       {
         "date": "2026-03-10",
@@ -20604,7 +20172,7 @@
   "The Avett Brothers": {
     "usEvents": 21,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:09.643Z",
+    "lastScan": "2026-03-08T11:02:38.226Z",
     "events": [
       {
         "date": "2026-03-21",
@@ -20735,16 +20303,10 @@
     ]
   },
   "Brandi Carlile": {
-    "usEvents": 7,
+    "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:09.951Z",
+    "lastScan": "2026-03-08T11:02:38.416Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Chase Center",
-        "city": "San Francisco, CA",
-        "soldOut": false
-      },
       {
         "date": "2026-05-20",
         "venue": "Hayden Homes Amphitheater",
@@ -20786,7 +20348,7 @@
   "Marcus King": {
     "usEvents": 10,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:10.216Z",
+    "lastScan": "2026-03-08T11:02:38.594Z",
     "events": [
       {
         "date": "2026-05-01",
@@ -20853,7 +20415,7 @@
   "Larkin Poe": {
     "usEvents": 25,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:10.534Z",
+    "lastScan": "2026-03-08T11:02:38.796Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -21010,7 +20572,7 @@
   "Orville Peck": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:10.814Z",
+    "lastScan": "2026-03-08T11:02:38.972Z",
     "events": [
       {
         "date": "2026-06-14",
@@ -21023,7 +20585,7 @@
   "Tanya Tucker": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:11.091Z",
+    "lastScan": "2026-03-08T11:02:39.143Z",
     "events": [
       {
         "date": "2026-03-12",
@@ -21042,7 +20604,7 @@
   "Wynonna Judd": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:11.351Z",
+    "lastScan": "2026-03-08T11:02:39.313Z",
     "events": [
       {
         "date": "2026-03-28",
@@ -21055,7 +20617,7 @@
   "Ashley McBryde": {
     "usEvents": 12,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:11.679Z",
+    "lastScan": "2026-03-08T11:02:39.516Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -21134,7 +20696,7 @@
   "Elle King": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:11.953Z",
+    "lastScan": "2026-03-08T11:02:39.684Z",
     "events": [
       {
         "date": "2026-07-14",
@@ -21147,7 +20709,7 @@
   "Hardy": {
     "usEvents": 34,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:12.348Z",
+    "lastScan": "2026-03-08T11:02:39.898Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -21356,22 +20918,10 @@
     ]
   },
   "Ernest": {
-    "usEvents": 23,
+    "usEvents": 21,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:12.662Z",
+    "lastScan": "2026-03-08T11:02:40.089Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Joe's Live",
-        "city": "Rosemont, IL",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "The Bluestone",
-        "city": "Columbus, OH",
-        "soldOut": false
-      },
       {
         "date": "2026-03-10",
         "venue": "Grand Ole Opry House",
@@ -21503,7 +21053,7 @@
   "Jessie Murph": {
     "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:12.934Z",
+    "lastScan": "2026-03-08T11:02:40.269Z",
     "events": [
       {
         "date": "2026-06-12",
@@ -21546,7 +21096,7 @@
   "Warren Zeiders": {
     "usEvents": 25,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:13.274Z",
+    "lastScan": "2026-03-08T11:02:40.497Z",
     "events": [
       {
         "date": "2026-03-26",
@@ -21703,7 +21253,7 @@
   "Kameron Marlowe": {
     "usEvents": 24,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:13.606Z",
+    "lastScan": "2026-03-08T11:02:40.693Z",
     "events": [
       {
         "date": "2026-03-26",
@@ -21854,7 +21404,7 @@
   "Freddie Gibbs": {
     "usEvents": 18,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:13.936Z",
+    "lastScan": "2026-03-08T11:02:40.910Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -21969,7 +21519,7 @@
   "Vince Staples": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:14.213Z",
+    "lastScan": "2026-03-08T11:02:41.084Z",
     "events": [
       {
         "date": "2026-06-11",
@@ -21982,7 +21532,7 @@
   "Smino": {
     "usEvents": 23,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:14.654Z",
+    "lastScan": "2026-03-08T11:02:41.289Z",
     "events": [
       {
         "date": "2026-05-26",
@@ -22127,7 +21677,7 @@
   "IDK": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:14.908Z",
+    "lastScan": "2026-03-08T11:02:41.455Z",
     "events": [
       {
         "date": "2026-03-31",
@@ -22140,7 +21690,7 @@
   "Curren$y": {
     "usEvents": 42,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:15.319Z",
+    "lastScan": "2026-03-08T11:02:41.678Z",
     "events": [
       {
         "date": "2026-03-28",
@@ -22399,7 +21949,7 @@
   "Boldy James": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:15.631Z",
+    "lastScan": "2026-03-08T11:02:41.847Z",
     "events": [
       {
         "date": "2026-04-25",
@@ -22412,7 +21962,7 @@
   "Danny Brown": {
     "usEvents": 18,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:15.959Z",
+    "lastScan": "2026-03-08T11:02:42.039Z",
     "events": [
       {
         "date": "2026-04-18",
@@ -22527,7 +22077,7 @@
   "Armand Hammer": {
     "usEvents": 21,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:16.275Z",
+    "lastScan": "2026-03-08T11:02:42.251Z",
     "events": [
       {
         "date": "2026-04-24",
@@ -22579,7 +22129,7 @@
       },
       {
         "date": "2026-09-26",
-        "venue": "The Fillmore Philadelphia",
+        "venue": "The Foundry at The Fillmore Philadelphia",
         "city": "Philadelphia, PA",
         "soldOut": false
       },
@@ -22660,7 +22210,7 @@
   "Injury Reserve": {
     "usEvents": 22,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:16.618Z",
+    "lastScan": "2026-03-08T11:02:42.576Z",
     "events": [
       {
         "date": "2026-05-07",
@@ -22799,7 +22349,7 @@
   "Saba": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:16.878Z",
+    "lastScan": "2026-03-08T11:02:42.735Z",
     "events": [
       {
         "date": "2026-05-17",
@@ -22812,7 +22362,7 @@
   "Little Simz": {
     "usEvents": 19,
     "soldOut": 1,
-    "lastScan": "2026-03-07T12:02:17.192Z",
+    "lastScan": "2026-03-08T11:02:42.928Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -22933,7 +22483,7 @@
   "Summer Walker": {
     "usEvents": 16,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:17.489Z",
+    "lastScan": "2026-03-08T11:02:43.122Z",
     "events": [
       {
         "date": "2026-05-29",
@@ -23027,7 +22577,7 @@
       },
       {
         "date": "2026-07-01",
-        "venue": "Climate Pledge Arena ",
+        "venue": "Tom's Watch Bar - Climate Pledge Arena",
         "city": "Seattle, WA",
         "soldOut": false
       }
@@ -23036,7 +22586,7 @@
   "Rival Sons": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:17.727Z",
+    "lastScan": "2026-03-08T11:02:43.286Z",
     "events": [
       {
         "date": "2026-04-03",
@@ -23049,7 +22599,7 @@
   "Spiritbox": {
     "usEvents": 28,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:18.185Z",
+    "lastScan": "2026-03-08T11:02:43.542Z",
     "events": [
       {
         "date": "2026-06-11",
@@ -23224,7 +22774,7 @@
   "Knocked Loose": {
     "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:18.499Z",
+    "lastScan": "2026-03-08T11:02:43.742Z",
     "events": [
       {
         "date": "2026-04-25",
@@ -23249,7 +22799,7 @@
   "Turnover": {
     "usEvents": 2,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:18.781Z",
+    "lastScan": "2026-03-08T11:02:43.915Z",
     "events": [
       {
         "date": "2026-06-05",
@@ -23268,7 +22818,7 @@
   "Touche Amore": {
     "usEvents": 7,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:19.095Z",
+    "lastScan": "2026-03-08T11:02:44.140Z",
     "events": [
       {
         "date": "2026-04-08",
@@ -23317,7 +22867,7 @@
   "Deafheaven": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:19.402Z",
+    "lastScan": "2026-03-08T11:02:44.330Z",
     "events": [
       {
         "date": "2026-10-24",
@@ -23328,16 +22878,10 @@
     ]
   },
   "Show Me The Body": {
-    "usEvents": 15,
+    "usEvents": 14,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:19.698Z",
+    "lastScan": "2026-03-08T11:02:44.546Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "The Eastern",
-        "city": "Atlanta, GA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-09",
         "venue": "The Beacham",
@@ -23427,7 +22971,7 @@
   "Drain": {
     "usEvents": 20,
     "soldOut": 1,
-    "lastScan": "2026-03-07T12:02:20.135Z",
+    "lastScan": "2026-03-08T11:02:44.776Z",
     "events": [
       {
         "date": "2026-03-19",
@@ -23554,7 +23098,7 @@
   "Militarie Gun": {
     "usEvents": 27,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:20.460Z",
+    "lastScan": "2026-03-08T11:02:45.009Z",
     "events": [
       {
         "date": "2026-03-09",
@@ -23723,7 +23267,7 @@
   "Osees": {
     "usEvents": 25,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:20.784Z",
+    "lastScan": "2026-03-08T11:02:45.219Z",
     "events": [
       {
         "date": "2026-06-05",
@@ -23880,7 +23424,7 @@
   "Ty Segall": {
     "usEvents": 24,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:21.158Z",
+    "lastScan": "2026-03-08T11:02:45.455Z",
     "events": [
       {
         "date": "2026-03-26",
@@ -24031,7 +23575,7 @@
   "Thee Oh Sees": {
     "usEvents": 25,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:21.463Z",
+    "lastScan": "2026-03-08T11:02:45.669Z",
     "events": [
       {
         "date": "2026-06-05",
@@ -24188,7 +23732,7 @@
   "Frankie and the Witch Fingers": {
     "usEvents": 6,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:21.766Z",
+    "lastScan": "2026-03-08T11:02:45.870Z",
     "events": [
       {
         "date": "2026-04-04",
@@ -24231,7 +23775,7 @@
   "Psychedelic Porn Crumpets": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:22.060Z",
+    "lastScan": "2026-03-08T11:02:46.065Z",
     "events": [
       {
         "date": "2026-09-19",
@@ -24244,7 +23788,7 @@
   "Power Trip": {
     "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:22.345Z",
+    "lastScan": "2026-03-08T11:02:46.231Z",
     "events": [
       {
         "date": "2026-05-02",
@@ -24275,7 +23819,7 @@
   "High On Fire": {
     "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:22.644Z",
+    "lastScan": "2026-03-08T11:02:46.411Z",
     "events": [
       {
         "date": "2026-03-28",
@@ -24300,7 +23844,7 @@
   "Melvins": {
     "usEvents": 30,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:22.971Z",
+    "lastScan": "2026-03-08T11:02:46.631Z",
     "events": [
       {
         "date": "2026-04-22",
@@ -24487,7 +24031,7 @@
   "Queens of the Stone Age": {
     "usEvents": 14,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:23.272Z",
+    "lastScan": "2026-03-08T11:02:46.947Z",
     "events": [
       {
         "date": "2026-04-24",
@@ -24578,7 +24122,7 @@
   "Mastodon": {
     "usEvents": 3,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:23.561Z",
+    "lastScan": "2026-03-08T11:02:47.134Z",
     "events": [
       {
         "date": "2026-04-25",
@@ -24601,16 +24145,10 @@
     ]
   },
   "Baroness": {
-    "usEvents": 5,
+    "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:23.835Z",
+    "lastScan": "2026-03-08T11:02:47.295Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Starland Ballroom",
-        "city": "Sayreville, NJ",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Amityville Music Hall",
@@ -24640,7 +24178,7 @@
   "Gojira": {
     "usEvents": 4,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:24.153Z",
+    "lastScan": "2026-03-08T11:02:47.491Z",
     "events": [
       {
         "date": "2026-07-16",
@@ -24671,7 +24209,7 @@
   "Widespread Panic": {
     "usEvents": 12,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:24.436Z",
+    "lastScan": "2026-03-08T11:02:47.655Z",
     "events": [
       {
         "date": "2026-03-20",
@@ -24750,7 +24288,7 @@
   "Lettuce": {
     "usEvents": 11,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:24.736Z",
+    "lastScan": "2026-03-08T11:02:47.846Z",
     "events": [
       {
         "date": "2026-04-23",
@@ -24821,22 +24359,10 @@
     ]
   },
   "Lotus": {
-    "usEvents": 15,
+    "usEvents": 13,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:25.021Z",
+    "lastScan": "2026-03-08T11:02:48.029Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Tuffy's Music Box",
-        "city": "Sanford, FL",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Jannus Live",
-        "city": "St Petersburg, FL",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Culture Room",
@@ -24920,7 +24446,7 @@
   "STS9": {
     "usEvents": 11,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:25.341Z",
+    "lastScan": "2026-03-08T11:02:48.191Z",
     "events": [
       {
         "date": "2026-04-11",
@@ -24991,16 +24517,10 @@
     ]
   },
   "moe.": {
-    "usEvents": 47,
+    "usEvents": 46,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:25.766Z",
+    "lastScan": "2026-03-08T11:02:48.442Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Ardmore Music Hall",
-        "city": "Ardmore, PA",
-        "soldOut": false
-      },
       {
         "date": "2026-03-13",
         "venue": "Lincoln Theatre",
@@ -25280,22 +24800,10 @@
     ]
   },
   "Dark Star Orchestra": {
-    "usEvents": 26,
+    "usEvents": 24,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:26.084Z",
+    "lastScan": "2026-03-08T11:02:48.637Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Hackensack Meridian Health Theatre at Count Basie Center for the Arts",
-        "city": "Red Bank, NJ",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Foxwoods Resort Casino",
-        "city": "Ledyard, CT",
-        "soldOut": false
-      },
       {
         "date": "2026-03-09",
         "venue": "Goodyear Theater",
@@ -25443,16 +24951,10 @@
     ]
   },
   "Pigeons Playing Ping Pong": {
-    "usEvents": 25,
+    "usEvents": 24,
     "soldOut": 1,
-    "lastScan": "2026-03-07T12:02:26.393Z",
+    "lastScan": "2026-03-08T11:02:48.836Z",
     "events": [
-      {
-        "date": "2026-03-07",
-        "venue": "Jannus Live",
-        "city": "St Petersburg, FL",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Culture Room",
@@ -25600,22 +25102,10 @@
     ]
   },
   "Eggy": {
-    "usEvents": 50,
+    "usEvents": 48,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:26.786Z",
+    "lastScan": "2026-03-08T11:02:49.105Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "High Noon Saloon",
-        "city": "Madison, WI",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Moontown Brewing Company",
-        "city": "Whitestown, IN",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "The Burl",
@@ -25909,7 +25399,7 @@
   "Neighbor": {
     "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:27.065Z",
+    "lastScan": "2026-03-08T11:02:49.291Z",
     "events": [
       {
         "date": "2026-03-26",
@@ -25968,22 +25458,10 @@
     ]
   },
   "Spafford": {
-    "usEvents": 17,
+    "usEvents": 16,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:27.368Z",
+    "lastScan": "2026-03-08T11:02:49.474Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "The State Theatre",
-        "city": "State College, PA",
-        "soldOut": false
-      },
-      {
-        "date": "2026-03-07",
-        "venue": "Brooklyn Bowl",
-        "city": "Brooklyn, NY",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Bearsville Theater",
@@ -26063,6 +25541,12 @@
         "soldOut": false
       },
       {
+        "date": "2026-06-25",
+        "venue": "Get Down 2026",
+        "city": "Blain, PA",
+        "soldOut": false
+      },
+      {
         "date": "2026-07-11",
         "venue": "Rock The Dock 2026",
         "city": "Lake George, NY",
@@ -26079,7 +25563,7 @@
   "Circles Around The Sun": {
     "usEvents": 11,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:27.658Z",
+    "lastScan": "2026-03-08T11:02:49.652Z",
     "events": [
       {
         "date": "2026-03-20",
@@ -26152,7 +25636,7 @@
   "Tauk": {
     "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:27.938Z",
+    "lastScan": "2026-03-08T11:02:49.824Z",
     "events": [
       {
         "date": "2026-04-10",
@@ -26189,7 +25673,7 @@
   "Cory Wong": {
     "usEvents": 17,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:28.239Z",
+    "lastScan": "2026-03-08T11:02:50.044Z",
     "events": [
       {
         "date": "2026-04-11",
@@ -26298,7 +25782,7 @@
   "Snarky Puppy": {
     "usEvents": 31,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:28.631Z",
+    "lastScan": "2026-03-08T11:02:50.297Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -26491,7 +25975,7 @@
   "Lake Street Dive": {
     "usEvents": 36,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:29.042Z",
+    "lastScan": "2026-03-08T11:02:50.558Z",
     "events": [
       {
         "date": "2026-04-08",
@@ -26714,7 +26198,7 @@
   "Lawrence": {
     "usEvents": 14,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:29.355Z",
+    "lastScan": "2026-03-08T11:02:50.745Z",
     "events": [
       {
         "date": "2026-05-30",
@@ -26805,7 +26289,7 @@
   "The Revivalists": {
     "usEvents": 10,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:29.634Z",
+    "lastScan": "2026-03-08T11:02:50.916Z",
     "events": [
       {
         "date": "2026-03-28",
@@ -26872,7 +26356,7 @@
   "Tank and the Bangas": {
     "usEvents": 9,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:29.893Z",
+    "lastScan": "2026-03-08T11:02:51.101Z",
     "events": [
       {
         "date": "2026-03-26",
@@ -26931,16 +26415,10 @@
     ]
   },
   "Peso Pluma": {
-    "usEvents": 32,
+    "usEvents": 31,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:30.224Z",
+    "lastScan": "2026-03-08T11:02:51.317Z",
     "events": [
-      {
-        "date": "2026-03-06",
-        "venue": "Talking Stick Resort Amphitheatre",
-        "city": "Phoenix, AZ",
-        "soldOut": false
-      },
       {
         "date": "2026-03-08",
         "venue": "Glen Helen Amphitheater",
@@ -27132,7 +26610,7 @@
   "Fuerza Regida": {
     "usEvents": 11,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:30.514Z",
+    "lastScan": "2026-03-08T11:02:51.494Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -27205,7 +26683,7 @@
   "Junior H": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:30.779Z",
+    "lastScan": "2026-03-08T11:02:51.658Z",
     "events": [
       {
         "date": "2026-03-14",
@@ -27218,7 +26696,7 @@
   "Ivan Cornejo": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:31.050Z",
+    "lastScan": "2026-03-08T11:02:51.831Z",
     "events": [
       {
         "date": "2026-05-31",
@@ -27231,7 +26709,7 @@
   "Los Tigres del Norte": {
     "usEvents": 29,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:31.392Z",
+    "lastScan": "2026-03-08T11:02:52.050Z",
     "events": [
       {
         "date": "2026-03-13",
@@ -27412,7 +26890,7 @@
   "Banda MS": {
     "usEvents": 5,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:31.907Z",
+    "lastScan": "2026-03-08T11:02:52.228Z",
     "events": [
       {
         "date": "2026-04-19",
@@ -27449,7 +26927,7 @@
   "Christian Nodal": {
     "usEvents": 1,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:32.176Z",
+    "lastScan": "2026-03-08T11:02:52.395Z",
     "events": [
       {
         "date": "2026-05-30",
@@ -27462,7 +26940,7 @@
   "Carín León": {
     "usEvents": 37,
     "soldOut": 0,
-    "lastScan": "2026-03-07T12:02:32.624Z",
+    "lastScan": "2026-03-08T11:02:52.638Z",
     "events": [
       {
         "date": "2026-05-15",

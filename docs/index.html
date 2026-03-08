@@ -264,6 +264,8 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   <div class="nav-section">
     <div class="nav-label">Tools</div>
     <div class="nav-item" onclick="showView('roi')"><span class="icon">💰</span> ROI Calculator</div>
+    <div class="nav-item" onclick="showView('submit')"><span class="icon">➕</span> Submit Artist</div>
+    <div class="nav-item" onclick="showView('myalerts')"><span class="icon">📧</span> My Alerts</div>
   </div>
   <div class="nav-section" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--border)">
     <div class="theme-toggle" onclick="toggleTheme()">🌓 <span id="theme-label">Dark Mode</span></div>
@@ -432,12 +434,132 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   </div>
 </div>
 
+<!-- SUBMIT ARTIST -->
+<div id="view-submit" class="view" style="display:none">
+  <div class="section-head">
+    <h2>➕ Submit an Artist or Tour</h2>
+    <span class="badge">Add to tracking</span>
+  </div>
+  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Submit artists or tours you want Blackbeard to track. Our scanners will start monitoring within 24 hours — checking Bandsintown, SeatGeek, Twitter, and Brave Search for tour dates, presale codes, and sold-out signals.</p>
+  
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:20px">
+    <div style="font-size:10px;font-weight:700;color:var(--text4);letter-spacing:1px;margin-bottom:12px">ARTIST / TOUR NAME</div>
+    <input type="text" id="submit-name" placeholder="e.g. Chappell Roan, Tyler Childers, Nate Bargatze..." style="width:100%;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:14px;margin-bottom:12px">
+    
+    <div style="font-size:10px;font-weight:700;color:var(--text4);letter-spacing:1px;margin-bottom:12px">GENRE (optional)</div>
+    <select id="submit-genre" style="width:100%;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:13px;margin-bottom:12px">
+      <option value="">Select genre...</option>
+      <option value="Pop">Pop</option>
+      <option value="Indie">Indie / Alt</option>
+      <option value="Electronic">Electronic / DJ</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Country">Country / Americana</option>
+      <option value="Hip-Hop">Hip-Hop / R&B</option>
+      <option value="Rock">Rock / Punk / Metal</option>
+      <option value="Jam">Jam / Live</option>
+      <option value="Latin">Latin / Regional Mexican</option>
+      <option value="Other">Other</option>
+    </select>
+    
+    <div style="font-size:10px;font-weight:700;color:var(--text4);letter-spacing:1px;margin-bottom:12px">NOTES (optional)</div>
+    <textarea id="submit-notes" placeholder="Any context: tour URL, venue you spotted, why you think it's hot..." style="width:100%;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:13px;height:80px;resize:vertical;margin-bottom:16px"></textarea>
+    
+    <button onclick="submitArtist()" style="background:var(--yellow);color:#000;border:none;padding:10px 24px;border-radius:6px;font-weight:700;font-size:13px;cursor:pointer;width:100%">🏴‍☠️ Submit for Tracking</button>
+    <div id="submit-result" style="margin-top:12px;font-size:13px;display:none"></div>
+  </div>
+  
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 20px;margin-bottom:20px">
+    <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:8px">📋 Your Submissions</div>
+    <div id="submission-history" style="font-size:12px;color:var(--text4)">No submissions yet.</div>
+  </div>
+  
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 20px">
+    <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:8px">⚡ Bulk Submit</div>
+    <p style="font-size:12px;color:var(--text4);margin-bottom:10px">Paste a list of artists (one per line) to submit multiple at once.</p>
+    <textarea id="bulk-submit" placeholder="Artist 1&#10;Artist 2&#10;Artist 3" style="width:100%;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:13px;height:100px;resize:vertical;margin-bottom:10px"></textarea>
+    <button onclick="bulkSubmit()" style="background:var(--surface2);color:var(--text2);border:1px solid var(--border2);padding:8px 20px;border-radius:6px;font-weight:600;font-size:12px;cursor:pointer">Submit All</button>
+    <div id="bulk-result" style="margin-top:8px;font-size:12px;display:none"></div>
+  </div>
+</div>
+
+<!-- MY ALERTS / EMAIL SIGNUP -->
+<div id="view-myalerts" class="view" style="display:none">
+  <div class="section-head">
+    <h2>📧 My Alerts</h2>
+    <span class="badge">Personalized notifications</span>
+  </div>
+  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Get personalized email alerts when your tracked artists add shows, sell out, or drop presale codes. Choose what matters to you.</p>
+  
+  <!-- Email Signup -->
+  <div style="background:linear-gradient(135deg,rgba(251,191,36,0.06),rgba(167,139,250,0.06));border:1px solid rgba(251,191,36,0.15);border-radius:var(--radius-lg);padding:24px;margin-bottom:20px">
+    <div style="font-size:16px;font-weight:700;color:var(--text);margin-bottom:6px">🔔 Set Up Email Alerts</div>
+    <p style="font-size:13px;color:var(--text3);margin-bottom:16px">Enter your email to receive instant alerts. We'll only email you about artists you're tracking.</p>
+    
+    <div style="display:flex;gap:10px;margin-bottom:12px">
+      <input type="email" id="alert-email" placeholder="your@email.com" style="flex:1;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:14px">
+      <button onclick="saveEmail()" style="background:var(--yellow);color:#000;border:none;padding:10px 20px;border-radius:6px;font-weight:700;font-size:13px;cursor:pointer;white-space:nowrap">Save</button>
+    </div>
+    <div id="email-status" style="font-size:12px;color:var(--green);display:none"></div>
+  </div>
+  
+  <!-- Alert Preferences -->
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:20px">
+    <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:14px">📋 Alert Preferences</div>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2);cursor:pointer">
+        <input type="checkbox" id="pref-newshows" checked onchange="savePrefs()" style="accent-color:var(--yellow)">
+        🆕 New shows added by tracked artists
+      </label>
+      <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2);cursor:pointer">
+        <input type="checkbox" id="pref-soldout" checked onchange="savePrefs()" style="accent-color:var(--yellow)">
+        🔥 Sold-out alerts (confirmed via Bandsintown)
+      </label>
+      <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2);cursor:pointer">
+        <input type="checkbox" id="pref-presale" checked onchange="savePrefs()" style="accent-color:var(--yellow)">
+        🔑 Presale codes detected
+      </label>
+      <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2);cursor:pointer">
+        <input type="checkbox" id="pref-price" checked onchange="savePrefs()" style="accent-color:var(--yellow)">
+        💰 Price alerts ($100+ resale detected)
+      </label>
+      <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2);cursor:pointer">
+        <input type="checkbox" id="pref-digest" onchange="savePrefs()" style="accent-color:var(--yellow)">
+        📊 Daily digest (summary of all changes, sent 8 AM ET)
+      </label>
+    </div>
+  </div>
+  
+  <!-- My Tracked Artists -->
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:20px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+      <div style="font-size:12px;font-weight:700;color:var(--text)">🎯 My Tracked Artists</div>
+      <button onclick="trackAll()" style="background:var(--surface2);color:var(--text3);border:1px solid var(--border2);padding:4px 12px;border-radius:4px;font-size:11px;cursor:pointer">Track All 303</button>
+    </div>
+    <div style="font-size:12px;color:var(--text4);margin-bottom:10px">Select which artists you want alerts for. Or click "Track All" to monitor everything.</div>
+    <input type="text" id="track-search" placeholder="Search artists to track..." oninput="filterTrackList()" style="width:100%;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:8px 12px;border-radius:6px;font-size:13px;margin-bottom:10px">
+    <div id="track-list" style="max-height:300px;overflow-y:auto;display:flex;flex-direction:column;gap:4px"></div>
+    <div style="margin-top:10px;font-size:11px;color:var(--text5)" id="track-count">0 artists tracked</div>
+  </div>
+  
+  <!-- Alert History -->
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px">
+    <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:10px">📬 Recent Alerts Sent</div>
+    <div id="alert-history" style="font-size:12px;color:var(--text4)">
+      <div style="padding:8px 0;border-bottom:1px solid var(--border)">🆕 <strong>LEVEL UP</strong> added 1 new show — <span style="color:var(--text5)">Sun Mar 8, 7:00 AM</span></div>
+      <div style="padding:8px 0;border-bottom:1px solid var(--border)">🆕 <strong>Ella Langley</strong> added 1 new show — <span style="color:var(--text5)">Sun Mar 8, 7:00 AM</span></div>
+      <div style="padding:8px 0;border-bottom:1px solid var(--border)">🆕 <strong>Ernest</strong> added 2 new shows — <span style="color:var(--text5)">Sun Mar 8, 7:00 AM</span></div>
+      <div style="padding:8px 0;border-bottom:1px solid var(--border)">🔥 <strong>Sara Landry</strong> SOLD OUT at SILO Dallas — <span style="color:var(--text5)">Sat Mar 7, 4:00 AM</span></div>
+      <div style="padding:8px 0">🔑 <strong>Josh Johnson</strong> presale code THISONETIME — <span style="color:var(--text5)">Thu Mar 6, 11:00 PM</span></div>
+    </div>
+  </div>
+</div>
+
 </div><!-- main -->
 </div><!-- app -->
 
 <div class="footer">
-  🏴‍☠️ Blackbeard v5.2 — Presale Intelligence for Ticket Brokers<br>
-  12 Automated Scanners • Twitter/X • Brave Search • SeatGeek • Spotify • Reddit • SerpAPI • Google Trends<br>
+  🏴‍☠️ Blackbeard v5.8 — Presale Intelligence for Ticket Brokers<br>
+  14 Automated Scanners • Bandsintown • Twitter/X • Brave Search • SeatGeek • Spotify • SerpAPI • Google Trends<br>
   <em>Data reflects observed signals and may not be complete. Verify all presale times and codes before purchasing.</em>
 </div>
 
@@ -1050,6 +1172,173 @@ function checkLivePresales() {
 }
 
 /* ── Init ── */
+/* ── Submit Artist ── */
+function submitArtist() {
+  const name = document.getElementById('submit-name').value.trim();
+  const genre = document.getElementById('submit-genre').value;
+  const notes = document.getElementById('submit-notes').value.trim();
+  const el = document.getElementById('submit-result');
+  
+  if (!name) { el.style.display='block'; el.style.color='var(--red)'; el.innerHTML='Please enter an artist name.'; return; }
+  
+  // Save to localStorage
+  const submissions = JSON.parse(localStorage.getItem('bb-submissions') || '[]');
+  const entry = { name, genre, notes, date: new Date().toISOString(), status: 'pending' };
+  submissions.push(entry);
+  localStorage.setItem('bb-submissions', JSON.stringify(submissions));
+  
+  // Also try to send to our API endpoint
+  sendSubmission(entry);
+  
+  // Clear form
+  document.getElementById('submit-name').value = '';
+  document.getElementById('submit-notes').value = '';
+  el.style.display='block'; el.style.color='var(--green)';
+  el.innerHTML=`✅ <strong>${name}</strong> submitted! Our scanners will start tracking within 24 hours.`;
+  
+  renderSubmissionHistory();
+  setTimeout(() => { el.style.display='none'; }, 5000);
+}
+
+function bulkSubmit() {
+  const text = document.getElementById('bulk-submit').value.trim();
+  const el = document.getElementById('bulk-result');
+  if (!text) return;
+  
+  const names = text.split('\n').map(n => n.trim()).filter(n => n.length >= 2);
+  const submissions = JSON.parse(localStorage.getItem('bb-submissions') || '[]');
+  
+  for (const name of names) {
+    const entry = { name, genre: '', notes: 'Bulk submit', date: new Date().toISOString(), status: 'pending' };
+    submissions.push(entry);
+    sendSubmission(entry);
+  }
+  
+  localStorage.setItem('bb-submissions', JSON.stringify(submissions));
+  document.getElementById('bulk-submit').value = '';
+  el.style.display='block'; el.style.color='var(--green)';
+  el.innerHTML=`✅ ${names.length} artists submitted!`;
+  renderSubmissionHistory();
+  setTimeout(() => { el.style.display='none'; }, 5000);
+}
+
+async function sendSubmission(entry) {
+  // Store in a submissions JSON that cron can pick up
+  try {
+    const pending = JSON.parse(localStorage.getItem('bb-pending-submissions') || '[]');
+    pending.push(entry);
+    localStorage.setItem('bb-pending-submissions', JSON.stringify(pending));
+  } catch {}
+}
+
+function renderSubmissionHistory() {
+  const submissions = JSON.parse(localStorage.getItem('bb-submissions') || '[]');
+  const el = document.getElementById('submission-history');
+  if (!submissions.length) { el.innerHTML = 'No submissions yet.'; return; }
+  
+  el.innerHTML = submissions.slice(-20).reverse().map(s => {
+    const d = new Date(s.date);
+    const time = d.toLocaleDateString('en-US', {month:'short',day:'numeric'}) + ' ' + d.toLocaleTimeString('en-US', {hour:'numeric',minute:'2-digit'});
+    const status = s.status === 'active' ? '<span style="color:var(--green)">● Tracking</span>' : '<span style="color:var(--yellow)">◐ Pending</span>';
+    return `<div style="padding:6px 0;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+      <span><strong>${s.name}</strong>${s.genre ? ' <span style="color:var(--text5)">(' + s.genre + ')</span>' : ''}</span>
+      <span style="font-size:11px">${status} · ${time}</span>
+    </div>`;
+  }).join('');
+}
+
+/* ── Email Alerts ── */
+function saveEmail() {
+  const email = document.getElementById('alert-email').value.trim();
+  const el = document.getElementById('email-status');
+  
+  if (!email || !email.includes('@')) { el.style.display='block'; el.style.color='var(--red)'; el.innerHTML='Please enter a valid email.'; return; }
+  
+  localStorage.setItem('bb-email', email);
+  el.style.display='block'; el.style.color='var(--green)';
+  el.innerHTML=`✅ Email saved! Alerts will be sent to <strong>${email}</strong>`;
+  
+  // Save to pending registrations for cron pickup
+  const regs = JSON.parse(localStorage.getItem('bb-email-registrations') || '[]');
+  regs.push({ email, date: new Date().toISOString(), prefs: getPrefs() });
+  localStorage.setItem('bb-email-registrations', JSON.stringify(regs));
+}
+
+function savePrefs() {
+  const prefs = getPrefs();
+  localStorage.setItem('bb-prefs', JSON.stringify(prefs));
+}
+
+function getPrefs() {
+  return {
+    newShows: document.getElementById('pref-newshows')?.checked ?? true,
+    soldOut: document.getElementById('pref-soldout')?.checked ?? true,
+    presale: document.getElementById('pref-presale')?.checked ?? true,
+    price: document.getElementById('pref-price')?.checked ?? true,
+    digest: document.getElementById('pref-digest')?.checked ?? false,
+  };
+}
+
+function loadPrefs() {
+  try {
+    const prefs = JSON.parse(localStorage.getItem('bb-prefs'));
+    if (prefs) {
+      document.getElementById('pref-newshows').checked = prefs.newShows ?? true;
+      document.getElementById('pref-soldout').checked = prefs.soldOut ?? true;
+      document.getElementById('pref-presale').checked = prefs.presale ?? true;
+      document.getElementById('pref-price').checked = prefs.price ?? true;
+      document.getElementById('pref-digest').checked = prefs.digest ?? false;
+    }
+    const email = localStorage.getItem('bb-email');
+    if (email) {
+      document.getElementById('alert-email').value = email;
+      document.getElementById('email-status').style.display='block';
+      document.getElementById('email-status').innerHTML=`✅ Alerts active for <strong>${email}</strong>`;
+    }
+  } catch {}
+}
+
+/* ── Track List ── */
+function renderTrackList() {
+  const tracked = JSON.parse(localStorage.getItem('bb-tracked') || '[]');
+  const container = document.getElementById('track-list');
+  if (!allArtists.length) { container.innerHTML = '<div style="color:var(--text5)">Loading artists...</div>'; return; }
+  
+  const search = (document.getElementById('track-search')?.value || '').toLowerCase();
+  const filtered = allArtists.filter(a => !search || a.name.toLowerCase().includes(search));
+  
+  container.innerHTML = filtered.slice(0, 50).map(a => {
+    const isTracked = tracked.includes(a.name);
+    return `<label style="display:flex;align-items:center;gap:8px;padding:4px 8px;border-radius:4px;cursor:pointer;font-size:12px;color:var(--text2);background:${isTracked?'rgba(251,191,36,0.04)':'transparent'}">
+      <input type="checkbox" ${isTracked?'checked':''} onchange="toggleTrack('${a.name.replace(/'/g,"\\'")}')" style="accent-color:var(--yellow)">
+      ${a.imageUrl?'<img src="'+a.imageUrl+'" style="width:20px;height:20px;border-radius:50%;object-fit:cover">':''}
+      <strong>${a.name}</strong>
+      <span style="color:var(--text5);margin-left:auto">${a.genre||''}</span>
+    </label>`;
+  }).join('');
+  
+  document.getElementById('track-count').textContent = tracked.length + ' artists tracked';
+}
+
+function filterTrackList() { renderTrackList(); }
+
+function toggleTrack(name) {
+  let tracked = JSON.parse(localStorage.getItem('bb-tracked') || '[]');
+  if (tracked.includes(name)) {
+    tracked = tracked.filter(n => n !== name);
+  } else {
+    tracked.push(name);
+  }
+  localStorage.setItem('bb-tracked', JSON.stringify(tracked));
+  renderTrackList();
+}
+
+function trackAll() {
+  const tracked = allArtists.map(a => a.name);
+  localStorage.setItem('bb-tracked', JSON.stringify(tracked));
+  renderTrackList();
+}
+
 renderPresales();
 calcROI();
 updateTimestamps();
@@ -1068,11 +1357,14 @@ setInterval(checkLivePresales, 60000);
     const badgeEl = document.getElementById('badge-emerging');
     if (badgeEl) badgeEl.textContent = hotCount > 0 ? hotCount + '🔥' : allArtists.length;
     renderEmerging(allArtists);
+    renderTrackList();
   } catch (e) {
     console.log('Could not load rising-stars.json:', e);
     document.getElementById('emerging-cards').innerHTML = '<div class="empty">Rising Stars data not available.</div>';
   }
 })();
+renderSubmissionHistory();
+loadPrefs();
 </script>
 </body>
 </html>

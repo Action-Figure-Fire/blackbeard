@@ -1,8 +1,37 @@
 {
-  "timestamp": "2026-03-07T22:00:04.361Z",
+  "timestamp": "2026-03-08T12:00:34.672Z",
   "braveCallsUsed": 25,
-  "alertCount": 0,
-  "alerts": [],
+  "alertCount": 2,
+  "alerts": [
+    {
+      "artist": "PinkPantheress",
+      "tier": "A",
+      "urgency": "TODAY",
+      "emoji": "🚨",
+      "priority": 0,
+      "title": "VIP Nation Europe: An Evening with PinkPantheress",
+      "description": "VIP Packages for An Evening with PinkPantheress are on sale now · For customer service enquiries or questions, visit this link or for VIP Nation News, Offers &amp; Updates please sign up here",
+      "url": "https://prismatic.vipnation.eu/PinkPantheress",
+      "age": "2 days ago",
+      "codes": [],
+      "dates": [],
+      "time": null
+    },
+    {
+      "artist": "Tame Impala",
+      "tier": "A",
+      "urgency": "CODE FOUND",
+      "emoji": "🔑",
+      "priority": 2,
+      "title": "Tame Impala: The Next Psychedelic Era Is Loading",
+      "description": "On TikTok, you’ll find clips of people joking that they’d sell a kidney to stand under the lasers during &quot;Apocalypse Dreams&quot; — but behind the memes, there’s real anxiety. Fans are swapping strategies: presale codes, credit card partnerships, joining mailing lists, and even traveling to cities where prices tend to be slightly lower.",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/tame-impala-the-next-psychedelic-era-is-loading/68646066",
+      "age": "15 hours ago",
+      "codes": [],
+      "dates": [],
+      "time": null
+    }
+  ],
   "allTrackedCodes": {
     "Jade LeMac-TICKETS": {
       "artist": "Jade LeMac",
