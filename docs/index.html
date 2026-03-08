@@ -19,24 +19,28 @@
   --radius:8px;--radius-lg:12px;
 }
 body{background:var(--bg);color:var(--text2);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.5;font-size:14px}
+body.light-theme{--bg:#f8f9fa;--surface:#ffffff;--surface2:#f0f1f3;--border:#e2e4e8;--border2:#d1d5db;--text:#111827;--text2:#374151;--text3:#6b7280;--text4:#9ca3af;--text5:#d1d5db}
+body.light-theme .top-nav{background:#fff;border-color:#e2e4e8}
+body.light-theme .tab-btn{background:#f0f1f3;border-color:#e2e4e8;color:#6b7280}
+body.light-theme .tab-btn.active{background:var(--yellow);color:#000}
+body.light-theme .card{background:#fff;border-color:#e2e4e8}
+body.light-theme input,body.light-theme textarea,body.light-theme select{background:#f8f9fa;border-color:#e2e4e8;color:#111827}
 a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 
-/* Layout */
-.app{display:flex;min-height:100vh}
-.sidebar{width:220px;background:var(--surface);border-right:1px solid var(--border);position:fixed;top:0;left:0;bottom:0;overflow-y:auto;z-index:100;padding:20px 0}
-.main{flex:1;margin-left:220px;padding:24px 32px;max-width:1100px}
-
-/* Sidebar */
-.logo{padding:0 20px 20px;border-bottom:1px solid var(--border);margin-bottom:12px}
-.logo h1{font-size:18px;font-weight:700;color:#fff;letter-spacing:-0.5px}
+/* Layout — Top Nav (Optimus-style) */
+.app{min-height:100vh}
+.top-nav{position:sticky;top:0;z-index:100;background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:12px 0}
+.logo{display:flex;align-items:center;gap:10px;margin-right:8px}
+.logo h1{font-size:18px;font-weight:700;color:#fff;letter-spacing:-0.5px;white-space:nowrap}
 .logo h1 span{color:var(--yellow)}
-.logo .tagline{font-size:10px;color:var(--text4);margin-top:2px;letter-spacing:0.5px;text-transform:uppercase}
-.nav-section{padding:8px 12px}
-.nav-label{font-size:10px;font-weight:700;color:var(--text5);text-transform:uppercase;letter-spacing:1.2px;padding:8px 8px 4px}
-.nav-item{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:6px;cursor:pointer;font-size:13px;color:var(--text4);transition:all 0.15s}
-.nav-item:hover{background:var(--surface2);color:var(--text2)}
-.nav-item.active{background:var(--yellow-dim);color:var(--yellow);font-weight:600}
-.nav-item .icon{font-size:16px;width:20px;text-align:center}
+.tab-bar{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;-webkit-overflow-scrolling:touch;flex:1}
+.tab-btn{background:var(--bg);border:1px solid var(--border);color:var(--text4);padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;transition:all 0.15s;display:flex;align-items:center;gap:5px}
+.tab-btn:hover{border-color:var(--border2);color:var(--text2)}
+.tab-btn.active{background:var(--yellow);border-color:var(--yellow);color:#000}
+.tab-btn .icon{font-size:14px}
+.main{max-width:1200px;margin:0 auto;padding:24px}
+.nav-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
 
 /* Section heads */
 .section-head{display:flex;align-items:center;justify-content:space-between;margin:28px 0 14px}
@@ -227,13 +231,17 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .updated-bar .ub-dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
 
 /* Mobile */
-.mobile-toggle{display:none;position:fixed;top:12px;left:12px;z-index:200;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:8px 12px;cursor:pointer;color:#fff;font-size:18px}
+.mobile-toggle{display:none}
 @media(max-width:768px){
-  .sidebar{transform:translateX(-100%);transition:transform 0.2s}.sidebar.open{transform:translateX(0)}
-  .main{margin-left:0;padding:16px;padding-top:52px}.mobile-toggle{display:block}
+  .tab-bar{gap:4px}
+  .tab-btn{padding:5px 10px;font-size:11px}
+  .tab-btn .icon{display:none}
+  .main{padding:16px}
   .stat-grid{grid-template-columns:1fr}
   .trends-grid{grid-template-columns:1fr 1fr}
   .push-banner{flex-direction:column;text-align:center}
+  .nav-inner{flex-wrap:wrap;gap:8px}
+  .logo h1{font-size:16px}
 }
 
 .footer{margin-top:40px;padding:20px 0;border-top:1px solid var(--border);text-align:center;font-size:11px;color:var(--text5)}
@@ -242,39 +250,22 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 </head>
 <body>
 <div class="app">
-
-<button class="mobile-toggle" onclick="document.querySelector('.sidebar').classList.toggle('open')">☰</button>
-
-<nav class="sidebar">
-  <div class="logo">
-    <h1>🏴‍☠️ <span>Blackbeard</span></h1>
-    <div class="tagline">Presale Intelligence</div>
-  </div>
-  <div class="nav-section">
-    <div class="nav-label">Presales</div>
-    <div class="nav-item active" id="nav-thisweek" onclick="showView('thisweek')"><span class="icon">🎟️</span> This Week <div class="nav-pulse" id="live-pulse" style="display:none"></div></div>
-    <div class="nav-item" onclick="showView('nextweek')"><span class="icon">📅</span> Next Week</div>
-  </div>
-  <div class="nav-section">
-    <div class="nav-label">Intelligence</div>
-    <div class="nav-item" onclick="showView('emerging')"><span class="icon">🔮</span> Emerging Artists <span class="nav-badge green" id="badge-emerging"></span></div>
-    <div class="nav-item" onclick="showView('trends')"><span class="icon">📈</span> Google Trends</div>
-    <div class="nav-item" onclick="showView('alerts')"><span class="icon">🔥</span> Live Alerts <span class="nav-badge red" id="badge-alerts">5</span></div>
-  </div>
-  <div class="nav-section">
-    <div class="nav-label">Tools</div>
-    <div class="nav-item" onclick="showView('roi')"><span class="icon">💰</span> ROI Calculator</div>
-    <div class="nav-item" onclick="showView('submit')"><span class="icon">➕</span> Submit Artist</div>
-    <div class="nav-item" onclick="showView('myalerts')"><span class="icon">📧</span> My Alerts</div>
-    <div class="nav-item" onclick="showView('todo')"><span class="icon">📋</span> To Do</div>
-  </div>
-  <div class="nav-section" style="margin-top:auto;padding-top:12px;border-top:1px solid var(--border)">
-    <div class="theme-toggle" onclick="toggleTheme()">🌓 <span id="theme-label">Dark Mode</span></div>
-    <div style="padding:8px 12px;font-size:11px;color:var(--text5);margin-top:4px">
-      <strong style="color:var(--text4)">12 Scanners Active</strong><br>
-      Twitter • Brave • SeatGeek<br>
-      Spotify • Reddit • SerpAPI<br>
-      <span style="color:var(--green)">●</span> All operational
+<nav class="top-nav">
+  <div class="nav-inner">
+    <div class="logo"><h1>🏴‍☠️ <span>Blackbeard</span></h1></div>
+    <div class="tab-bar">
+      <button class="tab-btn active" onclick="showView('thisweek',this)"><span class="icon">🎟️</span> This Week</button>
+      <button class="tab-btn" onclick="showView('nextweek',this)"><span class="icon">📅</span> Next Week</button>
+      <button class="tab-btn" onclick="showView('emerging',this)"><span class="icon">🔮</span> Emerging Artists</button>
+      <button class="tab-btn" onclick="showView('trends',this)"><span class="icon">📈</span> Trends</button>
+      <button class="tab-btn" onclick="showView('alerts',this)"><span class="icon">🔥</span> Alerts</button>
+      <button class="tab-btn" onclick="showView('submit',this)"><span class="icon">➕</span> Submit</button>
+      <button class="tab-btn" onclick="showView('myalerts',this)"><span class="icon">📧</span> My Alerts</button>
+      <button class="tab-btn" onclick="showView('todo',this)"><span class="icon">📋</span> To Do</button>
+    </div>
+    <div class="nav-actions">
+      <div id="live-pulse" style="display:none;width:8px;height:8px;border-radius:50%;background:var(--green);animation:pulse 2s infinite"></div>
+      <button onclick="toggleTheme()" style="background:none;border:1px solid var(--border);border-radius:6px;padding:4px 10px;cursor:pointer;color:var(--text4);font-size:12px" title="Toggle theme">🌓 <span id="theme-label">Dark</span></button>
     </div>
   </div>
 </nav>
@@ -391,47 +382,6 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   <div class="alert-item" style="border-left:3px solid var(--green)">
     <div class="alert-icon">📢</div>
     <div class="alert-body"><div class="ab-title">Jordan Jensen — Buffalo, NY show announced</div><div class="ab-detail">"Get tickets before it's too late!" — March 18</div><div class="ab-time">🐦 Twitter • 6 hours ago</div></div>
-  </div>
-</div>
-
-<!-- ROI CALCULATOR -->
-<div id="view-roi" class="view" style="display:none">
-  <div class="section-head">
-    <h2>💰 ROI Calculator</h2>
-    <span class="badge">Estimate your flip</span>
-  </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Enter face value, quantity, and expected resale to calculate your potential profit. Based on historical data for similar events.</p>
-  <div class="roi-calc">
-    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:13px;color:var(--text2)">
-      <div>
-        <div style="font-size:10px;color:var(--text5);letter-spacing:1px;margin-bottom:4px;font-weight:600">FACE VALUE</div>
-        $<input type="number" id="roi-face" value="85" min="0" oninput="calcROI()">
-      </div>
-      <div>
-        <div style="font-size:10px;color:var(--text5);letter-spacing:1px;margin-bottom:4px;font-weight:600">QUANTITY</div>
-        <input type="number" id="roi-qty" value="4" min="1" max="50" oninput="calcROI()">
-      </div>
-      <div>
-        <div style="font-size:10px;color:var(--text5);letter-spacing:1px;margin-bottom:4px;font-weight:600">EST. RESALE</div>
-        $<input type="number" id="roi-resale" value="165" min="0" oninput="calcROI()">
-      </div>
-      <div>
-        <div style="font-size:10px;color:var(--text5);letter-spacing:1px;margin-bottom:4px;font-weight:600">PLATFORM FEE %</div>
-        <input type="number" id="roi-fee" value="15" min="0" max="50" oninput="calcROI()"> %
-      </div>
-    </div>
-    <div class="roi-result" id="roi-result"></div>
-  </div>
-  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 20px">
-    <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:10px">💡 Quick Reference — Typical Resale Multipliers</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:12px">
-      <div style="color:var(--text3)">🔥 S-Tier (sold-out presale)</div><div style="color:var(--green);font-weight:600">2-5x face</div>
-      <div style="color:var(--text3)">⚡ A-Tier (high demand)</div><div style="color:var(--yellow);font-weight:600">1.5-3x face</div>
-      <div style="color:var(--text3)">📡 B-Tier (moderate demand)</div><div style="color:var(--text4);font-weight:600">1.2-2x face</div>
-      <div style="color:var(--text3)">🎭 Comedy (small venue)</div><div style="color:var(--green);font-weight:600">2-4x face</div>
-      <div style="color:var(--text3)">🏟️ Sports (conference tourney)</div><div style="color:var(--yellow);font-weight:600">1.5-3x face</div>
-      <div style="color:var(--text3)">🏔️ Red Rocks</div><div style="color:var(--green);font-weight:600">2-6x face</div>
-    </div>
   </div>
 </div>
 
@@ -967,15 +917,15 @@ function buildEmerging(a, id) {
 }
 
 /* ── View Switching ── */
-function showView(id) {
+function showView(id, btn) {
   document.querySelectorAll('.view').forEach(v => v.style.display = 'none');
   document.getElementById('view-' + id).style.display = 'block';
-  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-  if (event && event.target) {
-    const navItem = event.target.closest('.nav-item');
-    if (navItem) navItem.classList.add('active');
+  document.querySelectorAll('.tab-btn').forEach(n => n.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  else if (event && event.target) {
+    const tab = event.target.closest('.tab-btn');
+    if (tab) tab.classList.add('active');
   }
-  document.querySelector('.sidebar').classList.remove('open');
 }
 
 /* ── Render Presale Cards ── */
@@ -1139,44 +1089,16 @@ if (localStorage.getItem('bb-push') === 'enabled') {
   if (pb) pb.style.display = 'none';
 }
 
-/* ── ROI Calculator ── */
-function calcROI() {
-  const face = parseFloat(document.getElementById('roi-face').value) || 0;
-  const qty = parseInt(document.getElementById('roi-qty').value) || 0;
-  const resale = parseFloat(document.getElementById('roi-resale').value) || 0;
-  const fee = parseFloat(document.getElementById('roi-fee').value) || 0;
-
-  const cost = face * qty;
-  const gross = resale * qty;
-  const fees = gross * (fee / 100);
-  const net = gross - fees;
-  const profit = net - cost;
-  const roi = cost > 0 ? ((profit / cost) * 100).toFixed(0) : 0;
-
-  const el = document.getElementById('roi-result');
-  if (profit > 0) {
-    el.style.background = 'rgba(74,222,128,0.04)';
-    el.style.borderColor = 'rgba(74,222,128,0.15)';
-    el.style.color = 'var(--green)';
-    el.innerHTML = `💰 <strong>$${profit.toFixed(0)} profit</strong> (${roi}% ROI) — Cost: $${cost.toFixed(0)} → Gross: $${gross.toFixed(0)} – Fees: $${fees.toFixed(0)} = Net: $${net.toFixed(0)}`;
-  } else {
-    el.style.background = 'rgba(239,68,68,0.04)';
-    el.style.borderColor = 'rgba(239,68,68,0.15)';
-    el.style.color = 'var(--red)';
-    el.innerHTML = `📉 <strong>-$${Math.abs(profit).toFixed(0)} loss</strong> — Cost: $${cost.toFixed(0)} → Net after fees: $${net.toFixed(0)}`;
-  }
-}
-
 /* ── Theme Toggle ── */
 function toggleTheme() {
   const body = document.body;
   const isLight = body.classList.toggle('light-theme');
-  document.getElementById('theme-label').textContent = isLight ? 'Light Mode' : 'Dark Mode';
+  document.getElementById('theme-label').textContent = isLight ? 'Light' : 'Dark';
   localStorage.setItem('bb-theme', isLight ? 'light' : 'dark');
 }
 if (localStorage.getItem('bb-theme') === 'light') {
   document.body.classList.add('light-theme');
-  document.getElementById('theme-label').textContent = 'Light Mode';
+  document.getElementById('theme-label').textContent = 'Light';
 }
 
 /* ── Timestamps ── */
@@ -1463,7 +1385,6 @@ function loadPhone() {
 }
 
 renderPresales();
-calcROI();
 updateTimestamps();
 checkLivePresales();
 setInterval(updateTimestamps, 60000);
