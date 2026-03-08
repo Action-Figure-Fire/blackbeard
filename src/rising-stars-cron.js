@@ -6,6 +6,7 @@
 
 const { run: runWatchlist, formatDiscordAlert: formatWatchlist } = require('./spotify-scanner');
 const { run: runPlaylist, formatDiscordAlert: formatPlaylist } = require('./playlist-discovery');
+const { run: runTikTok, formatDiscordAlert: formatTikTok } = require('./tiktok-trend-scanner');
 
 async function sendDiscord(msg) {
   console.log(`\n--- ALERT ---\n${msg}\n--- END ---`);
@@ -24,10 +25,20 @@ async function main() {
     console.log('\n========== PLAYLIST DISCOVERY ==========');
     const playlistResults = await runPlaylist();
     
+    // Phase 3: TikTok trend scan
+    console.log('\n========== TIKTOK TREND SCAN ==========');
+    let tiktokResults = null;
+    try {
+      tiktokResults = await runTikTok();
+    } catch (e) {
+      console.log('TikTok scan error:', e.message?.slice(0, 200));
+    }
+    
     const elapsed = ((Date.now() - startTime) / 1000 / 60).toFixed(1);
     
     let msg = formatWatchlist(watchlistResults);
     msg += '\n\n' + formatPlaylist(playlistResults);
+    if (tiktokResults) msg += '\n\n' + formatTikTok(tiktokResults);
     msg += `\n⏱️ Full scan completed in ${elapsed} min`;
     
     await sendDiscord(msg);
