@@ -123,6 +123,12 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .hot-badge{font-size:10px;background:linear-gradient(135deg,#ff3b30,#ff6b35);color:#fff;padding:1px 6px;border-radius:4px;font-weight:700;letter-spacing:0.5px;margin-left:6px}
 .soldout-badge{font-size:10px;background:linear-gradient(135deg,#ff3b30,#cc0000);color:#fff;padding:1px 6px;border-radius:4px;font-weight:700;letter-spacing:0.5px;margin-left:6px}
 .artist-hot-flag{display:inline-flex;align-items:center;gap:4px;font-size:10px;background:rgba(255,59,48,0.12);color:#ff6b35;padding:2px 8px;border-radius:4px;font-weight:600;margin-left:8px}
+.presale-section{margin-bottom:14px;padding:10px 12px;background:rgba(255,215,0,0.04);border:1px solid rgba(255,215,0,0.12);border-radius:8px}
+.presale-grid{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.presale-row{display:flex;align-items:center;gap:8px;font-size:12px}
+.presale-type{font-size:10px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;color:var(--text4);min-width:90px}
+.presale-unknown{font-size:11px;color:var(--text5);font-style:italic}
+.presale-date{font-size:10px;color:var(--text5);margin-left:auto}
 
 /* Sold out signals */
 .so-box{padding:12px 14px;background:var(--red-dim);border:1px solid rgba(239,68,68,0.15);border-radius:var(--radius);margin-bottom:14px}
@@ -443,21 +449,26 @@ const PRESALE_DATA = {
       name: "Josh Johnson — Comedy Band Camp Tour", score: 82, tier: "A", imageUrl: "https://seatgeekimages.com/performers-landscape/josh-johnson-c540b4/272582/huge.jpg", onsaleDate: "2026-03-06",
       genre: "Stand-Up Comedy", venueSize: "Theater (1.5-3K cap)",
       saleStatus: "🔴 GENERAL ONSALE FRI MAR 6 10AM LOCAL",
-      saleDetails: "JUST ANNOUNCED massive tour. Onsale Fri Mar 6 10am local at all venues. Canada presale code: THISONETIME. Multi-night runs: Paramount Theatre (3 nights Nov 20-22), The Factory (2 nights Oct 30-31), Taft Theatre Cincinnati (2 shows Aug 1), Orpheum Theatre (3 nights Aug 14-16), Masonic SF (Aug 28-29).",
+      saleDetails: "Onsale Fri Mar 6 10am local at all venues. Canada presale code: THISONETIME. Multi-night runs: Paramount Theatre (3 nights Nov 20-22), The Factory (2 nights Oct 30-31), Taft Theatre Cincinnati (2 shows Aug 1), Orpheum Theatre (3 nights Aug 14-16), Masonic SF (Aug 28-29).",
       streams: "Daily Show correspondent. NAACP Image Award nominee. 'Funniest guy on the internet.'",
       lastTour: "2025 (SOLD OUT tour — confirmed by promoters)",
-      scarcity: "EXTREME — Last tour sold out entirely. Now doing multi-night runs at theaters (a sign promoters expect single-night sellouts). 11+ venues announced in one day. Ryman Nashville Sep 26 = premium comedy venue.",
-      reasoning: "Josh Johnson is having a massive breakout. His previous tour sold out completely, forcing promoters to book multi-night runs at theaters this time. When a comedian goes from 1-night stands to 3-night residencies at theaters like The Paramount, that's nuclear demand. The NAACP Image Award nomination adds mainstream credibility. Daily Show platform gives him constant exposure. The Canada presale code THISONETIME was caught by our Twitter scanner. Ryman Nashville is the crown jewel — the most prestigious comedy/music venue in the country at ~2,300 cap.",
-      action: "🚨 BUY ONSALE FRI MAR 6 10AM — Target Ryman Nashville (Sep 26), Orpheum Madison WI (Oct 16), Asheville (Jun 14). Multi-night venues will sell out — buy early nights first.",
+      scarcity: "Previous tour sold out entirely. Multi-night runs at theaters indicate elevated demand. 11+ venues announced in one day. Ryman Nashville Sep 26 — ~2,300 cap.",
+      reasoning: "Previous tour sold out completely, prompting promoters to book multi-night runs at theaters. Went from 1-night stands to 3-night residencies (Paramount, Orpheum). NAACP Image Award nomination. Daily Show platform. Canada presale code THISONETIME caught via Twitter scanner. Ryman Nashville — ~2,300 cap, only Nashville date.",
+      action: "🚨 ONSALE FRI MAR 6 10AM — Monitor Ryman Nashville (Sep 26, ~2,300 cap), Orpheum Madison WI (Oct 16, only WI date), Asheville (Jun 14, small venue).",
       targetCities: [
-        {emoji:"🎵",city:"Nashville, TN",venue:"Ryman Auditorium (Sep 26)",why:"THE comedy venue. 2,300 cap. Josh Johnson at the Ryman = prestige show. Country/comedy crossover audience."},
-        {emoji:"🌊",city:"Asheville, NC",venue:"The Burt (Jun 14)",why:"Small market, tight venue. Onsale Fri 3/6. Will sell out fast."},
+        {emoji:"🎵",city:"Nashville, TN",venue:"Ryman Auditorium (Sep 26)",why:"Only Nashville date. Ryman capacity ~2,300. Monitor — smaller than other tour venues."},
+        {emoji:"🌊",city:"Asheville, NC",venue:"The Burt (Jun 14)",why:"Only show at this venue. Small market, limited capacity."},
         {emoji:"🧀",city:"Milwaukee, WI",venue:"Riverside Theater (Oct 17)",why:"Only Wisconsin date. Milwaukee comedy demand funneled into one show."},
         {emoji:"🌁",city:"San Francisco, CA",venue:"The Masonic (Aug 28-29)",why:"2-night run. Bay Area tech demo pays premium for comedy."},
       ],
       ticketLink: "https://www.ticketmaster.com/josh-johnson-tickets/artist/2735042",
       artistLink: "https://joshjohnsoncomedy.com",
-      codes: [{code:"THISONETIME",note:"Canada presale"}]
+      codes: [{code:"THISONETIME",type:"Artist Presale"}],
+      presales: [
+        {type:"Artist Presale", code:"THISONETIME", date:"Active now (Canada)"},
+        {type:"Venue Presale", code:"UNKNOWN", date:"Varies by venue"},
+        {type:"LiveNation Presale", code:"UNKNOWN", date:"Check livenation.com"},
+      ]
     },
     {
       name: "Alex Warren — 2026 Tour", score: 88, tier: "S", imageUrl: "https://seatgeekimages.com/performers-landscape/alex-warren-338c2b/805174/huge.jpg",
@@ -467,11 +478,17 @@ const PRESALE_DATA = {
       streams: "54M monthly listeners on Spotify. TikTok-driven fanbase, young demo.",
       lastTour: "2025 (previous dates sold well, Red Rocks premium confirmed)",
       scarcity: "HIGH — Red Rocks get-in already at $223 (top 3 on Red Rocks demand index). Young fanbase = impulsive secondary buyers.",
-      reasoning: "Alex Warren's Red Rocks secondary pricing ($223 get-in) puts him in elite company — only Jon Bellion ($226) and Hilary Duff ($223) are higher. His 54M monthly Spotify listeners confirm massive reach. TikTok-to-touring pipeline means his audience skews young (16-24), the demo most willing to pay secondary premiums. Presale code AWFORD was caught by our Twitter scanner within minutes of posting.",
+      reasoning: "Red Rocks secondary pricing $223 get-in — comparable to Jon Bellion ($226) and Hilary Duff ($223). 54M monthly Spotify listeners. TikTok-to-touring pipeline, audience skews 16-24. Presale code AWFORD caught via Twitter scanner.",
       action: "🚨 USE CODE AWFORD NOW — Presale live today. Target dates where secondary is already high. Red Rocks is the flagship play.",
       ticketLink: "https://www.ticketmaster.com/alex-warren-tickets/artist/2826199",
       artistLink: "https://alexwarrenmusic.com",
-      codes: [{code:"AWFORD",note:"Artist presale 3/5 10a-10p"}]
+      codes: [{code:"AWFORD",type:"Artist Presale"}],
+      presales: [
+        {type:"Artist Presale", code:"AWFORD", date:"3/5 10a-10p"},
+        {type:"Spotify Presale", code:"UNKNOWN", date:"Check Spotify app"},
+        {type:"LiveNation Presale", code:"UNKNOWN"},
+        {type:"Venue Presale", code:"UNKNOWN", date:"Varies by venue"},
+      ]
     },
     {
       name: "Metallica — Life Burns Faster at the Sphere", score: 96, tier: "S", onsaleDate: "2026-03-06", imageUrl: "https://seatgeekimages.com/performers-landscape/metallica-33f6d8/45/huge.jpg",
@@ -481,14 +498,20 @@ const PRESALE_DATA = {
       streams: "28M+ monthly. 125M+ albums sold worldwide. One of the biggest bands in history.",
       lastTour: "2025 (M72 World Tour — stadiums)",
       scarcity: "EXTREME — 8 Sphere dates only. 'No Repeat Weekends' = unique setlist each night drives completist demand for multiple shows. Sphere ~18K cap. Halloween Oct 31 = crown jewel. Legacy/Fifth Member presales SOLD OUT. Just added more dates due to demand.",
-      reasoning: "This is the biggest ticket drop of 2026. Metallica at the Sphere — the most immersive venue on earth + the biggest metal band in history. Only 8 shows total. 'No Repeat Weekends' means each pair has unique setlists, driving completist demand. The Sphere has proven with BSB (35 sold-out dates) and U2 that it commands massive secondary premiums from the venue alone. Add Metallica = nuclear demand. Halloween (Oct 29 & 31) will be the most expensive — Metallica + Halloween + Sphere is once-in-a-lifetime. Our Twitter scanner caught that they're ADDING MORE DATES due to demand.",
+      reasoning: "Metallica at the Sphere — only 8 shows total. 'No Repeat Weekends' = unique setlists per pair, completist demand factor. Sphere track record: BSB (35 sold-out dates), U2 similar. Halloween dates (Oct 29 & 31) historically command premium pricing. Twitter scanner confirmed additional dates being added.",
       action: "🚨 HIGHEST PRIORITY — General onsale Fri Mar 6 10am PT. Buy 2-night packages (Thu+Sat). Halloween weekend (Oct 29+31) = highest premiums. Buy IMMEDIATELY.",
       targetCities: [
         {emoji:"🎰",city:"Las Vegas, NV",venue:"Sphere (Oct 1 & 3)",why:"First weekend. 'Discovery' pricing slightly lower. Buy early, sell as hype builds."},
         {emoji:"🎃",city:"Las Vegas, NV",venue:"Sphere (Oct 29 & 31)",why:"HALLOWEEN WEEKEND. Metallica at Sphere on Halloween = single most expensive ticket of 2026."},
       ],
       ticketLink: "https://www.ticketmaster.com/metallica-tickets/artist/735647",
-      artistLink: "https://www.metallica.com"
+      artistLink: "https://www.metallica.com",
+      presales: [
+        {type:"Legacy Member", code:"UNKNOWN", date:"Mon Mar 2 ✅ (ended)"},
+        {type:"Fifth Member", code:"UNKNOWN", date:"Tue Mar 3 ✅ (ended)"},
+        {type:"SiriusXM", code:"UNKNOWN", date:"Thu Mar 5 10am PT"},
+        {type:"General Onsale", code:"N/A", date:"Fri Mar 6 10am PT"},
+      ]
     },
     {
       name: "Sting — 3.0 Tour (12 New Fall Dates)", score: 83, tier: "A", onsaleDate: "2026-03-06", imageUrl: "https://seatgeekimages.com/performers-landscape/sting-3cb2a6/1698/huge.jpg",
@@ -505,7 +528,12 @@ const PRESALE_DATA = {
         {emoji:"🍁",city:"Montreal, QC",venue:"Théâtre St-Denis",why:"First Police concert venue. Sentimental return = collector ticket."},
       ],
       ticketLink: "https://www.ticketmaster.com/sting-tickets/artist/736192",
-      artistLink: "https://www.sting.com"
+      artistLink: "https://www.sting.com",
+      presales: [
+        {type:"Fan Club", code:"UNKNOWN", date:"Tue Mar 3 ✅ (ended)"},
+        {type:"LiveNation", code:"UNKNOWN", date:"Thu Mar 5 ✅ (ended)"},
+        {type:"General Onsale", code:"N/A", date:"Fri Mar 6 10am local"},
+      ]
     },
     {
       name: "Joji — SOLARIS World Tour", score: 85, tier: "A", onsaleDate: "2026-03-06", imageUrl: "https://seatgeekimages.com/performers-landscape/joji-93c77a/694767/huge.jpg",
@@ -515,13 +543,18 @@ const PRESALE_DATA = {
       streams: "25M+ monthly. 'Glimpse of Us' = 1.5B+ streams. Former Filthy Frank → mainstream crossover.",
       lastTour: "2023 (Smithereens Tour — sold out arenas)",
       scarcity: "HIGH — 18 NA arena dates after album drop = peak demand. Demo 18-28, internet-native, impulsive secondary buyers.",
-      reasoning: "Joji has massive dedicated internet fanbase PLUS mainstream pop success. Arena tour supporting new album. His demo buys impulsively and pays secondary premiums. SLC is smallest market with best margins.",
+      reasoning: "Dedicated internet fanbase + mainstream pop crossover. Arena tour supporting new album. SLC is smallest market on the tour — limited supply relative to demand.",
       action: "ONSALE FRI MAR 6 — Target SLC (smallest market), Charlotte (Southeast gap), Portland (PNW).",
       targetCities: [
         {emoji:"⛷️",city:"Salt Lake City, UT",venue:"Maverik Center",why:"SMALLEST market on tour. Mountain West funnel. Zero broker competition."},
       ],
       ticketLink: "https://www.ticketmaster.com/joji-tickets/artist/5265730",
-      artistLink: "https://jfreddytour.com"
+      artistLink: "https://jfreddytour.com",
+      presales: [
+        {type:"Citi Presale", code:"UNKNOWN", date:"Ended"},
+        {type:"Spotify Presale", code:"UNKNOWN"},
+        {type:"General Onsale", code:"N/A", date:"Fri Mar 6 10am local"},
+      ]
     },
     {
       name: "Jason Aldean — Songs About Us Tour", score: 82, tier: "A", onsaleDate: "2026-03-06", imageUrl: "https://seatgeekimages.com/performers-landscape/jason-aldean-48c55b/918/huge.jpg",
@@ -534,7 +567,12 @@ const PRESALE_DATA = {
       reasoning: "Aldean is a consistent sellout machine. Small-market amphitheater dates have the best margins because national brokers skip them.",
       action: "BUY ONSALE FRI — Target Nampa ID, Bossier City LA, Brandon MS = zero broker competition.",
       ticketLink: "https://www.ticketmaster.com/jason-aldean-tickets/artist/1168279",
-      artistLink: "https://www.jasonaldean.com/tour"
+      artistLink: "https://www.jasonaldean.com/tour",
+      presales: [
+        {type:"Aldean Army Fan Club", code:"UNKNOWN", date:"✅ (ended)"},
+        {type:"LiveNation", code:"UNKNOWN", date:"✅ (ended)"},
+        {type:"General Onsale", code:"N/A", date:"Fri Mar 6 10am local"},
+      ]
     },
     {
       name: "Arlo Parks — Desire Tour", score: 72, tier: "B+", imageUrl: "https://seatgeekimages.com/performers-landscape/arlo-parks-4ea4b9/788149/huge.jpg",
@@ -547,7 +585,12 @@ const PRESALE_DATA = {
       action: "USE CODE MODO for venue presale Thu Mar 12. Target smaller market dates.",
       ticketLink: "https://www.ticketmaster.com/arlo-parks-tickets/artist/2692217",
       artistLink: "https://www.arloparks.com",
-      codes: [{code:"MODO",note:"Venue presale (Orpheum Vancouver + more)"}]
+      codes: [{code:"MODO",type:"Venue Presale"}],
+      presales: [
+        {type:"Venue Presale", code:"MODO", date:"Orpheum Vancouver + more"},
+        {type:"Artist Presale", code:"UNKNOWN"},
+        {type:"Spotify Presale", code:"UNKNOWN"},
+      ]
     },
     {
       name: "Jordan Jensen — New Shows", score: 70, tier: "A", imageUrl: "https://seatgeekimages.com/performers-landscape/jordan-jensen-d967ec/807858/huge.jpg",
@@ -557,7 +600,7 @@ const PRESALE_DATA = {
       streams: "Rising viral comedian. Our Twitter scanner caught the announcement.",
       scarcity: "HIGH — Small venue dates sell out quickly. On our watchlist as Tier A.",
       reasoning: "Jordan Jensen is on our watchlist for a reason — consistent sellouts at small venues. New shows being added = demand signal. Buffalo announcement caught by Twitter scanner before most brokers notice.",
-      action: "BUY NOW — Small comedy venue dates sell out fast and flip well.",
+      action: "Monitor — small comedy venue dates with limited capacity.",
       ticketLink: "https://seatgeek.com/search?q=Jordan+Jensen",
       artistLink: "https://www.jordanjensencomedy.com"
     }
@@ -574,7 +617,11 @@ const PRESALE_DATA = {
       action: "REGISTER at arloparks.com NOW for artist presale. Have MODO ready for venue presale Thu.",
       ticketLink: "https://www.arloparks.com",
       artistLink: "https://www.arloparks.com",
-      codes: [{code:"MODO",note:"Venue presale Thu Mar 13"}]
+      codes: [{code:"MODO",type:"Venue Presale"}],
+      presales: [
+        {type:"Venue Presale", code:"MODO", date:"Thu Mar 13"},
+        {type:"Artist Presale", code:"UNKNOWN"},
+      ]
     }
   ]
 };
@@ -633,14 +680,25 @@ function buildCard(a, id) {
     html += `<div class="sale-box"><div class="label" style="color:${isLive?'var(--red)':'var(--yellow)'}">SALE INFO</div>${a.saleDetails}</div>`;
   }
 
-  // Presale codes
-  if (a.codes && a.codes.length) {
-    html += '<div style="margin-bottom:14px">';
-    for (const c of a.codes) {
-      html += `<span class="code-box" onclick="event.stopPropagation();navigator.clipboard.writeText('${c.code}');this.innerHTML='✅ Copied!';setTimeout(()=>this.innerHTML='🔑 ${c.code}',2000)">🔑 ${c.code}</span>`;
-      if (c.note) html += `<span style="font-size:11px;color:var(--text4);margin-left:4px">${c.note}</span>`;
+  // Presale codes section
+  if ((a.codes && a.codes.length) || (a.presales && a.presales.length)) {
+    html += '<div class="presale-section"><div class="label" style="color:var(--yellow)">🔑 PRESALE CODES</div>';
+    html += '<div class="presale-grid">';
+    const allCodes = [...(a.codes||[]), ...(a.presales||[])];
+    for (const c of allCodes) {
+      const typeLabel = c.type || c.note || 'General';
+      const hasCode = c.code && c.code !== 'UNKNOWN' && c.code !== 'TBD';
+      if (hasCode) {
+        html += `<div class="presale-row"><span class="presale-type">${typeLabel}</span><span class="code-box" onclick="event.stopPropagation();navigator.clipboard.writeText('${c.code}');this.innerHTML='✅ Copied!';setTimeout(()=>this.innerHTML='${c.code}',2000)">${c.code}</span>`;
+        if (c.date) html += `<span class="presale-date">${c.date}</span>`;
+        html += '</div>';
+      } else {
+        html += `<div class="presale-row"><span class="presale-type">${typeLabel}</span><span class="presale-unknown">Code not yet available</span>`;
+        if (c.date) html += `<span class="presale-date">${c.date}</span>`;
+        html += '</div>';
+      }
     }
-    html += '</div>';
+    html += '</div></div>';
   }
 
   // Stat grid
@@ -702,12 +760,6 @@ function buildCard(a, id) {
   // Action
   if (a.action) {
     html += `<div class="action-box">⚡ ${a.action}</div>`;
-  }
-
-  // Calendar button (if has sale date)
-  if (a.onsaleDate) {
-    const calNotes = (a.codes ? a.codes.map(c => 'Code: ' + c.code + (c.note ? ' (' + c.note + ')' : '')).join('\\n') + '\\n' : '') + (a.ticketLink || '');
-    html += `<div style="margin-bottom:14px"><button class="btn-cal" onclick="addToCal('${a.name.replace(/'/g,"\\'")} — Onsale','${a.onsaleDate}','${calNotes.replace(/'/g,"\\'")}')">📅 Add to Calendar</button></div>`;
   }
 
   // Buttons
@@ -913,16 +965,6 @@ function buildScoreBreakdown(a) {
     <div class="sb-row"><span class="sb-label">Social presence</span><span class="sb-val" style="color:var(--blue)">+${socScore}</span></div>
     ${tierBonus ? '<div class="sb-row"><span class="sb-label">Watchlist Tier A</span><span class="sb-val" style="color:var(--green)">+5</span></div>' : ''}
   </div>`;
-}
-
-/* ── Add to Calendar ── */
-function addToCal(title, date, notes) {
-  event.stopPropagation();
-  const d = new Date(date + 'T10:00:00');
-  const end = new Date(d.getTime() + 3600000);
-  const fmt = d => d.toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
-  const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${fmt(d)}/${fmt(end)}&details=${encodeURIComponent(notes)}`;
-  window.open(url, '_blank');
 }
 
 /* ── Push Notifications ── */
