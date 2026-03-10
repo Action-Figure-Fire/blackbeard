@@ -1,0 +1,54 @@
+{
+  "archivedWeek": "2026-03-03 to 2026-03-07",
+  "events": [
+    {
+      "name": "Josh Johnson — Comedy Band Camp Tour",
+      "onsaleDate": "2026-03-06",
+      "outcome": "General onsale went live. Canada presale code THISONETIME confirmed working. Multi-night runs at theaters. Previous tour sold out entirely.",
+      "codes": [{"code": "THISONETIME", "type": "Artist Presale"}],
+      "notes": "Watch for secondary pricing data in coming days. Ryman Nashville Sep 26 is the key date."
+    },
+    {
+      "name": "Alex Warren — 2026 Tour",
+      "onsaleDate": "2026-03-05",
+      "outcome": "Artist presale with code AWFORD went live 3/5. Red Rocks secondary already $223 get-in before general onsale.",
+      "codes": [{"code": "AWFORD", "type": "Artist Presale"}],
+      "notes": "Red Rocks pricing confirms high demand. 54M monthly Spotify listeners."
+    },
+    {
+      "name": "Metallica — Life Burns Faster at the Sphere",
+      "onsaleDate": "2026-03-06",
+      "outcome": "General onsale 3/6. Legacy/Fifth Member presales sold through. Added more dates due to demand. SiriusXM presale ran 3/5.",
+      "codes": [],
+      "notes": "8 Sphere dates. Halloween Oct 31 = highest premium. Added dates = confirmed demand signal."
+    },
+    {
+      "name": "Sting — 3.0 Tour",
+      "onsaleDate": "2026-03-06",
+      "outcome": "General onsale 3/6. Fan club and LiveNation presales completed. 12 new fall dates including 6-night Brooklyn Paramount residency.",
+      "codes": [],
+      "notes": "Brooklyn Paramount ~2K cap = extremely limited supply. Montreal = sentimental return to first Police venue."
+    },
+    {
+      "name": "Joji — SOLARIS World Tour",
+      "onsaleDate": "2026-03-06",
+      "outcome": "General onsale 3/6. Citi presale completed. 18 arena dates.",
+      "codes": [{"code": "RQ26JOJI", "type": "Citi Presale"}],
+      "notes": "SLC smallest market. Arena tour supporting new album."
+    },
+    {
+      "name": "Jason Aldean — Songs About Us Tour",
+      "onsaleDate": "2026-03-06",
+      "outcome": "General onsale 3/6. Aldean Army fan club presale completed. 22 amphitheater dates.",
+      "codes": [],
+      "notes": "New album Apr 24. Small-market amphitheater dates = best margins."
+    },
+    {
+      "name": "Killswitch Engage — Summer 2026 Tour",
+      "onsaleDate": "2026-03-05",
+      "outcome": "Artist presale ran 3/3. Code BBMKSETHISCON2026 confirmed working. With Machine Head. 16 dates Jun 3-27.",
+      "codes": [{"code": "KSETHISCON2026", "type": "Artist Presale"}, {"code": "BBMKSETHISCON2026", "type": "Blabbermouth Presale"}],
+      "notes": "Metal theater dates. Fillmore-sized venues. Genre crossover audience."
+    }
+  ]
+}

@@ -1,4 +1,35 @@
 {
-  "timestamp": "2026-03-08T14:00:49.248Z",
-  "alerts": []
+  "timestamp": "2026-03-10T14:00:42.513Z",
+  "alerts": [
+    {
+      "subject": "Killers of Kill Tony LIVE at Hollywood Casino!",
+      "from": "\"Bandsintown\" <notifications@courriel.bandsintown.com>",
+      "date": "2026-03-10T14:00:30.000Z",
+      "comedians": [
+        "shane gillis",
+        "mark normand",
+        "tony hinchcliffe",
+        "kill tony",
+        "the killers"
+      ],
+      "isVenueEmail": true,
+      "hasShowKeyword": true,
+      "ticketUrls": [],
+      "score": 13,
+      "snippet": "Killers of Kill Tony LIVE at Hollywood Casino!asino!VIEW IN BROWSERPROMOTEDSat, June 13thCharles Town, WVThe Event Center at Hollywood CasinoGet TicketsThe Killers of Kill Tony are coming to Hollywood!Don't miss your chance to see them live...Buckle up, Charles Town! The Killers of Kill Tony are abo"
+    },
+    {
+      "subject": "Just announced: Umphrey's McGee",
+      "from": "\"Songkick\" <emails@songkick.com>",
+      "date": "2026-03-10T12:17:27.000Z",
+      "comedians": [
+        "moe."
+      ],
+      "isVenueEmail": false,
+      "hasShowKeyword": true,
+      "ticketUrls": [],
+      "score": 5,
+      "snippet": "There’s a new event for an artist you track on Songkick. Don’t miss out!\n\n\n\n# August\n\n\nFriday 14\n  MOE. and Umphrey's McGee at Evans Amphitheater, Cain Park, Cleveland Heights\n\n  Buy tickets:\n  https://www.songkick.com/concerts/43090898-moe-at-evans-amphitheater-cain-park?utm_campaign=upcoming%2Fdai"
+    }
+  ]
 }

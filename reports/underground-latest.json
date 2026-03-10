@@ -1,6 +1,50 @@
 {
-  "timestamp": "2026-03-08T08:00:36.987Z",
+  "timestamp": "2026-03-10T04:00:38.410Z",
   "events": [
+    {
+      "eventName": "Gundam Base Pop Up World Tour: Vancouver Opening Day",
+      "category": "other",
+      "score": 9,
+      "signals": [
+        "SOLD OUT",
+        "Reddit",
+        "underground"
+      ],
+      "text": "Sold out <strong>12pm time slot</strong>..",
+      "url": "https://www.reddit.com/r/Gunpla/comments/1rngmgl/gundam_base_pop_up_world_tour_vancouver_opening/",
+      "source": "reddit",
+      "matchedArtist": null,
+      "published": "2026-03-07T18:00:36"
+    },
+    {
+      "eventName": "How to Navigate Ticketmaster’s confusing presales? : r/Concerts",
+      "category": "other",
+      "score": 9,
+      "signals": [
+        "SOLD OUT",
+        "Reddit",
+        "watchlist: morgan wallen"
+      ],
+      "text": "Good example Morgan Wallen Chicago this year… Presale/on sale they released all the uppers and mid level at $250-600 and super fans fomo in. Now <strong>the entire upper level is sold out and they low",
+      "url": "https://www.reddit.com/r/Concerts/comments/1ro8dgg/how_to_navigate_ticketmasters_confusing_presales/",
+      "source": "reddit",
+      "matchedArtist": "morgan wallen",
+      "published": "2026-03-08T16:55:34"
+    },
+    {
+      "eventName": "Milwaukee Record Recommended Events: March 9-15, 2026 | Milwaukee Record",
+      "category": "electronic",
+      "score": 7,
+      "signals": [
+        "SOLD OUT",
+        "small venue"
+      ],
+      "text": "High School Community Center for the 2026 Bike Bazaar, where new and used bikes, parts, and accessories will be on sale from a variety of vendors. Arts and crafts vendors will also be on site to sell ",
+      "url": "https://milwaukeerecord.com/music/milwaukee-record-recommended-events-march-9-15-2026/",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-09T16:27:02"
+    },
     {
       "eventName": "Comedy Shows Near Gdansk, PM 2026 | Stand Up Comedy In Gdansk, PM | AllEvents.in",
       "category": "comedy",
@@ -16,18 +60,18 @@
       "published": "2026-03-04T05:36:35"
     },
     {
-      "eventName": "Trying to book Sistine Chapel tickets- What is the difference between \"sold out\" and \"out of stock\"?",
+      "eventName": "Concert Industry Is ‘Broken,’ Prosecutor Says as Live Nation-Ticketmaster Trial Begins",
       "category": "other",
       "score": 6,
       "signals": [
         "SOLD OUT",
         "Reddit"
       ],
-      "text": "How many are you trying to buy? If I remember correctly, &quot;out of stock&quot; means &quot;we have fewer tickets than you want but more than zero&quot; while <strong>&quot;sold out&quot; means &quo",
-      "url": "https://www.reddit.com/r/rome/comments/1ribd3x/trying_to_book_sistine_chapel_tickets_what_is_the/",
+      "text": "And it fluctuates more than the U.S. stock market as of late. I clicked a ticket for $60, by the time I paid, it was &#x27;sold out&#x27; so then I refreshed and it was. I tried again in 5 minutes and",
+      "url": "https://www.reddit.com/r/Music/comments/1rk5gpy/concert_industry_is_broken_prosecutor_says_as/",
       "source": "reddit",
       "matchedArtist": null,
-      "published": "2026-03-01T22:34:51"
+      "published": "2026-03-03T23:39:03"
     },
     {
       "eventName": "So many good concerts.",
@@ -44,32 +88,18 @@
       "published": "2026-03-03T02:44:29"
     },
     {
-      "eventName": "260304 Twitter Update - TWICE <THIS IS FOR> WORLD TOUR IN MONTREAL Montreal ONCE, you had us speechl",
-      "category": "other",
+      "eventName": "Kanye announces concert in Los Angeles Sofi Stadium, April 3",
+      "category": "hip-hop",
       "score": 6,
       "signals": [
         "SOLD OUT",
         "Reddit"
       ],
-      "text": "<strong>It wasn&#x27;t completely sold-out, but the venue was mostly packed</strong>. ... I fully expected Montreal to be the runt of all of the bigger arenas they are playing in this tour. But for th",
-      "url": "https://www.reddit.com/r/twice/comments/1rkc89t/260304_twitter_update_twice_this_is_for_world/",
+      "text": "And even then I expected him to be playing shows at smaller venues, not a fucking stadium. I wonder if this is the beginning of a string of US shows, or just a one-off experiment to see if he can get ",
+      "url": "https://www.reddit.com/r/hiphopheads/comments/1rpa6iz/kanye_announces_concert_in_los_angeles_sofi/",
       "source": "reddit",
       "matchedArtist": null,
-      "published": "2026-03-04T04:47:00"
-    },
-    {
-      "eventName": "The \"convenience fee\" racket is out of control. How do you guys actually get cheap tickets nowadays?",
-      "category": "comedy",
-      "score": 6,
-      "signals": [
-        "SOLD OUT",
-        "Reddit"
-      ],
-      "text": "The headliner and said he was told it was a sold out show and the reseller bots are getting stupidly out of hand. An empty theater isn&#x27;t fun for comedy. Same is true of sports. It used to be a fu",
-      "url": "https://www.reddit.com/r/Frugal/comments/1rk0wnt/the_convenience_fee_racket_is_out_of_control_how/",
-      "source": "reddit",
-      "matchedArtist": null,
-      "published": "2026-03-06T10:27:10"
+      "published": "2026-03-09T19:33:46"
     },
     {
       "eventName": "Comedy Shows Near Denver 2026 | Stand Up Comedy In Denver | AllEvents.in",
@@ -85,17 +115,18 @@
       "published": "2026-03-07T00:38:22"
     },
     {
-      "eventName": "FIFA World Cup 2026: Gianni Infantino lie, Tickets ...",
-      "category": "other",
+      "eventName": "Raves San Francisco 2026 | Best Rave Parties Near San Francisco | AllEvents.in | SFO events",
+      "category": "electronic",
       "score": 5,
       "signals": [
-        "SOLD OUT"
+        "small venue",
+        "underground"
       ],
-      "text": "<strong>Just days after FIFA president Gianni Infantino boasted that every 2026 World Cup match was &quot;already sold out&quot;, the governing body suddenly pivoted</strong> — a move that suggests th",
-      "url": "https://www.nine.com.au/sport/football/fifa-world-cup-2026-tickets-availability-gianni-infantino-prices-surprise-sale-sold-out-claims-20260303-p5o738.html",
+      "text": "Rave on in San Francisco. The city offers a diverse range of electronic music events, from underground warehouse parties to massive festivals. No matter what your style, you’ll find a rave that suits ",
+      "url": "https://allevents.in/san-francisco/raves",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-03-03T02:49:23"
+      "published": "2026-03-04T23:24:05"
     },
     {
       "eventName": "Arlo Chicago",
@@ -112,43 +143,30 @@
       "published": "2026-03-07T20:39:59"
     },
     {
-      "eventName": "Where to find BTS tickets: Buy seats for the sold-out 2026 tour",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "BTS is finally back, and fans are excited to see them live. <strong>Tickets sold out moments after release, but you can find them from verified resellers</strong>.",
-      "url": "https://www.businessinsider.com/guides/tickets/where-to-find-bts-tickets-concert-tour",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-02T22:09:34"
-    },
-    {
-      "eventName": "The Forum",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "However, after years of following ... Eilish and really wanted to see her, but <strong>most tickets sold out immediately, and the remaining [tickets] were extremely expensive, all over $500</strong>,”",
-      "url": "https://readtheforum.org/28328/arts/the-cost-of-a-concert-how-fans-are-being-priced-out/",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-04T01:14:49"
-    },
-    {
-      "eventName": "One News Page",
+      "eventName": "Metallica's Sphere Residency Is Sold Out — Here's How You Can Still Get Tickets",
       "category": "indie/rock",
       "score": 5,
       "signals": [
         "SOLD OUT"
       ],
-      "text": "Saturday, March 7, 2026 · Upworthy 07 Mar 2026 0 shares 1 views · Facebook Twitter LinkedIn Reddit Pinterest WhatsApp Email · Published 07 Mar 2026 · Sold out — but not completely closed off Although ",
-      "url": "https://www.onenewspage.com/n/World/1ztelp34ho/How-can-fans-still-get-Metallica-Sphere-tickets.htm",
+      "text": "Tickets cycle back into availability constantly, sometimes for minutes, sometimes for hours. 2. Be Flexible with Dates Metallica is playing 24 shows across six months. That’s 24 different opportunitie",
+      "url": "https://consequence.net/2026/03/metallicas-sphere-residency-sold-out-tickets-guide/",
       "source": "web",
       "matchedArtist": null,
-      "published": "2026-03-07T03:07:43"
+      "published": "2026-03-06T23:48:59"
+    },
+    {
+      "eventName": "Mia Asano's First Sold Out Concert: A Night of Pure Joy",
+      "category": "other",
+      "score": 5,
+      "signals": [
+        "SOLD OUT"
+      ],
+      "text": "<strong>Angelenos and music fans from all over once again did not disappoint and this time in support of their favorite electric violinist, MIA ASANO</strong>. In this tough economy, they still opened",
+      "url": "https://slrmagazine.com/2026/03/07/electric-violinist-mia-asano-conquered-and-slayed-the-first-night-of-her-first-ever-u-s-headliner-tour-on-february-28-2026-with-a-sold-out-show-at-the-moroccan-lounge-in-los-angeles-ca-by-don-ma/",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-07T21:43:48"
     },
     {
       "eventName": "CashorTrade",
@@ -177,6 +195,19 @@
       "published": "2026-03-04T16:32:55"
     },
     {
+      "eventName": "Machu Picchu Entrance Tickets 2026 — Official Booking",
+      "category": "other",
+      "score": 5,
+      "signals": [
+        "SOLD OUT"
+      ],
+      "text": "Available: {{ circuit.available ... ⚠️ Availability Update (Last updated: March 4, 2026): <strong>Circuit 2 (Routes 2A and 2B) is currently sold out through May 2026</strong>....",
+      "url": "https://www.machu-picchu.org/tickets/",
+      "source": "web",
+      "matchedArtist": null,
+      "published": "2026-03-04T00:04:05"
+    },
+    {
       "eventName": "\"We Are Naturally Mortified At The Issues And Inconvenience Raised For Our Fans\"",
       "category": "other",
       "score": 5,
@@ -188,19 +219,6 @@
       "source": "web",
       "matchedArtist": null,
       "published": "2026-03-04T19:12:47"
-    },
-    {
-      "eventName": "Washington and Lee University",
-      "category": "other",
-      "score": 5,
-      "signals": [
-        "SOLD OUT"
-      ],
-      "text": "- Opening up the 2026 NCAA Division III Women&#x27;s Basketball Tournament in front of a sold out crowd at <strong>Holekamp Gym</strong>, the third-ranked Washington and Lee University women&#x27;s ba",
-      "url": "https://generalssports.com/news/2026/3/7/womens-basketball-no-3-womens-basketball-soars-past-seahawks-in-ncaa-first-round.aspx",
-      "source": "web",
-      "matchedArtist": null,
-      "published": "2026-03-07T00:33:58"
     },
     {
       "eventName": "mlive.com",

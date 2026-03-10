@@ -300,7 +300,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   <div class="updated-bar"><div class="ub-dot"></div><span>Last updated: <strong id="last-updated-time">Scanning...</strong></span><span style="margin-left:auto">12 scanners active • Next scan in <span id="next-scan-countdown">--</span></span></div>
   <div class="section-head">
     <h2>🎟️ Presales This Week</h2>
-    <span class="badge">Week of March 3, 2026</span>
+    <span class="badge">Week of March 9, 2026</span>
   </div>
   <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Every presale and onsale happening this week. Codes and signup links updated as found by our 12 scanners.</p>
   <div id="thisweek-cards"></div>
@@ -310,7 +310,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 <div id="view-nextweek" class="view" style="display:none">
   <div class="section-head">
     <h2>📅 Presales Next Week</h2>
-    <span class="badge">Week of March 10, 2026</span>
+    <span class="badge">Week of March 16, 2026</span>
   </div>
   <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Upcoming presales to prepare for. Register now where required — most artist presales need signup 48-72h early.</p>
   <div id="nextweek-cards"></div>
@@ -322,14 +322,14 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
     <h2>🔮 Emerging Artists — Breakout Predictor</h2>
     <span class="badge" id="emerging-count">Loading...</span>
   </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:6px">Artists most likely to crush their next presale. Scored 0-100 using listener velocity, venue progression, social momentum, and scarcity signals.</p>
-  <p style="color:var(--text5);font-size:12px;margin-bottom:12px">🔥 Hot (50+) &nbsp;•&nbsp; ⚡ Rising (30-49) &nbsp;•&nbsp; 📡 Tracking (&lt;30)</p>
+  <p style="color:var(--text4);font-size:13px;margin-bottom:6px">Artists verified across multiple sources — Brave Search, X/Twitter, Bandsintown, SerpAPI, Reddit. Sorted by signal strength, not made-up scores.</p>
+  <p style="color:var(--text5);font-size:12px;margin-bottom:12px">🔴 Red Hot (2+ sources confirm) &nbsp;•&nbsp; 🟡 Warm (1 source / high price) &nbsp;•&nbsp; ⚪ Watch (early signals)</p>
   <div class="filters" id="score-filters">
     <button class="fbtn active" onclick="filterArtists('all',this)">All</button>
-    <button class="fbtn" onclick="filterArtists('hot',this)">🔥 Hot (50+)</button>
-    <button class="fbtn" onclick="filterArtists('rising',this)">⚡ Rising (30+)</button>
-    <button class="fbtn" onclick="filterArtists('soldout',this)">🎟️ Sold-Out History</button>
-    <button class="fbtn" onclick="filterArtists('confirmed',this)">🔥 Confirmed Hot</button>
+    <button class="fbtn" onclick="filterArtists('red_hot',this)">🔴 Red Hot</button>
+    <button class="fbtn" onclick="filterArtists('warm',this)">🟡 Warm</button>
+    <button class="fbtn" onclick="filterArtists('soldout',this)">🎟️ Sold-Out Signals</button>
+    <button class="fbtn" onclick="filterArtists('highprice',this)">💰 $100+</button>
     <button class="fbtn" onclick="filterArtists('touring',this)">🗺️ On Tour</button>
   </div>
   <div class="filters" id="genre-filters">
@@ -537,8 +537,8 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 </div><!-- app -->
 
 <div class="footer">
-  🏴‍☠️ Blackbeard v5.8 — Presale Intelligence for Ticket Brokers<br>
-  14 Automated Scanners • Bandsintown • Twitter/X • Brave Search • SeatGeek • Spotify • SerpAPI • Google Trends<br>
+  🏴‍☠️ Blackbeard v6.2 — Presale Intelligence for Ticket Brokers<br>
+  Multi-Source Verification • Bandsintown • Twitter/X • Brave Search • SeatGeek • SerpAPI • Reddit • Google Trends<br>
   <em>Data reflects observed signals and may not be complete. Verify all presale times and codes before purchasing.</em>
 </div>
 
@@ -694,12 +694,21 @@ function buildCard(a, id) {
   html += `<div class="card-accent" style="background:linear-gradient(90deg,${tc.bg},${tc.bg}88)"></div>`;
   html += `<div class="card-header">`;
 
-  // Thumbnail + Score + Breakdown
-  const breakdown = a._raw ? buildScoreBreakdown(a._raw) : '';
+  // Thumbnail + Tier Badge
+  const isEmerging = a._isEmerging;
+  const tierEmoji = isEmerging ? (a.score || '') : a.score; // emerging cards use emoji tier, presale cards use numeric
   if (a.imageUrl) {
-    html += `<div class="card-thumb-wrap"><img class="card-thumb" src="${a.imageUrl}" alt="" loading="lazy"><div class="card-score"><div class="num" style="color:${tc.bg};border-color:${tc.bg}">${a.score}</div></div>${breakdown}</div>`;
+    if (isEmerging) {
+      html += `<div class="card-thumb-wrap"><img class="card-thumb" src="${a.imageUrl}" alt="" loading="lazy"><div class="card-score"><div class="num" style="font-size:16px;color:${tc.bg};border-color:${tc.bg}">${tierEmoji}</div></div></div>`;
+    } else {
+      html += `<div class="card-thumb-wrap"><img class="card-thumb" src="${a.imageUrl}" alt="" loading="lazy"><div class="card-score"><div class="num" style="color:${tc.bg};border-color:${tc.bg}">${a.score}</div></div></div>`;
+    }
   } else {
-    html += `<div class="card-score" style="position:relative"><div class="num" style="color:${tc.bg}">${a.score}</div><div class="tier" style="color:${tc.bg};background:${tc.glow}">${a.tier}</div>${breakdown}</div>`;
+    if (isEmerging) {
+      html += `<div class="card-score" style="position:relative"><div class="num" style="font-size:18px;color:${tc.bg}">${tierEmoji}</div><div class="tier" style="color:${tc.bg};background:${tc.glow}">${a.tier}</div></div>`;
+    } else {
+      html += `<div class="card-score" style="position:relative"><div class="num" style="color:${tc.bg}">${a.score}</div><div class="tier" style="color:${tc.bg};background:${tc.glow}">${a.tier}</div></div>`;
+    }
   }
 
   // Info
@@ -833,34 +842,59 @@ function toggleCard(id) {
 
 /* ── Build Emerging Artist Card from JSON data ── */
 function buildEmerging(a, id) {
-  const score = a.score || 0;
-  let tier, tierColor;
-  if (score >= 50) { tier = 'S'; }
-  else if (score >= 40) { tier = 'A'; }
-  else if (score >= 30) { tier = 'B+'; }
-  else if (score >= 15) { tier = 'B'; }
-  else { tier = 'C'; }
+  // Signal-based tier (no numeric score)
+  const vt = a.verificationTier || '';
+  let tier;
+  if (vt === 'RED_HOT' || a.confirmedSoldOut) tier = 'S';
+  else if (vt === 'WARM' || a.hasHotShows || (a.soldOutMentions || 0) >= 2) tier = 'A';
+  else if ((a.soldOutMentions || 0) >= 1 || (a.peakPrice || 0) >= 50) tier = 'B+';
+  else if (a.upcomingShows > 0) tier = 'B';
+  else tier = 'C';
 
   const ml = a.monthlyListeners ? (a.monthlyListeners >= 1000000 ? (a.monthlyListeners/1000000).toFixed(1)+'M' : Math.round(a.monthlyListeners/1000)+'K') : null;
   const ig = a.instagramFollowers ? (a.instagramFollowers >= 1000000 ? (a.instagramFollowers/1000000).toFixed(1)+'M' : Math.round(a.instagramFollowers/1000)+'K') : null;
   const tt = a.tiktokFollowers ? (a.tiktokFollowers >= 1000000 ? (a.tiktokFollowers/1000000).toFixed(1)+'M' : Math.round(a.tiktokFollowers/1000)+'K') : null;
 
+  // Build stats string with raw data
+  let statsStr = '';
+  if (ml) statsStr += `${ml} monthly listeners`;
+  if (ig) statsStr += (statsStr ? ' • ' : '') + `IG: ${ig}`;
+  if (tt) statsStr += (statsStr ? ' • ' : '') + `TikTok: ${tt}`;
+
+  // Scarcity string with source count
+  let scarcityStr = '';
+  if (a.soldOutMentions) {
+    scarcityStr = `${a.soldOutMentions} sold-out signal${a.soldOutMentions>1?'s':''}`;
+    if (a.soldOutSourceCount >= 2) scarcityStr += ` (verified by ${a.soldOutSourceCount} sources)`;
+    else if (a.soldOutSources?.length) scarcityStr += ` via ${a.soldOutSources.join(', ')}`;
+  }
+  if (a.peakPrice >= 50) {
+    scarcityStr += (scarcityStr ? ' • ' : '') + `Peak secondary: $${a.peakPrice}`;
+  }
+
+  // Tier label for display (replaces numeric score)
+  const tierLabel = vt === 'RED_HOT' ? '🔴' : vt === 'WARM' ? '🟡' : (a.soldOutMentions || a.peakPrice >= 50) ? '⚪' : '—';
+
   const card = {
     name: a.name,
-    score: score,
+    score: tierLabel,
     tier: tier,
     genre: a.genre || null,
     venueSize: a.upcomingShows ? `${a.upcomingShows} upcoming shows` : null,
-    streams: ml ? `${ml} monthly Spotify listeners` + (ig ? ` • IG: ${ig}` : '') + (tt ? ` • TikTok: ${tt}` : '') : null,
-    scarcity: a.soldOutMentions ? `${a.soldOutMentions} sold-out signal${a.soldOutMentions>1?'s':''} detected via Brave Search` : null,
+    streams: statsStr || null,
+    scarcity: scarcityStr || null,
     lastTour: a.albumCount ? `${a.albumCount} album${a.albumCount>1?'s':''}` : null,
     tourDates: a.tourDates,
     soldOutMentions: a.soldOutMentions || 0,
     soldOutSnippets: a.soldOutSnippets || [],
+    confirmedSoldOut: a.confirmedSoldOut,
+    hasHotShows: a.hasHotShows,
+    peakPrice: a.peakPrice,
     ticketLink: `https://seatgeek.com/search?q=${encodeURIComponent(a.name)}`,
-    artistLink: `https://open.spotify.com/search/${encodeURIComponent(a.name)}`,
+    artistLink: a.artistWebsite || `https://open.spotify.com/search/${encodeURIComponent(a.name)}`,
     imageUrl: a.imageUrl || null,
-    _raw: a, // Pass raw data for score breakdown
+    _raw: a,
+    _isEmerging: true,
   };
 
   return buildCard(card, id);
@@ -905,16 +939,18 @@ function renderEmerging(artists) {
 
   for (let i = 0; i < artists.length; i++) {
     const a = artists[i];
-    const score = a.score || 0;
+    const vt = a.verificationTier || '';
     let group;
-    if (score >= 50) group = '🔥 Hot';
-    else if (score >= 30) group = '⚡ Rising';
-    else group = '📡 Tracking';
+    if (vt === 'RED_HOT' || a.confirmedSoldOut) group = '🔴 Red Hot';
+    else if (vt === 'WARM' || a.hasHotShows || (a.soldOutMentions||0) >= 2) group = '🟡 Warm';
+    else group = '⚪ Watch';
 
     if (group !== lastGroup) {
       html += `<div class="section-head"><h2 style="font-size:14px">${group}</h2><span class="badge">${artists.filter(x => {
-        const s = x.score||0;
-        return group === '🔥 Hot' ? s >= 50 : group === '⚡ Rising' ? (s >= 30 && s < 50) : s < 30;
+        const xvt = x.verificationTier || '';
+        if (group === '🔴 Red Hot') return xvt === 'RED_HOT' || x.confirmedSoldOut;
+        if (group === '🟡 Warm') return (xvt === 'WARM' || x.hasHotShows || (x.soldOutMentions||0) >= 2) && xvt !== 'RED_HOT' && !x.confirmedSoldOut;
+        return true;
       }).length} artists</span></div>`;
       lastGroup = group;
     }
@@ -927,11 +963,11 @@ function renderEmerging(artists) {
 function applyFilters() {
   let filtered = allArtists;
 
-  // Score filter
-  if (activeScoreFilter === 'hot') filtered = filtered.filter(a => (a.score||0) >= 50);
-  else if (activeScoreFilter === 'rising') filtered = filtered.filter(a => (a.score||0) >= 30);
-  else if (activeScoreFilter === 'confirmed') filtered = filtered.filter(a => a.confirmedSoldOut || a.hasHotShows);
+  // Tier filter
+  if (activeScoreFilter === 'red_hot') filtered = filtered.filter(a => a.verificationTier === 'RED_HOT' || a.confirmedSoldOut);
+  else if (activeScoreFilter === 'warm') filtered = filtered.filter(a => a.verificationTier === 'WARM' || a.hasHotShows || (a.soldOutMentions||0) >= 2);
   else if (activeScoreFilter === 'soldout') filtered = filtered.filter(a => (a.soldOutMentions||0) > 0);
+  else if (activeScoreFilter === 'highprice') filtered = filtered.filter(a => (a.peakPrice||0) >= 100);
   else if (activeScoreFilter === 'touring') filtered = filtered.filter(a => (a.upcomingShows||0) > 0);
 
   // Genre filter
@@ -1417,11 +1453,19 @@ setInterval(checkLivePresales, 60000);
   try {
     const res = await fetch('data/rising-stars.json');
     const data = await res.json();
-    allArtists = (data.artists || []).map(a => ({...a, score: a.score || a.risingStarScore || 0})).sort((a, b) => (b.score||0) - (a.score||0));
-    document.getElementById('emerging-count').textContent = allArtists.length + ' artists • ' + data.scanDate;
-    const hotCount = allArtists.filter(a => (a.score||0) >= 50).length;
+    // Sort by verification tier, then signal count, then sold-out mentions
+    const tierOrder = { RED_HOT: 3, WARM: 2, WATCH: 1 };
+    allArtists = (data.artists || []).map(a => ({...a, score: a.score || a.risingStarScore || 0})).sort((a, b) => {
+      const ta = tierOrder[a.verificationTier] || (a.confirmedSoldOut ? 3 : a.hasHotShows ? 2 : 0);
+      const tb = tierOrder[b.verificationTier] || (b.confirmedSoldOut ? 3 : b.hasHotShows ? 2 : 0);
+      if (tb !== ta) return tb - ta;
+      if ((b.totalSignals||0) !== (a.totalSignals||0)) return (b.totalSignals||0) - (a.totalSignals||0);
+      return (b.soldOutMentions||0) - (a.soldOutMentions||0);
+    });
+    document.getElementById('emerging-count').textContent = allArtists.length + ' artists • ' + (data.scanDate || data.lastVerification || '');
+    const hotCount = allArtists.filter(a => a.verificationTier === 'RED_HOT' || a.confirmedSoldOut).length;
     const badgeEl = document.getElementById('badge-emerging');
-    if (badgeEl) badgeEl.textContent = hotCount > 0 ? hotCount + '🔥' : allArtists.length;
+    if (badgeEl) badgeEl.textContent = hotCount > 0 ? hotCount + ' 🔴' : allArtists.length;
     renderEmerging(allArtists);
     renderTrackList();
   } catch (e) {
