@@ -40,6 +40,8 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .tab-btn.active{background:var(--yellow);border-color:var(--yellow);color:#000}
 .tab-btn .icon{font-size:14px}
 .main{max-width:1200px;margin:0 auto;padding:24px}
+#thisweek-cards,#nextweek-cards,#emerging-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
+@media(max-width:768px){#thisweek-cards,#nextweek-cards{grid-template-columns:1fr}}
 .nav-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
 
 /* Section heads */
@@ -55,7 +57,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .fbtn.active{background:var(--yellow-dim);border-color:rgba(251,191,36,0.3);color:var(--yellow)}
 
 /* ── Optimus-style Card ── */
-.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);cursor:pointer;overflow:hidden;margin-bottom:10px;transition:all 0.25s}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);cursor:pointer;overflow:hidden;transition:all 0.25s}
 .card:hover{border-color:var(--border2)}
 .card.expanded{transform:translateY(-1px);box-shadow:0 8px 32px rgba(0,0,0,0.3)}
 .card-accent{height:3px}
@@ -547,22 +549,23 @@ const PRESALE_DATA = {
     {
       name: "Gorillaz — The Mountain Tour 2026", score: 90, tier: "S", imageUrl: "https://seatgeekimages.com/performers-landscape/gorillaz-06a7e6/387/huge.jpg",
       genre: "Alternative / Electronic", venueSize: "Arena (15-20K cap)",
-      saleStatus: "🔴 GENERAL ONSALE MON MAR 9 10AM LOCAL",
-      saleDetails: "All presales ended. General onsale Mon Mar 9 10am local via Ticketmaster. No presale code necessary. 22 US cities this fall. Little Simz opening all dates. 2 shows already SOLD OUT per Bandsintown.",
-      streams: "24M+ monthly Spotify. First NA tour in 4 years. New album 'The Mountain' just dropped.",
+      saleStatus: "✅ ON SALE NOW — General onsale was Mon Mar 9",
+      saleDetails: "General onsale happened Mon Mar 9 10am local via Ticketmaster. 22 US cities this fall. Little Simz + Deltron 3030 opening. UK/Ireland shows sold out per Vice — NA shows still available but moving fast.",
+      streams: "24M+ monthly Spotify. First NA tour in 4 years. New album 'The Mountain' dropped Feb 27.",
       lastTour: "2023 (Cracker Island World Tour)",
-      scarcity: "2 shows already sold out before general onsale. First NA tour in 4 years = pent-up demand. Arena routing.",
-      reasoning: "First NA tour in 4 years with a new album. 2 shows already sold out per Bandsintown before general onsale — confirmed demand. 22 US cities across arenas. Little Simz opens all dates.",
-      action: "GENERAL ONSALE TOMORROW MON MAR 9 10AM LOCAL — no code needed. Target smaller market arenas.",
+      scarcity: "First NA tour in 4 years = pent-up demand. UK/Ireland shows sold out ([source](https://www.vice.com/en/article/gorillaz-us-tour-announce-2026/)). Arena routing across 22 cities.",
+      reasoning: "First NA tour in 4 years with a new album. UK/Ireland dates sold out. 22 US arena dates. Little Simz + Deltron 3030 support. Citi was the official presale card.",
+      action: "ON SALE NOW — Monitor secondary pricing. Target smaller market arenas where inventory may thin out.",
       targetCities: [
-        {emoji:"🎯",city:"Sold Out Markets",venue:"2 shows already sold out",why:"Monitor secondary pricing on these dates."},
+        {emoji:"🌲",city:"Charlotte, NC",venue:"Spectrum Center",why:"Southeast gap — no nearby alternative dates."},
+        {emoji:"⛷️",city:"Salt Lake City, UT",venue:"Delta Center",why:"Mountain West market, limited competition."},
       ],
       ticketLink: "https://www.ticketmaster.com/gorillaz-tickets/artist/806891",
       artistLink: "https://www.gorillaz.com/tour",
       presales: [
-        {type:"KONG Card", code:"UNKNOWN", date:"Mar 4 ✅ (ended)"},
-        {type:"Citi Presale", code:"UNKNOWN", date:"Mar 4-5 ✅ (ended)"},
-        {type:"General Onsale", code:"N/A", date:"Mon Mar 9 10am local"},
+        {type:"KONG Card", code:"N/A", date:"Mar 4 ✅ (ended)"},
+        {type:"Citi Presale", code:"412800", date:"Mar 4-5 ✅ (ended)"},
+        {type:"General Onsale", code:"N/A", date:"Mon Mar 9 ✅ (passed)"},
       ]
     },
     {
@@ -572,7 +575,7 @@ const PRESALE_DATA = {
       saleDetails: "Presale Tue Mar 11 10am local (register at Laylo). General onsale Thu Mar 12 10am local. 15 dates across US & Canada. Red Rocks Jul 2-3 ALREADY SOLD OUT. Taking 2027 off — this is the farewell run. Amphitheater routing: Forest Hills Stadium NYC, Grand Park LA (2 nights), Nashville, Toronto hometown return.",
       streams: "2M+ monthly Spotify. Deadrocks is a 12-year tradition at Red Rocks. Bass music legends.",
       lastTour: "2025 (Deadrocks XI + festival circuit)",
-      scarcity: "EXTREME — Red Rocks 2 nights ALREADY SOLD OUT before general onsale. Taking 2027 off = last chance to see them live. Amphitheater routing constrains supply. Bass music fanbase travels religiously.",
+      scarcity: "EXTREME — Red Rocks Jul 2-3 sold out per [Billboard](https://www.billboard.com/music/music-news/zeds-dead-summer-2026-tour-amphitheaters-north-america-1236192172/) and [EDM.com](https://edm.com/news/zeds-dead-journey-of-a-lifetime-tour-2026/). Taking 2027 off = last chance. Amphitheater routing constrains supply.",
       reasoning: "Red Rocks sold out instantly — confirmed demand. 2027 hiatus announcement creates urgency premium. 15-date amphitheater run is their biggest headlining tour ever. Bass music fans are loyal travelers. Forest Hills Stadium NYC and Grand Park LA are the secondary market targets.",
       action: "REGISTER at Laylo NOW for Tue presale. Red Rocks gone — target Forest Hills NYC, Nashville, Toronto.",
       targetCities: [
@@ -584,7 +587,8 @@ const PRESALE_DATA = {
       ticketLink: "https://www.ticketmaster.com/zeds-dead-tickets/artist/1804498",
       artistLink: "https://www.zedsdead.net",
       presales: [
-        {type:"Laylo Presale", code:"UNKNOWN", date:"Tue Mar 11 10am local (register at laylo)"},
+        {type:"Laylo Presale", code:"Register at laylo.com/zedsdead", date:"Tue Mar 11 10am local"},
+        {type:"Citi Presale", code:"412800", date:"Check Ticketmaster for Citi presale window"},
         {type:"General Onsale", code:"N/A", date:"Thu Mar 12 10am local"},
       ]
     },
@@ -604,10 +608,10 @@ const PRESALE_DATA = {
       ticketLink: "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1108299",
       artistLink: "https://www.jonasbrothers.com",
       presales: [
-        {type:"Citi Presale", code:"UNKNOWN", date:"Mon Mar 9 10am PT"},
-        {type:"Artist Presale", code:"UNKNOWN", date:"Tue Mar 10 10am PT (register at jonasbrothers.com)"},
-        {type:"LiveNation", code:"UNKNOWN", date:"Wed Mar 11 10am PT"},
-        {type:"MGM Rewards", code:"UNKNOWN", date:"Wed Mar 11 10am PT"},
+        {type:"Citi Presale", code:"412800", date:"Mon Mar 9 10am PT ✅ (ended)"},
+        {type:"Artist Presale", code:"Register at jonasbrothers.com", date:"Tue Mar 10 10am PT"},
+        {type:"LiveNation", code:"Check livenation.com", date:"Wed Mar 11 10am PT"},
+        {type:"MGM Rewards", code:"Log into MGM Rewards", date:"Wed Mar 11 10am PT"},
         {type:"General Onsale", code:"N/A", date:"Fri Mar 13 10am PT"},
       ]
     },
@@ -624,7 +628,8 @@ const PRESALE_DATA = {
       artistLink: "https://www.arloparks.com",
       codes: [{code:"MODO",type:"Venue Presale"}],
       presales: [
-        {type:"Artist Presale", code:"UNKNOWN", date:"This week (register at arloparks.com)"},
+        {type:"Artist Presale", code:"Register at arloparks.com", date:"This week"},
+        {type:"Citi Presale", code:"412800", date:"Check Ticketmaster"},
         {type:"Venue Presale", code:"MODO", date:"Thu Mar 13 10am local"},
       ]
     },
@@ -632,7 +637,7 @@ const PRESALE_DATA = {
       name: "Metallica — 6 NEW Sphere Dates Added", score: 96, tier: "S", imageUrl: "https://seatgeekimages.com/performers-landscape/metallica-33f6d8/45/huge.jpg",
       genre: "Heavy Metal / Thrash", venueSize: "Sphere Las Vegas (~18K cap)",
       saleStatus: "🟢 ON SECONDARY — Monitor Pricing",
-      saleDetails: "6 NEW dates just added due to 'unbelievable demand': Oct 8, 10, Nov 5, 7, Jan 28, 30 (2027). Now 14 total shows. Fan club presale for new dates ran Mar 4. Tickets $700-$3,000 on secondary. Fans furious over pricing + presale glitches.",
+      saleDetails: "6 NEW dates added due to 'unbelievable demand' ([source](https://ultimateclassicrock.com/metallica-six-more-sphere-shows-2026/)): Oct 8, 10, Nov 5, 7, Jan 28, 30 (2027). Now 14 total shows. Tickets $700-$3,000 on secondary ([source](https://www.sfchronicle.com/entertainment/article/metallica-sphere-ticket-prices-21955014.php)). Ticketmaster blocked a 'targeted attack' during presale ([source](https://www.8newsnow.com/entertainment-news/ticketmaster-blocked-targeted-attack-during-metallica-sphere-pre-sale/)).",
       streams: "28M+ monthly. 125M+ albums sold worldwide.",
       lastTour: "2025 (M72 World Tour — stadiums)",
       scarcity: "EXTREME — Even with 14 dates, presales sold through instantly. $700-$3,000 secondary pricing. 'No Repeat Weekends' = unique setlists drive completist demand for multiple shows.",
