@@ -855,9 +855,12 @@ function buildEmerging(a, id) {
   const ig = a.instagramFollowers ? (a.instagramFollowers >= 1000000 ? (a.instagramFollowers/1000000).toFixed(1)+'M' : Math.round(a.instagramFollowers/1000)+'K') : null;
   const tt = a.tiktokFollowers ? (a.tiktokFollowers >= 1000000 ? (a.tiktokFollowers/1000000).toFixed(1)+'M' : Math.round(a.tiktokFollowers/1000)+'K') : null;
 
+  const yt = a.youtubeSubscribers ? (a.youtubeSubscribers >= 1000000 ? (a.youtubeSubscribers/1000000).toFixed(1)+'M' : Math.round(a.youtubeSubscribers/1000)+'K') : null;
+
   // Build stats string with raw data
   let statsStr = '';
   if (ml) statsStr += `${ml} monthly listeners`;
+  if (yt) statsStr += (statsStr ? ' • ' : '') + `YT: ${yt} subs`;
   if (ig) statsStr += (statsStr ? ' • ' : '') + `IG: ${ig}`;
   if (tt) statsStr += (statsStr ? ' • ' : '') + `TikTok: ${tt}`;
 

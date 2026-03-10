@@ -16,7 +16,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": 500000,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 402000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 6,
@@ -59,7 +59,10 @@
       "tourDates": [],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 54
+      "risingStarScore": 54,
+      "youtubeTopVideoViews": 5885732,
+      "youtubeHandle": "@mothercain",
+      "youtubeVerified": true
     },
     {
       "name": "Amyl and The Sniffers",
@@ -101,7 +104,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": 18800000,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 4530000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 4,
@@ -134,7 +137,10 @@
       "tourDates": [],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 49
+      "risingStarScore": 49,
+      "youtubeTopVideoViews": 308570771,
+      "youtubeHandle": "@AlexWarren",
+      "youtubeVerified": true
     },
     {
       "name": "Sabrina Carpenter",
@@ -146,7 +152,7 @@
       "instagramFollowers": 50000000,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 13000000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 4,
@@ -229,7 +235,10 @@
       "totalSignals": 4,
       "lastVerified": "2026-03-10T16:05:33.632Z",
       "confirmedSoldOut": false,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 560876772,
+      "youtubeHandle": "@sabrinacarpenter",
+      "youtubeVerified": true
     },
     {
       "name": "ALLEYCVT",
@@ -241,7 +250,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": 201100,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 9320,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 3,
@@ -415,7 +424,10 @@
       "totalSignals": 4,
       "lastVerified": "2026-03-10T16:06:03.734Z",
       "confirmedSoldOut": false,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 264378,
+      "youtubeHandle": "@alleycvt",
+      "youtubeVerified": false
     },
     {
       "name": "Hurricane Wisdom",
@@ -457,7 +469,7 @@
       "instagramFollowers": 7000000,
       "tiktokFollowers": 9300000,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 5660000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 3,
@@ -487,7 +499,10 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 44
+      "risingStarScore": 44,
+      "youtubeTopVideoViews": 950665475,
+      "youtubeHandle": "@BensonBoone",
+      "youtubeVerified": true
     },
     {
       "name": "Jalen Ngonda",
@@ -564,7 +579,7 @@
       "instagramFollowers": 4000000,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 2069999,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 5,
@@ -615,7 +630,10 @@
       "totalSignals": 7,
       "lastVerified": "2026-03-10T16:28:32.325Z",
       "confirmedSoldOut": true,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 86023880,
+      "youtubeHandle": "@deftones",
+      "youtubeVerified": true
     },
     {
       "name": "LEVEL UP",
@@ -657,7 +675,7 @@
       "instagramFollowers": 1300000,
       "tiktokFollowers": 1300000,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 139000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 3,
@@ -767,7 +785,10 @@
       "totalSignals": 1,
       "lastVerified": "2026-03-10T16:05:39.264Z",
       "confirmedSoldOut": false,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 49066023,
+      "youtubeHandle": "@TuckerWetmore",
+      "youtubeVerified": true
     },
     {
       "name": "Electric Callboy",
@@ -833,7 +854,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": 6700000,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 821000,
       "albumCount": 13,
       "genres": [],
       "soldOutMentions": 3,
@@ -1008,7 +1029,10 @@
       "totalSignals": 3,
       "lastVerified": "2026-03-10T16:06:01.816Z",
       "confirmedSoldOut": true,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 93727693,
+      "youtubeHandle": "@tylerchilders",
+      "youtubeVerified": true
     },
     {
       "name": "Jelly Roll",
@@ -1020,7 +1044,7 @@
       "instagramFollowers": 6000000,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 5000000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 5,
@@ -1197,7 +1221,10 @@
       "totalSignals": 6,
       "lastVerified": "2026-03-10T16:05:35.574Z",
       "confirmedSoldOut": true,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 356413813,
+      "youtubeHandle": "@JellyRoll",
+      "youtubeVerified": true
     },
     {
       "name": "Hilary Duff",
@@ -1209,7 +1236,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 1080000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 4,
@@ -1242,7 +1269,10 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 35
+      "risingStarScore": 35,
+      "youtubeTopVideoViews": 2434501,
+      "youtubeHandle": "@HilaryDuff",
+      "youtubeVerified": true
     },
     {
       "name": "Cage The Elephant",
@@ -1254,7 +1284,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": 1000000,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 1330000,
       "albumCount": 11,
       "genres": [],
       "soldOutMentions": 3,
@@ -1320,7 +1350,10 @@
       "totalSignals": 3,
       "lastVerified": "2026-03-10T16:05:59.870Z",
       "confirmedSoldOut": false,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 91829786,
+      "youtubeHandle": "@cagetheelephant",
+      "youtubeVerified": true
     },
     {
       "name": "Flip Turn",
@@ -1417,7 +1450,7 @@
       "instagramFollowers": 4000000,
       "tiktokFollowers": 3300000,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 917000,
       "albumCount": 13,
       "genres": [],
       "soldOutMentions": 5,
@@ -1594,7 +1627,10 @@
       "totalSignals": 9,
       "lastVerified": "2026-03-10T16:05:41.324Z",
       "confirmedSoldOut": true,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 61766323,
+      "youtubeHandle": "@NoahKahan",
+      "youtubeVerified": true
     },
     {
       "name": "The Elovaters",
@@ -1702,7 +1738,7 @@
       "instagramFollowers": 5000000,
       "tiktokFollowers": 300000,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 856000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 3,
@@ -1876,7 +1912,10 @@
       "totalSignals": 3,
       "lastVerified": "2026-03-10T16:06:05.423Z",
       "confirmedSoldOut": false,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 2908274,
+      "youtubeHandle": "@NurseJohnn",
+      "youtubeVerified": true
     },
     {
       "name": "Rezz",
@@ -1888,7 +1927,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 390000,
       "albumCount": 12,
       "genres": [],
       "soldOutMentions": 3,
@@ -1948,7 +1987,10 @@
       "totalSignals": 2,
       "lastVerified": "2026-03-10T16:05:37.450Z",
       "confirmedSoldOut": false,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 1339161,
+      "youtubeHandle": "@officialRezz",
+      "youtubeVerified": true
     },
     {
       "name": "Laci Kaye Booth",
@@ -2137,7 +2179,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": 3500000,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 760000,
       "albumCount": 6,
       "genres": [],
       "soldOutMentions": 5,
@@ -2314,7 +2356,10 @@
       "totalSignals": 10,
       "lastVerified": "2026-03-10T16:05:48.711Z",
       "confirmedSoldOut": true,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 138300943,
+      "youtubeHandle": "@BaileyZimmerman",
+      "youtubeVerified": true
     },
     {
       "name": "Twenty One Pilots",
@@ -2326,7 +2371,7 @@
       "instagramFollowers": 9000000,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 14200000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 4,
@@ -2466,7 +2511,10 @@
       "totalSignals": 4,
       "lastVerified": "2026-03-10T16:05:50.832Z",
       "confirmedSoldOut": true,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 3186241257,
+      "youtubeHandle": "@twentyonepilots",
+      "youtubeVerified": true
     },
     {
       "name": "Morgan Wallen",
@@ -2478,7 +2526,7 @@
       "instagramFollowers": 9000000,
       "tiktokFollowers": 191500,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 3970000,
       "albumCount": 16,
       "genres": [],
       "soldOutMentions": 3,
@@ -2652,7 +2700,10 @@
       "totalSignals": 7,
       "lastVerified": "2026-03-10T16:05:52.672Z",
       "confirmedSoldOut": false,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 203620759,
+      "youtubeHandle": "@morganwallen",
+      "youtubeVerified": true
     },
     {
       "name": "The Killers",
@@ -2664,7 +2715,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 2630000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 3,
@@ -2713,7 +2764,10 @@
       "totalSignals": 4,
       "lastVerified": "2026-03-10T16:06:09.249Z",
       "confirmedSoldOut": true,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 626988813,
+      "youtubeHandle": "@TheKillersMusic",
+      "youtubeVerified": true
     },
     {
       "name": "Michael Blaustein",
@@ -2725,7 +2779,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 1240000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 3,
@@ -2753,7 +2807,10 @@
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 28
+      "risingStarScore": 28,
+      "youtubeTopVideoViews": 1011292,
+      "youtubeHandle": "@blaucomedy",
+      "youtubeVerified": false
     },
     {
       "name": "Gianmarco Soresi",
@@ -3148,7 +3205,7 @@
       "instagramFollowers": 25000000,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 14000000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 5,
@@ -3325,7 +3382,10 @@
       "totalSignals": 9,
       "lastVerified": "2026-03-10T16:05:54.420Z",
       "confirmedSoldOut": true,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 412679008,
+      "youtubeHandle": "@dojacat",
+      "youtubeVerified": true
     },
     {
       "name": "Lambrini Girls",
@@ -3523,7 +3583,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 28700000,
       "albumCount": null,
       "genres": [],
       "soldOutMentions": 3,
@@ -3697,7 +3757,10 @@
       "totalSignals": 7,
       "lastVerified": "2026-03-10T16:05:56.266Z",
       "confirmedSoldOut": false,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 1704683802,
+      "youtubeHandle": "@postmalone",
+      "youtubeVerified": true
     },
     {
       "name": "Hemlocke Springs",
@@ -3961,7 +4024,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 751000,
       "albumCount": 10,
       "genres": [],
       "soldOutMentions": 4,
@@ -4061,7 +4124,10 @@
       "totalSignals": 5,
       "lastVerified": "2026-03-10T16:05:58.107Z",
       "confirmedSoldOut": true,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 54682270,
+      "youtubeHandle": "@dominicfike",
+      "youtubeVerified": true
     },
     {
       "name": "Allison Russell",
@@ -4423,7 +4489,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 1630000,
       "albumCount": 18,
       "genres": [],
       "soldOutMentions": 3,
@@ -4598,7 +4664,10 @@
       "totalSignals": 4,
       "lastVerified": "2026-03-10T16:05:43.157Z",
       "confirmedSoldOut": true,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 214158666,
+      "youtubeHandle": "@zachbryan1067",
+      "youtubeVerified": true
     },
     {
       "name": "Chris Stapleton",
@@ -4610,7 +4679,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 3140000,
       "albumCount": 6,
       "genres": [],
       "soldOutMentions": 5,
@@ -4786,7 +4855,10 @@
       "totalSignals": 7,
       "lastVerified": "2026-03-10T16:28:40.129Z",
       "confirmedSoldOut": false,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 889689151,
+      "youtubeHandle": "@chrisstapleton",
+      "youtubeVerified": true
     },
     {
       "name": "Liquid Stranger",
@@ -5758,7 +5830,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "twitterFollowers": null,
-      "youtubeSubscribers": null,
+      "youtubeSubscribers": 189000,
       "albumCount": 11,
       "genres": [],
       "soldOutMentions": 1,
@@ -5934,7 +6006,10 @@
       "totalSignals": 2,
       "lastVerified": "2026-03-10T16:06:07.164Z",
       "confirmedSoldOut": false,
-      "hasHotShows": true
+      "hasHotShows": true,
+      "youtubeTopVideoViews": 7961354,
+      "youtubeHandle": "@bobmosesmusic",
+      "youtubeVerified": true
     },
     {
       "name": "Violet Grohl",
@@ -9506,5 +9581,6 @@
       "risingStarScore": 2
     }
   ],
-  "lastVerification": "2026-03-10T16:28:40.129Z"
+  "lastVerification": "2026-03-10T16:28:40.129Z",
+  "lastYoutubeEnrichment": "2026-03-10T16:32:14.969Z"
 }
