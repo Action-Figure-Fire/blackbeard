@@ -14,7 +14,7 @@ const path = require('path');
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const SUBSCRIBERS_PATH = path.join(__dirname, '..', 'data', 'subscribers.json');
 const CACHE_PATH = path.join(__dirname, '..', 'data', 'artist-sites-cache.json');
-const FROM_EMAIL = 'alerts@blackbeard.tickets'; // Needs verified domain on Resend
+const FROM_EMAIL = process.env.RESEND_FROM_EMAIL || 'Blackbeard <onboarding@resend.dev>'; // Update when custom domain verified
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
