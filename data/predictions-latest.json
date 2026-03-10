@@ -1,0 +1,458 @@
+{
+  "timestamp": "2026-03-10T23:28:56.125Z",
+  "predictions": [
+    {
+      "artist": "Benson Boone",
+      "score": 58,
+      "verdict": "GOOD CHANCE",
+      "emoji": "🟡",
+      "confidence": "Moderate",
+      "factors": [
+        "43.4M monthly listeners — superstar demand",
+        "TikTok: 9.3M",
+        "Instagram: 7.0M",
+        "YouTube: 5.7M subs",
+        "7.8M Spotify followers — committed fans",
+        "📡 2 growth mention(s)",
+        "5 sold-out mentions — strong pattern",
+        "⚠️ Only 4 shows for 43.4M listeners — severe undersupply",
+        "💿 New album cycle — tour demand peaks",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 43401615,
+        "spotifyFollowers": 7826689,
+        "tiktokFollowers": 9300000,
+        "instagramFollowers": 7000000,
+        "youtubeSubscribers": 5660000,
+        "upcomingShows": 4,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 2,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Teddy Swims",
+      "score": 46,
+      "verdict": "GOOD CHANCE",
+      "emoji": "🟡",
+      "confidence": "Moderate",
+      "factors": [
+        "42.5M monthly listeners — superstar demand",
+        "6.3M Spotify followers — committed fans",
+        "📡 2 growth mention(s)",
+        "5 sold-out mentions — strong pattern",
+        "⚠️ 42.5M listeners in 9652-cap venues — undersized",
+        "💿 New album cycle — tour demand peaks",
+        "📈 Billboard Hot 100 / #1 hit"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 42455471,
+        "spotifyFollowers": 6300000,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 32,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 5,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Olivia Dean",
+      "score": 45,
+      "verdict": "GOOD CHANCE",
+      "emoji": "🟡",
+      "confidence": "Moderate",
+      "factors": [
+        "62.0M monthly listeners — superstar demand",
+        "3.3M Spotify followers",
+        "3 sold-out mentions",
+        "📈 Added shows/extended tour — previous dates sold strongly",
+        "SeatGeek demand: 0.67",
+        "📺 SNL appearance — massive exposure",
+        "🏆 Grammy recognition",
+        "📈 Billboard Hot 100 / #1 hit",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 62000000,
+        "spotifyFollowers": 3300000,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 44,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 3,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Gracie Abrams",
+      "score": 44,
+      "verdict": "POSSIBLE",
+      "emoji": "🔵",
+      "confidence": "Low-Moderate",
+      "factors": [
+        "36.7M monthly listeners — superstar demand",
+        "📡 1 growth mention(s)",
+        "4 sold-out mentions",
+        "Twitter chatter about sellouts",
+        "⚠️ Only 0 shows for 36.7M listeners — severe undersupply",
+        "💰 Resale prices spotted up to $350",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "⚠️ No upcoming shows found — prediction based on demand only",
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 36740858,
+        "spotifyFollowers": 15,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 0,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 4,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Lola Young",
+      "score": 42,
+      "verdict": "POSSIBLE",
+      "emoji": "🔵",
+      "confidence": "Low-Moderate",
+      "factors": [
+        "24.8M monthly listeners — massive demand",
+        "1.6M Spotify followers",
+        "📡 1 growth mention(s)",
+        "1 sold-out reference(s)",
+        "SeatGeek demand: 0.57",
+        "⚠️ Only 7 shows for 24.8M listeners — severe undersupply",
+        "⚠️ 24.8M listeners in 2375-cap venues — undersized",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 24752606,
+        "spotifyFollowers": 1600000,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 7,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 1,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Chappell Roan",
+      "score": 38,
+      "verdict": "POSSIBLE",
+      "emoji": "🔵",
+      "confidence": "Low-Moderate",
+      "factors": [
+        "40.0M monthly listeners — superstar demand",
+        "7.9M Spotify followers — committed fans",
+        "⚠️ Only 3 shows for 40.0M listeners — severe undersupply",
+        "💰 Resale prices spotted up to $350",
+        "📈 Billboard Hot 100 / #1 hit",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 40000000,
+        "spotifyFollowers": 7900000,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 3,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 0,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Artemas",
+      "score": 36,
+      "verdict": "POSSIBLE",
+      "emoji": "🔵",
+      "confidence": "Low-Moderate",
+      "factors": [
+        "15.3M monthly listeners — massive demand",
+        "1.5M Spotify followers",
+        "📡 1 growth mention(s)",
+        "⚠️ Only 7 shows for 15.3M listeners — severe undersupply",
+        "⚠️ 15.3M listeners in 1951-cap venues — undersized",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 15250853,
+        "spotifyFollowers": 1513527,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 7,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 0,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Tyla",
+      "score": 33,
+      "verdict": "POSSIBLE",
+      "emoji": "🔵",
+      "confidence": "Low-Moderate",
+      "factors": [
+        "35.7M monthly listeners — superstar demand",
+        "4.5M Spotify followers",
+        "⚠️ Only 0 shows for 35.7M listeners — severe undersupply",
+        "📈 Billboard Hot 100 / #1 hit",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "⚠️ No upcoming shows found — prediction based on demand only",
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 35689189,
+        "spotifyFollowers": 4530259,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 0,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 0,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Shaboozey",
+      "score": 32,
+      "verdict": "POSSIBLE",
+      "emoji": "🔵",
+      "confidence": "Low-Moderate",
+      "factors": [
+        "18.3M monthly listeners — massive demand",
+        "TikTok: 1.3M",
+        "1.6M Spotify followers",
+        "1 sold-out reference(s)",
+        "SeatGeek demand: 0.62",
+        "⚠️ Only 7 shows for 18.3M listeners — severe undersupply"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 18264411,
+        "spotifyFollowers": 1600000,
+        "tiktokFollowers": 1300000,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 7,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 0,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Raye",
+      "score": 29,
+      "verdict": "UNLIKELY",
+      "emoji": "⚪",
+      "confidence": "Low",
+      "factors": [
+        "55.3M monthly listeners — superstar demand",
+        "1 sold-out reference(s)",
+        "SeatGeek demand: 0.51",
+        "🎪 Festival booked — visibility boost",
+        "🏆 Grammy recognition",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 55300000,
+        "spotifyFollowers": 0,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 53,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 1,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "The Last Dinner Party",
+      "score": 26,
+      "verdict": "UNLIKELY",
+      "emoji": "⚪",
+      "confidence": "Low",
+      "factors": [
+        "3.4M monthly listeners — strong",
+        "📡 1 growth mention(s)",
+        "1 sold-out reference(s)",
+        "⚠️ 3.4M listeners in 2685-cap venues — mismatch",
+        "🎪 Festival booked — visibility boost",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 3400000,
+        "spotifyFollowers": 0,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 41,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 1,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Tommy Richman",
+      "score": 25,
+      "verdict": "UNLIKELY",
+      "emoji": "⚪",
+      "confidence": "Low",
+      "factors": [
+        "11.5M monthly listeners — massive demand",
+        "⚠️ 11.5M listeners in 5023-cap venues — undersized",
+        "📈 Billboard Hot 100 / #1 hit",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 11500000,
+        "spotifyFollowers": 980597,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 37,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 0,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Royel Otis",
+      "score": 21,
+      "verdict": "UNLIKELY",
+      "emoji": "⚪",
+      "confidence": "Low",
+      "factors": [
+        "8.2M monthly listeners — strong",
+        "⚠️ 8.2M listeners in 8500-cap venues — undersized",
+        "🎪 Festival booked — visibility boost",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 8200000,
+        "spotifyFollowers": 649959,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 35,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 0,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Floating Points",
+      "score": 15,
+      "verdict": "UNLIKELY",
+      "emoji": "⚪",
+      "confidence": "Low",
+      "factors": [
+        "775K monthly listeners",
+        "3 shows for 775K listeners — tight supply",
+        "📈 Billboard Hot 100 / #1 hit",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 775300,
+        "spotifyFollowers": 401187,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 3,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 0,
+        "verificationTier": null
+      }
+    },
+    {
+      "artist": "Mk.gee",
+      "score": 12,
+      "verdict": "NO SIGNAL",
+      "emoji": "⬜",
+      "confidence": "Insufficient Data",
+      "factors": [
+        "1.7M monthly listeners — solid",
+        "🎪 Festival booked — visibility boost",
+        "🎤 Support tour slot — headline tour incoming"
+      ],
+      "warnings": [
+        "No resale pricing data available"
+      ],
+      "data": {
+        "monthlyListeners": 1700000,
+        "spotifyFollowers": 491555,
+        "tiktokFollowers": 0,
+        "instagramFollowers": 0,
+        "youtubeSubscribers": 0,
+        "upcomingShows": 30,
+        "avgPrice": null,
+        "peakPrice": 0,
+        "soldOutMentions": 0,
+        "verificationTier": null
+      }
+    }
+  ]
+}
