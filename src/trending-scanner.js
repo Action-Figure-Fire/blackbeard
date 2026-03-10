@@ -54,8 +54,18 @@ function loadKnownArtists() {
   } catch {}
 }
 
+// Noise filter — generic articles, not specific events
+const NOISE_PATTERNS = [
+  'things to do', 'best things', 'weekend guide', 'what to do', 'where to go',
+  'restaurants', 'bars', 'food', 'dining', 'brunch', 'happy hour',
+  'real estate', 'weather', 'traffic', 'news', 'politics',
+  'most anticipated', 'best of', 'top 10', 'top 20', 'roundup'
+];
+
 function isEventRelated(text) {
   const lower = text.toLowerCase();
+  // Reject noise first
+  if (NOISE_PATTERNS.some(p => lower.includes(p))) return false;
   // Check event keywords
   if (EVENT_KEYWORDS.some(kw => lower.includes(kw))) return true;
   // Check if it's a known artist

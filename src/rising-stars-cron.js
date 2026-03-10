@@ -14,6 +14,7 @@ const { run: runYouTube, formatDiscordAlert: formatYouTube } = require('./youtub
 const { run: runDiscoverSites } = require('./discover-artist-sites');
 const { run: runIntel, formatDiscordAlert: formatIntel } = require('./artist-intel-scraper');
 const { run: runSocial, formatDiscordAlert: formatSocial } = require('./social-enrichment');
+const { run: runTrending, formatDiscordAlert: formatTrending } = require('./trending-scanner');
 
 async function sendDiscord(msg) {
   console.log(`\n--- ALERT ---\n${msg}\n--- END ---`);
@@ -87,6 +88,16 @@ async function main() {
 
     // Phase 8: Website discovery + Intel scraping
     // Phase 8.5: Social media enrichment (TikTok + IG)
+    // Phase 8: Trending This Week
+    console.log('\n========== TRENDING THIS WEEK ==========');
+    let trendingResults = null;
+    try {
+      trendingResults = await runTrending();
+    } catch (e) {
+      console.log('Trending error:', e.message?.slice(0, 200));
+    }
+    if (trendingResults) msg += '\n\n' + formatTrending(trendingResults);
+
     console.log('\n========== SOCIAL ENRICHMENT ==========');
     let socialResults = null;
     try {
