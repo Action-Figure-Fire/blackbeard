@@ -1,37 +1,26 @@
 {
-  "timestamp": "2026-03-10T12:00:46.387Z",
+  "timestamp": "2026-03-10T17:00:03.759Z",
   "braveCallsUsed": 25,
-  "alertCount": 2,
+  "alertCount": 1,
   "alerts": [
     {
-      "artist": "Bailey Zimmerman",
+      "artist": "Post Malone",
       "tier": "A",
       "urgency": "TODAY",
       "emoji": "🚨",
       "priority": 0,
-      "title": "Bailey Zimmerman 2026 Tour - Catch Country’s Rising Star Live!",
-      "description": "Bailey Zimmerman is hitting the road in 2026, and tickets for all shows are on sale now. Click here for the latest Bailey Zimmerman Tour 2026 info!",
-      "url": "https://www.baileyzimmerman2026tour.com/",
-      "age": "3 days ago",
-      "codes": [],
-      "dates": [],
-      "time": null
-    },
-    {
-      "artist": "Zeds Dead",
-      "tier": "A",
-      "urgency": "TOMORROW",
-      "emoji": "⏰",
-      "priority": 1,
-      "title": "Zeds Dead Announces Largest Tour To Date, 'Journey Of A Lifetime' - Pollstar News",
-      "description": "Tickets for the newly announced shows go on sale <strong>March 11.</strong> Zeds Dead is partnering with PLUS1, with $1 per ticket supporting organizations expanding access to music education and other creative opportunities.",
-      "url": "https://news.pollstar.com/2026/03/04/zeds-dead-announces-largest-tour-to-date-journey-of-a-lifetime/",
-      "age": "6 days ago",
+      "title": "Big Ass Stadium Tour | 2026 Post Malone & Jelly Roll Stadium Tickets",
+      "description": "Multiple presales begin in early February 2026. The Citi presale for U.S. shows starts Wednesday, February 4 at 10 AM local time. The Post Malone artist presale begins Friday, February 6 at 10 AM local time—fans must register at livemu.sc/postmalone by February 4 at 11:59 PM ET.",
+      "url": "https://www.bigassstadiumtour.com/",
+      "age": "4 days ago",
       "codes": [],
       "dates": [
-        "2026-03-11"
+        "2026-02-20",
+        "2026-02-04",
+        "2026-02-06",
+        "2026-02-04"
       ],
-      "time": null
+      "time": "10 AM local"
     }
   ],
   "allTrackedCodes": {

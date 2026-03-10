@@ -7040,14 +7040,104 @@
     },
     {
       "name": "Lucy Dacus",
-      "tier": "B",
-      "genre": "Indie",
+      "tier": "A",
+      "genre": "Indie Rock",
       "source": "watchlist",
-      "upcomingShows": 0,
-      "tourDates": [],
+      "upcomingShows": 15,
+      "tourDates": [
+        {
+          "date": "May 10",
+          "venue": "Wild Buffalo",
+          "city": "Bellingham, WA"
+        },
+        {
+          "date": "May 11",
+          "venue": "Vogue Theatre",
+          "city": "Vancouver, BC"
+        },
+        {
+          "date": "May 13",
+          "venue": "McDonald Theatre",
+          "city": "Eugene, OR"
+        },
+        {
+          "date": "May 14",
+          "venue": "Ace of Spades",
+          "city": "Sacramento, CA"
+        },
+        {
+          "date": "May 16",
+          "venue": "Kilby Block Party",
+          "city": "Salt Lake City, UT"
+        },
+        {
+          "date": "May 19-20",
+          "venue": "Castro Theatre",
+          "city": "San Francisco, CA"
+        },
+        {
+          "date": "Jul 16",
+          "venue": "Majestic Theatre",
+          "city": "Madison, WI"
+        },
+        {
+          "date": "Jul 17",
+          "venue": "Intersection",
+          "city": "Grand Rapids, MI"
+        },
+        {
+          "date": "Jul 18",
+          "venue": "Danforth Music Hall",
+          "city": "Toronto, ON"
+        },
+        {
+          "date": "Jul 20",
+          "venue": "Agora Theatre",
+          "city": "Cleveland, OH"
+        },
+        {
+          "date": "Jul 22",
+          "venue": "Ulster PAC",
+          "city": "Kingston, NY"
+        },
+        {
+          "date": "Jul 23",
+          "venue": "MASS MoCA",
+          "city": "North Adams, MA"
+        },
+        {
+          "date": "Jul 25",
+          "venue": "Stone Pony",
+          "city": "Asbury Park, NJ"
+        }
+      ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10
+      "risingStarScore": 10,
+      "monthlyListeners": 4000000,
+      "tiktokFollowers": 224500,
+      "instagramFollowers": 735000,
+      "youtubeSubscribers": 77600,
+      "artistWebsite": "https://lucydac.us",
+      "_trackingSellout": true,
+      "_baselineDate": "2026-03-10",
+      "_baselineMetrics": {
+        "spotifyListeners": 4000000,
+        "tiktokFollowers": 224500,
+        "instagramFollowers": 735000,
+        "youtubeSubscribers": 77600,
+        "note": "Baseline captured pre-presale (presale Wed Mar 11). boygenius member, 1-3K cap theaters. Test case for social→sellout correlation."
+      },
+      "signupLinks": [
+        {
+          "url": "https://lucydac.us",
+          "type": "Artist Presale Signup",
+          "platform": "newsletter"
+        }
+      ],
+      "verificationTier": "WARM",
+      "soldOutMentions": 0,
+      "totalSignals": 3
     },
     {
       "name": "Mitski",

@@ -29,6 +29,7 @@ const EVENT_KEYWORDS = [
 
 // Known artist/event names to boost matching
 const BOOST_NAMES = new Set();
+const ARTIST_PROPER_NAMES = {}; // lowercase → proper casing
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -46,43 +47,97 @@ function httpGet(url, headers = {}) {
 function loadKnownArtists() {
   try {
     const data = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'docs', 'data', 'rising-stars.json'), 'utf8'));
-    (data.artists || []).forEach(a => BOOST_NAMES.add(a.name.toLowerCase()));
+    (data.artists || []).forEach(a => {
+      BOOST_NAMES.add(a.name.toLowerCase());
+      ARTIST_PROPER_NAMES[a.name.toLowerCase()] = a.name;
+    });
   } catch {}
   try {
     const wl = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'watchlist.json'), 'utf8'));
-    (wl.artists || []).forEach(a => BOOST_NAMES.add(a.name.toLowerCase()));
+    (wl.artists || []).forEach(a => {
+      BOOST_NAMES.add(a.name.toLowerCase());
+      ARTIST_PROPER_NAMES[a.name.toLowerCase()] = a.name;
+    });
   } catch {}
 }
 
-// Noise filter — generic articles, not specific events
+// Noise filter — reject anything that's not a specific artist/event
 const NOISE_PATTERNS = [
   'things to do', 'best things', 'weekend guide', 'what to do', 'where to go',
   'restaurants', 'bars', 'food', 'dining', 'brunch', 'happy hour',
   'real estate', 'weather', 'traffic', 'news', 'politics',
-  'most anticipated', 'best of', 'top 10', 'top 20', 'roundup'
+  'most anticipated', 'best of', 'top 10', 'top 20', 'top 25', 'roundup',
+  'this week in', 'concerts to experience', 'must-catch', 'guide',
+  'love is blind', 'reunion', 'reality tv', 'bachelor', 'survivor',
+  'every music artist', 'all of the biggest', 'upcoming rock tours',
+  'concert tickets 2026', 'popular artists touring', 'highest-grossing',
+  'concerts in europe', 'australia tour', 'meininger', 'jambase',
+  'wikipedia', 'must-see shows', 'list of',
+  'how to watch', 'how to get', 'how to buy', 'how to secure',
+  'upcoming concert events', 'venue, schedule', 'concert events, venue',
+  'tour presale alerts, tour dates', 'tourpresale',
+  'highest paid', 'go + do events', 'greeley tribune'
+];
+
+// Sports keywords — filter these OUT (Zach only wants music + comedy)
+const SPORTS_KEYWORDS = [
+  'nba', 'nfl', 'mlb', 'nhl', 'mls', 'ufc', 'wwe', 'ncaa', 'march madness',
+  'playoff', 'championship', 'super bowl', 'world series', 'finals',
+  'draft', 'trade', 'roster', 'injury', 'standings', 'score',
+  'vs ', ' vs.', 'grizzlies', 'nets', 'knicks', 'clippers', 'warriors', 'jazz',
+  'celtics', 'lakers', 'bulls', 'heat', 'bucks', 'nuggets', 'suns',
+  'cowboys', 'eagles', 'chiefs', 'ravens', 'bills', 'lions', '49ers',
+  'yankees', 'dodgers', 'mets', 'cubs', 'red sox', 'astros',
+  'acc tournament', 'big ten', 'sec tournament', 'baseball score',
+  'touchdown', 'quarterback', 'rushing', 'interception', 'fumble',
+  'free agent', 'signing', 'contract', 'cap space',
+  'sensabaugh', 'arozarena', 'blankenship', 'dowdle', 'kalif raymond',
+  'how to watch golden state', 'how to watch', 'game time'
 ];
 
 function isEventRelated(text) {
-  const lower = text.toLowerCase();
-  // Reject noise first
+  const lower = text.toLowerCase().trim();
+  // Reject noise
   if (NOISE_PATTERNS.some(p => lower.includes(p))) return false;
-  // Check event keywords
-  if (EVENT_KEYWORDS.some(kw => lower.includes(kw))) return true;
-  // Check if it's a known artist
-  if (BOOST_NAMES.has(lower.trim())) return true;
-  // Check partial name match
+  // Reject sports
+  if (SPORTS_KEYWORDS.some(p => lower.includes(p))) return false;
+  // PRIORITY 1: Exact match to a known artist in our database
+  if (BOOST_NAMES.has(lower)) return true;
+  // PRIORITY 2: Contains a known artist name (3+ chars to avoid false matches)
   for (const name of BOOST_NAMES) {
-    if (lower.includes(name) && name.length > 3) return true;
+    if (name.length > 3 && lower.includes(name)) return true;
   }
+  // PRIORITY 3: Strong event keywords (tour announce, presale, sold out — NOT generic like "tickets")
+  const strongKeywords = ['presale', 'sold out', 'sell out', 'tour announce', 'new tour', 'farewell tour',
+    'residency', 'added dates', 'added shows', 'comedian', 'comedy special', 'snl host'];
+  if (strongKeywords.some(kw => lower.includes(kw))) return true;
+  // Skip generic event keywords — too many false positives from Brave articles
   return false;
 }
 
 function categorizeEvent(text) {
   const lower = text.toLowerCase();
-  if (['nba', 'nfl', 'mlb', 'nhl', 'mls', 'ufc', 'wwe', 'ncaa', 'march madness', 'playoff', 'championship', 'finals', 'super bowl', 'world series'].some(k => lower.includes(k))) return 'sports';
   if (['comedy', 'comedian', 'standup', 'stand-up', 'special', 'snl'].some(k => lower.includes(k))) return 'comedy';
-  if (['festival', 'coachella', 'lollapalooza', 'bonnaroo', 'edc', 'rolling loud'].some(k => lower.includes(k))) return 'festival';
+  if (['festival', 'coachella', 'lollapalooza', 'bonnaroo', 'edc', 'rolling loud', 'glastonbury', 'ultra'].some(k => lower.includes(k))) return 'festival';
   return 'music';
+}
+
+// Proper capitalization for artist/event names
+function properCase(str) {
+  const lower = str.toLowerCase().trim();
+  // Use exact known casing if it's a known artist
+  if (ARTIST_PROPER_NAMES[lower]) return ARTIST_PROPER_NAMES[lower];
+  // Check partial matches
+  for (const [key, proper] of Object.entries(ARTIST_PROPER_NAMES)) {
+    if (lower === key) return proper;
+  }
+  // Don't touch already-capitalized acronyms/bands (DJ, EDC, ALLEYCVT, etc.)
+  if (str === str.toUpperCase() && str.length <= 10) return str;
+  // Title case
+  return str.replace(/\b\w+/g, w => {
+    if (['a','an','the','and','or','but','in','on','at','to','for','of','vs','is','s'].includes(w.toLowerCase()) && w !== str.split(' ')[0]) return w.toLowerCase();
+    return w.charAt(0).toUpperCase() + w.slice(1).toLowerCase();
+  }).replace(/'s\b/gi, "'s");
 }
 
 // ── Source 1: Google Trends (real-time trending) ──
@@ -143,10 +198,10 @@ async function getTwitterTrending() {
 async function getBraveTrending() {
   console.log('  🔍 Brave Search (trending events)...');
   const queries = [
-    'trending concerts this week 2026 tickets',
-    'hottest events selling out this week',
-    'trending comedy shows 2026',
-    'most searched sports events this week tickets',
+    '"sold out" concert tour this week 2026',
+    '"presale" artist tour announced this week 2026',
+    '"selling fast" tickets concert 2026',
+    'comedian "added shows" OR "sold out" 2026',
   ];
 
   const results = [];
@@ -232,34 +287,52 @@ async function run() {
   }
   console.log(`   Unique trends: ${unique.length}`);
 
-  // Score: multiple sources = higher, known artist = higher
+  // Score on 0-100 scale:
+  // - Google Trends position (top = higher): 0-40 pts
+  // - Multi-source confirmation: 0-30 pts (10 per additional source)
+  // - Known artist in our database: +20 pts
+  // - Has ticket-related context: +10 pts
   for (const t of unique) {
     let score = 0;
     const lower = t.query.toLowerCase();
     
-    // Source scoring
+    // Source tracking
     const sources = new Set();
     for (const all of allTrends) {
       if (all.query.toLowerCase().includes(lower) || lower.includes(all.query.toLowerCase())) {
         sources.add(all.source);
       }
     }
-    score += sources.size * 20;
     t.sources = [...sources];
     t.sourceCount = sources.size;
 
-    // Volume bonus
-    if (t.volume) score += Math.min(30, Math.log10(t.volume) * 5);
-
-    // Known artist bonus
-    if (BOOST_NAMES.has(lower.trim())) score += 25;
-    for (const name of BOOST_NAMES) {
-      if (lower.includes(name) && name.length > 3) { score += 15; break; }
+    // Google Trends position score (higher position in trending = more points)
+    const gtIndex = googleTrends.findIndex(g => (g.query || '').toLowerCase() === lower);
+    if (gtIndex >= 0) {
+      score += Math.max(5, 40 - Math.floor(gtIndex / 10) * 5); // Top 10 = 40pts, 11-20 = 35pts, etc.
     }
 
-    // Categorize
+    // Multi-source bonus
+    score += (sources.size - 1) * 15; // 2 sources = +15, 3 sources = +30
+
+    // Known artist bonus
+    if (BOOST_NAMES.has(lower.trim())) score += 20;
+    else {
+      for (const name of BOOST_NAMES) {
+        if (lower.includes(name) && name.length > 3) { score += 15; break; }
+      }
+    }
+
+    // Ticket/tour context bonus
+    const ctx = t.fullText.toLowerCase();
+    if (ctx.includes('ticket') || ctx.includes('tour') || ctx.includes('presale') || ctx.includes('sold out')) score += 10;
+
+    // Cap at 100
     t.category = categorizeEvent(t.fullText);
-    t.trendScore = Math.round(score);
+    t.trendScore = Math.min(100, Math.round(score));
+
+    // Proper capitalization
+    t.query = properCase(t.query);
   }
 
   // Sort by score
@@ -274,7 +347,12 @@ async function run() {
     const enriched = await enrichTrend(t.query);
     enrichCalls++;
     t.ticketUrl = enriched.ticketUrl;
-    t.context = enriched.context || t.snippet;
+    // Clean context: strip HTML tags, trim article titles from query
+    let ctx = (enriched.context || t.snippet || '').replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&#x27;/g, "'").trim();
+    t.context = ctx;
+    // Clean the name: strip article source suffixes
+    t.query = t.query.replace(/\s*[-–—]\s*(the mirror|los angeles times|grimy goods|syracuse\.com|greeley tribune|rolling stone|billboard|variety|pitchfork|consequence|stereogum|nme).*$/i, '').trim();
+    t.query = properCase(t.query);
     await sleep(300);
   }
 

@@ -1,240 +1,81 @@
 {
   "weekOf": "2026-03-08",
-  "scannedAt": "2026-03-10T16:49:15.190Z",
+  "scannedAt": "2026-03-10T17:01:30.931Z",
   "sourceCount": {
     "google": 438,
     "twitter": 20,
-    "brave": 20
+    "brave": 16
   },
   "trends": [
     {
-      "name": "hilary duff",
+      "name": "Hilary Duff",
       "category": "music",
-      "trendScore": 80,
+      "trendScore": 40,
       "sources": [
-        "google_trends"
+        "google_trends",
+        "brave"
       ],
-      "sourceCount": 1,
-      "context": "Monday 07:00 PMMon7:00 PMOpen additional information for West Palm Beach, FL, iTHINK Financial Amphitheatre , Hilary Duff: the lucky me tour<strong>6/22/26, 7:00 PM</strong>West Palm Beach, FLiTHINK F",
+      "sourceCount": 2,
+      "context": "Monday 07:00 PMMon7:00 PMOpen additional information for West Palm Beach, FL, iTHINK Financial Amphitheatre , Hilary Duff: the lucky me tour6/22/26, 7:00 PMWest Palm Beach, FLiTHINK F",
       "ticketUrl": "https://www.ticketmaster.com/hilary-duff-tickets/artist/882305",
       "volume": 10000
     },
     {
-      "name": "grizzlies vs nets",
-      "category": "music",
-      "trendScore": 57,
-      "sources": [
-        "google_trends"
-      ],
-      "sourceCount": 1,
-      "context": "The Memphis Grizzlies (23-39) hope ... The matchup airs on YES and FDSSE. ... Time: 7:30 p.m. ET ... Watching in person? <strong>Get tickets on StubHub</strong>....",
-      "ticketUrl": null,
-      "volume": 20000
-    },
-    {
-      "name": "brice sensabaugh",
-      "category": "music",
-      "trendScore": 50,
-      "sources": [
-        "google_trends"
-      ],
-      "sourceCount": 1,
-      "context": "How to watch Golden State Warriors at Utah Jazz Date: March 9, 2026 Time: 9 p.m. ET Venue: Delta Center TV: KJZZ Streaming: Check local listings Radio: 97.5 FM / 1280 AM, 95.7 The Game Buy tickets: <s",
-      "ticketUrl": null,
-      "volume": 1000
-    },
-    {
-      "name": "randy arozarena",
-      "category": "music",
-      "trendScore": 42,
-      "sources": [
-        "google_trends"
-      ],
-      "sourceCount": 1,
-      "context": "Consigue entradas para los mejores eventos con MARCA Tickets · MLB. Mensaje directo a Estados Unidos: México desata su ofensiva con Brasil antes de enfrentar a Paul Skenes · MLB. Fracaso latino en el ",
-      "ticketUrl": null,
-      "volume": 20000
-    },
-    {
-      "name": "nfl draft 2026",
-      "category": "sports",
-      "trendScore": 42,
-      "sources": [
-        "google_trends"
-      ],
-      "sourceCount": 1,
-      "context": "",
-      "ticketUrl": null,
-      "volume": 20000
-    },
-    {
-      "name": "15 Concerts To Experience This Week in Los Angeles",
-      "category": "music",
-      "trendScore": 40,
-      "sources": [
-        "google_trends",
-        "brave"
-      ],
-      "sourceCount": 2,
-      "context": "This upcoming week in Los Angeles is setting the tone for an epic week of concerts built to make you move. Whether you’re after a sold-out Troubadour run with Phantogram or fixing that FOMO and gettin",
-      "ticketUrl": null
-    },
-    {
-      "name": "The 45 best things to do in L.A. this week",
-      "category": "music",
-      "trendScore": 40,
-      "sources": [
-        "google_trends",
-        "brave"
-      ],
-      "sourceCount": 2,
-      "context": "Expect more huge housewares and striking works, plus some intimate drawings and surprises from the late L.A.-based artist. <strong>The specially ticketed show will fill the first-floor galleries throu",
-      "ticketUrl": null
-    },
-    {
-      "name": "Here are the best things to do in NYC this week, March 9-15",
-      "category": "comedy",
-      "trendScore": 40,
-      "sources": [
-        "google_trends",
-        "brave"
-      ],
-      "sourceCount": 2,
-      "context": "A dozen outdoor bars will be set up along the block and selling both food (classic Irish pub specials, Mexican street food, Caribbean treats and more) and drinks, including beer on draft (Guinness, duh), green “Shamrock” margaritas, green jello shots",
-      "ticketUrl": null
-    },
-    {
-      "name": "Things to Do in Philadelphia This Week & Weekend | Visit Philadelphia",
-      "category": "music",
-      "trendScore": 40,
-      "sources": [
-        "google_trends",
-        "brave"
-      ],
-      "sourceCount": 2,
-      "context": "People love their ’spressy ’tinis; lines get long and spots can sell out. ... Where: Participating locations including Jerry&#x27;s Bar, 129 W. Laurel Street, Philadelphia, PA read more ... Saturday, March 14, 2026 | 11 a.m. Pork, meet fork. Fishtown",
-      "ticketUrl": null
-    },
-    {
-      "name": "The best things to do in NYC this weekend: March 6-8",
-      "category": "music",
-      "trendScore": 40,
-      "sources": [
-        "google_trends",
-        "brave"
-      ],
-      "sourceCount": 2,
-      "context": "Photographers, jewelers and furniture designers sell their best on Sundays between 10am and 5pm on the Upper West Side (77th Street at Columbus Avenue), rain or shine. Each week offers a different theme, from featuring women-owned businesses to focus",
-      "ticketUrl": null
-    },
-    {
-      "name": "The 36 Most Anticipated New Shows of 2026 (and 13 More We Already Love)",
-      "category": "comedy",
-      "trendScore": 40,
-      "sources": [
-        "google_trends",
-        "brave"
-      ],
-      "sourceCount": 2,
-      "context": ""
-    },
-    {
-      "name": "love is blind reunion",
-      "category": "music",
-      "trendScore": 38,
-      "sources": [
-        "google_trends"
-      ],
-      "sourceCount": 1,
-      "context": "",
-      "volume": 5000
-    },
-    {
-      "name": "when is the nfl draft",
-      "category": "sports",
-      "trendScore": 38,
-      "sources": [
-        "google_trends"
-      ],
-      "sourceCount": 1,
-      "context": "",
-      "volume": 5000
-    },
-    {
-      "name": "acc tournament",
-      "category": "music",
-      "trendScore": 37,
-      "sources": [
-        "google_trends"
-      ],
-      "sourceCount": 1,
-      "context": "",
-      "volume": 2000
-    },
-    {
-      "name": "wwe raw results",
-      "category": "sports",
-      "trendScore": 37,
-      "sources": [
-        "google_trends"
-      ],
-      "sourceCount": 1,
-      "context": "",
-      "volume": 2000
-    },
-    {
-      "name": "essence festival 2026",
-      "category": "festival",
-      "trendScore": 37,
-      "sources": [
-        "google_trends"
-      ],
-      "sourceCount": 1,
-      "context": "",
-      "volume": 2000
-    },
-    {
-      "name": "nolan arenado",
-      "category": "music",
-      "trendScore": 35,
-      "sources": [
-        "google_trends"
-      ],
-      "sourceCount": 1,
-      "context": "",
-      "volume": 1000
-    },
-    {
       "name": "2026 Tours: Zach Bryan, Bruno Mars, Rush, More",
       "category": "music",
-      "trendScore": 35,
+      "trendScore": 25,
       "sources": [
         "brave"
       ],
       "sourceCount": 1,
-      "context": ""
+      "context": "In 2026, major artists like Ariana Grande, Rush, Rosalia, and more are going on tour",
+      "ticketUrl": null
     },
     {
-      "name": "arozarena mexico",
+      "name": "Lily Allen Kicks Off West End Girl Tour With World-First Setlist",
       "category": "music",
-      "trendScore": 33,
+      "trendScore": 25,
       "sources": [
-        "google_trends"
+        "google_trends",
+        "brave"
       ],
-      "sourceCount": 1,
-      "context": "",
-      "volume": 500
+      "sourceCount": 2,
+      "context": "Throughout this week and the rest ... be finishing off the small tour with three nights at the London Palladium on March 20, 21 and 22, 2026. And the star's first setlist didn&#x",
+      "ticketUrl": null
     },
     {
-      "name": "coinbase",
-      "category": "sports",
-      "trendScore": 32,
+      "name": "Gorillaz Announce North America Tour: Kong Card Holders Get First Access to Presale Tickets",
+      "category": "music",
+      "trendScore": 25,
       "sources": [
-        "google_trends"
+        "google_trends",
+        "brave"
+      ],
+      "sourceCount": 2,
+      "context": "A Gorillaz artist presale will begin Friday, March 6, at 10am local time. Fans must sign up before 10am ET on Thursday, March 5, to access the artist presale.",
+      "ticketUrl": null
+    },
+    {
+      "name": "Mia Asano's First Sold Out Concert: a Night of Pure Joy",
+      "category": "music",
+      "trendScore": 10,
+      "sources": [
+        "brave"
       ],
       "sourceCount": 1,
-      "context": "",
-      "volume": 200
+      "context": "In this tough economy, they still ... that made it a SOLD OUT show. Some fans went out the extra mile and purchased VIP/Meet and Greet tickets....",
+      "ticketUrl": null
+    },
+    {
+      "name": "Jo Koy and Fluffy's Sold-Out Sofi Show Marks a Turning Point for Stand-Up Comedy",
+      "category": "comedy",
+      "trendScore": 10,
+      "sources": [
+        "brave"
+      ],
+      "sourceCount": 1,
+      "context": "Whenever they stand together, the duo’s dynamic is like a modern-day Laurel and Hardy. Nearly 70% of tickets for Koy and Iglesias’ SoFi show sold within days, making this the largest stadium s",
+      "ticketUrl": "https://www.ticketmaster.com/jo-koy-tickets/artist/1179917"
     }
   ]
 }

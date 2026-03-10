@@ -123,6 +123,10 @@
     "Zeds Dead-https://news.pollstar.com/2026/03/04/zeds-dead-announces-largest-tour-to-date-journey-of-a-lifetime/": {
       "firstSeen": "2026-03-10T12:00:46.387Z",
       "urgency": "TOMORROW"
+    },
+    "Post Malone-https://www.bigassstadiumtour.com/": {
+      "firstSeen": "2026-03-10T17:00:03.759Z",
+      "urgency": "TODAY"
     }
   },
   "codes": {
@@ -133,5 +137,5 @@
       "foundAt": "2026-03-05T23:26:56.128Z"
     }
   },
-  "lastScan": "2026-03-10T12:00:46.387Z"
+  "lastScan": "2026-03-10T17:00:03.759Z"
 }
