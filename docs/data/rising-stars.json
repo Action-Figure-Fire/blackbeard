@@ -238,7 +238,21 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 560876772,
       "youtubeHandle": "@sabrinacarpenter",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://store.sabrinacarpenter.com/pages/tour",
+      "signupLinks": [
+        {
+          "url": "https://www.bandsintown.com/a/1503835?app_id=umg_islandrecords_sabrinacarpenter&affil_code=umg_US&came_from=267&utm_source=public_api&utm_medium=api&utm_campaign=play_my_city&trigger=play_my_city",
+          "type": "Bandsintown Track Artist",
+          "platform": "bandsintown"
+        }
+      ],
+      "socialProfiles": {
+        "instagram": "https://www.instagram.com/sabrinacarpenter",
+        "youtube": "https://www.youtube.com/channel/UCPKWE1H6xhxwPlqUlKgHb_w",
+        "twitter": "https://twitter.com/SabrinaAnnLynn"
+      },
+      "tourPageLink": "/pages/tour"
     },
     {
       "name": "ALLEYCVT",
@@ -427,7 +441,20 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 264378,
       "youtubeHandle": "@alleycvt",
-      "youtubeVerified": false
+      "youtubeVerified": false,
+      "artistWebsite": "https://alleycvt.com/",
+      "signupLinks": [
+        {
+          "url": "https://laylo.com/alleycvt?utm_source=multidropEmbed&utm_campaign=1259759e-652b-453e-8b3b-14464b41b63c&utm_medium=profileLink",
+          "type": "Laylo Presale Signup",
+          "platform": "laylo"
+        }
+      ],
+      "socialProfiles": {
+        "instagram": "https://www.instagram.com/alleycvt",
+        "tiktok": "https://www.tiktok.com/@alleycvt",
+        "youtube": "https://www.youtube.com/channel/UCV8Ftyzr--hGSsFbkFhABAw/featured"
+      }
     },
     {
       "name": "Hurricane Wisdom",
@@ -633,7 +660,31 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 86023880,
       "youtubeHandle": "@deftones",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.deftones.com/",
+      "signupLinks": [
+        {
+          "url": "https://deftones.lnk.to/PrivateMusic",
+          "type": "Fan Link / Signup",
+          "platform": "fanlink"
+        },
+        {
+          "url": "https://www.bandsintown.com/artist-subscribe/81-deftones?affil_code=js_www.deftones.com&app_id=js_www.deftones.com&bg-color=%23000&border-color=%2308C3BA&came_from=700&cta-bg-color=%2308C3BA&cta-border-color=%2308C3BA&cta-border-radius=4px&cta-border-width=0px&cta-text-color=%23FFFFFF&font=Helvetica&play-my-city=false&signature=ZZ573e95e342eee3d74e68d30cd407fefb7c0e9e49f9b9b8ae053fb3ce16b2a1fe&spn=0&text-color=%23424242&utm_campaign=track&utm_medium=web&utm_source=widget",
+          "type": "Newsletter Signup",
+          "platform": "newsletter"
+        },
+        {
+          "url": "https://www.bandsintown.com/artist-subscribe/81-deftones?affil_code=js_www.deftones.com&app_id=js_www.deftones.com&bg-color=%23000&border-color=%2308C3BA&came_from=700&cta-bg-color=%2308C3BA&cta-border-color=%2308C3BA&cta-border-radius=4px&cta-border-width=0px&cta-text-color=%23FFFFFF&font=Helvetica&play-my-city=false&signature=ZZ573e95e342eee3d74e68d30cd407fefb7c0e9e49f9b9b8ae053fb3ce16b2a1fe&spn=0&text-color=%23424242&utm_campaign=track&utm_medium=web&utm_source=widget",
+          "type": "Bandsintown Track Artist",
+          "platform": "bandsintown"
+        }
+      ],
+      "socialProfiles": {
+        "twitter": "https://twitter.com/deftones",
+        "instagram": "https://www.instagram.com/deftones/",
+        "spotify": "https://open.spotify.com/artist/6Ghvu1VvMGScGpOUJBAHNH",
+        "tiktok": "https://www.tiktok.com/@deftones"
+      }
     },
     {
       "name": "LEVEL UP",
@@ -788,7 +839,8 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 49066023,
       "youtubeHandle": "@TuckerWetmore",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://shop.tuckerwetmore.com/pages/tour"
     },
     {
       "name": "Electric Callboy",
@@ -1032,7 +1084,27 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 93727693,
       "youtubeHandle": "@tylerchilders",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://tylerchildersmusic.com/pages/tour-dates",
+      "signupLinks": [
+        {
+          "url": "https://link.seated.com/b0d9c423-3d8e-4bcd-8e59-39e09327590d",
+          "type": "Seated Presale Signup",
+          "platform": "seated"
+        },
+        {
+          "url": "https://go.seated.com/notifications/welcome/b3b88ff4-b3ab-46b8-a782-15543d64ef15",
+          "type": "Seated Presale Signup",
+          "platform": "seated"
+        }
+      ],
+      "socialProfiles": {
+        "twitter": "https://twitter.com/TTChilders",
+        "instagram": "https://www.instagram.com/timmytychilders",
+        "tiktok": "https://tiktok.com/@timmytychildersmusic",
+        "youtube": "https://youtube.com/@tylerchilders"
+      },
+      "tourPageLink": "/pages/tour-dates"
     },
     {
       "name": "Jelly Roll",
@@ -1224,7 +1296,28 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 356413813,
       "youtubeHandle": "@JellyRoll",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://jellyroll615.com/pages/tour-dates",
+      "signupLinks": [
+        {
+          "url": "https://link.seated.com/c9196911-d4ab-43ed-8305-865fdedcf1de",
+          "type": "Seated Presale Signup",
+          "platform": "seated"
+        },
+        {
+          "url": "https://go.seated.com/notifications/welcome/bd1f9878-7ddb-47f5-b75a-90a3c656871d",
+          "type": "Seated Presale Signup",
+          "platform": "seated"
+        }
+      ],
+      "socialProfiles": {
+        "twitter": "https://twitter.com/JellyRoll615",
+        "instagram": "https://www.instagram.com/jellyroll615",
+        "tiktok": "https://www.tiktok.com/@officialjellyroll",
+        "youtube": "https://www.youtube.com/channel/UCtyzzW6rIQiGP7gfGTXkhDw",
+        "spotify": "https://open.spotify.com/artist/19k8AgwwTSxeaxkOuCQEJs"
+      },
+      "tourPageLink": "https://jellyroll615.com/pages/tour-dates"
     },
     {
       "name": "Hilary Duff",
@@ -1353,7 +1446,8 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 91829786,
       "youtubeHandle": "@cagetheelephant",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.cagetheelephant.com/tour/"
     },
     {
       "name": "Flip Turn",
@@ -1630,7 +1724,32 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 61766323,
       "youtubeHandle": "@NoahKahan",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://noahkahan.com/",
+      "signupLinks": [
+        {
+          "url": "https://noahkahan.lnk.to/livefromfenwayparkWE",
+          "type": "Fan Link / Signup",
+          "platform": "fanlink"
+        },
+        {
+          "url": "https://link.seated.com/7eadfc59-76ad-49c2-b957-a4cd9b4838f8",
+          "type": "Seated Presale Signup",
+          "platform": "seated"
+        },
+        {
+          "url": "https://go.seated.com/notifications/welcome/1740c82f-a348-4c81-a887-456f80d7235c",
+          "type": "Seated Presale Signup",
+          "platform": "seated"
+        }
+      ],
+      "socialProfiles": {
+        "twitter": "https://twitter.com/NoahKahan?mx=2",
+        "instagram": "https://www.instagram.com/noahkahanmusic/",
+        "spotify": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B?si=zPht-dLaQe6lEzQag_EnOg",
+        "tiktok": "https://www.tiktok.com/@noahkahanmusic"
+      },
+      "tourPageLink": "https://noahkahan.lnk.to/livefromfenwayparkWE"
     },
     {
       "name": "The Elovaters",
@@ -1915,7 +2034,8 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 2908274,
       "youtubeHandle": "@NurseJohnn",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.livenation.com/artist/K8vZ917jbg7/nurse-john-events"
     },
     {
       "name": "Rezz",
@@ -1990,7 +2110,8 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 1339161,
       "youtubeHandle": "@officialRezz",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.officialrezz.com/tour"
     },
     {
       "name": "Laci Kaye Booth",
@@ -2359,7 +2480,26 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 138300943,
       "youtubeHandle": "@BaileyZimmerman",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.baileyzimmermanmusic.com/",
+      "signupLinks": [
+        {
+          "url": "https://baileyzimmerman.lnk.to/D2C-store",
+          "type": "Fan Link / Signup",
+          "platform": "fanlink"
+        },
+        {
+          "url": "https://www.bandsintown.com/a/15499860-bailey-zimmerman?affil_code=js_www.baileyzimmermanmusic.com&app_id=js_www.baileyzimmermanmusic.com&came_from=242&trigger=track&utm_campaign=track&utm_medium=web&utm_source=widget",
+          "type": "Bandsintown Track Artist",
+          "platform": "bandsintown"
+        }
+      ],
+      "socialProfiles": {
+        "tiktok": "https://www.tiktok.com/@bailey.zimmerman",
+        "instagram": "https://instagram.com/bailey.zimmerman/",
+        "twitter": "https://twitter.com/baileyzimmerman",
+        "spotify": "https://open.spotify.com/artist/3win9vGIxFfBRag9S63wwf"
+      }
     },
     {
       "name": "Twenty One Pilots",
@@ -2514,7 +2654,33 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 3186241257,
       "youtubeHandle": "@twentyonepilots",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.twentyonepilots.com/tour",
+      "signupLinks": [
+        {
+          "url": "https://twentyonepilots.lnk.to/store",
+          "type": "Fan Link / Signup",
+          "platform": "fanlink"
+        },
+        {
+          "url": "https://www.bandsintown.com/artist-subscribe/6986370-twenty-one-pilots?affil_code=js_www.twentyonepilots.com&app_id=js_www.twentyonepilots.com&bg-color=transparent&border-color=rgba%280%2C0%2C0%2C1%29&came_from=700&cta-bg-color=rgba%28255%2C255%2C255%2C1%29&cta-border-color=rgba%280%2C0%2C0%2C1%29&cta-border-radius=4px&cta-border-width=1px&cta-text-color=rgba%280%2C0%2C0%2C1%29&font=Inter&play-my-city=false&signature=ZZ8775c1e8850b1254f9fdc65d6ccee506ab7f1d7238b6a6517b342b06895ccfa6&spn=0&text-color=%23E35042&utm_campaign=track&utm_medium=web&utm_source=widget",
+          "type": "Newsletter Signup",
+          "platform": "newsletter"
+        },
+        {
+          "url": "https://www.bandsintown.com/artist-subscribe/6986370-twenty-one-pilots?affil_code=js_www.twentyonepilots.com&app_id=js_www.twentyonepilots.com&bg-color=transparent&border-color=rgba%280%2C0%2C0%2C1%29&came_from=700&cta-bg-color=rgba%28255%2C255%2C255%2C1%29&cta-border-color=rgba%280%2C0%2C0%2C1%29&cta-border-radius=4px&cta-border-width=1px&cta-text-color=rgba%280%2C0%2C0%2C1%29&font=Inter&play-my-city=false&signature=ZZ8775c1e8850b1254f9fdc65d6ccee506ab7f1d7238b6a6517b342b06895ccfa6&spn=0&text-color=%23E35042&utm_campaign=track&utm_medium=web&utm_source=widget",
+          "type": "Bandsintown Track Artist",
+          "platform": "bandsintown"
+        }
+      ],
+      "socialProfiles": {
+        "youtube": "https://www.youtube.com/channel/UCBQZwaNPFfJ1gZ1fLZpAEGw?sub_confirmation=1",
+        "instagram": "https://instagram.com/twentyonepilots/",
+        "twitter": "https://twitter.com/twentyonepilots",
+        "tiktok": "https://www.tiktok.com/@twentyonepilots",
+        "spotify": "https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx?si=6bo6xmIaR96b6Ax1ciw2gQ"
+      },
+      "tourPageLink": "https://ticket.warnermusic.com/events/twentyonepilots"
     },
     {
       "name": "Morgan Wallen",
@@ -2703,7 +2869,37 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 203620759,
       "youtubeHandle": "@morganwallen",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://morganwallen.com/",
+      "signupLinks": [
+        {
+          "url": "https://morganwallen.com/sign-up",
+          "type": "Newsletter Signup",
+          "platform": "newsletter"
+        },
+        {
+          "url": "https://morganwallen.lnk.to/ImTheProblemAlbum",
+          "type": "Fan Link / Signup",
+          "platform": "fanlink"
+        },
+        {
+          "url": "https://link.seated.com/261acc97-a0df-4c74-97bc-4220e0bf4bd8",
+          "type": "Seated Presale Signup",
+          "platform": "seated"
+        },
+        {
+          "url": "https://go.seated.com/notifications/welcome/fa2a5f39-dcf0-446d-bc60-64fa0a9873d0",
+          "type": "Seated Presale Signup",
+          "platform": "seated"
+        }
+      ],
+      "socialProfiles": {
+        "instagram": "https://instagram.com/morganwallen",
+        "tiktok": "https://tiktok.com/@morganwallen",
+        "twitter": "https://twitter.com/morganwallen",
+        "youtube": "https://www.youtube.com/channel/UCiQtJ9wVv8R-x7GKHzgZu8A?embeds_referring_euri=https%3A%2F%2Fmorganwallen.com%2F",
+        "spotify": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM?si=yl-HXuw2QmylS2BRSVXSfQ"
+      }
     },
     {
       "name": "The Killers",
@@ -2767,7 +2963,32 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 626988813,
       "youtubeHandle": "@TheKillersMusic",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.thekillersmusic.com/",
+      "signupLinks": [
+        {
+          "url": "https://TheKillers.lnk.to/Shop",
+          "type": "Fan Link / Signup",
+          "platform": "fanlink"
+        },
+        {
+          "url": "https://www.bandsintown.com/a/52?came_from=267&app_id=umg_Island_TheKillers&trigger=track&affil_code=umg_US",
+          "type": "Bandsintown Track Artist",
+          "platform": "bandsintown"
+        }
+      ],
+      "ticketLinks": [
+        {
+          "url": "https://www.ticketmaster.com.mx/tecate-pa-l-norte-boletos/artist/2000582",
+          "platform": "ticketmaster"
+        }
+      ],
+      "socialProfiles": {
+        "instagram": "https://www.instagram.com/thekillers/",
+        "spotify": "https://open.spotify.com/artist/0C0XlULifJtAgn6ZNCW2eu",
+        "twitter": "https://twitter.com/thekillers",
+        "youtube": "https://www.youtube.com/@TheKillersMusic"
+      }
     },
     {
       "name": "Michael Blaustein",
@@ -3385,7 +3606,8 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 412679008,
       "youtubeHandle": "@dojacat",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.dojacat.com/tour/"
     },
     {
       "name": "Lambrini Girls",
@@ -3760,7 +3982,8 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 1704683802,
       "youtubeHandle": "@postmalone",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.postmalone.com/shows/"
     },
     {
       "name": "Hemlocke Springs",
@@ -4127,7 +4350,8 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 54682270,
       "youtubeHandle": "@dominicfike",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.dominicfike.com/tour"
     },
     {
       "name": "Allison Russell",
@@ -4667,7 +4891,8 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 214158666,
       "youtubeHandle": "@zachbryan1067",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.zachbryan.com/tour"
     },
     {
       "name": "Chris Stapleton",
@@ -4858,7 +5083,8 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 889689151,
       "youtubeHandle": "@chrisstapleton",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://chrisstapleton.com/tour/"
     },
     {
       "name": "Liquid Stranger",
@@ -6009,7 +6235,8 @@
       "hasHotShows": true,
       "youtubeTopVideoViews": 7961354,
       "youtubeHandle": "@bobmosesmusic",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "artistWebsite": "https://www.bobmosesmusic.com/"
     },
     {
       "name": "Violet Grohl",
