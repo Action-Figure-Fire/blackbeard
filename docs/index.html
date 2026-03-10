@@ -270,7 +270,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
       <button class="tab-btn active" onclick="showView('thisweek',this)"><span class="icon">🎟️</span> This Week</button>
       <button class="tab-btn" onclick="showView('nextweek',this)"><span class="icon">📅</span> Next Week</button>
       <button class="tab-btn" onclick="showView('emerging',this)"><span class="icon">🔮</span> Emerging Artists</button>
-      <button class="tab-btn" onclick="showView('trends',this)"><span class="icon">📈</span> Trends</button>
+      <button class="tab-btn" onclick="showView('trends',this)"><span class="icon">🔥</span> Trending</button>
       <button class="tab-btn" onclick="showView('alerts',this)"><span class="icon">🔥</span> Alerts</button>
       <button class="tab-btn" onclick="showView('submit',this)"><span class="icon">➕</span> Submit</button>
       <button class="tab-btn" onclick="showView('myalerts',this)"><span class="icon">📧</span> My Alerts</button>
@@ -345,28 +345,21 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
   <div id="emerging-cards"></div>
 </div>
 
-<!-- GOOGLE TRENDS -->
+<!-- TRENDING THIS WEEK -->
 <div id="view-trends" class="view" style="display:none">
   <div class="section-head">
-    <h2>📈 Google Trends — Search Interest</h2>
-    <span class="badge">via SerpAPI • March 3, 2026</span>
+    <h2>🔥 Trending This Week</h2>
+    <span class="badge" id="trend-week">Loading...</span>
   </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Interest score 0-100 (relative to peak, 3-month US window). Change = last 4 days vs prior 4 days.</p>
-  <div class="trends-grid">
-    <div class="trend-card"><div class="tn">March Madness Tickets</div><div class="ts" style="color:var(--red)">86</div><div class="tc" style="color:var(--green)">+53%</div><div class="tx">Selection Sunday Mar 15</div></div>
-    <div class="trend-card"><div class="tn">Big Ten Wrestling</div><div class="ts" style="color:var(--red)">71</div><div class="tc" style="color:var(--green)">+191%</div><div class="tx">Event this weekend</div></div>
-    <div class="trend-card"><div class="tn">Cat Power Tour</div><div class="ts">65</div><div class="tc" style="color:var(--red)">-27%</div><div class="tx">Steady post-announce</div></div>
-    <div class="trend-card"><div class="tn">Metallica Sphere</div><div class="ts" style="color:var(--orange)">57</div><div class="tc" style="color:var(--red)">-17%</div><div class="tx">Onsale this Friday</div></div>
-    <div class="trend-card"><div class="tn">Freya Skye</div><div class="ts" style="color:var(--orange)">55</div><div class="tc" style="color:var(--red)">-19%</div><div class="tx">Down from peak at tour announce</div></div>
-    <div class="trend-card"><div class="tn">Stavros Halkias</div><div class="ts" style="color:var(--green)">41</div><div class="tc" style="color:var(--green)">+9%</div><div class="tx">Quiet growth → Radio City</div></div>
-    <div class="trend-card"><div class="tn">Waxahatchee</div><div class="ts" style="color:var(--green)">36</div><div class="tc" style="color:var(--green)">+6%</div><div class="tx">Steady growth</div></div>
-    <div class="trend-card"><div class="tn">Joji Tour</div><div class="ts">35</div><div class="tc" style="color:var(--red)">-25%</div><div class="tx">Presale was this week</div></div>
-    <div class="trend-card"><div class="tn">Nate Bargatze</div><div class="ts" style="color:var(--green)">32</div><div class="tc" style="color:var(--green)">+13%</div><div class="tx">Arena tour ongoing</div></div>
-    <div class="trend-card"><div class="tn">Vanderbilt Baseball</div><div class="ts" style="color:var(--orange)">31</div><div class="tc" style="color:var(--green)">+61%</div><div class="tx">SEC season — get-in $382</div></div>
-    <div class="trend-card"><div class="tn">Shane Gillis</div><div class="ts" style="color:var(--green)">23</div><div class="tc" style="color:var(--green)">+6%</div><div class="tx">Arena dates ahead</div></div>
-    <div class="trend-card"><div class="tn">RUFUS DU SOL</div><div class="ts" style="color:var(--text5)">15</div><div class="tc" style="color:var(--red)">-73%</div><div class="tx">Post-sellout cooldown</div></div>
-    <div class="trend-card"><div class="tn">Tame Impala</div><div class="ts" style="color:var(--text5)">5</div><div class="tc" style="color:var(--red)">-27%</div><div class="tx">Sold out — searches dropped</div></div>
+  <p style="color:var(--text4);font-size:13px;margin-bottom:12px">What events are trending RIGHT NOW across Google Trends, Twitter, and web search. Refreshed weekly — find what's hot before everyone else.</p>
+  <div style="display:flex;gap:6px;margin-bottom:16px">
+    <button class="tab-btn active" onclick="filterTrends('all',this)" style="padding:4px 12px;font-size:11px">All</button>
+    <button class="tab-btn" onclick="filterTrends('music',this)" style="padding:4px 12px;font-size:11px">🎵 Music</button>
+    <button class="tab-btn" onclick="filterTrends('sports',this)" style="padding:4px 12px;font-size:11px">🏆 Sports</button>
+    <button class="tab-btn" onclick="filterTrends('comedy',this)" style="padding:4px 12px;font-size:11px">🎤 Comedy</button>
+    <button class="tab-btn" onclick="filterTrends('festival',this)" style="padding:4px 12px;font-size:11px">🎪 Festivals</button>
   </div>
+  <div id="trends-list" class="trends-grid"></div>
 </div>
 
 <!-- NEWSFEED (Sold-Out + New Shows) -->
@@ -1463,6 +1456,57 @@ function loadPhone() {
     if (status) { status.style.display='block'; status.innerHTML=`✅ SMS active for <strong>${phone}</strong>`; }
   }
 }
+
+/* ── Trending This Week ── */
+let allTrends = [];
+let activeTrendFilter = 'all';
+
+async function loadTrends() {
+  try {
+    const res = await fetch('data/trending.json');
+    const data = await res.json();
+    allTrends = data.trends || [];
+    document.getElementById('trend-week').textContent = 'Week of ' + (data.weekOf || '') + ' • Google Trends + Twitter + Brave';
+    renderTrends(allTrends);
+  } catch (e) {
+    document.getElementById('trends-list').innerHTML = '<div class="empty">Trending data not available yet. Next scan will populate this.</div>';
+  }
+}
+
+function renderTrends(trends) {
+  const container = document.getElementById('trends-list');
+  if (!trends.length) { container.innerHTML = '<div class="empty">No trending events match this filter.</div>'; return; }
+  const cats = { music: '🎵', sports: '🏆', comedy: '🎤', festival: '🎪' };
+  const colors = { music: 'var(--purple)', sports: 'var(--green)', comedy: 'var(--yellow)', festival: 'var(--orange)' };
+  container.innerHTML = trends.map(t => {
+    const icon = cats[t.category] || '📌';
+    const color = colors[t.category] || 'var(--text3)';
+    const scoreColor = t.trendScore >= 60 ? 'var(--red)' : t.trendScore >= 40 ? 'var(--orange)' : 'var(--green)';
+    const srcIcons = t.sources.map(s => s === 'google_trends' ? '📈' : s === 'twitter' ? '🐦' : '🔍').join(' ');
+    return `<div class="trend-card">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+        <span style="font-size:16px">${icon}</span>
+        <div class="tn" style="flex:1">${t.name}</div>
+      </div>
+      <div style="display:flex;align-items:baseline;gap:8px">
+        <div class="ts" style="color:${scoreColor}">${t.trendScore}</div>
+        <span style="font-size:10px;color:var(--text5)">${srcIcons}</span>
+      </div>
+      <div class="tx">${t.context ? t.context.substring(0, 100) : ''}</div>
+      ${t.ticketUrl ? '<a href="' + t.ticketUrl + '" target="_blank" style="font-size:11px;color:var(--yellow);margin-top:6px;display:inline-block" onclick="event.stopPropagation()">🎟️ Get Tickets</a>' : ''}
+    </div>`;
+  }).join('');
+}
+
+function filterTrends(type, btn) {
+  document.querySelectorAll('#view-trends .tab-btn').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  activeTrendFilter = type;
+  const filtered = type === 'all' ? allTrends : allTrends.filter(t => t.category === type);
+  renderTrends(filtered);
+}
+
+loadTrends();
 
 renderPresales();
 updateTimestamps();
