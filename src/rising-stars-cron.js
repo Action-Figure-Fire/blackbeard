@@ -13,6 +13,7 @@ const { run: runVerifier, formatDiscordAlert: formatVerifier } = require('./sold
 const { run: runYouTube, formatDiscordAlert: formatYouTube } = require('./youtube-enrichment');
 const { run: runDiscoverSites } = require('./discover-artist-sites');
 const { run: runIntel, formatDiscordAlert: formatIntel } = require('./artist-intel-scraper');
+const { run: runSocial, formatDiscordAlert: formatSocial } = require('./social-enrichment');
 
 async function sendDiscord(msg) {
   console.log(`\n--- ALERT ---\n${msg}\n--- END ---`);
@@ -85,6 +86,16 @@ async function main() {
     if (ytResults) msg += '\n\n' + formatYouTube(ytResults);
 
     // Phase 8: Website discovery + Intel scraping
+    // Phase 8.5: Social media enrichment (TikTok + IG)
+    console.log('\n========== SOCIAL ENRICHMENT ==========');
+    let socialResults = null;
+    try {
+      socialResults = await runSocial();
+    } catch (e) {
+      console.log('Social enrichment error:', e.message?.slice(0, 200));
+    }
+    if (socialResults) msg += '\n\n' + formatSocial(socialResults);
+
     console.log('\n========== WEBSITE DISCOVERY ==========');
     try {
       await runDiscoverSites();

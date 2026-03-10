@@ -150,7 +150,7 @@
       "monthlyListeners": 82000000,
       "spotifyFollowers": null,
       "instagramFollowers": 50000000,
-      "tiktokFollowers": null,
+      "tiktokFollowers": 36900000,
       "twitterFollowers": null,
       "youtubeSubscribers": 13000000,
       "albumCount": null,
@@ -252,7 +252,8 @@
         "youtube": "https://www.youtube.com/channel/UCPKWE1H6xhxwPlqUlKgHb_w",
         "twitter": "https://twitter.com/SabrinaAnnLynn"
       },
-      "tourPageLink": "/pages/tour"
+      "tourPageLink": "/pages/tour",
+      "tiktokHandle": "@MS4wLjABAAAAUqU7ppxosfPbVUriHjyccMAY9Zv7IK-tvfSCyGewY1cNYzNAjFW00wjOe9vMnpda"
     },
     {
       "name": "ALLEYCVT",
@@ -1114,7 +1115,7 @@
       "monthlyListeners": 2,
       "spotifyFollowers": null,
       "instagramFollowers": 6000000,
-      "tiktokFollowers": null,
+      "tiktokFollowers": 9900000,
       "twitterFollowers": null,
       "youtubeSubscribers": 5000000,
       "albumCount": null,
@@ -1317,7 +1318,8 @@
         "youtube": "https://www.youtube.com/channel/UCtyzzW6rIQiGP7gfGTXkhDw",
         "spotify": "https://open.spotify.com/artist/19k8AgwwTSxeaxkOuCQEJs"
       },
-      "tourPageLink": "https://jellyroll615.com/pages/tour-dates"
+      "tourPageLink": "https://jellyroll615.com/pages/tour-dates",
+      "tiktokHandle": "@officialjellyroll"
     },
     {
       "name": "Hilary Duff",
@@ -1326,8 +1328,8 @@
       "source": "watchlist",
       "monthlyListeners": null,
       "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 28000000,
+      "tiktokFollowers": 2300000,
       "twitterFollowers": null,
       "youtubeSubscribers": 1080000,
       "albumCount": null,
@@ -1365,7 +1367,8 @@
       "risingStarScore": 35,
       "youtubeTopVideoViews": 2434501,
       "youtubeHandle": "@HilaryDuff",
-      "youtubeVerified": true
+      "youtubeVerified": true,
+      "tiktokHandle": "@hilaryduff"
     },
     {
       "name": "Cage The Elephant",
@@ -1518,7 +1521,7 @@
       "monthlyListeners": 2700000,
       "spotifyFollowers": 188506,
       "instagramFollowers": 5000,
-      "tiktokFollowers": null,
+      "tiktokFollowers": 186600,
       "twitterFollowers": null,
       "youtubeSubscribers": null,
       "albumCount": null,
@@ -1532,7 +1535,8 @@
       "tourDates": [],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 34
+      "risingStarScore": 34,
+      "tiktokHandle": "@kettamabrah"
     },
     {
       "name": "Noah Kahan",
@@ -1758,8 +1762,8 @@
       "source": "watchlist",
       "monthlyListeners": 743000,
       "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 96000,
+      "tiktokFollowers": 100000,
       "twitterFollowers": null,
       "youtubeSubscribers": null,
       "albumCount": 7,
@@ -2044,8 +2048,8 @@
       "source": "watchlist",
       "monthlyListeners": 143,
       "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 879000,
+      "tiktokFollowers": 465000,
       "twitterFollowers": null,
       "youtubeSubscribers": 390000,
       "albumCount": 12,
@@ -2111,7 +2115,8 @@
       "youtubeTopVideoViews": 1339161,
       "youtubeHandle": "@officialRezz",
       "youtubeVerified": true,
-      "artistWebsite": "https://www.officialrezz.com/tour"
+      "artistWebsite": "https://www.officialrezz.com/tour",
+      "tiktokHandle": "@officialrezz"
     },
     {
       "name": "Laci Kaye Booth",
@@ -2262,8 +2267,8 @@
       "source": "watchlist",
       "monthlyListeners": 540,
       "spotifyFollowers": 300000,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 329000,
+      "tiktokFollowers": 5530,
       "twitterFollowers": null,
       "youtubeSubscribers": null,
       "albumCount": null,
@@ -2509,7 +2514,7 @@
       "monthlyListeners": null,
       "spotifyFollowers": null,
       "instagramFollowers": 9000000,
-      "tiktokFollowers": null,
+      "tiktokFollowers": 1800000,
       "twitterFollowers": null,
       "youtubeSubscribers": 14200000,
       "albumCount": null,
@@ -2680,7 +2685,8 @@
         "tiktok": "https://www.tiktok.com/@twentyonepilots",
         "spotify": "https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx?si=6bo6xmIaR96b6Ax1ciw2gQ"
       },
-      "tourPageLink": "https://ticket.warnermusic.com/events/twentyonepilots"
+      "tourPageLink": "https://ticket.warnermusic.com/events/twentyonepilots",
+      "tiktokHandle": "@twentyonepilots"
     },
     {
       "name": "Morgan Wallen",
@@ -2908,8 +2914,8 @@
       "source": "watchlist",
       "monthlyListeners": null,
       "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 2000000,
+      "tiktokFollowers": 201900,
       "twitterFollowers": null,
       "youtubeSubscribers": 2630000,
       "albumCount": null,
@@ -2988,7 +2994,8 @@
         "spotify": "https://open.spotify.com/artist/0C0XlULifJtAgn6ZNCW2eu",
         "twitter": "https://twitter.com/thekillers",
         "youtube": "https://www.youtube.com/@TheKillersMusic"
-      }
+      },
+      "tiktokHandle": "@thekillers"
     },
     {
       "name": "Michael Blaustein",
@@ -2997,8 +3004,8 @@
       "source": "watchlist",
       "monthlyListeners": null,
       "spotifyFollowers": 3500000,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 2000000,
+      "tiktokFollowers": 3500000,
       "twitterFollowers": null,
       "youtubeSubscribers": 1240000,
       "albumCount": null,
@@ -3031,7 +3038,8 @@
       "risingStarScore": 28,
       "youtubeTopVideoViews": 1011292,
       "youtubeHandle": "@blaucomedy",
-      "youtubeVerified": false
+      "youtubeVerified": false,
+      "tiktokHandle": "@blaucomedy"
     },
     {
       "name": "Gianmarco Soresi",
@@ -3041,7 +3049,7 @@
       "monthlyListeners": 5000,
       "spotifyFollowers": 1200000,
       "instagramFollowers": 5000,
-      "tiktokFollowers": null,
+      "tiktokFollowers": 1200000,
       "twitterFollowers": null,
       "youtubeSubscribers": null,
       "albumCount": null,
@@ -3061,7 +3069,8 @@
       "tourDates": [],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 28
+      "risingStarScore": 28,
+      "tiktokHandle": "@gianmarcosoresi"
     },
     {
       "name": "Jordan Jensen",
@@ -3424,7 +3433,7 @@
       "monthlyListeners": null,
       "spotifyFollowers": null,
       "instagramFollowers": 25000000,
-      "tiktokFollowers": null,
+      "tiktokFollowers": 26700000,
       "twitterFollowers": null,
       "youtubeSubscribers": 14000000,
       "albumCount": null,
@@ -3607,7 +3616,8 @@
       "youtubeTopVideoViews": 412679008,
       "youtubeHandle": "@dojacat",
       "youtubeVerified": true,
-      "artistWebsite": "https://www.dojacat.com/tour/"
+      "artistWebsite": "https://www.dojacat.com/tour/",
+      "tiktokHandle": "@dojacat"
     },
     {
       "name": "Lambrini Girls",
@@ -3802,8 +3812,8 @@
       "source": "watchlist",
       "monthlyListeners": null,
       "spotifyFollowers": 48300000,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 27000000,
+      "tiktokFollowers": 17600000,
       "twitterFollowers": null,
       "youtubeSubscribers": 28700000,
       "albumCount": null,
@@ -3983,7 +3993,8 @@
       "youtubeTopVideoViews": 1704683802,
       "youtubeHandle": "@postmalone",
       "youtubeVerified": true,
-      "artistWebsite": "https://www.postmalone.com/shows/"
+      "artistWebsite": "https://www.postmalone.com/shows/",
+      "tiktokHandle": "@postmalone"
     },
     {
       "name": "Hemlocke Springs",
@@ -4244,8 +4255,8 @@
       "source": "watchlist",
       "monthlyListeners": null,
       "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 3000000,
+      "tiktokFollowers": 111900,
       "twitterFollowers": null,
       "youtubeSubscribers": 751000,
       "albumCount": 10,
@@ -4351,7 +4362,8 @@
       "youtubeTopVideoViews": 54682270,
       "youtubeHandle": "@dominicfike",
       "youtubeVerified": true,
-      "artistWebsite": "https://www.dominicfike.com/tour"
+      "artistWebsite": "https://www.dominicfike.com/tour",
+      "tiktokHandle": "@dominicfikefanforlife"
     },
     {
       "name": "Allison Russell",
@@ -4710,8 +4722,8 @@
       "source": "watchlist",
       "monthlyListeners": 26000000,
       "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 5000000,
+      "tiktokFollowers": 3600000,
       "twitterFollowers": null,
       "youtubeSubscribers": 1630000,
       "albumCount": 18,
@@ -4892,7 +4904,8 @@
       "youtubeTopVideoViews": 214158666,
       "youtubeHandle": "@zachbryan1067",
       "youtubeVerified": true,
-      "artistWebsite": "https://www.zachbryan.com/tour"
+      "artistWebsite": "https://www.zachbryan.com/tour",
+      "tiktokHandle": "@zachlanebryan"
     },
     {
       "name": "Chris Stapleton",
@@ -4901,8 +4914,8 @@
       "source": "watchlist",
       "monthlyListeners": 1000,
       "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 3000000,
+      "tiktokFollowers": 425700,
       "twitterFollowers": null,
       "youtubeSubscribers": 3140000,
       "albumCount": 6,
@@ -5084,7 +5097,8 @@
       "youtubeTopVideoViews": 889689151,
       "youtubeHandle": "@chrisstapleton",
       "youtubeVerified": true,
-      "artistWebsite": "https://chrisstapleton.com/tour/"
+      "artistWebsite": "https://chrisstapleton.com/tour/",
+      "tiktokHandle": "@chrisstapleton"
     },
     {
       "name": "Liquid Stranger",
@@ -6053,8 +6067,8 @@
       "source": "watchlist",
       "monthlyListeners": 1,
       "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
+      "instagramFollowers": 169000,
+      "tiktokFollowers": 31200,
       "twitterFollowers": null,
       "youtubeSubscribers": 189000,
       "albumCount": 11,
@@ -6236,7 +6250,8 @@
       "youtubeTopVideoViews": 7961354,
       "youtubeHandle": "@bobmosesmusic",
       "youtubeVerified": true,
-      "artistWebsite": "https://www.bobmosesmusic.com/"
+      "artistWebsite": "https://www.bobmosesmusic.com/",
+      "tiktokHandle": "@bobmosesmusic"
     },
     {
       "name": "Violet Grohl",
@@ -9809,5 +9824,6 @@
     }
   ],
   "lastVerification": "2026-03-10T16:28:40.129Z",
-  "lastYoutubeEnrichment": "2026-03-10T16:32:14.969Z"
+  "lastYoutubeEnrichment": "2026-03-10T16:32:14.969Z",
+  "lastSocialEnrichment": "2026-03-10T16:42:00.594Z"
 }
