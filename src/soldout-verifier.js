@@ -17,8 +17,8 @@ const DATA_PATH = path.join(__dirname, '..', 'docs', 'data', 'rising-stars.json'
 const CACHE_PATH = path.join(__dirname, '..', 'data', 'soldout-cache.json');
 
 // Budget limits per run (conservative for cron; CLI can override via env)
-const MAX_BRAVE = parseInt(process.env.VERIFY_BRAVE_LIMIT) || 20;
-const MAX_TWITTER = parseInt(process.env.VERIFY_TWITTER_LIMIT) || 15;
+const MAX_BRAVE = parseInt(process.env.VERIFY_BRAVE_LIMIT) || 40;
+const MAX_TWITTER = parseInt(process.env.VERIFY_TWITTER_LIMIT) || 20;
 const MAX_SERPAPI = parseInt(process.env.VERIFY_SERPAPI_LIMIT) || 5;
 const MAX_VENUE_SCRAPE = 10;
 
