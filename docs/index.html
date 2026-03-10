@@ -812,6 +812,18 @@ function buildCard(a, id) {
     html += '</div>';
   }
 
+  // Signup links (from intel scraper)
+  const rawSignups = a._raw?.signupLinks || a.signupLinks || [];
+  if (rawSignups.length) {
+    html += '<div style="padding:10px 14px;background:rgba(251,191,36,0.04);border:1px solid rgba(251,191,36,0.12);border-radius:var(--radius);margin-bottom:14px">';
+    html += '<div style="font-size:9px;font-weight:700;letter-spacing:1.5px;color:var(--yellow);margin-bottom:8px">🔗 PRESALE SIGNUP LINKS</div>';
+    for (const s of rawSignups) {
+      const icon = s.platform === 'seated' ? '🎫' : s.platform === 'laylo' ? '📱' : s.platform === 'newsletter' ? '📧' : s.platform === 'bandsintown' ? '🎵' : '🔗';
+      html += `<div style="margin-bottom:6px"><a href="${s.url}" target="_blank" onclick="event.stopPropagation()" style="color:var(--yellow);font-size:12px;font-weight:600;text-decoration:none">${icon} ${s.type}</a></div>`;
+    }
+    html += '</div>';
+  }
+
   // Action
   if (a.action) {
     html += `<div class="action-box">⚡ ${a.action}</div>`;
