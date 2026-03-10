@@ -12,6 +12,7 @@ const path = require('path');
 const BRAVE_API_KEY = process.env.BRAVE_API_KEY;
 const TWITTER_BEARER = process.env.TWITTER_BEARER_TOKEN;
 const SERPAPI_KEY = process.env.SERPAPI_KEY;
+const SCRAPINGBEE_KEY = process.env.SCRAPINGBEE_KEY;
 const BIT_APP_ID = 'squarespace-blackbeard';
 const DATA_PATH = path.join(__dirname, '..', 'docs', 'data', 'rising-stars.json');
 const CACHE_PATH = path.join(__dirname, '..', 'data', 'soldout-cache.json');
@@ -20,9 +21,10 @@ const CACHE_PATH = path.join(__dirname, '..', 'data', 'soldout-cache.json');
 const MAX_BRAVE = parseInt(process.env.VERIFY_BRAVE_LIMIT) || 40;
 const MAX_TWITTER = parseInt(process.env.VERIFY_TWITTER_LIMIT) || 20;
 const MAX_SERPAPI = parseInt(process.env.VERIFY_SERPAPI_LIMIT) || 5;
+const MAX_SCRAPINGBEE = parseInt(process.env.VERIFY_BEE_LIMIT) || 15;
 const MAX_VENUE_SCRAPE = 10;
 
-let budget = { brave: 0, twitter: 0, serpapi: 0, venue: 0 };
+let budget = { brave: 0, twitter: 0, serpapi: 0, scrapingbee: 0, venue: 0 };
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
@@ -172,6 +174,42 @@ async function scrapeVenuePage(url) {
   }
 }
 
+// ── Source 6: ScrapingBee (JS-rendered venue/artist pages) ──
+async function scrapeWithBee(url) {
+  if (!SCRAPINGBEE_KEY || budget.scrapingbee >= MAX_SCRAPINGBEE) return null;
+  budget.scrapingbee++;
+  try {
+    const params = new URLSearchParams({
+      api_key: SCRAPINGBEE_KEY,
+      url: url,
+      render_js: 'true',
+      premium_proxy: 'false'  // save credits (1 credit vs 10-25)
+    });
+    const resp = await httpGet(`https://app.scrapingbee.com/api/v1?${params.toString()}`);
+    const text = typeof resp === 'string' ? resp : JSON.stringify(resp);
+    const lower = text.toLowerCase();
+    
+    const soldOut = lower.includes('sold out') || lower.includes('sold-out') || lower.includes('unavailable');
+    const limited = lower.includes('limited') || lower.includes('few remaining') || lower.includes('last chance');
+    
+    // Extract prices from rendered page
+    const priceMatches = text.match(/\$\d[\d,]*(?:\.\d{2})?/g) || [];
+    const prices = priceMatches.map(m => parseInt(m.replace(/[$,]/g, ''))).filter(p => p >= 30 && p < 50000);
+    
+    return {
+      soldOut,
+      limited,
+      prices,
+      maxPrice: prices.length ? Math.max(...prices) : 0,
+      source: 'scrapingbee',
+      url
+    };
+  } catch (e) {
+    console.error(`  ScrapingBee error for ${url}: ${e.message}`);
+    return null;
+  }
+}
+
 // ── Signal Detection ──
 function detectSignals(results) {
   const signals = { soldOut: [], highPrice: [], trending: [] };
@@ -234,9 +272,37 @@ async function verifyArtist(artist) {
   const redditResults = await searchBrave(`site:reddit.com "${name}" "sold out" OR tickets 2026`);
   await sleep(300);
 
+  // ScrapingBee: scrape artist's actual ticket page (SeatGeek or artist site)
+  let beeResult = null;
+  if (SCRAPINGBEE_KEY && budget.scrapingbee < MAX_SCRAPINGBEE) {
+    const ticketUrl = `https://www.seatgeek.com/${name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-tickets`;
+    beeResult = await scrapeWithBee(ticketUrl);
+    await sleep(500);
+  }
+
   // Combine all web results
   const allResults = [...braveResults, ...twitterResults, ...redditResults];
   const signals = detectSignals(allResults);
+
+  // Add ScrapingBee venue scrape results
+  if (beeResult) {
+    if (beeResult.soldOut) {
+      signals.soldOut.push({
+        text: `SeatGeek page shows sold out / unavailable`,
+        url: beeResult.url,
+        source: 'scrapingbee'
+      });
+    }
+    if (beeResult.maxPrice >= 50) {
+      signals.highPrice.push({
+        prices: beeResult.prices.filter(p => p >= 50),
+        maxPrice: beeResult.maxPrice,
+        text: `SeatGeek page: prices from $${Math.min(...beeResult.prices)} to $${beeResult.maxPrice}`,
+        url: beeResult.url,
+        source: 'scrapingbee'
+      });
+    }
+  }
 
   // Add Bandsintown sold-out data
   for (const so of bitData.soldOut) {
@@ -307,8 +373,8 @@ function prioritizeArtists(artists) {
 // ── Main ──
 async function run() {
   console.log('🏴‍☠️ Sold-Out Verifier v1 — Multi-Source Verification');
-  console.log(`   Budget: ${MAX_BRAVE} Brave | ${MAX_TWITTER} Twitter | ${MAX_SERPAPI} SerpAPI | ${MAX_VENUE_SCRAPE} Venue`);
-  console.log(`   Sources: Brave Search, X/Twitter, SerpAPI Google, Bandsintown, Reddit\n`);
+  console.log(`   Budget: ${MAX_BRAVE} Brave | ${MAX_TWITTER} Twitter | ${MAX_SERPAPI} SerpAPI | ${MAX_SCRAPINGBEE} ScrapingBee`);
+  console.log(`   Sources: Brave Search, X/Twitter, SerpAPI Google, Bandsintown, Reddit, ScrapingBee\n`);
 
   const data = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
   const artists = data.artists || [];
@@ -365,7 +431,7 @@ async function run() {
   console.log(`\n${'═'.repeat(60)}`);
   console.log(`✅ Verification Complete`);
   console.log(`   Scanned: ${scanned} artists`);
-  console.log(`   Budget used: Brave ${budget.brave}/${MAX_BRAVE} | Twitter ${budget.twitter}/${MAX_TWITTER} | SerpAPI ${budget.serpapi}/${MAX_SERPAPI}`);
+  console.log(`   Budget used: Brave ${budget.brave}/${MAX_BRAVE} | Twitter ${budget.twitter}/${MAX_TWITTER} | SerpAPI ${budget.serpapi}/${MAX_SERPAPI} | ScrapingBee ${budget.scrapingbee}/${MAX_SCRAPINGBEE}`);
   console.log(`\n   🔴 RED HOT (verified by 2+ sources): ${results.RED_HOT.length}`);
   results.RED_HOT.forEach(r => console.log(`      ${r.name} — $${r.peakPrice} | ${r.soldOutSourceCount} sources: ${r.soldOutSources.join(', ')}`));
   console.log(`\n   🟡 WARM (single source / high price): ${results.WARM.length}`);
