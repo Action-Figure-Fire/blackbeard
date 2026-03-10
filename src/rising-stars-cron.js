@@ -9,6 +9,7 @@ const { run: runPlaylist, formatDiscordAlert: formatPlaylist } = require('./play
 const { run: runTikTok, formatDiscordAlert: formatTikTok } = require('./tiktok-trend-scanner');
 const { run: runPodcast, formatDiscordAlert: formatPodcast } = require('./comedy-podcast-scanner');
 const { run: runGaming, formatDiscordAlert: formatGaming } = require('./gaming-culture-scanner');
+const { run: runVerifier, formatDiscordAlert: formatVerifier } = require('./soldout-verifier');
 
 async function sendDiscord(msg) {
   console.log(`\n--- ALERT ---\n${msg}\n--- END ---`);
@@ -36,8 +37,6 @@ async function main() {
       console.log('TikTok scan error:', e.message?.slice(0, 200));
     }
     
-    const elapsed = ((Date.now() - startTime) / 1000 / 60).toFixed(1);
-    
     let msg = formatWatchlist(watchlistResults);
     msg += '\n\n' + formatPlaylist(playlistResults);
     if (tiktokResults) msg += '\n\n' + formatTikTok(tiktokResults);
@@ -61,7 +60,19 @@ async function main() {
       console.log('Gaming scan error:', e.message?.slice(0, 200));
     }
     if (gamingResults) msg += '\n\n' + formatGaming(gamingResults);
-    msg += `\n⏱️ Full scan completed in ${elapsed} min`;
+    
+    // Phase 6: Sold-out verification (multi-source)
+    console.log('\n========== SOLD-OUT VERIFICATION ==========');
+    let verifyResults = null;
+    try {
+      verifyResults = await runVerifier();
+    } catch (e) {
+      console.log('Verifier error:', e.message?.slice(0, 200));
+    }
+    if (verifyResults) msg += '\n\n' + formatVerifier(verifyResults);
+
+    const elapsed2 = ((Date.now() - startTime) / 1000 / 60).toFixed(1);
+    msg += `\n⏱️ Full scan completed in ${elapsed2} min`;
     
     await sendDiscord(msg);
     

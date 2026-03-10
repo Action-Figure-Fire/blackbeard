@@ -16,11 +16,11 @@ const BIT_APP_ID = 'squarespace-blackbeard';
 const DATA_PATH = path.join(__dirname, '..', 'docs', 'data', 'rising-stars.json');
 const CACHE_PATH = path.join(__dirname, '..', 'data', 'soldout-cache.json');
 
-// Budget limits per run
-const MAX_BRAVE = 40;
-const MAX_TWITTER = 20;  // Twitter Basic: 10K reads/month = ~330/day
-const MAX_SERPAPI = 10;   // SerpAPI: 100/month starter
-const MAX_VENUE_SCRAPE = 15;
+// Budget limits per run (conservative for cron; CLI can override via env)
+const MAX_BRAVE = parseInt(process.env.VERIFY_BRAVE_LIMIT) || 20;
+const MAX_TWITTER = parseInt(process.env.VERIFY_TWITTER_LIMIT) || 15;
+const MAX_SERPAPI = parseInt(process.env.VERIFY_SERPAPI_LIMIT) || 5;
+const MAX_VENUE_SCRAPE = 10;
 
 let budget = { brave: 0, twitter: 0, serpapi: 0, venue: 0 };
 
@@ -376,4 +376,31 @@ async function run() {
   return results;
 }
 
-run().catch(console.error);
+// Export for cron integration
+module.exports = { run };
+
+function formatDiscordAlert(results) {
+  if (!results) return '';
+  const hot = results.RED_HOT || [];
+  const warm = results.WARM || [];
+  if (!hot.length && !warm.length) return '🔍 **Verification scan** — no new signals detected.';
+  
+  let msg = '🔍 **Sold-Out Verification Scan**\n';
+  if (hot.length) {
+    msg += `\n🔴 **RED HOT** (${hot.length} verified):\n`;
+    hot.slice(0, 8).forEach(r => {
+      msg += `• **${r.name}**${r.peakPrice ? ` — $${r.peakPrice}` : ''} (${r.soldOutSources.join(' + ')})\n`;
+    });
+  }
+  if (warm.length) {
+    msg += `\n🟡 **WARM** (${warm.length}):\n`;
+    warm.slice(0, 5).forEach(r => {
+      msg += `• **${r.name}**${r.peakPrice ? ` — $${r.peakPrice}` : ''}\n`;
+    });
+  }
+  return msg;
+}
+module.exports.formatDiscordAlert = formatDiscordAlert;
+
+// Run standalone if called directly
+if (require.main === module) run().catch(console.error);
