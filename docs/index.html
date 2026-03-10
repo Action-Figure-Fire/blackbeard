@@ -1417,7 +1417,7 @@ setInterval(checkLivePresales, 60000);
   try {
     const res = await fetch('data/rising-stars.json');
     const data = await res.json();
-    allArtists = (data.artists || []).sort((a, b) => (b.score||0) - (a.score||0));
+    allArtists = (data.artists || []).map(a => ({...a, score: a.score || a.risingStarScore || 0})).sort((a, b) => (b.score||0) - (a.score||0));
     document.getElementById('emerging-count').textContent = allArtists.length + ' artists • ' + data.scanDate;
     const hotCount = allArtists.filter(a => (a.score||0) >= 50).length;
     const badgeEl = document.getElementById('badge-emerging');
