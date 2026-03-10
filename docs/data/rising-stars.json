@@ -147,7 +147,7 @@
       "tier": "B",
       "genre": "Popular",
       "source": "watchlist",
-      "monthlyListeners": 82000000,
+      "monthlyListeners": 65000000,
       "spotifyFollowers": null,
       "instagramFollowers": 50000000,
       "tiktokFollowers": 36900000,
@@ -253,7 +253,9 @@
         "twitter": "https://twitter.com/SabrinaAnnLynn"
       },
       "tourPageLink": "/pages/tour",
-      "tiktokHandle": "@MS4wLjABAAAAUqU7ppxosfPbVUriHjyccMAY9Zv7IK-tvfSCyGewY1cNYzNAjFW00wjOe9vMnpda"
+      "tiktokHandle": "@MS4wLjABAAAAUqU7ppxosfPbVUriHjyccMAY9Zv7IK-tvfSCyGewY1cNYzNAjFW00wjOe9vMnpda",
+      "listenerSource": "manual_correction",
+      "listenerDate": "2026-03-10"
     },
     {
       "name": "ALLEYCVT",
