@@ -219,7 +219,17 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 48
+      "risingStarScore": 48,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 1,
+      "soldOutSources": [
+        "brave"
+      ],
+      "peakPrice": 350,
+      "totalSignals": 4,
+      "lastVerified": "2026-03-10T16:05:33.632Z",
+      "confirmedSoldOut": false,
+      "hasHotShows": true
     },
     {
       "name": "ALLEYCVT",
@@ -234,13 +244,11 @@
       "youtubeSubscribers": null,
       "albumCount": null,
       "genres": [],
-      "soldOutMentions": 1,
+      "soldOutMentions": 3,
       "soldOutSnippets": [
-        {
-          "title": "ALLEYCVT Tickets, Concerts & 2026 Tour Dates",
-          "snippet": "Tickets to ALLEYCVT shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets a",
-          "url": "https://www.eventticketscenter.com/alleycvt-tickets/44623/c"
-        }
+        "r/niteharts on Reddit: Are they gonna sell 1 days tickets at all or later on? <strong>Prob not, 3 day easier and will sell out tbh. No point in 1 days like edc ... Yea but they already announced 3 days only this year and they sold out so fast last year</strong>.",
+        "r/FigureSkating on Reddit: Looking for Men’s FS World Championship tickets 3. 2026 | Praha, O2 arena | Vstupenky u Ticketmaster · I really do hope they end up releasing more tickets on the officials sales platform, but unclear how that works. ... <strong>Yes, seems to be sold out</strong>. Either it",
+        "r/TameImpala on Reddit: Tame Impala Tickets I had presale, local presale, and general public sale notifs on and the general sale tickets sold out in 15 minutes... if anyone is selling 2 tickets…"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/4JxRK2gxmri7L7OWaxnVD1",
@@ -397,7 +405,17 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 47
+      "risingStarScore": 47,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 1,
+      "soldOutSources": [
+        "brave"
+      ],
+      "peakPrice": 2400,
+      "totalSignals": 4,
+      "lastVerified": "2026-03-10T16:06:03.734Z",
+      "confirmedSoldOut": false,
+      "hasHotShows": true
     },
     {
       "name": "Hurricane Wisdom",
@@ -549,18 +567,13 @@
       "youtubeSubscribers": null,
       "albumCount": null,
       "genres": [],
-      "soldOutMentions": 2,
+      "soldOutMentions": 5,
       "soldOutSnippets": [
-        {
-          "title": "Deftones Unveil 2025 Extended North American Tour Dates - AXS TV",
-          "snippet": "The dynamic alternative metal band Deftones is set to extend their electrifying 2025 North American tour with an additional segment featuring exciting",
-          "url": "https://axs.tv/news-story/deftones-unveil-2025-north-american-tour-dates/"
-        },
-        {
-          "title": "Deftones Add 14 North American Dates To 2025 Tour - Pollstar News",
-          "snippet": "Deftones have sold out the first two weeks of their North American run, including two nights at Inglewood, California’s Kia Forum.",
-          "url": "https://news.pollstar.com/2025/03/13/deftones-add-14-north-american-dates-to-2025-tour/"
-        }
+        "Deftones in Tokyo, 2026-05-18 - Tickets & Event Details Deftones will be performing at Tokyo Garden Theater in Tokyo on Monday, May 18, 2026. The show is part of the ‘2026 JAPAN’ Tour. Any overseas ticket sale would be announced on the official website (see link below). Tickets might also be availab",
+        "Deftones Rock With Latest Shows on Sold-Out Tour - 95.9 The RAT Tickets for the 3Arena date sold out within hours of going on sale. The group will return to Ireland on Aug. 25 for a performance at the Royal Hospital Kilmainham.",
+        "@tweet They have everything 🇧🇪\n\nCongratulations to @pukkelpop ! \nThey are completely sold out! \nAnd it’s not full lineup! \n\nThis year in Belgium will perform here\n\n• Adéla • Djo • Florence  • Tyler • Geese\n• Sombr • Deftones • Yungblud \n• Turnstile • Zara Larsson • and more… https://t.co/9F0bMxpKJ",
+        "r/deftones on Reddit: Deftones in London last night was a madness. If you missed it, I'm truly sorry... Can&#x27;t comprehend that Deftones are playing a sold out O2 Arena.",
+        "r/deftones on Reddit: Glasgow Setlist Playlist - 2026 Deftones Tour Can&#x27;t comprehend that Deftones are playing a sold out O2 Arena."
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/6Ghvu1VvMGScGpOUJBAHNH",
@@ -591,7 +604,18 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 41
+      "risingStarScore": 41,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 2,
+      "soldOutSources": [
+        "brave",
+        "twitter"
+      ],
+      "peakPrice": 0,
+      "totalSignals": 6,
+      "lastVerified": "2026-03-10T16:05:45.094Z",
+      "confirmedSoldOut": true,
+      "hasHotShows": true
     },
     {
       "name": "LEVEL UP",
@@ -733,7 +757,17 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 39
+      "risingStarScore": 39,
+      "verificationTier": "WARM",
+      "soldOutSourceCount": 1,
+      "soldOutSources": [
+        "brave"
+      ],
+      "peakPrice": 0,
+      "totalSignals": 1,
+      "lastVerified": "2026-03-10T16:05:39.264Z",
+      "confirmedSoldOut": false,
+      "hasHotShows": true
     },
     {
       "name": "Electric Callboy",
@@ -802,13 +836,11 @@
       "youtubeSubscribers": null,
       "albumCount": 13,
       "genres": [],
-      "soldOutMentions": 1,
+      "soldOutMentions": 3,
       "soldOutSnippets": [
-        {
-          "title": "SOLD OUT: Tyler Childers: On The Road – Friday, October 3, 2025",
-          "snippet": "SOLD OUT: Tyler Childers: On The Road with Tyler Childers, Hayes Carll – <strong>Friday, October 3, 2025</strong> at Riverbend Music Center in Cincinn",
-          "url": "https://riverbend.org/events/2025/10/sold-out-tyler-childers-on-the-road"
-        }
+        "Live Report: Tyler Childers makes 3Arena feel intimate with unifying show | Hotpress Tyler Childers at 3Arena on March 3rd, 2026. Copyright Peter OHanlon/www.hotpress.com ... The last time rapidly rising country star Tyler Childers played in Dublin, less than two years ago, he played at the 3Olympia",
+        "@tweet Lady May une des plus belles déclarations d'amour de ce siècle reprise par Tyler Childers lors de sa tournée européenne (ici Dublin). \nIls étaient 20 000 à communier ce 08 mars à l'Arena de Manchester, la Salle Pleyel toujours pas sold out. https://t.co/i0FwmdWeIX",
+        "r/BackstreetBoys on Reddit: Got Tickets, Still Venting It wasn’t when tickets originally went on sale - I mean, I won’t say it was easy but nothing like I’m seeing now but once that first weekend hit social media, any tickets left were sky high pricing or sold out - the FOMO grew - nostalgia + Spher"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/13ZEDW6vyBF12HYcZRr4EV",
@@ -965,7 +997,18 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 36
+      "risingStarScore": 36,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 2,
+      "soldOutSources": [
+        "brave",
+        "twitter"
+      ],
+      "peakPrice": 0,
+      "totalSignals": 3,
+      "lastVerified": "2026-03-10T16:06:01.816Z",
+      "confirmedSoldOut": true,
+      "hasHotShows": true
     },
     {
       "name": "Jelly Roll",
@@ -980,28 +1023,13 @@
       "youtubeSubscribers": null,
       "albumCount": null,
       "genres": [],
-      "soldOutMentions": 4,
+      "soldOutMentions": 5,
       "soldOutSnippets": [
-        {
-          "title": "Book Jelly Roll 2026 Tour Tickets | Upcoming Concert Dates",
-          "snippet": "Get your tickets for Jelly Roll&#x27;s 2026 tour at jellyrollconcert.com. Secure your seats for an unforgettable night of music near you. Tickets are ",
-          "url": "https://jellyrollconcert.com/"
-        },
-        {
-          "title": "Jelly Roll Concert Tour Dates & Shows: 2025-2026 Tickets",
-          "snippet": "Now after a history-making “breakthrough year” (American Songwriter), having just sold-out Nashville’s Bridgestone Arena, releasing the riveting anthe",
-          "url": "https://concerts.hypebot.com/artist/j/528013-jelly-roll"
-        },
-        {
-          "title": "Jelly Roll Concerts & Live Tour Dates: 2025-2026 Tickets | Bandsintown",
-          "snippet": "Jelly Roll’s ‘Need a Favor’ Makes History on Billboard Rock, Country ChartsTampa, FL@ ... JellyRoll: 10/12/23 “‘What’s a JellyRoll’ a friend recently ",
-          "url": "https://www.bandsintown.com/a/528013-jelly-roll"
-        },
-        {
-          "title": "Jelly Roll Tour Dates 2026 & 2027 | Setlists | News | Tickets",
-          "snippet": "Jelly Roll plays his sold-out hometown Bridgestone Arena concert date <strong>12/9/22.</strong>",
-          "url": "https://countrymusicontour.com/jelly-roll-tour-dates-2025/"
-        }
+        "Here's how you can still get tickets to Jelly Roll’s nearly sold-out Syracuse concert - syracuse.com 27 via Ticketmaster, and are <strong>nearly sold out</strong>, with only a few lawn tickets still remaining. Fans who miss the initial drop may want to check verified resale marketplaces such as Vivi",
+        "Didn't get Post Malone & Jelly Roll 'Big Ass Stadium Tour Part 2' tickets? Where you can still buy them - syracuse.com Given the high demand for tickets, especially after some presale dates already sold out, fans can find tickets on verified resale platforms such as Vivid Seats.",
+        "Jelly Roll's Little ASS Shed Tour and BIG ASS Stadium Tour 2026: How to Get Tickets - American Songwriter [RELATED: Your 2026 Guide to Country Music Festivals] Tickets for both the BIG ASS Stadium Tour and Little ASS Shed Tour are on sale now and selling out quickly. ... The best place to find Jelly",
+        "@tweet @TylerEl48731727 @NicoleArbour True but Jelly roll is also a degenerate snake that sold out long ago . Everything about him today is an act and fake .",
+        "r/thefighterandthekid on Reddit: In America Jelly Roll is bigger than Bad Bunny Even in ticket sales: in the US, Jelly Roll is the opening act for Post Malone in the same stadiums where Bad Bunny sold out 2-3 nights."
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/19k8AgwwTSxeaxkOuCQEJs",
@@ -1158,7 +1186,18 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 36
+      "risingStarScore": 36,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 2,
+      "soldOutSources": [
+        "brave",
+        "twitter"
+      ],
+      "peakPrice": 800,
+      "totalSignals": 6,
+      "lastVerified": "2026-03-10T16:05:35.574Z",
+      "confirmedSoldOut": true,
+      "hasHotShows": true
     },
     {
       "name": "Hilary Duff",
@@ -1218,13 +1257,11 @@
       "youtubeSubscribers": null,
       "albumCount": 11,
       "genres": [],
-      "soldOutMentions": 1,
+      "soldOutMentions": 3,
       "soldOutSnippets": [
-        {
-          "title": "Cage The Elephant Tour Dates 2026 & Concert Tickets",
-          "snippet": "Tour dates for all Cage The Elephant concerts are refreshed constantly. <strong>Sold Out concerts will not be a problem, we always have great tickets<",
-          "url": "https://concertfix.com/tours/cage-the-elephant"
-        }
+        "r/RUFUSDUSOL on Reddit: If Ticketmaster is saying that the event is sold out at Petco Park in San Diego, why does it also say check back soon? Not necessarily true. Last year, people were selling floor and pit tickets at face value for NJ. ... Won’t happen for San Diego. Demand is too high. And it’s",
+        "r/fortwayne on Reddit: concert tickets Best strategy now would be to see what tickets are day of online (I like tick pick because if includes fees/price you see is price you pay for tickets) then if they are not sold out or shooting sky high wait till you get to venue and ask what the cheapest ticke",
+        "r/Coachella on Reddit: Am I too late for 2026? This is kind of what I wanted to do, but the Ready-set tent camping is sold out. Do you know if they do resale of these? ... They do, you will find them on stubhub. It’s busy this year, so you will need to keep looking for a good deal ... I&#x27;m selli"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/26T3LtbuGT1Fu9m0eRq5X3",
@@ -1273,7 +1310,17 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 35
+      "risingStarScore": 35,
+      "verificationTier": "WARM",
+      "soldOutSourceCount": 1,
+      "soldOutSources": [
+        "brave"
+      ],
+      "peakPrice": 0,
+      "totalSignals": 3,
+      "lastVerified": "2026-03-10T16:05:59.870Z",
+      "confirmedSoldOut": false,
+      "hasHotShows": true
     },
     {
       "name": "Flip Turn",
@@ -1373,23 +1420,13 @@
       "youtubeSubscribers": null,
       "albumCount": 13,
       "genres": [],
-      "soldOutMentions": 3,
+      "soldOutMentions": 5,
       "soldOutSnippets": [
-        {
-          "title": "Noah Kahan tickets: Best deals for added tour dates before they’re sold out",
-          "snippet": "Updated: Feb. 13, 2026, 10:34 a.m. ... Noah Kahan performs here at the 2025 BottleRock Napa Valley on <strong>Sunday, May 25, 2025</strong>, at Napa V",
-          "url": "https://www.cleveland.com/live-entertainment/2026/02/noah-kahan-tickets-best-deals-for-added-tour-dates-before-theyre-sold-out.html"
-        },
-        {
-          "title": "Are Noah Kahan tickets sold out? Vivid Seats takes $30 off for new customers - al.com",
-          "snippet": "Not even a month after the official tour announcement came via Kahan’s personal Instagram account, all shows—aside from Kahan’s upcoming music festiva",
-          "url": "https://www.al.com/live-entertainment/2026/03/noah-kahan-sold-out-heres-how-fans-are-still-scoring-seats-and-saving-30-today.html"
-        },
-        {
-          "title": "Noah Kahan ‘The Great Divide’ tour tickets are selling fast: How to secure your tickets before they are gone - al.com",
-          "snippet": "Luckily for those still looking to attend one Noah Kahan&#x27;s upcoming stadium shows this summer, <strong>tickets are still available for purchase</",
-          "url": "https://www.al.com/live-entertainment/2026/02/noah-kahan-the-great-divide-tour-tickets-are-selling-fast-how-to-secure-your-tickets-before-they-are-gone.html"
-        }
+        "The Noah Kahan Ticketmaster war begins this week. Here's how to make sure you actually get tickets During his presales, Noah Kahan offered fans “front porch” tickets, which cost just $100. If you’re an active concertgoer, then you know that front row tickets never cost just $100, so it came as no su",
+        "@tweet Ok so i went to a sold out 6000 person heated rivalry dance party this weekend and i think i can ride the serotonin high until noah kahan puts me into an incurable depression on april 24th. https://t.co/0j5M30Mbc3",
+        "r/NoahKahan on Reddit: So apparently everything was sold during presale 462 votes, 283 comments. I was quite literally number 400 in queue the minute it opened…and <strong>by the time I got on it was sold out</strong>. Absolutely absurd…",
+        "r/SaltLakeCity on Reddit: Noah Kahan 2026 Tour. Did anyone’s code work to get tickets? If anyone else in SLC got tickets nearby... HI, see you there! :D ... Those work! I’m going with a group and can’t find group seating in our price range. I’m going to update the post with these codes and other one",
+        "r/NoahKahan on Reddit: There's no way Noah is this popular I did succeed with getting GA but it was a blood bath lol · Also in comparison, Jelly Roll &amp; Post Malone are coming. So many of those tickets are left. And <strong>Noah sold out in minutes</strong>."
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B",
@@ -1546,7 +1583,18 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 34
+      "risingStarScore": 34,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 2,
+      "soldOutSources": [
+        "brave",
+        "twitter"
+      ],
+      "peakPrice": 300,
+      "totalSignals": 9,
+      "lastVerified": "2026-03-10T16:05:41.324Z",
+      "confirmedSoldOut": true,
+      "hasHotShows": true
     },
     {
       "name": "The Elovaters",
@@ -1657,13 +1705,11 @@
       "youtubeSubscribers": null,
       "albumCount": null,
       "genres": [],
-      "soldOutMentions": 1,
+      "soldOutMentions": 3,
       "soldOutSnippets": [
-        {
-          "title": "Book Nurse John 2025 Tour Tickets | Upcoming Comedy Shows",
-          "snippet": "Get your tickets for Nurse John’s 2025 comedy tour on NurseJohnTour.com. Secure your seats for his hilarious live performances near you. Tickets are s",
-          "url": "https://nursejohntourtickets.com/"
-        }
+        "r/WWE on Reddit: Outrageous prices for these WWE Meet and Greets These are reseller prices who are selling their tickets for way over face value. For proper prices, go to https://store.epic.leapevent.tech/wwe-world-at-wrestlemania-2026/2026 (most are sold out now, hence people charging an arm and a ",
+        "r/Jcole on Reddit: How the prices? <strong>Yup sold out</strong>. Waited 45 minutes for nothing ... But not too bad for 2 tickets.",
+        "r/Warframe on Reddit: Tennocon 2026 VIP tickets <strong>Got in line at exactly 4:00 PM EST and EventBrite immediately said the VIP tickets were sold out</strong> - did they get bot-scalped, or were the numbers really just that limited, lol? I thought I remembered hearing some drama about this when t"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/2rDxPr59KkZwvSvq5vvC0g",
@@ -1820,7 +1866,17 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 33
+      "risingStarScore": 33,
+      "verificationTier": "WARM",
+      "soldOutSourceCount": 1,
+      "soldOutSources": [
+        "brave"
+      ],
+      "peakPrice": 0,
+      "totalSignals": 3,
+      "lastVerified": "2026-03-10T16:06:05.423Z",
+      "confirmedSoldOut": false,
+      "hasHotShows": true
     },
     {
       "name": "Rezz",
@@ -1882,7 +1938,17 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 32
+      "risingStarScore": 32,
+      "verificationTier": "WARM",
+      "soldOutSourceCount": 1,
+      "soldOutSources": [
+        "brave"
+      ],
+      "peakPrice": 0,
+      "totalSignals": 2,
+      "lastVerified": "2026-03-10T16:05:37.450Z",
+      "confirmedSoldOut": false,
+      "hasHotShows": true
     },
     {
       "name": "Laci Kaye Booth",
@@ -2074,18 +2140,13 @@
       "youtubeSubscribers": null,
       "albumCount": 6,
       "genres": [],
-      "soldOutMentions": 2,
+      "soldOutMentions": 5,
       "soldOutSnippets": [
-        {
-          "title": "Bailey Zimmerman Tour | Tickets | Event Dates & Concert Schedule",
-          "snippet": "Buy Bailey Zimmerman concert tickets now directly via our official site using the links above. Hurry—tickets are selling fast! Check back often as fre",
-          "url": "https://www.baileyzimmerman.org/"
-        },
-        {
-          "title": "Bailey Zimmerman Tickets, Concerts & 2025 Tour Dates",
-          "snippet": "Tickets to Bailey Zimmerman shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has t",
-          "url": "https://www.eventticketscenter.com/bailey-zimmerman-tickets/17980/c"
-        }
+        "Bailey Zimmerman Different Night Same Rodeo Tour 2026 Photos, Tickets and Dates This is Zimmerman’s first headline arena run, and those always matter. There’s a difference between catching someone as an opener and seeing them command the full production. Lighting, pyro, bigger crowd singalongs. It c",
+        "Bailey Zimmerman Pays Off Fans’ Bar Tabs After Sold Out Show | Bob 95 FM By Ian Mar 9, 2026 | 7:41 AM · Bailey Zimmerman has never been shy about his rise to stardom- growing up in a trailer park in Illinois, to playing local bars and clubs, to selling out TD Garden in Boston over the weekend (as hi",
+        "How Bailey Zimmerman Charms Fans After Boston Concert For example, his Different Night Same Rodeo tour rolled into Boston last Thursday, where he sold out a concert at the TD Garden. After the show was done, he went out for a night on the town. According to the American Songwriter website, one of th",
+        "@tweet 🤠🚨 LAST CHANCE, TORONTO 🚨🤠\n\nCountry star Bailey Zimmerman is taking over History tomorrow night 🔥\n\nThis show is nearly SOLD OUT 🎟️\n\nSecure your spot NOW 👇\nhttps://t.co/R4L1lClXNI https://t.co/HjQTYjR5dj",
+        "@tweet 🤠🚨 LAST CHANCE, TORONTO 🚨🤠\n\nCountry star Bailey Zimmerman is taking over History tomorrow night 🔥\n\nThis show is nearly SOLD OUT 🎟️\n\nSecure your spot NOW 👇\nhttps://t.co/R4L1lClXNI https://t.co/1T1NP9GB2V"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/3win9vGIxFfBRag9S63wwf",
@@ -2242,7 +2303,18 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 30
+      "risingStarScore": 30,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 2,
+      "soldOutSources": [
+        "brave",
+        "twitter"
+      ],
+      "peakPrice": 393,
+      "totalSignals": 10,
+      "lastVerified": "2026-03-10T16:05:48.711Z",
+      "confirmedSoldOut": true,
+      "hasHotShows": true
     },
     {
       "name": "Twenty One Pilots",
@@ -2257,18 +2329,12 @@
       "youtubeSubscribers": null,
       "albumCount": null,
       "genres": [],
-      "soldOutMentions": 2,
+      "soldOutMentions": 4,
       "soldOutSnippets": [
-        {
-          "title": "Twenty One Pilots Tour | Tickets | Event Dates & Concert Schedule",
-          "snippet": "Confirmed 2025 cities include Bangor, Wantagh (Long Island), Bristow (DC area), Virginia Beach, Charlotte, West Palm Beach, Tampa, Orange Beach, Alpha",
-          "url": "https://www.twentyonepilots.org/"
-        },
-        {
-          "title": "Twenty One Pilots Tickets & Tour Dates 2025",
-          "snippet": "Ticket prices vary by market and tier; all amounts at checkout on our site are displayed in USD for clarity. To secure verified twenty one pilots conc",
-          "url": "https://www.twentyonepilots.org/tickets"
-        }
+        "@tweet I FUCKING HATE RESELLERS YOU SOLD OUT MY FAVORITE FUCKING BAND TO SELL THEM FOR 400 FUCKING DOLLARS YOU SHOULD ALL KILL YOURSELVES I HATE YOU YOU DONT EVEN LIKE TWENTY ONE PILOTS YOU FUCKING IDIOTS YOURE SO FUCKING STUPID FUCKING KILL YOURSELVES.",
+        "r/twentyonepilots on Reddit: Twenty One Pilots: More Than We Ever Imagined is officially out worldwide! Go catch a showing |-/ Just came back from the show. Theater was sold out. Loved it. Makes me hope they go back to touring at some point (although after seeing this I have a feeling that’s not gon",
+        "r/twentyonepilots on Reddit: i’m a fool. looking to buy something. a community dedicated to all things twenty one pilots: news, discussion, connection, and creativity. ... <strong>I&#x27;m sad it&#x27;s sold out!</strong>",
+        "r/twentyonepilots on Reddit: Heartbroken - Our showing was cancelled I&#x27;m sad it&#x27;s sold out! ... a community dedicated to all things twenty one pilots: news, discussion, connection, and creativity. ... So...there are a lot more people going to the movie than I thought... ... a community ded"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx",
@@ -2389,7 +2455,18 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 30
+      "risingStarScore": 30,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 2,
+      "soldOutSources": [
+        "twitter",
+        "brave"
+      ],
+      "peakPrice": 0,
+      "totalSignals": 4,
+      "lastVerified": "2026-03-10T16:05:50.832Z",
+      "confirmedSoldOut": true,
+      "hasHotShows": true
     },
     {
       "name": "Morgan Wallen",
@@ -2404,18 +2481,11 @@
       "youtubeSubscribers": null,
       "albumCount": 16,
       "genres": [],
-      "soldOutMentions": 2,
+      "soldOutMentions": 3,
       "soldOutSnippets": [
-        {
-          "title": "Morgan Wallen's 2026 Stadium Tour: How to Get Tickets",
-          "snippet": "Tickets for Morgan Wallen’s 2026 “Still The Problem Tour” went on sale <strong>Friday, November 7th</strong> and quickly sold out. Fns can still look ",
-          "url": "https://consequence.net/2025/11/morgan-wallen-2026-tour-how-to-get-tickets/"
-        },
-        {
-          "title": "Get Morgan Wallen tickets for ‘Still the Problem’ before they sell out",
-          "snippet": "Morgan Wallen’s 2025 “I’m the Problem” Stadium Tour was one of the hottest tickets of the year, with <strong>nearly every show selling out within hour",
-          "url": "https://www.cleveland.com/live-entertainment/2025/10/get-morgan-wallen-tickets-for-still-the-problem-before-they-sell-out.html"
-        }
+        "How to Navigate Ticketmaster’s confusing presales? : r/Concerts Good example Morgan Wallen Chicago this year… Presale/on sale they released all the uppers and mid level at $250-600 and super fans fomo in. Now <strong>the entire upper level is sold out and they lowered the price of lower level to $16",
+        "r/Morgan_Wallen on Reddit: Many UK fans here? I do know one or two, but <strong>the tickets to the last few concerts sold out so quickly</strong> that I can confidently say he&#x27;s definitely popular enough over here to do well for himself!",
+        "r/country on Reddit: Here's a wild stat... Ella Langley now has more monthly listeners on Spotify than Carrie Underwood and Lainey Wilson combined. There is nothing undermining about it. ... <strong>She literally have a whole headline tour already sold out for spring</strong> and at the same time SH"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM",
@@ -2572,7 +2642,17 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 29
+      "risingStarScore": 29,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 1,
+      "soldOutSources": [
+        "brave"
+      ],
+      "peakPrice": 265,
+      "totalSignals": 7,
+      "lastVerified": "2026-03-10T16:05:52.672Z",
+      "confirmedSoldOut": false,
+      "hasHotShows": true
     },
     {
       "name": "The Killers",
@@ -2587,13 +2667,11 @@
       "youtubeSubscribers": null,
       "albumCount": null,
       "genres": [],
-      "soldOutMentions": 1,
+      "soldOutMentions": 3,
       "soldOutSnippets": [
-        {
-          "title": "The Killers Tickets & Tour Dates 2025-2026",
-          "snippet": "2025 Austin City Limits Festival - Weekend One 3 Day Pass <strong>(10/3 - 10/5)</strong> (Sabrina Carpenter, Hozier, The Killers, Luke Combs, The Stro",
-          "url": "https://www.ticketsales.com/the-killers-tickets"
-        }
+        "Killers of Kill Tony Tour 2026 - Unfiltered Comedy Live! Even if the show is sold out at the box office, <strong>we have resale tickets available</strong> so you can still grab a seat! Browse the Killers of Kill Tony Tour 2026 schedule to find a city near you and experience the hilarity live.",
+        "@tweet 🚨 TICKETS SELLING FAST! 🚨\n\n🎟️ 65% of Standard Tickets SOLD\n🎟️ 75% of VIP Tickets GONE\n\nJoin us Sunday, 3rd May for Midlands Ultimate Tribute Fest featuring:\nQueen • Arctic Monkeys • Amy Winehouse • The Killers • Ed Sheeran • P!NK • Taylor Swift • Sam Fender\n\n🌍 Street https://t.co/CtR5pZ2",
+        "r/TheKillers on Reddit: The Killers are playing in San Francisco tonight at the Palace of Fine Arts, I have no idea how people are getting these tickets The Killers have played Go Your Own Way eighteen times so far. ... Apparently first was an actual show in LA where they got Lindsey from Fleetwood "
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/0C0XlULifJtAgn6ZNCW2eu",
@@ -2624,7 +2702,18 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 29
+      "risingStarScore": 29,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 2,
+      "soldOutSources": [
+        "brave",
+        "twitter"
+      ],
+      "peakPrice": 75,
+      "totalSignals": 4,
+      "lastVerified": "2026-03-10T16:06:09.249Z",
+      "confirmedSoldOut": true,
+      "hasHotShows": true
     },
     {
       "name": "Michael Blaustein",
@@ -3062,18 +3151,13 @@
       "youtubeSubscribers": null,
       "albumCount": null,
       "genres": [],
-      "soldOutMentions": 2,
+      "soldOutMentions": 5,
       "soldOutSnippets": [
-        {
-          "title": "Doja Cat 2026 tour tickets selling fast: Use these codes to save",
-          "snippet": "Note: Tickets for Doja Cat’s “Tour Ma Vie” North American concerts are not officially available for general sale yet but are appearing on the large th",
-          "url": "https://www.cleveland.com/live-entertainment/2025/10/doja-cat-2026-tour-tickets-selling-fast-use-these-codes-to-save.html"
-        },
-        {
-          "title": "Doja Cat's 'Tour Ma Vie' Tour 2026: How to Get Affordable Tickets Online",
-          "snippet": "However, <strong>many of the dates have either sold out, or are very close to selling out</strong>, so one of the best ways to find Doja Cat tickets o",
-          "url": "https://www.billboard.com/culture/product-recommendations/doja-cat-tour-tickets-buy-online-1236087599/"
-        }
+        "Primavera Sound Barcelona 2026 Sells Out Ahead of June Festival | TicketNews Organizers confirmed that full festival passes and single-day tickets for Thursday, Friday and Saturday are no longer available. It marks the second consecutive year the event has sold out in advance, following the record-s",
+        "Primavera Sound Barcelona 2026 è sold out: The Cure, Doja Cat e Gorillaz guidano la 24ª edizione - Notizie - SENTIREASCOLTARE Primavera Sound Barcelona 2026 sold out: The Cure, Doja Cat e Gorillaz tra gli headliner. Festival dal 4 al 6 giugno al Parc del Fòrum.",
+        "Primavera Sound Barcellona 2026 è già sold out: il festival più atteso dell’estate - Cromosomi Il Primavera Sound Barcellona 2026 è già sold out a quattro mesi dall’inizio. In line-up The Cure, Doja Cat, Gorillaz e molti altri. Il festival si terrà dal 4 al 6 giugno al Parc del Fòrum.",
+        "@tweet Doja Cat is real for this. People are going to the opera and ballet performances. It’s even difficult to get a ticket to a show because each one is constantly sold out https://t.co/l0w16mvbZp",
+        "@tweet @mauribardigang @DojaMyLife @fakesmileyata @amahl76485 @iamcardib @NICKIMINAJ @DojaCat Cardi B's Chase Center show grossed $2,239,008 (12,795 tickets, 100% capacity). Doja Cat's October 2023 show there grossed $1,779,450 (13,005 tickets, sold out), adjusting to ~$1,881,000 in today's dollars "
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/5cj0lLjcoR7YOSnhnX0Po5",
@@ -3230,7 +3314,18 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 27
+      "risingStarScore": 27,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 2,
+      "soldOutSources": [
+        "brave",
+        "twitter"
+      ],
+      "peakPrice": 0,
+      "totalSignals": 9,
+      "lastVerified": "2026-03-10T16:05:54.420Z",
+      "confirmedSoldOut": true,
+      "hasHotShows": true
     },
     {
       "name": "Lambrini Girls",
@@ -3431,18 +3526,11 @@
       "youtubeSubscribers": null,
       "albumCount": null,
       "genres": [],
-      "soldOutMentions": 2,
+      "soldOutMentions": 3,
       "soldOutSnippets": [
-        {
-          "title": "Cheap Post Malone Tickets & 2026 Concert Tour Dates",
-          "snippet": "Get the best Post Malone tickets price of any ticket site on TickPick and catch his concerts live in 2026. While tickets usually sell out at the box o",
-          "url": "https://www.tickpick.com/concerts/post-malone-tickets/"
-        },
-        {
-          "title": "Post Malone Tour Dates 2026 & Concert Tickets",
-          "snippet": "After 2017 years since releasing &#x27;Deja Vu&#x27; and making a huge impact in the industry, fans still gather to hear Post Malone appear live to pe",
-          "url": "https://concertfix.com/tours/post-malone"
-        }
+        "Didn't get Post Malone & Jelly Roll 'Big Ass Stadium Tour Part 2' tickets? Where you can still buy them - syracuse.com Given the high demand for tickets, especially after some presale dates already sold out, fans can find tickets on verified resale platforms such as Vivid Seats.",
+        "Here's how you can still get tickets to Jelly Roll’s nearly sold-out Syracuse concert - syracuse.com Fans looking for additional options, including potentially cheaper or closer seats, can also browse verified resale sites like Vivid Seats, SeatGeek and StubHub, where prices update dynamically. In a",
+        "r/Concerts on Reddit: What is the most you have spent on a resell ticket or a VIP ticket? I paid $450 for VIP but that was front and center at Red Rocks for a sold out show of my favorite band. I paid $500 a day for all inclusive festivals in Mexico but that’s a nice room, all the food, all the prem"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60",
@@ -3599,7 +3687,17 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 23
+      "risingStarScore": 23,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 1,
+      "soldOutSources": [
+        "brave"
+      ],
+      "peakPrice": 1500,
+      "totalSignals": 7,
+      "lastVerified": "2026-03-10T16:05:56.266Z",
+      "confirmedSoldOut": false,
+      "hasHotShows": true
     },
     {
       "name": "Hemlocke Springs",
@@ -3866,18 +3964,12 @@
       "youtubeSubscribers": null,
       "albumCount": 10,
       "genres": [],
-      "soldOutMentions": 2,
+      "soldOutMentions": 4,
       "soldOutSnippets": [
-        {
-          "title": "Where to buy tickets to Tame Impala 2026 sold out tour with Djo, Dominic Fike - masslive.com",
-          "snippet": "The summer tour features 13 dates with breakout superstar Djo (Stranger Things star Joe Keery) and <strong>nine dates</strong> with Dominic Fike.",
-          "url": "https://www.masslive.com/live-entertainment/2026/02/tame-impala-adds-2026-north-american-tour-dates-with-djo-dominic-fike-where-to-buy-tickets.html"
-        },
-        {
-          "title": "Tame Impala announces 2026 summer tour with Djo and Dominic Fike: How to get tickets - syracuse.com",
-          "snippet": "Tame Impala has added a new run of North American arena dates for summer 2026, following his sold-out international leg in <strong>April and May</stro",
-          "url": "https://www.syracuse.com/live-entertainment/2026/02/tame-impala-announces-2026-summer-tour-with-djo-and-dominic-fike-how-to-get-tickets.html"
-        }
+        "Where to buy tickets to Tame Impala 2026 sold out tour with Djo, Dominic Fike - masslive.com Tame Impala announced a slate of North American tour dates as part of their 2026 Deadbeat Tour. The summer tour features 13 dates with breakout superstar Djo (Stranger Things star Joe Keery) and nine dates w",
+        "Rock Cellar Magazine - Tame Impala Announces 2026 North American Arena Tour with Special Guests Djo and Dominic Fike 4/4 – Super Bock Arena – Pavilhão Rosa Mota – Porto, Portugal – SOLD OUT 4/5 – MEO Arena – Lisbon, Portugal – SOLD OUT 4/7 – Movistar Arena – Madrid, Spain – SOLD OUT 4/8 – Palau Sant",
+        "@tweet @spiritsandmusic All but one of the Dominic Fike dates are also sold out too tho \n\nNot to mention the Australia tour",
+        "r/TameImpala on Reddit: Tame Impala “fan exchange only” tickets should never be listed on Stubhub, something is very wrong here That’s just coming from my personal experience from the show I’m going to haha. But might be the same for Dominic Fike if those fans are getting the hate. Think all shows a"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/6USv9qhCn6zfxlBQIYJ9qs",
@@ -3958,7 +4050,18 @@
       ],
       "listenerGrowth": null,
       "isNewToTracking": false,
-      "risingStarScore": 21
+      "risingStarScore": 21,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 2,
+      "soldOutSources": [
+        "brave",
+        "twitter"
+      ],
+      "peakPrice": 250,
+      "totalSignals": 5,
+      "lastVerified": "2026-03-10T16:05:58.107Z",
+      "confirmedSoldOut": true,
+      "hasHotShows": true
     },
     {
       "name": "Allison Russell",
@@ -4323,18 +4426,11 @@
       "youtubeSubscribers": null,
       "albumCount": 18,
       "genres": [],
-      "soldOutMentions": 2,
+      "soldOutMentions": 3,
       "soldOutSnippets": [
-        {
-          "title": "Zach Bryan Adds Dates To Upcoming 'With Heaven On Tour' - MusicRow.com",
-          "snippet": "Bryan is coming off a massive fall ... to release his upcoming album With Heaven on Top on Jan. 9. Newly-Added Dates: – <strong>Friday, April 3, 2026<",
-          "url": "https://musicrow.com/2025/12/zach-bryan-adds-dates-to-upcoming-with-heaven-on-tour/"
-        },
-        {
-          "title": "How to get cheap Zach Bryan tickets for Cleveland, Ohio May 9 concert tour date - cleveland.com",
-          "snippet": "Zach Bryan is bringing “With Heaven On Tour” to Cleveland and tickets are already selling fast. Get concert details and how to snag the cheapest ticke",
-          "url": "https://www.cleveland.com/live-entertainment/2025/12/zach-bryan-cleveland-tickets-are-selling-fast-score-discounts-before-theyre-gone.html"
-        }
+        "FinancialContent - Secure Zach Bryan Concert Tickets 2026 Now – Discounted Seats with CITY10 at CapitalCityTickets.com Great selection for sold-out or high-demand stadium dates. <strong>Head to CapitalCityTickets.com, search &quot;Zach Bryan,&quot; select your date, and apply CITY10 to save</strong>",
+        "Secure Zach Bryan Concert Tickets 2026 Now - Discounted Seats with CITY10 at CapitalCityTickets.com * Great selection for sold-out or high-demand stadium dates. <strong>Head to CapitalCityTickets.com, search &quot;Zach Bryan,&quot; select your date, and apply CITY10 to save</strong>. Prices can fluc",
+        "@tweet Big nights are coming to Edinburgh's Murrayfield this summer… and rooms are filling fast!\n\nZach Bryan (14 June) Good availability ✅\nLuke Combs (24 &amp; 25 July) Limited rooms &amp; Sold out🚫\nBon Jovi (28 Aug) 1️⃣remaining\n\nWe're the perfect base for your concert weekend. Book now 🎸 https:/"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/40ZNYROS4zLfyyBSs2PGe2",
@@ -4491,7 +4587,18 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 20
+      "risingStarScore": 20,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 2,
+      "soldOutSources": [
+        "brave",
+        "twitter"
+      ],
+      "peakPrice": 4710,
+      "totalSignals": 4,
+      "lastVerified": "2026-03-10T16:05:43.157Z",
+      "confirmedSoldOut": true,
+      "hasHotShows": true
     },
     {
       "name": "Chris Stapleton",
@@ -4506,18 +4613,13 @@
       "youtubeSubscribers": null,
       "albumCount": 6,
       "genres": [],
-      "soldOutMentions": 2,
+      "soldOutMentions": 5,
       "soldOutSnippets": [
-        {
-          "title": "Chris Stapleton Tickets, 2026 Concert Tour Dates | Ticketmaster",
-          "snippet": "Tickets for newly-added dates on ... fan club will have early access to tickets with a presale starting <strong>Tuesday, January 13 at 10:00 a.m. loca",
-          "url": "https://www.ticketmaster.com/chris-stapleton-tickets/artist/1828177"
-        },
-        {
-          "title": "Chris Stapleton Tour 2026 - See Tour Dates & Get Tickets",
-          "snippet": "Tickets are on sale now, but they’re selling fast! Don’t miss your chance to see one of country music’s most celebrated artists perform his hits along",
-          "url": "https://www.chrisstapletontour2023.com/"
-        }
+        "How to Shop Affordable Tickets to Chris Stapleton's 2026 'All-American Road Show' Tour Online Tickets to the country star’s tour first went on sale through Ticketmaster, but many of the upcoming dates have already sold out. The best ways to find Chris Stapleton tickets online is through a third-part",
+        "Houston Rodeo's biggest show tickets hit $1,500 on resale market | Sporting News The Houston Livestock Show and Rodeo is just days away from kicking off its 2026 edition, and several nights are already sold out. Lizzo (March 6, Black Heritage Day), Forrest Frank (March 8), Megan Moroney (March 10), ",
+        "How to Shop Affordable Tickets to Chris Stapleton's 2026 'All-American Road Show' Tour Online | K-Jewel 99.3 FM Tickets to the country star’s tour first went on sale through Ticketmaster, but many of the upcoming dates have already sold out. The best ways to find Chris Stapleton tickets online is th",
+        "How to Shop Affordable Tickets to Chris Stapleton’s 2026 ‘All-American Road Show’ Tour Online Tickets to the country star’s tour first went on sale through Ticketmaster, but many of the upcoming dates have already sold out. The best ways to find Chris Stapleton tickets online is through a third-part",
+        "Cross Canadian Ragweed Houston Rodeo Tickets | March 16, 2026 at NRG Stadium If official tickets are sold out or you prefer the convenience of a resale marketplace, you can find authentic tickets from verified resellers right here with transparent, all-inclusive pricing. The 2026 RODEOHOUSTON lineup"
       ],
       "topSong": null,
       "spotifyUrl": "https://open.spotify.com/artist/4YLtscXsxbVgi031ovDDdh",
@@ -4674,7 +4776,17 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 20
+      "risingStarScore": 20,
+      "verificationTier": "RED_HOT",
+      "soldOutSourceCount": 1,
+      "soldOutSources": [
+        "brave"
+      ],
+      "peakPrice": 1500,
+      "totalSignals": 7,
+      "lastVerified": "2026-03-10T16:05:46.916Z",
+      "confirmedSoldOut": false,
+      "hasHotShows": true
     },
     {
       "name": "Liquid Stranger",
@@ -5812,7 +5924,17 @@
       ],
       "listenerGrowth": 0,
       "isNewToTracking": false,
-      "risingStarScore": 14
+      "risingStarScore": 14,
+      "verificationTier": "WARM",
+      "soldOutSourceCount": 1,
+      "soldOutSources": [
+        "brave"
+      ],
+      "peakPrice": 64,
+      "totalSignals": 2,
+      "lastVerified": "2026-03-10T16:06:07.164Z",
+      "confirmedSoldOut": false,
+      "hasHotShows": true
     },
     {
       "name": "Violet Grohl",
@@ -9383,5 +9505,6 @@
       "isNewToTracking": false,
       "risingStarScore": 2
     }
-  ]
+  ],
+  "lastVerification": "2026-03-10T16:06:09.249Z"
 }
