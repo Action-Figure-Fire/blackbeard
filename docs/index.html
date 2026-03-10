@@ -1305,13 +1305,16 @@ function filterFeed(type, btn) {
 /* ── To Do List ── */
 const TODO_KEY = 'bb-todos';
 const DEFAULT_TODOS = [
-  { id: 1, text: '🔑 Sign up for Resend (email API) — resend.com → create API key → paste in #blackbeard', done: false, category: 'APIs' },
+  { id: 1, text: '✅ Sign up for Resend (email API) — DONE! API key wired in.', done: true, category: 'APIs' },
   { id: 2, text: '🎟️ Sign up for TicketNetwork Mercury API — mercurywebservices.com (FREE for brokers)', done: false, category: 'APIs' },
   { id: 3, text: '🎟️ Sign up for Vivid Seats Affiliate — vividseats.com/affiliates (free + commission)', done: false, category: 'APIs' },
   { id: 4, text: '🎟️ Sign up for Ticket Evolution API — developer.ticketevolution.com', done: false, category: 'APIs' },
   { id: 5, text: '📱 Set up SMS notifications (Twilio or similar)', done: false, category: 'Features' },
   { id: 6, text: '🔍 Check Pollstar free account — any API access, RSS, or data exports?', done: false, category: 'Research' },
   { id: 7, text: '🔄 Rotate GitHub token (exposed in Discord)', done: false, category: 'Security' },
+  { id: 8, text: '🌐 Buy a domain for Blackbeard (blackbeard.tickets, useblackbeard.com, etc.) — need custom URL before selling', done: false, category: 'Launch' },
+  { id: 9, text: '📧 Set up custom email domain on Resend — alerts@[yourdomain] instead of onboarding@resend.dev', done: false, category: 'Launch' },
+  { id: 10, text: '🚀 Move off GitHub Pages to custom domain — professional URL for paying customers', done: false, category: 'Launch' },
 ];
 
 function loadTodos() {
