@@ -10,6 +10,9 @@ const { run: runTikTok, formatDiscordAlert: formatTikTok } = require('./tiktok-t
 const { run: runPodcast, formatDiscordAlert: formatPodcast } = require('./comedy-podcast-scanner');
 const { run: runGaming, formatDiscordAlert: formatGaming } = require('./gaming-culture-scanner');
 const { run: runVerifier, formatDiscordAlert: formatVerifier } = require('./soldout-verifier');
+const { run: runYouTube, formatDiscordAlert: formatYouTube } = require('./youtube-enrichment');
+const { run: runDiscoverSites } = require('./discover-artist-sites');
+const { run: runIntel, formatDiscordAlert: formatIntel } = require('./artist-intel-scraper');
 
 async function sendDiscord(msg) {
   console.log(`\n--- ALERT ---\n${msg}\n--- END ---`);
@@ -71,8 +74,35 @@ async function main() {
     }
     if (verifyResults) msg += '\n\n' + formatVerifier(verifyResults);
 
+    // Phase 7: YouTube enrichment
+    console.log('\n========== YOUTUBE ENRICHMENT ==========');
+    let ytResults = null;
+    try {
+      ytResults = await runYouTube();
+    } catch (e) {
+      console.log('YouTube error:', e.message?.slice(0, 200));
+    }
+    if (ytResults) msg += '\n\n' + formatYouTube(ytResults);
+
+    // Phase 8: Website discovery + Intel scraping
+    console.log('\n========== WEBSITE DISCOVERY ==========');
+    try {
+      await runDiscoverSites();
+    } catch (e) {
+      console.log('Site discovery error:', e.message?.slice(0, 200));
+    }
+
+    console.log('\n========== ARTIST INTEL SCRAPE ==========');
+    let intelResults = null;
+    try {
+      intelResults = await runIntel();
+    } catch (e) {
+      console.log('Intel scraper error:', e.message?.slice(0, 200));
+    }
+    if (intelResults) msg += '\n\n' + formatIntel(intelResults);
+
     const elapsed2 = ((Date.now() - startTime) / 1000 / 60).toFixed(1);
-    msg += `\n⏱️ Full scan completed in ${elapsed2} min`;
+    msg += `\n⏱️ Full scan completed in ${elapsed2} min (9 phases)`;
     
     await sendDiscord(msg);
     
