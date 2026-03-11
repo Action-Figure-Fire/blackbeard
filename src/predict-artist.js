@@ -14,6 +14,8 @@ const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { getVelocityScore } = require('./velocity-tracker');
+const { getPatternMatchScore } = require('./breakout-matcher');
 
 // Load .env
 try {
@@ -424,6 +426,35 @@ function predictSellout(artistName, braveResults, events, bitEvents, tweets, exi
   score += Math.min(catalystScore, 15);
   
   // ==========================================
+  // 6. VELOCITY (max 25) — growth rate from tracked snapshots
+  // ==========================================
+  const velocityResult = getVelocityScore(artistName);
+  if (velocityResult.score > 0) {
+    score += velocityResult.score;
+    factors.push(...velocityResult.factors);
+  }
+  
+  // ==========================================
+  // 7. BREAKOUT PATTERN MATCHING (max 25) — comparison to known breakouts
+  // ==========================================
+  const patternResult = getPatternMatchScore(artistName, {
+    name: artistName,
+    monthlyListeners: ml,
+    spotifyFollowers: spFollowers,
+    tiktokFollowers: ttFollowers,
+    instagramFollowers: igFollowers,
+    youtubeSubscribers: ytSubs,
+    soldOutMentions: totalSoldOut,
+    genre: existing?.genre || '',
+    avgVenueCapacity: events.length > 0 ? 
+      events.filter(e => e.capacity > 0).reduce((a, e) => a + e.capacity, 0) / Math.max(1, events.filter(e => e.capacity > 0).length) : 0,
+  });
+  if (patternResult.score > 0) {
+    score += patternResult.score;
+    factors.push(...patternResult.factors);
+  }
+  
+  // ==========================================
   // FINAL CLASSIFICATION
   // ==========================================
   score = Math.min(score, 100);
@@ -467,6 +498,8 @@ function predictSellout(artistName, braveResults, events, bitEvents, tweets, exi
       peakPrice,
       soldOutMentions,
       verificationTier: existing?.verificationTier || null,
+      velocityStage: velocityResult.stage || null,
+      patternMatches: patternResult.matches?.slice(0, 3) || [],
     }
   };
 }

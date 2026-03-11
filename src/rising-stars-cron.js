@@ -15,6 +15,7 @@ const { run: runDiscoverSites } = require('./discover-artist-sites');
 const { run: runIntel, formatDiscordAlert: formatIntel } = require('./artist-intel-scraper');
 const { run: runSocial, formatDiscordAlert: formatSocial } = require('./social-enrichment');
 const { run: runTrending, formatDiscordAlert: formatTrending } = require('./trending-scanner');
+const { takeSnapshots, formatDiscordAlert: formatVelocity } = require('./velocity-tracker');
 
 async function sendDiscord(msg) {
   console.log(`\n--- ALERT ---\n${msg}\n--- END ---`);
@@ -97,6 +98,18 @@ async function main() {
       console.log('Trending error:', e.message?.slice(0, 200));
     }
     if (trendingResults) msg += '\n\n' + formatTrending(trendingResults);
+
+    // Phase 8.5: Velocity snapshots
+    console.log('\n========== VELOCITY TRACKING ==========');
+    try {
+      const watchlist = JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'data', 'watchlist.json'), 'utf8'));
+      const artistNames = watchlist.artists.map(a => a.name);
+      const velDb = await takeSnapshots(artistNames, { limit: 30 });
+      const velAlert = formatVelocity(velDb);
+      if (velAlert) msg += '\n\n' + velAlert;
+    } catch (e) {
+      console.log('Velocity tracking error:', e.message?.slice(0, 200));
+    }
 
     console.log('\n========== SOCIAL ENRICHMENT ==========');
     let socialResults = null;
