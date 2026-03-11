@@ -193,7 +193,7 @@ function loadExistingData(artistName) {
 
 // ---- Sellout Scoring Engine ----
 
-function predictSellout(artistName, braveResults, events, bitEvents, tweets, existing) {
+function predictSellout(artistName, braveResults, events, bitEvents, tweets, existing, redditResult) {
   let score = 0;
   const factors = [];
   const warnings = [];
@@ -566,7 +566,7 @@ async function predictArtist(artistName) {
   const allBrave = [...braveResults, ...statsResults];
   
   // Run prediction
-  const result = predictSellout(artistName, allBrave, events, bitEvents, tweets, existing);
+  const result = predictSellout(artistName, allBrave, events, bitEvents, tweets, existing, redditResult);
   
   return result;
 }

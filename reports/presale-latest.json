@@ -1,28 +1,8 @@
 {
-  "timestamp": "2026-03-10T17:00:03.759Z",
+  "timestamp": "2026-03-10T22:00:04.643Z",
   "braveCallsUsed": 25,
-  "alertCount": 1,
-  "alerts": [
-    {
-      "artist": "Post Malone",
-      "tier": "A",
-      "urgency": "TODAY",
-      "emoji": "🚨",
-      "priority": 0,
-      "title": "Big Ass Stadium Tour | 2026 Post Malone & Jelly Roll Stadium Tickets",
-      "description": "Multiple presales begin in early February 2026. The Citi presale for U.S. shows starts Wednesday, February 4 at 10 AM local time. The Post Malone artist presale begins Friday, February 6 at 10 AM local time—fans must register at livemu.sc/postmalone by February 4 at 11:59 PM ET.",
-      "url": "https://www.bigassstadiumtour.com/",
-      "age": "4 days ago",
-      "codes": [],
-      "dates": [
-        "2026-02-20",
-        "2026-02-04",
-        "2026-02-06",
-        "2026-02-04"
-      ],
-      "time": "10 AM local"
-    }
-  ],
+  "alertCount": 0,
+  "alerts": [],
   "allTrackedCodes": {
     "Jade LeMac-TICKETS": {
       "artist": "Jade LeMac",

@@ -1,0 +1,626 @@
+[
+  {
+    "name": "Chappell Roan",
+    "genre": "pop",
+    "breakoutYear": 2024,
+    "breakoutTrigger": "Good Luck Babe viral TikTok moment in April 2024, followed by massive festival performances at Coachella, Governors Ball, and Lollapalooza",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 400000,
+        "venueSize": "clubs 300-500",
+        "date": "2022-11"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 1500000,
+        "venueSize": "theaters 1500-3000",
+        "date": "2024-02"
+      },
+      "midBreakout": {
+        "monthlyListeners": 10000000,
+        "venueSize": "amphitheaters 5000-10000",
+        "date": "2024-04"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 35000000,
+        "venueSize": "arenas 15000+",
+        "date": "2024-07"
+      }
+    },
+    "keySignals": [
+      "Pink Pony Club early cult following (2020)",
+      "Rise and Fall of a Midwest Princess album release (Sept 2023)",
+      "Good Luck Babe TikTok viral moment (April 2024)",
+      "Governors Ball Statue of Liberty performance went viral",
+      "Record-breaking Lollapalooza crowd",
+      "Festival upgrades mid-planning due to massive crowds"
+    ],
+    "supportTour": "Opened for Olivia Rodrigo GUTS World Tour Feb-April 2024",
+    "firstSoldOutTour": {
+      "date": "2024-03",
+      "venueSize": "theaters 2000-3000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 500000,
+      "instagram": 300000,
+      "spotify": 400000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 3000000,
+      "instagram": 2500000,
+      "spotify": 35000000
+    },
+    "velocityPeak": "April-July 2024: grew from 2M to 35M Spotify listeners in 4 months, gaining almost 100k followers per day after Gov Ball"
+  },
+  {
+    "name": "Zach Bryan",
+    "genre": "country/folk",
+    "breakoutYear": 2022,
+    "breakoutTrigger": "Something in the Orange went viral on TikTok in 2022, American Heartbreak album broke streaming records",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 1000000,
+        "venueSize": "clubs 500-1000",
+        "date": "2021-12"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 3000000,
+        "venueSize": "theaters 2000-4000",
+        "date": "2022-04"
+      },
+      "midBreakout": {
+        "monthlyListeners": 6000000,
+        "venueSize": "amphitheaters 8000-15000",
+        "date": "2022-09"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 25900000,
+        "venueSize": "stadiums 50000+",
+        "date": "2024-01"
+      }
+    },
+    "keySignals": [
+      "Navy background gave authentic story",
+      "Something in the Orange TikTok viral moment (April 2022)",
+      "Yellowstone TV show performances (Dec 2022)",
+      "American Heartbreak broke country streaming records",
+      "First #1 on Billboard Hot Country Songs (early 2023)",
+      "Transition from self-released to Warner Records"
+    ],
+    "supportTour": "None - built following independently",
+    "firstSoldOutTour": {
+      "date": "2022-06",
+      "venueSize": "amphitheaters 5000-8000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 200000,
+      "instagram": 150000,
+      "spotify": 1000000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 2500000,
+      "instagram": 1800000,
+      "spotify": 25900000
+    },
+    "velocityPeak": "April-December 2022: Something in the Orange accumulated 131M streams by October, transforming career overnight"
+  },
+  {
+    "name": "Noah Kahan",
+    "genre": "indie folk/pop",
+    "breakoutYear": 2023,
+    "breakoutTrigger": "Stick Season TikTok viral campaign that built for 2+ years before album release, delayed gratification strategy",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 2000000,
+        "venueSize": "theaters 1000-2000",
+        "date": "2022-08"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 8000000,
+        "venueSize": "amphitheaters 4000-8000",
+        "date": "2023-06"
+      },
+      "midBreakout": {
+        "monthlyListeners": 20000000,
+        "venueSize": "arenas 12000-18000",
+        "date": "2023-10"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 26000000,
+        "venueSize": "stadiums 40000+",
+        "date": "2024-06"
+      }
+    },
+    "keySignals": [
+      "Stick Season TikTok teasing campaign (2020-2022)",
+      "Album release October 2022 but slow burn to mainstream",
+      "Billboard Hot 100 entry October 2023 (1+ year after release)",
+      "Venue upgrades from Radio City to MSG to stadiums",
+      "1.4 billion streams in 2023 alone",
+      "Fenway Park 2026 shows announced"
+    ],
+    "supportTour": "Built organically through small venues",
+    "firstSoldOutTour": {
+      "date": "2023-05",
+      "venueSize": "amphitheaters 5000-8000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 800000,
+      "instagram": 400000,
+      "spotify": 2000000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 4200000,
+      "instagram": 2100000,
+      "spotify": 26000000
+    },
+    "velocityPeak": "October 2023-June 2024: Mainstream breakthrough period with sustained growth to stadium level"
+  },
+  {
+    "name": "Sabrina Carpenter",
+    "genre": "pop",
+    "breakoutYear": 2024,
+    "breakoutTrigger": "Espresso became most-streamed song of 2024, TikTok dominance with 15M+ videos using her songs",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 15000000,
+        "venueSize": "theaters 3000-5000",
+        "date": "2023-08"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 35400000,
+        "venueSize": "arenas 8000-12000",
+        "date": "2024-01"
+      },
+      "midBreakout": {
+        "monthlyListeners": 60000000,
+        "venueSize": "arenas 15000+",
+        "date": "2024-06"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 86900000,
+        "venueSize": "arenas 20000+",
+        "date": "2024-10"
+      }
+    },
+    "keySignals": [
+      "Emails I Can't Send sold-out tour (2022-2023)",
+      "Opening for Taylor Swift Eras Tour (Aug 2023-Mar 2024)",
+      "Espresso viral TikTok moment (2024)",
+      "Please Please Please follow-up hit",
+      "TikTok's #1 Artist in US 2024",
+      "Short n Sweet album Grammy wins"
+    ],
+    "supportTour": "Opened for Taylor Swift on Eras Tour Latin America, Australia, Singapore (Aug 2023-Mar 2024)",
+    "firstSoldOutTour": {
+      "date": "2022-09",
+      "venueSize": "theaters 3000-5000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 2000000,
+      "instagram": 8000000,
+      "spotify": 15000000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 12000000,
+      "instagram": 25000000,
+      "spotify": 86900000
+    },
+    "velocityPeak": "April-October 2024: Espresso to Short n Sweet era, 2.5x growth in 6 months from already-massive base"
+  },
+  {
+    "name": "Benson Boone",
+    "genre": "pop rock",
+    "breakoutYear": 2024,
+    "breakoutTrigger": "Beautiful Things viral explosion on TikTok (4M+ videos), used more than Billie Eilish hits despite fewer streams",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 5000000,
+        "venueSize": "theaters 2000-4000",
+        "date": "2023-06"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 15000000,
+        "venueSize": "arenas 8000-12000",
+        "date": "2024-02"
+      },
+      "midBreakout": {
+        "monthlyListeners": 35000000,
+        "venueSize": "arenas 15000+",
+        "date": "2024-06"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 57000000,
+        "venueSize": "arenas 20000+",
+        "date": "2024-10"
+      }
+    },
+    "keySignals": [
+      "American Idol appearance and strategic withdrawal (2021)",
+      "Ghost Town went Platinum (2021)",
+      "In the Stars built following (2022)",
+      "Beautiful Things January 2024 release",
+      "370% daily stream increase in February 2024",
+      "Opening for Taylor Swift London show (June 2024)"
+    ],
+    "supportTour": "Opened for Taylor Swift London Eras Tour show (June 2024)",
+    "firstSoldOutTour": {
+      "date": "2024-03",
+      "venueSize": "arenas 8000-12000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 3000000,
+      "instagram": 1500000,
+      "spotify": 5000000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 7000000,
+      "instagram": 3000000,
+      "spotify": 57000000
+    },
+    "velocityPeak": "January-June 2024: Beautiful Things era saw 370% daily stream growth, 200% weekly growth from viral TikTok moment"
+  },
+  {
+    "name": "Jelly Roll",
+    "genre": "country rock",
+    "breakoutYear": 2023,
+    "breakoutTrigger": "Son of a Sinner crossover success, authentic life story resonated across genres",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 2500000,
+        "venueSize": "clubs 1000-2000",
+        "date": "2022-06"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 8000000,
+        "venueSize": "theaters 3000-5000",
+        "date": "2023-03"
+      },
+      "midBreakout": {
+        "monthlyListeners": 18000000,
+        "venueSize": "amphitheaters 8000-15000",
+        "date": "2023-09"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 28000000,
+        "venueSize": "arenas 15000+",
+        "date": "2024-06"
+      }
+    },
+    "keySignals": [
+      "Underground hip-hop/country hybrid background",
+      "Authentic struggle and recovery story",
+      "Son of a Sinner mainstream country success",
+      "Cross-genre appeal and collaborations",
+      "Whitsitt Chapel album success (2023)",
+      "Awards show performances and recognition"
+    ],
+    "supportTour": "Built through club circuit over many years",
+    "firstSoldOutTour": {
+      "date": "2023-05",
+      "venueSize": "theaters 4000-6000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 800000,
+      "instagram": 1200000,
+      "spotify": 2500000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 3500000,
+      "instagram": 4200000,
+      "spotify": 28000000
+    },
+    "velocityPeak": "2023: Son of a Sinner era brought crossover success and 10x venue capacity growth"
+  },
+  {
+    "name": "Shaboozey",
+    "genre": "country hip-hop",
+    "breakoutYear": 2024,
+    "breakoutTrigger": "A Bar Song (Tipsy) became massive crossover hit, blending country and hip-hop perfectly",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 800000,
+        "venueSize": "clubs 500-1000",
+        "date": "2023-12"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 5000000,
+        "venueSize": "theaters 2000-4000",
+        "date": "2024-04"
+      },
+      "midBreakout": {
+        "monthlyListeners": 15000000,
+        "venueSize": "amphitheaters 8000-12000",
+        "date": "2024-08"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 32000000,
+        "venueSize": "arenas 15000+",
+        "date": "2024-12"
+      }
+    },
+    "keySignals": [
+      "Unique country-hip-hop fusion sound",
+      "A Bar Song (Tipsy) TikTok viral moment",
+      "Crossover appeal to multiple demographics",
+      "Festival circuit breakthrough",
+      "Radio play across country and hip-hop formats",
+      "Streaming platform playlist inclusion"
+    ],
+    "supportTour": "Festival circuit and club shows",
+    "firstSoldOutTour": {
+      "date": "2024-09",
+      "venueSize": "theaters 3000-5000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 400000,
+      "instagram": 250000,
+      "spotify": 800000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 2800000,
+      "instagram": 1500000,
+      "spotify": 32000000
+    },
+    "velocityPeak": "Summer 2024: A Bar Song era brought 40x growth in Spotify listeners in 8 months"
+  },
+  {
+    "name": "Teddy Swims",
+    "genre": "soul/R&B/pop",
+    "breakoutYear": 2023,
+    "breakoutTrigger": "Lose Control viral success, powerful vocals and covers background created massive following",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 3000000,
+        "venueSize": "clubs 1000-2000",
+        "date": "2022-09"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 12000000,
+        "venueSize": "theaters 3000-5000",
+        "date": "2023-06"
+      },
+      "midBreakout": {
+        "monthlyListeners": 25000000,
+        "venueSize": "amphitheaters 8000-15000",
+        "date": "2023-12"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 38000000,
+        "venueSize": "arenas 15000+",
+        "date": "2024-08"
+      }
+    },
+    "keySignals": [
+      "YouTube covers built initial fanbase",
+      "Lose Control TikTok and streaming success",
+      "Powerful vocal performances went viral",
+      "Cross-genre appeal (soul/pop/country covers)",
+      "Authentic personality and story",
+      "International breakthrough"
+    ],
+    "supportTour": "Built through covers and small venues",
+    "firstSoldOutTour": {
+      "date": "2023-09",
+      "venueSize": "theaters 4000-6000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 1500000,
+      "instagram": 800000,
+      "spotify": 3000000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 4500000,
+      "instagram": 2800000,
+      "spotify": 38000000
+    },
+    "velocityPeak": "2023: Lose Control era brought 12x growth and arena-level success"
+  },
+  {
+    "name": "Tyler Childers",
+    "genre": "country/folk",
+    "breakoutYear": 2022,
+    "breakoutTrigger": "Can I Take My Hounds to Heaven? album and authentic Appalachian storytelling resonated widely",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 1500000,
+        "venueSize": "clubs 800-1500",
+        "date": "2021-12"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 4000000,
+        "venueSize": "theaters 2500-4000",
+        "date": "2022-06"
+      },
+      "midBreakout": {
+        "monthlyListeners": 8500000,
+        "venueSize": "amphitheaters 6000-10000",
+        "date": "2022-12"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 14000000,
+        "venueSize": "amphitheaters 12000+",
+        "date": "2024-06"
+      }
+    },
+    "keySignals": [
+      "Authentic Appalachian roots and storytelling",
+      "Can I Take My Hounds to Heaven? critical acclaim",
+      "Strong regional fanbase expansion",
+      "Festival circuit success",
+      "Word-of-mouth growth in country/folk circles",
+      "Consistent touring and fan loyalty"
+    ],
+    "supportTour": "Independent touring through regional venues",
+    "firstSoldOutTour": {
+      "date": "2022-08",
+      "venueSize": "amphitheaters 5000-8000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 200000,
+      "instagram": 600000,
+      "spotify": 1500000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 800000,
+      "instagram": 1800000,
+      "spotify": 14000000
+    },
+    "velocityPeak": "2022: Album release period saw steady 10x growth over 12 months"
+  },
+  {
+    "name": "Morgan Wallen",
+    "genre": "country",
+    "breakoutYear": 2020,
+    "breakoutTrigger": "7 Summers crossover hit transformed him from promising country star to mainstream superstar",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 3000000,
+        "venueSize": "theaters 2000-4000",
+        "date": "2019-06"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 8000000,
+        "venueSize": "amphitheaters 6000-10000",
+        "date": "2020-08"
+      },
+      "midBreakout": {
+        "monthlyListeners": 18000000,
+        "venueSize": "arenas 12000-18000",
+        "date": "2021-03"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 32600000,
+        "venueSize": "stadiums 40000+",
+        "date": "2023-06"
+      }
+    },
+    "keySignals": [
+      "Whiskey Glasses Hot 100 top 20 (2019) - early promise",
+      "7 Summers top 10 crossover hit (2020) - breakthrough",
+      "Dangerous: The Double Album #1 for 10 weeks (2021)",
+      "First artist with two 100+ week Billboard 200 albums",
+      "Sustained dominance across multiple albums",
+      "Stadium tour success"
+    ],
+    "supportTour": "Traditional country radio/touring circuit",
+    "firstSoldOutTour": {
+      "date": "2020-10",
+      "venueSize": "amphitheaters 8000-12000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 500000,
+      "instagram": 1000000,
+      "spotify": 3000000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 3200000,
+      "instagram": 5800000,
+      "spotify": 32600000
+    },
+    "velocityPeak": "2020-2021: 7 Summers to Dangerous era brought 10x growth and country music dominance"
+  },
+  {
+    "name": "Post Malone (early career breakout)",
+    "genre": "hip-hop/pop",
+    "breakoutYear": 2015,
+    "breakoutTrigger": "White Iverson viral success on SoundCloud, genre-blending approach was revolutionary for 2015",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 50000,
+        "venueSize": "clubs 200-500",
+        "date": "2015-02"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 2000000,
+        "venueSize": "clubs 1000-2000",
+        "date": "2015-08"
+      },
+      "midBreakout": {
+        "monthlyListeners": 8000000,
+        "venueSize": "theaters 3000-6000",
+        "date": "2016-06"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 25000000,
+        "venueSize": "arenas 15000+",
+        "date": "2017-12"
+      }
+    },
+    "keySignals": [
+      "White Iverson SoundCloud viral moment (2015)",
+      "Genre-blending hip-hop/rock/pop approach",
+      "Strong visual content and personality",
+      "Rockstar with 21 Savage massive hit (2017)",
+      "Consistent chart performance across genres",
+      "Early streaming platform dominance"
+    ],
+    "supportTour": "Built through SoundCloud and streaming",
+    "firstSoldOutTour": {
+      "date": "2016-03",
+      "venueSize": "theaters 2000-4000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 0,
+      "instagram": 10000,
+      "spotify": 50000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 0,
+      "instagram": 5000000,
+      "spotify": 25000000
+    },
+    "velocityPeak": "2015-2017: White Iverson to Rockstar era, 500x growth in 2 years during early streaming era"
+  },
+  {
+    "name": "Olivia Rodrigo",
+    "genre": "pop",
+    "breakoutYear": 2021,
+    "breakoutTrigger": "drivers license became fastest song to break streaming records, instant transformation from Disney actress to global superstar",
+    "timeline": {
+      "preBreakout": {
+        "monthlyListeners": 500000,
+        "venueSize": "Disney/TV appearances",
+        "date": "2020-12"
+      },
+      "earlyBreakout": {
+        "monthlyListeners": 15000000,
+        "venueSize": "theaters 3000-5000",
+        "date": "2021-02"
+      },
+      "midBreakout": {
+        "monthlyListeners": 40000000,
+        "venueSize": "arenas 10000-15000",
+        "date": "2021-06"
+      },
+      "peakBreakout": {
+        "monthlyListeners": 65000000,
+        "venueSize": "arenas 20000+",
+        "date": "2023-09"
+      }
+    },
+    "keySignals": [
+      "High School Musical: The Musical series role (2019)",
+      "All I Want early buzz (2019)",
+      "drivers license record-breaking debut (Jan 2021)",
+      "8 consecutive weeks at #1 Billboard Hot 100",
+      "Youngest artist with three #1 debuts",
+      "SOUR album massive critical and commercial success"
+    ],
+    "supportTour": "Went straight to headlining after Disney",
+    "firstSoldOutTour": {
+      "date": "2021-09",
+      "venueSize": "theaters 4000-6000"
+    },
+    "socialPreBreakout": {
+      "tiktok": 200000,
+      "instagram": 800000,
+      "spotify": 500000
+    },
+    "socialPeakBreakout": {
+      "tiktok": 8500000,
+      "instagram": 28000000,
+      "spotify": 65000000
+    },
+    "velocityPeak": "January-March 2021: drivers license era, most explosive breakout in streaming history - 130x growth in 3 months"
+  }
+]
