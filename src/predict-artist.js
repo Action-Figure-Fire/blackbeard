@@ -16,6 +16,7 @@ const fs = require('fs');
 const path = require('path');
 const { getVelocityScore } = require('./velocity-tracker');
 const { getPatternMatchScore } = require('./breakout-matcher');
+const { getRedditMentions, getRedditHypeScore } = require('./reddit-hype-index');
 
 // Load .env
 try {
@@ -435,7 +436,16 @@ function predictSellout(artistName, braveResults, events, bitEvents, tweets, exi
   }
   
   // ==========================================
-  // 7. BREAKOUT PATTERN MATCHING (max 25) — comparison to known breakouts
+  // 7. REDDIT HYPE INDEX (max 12)
+  // ==========================================
+  const redditHype = getRedditHypeScore(redditResult);
+  if (redditHype.score > 0) {
+    score += redditHype.score;
+    factors.push(...redditHype.factors);
+  }
+  
+  // ==========================================
+  // 8. BREAKOUT PATTERN MATCHING (max 25) — comparison to known breakouts
   // ==========================================
   const patternResult = getPatternMatchScore(artistName, {
     name: artistName,
@@ -546,6 +556,11 @@ async function predictArtist(artistName) {
   // 7. Twitter buzz
   console.log('  🐦 Checking Twitter...');
   const tweets = await twitterSearch(`"${artistName}" sold out OR tickets OR presale`);
+  
+  // 8. Reddit hype
+  console.log('  📡 Checking Reddit...');
+  const redditResult = await getRedditMentions(artistName);
+  await delay(300);
   
   // Combine Brave results
   const allBrave = [...braveResults, ...statsResults];
