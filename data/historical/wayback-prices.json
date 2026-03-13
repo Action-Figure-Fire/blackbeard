@@ -1,0 +1,2221 @@
+{
+  "wayback": {
+    "Sabrina Carpenter": {
+      "artist": "Sabrina Carpenter",
+      "slug": "sabrina-carpenter",
+      "snapshots": [
+        {
+          "date": "2024-04-25",
+          "timestamp": "20240425130228",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "listingCount": 24,
+          "lowestPrice": 344,
+          "avgPrice": 2318,
+          "highestPrice": 38791,
+          "title": "Sabrina Carpenter Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-06-24",
+          "timestamp": "20240624213834",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "listingCount": 61,
+          "lowestPrice": 613,
+          "avgPrice": 1743,
+          "highestPrice": 16288,
+          "title": "Sabrina Carpenter Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-06-27",
+          "timestamp": "20240627212409",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "listingCount": 59,
+          "lowestPrice": 585,
+          "avgPrice": 1721,
+          "highestPrice": 16288,
+          "title": "Sabrina Carpenter Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-07-02",
+          "timestamp": "20240702033622",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 66,
+            "max": 66
+          }
+        },
+        {
+          "date": "2024-07-10",
+          "timestamp": "20240710044644",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 39,
+            "max": 99
+          }
+        },
+        {
+          "date": "2024-07-20",
+          "timestamp": "20240720074219",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets/chicago-illinois-united-center-2024-10-13-7-pm/concert/16974390?irclickid=&utm_source=impact&utm_medium=affiliate&utm_campaign=Advance%20Local%20-%20Michigan&utm_term=1810040&utm_content=&pid=Advance%20Local%20-%20Michigan&aid=16137&irgwc=1",
+          "listingCount": 979,
+          "lowestPrice": 278,
+          "avgPrice": 823,
+          "highestPrice": 4690,
+          "title": "Sabrina Carpenter Tickets Chicago (United Center) - Oct 13, 2024 at 7:00pm | SeatGeek",
+          "soldOut": false
+        },
+        {
+          "date": "2024-07-24",
+          "timestamp": "20240724022444",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "listingCount": 63,
+          "lowestPrice": 578,
+          "avgPrice": 1588,
+          "highestPrice": 15884,
+          "title": "Sabrina Carpenter Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-08-04",
+          "timestamp": "20240804155331",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "listingCount": 39,
+          "lowestPrice": 552,
+          "avgPrice": 1421,
+          "highestPrice": 11766,
+          "title": "Sabrina Carpenter Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-08-14",
+          "timestamp": "20240814201005",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "listingCount": 230,
+          "lowestPrice": 273,
+          "avgPrice": 1229,
+          "highestPrice": 55754,
+          "title": "Sabrina Carpenter Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-08-20",
+          "timestamp": "20240820230311",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets/boston-massachusetts-td-garden-2024-10-03-7-pm/concert/16974382?aid=16137&irclickid=&irgwc=1&pid=Advance+Local+-+Masslive&utm_campaign=Advance+Local+-+Masslive&utm_content=&utm_medium=affiliate&utm_source=impact&utm_term=1810038",
+          "soldOut": false,
+          "priceRange": {
+            "min": 16,
+            "max": 16
+          }
+        },
+        {
+          "date": "2024-08-23",
+          "timestamp": "20240823210650",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "listingCount": 323,
+          "lowestPrice": 295,
+          "avgPrice": 1079,
+          "highestPrice": 55754,
+          "title": "Sabrina Carpenter Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-08-29",
+          "timestamp": "20240829000022",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets/houston-texas-toyota-center-2024-10-27-7-pm/concert/16980923",
+          "soldOut": false,
+          "priceRange": {
+            "min": 66,
+            "max": 66
+          }
+        },
+        {
+          "date": "2024-09-05",
+          "timestamp": "20240905202302",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "listingCount": 327,
+          "lowestPrice": 289,
+          "avgPrice": 1030,
+          "highestPrice": 57253,
+          "title": "Sabrina Carpenter Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-09-21",
+          "timestamp": "20240921160038",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets/detroit-michigan-little-caesars-arena-2024-09-26-7-pm/concert/16974376?irclickid=&utm_source=impact&utm_medium=affiliate&utm_campaign=Advance%20Local%20-%20Michigan&utm_term=1810040&utm_content=&pid=Advance%20Local%20-%20Michigan&aid=16137&irgwc=1",
+          "listingCount": 495,
+          "lowestPrice": 240,
+          "avgPrice": 537,
+          "highestPrice": 3795,
+          "title": "Sabrina Carpenter Tickets Detroit (Little Caesars Arena) - Sep 26, 2024 at 7:00pm | SeatGeek",
+          "soldOut": false
+        },
+        {
+          "date": "2024-10-22",
+          "timestamp": "20241022201436",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "listingCount": 197,
+          "lowestPrice": 375,
+          "avgPrice": 878,
+          "highestPrice": 3940,
+          "title": "Sabrina Carpenter Tickets &amp; Concert Tour Dates 2024 | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-11-11",
+          "timestamp": "20241111204740",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "listingCount": 301,
+          "lowestPrice": 330,
+          "avgPrice": 771,
+          "highestPrice": 2815,
+          "title": "Sabrina Carpenter Tickets &amp; Concert Tour Dates 2024-2025 | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-12-25",
+          "timestamp": "20241225110210",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "title": "Sabrina Carpenter Tickets &amp; Concert Tour Dates 2024-2025 | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2025-01-22",
+          "timestamp": "20250122074002",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 11,
+            "max": 11
+          }
+        },
+        {
+          "date": "2025-02-10",
+          "timestamp": "20250210094722",
+          "url": "https://seatgeek.com/sabrina-carpenter-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 69,
+            "max": 69
+          }
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:19:27.433Z"
+    },
+    "Zach Bryan": {
+      "artist": "Zach Bryan",
+      "slug": "zach-bryan",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:20:17.474Z"
+    },
+    "Alex Warren": {
+      "artist": "Alex Warren",
+      "slug": "alex-warren",
+      "snapshots": [
+        {
+          "date": "2025-01-15",
+          "timestamp": "20250115074139",
+          "url": "https://seatgeek.com/alex-warren-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 90,
+            "max": 90
+          }
+        },
+        {
+          "date": "2026-01-01",
+          "timestamp": "20260101133722",
+          "url": "https://seatgeek.com/alex-warren-tickets/cleveland-ohio-rocket-arena-2026-06-27-7-30-pm/concert/17886388?aid=15876&pid=website&rid=62726&_gl=1*vohm2l*_gcl_au*MTA0MDg0NjQ3MS4xNzY3MTk5ODI2*_ga*MzQ3NzQ5MzY5LjE3NjcxOTk4MjY.*_ga_2996DNQX6L*czE3NjcxOTk4MjYkbzEkZzEkdDE3NjcyMDEyMzkkajYwJGwwJGgw",
+          "listingCount": 625,
+          "lowestPrice": 63,
+          "avgPrice": 118,
+          "highestPrice": 427,
+          "soldOut": false
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:27:30.827Z"
+    },
+    "Stavros Halkias": {
+      "artist": "Stavros Halkias",
+      "slug": "stavros-halkias",
+      "snapshots": [
+        {
+          "date": "2025-01-19",
+          "timestamp": "20250119160035",
+          "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2025-02-28-9-30-pm/17271930",
+          "listingCount": 54,
+          "lowestPrice": 73,
+          "avgPrice": 396,
+          "highestPrice": 1916,
+          "title": "Stavros Halkias tickets in Seattle (Moore Theatre - Seattle) - Feb 28, 2025 at 9:30pm | SeatGeek",
+          "soldOut": false
+        },
+        {
+          "date": "2025-02-06",
+          "timestamp": "20250206163427",
+          "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2025-02-22-7-pm/17266179",
+          "soldOut": false,
+          "priceRange": {
+            "min": 96,
+            "max": 96
+          }
+        },
+        {
+          "date": "2025-12-18",
+          "timestamp": "20251218062142",
+          "url": "https://seatgeek.com/stavros-halkias-tickets/miami",
+          "listingCount": 117,
+          "lowestPrice": 132,
+          "avgPrice": 210,
+          "highestPrice": 702,
+          "soldOut": true
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:28:16.594Z"
+    },
+    "Freya Skye": {
+      "artist": "Freya Skye",
+      "slug": "freya-skye",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:28:54.335Z"
+    },
+    "Tyler Childers": {
+      "artist": "Tyler Childers",
+      "slug": "tyler-childers",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:29:30.929Z"
+    },
+    "Jelly Roll": {
+      "artist": "Jelly Roll",
+      "slug": "jelly-roll",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:30:08.311Z"
+    },
+    "Hilary Duff": {
+      "artist": "Hilary Duff",
+      "slug": "hilary-duff",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:30:46.566Z"
+    },
+    "Mt. Joy": {
+      "artist": "Mt. Joy",
+      "slug": "mt-joy",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:31:26.243Z"
+    },
+    "KETTAMA": {
+      "artist": "KETTAMA",
+      "slug": "kettama",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:32:04.614Z"
+    },
+    "Noah Kahan": {
+      "artist": "Noah Kahan",
+      "slug": "noah-kahan",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:32:35.528Z"
+    },
+    "Rezz": {
+      "artist": "Rezz",
+      "slug": "rezz",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:33:05.919Z"
+    },
+    "Bailey Zimmerman": {
+      "artist": "Bailey Zimmerman",
+      "slug": "bailey-zimmerman",
+      "snapshots": [
+        {
+          "date": "2024-04-01",
+          "timestamp": "20240401173127",
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 33,
+            "max": 61
+          }
+        },
+        {
+          "date": "2024-04-09",
+          "timestamp": "20240409144145",
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 56,
+            "max": 56
+          }
+        },
+        {
+          "date": "2024-04-13",
+          "timestamp": "20240413234702",
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets",
+          "listingCount": 19,
+          "lowestPrice": 88,
+          "avgPrice": 202,
+          "highestPrice": 579,
+          "title": "Bailey Zimmerman Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-04-25",
+          "timestamp": "20240425105903",
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets",
+          "listingCount": 33,
+          "lowestPrice": 71,
+          "avgPrice": 146,
+          "highestPrice": 663,
+          "title": "Bailey Zimmerman Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-04-26",
+          "timestamp": "20240426142737",
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets/raleigh",
+          "listingCount": 653,
+          "lowestPrice": 51,
+          "avgPrice": 188,
+          "highestPrice": 1615,
+          "title": "Bailey Zimmerman in Raleigh, 2024 Concert Tickets | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2024-05-05",
+          "timestamp": "20240505212036",
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets",
+          "listingCount": 946,
+          "lowestPrice": 274,
+          "avgPrice": 955,
+          "highestPrice": 62505,
+          "title": "Bailey Zimmerman Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true
+        },
+        {
+          "date": "2025-01-24",
+          "timestamp": "20250124215048",
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 26,
+            "max": 75
+          }
+        },
+        {
+          "date": "2025-01-26",
+          "timestamp": "20250126095615",
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 21,
+            "max": 21
+          }
+        },
+        {
+          "date": "2025-01-29",
+          "timestamp": "20250129041919",
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 52,
+            "max": 52
+          }
+        },
+        {
+          "date": "2025-02-12",
+          "timestamp": "20250212043318",
+          "url": "https://seatgeek.com/bailey-zimmerman-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 84,
+            "max": 84
+          }
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:34:12.021Z"
+    },
+    "Morgan Wallen": {
+      "artist": "Morgan Wallen",
+      "slug": "morgan-wallen",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:34:32.392Z"
+    },
+    "Michael Blaustein": {
+      "artist": "Michael Blaustein",
+      "slug": "michael-blaustein",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:34:53.777Z"
+    },
+    "Jordan Jensen": {
+      "artist": "Jordan Jensen",
+      "slug": "jordan-jensen",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:35:14.457Z"
+    },
+    "Druski": {
+      "artist": "Druski",
+      "slug": "druski",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:35:41.133Z"
+    },
+    "Djo (Joe Keery)": {
+      "artist": "Djo (Joe Keery)",
+      "slug": "djo-joe-keery",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:36:01.000Z"
+    },
+    "Treaty Oak Revival": {
+      "artist": "Treaty Oak Revival",
+      "slug": "treaty-oak-revival",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:37:16.136Z"
+    },
+    "Doja Cat": {
+      "artist": "Doja Cat",
+      "slug": "doja-cat",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:38:05.567Z"
+    },
+    "Josh Johnson": {
+      "artist": "Josh Johnson",
+      "slug": "josh-johnson",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:38:35.183Z"
+    },
+    "Mau P": {
+      "artist": "Mau P",
+      "slug": "mau-p",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:39:04.484Z"
+    },
+    "Florence Road": {
+      "artist": "Florence Road",
+      "slug": "florence-road",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:39:45.518Z"
+    },
+    "Post Malone": {
+      "artist": "Post Malone",
+      "slug": "post-malone",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:40:47.002Z"
+    },
+    "Knock2": {
+      "artist": "Knock2",
+      "slug": "knock2",
+      "snapshots": [],
+      "scrapedAt": "2026-03-13T15:41:14.909Z"
+    },
+    "Lord Huron": {
+      "artist": "Lord Huron",
+      "slug": "lord-huron",
+      "snapshots": [
+        {
+          "date": "2024-09-10",
+          "timestamp": "20240910202120",
+          "url": "https://seatgeek.com/lord-huron-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 97,
+            "max": 97
+          }
+        },
+        {
+          "date": "2025-01-15",
+          "timestamp": "20250115181429",
+          "url": "https://seatgeek.com/lord-huron-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 21,
+            "max": 21
+          }
+        },
+        {
+          "date": "2025-01-19",
+          "timestamp": "20250119102054",
+          "url": "https://seatgeek.com/lord-huron-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 91,
+            "max": 91
+          }
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:41:48.992Z"
+    },
+    "Matt Rife": {
+      "artist": "Matt Rife",
+      "slug": "matt-rife",
+      "snapshots": [
+        {
+          "date": "2024-01-04",
+          "timestamp": "20240104165847",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2024-08-09-8-pm/6301427",
+          "listingCount": 224,
+          "lowestPrice": 108,
+          "avgPrice": 161,
+          "highestPrice": 409,
+          "title": "Matt Rife Tickets Thackerville (Lucas Oil Live at WinStar World Casino and Resort) - Aug 9, 2024 at 8:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 161
+        },
+        {
+          "date": "2024-01-21",
+          "timestamp": "20240121232918",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2024-02-03-7-pm/6049207",
+          "listingCount": 299,
+          "lowestPrice": 132,
+          "avgPrice": 408,
+          "highestPrice": 5544,
+          "minPrice": 118,
+          "title": "Matt Rife Tickets New York (Radio City Music Hall) - Feb 3, 2024 at 7:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 132,
+          "askPrice": 5544,
+          "priceWarning": "42x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-01-23",
+          "timestamp": "20240123001435",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2024-02-02-7-pm/6046327",
+          "listingCount": 228,
+          "lowestPrice": 92,
+          "avgPrice": 612,
+          "highestPrice": 66394,
+          "minPrice": 91,
+          "title": "Matt Rife Tickets New York (Radio City Music Hall) - Feb 2, 2024 at 7:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 92,
+          "askPrice": 66394,
+          "priceWarning": "722x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-04-26",
+          "timestamp": "20240426092425",
+          "url": "https://seatgeek.com/matt-rife-tickets/chicago",
+          "listingCount": 153,
+          "lowestPrice": 130,
+          "avgPrice": 308,
+          "highestPrice": 1636,
+          "title": "Matt Rife in Chicago, 2024 Showtime Tickets | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 130,
+          "askPrice": 1636,
+          "priceWarning": "13x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-04-28",
+          "timestamp": "20240428125605",
+          "url": "https://seatgeek.com/matt-rife-tickets/parking",
+          "listingCount": 37,
+          "lowestPrice": 32,
+          "avgPrice": 64,
+          "highestPrice": 105,
+          "title": "Matt Rife Parking Passes | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 64
+        },
+        {
+          "date": "2024-05-25",
+          "timestamp": "20240525151038",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2024-06-14-7-30-pm/6431664",
+          "listingCount": 85,
+          "lowestPrice": 117,
+          "avgPrice": 381,
+          "highestPrice": 6102,
+          "title": "Matt Rife Tickets Huntsville (Orion Amphitheater) - Jun 14, 2024 at 7:30pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 117,
+          "askPrice": 6102,
+          "priceWarning": "52x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-06-10",
+          "timestamp": "20240610195134",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2024-06-14-7-30-pm/6431664",
+          "listingCount": 42,
+          "lowestPrice": 122,
+          "avgPrice": 2895,
+          "highestPrice": 117505,
+          "title": "Matt Rife Tickets Huntsville (Orion Amphitheater) - Jun 14, 2024 at 7:30pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 122,
+          "askPrice": 117505,
+          "priceWarning": "963x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-08-01",
+          "timestamp": "20240801120257",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2024-08-24-7-30-pm/16973619",
+          "listingCount": 97,
+          "lowestPrice": 120,
+          "avgPrice": 355,
+          "highestPrice": 1476,
+          "title": "Matt Rife Tickets Nashville (Bridgestone Arena) - Aug 24, 2024 at 7:30pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 120,
+          "askPrice": 1476,
+          "priceWarning": "12x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-08-09",
+          "timestamp": "20240809115720",
+          "url": "https://seatgeek.com/matt-rife-tickets?utm_source=impact&utm_medium=affiliate&utm_campaign=Advance%20Local%20-%20NJ&utm_term=1810072&utm_content=&pid=Advance%20Local%20-%20NJ&aid=16137&irgwc=1&irclickid=",
+          "listingCount": 32,
+          "lowestPrice": 223,
+          "avgPrice": 350,
+          "highestPrice": 699,
+          "title": "Matt Rife Tickets, 2024 Showtimes &amp; Locations  | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 350
+        },
+        {
+          "date": "2024-11-20",
+          "timestamp": "20241120230547",
+          "url": "https://seatgeek.com/matt-rife-tickets",
+          "listingCount": 5,
+          "lowestPrice": 407,
+          "avgPrice": 573,
+          "highestPrice": 846,
+          "title": "Matt Rife Tickets, 2024-2025 Tour Dates | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 573,
+          "priceWarning": "; thin market (<10 listings)"
+        },
+        {
+          "date": "2024-12-04",
+          "timestamp": "20241204013444",
+          "url": "https://seatgeek.com/matt-rife-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 24,
+            "max": 24
+          }
+        },
+        {
+          "date": "2024-12-09",
+          "timestamp": "20241209212054",
+          "url": "https://seatgeek.com/matt-rife-tickets",
+          "listingCount": 62,
+          "lowestPrice": 248,
+          "avgPrice": 862,
+          "highestPrice": 6296,
+          "title": "Matt Rife Tickets, 2024-2025 Tour Dates | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 248,
+          "askPrice": 6296,
+          "priceWarning": "25x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-12-25",
+          "timestamp": "20241225235343",
+          "url": "https://seatgeek.com/matt-rife-tickets",
+          "listingCount": 63,
+          "lowestPrice": 141,
+          "avgPrice": 321,
+          "highestPrice": 1723,
+          "title": "Matt Rife Tickets, 2024-2025 Tour Dates | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 141,
+          "askPrice": 1723,
+          "priceWarning": "12x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-12-29",
+          "timestamp": "20241229214525",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2025-03-22-7-pm/17266306?irclickid=&utm_source=impact&utm_medium=affiliate&utm_campaign=Advance%20Local%20-%20Pennlive&utm_term=1810047&utm_content=&pid=Advance%20Local%20-%20Pennlive&aid=16137&adid=1810047&irgwc=1",
+          "soldOut": false,
+          "priceRange": {
+            "min": 69,
+            "max": 69
+          }
+        },
+        {
+          "date": "2024-12-31",
+          "timestamp": "20241231222639",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2025-11-29-7-pm/17266356?irclickid=&utm_source=impact&utm_medium=affiliate&utm_campaign=Advance%20Local%20-%20Pennlive&utm_term=1810047&utm_content=&pid=Advance%20Local%20-%20Pennlive&aid=16137&adid=1810047&irgwc=1",
+          "soldOut": false,
+          "priceRange": {
+            "min": 50,
+            "max": 50
+          }
+        },
+        {
+          "date": "2025-01-15",
+          "timestamp": "20250115004337",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2025-10-18-7-pm/17266346",
+          "listingCount": 2252,
+          "lowestPrice": 67,
+          "avgPrice": 206,
+          "highestPrice": 1809,
+          "title": "Matt Rife tickets in Anaheim (Honda Center) - Oct 18, 2025 at 7:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 67,
+          "askPrice": 1809,
+          "priceWarning": "27x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2025-01-23",
+          "timestamp": "20250123095349",
+          "url": "https://seatgeek.com/matt-rife-tickets/comedy/2025-03-23-7-pm/17266308",
+          "listingCount": 336,
+          "lowestPrice": 87,
+          "avgPrice": 175,
+          "highestPrice": 1591,
+          "title": "Matt Rife tickets in Minneapolis (Target Center) - Mar 23, 2025 at 7:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 87,
+          "askPrice": 1591,
+          "priceWarning": "18x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2025-02-20",
+          "timestamp": "20250220002409",
+          "url": "https://seatgeek.com/matt-rife-tickets/dallas",
+          "listingCount": 307,
+          "lowestPrice": 88,
+          "avgPrice": 262,
+          "highestPrice": 2414,
+          "title": "Matt Rife Dallas Shows 2025 | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 88,
+          "askPrice": 2414,
+          "priceWarning": "27x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2025-12-17",
+          "timestamp": "20251217170849",
+          "url": "https://seatgeek.com/matt-rife-tickets/charlotte",
+          "listingCount": 109,
+          "lowestPrice": 62,
+          "avgPrice": 140,
+          "highestPrice": 372,
+          "soldOut": true,
+          "marketPrice": 140
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:52:00.354Z"
+    }
+  },
+  "reddit": {
+    "Sabrina Carpenter": {
+      "artist": "Sabrina Carpenter",
+      "totalPosts": 115,
+      "relevantPosts": 108,
+      "credibility": {
+        "soldOut": {
+          "credibility": "VERIFIED",
+          "confidence": 100,
+          "sources": 8,
+          "uniqueDates": 8,
+          "uniqueSubreddits": 2,
+          "totalPosts": 8,
+          "totalUpvotes": 11,
+          "totalComments": 71,
+          "topPosts": [
+            {
+              "date": "2025-12-08",
+              "title": "Need help figuring out what I'm even doing",
+              "subreddit": "Concerts",
+              "score": 7,
+              "url": "https://reddit.com/r/Concerts/comments/1phogy1/need_help_figuring_out_what_im_even_doing/"
+            },
+            {
+              "date": "2025-08-17",
+              "title": "Why do people camp out in hopes of getting box office tickets? Is it different than using the official site like Ticketmaster?",
+              "subreddit": "Concerts",
+              "score": 2,
+              "url": "https://reddit.com/r/Concerts/comments/1msgkzj/why_do_people_camp_out_in_hopes_of_getting_box/"
+            },
+            {
+              "date": "2026-02-12",
+              "title": "Box Office method",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1r38lph/box_office_method/"
+            },
+            {
+              "date": "2024-06-28",
+              "title": "Tmobile Reserved tickets?",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1dqpe9g/tmobile_reserved_tickets/"
+            },
+            {
+              "date": "2025-06-03",
+              "title": "Question for buying tickets depending on the artist? Tickets going cheaper/ selling out",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1l2qu08/question_for_buying_tickets_depending_on_the/"
+            }
+          ]
+        },
+        "highPrices": {
+          "credibility": "VERIFIED",
+          "confidence": 100,
+          "sources": 5,
+          "uniqueDates": 5,
+          "uniqueSubreddits": 1,
+          "totalPosts": 5,
+          "totalUpvotes": 117,
+          "totalComments": 226,
+          "topPosts": [
+            {
+              "date": "2025-05-25",
+              "title": "Should I go to shows alone if I have no friends to go with?",
+              "subreddit": "Concerts",
+              "score": 117,
+              "url": "https://reddit.com/r/Concerts/comments/1kuvonv/should_i_go_to_shows_alone_if_i_have_no_friends/"
+            },
+            {
+              "date": "2025-06-03",
+              "title": "Question for buying tickets depending on the artist? Tickets going cheaper/ selling out",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1l2qu08/question_for_buying_tickets_depending_on_the/"
+            },
+            {
+              "date": "2024-10-07",
+              "title": "Sabrina Carpenter tix - need advice!",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1fybtdq/sabrina_carpenter_tix_need_advice/"
+            },
+            {
+              "date": "2025-10-10",
+              "title": "Should I go to Billie Eilish twice?",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1o3ciz2/should_i_go_to_billie_eilish_twice/"
+            },
+            {
+              "date": "2024-08-11",
+              "title": "Sabrina Carpenter Tickets San Francisco 11/09",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1epreij/sabrina_carpenter_tickets_san_francisco_1109/"
+            }
+          ]
+        },
+        "easyGet": {
+          "credibility": "VERIFIED",
+          "confidence": 90,
+          "sources": 4,
+          "uniqueDates": 4,
+          "uniqueSubreddits": 2,
+          "totalPosts": 4,
+          "totalUpvotes": 1,
+          "totalComments": 23,
+          "topPosts": [
+            {
+              "date": "2024-06-25",
+              "title": "VIP and GA questions",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1doflid/vip_and_ga_questions/"
+            },
+            {
+              "date": "2025-06-03",
+              "title": "Question for buying tickets depending on the artist? Tickets going cheaper/ selling out",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1l2qu08/question_for_buying_tickets_depending_on_the/"
+            },
+            {
+              "date": "2025-05-24",
+              "title": "300 level for Billie Eilish and The Weeknd question (solo concert goer)",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1ku0iy6/300_level_for_billie_eilish_and_the_weeknd/"
+            },
+            {
+              "date": "2024-09-29",
+              "title": "PLEASE HELP",
+              "subreddit": "Music",
+              "score": 0,
+              "url": "https://reddit.com/r/Music/comments/1fsgeuq/please_help/"
+            }
+          ]
+        },
+        "presaleInfo": {
+          "credibility": "VERIFIED",
+          "confidence": 100,
+          "sources": 13,
+          "uniqueDates": 12,
+          "uniqueSubreddits": 4,
+          "totalPosts": 13,
+          "totalUpvotes": 168,
+          "totalComments": 260,
+          "topPosts": [
+            {
+              "date": "2025-05-25",
+              "title": "Should I go to shows alone if I have no friends to go with?",
+              "subreddit": "Concerts",
+              "score": 117,
+              "url": "https://reddit.com/r/Concerts/comments/1kuvonv/should_i_go_to_shows_alone_if_i_have_no_friends/"
+            },
+            {
+              "date": "2026-02-12",
+              "title": "Artist presale codes not working?? Am I the problem or is it the codes?",
+              "subreddit": "Concerts",
+              "score": 21,
+              "url": "https://reddit.com/r/Concerts/comments/1r2rmp0/artist_presale_codes_not_working_am_i_the_problem/"
+            },
+            {
+              "date": "2025-08-31",
+              "title": "what is the point of having a coded presale if everyone can sign up?",
+              "subreddit": "Music",
+              "score": 16,
+              "url": "https://reddit.com/r/Music/comments/1n5904i/what_is_the_point_of_having_a_coded_presale_if/"
+            },
+            {
+              "date": "2025-09-17",
+              "title": "Sabrina Carpenter Short n’ Sweet Tour",
+              "subreddit": "Concerts",
+              "score": 3,
+              "url": "https://reddit.com/r/Concerts/comments/1njhci0/sabrina_carpenter_short_n_sweet_tour/"
+            },
+            {
+              "date": "2024-07-11",
+              "title": "Help please ",
+              "subreddit": "Concerts",
+              "score": 3,
+              "url": "https://reddit.com/r/Concerts/comments/1e0e3cf/help_please/"
+            }
+          ]
+        },
+        "tourAnnounce": {
+          "credibility": "UNVERIFIED",
+          "confidence": 26,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 11,
+          "totalComments": 3,
+          "topPosts": [
+            {
+              "date": "2025-09-25",
+              "title": "Which bands will we see on festival tours in Europe 2026?",
+              "subreddit": "Concerts",
+              "score": 11,
+              "url": "https://reddit.com/r/Concerts/comments/1nq8tzn/which_bands_will_we_see_on_festival_tours_in/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [
+        {
+          "date": "2026-02-12",
+          "title": "Box Office method",
+          "subreddit": "Concerts",
+          "score": 1,
+          "comments": 11,
+          "url": "https://reddit.com/r/Concerts/comments/1r38lph/box_office_method/"
+        },
+        {
+          "date": "2025-12-08",
+          "title": "Need help figuring out what I'm even doing",
+          "subreddit": "Concerts",
+          "score": 7,
+          "comments": 20,
+          "url": "https://reddit.com/r/Concerts/comments/1phogy1/need_help_figuring_out_what_im_even_doing/"
+        },
+        {
+          "date": "2025-08-17",
+          "title": "Why do people camp out in hopes of getting box office tickets? Is it different than using the official site like Ticketmaster?",
+          "subreddit": "Concerts",
+          "score": 2,
+          "comments": 15,
+          "url": "https://reddit.com/r/Concerts/comments/1msgkzj/why_do_people_camp_out_in_hopes_of_getting_box/"
+        },
+        {
+          "date": "2025-06-03",
+          "title": "Question for buying tickets depending on the artist? Tickets going cheaper/ selling out",
+          "subreddit": "Concerts",
+          "score": 0,
+          "comments": 8,
+          "url": "https://reddit.com/r/Concerts/comments/1l2qu08/question_for_buying_tickets_depending_on_the/"
+        },
+        {
+          "date": "2024-10-07",
+          "title": "Sabrina Carpenter tix - need advice!",
+          "subreddit": "Concerts",
+          "score": 0,
+          "comments": 5,
+          "url": "https://reddit.com/r/Concerts/comments/1fybtdq/sabrina_carpenter_tix_need_advice/"
+        },
+        {
+          "date": "2024-06-28",
+          "title": "Tmobile Reserved tickets?",
+          "subreddit": "Concerts",
+          "score": 1,
+          "comments": 0,
+          "url": "https://reddit.com/r/Concerts/comments/1dqpe9g/tmobile_reserved_tickets/"
+        },
+        {
+          "date": "2025-10-12",
+          "title": "Do you think Sabrina carpenter tickets drop day of the show?",
+          "subreddit": "Concerts",
+          "score": 0,
+          "comments": 4,
+          "url": "https://reddit.com/r/Concerts/comments/1o51jp0/do_you_think_sabrina_carpenter_tickets_drop_day/"
+        },
+        {
+          "date": "2025-07-25",
+          "title": "What do you think of Taylor Swift and her music?",
+          "subreddit": "Music",
+          "score": 0,
+          "comments": 8,
+          "url": "https://reddit.com/r/Music/comments/1m912c9/what_do_you_think_of_taylor_swift_and_her_music/"
+        }
+      ],
+      "priceData": [
+        {
+          "date": "2025-09-17",
+          "prices": [
+            165
+          ],
+          "context": "Sabrina Carpenter Short n’ Sweet Tour",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1njhci0/sabrina_carpenter_short_n_sweet_tour/"
+        },
+        {
+          "date": "2025-06-03",
+          "prices": [
+            200,
+            300
+          ],
+          "context": "Question for buying tickets depending on the artist? Tickets going cheaper/ selling out",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1l2qu08/question_for_buying_tickets_depending_on_the/"
+        },
+        {
+          "date": "2024-10-07",
+          "prices": [
+            450,
+            250,
+            300
+          ],
+          "context": "Sabrina Carpenter tix - need advice!",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1fybtdq/sabrina_carpenter_tix_need_advice/"
+        },
+        {
+          "date": "2025-11-13",
+          "prices": [
+            205
+          ],
+          "context": "Selling 2 tickets to Sabrina Carpenter's gig in New York on 11/13",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1owbe03/selling_2_tickets_to_sabrina_carpenters_gig_in/"
+        },
+        {
+          "date": "2025-11-04",
+          "prices": [
+            230
+          ],
+          "context": "2 Sabrina Carpenter tickets for 11/4",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1ooknd7/2_sabrina_carpenter_tickets_for_114/"
+        },
+        {
+          "date": "2025-10-10",
+          "prices": [
+            100,
+            300,
+            500
+          ],
+          "context": "Should I go to Billie Eilish twice?",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1o3ciz2/should_i_go_to_billie_eilish_twice/"
+        },
+        {
+          "date": "2024-10-08",
+          "prices": [
+            100
+          ],
+          "context": "Looking for Sabrina Carpenter tickets for this Friday <$100",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1fz3hic/looking_for_sabrina_carpenter_tickets_for_this/"
+        },
+        {
+          "date": "2024-09-24",
+          "prices": [
+            100
+          ],
+          "context": "Question about buying tickets last minute",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1fo19x0/question_about_buying_tickets_last_minute/"
+        },
+        {
+          "date": "2024-08-27",
+          "prices": [
+            20,
+            278
+          ],
+          "context": "Kia Forum or Crypto Arena ?",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1f2dm8r/kia_forum_or_crypto_arena/"
+        },
+        {
+          "date": "2024-08-11",
+          "prices": [
+            450,
+            450
+          ],
+          "context": "Sabrina Carpenter Tickets San Francisco 11/09",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1epreij/sabrina_carpenter_tickets_san_francisco_1109/"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:27:04.692Z"
+    },
+    "Zach Bryan": {
+      "artist": "Zach Bryan",
+      "totalPosts": 33,
+      "relevantPosts": 33,
+      "selloutReports": [
+        {
+          "date": "2024-02-18",
+          "title": "How early should I get to the Zach Bryan concert in Chicago?",
+          "subreddit": "Concerts",
+          "score": 2,
+          "comments": 1,
+          "url": "https://reddit.com/r/Concerts/comments/1aty1di/how_early_should_i_get_to_the_zach_bryan_concert/"
+        }
+      ],
+      "priceData": [
+        {
+          "date": "2024-12-10",
+          "prices": [
+            115
+          ],
+          "context": "Selling Zach Bryan Tickets",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1hau8y3/selling_zach_bryan_tickets/"
+        },
+        {
+          "date": "2024-05-02",
+          "prices": [
+            150,
+            150
+          ],
+          "context": "Zach Bryan 6/7 TMobile Las Vegas",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1cikr1d/zach_bryan_67_tmobile_las_vegas/"
+        },
+        {
+          "date": "2026-03-12",
+          "prices": [
+            193,
+            164
+          ],
+          "context": "Ticketmaster offer lower than resale value?",
+          "subreddit": "Ticketmaster",
+          "url": "https://reddit.com/r/Ticketmaster/comments/1rrc588/ticketmaster_offer_lower_than_resale_value/"
+        },
+        {
+          "date": "2025-02-05",
+          "prices": [
+            160,
+            120
+          ],
+          "context": "Zach Bryan & Kings of Leon Tickets",
+          "subreddit": "Music",
+          "url": "https://reddit.com/r/Music/comments/1iij17i/zach_bryan_kings_of_leon_tickets/"
+        },
+        {
+          "date": "2025-12-03",
+          "prices": [
+            300
+          ],
+          "context": "From ‘Homies Hate Ticketmaster’ to $300 Nosebleeds: Zach Bryan Fans Face Sky-High Prices for 2026 Tour",
+          "subreddit": "Music",
+          "url": "https://reddit.com/r/Music/comments/1pdif6k/from_homies_hate_ticketmaster_to_300_nosebleeds/"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:20:44.987Z"
+    },
+    "Alex Warren": {
+      "artist": "Alex Warren",
+      "totalPosts": 9,
+      "relevantPosts": 9,
+      "credibility": {
+        "soldOut": {
+          "credibility": "UNVERIFIED",
+          "confidence": 10,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 0,
+          "totalComments": 27,
+          "topPosts": [
+            {
+              "date": "2025-04-30",
+              "title": "Barricade arrival?",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1kb4f9x/barricade_arrival/"
+            }
+          ]
+        },
+        "highPrices": {
+          "credibility": "UNVERIFIED",
+          "confidence": 10,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 0,
+          "totalComments": 0,
+          "topPosts": [
+            {
+              "date": "2026-02-13",
+              "title": "Alex Warren Paris tickets",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1r3kh3m/alex_warren_paris_tickets/"
+            }
+          ]
+        },
+        "presaleInfo": {
+          "credibility": "LIKELY",
+          "confidence": 60,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 2,
+          "totalPosts": 2,
+          "totalUpvotes": 1,
+          "totalComments": 1,
+          "topPosts": [
+            {
+              "date": "2024-11-20",
+              "title": "Anyone have a presale code for Alex Warren Dublin?",
+              "subreddit": "Music",
+              "score": 1,
+              "url": "https://reddit.com/r/Music/comments/1gvm6m4/anyone_have_a_presale_code_for_alex_warren_dublin/"
+            },
+            {
+              "date": "2025-11-16",
+              "title": "Jingleball Madison Square Garden tickets face value on legit platform",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1oyui7d/jingleball_madison_square_garden_tickets_face/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [
+        {
+          "date": "2025-04-30",
+          "title": "Barricade arrival?",
+          "subreddit": "Concerts",
+          "score": 0,
+          "comments": 27,
+          "url": "https://reddit.com/r/Concerts/comments/1kb4f9x/barricade_arrival/"
+        }
+      ],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:27:58.776Z"
+    },
+    "Stavros Halkias": {
+      "artist": "Stavros Halkias",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:28:43.296Z"
+    },
+    "Freya Skye": {
+      "artist": "Freya Skye",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:29:19.860Z"
+    },
+    "Tyler Childers": {
+      "artist": "Tyler Childers",
+      "totalPosts": 7,
+      "relevantPosts": 7,
+      "credibility": {
+        "highPrices": {
+          "credibility": "UNVERIFIED",
+          "confidence": 11,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 1,
+          "totalComments": 4,
+          "topPosts": [
+            {
+              "date": "2024-03-08",
+              "title": "Is Seatgeek legit or no? Thanks 🙏🏼 ",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1b99fnr/is_seatgeek_legit_or_no_thanks/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [],
+      "priceData": [
+        {
+          "date": "2024-03-08",
+          "prices": [
+            550
+          ],
+          "context": "Is Seatgeek legit or no? Thanks 🙏🏼 ",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1b99fnr/is_seatgeek_legit_or_no_thanks/"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:29:57.230Z"
+    },
+    "Jelly Roll": {
+      "artist": "Jelly Roll",
+      "totalPosts": 10,
+      "relevantPosts": 10,
+      "credibility": {
+        "highPrices": {
+          "credibility": "UNVERIFIED",
+          "confidence": 11,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 1,
+          "totalComments": 0,
+          "topPosts": [
+            {
+              "date": "2024-05-04",
+              "title": "Thinking of buying tickets for a Jelly Roll concert in Knoxville",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1cjo87i/thinking_of_buying_tickets_for_a_jelly_roll/"
+            }
+          ]
+        },
+        "presaleInfo": {
+          "credibility": "UNVERIFIED",
+          "confidence": 11,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 1,
+          "totalComments": 5,
+          "topPosts": [
+            {
+              "date": "2024-11-14",
+              "title": "Ticketmaster Presale codes",
+              "subreddit": "Ticketmaster",
+              "score": 1,
+              "url": "https://reddit.com/r/Ticketmaster/comments/1gra7ak/ticketmaster_presale_codes/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [],
+      "priceData": [
+        {
+          "date": "2024-05-04",
+          "prices": [
+            600
+          ],
+          "context": "Thinking of buying tickets for a Jelly Roll concert in Knoxville",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1cjo87i/thinking_of_buying_tickets_for_a_jelly_roll/"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:30:35.531Z"
+    },
+    "Hilary Duff": {
+      "artist": "Hilary Duff",
+      "totalPosts": 29,
+      "relevantPosts": 27,
+      "credibility": {
+        "soldOut": {
+          "credibility": "LIKELY",
+          "confidence": 65,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 1,
+          "totalPosts": 3,
+          "totalUpvotes": 10,
+          "totalComments": 122,
+          "topPosts": [
+            {
+              "date": "2026-02-18",
+              "title": "Tickmaster Hilary Duff fan sold out? Link redirect weird",
+              "subreddit": "Concerts",
+              "score": 7,
+              "url": "https://reddit.com/r/Concerts/comments/1r85ogr/tickmaster_hilary_duff_fan_sold_out_link_redirect/"
+            },
+            {
+              "date": "2026-02-17",
+              "title": "Hilary Duff Presale Bought Out By Bots Already",
+              "subreddit": "Concerts",
+              "score": 2,
+              "url": "https://reddit.com/r/Concerts/comments/1r7as6e/hilary_duff_presale_bought_out_by_bots_already/"
+            },
+            {
+              "date": "2026-02-17",
+              "title": "Getting tickets to concerts is frustrating! Hilary Duff world tour",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1r78t00/getting_tickets_to_concerts_is_frustrating_hilary/"
+            }
+          ]
+        },
+        "highPrices": {
+          "credibility": "LIKELY",
+          "confidence": 55,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 1,
+          "totalPosts": 2,
+          "totalUpvotes": 3,
+          "totalComments": 26,
+          "topPosts": [
+            {
+              "date": "2026-02-17",
+              "title": "Hilary Duff Presale Bought Out By Bots Already",
+              "subreddit": "Concerts",
+              "score": 2,
+              "url": "https://reddit.com/r/Concerts/comments/1r7as6e/hilary_duff_presale_bought_out_by_bots_already/"
+            },
+            {
+              "date": "2026-02-22",
+              "title": "Disappointed",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1rbfvcx/disappointed/"
+            }
+          ]
+        },
+        "easyGet": {
+          "credibility": "VERIFIED",
+          "confidence": 75,
+          "sources": 3,
+          "uniqueDates": 3,
+          "uniqueSubreddits": 1,
+          "totalPosts": 4,
+          "totalUpvotes": 3,
+          "totalComments": 45,
+          "topPosts": [
+            {
+              "date": "2026-02-17",
+              "title": "Hilary Duff Presale Bought Out By Bots Already",
+              "subreddit": "Concerts",
+              "score": 2,
+              "url": "https://reddit.com/r/Concerts/comments/1r7as6e/hilary_duff_presale_bought_out_by_bots_already/"
+            },
+            {
+              "date": "2026-02-17",
+              "title": "Hilary Duff Ticketmaster Presale not working",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1r7agx5/hilary_duff_ticketmaster_presale_not_working/"
+            },
+            {
+              "date": "2026-03-07",
+              "title": "Tickets automatic cancellation twice on Vivid Seats",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1rmxfi1/tickets_automatic_cancellation_twice_on_vivid/"
+            },
+            {
+              "date": "2026-02-19",
+              "title": "Hilary Duff - viagogo - did I get scammed? Australia *help*",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1r8lvi5/hilary_duff_viagogo_did_i_get_scammed_australia/"
+            }
+          ]
+        },
+        "presaleInfo": {
+          "credibility": "VERIFIED",
+          "confidence": 100,
+          "sources": 8,
+          "uniqueDates": 7,
+          "uniqueSubreddits": 2,
+          "totalPosts": 15,
+          "totalUpvotes": 61,
+          "totalComments": 439,
+          "topPosts": [
+            {
+              "date": "2026-02-12",
+              "title": "Artist presale codes not working?? Am I the problem or is it the codes?",
+              "subreddit": "Concerts",
+              "score": 21,
+              "url": "https://reddit.com/r/Concerts/comments/1r2rmp0/artist_presale_codes_not_working_am_i_the_problem/"
+            },
+            {
+              "date": "2025-11-14",
+              "title": "Hilary duff London 16,000 presale queueing",
+              "subreddit": "Concerts",
+              "score": 21,
+              "url": "https://reddit.com/r/Concerts/comments/1owspft/hilary_duff_london_16000_presale_queueing/"
+            },
+            {
+              "date": "2026-02-16",
+              "title": "Hilary Duff Australia Presale Code",
+              "subreddit": "Concerts",
+              "score": 9,
+              "url": "https://reddit.com/r/Concerts/comments/1r6oa72/hilary_duff_australia_presale_code/"
+            },
+            {
+              "date": "2026-02-17",
+              "title": "Hilary Duff Presale Bought Out By Bots Already",
+              "subreddit": "Concerts",
+              "score": 2,
+              "url": "https://reddit.com/r/Concerts/comments/1r7as6e/hilary_duff_presale_bought_out_by_bots_already/"
+            },
+            {
+              "date": "2026-02-22",
+              "title": "Disappointed",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1rbfvcx/disappointed/"
+            }
+          ]
+        },
+        "tourAnnounce": {
+          "credibility": "UNVERIFIED",
+          "confidence": 11,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 1,
+          "totalComments": 1,
+          "topPosts": [
+            {
+              "date": "2026-02-22",
+              "title": "Disappointed",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1rbfvcx/disappointed/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [
+        {
+          "date": "2026-02-18",
+          "title": "Tickmaster Hilary Duff fan sold out? Link redirect weird",
+          "subreddit": "Concerts",
+          "score": 7,
+          "comments": 11,
+          "url": "https://reddit.com/r/Concerts/comments/1r85ogr/tickmaster_hilary_duff_fan_sold_out_link_redirect/"
+        },
+        {
+          "date": "2026-03-07",
+          "title": "Tickets automatic cancellation twice on Vivid Seats",
+          "subreddit": "Concerts",
+          "score": 0,
+          "comments": 3,
+          "url": "https://reddit.com/r/Concerts/comments/1rmxfi1/tickets_automatic_cancellation_twice_on_vivid/"
+        },
+        {
+          "date": "2026-02-17",
+          "title": "Hilary Duff Presale Bought Out By Bots Already",
+          "subreddit": "Concerts",
+          "score": 2,
+          "comments": 25,
+          "url": "https://reddit.com/r/Concerts/comments/1r7as6e/hilary_duff_presale_bought_out_by_bots_already/"
+        }
+      ],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:31:15.156Z"
+    },
+    "Mt. Joy": {
+      "artist": "Mt. Joy",
+      "totalPosts": 4,
+      "relevantPosts": 4,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:31:53.552Z"
+    },
+    "KETTAMA": {
+      "artist": "KETTAMA",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:32:24.481Z"
+    },
+    "Noah Kahan": {
+      "artist": "Noah Kahan",
+      "totalPosts": 27,
+      "relevantPosts": 27,
+      "credibility": {
+        "soldOut": {
+          "credibility": "LIKELY",
+          "confidence": 55,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 1,
+          "totalPosts": 3,
+          "totalUpvotes": 3,
+          "totalComments": 0,
+          "topPosts": [
+            {
+              "date": "2024-07-06",
+              "title": "Last-Minute Tickets?",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1dwwhx0/lastminute_tickets/"
+            },
+            {
+              "date": "2025-03-02",
+              "title": "AXS tickets",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1j1ozvu/axs_tickets/"
+            },
+            {
+              "date": "2025-03-02",
+              "title": "AXA tickets",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1j1oyxl/axa_tickets/"
+            }
+          ]
+        },
+        "highPrices": {
+          "credibility": "LIKELY",
+          "confidence": 55,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 1,
+          "totalPosts": 2,
+          "totalUpvotes": 2,
+          "totalComments": 1,
+          "topPosts": [
+            {
+              "date": "2024-07-06",
+              "title": "Last-Minute Tickets?",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1dwwhx0/lastminute_tickets/"
+            },
+            {
+              "date": "2026-02-13",
+              "title": "Which seats would you choose? - advice appreciated",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1r42bri/which_seats_would_you_choose_advice_appreciated/"
+            }
+          ]
+        },
+        "easyGet": {
+          "credibility": "LIKELY",
+          "confidence": 60,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 2,
+          "totalPosts": 2,
+          "totalUpvotes": 5,
+          "totalComments": 6,
+          "topPosts": [
+            {
+              "date": "2026-03-07",
+              "title": "Ticketmaster changed my seats?",
+              "subreddit": "Ticketmaster",
+              "score": 4,
+              "url": "https://reddit.com/r/Ticketmaster/comments/1rno873/ticketmaster_changed_my_seats/"
+            },
+            {
+              "date": "2026-02-13",
+              "title": "Which seats would you choose? - advice appreciated",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1r42bri/which_seats_would_you_choose_advice_appreciated/"
+            }
+          ]
+        },
+        "presaleInfo": {
+          "credibility": "VERIFIED",
+          "confidence": 100,
+          "sources": 5,
+          "uniqueDates": 5,
+          "uniqueSubreddits": 1,
+          "totalPosts": 6,
+          "totalUpvotes": 83,
+          "totalComments": 106,
+          "topPosts": [
+            {
+              "date": "2026-02-12",
+              "title": "I wish Ticketmaster would be stopped.",
+              "subreddit": "Concerts",
+              "score": 71,
+              "url": "https://reddit.com/r/Concerts/comments/1r307vw/i_wish_ticketmaster_would_be_stopped/"
+            },
+            {
+              "date": "2026-03-01",
+              "title": "\"Buy or Wait\" analysis for Joji in Toronto",
+              "subreddit": "Concerts",
+              "score": 7,
+              "url": "https://reddit.com/r/Concerts/comments/1ri9qqv/buy_or_wait_analysis_for_joji_in_toronto/"
+            },
+            {
+              "date": "2026-02-06",
+              "title": "Ticketmaster Non-Transferable NYC ticket question (Noah Kahan)",
+              "subreddit": "Concerts",
+              "score": 2,
+              "url": "https://reddit.com/r/Concerts/comments/1qxvgzu/ticketmaster_nontransferable_nyc_ticket_question/"
+            },
+            {
+              "date": "2026-02-13",
+              "title": "Which seats would you choose? - advice appreciated",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1r42bri/which_seats_would_you_choose_advice_appreciated/"
+            },
+            {
+              "date": "2025-03-02",
+              "title": "AXS tickets",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1j1ozvu/axs_tickets/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [
+        {
+          "date": "2024-07-06",
+          "title": "Last-Minute Tickets?",
+          "subreddit": "Concerts",
+          "score": 1,
+          "comments": 0,
+          "url": "https://reddit.com/r/Concerts/comments/1dwwhx0/lastminute_tickets/"
+        }
+      ],
+      "priceData": [
+        {
+          "date": "2026-02-13",
+          "prices": [
+            308
+          ],
+          "context": "Which seats would you choose? - advice appreciated",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1r42bri/which_seats_would_you_choose_advice_appreciated/"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:32:54.891Z"
+    },
+    "Rezz": {
+      "artist": "Rezz",
+      "totalPosts": 1,
+      "relevantPosts": 1,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:33:24.599Z"
+    },
+    "Bailey Zimmerman": {
+      "artist": "Bailey Zimmerman",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:34:30.849Z"
+    },
+    "Morgan Wallen": {
+      "artist": "Morgan Wallen",
+      "totalPosts": 11,
+      "relevantPosts": 11,
+      "credibility": {
+        "highPrices": {
+          "credibility": "LIKELY",
+          "confidence": 55,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 1,
+          "totalPosts": 2,
+          "totalUpvotes": 0,
+          "totalComments": 2,
+          "topPosts": [
+            {
+              "date": "2025-03-19",
+              "title": "Selling 2 Morgan Wallen - Sand in My Boots General Admin Tickets",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1jex0o6/selling_2_morgan_wallen_sand_in_my_boots_general/"
+            },
+            {
+              "date": "2024-07-27",
+              "title": "Morgan Wallen - 09/22/24 Neyland Stadium - 2 tickets for sale $300",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1edab9y/morgan_wallen_092224_neyland_stadium_2_tickets/"
+            }
+          ]
+        },
+        "presaleInfo": {
+          "credibility": "LIKELY",
+          "confidence": 60,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 1,
+          "totalPosts": 2,
+          "totalUpvotes": 15,
+          "totalComments": 29,
+          "topPosts": [
+            {
+              "date": "2025-03-25",
+              "title": "Buy now or wait",
+              "subreddit": "Concerts",
+              "score": 15,
+              "url": "https://reddit.com/r/Concerts/comments/1jj8a6l/buy_now_or_wait/"
+            },
+            {
+              "date": "2025-01-29",
+              "title": "Morgan Wallen Hunger Games",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1id1mbk/morgan_wallen_hunger_games/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [],
+      "priceData": [
+        {
+          "date": "2025-03-19",
+          "prices": [
+            600
+          ],
+          "context": "Selling 2 Morgan Wallen - Sand in My Boots General Admin Tickets",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1jex0o6/selling_2_morgan_wallen_sand_in_my_boots_general/"
+        },
+        {
+          "date": "2024-07-27",
+          "prices": [
+            300
+          ],
+          "context": "Morgan Wallen - 09/22/24 Neyland Stadium - 2 tickets for sale $300",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1edab9y/morgan_wallen_092224_neyland_stadium_2_tickets/"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:34:51.530Z"
+    },
+    "Michael Blaustein": {
+      "artist": "Michael Blaustein",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:35:12.111Z"
+    },
+    "Jordan Jensen": {
+      "artist": "Jordan Jensen",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:35:33.716Z"
+    },
+    "Druski": {
+      "artist": "Druski",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:35:58.503Z"
+    },
+    "Djo (Joe Keery)": {
+      "artist": "Djo (Joe Keery)",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:36:20.930Z"
+    },
+    "Treaty Oak Revival": {
+      "artist": "Treaty Oak Revival",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:37:44.391Z"
+    },
+    "Doja Cat": {
+      "artist": "Doja Cat",
+      "totalPosts": 14,
+      "relevantPosts": 11,
+      "credibility": {
+        "soldOut": {
+          "credibility": "UNVERIFIED",
+          "confidence": 13,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 3,
+          "totalComments": 4,
+          "topPosts": [
+            {
+              "date": "2024-07-18",
+              "title": "cheaper tickets",
+              "subreddit": "Concerts",
+              "score": 3,
+              "url": "https://reddit.com/r/Concerts/comments/1e65zij/cheaper_tickets/"
+            }
+          ]
+        },
+        "highPrices": {
+          "credibility": "UNVERIFIED",
+          "confidence": 10,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 0,
+          "totalComments": 0,
+          "topPosts": [
+            {
+              "date": "2025-08-27",
+              "title": "Lining up for Concerts",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1n1hfxk/lining_up_for_concerts/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [
+        {
+          "date": "2024-07-18",
+          "title": "cheaper tickets",
+          "subreddit": "Concerts",
+          "score": 3,
+          "comments": 4,
+          "url": "https://reddit.com/r/Concerts/comments/1e65zij/cheaper_tickets/"
+        }
+      ],
+      "priceData": [
+        {
+          "date": "2025-08-27",
+          "prices": [
+            500
+          ],
+          "context": "Lining up for Concerts",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1n1hfxk/lining_up_for_concerts/"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:38:25.857Z"
+    },
+    "Josh Johnson": {
+      "artist": "Josh Johnson",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:39:01.891Z"
+    },
+    "Mau P": {
+      "artist": "Mau P",
+      "totalPosts": 1,
+      "relevantPosts": 1,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [
+        {
+          "date": "2024-08-20",
+          "prices": [
+            55
+          ],
+          "context": "AXS BOGO question",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1ex9k7q/axs_bogo_question/"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:39:32.224Z"
+    },
+    "Florence Road": {
+      "artist": "Florence Road",
+      "totalPosts": 3,
+      "relevantPosts": 1,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:40:12.458Z"
+    },
+    "Post Malone": {
+      "artist": "Post Malone",
+      "totalPosts": 28,
+      "relevantPosts": 26,
+      "credibility": {
+        "soldOut": {
+          "credibility": "UNVERIFIED",
+          "confidence": 15,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 5,
+          "totalComments": 9,
+          "topPosts": [
+            {
+              "date": "2024-07-05",
+              "title": "Which concert sells out first?",
+              "subreddit": "Concerts",
+              "score": 5,
+              "url": "https://reddit.com/r/Concerts/comments/1dw4czm/which_concert_sells_out_first/"
+            }
+          ]
+        },
+        "easyGet": {
+          "credibility": "UNVERIFIED",
+          "confidence": 15,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 5,
+          "totalComments": 9,
+          "topPosts": [
+            {
+              "date": "2024-07-05",
+              "title": "Which concert sells out first?",
+              "subreddit": "Concerts",
+              "score": 5,
+              "url": "https://reddit.com/r/Concerts/comments/1dw4czm/which_concert_sells_out_first/"
+            }
+          ]
+        },
+        "presaleInfo": {
+          "credibility": "LIKELY",
+          "confidence": 80,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 1,
+          "totalPosts": 2,
+          "totalUpvotes": 68,
+          "totalComments": 128,
+          "topPosts": [
+            {
+              "date": "2026-02-01",
+              "title": "Why, in my experience, have concerts skyrocketed in price the last 10-15 years? For reference: Large Western European and American cities",
+              "subreddit": "Concerts",
+              "score": 61,
+              "url": "https://reddit.com/r/Concerts/comments/1qt7bqt/why_in_my_experience_have_concerts_skyrocketed_in/"
+            },
+            {
+              "date": "2026-03-01",
+              "title": "\"Buy or Wait\" analysis for Joji in Toronto",
+              "subreddit": "Concerts",
+              "score": 7,
+              "url": "https://reddit.com/r/Concerts/comments/1ri9qqv/buy_or_wait_analysis_for_joji_in_toronto/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [
+        {
+          "date": "2024-07-05",
+          "title": "Which concert sells out first?",
+          "subreddit": "Concerts",
+          "score": 5,
+          "comments": 9,
+          "url": "https://reddit.com/r/Concerts/comments/1dw4czm/which_concert_sells_out_first/"
+        }
+      ],
+      "priceData": [
+        {
+          "date": "2024-08-13",
+          "prices": [
+            100,
+            110
+          ],
+          "context": "Have you used XP tickets?",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1erlep4/have_you_used_xp_tickets/"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:41:06.517Z"
+    },
+    "Knock2": {
+      "artist": "Knock2",
+      "totalPosts": 0,
+      "relevantPosts": 0,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:41:34.890Z"
+    },
+    "Lord Huron": {
+      "artist": "Lord Huron",
+      "totalPosts": 4,
+      "relevantPosts": 4,
+      "credibility": {},
+      "selloutReports": [],
+      "priceData": [
+        {
+          "date": "2024-07-02",
+          "prices": [
+            220,
+            110
+          ],
+          "context": "SELLING 2 VIP TICKETS — Hozier, Brittany Howard, and Lord Huron!!!! Finsbury Park, July 7th",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1dtlq0e/selling_2_vip_tickets_hozier_brittany_howard_and/"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:42:16.152Z"
+    },
+    "Matt Rife": {
+      "artist": "Matt Rife",
+      "totalPosts": 4,
+      "relevantPosts": 4,
+      "credibility": {
+        "easyGet": {
+          "credibility": "UNVERIFIED",
+          "confidence": 10,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 0,
+          "totalComments": 4,
+          "topPosts": [
+            {
+              "date": "2025-08-07",
+              "title": "How to resell Matt Rife Ticketmaster tickets for this weekend?",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1mjylom/how_to_resell_matt_rife_ticketmaster_tickets_for/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [],
+      "priceData": [],
+      "scrapedAt": "2026-03-13T15:44:42.486Z"
+    }
+  },
+  "lastRun": "2026-03-13T15:52:00.355Z"
+}

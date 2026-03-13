@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-10T14:00:42.522Z",
+  "timestamp": "2026-03-11T14:00:52.092Z",
   "shows": [
     {
       "comedian": "Nate Bargatze",
@@ -11,19 +11,6 @@
       "ticketUrl": "https://t.co/ZAHC0aJqh3",
       "engagement": 23,
       "created": "2026-03-09T17:03:03.000Z",
-      "isSmallVenue": null,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Kill Tony",
-      "venue": "Unknown venue",
-      "venueCapacity": null,
-      "source": "twitter",
-      "text": "🆕Killers of Kill of Kill Tony Standup Comedy 😂come to the 🎭Orpheum in Vancouver 🗓️Nov 28, 2026. \n\nTicket links here 🎟️ https://t.co/qWPqjmP69F\nVenue presale Mar 12 at 10am, use code KT2026\nOn sal",
-      "url": "https://x.com/i/status/2031369483022119086",
-      "ticketUrl": "https://t.co/qWPqjmP69F",
-      "engagement": 0,
-      "created": "2026-03-10T14:00:00.000Z",
       "isSmallVenue": null,
       "isNewAnnouncement": false
     },
@@ -80,6 +67,19 @@
       "isNewAnnouncement": false
     },
     {
+      "comedian": "Bert Kreischer",
+      "venue": "Unknown venue",
+      "venueCapacity": null,
+      "source": "twitter",
+      "text": "Bert Kreischer is returning to The Arena at TD Place with a stop on his Permission to Party World Tour on March 22nd, 2026!\n\nCongrats to Dan Kaazan &amp; Morgan Mullan who won a pair of tickets on TSN",
+      "url": "https://x.com/i/status/2031439636841578755",
+      "ticketUrl": "https://t.co/GhqvIbYHFy",
+      "engagement": 0,
+      "created": "2026-03-10T18:38:46.000Z",
+      "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
+    {
       "comedian": "Unknown",
       "venue": "Zanies (Nashville, cap: 300)",
       "venueCapacity": 300,
@@ -94,40 +94,27 @@
     },
     {
       "comedian": "Mark Normand",
-      "venue": "Zanies (Nashville, cap: 300)",
-      "venueCapacity": 300,
+      "venue": "The Stand (New York, cap: 200)",
+      "venueCapacity": 200,
       "source": "brave",
-      "text": "Tickets: <strong>VIP tickets include priority seating ONLY (seating closest to the stage).</strong> Will Call is the ONLY option given when purchasing tickets. We do NOT give physical or digital ticke",
-      "url": "https://nashville.zanies.com/show/mark-normand-15/zanies/nashville-tennessee/",
+      "text": "Dubbed by Jerry Seinfeld as the “best young up and coming comic,” Mark Normand released a Netflix special, Soup to Nuts, in 2023, a follow-up to his 2020 self-released YouTube special, Out to Lunch. N",
+      "url": "https://austin.culturemap.com/eventdetail/comedy-mothership-presents-mark-normand/",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-03-05T16:02:46",
+      "created": "2026-03-10T21:51:20",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     },
     {
-      "comedian": "Kill Tony",
-      "venue": "Comedy Store (Los Angeles, cap: 450)",
-      "venueCapacity": 450,
-      "source": "brave",
-      "text": "Originally recorded at The Comedy Store in Los Angeles, California, Kill Tony moved to Austin, Texas for its 487th episode, recording at Antone&#x27;s Nightclub for 18 episodes, Vulcan Gas Company for",
-      "url": "https://en.wikipedia.org/wiki/Kill_Tony",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-03-03T02:03:41",
-      "isSmallVenue": true,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Andrew Schulz",
+      "comedian": "Mark Normand",
       "venue": "Zanies (Nashville, cap: 300)",
       "venueCapacity": 300,
       "source": "brave",
-      "text": "Tickets: Will Call is the ONLY option given when purchasing <strong>tickets</strong>. We do NOT give physical or digital <strong>tickets</strong> for entry to our shows. Once <strong>tickets</strong> ",
-      "url": "https://nashville.zanies.com/show/andrew-schulz/zanies/nashville-tennessee/",
+      "text": "Tickets: VIP <strong>tickets</strong> include priority seating ONLY (seating closest to the stage). Will Call is the ONLY option given when purchasing <strong>tickets</strong>. We do NOT give physical",
+      "url": "https://nashville.zanies.com/show/mark-normand-14/zanies/nashville-tennessee/",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-03-05T15:21:15",
+      "created": "2026-03-05T15:42:32",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     },
@@ -136,11 +123,24 @@
       "venue": "Funny Bone (Various, cap: 350)",
       "venueCapacity": 350,
       "source": "brave",
-      "text": "2026 · <strong>Funny Bone</strong> · Facebook-f Instagram · 560 S Prairie View Dr #100 West Des Moines, IA 50266 · (515) 270-2100 · Powered by ROCKHOUSE PARTNERS an ETIX company.",
-      "url": "https://desmoines.funnybone.com/events/category/series/caitlin-peluffo/funny-bone-comedy-club/",
+      "text": "VIP Ticket Includes: Preferred Seating Section Close to the Stage · &amp;copy · 2026 · Funny Bone · Facebook-f Instagram · 1600 E 8th Ave C-112 Tampa, FL 33605 · (813) 864-4000 · Powered by ROCKHOUSE ",
+      "url": "https://tampa.funnybone.com/events/category/series/steven-ho/tampa-funny-bone/",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-03-07T23:54:52",
+      "created": "2026-03-09T22:23:13",
+      "isSmallVenue": true,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Bert Kreischer",
+      "venue": "Funny Bone (Various, cap: 350)",
+      "venueCapacity": 350,
+      "source": "brave",
+      "text": "In 2022, he founded Berty Boy Productions [bertyboyproductions.com], the production home to the entire video and podcast solar system that orbits Kreischer, his friends and colleagues, and the Fully L",
+      "url": "https://omaha.funnybone.com/events/category/series/bert-kreischer/omaha-funny-bone/",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-03-08T21:50:21",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     }
