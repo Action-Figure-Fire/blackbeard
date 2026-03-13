@@ -797,6 +797,229 @@
         }
       ],
       "scrapedAt": "2026-03-13T15:52:00.354Z"
+    },
+    "Chappell Roan": {
+      "artist": "Chappell Roan",
+      "slug": "chappell-roan",
+      "snapshots": [
+        {
+          "date": "2024-06-18",
+          "timestamp": "20240618170638",
+          "url": "https://seatgeek.com/chappell-roan-tickets/chicago-illinois-vic-theatre-chicago-2024-07-31-9-pm/concert/16904890",
+          "listingCount": 23,
+          "lowestPrice": 531,
+          "avgPrice": 1132,
+          "highestPrice": 5730,
+          "title": "Chappell Roan Tickets Chicago (Vic Theatre - Chicago) - Jul 31, 2024 at 9:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 531,
+          "askPrice": 5730,
+          "priceWarning": "11x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-06-22",
+          "timestamp": "20240622131819",
+          "url": "https://seatgeek.com/chappell-roan-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 22,
+            "max": 80
+          }
+        },
+        {
+          "date": "2024-07-09",
+          "timestamp": "20240709154008",
+          "url": "https://seatgeek.com/chappell-roan-tickets",
+          "listingCount": 25,
+          "lowestPrice": 772,
+          "avgPrice": 1021,
+          "highestPrice": 2295,
+          "title": "Chappell Roan Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 1021
+        },
+        {
+          "date": "2024-07-17",
+          "timestamp": "20240717175408",
+          "url": "https://seatgeek.com/chappell-roan-tickets",
+          "listingCount": 2,
+          "lowestPrice": 415,
+          "avgPrice": 459,
+          "highestPrice": 512,
+          "title": "Chappell Roan Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 459,
+          "priceWarning": "; thin market (<10 listings)"
+        },
+        {
+          "date": "2024-07-18",
+          "timestamp": "20240718180910",
+          "url": "https://seatgeek.com/chappell-roan-tickets",
+          "listingCount": 1,
+          "lowestPrice": 465,
+          "avgPrice": 467,
+          "highestPrice": 478,
+          "title": "Chappell Roan Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 467,
+          "priceWarning": "; thin market (<10 listings)"
+        },
+        {
+          "date": "2024-07-22",
+          "timestamp": "20240722004634",
+          "url": "https://seatgeek.com/chappell-roan-tickets/chicago-illinois-vic-theatre-chicago-2024-07-31-9-pm/concert/16904890",
+          "listingCount": 23,
+          "lowestPrice": 697,
+          "avgPrice": 917,
+          "highestPrice": 1847,
+          "title": "Chappell Roan Tickets Chicago (Vic Theatre - Chicago) - Jul 31, 2024 at 9:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 917
+        },
+        {
+          "date": "2024-07-23",
+          "timestamp": "20240723045028",
+          "url": "https://seatgeek.com/chappell-roan-tickets/franklin-tennessee-firstbank-amphitheater-2024-10-01-8-pm/concert/17005483?irclickid=&utm_source=impact&utm_medium=affiliate&utm_campaign=Advance%20Local%20-%20Michigan&utm_term=1810040&utm_content=&pid=Advance%20Local%20-%20Michigan&aid=16137&irgwc=1",
+          "listingCount": 208,
+          "lowestPrice": 352,
+          "avgPrice": 1119,
+          "highestPrice": 34930,
+          "title": "Chappell Roan Tickets Franklin (FirstBank Amphitheater) - Oct 1, 2024 at 8:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 352,
+          "askPrice": 34930,
+          "priceWarning": "99x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-07-24",
+          "timestamp": "20240724025504",
+          "url": "https://seatgeek.com/chappell-roan-tickets",
+          "listingCount": 20,
+          "lowestPrice": 692,
+          "avgPrice": 1367,
+          "highestPrice": 11454,
+          "title": "Chappell Roan Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 692,
+          "askPrice": 11454,
+          "priceWarning": "17x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-07-25",
+          "timestamp": "20240725140320",
+          "url": "https://seatgeek.com/chappell-roan-tickets/council-bluffs-iowa-westfair-amphitheater-2024-10-03-8-pm/concert/17005487?irclickid=&utm_source=impact&utm_medium=affiliate&utm_campaign=Advance%20Local%20-%20Michigan&utm_term=1810040&utm_content=&pid=Advance%20Local%20-%20Michigan&aid=16137&irgwc=1",
+          "listingCount": 205,
+          "lowestPrice": 270,
+          "avgPrice": 844,
+          "highestPrice": 11454,
+          "title": "Chappell Roan Tickets Council Bluffs (Westfair Amphitheater) - Oct 3, 2024 at 8:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 270,
+          "askPrice": 11454,
+          "priceWarning": "42x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-07-26",
+          "timestamp": "20240726030952",
+          "url": "https://seatgeek.com/chappell-roan-tickets/franklin-tennessee-firstbank-amphitheater-2024-10-01-8-pm/concert/17005483",
+          "listingCount": 71,
+          "lowestPrice": 515,
+          "avgPrice": 2313,
+          "highestPrice": 64173,
+          "title": "Chappell Roan Tickets Franklin (FirstBank Amphitheater) - Oct 1, 2024 at 8:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 515,
+          "askPrice": 64173,
+          "priceWarning": "125x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-07-27",
+          "timestamp": "20240727194817",
+          "url": "https://seatgeek.com/chappell-roan-tickets/chicago-illinois-vic-theatre-chicago-2024-07-31-9-pm/concert/16904890?irclickid=&utm_source=impact&utm_medium=affiliate&utm_campaign=Advance%20Local%20-%20Michigan&utm_term=1810040&utm_content=&pid=Advance%20Local%20-%20Michigan&aid=16137&irgwc=1",
+          "soldOut": false,
+          "priceRange": {
+            "min": 74,
+            "max": 74
+          }
+        },
+        {
+          "date": "2024-08-04",
+          "timestamp": "20240804173423",
+          "url": "https://seatgeek.com/chappell-roan-tickets",
+          "listingCount": 36,
+          "lowestPrice": 580,
+          "avgPrice": 1464,
+          "highestPrice": 11766,
+          "title": "Chappell Roan Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 580,
+          "askPrice": 11766,
+          "priceWarning": "20x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-09-15",
+          "timestamp": "20240915042053",
+          "url": "https://seatgeek.com/chappell-roan-tickets?aid=16137&irclickid=&irgwc=1&pid=Advance%20Local%20-%20Michigan&utm_campaign=Advance%20Local%20-%20Michigan&utm_content=&utm_medium=affiliate&utm_source=impact&utm_term=1810040",
+          "listingCount": 224,
+          "lowestPrice": 365,
+          "avgPrice": 1784,
+          "highestPrice": 101989,
+          "title": "Chappell Roan Tickets, 2024 Concert Tour Dates | SeatGeek",
+          "soldOut": true,
+          "marketPrice": 365,
+          "askPrice": 101989,
+          "priceWarning": "279x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-09-19",
+          "timestamp": "20240919173648",
+          "url": "https://seatgeek.com/chappell-roan-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 11,
+            "max": 77
+          }
+        },
+        {
+          "date": "2024-09-27",
+          "timestamp": "20240927164609",
+          "url": "https://seatgeek.com/chappell-roan-tickets",
+          "soldOut": false,
+          "priceRange": {
+            "min": 45,
+            "max": 76
+          }
+        },
+        {
+          "date": "2024-09-30",
+          "timestamp": "20240930182359",
+          "url": "https://seatgeek.com/chappell-roan-tickets/franklin-tennessee-firstbank-amphitheater-2024-10-01-8-pm/concert/17005483",
+          "listingCount": 205,
+          "lowestPrice": 320,
+          "avgPrice": 1797,
+          "highestPrice": 58255,
+          "title": "Chappell Roan Tickets Franklin (FirstBank Amphitheater) - Oct 1, 2024 at 8:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 320,
+          "askPrice": 58255,
+          "priceWarning": "182x spread — max is likely aspirational scalper pricing"
+        },
+        {
+          "date": "2024-10-01",
+          "timestamp": "20241001194015",
+          "url": "https://seatgeek.com/chappell-roan-tickets/council-bluffs-iowa-westfair-amphitheater-2024-10-03-8-pm/concert/17005487",
+          "listingCount": 412,
+          "lowestPrice": 85,
+          "avgPrice": 389,
+          "highestPrice": 56251,
+          "title": "Chappell Roan Tickets Council Bluffs (Westfair Amphitheater) - Oct 3, 2024 at 8:00pm | SeatGeek",
+          "soldOut": false,
+          "marketPrice": 85,
+          "askPrice": 56251,
+          "priceWarning": "662x spread — max is likely aspirational scalper pricing"
+        }
+      ],
+      "scrapedAt": "2026-03-13T15:55:02.956Z"
     }
   },
   "reddit": {
@@ -2215,7 +2438,145 @@
       "selloutReports": [],
       "priceData": [],
       "scrapedAt": "2026-03-13T15:44:42.486Z"
+    },
+    "Chappell Roan": {
+      "artist": "Chappell Roan",
+      "totalPosts": 24,
+      "relevantPosts": 21,
+      "credibility": {
+        "soldOut": {
+          "credibility": "LIKELY",
+          "confidence": 60,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 2,
+          "totalPosts": 2,
+          "totalUpvotes": 2,
+          "totalComments": 5,
+          "topPosts": [
+            {
+              "date": "2024-06-21",
+              "title": "Bought tickets through Viagogo before reading reviews ",
+              "subreddit": "Music",
+              "score": 2,
+              "url": "https://reddit.com/r/Music/comments/1dl523y/bought_tickets_through_viagogo_before_reading/"
+            },
+            {
+              "date": "2024-08-26",
+              "title": "ISO 2 Chappell Roan Tickets for Berlin gig at Columbiahalle",
+              "subreddit": "Concerts",
+              "score": 0,
+              "url": "https://reddit.com/r/Concerts/comments/1f1mqrm/iso_2_chappell_roan_tickets_for_berlin_gig_at/"
+            }
+          ]
+        },
+        "highPrices": {
+          "credibility": "UNVERIFIED",
+          "confidence": 10,
+          "sources": 1,
+          "uniqueDates": 1,
+          "uniqueSubreddits": 1,
+          "totalPosts": 1,
+          "totalUpvotes": 0,
+          "totalComments": 0,
+          "topPosts": [
+            {
+              "date": "2024-09-04",
+              "title": "Chappell Roan Says She’s Canceling Scalper-Bought Tickets for Tennessee Show, Offers Fans an Alternative Shot at Getting In",
+              "subreddit": "Music",
+              "score": 0,
+              "url": "https://reddit.com/r/Music/comments/1f8y9a2/chappell_roan_says_shes_canceling_scalperbought/"
+            }
+          ]
+        },
+        "easyGet": {
+          "credibility": "LIKELY",
+          "confidence": 55,
+          "sources": 2,
+          "uniqueDates": 2,
+          "uniqueSubreddits": 1,
+          "totalPosts": 2,
+          "totalUpvotes": 2,
+          "totalComments": 0,
+          "topPosts": [
+            {
+              "date": "2025-10-10",
+              "title": "Selling 3x GA Chappell Roan Pasadena tickets for tomorrow (10/10)! Face value & parking pass available as well!",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1o2o6vj/selling_3x_ga_chappell_roan_pasadena_tickets_for/"
+            },
+            {
+              "date": "2025-10-01",
+              "title": "Selling Chappell Roan (Pasadena) Tickets",
+              "subreddit": "Concerts",
+              "score": 1,
+              "url": "https://reddit.com/r/Concerts/comments/1nv7mhg/selling_chappell_roan_pasadena_tickets/"
+            }
+          ]
+        }
+      },
+      "selloutReports": [
+        {
+          "date": "2024-06-21",
+          "title": "Bought tickets through Viagogo before reading reviews ",
+          "subreddit": "Music",
+          "score": 2,
+          "comments": 4,
+          "url": "https://reddit.com/r/Music/comments/1dl523y/bought_tickets_through_viagogo_before_reading/"
+        }
+      ],
+      "priceData": [
+        {
+          "date": "2025-10-09",
+          "prices": [
+            125,
+            100,
+            180
+          ],
+          "context": "10/10 Selling Chappell Roan Tickets Pasadena (N1)",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1o2gbr2/1010_selling_chappell_roan_tickets_pasadena_n1/"
+        },
+        {
+          "date": "2025-10-08",
+          "prices": [
+            125,
+            95
+          ],
+          "context": "Selling four GA tickets for Chappell Roan Pasadena N1",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1o1hk9c/selling_four_ga_tickets_for_chappell_roan/"
+        },
+        {
+          "date": "2025-10-02",
+          "prices": [
+            130
+          ],
+          "context": "Selling 2 GA Tickets to 10/3 Chappell Roan Pop-Up Show in Kansas City",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1nwcd63/selling_2_ga_tickets_to_103_chappell_roan_popup/"
+        },
+        {
+          "date": "2025-10-01",
+          "prices": [
+            150
+          ],
+          "context": "Selling Chappell Roan (Pasadena) Tickets",
+          "subreddit": "Concerts",
+          "url": "https://reddit.com/r/Concerts/comments/1nv7mhg/selling_chappell_roan_pasadena_tickets/"
+        }
+      ],
+      "consensusPrice": {
+        "median": 125,
+        "low": 95,
+        "high": 180,
+        "sampleSize": 4,
+        "totalMentions": 7,
+        "credibility": "VERIFIED"
+      },
+      "scrapedAt": "2026-03-13T15:55:23.522Z"
     }
   },
-  "lastRun": "2026-03-13T15:52:00.355Z"
+  "lastRun": "2026-03-13T15:55:23.522Z"
 }

@@ -465,6 +465,96 @@ function predictSellout(artistName, braveResults, events, bitEvents, tweets, exi
   }
   
   // ==========================================
+  // 9. HISTORICAL DATA — Wayback + Reddit Archives (max 20)
+  // Only uses VERIFIED/LIKELY credibility data
+  // ==========================================
+  let historyScore = 0;
+  const histFile = path.join(__dirname, '..', 'data', 'historical', 'wayback-prices.json');
+  try {
+    if (fs.existsSync(histFile)) {
+      const hist = JSON.parse(fs.readFileSync(histFile, 'utf8'));
+      
+      // Wayback price trajectory
+      const wb = hist.wayback?.[artistName];
+      if (wb?.snapshots?.length >= 3) {
+        const priced = wb.snapshots.filter(s => s.marketPrice || s.lowestPrice);
+        if (priced.length >= 3) {
+          const marketPrices = priced.map(s => s.marketPrice || s.lowestPrice);
+          const avgHistPrice = marketPrices.reduce((a, b) => a + b, 0) / marketPrices.length;
+          const maxHistPrice = Math.max(...marketPrices);
+          const minHistPrice = Math.min(...marketPrices);
+          
+          // Price appreciation = demand growth
+          const firstHalf = marketPrices.slice(0, Math.floor(marketPrices.length / 2));
+          const secondHalf = marketPrices.slice(Math.floor(marketPrices.length / 2));
+          const avgFirst = firstHalf.reduce((a, b) => a + b, 0) / firstHalf.length;
+          const avgSecond = secondHalf.reduce((a, b) => a + b, 0) / secondHalf.length;
+          
+          if (avgSecond > avgFirst * 1.5) {
+            historyScore += 6;
+            factors.push(`📈 Historical prices rising: $${avgFirst.toFixed(0)} → $${avgSecond.toFixed(0)} (+${((avgSecond/avgFirst - 1)*100).toFixed(0)}%)`);
+          } else if (avgSecond > avgFirst * 1.2) {
+            historyScore += 3;
+            factors.push(`📈 Prices trending up: $${avgFirst.toFixed(0)} → $${avgSecond.toFixed(0)}`);
+          } else if (avgSecond < avgFirst * 0.7) {
+            factors.push(`📉 Prices declining: $${avgFirst.toFixed(0)} → $${avgSecond.toFixed(0)} — cooling demand`);
+          }
+          
+          // Historical sold-out snapshots
+          const soldOutSnaps = wb.snapshots.filter(s => s.soldOut);
+          if (soldOutSnaps.length >= 2) {
+            historyScore += 5;
+            factors.push(`🔴 ${soldOutSnaps.length} historical sold-out snapshots (Wayback verified)`);
+          } else if (soldOutSnaps.length === 1) {
+            historyScore += 2;
+            factors.push(`Historical sold-out snapshot: ${soldOutSnaps[0].date}`);
+          }
+          
+          // Listing count trend (declining = selling through)
+          const listed = wb.snapshots.filter(s => s.listingCount > 0);
+          if (listed.length >= 3) {
+            const firstListings = listed.slice(0, Math.floor(listed.length / 2)).map(s => s.listingCount);
+            const lastListings = listed.slice(Math.floor(listed.length / 2)).map(s => s.listingCount);
+            const avgFirstL = firstListings.reduce((a, b) => a + b, 0) / firstListings.length;
+            const avgLastL = lastListings.reduce((a, b) => a + b, 0) / lastListings.length;
+            if (avgLastL < avgFirstL * 0.5) {
+              historyScore += 4;
+              factors.push(`📉 Listings declining: ${avgFirstL.toFixed(0)} → ${avgLastL.toFixed(0)} avg — supply drying up`);
+            }
+          }
+        }
+      }
+      
+      // Reddit archive credibility (ONLY VERIFIED or LIKELY)
+      const rd = hist.reddit?.[artistName];
+      if (rd?.credibility) {
+        const soldOutCred = rd.credibility.soldOut;
+        if (soldOutCred?.credibility === 'VERIFIED') {
+          historyScore += 8;
+          factors.push(`✅ Reddit VERIFIED sellout history (${soldOutCred.sources} independent sources, ${soldOutCred.totalUpvotes}↑)`);
+        } else if (soldOutCred?.credibility === 'LIKELY') {
+          historyScore += 4;
+          factors.push(`🟡 Reddit LIKELY sellout (${soldOutCred.sources} sources — needs more confirmation)`);
+        }
+        // UNVERIFIED intentionally excluded
+        
+        const priceCred = rd.credibility.highPrices;
+        if (priceCred?.credibility === 'VERIFIED') {
+          historyScore += 3;
+          factors.push(`✅ Reddit VERIFIED high resale prices (${priceCred.sources} sources)`);
+        }
+        
+        // Consensus price from Reddit (only if VERIFIED/LIKELY)
+        if (rd.consensusPrice?.credibility === 'VERIFIED') {
+          factors.push(`💰 Reddit consensus: $${rd.consensusPrice.low}-$${rd.consensusPrice.high} (median $${rd.consensusPrice.median}, ${rd.consensusPrice.sampleSize} posts)`);
+        }
+      }
+    }
+  } catch (e) { /* historical data unavailable — skip silently */ }
+  
+  score += Math.min(historyScore, 20);
+  
+  // ==========================================
   // FINAL CLASSIFICATION
   // ==========================================
   score = Math.min(score, 100);
