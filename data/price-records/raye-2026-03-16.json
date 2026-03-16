@@ -1,0 +1,40 @@
+{
+  "artist": "Raye",
+  "tour": "2026 US Tour",
+  "recordedDate": "2026-03-16",
+  "source": "Vivid Seats screenshot from Zach",
+  "totalUSShows": 34,
+  "notes": "Bill Graham SF sold out on primary. Zurich grossed $1.66M/13,500 tix per Pollstar. UK dates selling out. First major US headline run.",
+  "shows": [
+    {"date":"2026-04-03","venue":"WaMu Theater","city":"Seattle, WA","price":180,"inventory":"4% left","status":"low inventory"},
+    {"date":"2026-04-06","venue":"Fillmore Auditorium Denver","city":"Denver, CO","price":133,"inventory":"8% left","status":"low inventory"},
+    {"date":"2026-04-08","venue":"State Theatre Minneapolis","city":"Minneapolis, MN","price":241,"inventory":"normal","status":"selling"},
+    {"date":"2026-04-10","venue":"Auditorium Theatre Chicago","city":"Chicago, IL","price":292,"inventory":"normal","status":"selling"},
+    {"date":"2026-04-15","venue":"Radio City Music Hall","city":"New York, NY","price":268,"inventory":"Deals Available","status":"selling"},
+    {"date":"2026-04-19","venue":"The Met Philadelphia","city":"Philadelphia, PA","price":245,"inventory":"normal","status":"selling"},
+    {"date":"2026-04-20","venue":"MGM Music Hall at Fenway","city":"Boston, MA","price":212,"inventory":"4% left","status":"low inventory"},
+    {"date":"2026-04-26","venue":"The Anthem","city":"Washington, DC","price":148,"inventory":"35 tickets left","status":"low inventory"},
+    {"date":"2026-04-28","venue":"Coca-Cola Roxy Theatre","city":"Atlanta, GA","price":138,"inventory":"93 tickets left","status":"selling"},
+    {"date":"2026-04-29","venue":"Ryman Auditorium","city":"Nashville, TN","price":228,"inventory":"normal","status":"selling"},
+    {"date":"2026-05-01","venue":"713 Music Hall","city":"Houston, TX","price":88,"inventory":"normal","status":"available"},
+    {"date":"2026-05-03","venue":"South Side Ballroom","city":"Dallas, TX","price":78,"inventory":"53 tickets left","status":"low inventory"},
+    {"date":"2026-05-04","venue":"Moody Amphitheater","city":"Austin, TX","price":58,"inventory":"Deals Available","status":"available"},
+    {"date":"2026-05-07","venue":"Arizona Financial Theatre","city":"Phoenix, AZ","price":61,"inventory":"Deals Available","status":"available"},
+    {"date":"2026-05-08","venue":"Cosmopolitan of Las Vegas","city":"Las Vegas, NV","price":113,"inventory":"normal","status":"selling"},
+    {"date":"2026-05-10","venue":"Bill Graham Civic Auditorium","city":"San Francisco, CA","price":334,"inventory":"2% left","status":"nearly sold out"},
+    {"date":"2026-05-12","venue":"Greek Theatre","city":"Los Angeles, CA","price":167,"inventory":"normal","status":"selling"},
+    {"date":"2026-05-13","venue":"Greek Theatre","city":"Los Angeles, CA","price":181,"inventory":"4% left","status":"low inventory"}
+  ],
+  "keyInsights": [
+    "SF Bill Graham at $334 with 2% left = highest price + lowest inventory. CONFIRMED demand.",
+    "Minneapolis State Theatre at $241 and Chicago Auditorium at $292 = premium in cold-weather markets",
+    "Texas dates (Houston $88, Dallas $78, Austin $58) are CHEAPEST = weaker market for her demo",
+    "DC Anthem at $148 with only 35 tickets left = about to sell out",
+    "Boston Fenway at $212 with 4% left = nearly gone",
+    "Nashville Ryman at $228 = premium venue commands premium price",
+    "Pattern: Northeast/West Coast cities command 2-4x Texas/Southwest prices",
+    "Night 2 LA Greek ($181, 4% left) commands more than Night 1 ($167) — late-week premium"
+  ],
+  "priceRange": {"low": 58, "high": 334, "median": 167},
+  "hotShows": ["SF Bill Graham (2% left, $334)", "DC Anthem (35 tix, $148)", "Boston Fenway (4%, $212)", "LA Greek Night 2 (4%, $181)", "Seattle WaMu (4%, $180)"]
+}
