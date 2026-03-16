@@ -6480,15 +6480,21 @@
       "risingStarScore": 10
     },
     {
-      "name": "Raye",
-      "tier": "A",
-      "genre": "Indie",
+      "name": "RAYE",
+      "tier": "S",
+      "genre": "R&B / Pop",
       "source": "watchlist",
       "upcomingShows": 0,
       "tourDates": [],
       "listenerGrowth": null,
       "isNewToTracking": true,
-      "risingStarScore": 10
+      "risingStarScore": 10,
+      "monthlyListeners": 55100000,
+      "tiktokFollowers": 3300000,
+      "confirmedWinner": true,
+      "soldOutMentions": 5,
+      "totalSignals": 12,
+      "notes": "CONFIRMED WINNER — reference case for breakout UK→US artists"
     },
     {
       "name": "FKA twigs",

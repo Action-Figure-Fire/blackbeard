@@ -1206,14 +1206,19 @@
       "soldOutEvents": 0
     },
     {
-      "name": "Raye",
-      "genre": "Indie",
-      "tier": "A",
-      "source": "auto-discovery",
-      "addedDate": "2026-03-07",
-      "bandsintownEvents": 43,
-      "totalEvents": 53,
-      "soldOutEvents": 0
+      "name": "RAYE",
+      "genre": "R&B / Pop",
+      "priority": "CRITICAL",
+      "tier": "CONFIRMED_WINNER",
+      "spotifyMonthly": 55100000,
+      "tiktokFollowers": 3300000,
+      "notes": "CONFIRMED WINNER. 55M Spotify, 6x BRIT winner, Grammy winner. SF sold out $334. First US headline. Monitor for added dates, album drops, award shows.",
+      "addedDate": "2026-03-16",
+      "alertOnNewDates": true,
+      "alertOnPriceChange": true,
+      "website": "https://rayeofficial.com",
+      "twitter": "@raboraye",
+      "referenceCase": true
     },
     {
       "name": "FKA twigs",

@@ -1,0 +1,130 @@
+{
+  "artist": "RAYE",
+  "status": "CONFIRMED WINNER",
+  "confirmedDate": "2026-03-16",
+  "category": "UK R&B/Pop Crossover → US Breakout",
+  
+  "metrics": {
+    "spotify": {
+      "monthlyListeners": 55100000,
+      "note": "55.1M monthly listeners — top 100 globally"
+    },
+    "tiktok": {
+      "followers": 3300000,
+      "likes": 117200000,
+      "note": "3.3M followers, 117.2M likes"
+    },
+    "instagram": {
+      "followers": null,
+      "note": "Top 10 fastest-growing UK Instagram accounts Jan 2026 per HypeAuditor"
+    },
+    "youtube": {
+      "subscribers": null,
+      "note": "TBD — needs enrichment"
+    }
+  },
+
+  "awards": {
+    "britAwards2024": "RECORD 6 wins in one night: Album of the Year, Songwriter of the Year, Best New Artist, Artist of the Year, Song of the Year, R&B Act",
+    "grammyNominations": "3x Grammy nominated (67th): Best New Artist, Songwriter of the Year, Best Engineered Album",
+    "grammyWin": "Grammy winner (confirmed per NME)",
+    "numberOne": "UK Number One single",
+    "note": "Most BRIT nominations AND most BRIT wins in a single year — EVER"
+  },
+
+  "tourData": {
+    "totalShows": 53,
+    "usShows": 20,
+    "usHeadlineDates": 20,
+    "venueTypes": "Theaters + mid-size venues (2K-6K cap) for headline; stadium support slots Aug-Oct",
+    "supportSlots": "Bruno Mars stadium tour support (MetLife, SoFi, Gillette, etc.) Aug-Oct 2026",
+    "europePerformance": {
+      "zurich": {
+        "venue": "Hallenstadion",
+        "capacity": 13500,
+        "gross": 1657840,
+        "status": "SOLD OUT",
+        "source": "Pollstar box office report"
+      }
+    },
+    "sfSoldOut": {
+      "venue": "Bill Graham Civic Auditorium",
+      "capacity": 8500,
+      "status": "SOLD OUT on primary",
+      "secondaryPrice": 334,
+      "inventoryLeft": "2%",
+      "source": "Vivid Seats Mar 16 2026"
+    }
+  },
+
+  "pricingSnapshot": {
+    "date": "2026-03-16",
+    "source": "Vivid Seats",
+    "priceRange": {"low": 58, "high": 334},
+    "median": 167,
+    "premiumMarkets": [
+      {"city": "San Francisco", "venue": "Bill Graham", "price": 334, "inventory": "2% left"},
+      {"city": "Chicago", "venue": "Auditorium Theatre", "price": 292},
+      {"city": "New York", "venue": "Radio City Music Hall", "price": 268},
+      {"city": "Philadelphia", "venue": "The Met", "price": 245},
+      {"city": "Minneapolis", "venue": "State Theatre", "price": 241},
+      {"city": "Nashville", "venue": "Ryman Auditorium", "price": 228},
+      {"city": "Boston", "venue": "MGM Fenway", "price": 212, "inventory": "4% left"},
+      {"city": "Seattle", "venue": "WaMu Theater", "price": 180, "inventory": "4% left"}
+    ],
+    "weakMarkets": [
+      {"city": "Austin", "venue": "Moody Amphitheater", "price": 58, "inventory": "Deals Available"},
+      {"city": "Phoenix", "venue": "Arizona Financial", "price": 61, "inventory": "Deals Available"},
+      {"city": "Dallas", "venue": "South Side Ballroom", "price": 78, "inventory": "53 tickets left"},
+      {"city": "Houston", "venue": "713 Music Hall", "price": 88}
+    ]
+  },
+
+  "referenceThresholds": {
+    "description": "If a NEW artist matches these metrics, they are likely to follow the Raye pricing pattern",
+    "spotifyMinimum": 20000000,
+    "spotifyIdeal": 40000000,
+    "tiktokMinimum": 1000000,
+    "awardSignals": ["BRIT nomination", "Grammy nomination", "UK Number One", "Mercury Prize nom"],
+    "venueCapRange": "2000-6000 for headline",
+    "eurSelloutRequired": true,
+    "keyIndicators": [
+      "UK/international artist doing first major US headline run",
+      "Award momentum (BRITs, Grammys, Mercurys)",
+      "Spotify 20M+ monthly listeners",
+      "European dates selling out or sold out",
+      "Theater/mid-size routing (not arenas yet)",
+      "Self-funded tours (artist has financial pressure to price correctly)",
+      "Gen Z/millennial R&B-pop crossover demographic"
+    ],
+    "pricingPattern": {
+      "northeast_westCoast_premium": "2-4x over Texas/Southwest",
+      "iconicVenues_premium": "Ryman, Radio City, Bill Graham command 30-50% premium over comparable-cap rooms",
+      "secondNight_premium": "Night 2 at same venue often has higher price + lower inventory than Night 1",
+      "sfPremium": "San Francisco consistently highest price in any US routing"
+    }
+  },
+
+  "brokerPlaybook": {
+    "buySignals": [
+      "UK/European dates selling out before US onsale",
+      "Grammy/BRIT momentum driving awareness",
+      "First US headline tour (pent-up demand from streaming fans who've never seen them live)",
+      "Spotify 20M+ but playing 2-5K rooms = extreme demand-to-supply mismatch"
+    ],
+    "targetMarkets": ["SF", "NYC", "Chicago", "Boston", "Minneapolis", "Nashville (Ryman)", "DC", "Seattle"],
+    "avoidMarkets": ["Texas cities", "Phoenix", "anything with 'Deals Available' flag"],
+    "timing": "Buy at presale or onsale for premium markets. Wait for price dips on weak markets only if discount is >30%."
+  },
+
+  "monitoring": {
+    "watchFor": [
+      "Added dates announcement (she's adding shows — SF sold out, will she add Night 2?)",
+      "Bruno Mars stadium support slot reviews → may drive headline ticket demand",
+      "New album/single release → awareness spike",
+      "BRIT Awards 2027 performance → booking cycle repeats"
+    ],
+    "alertSources": ["Bandsintown", "rayeofficial.com", "Twitter @raboraye", "Ticketmaster artist alerts"],
+    "nextPriceCheck": "2026-03-23"
+  }
+}
