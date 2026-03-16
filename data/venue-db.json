@@ -1,0 +1,1762 @@
+{
+  "generatedAt": "2026-03-16T18:28:18.003Z",
+  "totalVenues": 176,
+  "markets": 30,
+  "venues": [
+    {
+      "name": "Masonic Lodge at Hollywood Forever",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 150,
+      "slug": "masonic-lodge-hollywood-forever",
+      "lat": 34.09,
+      "lon": -118.32
+    },
+    {
+      "name": "Kingdom Night Club - Austin",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 200,
+      "slug": "kingdom-night-club-austin",
+      "lat": 30.2673,
+      "lon": -97.7375,
+      "seatgeekId": 8227
+    },
+    {
+      "name": "DC9 Nightclub",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 200,
+      "slug": "dc9-nightclub",
+      "lat": 38.9167,
+      "lon": -77.0243,
+      "seatgeekId": 9484
+    },
+    {
+      "name": "Doug Fir Lounge",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": 200,
+      "slug": "doug-fir-lounge",
+      "lat": 45.5226,
+      "lon": -122.657,
+      "seatgeekId": 658
+    },
+    {
+      "name": "Larimer Lounge",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 250,
+      "slug": "larimer-lounge",
+      "lat": 39.76,
+      "lon": -104.984,
+      "seatgeekId": 5508
+    },
+    {
+      "name": "SPACE",
+      "city": "Portland",
+      "state": "ME",
+      "capacity": 250,
+      "slug": "space-portland",
+      "lat": 43.66,
+      "lon": -70.26
+    },
+    {
+      "name": "Beat Kitchen",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 275,
+      "slug": "beat-kitchen",
+      "lat": 41.9396,
+      "lon": -87.681,
+      "seatgeekId": 3320
+    },
+    {
+      "name": "UP Comedy Club",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 285,
+      "slug": "up-comedy-club",
+      "lat": 41.9113,
+      "lon": -87.6354,
+      "seatgeekId": 7824
+    },
+    {
+      "name": "Hi-Dive",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 285,
+      "slug": "hi-dive",
+      "lat": 39.7163,
+      "lon": -104.988,
+      "seatgeekId": 3364
+    },
+    {
+      "name": "Astor Place Theatre - New York",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 300,
+      "slug": "astor-place-theatre-new-york",
+      "lat": 40.7301,
+      "lon": -73.9926,
+      "seatgeekId": 3883
+    },
+    {
+      "name": "Austin Country Club",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 300,
+      "slug": "austin-country-club",
+      "lat": 30.4403,
+      "lon": -97.8068,
+      "seatgeekId": 79107
+    },
+    {
+      "name": "One World Theatre",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 300,
+      "slug": "one-world-theatre",
+      "lat": 30.3089,
+      "lon": -97.8454,
+      "seatgeekId": 3599
+    },
+    {
+      "name": "Shrine Social Club",
+      "city": "Boise",
+      "state": "ID",
+      "capacity": 300,
+      "slug": "shrine-social-club",
+      "lat": 43.62,
+      "lon": -116.2
+    },
+    {
+      "name": "The Old Church Concert Hall",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": 310,
+      "slug": "the-old-church-concert-hall",
+      "lat": 45.5151,
+      "lon": -122.686,
+      "seatgeekId": 12189
+    },
+    {
+      "name": "Kennedy Center Theater Lab",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 388,
+      "slug": "kennedy-center-theater-lab",
+      "lat": 38.8958,
+      "lon": -77.0557,
+      "seatgeekId": 6435
+    },
+    {
+      "name": "Reggies Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 400,
+      "slug": "reggies-chicago",
+      "lat": 41.8539,
+      "lon": -87.6269,
+      "seatgeekId": 2439
+    },
+    {
+      "name": "Empty Bottle",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 400,
+      "slug": "empty-bottle",
+      "lat": 41.9005,
+      "lon": -87.6866,
+      "seatgeekId": 1365
+    },
+    {
+      "name": "Cobb's Comedy Club",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 400,
+      "slug": "cobb-s-comedy-club",
+      "lat": 37.8029,
+      "lon": -122.414,
+      "seatgeekId": 2886
+    },
+    {
+      "name": "Bluebird Theater - Denver",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 400,
+      "slug": "bluebird-theater-denver",
+      "lat": 39.7403,
+      "lon": -104.948,
+      "seatgeekId": 555
+    },
+    {
+      "name": "Cervantes' Other Side",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 400,
+      "slug": "cervantes-other-side",
+      "lat": 39.7545,
+      "lon": -104.979,
+      "seatgeekId": 7869
+    },
+    {
+      "name": "War Memorial Auditorium",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 400,
+      "slug": "war-memorial-auditorium-2",
+      "lat": 36.1644,
+      "lon": -86.7824,
+      "seatgeekId": 1072
+    },
+    {
+      "name": "The Rave - Eagles Club",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": 400,
+      "slug": "the-rave-eagles-club",
+      "lat": 43.0379,
+      "lon": -87.9433,
+      "seatgeekId": 542
+    },
+    {
+      "name": "The Duck Room",
+      "city": "St. Louis",
+      "state": "MO",
+      "capacity": 400,
+      "slug": "the-duck-room",
+      "lat": 38.63,
+      "lon": -90.26
+    },
+    {
+      "name": "The Parish - Austin",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 450,
+      "slug": "the-parish-austin",
+      "lat": 30.2678,
+      "lon": -97.7407,
+      "seatgeekId": 1059
+    },
+    {
+      "name": "Aura - Portland, ME",
+      "city": "Portland",
+      "state": "ME",
+      "capacity": 465,
+      "slug": "aura-portland-me",
+      "lat": 43.6564,
+      "lon": -70.259,
+      "seatgeekId": 7039
+    },
+    {
+      "name": "Echoplex",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 500,
+      "slug": "echoplex",
+      "lat": 34.0776,
+      "lon": -118.261,
+      "seatgeekId": 1014
+    },
+    {
+      "name": "Scout Bar Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": 500,
+      "slug": "scout-bar-houston",
+      "lat": 29.5431,
+      "lon": -95.1035,
+      "seatgeekId": 3808
+    },
+    {
+      "name": "8 Seconds Saloon",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": 500,
+      "slug": "8-seconds-saloon",
+      "lat": 39.7677,
+      "lon": -86.249,
+      "seatgeekId": 1857
+    },
+    {
+      "name": "The Soiled Dove Underground",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 500,
+      "slug": "the-soiled-dove-underground",
+      "lat": 39.719,
+      "lon": -104.901,
+      "seatgeekId": 4640
+    },
+    {
+      "name": "Exit/In",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 500,
+      "slug": "exit-in",
+      "lat": 36.1514,
+      "lon": -86.8044,
+      "seatgeekId": 1082
+    },
+    {
+      "name": "Lincoln Hall - Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 507,
+      "slug": "lincoln-hall-chicago",
+      "lat": 41.9259,
+      "lon": -87.6498,
+      "seatgeekId": 1520
+    },
+    {
+      "name": "The Observatory North Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": 550,
+      "slug": "the-observatory-north-park",
+      "lat": 32.7482,
+      "lon": -117.131,
+      "seatgeekId": 7974
+    },
+    {
+      "name": "Chop Suey - Seattle",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 550,
+      "slug": "chop-suey-seattle",
+      "lat": 47.6136,
+      "lon": -122.314,
+      "seatgeekId": 1170
+    },
+    {
+      "name": "Bowery Ballroom",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 575,
+      "slug": "bowery-ballroom",
+      "lat": 40.7204,
+      "lon": -73.9934,
+      "seatgeekId": 719
+    },
+    {
+      "name": "Neumos",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 578,
+      "slug": "neumos",
+      "lat": 47.6139,
+      "lon": -122.32,
+      "seatgeekId": 657
+    },
+    {
+      "name": "The Hayes Theater",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 597,
+      "slug": "the-hayes-theater",
+      "lat": 40.758,
+      "lon": -73.9878,
+      "seatgeekId": 2969
+    },
+    {
+      "name": "Nova PDX",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": 650,
+      "slug": "nova-pdx",
+      "lat": 45.5227,
+      "lon": -122.658,
+      "seatgeekId": 9599
+    },
+    {
+      "name": "Bimbos 365 Club",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 685,
+      "slug": "bimbos-365-club",
+      "lat": 37.8037,
+      "lon": -122.416,
+      "seatgeekId": 1032
+    },
+    {
+      "name": "Bottom Lounge",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 700,
+      "slug": "bottom-lounge",
+      "lat": 41.8853,
+      "lon": -87.6617,
+      "seatgeekId": 981
+    },
+    {
+      "name": "Q Nightclub",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 700,
+      "slug": "q-nightclub-1",
+      "lat": 47.6138,
+      "lon": -122.32,
+      "seatgeekId": 76208
+    },
+    {
+      "name": "Black Cat",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 700,
+      "slug": "black-cat",
+      "lat": 38.9146,
+      "lon": -77.0317,
+      "seatgeekId": 1495
+    },
+    {
+      "name": "Ogden Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 750,
+      "slug": "ogden-theatre",
+      "lat": 39.7403,
+      "lon": -104.975,
+      "seatgeekId": 849
+    },
+    {
+      "name": "Booth Theatre - New York",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 766,
+      "slug": "booth-theatre-new-york",
+      "lat": 40.7583,
+      "lon": -73.9863,
+      "seatgeekId": 2942
+    },
+    {
+      "name": "El Rey Theatre - Los Angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 771,
+      "slug": "el-rey-theatre-los-angeles",
+      "lat": 34.0625,
+      "lon": -118.349,
+      "seatgeekId": 959
+    },
+    {
+      "name": "El Corazon",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 800,
+      "slug": "el-corazon",
+      "lat": 47.6188,
+      "lon": -122.329,
+      "seatgeekId": 1178
+    },
+    {
+      "name": "Sixth & I",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 800,
+      "slug": "sixth-i",
+      "lat": 38.9006,
+      "lon": -77.0203,
+      "seatgeekId": 1006
+    },
+    {
+      "name": "A.I. Warehouse at Union Market",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 800,
+      "slug": "a-i-warehouse-at-union-market",
+      "lat": 38.917,
+      "lon": -76.9745,
+      "seatgeekId": 203669
+    },
+    {
+      "name": "Basement East",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 800,
+      "slug": "basement-east",
+      "lat": 36.18,
+      "lon": -86.74
+    },
+    {
+      "name": "Alley Theatre",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": 824,
+      "slug": "alley-theatre",
+      "lat": 29.7621,
+      "lon": -95.3653,
+      "seatgeekId": 6098
+    },
+    {
+      "name": "House of Blues - New Orleans",
+      "city": "New Orleans",
+      "state": "LA",
+      "capacity": 843,
+      "slug": "house-of-blues-new-orleans",
+      "lat": 29.9534,
+      "lon": -90.0663,
+      "seatgeekId": 356
+    },
+    {
+      "name": "Wilshire Ebell Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 887,
+      "slug": "wilshire-ebell-theatre",
+      "lat": 34.0609,
+      "lon": -118.325,
+      "seatgeekId": 3798
+    },
+    {
+      "name": "Southern Theatre - Columbus",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": 900,
+      "slug": "southern-theatre-columbus",
+      "lat": 39.9562,
+      "lon": -82.9988,
+      "seatgeekId": 552
+    },
+    {
+      "name": "Mercury Ballroom - Louisville",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": 900,
+      "slug": "mercury-ballroom-louisville",
+      "lat": 38.2485,
+      "lon": -85.7578,
+      "seatgeekId": 57671
+    },
+    {
+      "name": "Newmark Theatre",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": 922,
+      "slug": "newmark-theatre",
+      "lat": 45.5167,
+      "lon": -122.682,
+      "seatgeekId": 934
+    },
+    {
+      "name": "Lyceum Theatre",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 950,
+      "slug": "lyceum-theatre",
+      "lat": 40.7577,
+      "lon": -73.9846,
+      "seatgeekId": 2951
+    },
+    {
+      "name": "The Belasco - Los Angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 1000,
+      "slug": "the-belasco-los-angeles",
+      "lat": 34.0403,
+      "lon": -118.259,
+      "seatgeekId": 30920
+    },
+    {
+      "name": "Vic Theatre - Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 1000,
+      "slug": "vic-theatre-chicago",
+      "lat": 41.9395,
+      "lon": -87.6538,
+      "seatgeekId": 372
+    },
+    {
+      "name": "Park West",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 1000,
+      "slug": "park-west",
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "seatgeekId": 1029
+    },
+    {
+      "name": "Joe's on Weed St.",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 1000,
+      "slug": "joe-s-on-weed-st",
+      "lat": 41.9099,
+      "lon": -87.6522,
+      "seatgeekId": 914
+    },
+    {
+      "name": "Fremont Theater - San Luis Obispo",
+      "city": "San Luis Obispo",
+      "state": "CA",
+      "capacity": 1000,
+      "slug": "fremont-theater-san-luis-obispo",
+      "lat": 35.2819,
+      "lon": -120.661,
+      "seatgeekId": 8103
+    },
+    {
+      "name": "Summit Music Hall - Denver",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 1000,
+      "slug": "summit-music-hall-denver",
+      "lat": 39.7534,
+      "lon": -104.995,
+      "seatgeekId": 2882
+    },
+    {
+      "name": "The Basement",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 1000,
+      "slug": "the-basement-1",
+      "lat": 36.1371,
+      "lon": -86.7785,
+      "seatgeekId": 8580
+    },
+    {
+      "name": "Mercy Lounge",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 1000,
+      "slug": "mercy-lounge",
+      "lat": 36.153,
+      "lon": -86.7799,
+      "seatgeekId": 1516
+    },
+    {
+      "name": "McMenamins Crystal Ballroom",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": 1000,
+      "slug": "mcmenamins-crystal-ballroom",
+      "lat": 45.5228,
+      "lon": -122.685,
+      "seatgeekId": 756
+    },
+    {
+      "name": "New Daisy Theatre - Memphis",
+      "city": "Memphis",
+      "state": "TN",
+      "capacity": 1000,
+      "slug": "new-daisy-theatre-memphis",
+      "lat": 35.1395,
+      "lon": -90.0501,
+      "seatgeekId": 1005
+    },
+    {
+      "name": "Music Box Theatre - NY",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 1009,
+      "slug": "music-box-theatre-ny",
+      "lat": 40.7588,
+      "lon": -73.9874,
+      "seatgeekId": 3298
+    },
+    {
+      "name": "Walnut Street Theatre",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 1054,
+      "slug": "walnut-street-theatre",
+      "lat": 39.9485,
+      "lon": -75.1553,
+      "seatgeekId": 2961
+    },
+    {
+      "name": "James Earl Jones Theatre",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 1082,
+      "slug": "james-earl-jones-theatre",
+      "lat": 40.7592,
+      "lon": -73.983,
+      "seatgeekId": 2967
+    },
+    {
+      "name": "The Regent Theater - Los Angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 1100,
+      "slug": "the-regent-theater-los-angeles",
+      "lat": 34.0471,
+      "lon": -118.248,
+      "seatgeekId": 56365
+    },
+    {
+      "name": "Metro Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 1100,
+      "slug": "metro-chicago",
+      "lat": 41.9498,
+      "lon": -87.6588,
+      "seatgeekId": 557
+    },
+    {
+      "name": "1015 Folsom",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 1125,
+      "slug": "1015-folsom",
+      "lat": 37.7781,
+      "lon": -122.406,
+      "seatgeekId": 8102
+    },
+    {
+      "name": "Ambassador Theatre - New York",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 1155,
+      "slug": "ambassador-theatre-new-york",
+      "lat": 40.7613,
+      "lon": -73.985,
+      "seatgeekId": 2949
+    },
+    {
+      "name": "Music Farm - Columbia",
+      "city": "Columbia",
+      "state": "SC",
+      "capacity": 1200,
+      "slug": "music-farm-columbia",
+      "lat": 33.9986,
+      "lon": -81.0353,
+      "seatgeekId": 69263
+    },
+    {
+      "name": "Meany Hall for the Performing Arts",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 1200,
+      "slug": "meany-hall-for-the-performing-arts",
+      "lat": 47.6556,
+      "lon": -122.31,
+      "seatgeekId": 1310
+    },
+    {
+      "name": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 1200,
+      "slug": "9-30-club",
+      "lat": 38.918,
+      "lon": -77.0237,
+      "seatgeekId": 538
+    },
+    {
+      "name": "The Depot - Salt Lake City",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": 1200,
+      "slug": "the-depot-salt-lake-city",
+      "lat": 40.7697,
+      "lon": -111.903,
+      "seatgeekId": 624
+    },
+    {
+      "name": "Diamond Ballroom",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "capacity": 1200,
+      "slug": "diamond-ballroom",
+      "lat": 35.3863,
+      "lon": -97.4785,
+      "seatgeekId": 891
+    },
+    {
+      "name": "Minglewood Hall",
+      "city": "Memphis",
+      "state": "TN",
+      "capacity": 1200,
+      "slug": "minglewood-hall",
+      "lat": 35.138,
+      "lon": -90.0101,
+      "seatgeekId": 1308
+    },
+    {
+      "name": "Encore",
+      "city": "Tucson",
+      "state": "AZ",
+      "capacity": 1200,
+      "slug": "encore-14",
+      "lat": 32.2365,
+      "lon": -110.868,
+      "seatgeekId": 72985
+    },
+    {
+      "name": "New York-New York Theater",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 1217,
+      "slug": "new-york-new-york-theater",
+      "lat": 36.1023,
+      "lon": -115.175,
+      "seatgeekId": 3757
+    },
+    {
+      "name": "Lincoln Theatre - DC",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 1225,
+      "slug": "lincoln-theatre-dc",
+      "lat": 38.9173,
+      "lon": -77.0289,
+      "seatgeekId": 3511
+    },
+    {
+      "name": "The Howard Theatre",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 1242,
+      "slug": "the-howard-theatre",
+      "lat": 38.9154,
+      "lon": -77.0211,
+      "seatgeekId": 433042
+    },
+    {
+      "name": "The Fillmore - San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 1250,
+      "slug": "the-fillmore-san-francisco",
+      "lat": 37.784,
+      "lon": -122.433,
+      "seatgeekId": 324
+    },
+    {
+      "name": "Paramount Theatre Austin",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 1270,
+      "slug": "paramount-theatre-austin",
+      "lat": 30.2695,
+      "lon": -97.7421,
+      "seatgeekId": 907
+    },
+    {
+      "name": "Humphreys Concerts By the Bay",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": 1295,
+      "slug": "humphreys-concerts-by-the-bay",
+      "lat": 32.7165,
+      "lon": -117.224,
+      "seatgeekId": 318
+    },
+    {
+      "name": "House of Blues Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 1300,
+      "slug": "house-of-blues-chicago",
+      "lat": 41.8883,
+      "lon": -87.6288,
+      "seatgeekId": 515
+    },
+    {
+      "name": "Balboa Theatre - San Diego",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": 1339,
+      "slug": "balboa-theatre-san-diego",
+      "lat": 32.7145,
+      "lon": -117.161,
+      "seatgeekId": 1473
+    },
+    {
+      "name": "Pabst Theater",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": 1345,
+      "slug": "pabst-theater",
+      "lat": 43.0411,
+      "lon": -87.9104,
+      "seatgeekId": 550
+    },
+    {
+      "name": "Moore Theatre - Seattle",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 1420,
+      "slug": "moore-theatre-seattle",
+      "lat": 47.6118,
+      "lon": -122.341,
+      "seatgeekId": 904
+    },
+    {
+      "name": "House of Blues - San Diego",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": 1450,
+      "slug": "house-of-blues-san-diego",
+      "lat": 32.7164,
+      "lon": -117.16,
+      "seatgeekId": 554
+    },
+    {
+      "name": "Brown Theatre at The Kentucky Center",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": 1450,
+      "slug": "brown-theatre-at-the-kentucky-center",
+      "lat": 38.246,
+      "lon": -85.7574,
+      "seatgeekId": 738
+    },
+    {
+      "name": "Luxor Theater",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 1500,
+      "slug": "luxor-theater",
+      "lat": 36.0958,
+      "lon": -115.173164,
+      "seatgeekId": 3765
+    },
+    {
+      "name": "Atrium Showroom at Luxor Hotel and Casino",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 1500,
+      "slug": "atrium-showroom-at-luxor-hotel-and-casino",
+      "lat": 36.0955,
+      "lon": -115.176,
+      "seatgeekId": 2890
+    },
+    {
+      "name": "House of Blues Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": 1500,
+      "slug": "house-of-blues-houston",
+      "lat": 29.7539,
+      "lon": -95.3641,
+      "seatgeekId": 405
+    },
+    {
+      "name": "San Jose Civic",
+      "city": "San Jose",
+      "state": "CA",
+      "capacity": 1500,
+      "slug": "san-jose-civic",
+      "lat": 37.3308,
+      "lon": -121.89,
+      "seatgeekId": 638
+    },
+    {
+      "name": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 1500,
+      "slug": "showbox-sodo",
+      "lat": 47.5879,
+      "lon": -122.334,
+      "seatgeekId": 625
+    },
+    {
+      "name": "Apollo Theater",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 1506,
+      "slug": "apollo-theater",
+      "lat": 40.8097,
+      "lon": -73.9502,
+      "seatgeekId": 1817
+    },
+    {
+      "name": "Roseland Theater",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": 1550,
+      "slug": "roseland-theater",
+      "lat": 45.5232,
+      "lon": -122.676,
+      "seatgeekId": 543
+    },
+    {
+      "name": "Shubert Theatre - New Haven",
+      "city": "New Haven",
+      "state": "CT",
+      "capacity": 1600,
+      "slug": "shubert-theatre-new-haven",
+      "lat": 41.3065,
+      "lon": -72.9292,
+      "seatgeekId": 3205
+    },
+    {
+      "name": "Marquis Theater - Denver",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 1611,
+      "slug": "marquis-theater-denver",
+      "lat": 39.7533,
+      "lon": -104.993,
+      "seatgeekId": 3053
+    },
+    {
+      "name": "House of Blues - Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 1625,
+      "slug": "house-of-blues-dallas",
+      "lat": 32.785,
+      "lon": -96.8082,
+      "seatgeekId": 564
+    },
+    {
+      "name": "Majestic Theatre - Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 1704,
+      "slug": "majestic-theatre-dallas",
+      "lat": 32.813,
+      "lon": -96.7698,
+      "seatgeekId": 3621
+    },
+    {
+      "name": "Jesse Auditorium",
+      "city": "Columbia",
+      "state": "MO",
+      "capacity": 1732,
+      "slug": "jesse-auditorium",
+      "lat": 38.9444,
+      "lon": -92.329,
+      "seatgeekId": 751
+    },
+    {
+      "name": "House of Blues - Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 1800,
+      "slug": "house-of-blues-las-vegas",
+      "lat": 36.0924,
+      "lon": -115.175,
+      "seatgeekId": 626
+    },
+    {
+      "name": "The Van Buren",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": 1800,
+      "slug": "the-van-buren",
+      "lat": 33.4511,
+      "lon": -112.079,
+      "seatgeekId": 429111
+    },
+    {
+      "name": "Muriel Kauffman Theatre at Kauffman Center for the Performing Arts",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": 1800,
+      "slug": "muriel-kauffman-theatre-at-kauffman-center-for-the-performing-arts",
+      "lat": 39.0943,
+      "lon": -94.5883,
+      "seatgeekId": 4768
+    },
+    {
+      "name": "Rialto Theatre",
+      "city": "Tucson",
+      "state": "AZ",
+      "capacity": 1800,
+      "slug": "rialto-theatre",
+      "lat": 32.222,
+      "lon": -110.966,
+      "seatgeekId": 159
+    },
+    {
+      "name": "Warner Theatre - DC",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 1847,
+      "slug": "warner-theatre-dc",
+      "lat": 38.8965,
+      "lon": -77.0296,
+      "seatgeekId": 1171
+    },
+    {
+      "name": "HEB Performance Hall at Tobin Center",
+      "city": "San Antonio",
+      "state": "TX",
+      "capacity": 1848,
+      "slug": "heb-performance-hall-at-tobin-center",
+      "lat": 29.4307,
+      "lon": -98.4886,
+      "seatgeekId": 58148
+    },
+    {
+      "name": "Kimmel Center - Miller Theater",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 1870,
+      "slug": "kimmel-center-miller-theater",
+      "lat": 39.9476,
+      "lon": -75.1649,
+      "seatgeekId": 2491
+    },
+    {
+      "name": "Paramount Theatre - CO",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 1870,
+      "slug": "paramount-theatre-co",
+      "lat": 39.7442,
+      "lon": -104.99,
+      "seatgeekId": 717
+    },
+    {
+      "name": "Copernicus Center",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 1890,
+      "slug": "copernicus-center",
+      "lat": 41.9683,
+      "lon": -87.759,
+      "seatgeekId": 16312
+    },
+    {
+      "name": "Orpheum Theatre - Los Angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 2000,
+      "slug": "orpheum-theatre-los-angeles",
+      "lat": 34.0426,
+      "lon": -118.256,
+      "seatgeekId": 362
+    },
+    {
+      "name": "Brooklyn Bowl Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": 2000,
+      "slug": "brooklyn-bowl-las-vegas",
+      "lat": 36.1177,
+      "lon": -115.172,
+      "seatgeekId": 58672
+    },
+    {
+      "name": "Piere's Entertainment Center",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "capacity": 2000,
+      "slug": "piere-s-entertainment-center",
+      "lat": 41.1315,
+      "lon": -85.1023,
+      "seatgeekId": 706
+    },
+    {
+      "name": "The Fillmore - Charlotte",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": 2000,
+      "slug": "the-fillmore-charlotte",
+      "lat": 35.24,
+      "lon": -80.8455,
+      "seatgeekId": 568
+    },
+    {
+      "name": "The Jungle - IU Indy Gymnasium",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": 2000,
+      "slug": "the-jungle-iu-indy-gymnasium",
+      "lat": 39.7709,
+      "lon": -86.1748,
+      "seatgeekId": 5177
+    },
+    {
+      "name": "Peter Barton Stadium",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 2000,
+      "slug": "peter-barton-stadium",
+      "lat": 39.6821,
+      "lon": -104.965,
+      "seatgeekId": 40824
+    },
+    {
+      "name": "Denver Botanic Gardens",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 2000,
+      "slug": "denver-botanic-gardens",
+      "lat": 39.7319,
+      "lon": -104.962,
+      "seatgeekId": 267
+    },
+    {
+      "name": "The Church Nightclub - Denver",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 2000,
+      "slug": "the-church-nightclub-denver",
+      "lat": 39.735,
+      "lon": -104.986,
+      "seatgeekId": 8905
+    },
+    {
+      "name": "Wildhorse Saloon",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 2000,
+      "slug": "wildhorse-saloon",
+      "lat": 36.1626,
+      "lon": -86.7756,
+      "seatgeekId": 511
+    },
+    {
+      "name": "Rams Head Live! - Baltimore",
+      "city": "Baltimore",
+      "state": "MD",
+      "capacity": 2000,
+      "slug": "rams-head-live-baltimore",
+      "lat": 39.2894,
+      "lon": -76.6072,
+      "seatgeekId": 364
+    },
+    {
+      "name": "Morton Meyerson Symphony Center",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 2026,
+      "slug": "morton-meyerson-symphony-center",
+      "lat": 32.7767,
+      "lon": -96.797,
+      "seatgeekId": 521
+    },
+    {
+      "name": "The Ballroom at Warehouse Live - Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": 2030,
+      "slug": "the-ballroom-at-warehouse-live-houston",
+      "lat": 29.7521,
+      "lon": -95.3547,
+      "seatgeekId": 449
+    },
+    {
+      "name": "Bass Performance Hall",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": 2056,
+      "slug": "bass-performance-hall",
+      "lat": 32.7549,
+      "lon": -97.3301,
+      "seatgeekId": 492
+    },
+    {
+      "name": "Pearl River Resort - Philadelphia, MS",
+      "city": "Philadelphia",
+      "state": "MS",
+      "capacity": 2100,
+      "slug": "pearl-river-resort-philadelphia-ms",
+      "lat": 32.7721,
+      "lon": -89.2055,
+      "seatgeekId": 69577
+    },
+    {
+      "name": "Orpheum Theatre - San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 2203,
+      "slug": "orpheum-theatre-san-francisco",
+      "lat": 37.7792,
+      "lon": -122.415,
+      "seatgeekId": 2934
+    },
+    {
+      "name": "The Warfield",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 2250,
+      "slug": "the-warfield",
+      "lat": 37.7827,
+      "lon": -122.41,
+      "seatgeekId": 524
+    },
+    {
+      "name": "Majestic Theatre San Antonio",
+      "city": "San Antonio",
+      "state": "TX",
+      "capacity": 2264,
+      "slug": "majestic-theatre-san-antonio",
+      "lat": 29.4263,
+      "lon": -98.4905,
+      "seatgeekId": 912
+    },
+    {
+      "name": "Walt Disney Concert Hall",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 2265,
+      "slug": "walt-disney-concert-hall",
+      "lat": 34.0553,
+      "lon": -118.25,
+      "seatgeekId": 1274
+    },
+    {
+      "name": "Golden Gate Theatre - San Francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 2297,
+      "slug": "golden-gate-theatre-san-francisco",
+      "lat": 37.7825,
+      "lon": -122.411,
+      "seatgeekId": 3764
+    },
+    {
+      "name": "The Novo",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 2300,
+      "slug": "the-novo",
+      "lat": 34.0446,
+      "lon": -118.265,
+      "seatgeekId": 590
+    },
+    {
+      "name": "Uptown Theater - KC",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": 2300,
+      "slug": "uptown-theater-kc",
+      "lat": 39.0611,
+      "lon": -94.5908,
+      "seatgeekId": 446
+    },
+    {
+      "name": "Kiva Auditorium at the Albuquerque Convention Center",
+      "city": "Albuquerque",
+      "state": "NM",
+      "capacity": 2300,
+      "slug": "kiva-auditorium-at-the-albuquerque-convention-center",
+      "lat": 35.0876,
+      "lon": -106.649,
+      "seatgeekId": 927
+    },
+    {
+      "name": "Uihlein Hall at Marcus Center for the Performing Arts",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": 2305,
+      "slug": "uihlein-hall-at-marcus-center-for-the-performing-arts",
+      "lat": 43.043,
+      "lon": -87.9109,
+      "seatgeekId": 4018
+    },
+    {
+      "name": "Cadillac Palace Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 2344,
+      "slug": "cadillac-palace-theatre",
+      "lat": 41.8843,
+      "lon": -87.6329,
+      "seatgeekId": 1897
+    },
+    {
+      "name": "Ryman Auditorium",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 2362,
+      "slug": "ryman-auditorium",
+      "lat": 36.1612,
+      "lon": -86.7785,
+      "seatgeekId": 292
+    },
+    {
+      "name": "McFarlin Auditorium",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": 2386,
+      "slug": "mcfarlin-auditorium",
+      "lat": 32.8442,
+      "lon": -96.7861,
+      "seatgeekId": 1439
+    },
+    {
+      "name": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 2400,
+      "slug": "the-wiltern",
+      "lat": 34.0615,
+      "lon": -118.309,
+      "seatgeekId": 456
+    },
+    {
+      "name": "Music Hall at Municipal Auditorium - Kansas City",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": 2400,
+      "slug": "music-hall-at-municipal-auditorium-kansas-city",
+      "lat": 39.096573,
+      "lon": -94.586624,
+      "seatgeekId": 2153
+    },
+    {
+      "name": "Whitney Hall - The Kentucky Center",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": 2406,
+      "slug": "whitney-hall-the-kentucky-center",
+      "lat": 38.2581,
+      "lon": -85.7585,
+      "seatgeekId": 1489
+    },
+    {
+      "name": "Dell Hall at Long Center For The Performing Arts",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 2442,
+      "slug": "dell-hall-at-long-center-for-the-performing-arts",
+      "lat": 30.2603,
+      "lon": -97.7511,
+      "seatgeekId": 3540
+    },
+    {
+      "name": "Kennedy Center - Concert Hall",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 2462,
+      "slug": "kennedy-center-concert-hall",
+      "lat": 38.896,
+      "lon": -77.0557,
+      "seatgeekId": 583
+    },
+    {
+      "name": "Tennessee Performing Arts Center - Andrew Jackson Hall",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": 2472,
+      "slug": "tennessee-performing-arts-center-andrew-jackson-hall",
+      "lat": 36.1645,
+      "lon": -86.7818,
+      "seatgeekId": 1275
+    },
+    {
+      "name": "Webster Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 2500,
+      "slug": "webster-hall",
+      "lat": 40.7318,
+      "lon": -73.9892,
+      "seatgeekId": 463
+    },
+    {
+      "name": "Riviera Theatre - Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 2500,
+      "slug": "riviera-theatre-chicago",
+      "lat": 41.9687,
+      "lon": -87.66,
+      "seatgeekId": 622
+    },
+    {
+      "name": "Kimmel Center - Marian Anderson Hall",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 2500,
+      "slug": "kimmel-center-marian-anderson-hall",
+      "lat": 39.9468,
+      "lon": -75.1654,
+      "seatgeekId": 700
+    },
+    {
+      "name": "The Deluxe at Old National Centre",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": 2500,
+      "slug": "the-deluxe-at-old-national-centre",
+      "lat": 39.7743,
+      "lon": -86.1513,
+      "seatgeekId": 7387
+    },
+    {
+      "name": "Riverside Theater - Milwaukee",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": 2500,
+      "slug": "riverside-theater-milwaukee",
+      "lat": 43.039,
+      "lon": -87.9109,
+      "seatgeekId": 623
+    },
+    {
+      "name": "Academy of Music - Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": 2509,
+      "slug": "academy-of-music-philadelphia",
+      "lat": 39.9468,
+      "lon": -75.1654,
+      "seatgeekId": 1150
+    },
+    {
+      "name": "Chicago Symphony Center",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": 2522,
+      "slug": "chicago-symphony-center",
+      "lat": 41.879,
+      "lon": -87.625,
+      "seatgeekId": 271
+    },
+    {
+      "name": "Centennial Hall - AZ",
+      "city": "Tucson",
+      "state": "AZ",
+      "capacity": 2526,
+      "slug": "centennial-hall-az",
+      "lat": 32.254,
+      "lon": -110.974,
+      "seatgeekId": 1406
+    },
+    {
+      "name": "Harrah's Resort Atlantic City",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "capacity": 2588,
+      "slug": "harrah-s-resort-atlantic-city",
+      "lat": 39.3842,
+      "lon": -74.4285,
+      "seatgeekId": 1047
+    },
+    {
+      "name": "Saenger Theatre - New Orleans",
+      "city": "New Orleans",
+      "state": "LA",
+      "capacity": 2600,
+      "slug": "saenger-theatre-new-orleans",
+      "lat": 29.9561,
+      "lon": -90.0719,
+      "seatgeekId": 31801
+    },
+    {
+      "name": "Celebrity Theatre - Phoenix",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": 2651,
+      "slug": "celebrity-theatre-phoenix",
+      "lat": 33.4544,
+      "lon": -112.015,
+      "seatgeekId": 160
+    },
+    {
+      "name": "Louise M. Davies Symphony Hall",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": 2700,
+      "slug": "louise-m-davies-symphony-hall",
+      "lat": 37.7776,
+      "lon": -122.421,
+      "seatgeekId": 819
+    },
+    {
+      "name": "Murat Theatre at Old National Centre",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": 2700,
+      "slug": "murat-theatre-at-old-national-centre",
+      "lat": 39.7744,
+      "lon": -86.1511,
+      "seatgeekId": 479
+    },
+    {
+      "name": "Louisville Palace",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": 2700,
+      "slug": "louisville-palace",
+      "lat": 38.2481,
+      "lon": -85.7578,
+      "seatgeekId": 666
+    },
+    {
+      "name": "Hollywood Pantages Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": 2703,
+      "slug": "hollywood-pantages-theatre",
+      "lat": 34.1017,
+      "lon": -118.325,
+      "seatgeekId": 1725
+    },
+    {
+      "name": "Arena Theatre - Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": 2750,
+      "slug": "arena-theatre-houston",
+      "lat": 29.7021,
+      "lon": -95.5177,
+      "seatgeekId": 514
+    },
+    {
+      "name": "Austin City Limits Live at The Moody Theater",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 2750,
+      "slug": "austin-city-limits-live-at-the-moody-theater",
+      "lat": 30.2652,
+      "lon": -97.7471,
+      "seatgeekId": 3670
+    },
+    {
+      "name": "Potawatomi Casino-Northern Lights Theatre",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": 2750,
+      "slug": "potawatomi-casino-northern-lights-theatre",
+      "lat": 43.0305,
+      "lon": -87.9346,
+      "seatgeekId": 978
+    },
+    {
+      "name": "Red Butte Garden Amphitheatre",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": 2800,
+      "slug": "red-butte-garden-amphitheatre",
+      "lat": 40.7654,
+      "lon": -111.824,
+      "seatgeekId": 265
+    },
+    {
+      "name": "Abravanel Hall",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": 2811,
+      "slug": "abravanel-hall",
+      "lat": 40.7691,
+      "lon": -111.896,
+      "seatgeekId": 1101
+    },
+    {
+      "name": "Bayou Music Center",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": 2815,
+      "slug": "bayou-music-center",
+      "lat": 29.7625,
+      "lon": -95.3669,
+      "seatgeekId": 490
+    },
+    {
+      "name": "Temple Hoyne Buell Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": 2880,
+      "slug": "temple-hoyne-buell-theatre",
+      "lat": 39.7446,
+      "lon": -104.998,
+      "seatgeekId": 835
+    },
+    {
+      "name": "Beacon Theatre",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 2894,
+      "slug": "beacon-theatre",
+      "lat": 40.7805,
+      "lon": -73.981,
+      "seatgeekId": 414
+    },
+    {
+      "name": "Bass Concert Hall",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": 2900,
+      "slug": "bass-concert-hall",
+      "lat": 30.2861,
+      "lon": -97.7312,
+      "seatgeekId": 420
+    },
+    {
+      "name": "San Diego Civic Theatre",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": 2967,
+      "slug": "san-diego-civic-theatre",
+      "lat": 32.7174,
+      "lon": -117.162,
+      "seatgeekId": 1405
+    },
+    {
+      "name": "Keller Auditorium",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": 2992,
+      "slug": "keller-auditorium",
+      "lat": 45.5125,
+      "lon": -122.678,
+      "seatgeekId": 3842
+    },
+    {
+      "name": "Terminal 5",
+      "city": "New York",
+      "state": "NY",
+      "capacity": 3000,
+      "slug": "terminal-5",
+      "lat": 40.7697,
+      "lon": -73.9928,
+      "seatgeekId": 814
+    },
+    {
+      "name": "Stereo Live Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": 3000,
+      "slug": "stereo-live-houston",
+      "lat": 29.7321,
+      "lon": -95.4987,
+      "seatgeekId": 5765
+    },
+    {
+      "name": "Egyptian Room at Old National Centre",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": 3000,
+      "slug": "egyptian-room-at-old-national-centre",
+      "lat": 39.7743,
+      "lon": -86.1513,
+      "seatgeekId": 447
+    },
+    {
+      "name": "Paramount Theatre - WA",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": 3000,
+      "slug": "paramount-theatre-wa",
+      "lat": 47.6135,
+      "lon": -122.332,
+      "seatgeekId": 453
+    },
+    {
+      "name": "Memorial Hall - Dover",
+      "city": "Dover",
+      "state": "DE",
+      "capacity": 3000,
+      "slug": "memorial-hall-dover",
+      "lat": 39.1932,
+      "lon": -75.5463,
+      "seatgeekId": 4195
+    },
+    {
+      "name": "Isleta Casino & Resort - Showroom",
+      "city": "Albuquerque",
+      "state": "NM",
+      "capacity": 3000,
+      "slug": "isleta-casino-resort-showroom",
+      "lat": 34.9377,
+      "lon": -106.662,
+      "seatgeekId": 652
+    }
+  ]
+}
