@@ -1,0 +1,55 @@
+{
+  "artist": "Nessa Barrett",
+  "tour": "Jesus Loves a Primadonna — Intimate Evening",
+  "recordedDate": "2026-03-16",
+  "source": "SeatGeek screenshot from Zach",
+  "notes": "Prices captured ~2-3 weeks before shows. EP drops Mar 20. 150-cap LA rooms nearly sold out.",
+  "shows": [
+    {
+      "date": "2026-04-03",
+      "venue": "Masonic Lodge at Hollywood Forever",
+      "city": "Los Angeles, CA",
+      "capacity": 150,
+      "ticketsLeft": 12,
+      "lowestPrice": 116,
+      "status": "nearly sold out"
+    },
+    {
+      "date": "2026-04-04",
+      "venue": "Masonic Lodge at Hollywood Forever",
+      "city": "Los Angeles, CA",
+      "capacity": 150,
+      "ticketsLeft": 9,
+      "lowestPrice": 134,
+      "status": "nearly sold out"
+    },
+    {
+      "date": "2026-04-07",
+      "venue": "Thalia Hall",
+      "city": "Chicago, IL",
+      "capacity": 900,
+      "ticketsLeft": 56,
+      "lowestPrice": 73,
+      "status": "selling"
+    },
+    {
+      "date": "2026-04-09",
+      "venue": "St. Ann's and the Holy Trinity Church",
+      "city": "Brooklyn, NY",
+      "capacity": 700,
+      "ticketsLeft": 6,
+      "lowestPrice": 137,
+      "status": "nearly sold out"
+    },
+    {
+      "date": "2026-04-11",
+      "venue": "Elgin and Winter Garden Theatre Centre",
+      "city": "Toronto, ON",
+      "capacity": 1500,
+      "ticketsLeft": 71,
+      "lowestPrice": 103,
+      "status": "selling"
+    }
+  ],
+  "keyInsight": "Smallest venues (150 cap, 700 cap) have highest prices and lowest inventory. Confirms: venue size inversely correlates with secondary premium for artists with large online followings."
+}

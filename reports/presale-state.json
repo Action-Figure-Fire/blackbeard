@@ -127,6 +127,34 @@
     "Post Malone-https://www.bigassstadiumtour.com/": {
       "firstSeen": "2026-03-10T17:00:03.759Z",
       "urgency": "TODAY"
+    },
+    "Matt Rife-https://www.mattrifebuffalo.com/": {
+      "firstSeen": "2026-03-16T17:00:04.591Z",
+      "urgency": "NEW TOUR"
+    },
+    "Jelly Roll-https://www.noise11.com/news/jelly-roll-grand-ole-opry-induction-20260312": {
+      "firstSeen": "2026-03-16T17:00:04.591Z",
+      "urgency": "TODAY"
+    },
+    "Tame Impala-https://www.ticketnews.com/2026/03/tame-impala-tickets-on-sale-in-atlanta-at-state-farm-arena/": {
+      "firstSeen": "2026-03-16T17:00:04.591Z",
+      "urgency": "ONSALE"
+    },
+    "Snail Mail-https://readdork.com/news/snail-mail-eu-uk-tour/": {
+      "firstSeen": "2026-03-16T17:00:04.591Z",
+      "urgency": "ANNOUNCED"
+    },
+    "Illenium-https://www.youtube.com/watch?v=JssDaUK0_GQ": {
+      "firstSeen": "2026-03-16T17:00:04.591Z",
+      "urgency": "TODAY"
+    },
+    "Nate Bargatze-https://www.ticketnews.com/2026/03/nate-bargatze-tickets-on-sale-in-grand-rapids-at-van-andel-arena/": {
+      "firstSeen": "2026-03-16T17:00:04.591Z",
+      "urgency": "ONSALE"
+    },
+    "Sebastian Maniscalco-https://www.nj.com/live-entertainment/2026/03/how-to-secure-sebastian-maniscalco-tickets-before-they-sell-out-during-the-ticketmaster-presale.html": {
+      "firstSeen": "2026-03-16T17:00:04.591Z",
+      "urgency": "ANNOUNCED"
     }
   },
   "codes": {
@@ -137,5 +165,5 @@
       "foundAt": "2026-03-05T23:26:56.128Z"
     }
   },
-  "lastScan": "2026-03-10T22:00:04.643Z"
+  "lastScan": "2026-03-16T17:00:04.591Z"
 }
