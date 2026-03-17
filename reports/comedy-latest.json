@@ -1,6 +1,19 @@
 {
-  "timestamp": "2026-03-16T16:00:50.507Z",
+  "timestamp": "2026-03-17T00:02:10.630Z",
   "shows": [
+    {
+      "comedian": "Shane Gillis",
+      "venue": "Unknown venue",
+      "venueCapacity": null,
+      "source": "twitter",
+      "text": "Shane Gillis is making you laugh at United Center on April 3. Melissa &amp; Austin have your chance to score tickets all week long https://t.co/GMZTdr9FGZ https://t.co/E5urSZL6W6",
+      "url": "https://x.com/i/status/2033513612367520121",
+      "ticketUrl": "https://t.co/GMZTdr9FGZ",
+      "engagement": 1,
+      "created": "2026-03-16T12:00:00.000Z",
+      "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
     {
       "comedian": "Theo Von",
       "venue": "Unknown venue",
@@ -15,15 +28,28 @@
       "isNewAnnouncement": false
     },
     {
-      "comedian": "Shane Gillis",
+      "comedian": "Unknown",
+      "venue": "Helium Comedy (Philadelphia, cap: 325)",
+      "venueCapacity": 325,
+      "source": "twitter",
+      "text": "Bryan Callen will be in Buffalo! Get tickets!\n\n📍 March 27-28\n🎫 Helium Comedy Club https://t.co/CEo5MlLojs",
+      "url": "https://x.com/i/status/2033692817810178526",
+      "ticketUrl": "https://t.co/CEo5MlLojs",
+      "engagement": 0,
+      "created": "2026-03-16T23:52:06.000Z",
+      "isSmallVenue": true,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Matt Rife",
       "venue": "Unknown venue",
       "venueCapacity": null,
       "source": "twitter",
-      "text": "Shane Gillis is making you laugh at United Center on April 3. Melissa &amp; Austin have your chance to score tickets all week long https://t.co/GMZTdr9FGZ https://t.co/E5urSZL6W6",
-      "url": "https://x.com/i/status/2033513612367520121",
-      "ticketUrl": "https://t.co/GMZTdr9FGZ",
+      "text": "I’ve got 2 verified tickets for Matt Rife on 22 April 2026 at 3Arena, Dublin via Ticketmaster.",
+      "url": "https://x.com/i/status/2033598075176976702",
+      "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-03-16T12:00:00.000Z",
+      "created": "2026-03-16T17:35:38.000Z",
       "isSmallVenue": null,
       "isNewAnnouncement": false
     },
@@ -37,19 +63,6 @@
       "ticketUrl": "https://t.co/zSApqsbg2Z",
       "engagement": 0,
       "created": "2026-03-16T15:45:21.000Z",
-      "isSmallVenue": null,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Matt Rife",
-      "venue": "Unknown venue",
-      "venueCapacity": null,
-      "source": "twitter",
-      "text": "I’ve got 3x tickets for Matt Rife on 22 April 2026 at 3Arena, Dublin via Ticketmaster. Hmu #ticketforsale",
-      "url": "https://x.com/i/status/2033491022781571395",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-03-16T10:30:14.000Z",
       "isSmallVenue": null,
       "isNewAnnouncement": false
     },
@@ -93,6 +106,19 @@
       "isNewAnnouncement": false
     },
     {
+      "comedian": "Andrew Schulz",
+      "venue": "Zanies (Nashville, cap: 300)",
+      "venueCapacity": 300,
+      "source": "brave",
+      "text": "Zanies uses All-In Ticket Pricing. The total price listed includes ticket fees and taxes.",
+      "url": "https://nashville.zanies.com/show/andrew-schulz/zanies/nashville-tennessee/",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-03-12T23:12:16",
+      "isSmallVenue": true,
+      "isNewAnnouncement": false
+    },
+    {
       "comedian": "Kill Tony",
       "venue": "Comedy Store (Los Angeles, cap: 450)",
       "venueCapacity": 450,
@@ -106,32 +132,6 @@
       "isNewAnnouncement": false
     },
     {
-      "comedian": "Tony Hinchcliffe",
-      "venue": "The Comedy Mothership (Austin, cap: 400)",
-      "venueCapacity": 400,
-      "source": "brave",
-      "text": "AboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy &amp; SafetyHow YouTube worksTest new featuresNFL Sunday Ticket · © 2026 Google LLC",
-      "url": "https://www.youtube.com/watch?v=-Mr1BE38Ytg",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-03-09T14:50:44",
-      "isSmallVenue": true,
-      "isNewAnnouncement": false
-    },
-    {
-      "comedian": "Andrew Schulz",
-      "venue": "Zanies (Nashville, cap: 300)",
-      "venueCapacity": 300,
-      "source": "brave",
-      "text": "Tickets: Will Call is the ONLY option given when purchasing <strong>tickets</strong>. We do NOT give physical or digital <strong>tickets</strong> for entry to our shows. Once <strong>tickets</strong> ",
-      "url": "https://nashville.zanies.com/show/andrew-schulz/zanies/nashville-tennessee/",
-      "ticketUrl": null,
-      "engagement": 0,
-      "created": "2026-03-12T23:12:16",
-      "isSmallVenue": true,
-      "isNewAnnouncement": false
-    },
-    {
       "comedian": "Unknown",
       "venue": "Funny Bone (Various, cap: 350)",
       "venueCapacity": 350,
@@ -141,6 +141,19 @@
       "ticketUrl": null,
       "engagement": 0,
       "created": "2026-03-15T22:26:13",
+      "isSmallVenue": true,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Unknown",
+      "venue": "The Stand (New York, cap: 200)",
+      "venueCapacity": 200,
+      "source": "brave",
+      "text": "Bankas is a regular at Comedy Mothership and has performed at renowned establishments like the Comedy Store and Hollywood Improv in Los Angeles, as well as The Stand and New York Comedy Club. 2026 is ",
+      "url": "https://syracuse.funnybone.com/events/category/series/ben-bankas/funny-bone-comedy-club/",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-03-10T07:40:58",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     }

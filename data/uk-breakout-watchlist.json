@@ -1,0 +1,1610 @@
+{
+  "lastRun": "2026-03-17T01:43:37.023Z",
+  "apiCalls": {
+    "brave": 30,
+    "bandsintown": 30,
+    "seatgeek": 0
+  },
+  "alertCount": 0,
+  "alerts": [],
+  "artists": [
+    {
+      "name": "Royel Otis",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 2,
+      "totalEvents": 36,
+      "usEvents": 6,
+      "ukEuEvents": 20,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-13",
+          "venue": "The Sound",
+          "city": "Del Mar, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-16",
+          "venue": "Royel Otis - The Greek Theatre, Berkeley ",
+          "city": "Berkeley, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-13",
+          "venue": "Royel Otis - Salt Shed Outdoors, Chicago",
+          "city": "Chicago, IL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-14",
+          "venue": "Royel Otis - Salt Shed Outdoors, Chicago",
+          "city": "Chicago, IL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-18",
+          "venue": "Royel Otis, BRIC Celebrate Brooklyn! at the Lena Horne Bandshell Prospect Park, Brooklyn, NY",
+          "city": "Brooklyn, NY",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-06-05",
+          "venue": "NEON Festival 2026",
+          "city": "Trondheim",
+          "country": "Norway"
+        },
+        {
+          "date": "2026-06-08",
+          "venue": "Gothenburg Film Studios",
+          "city": "Göteborg",
+          "country": "Sweden"
+        },
+        {
+          "date": "2026-06-10",
+          "venue": "Foo Fighters",
+          "city": "Fornebu",
+          "country": "Norway"
+        }
+      ],
+      "snippets": [
+        "Sound of... - Wikipedia The longlist for the Sound of 2026 was revealed on 1 December 2025. The acts nominated were <strong>Alessi Rose, Chloe Qisha, Florence Road, Geese, Jim Legxacy, kwn, Royel Otis",
+        "BBC Sound Of 2026 winner and top five shortlist revealed The longlist was comprised of Alessi Rose, Chloe Qisha, Geese, Royel Otis, <strong>Skye Newman</strong>, Sombr, and more ... <strong>Skye Newma"
+      ],
+      "spotifyMonthly": 10400000,
+      "breakoutScore": 60,
+      "signals": [
+        "Active UK/EU tour",
+        "Just announced US dates — early window",
+        "10M Spotify",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "🔴 IMMINENT"
+    },
+    {
+      "name": "Fontaines D.C.",
+      "sources": [
+        "NME",
+        "UK Indie Breakthrough"
+      ],
+      "mentions": 2,
+      "totalEvents": 7,
+      "usEvents": 1,
+      "ukEuEvents": 6,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-09-18",
+          "venue": "Shaky Knees 2026",
+          "city": "Atlanta, GA",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-08-14",
+          "venue": "La Route du Rock 2026",
+          "city": "Saint-père-marc-en-poulet",
+          "country": "France"
+        },
+        {
+          "date": "2026-08-20",
+          "venue": "Frequency Festival 2026",
+          "city": "Sankt Pölten",
+          "country": "Austria"
+        },
+        {
+          "date": "2026-08-27",
+          "venue": "Electric Picnic 2026",
+          "city": "Co. Laois",
+          "country": "Ireland"
+        }
+      ],
+      "snippets": [
+        "The NME 100 of 2026 Drops Today: 100 Essential Emerging Artists to Watch Across the Globe | NME Networks Since its first edition in 2017, many artists spotlighted on the NME 100, from Billie Eilish to",
+        "The most exciting UK and European music festival lineups for summer 2026 | Metro News There’s not a single indie guitar band headlining in 2026, with the four-day event announcing <strong>Charli XCX, "
+      ],
+      "socialSnippet": "Fontaines D.C. - Spotify Statistics & Monthly Listeners | Music Metrics Vault Discover Fontaines D.C. Spotify statistics: <strong>6.2 million</strong>",
+      "breakoutScore": 60,
+      "signals": [
+        "Active UK/EU tour",
+        "Just announced US dates — early window",
+        "2 source types",
+        "Award signal: NME"
+      ],
+      "tier": "🔴 IMMINENT"
+    },
+    {
+      "name": "Ezra Collective",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 1,
+      "totalEvents": 9,
+      "usEvents": 0,
+      "ukEuEvents": 8,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [
+        {
+          "date": "2026-06-26",
+          "venue": "Couleur Cafe 2026",
+          "city": "Belgium",
+          "country": "Belgium"
+        },
+        {
+          "date": "2026-06-27",
+          "venue": "Metropolink - Open Air Heidelberg ",
+          "city": "Heidelberg",
+          "country": "Germany"
+        },
+        {
+          "date": "2026-07-03",
+          "venue": "Love Supreme Jazz Festival 2026",
+          "city": "Glynde",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
+      ],
+      "breakoutScore": 60,
+      "signals": [
+        "Active UK/EU tour",
+        "🔥 NO US DATES YET — pre-breakout window",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "🔴 IMMINENT"
+    },
+    {
+      "name": "English Teacher",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 1,
+      "totalEvents": 8,
+      "usEvents": 0,
+      "ukEuEvents": 8,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [
+        {
+          "date": "2026-03-21",
+          "venue": "The George Tavern",
+          "city": "London",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-06-19",
+          "venue": "TRNSMT 2026",
+          "city": "Glasgow",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-07-08",
+          "venue": "Castlefield Bowl",
+          "city": "Manchester City Centre",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
+      ],
+      "breakoutScore": 60,
+      "signals": [
+        "Active UK/EU tour",
+        "🔥 NO US DATES YET — pre-breakout window",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "🔴 IMMINENT"
+    },
+    {
+      "name": "Self Esteem",
+      "sources": [
+        "BRIT Awards"
+      ],
+      "mentions": 1,
+      "totalEvents": 11,
+      "usEvents": 0,
+      "ukEuEvents": 11,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [
+        {
+          "date": "2026-07-04",
+          "venue": "Wasing Estate woodland",
+          "city": "Wasing",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-07-10",
+          "venue": "Museum Gardens",
+          "city": "York",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-07-11",
+          "venue": "Tynemouth Priory and Castle",
+          "city": "Tynemouth",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+      ],
+      "breakoutScore": 60,
+      "signals": [
+        "Active UK/EU tour",
+        "🔥 NO US DATES YET — pre-breakout window",
+        "Award signal: BRIT Awards"
+      ],
+      "tier": "🔴 IMMINENT"
+    },
+    {
+      "name": "Cat Burns",
+      "sources": [
+        "Mercury Prize"
+      ],
+      "mentions": 1,
+      "totalEvents": 9,
+      "usEvents": 0,
+      "ukEuEvents": 9,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [
+        {
+          "date": "2026-04-10",
+          "venue": "Birmingham, United Kingdom",
+          "city": "Birmingham",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-04-11",
+          "venue": "NX Newcastle",
+          "city": "Newcastle Upon Tyne",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-04-12",
+          "venue": "O2 Academy Glasgow",
+          "city": "Glasgow",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "r/indieheads on Reddit: Mercury Music Prize 2024 Nominees 69 votes, 85 comments. <strong>Barry Can&#x27;t Swim - When Will We Land?</strong> BERWYN - Who Am I Beth Gibbons - Lives Outgrown Cat Burns -"
+      ],
+      "breakoutScore": 60,
+      "signals": [
+        "Active UK/EU tour",
+        "🔥 NO US DATES YET — pre-breakout window",
+        "Award signal: Mercury Prize"
+      ],
+      "tier": "🔴 IMMINENT"
+    },
+    {
+      "name": "Disclosure",
+      "sources": [
+        "BBC Sound Of",
+        "UK Sold Out"
+      ],
+      "mentions": 2,
+      "totalEvents": 30,
+      "usEvents": 22,
+      "ukEuEvents": 5,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-07",
+          "venue": "Santa Barbara Bowl",
+          "city": "Santa Barbara, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-08",
+          "venue": "Santa Barbara Bowl",
+          "city": "Santa Barbara, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-10",
+          "venue": "Atlantic Aviation TRM",
+          "city": "Thermal, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-10",
+          "venue": "Coachella Valley Music and Arts Festival 2026",
+          "city": "Indio, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-11",
+          "venue": "Breakaway Music Festival Dallas 2026",
+          "city": "Dallas, TX",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-07-03",
+          "venue": "Kappa FuturFestival 2026",
+          "city": "Torino",
+          "country": "Italy"
+        },
+        {
+          "date": "2026-07-23",
+          "venue": "Poney Club",
+          "city": "Blagnac",
+          "country": "France"
+        },
+        {
+          "date": "2026-07-30",
+          "venue": "O Days Festival  2026",
+          "city": "København K",
+          "country": "Denmark"
+        }
+      ],
+      "snippets": [
+        "BBC Sound of 2026 shortlist: 10 acts you'll be obsessed with next year The remaining nominees for 2026 include breakout rap star <strong>Jim Legxacy, Irish rockers Florence Road, R&amp;B singer Kwn an",
+        "BBC Sound of 2026 shortlist: 10 acts you'll be obsessed with next year ... It&#x27;s been a long road to success for Colombian-British R&amp;B singer <strong>Sasha Keable</strong>. After graduating fr"
+      ],
+      "spotifyMonthly": 22000000,
+      "breakoutScore": 55,
+      "signals": [
+        "Some UK/EU dates",
+        "2 source types",
+        "22M Spotify = RAYE-level",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "Raye",
+      "sources": [
+        "BBC Sound Of",
+        "UK Indie Breakthrough"
+      ],
+      "mentions": 2,
+      "totalEvents": 53,
+      "usEvents": 43,
+      "ukEuEvents": 4,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-03-31",
+          "venue": "Channel 24",
+          "city": "Sacramento, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-03",
+          "venue": "WAMU Theater",
+          "city": "Seattle, WA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-06",
+          "venue": "Fillmore Auditorium",
+          "city": "Denver, CO",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-08",
+          "venue": "State Theatre",
+          "city": "Minneapolis, MN",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-10",
+          "venue": "Auditorium Theatre",
+          "city": "Chicago, IL",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-05-19",
+          "venue": "The O2",
+          "city": "London",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-05-20",
+          "venue": "The O2",
+          "city": "London",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "Richfield Avenue",
+          "city": "Reading",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "BBC Radio 1 Sound Of 2026 longlist includes Alessi Rose, Geese, Skye Newman and Florence Road | Talent | Music Week Previous Sound Of artists include Stormzy, Adele, Lady Gaga, Raye, The Weeknd, Dua L",
+        "The most exciting UK and European music festival lineups for summer 2026 | Metro News There’s not a single indie guitar band headlining in 2026, with the four-day event announcing <strong>Charli XCX, "
+      ],
+      "spotifyMonthly": 55000000,
+      "breakoutScore": 55,
+      "signals": [
+        "Some UK/EU dates",
+        "2 source types",
+        "55M Spotify = RAYE-level",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "PinkPantheress",
+      "sources": [
+        "BRIT Awards",
+        "Mercury Prize"
+      ],
+      "mentions": 2,
+      "totalEvents": 22,
+      "usEvents": 15,
+      "ukEuEvents": 3,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-10",
+          "venue": "Coachella Valley Music and Arts Festival 2026",
+          "city": "Indio, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-14",
+          "venue": "WAMU Theater",
+          "city": "Seattle, WA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-20",
+          "venue": "Arizona Financial Theatre",
+          "city": "Phoenix, AZ",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-22",
+          "venue": "713 Music Hall",
+          "city": "Houston, TX",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-23",
+          "venue": "Southside Ballroom Loading Dock",
+          "city": "Dallas, TX",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-05-29",
+          "venue": "Alexandra Palace",
+          "city": "London",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-06-04",
+          "venue": "Parc del Fòrum",
+          "city": "Barcelona",
+          "country": "Spain"
+        },
+        {
+          "date": "2026-08-22",
+          "venue": "Lorde at All Points East 2026",
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est",
+        "CMAT, Pulp and PinkPantheress among Mercury prize shortlist light on new names | Music | The Guardian This year sees the ceremony move from London to Newcastle – following in the footsteps of the Mobo"
+      ],
+      "socialSnippet": "PinkPantheress - Spotify Statistics & Monthly Listeners | Music Metrics Vault Discover PinkPantheress Spotify statistics: <strong>35.2 million</strong",
+      "spotifyMonthly": 39000000,
+      "breakoutScore": 55,
+      "signals": [
+        "Some UK/EU dates",
+        "2 source types",
+        "39M Spotify = RAYE-level",
+        "Award signal: BRIT Awards, Mercury Prize"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "Olivia Dean",
+      "sources": [
+        "BBC Sound Of",
+        "BRIT Awards",
+        "UK Breakthrough",
+        "UK Viral",
+        "UK Charts"
+      ],
+      "mentions": 10,
+      "totalEvents": 44,
+      "usEvents": 19,
+      "ukEuEvents": 21,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-07-10",
+          "venue": "Chase Center",
+          "city": "San Francisco, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-11",
+          "venue": "Chase Center",
+          "city": "San Francisco, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-14",
+          "venue": "Crypto.com Arena",
+          "city": "Los Angeles, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-15",
+          "venue": "Crypto.com Arena",
+          "city": "Los Angeles, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-18",
+          "venue": "MGM Grand Garden Arena",
+          "city": "Las Vegas, NV",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-04-22",
+          "venue": "OVO Hydro",
+          "city": "Glasgow",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-04-23",
+          "venue": "OVO Hydro",
+          "city": "Glasgow",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-04-25",
+          "venue": "Co-op Live",
+          "city": "Manchester",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "BBC Radio 1 Sound Of 2026 longlist revealed The prestigious annual list has been running since 2003, and this year’s candidates have been whittled down by a panel of over 170 industry experts and arti",
+        "The BRIT Awards 2026 Winners Having equalled Olivia Dean for the most nominations this year with five, as well as being fellow BRIT School alumni, British standout star <strong>Lola Young</strong> won"
+      ],
+      "socialSnippet": "Olivia Dean - Spotify Statistics & Monthly Listeners | Music Metrics Vault Discover Olivia Dean Spotify statistics: <strong>60.9 million</strong> mont",
+      "spotifyMonthly": 2000000,
+      "breakoutScore": 50,
+      "signals": [
+        "Active UK/EU tour",
+        "5 source types",
+        "Award signal: BBC Sound Of, BRIT Awards, UK Charts"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "Jorja Smith",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 1,
+      "totalEvents": 1,
+      "usEvents": 0,
+      "ukEuEvents": 1,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [
+        {
+          "date": "2026-08-21",
+          "venue": "Jorja Smith & Tems at All Points East 2026",
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "BBC Sound of 2026 shortlist: 10 acts you'll be obsessed with next year The remaining nominees for 2026 include breakout rap star <strong>Jim Legxacy, Irish rockers Florence Road, R&amp;B singer Kwn an"
+      ],
+      "breakoutScore": 50,
+      "signals": [
+        "Some UK/EU dates",
+        "🔥 NO US DATES YET — pre-breakout window",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "Charli xcx",
+      "sources": [
+        "Mercury Prize"
+      ],
+      "mentions": 1,
+      "totalEvents": 3,
+      "usEvents": 0,
+      "ukEuEvents": 3,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [
+        {
+          "date": "2026-08-28",
+          "venue": "Richfield Avenue",
+          "city": "Reading",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "Bramham Park",
+          "city": "Leeds",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-08-30",
+          "venue": "Richfield Avenue",
+          "city": "Reading",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "r/indieheads on Reddit: Mercury Music Prize 2024 Nominees 69 votes, 85 comments. <strong>Barry Can&#x27;t Swim - When Will We Land?</strong> BERWYN - Who Am I Beth Gibbons - Lives Outgrown Cat Burns -"
+      ],
+      "breakoutScore": 50,
+      "signals": [
+        "Some UK/EU dates",
+        "🔥 NO US DATES YET — pre-breakout window",
+        "Award signal: Mercury Prize"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "CMAT",
+      "sources": [
+        "Mercury Prize",
+        "UK Indie Breakthrough"
+      ],
+      "mentions": 2,
+      "totalEvents": 62,
+      "usEvents": 22,
+      "ukEuEvents": 36,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-10",
+          "venue": "Coachella Valley Music and Arts Festival 2026",
+          "city": "Indio, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-17",
+          "venue": "Coachella Valley Music and Arts Festival 2026",
+          "city": "Indio, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-19",
+          "venue": "The Castro Theatre",
+          "city": "San Francisco, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-21",
+          "venue": "McMenamins Crystal Ballroom",
+          "city": "Portland, OR",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-22",
+          "venue": "The Showbox",
+          "city": "Seattle, WA",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-03-18",
+          "venue": "TivoliVredenburg",
+          "city": "Utrecht",
+          "country": "Netherlands"
+        },
+        {
+          "date": "2026-03-19",
+          "venue": "Muziekgieterij",
+          "city": "Maastricht",
+          "country": "Netherlands"
+        },
+        {
+          "date": "2026-03-21",
+          "venue": "VEGA",
+          "city": "København",
+          "country": "Denmark"
+        }
+      ],
+      "snippets": [
+        "CMAT, Pulp and PinkPantheress among Mercury prize shortlist light on new names | Music | The Guardian This year sees the ceremony move from London to Newcastle – following in the footsteps of the Mobo",
+        "All the brilliant music festivals already confirmed for London in 2026 After making its spectacular debut in the summer, <strong>Lido festival</strong> is returning to Tower Hamlets park’s Lido Field "
+      ],
+      "breakoutScore": 45,
+      "signals": [
+        "Active UK/EU tour",
+        "2 source types",
+        "Award signal: Mercury Prize"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "Confidence Man",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 2,
+      "totalEvents": 6,
+      "usEvents": 4,
+      "ukEuEvents": 2,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-06-05",
+          "venue": "West Hollywood Park",
+          "city": "West Hollywood, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-05",
+          "venue": "The Governors Ball Music Festival 2026",
+          "city": "Queens County, NY",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-13",
+          "venue": "Bonnaroo Music and Arts Festival 2026",
+          "city": "Manchester, TN",
+          "country": "United States"
+        },
+        {
+          "date": "2026-10-16",
+          "venue": "Red Rocks Amphitheatre",
+          "city": "Morrison, CO",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-07-03",
+          "venue": "Kappa FuturFestival 2026",
+          "city": "Torino",
+          "country": "Italy"
+        },
+        {
+          "date": "2026-08-08",
+          "venue": "Burgess Park",
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "Radio 1's Sound Of 2026 Jack details all the artists on the list who have been tipped for big things in 2026. ... Featuring winner Chappell Roan, and the rest of the longlist including <strong>Myles S",
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
+      ],
+      "breakoutScore": 40,
+      "signals": [
+        "Some UK/EU dates",
+        "Just announced US dates — early window",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "Good Neighbours",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 1,
+      "totalEvents": 7,
+      "usEvents": 4,
+      "ukEuEvents": 2,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-11",
+          "venue": "Barnato",
+          "city": "Omaha, NE",
+          "country": "United States"
+        },
+        {
+          "date": "2026-05-22",
+          "venue": "ZeyZey Miami",
+          "city": "Miami, FL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-05-24",
+          "venue": "BottleRock Napa Valley 2026",
+          "city": "Napa, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-08-07",
+          "venue": "Up In The Sky Music Festival 2026",
+          "city": "Aspen, CO",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-03-17",
+          "venue": "Uebel & Gefährlich",
+          "city": "Hamburg",
+          "country": "Germany"
+        },
+        {
+          "date": "2026-03-22",
+          "venue": "Schiffbau, Moods & EXIL",
+          "city": "Zürich (kreis 6)",
+          "country": "Switzerland"
+        }
+      ],
+      "snippets": [
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
+      ],
+      "breakoutScore": 40,
+      "signals": [
+        "Some UK/EU dates",
+        "Just announced US dates — early window",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "Dave",
+      "sources": [
+        "BRIT Awards",
+        "UK Indie Breakthrough"
+      ],
+      "mentions": 2,
+      "totalEvents": 21,
+      "usEvents": 13,
+      "ukEuEvents": 1,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-03-27",
+          "venue": "Showbox SoDo",
+          "city": "Seattle, WA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-03-31",
+          "venue": "Fox Theater",
+          "city": "Oakland, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-03",
+          "venue": "Hollywood Palladium",
+          "city": "Los Angeles, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-07",
+          "venue": "Summit Music Hall",
+          "city": "Denver, CO",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-10",
+          "venue": "Southside Ballroom",
+          "city": "Dallas, TX",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-03-17",
+          "venue": "Co-op Live",
+          "city": "Manchester",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est",
+        "The most exciting UK and European music festival lineups for summer 2026 | Metro News There’s not a single indie guitar band headlining in 2026, with the four-day event announcing <strong>Charli XCX, "
+      ],
+      "breakoutScore": 35,
+      "signals": [
+        "Some UK/EU dates",
+        "2 source types",
+        "Award signal: BRIT Awards"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "Little Simz",
+      "sources": [
+        "BRIT Awards"
+      ],
+      "mentions": 1,
+      "totalEvents": 28,
+      "usEvents": 19,
+      "ukEuEvents": 6,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-10",
+          "venue": "Coachella Valley Music and Arts Festival 2026",
+          "city": "Indio, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-09-17",
+          "venue": "Kia Center",
+          "city": "Orlando, FL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-09-18",
+          "venue": "Kaseya Center",
+          "city": "Miami, FL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-09-23",
+          "venue": "Spectrum Center",
+          "city": "Charlotte, NC",
+          "country": "United States"
+        },
+        {
+          "date": "2026-09-26",
+          "venue": "Capital One Arena",
+          "city": "Washington, DC",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-05-24",
+          "venue": "Cross The Tracks 2026",
+          "city": "London",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-06-03",
+          "venue": "Primavera Sound 2026",
+          "city": "Barcelona",
+          "country": "Spain"
+        },
+        {
+          "date": "2026-06-27",
+          "venue": "Roskilde Festival 2026",
+          "city": "Roskilde",
+          "country": "Denmark"
+        }
+      ],
+      "snippets": [
+        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+      ],
+      "breakoutScore": 35,
+      "signals": [
+        "Active UK/EU tour",
+        "Award signal: BRIT Awards"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "Dry Cleaning",
+      "sources": [
+        "NME"
+      ],
+      "mentions": 1,
+      "totalEvents": 46,
+      "usEvents": 17,
+      "ukEuEvents": 21,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-30",
+          "venue": "Thalia Hall",
+          "city": "Chicago, IL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-05-03",
+          "venue": "Basilica Hudson",
+          "city": "Hudson, NY",
+          "country": "United States"
+        },
+        {
+          "date": "2026-05-05",
+          "venue": "Paradise Rock Club",
+          "city": "Boston, MA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-05-06",
+          "venue": "Union Transfer",
+          "city": "Philadelphia, PA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-05-07",
+          "venue": "Brooklyn Steel",
+          "city": "Brooklyn, NY",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-04-07",
+          "venue": "Festsaal Kreuzberg",
+          "city": "Berlin",
+          "country": "Germany"
+        },
+        {
+          "date": "2026-04-09",
+          "venue": "VEGA",
+          "city": "København",
+          "country": "Denmark"
+        },
+        {
+          "date": "2026-04-10",
+          "venue": "Mojo Club",
+          "city": "Hamburg",
+          "country": "Germany"
+        }
+      ],
+      "snippets": [
+        "NME’s most anticipated album releases of 2026 <strong>A$AP Rocky, Peaches, Robbie Williams, Dry Cleaning, BTS</strong> and more artists are dropping new music this year ... Releasing new music in 2026"
+      ],
+      "breakoutScore": 35,
+      "signals": [
+        "Active UK/EU tour",
+        "Award signal: NME"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "Sam Fender",
+      "sources": [
+        "BRIT Awards",
+        "Mercury Prize",
+        "UK Charts"
+      ],
+      "mentions": 6,
+      "totalEvents": 0,
+      "usEvents": 0,
+      "ukEuEvents": 0,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [],
+      "snippets": [
+        "All the winners at the 2026 Brit Awards Olivia Dean and Sam Fender were the main winners at the 2026 Brit Awards, which have been held in Manchester. Here&#x27;s a full list of the nominees and winner",
+        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+      ],
+      "breakoutScore": 30,
+      "signals": [
+        "3 source types",
+        "Award signal: BRIT Awards, Mercury Prize, UK Charts"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "Dua Lipa",
+      "sources": [
+        "BBC Sound Of",
+        "UK Breakthrough"
+      ],
+      "mentions": 4,
+      "totalEvents": 0,
+      "usEvents": 0,
+      "ukEuEvents": 0,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [],
+      "snippets": [
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English ",
+        "BBC Radio 1 Sound Of 2026 longlist includes Alessi Rose, Geese, Skye Newman and Florence Road | Talent | Music Week Previous Sound Of artists include Stormzy, Adele, Lady Gaga, Raye, The Weeknd, Dua L"
+      ],
+      "breakoutScore": 25,
+      "signals": [
+        "2 source types",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "RAYE",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 1,
+      "totalEvents": 53,
+      "usEvents": 43,
+      "ukEuEvents": 4,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-03-31",
+          "venue": "Channel 24",
+          "city": "Sacramento, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-03",
+          "venue": "WAMU Theater",
+          "city": "Seattle, WA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-06",
+          "venue": "Fillmore Auditorium",
+          "city": "Denver, CO",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-08",
+          "venue": "State Theatre",
+          "city": "Minneapolis, MN",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-10",
+          "venue": "Auditorium Theatre",
+          "city": "Chicago, IL",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-05-19",
+          "venue": "The O2",
+          "city": "London",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-05-20",
+          "venue": "The O2",
+          "city": "London",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-08-29",
+          "venue": "Richfield Avenue",
+          "city": "Reading",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
+      ],
+      "breakoutScore": 25,
+      "signals": [
+        "Some UK/EU dates",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "FKA twigs",
+      "sources": [
+        "Mercury Prize"
+      ],
+      "mentions": 1,
+      "totalEvents": 18,
+      "usEvents": 12,
+      "ukEuEvents": 3,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-03-16",
+          "venue": "Coca-Cola Roxy",
+          "city": "Atlanta, GA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-03-18",
+          "venue": "The Anthem",
+          "city": "Washington, DC",
+          "country": "United States"
+        },
+        {
+          "date": "2026-03-21",
+          "venue": "Madison Square Garden",
+          "city": "New York, NY",
+          "country": "United States"
+        },
+        {
+          "date": "2026-03-22",
+          "venue": "MGM Music Hall at Fenway",
+          "city": "Boston, MA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-03-26",
+          "venue": "Wintrust Arena",
+          "city": "Chicago, IL",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-06-08",
+          "venue": "adidas arena",
+          "city": "Paris",
+          "country": "France"
+        },
+        {
+          "date": "2026-06-10",
+          "venue": "The O2",
+          "city": "London",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-07-03",
+          "venue": "Rock Werchter 2026",
+          "city": "Werchter",
+          "country": "Belgium"
+        }
+      ],
+      "snippets": [
+        "Previous Shortlists Javascript must be enabled for the correct page display · Skip to Content · Open menu · show moreless · 2025 Sam Fender People Watching Winner · EURO-COUNTRY · Emma-Jean Thackray ·"
+      ],
+      "breakoutScore": 25,
+      "signals": [
+        "Some UK/EU dates",
+        "Award signal: Mercury Prize"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "Rachel Chinouriri",
+      "sources": [
+        "UK Indie Breakthrough"
+      ],
+      "mentions": 1,
+      "totalEvents": 10,
+      "usEvents": 6,
+      "ukEuEvents": 2,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-08",
+          "venue": "Target Center",
+          "city": "Minneapolis, MN",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-10",
+          "venue": "Allstate Arena",
+          "city": "Rosemont, IL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-11",
+          "venue": "Allstate Arena",
+          "city": "Rosemont, IL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-13",
+          "venue": "Little Caesars Arena",
+          "city": "Detroit, MI",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-07",
+          "venue": "The Governors Ball Music Festival 2026",
+          "city": "Queens County, NY",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-06-28",
+          "venue": "Marlay Park",
+          "city": "South Dublin",
+          "country": "Ireland"
+        },
+        {
+          "date": "2026-07-05",
+          "venue": "Finsbury Park",
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "Top 26 Artists to watch in 2026 | // MELODIC Magazine After stepping onto the scene in 2019, <strong>Rachel Chinouriri</strong> has carved out space in the pop world by blending soul and indie element"
+      ],
+      "breakoutScore": 25,
+      "signals": [
+        "Some UK/EU dates",
+        "Just announced US dates — early window"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "Peggy Gou",
+      "sources": [
+        "Glastonbury"
+      ],
+      "mentions": 1,
+      "totalEvents": 6,
+      "usEvents": 2,
+      "ukEuEvents": 3,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-03-27",
+          "venue": "Club Space",
+          "city": "Miami, FL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-05-09",
+          "venue": "Under the ‘K’ Bridge Park",
+          "city": "Kings County, NY",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-05-22",
+          "venue": "KLUB",
+          "city": "Cannes",
+          "country": "France"
+        },
+        {
+          "date": "2026-07-03",
+          "venue": "Kappa FuturFestival 2026",
+          "city": "Torino",
+          "country": "Italy"
+        },
+        {
+          "date": "2026-08-02",
+          "venue": "The Chapel, Old Royal Naval College",
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "Glastonbury Festival 2026: line-up, tickets and complete guide It continued Glastonbury’s tradition of merging iconic names with emerging talent across all genres. In 2024, the festival saw Arctic Mon"
+      ],
+      "breakoutScore": 25,
+      "signals": [
+        "Some UK/EU dates",
+        "Just announced US dates — early window"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "Four Tet",
+      "sources": [
+        "Glastonbury"
+      ],
+      "mentions": 1,
+      "totalEvents": 8,
+      "usEvents": 2,
+      "ukEuEvents": 5,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-05-01",
+          "venue": "SILO Dallas",
+          "city": "Dallas, TX",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-11",
+          "venue": "Bonnaroo Music and Arts Festival 2026",
+          "city": "Manchester, TN",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-03-27",
+          "venue": "Magazzini Generali",
+          "city": "Milan",
+          "country": "Italy"
+        },
+        {
+          "date": "2026-05-16",
+          "venue": "Mia Mao",
+          "city": "Paris",
+          "country": "France"
+        },
+        {
+          "date": "2026-07-03",
+          "venue": "Kappa FuturFestival 2026",
+          "city": "Torino",
+          "country": "Italy"
+        }
+      ],
+      "snippets": [
+        "Glastonbury Festival 2026: line-up, tickets and complete guide It continued Glastonbury’s tradition of merging iconic names with emerging talent across all genres. In 2024, the festival saw Arctic Mon"
+      ],
+      "breakoutScore": 25,
+      "signals": [
+        "Some UK/EU dates",
+        "Just announced US dates — early window"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "Myles Smith",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 2,
+      "totalEvents": 17,
+      "usEvents": 12,
+      "ukEuEvents": 0,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-06-13",
+          "venue": "State Farm Stadium",
+          "city": "Glendale, AZ",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-20",
+          "venue": "Nissan Stadium",
+          "city": "Nashville, TN",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-25",
+          "venue": "Summerfest | Presented by American Family Insurance",
+          "city": "Milwaukee, WI",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-27",
+          "venue": "Soldier Field",
+          "city": "Chicago, IL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-04",
+          "venue": "Empower Field at Mile High",
+          "city": "Denver, CO",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [],
+      "snippets": [
+        "Radio 1's Sound Of 2026 Jack details all the artists on the list who have been tipped for big things in 2026. ... Featuring winner Chappell Roan, and the rest of the longlist including <strong>Myles S",
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
+      ],
+      "breakoutScore": 15,
+      "signals": [
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "⬜ LOW"
+    },
+    {
+      "name": "Chappell Roan",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 2,
+      "totalEvents": 3,
+      "usEvents": 0,
+      "ukEuEvents": 0,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [],
+      "snippets": [
+        "Radio 1's Sound Of 2026 Jack details all the artists on the list who have been tipped for big things in 2026. ... Featuring winner Chappell Roan, and the rest of the longlist including <strong>Myles S",
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
+      ],
+      "breakoutScore": 15,
+      "signals": [
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "⬜ LOW"
+    },
+    {
+      "name": "Stormzy",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 2,
+      "totalEvents": 0,
+      "usEvents": 0,
+      "ukEuEvents": 0,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [],
+      "snippets": [
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English ",
+        "BBC Radio 1 Sound Of 2026 longlist includes Alessi Rose, Geese, Skye Newman and Florence Road | Talent | Music Week Previous Sound Of artists include Stormzy, Adele, Lady Gaga, Raye, The Weeknd, Dua L"
+      ],
+      "breakoutScore": 15,
+      "signals": [
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "⬜ LOW"
+    },
+    {
+      "name": "Jade",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 1,
+      "totalEvents": 0,
+      "usEvents": 0,
+      "ukEuEvents": 0,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [],
+      "snippets": [
+        "BBC Radio 1 Sound Of 2026 longlist revealed The prestigious annual list has been running since 2003, and this year’s candidates have been whittled down by a panel of over 170 industry experts and arti"
+      ],
+      "breakoutScore": 15,
+      "signals": [
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "⬜ LOW"
+    },
+    {
+      "name": "Fred again",
+      "sources": [
+        "BRIT Awards"
+      ],
+      "mentions": 1,
+      "totalEvents": 0,
+      "usEvents": 0,
+      "ukEuEvents": 0,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [],
+      "snippets": [
+        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+      ],
+      "breakoutScore": 15,
+      "signals": [
+        "Award signal: BRIT Awards"
+      ],
+      "tier": "⬜ LOW"
+    }
+  ],
+  "summary": {
+    "imminent": 6,
+    "watchClosely": 9,
+    "onRadar": 10,
+    "noUSDates": 6
+  }
+}
