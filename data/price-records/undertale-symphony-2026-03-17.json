@@ -1,0 +1,58 @@
+{
+  "event": "UNDERTALE: The Determination Symphony World Tour",
+  "recordedDate": "2026-03-17",
+  "source": "Billboard, Kakuchopurei, SOHO Live, Vivid Seats, Reddit",
+  "status": "PRE-SALE — most US venues not on sale yet",
+  "producer": "SOHO Live (Tokyo) — same company as Stardew Valley tours",
+  "format": "25-piece orchestra, gameplay footage on screen, ~2hr show, cosplay encouraged",
+  "anniversary": "10th anniversary of Undertale (Sep 2015)",
+  "metrics": {
+    "gameCopiesSold": 4000000,
+    "subredditSubscribers": 622000,
+    "steamCommunityFollowers": 388000,
+    "steamAllTimePeakPlayers": 11071,
+    "steamPeakDate": "March 2025 (new ATH after 9 years)",
+    "deltarune": "Chapters 3+4 released June 2025 — renewed hype"
+  },
+  "londonProofOfConcept": {
+    "date": "2025-06-22",
+    "venue": "Eventim Apollo, London",
+    "capacity": 3500,
+    "producer": "Lambert Jackson Productions",
+    "ticketPrices": "£30-97",
+    "result": "SOLD OUT"
+  },
+  "stardewComparison": {
+    "festivalOfSeasons": "SOLD OUT 63 shows across 13 countries",
+    "sameProducer": true,
+    "stardewCopies": 30000000,
+    "stardewSubreddit": 1200000,
+    "undertaleAdvantage": "More obsessive fanbase, cosplay culture, younger demo",
+    "stardewAdvantage": "Larger total audience (7.5x copies sold)"
+  },
+  "usShows": [
+    {"date":"2026-08-23","city":"San Jose, CA","venue":"TBA"},
+    {"date":"2026-08-28","city":"Los Angeles, CA","venue":"TBA"},
+    {"date":"2026-09-02","city":"Kansas City, MO","venue":"TBA"},
+    {"date":"2026-09-02","city":"Austin, TX","venue":"TBA"},
+    {"date":"2026-09-03","city":"Indianapolis, IN","venue":"TBA"},
+    {"date":"2026-09-04","city":"Dallas, TX","venue":"TBA"},
+    {"date":"2026-09-05","city":"Chicago, IL","venue":"TBA"},
+    {"date":"2026-09-06","city":"Denver, CO","venue":"TBA"},
+    {"date":"2026-09-08","city":"Salt Lake City, UT","venue":"TBA"},
+    {"date":"2026-09-15","city":"Cleveland, OH","venue":"TBA"},
+    {"date":"2026-09-19","city":"Boston, MA","venue":"TBA"},
+    {"date":"2026-09-20","city":"Philadelphia, PA","venue":"TBA"},
+    {"date":"2026-09-25","city":"Atlanta, GA","venue":"TBA"},
+    {"date":"2026-10-04","city":"Nashville, TN","venue":"TBA"},
+    {"date":"2026-10-05","city":"Portland, OR","venue":"TBA"},
+    {"date":"2026-10-06","city":"Seattle, WA","venue":"TBA"},
+    {"date":"2026-10-10","city":"Las Vegas, NV","venue":"TBA"},
+    {"date":"2026-11-01","city":"Washington, DC","venue":"TBA"},
+    {"date":"2026-11-07","city":"Newark, NJ","venue":"TBA"}
+  ],
+  "vividSeatsEarlyPricing": {"startingAt": 78, "note": "Already listed before general onsale"},
+  "brokerTargets": ["Newark NJ (NYC metro, last US date)", "Los Angeles", "San Jose (opening night)", "Boston"],
+  "risks": ["Venue capacities unknown", "Some venues may block resale (Stardew precedent)", "Smaller fanbase than Stardew"],
+  "category": "Video Game Symphony — proven niche market"
+}
