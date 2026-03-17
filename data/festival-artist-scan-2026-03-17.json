@@ -1,0 +1,361 @@
+{
+  "scanDate": "2026-03-17",
+  "festivals": ["Coachella 2026", "Governors Ball 2026"],
+  "multiFestivalArtists": [
+    {
+      "name": "Slayyyter",
+      "festivals": ["Coachella Fri", "GovBall Sun", "Lollapalooza 2026"],
+      "spotifyMonthly": 2300000,
+      "usHeadlineDates": 12,
+      "venueSize": "800-1200 cap",
+      "signal": "THREE festivals + headline tour at small venues. Nessa Barrett formula potential.",
+      "tourDates": ["Sep 4 - Showbox Seattle", "Sep 5 - Wonder Ballroom Portland", "Sep 8 - Regency Ballroom SF", "Sep 14 - Van Buren Phoenix", "Sep 17 - Mohawk Austin", "Sep 18 - White Oak Houston", "Sep 19 - Echo Lounge Dallas", "Sep 21 - The Loft Atlanta", "Sep 22 - Basement East Nashville"]
+    },
+    {
+      "name": "Holly Humberstone",
+      "festivals": ["Coachella Fri", "GovBall Sun"],
+      "spotifyMonthly": 3600000,
+      "usHeadlineDates": 11,
+      "venueSize": "500-1100 cap",
+      "signal": "UK breakout, 3.6M Spotify, routing through 500-1100 cap venues. Classic undersized routing.",
+      "tourDates": ["Jun 3 - Paradise Rock Club Boston", "Jun 9 - TLA Philadelphia", "Jun 10 - 9:30 Club DC", "Jun 12 - Variety Playhouse Atlanta", "Jun 16 - Vic Theatre Chicago", "Jun 19 - Varsity Theater Minneapolis", "Jun 21 - Gothic Theatre Denver", "Jun 24 - Showbox Seattle"]
+    },
+    {
+      "name": "Geese",
+      "festivals": ["Coachella Sat", "GovBall Sun"],
+      "inWatchlist": true,
+      "signal": "Already tracked. Multi-festival confirms momentum."
+    },
+    {
+      "name": "Wet Leg",
+      "festivals": ["Coachella Sun", "GovBall Sat"],
+      "inWatchlist": true,
+      "signal": "Already tracked."
+    },
+    {
+      "name": "Jane Remover",
+      "festivals": ["Coachella Sun", "GovBall Sat"],
+      "spotifyMonthly": "~500K est",
+      "usHeadlineDates": 1,
+      "signal": "Hyperpop/experimental. Niche but on 2 festivals. Festival-only mostly."
+    },
+    {
+      "name": "Blood Orange",
+      "festivals": ["Coachella Fri", "GovBall Sat"],
+      "signal": "Established act, Dev Hynes. Not emerging."
+    },
+    {
+      "name": "KATSEYE",
+      "festivals": ["Coachella Fri", "GovBall Fri", "Hinterland"],
+      "spotifyMonthly": 30300000,
+      "usHeadlineDates": 0,
+      "signal": "K-POP CRITICAL: 30M+ Spotify, NO headline dates. When tour announces = instant demand.",
+      "kpop": true
+    },
+    {
+      "name": "Flowerovlove",
+      "festivals": ["Coachella Fri", "GovBall Sat"],
+      "spotifyMonthly": "~2M est",
+      "usHeadlineDates": 0,
+      "signal": "UK teen pop artist on 2 festivals, no US headline dates yet. Watch for tour announcement."
+    },
+    {
+      "name": "Major Lazer",
+      "festivals": ["Coachella Sun", "GovBall Sat"],
+      "signal": "Established. Not emerging."
+    },
+    {
+      "name": "Clipse",
+      "festivals": ["Coachella Sun", "GovBall Sun"],
+      "signal": "Legacy act reunion. Not emerging."
+    },
+    {
+      "name": "WHATMORE",
+      "festivals": ["Coachella Sat", "GovBall Fri"],
+      "signal": "Very small act on 2 festivals. Early signal."
+    }
+  ],
+  "kpopOpportunities": [
+    {
+      "name": "KATSEYE",
+      "spotifyMonthly": 30300000,
+      "notes": "30M Spotify, girl group, HYBE-created. No headline tour = massive pent-up demand when announced. Filipino-American crossover appeal.",
+      "priority": "CRITICAL"
+    },
+    {
+      "name": "Stray Kids",
+      "spotifyMonthly": "~20M",
+      "notes": "K-pop heavyweights. GovBall Saturday headliner. No standalone US dates found — arena tour likely later.",
+      "priority": "HIGH"
+    },
+    {
+      "name": "BINI",
+      "spotifyMonthly": 1800000,
+      "notes": "Filipino pop group. Massive Filipino-American fanbase. No US dates on Bandsintown yet. Coachella only.",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "Fujii Kaze",
+      "spotifyMonthly": 7100000,
+      "notes": "Japanese singer. 7.1M Spotify. No US headline dates found. Previous US tours sold out arenas. When announced = instant sellout.",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Creepy Nuts",
+      "spotifyMonthly": 5800000,
+      "notes": "Japanese hip-hop duo. 5.8M Spotify from anime tie-ins. Only 2 US headline dates (NYC + Chicago). TINY supply for massive demand.",
+      "priority": "HIGH"
+    },
+    {
+      "name": "Taemin",
+      "spotifyMonthly": "~5M",
+      "notes": "SHINee member. No US dates found. Solo tour would be undersized.",
+      "priority": "MEDIUM"
+    },
+    {
+      "name": "BIGBANG",
+      "spotifyMonthly": "~8M",
+      "notes": "Legendary K-pop group. No US dates. Reunion = arena sellouts.",
+      "priority": "MEDIUM"
+    }
+  ],
+  "nassaBarrettFormula": [
+    {
+      "name": "KATSEYE",
+      "spotifyMonthly": 30300000,
+      "venueSize": "No tour announced",
+      "ratio": "EXTREME — 30M listeners, zero headline supply",
+      "notes": "When headline tour drops, this is the biggest opportunity on the board."
+    },
+    {
+      "name": "Gigi Perez",
+      "spotifyMonthly": 29100000,
+      "venueSize": "Arenas (opening for someone likely)",
+      "notes": "29M Spotify but playing Kia Center, Citizens Bank Park — likely support slots. When solo headline happens at 1-2K venues = explosion."
+    },
+    {
+      "name": "Holly Humberstone",
+      "spotifyMonthly": 3600000,
+      "venueSize": "500-1100 cap",
+      "ratio": "3.6M listeners / 500 cap = 7,200:1",
+      "notes": "Classic mismatch. UK breakout with BRIT Rising Star. Coachella + GovBall + headline at 9:30 Club and Variety Playhouse."
+    },
+    {
+      "name": "Slayyyter",
+      "spotifyMonthly": 2300000,
+      "venueSize": "800-1200 cap",
+      "ratio": "2.3M listeners / 800 cap = 2,875:1",
+      "notes": "THREE festivals. Headline at Showbox, Wonder Ballroom, Basement East. Cult hyperpop fanbase."
+    },
+    {
+      "name": "Creepy Nuts",
+      "spotifyMonthly": 5800000,
+      "venueSize": "~1-2K cap (only 2 dates)",
+      "ratio": "5.8M listeners / 2 US dates = absurd scarcity",
+      "notes": "Japanese hip-hop. Bling-Bang-Bang-Born went mega-viral from anime. Only NYC + Chicago."
+    },
+    {
+      "name": "Snow Strippers",
+      "spotifyMonthly": 5800000,
+      "venueSize": "Festival only — no headline",
+      "notes": "5.8M Spotify, zero headline dates. When tour drops = instant demand."
+    }
+  ],
+  "ukInternationalBreakouts": [
+    {
+      "name": "Holly Humberstone",
+      "origin": "UK (Grantham)",
+      "spotifyMonthly": 3600000,
+      "usHeadlineDates": 11,
+      "venues": "500-1100 cap",
+      "signal": "BRIT Rising Star winner. First proper US headline. BUY."
+    },
+    {
+      "name": "NewDad",
+      "origin": "Ireland (Galway)",
+      "spotifyMonthly": 835000,
+      "usHeadlineDates": 21,
+      "venues": "300-600 cap (Dada Dallas, Crescent Ballroom, Empire Control Room)",
+      "signal": "Irish indie rock. 21 US dates at TINY venues. First US headline tour. Growing buzz."
+    },
+    {
+      "name": "CMAT",
+      "origin": "Ireland (Dublin)",
+      "spotifyMonthly": 1100000,
+      "usHeadlineDates": 20,
+      "venues": "Mixed — some arenas (opening?) + clubs",
+      "signal": "Irish country-pop. Massive 20+ US dates. Some arena routing suggests support slot."
+    },
+    {
+      "name": "Joost",
+      "origin": "Netherlands",
+      "spotifyMonthly": 2900000,
+      "usHeadlineDates": 7,
+      "venues": "1200-3000 cap (Warfield, Fonda, Terminal 5, Anthem)",
+      "signal": "Eurovision viral star. First US tour at mid-size venues. Terminal 5 NYC = 3000 cap. Dutch fanbase travels."
+    },
+    {
+      "name": "Royel Otis",
+      "origin": "Australia",
+      "spotifyMonthly": 8100000,
+      "usHeadlineDates": 6,
+      "venues": "3000-5500 cap (Greek Theatre, Salt Shed)",
+      "signal": "8M Spotify. Already sizing up to amphitheaters. Might be past the sweet spot but still growing."
+    },
+    {
+      "name": "Spacey Jane",
+      "origin": "Australia",
+      "spotifyMonthly": 1500000,
+      "usHeadlineDates": 20,
+      "venues": "500-2500 cap",
+      "signal": "Aussie indie rock. 20 US dates. First major US headline push. MGM Music Hall Boston = ambitious."
+    },
+    {
+      "name": "COBRAH",
+      "origin": "Sweden",
+      "spotifyMonthly": 1700000,
+      "usHeadlineDates": 16,
+      "venues": "1000-3000 cap (Showbox SoDo, Warfield, Ogden)",
+      "signal": "Swedish electronic/pop. Full 16-date US tour. Aggressive routing."
+    },
+    {
+      "name": "Oklou",
+      "origin": "France",
+      "spotifyMonthly": 1300000,
+      "usHeadlineDates": 13,
+      "venues": "1000-2000 cap (Warfield, Crystal Ballroom, 9:30 Club)",
+      "signal": "French electronic artist. 13 US dates at solid mid-size venues. Charli XCX adjacent."
+    },
+    {
+      "name": "The Beths",
+      "origin": "New Zealand",
+      "spotifyMonthly": "~1.5M",
+      "usHeadlineDates": 33,
+      "venues": "500-1500 cap",
+      "signal": "NZ indie rock. 33 US dates is a MASSIVE tour. Dedicated fanbase."
+    },
+    {
+      "name": "Confidence Man",
+      "origin": "Australia",
+      "spotifyMonthly": "~800K",
+      "usHeadlineDates": 4,
+      "venues": "Various",
+      "signal": "Aussie dance-pop. Red Rocks date (Oct 16!) = demand signal."
+    }
+  ],
+  "top15Emerging": [
+    {
+      "rank": 1,
+      "name": "KATSEYE",
+      "reason": "30M Spotify + K-pop fanbase + ZERO headline dates = nuclear demand when tour drops. 3 festivals.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 2,
+      "name": "Holly Humberstone",
+      "reason": "UK breakout, 3.6M Spotify, 2 festivals, headline at 500-1100 cap venues. Classic undersized.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 3,
+      "name": "Creepy Nuts",
+      "reason": "5.8M Spotify, anime viral, only 2 US headline dates. Scarcity play.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 4,
+      "name": "Slayyyter",
+      "reason": "3 festivals (Coachella/GovBall/Lolla) + headline at 800 cap venues. Cult hyperpop.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 5,
+      "name": "Fujii Kaze",
+      "reason": "7.1M Spotify, zero US headline dates. Japanese artist with crossover appeal. Previous tours sold out.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 6,
+      "name": "Snow Strippers",
+      "reason": "5.8M Spotify, 4 festivals, zero headline dates. Hyperpop explosion incoming.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 7,
+      "name": "Joost",
+      "reason": "Eurovision star, 2.9M Spotify, first US tour at Terminal 5 / Fonda / Anthem level.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 8,
+      "name": "Royel Otis",
+      "reason": "Australian breakout, 8.1M Spotify, Greek Theatre + Salt Shed level. ARIA Award winners.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 9,
+      "name": "Gigi Perez",
+      "reason": "29M Spotify but in support slots. When solo headline tour at 1-2K cap = massive demand.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 10,
+      "name": "NewDad",
+      "reason": "Irish indie, 835K Spotify, 21 US dates at 300-600 cap. First US headline. Early stage.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 11,
+      "name": "FCUKERS",
+      "reason": "1.5M Spotify, BBC Future Artist, 20 US headline dates at small venues. NYC punk buzz band.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 12,
+      "name": "Thee Sacred Souls",
+      "reason": "8.5M Spotify, Greek Theatre LA x2. Modern soul breakout. 27 US dates.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 13,
+      "name": "Spacey Jane",
+      "reason": "Australian indie, 1.5M Spotify, 20 US headline dates. First major US push.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 14,
+      "name": "Audrey Hobert",
+      "reason": "1.5-1.7M Spotify, 18 US dates at 1500-3000 cap (Roadrunner, Tabernacle, ACL Live).",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    },
+    {
+      "rank": 15,
+      "name": "COBRAH",
+      "reason": "Swedish, 1.7M Spotify, 16 US dates. Electronic/pop with full headline routing.",
+      "inWatchlist": false,
+      "addToWatchlist": true
+    }
+  ],
+  "alreadyInWatchlist": [
+    "Ethel Cain", "Subtronics", "REZZ", "Flip Turn", "Amyl and the Sniffers",
+    "Hemlocke Springs", "KETTAMA", "Prospa", "Carlita", "Lambrini Girls",
+    "Febuary", "Drain", "PinkPantheress", "Alex G", "FKA twigs", "Dijon",
+    "Ravyn Lenae", "Turnover", "Little Simz", "Freddie Gibbs",
+    "Japanese Breakfast", "Disclosure", "Turnstile", "Dominic Fike",
+    "Wet Leg", "Geese", "Jade LeMac"
+  ]
+}

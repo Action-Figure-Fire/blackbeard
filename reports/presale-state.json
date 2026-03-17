@@ -159,6 +159,10 @@
     "FKA twigs-https://www.fkatwigstour.com/": {
       "firstSeen": "2026-03-17T13:00:17.452Z",
       "urgency": "ANNOUNCED"
+    },
+    "John Summit-https://blockclubchicago.org/2026/03/17/smashing-pumpkins-charli-xcx-lorde-to-headline-lollapalooza-2026/": {
+      "firstSeen": "2026-03-17T17:00:07.889Z",
+      "urgency": "ANNOUNCED"
     }
   },
   "codes": {
@@ -169,5 +173,5 @@
       "foundAt": "2026-03-05T23:26:56.128Z"
     }
   },
-  "lastScan": "2026-03-17T13:00:17.452Z"
+  "lastScan": "2026-03-17T17:00:07.889Z"
 }

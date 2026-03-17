@@ -1,24 +1,23 @@
 {
-  "timestamp": "2026-03-17T13:00:17.452Z",
+  "timestamp": "2026-03-17T17:00:07.889Z",
   "braveCallsUsed": 25,
   "alertCount": 1,
   "alerts": [
     {
-      "artist": "FKA twigs",
+      "artist": "John Summit",
       "tier": "A",
       "urgency": "ANNOUNCED",
       "emoji": "📣",
       "priority": 3,
-      "title": "FKA Twigs Tour - 2026 Body High Tour Schedule & Tickets",
-      "description": "The Body High Tour is FKA Twigs&#x27; 2026 world tour in support of her critically acclaimed albums EUSEXUA and EUSEXUA Afterglow. The tour features immersive performances showcasing her skills in dance, martial arts, and avant-garde visual artistry, with stops across North America and Europe including Madison Square Garden, Coachella, and London&#x27;s O2 Arena. Artist presales began December 2, 2025, with general on-sale starting December 5, 2025 at 10:00 AM local time via Ticketmaster.",
-      "url": "https://www.fkatwigstour.com/",
-      "age": "5 days ago",
+      "title": "Smashing Pumpkins, Charli XCX, Lorde To Headline Lollapalooza 2026",
+      "description": "John Summit, Tate McRae, Olivia Dean, Jennie and The xx will also perform at the fest in Grant Park July 30-Aug. 2. Fans can now sign up for the four-day ticket presale, which takes place 10 a.m. Thursday.",
+      "url": "https://blockclubchicago.org/2026/03/17/smashing-pumpkins-charli-xcx-lorde-to-headline-lollapalooza-2026/",
+      "age": "46 minutes ago",
       "codes": [],
       "dates": [
-        "2025-12-02",
-        "2025-12-05"
+        "2026-07-30"
       ],
-      "time": "00 AM local"
+      "time": null
     }
   ],
   "allTrackedCodes": {
