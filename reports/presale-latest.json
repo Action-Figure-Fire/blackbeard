@@ -1,110 +1,24 @@
 {
-  "timestamp": "2026-03-16T17:00:04.591Z",
+  "timestamp": "2026-03-17T13:00:17.452Z",
   "braveCallsUsed": 25,
-  "alertCount": 7,
+  "alertCount": 1,
   "alerts": [
     {
-      "artist": "Jelly Roll",
-      "tier": "A",
-      "urgency": "TODAY",
-      "emoji": "🚨",
-      "priority": 0,
-      "title": "Jelly Roll Joins Grand Ole Opry Family - Noise11.com",
-      "description": "Tickets for all 2026 Opry shows are on sale now. For full Opry 100 schedule, visit opry.com. Stay updated with your free Noise11.com daily music news email alert. Subscribe to Noise11 Music News here · Be the first to see NOISE11.com’s newest interviews and special features on YouTube. See things first—Subscribe to Noise11 on YouTube ... Like Loading... Tagged as: country music, Grand Ole Opry, Jelly Roll, Lainey Wilson, Nashville",
-      "url": "https://www.noise11.com/news/jelly-roll-grand-ole-opry-induction-20260312",
-      "age": "4 days ago",
-      "codes": [],
-      "dates": [],
-      "time": null
-    },
-    {
-      "artist": "Illenium",
-      "tier": "A",
-      "urgency": "TODAY",
-      "emoji": "🚨",
-      "priority": 0,
-      "title": "Illenium Live @ Lost Lands 2025 - Full Set - YouTube",
-      "description": "Relive Illenium&#x27;s Set From Lost Lands 2025 Live Stream in HD!LOST LANDS TICKETS ON SALE NOW! https://www.lostlandsfestival.com@LostLandsMusicFestival https:/...",
-      "url": "https://www.youtube.com/watch?v=JssDaUK0_GQ",
-      "age": "1 week ago",
-      "codes": [],
-      "dates": [],
-      "time": null
-    },
-    {
-      "artist": "Snail Mail",
+      "artist": "FKA twigs",
       "tier": "A",
       "urgency": "ANNOUNCED",
       "emoji": "📣",
       "priority": 3,
-      "title": "Snail Mail has mapped out a summer UK and European run with a bonus London show - Dork",
-      "description": "Ticket sales begin with an <strong>artist presale on 11th March, followed by a promoter presale on 12th March and general sale on 13th March</strong>, all at 10am GMT.",
-      "url": "https://readdork.com/news/snail-mail-eu-uk-tour/",
-      "age": "1 week ago",
-      "codes": [],
-      "dates": [],
-      "time": "10 AM GMT"
-    },
-    {
-      "artist": "Sebastian Maniscalco",
-      "tier": "A",
-      "urgency": "ANNOUNCED",
-      "emoji": "📣",
-      "priority": 3,
-      "title": "How to secure Sebastian Maniscalco tickets before they sell out during the Ticketmaster presale",
-      "description": "Right now, there are a number of sales running leading up to <strong>Sebastian Maniscalco’s tour general sale. First, there is the Artist Presale running on Ticketmaster right now, where you can use the code “SEBASTIAN”</strong> to access the sale.",
-      "url": "https://www.nj.com/live-entertainment/2026/03/how-to-secure-sebastian-maniscalco-tickets-before-they-sell-out-during-the-ticketmaster-presale.html",
+      "title": "FKA Twigs Tour - 2026 Body High Tour Schedule & Tickets",
+      "description": "The Body High Tour is FKA Twigs&#x27; 2026 world tour in support of her critically acclaimed albums EUSEXUA and EUSEXUA Afterglow. The tour features immersive performances showcasing her skills in dance, martial arts, and avant-garde visual artistry, with stops across North America and Europe including Madison Square Garden, Coachella, and London&#x27;s O2 Arena. Artist presales began December 2, 2025, with general on-sale starting December 5, 2025 at 10:00 AM local time via Ticketmaster.",
+      "url": "https://www.fkatwigstour.com/",
       "age": "5 days ago",
       "codes": [],
-      "dates": [],
-      "time": null
-    },
-    {
-      "artist": "Tame Impala",
-      "tier": "A",
-      "urgency": "ONSALE",
-      "emoji": "🎟️",
-      "priority": 4,
-      "title": "Tame Impala tickets on sale in Atlanta at State Farm Arena",
-      "description": "Tame Impala tickets at State Farm Arena on July 11, 2026",
-      "url": "https://www.ticketnews.com/2026/03/tame-impala-tickets-on-sale-in-atlanta-at-state-farm-arena/",
-      "age": "3 days ago",
-      "codes": [],
       "dates": [
-        "2026-07-11"
+        "2025-12-02",
+        "2025-12-05"
       ],
-      "time": null
-    },
-    {
-      "artist": "Nate Bargatze",
-      "tier": "A",
-      "urgency": "ONSALE",
-      "emoji": "🎟️",
-      "priority": 4,
-      "title": "Nate Bargatze tickets on sale in Grand Rapids at Van Andel Arena",
-      "description": "Shop for Nate Bargatze tickets at Van Andel Arena on August 1, 2026",
-      "url": "https://www.ticketnews.com/2026/03/nate-bargatze-tickets-on-sale-in-grand-rapids-at-van-andel-arena/",
-      "age": "4 days ago",
-      "codes": [],
-      "dates": [
-        "2026-08-01"
-      ],
-      "time": null
-    },
-    {
-      "artist": "Matt Rife",
-      "category": "comedy",
-      "tier": "A",
-      "urgency": "NEW TOUR",
-      "emoji": "📢",
-      "priority": 5,
-      "title": "🔥 Matt Rife Buffalo Tickets | KeyBank Center 2026 | Stay Golden Tour",
-      "description": "Staying informed about future Matt Rife performances in Buffalo requires monitoring multiple channels. Follow his Instagram account with over 11 million followers where tour announcements are posted. His X/Twitter provides additional updates. Visit mattrifeofficial.com for comprehensive tour information and direct ticketing links. Subscribe to email newsletters through his website to receive notifications about new tour dates, presale opportunities, and exclusive announcements.",
-      "url": "https://www.mattrifebuffalo.com/",
-      "age": "3 days ago",
-      "codes": [],
-      "dates": [],
-      "time": null
+      "time": "00 AM local"
     }
   ],
   "allTrackedCodes": {

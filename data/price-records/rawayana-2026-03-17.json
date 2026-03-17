@@ -1,0 +1,42 @@
+{
+  "artist": "Rawayana",
+  "tour": "¿Dónde Es El After? World Tour 2026",
+  "recordedDate": "2026-03-17",
+  "source": "Billboard, SeatGeek, Brave Search",
+  "status": "PRE-SALE — no secondary pricing yet",
+  "presaleDate": "2026-03-17 10am local (artist presale via dondeeselafter.com)",
+  "onsaleDate": "2026-03-19 10am local",
+  "metrics": {
+    "spotifyMonthly": 9700000,
+    "totalStreams": 1700000000,
+    "viralHits": ["Feriado", "Veneka", "Inglés en Miami (with Manuel Turizo)"],
+    "awards": [
+      "Grammy 2025: Best Latin Rock/Alternative Album (first Venezuelan act ever)",
+      "Latin Grammy: Best Latin Electronic Music Performance (Veneka)",
+      "Latin Grammy: Pop Song (Feriado)"
+    ],
+    "origin": "Venezuela",
+    "genre": "Trippy-pop / Caribbean / Funk / Reggae / House"
+  },
+  "usShows": [
+    {"date":"2026-10-15","venue":"Bill Graham Civic Auditorium","city":"San Francisco, CA","capacity":8500},
+    {"date":"2026-10-18","venue":"Fillmore Auditorium","city":"Denver, CO","capacity":3700},
+    {"date":"2026-10-21","venue":"The Truth","city":"Nashville, TN","capacity":null},
+    {"date":"2026-10-23","venue":"Chastain Park Amphitheater","city":"Atlanta, GA","capacity":null},
+    {"date":"2026-10-24","venue":"The Fillmore Charlotte","city":"Charlotte, NC","capacity":2000},
+    {"date":"2026-10-30","venue":"MGM Music Hall at Fenway","city":"Boston, MA","capacity":5000},
+    {"date":"2026-10-31","venue":"Barclays Center","city":"Brooklyn, NY","capacity":19000},
+    {"date":"2026-11-01","venue":"The Met Philadelphia","city":"Philadelphia, PA","capacity":3500},
+    {"date":"2026-11-04","venue":"MGM National Harbor","city":"Washington, DC","capacity":3000},
+    {"date":"2026-11-07","venue":"Aragon Ballroom","city":"Chicago, IL","capacity":4500},
+    {"date":"2026-11-15","venue":"Kia Forum","city":"Los Angeles, CA","capacity":18000},
+    {"date":"2026-11-18","venue":"713 Music Hall","city":"Houston, TX","capacity":2500},
+    {"date":"2026-11-21","venue":"Toyota Music Factory","city":"Irving/Dallas, TX","capacity":null},
+    {"date":"2026-11-22","venue":"ACL Live Moody Theater","city":"Austin, TX","capacity":2750},
+    {"date":"2026-12-03","venue":"Kia Center","city":"Orlando, FL","capacity":20000},
+    {"date":"2026-12-05","venue":"Kaseya Center","city":"Miami, FL","capacity":20000}
+  ],
+  "brokerTargets": ["Miami", "Orlando", "Houston", "Los Angeles", "Brooklyn/NYC"],
+  "pattern": "LATAM → US breakout. Venezuelan diaspora demand. Same signal as RAYE (UK→US) but for Latin market.",
+  "keyInsight": "Playing ARENAS (19-20K cap) on first US run = extreme confidence. Latin diaspora markets (Miami, Houston, LA, Orlando) will be strongest."
+}

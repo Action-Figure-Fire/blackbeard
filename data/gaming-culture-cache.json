@@ -1,76 +1,10 @@
 {
-  "lastScan": "2026-03-08T23:20:55.951Z",
-  "elapsed": "16.3s",
+  "lastScan": "2026-03-17T10:04:35.759Z",
+  "elapsed": "15.7s",
   "apiCalls": {
     "brave": 18
   },
   "gaming": [
-    {
-      "artist": "Fortnite Festival",
-      "platform": "Fortnite",
-      "weight": 10,
-      "icon": "🎮",
-      "title": "The Hardest Fortnite Festival Songs in 2026",
-      "snippet": "Mastering the hardest Fortnite Festival songs requires more than just a sense of rhythm; it demands muscle memory, high-speed processing, and a connection that does not fail when the notes start flyin",
-      "url": "https://noping.com/blog/hardest-fortnite-festival-songs",
-      "published": "6 days ago",
-      "mentionCount": 1
-    },
-    {
-      "artist": "Punk",
-      "platform": "Fortnite",
-      "weight": 10,
-      "icon": "🎮",
-      "title": "Fortnite - Wikipedia",
-      "snippet": "One recent Epic experience features music by <strong>Daft Punk</strong> · Numerous improvements in UEFN were announced in March 2024, including the addition of Unreal Engine&#x27;s MetaHuman character",
-      "url": "https://en.wikipedia.org/wiki/Fortnite",
-      "published": "1 day ago",
-      "mentionCount": 1
-    },
-    {
-      "artist": "Epic",
-      "platform": "Fortnite",
-      "weight": 10,
-      "icon": "🎮",
-      "title": "Fortnite Rick And Morty Returning For Wave 2 Of Fun Skins",
-      "snippet": "| Mar 03, 2026 · Share: Some new Fortnite Rick and Morty skins have been announced by Epic this week. In a flashy trailer, we’ve gotten a look at a new version of Rick that’s coming to the game. Along",
-      "url": "https://www.hotspawn.com/fortnite/news/new-fortnite-rick-and-morty-skins",
-      "published": "5 days ago",
-      "mentionCount": 1
-    },
-    {
-      "artist": "Fortnite Japanese",
-      "platform": "Fortnite",
-      "weight": 10,
-      "icon": "🎮",
-      "title": "Fortnite Japanese Song Emote | TikTok",
-      "snippet": "Discover the catchy Fortnite Japanese song and emote featuring Hatsune Miku and Atarashii Gakko! Perfect for fans of gaming and anime.See more videos about Indian Song Emote Fortnite, Canciones Japone",
-      "url": "https://www.tiktok.com/discover/fortnite-japanese-song-emote",
-      "published": "1 week ago",
-      "mentionCount": 1
-    },
-    {
-      "artist": "Hatsune Miku",
-      "platform": "Fortnite",
-      "weight": 10,
-      "icon": "🎮",
-      "title": "Fortnite Japanese Song Emote | TikTok",
-      "snippet": "Discover the catchy Fortnite Japanese song and emote featuring Hatsune Miku and Atarashii Gakko! Perfect for fans of gaming and anime.See more videos about Indian Song Emote Fortnite, Canciones Japone",
-      "url": "https://www.tiktok.com/discover/fortnite-japanese-song-emote",
-      "published": "1 week ago",
-      "mentionCount": 1
-    },
-    {
-      "artist": "Toto",
-      "platform": "Fortnite",
-      "weight": 10,
-      "icon": "🎮",
-      "title": "African Fortnite Song | TikTok",
-      "snippet": "I created Africa by Toto in @Fortnite Official #toto #africa #fortnite #foryou #fyp #music #song #gaming ... should i drop ? #fr #fyp #sleeper #ong #fortnite #beutifalday #african #sing La beauté de F",
-      "url": "https://www.tiktok.com/discover/african-fortnite-song",
-      "published": "1 week ago",
-      "mentionCount": 1
-    },
     {
       "artist": "Auto",
       "platform": "GTA",
@@ -79,7 +13,62 @@
       "title": "Music of Grand Theft Auto V - Wikipedia",
       "snippet": "The singles were released by various artists and contained music that was featured in the update. New music by Dr. Dre was added to Grand Theft Auto Online in its The Contract update in December 2021.",
       "url": "https://en.wikipedia.org/wiki/Music_of_Grand_Theft_Auto_V",
-      "published": "5 days ago",
+      "published": "3 days ago",
+      "mentionCount": 2
+    },
+    {
+      "artist": "Joyner Lucas",
+      "platform": "GTA",
+      "weight": 9,
+      "icon": "🚗",
+      "title": "GTA 6 - Single by Joyner Lucas | Spotify",
+      "snippet": "Listen to GTA 6 on Spotify · single · <strong>Joyner Lucas</strong> · 2026 · 1 songs",
+      "url": "https://open.spotify.com/album/1YQtaGamRAouYAW7rSu2us",
+      "published": "4 days ago",
+      "mentionCount": 2
+    },
+    {
+      "artist": "Epic Games",
+      "platform": "Fortnite",
+      "weight": 10,
+      "icon": "🎮",
+      "title": "r/FortniteFestival on Reddit: These are astronomical ☄️ Hoshimachi Suisei’s BIBBIDIBA and Stellar Stellar are coming on Thursday!",
+      "snippet": "Ignoring other issues I expected it to be these two songs. They’re both originals of hers and at least one has mainstream popularity oddly enough. ... The developer supported, community run subreddit ",
+      "url": "https://www.reddit.com/r/FortniteFestival/comments/1rpxtbv/these_are_astronomical_hoshimachi_suiseis/",
+      "published": "1 week ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Wikipedia She",
+      "platform": "Fortnite",
+      "weight": 10,
+      "icon": "🎮",
+      "title": "Billie Eilish - Wikipedia",
+      "snippet": "She announced a tour to support the album, Hit Me Hard and Soft: The Tour, on April 29, 2024, with concerts in North America, Oceania and Europe between September 2024 and July 2025. Also in April, Ei",
+      "url": "https://en.wikipedia.org/wiki/Billie_Eilish",
+      "published": "1 day ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Harmonix",
+      "platform": "Fortnite",
+      "weight": 10,
+      "icon": "🎮",
+      "title": "Fortnite Festival - Wikipedia",
+      "snippet": "A variety of songs are featured in Fortnite Festival. These include ones from popular artists (e.g. <strong>Lady Gaga, Kendrick Lamar, Weezer</strong>), as well as original tracks composed by Harmonix",
+      "url": "https://en.wikipedia.org/wiki/Fortnite_Festival",
+      "published": "20 hours ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "HARDY",
+      "platform": "Fortnite",
+      "weight": 10,
+      "icon": "🎮",
+      "title": "Frontier Days Concerts 2026 | Blake Shelton, Riley Green & More Live in Cheyenne",
+      "snippet": "This year&#x27;s Frontier Nights lineup ... unforgettable performances. From six-time CFD favorite <strong>Blake Shelton to viral sensations The Red Clay Strays, and from ACM-winning powerhouse Riley ",
+      "url": "https://www.frontierdaysconcerts2026.com/",
+      "published": "4 days ago",
       "mentionCount": 1
     },
     {
@@ -90,7 +79,18 @@
       "title": "Music of Grand Theft Auto V - Wikipedia",
       "snippet": "The singles were released by various artists and contained music that was featured in the update. New music by Dr. Dre was added to Grand Theft Auto Online in its The Contract update in December 2021.",
       "url": "https://en.wikipedia.org/wiki/Music_of_Grand_Theft_Auto_V",
-      "published": "5 days ago",
+      "published": "3 days ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Auto III",
+      "platform": "GTA",
+      "weight": 9,
+      "icon": "🚗",
+      "title": "Gtaboom",
+      "snippet": "Zoom image: Before voicing Game FM in Grand Theft Auto III, <strong>Stretch Armstrong and Lord Sear</strong> were already shaping New York’s hip-hop scene through their influential college radio show.",
+      "url": "https://www.gtaboom.com/lord-sear-gta-3-game-fm-passes-away-4864",
+      "published": "4 days ago",
       "mentionCount": 1
     },
     {
@@ -101,17 +101,28 @@
       "title": "Grand Theft Auto VI - Wikipedia",
       "snippet": "That September, footage from unfinished versions was leaked on the internet in what journalists described as one of the biggest leaks in the history of the video game industry. Grand Theft Auto VI was",
       "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
-      "published": "3 days ago",
+      "published": "2 days ago",
       "mentionCount": 1
     },
     {
-      "artist": "AEAO",
-      "platform": "NBA 2K",
+      "artist": "Micha",
+      "platform": "EA FC / FIFA",
+      "weight": 7,
+      "icon": "⚽",
+      "title": "EA Sports FC 24 - Wikipedia",
+      "snippet": "As well as the game continuing to have an iconic soundtrack, several musical artists partnered with EA to design kits that could be used in the game. Kits designed by Michaël Brun and Obongjayar were ",
+      "url": "https://en.wikipedia.org/wiki/EA_Sports_FC_24",
+      "published": "1 week ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Adam Offitzer Both",
+      "platform": "Rocket League",
       "weight": 6,
-      "icon": "🏀",
-      "title": "Nba 2k Aeao Soundtrack | TikTok",
-      "snippet": "Discover the NBA 2K AEAO soundtrack and how it enhances the gaming experience. Dive into the best tracks of NBA 2K with our comprehensive guide! &quot;NBA 2K AEAO soundtrack&quot;, &quot; best AEAO so",
-      "url": "https://www.tiktok.com/discover/nba-2k-aeao-soundtrack",
+      "icon": "🚗",
+      "title": "7 rising artists to know in 2026 - by Adam Offitzer",
+      "snippet": "Both wanted to help me finish the song, so we went in on it together and ended up re-producing it into something that sounds pretty different from the original demo.” You can read our full Q&amp;A her",
+      "url": "https://hearhear.substack.com/p/7-rising-artists-to-know-in-2026",
       "published": "1 week ago",
       "mentionCount": 1
     },
@@ -123,75 +134,20 @@
       "title": "NBA 2K26 - Wikipedia",
       "snippet": "NBA 2K26 is a 2025 basketball video game developed by Visual Concepts and published by 2K. Based on the National Basketball Association (NBA), it is the 27th installment in the NBA 2K series and is th",
       "url": "https://en.wikipedia.org/wiki/NBA_2K26",
-      "published": "3 days ago",
-      "mentionCount": 1
-    },
-    {
-      "artist": "Beat Games",
-      "platform": "Beat Saber",
-      "weight": 5,
-      "icon": "⚔️",
-      "title": "Beat Saber - Wikipedia",
-      "snippet": "On June 18, 2025, Beat Games announced ... <strong>no new music packs being released</strong>, and multiplayer support being dropped in January 2026. ... During its early access phase, Beat Saber rece",
-      "url": "https://en.wikipedia.org/wiki/Beat_Saber",
-      "published": "1 week ago",
+      "published": "1 day ago",
       "mentionCount": 1
     }
   ],
   "culture": [
     {
-      "artist": "Every",
-      "platform": "Netflix/Streaming Sync",
-      "weight": 8,
-      "icon": "🎬",
-      "title": "Every song on the Vladimir soundtrack",
-      "snippet": "The steamy new Netflix drama includes tracks by Chappell Roan, Doechii and Lizzo, among others · By Max Pilley · 6th March 2026 · Rachel Weisz and Leo Woodall in &#x27;Vladimir&#x27;. CREDIT: Netflix ",
-      "url": "https://www.nme.com/news/tv/every-song-on-the-vladimir-soundtrack-3933133",
-      "published": "2 days ago",
-      "mentionCount": 4
-    },
-    {
-      "artist": "Gorillaz",
-      "platform": "SNL Musical Guest",
-      "weight": 9,
-      "icon": "📺",
-      "title": "Ryan Gosling hosts ‘Saturday Night Live,’ Gorillaz performs - The Boston Globe",
-      "snippet": "<strong>Ryan Gosling</strong> hosted &quot;Saturday Night Live&quot; this weekend, with Gorillaz serving as the evening’s musical guest.",
-      "url": "https://www.bostonglobe.com/2026/03/08/arts/snl-recap-ryan-gosling-gorillaz/",
-      "published": "16 hours ago",
-      "mentionCount": 2
-    },
-    {
-      "artist": "Chappell Roan",
-      "platform": "Netflix/Streaming Sync",
-      "weight": 8,
-      "icon": "🎬",
-      "title": "Every song on the Vladimir soundtrack",
-      "snippet": "The steamy new Netflix drama includes tracks by Chappell Roan, Doechii and Lizzo, among others · By Max Pilley · 6th March 2026 · Rachel Weisz and Leo Woodall in &#x27;Vladimir&#x27;. CREDIT: Netflix ",
-      "url": "https://www.nme.com/news/tv/every-song-on-the-vladimir-soundtrack-3933133",
-      "published": "2 days ago",
-      "mentionCount": 2
-    },
-    {
-      "artist": "Roc Nation",
-      "platform": "Super Bowl / Halftime",
-      "weight": 10,
-      "icon": "🏈",
-      "title": "Super Bowl 2026: Bad Bunny sets global viewership record with most watched halftime show of all time - Yahoo Sports",
-      "snippet": "<strong>Bad Bunny</strong> drew in 4.157 billion viewers across global and U.S. broadcasts of the game, YouTube and on other digital properties in the first 24 hours after his performance, Roc Nation ",
-      "url": "https://sports.yahoo.com/nfl/article/super-bowl-2026-bad-bunny-sets-global-viewership-record-with-most-watched-halftime-show-of-all-time-172611558.html",
-      "published": "5 days ago",
-      "mentionCount": 1
-    },
-    {
-      "artist": "Wikipedia Organizers",
+      "artist": "Organizers",
       "platform": "Super Bowl / Halftime",
       "weight": 10,
       "icon": "🏈",
       "title": "All-American Halftime Show - Wikipedia",
-      "snippet": "Organizers announced a lineup featuring performers such as <strong>Kid Rock, Lee Brice, Brantley Gilbert, and Gabby Barrett</strong>. The show was scheduled to stream concurrently with the Super Bowl ",
+      "snippet": "TPUSA spokesperson Andrew Kolvet said that the event had &quot;no other agenda than faith, family, and freedom&quot;. Organizers announced a lineup featuring performers such as <strong>Kid Rock, Lee B",
       "url": "https://en.wikipedia.org/wiki/All-American_Halftime_Show",
-      "published": "9 hours ago",
+      "published": "6 days ago",
       "mentionCount": 1
     },
     {
@@ -200,42 +156,75 @@
       "weight": 10,
       "icon": "🏈",
       "title": "All-American Halftime Show - Wikipedia",
-      "snippet": "Organizers announced a lineup featuring performers such as <strong>Kid Rock, Lee Brice, Brantley Gilbert, and Gabby Barrett</strong>. The show was scheduled to stream concurrently with the Super Bowl ",
+      "snippet": "TPUSA spokesperson Andrew Kolvet said that the event had &quot;no other agenda than faith, family, and freedom&quot;. Organizers announced a lineup featuring performers such as <strong>Kid Rock, Lee B",
       "url": "https://en.wikipedia.org/wiki/All-American_Halftime_Show",
-      "published": "9 hours ago",
+      "published": "6 days ago",
       "mentionCount": 1
     },
     {
-      "artist": "Blur",
+      "artist": "Every Voice",
+      "platform": "Super Bowl / Halftime",
+      "weight": 10,
+      "icon": "🏈",
+      "title": "Shure Audio Solutions Deliver Super Bowl Win | TV Tech",
+      "snippet": "Both Puth and <strong>Coco Jones</strong>, who performed a stunning rendition of “Lift Every Voice and Sing,” were equipped with Shure PSM 1000 in-ear monitoring systems. Beyond the halftime show, Van",
+      "url": "https://www.tvtechnology.com/production/live-production/shure-audio-solutions-deliver-super-bowl-win",
+      "published": "1 week ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Movie",
       "platform": "SNL Musical Guest",
       "weight": 9,
       "icon": "📺",
-      "title": "Who's Hosting SNL This Week? A Fan Favorite Becomes a Four-Timer on March 7",
-      "snippet": "<strong>Gorillaz will join Gosling as the musical guests</strong>, playing SNL for the first time in the band&#x27;s 25-year career. Fronted by four cartoon avatars and led by Blur frontman Damon Alba",
-      "url": "https://www.nbc.com/nbc-insider/who-is-hosting-snl-this-week-march-7-ryan-gosling",
+      "title": "Jack Black Returns To Host ‘SNL’ With Jack White As Musical Guest",
+      "snippet": "The A Minecraft Movie star and the former frontman of The <strong>White</strong> Stripes will team up again, this time on Saturday Night Live. Black will host the show on April 4, with <strong>White</",
+      "url": "https://deadline.com/2026/03/jack-black-snl-jack-white-1236754152/",
+      "published": "2 days ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Academy Award",
+      "platform": "Netflix/Streaming Sync",
+      "weight": 8,
+      "icon": "🎬",
+      "title": "Movies with Oscar-Nominated Songs for Your Viewing (and Listening) Pleasure - Netflix Tudum",
+      "snippet": "Fill your queue and your playlist with these movies featuring Academy Award-nominated songs, including those from Train Dreams, KPop Demon Hunters, and Emilia Pérez.",
+      "url": "https://www.netflix.com/tudum/articles/oscar-nominated-songs",
+      "published": "5 days ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Sonya Belousova",
+      "platform": "Netflix/Streaming Sync",
+      "weight": 8,
+      "icon": "🎬",
+      "title": "One Piece season 2 soundtrack: Complete list of songs and music featured in the series - PRIMETIMER",
+      "snippet": "Netflix released the One Piece season 2 soundtrack titled ’<strong>Into the Grand Line</strong>’ on March 10, 2026. The album features 85 tracks composed by Sonya Belousova and Giona Ostinelli.",
+      "url": "https://www.primetimer.com/features/one-piece-season-2-soundtrack-complete-list-of-songs-and-music-featured-in-the-series",
+      "published": "5 days ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Aitor Etxebarria",
+      "platform": "Netflix/Streaming Sync",
+      "weight": 8,
+      "icon": "🎬",
+      "title": "Netflix’s That Night soundtrack: Complete list of songs and music featured in the series - PRIMETIMER",
+      "snippet": "Explore the complete <strong>That Night</strong> soundtrack on Netflix, including songs featured in the series and original score by Aitor Etxebarria. Here is the full list of music used in <strong>Th",
+      "url": "https://www.primetimer.com/features/netflix-s-that-night-soundtrack-complete-list-of-songs-and-music-featured-in-the-series",
       "published": "3 days ago",
       "mentionCount": 1
     },
     {
-      "artist": "Hamish Hamilton",
+      "artist": "Ayushi Bhardwaj Saturday",
       "platform": "Netflix/Streaming Sync",
       "weight": 8,
       "icon": "🎬",
-      "title": "'BTS THE COMEBACK LIVE | ARIRANG' Trailer for Netflix Concert Special",
-      "snippet": "“<strong>Witness the homecoming</strong>,” reads a message across the screen. The live concert special will be directed by Hamish Hamilton — who most recently helmed the Bad Bunny Super Bowl halftime ",
-      "url": "https://www.billboard.com/music/pop/bts-comeback-live-arirang-trailer-netflix-concert-special-1236192431/",
-      "published": "4 days ago",
-      "mentionCount": 1
-    },
-    {
-      "artist": "Rachel Weisz",
-      "platform": "Netflix/Streaming Sync",
-      "weight": 8,
-      "icon": "🎬",
-      "title": "Each Song in Vladimir Soundtrack: Full List with Artist Names",
-      "snippet": "The complete <strong>Vladimir Soundtrack</strong> features top-notch modern pop and classical music, featuring Rachel Weisz and Leo Woodall as the leads.",
-      "url": "https://elitefandom.com/every-song-in-netflix-vladimir-soundtrack/",
-      "published": "2 days ago",
+      "title": "Netflix’s That Night soundtrack: Complete list of songs and music featured in the series - PRIMETIMER",
+      "snippet": "Explore the complete <strong>That Night</strong> soundtrack on Netflix, including songs featured in the series and original score by Aitor Etxebarria. Here is the full list of music used in <strong>Th",
+      "url": "https://www.primetimer.com/features/netflix-s-that-night-soundtrack-complete-list-of-songs-and-music-featured-in-the-series",
+      "published": "3 days ago",
       "mentionCount": 1
     },
     {
@@ -246,29 +235,40 @@
       "title": "Heated Rivalry - Wikipedia",
       "snippet": "The musical score for <strong>Heated Rivalry</strong> was composed by Peter Peter. He released the tracks &quot;Rivalry&quot; and &quot;It&#x27;s You&quot; as a double single on January 9, 2026. The f",
       "url": "https://en.wikipedia.org/wiki/Heated_Rivalry",
-      "published": "1 day ago",
+      "published": "9 hours ago",
       "mentionCount": 1
     },
     {
-      "artist": "Kelly Clarkson",
+      "artist": "Every",
       "platform": "Netflix/Streaming Sync",
       "weight": 8,
       "icon": "🎬",
-      "title": "Olympian Chloe Kim confuses Pink, Kelly Clarkson songs in viral talk show moment - Yahoo Sports",
-      "snippet": "Wed, March 4, 2026 at 9:01 PM UTC· · 1 min read · Milan Olympics silver medalist Chloe Kim had the right idea when she appeared on The Kelly Clarkson Show on Wednesday. She just had the wrong singer. ",
-      "url": "https://sports.yahoo.com/olympics/article/olympian-chloe-kim-confuses-pink-kelly-clarkson-songs-in-viral-talk-show-moment-210134116.html",
+      "title": "Every song on the 'Rooster' soundtrack",
+      "snippet": "TV · Gaming · Gig Guide · Radar · NewsTV News · The new Steve Carell comedy series has a theme song by R.E.M.&#x27;s Michael Stipe · By Max Pilley · 13th March 2026 · Steve Carell in &#x27;Rooster&#x2",
+      "url": "https://www.nme.com/news/tv/every-song-on-the-rooster-soundtrack-3934356",
       "published": "4 days ago",
       "mentionCount": 1
     },
     {
-      "artist": "Nelly",
+      "artist": "What",
+      "platform": "Netflix/Streaming Sync",
+      "weight": 8,
+      "icon": "🎬",
+      "title": "What songs have been used in movies, TV shows shot in Wilmington, NC?",
+      "snippet": "By Taylor Swift, from &#x27;<strong>The Summer I Turned Pretty</strong>&#x27; (2022-25): Can&#x27;t leave Tay Tay off the list, as her music looms large in this massively popular series, which returns",
+      "url": "https://www.starnewsonline.com/story/entertainment/movies/2026/03/12/what-songs-have-been-used-in-movies-tv-shows-shot-in-wilmington-nc-blue-velvet-runarounds-tsitp/88866647007/",
+      "published": "5 days ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Idina Menzel",
       "platform": "Award Shows",
       "weight": 8,
       "icon": "🏆",
-      "title": "Wisconsin State Fair Adds Three-Time Grammy Award Winner To Main Stage Music Lineup",
-      "snippet": "The 2026 Wisconsin State Fair Main Stage music series lineup is almost filled out, with a fun new addition just announced! As of today, 8 of the 11 nights of live music have been announced, with acts ",
-      "url": "https://mix108.com/2026-wisconsin-state-fair-nelly/",
-      "published": "1 week ago",
+      "title": "Queen Latifah, Idina Menzel & More to Headline 2026 Wawa Welcome America Festival – Archyde",
+      "snippet": "Officials have announced a star-studded ... Emmy, and Golden Globe-winning artist <strong>Queen Latifah, Tony Award-winning actress and singer Idina Menzel, and Grammy Award-winning rapper Eve</strong",
+      "url": "https://www.archyde.com/queen-latifah-idina-menzel-more-to-headline-2026-wawa-welcome-america-festival/",
+      "published": "15 hours ago",
       "mentionCount": 1
     },
     {
@@ -279,29 +279,40 @@
       "title": "Grammy Awards - Wikipedia",
       "snippet": "As of the 2026 Grammy Awards, Kendrick Lamar has solidified his position as the most decorated rapper in Grammy history with 27 total career wins. When Pearl Jam won a Grammy for the Best Hard Rock Pe",
       "url": "https://en.wikipedia.org/wiki/Grammy_Awards",
-      "published": "3 days ago",
+      "published": "5 days ago",
       "mentionCount": 1
     },
     {
-      "artist": "Mastercard",
+      "artist": "Guinness World Records",
       "platform": "Award Shows",
       "weight": 8,
       "icon": "🏆",
-      "title": "68th Annual Grammy Awards - Wikipedia",
-      "snippet": "Additionally, Noah Kahan&#x27;s &quot;The Great Divide&quot; music video, sponsored by Mastercard, premiered during a commercial break after Justin Bieber&#x27;s performance of &quot;Yukon&quot;. <str",
-      "url": "https://en.wikipedia.org/wiki/68th_Annual_Grammy_Awards",
-      "published": "4 days ago",
-      "mentionCount": 1
-    },
-    {
-      "artist": "Alan Cumming",
-      "platform": "Award Shows",
-      "weight": 8,
-      "icon": "🏆",
-      "title": "2026 Awards Show Season Calendar | DIRECTV Insider",
-      "snippet": "Host: <strong>Alan Cumming announced as host. ... The SAG Awards (now known as the Actors Awards by SAG-AFTRA) annually celebrate the most outstanding film and TV performances of the year, voted on by",
-      "url": "https://www.directv.com/insider/award-show-season/",
+      "title": "Grammy-Winning Band Added To Freedom Mortgage Concert Lineup For 2026 | Cherry Hill, NJ Patch",
+      "snippet": "Posted Tue, Mar 10, 2026 at 1:52 pm ET|Updated Tue, Mar 10, 2026 at 2:39 pm ET · CAMDEN, NJ —The genre-blending, Grammy Award-winning virtual band, &quot;Gorillaz,&quot; is coming to Camden this fall ",
+      "url": "https://patch.com/new-jersey/cherryhill/grammy-winning-band-added-freedom-mortgage-concert-lineup-2026",
       "published": "1 week ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Theatre",
+      "platform": "Award Shows",
+      "weight": 8,
+      "icon": "🏆",
+      "title": "Oscars 2026 Performers Lineup & Academy Awards Performances",
+      "snippet": "The award ceremony will be held at the Dolby Theatre at Ovation Hollywood. It is a chance to honor movies released in 2025; there will also be an impressive list of entertainers to make the night even",
+      "url": "https://entertainmentnow.com/music/oscars-performers-2026-performances-academy-awards/",
+      "published": "1 day ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Faye",
+      "platform": "Late Night TV",
+      "weight": 6,
+      "icon": "🌙",
+      "title": "How to watch Harry Styles on ‘SNL’ tonight for free - syracuse.com",
+      "snippet": "He previously pulled double duty on November 16, 2019, an episode known for sketches such as “Baby Faye and Her Newsboys” and “Joan Song.” ... <strong>Harry Styles</strong>’ appearance tonight will be",
+      "url": "https://www.syracuse.com/tv/2026/03/how-to-watch-harry-styles-on-snl-tonight-for-free.html",
+      "published": "2 days ago",
       "mentionCount": 1
     },
     {
@@ -312,7 +323,7 @@
       "title": "Jimmy Kimmel Live! - Wikipedia",
       "snippet": "Jimmy Kimmel Live! is an American late-night talk show, created and hosted by Jimmy Kimmel, and broadcast on the American Broadcasting Company (ABC). The nightly hour-long show tapes and is based out ",
       "url": "https://en.wikipedia.org/wiki/Jimmy_Kimmel_Live!",
-      "published": "1 day ago",
+      "published": "6 days ago",
       "mentionCount": 1
     },
     {
@@ -320,26 +331,55 @@
       "platform": "Late Night TV",
       "weight": 6,
       "icon": "🌙",
-      "title": "\"Jimmy Kimmel Live!\" Guest List: Gavin Newsom, Magic Johnson, and More to Appear Week of March 2nd",
-      "snippet": "by Laughing Place Disney Newsdesk | Feb 28, 2026 10:29pm (Pacific) Tags: ABC, Late Night, Jimmy Kimmel Live, Jimmy Kimmel, Scrubs, Zach Braff, Gavin Newsom, Love Story: John F. Kennedy Jr. &amp; Carol",
-      "url": "https://www.laughingplace.com/disney-entertainment/jimmy-kimmel-live-guests-week-of-march-2nd/",
-      "published": "1 week ago",
+      "title": "\"Jimmy Kimmel Live!\" Guest List: Zendaya, Charlie Cox, and More to Appear Week of March 16th",
+      "snippet": "by Laughing Place Disney Newsdesk | Mar 15, 2026 12:55pm (Pacific) Tags: ABC, Late Night, Jimmy Kimmel Live, Jimmy Kimmel, Zendaya, Daredevil: Born Again, Paradise (Hulu) This week Jimmy Kimmel Live! ",
+      "url": "https://www.laughingplace.com/disney-entertainment/jimmy-kimmel-live-guests-week-of-march-16th/",
+      "published": "2 days ago",
       "mentionCount": 1
     },
     {
-      "artist": "Surprise Guest Seth",
+      "artist": "Theatre",
       "platform": "Late Night TV",
       "weight": 6,
       "icon": "🌙",
-      "title": "Gavin Newsom Mocked by Surprise Guest Seth Meyers on Jimmy Kimmel Show - Riverside Today",
-      "snippet": "During an appearance on Jimmy Kimmel Live!, California Governor Gavin Newsom was the target of a ruthless send-up by former SNL star and late-night host <strong>Seth Meyers</strong>. Meyers arrived on",
-      "url": "https://nationaltoday.com/us/ca/riverside/news/2026/03/04/gavin-newsom-mocked-by-surprise-guest-seth-meyers-on-jimmy-kimmel-show/",
+      "title": "White House hatchetman erupts at 'classless' Jimmy Kimmel after mocking Melania's vanity 'shoe doc' | Daily Mail Online",
+      "snippet": "Years later, in June of 2020, Kimmel said, &#x27;Looking back, many of these sketches are embarrassing.&#x27; &#x27;The only people giving him any attention are Hollywood Elites. BUH-BYE,&#x27; Chueng",
+      "url": "https://www.dailymail.co.uk/news/article-15650803/White-House-hatchetman-erupts-classless-Jimmy-Kimmel-mocking-Melanias-vanity-shoe-doc.html",
+      "published": "18 hours ago",
+      "mentionCount": 1
+    },
+    {
+      "artist": "Jimmy Fallon",
+      "platform": "Late Night TV",
+      "weight": 6,
+      "icon": "🌙",
+      "title": "List of The Tonight Show Starring Jimmy Fallon episodes - Wikipedia",
+      "snippet": "The Tonight Show Starring Jimmy Fallon is an American late-night talk show that airs weeknights at 11:35 pm Eastern/10:35 pm Central on NBC in the United States. The hour-long show has aired since Feb",
+      "url": "https://en.wikipedia.org/wiki/List_of_The_Tonight_Show_Starring_Jimmy_Fallon_episodes",
+      "published": "5 days ago",
+      "mentionCount": 1
+    }
+  ],
+  "watchlistMatches": [
+    {
+      "artist": "HARDY",
+      "platform": "Fortnite",
+      "weight": 10,
+      "icon": "🎮",
+      "title": "Frontier Days Concerts 2026 | Blake Shelton, Riley Green & More Live in Cheyenne",
+      "snippet": "This year&#x27;s Frontier Nights lineup ... unforgettable performances. From six-time CFD favorite <strong>Blake Shelton to viral sensations The Red Clay Strays, and from ACM-winning powerhouse Riley ",
+      "url": "https://www.frontierdaysconcerts2026.com/",
       "published": "4 days ago",
       "mentionCount": 1
     }
   ],
-  "watchlistMatches": [],
   "history": [
+    {
+      "date": "2026-03-17",
+      "gaming": 12,
+      "culture": 20,
+      "watchlist": 1
+    },
     {
       "date": "2026-03-08",
       "gaming": 12,
