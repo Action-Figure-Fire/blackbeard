@@ -1250,49 +1250,43 @@
     "bigxthaplug": {
       "monthlyListeners": null,
       "spotifyFollowers": null,
-      "instagramFollowers": null,
-      "tiktokFollowers": null,
-      "youtubeSubscribers": 2000000,
-      "soldOutMentions": 1,
-      "soldOutSnippets": [
-        {
-          "title": "BigXThaPlug Tickets, Concerts & 2025 Tour Dates",
-          "snippet": "Tickets to BigXThaPlug shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has ticket",
-          "url": "https://www.eventticketscenter.com/bigxthaplug-tickets/43291/c"
-        }
-      ],
+      "instagramFollowers": 1800000,
+      "tiktokFollowers": 1000000,
+      "youtubeSubscribers": 1500000,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Packages vary but include premium tickets, exclusive access to a pre-show party, exclusive message from Big Time Rush delivered via QR code, early ent",
+      "viralMoment": "His catalog includes viral hits like “Texas,” “Mmhmm,” “The Largest,” and now “All the Way,” which continue to rack up plays daily. The beauty of stre",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 52,
-      "vetTier": "red_hot",
+      "vetScore": 40,
+      "vetTier": "warm",
       "vetSignals": [
-        "🔥 1 sold-out mentions",
         "📱 Viral moment detected",
-        "📋 3 Spotify editorial playlists"
+        "📱 Viral moment detected",
+        "📱 Viral moment detected",
+        "📸 IG: 1800K",
+        "🎵 TT: 1.0M",
+        "📋 2 editorial playlists"
       ],
-      "demandScore": 15,
-      "numbersScore": 12,
-      "momentumScore": 25,
-      "upcomingShows": 6,
+      "demandScore": 0,
+      "numbersScore": 20,
+      "momentumScore": 20,
+      "upcomingShows": 5,
       "tourDates": [
         {
-          "title": "The Future of Music 2026 with BigXthaPlug",
-          "date": "2026-03-15",
-          "venue": "Austin City Limits Live at The Moody Theater",
-          "city": "Austin, TX",
-          "capacity": 2750,
-          "url": "https://seatgeek.com/the-future-of-music-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2026-03-14-7-45-pm/concert/18008010"
-        },
-        {
-          "title": "Bulls, Bands, & Barrels with BigXthaPlug",
+          "title": "Bulls, Bands & Barrels with BigXthaPlug",
           "date": "2026-04-11",
           "venue": "Pinnacle Bank Arena",
           "city": "Lincoln, NE",
           "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4978210863,
           "url": "https://seatgeek.com/bulls-bands-and-barrels-tickets/rodeo/2026-04-11-6-30-pm/17928671"
         },
         {
@@ -1301,14 +1295,24 @@
           "venue": "San Gabriel Park",
           "city": "Georgetown, TX",
           "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5230760351,
           "url": "https://seatgeek.com/two-step-inn-festival-tickets/georgetown-texas-san-gabriel-park-2026-04-18-12-pm/music-festival/17759876"
         },
         {
-          "title": "Bulls, Bands, & Barrels with BigXThaPlug and Tyler Nance",
+          "title": "Bulls, Bands, and Barrels (BigXThaPlug and Tyler Nance) (Rescheduled from 1/24)",
           "date": "2026-05-01",
           "venue": "Gas South Arena",
           "city": "Duluth, GA",
           "capacity": 13100,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4981413537,
           "url": "https://seatgeek.com/bulls-bands-and-barrels-tickets/rodeo/2026-05-01-7-pm/17928162"
         },
         {
@@ -1317,10 +1321,28 @@
           "venue": "McLean County Fairgrounds",
           "city": "Bloomington, IL",
           "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3679931997,
           "url": "https://seatgeek.com/tailgate-n-tallboys-music-festival-tickets/bloomington-illinois-mclean-county-fairgrounds-2026-06-20-12-pm/music-festival/17846506"
+        },
+        {
+          "title": "BigXthaPlug",
+          "date": "2026-08-31",
+          "venue": "Alaska State Fair Borealis Theatre",
+          "city": "Palmer, AK",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3033864567,
+          "url": "https://seatgeek.com/bigxthaplug-tickets/palmer-alaska-alaska-state-fair-borealis-theatre-2026-08-30-7-pm/concert/18082711"
         }
       ],
-      "enrichedAt": "2026-03-04T02:47:29.922Z"
+      "enrichedAt": "2026-03-18T10:01:44.385Z"
     },
     "sosocamo": {
       "monthlyListeners": 5000000,
@@ -5555,7 +5577,7 @@
     "lilly palmer": {
       "monthlyListeners": null,
       "spotifyFollowers": 300000,
-      "instagramFollowers": 1600000,
+      "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
       "soldOutMentions": 2,
@@ -5566,9 +5588,9 @@
           "url": "https://www.eventticketscenter.com/lilly-palmer-tickets/27390/c"
         },
         {
-          "title": "Lilly Palmer: Bigger than techno album premiere – Sold Out - WestWeelde",
-          "snippet": "This show is fully sold out: no doorsale! Try your luck at Ticketswap · On <strong>October 24th, 2025</strong>, a new era of electronic music ignites ",
-          "url": "https://www.westweelde.nl/events/lilly-palmer-presents-2025-10-24"
+          "title": "11 Most Anticipated Music Tours of 2025 | Trill",
+          "snippet": "She finished her American leg of the tour in Inglewood on November 18th. She is set to start back in Dublin on <strong>March 3rd</strong>. The prices ",
+          "url": "https://www.trillmag.com/entertainment/music/most-anticipated-tours-for-2025/"
         }
       ],
       "venueUpgrades": 0,
@@ -5577,16 +5599,15 @@
       "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 41,
-      "vetTier": "warm",
+      "vetScore": 28,
+      "vetTier": "unvetted",
       "vetSignals": [
         "🔥 2 sold-out mentions",
-        "📸 IG: 1600K",
-        "📋 3 Spotify editorial playlists"
+        "📋 2 editorial playlists"
       ],
       "demandScore": 18,
-      "numbersScore": 8,
-      "momentumScore": 15,
+      "numbersScore": 0,
+      "momentumScore": 10,
       "upcomingShows": 1,
       "tourDates": [
         {
@@ -5599,11 +5620,11 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.1101813571,
+          "sgScore": 0.1372972715,
           "url": "https://seatgeek.com/lilly-palmer-tickets/charlotte-north-carolina-blackbox-theater-charlotte-2026-04-11-10-pm/concert/18052389"
         }
       ],
-      "enrichedAt": "2026-03-06T11:01:09.827Z"
+      "enrichedAt": "2026-03-18T10:01:35.626Z"
     },
     "cash cobain": {
       "monthlyListeners": 4500000,
@@ -5619,44 +5640,31 @@
       "viralMoment": "At writing time, Cash Cobain’s official 2025-2026 tour itinerary isn’t announced. Fans should check back for confirmed markets and venues. Past North ",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 40,
+      "vetScore": 35,
       "vetTier": "warm",
       "vetSignals": [
         "🎧 4.5M Spotify listeners",
         "📱 Viral moment detected",
         "📸 IG: 61K",
-        "📋 3 Spotify editorial playlists"
+        "📋 2 editorial playlists"
       ],
       "demandScore": 0,
       "numbersScore": 15,
-      "momentumScore": 25,
-      "upcomingShows": 3,
+      "momentumScore": 20,
+      "upcomingShows": 2,
       "tourDates": [
         {
-          "title": "Cash Cobain (21+)",
-          "date": "2026-03-08",
-          "venue": "Echoplex",
-          "city": "Los Angeles, CA",
-          "capacity": 500,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.2519934285,
-          "url": "https://seatgeek.com/cash-cobain-tickets/los-angeles-california-echoplex-2026-03-07-8-pm/concert/17583590"
-        },
-        {
           "title": "Cash Cobain",
-          "date": "2026-03-13",
-          "venue": "Cervantes' Masterpiece",
-          "city": "Denver, CO",
+          "date": "2026-05-03",
+          "venue": "NOTO Philadelphia",
+          "city": "Philadelphia, PA",
           "capacity": 0,
           "lowestPrice": null,
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.3819124704,
-          "url": "https://seatgeek.com/cash-cobain-tickets/denver-colorado-cervantes-masterpiece-2026-03-12-8-pm/concert/17803918"
+          "sgScore": 0.2230429209,
+          "url": "https://seatgeek.com/cash-cobain-tickets/philadelphia-pennsylvania-noto-philadelphia-2026-05-02-10-pm/concert/18119930"
         },
         {
           "title": "Cash Cobain",
@@ -5672,7 +5680,7 @@
           "url": "https://seatgeek.com/cash-cobain-tickets/seattle-washington-showbox-sodo-2035-09-23-3-30-am/concert/17585251"
         }
       ],
-      "enrichedAt": "2026-03-06T11:01:11.676Z"
+      "enrichedAt": "2026-03-18T10:01:46.528Z"
     },
     "girlset": {
       "monthlyListeners": null,
@@ -8021,26 +8029,12 @@
       "demandScore": 12,
       "numbersScore": 0,
       "momentumScore": 10,
-      "upcomingShows": 1,
-      "tourDates": [
-        {
-          "title": "Amelie Lens",
-          "date": "2026-03-14",
-          "venue": "The Concourse Project",
-          "city": "Austin, TX",
-          "capacity": 0,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.2377565217,
-          "url": "https://seatgeek.com/amelie-lens-tickets/austin-texas-the-concourse-project-2026-03-14-3-30-am/concert/17999692"
-        }
-      ],
-      "enrichedAt": "2026-03-07T11:01:34.299Z"
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:37.324Z"
     },
     "charlotte de witte": {
-      "monthlyListeners": 0,
+      "monthlyListeners": 2000000,
       "spotifyFollowers": 4300000,
       "instagramFollowers": 2100000,
       "tiktokFollowers": null,
@@ -8053,14 +8047,15 @@
       "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 22,
-      "vetTier": "unvetted",
+      "vetScore": 37,
+      "vetTier": "warm",
       "vetSignals": [
+        "🎧 2.0M Spotify listeners",
         "📸 IG: 2100K",
         "📋 2 editorial playlists"
       ],
       "demandScore": 0,
-      "numbersScore": 12,
+      "numbersScore": 27,
       "momentumScore": 10,
       "upcomingShows": 1,
       "tourDates": [
@@ -8074,11 +8069,11 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.1710593198,
+          "sgScore": 0.1775740715,
           "url": "https://seatgeek.com/foundation-series-tickets/vancouver-canada-pne-grounds-2026-05-16-4-pm/concert/18038986"
         }
       ],
-      "enrichedAt": "2026-03-07T11:01:36.363Z"
+      "enrichedAt": "2026-03-18T10:01:39.145Z"
     },
     "anyma": {
       "monthlyListeners": 6000000,
@@ -8141,48 +8136,48 @@
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "His most famous song is “Catch A B,” which became a viral hit and has tens of millions of views on YouTube. ... Yes, he has signed with labels like Ar",
+      "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 32,
-      "vetTier": "warm",
+      "vetScore": 22,
+      "vetTier": "unvetted",
       "vetSignals": [
         "🔥 1 sold-out mentions",
-        "📱 Viral moment detected",
         "📋 2 editorial playlists"
       ],
       "demandScore": 12,
       "numbersScore": 0,
-      "momentumScore": 20,
+      "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-07T11:01:40.228Z"
+      "enrichedAt": "2026-03-18T10:01:42.661Z"
     },
     "trap dickey": {
       "monthlyListeners": null,
-      "spotifyFollowers": 93300,
+      "spotifyFollowers": 99100,
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
       "soldOutMentions": 0,
       "soldOutSnippets": [],
       "venueUpgrades": 0,
-      "addedDates": 0,
+      "addedDates": 1,
       "bigSingle": null,
       "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 10,
+      "vetScore": 17,
       "vetTier": "unvetted",
       "vetSignals": [
+        "📅 Added dates due to demand",
         "📋 2 editorial playlists"
       ],
-      "demandScore": 0,
+      "demandScore": 7,
       "numbersScore": 0,
       "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-07T11:01:42.082Z"
+      "enrichedAt": "2026-03-18T10:01:40.952Z"
     },
     "h3adband": {
       "monthlyListeners": null,
@@ -8195,7 +8190,7 @@
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Get ready for an unforgettable experience with <strong>Bankrol Hayden</strong>. Genre: Melodic rap, Pop rap, Viral rap! Don&#x27;t miss the chance to ",
+      "viralMoment": "With months still to go before the calendar flips, additional legacy acts are expected to announce 2026 dates as routing and venue availability fall i",
       "albumCount": null,
       "latestRelease": null,
       "vetScore": 20,
@@ -8220,7 +8215,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.3894597016,
+          "sgScore": 0.3953386161,
           "url": "https://seatgeek.com/dababy-tickets/houston-texas-house-of-blues-houston-2026-03-29-7-pm/concert/18051786"
         },
         {
@@ -8233,7 +8228,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.4131040872,
+          "sgScore": 0.4263666375,
           "url": "https://seatgeek.com/dababy-tickets/dallas-texas-the-echo-lounge-music-hall-2026-04-01-8-pm/concert/18051782"
         },
         {
@@ -8246,7 +8241,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.3990435545,
+          "sgScore": 0.4427766655,
           "url": "https://seatgeek.com/dababy-tickets/atlanta-georgia-buckhead-theatre-2026-04-03-8-pm/concert/18051781"
         },
         {
@@ -8259,7 +8254,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.3526041867,
+          "sgScore": 0.3658495851,
           "url": "https://seatgeek.com/dababy-tickets/fort-lauderdale-florida-revolution-live-2026-04-04-7-pm/concert/18051784"
         },
         {
@@ -8272,7 +8267,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.3516515766,
+          "sgScore": 0.3808526217,
           "url": "https://seatgeek.com/dababy-tickets/orlando-florida-the-beacham-2026-04-05-7-pm/concert/18051783"
         },
         {
@@ -8285,7 +8280,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.3193316059,
+          "sgScore": 0.3638758043,
           "url": "https://seatgeek.com/dababy-tickets/north-myrtle-beach-south-carolina-house-of-blues-myrtle-beach-2026-04-09-8-pm/concert/18051785"
         },
         {
@@ -8298,7 +8293,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.439268047,
+          "sgScore": 0.4427281952,
           "url": "https://seatgeek.com/dababy-tickets/silver-spring-maryland-the-fillmore-silver-spring-2026-04-12-8-pm/concert/18051793"
         },
         {
@@ -8311,11 +8306,11 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.4383018157,
+          "sgScore": 0.4589251341,
           "url": "https://seatgeek.com/dababy-tickets/new-york-new-york-irving-plaza-2026-04-15-7-pm/concert/18051795"
         }
       ],
-      "enrichedAt": "2026-03-07T11:01:44.110Z"
+      "enrichedAt": "2026-03-18T10:01:48.548Z"
     },
     "taffy": {
       "monthlyListeners": 666,
@@ -13310,7 +13305,1088 @@
         }
       ],
       "enrichedAt": "2026-03-17T10:03:44.044Z"
+    },
+    "spacey jane": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Spacey Jane Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to Spacey Jane shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has ticket",
+          "url": "https://www.eventticketscenter.com/spacey-jane-tickets/13046/c"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 22,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 17,
+      "tourDates": [
+        {
+          "title": "Spacey Jane with Toledo",
+          "date": "2026-06-03",
+          "venue": "Toad's Place",
+          "city": "New Haven, CT",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1931120244,
+          "url": "https://seatgeek.com/spacey-jane-tickets/new-haven-connecticut-toad-s-place-2026-06-02-8-pm/concert/18123188"
+        },
+        {
+          "title": "Flipturn with Spacey Jane",
+          "date": "2026-06-05",
+          "venue": "MGM Music Hall at Fenway",
+          "city": "Boston, MA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5214752096,
+          "url": "https://seatgeek.com/flipturn-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-06-04-8-pm/concert/18044045"
+        },
+        {
+          "title": "Spacey Jane with Toledo",
+          "date": "2026-06-08",
+          "venue": "Jefferson Theater - Charlottesville, VA",
+          "city": "Charlottesville, VA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2065213474,
+          "url": "https://seatgeek.com/spacey-jane-tickets/charlottesville-virginia-jefferson-theater-charlottesville-va-2026-06-07-8-pm/concert/18123298"
+        },
+        {
+          "title": "Spacey Jane with Toledo",
+          "date": "2026-06-11",
+          "venue": "The Deluxe at Old National Centre",
+          "city": "Indianapolis, IN",
+          "capacity": 2500,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1996028338,
+          "url": "https://seatgeek.com/spacey-jane-tickets/indianapolis-indiana-the-deluxe-at-old-national-centre-2026-06-10-8-pm/concert/18123390"
+        },
+        {
+          "title": "Spacey Jane with Toledo",
+          "date": "2026-06-13",
+          "venue": "Charleston Music Hall",
+          "city": "Charleston, SC",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2165577985,
+          "url": "https://seatgeek.com/spacey-jane-tickets/charleston-south-carolina-charleston-music-hall-2026-06-12-8-pm/concert/18123245"
+        },
+        {
+          "title": "Rainbow Kitten Surprise with Spacey Jane",
+          "date": "2026-07-13",
+          "venue": "McMenamins Historic Edgefield Amphitheater",
+          "city": "Troutdale, OR",
+          "capacity": 1500,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.43080248,
+          "url": "https://seatgeek.com/rainbow-kitten-surprise-tickets/troutdale-oregon-mcmenamins-historic-edgefield-amphitheater-2026-07-12-6-30-pm/concert/17856856"
+        },
+        {
+          "title": "Rainbow Kitten Surprise with Spacey Jane",
+          "date": "2026-07-15",
+          "venue": "Outlaw Field at the Idaho Botanical Garden",
+          "city": "Boise, ID",
+          "capacity": 1000,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2998199602,
+          "url": "https://seatgeek.com/rainbow-kitten-surprise-tickets/boise-idaho-outlaw-field-at-the-idaho-botanical-garden-2026-07-14-7-pm/concert/17856859"
+        },
+        {
+          "title": "Rainbow Kitten Surprise with Spacey Jane",
+          "date": "2026-07-16",
+          "venue": "The Great Saltair",
+          "city": "Magna, UT",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4416256265,
+          "url": "https://seatgeek.com/rainbow-kitten-surprise-tickets/magna-utah-the-great-saltair-2026-07-15-6-pm/concert/17856861"
+        }
+      ],
+      "enrichedAt": "2026-03-18T10:01:04.691Z"
+    },
+    "babychiefdoit": {
+      "monthlyListeners": 2900000,
+      "spotifyFollowers": 536240,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 25,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 2.9M Spotify listeners",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 15,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:06.544Z"
+    },
+    "martin garrix": {
+      "monthlyListeners": null,
+      "spotifyFollowers": 14930970,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Martin Garrix Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to Martin Garrix shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tick",
+          "url": "https://www.eventticketscenter.com/martin-garrix-tickets/7927/c"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 22,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 19,
+      "tourDates": [
+        {
+          "title": "Martin Garrix",
+          "date": "2026-05-02",
+          "venue": "The Pavilion at Toyota Music Factory",
+          "city": "Irving, TX",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5165850335,
+          "url": "https://seatgeek.com/martin-garrix-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-05-01-8-pm/concert/17944198"
+        },
+        {
+          "title": "Martin Garrix",
+          "date": "2026-05-03",
+          "venue": "The Pavilion at Toyota Music Factory",
+          "city": "Irving, TX",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5033133426,
+          "url": "https://seatgeek.com/martin-garrix-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-05-02-8-pm/concert/17951485"
+        },
+        {
+          "title": "Martin Garrix",
+          "date": "2026-05-10",
+          "venue": "Gorge Amphitheatre",
+          "city": "George, WA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4261324422,
+          "url": "https://seatgeek.com/martin-garrix-tickets/george-washington-gorge-amphitheatre-2026-05-09-8-pm/concert/17944200"
+        },
+        {
+          "title": "Martin Garrix",
+          "date": "2026-05-23",
+          "venue": "The Armory - Minneapolis",
+          "city": "Minneapolis, MN",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3896364588,
+          "url": "https://seatgeek.com/martin-garrix-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-05-22-9-pm/concert/17944199"
+        },
+        {
+          "title": "Martin Garrix",
+          "date": "2026-05-24",
+          "venue": "The Armory - Minneapolis",
+          "city": "Minneapolis, MN",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4124574278,
+          "url": "https://seatgeek.com/martin-garrix-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-05-23-9-pm/concert/17944201"
+        },
+        {
+          "title": "Martin Garrix",
+          "date": "2026-05-29",
+          "venue": "RBC Amphitheatre",
+          "city": "Toronto, ON",
+          "capacity": 16000,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3999415064,
+          "url": "https://seatgeek.com/martin-garrix-tickets/toronto-canada-rbc-amphitheatre-2026-05-29-7-pm/concert/17944202"
+        },
+        {
+          "title": "Martin Garrix",
+          "date": "2026-05-30",
+          "venue": "RBC Amphitheatre",
+          "city": "Toronto, ON",
+          "capacity": 16000,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.406009037,
+          "url": "https://seatgeek.com/martin-garrix-tickets/toronto-canada-rbc-amphitheatre-2026-05-30-7-pm/concert/17950845"
+        },
+        {
+          "title": "Martin Garrix",
+          "date": "2026-05-31",
+          "venue": "RBC Amphitheatre",
+          "city": "Toronto, ON",
+          "capacity": 16000,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3131142095,
+          "url": "https://seatgeek.com/martin-garrix-tickets/toronto-canada-rbc-amphitheatre-2026-05-31-7-pm/concert/17950846"
+        }
+      ],
+      "enrichedAt": "2026-03-18T10:01:08.519Z"
+    },
+    "john roseboro": {
+      "monthlyListeners": null,
+      "spotifyFollowers": 73000,
+      "instagramFollowers": 18000,
+      "tiktokFollowers": 53000,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "<strong>Saturday, March 14, 2026 7:30 p.m.</strong> Tickets $48 live in-person | $14 livestream ... In our modern world of clicks, viral hits, and qui",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 28,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "📱 Viral moment detected",
+        "📸 IG: 18K",
+        "🎵 TT: 0.1M",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 8,
+      "momentumScore": 20,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:10.381Z"
+    },
+    "alex isley": {
+      "monthlyListeners": null,
+      "spotifyFollowers": 267000,
+      "instagramFollowers": 267000,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Venue Upgrades & Extra Shows Added To Alex Warren's 2025 Australian Tour | The Music",
+          "snippet": "Pre-sale tickets to Alex Warren&#x27;s debut Australian tour sold out in just two minutes earlier this week.",
+          "url": "https://themusic.com.au/news/venue-upgrades-extra-shows-added-to-alex-warren-2025-australian-tour/n7cds7K1tLc/13-03-25"
+        }
+      ],
+      "venueUpgrades": 2,
+      "addedDates": 1,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 42,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "🏟️ Venue upgrade detected",
+        "📅 Added dates due to demand",
+        "🏟️ Venue upgrade detected",
+        "📸 IG: 267K",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 27,
+      "numbersScore": 5,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:12.155Z"
+    },
+    "chris stussy": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "Chris Stussy Takes Over Coasts with Sold-Out USA Weekender + New LA Show | CULTR",
+          "snippet": "Two cities, two nights, zero hesitation. Chris Stussy has officially sold out both stops of his upcoming USA weekender, locking in two of the biggest ",
+          "url": "https://www.cultr.com/news/chris-stussy-takes-over-coasts-with-sold-out-usa-weekender-new-la-show/"
+        },
+        {
+          "title": "Chris Stussy announces double-header weekender in NY and LA",
+          "snippet": "NYC SOLD OUT ❤️‍🔥 This weekender is going to be one for the books. Can’t wait!!!— Chris Stussy (@djchrisstussy) <strong>May 1, 2025</strong>",
+          "url": "https://exronmusic.com/2025/05/04/chris-stussy-announces-double-header-weekender-ny-la/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 2,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 35,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📅 Added dates due to demand",
+        "📅 Added dates due to demand",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 25,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 1,
+      "tourDates": [
+        {
+          "title": "Chris Stussy",
+          "date": "2026-05-16",
+          "venue": "SILO - Dallas",
+          "city": "Dallas, TX",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3338379274,
+          "url": "https://seatgeek.com/chris-stussy-tickets/dallas-texas-silo-dallas-2026-05-15-9-pm/concert/18062117"
+        }
+      ],
+      "enrichedAt": "2026-03-18T10:01:14.041Z"
+    },
+    "chief keef": {
+      "monthlyListeners": 15000000,
+      "spotifyFollowers": 5900000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": 52000,
+      "soldOutMentions": 4,
+      "soldOutSnippets": [
+        {
+          "title": "Chief Keef Tickets, Concerts & 2026 Tour Dates",
+          "snippet": "Tickets to Chief Keef shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets",
+          "url": "https://www.eventticketscenter.com/chief-keef-tickets/7959/c"
+        },
+        {
+          "title": "Chief Keef Tickets 2026 | Expedia",
+          "snippet": "Buy Chief Keef tickets at Expedia. Great seats available for sold out events. Chief Keef 2026 schedule.",
+          "url": "https://www.expedia.com/event-tickets/chief-keef-tickets.p"
+        },
+        {
+          "title": "Katseye's North American tour sold out in minutes — Here's where to find tickets",
+          "snippet": "Original passes for their festival appearances, Lollapalooza Argentina, Lollapalooza Brazil, Lollapalooza Chile, and Festival Estereo Picnic in Colomb",
+          "url": "https://www.businessinsider.com/guides/tickets/how-to-get-katseye-tickets-concert-tour?op=1"
+        },
+        {
+          "title": "Yung Gravy Tickets, 2026 Concert Tour Dates | Ticketmaster",
+          "snippet": "To date, his accolades include three platinum andfour gold singles as well as 10 sold out tours of North America, Europe, and Australia. He has collab",
+          "url": "https://www.ticketmaster.com/yung-gravy-tickets/artist/2444475"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 50,
+      "vetTier": "red_hot",
+      "vetSignals": [
+        "🔥 4 sold-out mentions",
+        "🎧 15.0M Spotify listeners",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 25,
+      "numbersScore": 15,
+      "momentumScore": 10,
+      "upcomingShows": 1,
+      "tourDates": [
+        {
+          "title": "Rolling Loud Orlando - Friday Pass- with Don Toliver, Chief Keef, Esdeekid and more",
+          "date": "2026-05-08",
+          "venue": "Camping World Stadium",
+          "city": "Orlando, FL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4469644516,
+          "url": "https://seatgeek.com/rolling-loud-festival-tickets/orlando-florida-camping-world-stadium-2026-05-08-3-pm/music-festival/18005686"
+        }
+      ],
+      "enrichedAt": "2026-03-18T10:01:15.770Z"
+    },
+    "lekan": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "“General sales haven't started yet”- Fans defend BTS as alleged 2026 world tour empty seat claims go viral amid pre-sale sell-outs",
+          "snippet": "The announcement revealed numerous cities across regions. ... The group also stated more shows would follow, targeting areas missing from the initial ",
+          "url": "https://www.sportskeeda.com/us/k-pop/news-general-sales-started-yet-fans-defend-bts-alleged-2026-world-tour-empty-seat-claims-go-viral-amid-pre-sale-sell-outs"
+        },
+        {
+          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
+          "snippet": "BTS World Tour Arirang 2026 tickets sold out instantly during pre-sale as ARMYs flooded booking platforms worldwide. BigHit Music has now added more c",
+          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Operating largely outside a major-label system, he releases music independently under his own imprint and works with independent Nashville producers, ",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 38,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📱 Viral moment detected",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 18,
+      "numbersScore": 0,
+      "momentumScore": 20,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:17.480Z"
+    },
+    "the lemon twigs": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": 2100,
+      "soldOutMentions": 4,
+      "soldOutSnippets": [
+        {
+          "title": "The Lemon Twigs share new 2-song single, touring in January",
+          "snippet": "The Lemon Twigs – 2026 Tour Dates <strong>1/14 – Troubadour, Los Angeles, CA</strong> *SOLD OUT* 1/15 – Troubadour, Los Angeles, CA 1/23 – Churchill’s",
+          "url": "https://www.brooklynvegan.com/the-lemon-twigs-share-new-2-song-single-touring-in-january/"
+        },
+        {
+          "title": "The Lemon Twigs",
+          "snippet": "The Lemon Twigs · ReleaseProduct · Look For Your Mind! Label · Captured Tracks · Release Date · <strong>May 8, 2026</strong> Play · 12” · Sold out · A",
+          "url": "https://store.thelemontwigs.com/?lang=en_GB%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Dde%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_GB%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_GB%3Flang%3Des%3Flang%3Den_GB%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_GB%3Flang%3Den_GB%3Flang%3Den_US%3Flang%3Dpt%3Flang%3Den_US%3Flang%3Den_GB%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_GB%3Flang%3Den_GB%3Flang%3Den_US%3Flang%3Den_GB%3Flang%3Den_GB%3Flang%3Den_US%3Flang%3Den_GB%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_GB%3Flang%3Den_GB%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_GB%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US%3Flang%3Den_US"
+        },
+        {
+          "title": "The Lemon Twigs Tour Dates 2026 & Concert Tickets",
+          "snippet": "Concert dates for The Lemon Twigs can be found on top. Sold Out concerts will not be any concern, we always have great seats.",
+          "url": "https://concertfix.com/tours/the-lemon-twigs"
+        },
+        {
+          "title": "The Lemon Twigs Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to The Lemon Twigs shows are available now right here at Event Tickets Center! Many of their shows have sold out elsewhere, but not here. Even",
+          "url": "https://www.eventticketscenter.com/the-lemon-twigs-tickets/8594/c"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 35,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 4 sold-out mentions",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 25,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 7,
+      "tourDates": [
+        {
+          "title": "The Lemon Twigs",
+          "date": "2026-04-25",
+          "venue": "Beanfield Theatre",
+          "city": "Montreal, QC",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1972322301,
+          "url": "https://seatgeek.com/the-lemon-twigs-tickets/montreal-canada-beanfield-theatre-2026-04-24-8-pm/concert/18055193"
+        },
+        {
+          "title": "The Lemon Twigs",
+          "date": "2026-04-30",
+          "venue": "The Indianapolis Propylaeum",
+          "city": "Indianapolis, IN",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2499154015,
+          "url": "https://seatgeek.com/the-lemon-twigs-tickets/indianapolis-indiana-the-indianapolis-propylaeum-2026-04-29-8-pm/concert/18076184"
+        },
+        {
+          "title": "The Lemon Twigs",
+          "date": "2026-05-01",
+          "venue": "Turner Hall Ballroom",
+          "city": "Milwaukee, WI",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2100244462,
+          "url": "https://seatgeek.com/the-lemon-twigs-tickets/milwaukee-wisconsin-turner-hall-ballroom-2026-04-30-8-pm/concert/18120912"
+        },
+        {
+          "title": "The Lemon Twigs",
+          "date": "2026-05-09",
+          "venue": "9:30 Club",
+          "city": "Washington, DC",
+          "capacity": 1200,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2166693198,
+          "url": "https://seatgeek.com/the-lemon-twigs-tickets/washington-district-of-columbia-9-30-club-2026-05-09-6-pm/concert/18053116"
+        },
+        {
+          "title": "The Lemon Twigs",
+          "date": "2026-06-12",
+          "venue": "Neptune Theatre - WA",
+          "city": "Seattle, WA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.162297409,
+          "url": "https://seatgeek.com/the-lemon-twigs-tickets/seattle-washington-neptune-theatre-wa-2026-06-11-8-pm/concert/18055189"
+        },
+        {
+          "title": "The Lemon Twigs",
+          "date": "2026-06-17",
+          "venue": "Harlow's Restaurant & Nightclub",
+          "city": "Sacramento, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1243197457,
+          "url": "https://seatgeek.com/the-lemon-twigs-tickets/sacramento-california-harlow-s-restaurant-nightclub-2026-06-16-8-pm/concert/18089140"
+        },
+        {
+          "title": "The Lemon Twigs",
+          "date": "2026-06-18",
+          "venue": "The Fillmore - San Francisco",
+          "city": "San Francisco, CA",
+          "capacity": 1250,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1602158843,
+          "url": "https://seatgeek.com/the-lemon-twigs-tickets/san-francisco-california-the-fillmore-san-francisco-2026-06-17-8-pm/concert/18053434"
+        }
+      ],
+      "enrichedAt": "2026-03-18T10:01:19.352Z"
+    },
+    "rostam": {
+      "monthlyListeners": 237,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 10,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 0.0M Spotify listeners",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 20,
+      "tourDates": [
+        {
+          "title": "Rostam",
+          "date": "2026-05-28",
+          "venue": "Music Box - San Diego",
+          "city": "San Diego, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.0989032199,
+          "url": "https://seatgeek.com/rostam-tickets/san-diego-california-music-box-san-diego-2026-05-27-8-pm/concert/18116938"
+        },
+        {
+          "title": "Rostam",
+          "date": "2026-05-31",
+          "venue": "The Ford - Los Angeles",
+          "city": "Los Angeles, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.147119553,
+          "url": "https://seatgeek.com/rostam-tickets/los-angeles-california-the-ford-los-angeles-2026-05-30-7-30-pm/concert/18116954"
+        },
+        {
+          "title": "Rostam",
+          "date": "2026-06-04",
+          "venue": "The Chapel - San Francisco",
+          "city": "San Francisco, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.0955618571,
+          "url": "https://seatgeek.com/rostam-tickets/san-francisco-california-the-chapel-san-francisco-2026-06-03-8-pm/concert/18116953"
+        },
+        {
+          "title": "Rostam",
+          "date": "2026-06-06",
+          "venue": "Fortune Sound Club",
+          "city": "Vancouver, BC",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1111706153,
+          "url": "https://seatgeek.com/rostam-tickets/vancouver-canada-fortune-sound-club-2026-06-05-8-pm/concert/18116955"
+        },
+        {
+          "title": "Rostam",
+          "date": "2026-06-07",
+          "venue": "Aladdin Theater",
+          "city": "Portland, OR",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1148800702,
+          "url": "https://seatgeek.com/rostam-tickets/portland-oregon-aladdin-theater-2026-06-06-8-pm/concert/18116956"
+        },
+        {
+          "title": "Rostam",
+          "date": "2026-06-08",
+          "venue": "The Crocodile",
+          "city": "Seattle, WA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1349668448,
+          "url": "https://seatgeek.com/rostam-tickets/seattle-washington-the-crocodile-2026-06-07-8-pm/concert/18116937"
+        },
+        {
+          "title": "Rostam",
+          "date": "2026-06-10",
+          "venue": "Neurolux",
+          "city": "Boise, ID",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.0745621242,
+          "url": "https://seatgeek.com/rostam-tickets/boise-idaho-neurolux-2026-06-09-7-pm/concert/18116961"
+        },
+        {
+          "title": "Rostam (21+)",
+          "date": "2026-06-11",
+          "venue": "The State Room - Salt Lake City",
+          "city": "Salt Lake City, UT",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.0918532322,
+          "url": "https://seatgeek.com/rostam-tickets/salt-lake-city-utah-the-state-room-salt-lake-city-2026-06-10-8-pm/concert/18116962"
+        }
+      ],
+      "enrichedAt": "2026-03-18T10:01:21.224Z"
+    },
+    "luis r conriquez": {
+      "monthlyListeners": null,
+      "spotifyFollowers": 1200000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 10,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:23.000Z"
+    },
+    "sofi tukker": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Sofi Tukker Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to Sofi Tukker shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has ticket",
+          "url": "https://www.eventticketscenter.com/sofi-tukker-tour-tickets/7642/c"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 22,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:24.773Z"
+    },
+    "self proclaimed narcissist": {
+      "monthlyListeners": 23,
+      "spotifyFollowers": 3,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Cultural moments: Taylor Swift&#x27;s Eras Tour became a social phenomenon beyond just a concert · Cross-generational appeal: Acts like Billy Joel and",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 20,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 0.0M Spotify listeners",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 0,
+      "momentumScore": 20,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:26.481Z"
+    },
+    "murda beatz": {
+      "monthlyListeners": 2400000,
+      "spotifyFollowers": 199311,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 25,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 2.4M Spotify listeners",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 15,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:28.231Z"
+    },
+    "kris r.": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 1,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 17,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "📅 Added dates due to demand",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 7,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:30.240Z"
+    },
+    "lowertown": {
+      "monthlyListeners": 167000,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Cultural moments: Taylor Swift&#x27;s Eras Tour became a social phenomenon beyond just a concert · Cross-generational appeal: Acts like Billy Joel and",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 28,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 0.2M Spotify listeners",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 8,
+      "momentumScore": 20,
+      "upcomingShows": 6,
+      "tourDates": [
+        {
+          "title": "Lowertown",
+          "date": "2026-04-30",
+          "venue": "The Sinclair - Cambridge",
+          "city": "Cambridge, MA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.147533004,
+          "url": "https://seatgeek.com/lowertown-tickets/cambridge-massachusetts-the-sinclair-cambridge-2026-04-29-8-pm/concert/18120509"
+        },
+        {
+          "title": "Lowertown",
+          "date": "2026-05-14",
+          "venue": "xBk Live",
+          "city": "Des Moines, IA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.0729104698,
+          "url": "https://seatgeek.com/lowertown-tickets/des-moines-iowa-xbk-live-2026-05-13-7-pm/concert/18110022"
+        },
+        {
+          "title": "Lowertown",
+          "date": "2026-05-30",
+          "venue": "Constellation Room at The Observatory",
+          "city": "Santa Ana, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.0487577476,
+          "url": "https://seatgeek.com/lowertown-tickets/santa-ana-california-constellation-room-at-the-observatory-2026-05-29-7-pm/concert/18069921"
+        },
+        {
+          "title": "Lowertown",
+          "date": "2026-05-31",
+          "venue": "The Roxy Theatre - Los Angeles",
+          "city": "Los Angeles, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1102700024,
+          "url": "https://seatgeek.com/lowertown-tickets/los-angeles-california-the-roxy-theatre-los-angeles-2026-05-30-9-pm/concert/18077588"
+        },
+        {
+          "title": "Lowertown",
+          "date": "2026-06-17",
+          "venue": "The Masquerade - Hell",
+          "city": "Atlanta, GA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.0609975151,
+          "url": "https://seatgeek.com/lowertown-tickets/atlanta-georgia-the-masquerade-hell-2026-06-17-7-pm/concert/18069208"
+        },
+        {
+          "title": "Lowertown",
+          "date": "2026-06-28",
+          "venue": "Bowery Ballroom",
+          "city": "New York, NY",
+          "capacity": 575,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.0949342499,
+          "url": "https://seatgeek.com/lowertown-tickets/new-york-new-york-bowery-ballroom-2026-06-27-8-pm/concert/18069143"
+        }
+      ],
+      "enrichedAt": "2026-03-18T10:01:31.954Z"
+    },
+    "operelly": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Jam Band Announces 2026 Summer Tour Dates After Selling Out Iconic Venue for the First Time",
+          "snippet": "These tickets are definitely going to sell out fast.",
+          "url": "https://parade.com/news/jam-band-announces-2026-summer-tour-dates-selling-out-iconic-venue-first-time"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "The tour comes in support of Larsson’s 2025 album Midnight Sun, which ripples with confidence and trust. The album set the stage for her, allowing her",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 32,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📱 Viral moment detected",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 20,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-18T10:01:33.789Z"
     }
   },
-  "lastUpdated": "2026-03-17T10:03:44.153Z"
+  "lastUpdated": "2026-03-18T10:01:48.647Z"
 }

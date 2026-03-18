@@ -1,0 +1,37 @@
+{
+  "artist": "Laura Ramoso",
+  "tour": "The Calm Down Tour 2026",
+  "recordedDate": "2026-03-18",
+  "source": "Deadline (exclusive), CBC, Wikipedia, Boom Chicago, 3Olympia",
+  "status": "PRESALE TODAY — Wed Mar 18 10am local",
+  "genre": "Stand-Up Comedy / Character Comedy / Sketch",
+  "metrics": {
+    "socialFollowers": 3500000,
+    "previousTour": "Sit Up Straight — 60+ shows ALL SOLD OUT",
+    "edinburghFringe": "Sold out every night",
+    "sohoTheatre": "Sold out",
+    "openedFor": "Tina Fey & Amy Poehler (Restless Leg Tour)",
+    "management": "WME + 3 Arts Entertainment",
+    "producer": "Live Nation",
+    "jflNewFace": 2023
+  },
+  "presaleDate": "2026-03-18 10am local",
+  "onsaleDate": "2026-03-20 10am local",
+  "usShows": [
+    {"date":"2026-09-11","venue":"The Wilbur","city":"Boston, MA","capacity":1200},
+    {"date":"2026-09-13","venue":"Beacon Theatre","city":"New York, NY","capacity":2900},
+    {"date":"2026-09-15","venue":"Warner Theatre","city":"Washington, DC","capacity":1800},
+    {"date":"2026-09-25","venue":"The Chicago Theatre","city":"Chicago, IL","capacity":3600},
+    {"date":"2026-09-26","venue":"Pantages Theatre","city":"Minneapolis, MN","capacity":1000},
+    {"date":"2026-10-08","venue":"Paramount Theatre","city":"Denver, CO","capacity":1900},
+    {"date":"2026-10-09","venue":"Kingsbury Hall","city":"Salt Lake City, UT","capacity":1900},
+    {"date":"2026-10-16","venue":"The Masonic","city":"San Francisco, CA","capacity":3300},
+    {"date":"2026-10-17","venue":"The Orpheum Theatre","city":"Los Angeles, CA","capacity":2000},
+    {"date":"2026-10-22","venue":"Arlene Schnitzer Concert Hall","city":"Portland, OR","capacity":2800},
+    {"date":"2026-10-24","venue":"5th Avenue Theatre","city":"Seattle, WA","capacity":2100},
+    {"date":"2026-11-11","venue":"The Met Philadelphia","city":"Philadelphia, PA","capacity":3500},
+    {"date":"2026-11-13","venue":"Danforth Music Hall","city":"Toronto, ON","capacity":1500}
+  ],
+  "brokerTargets": ["Minneapolis Pantages (1K cap — smallest)", "Boston Wilbur (1.2K, opening night)", "NYC Beacon", "Toronto Danforth (hometown closer)"],
+  "pattern": "Viral social comedian → sold-out theaters → scaling up. Same trajectory as Nate Bargatze and Matt Rife."
+}

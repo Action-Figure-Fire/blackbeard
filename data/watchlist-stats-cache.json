@@ -2217,13 +2217,13 @@
     ]
   },
   "treaty oak revival": {
-    "monthlyListeners": 7700000,
+    "monthlyListeners": null,
     "spotifyFollowers": 879273,
-    "instagramFollowers": null,
+    "instagramFollowers": 682000,
     "tiktokFollowers": null,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
-    "albumCount": null,
+    "albumCount": 4,
     "genres": [],
     "soldOutMentions": 1,
     "soldOutSnippets": [
@@ -2235,66 +2235,298 @@
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/3444S3C4U9Ts86BnCtSPRV",
-    "_cachedAt": "2026-03-06T16:38:50.838Z"
+    "_cachedAt": "2026-03-18T10:00:07.504Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Treaty Oak Revival with William Clark Green",
+        "date": "2026-03-26",
+        "venue": "First Horizon Coliseum",
+        "city": "Greensboro, NC",
+        "capacity": 23500,
+        "score": 0.6917344922,
+        "url": "https://seatgeek.com/treaty-oak-revival-tickets/greensboro-north-carolina-first-horizon-coliseum-2026-03-26-7-pm/concert/17945117"
+      },
+      {
+        "title": "Treaty Oak Revival with William Clark Green",
+        "date": "2026-03-27",
+        "venue": "Thompson-Boling Arena at Food City Center",
+        "city": "Knoxville, TN",
+        "capacity": 21000,
+        "score": 0.6555962316,
+        "url": "https://seatgeek.com/treaty-oak-revival-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2026-03-27-7-pm/concert/17945118"
+      },
+      {
+        "title": "Cattle Country Music Festival - (3 Day Pass) with Koe Wetzel, Treaty Oak Revival, Randy Houser, and more",
+        "date": "2026-04-10",
+        "venue": "The Boot",
+        "city": "Gonzales, TX",
+        "capacity": 0,
+        "score": 0.407728045,
+        "url": "https://seatgeek.com/cattle-country-music-festival-tickets/gonzales-texas-the-boot-3-2026-04-10-3-30-am/music-festival/17923143"
+      },
+      {
+        "title": "Treaty Oak Revival with William Clark Green",
+        "date": "2026-04-27",
+        "venue": "Golden 1 Center",
+        "city": "Sacramento, CA",
+        "capacity": 0,
+        "score": 0.6064384116,
+        "url": "https://seatgeek.com/treaty-oak-revival-tickets/sacramento-california-golden-1-center-2026-04-26-7-pm/concert/17945121"
+      },
+      {
+        "title": "Treaty Oak Revival with William Clark Green",
+        "date": "2026-05-01",
+        "venue": "WaMu Theater",
+        "city": "Seattle, WA",
+        "capacity": 0,
+        "score": 0.5243150807,
+        "url": "https://seatgeek.com/treaty-oak-revival-tickets/seattle-washington-wamu-theater-2026-04-30-7-pm/concert/17945122"
+      },
+      {
+        "title": "Treaty Oak Revival with William Clark Green",
+        "date": "2026-05-02",
+        "venue": "Numerica Veterans Arena",
+        "city": "Spokane, WA",
+        "capacity": 12638,
+        "score": 0.5802440669,
+        "url": "https://seatgeek.com/treaty-oak-revival-tickets/spokane-washington-numerica-veterans-arena-2026-05-01-7-pm/concert/17945124"
+      },
+      {
+        "title": "Treaty Oak Revival with William Clark Green",
+        "date": "2026-05-03",
+        "venue": "Veterans Memorial Coliseum",
+        "city": "Portland, OR",
+        "capacity": 13000,
+        "score": 0.6067653353,
+        "url": "https://seatgeek.com/treaty-oak-revival-tickets/portland-oregon-veterans-memorial-coliseum-2-2026-05-02-7-pm/concert/17945125"
+      },
+      {
+        "title": "Treaty Oak Revival with William Clark Green",
+        "date": "2026-05-15",
+        "venue": "BankPlus Amphitheater at Snowden Grove",
+        "city": "Southaven, MS",
+        "capacity": 0,
+        "score": 0.5222258075,
+        "url": "https://seatgeek.com/treaty-oak-revival-tickets/southaven-mississippi-bankplus-amphitheater-at-snowden-grove-2026-05-14-7-pm/concert/17945129"
+      }
+    ]
   },
   "mt. joy": {
-    "monthlyListeners": 20000,
-    "spotifyFollowers": null,
-    "instagramFollowers": null,
-    "tiktokFollowers": 100000,
+    "monthlyListeners": 0,
+    "spotifyFollowers": 2800000,
+    "instagramFollowers": 425000,
+    "tiktokFollowers": 39800,
     "twitterFollowers": null,
-    "youtubeSubscribers": null,
-    "albumCount": null,
+    "youtubeSubscribers": 39800,
+    "albumCount": 5,
     "genres": [],
-    "soldOutMentions": 2,
+    "soldOutMentions": 1,
     "soldOutSnippets": [
       {
         "title": "Mt. Joy Tour 2026 | Tour Dates for Concerts!",
         "snippet": "Experience Mt. Joy live in 2026! Official tour dates with best prices. Buy tickets early before they sell out – exclusive deals inside!",
         "url": "https://mtjoyconcerts.com/"
-      },
-      {
-        "title": "Mt. Joy Announce Spring 2026 North American Tour Dates - mxdwn Music",
-        "snippet": "Joy has announced a new North American tour for 2026. The tour follows a massive run that saw the band sell nearly 200,000 tickets across the U.S., in",
-        "url": "https://music.mxdwn.com/2025/11/11/news/mt-joy-announce-spring-2026-north-american-tour-dates/"
       }
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/69tiO1fG8VWduDl3ji2qhI",
-    "_cachedAt": "2026-03-06T16:38:52.880Z"
+    "_cachedAt": "2026-03-18T10:00:10.480Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Mt. Joy",
+        "date": "2026-04-10",
+        "venue": "Hard Rock Live - Hollywood",
+        "city": "Hollywood, FL",
+        "capacity": 0,
+        "score": 0.4875599819,
+        "url": "https://seatgeek.com/mt-joy-tickets/hollywood-florida-hard-rock-live-hollywood-2026-04-09-8-pm/concert/17898586"
+      },
+      {
+        "title": "Mt. Joy",
+        "date": "2026-04-11",
+        "venue": "St. Augustine Amphitheatre",
+        "city": "Saint Augustine, FL",
+        "capacity": 3493,
+        "score": 0.5417850321,
+        "url": "https://seatgeek.com/mt-joy-tickets/saint-augustine-florida-st-augustine-amphitheatre-2026-04-11-7-30-pm/concert/17899546"
+      },
+      {
+        "title": "Mt. Joy",
+        "date": "2026-04-15",
+        "venue": "Coca-Cola Amphitheater",
+        "city": "Birmingham, AL",
+        "capacity": 0,
+        "score": 0.4410611064,
+        "url": "https://seatgeek.com/mt-joy-tickets/birmingham-alabama-coca-cola-amphitheater-2026-04-14-8-pm/concert/17899295"
+      },
+      {
+        "title": "Mt. Joy",
+        "date": "2026-04-17",
+        "venue": "Live Oak Bank Pavilion",
+        "city": "Wilmington, NC",
+        "capacity": 0,
+        "score": 0.453477305,
+        "url": "https://seatgeek.com/mt-joy-tickets/wilmington-north-carolina-live-oak-bank-pavilion-2026-04-16-8-pm/concert/17898818"
+      },
+      {
+        "title": "Mt. Joy",
+        "date": "2026-04-18",
+        "venue": "Truliant Amphitheater",
+        "city": "Charlotte, NC",
+        "capacity": 19500,
+        "score": 0.4926075355,
+        "url": "https://seatgeek.com/mt-joy-tickets/charlotte-north-carolina-truliant-amphitheater-2026-04-17-8-pm/concert/17896991"
+      },
+      {
+        "title": "Mt. Joy",
+        "date": "2026-04-19",
+        "venue": "Synovus Bank Amphitheatre at Chastain Park",
+        "city": "Atlanta, GA",
+        "capacity": 0,
+        "score": 0.5258836148,
+        "url": "https://seatgeek.com/mt-joy-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-04-18-8-pm/concert/17897050"
+      },
+      {
+        "title": "Mt. Joy",
+        "date": "2026-04-22",
+        "venue": "Starlight Theatre",
+        "city": "Kansas City, MO",
+        "capacity": 7947,
+        "score": 0.4659616835,
+        "url": "https://seatgeek.com/mt-joy-tickets/kansas-city-missouri-starlight-theatre-2026-04-21-7-pm/concert/17897106"
+      },
+      {
+        "title": "Mt. Joy",
+        "date": "2026-04-24",
+        "venue": "Champions Square",
+        "city": "New Orleans, LA",
+        "capacity": 0,
+        "score": 0.4683575473,
+        "url": "https://seatgeek.com/mt-joy-tickets/new-orleans-louisiana-champions-square-2026-04-23-8-pm/concert/17898147"
+      }
+    ]
   },
   "goose": {
-    "monthlyListeners": 540,
-    "spotifyFollowers": 12600,
+    "monthlyListeners": 79,
+    "spotifyFollowers": null,
     "instagramFollowers": null,
-    "tiktokFollowers": null,
+    "tiktokFollowers": 3600000,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
-    "albumCount": null,
+    "albumCount": 9,
     "genres": [],
     "soldOutMentions": 0,
     "soldOutSnippets": [],
     "topSong": null,
-    "spotifyUrl": null,
-    "_cachedAt": "2026-03-06T16:38:54.728Z"
+    "spotifyUrl": "https://open.spotify.com/artist/5tkITWzssc9z9hu7ZEOCXz",
+    "_cachedAt": "2026-03-18T10:00:19.462Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Magnolia Park with Silly Goose",
+        "date": "2026-04-06",
+        "venue": "Black Sheep",
+        "city": "Colorado Springs, CO",
+        "capacity": 0,
+        "score": 0.3140412213,
+        "url": "https://seatgeek.com/magnolia-park-tickets/colorado-springs-colorado-black-sheep-2026-04-05-7-30-pm/concert/17914144"
+      },
+      {
+        "title": "Goose",
+        "date": "2026-04-10",
+        "venue": "Harrah's Cherokee Center - Asheville",
+        "city": "Asheville, NC",
+        "capacity": 7654,
+        "score": 0.534159855,
+        "url": "https://seatgeek.com/goose-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2026-04-10-7-pm/concert/17895513"
+      },
+      {
+        "title": "Goose",
+        "date": "2026-04-11",
+        "venue": "Coca-Cola Amphitheater",
+        "city": "Birmingham, AL",
+        "capacity": 0,
+        "score": 0.4822245588,
+        "url": "https://seatgeek.com/goose-tickets/birmingham-alabama-coca-cola-amphitheater-2026-04-11-6-pm/concert/17895516"
+      },
+      {
+        "title": "Magnolia Park with Silly Goose",
+        "date": "2026-04-12",
+        "venue": "Majestic Theatre - WI",
+        "city": "Madison, WI",
+        "capacity": 0,
+        "score": 0.2396897351,
+        "url": "https://seatgeek.com/magnolia-park-tickets/madison-wisconsin-majestic-theatre-wi-2026-04-11-8-pm/concert/17914386"
+      },
+      {
+        "title": "2 Day Pass: An Evening with Goose",
+        "date": "2026-04-14",
+        "venue": "FTL War Memorial Auditorium",
+        "city": "Fort Lauderdale, FL",
+        "capacity": 0,
+        "score": 0.5181454939,
+        "url": "https://seatgeek.com/goose-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-04-14-7-30-pm/concert/17900754"
+      },
+      {
+        "title": "An Evening With Goose",
+        "date": "2026-04-14",
+        "venue": "FTL War Memorial Auditorium",
+        "city": "Fort Lauderdale, FL",
+        "capacity": 0,
+        "score": 0.6099953187,
+        "url": "https://seatgeek.com/goose-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-04-14-7-30-pm/concert/17900755"
+      },
+      {
+        "title": "An Evening With Goose",
+        "date": "2026-04-15",
+        "venue": "FTL War Memorial Auditorium",
+        "city": "Fort Lauderdale, FL",
+        "capacity": 0,
+        "score": 0.6057368322,
+        "url": "https://seatgeek.com/goose-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-04-15-7-30-pm/concert/17900756"
+      },
+      {
+        "title": "Magnolia Park with Silly Goose",
+        "date": "2026-04-16",
+        "venue": "Le Studio TD",
+        "city": "Montreal, QC",
+        "capacity": 0,
+        "score": 0.1617108771,
+        "url": "https://seatgeek.com/magnolia-park-tickets/montreal-canada-le-studio-td-2026-04-15-8-pm/concert/17915043"
+      }
+    ]
   },
   "jon bellion": {
-    "monthlyListeners": null,
+    "monthlyListeners": 13,
     "spotifyFollowers": 1500000,
     "instagramFollowers": null,
     "tiktokFollowers": null,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
-    "albumCount": null,
+    "albumCount": 9,
     "genres": [],
     "soldOutMentions": 0,
     "soldOutSnippets": [],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/50JJSqHUf2RQ9xsHs0KMHg",
-    "_cachedAt": "2026-03-06T16:38:56.661Z"
+    "_cachedAt": "2026-03-18T10:00:22.213Z",
+    "_upcomingShows": 1,
+    "_tourDates": [
+      {
+        "title": "Jon Bellion",
+        "date": "2026-06-12",
+        "venue": "Red Rocks Amphitheatre",
+        "city": "Morrison, CO",
+        "capacity": 9450,
+        "score": 0.6116766635,
+        "url": "https://seatgeek.com/jon-bellion-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-11-7-pm/concert/18089843"
+      }
+    ]
   },
   "lord huron": {
-    "monthlyListeners": null,
+    "monthlyListeners": 12500000,
     "spotifyFollowers": 2300000,
     "instagramFollowers": null,
     "tiktokFollowers": null,
@@ -2302,23 +2534,92 @@
     "youtubeSubscribers": null,
     "albumCount": null,
     "genres": [],
-    "soldOutMentions": 1,
-    "soldOutSnippets": [
-      {
-        "title": "Lord Huron 2025 Tour Dates, Tickets, and Presale Codes | TickPick",
-        "snippet": "These newly announced dates come after the first leg of Lord Huron’s tour selling out multiple shows. Now, we anticipate these summer tour dates to se",
-        "url": "https://www.tickpick.com/blog/lord-huron-2025-tour-dates-tickets-and-presale-codes/"
-      }
-    ],
+    "soldOutMentions": 0,
+    "soldOutSnippets": [],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/6ltzsmQQbmdoHHbLZ4ZN25",
-    "_cachedAt": "2026-03-06T16:38:58.711Z"
+    "_cachedAt": "2026-03-18T10:00:25.441Z",
+    "_upcomingShows": 23,
+    "_tourDates": [
+      {
+        "title": "Riverbeat Music Festival - Friday Pass - with The Red Clay Strays, Lord Huron, Salt-N-Pepa and more",
+        "date": "2026-05-01",
+        "venue": "Tom Lee Park",
+        "city": "Memphis, TN",
+        "capacity": 0,
+        "score": 0.3547840561,
+        "url": "https://seatgeek.com/riverbeat-music-festival-tickets/memphis-tennessee-tom-lee-park-2026-05-01-2-pm/music-festival/18084152"
+      },
+      {
+        "title": "Lord Huron",
+        "date": "2026-06-03",
+        "venue": "Santa Barbara Bowl",
+        "city": "Santa Barbara, CA",
+        "capacity": 4562,
+        "score": 0.488240195,
+        "url": "https://seatgeek.com/lord-huron-tickets/santa-barbara-california-santa-barbara-bowl-2026-06-02-7-pm/concert/18020078"
+      },
+      {
+        "title": "Lord Huron",
+        "date": "2026-06-05",
+        "venue": "Hayden Homes Amphitheater",
+        "city": "Bend, OR",
+        "capacity": 5000,
+        "score": 0.3432037389,
+        "url": "https://seatgeek.com/lord-huron-tickets/bend-oregon-hayden-homes-amphitheater-2026-06-04-5-30-pm/concert/18074117"
+      },
+      {
+        "title": "Lord Huron",
+        "date": "2026-06-05",
+        "venue": "Hayden Homes Amphitheater",
+        "city": "Bend, OR",
+        "capacity": 5000,
+        "score": 0.4455868594,
+        "url": "https://seatgeek.com/lord-huron-tickets/bend-oregon-hayden-homes-amphitheater-2026-06-04-7-pm/concert/18022213"
+      },
+      {
+        "title": "Lord Huron",
+        "date": "2026-06-07",
+        "venue": "KettleHouse Amphitheater",
+        "city": "Bonner, MT",
+        "capacity": 0,
+        "score": 0.4199329504,
+        "url": "https://seatgeek.com/lord-huron-tickets/bonner-montana-kettlehouse-amphitheater-2026-06-06-8-30-pm/concert/18023967"
+      },
+      {
+        "title": "Lord Huron",
+        "date": "2026-06-08",
+        "venue": "KettleHouse Amphitheater",
+        "city": "Bonner, MT",
+        "capacity": 0,
+        "score": 0.3251385576,
+        "url": "https://seatgeek.com/lord-huron-tickets/bonner-montana-kettlehouse-amphitheater-2026-06-07-8-30-pm/concert/18023968"
+      },
+      {
+        "title": "Lord Huron",
+        "date": "2026-06-10",
+        "venue": "The Lincoln",
+        "city": "Cheyenne, WY",
+        "capacity": 0,
+        "score": 0.3908614474,
+        "url": "https://seatgeek.com/lord-huron-tickets/cheyenne-wyoming-the-lincoln-1-2026-06-09-8-pm/concert/18022214"
+      },
+      {
+        "title": "Lord Huron",
+        "date": "2026-06-11",
+        "venue": "Red Rocks Amphitheatre",
+        "city": "Morrison, CO",
+        "capacity": 9450,
+        "score": 0.5847382117,
+        "url": "https://seatgeek.com/lord-huron-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-10-6-pm/concert/17947908"
+      }
+    ]
   },
   "alex warren": {
-    "monthlyListeners": 54000000,
+    "monthlyListeners": 51000000,
     "spotifyFollowers": 3800000,
     "instagramFollowers": null,
-    "tiktokFollowers": 18800000,
+    "tiktokFollowers": null,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
     "albumCount": null,
@@ -2331,35 +2632,110 @@
         "url": "https://www.alexwarrentour.net/"
       },
       {
+        "title": "Alex Warren Returns to Australia and New Zealand for Seven-Date Arena Run",
+        "snippet": "The California singer-songwriter has announced a seven-date arena tour across both countries in <strong>August and September 2026</strong>, returning ",
+        "url": "https://www.billboard.com/music/concerts/alex-warren-2026-australia-new-zealand-arena-tour-1236199974/"
+      },
+      {
+        "title": "Alex Warren Returning to Australia and New Zealand for 2026 World Tour",
+        "snippet": "Following an 8-date sold-out Australia and New Zealand tour in August 2025, Warren will return this <strong>August and September</strong>, performing ",
+        "url": "https://www.broadwayworld.com/australia-melbourne/article/Alex-Warren-Returning-to-Australia-and-New-Zealand-for-2026-World-Tour-20260316"
+      },
+      {
         "title": "Alex Warren | MCD.ie",
         "snippet": "These shows add on to Alex Warren’s run of sold-out performances throughout the past year across the globe. Most recently, Warren delivered an electri",
         "url": "https://www.mcd.ie/artists/alex-warren"
-      },
-      {
-        "title": "SOLD OUT: Alex Warren: Cheaper Than Therapy Tour – Tuesday, October 14, 2025",
-        "snippet": "SOLD OUT: Alex Warren: Cheaper Than Therapy Tour with Alex Warren, Maude Latour – <strong>Tuesday, October 14, 2025</strong> at The Andrew J Brady Mus",
-        "url": "https://bradymusiccenter.com/events/2025/10/sold-out-alex-warren-cheaper-than-therapy-tour"
-      },
-      {
-        "title": "Alex Warren Unveils Dates For 2026 European Arena Tour - Pollstar News",
-        "snippet": "He recently headlined a sold-out show at Alexandra Palace in London with Noah Cyrus and Medium Build also on the bill. The <strong>July 16</strong> co",
-        "url": "https://news.pollstar.com/2025/09/18/alex-warren-unveils-dates-for-2026-european-arena-tour/"
       }
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/0fTSzq9jAh4c36UVb4V7CB",
-    "_cachedAt": "2026-03-06T16:39:00.665Z"
+    "_cachedAt": "2026-03-18T10:00:31.171Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Alex Warren",
+        "date": "2026-05-26",
+        "venue": "Bridgestone Arena",
+        "city": "Nashville, TN",
+        "capacity": 0,
+        "score": 0.5689099953,
+        "url": "https://seatgeek.com/alex-warren-tickets/nashville-tennessee-bridgestone-arena-2026-05-25-7-30-pm/concert/17906963"
+      },
+      {
+        "title": "Alex Warren",
+        "date": "2026-05-28",
+        "venue": "Toyota Center",
+        "city": "Houston, TX",
+        "capacity": 19300,
+        "score": 0.5270632955,
+        "url": "https://seatgeek.com/alex-warren-tickets/houston-texas-toyota-center-2026-05-27-7-30-pm/concert/17906964"
+      },
+      {
+        "title": "Alex Warren",
+        "date": "2026-05-30",
+        "venue": "Dickies Arena",
+        "city": "Fort Worth, TX",
+        "capacity": 0,
+        "score": 0.5846064723,
+        "url": "https://seatgeek.com/alex-warren-tickets/fort-worth-texas-dickies-arena-2026-05-29-7-30-pm/concert/17906966"
+      },
+      {
+        "title": "Alex Warren",
+        "date": "2026-05-31",
+        "venue": "Moody Center ATX",
+        "city": "Austin, TX",
+        "capacity": 0,
+        "score": 0.550892297,
+        "url": "https://seatgeek.com/alex-warren-tickets/austin-texas-moody-center-atx-2026-05-30-7-30-pm/concert/17906965"
+      },
+      {
+        "title": "Alex Warren",
+        "date": "2026-06-03",
+        "venue": "Red Rocks Amphitheatre",
+        "city": "Morrison, CO",
+        "capacity": 9450,
+        "score": 0.5785718156,
+        "url": "https://seatgeek.com/alex-warren-tickets/morrison-colorado-red-rocks-amphitheatre-2026-06-02-7-30-pm/concert/17906967"
+      },
+      {
+        "title": "Alex Warren",
+        "date": "2026-06-04",
+        "venue": "Ford Amphitheater - Colorado Springs",
+        "city": "Colorado Springs, CO",
+        "capacity": 0,
+        "score": 0.5234151206,
+        "url": "https://seatgeek.com/alex-warren-tickets/colorado-springs-colorado-ford-amphitheater-colorado-springs-2026-06-03-6-pm/concert/18108018"
+      },
+      {
+        "title": "Alex Warren",
+        "date": "2026-06-06",
+        "venue": "Mortgage Matchup Center",
+        "city": "Phoenix, AZ",
+        "capacity": 18422,
+        "score": 0.573999939,
+        "url": "https://seatgeek.com/alex-warren-tickets/phoenix-arizona-mortgage-matchup-center-2026-06-05-7-30-pm/concert/17906962"
+      },
+      {
+        "title": "Alex Warren",
+        "date": "2026-06-07",
+        "venue": "Crypto.com Arena",
+        "city": "Los Angeles, CA",
+        "capacity": 20000,
+        "score": 0.5339831145,
+        "url": "https://seatgeek.com/alex-warren-tickets/los-angeles-california-crypto-com-arena-2026-06-06-7-30-pm/concert/17906974"
+      }
+    ]
   },
   "hilary duff": {
-    "monthlyListeners": null,
-    "spotifyFollowers": null,
+    "monthlyListeners": 313,
+    "spotifyFollowers": 2270934,
     "instagramFollowers": null,
     "tiktokFollowers": null,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
     "albumCount": null,
     "genres": [],
-    "soldOutMentions": 4,
+    "soldOutMentions": 3,
     "soldOutSnippets": [
       {
         "title": "Hilary Duff Officially Announces “the lucky me tour” - Live Nation Newsroom",
@@ -2375,16 +2751,86 @@
         "title": "Here's How You Can Still Get Tickets to Hilary Duff's Sold-Out 2026 Comeback Tour",
         "snippet": "Hilary Duff’s lucky me tour tickets are on sale now, with many shows selling out or close to it.",
         "url": "https://www.vice.com/en/article/hilary-duff-how-to-get-tickets-2026-tour/"
-      },
-      {
-        "title": "Hilary Duff just added a 2nd MSG show after selling out the first night. Here’s how to get tickets",
-        "snippet": "I truly feel so lucky to be able to be onstage again in front of all of you beautiful people. I can’t wait! See you on the lucky me tour,” Duff shared",
-        "url": "https://www.nj.com/shopping-deals/2026/02/hilary-duff-just-added-a-2nd-msg-show-after-selling-out-the-first-night-heres-how-to-get-tickets.html"
       }
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/2S9W9aSAd7e5mp8WqWxN2h",
-    "_cachedAt": "2026-03-06T16:39:02.601Z"
+    "_cachedAt": "2026-03-18T10:00:34.014Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Hilary Duff",
+        "date": "2026-05-23",
+        "venue": "Voltaire at the Venetian Las Vegas",
+        "city": "Las Vegas, NV",
+        "capacity": 0,
+        "score": 0.4941707268,
+        "url": "https://seatgeek.com/hilary-duff-tickets/las-vegas-nevada-voltaire-at-the-venetian-las-vegas-2026-05-22-9-pm/concert/18024509"
+      },
+      {
+        "title": "Hilary Duff",
+        "date": "2026-05-24",
+        "venue": "Voltaire at the Venetian Las Vegas",
+        "city": "Las Vegas, NV",
+        "capacity": 0,
+        "score": 0.456342181,
+        "url": "https://seatgeek.com/hilary-duff-tickets/las-vegas-nevada-voltaire-at-the-venetian-las-vegas-2026-05-23-9-pm/concert/18024511"
+      },
+      {
+        "title": "Hilary Duff",
+        "date": "2026-05-25",
+        "venue": "Voltaire at the Venetian Las Vegas",
+        "city": "Las Vegas, NV",
+        "capacity": 0,
+        "score": 0.4882929823,
+        "url": "https://seatgeek.com/hilary-duff-tickets/las-vegas-nevada-voltaire-at-the-venetian-las-vegas-2026-05-24-9-pm/concert/18024510"
+      },
+      {
+        "title": "Hilary Duff with Jade LeMac",
+        "date": "2026-06-21",
+        "venue": "iTHINK Financial Amphitheatre",
+        "city": "West Palm Beach, FL",
+        "capacity": 19000,
+        "score": 0.5926169745,
+        "url": "https://seatgeek.com/hilary-duff-tickets/west-palm-beach-florida-ithink-financial-amphitheatre-2026-06-21-7-pm/concert/18082684"
+      },
+      {
+        "title": "Hilary Duff with Jade LeMac",
+        "date": "2026-06-22",
+        "venue": "iTHINK Financial Amphitheatre",
+        "city": "West Palm Beach, FL",
+        "capacity": 19000,
+        "score": 0.5134898513,
+        "url": "https://seatgeek.com/hilary-duff-tickets/west-palm-beach-florida-ithink-financial-amphitheatre-2026-06-22-7-pm/concert/18070221"
+      },
+      {
+        "title": "Hilary Duff with Jade LeMac",
+        "date": "2026-06-23",
+        "venue": "MidFlorida Credit Union Amphitheatre",
+        "city": "Tampa, FL",
+        "capacity": 0,
+        "score": 0.5382279599,
+        "url": "https://seatgeek.com/hilary-duff-tickets/tampa-florida-midflorida-credit-union-amphitheatre-2026-06-23-7-pm/concert/18070220"
+      },
+      {
+        "title": "Hilary Duff with La Roux and Jade LeMac",
+        "date": "2026-06-25",
+        "venue": "Ameris Bank Amphitheatre",
+        "city": "Alpharetta, GA",
+        "capacity": 0,
+        "score": 0.5842370051,
+        "url": "https://seatgeek.com/hilary-duff-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2026-06-25-7-pm/concert/18070218"
+      },
+      {
+        "title": "Hilary Duff with La Roux and Jade LeMac",
+        "date": "2026-06-28",
+        "venue": "The Cynthia Woods Mitchell Pavilion presented by Huntsman",
+        "city": "The Woodlands, TX",
+        "capacity": 17000,
+        "score": 0.6105521687,
+        "url": "https://seatgeek.com/hilary-duff-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2026-06-27-7-pm/concert/18070219"
+      }
+    ]
   },
   "michael blaustein": {
     "monthlyListeners": null,
@@ -2602,10 +3048,10 @@
     "_cachedAt": "2026-03-06T16:39:23.705Z"
   },
   "ethel cain": {
-    "monthlyListeners": 3300000,
+    "monthlyListeners": 2800000,
     "spotifyFollowers": 1200000,
     "instagramFollowers": null,
-    "tiktokFollowers": 500000,
+    "tiktokFollowers": null,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
     "albumCount": null,
@@ -2628,9 +3074,9 @@
         "url": "https://www.ethelcaintour.org/"
       },
       {
-        "title": "Ethel Cain Tickets & 2025-2026 Concert Tour Dates - SeatGeek",
-        "snippet": "Amid the U.K. and Europe leg of her completely sold-out tour, Ethel Cain has added a 2026 North American leg. The new shows include <strong>two hometo",
-        "url": "https://seatgeek.ca/ethel-cain-tickets"
+        "title": "Ethel Cain | Concert Dates & Tickets | Frontier Touring",
+        "snippet": "Frontier Touring and Penny Drop are thrilled to announce Ethel Cain is extending her sold-out <strong>Willoughby Tucker Forever tour to Australia and ",
+        "url": "https://www.frontiertouring.com/ethelcain"
       },
       {
         "title": "Ethel Cain Tour | Get Tickets & See Concert Dates! - Ethel Сain Tour",
@@ -2638,50 +3084,286 @@
         "url": "https://www.ethelcaintour.org/tour"
       },
       {
-        "title": "Ethel Cain Tickets, Concerts & 2025 Tour Dates",
-        "snippet": "Tickets to Ethel Cain shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets",
-        "url": "https://www.eventticketscenter.com/ethel-cain-tickets/14472/c"
+        "title": "Ethel Cain Tickets & 2026 Concert Tour Dates | SeatGeek.ca",
+        "snippet": "Amid the U.K. and Europe leg of her completely sold-out tour, Ethel Cain has added a 2026 North American leg. The new shows include <strong>two hometo",
+        "url": "https://seatgeek.ca/ethel-cain-tickets"
       }
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/0avMDS4HyoCEP6RqZJWpY2",
-    "_cachedAt": "2026-03-06T16:39:31.790Z"
+    "_cachedAt": "2026-03-18T10:00:13.318Z",
+    "_upcomingShows": 20,
+    "_tourDates": [
+      {
+        "title": "Ethel Cain",
+        "date": "2026-04-15",
+        "venue": "The Rady Shell at Jacobs Park",
+        "city": "San Diego, CA",
+        "capacity": 0,
+        "score": 0.4011445876,
+        "url": "https://seatgeek.com/ethel-cain-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2026-04-14-7-pm/concert/18081820"
+      },
+      {
+        "title": "Ethel Cain with 9million",
+        "date": "2026-04-16",
+        "venue": "The Theater at Virgin Hotels",
+        "city": "Las Vegas, NV",
+        "capacity": 0,
+        "score": 0.3845901812,
+        "url": "https://seatgeek.com/ethel-cain-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2026-04-15-8-pm/concert/17808029"
+      },
+      {
+        "title": "Ethel Cain with 9million",
+        "date": "2026-04-20",
+        "venue": "The Great Saltair",
+        "city": "Magna, UT",
+        "capacity": 0,
+        "score": 0.474846379,
+        "url": "https://seatgeek.com/ethel-cain-tickets/magna-utah-the-great-saltair-2026-04-19-7-pm/concert/17808031"
+      },
+      {
+        "title": "Ethel Cain with 9Million",
+        "date": "2026-04-22",
+        "venue": "Red Rocks Amphitheatre",
+        "city": "Morrison, CO",
+        "capacity": 9450,
+        "score": 0.5305029588,
+        "url": "https://seatgeek.com/ethel-cain-tickets/morrison-colorado-red-rocks-amphitheatre-2026-04-21-7-pm/concert/17808027"
+      },
+      {
+        "title": "Ethel Cain with 9Million",
+        "date": "2026-04-24",
+        "venue": "The Astro Theater - La Vista",
+        "city": "La Vista, NE",
+        "capacity": 0,
+        "score": 0.3836795168,
+        "url": "https://seatgeek.com/ethel-cain-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-04-23-7-pm/concert/17805467"
+      },
+      {
+        "title": "Ethel Cain",
+        "date": "2026-04-25",
+        "venue": "Miller High Life Theatre",
+        "city": "Milwaukee, WI",
+        "capacity": 4100,
+        "score": 0.4910549913,
+        "url": "https://seatgeek.com/ethel-cain-tickets/milwaukee-wisconsin-miller-high-life-theatre-2026-04-24-8-pm/concert/17812388"
+      },
+      {
+        "title": "Ethel Cain with 9Million",
+        "date": "2026-04-26",
+        "venue": "MegaCorp Pavilion",
+        "city": "Newport, KY",
+        "capacity": 0,
+        "score": 0.4802212726,
+        "url": "https://seatgeek.com/ethel-cain-tickets/newport-kentucky-megacorp-pavilion-2026-04-25-8-pm/concert/17808034"
+      },
+      {
+        "title": "Ethel Cain with 9Million",
+        "date": "2026-04-29",
+        "venue": "The Factory STL",
+        "city": "Chesterfield, MO",
+        "capacity": 0,
+        "score": 0.4048143319,
+        "url": "https://seatgeek.com/ethel-cain-tickets/chesterfield-missouri-the-factory-stl-2026-04-28-8-pm/concert/17805418"
+      }
+    ]
   },
   "electric callboy": {
     "monthlyListeners": 4000000,
     "spotifyFollowers": null,
-    "instagramFollowers": 1700000,
-    "tiktokFollowers": 1700000,
-    "twitterFollowers": null,
-    "youtubeSubscribers": null,
-    "albumCount": null,
-    "genres": [],
-    "soldOutMentions": 0,
-    "soldOutSnippets": [],
-    "topSong": null,
-    "spotifyUrl": "https://open.spotify.com/artist/1WNoKxsp715jez1Td4vthc",
-    "_cachedAt": "2026-03-06T16:39:33.942Z"
-  },
-  "amyl and the sniffers": {
-    "monthlyListeners": 1200000,
-    "spotifyFollowers": 500000,
     "instagramFollowers": null,
-    "tiktokFollowers": 119400,
+    "tiktokFollowers": null,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
-    "albumCount": null,
+    "albumCount": 1,
     "genres": [],
     "soldOutMentions": 1,
     "soldOutSnippets": [
       {
-        "title": "Amyl and the Sniffers 2026 Tour: See Dates, Get Tickets, and More",
-        "snippet": "Amyl and the Sniffers 2026 Tour tickets are on sale now via Ticketmaster. Fans can also find deals or secure tickets to sold-out dates through StubHub",
-        "url": "https://www.vice.com/en/article/amyl-and-the-sniffers-2026-tour-see-dates-get-tickets-and-more/"
+        "title": "Electric Callboy Tickets, Concerts & 2026 Tour Dates",
+        "snippet": "Tickets to Electric Callboy shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has t",
+        "url": "https://www.eventticketscenter.com/electric-callboy-tickets/12962/c"
+      }
+    ],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/1WNoKxsp715jez1Td4vthc",
+    "_cachedAt": "2026-03-18T10:00:16.625Z",
+    "_upcomingShows": 21,
+    "_tourDates": [
+      {
+        "title": "Electric Callboy with Polaris and Scene Queen",
+        "date": "2026-04-18",
+        "venue": "South Side Ballroom in Gilley's",
+        "city": "Dallas, TX",
+        "capacity": 3500,
+        "score": 0.5150159094,
+        "url": "https://seatgeek.com/electric-callboy-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2026-04-17-7-pm/concert/17846412"
+      },
+      {
+        "title": "Electric Callboy with Polaris and Scene Queen",
+        "date": "2026-04-20",
+        "venue": "Arizona Financial Theatre",
+        "city": "Phoenix, AZ",
+        "capacity": 0,
+        "score": 0.4938945067,
+        "url": "https://seatgeek.com/electric-callboy-tickets/phoenix-arizona-arizona-financial-theatre-2026-04-19-7-pm/concert/17846414"
+      },
+      {
+        "title": "Electric Callboy with Polaris and Scene Queen",
+        "date": "2026-04-22",
+        "venue": "Kia Forum",
+        "city": "Inglewood, CA",
+        "capacity": 18000,
+        "score": 0.3988920107,
+        "url": "https://seatgeek.com/electric-callboy-tickets/inglewood-california-kia-forum-2026-04-21-7-pm/concert/17846410"
+      },
+      {
+        "title": "Electric Callboy with Polaris and Scene Queen",
+        "date": "2026-04-23",
+        "venue": "The Masonic San Francisco",
+        "city": "San Francisco, CA",
+        "capacity": 0,
+        "score": 0.4448177624,
+        "url": "https://seatgeek.com/electric-callboy-tickets/san-francisco-california-the-masonic-san-francisco-2026-04-22-7-pm/concert/17846413"
+      },
+      {
+        "title": "Electric Callboy with Polaris and Scene Queen",
+        "date": "2026-04-25",
+        "venue": "Paramount Theatre - WA",
+        "city": "Seattle, WA",
+        "capacity": 3000,
+        "score": 0.4593484814,
+        "url": "https://seatgeek.com/electric-callboy-tickets/seattle-washington-paramount-theatre-wa-2026-04-24-7-pm/concert/17846411"
+      },
+      {
+        "title": "Electric Callboy with Polaris and Scene Queen",
+        "date": "2026-04-26",
+        "venue": "PNE Forum - Vancouver",
+        "city": "Vancouver, BC",
+        "capacity": 0,
+        "score": 0.2866778302,
+        "url": "https://seatgeek.com/electric-callboy-tickets/vancouver-canada-pne-forum-vancouver-2026-04-25-7-pm/concert/17846415"
+      },
+      {
+        "title": "Electric Callboy",
+        "date": "2026-04-27",
+        "venue": "MGM Music Hall at Fenway",
+        "city": "Boston, MA",
+        "capacity": 0,
+        "score": 0.3426708036,
+        "url": "https://seatgeek.com/electric-callboy-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-04-27-7-pm/concert/18065158"
+      },
+      {
+        "title": "Electric Callboy with Polaris and Scene Queen",
+        "date": "2026-04-29",
+        "venue": "The Union Event Center - Salt Lake City",
+        "city": "Salt Lake City, UT",
+        "capacity": 0,
+        "score": 0.4400425475,
+        "url": "https://seatgeek.com/electric-callboy-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-04-28-7-pm/concert/17846422"
+      }
+    ]
+  },
+  "amyl and the sniffers": {
+    "monthlyListeners": null,
+    "spotifyFollowers": null,
+    "instagramFollowers": 752000,
+    "tiktokFollowers": null,
+    "twitterFollowers": null,
+    "youtubeSubscribers": null,
+    "albumCount": 6,
+    "genres": [],
+    "soldOutMentions": 2,
+    "soldOutSnippets": [
+      {
+        "title": "Amyl And The Sniffers Tickets & Tour Dates 2025-2026",
+        "snippet": "300 views! Amyl and The Sniffers events are popular and were viewed 300 times. ... This event is selling fast! ... 2025 Leeds Festival - Weekend Pass ",
+        "url": "https://www.ticketsales.com/amyl-and-the-sniffers-tickets"
+      },
+      {
+        "title": "Amyl and The Sniffers Tickets - Concert Tour Dates - AXS US",
+        "snippet": "They are the main support for Fontaines DC’s 45,000 capacity Finsbury Park show in <strong>July 2025</strong> (already sold out) and have just announc",
+        "url": "https://www.axs.com/artists/1105281/amyl-and-the-sniffers-tickets"
       }
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/3NqV2DJoAWsjl787bWaHW7",
-    "_cachedAt": "2026-03-06T16:39:35.788Z"
+    "_cachedAt": "2026-03-18T10:00:28.323Z",
+    "_upcomingShows": 14,
+    "_tourDates": [
+      {
+        "title": "Amyl and the Sniffers",
+        "date": "2026-06-04",
+        "venue": "RBC Amphitheatre",
+        "city": "Toronto, ON",
+        "capacity": 16000,
+        "score": 0.2913339213,
+        "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/toronto-canada-rbc-amphitheatre-2026-06-04-7-pm/concert/17943612"
+      },
+      {
+        "title": "Amyl and the Sniffers",
+        "date": "2026-06-06",
+        "venue": "Place Bell",
+        "city": "Laval, QC",
+        "capacity": 0,
+        "score": 0.2216348131,
+        "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/laval-canada-place-bell-2026-06-05-8-pm/concert/17943616"
+      },
+      {
+        "title": "Amyl and the Sniffers",
+        "date": "2026-06-09",
+        "venue": "Skyline Stage at the Mann",
+        "city": "Philadelphia, PA",
+        "capacity": 0,
+        "score": 0.3013126852,
+        "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/philadelphia-pennsylvania-skyline-stage-at-the-mann-2026-06-08-8-pm/concert/17943598"
+      },
+      {
+        "title": "Amyl and the Sniffers",
+        "date": "2026-06-10",
+        "venue": "MGM Music Hall at Fenway",
+        "city": "Boston, MA",
+        "capacity": 0,
+        "score": 0.4066290544,
+        "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-06-09-8-pm/concert/17943600"
+      },
+      {
+        "title": "Amyl and the Sniffers",
+        "date": "2026-06-11",
+        "venue": "The Anthem - DC",
+        "city": "Washington, DC",
+        "capacity": 0,
+        "score": 0.2743735242,
+        "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/washington-district-of-columbia-the-anthem-dc-2026-06-10-8-pm/concert/17943602"
+      },
+      {
+        "title": "Amyl and the Sniffers",
+        "date": "2026-06-13",
+        "venue": "The Factory STL",
+        "city": "Chesterfield, MO",
+        "capacity": 0,
+        "score": 0.2059808305,
+        "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/chesterfield-missouri-the-factory-stl-2026-06-12-8-pm/concert/17943604"
+      },
+      {
+        "title": "Amyl and the Sniffers",
+        "date": "2026-06-15",
+        "venue": "The Salt Shed - Outdoors",
+        "city": "Chicago, IL",
+        "capacity": 0,
+        "score": 0.3038913358,
+        "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/chicago-illinois-the-salt-shed-outdoors-2026-06-14-7-pm/concert/17943606"
+      },
+      {
+        "title": "Amyl and the Sniffers",
+        "date": "2026-06-17",
+        "venue": "The Astro Theater - La Vista",
+        "city": "La Vista, NE",
+        "capacity": 0,
+        "score": 0.1794062385,
+        "url": "https://seatgeek.com/amyl-and-the-sniffers-tickets/la-vista-nebraska-the-astro-theater-la-vista-2026-06-16-8-pm/concert/17944733"
+      }
+    ]
   },
   "gianmarco soresi": {
     "monthlyListeners": 5000,
