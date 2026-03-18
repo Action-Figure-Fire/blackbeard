@@ -1,4 +1,18 @@
 {
-  "timestamp": "2026-03-18T12:02:37.869Z",
-  "alerts": []
+  "timestamp": "2026-03-18T16:01:21.666Z",
+  "alerts": [
+    {
+      "subject": "Just announced: Lil Wayne and Freya Skye",
+      "from": "\"Songkick\" <emails@songkick.com>",
+      "date": "2026-03-18T15:33:39.000Z",
+      "comedians": [
+        "freya skye"
+      ],
+      "isVenueEmail": false,
+      "hasShowKeyword": true,
+      "ticketUrls": [],
+      "score": 5,
+      "snippet": "There are new events for artists you track on Songkick. Don’t miss out!\n\n\n\n# July\n\n\nThursday 23\n  Lil Wayne and 2 Chainz at Nationwide Arena, Columbus\n\n  Buy tickets:\n  https://www.songkick.com/concerts/43109153-lil-wayne-at-nationwide-arena?utm_campaign=upcoming%2Fdaily_digest&utm_medium=email&utm_"
+    }
+  ]
 }

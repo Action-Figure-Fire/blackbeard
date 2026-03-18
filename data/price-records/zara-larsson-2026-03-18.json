@@ -1,0 +1,44 @@
+{
+  "artist": "Zara Larsson",
+  "tour": "2026 US Tour",
+  "recordedDate": "2026-03-18",
+  "source": "Vivid Seats screenshot from Zach",
+  "genre": "Pop",
+  "notes": "Swedish pop star. On Coachella + Lollapalooza lineups. Theater routing 1.5-3K cap. Multiple dates nearly sold out.",
+  "shows": [
+    {"date":"2026-03-18","venue":"Murat Egyptian Room at Old National Centre","city":"Indianapolis, IN","price":157,"inventory":"15 tickets left","status":"low inventory"},
+    {"date":"2026-03-20","venue":"Agora Theatre","city":"Cleveland, OH","price":281,"inventory":"24 tickets left","status":"low inventory"},
+    {"date":"2026-03-21","venue":"KEMBA LIVE!","city":"Columbus, OH","price":267,"inventory":"14 tickets left","status":"low inventory"},
+    {"date":"2026-03-22","venue":"Stage AE","city":"Pittsburgh, PA","price":259,"inventory":"38 tickets left","status":"selling"},
+    {"date":"2026-03-24","venue":"History Toronto","city":"Toronto, ON","price":350,"inventory":"30 tickets left","status":"selling"},
+    {"date":"2026-03-26","venue":"Brooklyn Paramount","city":"Brooklyn, NY","price":410,"inventory":"22 tickets left","status":"low inventory"},
+    {"date":"2026-03-27","venue":"Brooklyn Paramount","city":"Brooklyn, NY","price":353,"inventory":"26 tickets left","status":"low inventory"},
+    {"date":"2026-03-28","venue":"Citizens House of Blues","city":"Boston, MA","price":319,"inventory":"78 tickets left","status":"selling"},
+    {"date":"2026-03-30","venue":"The Fillmore","city":"Philadelphia, PA","price":363,"inventory":"31 tickets left","status":"low inventory"},
+    {"date":"2026-03-31","venue":"The Anthem","city":"Washington, DC","price":250,"inventory":"52 tickets left","status":"selling"},
+    {"date":"2026-04-01","venue":"The Fillmore Charlotte","city":"Charlotte, NC","price":293,"inventory":"14 tickets left","status":"low inventory"},
+    {"date":"2026-04-03","venue":"The Ritz - Raleigh","city":"Raleigh, NC","price":236,"inventory":"31 tickets left","status":"selling"},
+    {"date":"2026-04-04","venue":"Marathon Music Works","city":"Nashville, TN","price":363,"inventory":"11 tickets left","status":"nearly sold out"},
+    {"date":"2026-04-05","venue":"The Tabernacle","city":"Atlanta, GA","price":145,"inventory":"82 tickets left, Deals Available","status":"available"},
+    {"date":"2026-04-07","venue":"Fillmore Miami Beach at Jackie Gleason Theater","city":"Miami Beach, FL","price":247,"inventory":"45 tickets left","status":"selling"},
+    {"date":"2026-04-08","venue":"House of Blues Orlando","city":"Lake Buena Vista, FL","price":470,"inventory":"20 tickets left","status":"low inventory"}
+  ],
+  "keyInsights": [
+    "Brooklyn Paramount Night 1 at $410 with 22 tickets = HIGHEST price. NYC market dominance.",
+    "Nashville Marathon Music Works at $363 with ONLY 11 TICKETS = about to sell out",
+    "Orlando House of Blues at $470 with 20 tickets = HIGHEST price on the tour (!)",
+    "Charlotte at $293 with only 14 tickets left = nearly gone",
+    "Atlanta Tabernacle at $145 with 82 tickets + Deals Available = weakest market",
+    "Indianapolis tonight at $157 with 15 tickets = cheapest remaining, almost gone",
+    "Pittsburgh Stage AE at $259 with 38 tickets = solid mid-range",
+    "Pattern: Northeast cities (NYC, Boston, Philly, Toronto) command $300-410. Southeast (Atlanta, Raleigh) is weaker."
+  ],
+  "priceRange": {"low": 145, "high": 470, "median": 281},
+  "hotShows": [
+    "Orlando HOB ($470, 20 tix)",
+    "Brooklyn Night 1 ($410, 22 tix)",
+    "Nashville ($363, 11 tix — NEARLY GONE)",
+    "Charlotte ($293, 14 tix)",
+    "Indianapolis ($157, 15 tix — tonight)"
+  ]
+}
