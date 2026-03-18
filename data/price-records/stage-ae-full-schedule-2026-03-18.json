@@ -1,0 +1,70 @@
+{
+  "venue": "Stage AE",
+  "city": "Pittsburgh, PA",
+  "capacity": 2400,
+  "recordedDate": "2026-03-18",
+  "source": "Zach - Vivid Seats data pull",
+  "shows": [
+    {"event":"Dark Star Orchestra","date":"2026-03-19","day":"Thursday","time":"7:30 PM","price":67},
+    {"event":"Zara Larsson","date":"2026-03-22","day":"Sunday","time":"8:00 PM","price":265},
+    {"event":"Freddie Dredd","date":"2026-03-28","day":"Saturday","time":"8:00 PM","price":25},
+    {"event":"On Cinema Live – Tim Heidecker & Gregg Turkington","date":"2026-04-04","day":"Saturday","time":"8:00 PM","price":37},
+    {"event":"Pioneer Star Showcase","date":"2026-04-07","day":"Tuesday","time":"7:30 PM","price":37},
+    {"event":"The Last Dinner Party","date":"2026-04-08","day":"Wednesday","time":"8:00 PM","price":68},
+    {"event":"Katya","date":"2026-04-09","day":"Thursday","time":"8:30 PM","price":70},
+    {"event":"49 Winchester","date":"2026-04-10","day":"Friday","time":"8:00 PM","price":58},
+    {"event":"Bob Moses","date":"2026-04-11","day":"Saturday","time":"7:30 PM","price":65},
+    {"event":"The Amity Affliction with August Burns Red","date":"2026-04-12","day":"Sunday","time":"6:30 PM","price":76},
+    {"event":"Good Kid","date":"2026-04-13","day":"Monday","time":"8:00 PM","price":60},
+    {"event":"The Maine","date":"2026-04-14","day":"Tuesday","time":"6:30 PM","price":62},
+    {"event":"Ashnikko","date":"2026-05-12","day":"Tuesday","time":"8:00 PM","price":131},
+    {"event":"Black Veil Brides","date":"2026-05-15","day":"Friday","time":"6:30 PM","price":69},
+    {"event":"Ryan Bingham and The Texas Gentlemen","date":"2026-05-22","day":"Friday","time":"8:00 PM","price":77},
+    {"event":"Taking Back Sunday","date":"2026-06-01","day":"Monday","time":"8:00 PM","price":68},
+    {"event":"Mt. Joy","date":"2026-06-10","day":"Wednesday","time":"8:00 PM","price":88},
+    {"event":"Dance Gavin Dance","date":"2026-06-14","day":"Sunday","time":"6:30 PM","price":64},
+    {"event":"Hot Mulligan","date":"2026-06-17","day":"Wednesday","time":"6:30 PM","price":64},
+    {"event":"Passion Pit","date":"2026-06-22","day":"Monday","time":"8:00 PM","price":81},
+    {"event":"Young the Giant","date":"2026-06-23","day":"Tuesday","time":"6:30 PM","price":77},
+    {"event":"Trombone Shorty and Orleans Avenue","date":"2026-06-24","day":"Wednesday","time":"8:00 PM","price":69},
+    {"event":"Ella Mai","date":"2026-07-08","day":"Wednesday","time":"8:00 PM","price":144},
+    {"event":"Louis Tomlinson","date":"2026-07-10","day":"Friday","time":"7:00 PM","price":95},
+    {"event":"Djo","date":"2026-07-14","day":"Tuesday","time":"TBD","price":128},
+    {"event":"OAR","date":"2026-07-23","day":"Thursday","time":"TBD","price":65},
+    {"event":"The Black Keys","date":"2026-08-02","day":"Sunday","time":"7:30 PM","price":87},
+    {"event":"Yacht Rock Revue","date":"2026-08-08","day":"Saturday","time":"8:00 PM","price":52},
+    {"event":"Sierra Ferrell","date":"2026-09-01","day":"Tuesday","time":"7:00 PM","price":63},
+    {"event":"Tucker Wetmore","date":"2026-09-20","day":"Sunday","time":"6:30 PM","price":85},
+    {"event":"Rainbow Kitten Surprise","date":"2026-09-23","day":"Wednesday","time":"8:00 PM","price":92},
+    {"event":"Caamp","date":"2026-09-25","day":"Friday","time":"7:30 PM","price":88},
+    {"event":"Sugar","date":"2026-10-10","day":"Saturday","time":"8:00 PM","price":75}
+  ],
+  "analysis": {
+    "averagePrice": 91,
+    "medianPrice": 69,
+    "topByPrice": [
+      {"event":"Zara Larsson","price":265,"notes":"Swedish pop breakout, 2x festival lineup"},
+      {"event":"Ella Mai","price":144,"notes":"R&B star, Grammy winner"},
+      {"event":"Ashnikko","price":131,"notes":"Alt-pop/rap, strong Gen Z demo"},
+      {"event":"Djo","price":128,"notes":"Zach bought these. Tame Impala support sold out."},
+      {"event":"Louis Tomlinson","price":95,"notes":"1D solo, dedicated fanbase"},
+      {"event":"Rainbow Kitten Surprise","price":92,"notes":"Indie folk, strong live draw"},
+      {"event":"Caamp","price":88,"notes":"Ohio indie folk, loyal fanbase"},
+      {"event":"Mt. Joy","price":88,"notes":"Indie rock, growing audience"},
+      {"event":"The Black Keys","price":87,"notes":"Arena band in 2.4K room = scarcity play"},
+      {"event":"Tucker Wetmore","price":85,"notes":"Rising country star"}
+    ],
+    "bottomByPrice": [
+      {"event":"Freddie Dredd","price":25},
+      {"event":"On Cinema Live","price":37},
+      {"event":"Pioneer Star Showcase","price":37}
+    ],
+    "standouts": [
+      "Zara Larsson at $265 is 3x the venue average — confirms massive demand",
+      "DJO at $128 already above average and presale just happened today",
+      "The Black Keys at $87 in a 2.4K room is interesting — arena band downsized = potential scarcity",
+      "The Last Dinner Party at $68 — UK breakout band, on our scanner, worth watching",
+      "Ella Mai at $144 — Grammy winner in a 2.4K room, R&B fans pay premium"
+    ]
+  }
+}
