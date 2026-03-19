@@ -47,6 +47,30 @@
       "bandsintown": true
     },
     {
+      "artist": "Naïka",
+      "tier": "S",
+      "genre": "R&B/Pop (Haitian-American)",
+      "evidence": {
+        "miami": {"venue": "Miami Beach Bandshell", "cap": 600, "getIn": 356, "ticketsLeft": 6, "source": "StubHub"},
+        "la_fonda": {"venue": "Fonda Theatre", "cap": 1200, "getIn": 219, "ticketsLeft": 4, "source": "StubHub"},
+        "brooklyn": {"venue": "Warsaw", "cap": 850, "getIn": 198, "ticketsLeft": 48, "source": "StubHub"},
+        "dc": {"venue": "9:30 Club", "cap": 1200, "getIn": 181, "ticketsLeft": 6, "source": "StubHub"},
+        "nyc": {"venue": "Irving Plaza", "cap": 1025, "getIn": 157, "ticketsLeft": 20, "source": "StubHub"},
+        "detroit": {"venue": "Majestic Theatre", "cap": 1100, "getIn": 144, "ticketsLeft": 11, "source": "StubHub"},
+        "montreal": {"venue": "MTELUS", "cap": 2300, "getIn": 137, "ticketsLeft": 45, "source": "StubHub"},
+        "chicago": {"venue": "Bottom Lounge", "cap": 400, "getIn": 123, "ticketsLeft": 28, "source": "StubHub"},
+        "philly": {"venue": "Underground Arts", "cap": 700, "getIn": 119, "ticketsLeft": 20, "source": "StubHub"},
+        "sf": {"venue": "August Hall", "cap": 950, "getIn": 109, "ticketsLeft": 21, "source": "StubHub"},
+        "toronto": {"venue": "History", "cap": 2500, "getIn": 62, "ticketsLeft": 63, "source": "StubHub"},
+        "atlanta": {"venue": "Center Stage", "cap": 1050, "getIn": 49, "ticketsLeft": 59, "source": "StubHub"},
+        "denver": {"venue": "Marquis Theater", "cap": 650, "getIn": 41, "ticketsLeft": 17, "source": "StubHub"}
+      },
+      "pattern": "Haitian diaspora corridor = 3-5x premium (Miami $356, LA $219, DC $181, Brooklyn $198). 5 venue upgrades mid-tour. Nearly gone in LA (4 tix), DC (6 tix), Miami (6 tix), Detroit (11 tix).",
+      "action": "BUY any new dates in diaspora markets immediately. If she adds Boston, it will be $200+.",
+      "bandsintown": true,
+      "priceRecord": "data/price-records/naika-2026-03-19.json"
+    },
+    {
       "artist": "Gavin Adcock",
       "tier": "A",
       "genre": "Country",

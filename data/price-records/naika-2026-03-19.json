@@ -1,0 +1,32 @@
+{
+  "artist": "Naïka",
+  "snapshotDate": "2026-03-19",
+  "source": "StubHub (via Zach)",
+  "tier": "S",
+  "genre": "R&B/Pop",
+  "background": "Haitian-American R&B artist. Diaspora demand driving insane premiums in Miami, DC, NYC, LA. Multiple venue upgrades mid-tour (5 shows moved to bigger rooms).",
+  "pattern": "Haitian diaspora corridor (Miami→NYC→DC→Montreal) = 3-5x non-diaspora markets. Venue upgrades = demand outstripping supply everywhere.",
+  "tourDates": [
+    {"date": "2026-03-26", "venue": "Fonda Theatre", "city": "Los Angeles, CA", "cap": 1200, "getIn": 219, "ticketsLeft": 4},
+    {"date": "2026-03-27", "venue": "The Novo (upgraded from Fonda)", "city": "Los Angeles, CA", "cap": 2300, "getIn": 66, "ticketsLeft": 62, "note": "Venue upgrade"},
+    {"date": "2026-03-28", "venue": "August Hall", "city": "San Francisco, CA", "cap": 950, "getIn": 109, "ticketsLeft": 21},
+    {"date": "2026-03-31", "venue": "Marquis Theater", "city": "Denver, CO", "cap": 650, "getIn": 41, "ticketsLeft": 17},
+    {"date": "2026-04-03", "venue": "Bottom Lounge", "city": "Chicago, IL", "cap": 400, "getIn": 123, "ticketsLeft": 28},
+    {"date": "2026-04-04", "venue": "Majestic Theatre (upgraded from El Club)", "city": "Detroit, MI", "cap": 1100, "getIn": 144, "ticketsLeft": 11, "note": "Venue upgrade"},
+    {"date": "2026-04-06", "venue": "History Toronto (upgraded from Opera House)", "city": "Toronto, ON", "cap": 2500, "getIn": 62, "ticketsLeft": 63, "note": "Venue upgrade"},
+    {"date": "2026-04-07", "venue": "MTELUS (upgraded from Beanfield)", "city": "Montreal, QC", "cap": 2300, "getIn": 137, "ticketsLeft": 45, "note": "Venue upgrade"},
+    {"date": "2026-04-09", "venue": "Irving Plaza", "city": "New York, NY", "cap": 1025, "getIn": 157, "ticketsLeft": 20},
+    {"date": "2026-04-10", "venue": "Warsaw", "city": "Brooklyn, NY", "cap": 850, "getIn": 198, "ticketsLeft": 48},
+    {"date": "2026-04-11", "venue": "Underground Arts", "city": "Philadelphia, PA", "cap": 700, "getIn": 119, "ticketsLeft": 20},
+    {"date": "2026-04-13", "venue": "9:30 Club", "city": "Washington, DC", "cap": 1200, "getIn": 181, "ticketsLeft": 6},
+    {"date": "2026-04-15", "venue": "Center Stage (upgraded from Loft)", "city": "Atlanta, GA", "cap": 1050, "getIn": 49, "ticketsLeft": 59, "note": "Venue upgrade"},
+    {"date": "2026-04-17", "venue": "Miami Beach Bandshell", "city": "Miami Beach, FL", "cap": 600, "getIn": 356, "ticketsLeft": 6}
+  ],
+  "keyMetrics": {
+    "highestGetIn": {"city": "Miami", "price": 356},
+    "lowestGetIn": {"city": "Denver", "price": 41},
+    "nearlyGone": ["LA Fonda (4 tix)", "DC (6 tix)", "Miami (6 tix)", "Detroit (11 tix)"],
+    "venueUpgrades": 5,
+    "diasporaPremium": "Miami/DC/Brooklyn/LA = 3-5x Denver/Toronto/Atlanta"
+  }
+}
