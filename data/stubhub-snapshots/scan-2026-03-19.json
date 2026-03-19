@@ -1,0 +1,1311 @@
+{
+  "timestamp": "2026-03-19T21:29:33.888Z",
+  "venuesScanned": 19,
+  "totalShows": 150,
+  "errors": 4,
+  "newShows": 150,
+  "hotArtists": [
+    {
+      "name": "Masayoshi Takanaka",
+      "venues": 2,
+      "avgGetIn": 282,
+      "appearances": [
+        {
+          "venue": "Masonic SF",
+          "market": "San Francisco",
+          "getIn": 285.03,
+          "date": "2026-04-09"
+        },
+        {
+          "venue": "Aragon Ballroom Chicago",
+          "market": "Chicago",
+          "getIn": 278.3,
+          "date": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "name": "Zara Larsson",
+      "venues": 3,
+      "avgGetIn": 232,
+      "appearances": [
+        {
+          "venue": "Brooklyn Paramount",
+          "market": "Brooklyn",
+          "getIn": 297.64,
+          "date": "2026-03-26"
+        },
+        {
+          "venue": "Brooklyn Paramount",
+          "market": "Brooklyn",
+          "getIn": 258.05,
+          "date": "2026-03-27"
+        },
+        {
+          "venue": "The Anthem DC",
+          "market": "Washington DC",
+          "getIn": 207.27,
+          "date": "2026-03-31"
+        },
+        {
+          "venue": "Stubbs Austin",
+          "market": "Austin",
+          "getIn": 163.56,
+          "date": "2026-04-10"
+        }
+      ]
+    },
+    {
+      "name": "Mariah the Scientist",
+      "venues": 3,
+      "avgGetIn": 228,
+      "appearances": [
+        {
+          "venue": "Coca-Cola Roxy Atlanta",
+          "market": "Atlanta",
+          "getIn": 287.23,
+          "date": "2026-04-11"
+        },
+        {
+          "venue": "Coca-Cola Roxy Atlanta",
+          "market": "Atlanta",
+          "getIn": 252.11,
+          "date": "2026-04-10"
+        },
+        {
+          "venue": "Stubbs Austin",
+          "market": "Austin",
+          "getIn": 189.43,
+          "date": "2026-04-03"
+        },
+        {
+          "venue": "Masonic SF",
+          "market": "San Francisco",
+          "getIn": 184.94,
+          "date": "2026-03-24"
+        }
+      ]
+    },
+    {
+      "name": "Hearts2Hearts",
+      "venues": 2,
+      "avgGetIn": 208,
+      "appearances": [
+        {
+          "venue": "Brooklyn Paramount",
+          "market": "Brooklyn",
+          "getIn": 218.09,
+          "date": "2026-03-19"
+        },
+        {
+          "venue": "Wiltern LA",
+          "market": "Los Angeles",
+          "getIn": 198.03,
+          "date": "2026-03-22"
+        }
+      ]
+    }
+  ],
+  "allEvents": [
+    {
+      "artist": "Tophouse",
+      "venue": "First Avenue Minneapolis",
+      "market": "Minneapolis",
+      "getIn": 16.57,
+      "date": "2026-03-20",
+      "cap": 1500
+    },
+    {
+      "artist": "Evan Honer",
+      "venue": "First Avenue Minneapolis",
+      "market": "Minneapolis",
+      "getIn": 24.43,
+      "date": "2026-03-21",
+      "cap": 1500
+    },
+    {
+      "artist": "Wednesday",
+      "venue": "First Avenue Minneapolis",
+      "market": "Minneapolis",
+      "getIn": 61.94,
+      "date": "2026-03-26",
+      "cap": 1500
+    },
+    {
+      "artist": "Quarter Life Crisis",
+      "venue": "First Avenue Minneapolis",
+      "market": "Minneapolis",
+      "getIn": 25.73,
+      "date": "2026-03-27",
+      "cap": 1500
+    },
+    {
+      "artist": "The Suicide Commandos",
+      "venue": "First Avenue Minneapolis",
+      "market": "Minneapolis",
+      "getIn": 51.16,
+      "date": "2026-03-28",
+      "cap": 1500
+    },
+    {
+      "artist": "The Suicide Commandos",
+      "venue": "First Avenue Minneapolis",
+      "market": "Minneapolis",
+      "getIn": 44.31,
+      "date": "2026-03-28",
+      "cap": 1500
+    },
+    {
+      "artist": "Gary Numan",
+      "venue": "First Avenue Minneapolis",
+      "market": "Minneapolis",
+      "getIn": 42.64,
+      "date": "2026-03-31",
+      "cap": 1500
+    },
+    {
+      "artist": "Machine Girl",
+      "venue": "First Avenue Minneapolis",
+      "market": "Minneapolis",
+      "getIn": 23.68,
+      "date": "2026-04-01",
+      "cap": 1500
+    },
+    {
+      "artist": "Can't Feel My Face",
+      "venue": "First Avenue Minneapolis",
+      "market": "Minneapolis",
+      "getIn": 22.27,
+      "date": "2026-04-03",
+      "cap": 1500
+    },
+    {
+      "artist": "Dirtwire",
+      "venue": "First Avenue Minneapolis",
+      "market": "Minneapolis",
+      "getIn": 31.19,
+      "date": "2026-04-04",
+      "cap": 1500
+    },
+    {
+      "artist": "Ryman Guided Backstage Tour",
+      "venue": "Ryman Nashville",
+      "market": "Nashville",
+      "getIn": null,
+      "date": "2026-03-20",
+      "cap": 2362
+    },
+    {
+      "artist": "Ryman VIP Tour",
+      "venue": "Ryman Nashville",
+      "market": "Nashville",
+      "getIn": null,
+      "date": "2026-03-20",
+      "cap": 2362
+    },
+    {
+      "artist": "Robert Earl Keen",
+      "venue": "Ryman Nashville",
+      "market": "Nashville",
+      "getIn": 39.23,
+      "date": "2026-03-20",
+      "cap": 2362
+    },
+    {
+      "artist": "Ryman Guided Backstage Tour",
+      "venue": "Ryman Nashville",
+      "market": "Nashville",
+      "getIn": null,
+      "date": "2026-03-21",
+      "cap": 2362
+    },
+    {
+      "artist": "Ryman VIP Tour",
+      "venue": "Ryman Nashville",
+      "market": "Nashville",
+      "getIn": null,
+      "date": "2026-03-21",
+      "cap": 2362
+    },
+    {
+      "artist": "Randy Rogers Band",
+      "venue": "Ryman Nashville",
+      "market": "Nashville",
+      "getIn": 42.27,
+      "date": "2026-03-21",
+      "cap": 2362
+    },
+    {
+      "artist": "Ryman VIP Tour",
+      "venue": "Ryman Nashville",
+      "market": "Nashville",
+      "getIn": null,
+      "date": "2026-03-22",
+      "cap": 2362
+    },
+    {
+      "artist": "Pat Metheny",
+      "venue": "Ryman Nashville",
+      "market": "Nashville",
+      "getIn": 34,
+      "date": "2026-03-22",
+      "cap": 2362
+    },
+    {
+      "artist": "Ryman VIP Tour",
+      "venue": "Ryman Nashville",
+      "market": "Nashville",
+      "getIn": null,
+      "date": "2026-03-23",
+      "cap": 2362
+    },
+    {
+      "artist": "Steven Curtis Chapman",
+      "venue": "Ryman Nashville",
+      "market": "Nashville",
+      "getIn": 54.68,
+      "date": "2026-03-23",
+      "cap": 2362
+    },
+    {
+      "artist": "Distinct Motive",
+      "venue": "Ogden Denver",
+      "market": "Denver",
+      "getIn": 57,
+      "date": "2026-03-20",
+      "cap": 1600
+    },
+    {
+      "artist": "Nurko",
+      "venue": "Ogden Denver",
+      "market": "Denver",
+      "getIn": 27.04,
+      "date": "2026-03-21",
+      "cap": 1600
+    },
+    {
+      "artist": "Evan Honer",
+      "venue": "Ogden Denver",
+      "market": "Denver",
+      "getIn": 39.26,
+      "date": "2026-03-24",
+      "cap": 1600
+    },
+    {
+      "artist": "All Them Witches",
+      "venue": "Ogden Denver",
+      "market": "Denver",
+      "getIn": 677.78,
+      "date": "2026-03-26",
+      "cap": 1600
+    },
+    {
+      "artist": "Yheti x lespecial x LIMINOID",
+      "venue": "Ogden Denver",
+      "market": "Denver",
+      "getIn": 50.63,
+      "date": "2026-03-27",
+      "cap": 1600
+    },
+    {
+      "artist": "Circles Around the Sun",
+      "venue": "Ogden Denver",
+      "market": "Denver",
+      "getIn": 23.48,
+      "date": "2026-03-28",
+      "cap": 1600
+    },
+    {
+      "artist": "The Wonder Years",
+      "venue": "Ogden Denver",
+      "market": "Denver",
+      "getIn": 55.83,
+      "date": "2026-03-29",
+      "cap": 1600
+    },
+    {
+      "artist": "The Maine",
+      "venue": "Ogden Denver",
+      "market": "Denver",
+      "getIn": 56.7,
+      "date": "2026-04-03",
+      "cap": 1600
+    },
+    {
+      "artist": "Jaenga",
+      "venue": "Ogden Denver",
+      "market": "Denver",
+      "getIn": 42.36,
+      "date": "2026-04-04",
+      "cap": 1600
+    },
+    {
+      "artist": "Microwave",
+      "venue": "Ogden Denver",
+      "market": "Denver",
+      "getIn": 34.45,
+      "date": "2026-04-07",
+      "cap": 1600
+    },
+    {
+      "artist": "Hearts2Hearts",
+      "venue": "Brooklyn Paramount",
+      "market": "Brooklyn",
+      "getIn": 218.09,
+      "date": "2026-03-19",
+      "cap": 2800
+    },
+    {
+      "artist": "Sticky Fingers",
+      "venue": "Brooklyn Paramount",
+      "market": "Brooklyn",
+      "getIn": 76.86,
+      "date": "2026-03-20",
+      "cap": 2800
+    },
+    {
+      "artist": "Stephen Wilson Jr.",
+      "venue": "Brooklyn Paramount",
+      "market": "Brooklyn",
+      "getIn": 22.46,
+      "date": "2026-03-21",
+      "cap": 2800
+    },
+    {
+      "artist": "Alkaline Concert AfterParty Hosted by Alkaline at Amazura",
+      "venue": "Brooklyn Paramount",
+      "market": "Brooklyn",
+      "getIn": null,
+      "date": "2026-03-21",
+      "cap": 2800
+    },
+    {
+      "artist": "Joyce Manor, Militarie Gun, Teen Mortgage, & Combat",
+      "venue": "Brooklyn Paramount",
+      "market": "Brooklyn",
+      "getIn": 44.49,
+      "date": "2026-03-24",
+      "cap": 2800
+    },
+    {
+      "artist": "Dvsn",
+      "venue": "Brooklyn Paramount",
+      "market": "Brooklyn",
+      "getIn": 44.49,
+      "date": "2026-03-25",
+      "cap": 2800
+    },
+    {
+      "artist": "Zara Larsson",
+      "venue": "Brooklyn Paramount",
+      "market": "Brooklyn",
+      "getIn": 297.64,
+      "date": "2026-03-26",
+      "cap": 2800
+    },
+    {
+      "artist": "Zara Larsson",
+      "venue": "Brooklyn Paramount",
+      "market": "Brooklyn",
+      "getIn": 258.05,
+      "date": "2026-03-27",
+      "cap": 2800
+    },
+    {
+      "artist": "Cock Sparrer",
+      "venue": "Brooklyn Paramount",
+      "market": "Brooklyn",
+      "getIn": 60.19,
+      "date": "2026-03-28",
+      "cap": 2800
+    },
+    {
+      "artist": "Cock Sparrer",
+      "venue": "Brooklyn Paramount",
+      "market": "Brooklyn",
+      "getIn": 4.89,
+      "date": "2026-03-29",
+      "cap": 2800
+    },
+    {
+      "artist": "Snow Tha Product",
+      "venue": "Van Buren Phoenix",
+      "market": "Phoenix",
+      "getIn": 43.61,
+      "date": "2026-03-20",
+      "cap": 1800
+    },
+    {
+      "artist": "Reggaeton Rave",
+      "venue": "Van Buren Phoenix",
+      "market": "Phoenix",
+      "getIn": 24.91,
+      "date": "2026-03-21",
+      "cap": 1800
+    },
+    {
+      "artist": "On A Sunday Afternoon (21+)",
+      "venue": "Van Buren Phoenix",
+      "market": "Phoenix",
+      "getIn": 39.01,
+      "date": "2026-03-22",
+      "cap": 1800
+    },
+    {
+      "artist": "Jesse Welles",
+      "venue": "Van Buren Phoenix",
+      "market": "Phoenix",
+      "getIn": 17.97,
+      "date": "2026-03-24",
+      "cap": 1800
+    },
+    {
+      "artist": "The Maine",
+      "venue": "Van Buren Phoenix",
+      "market": "Phoenix",
+      "getIn": 23.64,
+      "date": "2026-03-25",
+      "cap": 1800
+    },
+    {
+      "artist": "Humbe",
+      "venue": "Van Buren Phoenix",
+      "market": "Phoenix",
+      "getIn": 49.79,
+      "date": "2026-03-26",
+      "cap": 1800
+    },
+    {
+      "artist": "Darcy & Jer: Average At Best Tour",
+      "venue": "Van Buren Phoenix",
+      "market": "Phoenix",
+      "getIn": 50.6,
+      "date": "2026-03-27",
+      "cap": 1800
+    },
+    {
+      "artist": "Club 90s Presents Heated Rivalrave (18+)",
+      "venue": "Van Buren Phoenix",
+      "market": "Phoenix",
+      "getIn": 34.13,
+      "date": "2026-03-28",
+      "cap": 1800
+    },
+    {
+      "artist": "Hippie Sabotage",
+      "venue": "Van Buren Phoenix",
+      "market": "Phoenix",
+      "getIn": 44.71,
+      "date": "2026-03-30",
+      "cap": 1800
+    },
+    {
+      "artist": "The Growlers",
+      "venue": "Van Buren Phoenix",
+      "market": "Phoenix",
+      "getIn": 51.27,
+      "date": "2026-03-31",
+      "cap": 1800
+    },
+    {
+      "artist": "Jordan Jensen",
+      "venue": "Danforth Toronto",
+      "market": "Toronto",
+      "getIn": 18.15,
+      "date": "2026-03-19",
+      "cap": 1500
+    },
+    {
+      "artist": "Jordan Jensen",
+      "venue": "Danforth Toronto",
+      "market": "Toronto",
+      "getIn": 7.84,
+      "date": "2026-03-19",
+      "cap": 1500
+    },
+    {
+      "artist": "Sloan",
+      "venue": "Danforth Toronto",
+      "market": "Toronto",
+      "getIn": 77.64,
+      "date": "2026-03-21",
+      "cap": 1500
+    },
+    {
+      "artist": "Rory Scovel",
+      "venue": "Danforth Toronto",
+      "market": "Toronto",
+      "getIn": 33.05,
+      "date": "2026-03-22",
+      "cap": 1500
+    },
+    {
+      "artist": "On Cinema",
+      "venue": "Danforth Toronto",
+      "market": "Toronto",
+      "getIn": 26.55,
+      "date": "2026-03-24",
+      "cap": 1500
+    },
+    {
+      "artist": "Joyce Manor",
+      "venue": "Danforth Toronto",
+      "market": "Toronto",
+      "getIn": 37.49,
+      "date": "2026-03-26",
+      "cap": 1500
+    },
+    {
+      "artist": "Darcy and Jer",
+      "venue": "Danforth Toronto",
+      "market": "Toronto",
+      "getIn": 55.58,
+      "date": "2026-03-31",
+      "cap": 1500
+    },
+    {
+      "artist": "kwn",
+      "venue": "Danforth Toronto",
+      "market": "Toronto",
+      "getIn": 30.53,
+      "date": "2026-04-03",
+      "cap": 1500
+    },
+    {
+      "artist": "kwn",
+      "venue": "Danforth Toronto",
+      "market": "Toronto",
+      "getIn": 42.57,
+      "date": "2026-04-04",
+      "cap": 1500
+    },
+    {
+      "artist": "The Wonder Years",
+      "venue": "Danforth Toronto",
+      "market": "Toronto",
+      "getIn": 34.98,
+      "date": "2026-04-05",
+      "cap": 1500
+    },
+    {
+      "artist": "Nothing More w/ Catch Your Breath, Archers and Doobie",
+      "venue": "Stubbs Austin",
+      "market": "Austin",
+      "getIn": 57.58,
+      "date": "2026-03-19",
+      "cap": 2100
+    },
+    {
+      "artist": "Jesse Welles",
+      "venue": "Stubbs Austin",
+      "market": "Austin",
+      "getIn": 17.97,
+      "date": "2026-03-26",
+      "cap": 2100
+    },
+    {
+      "artist": "Mariah the Scientist",
+      "venue": "Stubbs Austin",
+      "market": "Austin",
+      "getIn": 189.43,
+      "date": "2026-04-03",
+      "cap": 2100
+    },
+    {
+      "artist": "St. Paul & The Broken Bones with Tyler Ballgame",
+      "venue": "Stubbs Austin",
+      "market": "Austin",
+      "getIn": 34.98,
+      "date": "2026-04-07",
+      "cap": 2100
+    },
+    {
+      "artist": "Zara Larsson",
+      "venue": "Stubbs Austin",
+      "market": "Austin",
+      "getIn": 163.56,
+      "date": "2026-04-10",
+      "cap": 2100
+    },
+    {
+      "artist": "Panchiko",
+      "venue": "Stubbs Austin",
+      "market": "Austin",
+      "getIn": 64.28,
+      "date": "2026-04-16",
+      "cap": 2100
+    },
+    {
+      "artist": "Tinzo & Jojo",
+      "venue": "Stubbs Austin",
+      "market": "Austin",
+      "getIn": 41.21,
+      "date": "2026-04-17",
+      "cap": 2100
+    },
+    {
+      "artist": "Snail Mail",
+      "venue": "Stubbs Austin",
+      "market": "Austin",
+      "getIn": 27.92,
+      "date": "2026-04-26",
+      "cap": 2100
+    },
+    {
+      "artist": "Ari Lennox",
+      "venue": "Stubbs Austin",
+      "market": "Austin",
+      "getIn": 53.09,
+      "date": "2026-04-30",
+      "cap": 2100
+    },
+    {
+      "artist": "The Maine",
+      "venue": "Stubbs Austin",
+      "market": "Austin",
+      "getIn": 41.34,
+      "date": "2026-05-01",
+      "cap": 2100
+    },
+    {
+      "artist": "Mariah the Scientist",
+      "venue": "Masonic SF",
+      "market": "San Francisco",
+      "getIn": 184.94,
+      "date": "2026-03-24",
+      "cap": 3300
+    },
+    {
+      "artist": "Calum Scott",
+      "venue": "Masonic SF",
+      "market": "San Francisco",
+      "getIn": 9.56,
+      "date": "2026-03-28",
+      "cap": 3300
+    },
+    {
+      "artist": "Lamb of God",
+      "venue": "Masonic SF",
+      "market": "San Francisco",
+      "getIn": 54.6,
+      "date": "2026-04-03",
+      "cap": 3300
+    },
+    {
+      "artist": "Sticky Fingers",
+      "venue": "Masonic SF",
+      "market": "San Francisco",
+      "getIn": 52.9,
+      "date": "2026-04-06",
+      "cap": 3300
+    },
+    {
+      "artist": "Masayoshi Takanaka",
+      "venue": "Masonic SF",
+      "market": "San Francisco",
+      "getIn": 285.03,
+      "date": "2026-04-09",
+      "cap": 3300
+    },
+    {
+      "artist": "José María Napoleón",
+      "venue": "Masonic SF",
+      "market": "San Francisco",
+      "getIn": 62.14,
+      "date": "2026-04-11",
+      "cap": 3300
+    },
+    {
+      "artist": "Ari Lennox",
+      "venue": "Masonic SF",
+      "market": "San Francisco",
+      "getIn": 57.29,
+      "date": "2026-04-16",
+      "cap": 3300
+    },
+    {
+      "artist": "Ivan Urgant: Urgant Live!",
+      "venue": "Masonic SF",
+      "market": "San Francisco",
+      "getIn": 117.97,
+      "date": "2026-04-19",
+      "cap": 3300
+    },
+    {
+      "artist": "Electric Callboy",
+      "venue": "Masonic SF",
+      "market": "San Francisco",
+      "getIn": 57.3,
+      "date": "2026-04-22",
+      "cap": 3300
+    },
+    {
+      "artist": "Lily Allen",
+      "venue": "Masonic SF",
+      "market": "San Francisco",
+      "getIn": 186.32,
+      "date": "2026-04-28",
+      "cap": 3300
+    },
+    {
+      "artist": "Josh Johnson",
+      "venue": "Wiltern LA",
+      "market": "Los Angeles",
+      "getIn": 52.34,
+      "date": "2026-03-20",
+      "cap": 3700
+    },
+    {
+      "artist": "Josh Johnson",
+      "venue": "Wiltern LA",
+      "market": "Los Angeles",
+      "getIn": 55.43,
+      "date": "2026-03-20",
+      "cap": 3700
+    },
+    {
+      "artist": "Andrew Callaghan",
+      "venue": "Wiltern LA",
+      "market": "Los Angeles",
+      "getIn": 27.77,
+      "date": "2026-03-21",
+      "cap": 3700
+    },
+    {
+      "artist": "Hearts2Hearts",
+      "venue": "Wiltern LA",
+      "market": "Los Angeles",
+      "getIn": 198.03,
+      "date": "2026-03-22",
+      "cap": 3700
+    },
+    {
+      "artist": "Takanashi Kiara & Ninomae Ina'nis \"Drawn to Dawn\"",
+      "venue": "Wiltern LA",
+      "market": "Los Angeles",
+      "getIn": 51.82,
+      "date": "2026-03-27",
+      "cap": 3700
+    },
+    {
+      "artist": "Takanashi Kiara & Ninomae Ina'nis \"Drawn to Dawn\"",
+      "venue": "Wiltern LA",
+      "market": "Los Angeles",
+      "getIn": 42.75,
+      "date": "2026-03-28",
+      "cap": 3700
+    },
+    {
+      "artist": "Hololive English - Takanashi Kiara / Ninomae Ina’nis",
+      "venue": "Wiltern LA",
+      "market": "Los Angeles",
+      "getIn": 120.12,
+      "date": "2026-03-28",
+      "cap": 3700
+    },
+    {
+      "artist": "Microwave",
+      "venue": "Wiltern LA",
+      "market": "Los Angeles",
+      "getIn": 21.11,
+      "date": "2026-03-29",
+      "cap": 3700
+    },
+    {
+      "artist": "Ricky Montgomery",
+      "venue": "Wiltern LA",
+      "market": "Los Angeles",
+      "getIn": 23.06,
+      "date": "2026-04-01",
+      "cap": 3700
+    },
+    {
+      "artist": "Calum Scott",
+      "venue": "Wiltern LA",
+      "market": "Los Angeles",
+      "getIn": 26.48,
+      "date": "2026-04-03",
+      "cap": 3700
+    },
+    {
+      "artist": "Zara Larsson",
+      "venue": "The Anthem DC",
+      "market": "Washington DC",
+      "getIn": 207.27,
+      "date": "2026-03-31",
+      "cap": 6000
+    },
+    {
+      "artist": "The Last Dinner Party",
+      "venue": "The Anthem DC",
+      "market": "Washington DC",
+      "getIn": 56.7,
+      "date": "2026-04-07",
+      "cap": 6000
+    },
+    {
+      "artist": "Bush",
+      "venue": "The Anthem DC",
+      "market": "Washington DC",
+      "getIn": 67.56,
+      "date": "2026-04-09",
+      "cap": 6000
+    },
+    {
+      "artist": "The Neighbourhood",
+      "venue": "The Anthem DC",
+      "market": "Washington DC",
+      "getIn": 122.13,
+      "date": "2026-04-10",
+      "cap": 6000
+    },
+    {
+      "artist": "The Neighbourhood",
+      "venue": "The Anthem DC",
+      "market": "Washington DC",
+      "getIn": 85.49,
+      "date": "2026-04-11",
+      "cap": 6000
+    },
+    {
+      "artist": "Lany",
+      "venue": "The Anthem DC",
+      "market": "Washington DC",
+      "getIn": 64.55,
+      "date": "2026-04-12",
+      "cap": 6000
+    },
+    {
+      "artist": "Bob Moses & Cannons: Afterglow Tour",
+      "venue": "The Anthem DC",
+      "market": "Washington DC",
+      "getIn": 63.41,
+      "date": "2026-04-15",
+      "cap": 6000
+    },
+    {
+      "artist": "Waxahatchee & MJ Lenderman",
+      "venue": "The Anthem DC",
+      "market": "Washington DC",
+      "getIn": 171.59,
+      "date": "2026-04-17",
+      "cap": 6000
+    },
+    {
+      "artist": "Dave",
+      "venue": "The Anthem DC",
+      "market": "Washington DC",
+      "getIn": 56.69,
+      "date": "2026-04-18",
+      "cap": 6000
+    },
+    {
+      "artist": "Black Coffee",
+      "venue": "The Anthem DC",
+      "market": "Washington DC",
+      "getIn": 120.12,
+      "date": "2026-04-19",
+      "cap": 6000
+    },
+    {
+      "artist": "Radio City Music Hall Tour",
+      "venue": "Radio City NYC",
+      "market": "New York",
+      "getIn": 61.01,
+      "date": "2026-03-20",
+      "cap": 6000
+    },
+    {
+      "artist": "Radio City Music Hall Tour",
+      "venue": "Radio City NYC",
+      "market": "New York",
+      "getIn": 61.23,
+      "date": "2026-03-21",
+      "cap": 6000
+    },
+    {
+      "artist": "Radio City Music Hall Tour",
+      "venue": "Radio City NYC",
+      "market": "New York",
+      "getIn": 60.93,
+      "date": "2026-03-22",
+      "cap": 6000
+    },
+    {
+      "artist": "Radio City Music Hall Tour",
+      "venue": "Radio City NYC",
+      "market": "New York",
+      "getIn": 60.53,
+      "date": "2026-03-23",
+      "cap": 6000
+    },
+    {
+      "artist": "Radio City Music Hall Tour",
+      "venue": "Radio City NYC",
+      "market": "New York",
+      "getIn": 60.53,
+      "date": "2026-03-24",
+      "cap": 6000
+    },
+    {
+      "artist": "Radio City Music Hall Tour",
+      "venue": "Radio City NYC",
+      "market": "New York",
+      "getIn": 60.53,
+      "date": "2026-03-25",
+      "cap": 6000
+    },
+    {
+      "artist": "Radio City Music Hall Tour",
+      "venue": "Radio City NYC",
+      "market": "New York",
+      "getIn": 61.21,
+      "date": "2026-03-26",
+      "cap": 6000
+    },
+    {
+      "artist": "Radio City Music Hall Tour",
+      "venue": "Radio City NYC",
+      "market": "New York",
+      "getIn": 59.64,
+      "date": "2026-03-27",
+      "cap": 6000
+    },
+    {
+      "artist": "Radio City Music Hall Tour",
+      "venue": "Radio City NYC",
+      "market": "New York",
+      "getIn": 59.64,
+      "date": "2026-03-28",
+      "cap": 6000
+    },
+    {
+      "artist": "Stavros Halkias",
+      "venue": "Radio City NYC",
+      "market": "New York",
+      "getIn": 63.68,
+      "date": "2026-03-28",
+      "cap": 6000
+    },
+    {
+      "artist": "Subtronics",
+      "venue": "MGM Music Hall Boston",
+      "market": "Boston",
+      "getIn": 34.02,
+      "date": "2026-03-20",
+      "cap": 5000
+    },
+    {
+      "artist": "Subtronics",
+      "venue": "MGM Music Hall Boston",
+      "market": "Boston",
+      "getIn": 26.17,
+      "date": "2026-03-21",
+      "cap": 5000
+    },
+    {
+      "artist": "FKA Twigs",
+      "venue": "MGM Music Hall Boston",
+      "market": "Boston",
+      "getIn": 57.71,
+      "date": "2026-03-22",
+      "cap": 5000
+    },
+    {
+      "artist": "Alan Cave",
+      "venue": "MGM Music Hall Boston",
+      "market": "Boston",
+      "getIn": 100.01,
+      "date": "2026-03-28",
+      "cap": 5000
+    },
+    {
+      "artist": "Black Label Society",
+      "venue": "MGM Music Hall Boston",
+      "market": "Boston",
+      "getIn": 29.46,
+      "date": "2026-04-04",
+      "cap": 5000
+    },
+    {
+      "artist": "Bridget Everett: Big Titties, Big Dreams",
+      "venue": "MGM Music Hall Boston",
+      "market": "Boston",
+      "getIn": 44.2,
+      "date": "2026-04-10",
+      "cap": 5000
+    },
+    {
+      "artist": "Bush",
+      "venue": "MGM Music Hall Boston",
+      "market": "Boston",
+      "getIn": 48.85,
+      "date": "2026-04-12",
+      "cap": 5000
+    },
+    {
+      "artist": "Lewis Capaldi",
+      "venue": "MGM Music Hall Boston",
+      "market": "Boston",
+      "getIn": 48.72,
+      "date": "2026-04-18",
+      "cap": 5000
+    },
+    {
+      "artist": "Lewis Capaldi",
+      "venue": "MGM Music Hall Boston",
+      "market": "Boston",
+      "getIn": 30.83,
+      "date": "2026-04-19",
+      "cap": 5000
+    },
+    {
+      "artist": "Raye",
+      "venue": "MGM Music Hall Boston",
+      "market": "Boston",
+      "getIn": 143.5,
+      "date": "2026-04-20",
+      "cap": 5000
+    },
+    {
+      "artist": "Lamb of God",
+      "venue": "Aragon Ballroom Chicago",
+      "market": "Chicago",
+      "getIn": 71.53,
+      "date": "2026-03-25",
+      "cap": 4500
+    },
+    {
+      "artist": "Boys Like Girls",
+      "venue": "Aragon Ballroom Chicago",
+      "market": "Chicago",
+      "getIn": 34.02,
+      "date": "2026-03-27",
+      "cap": 4500
+    },
+    {
+      "artist": "Ashnikko",
+      "venue": "Aragon Ballroom Chicago",
+      "market": "Chicago",
+      "getIn": 60.66,
+      "date": "2026-04-03",
+      "cap": 4500
+    },
+    {
+      "artist": "Emperor",
+      "venue": "Aragon Ballroom Chicago",
+      "market": "Chicago",
+      "getIn": 34.98,
+      "date": "2026-04-04",
+      "cap": 4500
+    },
+    {
+      "artist": "Masayoshi Takanaka",
+      "venue": "Aragon Ballroom Chicago",
+      "market": "Chicago",
+      "getIn": 278.3,
+      "date": "2026-04-07",
+      "cap": 4500
+    },
+    {
+      "artist": "Slaughter To Prevail: North America 2026 with Whitechapel & Attila",
+      "venue": "Aragon Ballroom Chicago",
+      "market": "Chicago",
+      "getIn": 33.26,
+      "date": "2026-04-20",
+      "cap": 4500
+    },
+    {
+      "artist": "Hayley Williams",
+      "venue": "Aragon Ballroom Chicago",
+      "market": "Chicago",
+      "getIn": 111.66,
+      "date": "2026-04-21",
+      "cap": 4500
+    },
+    {
+      "artist": "Hayley Williams",
+      "venue": "Aragon Ballroom Chicago",
+      "market": "Chicago",
+      "getIn": 99.44,
+      "date": "2026-04-22",
+      "cap": 4500
+    },
+    {
+      "artist": "Dethklok",
+      "venue": "Aragon Ballroom Chicago",
+      "market": "Chicago",
+      "getIn": 58.12,
+      "date": "2026-04-26",
+      "cap": 4500
+    },
+    {
+      "artist": "Bilmuri",
+      "venue": "Aragon Ballroom Chicago",
+      "market": "Chicago",
+      "getIn": 58.51,
+      "date": "2026-05-01",
+      "cap": 4500
+    },
+    {
+      "artist": "Puscifer",
+      "venue": "Coca-Cola Roxy Atlanta",
+      "market": "Atlanta",
+      "getIn": 50.86,
+      "date": "2026-03-28",
+      "cap": 3600
+    },
+    {
+      "artist": "Bob Moses & Cannons: Afterglow Tour",
+      "venue": "Coca-Cola Roxy Atlanta",
+      "market": "Atlanta",
+      "getIn": 39.35,
+      "date": "2026-04-06",
+      "cap": 3600
+    },
+    {
+      "artist": "Slaughter To Prevail: North America 2026 with Whitechapel & Attila",
+      "venue": "Coca-Cola Roxy Atlanta",
+      "market": "Atlanta",
+      "getIn": 42.91,
+      "date": "2026-04-08",
+      "cap": 3600
+    },
+    {
+      "artist": "Mariah the Scientist",
+      "venue": "Coca-Cola Roxy Atlanta",
+      "market": "Atlanta",
+      "getIn": 252.11,
+      "date": "2026-04-10",
+      "cap": 3600
+    },
+    {
+      "artist": "Mariah the Scientist",
+      "venue": "Coca-Cola Roxy Atlanta",
+      "market": "Atlanta",
+      "getIn": 287.23,
+      "date": "2026-04-11",
+      "cap": 3600
+    },
+    {
+      "artist": "Blessd",
+      "venue": "Coca-Cola Roxy Atlanta",
+      "market": "Atlanta",
+      "getIn": 47.53,
+      "date": "2026-04-12",
+      "cap": 3600
+    },
+    {
+      "artist": "Dave",
+      "venue": "Coca-Cola Roxy Atlanta",
+      "market": "Atlanta",
+      "getIn": 47.74,
+      "date": "2026-04-14",
+      "cap": 3600
+    },
+    {
+      "artist": "Lamb of God",
+      "venue": "Coca-Cola Roxy Atlanta",
+      "market": "Atlanta",
+      "getIn": 67.98,
+      "date": "2026-04-15",
+      "cap": 3600
+    },
+    {
+      "artist": "David and Tamela Mann: The Love & Relationship Tour",
+      "venue": "Coca-Cola Roxy Atlanta",
+      "market": "Atlanta",
+      "getIn": 56.64,
+      "date": "2026-04-17",
+      "cap": 3600
+    },
+    {
+      "artist": "Baby Keem",
+      "venue": "Coca-Cola Roxy Atlanta",
+      "market": "Atlanta",
+      "getIn": 30.33,
+      "date": "2026-04-19",
+      "cap": 3600
+    },
+    {
+      "artist": "Wim Hof",
+      "venue": "Warfield SF",
+      "market": "San Francisco",
+      "getIn": 119.51,
+      "date": "2026-03-19",
+      "cap": 2300
+    },
+    {
+      "artist": "Ashnikko",
+      "venue": "Warfield SF",
+      "market": "San Francisco",
+      "getIn": 45.96,
+      "date": "2026-03-21",
+      "cap": 2300
+    },
+    {
+      "artist": "HEALTH & Carpenter Brut",
+      "venue": "Warfield SF",
+      "market": "San Francisco",
+      "getIn": 35.36,
+      "date": "2026-03-31",
+      "cap": 2300
+    },
+    {
+      "artist": "St. Paul & The Broken Bones",
+      "venue": "Warfield SF",
+      "market": "San Francisco",
+      "getIn": 48.85,
+      "date": "2026-04-01",
+      "cap": 2300
+    },
+    {
+      "artist": "Ruel",
+      "venue": "Warfield SF",
+      "market": "San Francisco",
+      "getIn": 37.79,
+      "date": "2026-04-05",
+      "cap": 2300
+    },
+    {
+      "artist": "Joost Klein",
+      "venue": "Warfield SF",
+      "market": "San Francisco",
+      "getIn": 51.97,
+      "date": "2026-04-13",
+      "cap": 2300
+    },
+    {
+      "artist": "COBRAH",
+      "venue": "Warfield SF",
+      "market": "San Francisco",
+      "getIn": 46.96,
+      "date": "2026-04-16",
+      "cap": 2300
+    },
+    {
+      "artist": "Oklou",
+      "venue": "Warfield SF",
+      "market": "San Francisco",
+      "getIn": 47.83,
+      "date": "2026-04-17",
+      "cap": 2300
+    },
+    {
+      "artist": "Cory Wong",
+      "venue": "Warfield SF",
+      "market": "San Francisco",
+      "getIn": 52.22,
+      "date": "2026-04-24",
+      "cap": 2300
+    },
+    {
+      "artist": "Raf-Saperra",
+      "venue": "Warfield SF",
+      "market": "San Francisco",
+      "getIn": 58.4,
+      "date": "2026-04-25",
+      "cap": 2300
+    }
+  ]
+}

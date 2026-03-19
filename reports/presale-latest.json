@@ -1,23 +1,8 @@
 {
-  "timestamp": "2026-03-19T17:00:04.062Z",
+  "timestamp": "2026-03-19T21:00:06.048Z",
   "braveCallsUsed": 25,
-  "alertCount": 1,
-  "alerts": [
-    {
-      "artist": "John Summit",
-      "tier": "A",
-      "urgency": "ANNOUNCED",
-      "emoji": "📣",
-      "priority": 3,
-      "title": "Lollapalooza tickets on sale for 2026 Grant Park festival, daily lineup released as general admission sells out - CBS Chicago",
-      "description": "You can sign up for the presale, buy tickets and get more information at the Lollapalooza website. The 2026 Lollapalooza lineup was announced Tuesday morning, with headliners including Charli XCX, Lorde, Tate McRae, Olivia Dean, Jennie and the Smashing Pumpkins. But shortly after four-day general admission tickets sold out, organizers dropped the daily lineup. Thursday will be headlined by Lorde and John Summit, with additional performances by Sombr, Empire of the Sun, Wet Leg, 5 Seconds of Summer, CMat, Boys Noize and more.",
-      "url": "https://www.cbsnews.com/chicago/news/lollapalooza-tickets-sale-2026-grant-park-chicago/",
-      "age": "16 minutes ago",
-      "codes": [],
-      "dates": [],
-      "time": null
-    }
-  ],
+  "alertCount": 0,
+  "alerts": [],
   "allTrackedCodes": {
     "Jade LeMac-TICKETS": {
       "artist": "Jade LeMac",
