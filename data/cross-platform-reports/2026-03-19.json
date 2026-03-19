@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-19T22:10:00Z",
+  "timestamp": "2026-03-19T22:18:08.749Z",
   "artists": {
     "Masayoshi Takanaka": {
       "performerId": 203924,
@@ -265,6 +265,240 @@
         363
       ],
       "note": "Brooklyn price jumped 66% (18→63) between StubHub and Vivid pulls same day"
+    },
+    "Naïka": {
+      "performerId": 150237,
+      "totalShows": 14,
+      "vivid": [
+        {
+          "venue": "Miami Beach Bandshell",
+          "city": "Miami Beach",
+          "getIn": 262,
+          "listings": 1,
+          "tix": 6,
+          "date": "2026-04-17"
+        },
+        {
+          "venue": "Fonda Theatre",
+          "city": "Los Angeles",
+          "getIn": 161,
+          "listings": 1,
+          "tix": 4,
+          "date": "2026-03-26"
+        },
+        {
+          "venue": "Warsaw",
+          "city": "Brooklyn",
+          "getIn": 147,
+          "listings": 13,
+          "tix": 48,
+          "date": "2026-04-10"
+        },
+        {
+          "venue": "9:30 Club",
+          "city": "Washington DC",
+          "getIn": 133,
+          "listings": 1,
+          "tix": 6,
+          "date": "2026-04-13"
+        },
+        {
+          "venue": "Irving Plaza",
+          "city": "New York",
+          "getIn": 123,
+          "listings": 3,
+          "tix": 17,
+          "date": "2026-04-09"
+        }
+      ],
+      "stubhub": [
+        {
+          "venue": "various",
+          "note": "Miami $356, LA $219, Brooklyn $198, DC $181"
+        }
+      ],
+      "dualConfirmed": true,
+      "priceRange": [
+        29,
+        356
+      ],
+      "insight": "VS lower than StubHub across board. Diaspora corridor confirmed: Miami/NYC/DC premium, heartland $30"
+    },
+    "fakemink": {
+      "performerId": 445427,
+      "totalShows": 14,
+      "vivid": [
+        {
+          "venue": "Union Transfer",
+          "city": "Philadelphia",
+          "getIn": 114,
+          "listings": 4,
+          "date": "2026-04-29"
+        },
+        {
+          "venue": "History Toronto",
+          "city": "Toronto",
+          "getIn": 102.9,
+          "listings": 3,
+          "date": "2026-05-07"
+        },
+        {
+          "venue": "9:30 Club",
+          "city": "Washington DC",
+          "getIn": 99,
+          "listings": 1,
+          "tix": 4,
+          "date": "2026-05-03"
+        },
+        {
+          "venue": "Terminal 5",
+          "city": "New York",
+          "getIn": 90,
+          "listings": 2,
+          "tix": 11,
+          "date": "2026-05-01"
+        }
+      ],
+      "stubhub": [
+        {
+          "venue": "various",
+          "note": "$184 uniform floor, $208 DC"
+        }
+      ],
+      "dualConfirmed": true,
+      "priceRange": [
+        74,
+        208
+      ],
+      "insight": "StubHub 2x Vivid Seats — either SH sellers fishing or VS hasnt caught up. Very low listing counts"
+    },
+    "Maisie Peters": {
+      "performerId": 115602,
+      "totalShows": 5,
+      "vivid": [
+        {
+          "venue": "9:30 Club",
+          "city": "DC",
+          "getIn": 288,
+          "listings": 3,
+          "tix": 7,
+          "date": "2026-04-14"
+        },
+        {
+          "venue": "Phoenix Concert Theatre",
+          "city": "Toronto",
+          "getIn": 111.72,
+          "listings": 9,
+          "date": "2026-04-17"
+        },
+        {
+          "venue": "Fonda Theatre",
+          "city": "LA",
+          "getIn": 33.25,
+          "listings": 44,
+          "tix": 244,
+          "date": "2026-04-22"
+        }
+      ],
+      "stubhub": [
+        {
+          "venue": "9:30 Club DC",
+          "getIn": 328
+        }
+      ],
+      "dualConfirmed": true,
+      "priceRange": [
+        26,
+        328
+      ],
+      "insight": "DC/LA gap is 8.7x — UK breakout pattern. DC premium REAL (both platforms confirm >280)"
+    },
+    "Stephen Wilson Jr": {
+      "performerId": 141338,
+      "totalShows": 25,
+      "vivid": [
+        {
+          "venue": "Big Mountain Ranch",
+          "city": "Whitefish",
+          "getIn": 540.96,
+          "listings": 23,
+          "date": "2026-07-17"
+        },
+        {
+          "venue": "Red Mile",
+          "city": "Lexington",
+          "getIn": 204.82,
+          "listings": 34,
+          "date": "2026-06-06"
+        },
+        {
+          "venue": "Harriet Island",
+          "city": "St Paul",
+          "getIn": 190.12,
+          "listings": 18,
+          "date": "2026-07-10"
+        },
+        {
+          "venue": "Mission Ballroom",
+          "city": "Denver",
+          "getIn": 143.08,
+          "listings": 5,
+          "date": "2026-04-18"
+        },
+        {
+          "venue": "Salt Shed",
+          "city": "Chicago",
+          "getIn": 115.64,
+          "listings": 15,
+          "date": "2026-04-25"
+        }
+      ],
+      "priceRange": [
+        21,
+        541
+      ],
+      "insight": "Leg 1 venues cheap (primary trickling). Leg 2 mountain/midwest PUMPING. Country crossover = heartland premium"
+    },
+    "DJO": {
+      "performerId": 117365,
+      "totalShows": 19,
+      "arenaAct": true,
+      "vivid": [
+        {
+          "venue": "Xfinity Arena",
+          "city": "Philadelphia",
+          "getIn": 233.7,
+          "listings": 258,
+          "date": "2026-07-15"
+        },
+        {
+          "venue": "CFG Bank Arena",
+          "city": "Baltimore",
+          "getIn": 216.6,
+          "listings": 204,
+          "date": "2026-07-18"
+        },
+        {
+          "venue": "Scotiabank Arena",
+          "city": "Toronto",
+          "getIn": 198.55,
+          "listings": 171,
+          "date": "2026-07-25"
+        },
+        {
+          "venue": "Stage AE",
+          "city": "Pittsburgh",
+          "getIn": 107,
+          "listings": 10,
+          "tix": 60,
+          "date": "2026-07-14"
+        }
+      ],
+      "priceRange": [
+        69,
+        545
+      ],
+      "insight": "Pittsburgh $107 at Stage AE (5.5K cap) = steal vs $234 Philly. Smallest venue on arena tour"
     }
   }
 }
