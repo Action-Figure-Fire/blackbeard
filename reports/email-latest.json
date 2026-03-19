@@ -1,6 +1,32 @@
 {
-  "timestamp": "2026-03-18T16:01:21.666Z",
+  "timestamp": "2026-03-19T00:01:54.290Z",
   "alerts": [
+    {
+      "subject": "My WORLD TOUR starts NEXT weekend! Can't wait to ...",
+      "from": "\"Warren Zeiders - via Bandsintown\" <notifications@ppt.bandsintown.com>",
+      "date": "2026-03-18T22:11:53.000Z",
+      "comedians": [
+        "warren zeiders"
+      ],
+      "isVenueEmail": true,
+      "hasShowKeyword": false,
+      "ticketUrls": [],
+      "score": 11,
+      "snippet": "Bandsintown - You got a new message from Warren Zeiders ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ "
+    },
+    {
+      "subject": "Upcoming Live Shows: Bert Kreischer, Kathleen Madigan, Joanne Shaw Tayl...",
+      "from": "\"Bandsintown\" <notifications@updates.bandsintown.com>",
+      "date": "2026-03-18T22:16:26.000Z",
+      "comedians": [
+        "bert kreischer"
+      ],
+      "isVenueEmail": true,
+      "hasShowKeyword": false,
+      "ticketUrls": [],
+      "score": 11,
+      "snippet": ""
+    },
     {
       "subject": "Just announced: Lil Wayne and Freya Skye",
       "from": "\"Songkick\" <emails@songkick.com>",

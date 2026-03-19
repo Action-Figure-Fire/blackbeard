@@ -1,0 +1,33 @@
+{
+  "artist": "Josiah Queen",
+  "snapshotDate": "2026-03-18",
+  "source": "Vivid Seats via Zach (Perplexity Comet)",
+  "genre": "Christian/Folk/Pop",
+  "notes": "Faith-focused singer-songwriter. Multiple dates nearly sold out. Spokane and Denver at 3% tix remaining.",
+  "tour": [
+    {"date": "2026-03-19", "venue": "The Fillmore Charlotte", "city": "Charlotte, NC", "getIn": 165, "ticketsLeft": 16, "status": "nearly sold out"},
+    {"date": "2026-03-20", "venue": "The Fillmore Charlotte", "city": "Charlotte, NC", "getIn": 64, "ticketsLeft": 26, "status": "low"},
+    {"date": "2026-03-21", "venue": "Fox Theatre - Atlanta", "city": "Atlanta, GA", "getIn": 93, "ticketsLeft": 43, "status": "low"},
+    {"date": "2026-03-22", "venue": "Murat Theatre at Old National Centre", "city": "Indianapolis, IN", "getIn": 62, "ticketsLeft": 97, "status": "rescheduled from 3/16"},
+    {"date": "2026-04-08", "venue": "Revel Entertainment Center", "city": "Albuquerque, NM", "getIn": 48, "ticketsLeft": 50, "status": "low"},
+    {"date": "2026-04-09", "venue": "Arizona Financial Theatre", "city": "Phoenix, AZ", "getIn": 49, "ticketsLeft": null, "status": "deals available"},
+    {"date": "2026-04-10", "venue": "Arizona Financial Theatre", "city": "Phoenix, AZ", "getIn": 68, "ticketsLeft": null, "status": "deals available"},
+    {"date": "2026-04-11", "venue": "The Sound - Del Mar", "city": "Del Mar, CA", "getIn": 102, "ticketsLeft": 62, "status": "low"},
+    {"date": "2026-04-12", "venue": "The Novo", "city": "Los Angeles, CA", "getIn": 46, "ticketsLeft": 68, "status": "low"},
+    {"date": "2026-04-17", "venue": "Arlene Schnitzer Concert Hall", "city": "Portland, OR", "getIn": 290, "ticketsLeft": null, "status": "high demand"},
+    {"date": "2026-04-19", "venue": "Hult Center - Silva Concert Hall", "city": "Eugene, OR", "getIn": 139, "ticketsLeft": null, "status": "moderate"},
+    {"date": "2026-04-21", "venue": "Orpheum Theatre - Vancouver", "city": "Vancouver, BC", "getIn": 80, "ticketsLeft": null, "status": "available"},
+    {"date": "2026-04-23", "venue": "Showbox SODO", "city": "Seattle, WA", "getIn": 95, "ticketsLeft": 25, "status": "nearly sold out"},
+    {"date": "2026-04-24", "venue": "Knitting Factory Concert House", "city": "Spokane, WA", "getIn": 372, "ticketsLeft": 16, "status": "nearly sold out"},
+    {"date": "2026-04-25", "venue": "Revolution Concert House", "city": "Garden City, ID", "getIn": 86, "ticketsLeft": 77, "status": "low"},
+    {"date": "2026-04-26", "venue": "The Complex - Rockwell", "city": "Salt Lake City, UT", "getIn": 120, "ticketsLeft": 43, "status": "low"},
+    {"date": "2026-04-28", "venue": "Fillmore Auditorium", "city": "Denver, CO", "getIn": 116, "ticketsLeft": null, "status": "3% tickets left"},
+    {"date": "2026-04-30", "venue": "Palace Theatre", "city": "Saint Paul, MN", "getIn": 187, "ticketsLeft": 89, "status": "high demand"},
+    {"date": "2026-05-01", "venue": "EPIC Event Center", "city": "Green Bay, WI", "getIn": 147, "ticketsLeft": 61, "status": "moderate"},
+    {"date": "2026-05-02", "venue": "Byline Bank Aragon Ballroom", "city": "Chicago, IL", "getIn": 62, "ticketsLeft": null, "status": "4% tickets left"},
+    {"date": "2026-05-03", "venue": "Masonic Temple - Temple Theatre", "city": "Detroit, MI", "getIn": 44, "ticketsLeft": null, "status": "deals available"},
+    {"date": "2026-05-05", "venue": "Canada Event Centre", "city": "Whitby, ON", "getIn": 68, "ticketsLeft": 21, "status": "nearly sold out"},
+    {"date": "2026-05-06", "venue": "Palladium Times Square", "city": "New York, NY", "getIn": 51, "ticketsLeft": null, "status": "available"},
+    {"date": "2026-07-17", "venue": "Alive Music Festival", "city": "Mineral City, OH", "getIn": 122, "ticketsLeft": 4, "status": "nearly sold out"}
+  ]
+}

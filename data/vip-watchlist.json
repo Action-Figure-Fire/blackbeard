@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "description": "VIP Watchlist - Confirmed sellers tracked for new show additions",
+    "rule": "Only GET-IN prices matter. Ignore averages.",
+    "rule2": "Under 10 listings = noise, not a real signal",
+    "scanSchedule": "Tuesday + Wednesday 11am ET (manual, ask Zach first)",
+    "lastUpdated": "2026-03-18"
+  },
+  "confirmedSellers": [
+    {
+      "artist": "Zara Larsson",
+      "tier": "S",
+      "genre": "Pop",
+      "evidence": {
+        "philly": {"venue": "Fillmore", "cap": 2500, "getIn": 370, "date": "2026-03-30"},
+        "toronto": {"venue": "History", "cap": 2500, "getIn": 292, "date": "2026-03-24"},
+        "charlotte": {"venue": "Fillmore Charlotte", "cap": 2000, "getIn": 171, "date": "2026-04-01"},
+        "dallas": {"venue": "Bomb Factory", "cap": 4300, "getIn": 128, "date": "2026-04-11"}
+      },
+      "pattern": "NE/Canada 2-3x Southwest. Buy NE + West Coast immediately on any new dates.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Josiah Queen",
+      "tier": "S",
+      "genre": "Christian/Folk",
+      "evidence": {
+        "spokane": {"venue": "Knitting Factory", "getIn": 372, "ticketsLeft": 16},
+        "portland": {"venue": "Arlene Schnitzer", "getIn": 290},
+        "stPaul": {"venue": "Palace Theatre", "getIn": 187},
+        "charlotte": {"venue": "Fillmore Charlotte", "getIn": 165, "ticketsLeft": 16},
+        "denver": {"venue": "Fillmore Auditorium", "getIn": 116, "status": "3% left"},
+        "chicago": {"venue": "Aragon Ballroom", "getIn": 62, "status": "4% left"}
+      },
+      "pattern": "PNW/Mountain strongest. Southwest weakest. Buy PNW + Mountain on Leg 2.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Stephen Wilson Jr",
+      "tier": "S",
+      "genre": "Country Rock",
+      "evidence": {
+        "saltShed": {"venue": "Salt Shed", "cap": 3600, "getIn": 111},
+        "philly": {"venue": "Fillmore Philly", "cap": 2500, "getIn": 84}
+      },
+      "pattern": "Every Leg 1 date sold out. Buy ALL Leg 2 dates immediately.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Gavin Adcock",
+      "tier": "A",
+      "genre": "Country",
+      "evidence": {
+        "charlotte": {"venue": "Fillmore Charlotte", "cap": 2000, "getIn": 184, "listings": 7},
+        "boston": {"venue": "MGM Music Hall", "cap": 5009, "getIn": 62, "listings": 173},
+        "dallas": {"venue": "Cooks Garage", "getIn": 71, "listings": 11}
+      },
+      "pattern": "Country breakout. Southeast strongest. Scaling up to bigger venues.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Rawayana",
+      "tier": "A",
+      "genre": "Latin/Venezuelan",
+      "evidence": {
+        "chicago": {"venue": "Aragon Ballroom", "cap": 4500, "getIn": 83, "listings": 12},
+        "boston": {"venue": "MGM Music Hall", "cap": 5009, "getIn": 71, "listings": 170},
+        "philly": {"venue": "The Met", "cap": 3500, "getIn": 49, "listings": 240},
+        "dallas": {"venue": "Toyota Music Factory", "cap": 8000, "getIn": 48, "listings": 164}
+      },
+      "pattern": "Diaspora demand. Arena routing. High listing count = real volume.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Bleachers",
+      "tier": "A",
+      "genre": "Indie Pop",
+      "evidence": {
+        "boston": {"venue": "MGM Music Hall", "cap": 5009, "getIn": 70, "listings": 71},
+        "philly": {"venue": "TD Pavilion", "cap": 14000, "getIn": 45, "listings": 187},
+        "chicago": {"venue": "Salt Shed Outdoor", "getIn": 75, "listings": 22}
+      },
+      "pattern": "Jack Antonoff = consistent demand. Outdoor amphitheater routing.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Undertale Symphony",
+      "tier": "A",
+      "genre": "Gaming/Symphony",
+      "evidence": {
+        "dallas": {"venue": "Winspear Opera House", "cap": 2300, "getIn": 233, "listings": 7},
+        "chicago": {"venue": "Auditorium Theatre", "cap": 3875, "getIn": 66, "listings": 120},
+        "boston": {"venue": "Wang Theatre", "cap": 3600, "getIn": 81, "listings": 69}
+      },
+      "pattern": "Game symphony niche. Dallas get-in is 3x Chicago. Theater routing. Limited run.",
+      "bandsintown": false,
+      "note": "Monitor SOHO Live website for new dates"
+    },
+    {
+      "artist": "Empire of the Sun",
+      "tier": "A",
+      "genre": "Electronica",
+      "evidence": {
+        "philly": {"venue": "TD Pavilion", "cap": 14000, "getIn": 42, "listings": 179},
+        "dallas": {"venue": "Dos Equis Pavilion", "cap": 20000, "getIn": 35, "listings": 247}
+      },
+      "pattern": "Nostalgia + festival circuit. High volume resale. Amphitheater routing.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Laura Ramoso",
+      "tier": "A",
+      "genre": "Latin Pop",
+      "evidence": {
+        "boston": {"venue": "The Wilbur", "cap": 1200, "getIn": 61, "listings": 49},
+        "chicago": {"venue": "Chicago Theatre", "cap": 3600, "getIn": 63, "listings": 243},
+        "philly": {"venue": "The Met", "cap": 3500, "getIn": 49, "listings": 204}
+      },
+      "pattern": "60+ sold out shows. Theater routing. High listing count everywhere.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Two Door Cinema Club",
+      "tier": "B",
+      "genre": "Indie Rock",
+      "evidence": {
+        "philly": {"venue": "Fillmore", "cap": 2500, "getIn": 77, "listings": 18},
+        "boston": {"venue": "MGM Music Hall", "cap": 5009, "getIn": 50, "listings": 220},
+        "chicago": {"venue": "Salt Shed Outdoor", "getIn": 76, "listings": 13}
+      },
+      "pattern": "15th anniversary tour. Nostalgia pricing. NE consistent.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Rise Against",
+      "tier": "B",
+      "genre": "Punk Rock",
+      "evidence": {
+        "philly": {"venue": "Fillmore", "cap": 2500, "getIn": 75, "listings": 22},
+        "dallas": {"venue": "South Side Ballroom", "cap": 2600, "getIn": 67, "listings": 18}
+      },
+      "pattern": "Ricochet tour. Consistent mid-tier pricing.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Jinjer",
+      "tier": "B",
+      "genre": "Metal",
+      "evidence": {
+        "boston": {"venue": "Big Night Live", "cap": 1200, "getIn": 62, "listings": 5},
+        "philly": {"venue": "Fillmore", "cap": 2500, "getIn": 62, "listings": 20},
+        "dallas": {"venue": "HoB Dallas", "cap": 1200, "getIn": 60, "listings": 25}
+      },
+      "pattern": "Metal niche. Consistent $60+ get-in across markets.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Passion Pit",
+      "tier": "B",
+      "genre": "Indie Pop",
+      "evidence": {
+        "chicago": {"venue": "Riviera", "cap": 2500, "getIn": 71, "listings": 11},
+        "philly": {"venue": "Fillmore", "cap": 2500, "getIn": 64, "listings": 14},
+        "boston": {"venue": "HoB Boston", "cap": 1800, "getIn": 53, "listings": 41}
+      },
+      "pattern": "Pretty Penny reunion tour. Nostalgia play.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Slayyyter",
+      "tier": "B",
+      "genre": "Pop/Hyperpop",
+      "evidence": {
+        "philly": {"venue": "TLA", "cap": 1000, "getIn": 79, "listings": 12},
+        "boston": {"venue": "Royale", "cap": 775, "getIn": 64, "listings": 8},
+        "dallas": {"venue": "Echo Lounge", "cap": 1000, "getIn": 42, "listings": 28}
+      },
+      "pattern": "WOR$T GIRL tour. Small venue routing. NE premium.",
+      "bandsintown": true
+    }
+  ]
+}

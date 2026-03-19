@@ -1,6 +1,19 @@
 {
-  "timestamp": "2026-03-18T16:01:21.677Z",
+  "timestamp": "2026-03-19T00:01:54.300Z",
   "shows": [
+    {
+      "comedian": "Unknown",
+      "venue": "Comedy Works (Denver, cap: 320)",
+      "venueCapacity": 320,
+      "source": "twitter",
+      "text": "🚨Just Announced!🚨 Don't miss Jerrod Carmichael on stage in Denver at Comedy Works from April 2-4!\n\nTickets on sale now 🎟️: https://t.co/3jzVv9tnKl https://t.co/VyBLg5e3XM",
+      "url": "https://x.com/i/status/2034359718139863211",
+      "ticketUrl": "https://t.co/3jzVv9tnKl",
+      "engagement": 4,
+      "created": "2026-03-18T20:02:08.000Z",
+      "isSmallVenue": true,
+      "isNewAnnouncement": true
+    },
     {
       "comedian": "Nate Bargatze",
       "venue": "Unknown venue",
@@ -13,19 +26,6 @@
       "created": "2026-03-12T16:22:04",
       "isSmallVenue": null,
       "isNewAnnouncement": true
-    },
-    {
-      "comedian": "Unknown",
-      "venue": "The Stand (New York, cap: 200)",
-      "venueCapacity": 200,
-      "source": "twitter",
-      "text": "Hey my Friend, I would really appreciate your help with the algorithm so more people who follow me are able to see this. In a few hours I am headlining at the StandUpLive comedy Club in Phoenix Arizon",
-      "url": "https://x.com/i/status/2034253490684658143",
-      "ticketUrl": "https://t.co/kzkLOBA0T0",
-      "engagement": 55,
-      "created": "2026-03-18T13:00:01.000Z",
-      "isSmallVenue": true,
-      "isNewAnnouncement": false
     },
     {
       "comedian": "Bert Kreischer",
@@ -72,10 +72,10 @@
       "venueCapacity": null,
       "source": "twitter",
       "text": "I’ve got 3x tickets for Matt Rife on 22 April 2026 at 3Arena, Dublin via Ticketmaster. Hmu #ticketforsale",
-      "url": "https://x.com/i/status/2034264565593125177",
+      "url": "https://x.com/i/status/2034387964273262608",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-03-18T13:44:01.000Z",
+      "created": "2026-03-18T21:54:22.000Z",
       "isSmallVenue": null,
       "isNewAnnouncement": false
     },
@@ -136,11 +136,11 @@
       "venue": "Zanies (Nashville, cap: 300)",
       "venueCapacity": 300,
       "source": "brave",
-      "text": "<strong>Once tickets are purchased the ONLY thing you will show once doors open is the ticket purchaser&#x27;s driver&#x27;s license to get in</strong>. There is nothing to print or pick up ahead of t",
-      "url": "https://nashville.zanies.com/show/category/series/2026-t-j-miller-1/zanies/nashville-tennessee/",
+      "text": "Once tickets are purchased, the ONLY thing you will show once doors open is the ticket purchaser’s driver’s license and everyone in your party will need to show a valid Photo ID for proof of age. Ther",
+      "url": "https://chicago.zanies.com/calendar/category/series/2026-ian-lara/zanies-comedy-club-chicago/chicago-illinois/",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-03-16T21:09:04",
+      "created": "2026-03-12T14:05:55",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     },
@@ -154,6 +154,19 @@
       "ticketUrl": null,
       "engagement": 0,
       "created": "2026-03-17T01:02:21",
+      "isSmallVenue": true,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Unknown",
+      "venue": "The Stand (New York, cap: 200)",
+      "venueCapacity": 200,
+      "source": "brave",
+      "text": "He&#x27;s a comedian who really knows how to make people laugh with his clever jokes. If you want to see more great comedy acts like this, check out our website for upcoming shows and tickets! Right t",
+      "url": "https://www.comedyinyoureye.com/post/catch-the-latest-stand-up-comedy-our-top-picks-for-2026",
+      "ticketUrl": null,
+      "engagement": 0,
+      "created": "2026-03-17T07:30:09",
       "isSmallVenue": true,
       "isNewAnnouncement": false
     },

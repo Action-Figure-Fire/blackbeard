@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "description": "Artist sales performance tracking from Zach's actual ticket data",
+    "marketTier": "Pittsburgh is a mid-tier market (~25th US metro). Strong sales here = stronger sales in top-tier cities.",
+    "multiplierLogic": "If selling well in Pittsburgh → flag as HIGH CONFIDENCE for NYC, LA, Chicago, Boston, Philly, DC",
+    "topTierMarkets": ["New York", "Los Angeles", "Chicago", "Boston", "Philadelphia", "Washington DC", "San Francisco", "Seattle", "Denver", "Nashville"],
+    "lastUpdated": null
+  },
+  "artists": {},
+  "venues": {
+    "stage-ae": {
+      "name": "Stage AE",
+      "city": "Pittsburgh",
+      "capacity": 5500,
+      "marketTier": "mid",
+      "notes": "Indoor/outdoor, North Shore. Zach's home venue."
+    }
+  }
+}
