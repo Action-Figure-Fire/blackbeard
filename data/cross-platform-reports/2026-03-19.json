@@ -1,53 +1,66 @@
 {
-  "timestamp": "2026-03-19T21:56:58.064Z",
-  "dualPlatform": [
-    {
-      "artist": "Zara Larsson",
-      "stubhub": [
-        {
-          "venue": "Brooklyn Paramount",
-          "market": "Brooklyn",
-          "getIn": 297.64,
-          "date": "2026-03-26"
-        },
-        {
-          "venue": "Brooklyn Paramount",
-          "market": "Brooklyn",
-          "getIn": 258.05,
-          "date": "2026-03-27"
-        },
-        {
-          "venue": "The Anthem DC",
-          "market": "Washington DC",
-          "getIn": 207.27,
-          "date": "2026-03-31"
-        },
-        {
-          "venue": "Stubbs Austin",
-          "market": "Austin",
-          "getIn": 163.56,
-          "date": "2026-04-10"
-        }
-      ],
+  "timestamp": "2026-03-19T22:10:00Z",
+  "artists": {
+    "Masayoshi Takanaka": {
+      "performerId": 203924,
+      "totalShows": 6,
+      "usOnly": true,
       "vivid": [
         {
-          "venue": "House of Blues Boston",
-          "city": "Boston",
-          "getIn": 230.3,
-          "listings": 32
+          "venue": "Brooklyn Paramount",
+          "city": "Brooklyn",
+          "getIn": 430.22,
+          "listings": 23,
+          "tix": 61,
+          "date": "2026-04-04",
+          "cap": null
         },
         {
-          "venue": "Bomb Factory",
-          "city": "Dallas",
-          "getIn": 128.38,
-          "listings": 21
+          "venue": "Brooklyn Paramount",
+          "city": "Brooklyn",
+          "getIn": 342.02,
+          "listings": 7,
+          "tix": 32,
+          "date": "2026-04-05",
+          "cap": null
+        },
+        {
+          "venue": "Aragon Ballroom",
+          "city": "Chicago",
+          "getIn": 283.22,
+          "listings": 20,
+          "tix": 91,
+          "date": "2026-04-07",
+          "cap": 4500
+        },
+        {
+          "venue": "Masonic SF",
+          "city": "San Francisco",
+          "getIn": 273.42,
+          "listings": 43,
+          "tix": 173,
+          "date": "2026-04-09",
+          "cap": 3481
+        },
+        {
+          "venue": "Hollywood Palladium",
+          "city": "Los Angeles",
+          "getIn": 196,
+          "listings": 38,
+          "tix": 121,
+          "date": "2026-04-12",
+          "cap": 3700
+        },
+        {
+          "venue": "Hollywood Palladium",
+          "city": "Los Angeles",
+          "getIn": 191.1,
+          "listings": 68,
+          "tix": 191,
+          "date": "2026-04-13",
+          "cap": 3700
         }
-      ]
-    }
-  ],
-  "stubhubOnly": [
-    {
-      "artist": "Masayoshi Takanaka",
+      ],
       "stubhub": [
         {
           "venue": "Masonic SF",
@@ -56,31 +69,143 @@
           "date": "2026-04-09"
         },
         {
-          "venue": "Aragon Ballroom Chicago",
+          "venue": "Aragon Ballroom",
           "market": "Chicago",
           "getIn": 278.3,
           "date": "2026-04-07"
         }
       ],
-      "vivid": null
+      "dualConfirmed": true,
+      "priceRange": [
+        191,
+        430
+      ]
     },
-    {
-      "artist": "Mariah the Scientist",
+    "Hayley Williams": {
+      "performerId": 128120,
+      "totalShows": 25,
+      "topVivid": [
+        {
+          "venue": "Van Buren",
+          "city": "Phoenix",
+          "getIn": 276,
+          "listings": 16,
+          "date": "2026-05-05"
+        },
+        {
+          "venue": "Fillmore Silver Spring",
+          "city": "DC",
+          "getIn": 261,
+          "listings": 5,
+          "date": "2026-04-15"
+        },
+        {
+          "venue": "Hammerstein NYC",
+          "city": "New York",
+          "getIn": 186.2,
+          "listings": 20,
+          "date": "2026-04-09"
+        },
+        {
+          "venue": "HoB Boston N2",
+          "city": "Boston",
+          "getIn": 164.64,
+          "listings": 54,
+          "date": "2026-04-04"
+        },
+        {
+          "venue": "Ryman Nashville N1",
+          "city": "Nashville",
+          "getIn": 161.5,
+          "listings": 100,
+          "date": "2026-04-25"
+        }
+      ],
       "stubhub": [
         {
-          "venue": "Coca-Cola Roxy Atlanta",
+          "venue": "Tabernacle",
+          "market": "Atlanta",
+          "getIn": 212,
+          "date": "N1"
+        },
+        {
+          "venue": "Tabernacle",
+          "market": "Atlanta",
+          "getIn": 228,
+          "date": "N2"
+        },
+        {
+          "venue": "HoB Boston",
+          "market": "Boston",
+          "getIn": 156
+        },
+        {
+          "venue": "Aragon Chicago",
+          "market": "Chicago",
+          "getIn": 113
+        }
+      ],
+      "dualConfirmed": true,
+      "priceRange": [
+        110,
+        276
+      ]
+    },
+    "Mariah the Scientist": {
+      "performerId": 127359,
+      "totalShows": 21,
+      "topVivid": [
+        {
+          "venue": "Fillmore New Orleans",
+          "city": "New Orleans",
+          "getIn": 304.78,
+          "listings": 9,
+          "date": "2026-04-07"
+        },
+        {
+          "venue": "Coca-Cola Roxy",
+          "city": "Atlanta",
+          "getIn": 290,
+          "listings": 21,
+          "date": "2026-04-11"
+        },
+        {
+          "venue": "Coca-Cola Roxy",
+          "city": "Atlanta",
+          "getIn": 283,
+          "listings": 23,
+          "date": "2026-04-10"
+        },
+        {
+          "venue": "Bayou Music Center",
+          "city": "Houston",
+          "getIn": 250.88,
+          "listings": 45,
+          "date": "2026-04-04"
+        },
+        {
+          "venue": "Honolulu N2",
+          "city": "Honolulu",
+          "getIn": 207,
+          "listings": 4,
+          "date": "2026-05-23"
+        }
+      ],
+      "stubhub": [
+        {
+          "venue": "Coca-Cola Roxy",
           "market": "Atlanta",
           "getIn": 287.23,
           "date": "2026-04-11"
         },
         {
-          "venue": "Coca-Cola Roxy Atlanta",
+          "venue": "Coca-Cola Roxy",
           "market": "Atlanta",
           "getIn": 252.11,
           "date": "2026-04-10"
         },
         {
-          "venue": "Stubbs Austin",
+          "venue": "Stubbs",
           "market": "Austin",
           "getIn": 189.43,
           "date": "2026-04-03"
@@ -92,10 +217,34 @@
           "date": "2026-03-24"
         }
       ],
-      "vivid": null
+      "dualConfirmed": true,
+      "priceRange": [
+        49,
+        305
+      ]
     },
-    {
-      "artist": "Hearts2Hearts",
+    "Hearts2Hearts": {
+      "performerId": 503335,
+      "totalShows": 2,
+      "genre": "K-pop",
+      "vivid": [
+        {
+          "venue": "Brooklyn Paramount",
+          "city": "Brooklyn",
+          "getIn": 363,
+          "listings": 1,
+          "tix": 1,
+          "date": "2026-03-19"
+        },
+        {
+          "venue": "Wiltern LA",
+          "city": "Los Angeles",
+          "getIn": 191.1,
+          "listings": 13,
+          "tix": 25,
+          "date": "2026-03-22"
+        }
+      ],
       "stubhub": [
         {
           "venue": "Brooklyn Paramount",
@@ -110,33 +259,12 @@
           "date": "2026-03-22"
         }
       ],
-      "vivid": null
+      "dualConfirmed": true,
+      "priceRange": [
+        191,
+        363
+      ],
+      "note": "Brooklyn price jumped 66% (18→63) between StubHub and Vivid pulls same day"
     }
-  ],
-  "vividOnly": [
-    {
-      "artist": "Hayley Williams",
-      "stubhub": null,
-      "vivid": [
-        {
-          "venue": "House of Blues Boston",
-          "city": "Boston",
-          "getIn": 155.82,
-          "listings": 39
-        },
-        {
-          "venue": "House of Blues Boston",
-          "city": "Boston",
-          "getIn": 156.8,
-          "listings": 53
-        },
-        {
-          "venue": "Franklin Music Hall",
-          "city": "Philly",
-          "getIn": 125.44,
-          "listings": 12
-        }
-      ]
-    }
-  ]
+  }
 }
