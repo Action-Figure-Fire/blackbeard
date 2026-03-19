@@ -1,0 +1,92 @@
+{
+  "description": "Comedy club/improv venues across 5 major US cities — Vivid Seats API IDs verified",
+  "updated": "2026-03-19T22:54:06.631Z",
+  "purpose": "Monitor for comedians blowing up at small rooms before they graduate to theaters/arenas. When a comedian has high secondary prices HERE, they are about to explode.",
+  "cities": {
+    "Los Angeles": [
+      {
+        "id": 15380,
+        "name": "The Comedy Store",
+        "cap": 450,
+        "shows": 12,
+        "note": "THE comedy club. Every big comedian has a story here"
+      },
+      {
+        "id": 16602,
+        "name": "Improv Comedy Club Hollywood",
+        "cap": 400,
+        "shows": 57,
+        "note": "Major touring comics do weekends here"
+      },
+      {
+        "id": 23234,
+        "name": "Laugh Factory Hollywood",
+        "cap": 280,
+        "shows": 6,
+        "note": "Netflix Is A Joke Fest venue"
+      }
+    ],
+    "Chicago": [
+      {
+        "id": 15374,
+        "name": "Zanies Comedy Club",
+        "cap": 200,
+        "shows": 9,
+        "note": "Intimate room, legendary"
+      },
+      {
+        "id": 11292,
+        "name": "Second City / UP Comedy Club",
+        "cap": 300,
+        "shows": 85,
+        "note": "Improv institution, massive show volume"
+      }
+    ],
+    "Nashville": [
+      {
+        "id": 13726,
+        "name": "Zanies Comedy Club",
+        "cap": 300,
+        "shows": 25,
+        "note": "Only dedicated comedy club in Nashville"
+      }
+    ],
+    "Washington DC": [
+      {
+        "id": 8533,
+        "name": "DC Improv",
+        "cap": 300,
+        "shows": 82,
+        "note": "DC premium market + high show volume = goldmine"
+      }
+    ],
+    "Philadelphia": [
+      {
+        "id": 11162,
+        "name": "Helium Comedy Club",
+        "cap": 325,
+        "shows": 97,
+        "note": "Highest show volume of any club. Comics test material here"
+      }
+    ],
+    "San Francisco": [
+      {
+        "id": 3938,
+        "name": "Punch Line SF",
+        "cap": 182,
+        "shows": 98,
+        "note": "Tiny room, high volume. Legendary SF comedy"
+      },
+      {
+        "id": 3279,
+        "name": "Cobbs Comedy Club",
+        "cap": 400,
+        "shows": 125,
+        "note": "MOST shows of any club. Every touring comic hits Cobbs"
+      }
+    ]
+  },
+  "totalVenues": 10,
+  "totalUpcomingShows": 596,
+  "note": "NYC comedy clubs (Comedy Cellar, Gotham) sell direct and dont list on secondary market. Not scannable via this method."
+}
