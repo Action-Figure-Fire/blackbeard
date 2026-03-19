@@ -1,37 +1,31 @@
 {
-  "timestamp": "2026-03-13T15:55:46.630Z",
+  "timestamp": "2026-03-19T19:58:38.972Z",
   "predictions": [
     {
-      "artist": "Chappell Roan",
-      "score": 58,
-      "verdict": "GOOD CHANCE",
-      "emoji": "🟡",
-      "confidence": "Moderate",
+      "artist": "fakemink",
+      "score": 33,
+      "verdict": "POSSIBLE",
+      "emoji": "🔵",
+      "confidence": "Low-Moderate",
       "factors": [
-        "40.0M monthly listeners — superstar demand",
-        "8.0M Spotify followers — committed fans",
-        "⚠️ Only 3 shows for 40.0M listeners — severe undersupply",
-        "💰 Resale prices spotted up to $350",
+        "9.1M monthly listeners — strong",
+        "⚠️ 9.1M listeners in 1227-cap venues — undersized",
         "📈 Billboard Hot 100 / #1 hit",
         "🎤 Support tour slot — headline tour incoming",
-        "📡 Reddit hype: 51/100 — 6 mentions in 3 subreddits",
-        "Some similarity to Olivia Rodrigo's mid breakout (35%)",
-        "Very close to Olivia Rodrigo's mid-breakout metrics. Olivia Rodrigo was headlining amphitheaters within months. Sellouts are imminent.",
-        "📉 Prices declining: $625 → $404 — cooling demand",
-        "🔴 6 historical sold-out snapshots (Wayback verified)",
-        "🟡 Reddit LIKELY sellout (2 sources — needs more confirmation)",
-        "💰 Reddit consensus: $95-$180 (median $125, 4 posts)"
+        "📡 Reddit hype: 60/100 — 9 mentions in 9 subreddits",
+        "Some similarity to Tyler Childers's mid breakout (32%)",
+        "Very close to Tyler Childers's mid-breakout metrics. Tyler Childers was headlining amphitheaters within months. Sellouts are imminent."
       ],
       "warnings": [
         "No resale pricing data available"
       ],
       "data": {
-        "monthlyListeners": 40000000,
-        "spotifyFollowers": 8000000,
+        "monthlyListeners": 9100000,
+        "spotifyFollowers": 441786,
         "tiktokFollowers": 0,
         "instagramFollowers": 0,
         "youtubeSubscribers": 0,
-        "upcomingShows": 3,
+        "upcomingShows": 39,
         "avgPrice": null,
         "peakPrice": 0,
         "soldOutMentions": 0,
@@ -39,46 +33,47 @@
         "velocityStage": null,
         "patternMatches": [
           {
-            "referenceArtist": "Olivia Rodrigo",
-            "referenceGenre": "pop",
-            "breakoutYear": 2021,
+            "referenceArtist": "Tyler Childers",
+            "referenceGenre": "country/folk",
+            "breakoutYear": 2022,
             "stage": "MID_BREAKOUT",
-            "stageLabel": "Olivia Rodrigo 3-1mo before breakout",
-            "similarity": 35,
-            "matchedDimensions": 1,
-            "totalDimensions": 1,
-            "reasons": [
-              "listeners 40.0M vs 40.0M"
-            ],
-            "prediction": "Very close to Olivia Rodrigo's mid-breakout metrics. Olivia Rodrigo was headlining amphitheaters within months. Sellouts are imminent."
-          },
-          {
-            "referenceArtist": "Teddy Swims",
-            "referenceGenre": "soul/R&B/pop",
-            "breakoutYear": 2023,
-            "stage": "PEAK_BREAKOUT",
-            "stageLabel": "Teddy Swims at peak breakout",
+            "stageLabel": "Tyler Childers 3-1mo before breakout",
             "similarity": 32,
             "matchedDimensions": 1,
-            "totalDimensions": 1,
+            "totalDimensions": 2,
             "reasons": [
-              "listeners 40.0M vs 38.0M"
+              "listeners 9.1M vs 8.5M"
             ],
-            "prediction": "Already at Teddy Swims's breakout level. Should be selling out venues at or above this tier."
+            "prediction": "Very close to Tyler Childers's mid-breakout metrics. Tyler Childers was headlining amphitheaters within months. Sellouts are imminent."
           },
           {
-            "referenceArtist": "Sabrina Carpenter",
+            "referenceArtist": "Chappell Roan",
             "referenceGenre": "pop",
             "breakoutYear": 2024,
-            "stage": "EARLY_BREAKOUT",
-            "stageLabel": "Sabrina Carpenter 6-3mo before breakout",
-            "similarity": 29,
+            "stage": "MID_BREAKOUT",
+            "stageLabel": "Chappell Roan 3-1mo before breakout",
+            "similarity": 30,
             "matchedDimensions": 1,
-            "totalDimensions": 1,
+            "totalDimensions": 2,
             "reasons": [
-              "listeners 40.0M vs 35.4M"
+              "listeners 9.1M vs 10.0M"
             ],
-            "prediction": "Tracking Sabrina Carpenter's early breakout pattern. Sabrina Carpenter was selling out theaters 3-6 months after this stage. This is the BUY window."
+            "prediction": "Very close to Chappell Roan's mid-breakout metrics. Chappell Roan was headlining amphitheaters within months. Sellouts are imminent."
+          },
+          {
+            "referenceArtist": "Zach Bryan",
+            "referenceGenre": "country/folk",
+            "breakoutYear": 2022,
+            "stage": "EARLY_BREAKOUT",
+            "stageLabel": "Zach Bryan 6-3mo before breakout",
+            "similarity": 30,
+            "matchedDimensions": 1,
+            "totalDimensions": 2,
+            "reasons": [
+              "listeners in range (9.1M vs 3.0M)",
+              "venue size similar (1226.6666666666667 vs 2000 cap)"
+            ],
+            "prediction": "Tracking Zach Bryan's early breakout pattern. Zach Bryan was selling out theaters 3-6 months after this stage. This is the BUY window."
           }
         ]
       }

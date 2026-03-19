@@ -1,19 +1,6 @@
 {
-  "timestamp": "2026-03-19T00:01:54.300Z",
+  "timestamp": "2026-03-19T12:02:41.728Z",
   "shows": [
-    {
-      "comedian": "Unknown",
-      "venue": "Comedy Works (Denver, cap: 320)",
-      "venueCapacity": 320,
-      "source": "twitter",
-      "text": "🚨Just Announced!🚨 Don't miss Jerrod Carmichael on stage in Denver at Comedy Works from April 2-4!\n\nTickets on sale now 🎟️: https://t.co/3jzVv9tnKl https://t.co/VyBLg5e3XM",
-      "url": "https://x.com/i/status/2034359718139863211",
-      "ticketUrl": "https://t.co/3jzVv9tnKl",
-      "engagement": 4,
-      "created": "2026-03-18T20:02:08.000Z",
-      "isSmallVenue": true,
-      "isNewAnnouncement": true
-    },
     {
       "comedian": "Nate Bargatze",
       "venue": "Unknown venue",
@@ -38,6 +25,19 @@
       "engagement": 1,
       "created": "2026-03-17T13:41:50.000Z",
       "isSmallVenue": null,
+      "isNewAnnouncement": false
+    },
+    {
+      "comedian": "Unknown",
+      "venue": "Punchline (San Francisco, cap: 250)",
+      "venueCapacity": 250,
+      "source": "twitter",
+      "text": "Kumasi, get ready to laugh out loud!\n\nThe city is about to experience a night of nonstop comedy, crazy punchlines, and pure entertainment\n\nSecure your tickets on https://t.co/pD3GNaqqve\nOr dial *713*3",
+      "url": "https://x.com/i/status/2034596408355963294",
+      "ticketUrl": "https://t.co/pD3GNaqqve",
+      "engagement": 0,
+      "created": "2026-03-19T11:42:39.000Z",
+      "isSmallVenue": true,
       "isNewAnnouncement": false
     },
     {
@@ -71,11 +71,11 @@
       "venue": "Unknown venue",
       "venueCapacity": null,
       "source": "twitter",
-      "text": "I’ve got 3x tickets for Matt Rife on 22 April 2026 at 3Arena, Dublin via Ticketmaster. Hmu #ticketforsale",
-      "url": "https://x.com/i/status/2034387964273262608",
+      "text": "I’ve got 3x Matt Rife Tickets\n\nApr 11, 23: The O2, London. \nApr 24: AO Arena, Manchester. \nApr 25: OVO Hydro, Glasgow. \n\nHmu #Ticketforsale",
+      "url": "https://x.com/i/status/2034578328880030191",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-03-18T21:54:22.000Z",
+      "created": "2026-03-19T10:30:48.000Z",
       "isSmallVenue": null,
       "isNewAnnouncement": false
     },
@@ -110,11 +110,11 @@
       "venue": "Unknown venue",
       "venueCapacity": null,
       "source": "brave",
-      "text": "Fresh from the success of her Netflix Stand- Special, Taylor Tomlinson is hitting the stage in a city you! Get your tickets today. Don&#x27;t miss out on this show.",
-      "url": "https://www.taylortomlinsontour2024.com/",
+      "text": "Taylor Tomlinson&#x27;s 2026 comedy tour is bringing laughs across the country - Tickets are available now! Click for Taylor Tomlinson Tour 2026 info &amp; tickets!",
+      "url": "https://www.taylortomlinsontour2025.com/",
       "ticketUrl": null,
       "engagement": 0,
-      "created": "2026-03-13T04:54:22",
+      "created": "2026-03-13T04:45:28",
       "isSmallVenue": null,
       "isNewAnnouncement": false
     },

@@ -2833,9 +2833,9 @@
     ]
   },
   "michael blaustein": {
-    "monthlyListeners": null,
-    "spotifyFollowers": 3500000,
-    "instagramFollowers": null,
+    "monthlyListeners": 11,
+    "spotifyFollowers": null,
+    "instagramFollowers": 2000000,
     "tiktokFollowers": null,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
@@ -2861,63 +2861,278 @@
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/2J3pFVWs2oEYp6an6QTANn",
-    "_cachedAt": "2026-03-06T16:39:04.445Z"
+    "_cachedAt": "2026-03-19T10:00:07.168Z",
+    "_upcomingShows": 8,
+    "_tourDates": [
+      {
+        "title": "Michael Blaustein",
+        "date": "2026-04-10",
+        "venue": "Bing Crosby Theater",
+        "city": "Spokane, WA",
+        "capacity": 0,
+        "score": 0.3237841255,
+        "url": "https://seatgeek.com/michael-blaustein-tickets/comedy/2026-04-09-7-pm/17952423"
+      },
+      {
+        "title": "Michael Blaustein",
+        "date": "2026-04-11",
+        "venue": "Moore Theatre - Seattle",
+        "city": "Seattle, WA",
+        "capacity": 1420,
+        "score": 0.3945386025,
+        "url": "https://seatgeek.com/michael-blaustein-tickets/comedy/2026-04-10-7-pm/17952434"
+      },
+      {
+        "title": "Michael Blaustein",
+        "date": "2026-04-12",
+        "venue": "McDonald Theatre",
+        "city": "Eugene, OR",
+        "capacity": 1250,
+        "score": 0.2999457765,
+        "url": "https://seatgeek.com/michael-blaustein-tickets/comedy/2026-04-11-7-pm/17952424"
+      },
+      {
+        "title": "Trevor Wallace with Michael Blaustein",
+        "date": "2026-04-25",
+        "venue": "District Music Hall",
+        "city": "Norwalk, CT",
+        "capacity": 0,
+        "score": 0.3673228353,
+        "url": "https://seatgeek.com/trevor-wallace-tickets/comedy/2026-04-25-7-30-pm/18120483"
+      },
+      {
+        "title": "Michael Blaustein",
+        "date": "2026-05-09",
+        "venue": "Massey Theatre",
+        "city": "New Westminster, BC",
+        "capacity": 0,
+        "score": 0.2719043187,
+        "url": "https://seatgeek.com/michael-blaustein-tickets/comedy/2026-05-08-7-pm/17952426"
+      },
+      {
+        "title": "Michael Blaustein",
+        "date": "2026-05-10",
+        "venue": "MacEwan Hall - Calgary, AB",
+        "city": "Calgary, AB",
+        "capacity": 0,
+        "score": 0.2691183759,
+        "url": "https://seatgeek.com/michael-blaustein-tickets/comedy/2026-05-09-7-pm/17952427"
+      },
+      {
+        "title": "Michael Blaustein",
+        "date": "2026-06-28",
+        "venue": "Hollywood Casino",
+        "city": "Joliet, IL",
+        "capacity": 0,
+        "score": 0.2771889634,
+        "url": "https://seatgeek.com/michael-blaustein-tickets/comedy/2026-06-27-7-pm/18094079"
+      },
+      {
+        "title": "Michael Blaustein",
+        "date": "2026-10-11",
+        "venue": "The Wilbur",
+        "city": "Boston, MA",
+        "capacity": 0,
+        "score": 0.3237692544,
+        "url": "https://seatgeek.com/michael-blaustein-tickets/comedy/2026-10-10-9-45-pm/18095678"
+      }
+    ]
   },
   "stavros halkias": {
-    "monthlyListeners": 60,
-    "spotifyFollowers": 903000,
-    "instagramFollowers": 903000,
+    "monthlyListeners": 35,
+    "spotifyFollowers": null,
+    "instagramFollowers": 925000,
     "tiktokFollowers": 155200,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
     "albumCount": null,
     "genres": [],
-    "soldOutMentions": 2,
+    "soldOutMentions": 1,
     "soldOutSnippets": [
       {
         "title": "Stavros Halkias Tour 2026: Dates, Tickets and What to Expect - stavros halkias tour",
         "snippet": "With tickets to Stavros Halkias shows in high demand, it’s always smart to buy your Stavros Halkias tickets early. Concerts and comedy shows tend to s",
         "url": "https://stavroshalkiastour.org/"
-      },
-      {
-        "title": "Stavros Halkias Tickets, Comedy Shows & 2026 Tour Dates",
-        "snippet": "Tickets to see Stavros Halkias are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tick",
-        "url": "https://www.eventticketscenter.com/stavros-halkias-tickets/13091/c"
       }
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/12bGiVMLi735w6EECUorXu",
-    "_cachedAt": "2026-03-06T16:39:06.394Z"
+    "_cachedAt": "2026-03-19T10:00:10.102Z",
+    "_upcomingShows": 18,
+    "_tourDates": [
+      {
+        "title": "Stavros Halkias",
+        "date": "2026-03-29",
+        "venue": "Radio City Music Hall",
+        "city": "New York, NY",
+        "capacity": 6015,
+        "score": 0.5734345989,
+        "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2026-03-28-8-pm/17851069"
+      },
+      {
+        "title": "Stavros Halkias",
+        "date": "2026-04-02",
+        "venue": "The Plaza Live",
+        "city": "Orlando, FL",
+        "capacity": 0,
+        "score": 0.3908196366,
+        "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2026-04-02-7-pm/17853710"
+      },
+      {
+        "title": "Stavros Halkias",
+        "date": "2026-04-03",
+        "venue": "Florida Theatre Jacksonville",
+        "city": "Jacksonville, FL",
+        "capacity": 0,
+        "score": 0.2931479735,
+        "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2026-04-03-7-pm/17851332"
+      },
+      {
+        "title": "Stavros Halkias",
+        "date": "2026-04-04",
+        "venue": "The Tabernacle Atlanta",
+        "city": "Atlanta, GA",
+        "capacity": 2600,
+        "score": 0.4416970887,
+        "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2026-04-04-7-pm/17850833"
+      },
+      {
+        "title": "Stavros Halkias",
+        "date": "2026-04-05",
+        "venue": "The Tabernacle Atlanta",
+        "city": "Atlanta, GA",
+        "capacity": 2600,
+        "score": 0.4566058227,
+        "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2026-04-04-9-30-pm/18091088"
+      },
+      {
+        "title": "Stavros Halkias",
+        "date": "2026-04-07",
+        "venue": "Metropolitan Theatre - Morgantown",
+        "city": "Morgantown, WV",
+        "capacity": 0,
+        "score": 0.3167050295,
+        "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2026-04-07-7-pm/17851085"
+      },
+      {
+        "title": "Stavros Halkias",
+        "date": "2026-04-08",
+        "venue": "The Clyde Theatre - Fort Wayne, IN",
+        "city": "Fort Wayne, IN",
+        "capacity": 0,
+        "score": 0.3098950378,
+        "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2026-04-08-7-pm/17852363"
+      },
+      {
+        "title": "Stavros Halkias",
+        "date": "2026-04-09",
+        "venue": "Buskirk-Chumley Theater",
+        "city": "Bloomington, IN",
+        "capacity": 0,
+        "score": 0.2869418488,
+        "url": "https://seatgeek.com/stavros-halkias-tickets/comedy/2026-04-09-7-pm/17853715"
+      }
+    ]
   },
   "jordan jensen": {
-    "monthlyListeners": null,
+    "monthlyListeners": 54,
     "spotifyFollowers": null,
-    "instagramFollowers": null,
-    "tiktokFollowers": null,
+    "instagramFollowers": 733000,
+    "tiktokFollowers": 571000,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
     "albumCount": null,
     "genres": [],
-    "soldOutMentions": 2,
+    "soldOutMentions": 1,
     "soldOutSnippets": [
       {
         "title": "Jordan Jensen Tour 2026 - Get Your Tickets Now",
         "snippet": "Built in New York clubs and strengthened by viral clips and sold-out weekends, Jensen’s live show has grown from intimate rooms to marquee stages, pic",
         "url": "https://www.jordanjensentour.com/tour"
-      },
-      {
-        "title": "Jordan Jensen Tickets, Comedy Shows & 2026 Tour Dates",
-        "snippet": "Tickets to see Jordan Jensen are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has ticket",
-        "url": "https://www.eventticketscenter.com/jordan-jensen-tickets/17617/c"
       }
     ],
     "topSong": null,
-    "spotifyUrl": null,
-    "_cachedAt": "2026-03-06T16:39:08.243Z"
+    "spotifyUrl": "https://open.spotify.com/artist/0G9Ny6eqstlR3hFdGupM5X",
+    "_cachedAt": "2026-03-19T10:00:15.937Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Jordan Jensen",
+        "date": "2026-03-19",
+        "venue": "The Danforth Music Hall",
+        "city": "Toronto, ON",
+        "capacity": 1500,
+        "score": 0.3404168748,
+        "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-19-6-30-pm/17948682"
+      },
+      {
+        "title": "Jordan Jensen",
+        "date": "2026-03-20",
+        "venue": "The Danforth Music Hall",
+        "city": "Toronto, ON",
+        "capacity": 1500,
+        "score": 0.2606187873,
+        "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-19-9-pm/18011868"
+      },
+      {
+        "title": "Jordan Jensen",
+        "date": "2026-03-20",
+        "venue": "The Wilbur",
+        "city": "Boston, MA",
+        "capacity": 0,
+        "score": 0.3324350503,
+        "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-20-7-30-pm/17709805"
+      },
+      {
+        "title": "Jordan Jensen",
+        "date": "2026-03-21",
+        "venue": "The Wilbur",
+        "city": "Boston, MA",
+        "capacity": 0,
+        "score": 0.3677240651,
+        "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-20-10-pm/17958611"
+      },
+      {
+        "title": "Jordan Jensen",
+        "date": "2026-03-21",
+        "venue": "The Historic Theater at The Music Hall",
+        "city": "Portsmouth, NH",
+        "capacity": 0,
+        "score": 0.3065444551,
+        "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-21-7-30-pm/17991638"
+      },
+      {
+        "title": "Jordan Jensen",
+        "date": "2026-03-22",
+        "venue": "The Historic Theater at The Music Hall",
+        "city": "Portsmouth, NH",
+        "capacity": 0,
+        "score": 0.3637365672,
+        "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-03-21-10-pm/18015639"
+      },
+      {
+        "title": "Jordan Jensen (21+)",
+        "date": "2026-05-03",
+        "venue": "Oxnard Levity Live",
+        "city": "Oxnard, CA",
+        "capacity": 0,
+        "score": 0.1917090757,
+        "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-05-02-7-pm/18105238"
+      },
+      {
+        "title": "Jordan Jensen (21+)",
+        "date": "2026-05-03",
+        "venue": "Oxnard Levity Live",
+        "city": "Oxnard, CA",
+        "capacity": 0,
+        "score": 0.177646654,
+        "url": "https://seatgeek.com/jordan-jensen-tickets/comedy/2026-05-02-9-pm/18105237"
+      }
+    ]
   },
   "josh johnson": {
-    "monthlyListeners": 28,
-    "spotifyFollowers": 656400,
+    "monthlyListeners": 11000,
+    "spotifyFollowers": null,
     "instagramFollowers": null,
     "tiktokFollowers": 19300000,
     "twitterFollowers": null,
@@ -2928,11 +3143,86 @@
     "soldOutSnippets": [],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/25XSZ0xFRu0lFRL3eqBPkc",
-    "_cachedAt": "2026-03-06T16:39:10.082Z"
+    "_cachedAt": "2026-03-19T10:00:18.802Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Josh Johnson",
+        "date": "2026-03-21",
+        "venue": "The Wiltern",
+        "city": "Los Angeles, CA",
+        "capacity": 2400,
+        "score": 0.4913883511,
+        "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-03-20-7-pm/18069054"
+      },
+      {
+        "title": "Josh Johnson",
+        "date": "2026-03-21",
+        "venue": "The Wiltern",
+        "city": "Los Angeles, CA",
+        "capacity": 2400,
+        "score": 0.4831402521,
+        "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-03-20-9-30-pm/18069051"
+      },
+      {
+        "title": "Josh Johnson (21+)",
+        "date": "2026-03-28",
+        "venue": "The Houston Improv",
+        "city": "Houston, TX",
+        "capacity": 0,
+        "score": 0.3184830991,
+        "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-03-27-7-pm/18111330"
+      },
+      {
+        "title": "Josh Johnson (21+)",
+        "date": "2026-03-28",
+        "venue": "The Houston Improv",
+        "city": "Houston, TX",
+        "capacity": 0,
+        "score": 0.3609943864,
+        "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-03-27-9-15-pm/18111331"
+      },
+      {
+        "title": "Josh Johnson (21+)",
+        "date": "2026-03-29",
+        "venue": "The Houston Improv",
+        "city": "Houston, TX",
+        "capacity": 0,
+        "score": 0.3117506874,
+        "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-03-28-7-pm/18111332"
+      },
+      {
+        "title": "Josh Johnson (21+)",
+        "date": "2026-03-29",
+        "venue": "The Houston Improv",
+        "city": "Houston, TX",
+        "capacity": 0,
+        "score": 0.3238835671,
+        "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-03-28-9-30-pm/18111333"
+      },
+      {
+        "title": "Josh Johnson (21+)",
+        "date": "2026-04-05",
+        "venue": "Raleigh Improv",
+        "city": "Cary, NC",
+        "capacity": 0,
+        "score": 0.2766168701,
+        "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-04-04-9-pm/18111334"
+      },
+      {
+        "title": "Josh Johnson",
+        "date": "2026-04-10",
+        "venue": "Comedy Zone Charlotte",
+        "city": "Charlotte, NC",
+        "capacity": 0,
+        "score": 0.3393125651,
+        "url": "https://seatgeek.com/josh-johnson-tickets/comedy/2026-04-10-7-pm/18092304"
+      }
+    ]
   },
   "druski": {
-    "monthlyListeners": 540,
-    "spotifyFollowers": 12600,
+    "monthlyListeners": 0,
+    "spotifyFollowers": null,
     "instagramFollowers": 12000000,
     "tiktokFollowers": 12600000,
     "twitterFollowers": null,
@@ -2943,7 +3233,9 @@
     "soldOutSnippets": [],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/4QXUDhKn7oIyfnaNEBkrkY",
-    "_cachedAt": "2026-03-06T16:39:12.129Z"
+    "_cachedAt": "2026-03-19T10:00:30.856Z",
+    "_upcomingShows": 0,
+    "_tourDates": []
   },
   "matt rife": {
     "monthlyListeners": null,
@@ -3366,12 +3658,12 @@
     ]
   },
   "gianmarco soresi": {
-    "monthlyListeners": 5000,
-    "spotifyFollowers": 1200000,
-    "instagramFollowers": 5000,
-    "tiktokFollowers": null,
+    "monthlyListeners": 16,
+    "spotifyFollowers": null,
+    "instagramFollowers": 1000000,
+    "tiktokFollowers": 27000000,
     "twitterFollowers": null,
-    "youtubeSubscribers": null,
+    "youtubeSubscribers": 100500000,
     "albumCount": null,
     "genres": [],
     "soldOutMentions": 1,
@@ -3384,13 +3676,178 @@
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/4XmoOoFzmlgZ5AdnqL9zT0",
-    "_cachedAt": "2026-03-06T16:39:37.729Z"
+    "_cachedAt": "2026-03-19T10:00:13.037Z",
+    "_upcomingShows": 10,
+    "_tourDates": [
+      {
+        "title": "Gianmarco Soresi",
+        "date": "2026-03-25",
+        "venue": "Knitting Factory Concert House - Boise",
+        "city": "Boise, ID",
+        "capacity": 0,
+        "score": 0.2990920854,
+        "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-03-24-8-pm/18109777"
+      },
+      {
+        "title": "Gianmarco Soresi",
+        "date": "2026-04-26",
+        "venue": "Varsity Theater - Minneapolis",
+        "city": "Minneapolis, MN",
+        "capacity": 300,
+        "score": 0.3514073657,
+        "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-04-25-7-pm/18035996"
+      },
+      {
+        "title": "Netflix Is A Joke Presents: Gianmarco Soresi: The Drama King Tour",
+        "date": "2026-05-06",
+        "venue": "The Belasco - Los Angeles",
+        "city": "Los Angeles, CA",
+        "capacity": 1000,
+        "score": 0.2088069499,
+        "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-05-7-pm/18103348"
+      },
+      {
+        "title": "Netflix Is A Joke Fest Presents: Gianmarco Soresi",
+        "date": "2026-05-07",
+        "venue": "The Belasco - Los Angeles",
+        "city": "Los Angeles, CA",
+        "capacity": 1000,
+        "score": 0.2319523452,
+        "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-06-7-pm/18021593"
+      },
+      {
+        "title": "Netflix Is A Joke Presents: Theater Adult with Gianmarco Soresi",
+        "date": "2026-05-08",
+        "venue": "The Regent Theater - Los Angeles",
+        "city": "Los Angeles, CA",
+        "capacity": 1100,
+        "score": 0.2281379444,
+        "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-07-7-pm/18103456"
+      },
+      {
+        "title": "Gianmarco Soresi",
+        "date": "2026-05-17",
+        "venue": "The Orange Peel",
+        "city": "Asheville, NC",
+        "capacity": 0,
+        "score": 0.1940579555,
+        "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-05-17-5-pm/18101993"
+      },
+      {
+        "title": "Gianmarco Soresi",
+        "date": "2026-05-18",
+        "venue": "The Orange Peel",
+        "city": "Asheville, NC",
+        "capacity": 0,
+        "score": 0.1669477231,
+        "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-05-17-8-pm/18069157"
+      },
+      {
+        "title": "Gianmarco Soresi",
+        "date": "2026-06-06",
+        "venue": "Mark Ridley's Comedy Castle",
+        "city": "Royal Oak, MI",
+        "capacity": 0,
+        "score": 0.1735425646,
+        "url": "https://seatgeek.com/gianmarco-soresi-tickets/comedy/2026-06-05-9-45-pm/18111443"
+      }
+    ]
   },
   "zarna garg": {
     "monthlyListeners": 770,
-    "spotifyFollowers": 1200000,
-    "instagramFollowers": null,
+    "spotifyFollowers": null,
+    "instagramFollowers": 920400,
     "tiktokFollowers": 1200000,
+    "twitterFollowers": null,
+    "youtubeSubscribers": 23300000,
+    "albumCount": null,
+    "genres": [],
+    "soldOutMentions": 0,
+    "soldOutSnippets": [],
+    "topSong": null,
+    "spotifyUrl": "https://open.spotify.com/artist/3oXZVj3uQJaflOwlna8vOs",
+    "_cachedAt": "2026-03-19T10:00:21.810Z",
+    "_upcomingShows": 25,
+    "_tourDates": [
+      {
+        "title": "Zarna Garg",
+        "date": "2026-03-21",
+        "venue": "The Barns at Wolf Trap",
+        "city": "Vienna, VA",
+        "capacity": 3527,
+        "score": 0.2903776575,
+        "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-21-4-pm/18025793"
+      },
+      {
+        "title": "Zarna Garg",
+        "date": "2026-03-21",
+        "venue": "The Barns at Wolf Trap",
+        "city": "Vienna, VA",
+        "capacity": 3527,
+        "score": 0.3160404945,
+        "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-21-7-pm/17924681"
+      },
+      {
+        "title": "Zarna Garg",
+        "date": "2026-03-22",
+        "venue": "The Barns at Wolf Trap",
+        "city": "Vienna, VA",
+        "capacity": 3527,
+        "score": 0.2994119143,
+        "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-22-4-pm/18025795"
+      },
+      {
+        "title": "Zarna Garg",
+        "date": "2026-03-22",
+        "venue": "The Barns at Wolf Trap",
+        "city": "Vienna, VA",
+        "capacity": 3527,
+        "score": 0.3329287262,
+        "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-22-7-pm/18025797"
+      },
+      {
+        "title": "Zarna Garg",
+        "date": "2026-03-28",
+        "venue": "The Vets - Veterans Memorial Auditorium",
+        "city": "Providence, RI",
+        "capacity": 0,
+        "score": 0.3182715429,
+        "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-03-28-4-pm/17994033"
+      },
+      {
+        "title": "Zarna Garg",
+        "date": "2026-04-03",
+        "venue": "Ponte Vedra Concert Hall",
+        "city": "Ponte Vedra Beach, FL",
+        "capacity": 0,
+        "score": 0.2660129117,
+        "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-04-03-7-pm/17967027"
+      },
+      {
+        "title": "Zarna Garg",
+        "date": "2026-04-03",
+        "venue": "Ponte Vedra Concert Hall",
+        "city": "Ponte Vedra Beach, FL",
+        "capacity": 0,
+        "score": 0.2805800283,
+        "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-04-03-7-pm/17969260"
+      },
+      {
+        "title": "Zarna Garg",
+        "date": "2026-04-04",
+        "venue": "The Plaza Live",
+        "city": "Orlando, FL",
+        "capacity": 0,
+        "score": 0.2762902433,
+        "url": "https://seatgeek.com/zarna-garg-tickets/comedy/2026-04-04-7-pm/17956906"
+      }
+    ]
+  },
+  "sam morril": {
+    "monthlyListeners": 868,
+    "spotifyFollowers": null,
+    "instagramFollowers": 947000,
+    "tiktokFollowers": null,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
     "albumCount": null,
@@ -3398,33 +3855,33 @@
     "soldOutMentions": 0,
     "soldOutSnippets": [],
     "topSong": null,
-    "spotifyUrl": "https://open.spotify.com/artist/3oXZVj3uQJaflOwlna8vOs",
-    "_cachedAt": "2026-03-06T16:39:39.607Z"
-  },
-  "sam morril": {
-    "monthlyListeners": 868,
-    "spotifyFollowers": 883200,
-    "instagramFollowers": 941000,
-    "tiktokFollowers": null,
-    "twitterFollowers": null,
-    "youtubeSubscribers": null,
-    "albumCount": null,
-    "genres": [],
-    "soldOutMentions": 1,
-    "soldOutSnippets": [
-      {
-        "title": "Sam Morril Tickets, Comedy Shows & 2025 Tour Dates",
-        "snippet": "Tickets to see Sam Morril are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets a",
-        "url": "https://www.eventticketscenter.com/sam-morril-tickets/11200/c"
-      }
-    ],
-    "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/708n869Bcog20Tx9q31nvC",
-    "_cachedAt": "2026-03-06T16:39:41.514Z"
+    "_cachedAt": "2026-03-19T10:00:25.335Z",
+    "_upcomingShows": 2,
+    "_tourDates": [
+      {
+        "title": "Netflix Is A Joke Fest Presents: Sam Morril, Jordan Jensen, Joe List, and more",
+        "date": "2026-05-08",
+        "venue": "The United Theater on Broadway",
+        "city": "Los Angeles, CA",
+        "capacity": 0,
+        "score": 0.2595015681,
+        "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-07-9-45-pm/18022017"
+      },
+      {
+        "title": "Sam Morril",
+        "date": "2026-06-07",
+        "venue": "The Event Center at Turning Stone Resort Casino",
+        "city": "Verona, NY",
+        "capacity": 0,
+        "score": 0.3158731908,
+        "url": "https://seatgeek.com/sam-morril-tickets/comedy/2026-06-06-8-pm/18126925"
+      }
+    ]
   },
   "atsuko okatsuka": {
-    "monthlyListeners": null,
-    "spotifyFollowers": 1100000,
+    "monthlyListeners": 2000,
+    "spotifyFollowers": null,
     "instagramFollowers": null,
     "tiktokFollowers": null,
     "twitterFollowers": null,
@@ -3441,12 +3898,87 @@
     ],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/2thvyY15zQf1lqmXo2DeBx",
-    "_cachedAt": "2026-03-06T16:39:43.462Z"
+    "_cachedAt": "2026-03-19T10:00:28.106Z",
+    "_upcomingShows": 16,
+    "_tourDates": [
+      {
+        "title": "Atsuko Okatsuka",
+        "date": "2026-03-21",
+        "venue": "McDonald Theatre",
+        "city": "Eugene, OR",
+        "capacity": 1250,
+        "score": 0.2946422408,
+        "url": "https://seatgeek.com/atsuko-okatsuka-tickets/comedy/2026-03-20-7-30-pm/17939449"
+      },
+      {
+        "title": "Atsuko Okatsuka",
+        "date": "2026-03-22",
+        "venue": "The Egyptian Theatre - Boise",
+        "city": "Boise, ID",
+        "capacity": 0,
+        "score": 0.3266569781,
+        "url": "https://seatgeek.com/atsuko-okatsuka-tickets/comedy/2026-03-21-7-pm/17939481"
+      },
+      {
+        "title": "Atsuko Okatsuka",
+        "date": "2026-04-07",
+        "venue": "The Bell House",
+        "city": "Brooklyn, NY",
+        "capacity": 0,
+        "score": 0.2726844095,
+        "url": "https://seatgeek.com/atsuko-okatsuka-tickets/comedy/2026-04-07-7-30-pm/18126878"
+      },
+      {
+        "title": "Atsuko Okatsuka",
+        "date": "2026-04-09",
+        "venue": "McCarter Theatre Center",
+        "city": "Princeton, NJ",
+        "capacity": 0,
+        "score": 0.2626710691,
+        "url": "https://seatgeek.com/atsuko-okatsuka-tickets/comedy/2026-04-09-7-30-pm/17967043"
+      },
+      {
+        "title": "Atsuko Okatsuka",
+        "date": "2026-04-10",
+        "venue": "UMass Amherst Fine Arts Center",
+        "city": "Amherst, MA",
+        "capacity": 0,
+        "score": 0.2621504396,
+        "url": "https://seatgeek.com/atsuko-okatsuka-tickets/comedy/2026-04-10-7-30-pm/17952414"
+      },
+      {
+        "title": "Atsuko Okatsuka",
+        "date": "2026-04-11",
+        "venue": "The Ridgefield Playhouse",
+        "city": "Ridgefield, CT",
+        "capacity": 0,
+        "score": 0.2597409564,
+        "url": "https://seatgeek.com/atsuko-okatsuka-tickets/comedy/2026-04-11-7-30-pm/17952416"
+      },
+      {
+        "title": "Atsuko Okatsuka",
+        "date": "2026-04-15",
+        "venue": "Funny Bone - Columbus",
+        "city": "Columbus, OH",
+        "capacity": 0,
+        "score": 0.2735615209,
+        "url": "https://seatgeek.com/atsuko-okatsuka-tickets/comedy/2026-04-15-7-pm/17983653"
+      },
+      {
+        "title": "Atsuko Okatsuka",
+        "date": "2026-04-16",
+        "venue": "Funny Bone - Columbus",
+        "city": "Columbus, OH",
+        "capacity": 0,
+        "score": 0.2573238925,
+        "url": "https://seatgeek.com/atsuko-okatsuka-tickets/comedy/2026-04-16-7-pm/17983654"
+      }
+    ]
   },
   "nate jackson": {
     "monthlyListeners": 489,
     "spotifyFollowers": null,
-    "instagramFollowers": 5000,
+    "instagramFollowers": 864000,
     "tiktokFollowers": null,
     "twitterFollowers": null,
     "youtubeSubscribers": null,
@@ -3456,7 +3988,82 @@
     "soldOutSnippets": [],
     "topSong": null,
     "spotifyUrl": "https://open.spotify.com/artist/3jW6htLMwsZugpMze9B9Kp",
-    "_cachedAt": "2026-03-06T16:39:45.312Z"
+    "_cachedAt": "2026-03-19T10:00:33.962Z",
+    "_upcomingShows": 19,
+    "_tourDates": [
+      {
+        "title": "Nate Jackson",
+        "date": "2026-03-20",
+        "venue": "Stress Factory Comedy Club - New Brunswick",
+        "city": "New Brunswick, NJ",
+        "capacity": 0,
+        "score": 0.3716704053,
+        "url": "https://seatgeek.com/nate-jackson-tickets/comedy/2026-03-20-7-pm/18094612"
+      },
+      {
+        "title": "Nate Jackson",
+        "date": "2026-03-21",
+        "venue": "Stress Factory Comedy Club - New Brunswick",
+        "city": "New Brunswick, NJ",
+        "capacity": 0,
+        "score": 0.3853740439,
+        "url": "https://seatgeek.com/nate-jackson-tickets/comedy/2026-03-20-9-30-pm/18094613"
+      },
+      {
+        "title": "Nate Jackson",
+        "date": "2026-03-21",
+        "venue": "Stress Factory Comedy Club - New Brunswick",
+        "city": "New Brunswick, NJ",
+        "capacity": 0,
+        "score": 0.3917519909,
+        "url": "https://seatgeek.com/nate-jackson-tickets/comedy/2026-03-21-7-pm/18094614"
+      },
+      {
+        "title": "Nate Jackson",
+        "date": "2026-03-22",
+        "venue": "Stress Factory Comedy Club - New Brunswick",
+        "city": "New Brunswick, NJ",
+        "capacity": 0,
+        "score": 0.3857918808,
+        "url": "https://seatgeek.com/nate-jackson-tickets/comedy/2026-03-21-9-30-pm/18094615"
+      },
+      {
+        "title": "Nate Jackson",
+        "date": "2026-03-22",
+        "venue": "Stress Factory Comedy Club - New Brunswick",
+        "city": "New Brunswick, NJ",
+        "capacity": 0,
+        "score": 0.4024814502,
+        "url": "https://seatgeek.com/nate-jackson-tickets/comedy/2026-03-22-7-30-pm/18094616"
+      },
+      {
+        "title": "Nate Jackson (21+)",
+        "date": "2026-03-28",
+        "venue": "San Jose Improv",
+        "city": "San Jose, CA",
+        "capacity": 0,
+        "score": 0.3764244448,
+        "url": "https://seatgeek.com/nate-jackson-tickets/comedy/2026-03-27-7-30-pm/18097350"
+      },
+      {
+        "title": "Nate Jackson (21+)",
+        "date": "2026-03-28",
+        "venue": "San Jose Improv",
+        "city": "San Jose, CA",
+        "capacity": 0,
+        "score": 0.3817736958,
+        "url": "https://seatgeek.com/nate-jackson-tickets/comedy/2026-03-27-9-45-pm/18097353"
+      },
+      {
+        "title": "Nate Jackson (21+)",
+        "date": "2026-03-29",
+        "venue": "San Jose Improv",
+        "city": "San Jose, CA",
+        "capacity": 0,
+        "score": 0.3449612776,
+        "url": "https://seatgeek.com/nate-jackson-tickets/comedy/2026-03-28-7-pm/18097351"
+      }
+    ]
   },
   "fentifriedchicken": {
     "monthlyListeners": 20000,

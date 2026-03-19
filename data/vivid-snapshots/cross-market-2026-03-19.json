@@ -1,0 +1,70 @@
+{
+  "flagged": [
+    {
+      "artist": "Zara Larsson",
+      "venueCount": 2,
+      "avgGetIn": 179,
+      "totalListings": 53,
+      "totalTickets": 156,
+      "appearances": [
+        {
+          "venue": "House of Blues Boston",
+          "city": "Boston",
+          "minPrice": 230.3,
+          "avgPrice": 325,
+          "listingCount": 32,
+          "ticketCount": 76,
+          "date": "2026-03-28"
+        },
+        {
+          "venue": "Bomb Factory",
+          "city": "Dallas",
+          "minPrice": 128.38,
+          "avgPrice": 195,
+          "listingCount": 21,
+          "ticketCount": 80,
+          "date": "2026-04-11"
+        }
+      ]
+    },
+    {
+      "artist": "Hayley Williams",
+      "venueCount": 3,
+      "avgGetIn": 146,
+      "totalListings": 104,
+      "totalTickets": 308,
+      "appearances": [
+        {
+          "venue": "House of Blues Boston",
+          "city": "Boston",
+          "minPrice": 155.82,
+          "avgPrice": 286,
+          "listingCount": 39,
+          "ticketCount": 119,
+          "date": "2026-04-03"
+        },
+        {
+          "venue": "House of Blues Boston",
+          "city": "Boston",
+          "minPrice": 156.8,
+          "avgPrice": 879,
+          "listingCount": 53,
+          "ticketCount": 141,
+          "date": "2026-04-04"
+        },
+        {
+          "venue": "Franklin Music Hall",
+          "city": "Philly",
+          "minPrice": 125.44,
+          "avgPrice": 226,
+          "listingCount": 12,
+          "ticketCount": 48,
+          "date": "2026-04-07"
+        }
+      ]
+    }
+  ],
+  "scanned": 370,
+  "venuesChecked": 16,
+  "timestamp": "2026-03-19T15:11:36.665Z"
+}

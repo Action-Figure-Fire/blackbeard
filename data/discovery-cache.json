@@ -1418,23 +1418,30 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 0,
-      "soldOutSnippets": [],
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories. Festivals that once sold out in minut",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
       "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 15,
+      "vetScore": 22,
       "vetTier": "unvetted",
       "vetSignals": [
-        "📋 3 Spotify editorial playlists"
+        "🔥 1 sold-out mentions",
+        "📋 2 editorial playlists"
       ],
-      "demandScore": 0,
+      "demandScore": 12,
       "numbersScore": 0,
-      "momentumScore": 15,
-      "upcomingShows": 10,
+      "momentumScore": 10,
+      "upcomingShows": 25,
       "tourDates": [
         {
           "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
@@ -1442,6 +1449,11 @@
           "venue": "BOK Center",
           "city": "Tulsa, OK",
           "capacity": 19199,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.6232484992,
           "url": "https://seatgeek.com/don-toliver-tickets/tulsa-oklahoma-bok-center-2026-05-12-7-30-pm/concert/18050459"
         },
         {
@@ -1450,6 +1462,11 @@
           "venue": "Toyota Center",
           "city": "Houston, TX",
           "capacity": 19300,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.7041412889,
           "url": "https://seatgeek.com/don-toliver-tickets/houston-texas-toyota-center-2026-05-14-7-30-pm/concert/18050460"
         },
         {
@@ -1458,15 +1475,12 @@
           "venue": "Colonial Life Arena",
           "city": "Columbia, SC",
           "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5246477493,
           "url": "https://seatgeek.com/don-toliver-tickets/columbia-south-carolina-colonial-life-arena-2026-05-17-7-30-pm/concert/18050461"
-        },
-        {
-          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
-          "date": "2026-05-19",
-          "venue": "State Farm Arena",
-          "city": "Atlanta, GA",
-          "capacity": 0,
-          "url": "https://seatgeek.com/don-toliver-tickets/atlanta-georgia-state-farm-arena-1-2026-05-19-7-30-pm/concert/18050463"
         },
         {
           "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
@@ -1474,10 +1488,67 @@
           "venue": "Spectrum Center - Charlotte",
           "city": "Charlotte, NC",
           "capacity": 18504,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.6268637437,
           "url": "https://seatgeek.com/don-toliver-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-05-21-7-30-pm/concert/18050464"
+        },
+        {
+          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
+          "date": "2026-05-23",
+          "venue": "PPG Paints Arena",
+          "city": "Pittsburgh, PA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.6230899876,
+          "url": "https://seatgeek.com/don-toliver-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-05-23-7-30-pm/concert/18050462"
+        },
+        {
+          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
+          "date": "2026-05-24",
+          "venue": "Xfinity Mobile Arena",
+          "city": "Philadelphia, PA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.6841014565,
+          "url": "https://seatgeek.com/don-toliver-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-05-24-7-30-pm/concert/18050471"
+        },
+        {
+          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
+          "date": "2026-05-26",
+          "venue": "UBS Arena",
+          "city": "Elmont, NY",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.6529471099,
+          "url": "https://seatgeek.com/don-toliver-tickets/elmont-new-york-ubs-arena-2026-05-26-7-30-pm/concert/18050472"
+        },
+        {
+          "title": "Don Toliver with SahBabii, SoFaygo, and Chase B",
+          "date": "2026-05-27",
+          "venue": "Prudential Center",
+          "city": "Newark, NJ",
+          "capacity": 19500,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.6772555937,
+          "url": "https://seatgeek.com/don-toliver-tickets/newark-new-jersey-prudential-center-2026-05-27-7-30-pm/concert/18050473"
         }
       ],
-      "enrichedAt": "2026-03-04T02:47:33.762Z"
+      "enrichedAt": "2026-03-19T10:01:10.013Z"
     },
     "concrete boys": {
       "monthlyListeners": 341,
@@ -8321,26 +8392,25 @@
       "soldOutMentions": 0,
       "soldOutSnippets": [],
       "venueUpgrades": 0,
-      "addedDates": 0,
+      "addedDates": 1,
       "bigSingle": null,
-      "viralMoment": "Get ready for an unforgettable experience with Bankrol Hayden. Genre: Melodic rap, Pop rap, Viral rap! Don&#x27;t miss the chance to see one of your f",
+      "viralMoment": "Featuring Summer Walker, Bryson Tiller, and Jhené Aiko as opening acts, the run became a trending topic almost nightly. Brown’s viral “Take You Down” ",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 20,
+      "vetScore": 27,
       "vetTier": "unvetted",
       "vetSignals": [
         "🎧 0.0M Spotify listeners",
         "📱 Viral moment detected",
-        "📱 Viral moment detected",
-        "📱 Viral moment detected",
+        "📅 Added dates due to demand",
         "📋 2 editorial playlists"
       ],
-      "demandScore": 0,
+      "demandScore": 7,
       "numbersScore": 0,
       "momentumScore": 20,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-07T11:01:45.874Z"
+      "enrichedAt": "2026-03-19T10:01:11.748Z"
     },
     "monaleo": {
       "monthlyListeners": null,
@@ -8348,8 +8418,13 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 1,
+      "soldOutMentions": 2,
       "soldOutSnippets": [
+        {
+          "title": "Monaleo – Who Did The Body Tour - SOLD OUT!!!",
+          "snippet": "Date(s) - <strong>February 21, 2026</strong> Time(s) - 7:00pm to 11:00pm",
+          "url": "https://www.jointherevolution.net/concerts/monaleo-who-did-the-body-tour/"
+        },
         {
           "title": "Monaleo Tickets, Concerts & 2026 Tour Dates",
           "snippet": "Tickets to Monaleo shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets av",
@@ -8359,22 +8434,33 @@
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Find tickets for Yailin La Mas Viral concerts near you. Browse 2026 tour dates, venue details, concert reviews, photos, and more at Bandsintown.",
+      "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 32,
-      "vetTier": "warm",
+      "vetScore": 28,
+      "vetTier": "unvetted",
       "vetSignals": [
-        "🔥 1 sold-out mentions",
-        "📱 Viral moment detected",
-        "📱 Viral moment detected",
+        "🔥 2 sold-out mentions",
         "📋 2 editorial playlists"
       ],
-      "demandScore": 12,
+      "demandScore": 18,
       "numbersScore": 0,
-      "momentumScore": 20,
+      "momentumScore": 10,
       "upcomingShows": 16,
       "tourDates": [
+        {
+          "title": "Monaleo with NoCap, YK Niece, Skrilla and more",
+          "date": "2026-04-19",
+          "venue": "Chartway Arena",
+          "city": "Norfolk, VA",
+          "capacity": 9100,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3502961247,
+          "url": "https://seatgeek.com/monaleo-tickets/norfolk-virginia-chartway-arena-2026-04-19-7-pm/concert/18116886"
+        },
         {
           "title": "Monaleo",
           "date": "2026-04-22",
@@ -8385,7 +8471,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.3310683724,
+          "sgScore": 0.3407837448,
           "url": "https://seatgeek.com/monaleo-tickets/birmingham-alabama-avondale-brewing-company-2026-04-21-7-30-pm/concert/18094900"
         },
         {
@@ -8398,7 +8484,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.5963951183,
+          "sgScore": 0.5988586948,
           "url": "https://seatgeek.com/summer-walker-tickets/chicago-illinois-united-center-2026-05-29-7-30-pm/concert/18027314"
         },
         {
@@ -8411,7 +8497,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.5484886482,
+          "sgScore": 0.5427719165,
           "url": "https://seatgeek.com/summer-walker-tickets/detroit-michigan-little-caesars-arena-2026-05-31-7-30-pm/concert/18027317"
         },
         {
@@ -8424,7 +8510,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.5608786089,
+          "sgScore": 0.5547643366,
           "url": "https://seatgeek.com/summer-walker-tickets/brooklyn-new-york-barclays-center-2026-06-02-7-30-pm/concert/18027315"
         },
         {
@@ -8437,7 +8523,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.5604840811,
+          "sgScore": 0.5573108126,
           "url": "https://seatgeek.com/summer-walker-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-06-05-7-30-pm/concert/18027319"
         },
         {
@@ -8450,7 +8536,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.4897740033,
+          "sgScore": 0.4721734509,
           "url": "https://seatgeek.com/summer-walker-tickets/boston-massachusetts-td-garden-2026-06-07-7-30-pm/concert/18027318"
         },
         {
@@ -8463,24 +8549,11 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.5978788704,
+          "sgScore": 0.587065939,
           "url": "https://seatgeek.com/summer-walker-tickets/baltimore-maryland-cfg-bank-arena-2026-06-09-7-30-pm/concert/18027326"
-        },
-        {
-          "title": "Summer Walker with Monaleo",
-          "date": "2026-06-10",
-          "venue": "Spectrum Center - Charlotte",
-          "city": "Charlotte, NC",
-          "capacity": 18504,
-          "lowestPrice": null,
-          "avgPrice": null,
-          "highestPrice": null,
-          "listingCount": null,
-          "sgScore": 0.5346956826,
-          "url": "https://seatgeek.com/summer-walker-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-06-10-7-30-pm/concert/18027328"
         }
       ],
-      "enrichedAt": "2026-03-09T06:01:00.546Z"
+      "enrichedAt": "2026-03-19T10:01:13.722Z"
     },
     "bktherula": {
       "monthlyListeners": null,
@@ -8488,7 +8561,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 3,
+      "soldOutMentions": 2,
       "soldOutSnippets": [
         {
           "title": "Bktherula Tickets, Concerts & 2025 Tour Dates",
@@ -8499,33 +8572,28 @@
           "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
           "snippet": "BTS’ highly anticipated World Tour Arirang 2026 kicked off with an explosive response as <strong>all pre-sale tickets for the South Korea shows sold o",
           "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
-        },
-        {
-          "title": "Jam Band Announces 2026 Summer Tour Dates After Selling Out Iconic Venue for the First Time",
-          "snippet": "These tickets are definitely going to sell out fast.",
-          "url": "https://parade.com/news/jam-band-announces-2026-summer-tour-dates-selling-out-iconic-venue-first-time"
         }
       ],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Fans can expect booming low end, razor‑sharp hi‑hats, and guitar-tinged motifs anchoring verses that celebrate hustle, hometown pride, and resiliency.",
+      "viralMoment": "Fans say that the remaining seats belong to pre-sale allocations and do not represent the full ticket inventory. Large portions of it are still reserv",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 45,
+      "vetScore": 38,
       "vetTier": "warm",
       "vetSignals": [
-        "🔥 3 sold-out mentions",
+        "🔥 2 sold-out mentions",
         "📱 Viral moment detected",
         "📱 Viral moment detected",
         "📋 2 editorial playlists"
       ],
-      "demandScore": 25,
+      "demandScore": 18,
       "numbersScore": 0,
       "momentumScore": 20,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:02.375Z"
+      "enrichedAt": "2026-03-19T10:01:08.132Z"
     },
     "oct. 20 — rac arena, perth": {
       "monthlyListeners": null,
@@ -8549,7 +8617,7 @@
       "momentumScore": 0,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:04.309Z"
+      "enrichedAt": "2026-03-19T10:01:21.623Z"
     },
     "bandsintown": {
       "monthlyListeners": null,
@@ -8615,7 +8683,7 @@
       "momentumScore": 0,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:08.024Z"
+      "enrichedAt": "2026-03-19T10:01:29.208Z"
     },
     "lily allen</strong>": {
       "monthlyListeners": null,
@@ -8623,27 +8691,34 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 0,
-      "soldOutSnippets": [],
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "How to get cheap Zach Bryan tickets for Cleveland, Ohio May 9 concert tour date - cleveland.com",
+          "snippet": "... Sting adds another Akron concert: How to get cheapest tickets | Nov. 2 · Metallica Sphere Las Vegas tickets: Get best deals as general sale begins",
+          "url": "https://www.cleveland.com/live-entertainment/2025/12/zach-bryan-cleveland-tickets-are-selling-fast-score-discounts-before-theyre-gone.html"
+        }
+      ],
       "venueUpgrades": 1,
       "addedDates": 0,
       "bigSingle": null,
       "viralMoment": "... Lily Allen will tour North America for the first time in seven years in <strong>April 2026</strong>. The “West End Girl” tour is in support of her",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 18,
-      "vetTier": "unvetted",
+      "vetScore": 30,
+      "vetTier": "warm",
       "vetSignals": [
+        "🔥 1 sold-out mentions",
         "📱 Viral moment detected",
         "🏟️ Venue upgrade detected",
         "📱 Viral moment detected"
       ],
-      "demandScore": 8,
+      "demandScore": 20,
       "numbersScore": 0,
       "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:09.937Z"
+      "enrichedAt": "2026-03-19T10:01:31.063Z"
     },
     "like <strong>ariana grande": {
       "monthlyListeners": null,
@@ -8675,7 +8750,7 @@
       "momentumScore": 0,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:11.887Z"
+      "enrichedAt": "2026-03-19T10:01:32.996Z"
     },
     "ariana grande and lily allen": {
       "monthlyListeners": null,
@@ -8683,32 +8758,25 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 1,
-      "soldOutSnippets": [
-        {
-          "title": "Ariana Grande fumes after tour sells out and scalpers swoop in",
-          "snippet": "Ariana Grande said she was &#x27;bothered&#x27; after her Eternal Sunshine tour sold out within minutes and scalpers were already attempting to resell",
-          "url": "https://www.dailymail.co.uk/tvshowbiz/article-15096109/Ariana-Grande-bothered-Eternal-Sunschine-tour-tickets-scalpers.html"
-        }
-      ],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
       "viralMoment": "Lily Allen has announced further tour dates for 2026. Picture: Charlie Denis · The singer-songwriter will play her West End Girl album in full with mo",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 22,
+      "vetScore": 10,
       "vetTier": "unvetted",
       "vetSignals": [
-        "🔥 1 sold-out mentions",
         "📱 Viral moment detected"
       ],
-      "demandScore": 12,
+      "demandScore": 0,
       "numbersScore": 0,
       "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:13.613Z"
+      "enrichedAt": "2026-03-19T10:01:34.752Z"
     },
     "<strong>taylor swift</strong>&#x27": {
       "monthlyListeners": null,
@@ -8732,7 +8800,7 @@
       "momentumScore": 0,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:15.499Z"
+      "enrichedAt": "2026-03-19T10:01:36.790Z"
     },
     "s eras": {
       "monthlyListeners": null,
@@ -8740,33 +8808,25 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 1,
-      "soldOutSnippets": [
-        {
-          "title": "Jam Band Announces 2026 Summer Tour Dates After Selling Out Iconic Venue for the First Time",
-          "snippet": "These tickets are definitely going to sell out fast.",
-          "url": "https://parade.com/news/jam-band-announces-2026-summer-tour-dates-selling-out-iconic-venue-first-time"
-        }
-      ],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Fans can expect booming low end, razor‑sharp hi‑hats, and guitar-tinged motifs anchoring verses that celebrate hustle, hometown pride, and resiliency.",
+      "viralMoment": "In 2024 alone, dozens of tours were postponed or quietly canceled—not for illness or weather, but due to “logistical issues” or “unforeseen circumstan",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 22,
+      "vetScore": 10,
       "vetTier": "unvetted",
       "vetSignals": [
-        "🔥 1 sold-out mentions",
-        "📱 Viral moment detected",
         "📱 Viral moment detected"
       ],
-      "demandScore": 12,
+      "demandScore": 0,
       "numbersScore": 0,
       "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:17.321Z"
+      "enrichedAt": "2026-03-19T10:01:38.627Z"
     },
     "dominated? explore": {
       "monthlyListeners": null,
@@ -8777,31 +8837,28 @@
       "soldOutMentions": 1,
       "soldOutSnippets": [
         {
-          "title": "Zara Larsson Upgrades Australia ‘Midnight Sun’ Tour Dates, Adds New Zealand",
-          "snippet": "15 — Hordern Pavilion, Sydney (Sold Out) Oct. 17 — Margaret Court Arena, Melbourne (Sold Out) Oct. 18 — Entertainment Centre Arena, Adelaide (Sold Out",
-          "url": "https://www.billboard.com/music/pop/zara-larsson-upgrades-australia-amp-new-zealand-midnight-sun-tour-dates-1236180208/"
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "<strong>Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories</strong>. Festivals that once ",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
         }
       ],
-      "venueUpgrades": 1,
+      "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Find tickets for <strong>Yailin La Mas</strong> Viral concerts near you. Browse 2026 tour dates, venue details, concert reviews, photos, and more at B",
+      "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 30,
-      "vetTier": "warm",
+      "vetScore": 12,
+      "vetTier": "unvetted",
       "vetSignals": [
-        "🔥 1 sold-out mentions",
-        "📱 Viral moment detected",
-        "🏟️ Venue upgrade detected",
-        "📱 Viral moment detected"
+        "🔥 1 sold-out mentions"
       ],
-      "demandScore": 20,
+      "demandScore": 12,
       "numbersScore": 0,
-      "momentumScore": 10,
+      "momentumScore": 0,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:19.143Z"
+      "enrichedAt": "2026-03-19T10:01:40.475Z"
     },
     "top grossing artists & trends": {
       "monthlyListeners": null,
@@ -8809,33 +8866,25 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 1,
-      "soldOutSnippets": [
-        {
-          "title": "Are Concerts Losing Popularity in 2025? The Truth Behind the Trends",
-          "snippet": "But swing the spotlight to indie and mid-level artists, and the vibe changes. Great musicians. Critically adored albums. But not enough devoted fans t",
-          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
-        }
-      ],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "But swing the spotlight to indie and mid-level artists, and the vibe changes. Great musicians. Critically adored albums. But not enough devoted fans t",
+      "viralMoment": "Cultural moments: Taylor Swift&#x27;s Eras Tour became a social phenomenon beyond just a concert · Cross-generational appeal: Acts like Billy Joel and",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 22,
+      "vetScore": 10,
       "vetTier": "unvetted",
       "vetSignals": [
-        "🔥 1 sold-out mentions",
-        "📱 Viral moment detected",
         "📱 Viral moment detected"
       ],
-      "demandScore": 12,
+      "demandScore": 0,
       "numbersScore": 0,
       "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:21.004Z"
+      "enrichedAt": "2026-03-19T10:01:42.318Z"
     },
     "zach bryan": {
       "monthlyListeners": null,
@@ -9005,33 +9054,29 @@
       "soldOutMentions": 1,
       "soldOutSnippets": [
         {
-          "title": "Your Ultimate Guide to 2026 Boomer Concert Tours",
-          "snippet": "The storied California rock band’s newly added dates at Sphere in Las Vegas bring the total to <strong>56 shows</strong>, the longest-running residenc",
-          "url": "https://www.aarp.org/entertainment/music/music-concert-tours-2026/"
+          "title": "The best concerts and tours coming to the UK in 2026 – and how to get tickets",
+          "snippet": "Some of the biggest names in the music scene are set to tour the UK this year— here&#x27;s how you can get tickets, even to sold-out tours.",
+          "url": "https://www.radiotimes.com/going-out/tickets/the-best-uk-concerts-tours/"
         }
       ],
       "venueUpgrades": 0,
-      "addedDates": 1,
+      "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Find tickets for <strong>Yailin La Mas Viral</strong> concerts near you. Browse 2026 tour dates, venue details, concert reviews, photos, and more at B",
+      "viralMoment": "Cultural moments: Taylor Swift&#x27;s Eras Tour became a social phenomenon beyond just a concert · Cross-generational appeal: Acts like Billy Joel and",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 29,
+      "vetScore": 22,
       "vetTier": "unvetted",
       "vetSignals": [
         "🔥 1 sold-out mentions",
-        "📱 Viral moment detected",
-        "📱 Viral moment detected",
-        "📅 Added dates due to demand",
-        "📱 Viral moment detected",
         "📱 Viral moment detected"
       ],
-      "demandScore": 19,
+      "demandScore": 12,
       "numbersScore": 0,
       "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:26.646Z"
+      "enrichedAt": "2026-03-19T10:01:44.183Z"
     },
     "edmtrain": {
       "monthlyListeners": null,
@@ -9050,22 +9095,20 @@
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Find tickets for Yailin La Mas Viral concerts near you. Browse 2026 tour dates, venue details, concert reviews, photos, and more at Bandsintown.",
+      "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 22,
+      "vetScore": 12,
       "vetTier": "unvetted",
       "vetSignals": [
-        "🔥 1 sold-out mentions",
-        "📱 Viral moment detected",
-        "📱 Viral moment detected"
+        "🔥 1 sold-out mentions"
       ],
       "demandScore": 12,
       "numbersScore": 0,
-      "momentumScore": 10,
+      "momentumScore": 0,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:28.506Z"
+      "enrichedAt": "2026-03-19T10:01:46.019Z"
     },
     "tow six": {
       "monthlyListeners": null,
@@ -9076,35 +9119,33 @@
       "soldOutMentions": 2,
       "soldOutSnippets": [
         {
-          "title": "Jam Band Announces 2026 Summer Tour Dates After Selling Out Iconic Venue for the First Time",
-          "snippet": "These tickets are definitely going to sell out fast.",
-          "url": "https://parade.com/news/jam-band-announces-2026-summer-tour-dates-selling-out-iconic-venue-first-time"
-        },
-        {
           "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
           "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
           "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
+        },
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories. Festivals that once sold out in minut",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
         }
       ],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Find tickets for Yailin La Mas Viral concerts near you. Browse 2026 tour dates, venue details, concert reviews, photos, and more at Bandsintown.",
+      "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 28,
+      "vetScore": 18,
       "vetTier": "unvetted",
       "vetSignals": [
-        "🔥 2 sold-out mentions",
-        "📱 Viral moment detected",
-        "📱 Viral moment detected"
+        "🔥 2 sold-out mentions"
       ],
       "demandScore": 18,
       "numbersScore": 0,
-      "momentumScore": 10,
+      "momentumScore": 0,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:30.400Z"
+      "enrichedAt": "2026-03-19T10:01:48.059Z"
     },
     "bunce road blues": {
       "monthlyListeners": null,
@@ -9112,32 +9153,25 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 1,
-      "soldOutSnippets": [
-        {
-          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
-          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
-          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
-        }
-      ],
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
       "viralMoment": "The end of February sees the beginning of Raye’s mega run at The O2, which is split across Feb, March and May. And she still had no trouble selling ou",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 22,
+      "vetScore": 10,
       "vetTier": "unvetted",
       "vetSignals": [
-        "🔥 1 sold-out mentions",
         "📱 Viral moment detected"
       ],
-      "demandScore": 12,
+      "demandScore": 0,
       "numbersScore": 0,
       "momentumScore": 10,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:32.237Z"
+      "enrichedAt": "2026-03-19T10:01:49.994Z"
     },
     "featuring tems": {
       "monthlyListeners": null,
@@ -9150,21 +9184,18 @@
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Find tickets for <strong>Yailin La Mas Viral</strong> concerts near you. Browse 2026 tour dates, venue details, concert reviews, photos, and more at B",
+      "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 10,
+      "vetScore": 0,
       "vetTier": "unvetted",
-      "vetSignals": [
-        "📱 Viral moment detected",
-        "📱 Viral moment detected"
-      ],
+      "vetSignals": [],
       "demandScore": 0,
       "numbersScore": 0,
-      "momentumScore": 10,
+      "momentumScore": 0,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-09T06:01:34.051Z"
+      "enrichedAt": "2026-03-19T10:01:51.823Z"
     },
     "cole": {
       "monthlyListeners": 39600000,
@@ -9172,7 +9203,7 @@
       "instagramFollowers": null,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 4,
+      "soldOutMentions": 3,
       "soldOutSnippets": [
         {
           "title": "Where to Buy J. Cole 'The Fall-Off' Tour 2026 Tickets: Prices, Dates",
@@ -9188,30 +9219,23 @@
           "title": "J. Cole Tickets, Concerts & 2026 Tour Dates",
           "snippet": "Tickets to J. Cole shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets av",
           "url": "https://www.eventticketscenter.com/j-cole-tickets/6456/c"
-        },
-        {
-          "title": "Jam Band Announces 2026 Summer Tour Dates After Selling Out Iconic Venue for the First Time",
-          "snippet": "These tickets are definitely going to sell out fast.",
-          "url": "https://parade.com/news/jam-band-announces-2026-summer-tour-dates-selling-out-iconic-venue-first-time"
         }
       ],
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Find tickets for Yailin La Mas Viral concerts near you. Browse 2026 tour dates, venue details, concert reviews, photos, and more at Bandsintown.",
+      "viralMoment": null,
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 50,
-      "vetTier": "red_hot",
+      "vetScore": 40,
+      "vetTier": "warm",
       "vetSignals": [
-        "🔥 4 sold-out mentions",
-        "🎧 39.6M Spotify listeners",
-        "📱 Viral moment detected",
-        "📱 Viral moment detected"
+        "🔥 3 sold-out mentions",
+        "🎧 39.6M Spotify listeners"
       ],
       "demandScore": 25,
       "numbersScore": 15,
-      "momentumScore": 10,
+      "momentumScore": 0,
       "upcomingShows": 25,
       "tourDates": [
         {
@@ -9224,7 +9248,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.4264293435,
+          "sgScore": 0.3898887182,
           "url": "https://seatgeek.com/dl-hughley-tickets/comedy/2026-03-19-8-pm/18030257"
         },
         {
@@ -9237,7 +9261,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.3953238195,
+          "sgScore": 0.4609158703,
           "url": "https://seatgeek.com/deon-cole-tickets/comedy/2026-03-24-8-pm/18095902"
         },
         {
@@ -9250,7 +9274,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.1706682791,
+          "sgScore": 0.2342591188,
           "url": "https://seatgeek.com/holly-cole-tickets/toronto-canada-elgin-and-winter-garden-theatre-centre-2026-03-27-8-pm/concert/17939321"
         },
         {
@@ -9263,7 +9287,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.3603610897,
+          "sgScore": 0.3751427957,
           "url": "https://seatgeek.com/deon-cole-tickets/comedy/2026-04-02-8-pm/18009436"
         },
         {
@@ -9276,7 +9300,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.3468061178,
+          "sgScore": 0.4076024417,
           "url": "https://seatgeek.com/deon-cole-tickets/comedy/2026-04-03-8-pm/17948318"
         },
         {
@@ -9289,7 +9313,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.4214524132,
+          "sgScore": 0.4541990346,
           "url": "https://seatgeek.com/deon-cole-tickets/comedy/2026-04-04-8-pm/17949039"
         },
         {
@@ -9302,7 +9326,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.1421669934,
+          "sgScore": 0.1601476982,
           "url": "https://seatgeek.com/cole-chaney-tickets/annapolis-maryland-rams-head-on-stage-annapolis-2026-04-07-8-pm/concert/18090870"
         },
         {
@@ -9315,11 +9339,11 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.2417931041,
+          "sgScore": 0.3106683281,
           "url": "https://seatgeek.com/alexandra-kay-tickets/harrisburg-pennsylvania-xl-live-2026-04-11-7-pm/concert/18091728"
         }
       ],
-      "enrichedAt": "2026-03-09T06:01:36.015Z"
+      "enrichedAt": "2026-03-19T10:01:53.770Z"
     },
     "cardi b": {
       "monthlyListeners": 35087870,
@@ -11116,7 +11140,7 @@
       "instagramFollowers": 300000,
       "tiktokFollowers": null,
       "youtubeSubscribers": null,
-      "soldOutMentions": 5,
+      "soldOutMentions": 4,
       "soldOutSnippets": [
         {
           "title": "Lorde Tour 2026 - Ultrasound Tour Dates, Setlist & Presale",
@@ -11124,24 +11148,19 @@
           "url": "https://toursetlist.com/lorde-tour-2026-ultrasound-tour-dates-setlist/"
         },
         {
-          "title": "Lorde Ultrasound Tour 2026: Australia & NZ Dates, Tickets, Presales",
-          "snippet": "These are major arena concerts expected to sell out fast across the US, Europe, Australia, and New Zealand. Lorde will perform six major arena shows a",
-          "url": "https://discovermelbourne.au/lorde-tour-2026/"
-        },
-        {
           "title": "r/lorde on Reddit: When Lorde sells out her tour on the first day of presale 💔",
           "snippet": "This subreddit is dedicated to New Zealand artist Lorde. 🩻⛓️🧬💎🎤 ... <strong>Venues are not sold out</strong>!!",
           "url": "https://www.reddit.com/r/lorde/comments/1kndayf/when_lorde_sells_out_her_tour_on_the_first_day_of/"
         },
         {
+          "title": "Lorde Ultrasound Tour 2026: Australia & NZ Dates, Tickets, Presales",
+          "snippet": "These are major arena concerts expected to sell out fast across the US, Europe, Australia, and New Zealand. Lorde will perform six major arena shows a",
+          "url": "https://discovermelbourne.au/lorde-tour-2026/"
+        },
+        {
           "title": "Lorde Tickets, Concerts & 2026 Tour Dates",
           "snippet": "Tickets to Lorde shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets avai",
           "url": "https://www.eventticketscenter.com/lorde-tickets/6662/c"
-        },
-        {
-          "title": "Lorde unveils 2026 New Zealand, Australia tour dates - The Music Universe",
-          "snippet": "Embarking on her biggest tour to date, the Ultrasound World Tour will kick off on <strong>September 17th</strong> in Austin, Texas and has already sol",
-          "url": "https://themusicuniverse.com/lorde-unveils-2026-new-zealand-australia-tour-dates/"
         }
       ],
       "venueUpgrades": 0,
@@ -11153,14 +11172,14 @@
       "vetScore": 45,
       "vetTier": "warm",
       "vetSignals": [
-        "🔥 5 sold-out mentions",
+        "🔥 4 sold-out mentions",
         "🎧 32.6M Spotify listeners",
         "📸 IG: 300K"
       ],
       "demandScore": 25,
       "numbersScore": 20,
       "momentumScore": 0,
-      "upcomingShows": 13,
+      "upcomingShows": 14,
       "tourDates": [
         {
           "title": "New Orleans Jazz Festival: Weekend 1 - 4 Day Pass (4/23 - 4/26) with Stevie Nicks, Rod Stewart, Kings of Leon, Lorde, and more",
@@ -11172,7 +11191,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.4713577254,
+          "sgScore": 0.4696458997,
           "url": "https://seatgeek.com/new-orleans-jazz-and-heritage-festival-tickets/new-orleans-louisiana-new-orleans-fair-grounds-2026-04-23-3-30-am/music-festival/17535671"
         },
         {
@@ -11185,7 +11204,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.5578406828,
+          "sgScore": 0.5704295393,
           "url": "https://seatgeek.com/lorde-tickets/inglewood-california-kia-forum-2026-05-14-7-pm/concert/17857323"
         },
         {
@@ -11198,7 +11217,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.4384030722,
+          "sgScore": 0.4405164908,
           "url": "https://seatgeek.com/kilby-block-party-tickets/salt-lake-city-utah-utah-state-fairpark-2026-05-15-3-30-am/music-festival/17916423"
         },
         {
@@ -11211,7 +11230,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.5952516469,
+          "sgScore": 0.6040925237,
           "url": "https://seatgeek.com/lorde-tickets/inglewood-california-kia-forum-2026-05-15-7-pm/concert/17866267"
         },
         {
@@ -11224,7 +11243,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.6515514311,
+          "sgScore": 0.637967248,
           "url": "https://seatgeek.com/bottlerock-napa-valley-tickets/napa-california-napa-valley-expo-2026-05-22-3-30-am/music-festival/17540862"
         },
         {
@@ -11237,7 +11256,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.4919300378,
+          "sgScore": 0.4800495923,
           "url": "https://seatgeek.com/bottlerock-napa-valley-tickets/napa-california-napa-valley-expo-2026-05-22-11-30-am/music-festival/17540864"
         },
         {
@@ -11250,7 +11269,7 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.5173072805,
+          "sgScore": 0.5043033284,
           "url": "https://seatgeek.com/governors-ball-music-festival-tickets/queens-new-york-flushing-meadows-corona-park-2026-06-05-3-30-am/music-festival/17994011"
         },
         {
@@ -11263,11 +11282,11 @@
           "avgPrice": null,
           "highestPrice": null,
           "listingCount": null,
-          "sgScore": 0.4886540388,
+          "sgScore": 0.4909793614,
           "url": "https://seatgeek.com/governors-ball-music-festival-tickets/queens-new-york-flushing-meadows-corona-park-2026-06-05-11-45-am/music-festival/17994013"
         }
       ],
-      "enrichedAt": "2026-03-10T06:01:35.480Z"
+      "enrichedAt": "2026-03-19T10:01:17.819Z"
     },
     "turnstile—": {
       "monthlyListeners": null,
@@ -14386,7 +14405,212 @@
       "upcomingShows": 0,
       "tourDates": [],
       "enrichedAt": "2026-03-18T10:01:33.789Z"
+    },
+    "tate mcrae": {
+      "monthlyListeners": null,
+      "spotifyFollowers": 10200000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "Tate McRae's Tour Sold Out Faster Than a Sports Car -- Here's Where You Can Still Find Tickets Online",
+          "snippet": "The 50-date world tour kicks off in Mexico City this spring, on the heels of McRae’s new studio album, So Close to What, out now. Best Prices: Vivid S",
+          "url": "https://www.rollingstone.com/product-recommendations/lifestyle/how-to-buy-tate-mcrae-tour-tickets-online-2025-1235249323/"
+        },
+        {
+          "title": "r/tatemcrae on Reddit: Is Tate ready to sell out arenas?",
+          "snippet": "They still do it and then they’ll drop the price like hours before the actual concert. They even buy for small artists and the non sold out venues. Mo",
+          "url": "https://www.reddit.com/r/tatemcrae/comments/1gtpaxf/is_tate_ready_to_sell_out_arenas/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 18,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 2 sold-out mentions"
+      ],
+      "demandScore": 18,
+      "numbersScore": 0,
+      "momentumScore": 0,
+      "upcomingShows": 3,
+      "tourDates": [
+        {
+          "title": "Lollapalooza - 4 Day Pass - with Charli XCX, Tate McRae, Lorde and more",
+          "date": "2026-07-30",
+          "venue": "Grant Park",
+          "city": "Chicago, IL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.6033264373,
+          "url": "https://seatgeek.com/the-neighbourhood-tickets/chicago-illinois-grant-park-1-2026-07-30-3-30-am/concert/18106136"
+        },
+        {
+          "title": "Osheaga Music and Arts Festival - 3 Day Pass - with Twenty One Pilots, Tate McRae, Lorde and more",
+          "date": "2026-07-31",
+          "venue": "Parc Jean-Drapeau",
+          "city": "Montreal, QC",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.333611622,
+          "url": "https://seatgeek.com/osheaga-music-and-arts-festival-tickets/montreal-canada-parc-jean-drapeau-2026-07-31-3-30-am/music-festival/17771490"
+        },
+        {
+          "title": "Osheaga Music and Arts Festival - Saturday Pass - with Tate McRae, Sombr, Turnstile and more",
+          "date": "2026-08-01",
+          "venue": "Parc Jean-Drapeau",
+          "city": "Montreal, QC",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3556885812,
+          "url": "https://seatgeek.com/osheaga-music-and-arts-festival-tickets/montreal-canada-parc-jean-drapeau-2026-08-01-3-30-am/concert/18090725"
+        }
+      ],
+      "enrichedAt": "2026-03-19T10:01:15.672Z"
+    },
+    "smashing pumpkins": {
+      "monthlyListeners": 10000000,
+      "spotifyFollowers": 0,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": 44000,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 15,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 10.0M Spotify listeners"
+      ],
+      "demandScore": 0,
+      "numbersScore": 15,
+      "momentumScore": 0,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-19T10:01:19.684Z"
+    },
+    "upgrades": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 3,
+      "soldOutSnippets": [
+        {
+          "title": "Venue Upgrades & Extra Shows Added To Alex Warren's 2025 Australian Tour | The Music",
+          "snippet": "After pre-sale tickets to Warren’s first-ever Australian tour sold out in just two minutes—check out the singer’s reaction to that news below—tour pro",
+          "url": "https://themusic.com.au/news/venue-upgrades-extra-shows-added-to-alex-warren-2025-australian-tour/n7cds7K1tLc/13-03-25"
+        },
+        {
+          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
+          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
+          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
+        },
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories. Festivals that once sold out in minut",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
+      "venueUpgrades": 1,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Cultural moments: Taylor Swift&#x27;s Eras Tour became a social phenomenon beyond just a concert · Cross-generational appeal: Acts like Billy Joel and",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 43,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 3 sold-out mentions",
+        "🏟️ Venue upgrade detected",
+        "📱 Viral moment detected"
+      ],
+      "demandScore": 33,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-19T10:01:23.477Z"
+    },
+    "january 21": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Your Ultimate Guide to 2026 Boomer Concert Tours",
+          "snippet": "The storied California rock band’s newly added dates at Sphere in Las Vegas bring the total to 56 shows, the longest-running residency in the giant fu",
+          "url": "https://www.aarp.org/entertainment/music/music-concert-tours-2026/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 1,
+      "bigSingle": null,
+      "viralMoment": "Cultural moments: Taylor Swift&#x27;s Eras Tour became a social phenomenon beyond just a concert · Cross-generational appeal: Acts like Billy Joel and",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 29,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📱 Viral moment detected",
+        "📅 Added dates due to demand"
+      ],
+      "demandScore": 19,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-19T10:01:25.401Z"
+    },
+    "gelli haha announces first": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 0,
+      "vetTier": "unvetted",
+      "vetSignals": [],
+      "demandScore": 0,
+      "numbersScore": 0,
+      "momentumScore": 0,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-19T10:01:27.286Z"
     }
   },
-  "lastUpdated": "2026-03-18T10:01:48.647Z"
+  "lastUpdated": "2026-03-19T10:01:53.877Z"
 }

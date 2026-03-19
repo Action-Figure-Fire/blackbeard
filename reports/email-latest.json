@@ -1,44 +1,4 @@
 {
-  "timestamp": "2026-03-19T00:01:54.290Z",
-  "alerts": [
-    {
-      "subject": "My WORLD TOUR starts NEXT weekend! Can't wait to ...",
-      "from": "\"Warren Zeiders - via Bandsintown\" <notifications@ppt.bandsintown.com>",
-      "date": "2026-03-18T22:11:53.000Z",
-      "comedians": [
-        "warren zeiders"
-      ],
-      "isVenueEmail": true,
-      "hasShowKeyword": false,
-      "ticketUrls": [],
-      "score": 11,
-      "snippet": "Bandsintown - You got a new message from Warren Zeiders ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ "
-    },
-    {
-      "subject": "Upcoming Live Shows: Bert Kreischer, Kathleen Madigan, Joanne Shaw Tayl...",
-      "from": "\"Bandsintown\" <notifications@updates.bandsintown.com>",
-      "date": "2026-03-18T22:16:26.000Z",
-      "comedians": [
-        "bert kreischer"
-      ],
-      "isVenueEmail": true,
-      "hasShowKeyword": false,
-      "ticketUrls": [],
-      "score": 11,
-      "snippet": ""
-    },
-    {
-      "subject": "Just announced: Lil Wayne and Freya Skye",
-      "from": "\"Songkick\" <emails@songkick.com>",
-      "date": "2026-03-18T15:33:39.000Z",
-      "comedians": [
-        "freya skye"
-      ],
-      "isVenueEmail": false,
-      "hasShowKeyword": true,
-      "ticketUrls": [],
-      "score": 5,
-      "snippet": "There are new events for artists you track on Songkick. Don’t miss out!\n\n\n\n# July\n\n\nThursday 23\n  Lil Wayne and 2 Chainz at Nationwide Arena, Columbus\n\n  Buy tickets:\n  https://www.songkick.com/concerts/43109153-lil-wayne-at-nationwide-arena?utm_campaign=upcoming%2Fdaily_digest&utm_medium=email&utm_"
-    }
-  ]
+  "timestamp": "2026-03-19T12:02:41.717Z",
+  "alerts": []
 }

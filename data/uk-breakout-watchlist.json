@@ -1,17 +1,35 @@
 {
-  "lastRun": "2026-03-18T12:03:47.964Z",
+  "lastRun": "2026-03-19T12:03:45.542Z",
   "apiCalls": {
     "brave": 30,
-    "bandsintown": 28,
+    "bandsintown": 29,
     "seatgeek": 0
   },
-  "alertCount": 1,
+  "alertCount": 4,
   "alerts": [
+    {
+      "type": "NEW_US_DATES_ADDED",
+      "artist": "Olivia Dean",
+      "newCount": 1,
+      "message": "📍 Olivia Dean added 1 new US dates (now 20 total)"
+    },
+    {
+      "type": "NEW_US_DATES_ADDED",
+      "artist": "PinkPantheress",
+      "newCount": 1,
+      "message": "📍 PinkPantheress added 1 new US dates (now 16 total)"
+    },
     {
       "type": "NEW_US_DATES_ADDED",
       "artist": "CMAT",
       "newCount": 1,
-      "message": "📍 CMAT added 1 new US dates (now 23 total)"
+      "message": "📍 CMAT added 1 new US dates (now 24 total)"
+    },
+    {
+      "type": "NEW_US_DATES_ADDED",
+      "artist": "Little Simz",
+      "newCount": 1,
+      "message": "📍 Little Simz added 1 new US dates (now 20 total)"
     }
   ],
   "artists": [
@@ -88,49 +106,6 @@
         "Just announced US dates — early window",
         "10M Spotify",
         "Award signal: BBC Sound Of"
-      ],
-      "tier": "🔴 IMMINENT"
-    },
-    {
-      "name": "Self Esteem",
-      "sources": [
-        "BRIT Awards"
-      ],
-      "mentions": 2,
-      "totalEvents": 11,
-      "usEvents": 0,
-      "ukEuEvents": 11,
-      "hasUSDates": false,
-      "usVenues": [],
-      "ukEuVenues": [
-        {
-          "date": "2026-07-04",
-          "venue": "Wasing Estate woodland",
-          "city": "Wasing",
-          "country": "United Kingdom"
-        },
-        {
-          "date": "2026-07-10",
-          "venue": "Museum Gardens",
-          "city": "York",
-          "country": "United Kingdom"
-        },
-        {
-          "date": "2026-07-11",
-          "venue": "Tynemouth Priory and Castle",
-          "city": "Tynemouth",
-          "country": "United Kingdom"
-        }
-      ],
-      "snippets": [
-        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est",
-        "Brit Awards 2026: The real winners and losers <strong>Self Esteem</strong>&#x27;s red carpet interview at the 2026 Brits · Speaking on the red carpet, pop star <strong>Self Esteem</strong> declared sh"
-      ],
-      "breakoutScore": 60,
-      "signals": [
-        "Active UK/EU tour",
-        "🔥 NO US DATES YET — pre-breakout window",
-        "Award signal: BRIT Awards"
       ],
       "tier": "🔴 IMMINENT"
     },
@@ -219,17 +194,58 @@
       "tier": "🔴 IMMINENT"
     },
     {
+      "name": "Self Esteem",
+      "sources": [
+        "BRIT Awards"
+      ],
+      "mentions": 1,
+      "totalEvents": 11,
+      "usEvents": 0,
+      "ukEuEvents": 11,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [
+        {
+          "date": "2026-07-04",
+          "venue": "Wasing Estate woodland",
+          "city": "Wasing",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-07-10",
+          "venue": "Museum Gardens",
+          "city": "York",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-07-11",
+          "venue": "Tynemouth Priory and Castle",
+          "city": "Tynemouth",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+      ],
+      "breakoutScore": 60,
+      "signals": [
+        "Active UK/EU tour",
+        "🔥 NO US DATES YET — pre-breakout window",
+        "Award signal: BRIT Awards"
+      ],
+      "tier": "🔴 IMMINENT"
+    },
+    {
       "name": "Olivia Dean",
       "sources": [
         "BBC Sound Of",
         "BRIT Awards",
-        "UK Sold Out",
         "UK Viral",
         "UK Charts"
       ],
-      "mentions": 10,
-      "totalEvents": 44,
-      "usEvents": 19,
+      "mentions": 9,
+      "totalEvents": 45,
+      "usEvents": 20,
       "ukEuEvents": 21,
       "hasUSDates": true,
       "usVenues": [
@@ -293,7 +309,7 @@
       "breakoutScore": 50,
       "signals": [
         "Active UK/EU tour",
-        "5 source types",
+        "4 source types",
         "Award signal: BBC Sound Of, BRIT Awards, UK Charts"
       ],
       "tier": "🟡 WATCH CLOSELY"
@@ -325,6 +341,79 @@
         "Some UK/EU dates",
         "🔥 NO US DATES YET — pre-breakout window",
         "Award signal: BBC Sound Of"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "Wet Leg",
+      "sources": [
+        "BRIT Awards"
+      ],
+      "mentions": 1,
+      "totalEvents": 22,
+      "usEvents": 8,
+      "ukEuEvents": 10,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-15",
+          "venue": "The Fox Theater Pomona",
+          "city": "Pomona, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-16",
+          "venue": "Brooklyn Bowl Las Vegas",
+          "city": "Las Vegas, NV",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-17",
+          "venue": "Grand Theatre at the Grand Sierra Resort & Casino",
+          "city": "Reno, NV",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-06",
+          "venue": "The Governors Ball Music Festival 2026",
+          "city": "Queens County, NY",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-12",
+          "venue": "Bonnaroo Music and Arts Festival 2026",
+          "city": "Manchester, TN",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-06-18",
+          "venue": "Isle of Wight Festival 2026",
+          "city": "Newport",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-06-21",
+          "venue": "Pinkpop 2026",
+          "city": "Landgraaf",
+          "country": "Netherlands"
+        },
+        {
+          "date": "2026-06-30",
+          "venue": "Bellahouston Park",
+          "city": "Glasgow",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "BRIT Awards 2026: here are all the nominees Nominees for Group Of The Year are previous BRITs Rising Star winners <strong>The Last Dinner Party</strong>, as well as Sleep Token, Wet Leg, Wolf Alice, a"
+      ],
+      "breakoutScore": 50,
+      "signals": [
+        "Active UK/EU tour",
+        "Just announced US dates — early window",
+        "Award signal: BRIT Awards"
       ],
       "tier": "🟡 WATCH CLOSELY"
     },
@@ -378,6 +467,82 @@
       "tier": "🟡 WATCH CLOSELY"
     },
     {
+      "name": "PinkPantheress",
+      "sources": [
+        "BRIT Awards",
+        "Mercury Prize"
+      ],
+      "mentions": 2,
+      "totalEvents": 29,
+      "usEvents": 16,
+      "ukEuEvents": 8,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-10",
+          "venue": "Coachella Valley Music and Arts Festival 2026",
+          "city": "Indio, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-14",
+          "venue": "WAMU Theater",
+          "city": "Seattle, WA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-20",
+          "venue": "Arizona Financial Theatre",
+          "city": "Phoenix, AZ",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-22",
+          "venue": "713 Music Hall",
+          "city": "Houston, TX",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-23",
+          "venue": "Southside Ballroom Loading Dock",
+          "city": "Dallas, TX",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-05-25",
+          "venue": "O2 Victoria Warehouse Manchester ",
+          "city": "Manchester",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-05-26",
+          "venue": "O2 Victoria Warehouse Manchester ",
+          "city": "Manchester",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-05-29",
+          "venue": "Alexandra Palace",
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est",
+        "CMAT, Pulp and PinkPantheress among Mercury prize shortlist light on new names | Music | The Guardian This year sees the ceremony move from London to Newcastle – following in the footsteps of the Mobo"
+      ],
+      "socialSnippet": "PinkPantheress - Spotify Statistics & Monthly Listeners | Music Metrics Vault Discover PinkPantheress Spotify statistics: <strong>35.2 million</strong",
+      "breakoutScore": 45,
+      "signals": [
+        "Active UK/EU tour",
+        "2 source types",
+        "Award signal: BRIT Awards, Mercury Prize"
+      ],
+      "tier": "🟡 WATCH CLOSELY"
+    },
+    {
       "name": "CMAT",
       "sources": [
         "Mercury Prize",
@@ -385,8 +550,8 @@
       ],
       "mentions": 2,
       "totalEvents": 63,
-      "usEvents": 23,
-      "ukEuEvents": 36,
+      "usEvents": 24,
+      "ukEuEvents": 35,
       "hasUSDates": true,
       "usVenues": [
         {
@@ -422,12 +587,6 @@
       ],
       "ukEuVenues": [
         {
-          "date": "2026-03-18",
-          "venue": "TivoliVredenburg",
-          "city": "Utrecht",
-          "country": "Netherlands"
-        },
-        {
           "date": "2026-03-19",
           "venue": "Muziekgieterij",
           "city": "Maastricht",
@@ -438,6 +597,12 @@
           "venue": "VEGA",
           "city": "København",
           "country": "Denmark"
+        },
+        {
+          "date": "2026-03-23",
+          "venue": "Fållan",
+          "city": "Johanneshov",
+          "country": "Sweden"
         }
       ],
       "snippets": [
@@ -520,9 +685,9 @@
         "BBC Sound Of"
       ],
       "mentions": 1,
-      "totalEvents": 7,
+      "totalEvents": 6,
       "usEvents": 4,
-      "ukEuEvents": 2,
+      "ukEuEvents": 1,
       "hasUSDates": true,
       "usVenues": [
         {
@@ -552,12 +717,6 @@
       ],
       "ukEuVenues": [
         {
-          "date": "2026-03-17",
-          "venue": "Uebel & Gefährlich",
-          "city": "Hamburg",
-          "country": "Germany"
-        },
-        {
           "date": "2026-03-22",
           "venue": "Schiffbau, Moods & EXIL",
           "city": "Zürich (kreis 6)",
@@ -574,82 +733,6 @@
         "Award signal: BBC Sound Of"
       ],
       "tier": "🟡 WATCH CLOSELY"
-    },
-    {
-      "name": "PinkPantheress",
-      "sources": [
-        "BRIT Awards",
-        "Mercury Prize"
-      ],
-      "mentions": 2,
-      "totalEvents": 22,
-      "usEvents": 15,
-      "ukEuEvents": 3,
-      "hasUSDates": true,
-      "usVenues": [
-        {
-          "date": "2026-04-10",
-          "venue": "Coachella Valley Music and Arts Festival 2026",
-          "city": "Indio, CA",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-14",
-          "venue": "WAMU Theater",
-          "city": "Seattle, WA",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-20",
-          "venue": "Arizona Financial Theatre",
-          "city": "Phoenix, AZ",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-22",
-          "venue": "713 Music Hall",
-          "city": "Houston, TX",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-23",
-          "venue": "Southside Ballroom Loading Dock",
-          "city": "Dallas, TX",
-          "country": "United States"
-        }
-      ],
-      "ukEuVenues": [
-        {
-          "date": "2026-05-29",
-          "venue": "Alexandra Palace",
-          "city": "London",
-          "country": "United Kingdom"
-        },
-        {
-          "date": "2026-06-04",
-          "venue": "Parc del Fòrum",
-          "city": "Barcelona",
-          "country": "Spain"
-        },
-        {
-          "date": "2026-08-22",
-          "venue": "Lorde at All Points East 2026",
-          "city": "London",
-          "country": "United Kingdom"
-        }
-      ],
-      "snippets": [
-        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est",
-        "CMAT, Pulp and PinkPantheress among Mercury prize shortlist light on new names | Music | The Guardian This year sees the ceremony move from London to Newcastle – following in the footsteps of the Mobo"
-      ],
-      "socialSnippet": "PinkPantheress - Spotify Statistics & Monthly Listeners | Music Metrics Vault Discover PinkPantheress Spotify statistics: <strong>35.2 million</strong",
-      "breakoutScore": 35,
-      "signals": [
-        "Some UK/EU dates",
-        "2 source types",
-        "Award signal: BRIT Awards, Mercury Prize"
-      ],
-      "tier": "⚪ ON RADAR"
     },
     {
       "name": "Disclosure",
@@ -730,7 +813,7 @@
       ],
       "mentions": 1,
       "totalEvents": 28,
-      "usEvents": 19,
+      "usEvents": 20,
       "ukEuEvents": 6,
       "hasUSDates": true,
       "usVenues": [
@@ -738,6 +821,12 @@
           "date": "2026-04-10",
           "venue": "Coachella Valley Music and Arts Festival 2026",
           "city": "Indio, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-30",
+          "venue": "Lollapalooza Chicago 2026",
+          "city": "Chicago, IL",
           "country": "United States"
         },
         {
@@ -756,12 +845,6 @@
           "date": "2026-09-23",
           "venue": "Spectrum Center",
           "city": "Charlotte, NC",
-          "country": "United States"
-        },
-        {
-          "date": "2026-09-26",
-          "venue": "Capital One Arena",
-          "city": "Washington, DC",
           "country": "United States"
         }
       ],
@@ -787,6 +870,78 @@
       ],
       "snippets": [
         "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+      ],
+      "breakoutScore": 35,
+      "signals": [
+        "Active UK/EU tour",
+        "Award signal: BRIT Awards"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "The Last Dinner Party",
+      "sources": [
+        "BRIT Awards"
+      ],
+      "mentions": 1,
+      "totalEvents": 42,
+      "usEvents": 31,
+      "ukEuEvents": 8,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-03-27",
+          "venue": "Austin City Limits Live at The Moody Theater",
+          "city": "Austin, TX",
+          "country": "United States"
+        },
+        {
+          "date": "2026-03-28",
+          "venue": "The Bomb Factory",
+          "city": "Dallas, TX",
+          "country": "United States"
+        },
+        {
+          "date": "2026-03-30",
+          "venue": "White Oak Music Hall",
+          "city": "Houston, TX",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-01",
+          "venue": "The Midland Theatre",
+          "city": "Kansas City, MO",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-03",
+          "venue": "Riverside Theater",
+          "city": "Milwaukee, WI",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-06-18",
+          "venue": "Isle of Wight Festival 2026",
+          "city": "Newport",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-06-19",
+          "venue": "TRNSMT 2026",
+          "city": "Glasgow",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-07-03",
+          "venue": "Down The Rabbit Hole 2026",
+          "city": "Ewijk",
+          "country": "Netherlands"
+        }
+      ],
+      "snippets": [
+        "BRIT Awards 2026: here are all the nominees Nominees for Group Of The Year are previous BRITs Rising Star winners <strong>The Last Dinner Party</strong>, as well as Sleep Token, Wet Leg, Wolf Alice, a"
       ],
       "breakoutScore": 35,
       "signals": [
@@ -1061,66 +1216,6 @@
       "tier": "⚪ ON RADAR"
     },
     {
-      "name": "Dave",
-      "sources": [
-        "BRIT Awards"
-      ],
-      "mentions": 1,
-      "totalEvents": 21,
-      "usEvents": 13,
-      "ukEuEvents": 1,
-      "hasUSDates": true,
-      "usVenues": [
-        {
-          "date": "2026-03-27",
-          "venue": "Showbox SoDo",
-          "city": "Seattle, WA",
-          "country": "United States"
-        },
-        {
-          "date": "2026-03-31",
-          "venue": "Fox Theater",
-          "city": "Oakland, CA",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-03",
-          "venue": "Hollywood Palladium",
-          "city": "Los Angeles, CA",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-07",
-          "venue": "Summit Music Hall",
-          "city": "Denver, CO",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-10",
-          "venue": "Southside Ballroom",
-          "city": "Dallas, TX",
-          "country": "United States"
-        }
-      ],
-      "ukEuVenues": [
-        {
-          "date": "2026-03-17",
-          "venue": "Co-op Live",
-          "city": "Manchester",
-          "country": "United Kingdom"
-        }
-      ],
-      "snippets": [
-        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
-      ],
-      "breakoutScore": 25,
-      "signals": [
-        "Some UK/EU dates",
-        "Award signal: BRIT Awards"
-      ],
-      "tier": "⚪ ON RADAR"
-    },
-    {
       "name": "FKA twigs",
       "sources": [
         "Mercury Prize"
@@ -1189,72 +1284,6 @@
       "signals": [
         "Some UK/EU dates",
         "Award signal: Mercury Prize"
-      ],
-      "tier": "⚪ ON RADAR"
-    },
-    {
-      "name": "Rachel Chinouriri",
-      "sources": [
-        "UK Indie Breakthrough"
-      ],
-      "mentions": 1,
-      "totalEvents": 10,
-      "usEvents": 6,
-      "ukEuEvents": 2,
-      "hasUSDates": true,
-      "usVenues": [
-        {
-          "date": "2026-04-08",
-          "venue": "Target Center",
-          "city": "Minneapolis, MN",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-10",
-          "venue": "Allstate Arena",
-          "city": "Rosemont, IL",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-11",
-          "venue": "Allstate Arena",
-          "city": "Rosemont, IL",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-13",
-          "venue": "Little Caesars Arena",
-          "city": "Detroit, MI",
-          "country": "United States"
-        },
-        {
-          "date": "2026-06-07",
-          "venue": "The Governors Ball Music Festival 2026",
-          "city": "Queens County, NY",
-          "country": "United States"
-        }
-      ],
-      "ukEuVenues": [
-        {
-          "date": "2026-06-28",
-          "venue": "Marlay Park",
-          "city": "South Dublin",
-          "country": "Ireland"
-        },
-        {
-          "date": "2026-07-05",
-          "venue": "Finsbury Park",
-          "city": "London",
-          "country": "United Kingdom"
-        }
-      ],
-      "snippets": [
-        "Top 26 Artists to watch in 2026 | // MELODIC Magazine After stepping onto the scene in 2019, <strong>Rachel Chinouriri</strong> has carved out space in the pop world by blending soul and indie element"
-      ],
-      "breakoutScore": 25,
-      "signals": [
-        "Some UK/EU dates",
-        "Just announced US dates — early window"
       ],
       "tier": "⚪ ON RADAR"
     },
@@ -1485,6 +1514,58 @@
       "tier": "⬜ LOW"
     },
     {
+      "name": "Dave",
+      "sources": [
+        "BRIT Awards"
+      ],
+      "mentions": 1,
+      "totalEvents": 20,
+      "usEvents": 13,
+      "ukEuEvents": 0,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-03-27",
+          "venue": "Showbox SoDo",
+          "city": "Seattle, WA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-03-31",
+          "venue": "Fox Theater",
+          "city": "Oakland, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-03",
+          "venue": "Hollywood Palladium",
+          "city": "Los Angeles, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-07",
+          "venue": "Summit Music Hall",
+          "city": "Denver, CO",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-10",
+          "venue": "Southside Ballroom",
+          "city": "Dallas, TX",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [],
+      "snippets": [
+        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+      ],
+      "breakoutScore": 15,
+      "signals": [
+        "Award signal: BRIT Awards"
+      ],
+      "tier": "⬜ LOW"
+    },
+    {
       "name": "Fred again",
       "sources": [
         "BRIT Awards"
@@ -1508,8 +1589,8 @@
   ],
   "summary": {
     "imminent": 4,
-    "watchClosely": 6,
-    "onRadar": 13,
+    "watchClosely": 8,
+    "onRadar": 11,
     "noUSDates": 4
   }
 }

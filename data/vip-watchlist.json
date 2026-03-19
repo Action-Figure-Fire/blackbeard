@@ -4,7 +4,7 @@
     "rule": "Only GET-IN prices matter. Ignore averages.",
     "rule2": "Under 10 listings = noise, not a real signal",
     "scanSchedule": "Tuesday + Wednesday 11am ET (manual, ask Zach first)",
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-03-19"
   },
   "confirmedSellers": [
     {
@@ -164,6 +164,110 @@
         "boston": {"venue": "HoB Boston", "cap": 1800, "getIn": 53, "listings": 41}
       },
       "pattern": "Pretty Penny reunion tour. Nostalgia play.",
+      "bandsintown": true
+    },
+    {
+      "artist": "fakemink",
+      "tier": "A",
+      "genre": "Electronic/Indie",
+      "evidence": {
+        "dc": {"venue": "9:30 Club", "cap": 1200, "getIn": 207, "source": "StubHub"},
+        "minneapolis": {"venue": "Varsity Theater", "cap": 1000, "getIn": 185, "source": "StubHub"},
+        "phoenix": {"venue": "Van Buren", "cap": 1800, "getIn": 184, "source": "StubHub"},
+        "austin": {"venue": "Emo's", "cap": 1000, "getIn": 184, "source": "StubHub"},
+        "dallas": {"venue": "Echo Lounge", "cap": 1000, "getIn": 184, "source": "StubHub"},
+        "houston": {"venue": "White Oak Downstairs", "cap": 500, "getIn": 184, "source": "StubHub"},
+        "atlanta": {"venue": "Masquerade Hell Stage", "cap": 500, "getIn": 184, "source": "StubHub"},
+        "toronto": {"venue": "History", "cap": 2500, "getIn": 129, "source": "StubHub"}
+      },
+      "spotify": "8.4M monthly listeners",
+      "festivals": ["Coachella 2026", "Lollapalooza 2026"],
+      "pattern": "$184 floor set across tour. DC premium ($207). Toronto discount (2.5K cap). 8.4M listeners in 500-1800 cap rooms = massive ratio. Only 8 headline dates. Broker(s) controlling supply.",
+      "action": "If ANY new dates added, buy immediately. Watch for Lolla aftershow.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Maisie Peters",
+      "tier": "A",
+      "genre": "Pop",
+      "evidence": {
+        "dc": {"venue": "9:30 Club", "cap": 1200, "getIn": 328, "source": "StubHub"}
+      },
+      "pattern": "UK breakout. Ed Sheeran label. $328 at 1,200 cap = highest non-Zara price seen. Need more markets to confirm.",
+      "action": "Cross-reference other venues ASAP. UK→US breakout pattern.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Hayley Williams",
+      "tier": "A",
+      "genre": "Alt Rock/Pop",
+      "evidence": {
+        "atlanta": {"venue": "Tabernacle", "cap": 2600, "getIn": 212, "source": "StubHub"},
+        "atlantaN2": {"venue": "Tabernacle", "cap": 2600, "getIn": 228, "source": "StubHub"},
+        "bostonN1": {"venue": "House of Blues", "cap": 1800, "getIn": 156, "source": "Vivid Seats"},
+        "bostonN2": {"venue": "House of Blues", "cap": 1800, "getIn": 157, "avgPrice": 879, "source": "Vivid Seats"},
+        "philly": {"venue": "Franklin Music Hall", "cap": 3000, "getIn": 125, "source": "Vivid Seats"}
+      },
+      "pattern": "ATL 40-80% above NE. N2 Boston avg $879 = insane premium seats. Paramore frontwoman solo = scarcity.",
+      "action": "Buy any market under $150 get-in.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Yebba",
+      "tier": "A",
+      "genre": "R&B/Soul",
+      "evidence": {
+        "dc": {"venue": "9:30 Club", "cap": 1200, "getIn": 227, "source": "StubHub"},
+        "sf": {"venue": "Fillmore SF", "cap": 1150, "getIn": 127, "source": "StubHub"}
+      },
+      "pattern": "DC 80% above SF. Barely tours. Grammy winner, Drake collab. Scarcity-driven.",
+      "action": "Buy any date under $130. Watch for new dates.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Oskar Med K",
+      "tier": "A",
+      "genre": "Indie/Electronic",
+      "evidence": {
+        "dc": {"venue": "9:30 Club", "cap": 1200, "getIn": 177, "source": "StubHub"},
+        "nyc_t5": {"venue": "Terminal 5", "cap": 3000, "getIn": "nearly gone", "listings": 1, "tickets": 8, "source": "Vivid Seats"},
+        "nyc_webster": {"venue": "Webster Hall", "cap": 1500, "getIn": 80, "tickets": 9, "source": "Vivid Seats"},
+        "toronto": {"venue": "History", "cap": 2500, "listings": 3, "tickets": 18, "source": "Vivid Seats"}
+      },
+      "pattern": "Nearly gone everywhere. DC $177. NYC down to single-digit tickets. Supply evaporating.",
+      "action": "BUY NOW if any available under $100.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Natalia Lafourcade",
+      "tier": "A",
+      "genre": "Latin/Folk",
+      "evidence": {
+        "atlanta": {"venue": "Tabernacle", "cap": 2600, "getIn": 142, "source": "StubHub"},
+        "atlantaN2": {"venue": "Tabernacle", "cap": 2600, "getIn": 85, "source": "StubHub"}
+      },
+      "pattern": "Latin Grammy winner. LATAM→US demand. N1 premium ($142 vs $85). Need more markets.",
+      "action": "Cross-reference other venues. Watch for added dates.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Corinne Bailey Rae",
+      "tier": "B",
+      "genre": "R&B/Soul",
+      "evidence": {
+        "sf": {"venue": "Fillmore SF", "cap": 1150, "getIn": 213, "source": "StubHub"}
+      },
+      "pattern": "Rarely tours. Nostalgia demand. $213 at 1,150 cap. Need more markets.",
+      "bandsintown": true
+    },
+    {
+      "artist": "Lagwagon",
+      "tier": "B",
+      "genre": "Punk",
+      "evidence": {
+        "sf": {"venue": "Fillmore SF", "cap": 1150, "getIn": 196, "source": "StubHub"}
+      },
+      "pattern": "90s punk nostalgia. $196 at small room. One market only so far.",
       "bandsintown": true
     },
     {

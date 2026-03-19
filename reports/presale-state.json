@@ -183,6 +183,10 @@
     "John Summit-https://dailyhive.com/calgary/john-summit-cowboys-music-festival-calgary": {
       "firstSeen": "2026-03-18T17:00:03.292Z",
       "urgency": "ANNOUNCED"
+    },
+    "John Summit-https://www.cbsnews.com/chicago/news/lollapalooza-tickets-sale-2026-grant-park-chicago/": {
+      "firstSeen": "2026-03-19T17:00:04.062Z",
+      "urgency": "ANNOUNCED"
     }
   },
   "codes": {
@@ -193,5 +197,5 @@
       "foundAt": "2026-03-05T23:26:56.128Z"
     }
   },
-  "lastScan": "2026-03-18T21:00:04.694Z"
+  "lastScan": "2026-03-19T17:00:04.062Z"
 }
