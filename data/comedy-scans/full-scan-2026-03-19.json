@@ -1,0 +1,2568 @@
+{
+  "timestamp": "2026-03-19T23:06:04.287Z",
+  "totalShows": 202,
+  "hotShows": [
+    {
+      "comedian": "Netflix Is A Joke Fest - Matt Rife",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-06",
+      "getIn": 203.84,
+      "listings": 5,
+      "tickets": 15,
+      "cap": 450
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-11",
+      "getIn": 170,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 300
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Matt Rife",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-07",
+      "getIn": 167.58,
+      "listings": 5,
+      "tickets": 18,
+      "cap": 450
+    },
+    {
+      "comedian": "Amber Autry",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-09-29",
+      "getIn": 158,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 450
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Bert and Shaqs Crowdwork",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-08",
+      "getIn": 148.96,
+      "listings": 7,
+      "tickets": 26,
+      "cap": 450
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-18",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-25",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-09",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-16",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-23",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-30",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-06-06",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-06-13",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-02",
+      "getIn": 130,
+      "listings": 1,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Kountry Wayne",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-24",
+      "getIn": 116,
+      "listings": 3,
+      "tickets": 23,
+      "cap": 300
+    },
+    {
+      "comedian": "Kasaun Wilson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-17",
+      "getIn": 108,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Kasaun Wilson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-17",
+      "getIn": 108,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-19",
+      "getIn": 108,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Kountry Wayne",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-23",
+      "getIn": 107,
+      "listings": 3,
+      "tickets": 23,
+      "cap": 300
+    },
+    {
+      "comedian": "Jay Jurden",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-05",
+      "getIn": 104,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Jay Jurden",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-05",
+      "getIn": 104,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-03-23",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-03-30",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-06",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-13",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-20",
+      "getIn": 103,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-11",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-18",
+      "getIn": 103,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-24",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-25",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-31",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-06-01",
+      "getIn": 103,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-06-07",
+      "getIn": 103,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-06-08",
+      "getIn": 103,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-27",
+      "getIn": 102,
+      "listings": 1,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-04",
+      "getIn": 102,
+      "listings": 1,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Amir K",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-09",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Open Mic",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-03-25",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Love Isnt Blind",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-16",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Kasaun Wilson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-18",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Kasaun Wilson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-18",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Kasaun Wilson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-19",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Led Varela",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-08",
+      "getIn": 96,
+      "listings": 3,
+      "tickets": 23,
+      "cap": 300
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Mark Normand",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-06",
+      "getIn": 95,
+      "listings": 3,
+      "tickets": 8,
+      "cap": 450
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-17",
+      "getIn": 93,
+      "listings": 2,
+      "tickets": 20,
+      "cap": 300
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-17",
+      "getIn": 93,
+      "listings": 2,
+      "tickets": 19,
+      "cap": 300
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-18",
+      "getIn": 93,
+      "listings": 1,
+      "tickets": 15,
+      "cap": 300
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-18",
+      "getIn": 93,
+      "listings": 2,
+      "tickets": 23,
+      "cap": 300
+    },
+    {
+      "comedian": "Damon Darling",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-22",
+      "getIn": 89,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 325
+    },
+    {
+      "comedian": "Monroe Martin",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-25",
+      "getIn": 89,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 325
+    },
+    {
+      "comedian": "Justin Silva",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-11",
+      "getIn": 89,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 325
+    },
+    {
+      "comedian": "Alfred Robles",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-09",
+      "getIn": 85,
+      "listings": 4,
+      "tickets": 14,
+      "cap": 450
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Iliza Shlesinger",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-08",
+      "getIn": 84,
+      "listings": 3,
+      "tickets": 9,
+      "cap": 450
+    },
+    {
+      "comedian": "Malik B",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-03-26",
+      "getIn": 84,
+      "listings": 1,
+      "tickets": 15,
+      "cap": 300
+    }
+  ],
+  "allShows": [
+    {
+      "comedian": "Headliners of the Original Room",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-03-31",
+      "getIn": 54,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 450
+    },
+    {
+      "comedian": "Trailer Trash Tammy - Chelcie Lynn",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-04-15",
+      "getIn": 40,
+      "listings": 3,
+      "tickets": 9,
+      "cap": 450
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Adam Ray is Bruce Robbins",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-05",
+      "getIn": 52,
+      "listings": 2,
+      "tickets": 5,
+      "cap": 450
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Jim Jefferies",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-05",
+      "getIn": 62,
+      "listings": 4,
+      "tickets": 11,
+      "cap": 450
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Matt Rife",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-06",
+      "getIn": 203.84,
+      "listings": 5,
+      "tickets": 15,
+      "cap": 450
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Mark Normand",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-06",
+      "getIn": 95,
+      "listings": 3,
+      "tickets": 8,
+      "cap": 450
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Matt Rife",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-07",
+      "getIn": 167.58,
+      "listings": 5,
+      "tickets": 18,
+      "cap": 450
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Iliza Shlesinger",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-08",
+      "getIn": 84,
+      "listings": 3,
+      "tickets": 9,
+      "cap": 450
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Bert and Shaqs Crowdwork",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-08",
+      "getIn": 148.96,
+      "listings": 7,
+      "tickets": 26,
+      "cap": 450
+    },
+    {
+      "comedian": "Alfred Robles",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-09",
+      "getIn": 85,
+      "listings": 4,
+      "tickets": 14,
+      "cap": 450
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Steph Tolev",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-05-09",
+      "getIn": 48,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 450
+    },
+    {
+      "comedian": "Amber Autry",
+      "venue": "Comedy Store LA",
+      "city": "LA",
+      "date": "2026-09-29",
+      "getIn": 158,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 450
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-22",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-23",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Improv Presents - MONDERAYS with DeRay Davis",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-23",
+      "getIn": 75,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv - Brian Monarch",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-24",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "The Shaw-some Show - Forrest Shaw",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-25",
+      "getIn": 69,
+      "listings": 4,
+      "tickets": 16,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv - Brian Monarch",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-26",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-27",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-27",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-28",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-28",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-29",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-30",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Improv Presents - MONDERAYS with DeRay Davis",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-30",
+      "getIn": 75,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv - Brian Monarch",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-03-31",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Comedy N Chill",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-03",
+      "getIn": 54,
+      "listings": 4,
+      "tickets": 16,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight at the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-04",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-04",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Jay Jurden",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-05",
+      "getIn": 104,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Jay Jurden",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-05",
+      "getIn": 104,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Improv Presents: MONDERAYS with DeRay Davis",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-06",
+      "getIn": 65,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "John Campanelli",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-07",
+      "getIn": 68,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Amir K",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-09",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv - Brian Monarch",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-10",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-12",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Tonight At the Improv",
+      "venue": "Improv Hollywood",
+      "city": "Hollywood",
+      "date": "2026-04-13",
+      "getIn": 71,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 400
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Nate Jackson",
+      "venue": "Laugh Factory Hollywood",
+      "city": "Hollywood",
+      "date": "2026-05-04",
+      "getIn": 62,
+      "listings": 4,
+      "tickets": 13,
+      "cap": 280
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Nate Jackson",
+      "venue": "Laugh Factory Hollywood",
+      "city": "Hollywood",
+      "date": "2026-05-05",
+      "getIn": 66,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 280
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Nate Jackson",
+      "venue": "Laugh Factory Hollywood",
+      "city": "Hollywood",
+      "date": "2026-05-06",
+      "getIn": 61,
+      "listings": 2,
+      "tickets": 10,
+      "cap": 280
+    },
+    {
+      "comedian": "Tim Allen",
+      "venue": "Laugh Factory Hollywood",
+      "city": "Hollywood",
+      "date": "2026-05-07",
+      "getIn": 44,
+      "listings": 1,
+      "tickets": 4,
+      "cap": 280
+    },
+    {
+      "comedian": "Netflix Is A Joke Fest - Nate Jackson",
+      "venue": "Laugh Factory Hollywood",
+      "city": "Hollywood",
+      "date": "2026-05-07",
+      "getIn": 56,
+      "listings": 1,
+      "tickets": 1,
+      "cap": 280
+    },
+    {
+      "comedian": "Plastic Cup Boyz",
+      "venue": "Laugh Factory Hollywood",
+      "city": "Hollywood",
+      "date": "2026-05-08",
+      "getIn": 50,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 280
+    },
+    {
+      "comedian": "David Nihill (18+ Event)",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-19",
+      "getIn": 50,
+      "listings": 2,
+      "tickets": 2,
+      "cap": 182
+    },
+    {
+      "comedian": "David Nihill (18+ Event)",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-20",
+      "getIn": 46,
+      "listings": 1,
+      "tickets": 1,
+      "cap": 182
+    },
+    {
+      "comedian": "SF Comedy Showcase",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-22",
+      "getIn": 23,
+      "listings": 12,
+      "tickets": 80,
+      "cap": 182
+    },
+    {
+      "comedian": "Comedy Allstars",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-24",
+      "getIn": 27,
+      "listings": 5,
+      "tickets": 34,
+      "cap": 182
+    },
+    {
+      "comedian": "Ivan Decker",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-25",
+      "getIn": 29,
+      "listings": 17,
+      "tickets": 108,
+      "cap": 182
+    },
+    {
+      "comedian": "Ivan Decker (18+ Event)",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-26",
+      "getIn": 28.25,
+      "listings": 19,
+      "tickets": 117,
+      "cap": 182
+    },
+    {
+      "comedian": "Ivan Decker (18+ Event)",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-27",
+      "getIn": 32.26,
+      "listings": 15,
+      "tickets": 101,
+      "cap": 182
+    },
+    {
+      "comedian": "Ivan Decker (18+ Event)",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-27",
+      "getIn": 32.26,
+      "listings": 17,
+      "tickets": 105,
+      "cap": 182
+    },
+    {
+      "comedian": "Ivan Decker (18+ Event)",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-28",
+      "getIn": 32.26,
+      "listings": 18,
+      "tickets": 107,
+      "cap": 182
+    },
+    {
+      "comedian": "Ivan Decker (18+ Event)",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-28",
+      "getIn": 32.26,
+      "listings": 14,
+      "tickets": 90,
+      "cap": 182
+    },
+    {
+      "comedian": "Captivate Through Comedy 101 Graduation Show",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-29",
+      "getIn": 16,
+      "listings": 7,
+      "tickets": 56,
+      "cap": 182
+    },
+    {
+      "comedian": "SF Comedy Showcase",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-29",
+      "getIn": 23,
+      "listings": 17,
+      "tickets": 98,
+      "cap": 182
+    },
+    {
+      "comedian": "Clay Newman",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-03-31",
+      "getIn": 26.25,
+      "listings": 18,
+      "tickets": 106,
+      "cap": 182
+    },
+    {
+      "comedian": "Comedy Allstars",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-01",
+      "getIn": 27,
+      "listings": 3,
+      "tickets": 24,
+      "cap": 182
+    },
+    {
+      "comedian": "Dan Mintz",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-02",
+      "getIn": 29.26,
+      "listings": 17,
+      "tickets": 96,
+      "cap": 182
+    },
+    {
+      "comedian": "Dan Mintz",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-03",
+      "getIn": 32.26,
+      "listings": 16,
+      "tickets": 90,
+      "cap": 182
+    },
+    {
+      "comedian": "Dan Mintz",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-03",
+      "getIn": 32.26,
+      "listings": 18,
+      "tickets": 105,
+      "cap": 182
+    },
+    {
+      "comedian": "Dan Mintz",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-04",
+      "getIn": 32.26,
+      "listings": 24,
+      "tickets": 119,
+      "cap": 182
+    },
+    {
+      "comedian": "Dan Mintz",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-04",
+      "getIn": 33,
+      "listings": 24,
+      "tickets": 114,
+      "cap": 182
+    },
+    {
+      "comedian": "Comedy Allstars",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-07",
+      "getIn": 27,
+      "listings": 8,
+      "tickets": 54,
+      "cap": 182
+    },
+    {
+      "comedian": "Bo Johnson",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-08",
+      "getIn": 29,
+      "listings": 8,
+      "tickets": 53,
+      "cap": 182
+    },
+    {
+      "comedian": "Bo Johnson",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-09",
+      "getIn": 29,
+      "listings": 7,
+      "tickets": 42,
+      "cap": 182
+    },
+    {
+      "comedian": "Bo Johnson",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-10",
+      "getIn": 33,
+      "listings": 4,
+      "tickets": 25,
+      "cap": 182
+    },
+    {
+      "comedian": "Bo Johnson",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-10",
+      "getIn": 33,
+      "listings": 8,
+      "tickets": 52,
+      "cap": 182
+    },
+    {
+      "comedian": "Bo Johnson",
+      "venue": "Punch Line SF",
+      "city": "SF",
+      "date": "2026-04-11",
+      "getIn": 32.26,
+      "listings": 6,
+      "tickets": 32,
+      "cap": 182
+    },
+    {
+      "comedian": "Santi Espinosa",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-20",
+      "getIn": 68,
+      "listings": 3,
+      "tickets": 24,
+      "cap": 400
+    },
+    {
+      "comedian": "Cobb's Comedy Allstars",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-20",
+      "getIn": 31,
+      "listings": 6,
+      "tickets": 64,
+      "cap": 400
+    },
+    {
+      "comedian": "Cobb's Comedy Allstars",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-21",
+      "getIn": 33,
+      "listings": 4,
+      "tickets": 41,
+      "cap": 400
+    },
+    {
+      "comedian": "Cobb's Comedy Allstars",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-21",
+      "getIn": 30,
+      "listings": 6,
+      "tickets": 54,
+      "cap": 400
+    },
+    {
+      "comedian": "Mark Viera",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-22",
+      "getIn": 38.26,
+      "listings": 9,
+      "tickets": 70,
+      "cap": 400
+    },
+    {
+      "comedian": "Walter Masterson (18+ Event)",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-25",
+      "getIn": 32.26,
+      "listings": 17,
+      "tickets": 125,
+      "cap": 400
+    },
+    {
+      "comedian": "Get It Gameshow",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-26",
+      "getIn": 27,
+      "listings": 15,
+      "tickets": 92,
+      "cap": 400
+    },
+    {
+      "comedian": "Sam Tallent",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-27",
+      "getIn": 32.26,
+      "listings": 8,
+      "tickets": 62,
+      "cap": 400
+    },
+    {
+      "comedian": "Dark and Darker",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-27",
+      "getIn": 26.25,
+      "listings": 24,
+      "tickets": 162,
+      "cap": 400
+    },
+    {
+      "comedian": "Sam Tallent",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-28",
+      "getIn": 32.26,
+      "listings": 11,
+      "tickets": 76,
+      "cap": 400
+    },
+    {
+      "comedian": "Sam Tallent",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-28",
+      "getIn": 27.25,
+      "listings": 10,
+      "tickets": 69,
+      "cap": 400
+    },
+    {
+      "comedian": "Roast Battle",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-03-29",
+      "getIn": 27,
+      "listings": 18,
+      "tickets": 132,
+      "cap": 400
+    },
+    {
+      "comedian": "Cobbs Comedy Showcase",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-01",
+      "getIn": 24.24,
+      "listings": 8,
+      "tickets": 60,
+      "cap": 400
+    },
+    {
+      "comedian": "Cobb's Comedy Allstars",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-02",
+      "getIn": 23,
+      "listings": 17,
+      "tickets": 114,
+      "cap": 400
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-03",
+      "getIn": 51,
+      "listings": 4,
+      "tickets": 12,
+      "cap": 400
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-03",
+      "getIn": 45.27,
+      "listings": 7,
+      "tickets": 43,
+      "cap": 400
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-04",
+      "getIn": 63,
+      "listings": 5,
+      "tickets": 17,
+      "cap": 400
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-04",
+      "getIn": 61,
+      "listings": 4,
+      "tickets": 18,
+      "cap": 400
+    },
+    {
+      "comedian": "Frank Caliendo",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-08",
+      "getIn": 43.27,
+      "listings": 10,
+      "tickets": 66,
+      "cap": 400
+    },
+    {
+      "comedian": "Emily Wilson",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-09",
+      "getIn": 32.26,
+      "listings": 15,
+      "tickets": 96,
+      "cap": 400
+    },
+    {
+      "comedian": "Nathan Macintosh",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-10",
+      "getIn": 33,
+      "listings": 17,
+      "tickets": 111,
+      "cap": 400
+    },
+    {
+      "comedian": "Santi Espinosa (Rescheduled from 3/20/26)",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-10",
+      "getIn": 45,
+      "listings": 9,
+      "tickets": 66,
+      "cap": 400
+    },
+    {
+      "comedian": "Gaspare Randazzo (18+ Event)",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-11",
+      "getIn": 38.26,
+      "listings": 12,
+      "tickets": 93,
+      "cap": 400
+    },
+    {
+      "comedian": "Nathan Macintosh",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-11",
+      "getIn": 35,
+      "listings": 17,
+      "tickets": 127,
+      "cap": 400
+    },
+    {
+      "comedian": "Nathan Macintosh",
+      "venue": "Cobbs Comedy Club SF",
+      "city": "SF",
+      "date": "2026-04-11",
+      "getIn": 33,
+      "listings": 21,
+      "tickets": 141,
+      "cap": 400
+    },
+    {
+      "comedian": "Super Six Showcase",
+      "venue": "Zanies Chicago",
+      "city": "Chicago",
+      "date": "2026-03-23",
+      "getIn": 47,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 200
+    },
+    {
+      "comedian": "Roast Battle Chicago",
+      "venue": "Zanies Chicago",
+      "city": "Chicago",
+      "date": "2026-03-26",
+      "getIn": 52,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 200
+    },
+    {
+      "comedian": "Gary Vider",
+      "venue": "Zanies Chicago",
+      "city": "Chicago",
+      "date": "2026-03-27",
+      "getIn": 55,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 200
+    },
+    {
+      "comedian": "Gary Vider",
+      "venue": "Zanies Chicago",
+      "city": "Chicago",
+      "date": "2026-03-28",
+      "getIn": 55,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 200
+    },
+    {
+      "comedian": "Calvin Evans",
+      "venue": "Zanies Chicago",
+      "city": "Chicago",
+      "date": "2026-03-28",
+      "getIn": 47,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 200
+    },
+    {
+      "comedian": "Maher Matta",
+      "venue": "Zanies Chicago",
+      "city": "Chicago",
+      "date": "2026-03-31",
+      "getIn": 57,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 200
+    },
+    {
+      "comedian": "Ray Lau",
+      "venue": "Zanies Chicago",
+      "city": "Chicago",
+      "date": "2026-04-10",
+      "getIn": 55,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 200
+    },
+    {
+      "comedian": "Doug Benson",
+      "venue": "Zanies Chicago",
+      "city": "Chicago",
+      "date": "2026-05-04",
+      "getIn": 52,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 200
+    },
+    {
+      "comedian": "Will Burkart (21+ Event)",
+      "venue": "Zanies Chicago",
+      "city": "Chicago",
+      "date": "2026-05-07",
+      "getIn": 69,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 200
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-03-23",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-03-30",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-06",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-11",
+      "getIn": 170,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-13",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-18",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-20",
+      "getIn": 103,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-25",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-04-27",
+      "getIn": 102,
+      "listings": 1,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-02",
+      "getIn": 130,
+      "listings": 1,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-04",
+      "getIn": 102,
+      "listings": 1,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-09",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-11",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-16",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-18",
+      "getIn": 103,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-23",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-24",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-25",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-30",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-05-31",
+      "getIn": 103,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-06-01",
+      "getIn": 103,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-06-06",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-06-07",
+      "getIn": 103,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-06-08",
+      "getIn": 103,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Best of The Second City",
+      "venue": "Second City Chicago",
+      "city": "Chicago",
+      "date": "2026-06-13",
+      "getIn": 132,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Kountry Wayne (18+ Event)",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-03-27",
+      "getIn": 63,
+      "listings": 4,
+      "tickets": 18,
+      "cap": 300
+    },
+    {
+      "comedian": "Kountry Wayne (18+ Event)",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-03-27",
+      "getIn": 63,
+      "listings": 4,
+      "tickets": 18,
+      "cap": 300
+    },
+    {
+      "comedian": "Kountry Wayne (18+ Event)",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-03-28",
+      "getIn": 63,
+      "listings": 4,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Kountry Wayne (18+ Event)",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-03-29",
+      "getIn": 63,
+      "listings": 4,
+      "tickets": 18,
+      "cap": 300
+    },
+    {
+      "comedian": "Ian Bagg",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-02",
+      "getIn": 48,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Ian Bagg",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-03",
+      "getIn": 48,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Ian Bagg",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-03",
+      "getIn": 48,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Ian Bagg",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-04",
+      "getIn": 48,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 300
+    },
+    {
+      "comedian": "Ian Bagg",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-04",
+      "getIn": 48,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Gabby Bryan",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-10",
+      "getIn": 48,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Gabby Bryan",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-10",
+      "getIn": 48,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Dusty Slay",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-14",
+      "getIn": 51,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 300
+    },
+    {
+      "comedian": "Shelly Belly",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-15",
+      "getIn": 50,
+      "listings": 3,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Grace O'Malley",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-17",
+      "getIn": 56,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Grace O'Malley",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-18",
+      "getIn": 56,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Arnez J",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-23",
+      "getIn": 63,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 300
+    },
+    {
+      "comedian": "Arnez J",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-24",
+      "getIn": 63,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 300
+    },
+    {
+      "comedian": "Arnez J",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-24",
+      "getIn": 63,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 300
+    },
+    {
+      "comedian": "Arnez J",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-25",
+      "getIn": 63,
+      "listings": 3,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Arnez J",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-25",
+      "getIn": 63,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 300
+    },
+    {
+      "comedian": "Arnez J",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-04-26",
+      "getIn": 63,
+      "listings": 3,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Jeremy Piven",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-05-15",
+      "getIn": 73,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 300
+    },
+    {
+      "comedian": "Jeremy Piven",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-05-15",
+      "getIn": 73,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 300
+    },
+    {
+      "comedian": "Jeremy Piven",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-05-16",
+      "getIn": 73,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 300
+    },
+    {
+      "comedian": "Jeremy Piven",
+      "venue": "Zanies Nashville",
+      "city": "Nashville",
+      "date": "2026-05-16",
+      "getIn": 73,
+      "listings": 1,
+      "tickets": 2,
+      "cap": 300
+    },
+    {
+      "comedian": "James Murray",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-03-20",
+      "getIn": 65,
+      "listings": 2,
+      "tickets": 23,
+      "cap": 300
+    },
+    {
+      "comedian": "Open Mic",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-03-25",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Malik B",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-03-26",
+      "getIn": 84,
+      "listings": 1,
+      "tickets": 15,
+      "cap": 300
+    },
+    {
+      "comedian": "Perfect Liars Club",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-01",
+      "getIn": 45,
+      "listings": 2,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Led Varela",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-08",
+      "getIn": 96,
+      "listings": 3,
+      "tickets": 23,
+      "cap": 300
+    },
+    {
+      "comedian": "Lady Bunny",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-09",
+      "getIn": 75,
+      "listings": 2,
+      "tickets": 16,
+      "cap": 300
+    },
+    {
+      "comedian": "Erin Jackson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-10",
+      "getIn": 54,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Erin Jackson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-10",
+      "getIn": 54,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Erin Jackson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-11",
+      "getIn": 59,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Erin Jackson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-11",
+      "getIn": 59,
+      "listings": 2,
+      "tickets": 12,
+      "cap": 300
+    },
+    {
+      "comedian": "Josh Gondelman",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-12",
+      "getIn": 59,
+      "listings": 3,
+      "tickets": 31,
+      "cap": 300
+    },
+    {
+      "comedian": "Love Isnt Blind",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-16",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Kasaun Wilson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-17",
+      "getIn": 108,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-17",
+      "getIn": 93,
+      "listings": 2,
+      "tickets": 20,
+      "cap": 300
+    },
+    {
+      "comedian": "Kasaun Wilson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-17",
+      "getIn": 108,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-17",
+      "getIn": 93,
+      "listings": 2,
+      "tickets": 19,
+      "cap": 300
+    },
+    {
+      "comedian": "Kasaun Wilson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-18",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-18",
+      "getIn": 93,
+      "listings": 1,
+      "tickets": 15,
+      "cap": 300
+    },
+    {
+      "comedian": "Kasaun Wilson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-18",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-18",
+      "getIn": 93,
+      "listings": 2,
+      "tickets": 23,
+      "cap": 300
+    },
+    {
+      "comedian": "Kasaun Wilson",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-19",
+      "getIn": 99,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Mo Amer",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-19",
+      "getIn": 108,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 300
+    },
+    {
+      "comedian": "Tony Woods",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-19",
+      "getIn": 58,
+      "listings": 2,
+      "tickets": 23,
+      "cap": 300
+    },
+    {
+      "comedian": "Kountry Wayne",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-23",
+      "getIn": 107,
+      "listings": 3,
+      "tickets": 23,
+      "cap": 300
+    },
+    {
+      "comedian": "Kountry Wayne",
+      "venue": "DC Improv",
+      "city": "Improv",
+      "date": "2026-04-24",
+      "getIn": 116,
+      "listings": 3,
+      "tickets": 23,
+      "cap": 300
+    },
+    {
+      "comedian": "Ryan Foster",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-19",
+      "getIn": 0,
+      "listings": 0,
+      "tickets": 0,
+      "cap": 325
+    },
+    {
+      "comedian": "Damon Darling",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-22",
+      "getIn": 89,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 325
+    },
+    {
+      "comedian": "Monroe Martin",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-25",
+      "getIn": 89,
+      "listings": 3,
+      "tickets": 14,
+      "cap": 325
+    },
+    {
+      "comedian": "Will Burkart",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-26",
+      "getIn": 67,
+      "listings": 4,
+      "tickets": 33,
+      "cap": 325
+    },
+    {
+      "comedian": "Martin Amini",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-27",
+      "getIn": 65,
+      "listings": 5,
+      "tickets": 32,
+      "cap": 325
+    },
+    {
+      "comedian": "Jon Rudnitsky",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-27",
+      "getIn": 54,
+      "listings": 5,
+      "tickets": 39,
+      "cap": 325
+    },
+    {
+      "comedian": "Martin Amini",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-27",
+      "getIn": 75,
+      "listings": 5,
+      "tickets": 40,
+      "cap": 325
+    },
+    {
+      "comedian": "Martin Amini",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-28",
+      "getIn": 67,
+      "listings": 5,
+      "tickets": 38,
+      "cap": 325
+    },
+    {
+      "comedian": "Jon Rudnitsky",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-28",
+      "getIn": 54,
+      "listings": 5,
+      "tickets": 37,
+      "cap": 325
+    },
+    {
+      "comedian": "Martin Amini",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-28",
+      "getIn": 67,
+      "listings": 5,
+      "tickets": 38,
+      "cap": 325
+    },
+    {
+      "comedian": "Jon Rudnitsky",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-28",
+      "getIn": 55,
+      "listings": 3,
+      "tickets": 20,
+      "cap": 325
+    },
+    {
+      "comedian": "Martin Amini",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-29",
+      "getIn": 65,
+      "listings": 5,
+      "tickets": 38,
+      "cap": 325
+    },
+    {
+      "comedian": "Don McMillan",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-03-31",
+      "getIn": 65,
+      "listings": 5,
+      "tickets": 38,
+      "cap": 325
+    },
+    {
+      "comedian": "Alec Flynn",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-01",
+      "getIn": 54,
+      "listings": 3,
+      "tickets": 30,
+      "cap": 325
+    },
+    {
+      "comedian": "Dustin Nickerson",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-02",
+      "getIn": 65,
+      "listings": 2,
+      "tickets": 20,
+      "cap": 325
+    },
+    {
+      "comedian": "Dustin Nickerson",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-03",
+      "getIn": 65,
+      "listings": 2,
+      "tickets": 20,
+      "cap": 325
+    },
+    {
+      "comedian": "Dustin Nickerson",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-03",
+      "getIn": 65,
+      "listings": 2,
+      "tickets": 20,
+      "cap": 325
+    },
+    {
+      "comedian": "Dustin Nickerson",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-04",
+      "getIn": 65,
+      "listings": 1,
+      "tickets": 14,
+      "cap": 325
+    },
+    {
+      "comedian": "Dustin Nickerson",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-04",
+      "getIn": 65,
+      "listings": 1,
+      "tickets": 14,
+      "cap": 325
+    },
+    {
+      "comedian": "Leyla Ingalls",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-07",
+      "getIn": 54,
+      "listings": 3,
+      "tickets": 30,
+      "cap": 325
+    },
+    {
+      "comedian": "Chris Estrada",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-08",
+      "getIn": 62,
+      "listings": 5,
+      "tickets": 46,
+      "cap": 325
+    },
+    {
+      "comedian": "Justin Silva",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-10",
+      "getIn": 74,
+      "listings": 3,
+      "tickets": 24,
+      "cap": 325
+    },
+    {
+      "comedian": "Justin Silva",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-10",
+      "getIn": 62,
+      "listings": 3,
+      "tickets": 24,
+      "cap": 325
+    },
+    {
+      "comedian": "Justin Silva",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-11",
+      "getIn": 89,
+      "listings": 2,
+      "tickets": 8,
+      "cap": 325
+    },
+    {
+      "comedian": "Justin Silva",
+      "venue": "Helium Philly",
+      "city": "Philly",
+      "date": "2026-04-11",
+      "getIn": 62,
+      "listings": 4,
+      "tickets": 32,
+      "cap": 325
+    }
+  ]
+}
