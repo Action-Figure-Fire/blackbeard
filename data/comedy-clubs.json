@@ -1,6 +1,6 @@
 {
   "description": "Comedy club/improv venues across 5 major US cities — Vivid Seats API IDs verified",
-  "updated": "2026-03-19T22:54:06.631Z",
+  "updated": "2026-03-19T23:23:53.034Z",
   "purpose": "Monitor for comedians blowing up at small rooms before they graduate to theaters/arenas. When a comedian has high secondary prices HERE, they are about to explode.",
   "cities": {
     "Los Angeles": [
@@ -84,9 +84,41 @@
         "shows": 125,
         "note": "MOST shows of any club. Every touring comic hits Cobbs"
       }
+    ],
+    "Pittsburgh": [
+      {
+        "id": 17024,
+        "name": "Pittsburgh Improv",
+        "cap": 400,
+        "shows": 126,
+        "note": "Home market. 126 upcoming shows. Prices cap at $99 (Pittsburgh multiplier). Signal is sell-through not price."
+      }
+    ],
+    "New York City": [
+      {
+        "id": 5328,
+        "name": "Carolines on Broadway",
+        "cap": 300,
+        "shows": 0,
+        "note": "CLOSED / no listings on secondary market"
+      },
+      {
+        "id": 35499,
+        "name": "Comedy Cellar",
+        "cap": 115,
+        "shows": 0,
+        "note": "Sells direct only. Not scannable via secondary market"
+      },
+      {
+        "id": 13565,
+        "name": "Gotham Comedy Club",
+        "cap": 300,
+        "shows": 0,
+        "note": "Sells direct only. Not scannable"
+      }
     ]
   },
-  "totalVenues": 10,
+  "totalVenues": 14,
   "totalUpcomingShows": 596,
-  "note": "NYC comedy clubs (Comedy Cellar, Gotham) sell direct and dont list on secondary market. Not scannable via this method."
+  "note": "NYC clubs sell direct (Comedy Cellar, Gotham, Carolines). Pittsburgh Improv is scannable but prices cap at $99 — signal is in sell-through rate, not price. LA/Chicago/DC/Philly/SF/Nashville are the best signal markets."
 }

@@ -1,0 +1,99 @@
+{
+  "description": "Hot comedians identified via comedy club secondary market scans",
+  "updated": "2026-03-19T23:23:53.031Z",
+  "threshold": "$100+ get-in at 2+ club nights",
+  "comedians": [
+    {
+      "name": "Mo Amer",
+      "vividPerformerId": 41454,
+      "tier": "S",
+      "hotNights": 9,
+      "peakPrice": 279,
+      "peakVenue": "Improv Addison/Dallas",
+      "social": "Netflix specials (The Vagabond, Mohammed in Texas), Chappelle connection",
+      "pattern": "Dallas $279 x5 shows = rabid local audience. Orpheum LA theater date at $40 = graduation underway",
+      "markets": [
+        "Dallas",
+        "LA",
+        "Houston",
+        "DC",
+        "SF",
+        "Las Vegas"
+      ],
+      "addedDate": "2026-03-19"
+    },
+    {
+      "name": "Amber Autry",
+      "vividPerformerId": 152522,
+      "tier": "A",
+      "hotNights": 8,
+      "peakPrice": 300,
+      "peakVenue": "Comedy Zone Charlotte",
+      "social": "817K TikTok, 21.3M likes. Podcast: Im Fine Its Fine",
+      "pattern": "TikTok-to-standup breakout (Matt Rife trajectory). $300 Charlotte, $158 Comedy Store, $171 Improv Ontario. Coastal premium, mid-market $60-80",
+      "markets": [
+        "Charlotte",
+        "LA",
+        "Hartford",
+        "Minneapolis",
+        "Boston",
+        "Irvine"
+      ],
+      "addedDate": "2026-03-19"
+    },
+    {
+      "name": "Kountry Wayne",
+      "vividPerformerId": 48889,
+      "tier": "A",
+      "hotNights": 5,
+      "peakPrice": 116,
+      "peakVenue": "DC Improv",
+      "social": "3.5M+ social, Netflix special A Womans Prayer, Variety 10 Comics to Watch",
+      "pattern": "DC premium ($105-116), Nashville/NJ at $61-63. Clean comedy + faith/fatherhood. 2 shows/night at clubs = selling out. Theater graduation imminent",
+      "markets": [
+        "DC",
+        "Nashville",
+        "Orlando",
+        "Kansas City",
+        "NJ"
+      ],
+      "addedDate": "2026-03-19"
+    },
+    {
+      "name": "Jay Jurden",
+      "vividPerformerId": 149849,
+      "tier": "B",
+      "hotNights": 7,
+      "peakPrice": 143,
+      "peakVenue": "Improv Irvine",
+      "social": "NYC-based writer/actor, Southern roots",
+      "pattern": "SoCal is his market ($100-143). DC only $67 = regional, not national yet. Watch for theater announcement in LA",
+      "markets": [
+        "Irvine",
+        "Hollywood",
+        "Oxnard",
+        "San Jose",
+        "DC"
+      ],
+      "addedDate": "2026-03-19"
+    }
+  ],
+  "watchlist": [
+    {
+      "name": "Chris Porter",
+      "note": "5 shows at Pittsburgh Improv at $89-99. Just below threshold. Watch for price increases"
+    },
+    {
+      "name": "Kelsey Cook",
+      "note": "$126 at Pittsburgh Improv (1 night). Need more data points"
+    },
+    {
+      "name": "Phil Hanley",
+      "note": "5 shows at Pittsburgh Improv at $89-99. Just below threshold"
+    },
+    {
+      "name": "David Koechner",
+      "note": "4 shows at Pittsburgh Improv at $89-99. Actor/comedian (The Office). Steady draw"
+    }
+  ]
+}
