@@ -1,0 +1,142 @@
+{
+  "timestamp": "2026-03-19T21:56:58.064Z",
+  "dualPlatform": [
+    {
+      "artist": "Zara Larsson",
+      "stubhub": [
+        {
+          "venue": "Brooklyn Paramount",
+          "market": "Brooklyn",
+          "getIn": 297.64,
+          "date": "2026-03-26"
+        },
+        {
+          "venue": "Brooklyn Paramount",
+          "market": "Brooklyn",
+          "getIn": 258.05,
+          "date": "2026-03-27"
+        },
+        {
+          "venue": "The Anthem DC",
+          "market": "Washington DC",
+          "getIn": 207.27,
+          "date": "2026-03-31"
+        },
+        {
+          "venue": "Stubbs Austin",
+          "market": "Austin",
+          "getIn": 163.56,
+          "date": "2026-04-10"
+        }
+      ],
+      "vivid": [
+        {
+          "venue": "House of Blues Boston",
+          "city": "Boston",
+          "getIn": 230.3,
+          "listings": 32
+        },
+        {
+          "venue": "Bomb Factory",
+          "city": "Dallas",
+          "getIn": 128.38,
+          "listings": 21
+        }
+      ]
+    }
+  ],
+  "stubhubOnly": [
+    {
+      "artist": "Masayoshi Takanaka",
+      "stubhub": [
+        {
+          "venue": "Masonic SF",
+          "market": "San Francisco",
+          "getIn": 285.03,
+          "date": "2026-04-09"
+        },
+        {
+          "venue": "Aragon Ballroom Chicago",
+          "market": "Chicago",
+          "getIn": 278.3,
+          "date": "2026-04-07"
+        }
+      ],
+      "vivid": null
+    },
+    {
+      "artist": "Mariah the Scientist",
+      "stubhub": [
+        {
+          "venue": "Coca-Cola Roxy Atlanta",
+          "market": "Atlanta",
+          "getIn": 287.23,
+          "date": "2026-04-11"
+        },
+        {
+          "venue": "Coca-Cola Roxy Atlanta",
+          "market": "Atlanta",
+          "getIn": 252.11,
+          "date": "2026-04-10"
+        },
+        {
+          "venue": "Stubbs Austin",
+          "market": "Austin",
+          "getIn": 189.43,
+          "date": "2026-04-03"
+        },
+        {
+          "venue": "Masonic SF",
+          "market": "San Francisco",
+          "getIn": 184.94,
+          "date": "2026-03-24"
+        }
+      ],
+      "vivid": null
+    },
+    {
+      "artist": "Hearts2Hearts",
+      "stubhub": [
+        {
+          "venue": "Brooklyn Paramount",
+          "market": "Brooklyn",
+          "getIn": 218.09,
+          "date": "2026-03-19"
+        },
+        {
+          "venue": "Wiltern LA",
+          "market": "Los Angeles",
+          "getIn": 198.03,
+          "date": "2026-03-22"
+        }
+      ],
+      "vivid": null
+    }
+  ],
+  "vividOnly": [
+    {
+      "artist": "Hayley Williams",
+      "stubhub": null,
+      "vivid": [
+        {
+          "venue": "House of Blues Boston",
+          "city": "Boston",
+          "getIn": 155.82,
+          "listings": 39
+        },
+        {
+          "venue": "House of Blues Boston",
+          "city": "Boston",
+          "getIn": 156.8,
+          "listings": 53
+        },
+        {
+          "venue": "Franklin Music Hall",
+          "city": "Philly",
+          "getIn": 125.44,
+          "listings": 12
+        }
+      ]
+    }
+  ]
+}
