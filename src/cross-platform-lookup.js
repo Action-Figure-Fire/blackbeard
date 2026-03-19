@@ -45,12 +45,14 @@ const VIVID_VENUES = {
 function fetch(url, headers = {}) {
   return new Promise((resolve, reject) => {
     const u = new URL(url);
-    const opts = { hostname: u.hostname, path: u.pathname + u.search, headers: { 'User-Agent': 'Mozilla/5.0', ...headers } };
-    https.get(opts, res => {
+    const opts = { hostname: u.hostname, path: u.pathname + u.search, headers: { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36', ...headers }, timeout: 30000 };
+    const req = https.get(opts, res => {
       let d = '';
       res.on('data', c => d += c);
       res.on('end', () => resolve({ status: res.statusCode, data: d }));
-    }).on('error', reject);
+    });
+    req.on('error', reject);
+    req.on('timeout', () => { req.destroy(); reject(new Error('timeout')); });
   });
 }
 
