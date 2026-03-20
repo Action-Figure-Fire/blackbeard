@@ -1,35 +1,24 @@
 {
-  "lastRun": "2026-03-19T12:03:45.542Z",
+  "lastRun": "2026-03-20T12:03:52.345Z",
   "apiCalls": {
     "brave": 30,
-    "bandsintown": 29,
+    "bandsintown": 28,
     "seatgeek": 0
   },
-  "alertCount": 4,
+  "alertCount": 2,
   "alerts": [
     {
-      "type": "NEW_US_DATES_ADDED",
-      "artist": "Olivia Dean",
-      "newCount": 1,
-      "message": "📍 Olivia Dean added 1 new US dates (now 20 total)"
+      "type": "TIER_UPGRADE",
+      "artist": "FKA twigs",
+      "from": "⚪ ON RADAR",
+      "to": "🟡 WATCH CLOSELY",
+      "message": "📈 FKA twigs upgraded from ⚪ ON RADAR → 🟡 WATCH CLOSELY"
     },
     {
       "type": "NEW_US_DATES_ADDED",
-      "artist": "PinkPantheress",
-      "newCount": 1,
-      "message": "📍 PinkPantheress added 1 new US dates (now 16 total)"
-    },
-    {
-      "type": "NEW_US_DATES_ADDED",
-      "artist": "CMAT",
-      "newCount": 1,
-      "message": "📍 CMAT added 1 new US dates (now 24 total)"
-    },
-    {
-      "type": "NEW_US_DATES_ADDED",
-      "artist": "Little Simz",
-      "newCount": 1,
-      "message": "📍 Little Simz added 1 new US dates (now 20 total)"
+      "artist": "Four Tet",
+      "newCount": 2,
+      "message": "📍 Four Tet added 2 new US dates (now 4 total)"
     }
   ],
   "artists": [
@@ -96,8 +85,8 @@
         }
       ],
       "snippets": [
-        "Sound of... - Wikipedia The longlist for the Sound of 2026 was revealed on 1 December 2025. The acts nominated were <strong>Alessi Rose, Chloe Qisha, Florence Road, Geese, Jim Legxacy, kwn, Royel Otis",
-        "BBC Sound Of 2026 winner and top five shortlist revealed The longlist was comprised of Alessi Rose, Chloe Qisha, Geese, Royel Otis, <strong>Skye Newman</strong>, Sombr, and more ... <strong>Skye Newma"
+        "BBC Sound Of 2026 winner and top five shortlist revealed The longlist was comprised of Alessi Rose, Chloe Qisha, Geese, Royel Otis, <strong>Skye Newman</strong>, Sombr, and more ... <strong>Skye Newma",
+        "Sound of... - Wikipedia The longlist for the Sound of 2026 was revealed on 1 December 2025. The acts nominated were <strong>Alessi Rose, Chloe Qisha, Florence Road, Geese, Jim Legxacy, kwn, Royel Otis"
       ],
       "spotifyMonthly": 10400000,
       "breakoutScore": 60,
@@ -199,9 +188,9 @@
         "BRIT Awards"
       ],
       "mentions": 1,
-      "totalEvents": 11,
+      "totalEvents": 10,
       "usEvents": 0,
-      "ukEuEvents": 11,
+      "ukEuEvents": 10,
       "hasUSDates": false,
       "usVenues": [],
       "ukEuVenues": [
@@ -218,14 +207,14 @@
           "country": "United Kingdom"
         },
         {
-          "date": "2026-07-11",
-          "venue": "Tynemouth Priory and Castle",
-          "city": "Tynemouth",
+          "date": "2026-07-23",
+          "venue": "Latitude Festival 2026",
+          "city": "Southwold",
           "country": "United Kingdom"
         }
       ],
       "snippets": [
-        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+        "Brit Awards 2026: The real winners and losers <strong>Self Esteem</strong>&#x27;s red carpet interview at the 2026 Brits · Speaking on the red carpet, pop star <strong>Self Esteem</strong> declared sh"
       ],
       "breakoutScore": 60,
       "signals": [
@@ -243,7 +232,7 @@
         "UK Viral",
         "UK Charts"
       ],
-      "mentions": 9,
+      "mentions": 8,
       "totalEvents": 45,
       "usEvents": 20,
       "ukEuEvents": 21,
@@ -350,9 +339,9 @@
         "BRIT Awards"
       ],
       "mentions": 1,
-      "totalEvents": 22,
+      "totalEvents": 21,
       "usEvents": 8,
-      "ukEuEvents": 10,
+      "ukEuEvents": 9,
       "hasUSDates": true,
       "usVenues": [
         {
@@ -394,10 +383,10 @@
           "country": "United Kingdom"
         },
         {
-          "date": "2026-06-21",
-          "venue": "Pinkpop 2026",
-          "city": "Landgraaf",
-          "country": "Netherlands"
+          "date": "2026-06-19",
+          "venue": "Isle of Wight Festival",
+          "city": "Newport",
+          "country": "United Kingdom"
         },
         {
           "date": "2026-06-30",
@@ -467,17 +456,35 @@
       "tier": "🟡 WATCH CLOSELY"
     },
     {
-      "name": "PinkPantheress",
+      "name": "Disclosure",
       "sources": [
-        "BRIT Awards",
-        "Mercury Prize"
+        "BBC Sound Of",
+        "UK Sold Out"
       ],
       "mentions": 2,
-      "totalEvents": 29,
-      "usEvents": 16,
-      "ukEuEvents": 8,
+      "totalEvents": 31,
+      "usEvents": 22,
+      "ukEuEvents": 6,
       "hasUSDates": true,
       "usVenues": [
+        {
+          "date": "2026-04-07",
+          "venue": "Santa Barbara Bowl",
+          "city": "Santa Barbara, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-08",
+          "venue": "Santa Barbara Bowl",
+          "city": "Santa Barbara, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-10",
+          "venue": "Atlantic Aviation TRM",
+          "city": "Thermal, CA",
+          "country": "United States"
+        },
         {
           "date": "2026-04-10",
           "venue": "Coachella Valley Music and Arts Festival 2026",
@@ -485,60 +492,41 @@
           "country": "United States"
         },
         {
-          "date": "2026-04-14",
-          "venue": "WAMU Theater",
-          "city": "Seattle, WA",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-20",
-          "venue": "Arizona Financial Theatre",
-          "city": "Phoenix, AZ",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-22",
-          "venue": "713 Music Hall",
-          "city": "Houston, TX",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-23",
-          "venue": "Southside Ballroom Loading Dock",
+          "date": "2026-04-11",
+          "venue": "Breakaway Music Festival Dallas 2026",
           "city": "Dallas, TX",
           "country": "United States"
         }
       ],
       "ukEuVenues": [
         {
-          "date": "2026-05-25",
-          "venue": "O2 Victoria Warehouse Manchester ",
-          "city": "Manchester",
-          "country": "United Kingdom"
+          "date": "2026-07-03",
+          "venue": "Kappa FuturFestival 2026",
+          "city": "Torino",
+          "country": "Italy"
         },
         {
-          "date": "2026-05-26",
-          "venue": "O2 Victoria Warehouse Manchester ",
-          "city": "Manchester",
-          "country": "United Kingdom"
+          "date": "2026-07-10",
+          "venue": "Slottsfjell 2026",
+          "city": "Tønsberg",
+          "country": "Norway"
         },
         {
-          "date": "2026-05-29",
-          "venue": "Alexandra Palace",
-          "city": "London",
-          "country": "United Kingdom"
+          "date": "2026-07-23",
+          "venue": "Poney Club",
+          "city": "Blagnac",
+          "country": "France"
         }
       ],
       "snippets": [
-        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est",
-        "CMAT, Pulp and PinkPantheress among Mercury prize shortlist light on new names | Music | The Guardian This year sees the ceremony move from London to Newcastle – following in the footsteps of the Mobo"
+        "BBC Sound of 2026 shortlist: 10 acts you'll be obsessed with next year The remaining nominees for 2026 include breakout rap star <strong>Jim Legxacy, Irish rockers Florence Road, R&amp;B singer Kwn an",
+        "BBC Sound of 2026 shortlist: 10 acts you'll be obsessed with next year ... It&#x27;s been a long road to success for Colombian-British R&amp;B singer <strong>Sasha Keable</strong>. After graduating fr"
       ],
-      "socialSnippet": "PinkPantheress - Spotify Statistics & Monthly Listeners | Music Metrics Vault Discover PinkPantheress Spotify statistics: <strong>35.2 million</strong",
       "breakoutScore": 45,
       "signals": [
         "Active UK/EU tour",
         "2 source types",
-        "Award signal: BRIT Awards, Mercury Prize"
+        "Award signal: BBC Sound Of"
       ],
       "tier": "🟡 WATCH CLOSELY"
     },
@@ -735,148 +723,77 @@
       "tier": "🟡 WATCH CLOSELY"
     },
     {
-      "name": "Disclosure",
+      "name": "FKA twigs",
       "sources": [
-        "BBC Sound Of"
+        "Mercury Prize"
       ],
       "mentions": 1,
-      "totalEvents": 31,
-      "usEvents": 22,
-      "ukEuEvents": 6,
+      "totalEvents": 16,
+      "usEvents": 10,
+      "ukEuEvents": 3,
       "hasUSDates": true,
       "usVenues": [
         {
-          "date": "2026-04-07",
-          "venue": "Santa Barbara Bowl",
-          "city": "Santa Barbara, CA",
+          "date": "2026-03-21",
+          "venue": "Madison Square Garden",
+          "city": "New York, NY",
           "country": "United States"
         },
         {
-          "date": "2026-04-08",
-          "venue": "Santa Barbara Bowl",
-          "city": "Santa Barbara, CA",
+          "date": "2026-03-22",
+          "venue": "MGM Music Hall at Fenway",
+          "city": "Boston, MA",
           "country": "United States"
         },
         {
-          "date": "2026-04-10",
-          "venue": "Atlantic Aviation TRM",
-          "city": "Thermal, CA",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-10",
-          "venue": "Coachella Valley Music and Arts Festival 2026",
-          "city": "Indio, CA",
-          "country": "United States"
-        },
-        {
-          "date": "2026-04-11",
-          "venue": "Breakaway Music Festival Dallas 2026",
-          "city": "Dallas, TX",
-          "country": "United States"
-        }
-      ],
-      "ukEuVenues": [
-        {
-          "date": "2026-07-03",
-          "venue": "Kappa FuturFestival 2026",
-          "city": "Torino",
-          "country": "Italy"
-        },
-        {
-          "date": "2026-07-10",
-          "venue": "Slottsfjell 2026",
-          "city": "Tønsberg",
-          "country": "Norway"
-        },
-        {
-          "date": "2026-07-23",
-          "venue": "Poney Club",
-          "city": "Blagnac",
-          "country": "France"
-        }
-      ],
-      "snippets": [
-        "BBC Sound of 2026 shortlist: 10 acts you'll be obsessed with next year The remaining nominees for 2026 include breakout rap star <strong>Jim Legxacy, Irish rockers Florence Road, R&amp;B singer Kwn an"
-      ],
-      "breakoutScore": 35,
-      "signals": [
-        "Active UK/EU tour",
-        "Award signal: BBC Sound Of"
-      ],
-      "tier": "⚪ ON RADAR"
-    },
-    {
-      "name": "Little Simz",
-      "sources": [
-        "BRIT Awards"
-      ],
-      "mentions": 1,
-      "totalEvents": 28,
-      "usEvents": 20,
-      "ukEuEvents": 6,
-      "hasUSDates": true,
-      "usVenues": [
-        {
-          "date": "2026-04-10",
-          "venue": "Coachella Valley Music and Arts Festival 2026",
-          "city": "Indio, CA",
-          "country": "United States"
-        },
-        {
-          "date": "2026-07-30",
-          "venue": "Lollapalooza Chicago 2026",
+          "date": "2026-03-26",
+          "venue": "Wintrust Arena",
           "city": "Chicago, IL",
           "country": "United States"
         },
         {
-          "date": "2026-09-17",
-          "venue": "Kia Center",
-          "city": "Orlando, FL",
+          "date": "2026-03-27",
+          "venue": "Armory",
+          "city": "Minneapolis, MN",
           "country": "United States"
         },
         {
-          "date": "2026-09-18",
-          "venue": "Kaseya Center",
-          "city": "Miami, FL",
-          "country": "United States"
-        },
-        {
-          "date": "2026-09-23",
-          "venue": "Spectrum Center",
-          "city": "Charlotte, NC",
+          "date": "2026-03-30",
+          "venue": "Fillmore Auditorium",
+          "city": "Denver, CO",
           "country": "United States"
         }
       ],
       "ukEuVenues": [
         {
-          "date": "2026-05-24",
-          "venue": "Cross The Tracks 2026",
+          "date": "2026-06-08",
+          "venue": "adidas arena",
+          "city": "Paris",
+          "country": "France"
+        },
+        {
+          "date": "2026-06-10",
+          "venue": "The O2",
           "city": "London",
           "country": "United Kingdom"
         },
         {
-          "date": "2026-06-03",
-          "venue": "Primavera Sound 2026",
-          "city": "Barcelona",
-          "country": "Spain"
-        },
-        {
-          "date": "2026-06-27",
-          "venue": "Roskilde Festival 2026",
-          "city": "Roskilde",
-          "country": "Denmark"
+          "date": "2026-07-03",
+          "venue": "Rock Werchter 2026",
+          "city": "Werchter",
+          "country": "Belgium"
         }
       ],
       "snippets": [
-        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+        "Previous Shortlists Javascript must be enabled for the correct page display · Skip to Content · Open menu · show moreless · 2025 Sam Fender People Watching Winner · EURO-COUNTRY · Emma-Jean Thackray ·"
       ],
-      "breakoutScore": 35,
+      "breakoutScore": 40,
       "signals": [
-        "Active UK/EU tour",
-        "Award signal: BRIT Awards"
+        "Some UK/EU dates",
+        "Just announced US dates — early window",
+        "Award signal: Mercury Prize"
       ],
-      "tier": "⚪ ON RADAR"
+      "tier": "🟡 WATCH CLOSELY"
     },
     {
       "name": "The Last Dinner Party",
@@ -947,6 +864,78 @@
       "signals": [
         "Active UK/EU tour",
         "Award signal: BRIT Awards"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "PinkPantheress",
+      "sources": [
+        "Mercury Prize"
+      ],
+      "mentions": 1,
+      "totalEvents": 29,
+      "usEvents": 16,
+      "ukEuEvents": 8,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-04-10",
+          "venue": "Coachella Valley Music and Arts Festival 2026",
+          "city": "Indio, CA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-14",
+          "venue": "WAMU Theater",
+          "city": "Seattle, WA",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-20",
+          "venue": "Arizona Financial Theatre",
+          "city": "Phoenix, AZ",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-22",
+          "venue": "713 Music Hall",
+          "city": "Houston, TX",
+          "country": "United States"
+        },
+        {
+          "date": "2026-04-23",
+          "venue": "Southside Ballroom Loading Dock",
+          "city": "Dallas, TX",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-05-25",
+          "venue": "O2 Victoria Warehouse Manchester ",
+          "city": "Manchester",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-05-26",
+          "venue": "O2 Victoria Warehouse Manchester ",
+          "city": "Manchester",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-05-29",
+          "venue": "Alexandra Palace",
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "CMAT, Pulp and PinkPantheress among Mercury prize shortlist light on new names | Music | The Guardian This year sees the ceremony move from London to Newcastle – following in the footsteps of the Mobo"
+      ],
+      "breakoutScore": 35,
+      "signals": [
+        "Active UK/EU tour",
+        "Award signal: Mercury Prize"
       ],
       "tier": "⚪ ON RADAR"
     },
@@ -1029,7 +1018,7 @@
         "Mercury Prize",
         "UK Charts"
       ],
-      "mentions": 8,
+      "mentions": 7,
       "totalEvents": 0,
       "usEvents": 0,
       "ukEuEvents": 0,
@@ -1038,7 +1027,7 @@
       "ukEuVenues": [],
       "snippets": [
         "All the winners at the 2026 Brit Awards Olivia Dean and Sam Fender were the main winners at the 2026 Brit Awards, which have been held in Manchester. Here&#x27;s a full list of the nominees and winner",
-        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+        "Previous Shortlists Javascript must be enabled for the correct page display · Skip to Content · Open menu · show moreless · 2025 Sam Fender People Watching Winner · EURO-COUNTRY · Emma-Jean Thackray ·"
       ],
       "breakoutScore": 30,
       "signals": [
@@ -1067,6 +1056,67 @@
       "breakoutScore": 25,
       "signals": [
         "2 source types",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "⚪ ON RADAR"
+    },
+    {
+      "name": "Myles Smith",
+      "sources": [
+        "BBC Sound Of"
+      ],
+      "mentions": 2,
+      "totalEvents": 17,
+      "usEvents": 12,
+      "ukEuEvents": 1,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-06-13",
+          "venue": "State Farm Stadium",
+          "city": "Glendale, AZ",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-20",
+          "venue": "Nissan Stadium",
+          "city": "Nashville, TN",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-25",
+          "venue": "Summerfest | Presented by American Family Insurance",
+          "city": "Milwaukee, WI",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-27",
+          "venue": "Soldier Field",
+          "city": "Chicago, IL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-04",
+          "venue": "Empower Field at Mile High",
+          "city": "Denver, CO",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-05-24",
+          "venue": "Herrington Country Park",
+          "city": "Sunderland",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "Radio 1's Sound Of 2026 Jack details all the artists on the list who have been tipped for big things in 2026. ... Featuring winner Chappell Roan, and the rest of the longlist including <strong>Myles S",
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
+      ],
+      "breakoutScore": 25,
+      "signals": [
+        "Some UK/EU dates",
         "Award signal: BBC Sound Of"
       ],
       "tier": "⚪ ON RADAR"
@@ -1216,78 +1266,6 @@
       "tier": "⚪ ON RADAR"
     },
     {
-      "name": "FKA twigs",
-      "sources": [
-        "Mercury Prize"
-      ],
-      "mentions": 1,
-      "totalEvents": 17,
-      "usEvents": 11,
-      "ukEuEvents": 3,
-      "hasUSDates": true,
-      "usVenues": [
-        {
-          "date": "2026-03-18",
-          "venue": "The Anthem",
-          "city": "Washington, DC",
-          "country": "United States"
-        },
-        {
-          "date": "2026-03-21",
-          "venue": "Madison Square Garden",
-          "city": "New York, NY",
-          "country": "United States"
-        },
-        {
-          "date": "2026-03-22",
-          "venue": "MGM Music Hall at Fenway",
-          "city": "Boston, MA",
-          "country": "United States"
-        },
-        {
-          "date": "2026-03-26",
-          "venue": "Wintrust Arena",
-          "city": "Chicago, IL",
-          "country": "United States"
-        },
-        {
-          "date": "2026-03-27",
-          "venue": "Armory",
-          "city": "Minneapolis, MN",
-          "country": "United States"
-        }
-      ],
-      "ukEuVenues": [
-        {
-          "date": "2026-06-08",
-          "venue": "adidas arena",
-          "city": "Paris",
-          "country": "France"
-        },
-        {
-          "date": "2026-06-10",
-          "venue": "The O2",
-          "city": "London",
-          "country": "United Kingdom"
-        },
-        {
-          "date": "2026-07-03",
-          "venue": "Rock Werchter 2026",
-          "city": "Werchter",
-          "country": "Belgium"
-        }
-      ],
-      "snippets": [
-        "Previous Shortlists Javascript must be enabled for the correct page display · Skip to Content · Open menu · show moreless · 2025 Sam Fender People Watching Winner · EURO-COUNTRY · Emma-Jean Thackray ·"
-      ],
-      "breakoutScore": 25,
-      "signals": [
-        "Some UK/EU dates",
-        "Award signal: Mercury Prize"
-      ],
-      "tier": "⚪ ON RADAR"
-    },
-    {
       "name": "Peggy Gou",
       "sources": [
         "Glastonbury"
@@ -1347,8 +1325,8 @@
         "Glastonbury"
       ],
       "mentions": 1,
-      "totalEvents": 8,
-      "usEvents": 2,
+      "totalEvents": 10,
+      "usEvents": 4,
       "ukEuEvents": 5,
       "hasUSDates": true,
       "usVenues": [
@@ -1362,6 +1340,18 @@
           "date": "2026-06-11",
           "venue": "Bonnaroo Music and Arts Festival 2026",
           "city": "Manchester, TN",
+          "country": "United States"
+        },
+        {
+          "date": "2026-09-17",
+          "venue": "Brooklyn Storehouse",
+          "city": "Brooklyn, NY",
+          "country": "United States"
+        },
+        {
+          "date": "2026-09-24",
+          "venue": "Mission Ballroom",
+          "city": "Denver, CO",
           "country": "United States"
         }
       ],
@@ -1394,59 +1384,6 @@
         "Just announced US dates — early window"
       ],
       "tier": "⚪ ON RADAR"
-    },
-    {
-      "name": "Myles Smith",
-      "sources": [
-        "BBC Sound Of"
-      ],
-      "mentions": 2,
-      "totalEvents": 17,
-      "usEvents": 12,
-      "ukEuEvents": 0,
-      "hasUSDates": true,
-      "usVenues": [
-        {
-          "date": "2026-06-13",
-          "venue": "State Farm Stadium",
-          "city": "Glendale, AZ",
-          "country": "United States"
-        },
-        {
-          "date": "2026-06-20",
-          "venue": "Nissan Stadium",
-          "city": "Nashville, TN",
-          "country": "United States"
-        },
-        {
-          "date": "2026-06-25",
-          "venue": "Summerfest | Presented by American Family Insurance",
-          "city": "Milwaukee, WI",
-          "country": "United States"
-        },
-        {
-          "date": "2026-06-27",
-          "venue": "Soldier Field",
-          "city": "Chicago, IL",
-          "country": "United States"
-        },
-        {
-          "date": "2026-07-04",
-          "venue": "Empower Field at Mile High",
-          "city": "Denver, CO",
-          "country": "United States"
-        }
-      ],
-      "ukEuVenues": [],
-      "snippets": [
-        "Radio 1's Sound Of 2026 Jack details all the artists on the list who have been tipped for big things in 2026. ... Featuring winner Chappell Roan, and the rest of the longlist including <strong>Myles S",
-        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
-      ],
-      "breakoutScore": 15,
-      "signals": [
-        "Award signal: BBC Sound Of"
-      ],
-      "tier": "⬜ LOW"
     },
     {
       "name": "Chappell Roan",
@@ -1516,7 +1453,7 @@
     {
       "name": "Dave",
       "sources": [
-        "BRIT Awards"
+        "Glastonbury"
       ],
       "mentions": 1,
       "totalEvents": 20,
@@ -1557,18 +1494,16 @@
       ],
       "ukEuVenues": [],
       "snippets": [
-        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+        "Glastonbury Festival 2026: Lineup, Dates, and What Fans Can Expect from the World’s Biggest Music Event Regardless of speculation, one thing is certain—Glastonbury 2026 will deliver its trademark mix "
       ],
-      "breakoutScore": 15,
-      "signals": [
-        "Award signal: BRIT Awards"
-      ],
+      "breakoutScore": 0,
+      "signals": [],
       "tier": "⬜ LOW"
     },
     {
       "name": "Fred again",
       "sources": [
-        "BRIT Awards"
+        "Glastonbury"
       ],
       "mentions": 1,
       "totalEvents": 0,
@@ -1578,19 +1513,17 @@
       "usVenues": [],
       "ukEuVenues": [],
       "snippets": [
-        "2026 BRIT Awards: Here Are Our Predictions in Every Category Nominees: Dave, Fred again.., JADE, Lily Allen, Little Simz, Lola Young, <strong>Olivia Dean</strong>, PinkPantheress, Sam Fender, Self Est"
+        "Glastonbury Festival 2026: Lineup, Dates, and What Fans Can Expect from the World’s Biggest Music Event Regardless of speculation, one thing is certain—Glastonbury 2026 will deliver its trademark mix "
       ],
-      "breakoutScore": 15,
-      "signals": [
-        "Award signal: BRIT Awards"
-      ],
+      "breakoutScore": 0,
+      "signals": [],
       "tier": "⬜ LOW"
     }
   ],
   "summary": {
     "imminent": 4,
-    "watchClosely": 8,
-    "onRadar": 11,
+    "watchClosely": 9,
+    "onRadar": 10,
     "noUSDates": 4
   }
 }

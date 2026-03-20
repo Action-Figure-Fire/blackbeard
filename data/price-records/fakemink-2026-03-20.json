@@ -1,0 +1,165 @@
+{
+  "artist": "fakemink",
+  "vividPerformerId": 445427,
+  "date": "2026-03-20",
+  "source": "Vivid Seats API",
+  "tourDates": [
+    {
+      "date": "2026-04-10",
+      "venue": "Coachella",
+      "city": "Indio",
+      "type": "festival"
+    },
+    {
+      "date": "2026-04-17",
+      "venue": "Coachella",
+      "city": "Indio",
+      "type": "festival"
+    },
+    {
+      "date": "2026-04-19",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "cap": 1800,
+      "getIn": 66.64,
+      "listings": 10,
+      "tix": 60
+    },
+    {
+      "date": "2026-04-22",
+      "venue": "Emos",
+      "city": "Austin",
+      "cap": 1700,
+      "getIn": 59.78,
+      "listings": 6,
+      "tix": 46
+    },
+    {
+      "date": "2026-04-24",
+      "venue": "Echo Lounge",
+      "city": "Dallas",
+      "cap": 1000,
+      "getIn": 66.64,
+      "listings": 13,
+      "tix": 72
+    },
+    {
+      "date": "2026-04-25",
+      "venue": "White Oak Downstairs",
+      "city": "Houston",
+      "getIn": 59.78,
+      "listings": 5,
+      "tix": 38
+    },
+    {
+      "date": "2026-04-27",
+      "venue": "Masquerade Hell",
+      "city": "Atlanta",
+      "getIn": 59.78,
+      "listings": 6,
+      "tix": 41
+    },
+    {
+      "date": "2026-04-29",
+      "venue": "Union Transfer",
+      "city": "Philadelphia",
+      "cap": 1000,
+      "getIn": 59.78,
+      "listings": 5,
+      "tix": 38
+    },
+    {
+      "date": "2026-05-01",
+      "venue": "Terminal 5",
+      "city": "New York",
+      "cap": 3000,
+      "getIn": 89,
+      "listings": 2,
+      "tix": 12
+    },
+    {
+      "date": "2026-05-03",
+      "venue": "9:30 Club",
+      "city": "DC",
+      "cap": 1200,
+      "getIn": 59.78,
+      "listings": 2,
+      "tix": 7
+    },
+    {
+      "date": "2026-05-05",
+      "venue": "Royale",
+      "city": "Boston",
+      "cap": 775,
+      "getIn": 59.78,
+      "listings": 5,
+      "tix": 36
+    },
+    {
+      "date": "2026-05-07",
+      "venue": "History",
+      "city": "Toronto",
+      "cap": 2500,
+      "getIn": 67.62,
+      "listings": 10,
+      "tix": 56
+    },
+    {
+      "date": "2026-05-09",
+      "venue": "Rolling Loud",
+      "city": "Orlando",
+      "type": "festival"
+    },
+    {
+      "date": "2026-05-11",
+      "venue": "Varsity Theater",
+      "city": "Minneapolis",
+      "cap": 962,
+      "getIn": 59.78,
+      "listings": 8,
+      "tix": 54
+    },
+    {
+      "date": "2026-05-13",
+      "venue": "Cervantes Other Side",
+      "city": "Denver",
+      "cap": 1000,
+      "getIn": 61,
+      "listings": 3,
+      "tix": 12
+    },
+    {
+      "date": "2026-05-14",
+      "venue": "The Grand",
+      "city": "SLC",
+      "cap": 2500,
+      "getIn": 62.72,
+      "listings": 5,
+      "tix": 35
+    },
+    {
+      "date": "2026-05-16",
+      "venue": "Palomosa",
+      "city": "Montreal",
+      "type": "festival"
+    },
+    {
+      "date": "2026-07-30",
+      "venue": "Lollapalooza",
+      "city": "Chicago",
+      "type": "festival"
+    },
+    {
+      "date": "2026-08-02",
+      "venue": "Lollapalooza",
+      "city": "Chicago",
+      "type": "festival"
+    }
+  ],
+  "priceComparison": {
+    "stubhub_mar19": "$184 uniform floor",
+    "vivid_mar19": "$74-114 range",
+    "vivid_mar20": "$60-89 range (significant drop)"
+  },
+  "note": "Prices dropped 22-47% in 24h. Likely primary just went on sale. Low listing counts (2-13) suggest thin secondary market. NYC Terminal 5 and DC 9:30 Club have fewest listings — watch for spikes."
+}
