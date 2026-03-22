@@ -1,0 +1,98 @@
+{
+  "artist": "Angine de Poitrine",
+  "vividPerformerId": 505490,
+  "date": "2026-03-22",
+  "genre": "Mathrock / French Canadian",
+  "pattern": "International viral breakout → first US tour. NYC sold out instantly. Diaspora + viral demand.",
+  "comparisons": "Similar to RAYE UK breakout pattern but from Quebec. Nessa Barrett formula: huge online buzz + tiny venues",
+  "tourDates": [
+    {
+      "date": "2026-07-14",
+      "venue": "Mod Club",
+      "city": "Toronto",
+      "cap": 600,
+      "getIn": 188,
+      "listings": 3
+    },
+    {
+      "date": "2026-07-15",
+      "venue": "Mod Club",
+      "city": "Toronto",
+      "cap": 600,
+      "getIn": 199,
+      "listings": 2
+    },
+    {
+      "date": "2026-07-18",
+      "venue": "Mod Club",
+      "city": "Toronto",
+      "cap": 600,
+      "getIn": 495,
+      "listings": 1
+    },
+    {
+      "date": "2026-08-17",
+      "venue": "Teragram Ballroom",
+      "city": "LA",
+      "cap": 600,
+      "getIn": 136,
+      "listings": 3
+    },
+    {
+      "date": "2026-08-18",
+      "venue": "Teragram Ballroom",
+      "city": "LA",
+      "cap": 600,
+      "getIn": 153,
+      "listings": 4
+    },
+    {
+      "date": "2026-08-19",
+      "venue": "The Independent",
+      "city": "SF",
+      "cap": 500,
+      "getIn": 207,
+      "listings": 7
+    },
+    {
+      "date": "2026-08-21",
+      "venue": "Aladdin Theater",
+      "city": "Portland",
+      "cap": 600,
+      "getIn": 207,
+      "listings": 9
+    },
+    {
+      "date": "2026-08-23",
+      "venue": "The Pearl",
+      "city": "Vancouver",
+      "cap": 350,
+      "getIn": 136,
+      "listings": 23
+    },
+    {
+      "date": "2026-08-24",
+      "venue": "The Pearl",
+      "city": "Vancouver",
+      "cap": 350,
+      "getIn": 137,
+      "listings": 16
+    },
+    {
+      "date": "2026-09-15",
+      "venue": "The Atlantis",
+      "city": "DC",
+      "cap": "?",
+      "getIn": 232,
+      "listings": 3
+    },
+    {
+      "date": "2026-09-16",
+      "venue": "Underground Arts",
+      "city": "Philly",
+      "cap": 600,
+      "getIn": 140,
+      "listings": 10
+    }
+  ]
+}

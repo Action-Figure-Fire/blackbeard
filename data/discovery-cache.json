@@ -1985,8 +1985,8 @@
       "viralMoment": "<strong>13, 2025</strong> ... Nessa Barrett came to Toronto to play a packed History last night (Feb. 13), and she had the whole venue screaming her n",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 30,
-      "vetTier": "warm",
+      "vetScore": 28,
+      "vetTier": "unvetted",
       "vetSignals": [
         "📱 Viral moment detected",
         "📱 Viral moment detected",
@@ -1994,21 +1994,78 @@
         "📱 Viral moment detected",
         "📋 2 editorial playlists"
       ],
-      "demandScore": 10,
+      "demandScore": 8,
       "numbersScore": 0,
       "momentumScore": 20,
-      "upcomingShows": 1,
+      "upcomingShows": 5,
       "tourDates": [
+        {
+          "title": "Nessa Barrett",
+          "date": "2026-04-04",
+          "venue": "The Masonic Lodge at Hollywood Forever",
+          "city": "Los Angeles, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4734660213,
+          "url": "https://seatgeek.com/nessa-barrett-tickets/los-angeles-california-the-masonic-lodge-at-hollywood-forever-2026-04-03-9-pm/concert/18106128"
+        },
+        {
+          "title": "Nessa Barrett",
+          "date": "2026-04-05",
+          "venue": "The Masonic Lodge at Hollywood Forever",
+          "city": "Los Angeles, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4474426761,
+          "url": "https://seatgeek.com/nessa-barrett-tickets/los-angeles-california-the-masonic-lodge-at-hollywood-forever-2026-04-04-9-pm/concert/18106130"
+        },
+        {
+          "title": "Nessa Barrett",
+          "date": "2026-04-08",
+          "venue": "Thalia Hall - Chicago",
+          "city": "Chicago, IL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4626789278,
+          "url": "https://seatgeek.com/nessa-barrett-tickets/chicago-illinois-thalia-hall-chicago-2026-04-07-8-pm/concert/18106132"
+        },
+        {
+          "title": "Nessa Barrett",
+          "date": "2026-04-10",
+          "venue": "St. Ann & the Holy Trinity Church",
+          "city": "Brooklyn, NY",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4850368136,
+          "url": "https://seatgeek.com/nessa-barrett-tickets/brooklyn-new-york-st-ann-the-holy-trinity-church-1-2026-04-09-8-pm/concert/18106134"
+        },
         {
           "title": "Nessa Barrett",
           "date": "2026-04-12",
           "venue": "Elgin and Winter Garden Theatre Centre",
           "city": "Toronto, ON",
           "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3908762927,
           "url": "https://seatgeek.com/nessa-barrett-tickets/toronto-canada-elgin-and-winter-garden-theatre-centre-2026-04-11-8-pm/concert/18101971"
         }
       ],
-      "enrichedAt": "2026-03-04T02:47:47.394Z"
+      "enrichedAt": "2026-03-22T10:01:46.440Z"
     },
     "erin lecount": {
       "monthlyListeners": 997656,
@@ -3126,7 +3183,7 @@
       "enrichedAt": "2026-03-04T11:01:35.950Z"
     },
     "svn4vr": {
-      "monthlyListeners": 138000,
+      "monthlyListeners": null,
       "spotifyFollowers": null,
       "instagramFollowers": null,
       "tiktokFollowers": null,
@@ -3134,9 +3191,9 @@
       "soldOutMentions": 2,
       "soldOutSnippets": [
         {
-          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
-          "snippet": "<strong>BTS World Tour Arirang 2026</strong> tickets sold out instantly during pre-sale as ARMYs flooded booking platforms worldwide. BigHit Music has",
-          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
+          "title": "Jam Band Announces 2026 Summer Tour Dates After Selling Out Iconic Venue for the First Time",
+          "snippet": "<strong>These tickets are definitely going to sell out fast</strong>.",
+          "url": "https://parade.com/news/jam-band-announces-2026-summer-tour-dates-selling-out-iconic-venue-first-time"
         },
         {
           "title": "Mastering Anniversary Event Campaigns in 2026: Turning Milestones into Sold-Out Celebrations | Ticket Fairy Promoter Blog",
@@ -3147,24 +3204,23 @@
       "venueUpgrades": 0,
       "addedDates": 0,
       "bigSingle": null,
-      "viralMoment": "Megan Rapinoe Says Trump ‘Used’ U.S. Men’s Hockey Team During Viral Phone Call ... View post: 1971 Hit Reached No. 1 55 Years Ago Today — Five Months ",
+      "viralMoment": "<strong>Thursday, October 1, 2026</strong> – Detroit, Mich., Little Caesars Arena ... Doja Cat, born Amala Ratna Zandile Dlamini, has rapidly ascended",
       "albumCount": null,
       "latestRelease": null,
-      "vetScore": 50,
-      "vetTier": "red_hot",
+      "vetScore": 43,
+      "vetTier": "warm",
       "vetSignals": [
         "🔥 2 sold-out mentions",
-        "🎧 0.1M Spotify listeners",
         "📱 Viral moment detected",
         "📱 Viral moment detected",
-        "📋 2 editorial playlists"
+        "📋 3 Spotify editorial playlists"
       ],
-      "demandScore": 22,
-      "numbersScore": 8,
-      "momentumScore": 20,
+      "demandScore": 18,
+      "numbersScore": 0,
+      "momentumScore": 25,
       "upcomingShows": 0,
       "tourDates": [],
-      "enrichedAt": "2026-03-04T11:01:37.814Z"
+      "enrichedAt": "2026-03-22T10:01:26.123Z"
     },
     "jean dawson": {
       "monthlyListeners": null,
@@ -14610,7 +14666,1652 @@
       "upcomingShows": 0,
       "tourDates": [],
       "enrichedAt": "2026-03-19T10:01:27.286Z"
+    },
+    "to watch": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "Jam Band Announces 2026 Summer Tour Dates After Selling Out Iconic Venue for the First Time",
+          "snippet": "<strong>These tickets are definitely going to sell out fast</strong>.",
+          "url": "https://parade.com/news/jam-band-announces-2026-summer-tour-dates-selling-out-iconic-venue-first-time"
+        },
+        {
+          "title": "The best concerts and tours coming to the UK in 2026 – and how to get tickets",
+          "snippet": "Some of the biggest names in the music scene are set to tour the UK this year— here&#x27;s how you can get tickets, even to sold-out tours. ... From t",
+          "url": "https://www.radiotimes.com/going-out/tickets/the-best-uk-concerts-tours/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Some of the biggest names in the music scene are set to tour the UK this year— here&#x27;s how you can get tickets, even to sold-out tours. ... From t",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 28,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📱 Viral moment detected",
+        "📱 Viral moment detected"
+      ],
+      "demandScore": 18,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 2,
+      "tourDates": [
+        {
+          "title": "2026 U.S. Women's Open - Weekly Gallery Ticket Package",
+          "date": "2026-06-03",
+          "venue": "The Riviera Country Club",
+          "city": "Pacific Palisades, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": null,
+          "url": "https://seatgeek.com/2026-us-womens-open-golf-tickets/golf/2026-06-03-3-30-am/17516915"
+        },
+        {
+          "title": "2026 U.S. Women's Open - Good Any One Day Gallery Ticket 5-Pack",
+          "date": "2026-06-03",
+          "venue": "The Riviera Country Club",
+          "city": "Pacific Palisades, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5182391997,
+          "url": "https://seatgeek.com/2026-us-womens-open-golf-tickets/golf/2026-06-03-7-am/17522945"
+        }
+      ],
+      "enrichedAt": "2026-03-22T10:01:16.521Z"
+    },
+    "reviews & interviews": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "The best concerts and tours coming to the UK in 2026 – and how to get tickets",
+          "snippet": "Some of the biggest names in the music scene are set to tour the UK this year— here&#x27;s how you can get tickets, even to sold-out tours.",
+          "url": "https://www.radiotimes.com/going-out/tickets/the-best-uk-concerts-tours/"
+        },
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "<strong>Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories</strong>. Festivals that once ",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Cultural moments: Taylor Swift&#x27;s Eras Tour became a social phenomenon beyond just a concert · Cross-generational appeal: Acts like Billy Joel and",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 28,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📱 Viral moment detected"
+      ],
+      "demandScore": 18,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:18.401Z"
+    },
+    "flo": {
+      "monthlyListeners": 50,
+      "spotifyFollowers": 1700000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 3,
+      "soldOutSnippets": [
+        {
+          "title": "FLO Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to FLO shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets availa",
+          "url": "https://www.eventticketscenter.com/flo-tickets/35252/c"
+        },
+        {
+          "title": "r/popheads on Reddit: Flo Announce Spring 2025 North American Tour",
+          "snippet": "So exciting to see them doing another US tour with bigger venues!! I saw them last year (?) and I remember fighting for my life to get tickets to them",
+          "url": "https://www.reddit.com/r/popheads/comments/1gv0pvp/flo_announce_spring_2025_north_american_tour/"
+        },
+        {
+          "title": "Top 25 Grossing Tours of 2025: The Biggest Money-Making Events for Ticket Resellers | ProTickets",
+          "snippet": "The rapid ascent meant supply never caught up with demand. Resale Insight: <strong>Added dates sold out instantly</strong>. Early positioning paid off",
+          "url": "https://protickets.ca/en/blog/top-grossing-tours-2025"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 1,
+      "bigSingle": null,
+      "viralMoment": "Get ready for an unforgettable experience with Flo Milli. Genre: Viral rap! Don&#x27;t miss the chance to see one of your favorite stars in action - b",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 57,
+      "vetTier": "red_hot",
+      "vetSignals": [
+        "🔥 3 sold-out mentions",
+        "🎧 0.0M Spotify listeners",
+        "📱 Viral moment detected",
+        "📅 Added dates due to demand",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 32,
+      "numbersScore": 0,
+      "momentumScore": 25,
+      "upcomingShows": 25,
+      "tourDates": [
+        {
+          "title": "Tennessee Lady Volunteers at Florida Gators Softball",
+          "date": "2026-03-22",
+          "venue": "Katie Seashole Pressly Softball Stadium",
+          "city": "Gainesville, FL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.412376222,
+          "url": "https://seatgeek.com/florida-gators-softball-tickets/college-softball/2026-03-22-12-pm/17741320"
+        },
+        {
+          "title": "UTSA Roadrunners at Florida Atlantic Owls Baseball",
+          "date": "2026-03-22",
+          "venue": "FAU Baseball Stadium",
+          "city": "Boca Raton, FL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.261229694,
+          "url": "https://seatgeek.com/florida-atlantic-owls-baseball-tickets/ncaa-baseball/2026-03-22-12-pm/18001772"
+        },
+        {
+          "title": "California Golden Bears at Florida State Seminoles Softball",
+          "date": "2026-03-22",
+          "venue": "JoAnne Graf Field",
+          "city": "Tallahassee, FL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.408513611,
+          "url": "https://seatgeek.com/florida-state-seminoles-softball-tickets/college-softball/2026-03-22-12-pm/17943574"
+        },
+        {
+          "title": "Sam Houston Bearkats at Florida International Panthers Baseball",
+          "date": "2026-03-22",
+          "venue": "FIU Baseball Stadium",
+          "city": "Miami, FL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1614869821,
+          "url": "https://seatgeek.com/florida-international-panthers-baseball-tickets/ncaa-baseball/2026-03-22-12-pm/18007060"
+        },
+        {
+          "title": "Florida International Panthers at New Mexico State Aggies Softball",
+          "date": "2026-03-22",
+          "venue": "NMSU Softball Complex",
+          "city": "Las Cruces, NM",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2296878735,
+          "url": "https://seatgeek.com/new-mexico-state-aggies-softball-tickets/college-softball/2026-03-22-10-30-am/18013654"
+        },
+        {
+          "title": "Florida Gators at Alabama Crimson Tide Baseball",
+          "date": "2026-03-22",
+          "venue": "Sewell-Thomas Stadium",
+          "city": "Tuscaloosa, AL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5314944383,
+          "url": "https://seatgeek.com/alabama-crimson-tide-baseball-tickets/ncaa-baseball/2026-03-22-12-pm/17806661"
+        },
+        {
+          "title": "South Florida Bulls at Tulsa Golden Hurricane Softball",
+          "date": "2026-03-22",
+          "venue": "Collins Family Softball Complex",
+          "city": "Tulsa, OK",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2416953549,
+          "url": "https://seatgeek.com/tulsa-golden-hurricane-softball-tickets/college-softball/2026-03-22-12-pm/18047490"
+        },
+        {
+          "title": "Rice Owls at South Florida Bulls Baseball",
+          "date": "2026-03-22",
+          "venue": "USF Baseball Stadium",
+          "city": "Tampa, FL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2147097518,
+          "url": "https://seatgeek.com/south-florida-bulls-baseball-tickets/ncaa-baseball/2026-03-22-1-pm/18024874"
+        }
+      ],
+      "enrichedAt": "2026-03-22T10:01:20.402Z"
+    },
+    "paris paloma": {
+      "monthlyListeners": null,
+      "spotifyFollowers": 242000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories. Festivals that once sold out in minut",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 27,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 15,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:22.265Z"
+    },
+    "kelsey lu": {
+      "monthlyListeners": 10,
+      "spotifyFollowers": 149000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Do you love songs like Stronger, Catch My Breath, and My Life Would Suck Without You, and want to hear them performed live? Or maybe you can’t wait to",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 25,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 0.0M Spotify listeners",
+        "📱 Viral moment detected",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 0,
+      "momentumScore": 25,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:24.134Z"
+    },
+    "gudfella": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "The best concerts and tours coming to the UK in 2026 – and how to get tickets",
+          "snippet": "Some of the biggest names in the music scene are set to tour the UK this year— here&#x27;s how you can get tickets, even to sold-out tours.",
+          "url": "https://www.radiotimes.com/going-out/tickets/the-best-uk-concerts-tours/"
+        },
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories. Festivals that once sold out in minut",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
+      "venueUpgrades": 1,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 41,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "🏟️ Venue upgrade detected",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 26,
+      "numbersScore": 0,
+      "momentumScore": 15,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:27.892Z"
+    },
+    "dean turnley": {
+      "monthlyListeners": null,
+      "spotifyFollowers": 23000,
+      "instagramFollowers": 23000,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
+          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
+          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
+        },
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories. Festivals that once sold out in minut",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Whether she’s dropping chart-topping singles or viral one-liners, Cardi B remains one of the most magnetic performers in music. Fitting right in with ",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 43,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📱 Viral moment detected",
+        "📸 IG: 23K",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 18,
+      "numbersScore": 0,
+      "momentumScore": 25,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:29.636Z"
+    },
+    "underscores": {
+      "monthlyListeners": 1000,
+      "spotifyFollowers": 58100,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Jam Band Announces 2026 Summer Tour Dates After Selling Out Iconic Venue for the First Time",
+          "snippet": "<strong>These tickets are definitely going to sell out fast</strong>.",
+          "url": "https://parade.com/news/jam-band-announces-2026-summer-tour-dates-selling-out-iconic-venue-first-time"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "<strong>Thursday, October 1, 2026</strong> – Detroit, Mich., Little Caesars Arena ... Doja Cat, born Amala Ratna Zandile Dlamini, has rapidly ascended",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 37,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "🎧 0.0M Spotify listeners",
+        "📱 Viral moment detected",
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 25,
+      "upcomingShows": 20,
+      "tourDates": [
+        {
+          "title": "Underscores",
+          "date": "2026-05-28",
+          "venue": "The Fonda Theatre",
+          "city": "Los Angeles, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2724456121,
+          "url": "https://seatgeek.com/underscores-tickets/los-angeles-california-the-fonda-theatre-2026-05-27-8-pm/concert/18100780"
+        },
+        {
+          "title": "Underscores",
+          "date": "2026-05-30",
+          "venue": "The Observatory",
+          "city": "Santa Ana, CA",
+          "capacity": 550,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1927793776,
+          "url": "https://seatgeek.com/underscores-tickets/santa-ana-california-the-observatory-2026-05-29-7-pm/concert/18100778"
+        },
+        {
+          "title": "Underscores",
+          "date": "2026-05-31",
+          "venue": "The Observatory North Park",
+          "city": "San Diego, CA",
+          "capacity": 550,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2063700634,
+          "url": "https://seatgeek.com/underscores-tickets/san-diego-california-the-observatory-north-park-2026-05-30-7-pm/concert/18100776"
+        },
+        {
+          "title": "Underscores",
+          "date": "2026-06-03",
+          "venue": "Crescent Ballroom",
+          "city": "Phoenix, AZ",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2281790932,
+          "url": "https://seatgeek.com/underscores-tickets/phoenix-arizona-crescent-ballroom-2026-06-02-8-pm/concert/18100779"
+        },
+        {
+          "title": "Underscores with Umru",
+          "date": "2026-06-05",
+          "venue": "The Studio at the Bomb Factory",
+          "city": "Dallas, TX",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1847633812,
+          "url": "https://seatgeek.com/underscores-tickets/dallas-texas-the-studio-at-the-bomb-factory-2026-06-04-8-pm/concert/18126087"
+        },
+        {
+          "title": "Underscores",
+          "date": "2026-06-05",
+          "venue": "Scoot Inn",
+          "city": "Austin, TX",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1868309325,
+          "url": "https://seatgeek.com/underscores-tickets/austin-texas-scoot-inn-2026-06-05-6-pm/concert/18100777"
+        },
+        {
+          "title": "Underscores",
+          "date": "2026-06-07",
+          "venue": "Meow Wolf - Houston",
+          "city": "Houston, TX",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3416882723,
+          "url": "https://seatgeek.com/underscores-tickets/houston-texas-meow-wolf-houston-2026-06-06-8-pm/concert/18100781"
+        },
+        {
+          "title": "Underscores",
+          "date": "2026-06-08",
+          "venue": "The Masquerade - Hell",
+          "city": "Atlanta, GA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1621293579,
+          "url": "https://seatgeek.com/underscores-tickets/atlanta-georgia-the-masquerade-hell-2026-06-08-7-pm/concert/18100788"
+        }
+      ],
+      "enrichedAt": "2026-03-22T10:01:31.618Z"
+    },
+    "hudson freeman": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 15,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "📋 3 Spotify editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 0,
+      "momentumScore": 15,
+      "upcomingShows": 15,
+      "tourDates": [
+        {
+          "title": "Hudson Freeman",
+          "date": "2026-03-29",
+          "venue": "Cat's Cradle - Back Room",
+          "city": "Carrboro, NC",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3198585202,
+          "url": "https://seatgeek.com/hudson-freeman-tickets/carrboro-north-carolina-cat-s-cradle-back-room-1-2026-03-28-8-pm/concert/18063265"
+        },
+        {
+          "title": "Hudson Freeman (18+)",
+          "date": "2026-04-01",
+          "venue": "Baby's All Right",
+          "city": "Brooklyn, NY",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.2326082727,
+          "url": "https://seatgeek.com/hudson-freeman-tickets/brooklyn-new-york-baby-s-all-right-2026-04-01-7-pm/concert/18063267"
+        },
+        {
+          "title": "Hudson Freeman",
+          "date": "2026-05-30",
+          "venue": "Wonder Bar",
+          "city": "Asbury Park, NJ",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.105319452,
+          "url": "https://seatgeek.com/hudson-freeman-tickets/asbury-park-new-jersey-wonder-bar-2026-05-30-7-pm/concert/18072489"
+        },
+        {
+          "title": "Hudson Freeman",
+          "date": "2026-06-02",
+          "venue": "Arrow at Archer Music Hall",
+          "city": "Allentown, PA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.0808016595,
+          "url": "https://seatgeek.com/hudson-freeman-tickets/allentown-pennsylvania-arrow-at-archer-music-hall-2026-06-02-7-pm/concert/18078960"
+        },
+        {
+          "title": "Hudson Freeman",
+          "date": "2026-06-05",
+          "venue": "The Camel",
+          "city": "Richmond, VA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.0956004367,
+          "url": "https://seatgeek.com/hudson-freeman-tickets/richmond-virginia-the-camel-2026-06-04-8-pm/concert/18081093"
+        },
+        {
+          "title": "Hudson Freeman",
+          "date": "2026-06-10",
+          "venue": "Neighborhood Theatre",
+          "city": "Charlotte, NC",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1289391075,
+          "url": "https://seatgeek.com/hudson-freeman-tickets/charlotte-north-carolina-neighborhood-theatre-2026-06-09-8-pm/concert/18078569"
+        },
+        {
+          "title": "Jesse Welles with Hudson Freeman",
+          "date": "2026-10-07",
+          "venue": "The Wiltern",
+          "city": "Los Angeles, CA",
+          "capacity": 2400,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.305616594,
+          "url": "https://seatgeek.com/jesse-welles-tickets/los-angeles-california-the-wiltern-2026-10-06-7-pm/concert/18133425"
+        },
+        {
+          "title": "Jesse Welles with Hudson Freeman",
+          "date": "2026-10-17",
+          "venue": "The Pinnacle - Nashville",
+          "city": "Nashville, TN",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3299393511,
+          "url": "https://seatgeek.com/jesse-welles-tickets/nashville-tennessee-the-pinnacle-nashville-2026-10-16-8-pm/concert/18134634"
+        }
+      ],
+      "enrichedAt": "2026-03-22T10:01:33.448Z"
+    },
+    "bts": {
+      "monthlyListeners": 596365,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 9,
+      "soldOutSnippets": [
+        {
+          "title": "“General sales haven't started yet”- Fans defend BTS as alleged 2026 world tour empty seat claims go viral amid pre-sale sell-outs",
+          "snippet": "The announcement revealed numerous cities across regions. ... The group also stated more shows would follow, targeting areas missing from the initial ",
+          "url": "https://www.sportskeeda.com/us/k-pop/news-general-sales-started-yet-fans-defend-bts-alleged-2026-world-tour-empty-seat-claims-go-viral-amid-pre-sale-sell-outs"
+        },
+        {
+          "title": "Where to Find BTS Tickets: Sold-Out World Tour Prices and Dates ...",
+          "snippet": "The tour also lines up with BTS&#x27; first new group album in years: &quot;ARIRANG,&quot; which BigHit Music announced will be released on <strong>Ma",
+          "url": "https://www.businessinsider.com/guides/tickets/where-to-find-bts-tickets-concert-tour"
+        },
+        {
+          "title": "BTS 2026-2027 Tour: Dates, Cities, How to Get Tickets in the Presale",
+          "snippet": "New dates were added after the group sold out <strong>41 dates</strong>. Fans are prepared to light up the crowd like &quot;Dynamite.&quot;",
+          "url": "https://www.today.com/popculture/music/bts-2026-tour-dates-cities-list-get-tickets-presale-rcna253834"
+        },
+        {
+          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
+          "snippet": "BTS World Tour Arirang 2026 tickets sold out instantly during pre-sale as ARMYs flooded booking platforms worldwide. BigHit Music has now added more c",
+          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
+        },
+        {
+          "title": "r/kpop on Reddit: Live Nation confirms BTS has sold out all 41 North America, Europe & UK Stadium Dates of their World Tour ‘ARIRANG’",
+          "snippet": "Some venues like Stanford sold out in less than an hour! ... All dates sold out within hour in general sales. Sofi 4 dates in 23 minute. ... Found Tab",
+          "url": "https://www.reddit.com/r/kpop/comments/1qovuvn/live_nation_confirms_bts_has_sold_out_all_41/"
+        },
+        {
+          "title": "BTS' Comeback Tour Is Sold Out — Here's How You Can Still Get Tickets",
+          "snippet": "... South Korea/Japan – Spring 2026: <strong>04/09 – Goyang-si, South Korea @ Goyang Stadium</strong> [Buy Tickets] 04/11 – Goyang-si, South Korea @ G",
+          "url": "https://consequence.net/2026/01/bts-tour-sold-out-ticket-guide/"
+        },
+        {
+          "title": "BTS’ Goyang concerts sell out across all three presale dates - The Korea Herald",
+          "snippet": "BTS reaffirmed its sustained global demand Thursday, when opening shows of the group&#x27;s upcoming world tour sold out completely during presales. B",
+          "url": "https://www.koreaherald.com/article/10662105"
+        },
+        {
+          "title": "BTS Sells Out Of North American And European Leg Of ARIRANG World Tour",
+          "snippet": "The group has sold out their <strong>South Korea concerts, and the North American and European legs of their 2026 BTS WORLD TOUR: ARIRANG</strong>.",
+          "url": "https://www.forbes.com/sites/laurasirikul/2026/01/26/bts-sells-out-of-north-american-and-european-leg-of-arirang-world-tour/"
+        },
+        {
+          "title": "Where to buy BTS tickets: Remaining seats for the sold-out 2026-2027 tour",
+          "snippet": "The Arirang World Tour doubles as a major comeback and a launchpad for the group&#x27;s new studio album, expected in <strong>March 2026</strong>. Bel",
+          "url": "https://www.businessinsider.com/guides/tickets/how-to-get-bts-tickets-concert-tour"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "The announcement revealed numerous cities across regions. ... The group also stated more shows would follow, targeting areas missing from the initial ",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 57,
+      "vetTier": "red_hot",
+      "vetSignals": [
+        "🔥 9 sold-out mentions",
+        "🎧 0.6M Spotify listeners",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 25,
+      "numbersScore": 12,
+      "momentumScore": 20,
+      "upcomingShows": 25,
+      "tourDates": [
+        {
+          "title": "BTS",
+          "date": "2026-04-26",
+          "venue": "Raymond James Stadium",
+          "city": "Tampa, FL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.8025280067,
+          "url": "https://seatgeek.com/bts-tickets/tampa-florida-raymond-james-stadium-2026-04-25-8-pm/concert/18010299"
+        },
+        {
+          "title": "BTS",
+          "date": "2026-04-27",
+          "venue": "Raymond James Stadium",
+          "city": "Tampa, FL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.7895209119,
+          "url": "https://seatgeek.com/bts-tickets/tampa-florida-raymond-james-stadium-2026-04-26-8-pm/concert/18010303"
+        },
+        {
+          "title": "BTS",
+          "date": "2026-04-29",
+          "venue": "Raymond James Stadium",
+          "city": "Tampa, FL",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.7675535135,
+          "url": "https://seatgeek.com/bts-tickets/tampa-florida-raymond-james-stadium-2026-04-28-8-pm/concert/18027382"
+        },
+        {
+          "title": "BTS",
+          "date": "2026-05-03",
+          "venue": "Sun Bowl Stadium",
+          "city": "El Paso, TX",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.7611684312,
+          "url": "https://seatgeek.com/bts-tickets/el-paso-texas-sun-bowl-stadium-2026-05-02-8-pm/concert/18010302"
+        },
+        {
+          "title": "BTS",
+          "date": "2026-05-04",
+          "venue": "Sun Bowl Stadium",
+          "city": "El Paso, TX",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.742480596,
+          "url": "https://seatgeek.com/bts-tickets/el-paso-texas-sun-bowl-stadium-2026-05-03-8-pm/concert/18010304"
+        },
+        {
+          "title": "BTS",
+          "date": "2026-05-17",
+          "venue": "Stanford Stadium",
+          "city": "Stanford, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.7446134463,
+          "url": "https://seatgeek.com/bts-tickets/stanford-california-stanford-stadium-2026-05-16-7-pm/concert/18010310"
+        },
+        {
+          "title": "BTS",
+          "date": "2026-05-18",
+          "venue": "Stanford Stadium",
+          "city": "Stanford, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.74692719,
+          "url": "https://seatgeek.com/bts-tickets/stanford-california-stanford-stadium-2026-05-17-7-pm/concert/18010313"
+        },
+        {
+          "title": "BTS",
+          "date": "2026-05-20",
+          "venue": "Stanford Stadium",
+          "city": "Stanford, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.7602761405,
+          "url": "https://seatgeek.com/bts-tickets/stanford-california-stanford-stadium-2026-05-19-7-pm/concert/18027380"
+        }
+      ],
+      "enrichedAt": "2026-03-22T10:01:35.444Z"
+    },
+    "asake": {
+      "monthlyListeners": 8000000,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 4,
+      "soldOutSnippets": [
+        {
+          "title": "Africa Facts Zone on X: \"Asake's tickets are selling fast in South Africa. His concert at 10,500 capacity The GoldRush Dome in Johannesburg will hold on January 3, 2026. Pre-sale access tickets are sold out. General tickets are on sale. https://t.co/8a95UjdfdQ\" / X",
+          "snippet": "Asake&#x27;s tickets are selling fast in South Africa. His concert at 10,500 capacity The GoldRush Dome in Johannesburg will hold on <strong>January 3",
+          "url": "https://x.com/AfricaFactsZone/status/1994704803948122506"
+        },
+        {
+          "title": "Asake Sells Out O2 Arena Ahead of Milestone Concert",
+          "snippet": "Nigerian singer Asake has sold out his concert at the <strong>O2 Arena in London</strong>, making him the latest African artist to achieve this feat. ",
+          "url": "https://unorthodoxreviews.com/asake-sells-out-o2-arena"
+        },
+        {
+          "title": "Asake Tickets & Tour Dates 2025 | TicketPort",
+          "snippet": "Buy Asake tickets at TicketPort. View Asake tickets, request sold out shows. Browse all Asake global tour dates 2025.",
+          "url": "https://www.ticketport.live/asake-tickets/"
+        },
+        {
+          "title": "Afrobeats fans priced out as concert costs hit a new pitch - Businessday NG",
+          "snippet": "Despite the backlash, Flytime has sold out some ticket zones, especially for Asake’s show, the most expensive at N300,000. This suggests demand from t",
+          "url": "https://businessday.ng/life-arts/article/afrobeats-fans-priced-out-as-concert-costs-hit-a-new-pitch/"
+        }
+      ],
+      "venueUpgrades": 1,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Breaking out with viral smashes like Stupid (with Yung Baby Tate), Daisy, and Slumber Party (feat. Princess Nokia), she built a fearless persona that ",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 68,
+      "vetTier": "red_hot",
+      "vetSignals": [
+        "🔥 4 sold-out mentions",
+        "🎧 8.0M Spotify listeners",
+        "🏟️ Venue upgrade detected",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 33,
+      "numbersScore": 15,
+      "momentumScore": 20,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:37.215Z"
+    },
+    "the fader": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "<strong>Between 2023 and 2025</strong>, overall ticket sales in North America have flattened or dipped in several key categories. Festivals that once ",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 12,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 0,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:39.022Z"
+    },
+    "the line of best fit": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 3,
+      "soldOutSnippets": [
+        {
+          "title": "Jam Band Announces 2026 Summer Tour Dates After Selling Out Iconic Venue for the First Time",
+          "snippet": "These tickets are definitely going to sell out fast.",
+          "url": "https://parade.com/news/jam-band-announces-2026-summer-tour-dates-selling-out-iconic-venue-first-time"
+        },
+        {
+          "title": "The best concerts and tours coming to the UK in 2026 – and how to get tickets",
+          "snippet": "Some of the biggest names in the music scene are set to tour the UK this year— here&#x27;s how you can get tickets, even to sold-out tours. ... From t",
+          "url": "https://www.radiotimes.com/going-out/tickets/the-best-uk-concerts-tours/"
+        },
+        {
+          "title": "Legends Lead the Way: New Edition Way Tour Sells Out Week One and Redefines Live R&B for 2026",
+          "snippet": "HOUSTON, Feb. 3, 2026 /PRNewswire/ -- The Black Promoters Collective is pleased to announce the arrival of the New Edition Way Tour, an event that&#x2",
+          "url": "https://www.prnewswire.com/news-releases/legends-lead-the-way-new-edition-way-tour-sells-out-week-one-and-redefines-live-rb-for-2026-302678252.html"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Some of the biggest names in the music scene are set to tour the UK this year— here&#x27;s how you can get tickets, even to sold-out tours. ... From t",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 35,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 3 sold-out mentions",
+        "📱 Viral moment detected",
+        "📱 Viral moment detected"
+      ],
+      "demandScore": 25,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:40.907Z"
+    },
+    "chelsea jordan": {
+      "monthlyListeners": null,
+      "spotifyFollowers": 185000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 2,
+      "soldOutSnippets": [
+        {
+          "title": "Coachella 2026 Sells Out Both Weekends",
+          "snippet": "Variety Plus Icon Read Next: TAIT Acquires Silent House, Creating a Giant Combined Force for Technology and Creative Direction in Concert Touring and ",
+          "url": "https://variety.com/2025/music/news/coachella-2026-sells-out-both-weekends-after-lineup-reveal-1236526627/"
+        },
+        {
+          "title": "BTS World Tour Arirang 2026 Tickets Sell Out Instantly During Pre-Sale; New Concert Dates Added | Korean News - News18",
+          "snippet": "BTS World Tour Arirang 2026 tickets sold out instantly during pre-sale as ARMYs flooded booking platforms worldwide. BigHit Music has now added more c",
+          "url": "https://www.news18.com/movies/korean/bts-world-tour-arirang-2026-tickets-sell-out-instantly-during-pre-sale-new-concert-dates-added-ws-kl-9851623.html"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 28,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 2 sold-out mentions",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 18,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:42.754Z"
+    },
+    "niall horan": {
+      "monthlyListeners": 17900000,
+      "spotifyFollowers": 10300000,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 25,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 17.9M Spotify listeners",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 15,
+      "momentumScore": 10,
+      "upcomingShows": 2,
+      "tourDates": [
+        {
+          "title": "Thomas Rhett with Niall Horan",
+          "date": "2026-07-09",
+          "venue": "Geodis Park",
+          "city": "Nashville, TN",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5936852227,
+          "url": "https://seatgeek.com/thomas-rhett-tickets/nashville-tennessee-geodis-park-2026-07-09-6-pm/concert/18116156"
+        },
+        {
+          "title": "Thomas Rhett with Niall Horan",
+          "date": "2026-07-18",
+          "venue": "Hersheypark Stadium",
+          "city": "Hershey, PA",
+          "capacity": 30000,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5470902207,
+          "url": "https://seatgeek.com/thomas-rhett-tickets/hershey-pennsylvania-hersheypark-stadium-2026-07-18-6-pm/concert/18116158"
+        }
+      ],
+      "enrichedAt": "2026-03-22T10:01:44.605Z"
+    },
+    "dermot kennedy": {
+      "monthlyListeners": null,
+      "spotifyFollowers": 1600000,
+      "instagramFollowers": 300000,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 4,
+      "soldOutSnippets": [
+        {
+          "title": "Dermot Kennedy Tickets, Concerts & 2025 Tour Dates",
+          "snippet": "Tickets to Dermot Kennedy shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tic",
+          "url": "https://www.eventticketscenter.com/dermot-kennedy-tickets/7118/c"
+        },
+        {
+          "title": "r/DermotKennedy on Reddit: Gearing Up for an Arena Tour",
+          "snippet": "A subreddit for Irish singer-songwriter Dermot Kennedy! ... Based on how quickly all these concerts sold out and the fact that he was playing 10k Amph",
+          "url": "https://www.reddit.com/r/DermotKennedy/comments/1kt0wem/gearing_up_for_an_arena_tour/"
+        },
+        {
+          "title": "r/DermotKennedy on Reddit: Honestly Devestated.",
+          "snippet": "I tried my local one first (Vancouver) sold out in four minutes. Then I looked at every single venue of the entire tour, before 1010 they were all…",
+          "url": "https://www.reddit.com/r/DermotKennedy/comments/1kswh3r/honestly_devestated/"
+        },
+        {
+          "title": "Dermot Kennedy | Belfast Tickets 2026 | TicketPort",
+          "snippet": "Buy tickets for Dermot Kennedy in Belfast 2026 at TicketPort. View Dermot Kennedy tickets, request sold out shows. Browse all Dermot Kennedy Belfast t",
+          "url": "https://www.ticketport.live/dermot-kennedy-tickets/belfast"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 40,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 4 sold-out mentions",
+        "📸 IG: 300K",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 25,
+      "numbersScore": 5,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:48.295Z"
+    },
+    "lizzo": {
+      "monthlyListeners": 11040000,
+      "spotifyFollowers": 11700000,
+      "instagramFollowers": 11700000,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 3,
+      "soldOutSnippets": [
+        {
+          "title": "Lizzo Tickets, Concerts & 2026 Tour Dates",
+          "snippet": "Tickets to Lizzo shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets avai",
+          "url": "https://www.eventticketscenter.com/lizzo-tickets/8881/c"
+        },
+        {
+          "title": "How to get last-minute tickets to Lizzo’s sold-out ‘Lizzo In Real Life’ concerts - syracuse.com",
+          "snippet": "The Grammy-winning artist is set to perform three exclusive shows, including <strong>The Wiltern in Los Angeles on March 12, Irving Plaza in New York ",
+          "url": "https://www.syracuse.com/live-entertainment/2025/03/how-to-get-last-minute-tickets-to-lizzos-sold-out-lizzo-in-real-life-concerts.html"
+        },
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories. Festivals that once sold out in minut",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 62,
+      "vetTier": "red_hot",
+      "vetSignals": [
+        "🔥 3 sold-out mentions",
+        "🎧 11.0M Spotify listeners",
+        "📸 IG: 11700K",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 25,
+      "numbersScore": 27,
+      "momentumScore": 10,
+      "upcomingShows": 1,
+      "tourDates": [
+        {
+          "title": "Netflix Is A Joke Fest Presents: Lizzo",
+          "date": "2026-05-08",
+          "venue": "The Greek Theatre - Los Angeles",
+          "city": "Los Angeles, CA",
+          "capacity": 5870,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3588245649,
+          "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-07-8-pm/18022005"
+        }
+      ],
+      "enrichedAt": "2026-03-22T10:01:50.178Z"
+    },
+    "ruel": {
+      "monthlyListeners": 6,
+      "spotifyFollowers": 1808486,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Ruel Tickets, Concerts & 2026 Tour Dates",
+          "snippet": "Tickets to Ruel shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets avail",
+          "url": "https://www.eventticketscenter.com/ruel-tickets/10639/c"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "<strong>Thursday, October 1, 2026</strong> – Detroit, Mich., Little Caesars Arena ... Doja Cat, born Amala Ratna Zandile Dlamini, has rapidly ascended",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 32,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "🎧 0.0M Spotify listeners",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 20,
+      "upcomingShows": 8,
+      "tourDates": [
+        {
+          "title": "Ruel",
+          "date": "2026-03-26",
+          "venue": "Cervantes' Masterpiece",
+          "city": "Denver, CO",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3304356638,
+          "url": "https://seatgeek.com/ruel-tickets/denver-colorado-cervantes-masterpiece-2026-03-25-8-pm/concert/17958512"
+        },
+        {
+          "title": "Ruel with Mercer Henderson",
+          "date": "2026-03-28",
+          "venue": "The Union Event Center - Salt Lake City",
+          "city": "Salt Lake City, UT",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4839579586,
+          "url": "https://seatgeek.com/ruel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-03-27-8-pm/concert/17894100"
+        },
+        {
+          "title": "Ruel",
+          "date": "2026-03-30",
+          "venue": "Showbox SoDo",
+          "city": "Seattle, WA",
+          "capacity": 1500,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4059443606,
+          "url": "https://seatgeek.com/ruel-tickets/seattle-washington-showbox-sodo-2026-03-29-8-pm/concert/17910787"
+        },
+        {
+          "title": "Ruel",
+          "date": "2026-03-31",
+          "venue": "Wonder Ballroom",
+          "city": "Portland, OR",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3053514635,
+          "url": "https://seatgeek.com/ruel-tickets/portland-oregon-wonder-ballroom-2026-03-30-8-pm/concert/17935261"
+        },
+        {
+          "title": "Ruel",
+          "date": "2026-04-03",
+          "venue": "Vogue Theatre - BC",
+          "city": "Vancouver, BC",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.293504856,
+          "url": "https://seatgeek.com/ruel-tickets/vancouver-canada-vogue-theatre-bc-1-2026-04-02-8-pm/concert/17947131"
+        },
+        {
+          "title": "Ruel",
+          "date": "2026-04-06",
+          "venue": "The Warfield",
+          "city": "San Francisco, CA",
+          "capacity": 2250,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3296111929,
+          "url": "https://seatgeek.com/ruel-tickets/san-francisco-california-the-warfield-2026-04-05-8-pm/concert/17958514"
+        },
+        {
+          "title": "Ruel with Mercer Henderson",
+          "date": "2026-04-08",
+          "venue": "Marquee Theatre - Tempe, AZ",
+          "city": "Tempe, AZ",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3749749499,
+          "url": "https://seatgeek.com/ruel-tickets/tempe-arizona-marquee-theatre-tempe-az-2026-04-07-8-pm/concert/17893389"
+        },
+        {
+          "title": "Ruel with Mercer Henderson",
+          "date": "2026-04-09",
+          "venue": "Hollywood Palladium",
+          "city": "Los Angeles, CA",
+          "capacity": 4000,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.3492839787,
+          "url": "https://seatgeek.com/ruel-tickets/los-angeles-california-hollywood-palladium-2026-04-08-7-pm/concert/17893183"
+        }
+      ],
+      "enrichedAt": "2026-03-22T10:01:52.459Z"
+    },
+    "josiah queen": {
+      "monthlyListeners": 5400000,
+      "spotifyFollowers": 892105,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 5,
+      "soldOutSnippets": [
+        {
+          "title": "Josiah Queen - The Mt. Zion Tour - Sunday April 26th, 2026 At The Complex Salt Lake City, Utah Events",
+          "snippet": "After a record-breaking year and two back-to-back sold out tours, Josiah Queen is hitting the road this Spring for his biggest run yet, The Mt. Zion T",
+          "url": "https://www.thecomplexslc.com/event-2759.htm"
+        },
+        {
+          "title": "Josiah Queen Tickets, Concerts & 2026 Tour Dates",
+          "snippet": "Tickets to Josiah Queen shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has ticke",
+          "url": "https://www.eventticketscenter.com/josiah-queen-tickets/64806/c"
+        },
+        {
+          "title": "Josiah Queen - The Mt. Zion Tour – TPR.",
+          "snippet": "After a record-breaking year and two back-to-back sold out tours, Josiah Queen is hitting the road this Spring for his biggest run yet, The <strong>Mt",
+          "url": "https://tprlive.co/collections/josiah-queen-the-mt-zion-tour"
+        },
+        {
+          "title": "Josiah Queen - Pittsburgh - Stage AE - Tue, Mar 17, 2026, 07:00 PM - AXS US",
+          "snippet": "<strong>Tue Mar 17, 2026 - 7:00 PM</strong>TPR. Presents · The Mt. Zion Tour / ... Resale prices may exceed face value. ... Elevate your experience wi",
+          "url": "https://www.axs.com/events/1121139/josiah-queen-tickets"
+        },
+        {
+          "title": "Josiah Queen Tickets, 2026 Concert Tour Dates | Ticketmaster CA",
+          "snippet": "Tuesday 07:00 p.m.Tue7:00 p.m.Open additional information for Whitby, ON, Canada Event Centre, SOLD OUT! The Mt. Zion Tour with Josiah Queen - Toronto",
+          "url": "https://www.ticketmaster.ca/josiah-queen-tickets/artist/3111481"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 50,
+      "vetTier": "red_hot",
+      "vetSignals": [
+        "🔥 5 sold-out mentions",
+        "🎧 5.4M Spotify listeners",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 25,
+      "numbersScore": 15,
+      "momentumScore": 10,
+      "upcomingShows": 25,
+      "tourDates": [
+        {
+          "title": "Josiah Queen with Jervis Campbell (Rescheduled from 03/16/26)",
+          "date": "2026-03-22",
+          "venue": "Murat Theatre at Old National Centre",
+          "city": "Indianapolis, IN",
+          "capacity": 2700,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5367154365,
+          "url": "https://seatgeek.com/josiah-queen-tickets/indianapolis-indiana-murat-theatre-at-old-national-centre-2026-03-22-7-pm/concert/17704957"
+        },
+        {
+          "title": "Josiah Queen",
+          "date": "2026-04-09",
+          "venue": "Revel Entertainment Center",
+          "city": "Albuquerque, NM",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.442342876,
+          "url": "https://seatgeek.com/josiah-queen-tickets/albuquerque-new-mexico-revel-entertainment-center-2026-04-08-8-pm/concert/17712744"
+        },
+        {
+          "title": "Josiah Queen with Jervis Campbell",
+          "date": "2026-04-10",
+          "venue": "Arizona Financial Theatre",
+          "city": "Phoenix, AZ",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5586121231,
+          "url": "https://seatgeek.com/josiah-queen-tickets/phoenix-arizona-arizona-financial-theatre-2026-04-09-7-pm/concert/17729717"
+        },
+        {
+          "title": "Josiah Queen with Jervis Campbell",
+          "date": "2026-04-11",
+          "venue": "Arizona Financial Theatre",
+          "city": "Phoenix, AZ",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5639433256,
+          "url": "https://seatgeek.com/josiah-queen-tickets/phoenix-arizona-arizona-financial-theatre-2026-04-10-7-pm/concert/17704775"
+        },
+        {
+          "title": "Josiah Queen with Jervis Campbell",
+          "date": "2026-04-12",
+          "venue": "The Sound - Del Mar",
+          "city": "Del Mar, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5045211799,
+          "url": "https://seatgeek.com/josiah-queen-tickets/del-mar-california-the-sound-del-mar-2026-04-11-7-pm/concert/17705162"
+        },
+        {
+          "title": "Josiah Queen",
+          "date": "2026-04-13",
+          "venue": "The Novo",
+          "city": "Los Angeles, CA",
+          "capacity": 2300,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.508142763,
+          "url": "https://seatgeek.com/josiah-queen-tickets/los-angeles-california-the-novo-2026-04-12-7-pm/concert/17712751"
+        },
+        {
+          "title": "Josiah Queen with Jervis Campbell",
+          "date": "2026-04-17",
+          "venue": "Sacramento Memorial Auditorium",
+          "city": "Sacramento, CA",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.482281162,
+          "url": "https://seatgeek.com/josiah-queen-tickets/sacramento-california-sacramento-memorial-auditorium-2026-04-16-7-pm/concert/17704722"
+        },
+        {
+          "title": "Josiah Queen",
+          "date": "2026-04-18",
+          "venue": "Arlene Schnitzer Concert Hall",
+          "city": "Portland, OR",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.4137724612,
+          "url": "https://seatgeek.com/josiah-queen-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-04-17-7-30-pm/concert/17712752"
+        }
+      ],
+      "enrichedAt": "2026-03-22T10:01:54.362Z"
+    },
+    "6lack": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories. Festivals that once sold out in minut",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": null,
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 22,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 10,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:56.155Z"
+    },
+    "jump source": {
+      "monthlyListeners": null,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 1,
+      "soldOutSnippets": [
+        {
+          "title": "OsamaSon Tickets, 2026 Concert Tour Dates | Ticketmaster",
+          "snippet": "Osama went on to go on a sold-out ... debut album: Jump Out. Despise the project being leaked a month before it&#x27;s release in <strong>January 2025",
+          "url": "https://www.ticketmaster.com/osamason-tickets/artist/3023737"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "<strong>Thursday, October 1, 2026</strong> – Detroit, Mich., Little Caesars Arena ... Doja Cat, born Amala Ratna Zandile Dlamini, has rapidly ascended",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 32,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 1 sold-out mentions",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 12,
+      "numbersScore": 0,
+      "momentumScore": 20,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:57.900Z"
+    },
+    "aluna": {
+      "monthlyListeners": 136,
+      "spotifyFollowers": null,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 0,
+      "soldOutSnippets": [],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "<strong>Thursday, October 1, 2026</strong> – Detroit, Mich., Little Caesars Arena ... Doja Cat, born Amala Ratna Zandile Dlamini, has rapidly ascended",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 20,
+      "vetTier": "unvetted",
+      "vetSignals": [
+        "🎧 0.0M Spotify listeners",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 0,
+      "numbersScore": 0,
+      "momentumScore": 20,
+      "upcomingShows": 0,
+      "tourDates": [],
+      "enrichedAt": "2026-03-22T10:01:59.637Z"
+    },
+    "feid": {
+      "monthlyListeners": null,
+      "spotifyFollowers": 18461,
+      "instagramFollowers": null,
+      "tiktokFollowers": null,
+      "youtubeSubscribers": null,
+      "soldOutMentions": 4,
+      "soldOutSnippets": [
+        {
+          "title": "Feid Tickets, Concerts & 2026 Tour Dates",
+          "snippet": "Tickets to Feid shows are available right here at Event Tickets Center. Many shows have sold out, but not here. Event Tickets Center has tickets avail",
+          "url": "https://www.eventticketscenter.com/feid-tickets/23049/c"
+        },
+        {
+          "title": "Feid Tour 2026 - The Latin Superstar Hits the Road",
+          "snippet": "Feid is bringing his reggaeton hits and electrifying stage presence on tour in 2026! Get your Feid Tour 2026 tickets today before they sell out!",
+          "url": "https://www.feidtour2026.com/"
+        },
+        {
+          "title": "Feid Tickets & Tour Dates 2026 | TicketPort",
+          "snippet": "Buy Feid tickets at TicketPort. View Feid tickets, request sold out shows. Browse all Feid global tour dates 2026.",
+          "url": "https://www.ticketport.live/feid-tickets/"
+        },
+        {
+          "title": "Are Concerts Losing Popularity in 2026? The Truth Behind the Trends",
+          "snippet": "Between 2023 and 2025, overall ticket sales in North America have flattened or dipped in several key categories. Festivals that once sold out in minut",
+          "url": "https://www.concertsandtickets.com/blog/are-concerts-losing-popularity/"
+        }
+      ],
+      "venueUpgrades": 0,
+      "addedDates": 0,
+      "bigSingle": null,
+      "viralMoment": "Cultural moments: Taylor Swift&#x27;s Eras Tour became a social phenomenon beyond just a concert · Cross-generational appeal: Acts like Billy Joel and",
+      "albumCount": null,
+      "latestRelease": null,
+      "vetScore": 45,
+      "vetTier": "warm",
+      "vetSignals": [
+        "🔥 4 sold-out mentions",
+        "📱 Viral moment detected",
+        "📱 Viral moment detected",
+        "📱 Viral moment detected",
+        "📋 2 editorial playlists"
+      ],
+      "demandScore": 25,
+      "numbersScore": 0,
+      "momentumScore": 20,
+      "upcomingShows": 2,
+      "tourDates": [
+        {
+          "title": "Netflix Is A Joke Fest Presents: Feid & Marcello Hernandez",
+          "date": "2026-05-11",
+          "venue": "Hollywood Bowl",
+          "city": "Los Angeles, CA",
+          "capacity": 17500,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.5510660351,
+          "url": "https://seatgeek.com/netflix-is-a-joke-fest-tickets/comedy/2026-05-10-7-pm/18022348"
+        },
+        {
+          "title": "Trace Adkins with Corb Lund and Kenny Feidler",
+          "date": "2026-05-15",
+          "venue": "Eastern Montana Fairgrounds",
+          "city": "Miles City, MT",
+          "capacity": 0,
+          "lowestPrice": null,
+          "avgPrice": null,
+          "highestPrice": null,
+          "listingCount": null,
+          "sgScore": 0.1450463892,
+          "url": "https://seatgeek.com/trace-adkins-tickets/miles-city-montana-eastern-montana-fairgrounds-2026-05-14-6-pm/concert/17975223"
+        }
+      ],
+      "enrichedAt": "2026-03-22T10:02:01.510Z"
     }
   },
-  "lastUpdated": "2026-03-19T10:01:53.877Z"
+  "lastUpdated": "2026-03-22T10:02:01.616Z"
 }

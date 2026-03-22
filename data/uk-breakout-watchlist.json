@@ -1,27 +1,58 @@
 {
-  "lastRun": "2026-03-20T12:03:52.345Z",
+  "lastRun": "2026-03-22T12:02:12.607Z",
   "apiCalls": {
     "brave": 30,
-    "bandsintown": 28,
+    "bandsintown": 27,
     "seatgeek": 0
   },
-  "alertCount": 2,
-  "alerts": [
-    {
-      "type": "TIER_UPGRADE",
-      "artist": "FKA twigs",
-      "from": "⚪ ON RADAR",
-      "to": "🟡 WATCH CLOSELY",
-      "message": "📈 FKA twigs upgraded from ⚪ ON RADAR → 🟡 WATCH CLOSELY"
-    },
-    {
-      "type": "NEW_US_DATES_ADDED",
-      "artist": "Four Tet",
-      "newCount": 2,
-      "message": "📍 Four Tet added 2 new US dates (now 4 total)"
-    }
-  ],
+  "alertCount": 0,
+  "alerts": [],
   "artists": [
+    {
+      "name": "English Teacher",
+      "sources": [
+        "BBC Sound Of",
+        "UK Breakthrough"
+      ],
+      "mentions": 2,
+      "totalEvents": 8,
+      "usEvents": 0,
+      "ukEuEvents": 8,
+      "hasUSDates": false,
+      "usVenues": [],
+      "ukEuVenues": [
+        {
+          "date": "2026-03-21",
+          "venue": "The George Tavern",
+          "city": "London",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-06-19",
+          "venue": "TRNSMT 2026",
+          "city": "Glasgow",
+          "country": "United Kingdom"
+        },
+        {
+          "date": "2026-07-08",
+          "venue": "Castlefield Bowl",
+          "city": "Manchester City Centre",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English ",
+        "Summer 2026 | Gig Guide | Ticketmaster UK ... English Teacher return this summer with a selection of special live dates. ... American singer-songwriter <strong>Ethel Cain</strong> will head to the UK "
+      ],
+      "breakoutScore": 70,
+      "signals": [
+        "Active UK/EU tour",
+        "🔥 NO US DATES YET — pre-breakout window",
+        "2 source types",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "🔴 IMMINENT"
+    },
     {
       "name": "Royel Otis",
       "sources": [
@@ -141,90 +172,6 @@
       "tier": "🔴 IMMINENT"
     },
     {
-      "name": "English Teacher",
-      "sources": [
-        "BBC Sound Of"
-      ],
-      "mentions": 1,
-      "totalEvents": 8,
-      "usEvents": 0,
-      "ukEuEvents": 8,
-      "hasUSDates": false,
-      "usVenues": [],
-      "ukEuVenues": [
-        {
-          "date": "2026-03-21",
-          "venue": "The George Tavern",
-          "city": "London",
-          "country": "United Kingdom"
-        },
-        {
-          "date": "2026-06-19",
-          "venue": "TRNSMT 2026",
-          "city": "Glasgow",
-          "country": "United Kingdom"
-        },
-        {
-          "date": "2026-07-08",
-          "venue": "Castlefield Bowl",
-          "city": "Manchester City Centre",
-          "country": "United Kingdom"
-        }
-      ],
-      "snippets": [
-        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
-      ],
-      "breakoutScore": 60,
-      "signals": [
-        "Active UK/EU tour",
-        "🔥 NO US DATES YET — pre-breakout window",
-        "Award signal: BBC Sound Of"
-      ],
-      "tier": "🔴 IMMINENT"
-    },
-    {
-      "name": "Self Esteem",
-      "sources": [
-        "BRIT Awards"
-      ],
-      "mentions": 1,
-      "totalEvents": 10,
-      "usEvents": 0,
-      "ukEuEvents": 10,
-      "hasUSDates": false,
-      "usVenues": [],
-      "ukEuVenues": [
-        {
-          "date": "2026-07-04",
-          "venue": "Wasing Estate woodland",
-          "city": "Wasing",
-          "country": "United Kingdom"
-        },
-        {
-          "date": "2026-07-10",
-          "venue": "Museum Gardens",
-          "city": "York",
-          "country": "United Kingdom"
-        },
-        {
-          "date": "2026-07-23",
-          "venue": "Latitude Festival 2026",
-          "city": "Southwold",
-          "country": "United Kingdom"
-        }
-      ],
-      "snippets": [
-        "Brit Awards 2026: The real winners and losers <strong>Self Esteem</strong>&#x27;s red carpet interview at the 2026 Brits · Speaking on the red carpet, pop star <strong>Self Esteem</strong> declared sh"
-      ],
-      "breakoutScore": 60,
-      "signals": [
-        "Active UK/EU tour",
-        "🔥 NO US DATES YET — pre-breakout window",
-        "Award signal: BRIT Awards"
-      ],
-      "tier": "🔴 IMMINENT"
-    },
-    {
       "name": "Olivia Dean",
       "sources": [
         "BBC Sound Of",
@@ -232,10 +179,10 @@
         "UK Viral",
         "UK Charts"
       ],
-      "mentions": 8,
-      "totalEvents": 45,
+      "mentions": 9,
+      "totalEvents": 46,
       "usEvents": 20,
-      "ukEuEvents": 21,
+      "ukEuEvents": 22,
       "hasUSDates": true,
       "usVenues": [
         {
@@ -293,8 +240,8 @@
         "BBC Radio 1 Sound Of 2026 longlist revealed The prestigious annual list has been running since 2003, and this year’s candidates have been whittled down by a panel of over 170 industry experts and arti",
         "The BRIT Awards 2026 Winners Having equalled Olivia Dean for the most nominations this year with five, as well as being fellow BRIT School alumni, British standout star <strong>Lola Young</strong> won"
       ],
-      "socialSnippet": "Olivia Dean - Spotify Statistics & Monthly Listeners | Music Metrics Vault Discover Olivia Dean Spotify statistics: <strong>60.9 million</strong> mont",
       "spotifyMonthly": 2000000,
+      "socialSnippet": "Olivia Dean - Spotify Statistics & Monthly Listeners | Music Metrics Vault Discover Olivia Dean Spotify statistics: <strong>60.9 million</strong> mont",
       "breakoutScore": 50,
       "signals": [
         "Active UK/EU tour",
@@ -309,12 +256,18 @@
         "BBC Sound Of"
       ],
       "mentions": 1,
-      "totalEvents": 1,
+      "totalEvents": 2,
       "usEvents": 0,
-      "ukEuEvents": 1,
+      "ukEuEvents": 2,
       "hasUSDates": false,
       "usVenues": [],
       "ukEuVenues": [
+        {
+          "date": "2026-05-24",
+          "venue": "Herrington Country Park",
+          "city": "Sunderland",
+          "country": "United Kingdom"
+        },
         {
           "date": "2026-08-21",
           "venue": "Jorja Smith & Tems at All Points East 2026",
@@ -339,9 +292,9 @@
         "BRIT Awards"
       ],
       "mentions": 1,
-      "totalEvents": 21,
+      "totalEvents": 22,
       "usEvents": 8,
-      "ukEuEvents": 9,
+      "ukEuEvents": 10,
       "hasUSDates": true,
       "usVenues": [
         {
@@ -383,10 +336,10 @@
           "country": "United Kingdom"
         },
         {
-          "date": "2026-06-19",
-          "venue": "Isle of Wight Festival",
-          "city": "Newport",
-          "country": "United Kingdom"
+          "date": "2026-06-21",
+          "venue": "Pinkpop 2026",
+          "city": "Landgraaf",
+          "country": "Netherlands"
         },
         {
           "date": "2026-06-30",
@@ -537,9 +490,9 @@
         "UK Indie Breakthrough"
       ],
       "mentions": 2,
-      "totalEvents": 63,
+      "totalEvents": 62,
       "usEvents": 24,
-      "ukEuEvents": 35,
+      "ukEuEvents": 34,
       "hasUSDates": true,
       "usVenues": [
         {
@@ -575,12 +528,6 @@
       ],
       "ukEuVenues": [
         {
-          "date": "2026-03-19",
-          "venue": "Muziekgieterij",
-          "city": "Maastricht",
-          "country": "Netherlands"
-        },
-        {
           "date": "2026-03-21",
           "venue": "VEGA",
           "city": "København",
@@ -591,6 +538,12 @@
           "venue": "Fållan",
           "city": "Johanneshov",
           "country": "Sweden"
+        },
+        {
+          "date": "2026-03-24",
+          "venue": "Rockefeller Music Hall",
+          "city": "Oslo",
+          "country": "Norway"
         }
       ],
       "snippets": [
@@ -673,7 +626,7 @@
         "BBC Sound Of"
       ],
       "mentions": 1,
-      "totalEvents": 6,
+      "totalEvents": 5,
       "usEvents": 4,
       "ukEuEvents": 1,
       "hasUSDates": true,
@@ -787,6 +740,7 @@
       "snippets": [
         "Previous Shortlists Javascript must be enabled for the correct page display · Skip to Content · Open menu · show moreless · 2025 Sam Fender People Watching Winner · EURO-COUNTRY · Emma-Jean Thackray ·"
       ],
+      "socialSnippet": "FKA twigs - Spotify Statistics & Monthly Listeners | Music Metrics Vault Discover FKA twigs Spotify statistics: <strong>3.2 million</strong> monthly l",
       "breakoutScore": 40,
       "signals": [
         "Some UK/EU dates",
@@ -794,6 +748,69 @@
         "Award signal: Mercury Prize"
       ],
       "tier": "🟡 WATCH CLOSELY"
+    },
+    {
+      "name": "Myles Smith",
+      "sources": [
+        "BBC Sound Of",
+        "US Tour Announced"
+      ],
+      "mentions": 3,
+      "totalEvents": 17,
+      "usEvents": 12,
+      "ukEuEvents": 1,
+      "hasUSDates": true,
+      "usVenues": [
+        {
+          "date": "2026-06-13",
+          "venue": "State Farm Stadium",
+          "city": "Glendale, AZ",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-20",
+          "venue": "Nissan Stadium",
+          "city": "Nashville, TN",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-25",
+          "venue": "Summerfest | Presented by American Family Insurance",
+          "city": "Milwaukee, WI",
+          "country": "United States"
+        },
+        {
+          "date": "2026-06-27",
+          "venue": "Soldier Field",
+          "city": "Chicago, IL",
+          "country": "United States"
+        },
+        {
+          "date": "2026-07-04",
+          "venue": "Empower Field at Mile High",
+          "city": "Denver, CO",
+          "country": "United States"
+        }
+      ],
+      "ukEuVenues": [
+        {
+          "date": "2026-05-24",
+          "venue": "Herrington Country Park",
+          "city": "Sunderland",
+          "country": "United Kingdom"
+        }
+      ],
+      "snippets": [
+        "Radio 1's Sound Of 2026 Jack details all the artists on the list who have been tipped for big things in 2026. ... Featuring winner Chappell Roan, and the rest of the longlist including <strong>Myles S",
+        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
+      ],
+      "breakoutScore": 35,
+      "signals": [
+        "Some UK/EU dates",
+        "2 source types",
+        "Award signal: BBC Sound Of"
+      ],
+      "tier": "⚪ ON RADAR"
     },
     {
       "name": "The Last Dinner Party",
@@ -1061,67 +1078,6 @@
       "tier": "⚪ ON RADAR"
     },
     {
-      "name": "Myles Smith",
-      "sources": [
-        "BBC Sound Of"
-      ],
-      "mentions": 2,
-      "totalEvents": 17,
-      "usEvents": 12,
-      "ukEuEvents": 1,
-      "hasUSDates": true,
-      "usVenues": [
-        {
-          "date": "2026-06-13",
-          "venue": "State Farm Stadium",
-          "city": "Glendale, AZ",
-          "country": "United States"
-        },
-        {
-          "date": "2026-06-20",
-          "venue": "Nissan Stadium",
-          "city": "Nashville, TN",
-          "country": "United States"
-        },
-        {
-          "date": "2026-06-25",
-          "venue": "Summerfest | Presented by American Family Insurance",
-          "city": "Milwaukee, WI",
-          "country": "United States"
-        },
-        {
-          "date": "2026-06-27",
-          "venue": "Soldier Field",
-          "city": "Chicago, IL",
-          "country": "United States"
-        },
-        {
-          "date": "2026-07-04",
-          "venue": "Empower Field at Mile High",
-          "city": "Denver, CO",
-          "country": "United States"
-        }
-      ],
-      "ukEuVenues": [
-        {
-          "date": "2026-05-24",
-          "venue": "Herrington Country Park",
-          "city": "Sunderland",
-          "country": "United Kingdom"
-        }
-      ],
-      "snippets": [
-        "Radio 1's Sound Of 2026 Jack details all the artists on the list who have been tipped for big things in 2026. ... Featuring winner Chappell Roan, and the rest of the longlist including <strong>Myles S",
-        "BBC Radio 1 unveils its Sound of 2026 longlist Last year, Chappell Roan was crowned the Sound of 2025 winner, emerging from a longlist that featured Barry Can’t Swim, Confidence Man, Doechii, English "
-      ],
-      "breakoutScore": 25,
-      "signals": [
-        "Some UK/EU dates",
-        "Award signal: BBC Sound Of"
-      ],
-      "tier": "⚪ ON RADAR"
-    },
-    {
       "name": "RAYE",
       "sources": [
         "BBC Sound Of"
@@ -1292,7 +1248,7 @@
       "ukEuVenues": [
         {
           "date": "2026-05-22",
-          "venue": "KLUB",
+          "venue": "Palm Beach Cannes",
           "city": "Cannes",
           "country": "France"
         },
@@ -1521,9 +1477,9 @@
     }
   ],
   "summary": {
-    "imminent": 4,
+    "imminent": 3,
     "watchClosely": 9,
     "onRadar": 10,
-    "noUSDates": 4
+    "noUSDates": 3
   }
 }

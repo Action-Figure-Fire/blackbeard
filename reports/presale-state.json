@@ -187,6 +187,10 @@
     "John Summit-https://www.cbsnews.com/chicago/news/lollapalooza-tickets-sale-2026-grant-park-chicago/": {
       "firstSeen": "2026-03-19T17:00:04.062Z",
       "urgency": "ANNOUNCED"
+    },
+    "Tame Impala-https://www.ad-hoc-news.de/boerse/news/ueberblick/gorillaz-drops-massive-2026-world-tour-announcement-germany-dates/68942662": {
+      "firstSeen": "2026-03-20T17:00:03.454Z",
+      "urgency": "TODAY"
     }
   },
   "codes": {
@@ -197,5 +201,5 @@
       "foundAt": "2026-03-05T23:26:56.128Z"
     }
   },
-  "lastScan": "2026-03-20T13:00:06.507Z"
+  "lastScan": "2026-03-22T13:00:04.591Z"
 }

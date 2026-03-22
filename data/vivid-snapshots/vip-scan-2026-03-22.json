@@ -1,0 +1,252 @@
+{
+  "timestamp": "2026-03-22T14:00:40.695Z",
+  "results": {
+    "fakemink": {
+      "shows": 15,
+      "min": 56.84,
+      "max": 332.22,
+      "avg": 105,
+      "topShows": [
+        {
+          "price": 332.22,
+          "venue": "Camping World Stadium",
+          "city": "Orlando",
+          "date": "2026-05-08",
+          "listings": 38
+        },
+        {
+          "price": 327,
+          "venue": "Camping World Stadium",
+          "city": "Orlando",
+          "date": "2026-05-09",
+          "listings": 9
+        },
+        {
+          "price": 114.66,
+          "venue": "Terminal 5",
+          "city": "New York",
+          "date": "2026-05-01",
+          "listings": 9
+        }
+      ]
+    },
+    "Naïka": {
+      "shows": 14,
+      "min": 31,
+      "max": 347,
+      "avg": 111,
+      "topShows": [
+        {
+          "price": 347,
+          "venue": "Miami Beach Bandshell",
+          "city": "Miami Beach",
+          "date": "2026-04-17",
+          "listings": 2
+        },
+        {
+          "price": 204,
+          "venue": "Fonda Theatre",
+          "city": "Los Angeles",
+          "date": "2026-03-26",
+          "listings": 1
+        },
+        {
+          "price": 138,
+          "venue": "Warsaw",
+          "city": "Brooklyn",
+          "date": "2026-04-10",
+          "listings": 11
+        }
+      ]
+    },
+    "Masayoshi Takanaka": {
+      "shows": 6,
+      "min": 191.1,
+      "max": 454.72,
+      "avg": 287,
+      "topShows": [
+        {
+          "price": 454.72,
+          "venue": "Brooklyn Paramount",
+          "city": "Brooklyn",
+          "date": "2026-04-04",
+          "listings": 10
+        },
+        {
+          "price": 330.26,
+          "venue": "Brooklyn Paramount",
+          "city": "Brooklyn",
+          "date": "2026-04-05",
+          "listings": 8
+        },
+        {
+          "price": 271.46,
+          "venue": "Byline Bank Aragon Ballroom",
+          "city": "Chicago",
+          "date": "2026-04-07",
+          "listings": 21
+        }
+      ]
+    },
+    "Maisie Peters": {
+      "shows": 5,
+      "min": 33.25,
+      "max": 301,
+      "avg": 105,
+      "topShows": [
+        {
+          "price": 301,
+          "venue": "9:30 Club",
+          "city": "Washington DC",
+          "date": "2026-04-14",
+          "listings": 3
+        },
+        {
+          "price": 88.2,
+          "venue": "Phoenix Concert Theatre",
+          "city": "Toronto",
+          "date": "2026-04-17",
+          "listings": 10
+        },
+        {
+          "price": 59.78,
+          "venue": "Vic Theatre",
+          "city": "Chicago",
+          "date": "2026-04-19",
+          "listings": 27
+        }
+      ]
+    },
+    "Hayley Williams": {
+      "shows": 25,
+      "min": 103.88,
+      "max": 276,
+      "avg": 156,
+      "topShows": [
+        {
+          "price": 276,
+          "venue": "The Van Buren",
+          "city": "Phoenix",
+          "date": "2026-05-05",
+          "listings": 15
+        },
+        {
+          "price": 261,
+          "venue": "The Fillmore Silver Spring",
+          "city": "Silver Spring",
+          "date": "2026-04-15",
+          "listings": 6
+        },
+        {
+          "price": 215.6,
+          "venue": "The Tabernacle",
+          "city": "Atlanta",
+          "date": "2026-03-28",
+          "listings": 41
+        }
+      ]
+    },
+    "Mariah the Scientist": {
+      "shows": 23,
+      "min": 42.25,
+      "max": 297.92,
+      "avg": 169,
+      "topShows": [
+        {
+          "price": 297.92,
+          "venue": "Bonnaroo Manchester Farm",
+          "city": "Manchester",
+          "date": "2026-06-14",
+          "listings": 15
+        },
+        {
+          "price": 284,
+          "venue": "Coca-Cola Roxy Theatre",
+          "city": "Atlanta",
+          "date": "2026-04-10",
+          "listings": 26
+        },
+        {
+          "price": 278,
+          "venue": "Coca-Cola Roxy Theatre",
+          "city": "Atlanta",
+          "date": "2026-04-11",
+          "listings": 22
+        }
+      ]
+    },
+    "Hearts2Hearts": {
+      "shows": 1,
+      "min": 185.22,
+      "max": 185.22,
+      "avg": 185,
+      "topShows": [
+        {
+          "price": 185.22,
+          "venue": "The Wiltern",
+          "city": "Los Angeles",
+          "date": "2026-03-22",
+          "listings": 13
+        }
+      ]
+    },
+    "Stephen Wilson Jr": {
+      "shows": 25,
+      "min": 17,
+      "max": 552,
+      "avg": 111,
+      "topShows": [
+        {
+          "price": 552,
+          "venue": "Big Mountain Ranch",
+          "city": "Whitefish",
+          "date": "2026-07-17",
+          "listings": 19
+        },
+        {
+          "price": 227,
+          "venue": "Big Mountain Ranch",
+          "city": "Whitefish",
+          "date": "2026-07-18",
+          "listings": 16
+        },
+        {
+          "price": 204.82,
+          "venue": "The Red Mile",
+          "city": "Lexington",
+          "date": "2026-06-06",
+          "listings": 33
+        }
+      ]
+    },
+    "DJO": {
+      "shows": 19,
+      "min": 85.5,
+      "max": 544.88,
+      "avg": 182,
+      "topShows": [
+        {
+          "price": 544.88,
+          "venue": "Golden Gate Park",
+          "city": "San Francisco",
+          "date": "2026-08-07",
+          "listings": 34
+        },
+        {
+          "price": 321,
+          "venue": "Thompsons Point",
+          "city": "Portland",
+          "date": "2026-07-21",
+          "listings": 3
+        },
+        {
+          "price": 219.45,
+          "venue": "Scotiabank Arena",
+          "city": "Toronto",
+          "date": "2026-07-26",
+          "listings": 230
+        }
+      ]
+    }
+  }
+}
