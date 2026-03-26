@@ -3,1526 +3,798 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blackbeard — Presale Intelligence for Ticket Brokers</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏴‍☠️</text></svg>">
+<title>BrokerBeacon — Ticket Intelligence</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-:root{
-  --bg:#09090b;--surface:#18181b;--surface2:#1f1f23;--border:#27272a;--border2:#3f3f46;
-  --text:#fafafa;--text2:#d4d4d8;--text3:#a1a1aa;--text4:#71717a;--text5:#52525b;
-  --purple:#a78bfa;--purple-dim:rgba(167,139,250,0.06);--purple-b:#312e81;
-  --red:#ef4444;--red-dim:rgba(239,68,68,0.06);
-  --green:#4ade80;--green-dim:rgba(74,222,128,0.04);--green-b:#14532d;
-  --yellow:#fbbf24;--yellow-dim:rgba(251,191,36,0.06);
-  --teal:#2dd4bf;--teal-dim:rgba(45,212,191,0.04);
-  --orange:#fb923c;--blue:#60a5fa;
-  --radius:8px;--radius-lg:12px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #09090b;
+  --surface: #111114;
+  --surface2: #18181b;
+  --surface3: #1e1e24;
+  --border: #27272a;
+  --border-light: #3f3f46;
+  --accent: #818cf8;
+  --accent-dim: #6366f1;
+  --accent-glow: rgba(129,140,248,0.08);
+  --text: #fafafa;
+  --text-dim: #a1a1aa;
+  --text-muted: #52525b;
+  --green: #34d399;
+  --green-dim: rgba(52,211,153,0.12);
+  --red: #fb7185;
+  --red-dim: rgba(251,113,133,0.12);
+  --yellow: #fbbf24;
+  --yellow-dim: rgba(251,191,36,0.12);
+  --orange: #fb923c;
+  --cyan: #22d3ee;
+  --pink: #f472b6;
+  --violet: #a78bfa;
 }
-body{background:var(--bg);color:var(--text2);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.5;font-size:14px}
-body.light-theme{--bg:#f8f9fa;--surface:#ffffff;--surface2:#f0f1f3;--border:#e2e4e8;--border2:#d1d5db;--text:#111827;--text2:#374151;--text3:#6b7280;--text4:#9ca3af;--text5:#d1d5db}
-body.light-theme .top-nav{background:#fff;border-color:#e2e4e8}
-body.light-theme .tab-btn{background:#f0f1f3;border-color:#e2e4e8;color:#6b7280}
-body.light-theme .tab-btn.active{background:var(--yellow);color:#000}
-body.light-theme .card{background:#fff;border-color:#e2e4e8}
-body.light-theme input,body.light-theme textarea,body.light-theme select{background:#f8f9fa;border-color:#e2e4e8;color:#111827}
-a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
-
-/* Layout — Top Nav (Optimus-style) */
-.app{min-height:100vh}
-.top-nav{position:sticky;top:0;z-index:100;background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px}
-.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:12px 0}
-.logo{display:flex;align-items:center;gap:10px;margin-right:8px}
-.logo h1{font-size:18px;font-weight:700;color:#fff;letter-spacing:-0.5px;white-space:nowrap}
-.logo h1 span{color:var(--yellow)}
-.tab-bar{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;-webkit-overflow-scrolling:touch;flex:1}
-.tab-btn{background:var(--bg);border:1px solid var(--border);color:var(--text4);padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;transition:all 0.15s;display:flex;align-items:center;gap:5px}
-.tab-btn:hover{border-color:var(--border2);color:var(--text2)}
-.tab-btn.active{background:var(--yellow);border-color:var(--yellow);color:#000}
-.tab-btn .icon{font-size:14px}
-.main{max-width:1200px;margin:0 auto;padding:24px}
-#thisweek-cards,#nextweek-cards,#emerging-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:12px}
-@media(max-width:768px){#thisweek-cards,#nextweek-cards{grid-template-columns:1fr}}
-.nav-actions{display:flex;align-items:center;gap:10px;flex-shrink:0}
-
-/* Section heads */
-.section-head{display:flex;align-items:center;justify-content:space-between;margin:28px 0 14px}
-.section-head:first-child{margin-top:0}
-.section-head h2{font-size:16px;font-weight:700;color:#fff}
-.badge{font-size:11px;background:var(--surface2);border:1px solid var(--border);padding:2px 10px;border-radius:12px;color:var(--text4);font-weight:600}
-
-/* Filter buttons */
-.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
-.fbtn{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:6px 14px;color:var(--text4);font-size:12px;font-weight:600;cursor:pointer;transition:all 0.15s}
-.fbtn:hover{border-color:var(--border2);color:var(--text2)}
-.fbtn.active{background:var(--yellow-dim);border-color:rgba(251,191,36,0.3);color:var(--yellow)}
-
-/* ── Optimus-style Card ── */
-.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);cursor:pointer;overflow:hidden;transition:all 0.25s}
-.card:hover{border-color:var(--border2)}
-.card.expanded{transform:translateY(-1px);box-shadow:0 8px 32px rgba(0,0,0,0.3)}
-.card-accent{height:3px}
-.card-header{padding:16px 20px;display:flex;align-items:flex-start;gap:14}
-.card-score{display:flex;flex-direction:column;align-items:center;flex-shrink:0}
-.card-score .num{font-size:24px;font-weight:800;line-height:1}
-.card-score .tier{font-size:9px;font-weight:700;letter-spacing:1.5px;margin-top:2px;padding:2px 6px;border-radius:4px}
-.card-thumb{width:48px;height:48px;border-radius:50%;object-fit:cover;flex-shrink:0;border:2px solid var(--border)}
-.card-thumb-wrap{position:relative;flex-shrink:0}
-.card-thumb-wrap .card-score{position:absolute;bottom:-4px;right:-4px}
-.card-thumb-wrap .card-score .num{font-size:14px;background:var(--bg);border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border:2px solid}
-.card-thumb-wrap .card-score .tier{display:none}
-.card-info{flex:1;min-width:0}
-.card-name{font-size:15px;font-weight:600;color:var(--text);line-height:1.3}
-.card-tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
-.tag{font-size:10px;padding:3px 8px;border-radius:5px;font-weight:500;border:1px solid}
-.tag-genre{background:#1e1b4b;color:var(--purple);border-color:var(--purple-b)}
-.tag-venue{background:#162217;color:var(--green);border-color:var(--green-b)}
-.tag-hot{background:var(--red-dim);color:var(--red);border-color:rgba(239,68,68,0.2);font-weight:700;letter-spacing:0.5px}
-.tag-new{background:rgba(251,191,36,0.08);color:var(--yellow);border-color:rgba(251,191,36,0.2);font-weight:700}
-.sale-status{font-size:11px;font-weight:600;margin-top:6px;letter-spacing:0.3px}
-.sale-live{color:var(--red)}.sale-soon{color:var(--yellow)}.sale-info{color:var(--text4)}
-.card-arrow{flex-shrink:0;font-size:18px;color:var(--text5);transition:transform 0.2s}
-.card.expanded .card-arrow{transform:rotate(180deg)}
-
-/* Expanded body */
-.card-body{display:none;padding:0 20px 20px;border-top:1px solid var(--border)}
-.card.expanded .card-body{display:block;padding-top:16px}
-
-/* Sale info box */
-.sale-box{padding:12px 14px;background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:14px;font-size:12px;color:var(--text2);line-height:1.6}
-.sale-box .label{font-size:9px;font-weight:700;letter-spacing:1.5px;margin-bottom:4px}
-
-/* Stat grid */
-.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin-bottom:14px}
-.stat-box{background:#0f0f11;border-radius:var(--radius);padding:10px 12px;border:1px solid #1a1a1e}
-.stat-box .sl{font-size:9px;color:var(--text5);letter-spacing:1.5px;margin-bottom:4px;font-weight:600}
-.stat-box .sv{font-size:12px;font-weight:500;color:var(--text3);line-height:1.5}
-
-/* Analysis */
-.analysis{font-size:13px;color:var(--text3);line-height:1.65;margin-bottom:14px}
-.analysis .al{font-weight:600;font-size:10px;letter-spacing:1px}
-
-/* Target cities */
-.targets{padding:12px 14px;background:var(--green-dim);border:1px solid rgba(52,211,153,0.15);border-radius:var(--radius);margin-bottom:14px}
-.targets .tl{font-size:9px;font-weight:700;letter-spacing:2px;color:#34d399;margin-bottom:8px}
-.target-row{display:flex;gap:8px;align-items:flex-start;font-size:12px;line-height:1.5;margin-bottom:6px}
-.target-row .tc{color:var(--text);font-weight:600}
-.target-row .tv{color:var(--text4)}
-.target-row .td{color:var(--purple);font-weight:500}
-.target-row .tw{color:var(--text3);font-size:11px;margin-top:2px}
-
-/* Presale code highlight */
-.code-box{display:inline-flex;align-items:center;gap:4px;background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.25);padding:4px 12px;border-radius:4px;font-family:monospace;font-size:13px;font-weight:700;color:var(--yellow);cursor:pointer;margin-top:6px;margin-right:6px}
-.code-box:hover{background:rgba(251,191,36,0.18)}
-
-/* Action box */
-.action-box{padding:10px 14px;background:var(--purple-dim);border:1px solid rgba(167,139,250,0.15);border-radius:var(--radius);font-size:12px;color:#c4b5fd;line-height:1.5;margin-bottom:14px}
-
-/* Tour dates in card */
-.tour-dates{margin-bottom:14px}
-.tour-dates .tdl{font-size:9px;font-weight:700;letter-spacing:1.5px;color:var(--text5);margin-bottom:6px}
-.tour-row{display:flex;gap:12px;font-size:12px;padding:4px 0;border-bottom:1px solid #1a1a1e;color:var(--text3)}
-.tour-row:last-child{border:none}
-.tour-row .tdate{color:var(--text4);width:80px;flex-shrink:0}
-.tour-row .tvenue{flex:1;color:var(--text2)}
-.tour-row .tprice{color:var(--yellow);font-weight:600;flex-shrink:0}
-.tour-row.hot-show{background:rgba(255,59,48,0.08);border-radius:6px;padding:4px 6px;border-bottom:1px solid rgba(255,59,48,0.15)}
-.hot-badge{font-size:10px;background:linear-gradient(135deg,#ff3b30,#ff6b35);color:#fff;padding:1px 6px;border-radius:4px;font-weight:700;letter-spacing:0.5px;margin-left:6px}
-.soldout-badge{font-size:10px;background:linear-gradient(135deg,#ff3b30,#cc0000);color:#fff;padding:1px 6px;border-radius:4px;font-weight:700;letter-spacing:0.5px;margin-left:6px}
-.artist-hot-flag{display:inline-flex;align-items:center;gap:4px;font-size:10px;background:rgba(255,59,48,0.12);color:#ff6b35;padding:2px 8px;border-radius:4px;font-weight:600;margin-left:8px}
-.presale-section{margin-bottom:14px;padding:10px 12px;background:rgba(255,215,0,0.04);border:1px solid rgba(255,215,0,0.12);border-radius:8px}
-.presale-grid{display:flex;flex-direction:column;gap:6px;margin-top:8px}
-.presale-row{display:flex;align-items:center;gap:8px;font-size:12px}
-.presale-type{font-size:10px;font-weight:700;letter-spacing:0.5px;text-transform:uppercase;color:var(--text4);min-width:90px}
-.presale-unknown{font-size:11px;color:var(--text5);font-style:italic}
-.presale-date{font-size:10px;color:var(--text5);margin-left:auto}
-.btn-notify{background:var(--surface2);border:1px solid var(--border2);color:var(--text4);padding:6px 14px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;transition:all 0.15s}
-.btn-notify:hover{border-color:var(--yellow);color:var(--yellow)}
-.btn-notify.notified{background:rgba(251,191,36,0.1);border-color:var(--yellow);color:var(--yellow)}
-.feed-item{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;display:flex;gap:12px;align-items:flex-start}
-.feed-item .feed-icon{font-size:20px;flex-shrink:0;margin-top:2px}
-.feed-item .feed-body{flex:1}
-.feed-item .feed-artist{font-weight:700;color:var(--text);font-size:14px}
-.feed-item .feed-detail{font-size:12px;color:var(--text3);margin-top:4px}
-.feed-item .feed-meta{font-size:11px;color:var(--text5);margin-top:6px;display:flex;gap:12px;align-items:center}
-.feed-item .feed-verified{font-size:10px;color:var(--green);font-weight:600}
-.feed-item .feed-thumb{width:40px;height:40px;border-radius:6px;object-fit:cover;flex-shrink:0}
-
-/* Sold out signals */
-.so-box{padding:12px 14px;background:var(--red-dim);border:1px solid rgba(239,68,68,0.15);border-radius:var(--radius);margin-bottom:14px}
-.so-box .sol{font-size:9px;font-weight:700;letter-spacing:1.5px;color:var(--red);margin-bottom:6px}
-.so-item{font-size:12px;color:var(--text3);padding:4px 0;border-left:3px solid rgba(239,68,68,0.3);padding-left:10px;margin-bottom:4px}
-
-/* Buttons */
-.card-buttons{display:flex;gap:8px;justify-content:flex-end}
-.btn-tickets{background:var(--purple);color:#000;border:none;border-radius:var(--radius);padding:8px 20px;cursor:pointer;text-decoration:none;font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:6px;transition:all 0.2s}
-.btn-tickets:hover{opacity:0.9;text-decoration:none}
-.btn-sg{background:rgba(96,165,250,0.08);color:var(--blue);border:1px solid rgba(96,165,250,0.2);border-radius:var(--radius);padding:8px 16px;cursor:pointer;text-decoration:none;font-size:11px;font-weight:600;display:inline-flex;align-items:center;gap:4px}
-
-/* Trends */
-.trends-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
-.trend-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px}
-.trend-card .tn{font-size:13px;font-weight:600;color:#fff}
-.trend-card .ts{font-size:22px;font-weight:800;margin-top:4px}
-.trend-card .tc{font-size:12px;margin-top:2px}
-.trend-card .tx{font-size:11px;color:var(--text5);margin-top:4px}
-
-/* Alerts */
-.alert-item{display:flex;gap:10px;padding:12px 14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:6px}
-.alert-icon{font-size:18px;flex-shrink:0}
-.alert-body{flex:1;min-width:0}
-.alert-body .ab-title{font-size:13px;font-weight:600;color:#fff}
-.alert-body .ab-detail{font-size:12px;color:var(--text3);margin-top:2px}
-.alert-body .ab-time{font-size:11px;color:var(--text5);margin-top:3px}
-
-/* Countdown timer */
-.countdown{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;color:var(--red);margin-left:8px}
-.countdown.soon{color:var(--yellow)}
-.countdown .cd-pulse{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--red);animation:pulse 1.5s infinite}
-.countdown.soon .cd-pulse{background:var(--yellow)}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
-
-/* Score breakdown tooltip */
-.score-breakdown{display:none;position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:#1a1a2e;border:1px solid var(--border2);border-radius:8px;padding:10px 12px;white-space:nowrap;z-index:50;font-size:11px;box-shadow:0 8px 24px rgba(0,0,0,0.5)}
-.score-breakdown::after{content:'';position:absolute;top:100%;left:50%;transform:translateX(-50%);border:6px solid transparent;border-top-color:#1a1a2e}
-.card-thumb-wrap:hover .score-breakdown,.card-score:hover .score-breakdown{display:block}
-.sb-row{display:flex;justify-content:space-between;gap:16px;padding:2px 0}
-.sb-label{color:var(--text4)}.sb-val{font-weight:700}
-
-/* Social icons */
-.social-links{display:flex;gap:6px;margin-top:4px}
-.social-links a{display:flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:4px;font-size:11px;opacity:0.5;transition:opacity 0.15s;text-decoration:none}
-.social-links a:hover{opacity:1;text-decoration:none}
-
-/* Timestamp */
-.timestamp{font-size:10px;color:var(--text5);margin-top:2px}
-
-/* Calendar button */
-.btn-cal{background:rgba(45,212,191,0.08);color:var(--teal);border:1px solid rgba(45,212,191,0.2);border-radius:var(--radius);padding:8px 16px;cursor:pointer;text-decoration:none;font-size:11px;font-weight:600;display:inline-flex;align-items:center;gap:4px}
-.btn-cal:hover{background:rgba(45,212,191,0.15);text-decoration:none}
-
-/* ROI Calculator */
-.roi-calc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 20px;margin-bottom:14px}
-.roi-calc input{background:#0f0f11;border:1px solid var(--border);border-radius:6px;padding:6px 10px;color:var(--text);font-size:13px;width:80px;margin:0 6px}
-.roi-result{margin-top:10px;padding:10px;background:var(--green-dim);border:1px solid rgba(74,222,128,0.15);border-radius:6px;font-size:13px;color:var(--green);font-weight:600}
-
-/* Card animations */
-.card{animation:fadeSlideIn 0.3s ease-out;animation-fill-mode:both}
-.card:nth-child(1){animation-delay:0s}
-.card:nth-child(2){animation-delay:0.05s}
-.card:nth-child(3){animation-delay:0.1s}
-.card:nth-child(4){animation-delay:0.15s}
-.card:nth-child(5){animation-delay:0.2s}
-.card:nth-child(6){animation-delay:0.25s}
-.card:nth-child(7){animation-delay:0.3s}
-.card:nth-child(8){animation-delay:0.35s}
-@keyframes fadeSlideIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-.card:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,0.2)}
-.card.expanded:hover{transform:translateY(-1px)}
-.card-body{animation:expandIn 0.2s ease-out}
-@keyframes expandIn{from{opacity:0}to{opacity:1}}
-
-/* Sidebar notification badges */
-.nav-badge{margin-left:auto;min-width:18px;height:18px;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border-radius:9px;padding:0 5px}
-.nav-badge.red{background:var(--red);color:#fff}
-.nav-badge.yellow{background:rgba(251,191,36,0.2);color:var(--yellow)}
-.nav-badge.green{background:rgba(74,222,128,0.15);color:var(--green)}
-.nav-pulse{width:8px;height:8px;border-radius:50%;background:var(--red);margin-left:auto;animation:pulse 1.5s infinite}
-
-/* Dark/light toggle */
-.theme-toggle{padding:8px 12px;cursor:pointer;font-size:12px;color:var(--text4);display:flex;align-items:center;gap:8px;border-radius:6px;transition:all 0.15s}
-.theme-toggle:hover{background:var(--surface2);color:var(--text2)}
-
-/* Push notification banner */
-.push-banner{background:linear-gradient(135deg,#1e1b4b,#312e81);border:1px solid var(--purple-b);border-radius:var(--radius-lg);padding:14px 20px;margin-bottom:20px;display:flex;align-items:center;gap:14px}
-.push-banner .pb-text{flex:1}
-.push-banner .pb-title{font-size:13px;font-weight:700;color:var(--text)}
-.push-banner .pb-sub{font-size:11px;color:var(--text3);margin-top:2px}
-.push-banner .pb-btn{background:var(--purple);color:#000;border:none;border-radius:6px;padding:8px 16px;font-size:12px;font-weight:700;cursor:pointer}
-
-/* Last updated bar */
-.updated-bar{display:flex;align-items:center;gap:8px;padding:8px 16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:16px;font-size:11px;color:var(--text5)}
-.updated-bar .ub-dot{width:6px;height:6px;border-radius:50%;background:var(--green)}
-
-/* Mobile */
-.mobile-toggle{display:none}
-@media(max-width:768px){
-  .tab-bar{gap:4px}
-  .tab-btn{padding:5px 10px;font-size:11px}
-  .tab-btn .icon{display:none}
-  .main{padding:16px}
-  .stat-grid{grid-template-columns:1fr}
-  .trends-grid{grid-template-columns:1fr 1fr}
-  .push-banner{flex-direction:column;text-align:center}
-  .nav-inner{flex-wrap:wrap;gap:8px}
-  .logo h1{font-size:16px}
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
 }
 
-.footer{margin-top:40px;padding:20px 0;border-top:1px solid var(--border);text-align:center;font-size:11px;color:var(--text5)}
-.empty{text-align:center;padding:40px 20px;color:var(--text5);font-size:13px}
+/* ===== NAV ===== */
+nav {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(9,9,11,0.85); backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px; height: 52px;
+  display: flex; align-items: center; gap: 16px;
+}
+.nav-logo {
+  font-size: 17px; font-weight: 900; letter-spacing: -0.5px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--cyan) 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.nav-badge {
+  font-size: 8px; background: var(--accent-glow); color: var(--accent);
+  padding: 2px 6px; border-radius: 3px; font-weight: 700; letter-spacing: 1.2px;
+}
+.nav-tabs { display: flex; gap: 2px; margin-left: 32px; }
+.nav-tab {
+  padding: 6px 14px; border-radius: 6px; font-size: 12px; font-weight: 600;
+  color: var(--text-muted); cursor: pointer; transition: all 0.15s; border: none; background: none;
+}
+.nav-tab:hover { color: var(--text-dim); background: var(--surface2); }
+.nav-tab.active { color: var(--text); background: var(--surface2); }
+.nav-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.nav-status { font-size: 10px; color: var(--text-muted); display: flex; align-items: center; gap: 4px; }
+.nav-dot { width: 5px; height: 5px; background: var(--green); border-radius: 50%; box-shadow: 0 0 6px var(--green); }
+
+/* ===== MAIN ===== */
+main { max-width: 1200px; margin: 0 auto; padding: 20px 24px; }
+
+/* ===== SECTION HEADERS ===== */
+.section-header {
+  display: flex; align-items: center; gap: 10px; margin: 28px 0 14px 0;
+}
+.section-header h2 {
+  font-size: 15px; font-weight: 700; letter-spacing: -0.3px;
+}
+.section-header .count {
+  font-size: 11px; color: var(--text-muted); background: var(--surface2);
+  padding: 2px 8px; border-radius: 10px; font-weight: 600;
+}
+.section-header:first-child { margin-top: 8px; }
+
+/* ===== ONSALE CARDS ===== */
+.card-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 10px;
+}
+.onsale-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+  padding: 14px 16px; cursor: pointer; transition: all 0.15s; position: relative;
+  overflow: hidden;
+}
+.onsale-card:hover { border-color: var(--accent); background: var(--surface2); transform: translateY(-1px); }
+.onsale-card .signal {
+  position: absolute; top: 12px; right: 12px; font-size: 10px; font-weight: 700;
+  padding: 2px 8px; border-radius: 4px;
+}
+.signal-hot { background: var(--red-dim); color: var(--red); }
+.signal-warm { background: var(--yellow-dim); color: var(--yellow); }
+.signal-watch { background: rgba(100,100,120,0.15); color: var(--text-dim); }
+
+.onsale-card .artist-name {
+  font-size: 15px; font-weight: 700; margin-bottom: 4px; padding-right: 60px;
+}
+.onsale-card .genre-tag {
+  font-size: 10px; color: var(--text-muted); text-transform: uppercase;
+  letter-spacing: 0.5px; font-weight: 600; margin-bottom: 8px;
+}
+.onsale-card .meta-row {
+  display: flex; gap: 12px; font-size: 11px; color: var(--text-dim); margin-bottom: 3px;
+}
+.onsale-card .meta-row span { display: flex; align-items: center; gap: 3px; }
+.onsale-card .price-row {
+  display: flex; align-items: baseline; gap: 8px; margin-top: 8px;
+  padding-top: 8px; border-top: 1px solid var(--border);
+}
+.onsale-card .get-in {
+  font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 700;
+}
+.onsale-card .get-in.hot { color: var(--red); }
+.onsale-card .get-in.warm { color: var(--orange); }
+.onsale-card .get-in.mid { color: var(--yellow); }
+.onsale-card .get-in.low { color: var(--green); }
+.onsale-card .price-label { font-size: 10px; color: var(--text-muted); }
+.onsale-card .listings-badge {
+  font-size: 10px; color: var(--text-muted); margin-left: auto;
+  font-family: 'JetBrains Mono', monospace;
+}
+.onsale-card .presale-date {
+  font-size: 10px; color: var(--accent); font-weight: 600; margin-top: 6px;
+}
+.onsale-card .one-liner {
+  font-size: 11px; color: var(--text-dim); margin-top: 6px; line-height: 1.4;
+  font-style: italic;
+}
+
+/* ===== TRENDING BAR ===== */
+.trending-bar {
+  display: flex; gap: 8px; overflow-x: auto; padding: 4px 0 8px 0;
+  -webkit-overflow-scrolling: touch;
+}
+.trending-bar::-webkit-scrollbar { height: 3px; }
+.trending-bar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+.trending-chip {
+  flex-shrink: 0; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 20px; padding: 6px 14px; font-size: 11px; font-weight: 600;
+  color: var(--text-dim); cursor: pointer; transition: all 0.15s;
+  display: flex; align-items: center; gap: 5px;
+}
+.trending-chip:hover { border-color: var(--accent); color: var(--text); }
+.trending-chip .arrow { color: var(--green); font-size: 10px; }
+.trending-chip .arrow.down { color: var(--red); }
+
+/* ===== AI CHAT PANEL ===== */
+.chat-toggle {
+  position: fixed; bottom: 20px; right: 20px; z-index: 200;
+  width: 52px; height: 52px; border-radius: 14px;
+  background: linear-gradient(135deg, var(--accent-dim), #4338ca);
+  border: none; cursor: pointer; display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 20px rgba(99,102,241,0.4); transition: all 0.2s;
+  font-size: 22px;
+}
+.chat-toggle:hover { transform: scale(1.08); }
+.chat-toggle.open { display: none; }
+
+.chat-panel {
+  position: fixed; bottom: 0; right: 0; z-index: 200;
+  width: 420px; height: 70vh; max-height: 600px;
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 16px 16px 0 0; box-shadow: 0 -4px 40px rgba(0,0,0,0.5);
+  display: none; flex-direction: column;
+}
+.chat-panel.open { display: flex; }
+
+.chat-header {
+  padding: 12px 16px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 8px;
+}
+.chat-header .title {
+  font-size: 13px; font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), var(--cyan));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.chat-header .close-btn {
+  margin-left: auto; background: none; border: none;
+  color: var(--text-muted); cursor: pointer; font-size: 18px; padding: 4px;
+}
+.chat-header .close-btn:hover { color: var(--text); }
+
+.chat-messages {
+  flex: 1; overflow-y: auto; padding: 12px 16px;
+  display: flex; flex-direction: column; gap: 8px;
+}
+.chat-messages::-webkit-scrollbar { width: 3px; }
+.chat-messages::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+.chat-msg {
+  max-width: 88%; padding: 10px 14px; border-radius: 10px;
+  font-size: 12.5px; line-height: 1.6;
+}
+.chat-msg.user {
+  align-self: flex-end;
+  background: linear-gradient(135deg, var(--accent-dim), #4338ca);
+  color: #fff; border-bottom-right-radius: 3px; font-weight: 500;
+}
+.chat-msg.assistant {
+  align-self: flex-start; background: var(--surface);
+  border: 1px solid var(--border); border-bottom-left-radius: 3px;
+}
+.chat-msg.assistant strong { color: #fff; }
+.chat-msg.assistant table {
+  border-collapse: collapse; width: 100%; margin: 6px 0; font-size: 10.5px;
+  font-family: 'JetBrains Mono', monospace;
+}
+.chat-msg.assistant th {
+  background: var(--surface3); color: var(--accent); font-weight: 600;
+  font-size: 9px; text-transform: uppercase; padding: 5px 6px; text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+.chat-msg.assistant td {
+  padding: 4px 6px; border-bottom: 1px solid var(--border);
+}
+.chat-msg.assistant ul { padding-left: 14px; }
+.chat-msg.assistant li { margin: 1px 0; }
+
+.chat-tool-log {
+  font-size: 9px; color: var(--text-muted); padding: 2px 8px;
+  border-left: 2px solid var(--border); font-family: 'JetBrains Mono', monospace;
+  align-self: flex-start;
+}
+
+.chat-input-area {
+  padding: 10px 12px; border-top: 1px solid var(--border);
+  display: flex; gap: 6px;
+}
+.chat-input-area textarea {
+  flex: 1; background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 8px; color: var(--text); padding: 8px 12px; font-size: 12.5px;
+  font-family: 'Inter', sans-serif; resize: none; outline: none; min-height: 38px; max-height: 100px;
+}
+.chat-input-area textarea:focus { border-color: var(--accent); }
+.chat-input-area textarea::placeholder { color: var(--text-muted); }
+.chat-send {
+  width: 38px; height: 38px; border-radius: 8px; border: none; cursor: pointer;
+  background: linear-gradient(135deg, var(--accent-dim), #4338ca);
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  align-self: flex-end;
+}
+.chat-send svg { width: 14px; height: 14px; fill: #fff; }
+.chat-send:disabled { opacity: 0.3; }
+
+.chat-welcome {
+  text-align: center; padding: 20px; color: var(--text-muted);
+  display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; justify-content: center;
+}
+.chat-welcome .icon { font-size: 28px; }
+.chat-welcome p { font-size: 12px; max-width: 280px; line-height: 1.5; }
+.chat-quick-btns { display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; margin-top: 4px; }
+.chat-quick-btn {
+  background: var(--surface); border: 1px solid var(--border); color: var(--text-dim);
+  padding: 5px 10px; border-radius: 14px; font-size: 10.5px; cursor: pointer;
+  font-family: 'Inter', sans-serif; transition: all 0.15s;
+}
+.chat-quick-btn:hover { border-color: var(--accent); color: var(--text); }
+
+/* ===== EMPTY STATE ===== */
+.empty-state {
+  text-align: center; padding: 40px 20px; color: var(--text-muted);
+}
+.empty-state .icon { font-size: 32px; margin-bottom: 8px; }
+.empty-state p { font-size: 13px; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 640px) {
+  main { padding: 12px 14px; }
+  .card-grid { grid-template-columns: 1fr; }
+  .nav-tabs { display: none; }
+  .chat-panel { width: 100%; height: 80vh; border-radius: 16px 16px 0 0; }
+}
+@media (min-width: 641px) and (max-width: 900px) {
+  .card-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Loading dots */
+.loading-dots { display: flex; gap: 4px; padding: 10px 14px; align-self: flex-start; }
+.loading-dots .dot {
+  width: 5px; height: 5px; background: var(--accent); border-radius: 50%;
+  animation: dotBounce 1.4s infinite ease-in-out;
+}
+.loading-dots .dot:nth-child(2) { animation-delay: 0.16s; }
+.loading-dots .dot:nth-child(3) { animation-delay: 0.32s; }
+@keyframes dotBounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1); } }
 </style>
 </head>
 <body>
-<div class="app">
-<nav class="top-nav">
-  <div class="nav-inner">
-    <div class="logo"><h1>🏴‍☠️ <span>Blackbeard</span></h1></div>
-    <div class="tab-bar">
-      <button class="tab-btn active" onclick="showView('thisweek',this)"><span class="icon">🎟️</span> This Week</button>
-      <button class="tab-btn" onclick="showView('nextweek',this)"><span class="icon">📅</span> Next Week</button>
-      <button class="tab-btn" onclick="showView('emerging',this)"><span class="icon">🔮</span> Emerging Artists</button>
-      <button class="tab-btn" onclick="showView('trends',this)"><span class="icon">🔥</span> Trending</button>
-      <button class="tab-btn" onclick="showView('alerts',this)"><span class="icon">🔥</span> Alerts</button>
-      <button class="tab-btn" onclick="showView('submit',this)"><span class="icon">➕</span> Submit</button>
-      <button class="tab-btn" onclick="showView('myalerts',this)"><span class="icon">📧</span> My Alerts</button>
-      <button class="tab-btn" onclick="showView('todo',this)"><span class="icon">📋</span> To Do</button>
-    </div>
-    <div class="nav-actions">
-      <div id="live-pulse" style="display:none;width:8px;height:8px;border-radius:50%;background:var(--green);animation:pulse 2s infinite"></div>
-      <button onclick="toggleTheme()" style="background:none;border:1px solid var(--border);border-radius:6px;padding:4px 10px;cursor:pointer;color:var(--text4);font-size:12px" title="Toggle theme">🌓 <span id="theme-label">Dark</span></button>
-    </div>
+
+<nav>
+  <div class="nav-logo">BrokerBeacon</div>
+  <div class="nav-badge">BETA</div>
+  <div class="nav-tabs">
+    <button class="nav-tab active" onclick="showTab('onsales')">This Week</button>
+    <button class="nav-tab" onclick="showTab('hot')">🔥 Hot Now</button>
+    <button class="nav-tab" onclick="showTab('watchlist')">Watchlist</button>
+    <button class="nav-tab" onclick="showTab('signals')">Early Signals</button>
+  </div>
+  <div class="nav-right">
+    <span class="nav-status"><span class="nav-dot"></span> Live data</span>
   </div>
 </nav>
 
-<div class="main">
+<main>
+  <!-- TRENDING BAR -->
+  <div class="trending-bar" id="trendingBar">
+    <div class="trending-chip">📈 <span class="arrow">↑</span> Feid Brooklyn $381</div>
+    <div class="trending-chip">🔴 Don West — first US tour</div>
+    <div class="trending-chip">📈 <span class="arrow">↑</span> Naïka Miami $356</div>
+    <div class="trending-chip">🆕 Angine de Poitrine — NYC sold out</div>
+    <div class="trending-chip">📈 <span class="arrow">↑</span> Zara Larsson Orlando $470</div>
+    <div class="trending-chip">⚠️ Maisie Peters DC $328</div>
+    <div class="trending-chip">📈 <span class="arrow">↑</span> Stephen Wilson Jr — Leg 1 all sold out</div>
+  </div>
 
-<!-- Push notification banner -->
-<div class="push-banner" id="push-banner">
-  <div style="font-size:24px">🔔</div>
-  <div class="pb-text">
-    <div class="pb-title">Get presale codes the second they drop</div>
-    <div class="pb-sub">Enable push notifications for instant alerts — presale codes, sold-out warnings, and new tour announcements.</div>
-  </div>
-  <button class="pb-btn" onclick="enablePush()">Enable Notifications</button>
-</div>
-
-<!-- THIS WEEK -->
-<div id="view-thisweek" class="view">
-  <div class="updated-bar"><div class="ub-dot"></div><span>Last updated: <strong id="last-updated-time">Scanning...</strong></span><span style="margin-left:auto">12 scanners active • Next scan in <span id="next-scan-countdown">--</span></span></div>
-  <div class="section-head">
-    <h2>🎟️ Presales This Week</h2>
-    <span class="badge">Week of March 9, 2026</span>
-  </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Every presale and onsale happening this week. Codes and signup links updated as found by our 12 scanners.</p>
-  <div id="thisweek-cards"></div>
-</div>
-
-<!-- NEXT WEEK -->
-<div id="view-nextweek" class="view" style="display:none">
-  <div class="section-head">
-    <h2>📅 Presales Next Week</h2>
-    <span class="badge">Week of March 16, 2026</span>
-  </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Upcoming presales to prepare for. Register now where required — most artist presales need signup 48-72h early.</p>
-  <div id="nextweek-cards"></div>
-</div>
-
-<!-- EMERGING ARTISTS -->
-<div id="view-emerging" class="view" style="display:none">
-  <div class="section-head">
-    <h2>🔮 Emerging Artists — Breakout Predictor</h2>
-    <span class="badge" id="emerging-count">Loading...</span>
-  </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:6px">Artists verified across multiple sources — Brave Search, X/Twitter, Bandsintown, SerpAPI, Reddit. Sorted by signal strength, not made-up scores.</p>
-  <p style="color:var(--text5);font-size:12px;margin-bottom:12px">🔴 Red Hot (2+ sources confirm) &nbsp;•&nbsp; 🟡 Warm (1 source / high price) &nbsp;•&nbsp; ⚪ Watch (early signals)</p>
-  <div class="filters" id="score-filters">
-    <button class="fbtn active" onclick="filterArtists('all',this)">All</button>
-    <button class="fbtn" onclick="filterArtists('red_hot',this)">🔴 Red Hot</button>
-    <button class="fbtn" onclick="filterArtists('warm',this)">🟡 Warm</button>
-    <button class="fbtn" onclick="filterArtists('soldout',this)">🎟️ Sold-Out Signals</button>
-    <button class="fbtn" onclick="filterArtists('highprice',this)">💰 $100+</button>
-    <button class="fbtn" onclick="filterArtists('touring',this)">🗺️ On Tour</button>
-  </div>
-  <div class="filters" id="genre-filters">
-    <button class="fbtn active" onclick="filterGenre('all',this)">All Genres</button>
-    <button class="fbtn" onclick="filterGenre('DJ/Electronic',this)">🎧 DJs / Electronic</button>
-    <button class="fbtn" onclick="filterGenre('Comedy',this)">🎤 Comedy</button>
-    <button class="fbtn" onclick="filterGenre('Pop',this)">🎵 Pop</button>
-    <button class="fbtn" onclick="filterGenre('Rock',this)">🎸 Rock / Punk</button>
-    <button class="fbtn" onclick="filterGenre('Indie',this)">🌿 Indie</button>
-    <button class="fbtn" onclick="filterGenre('Country',this)">🤠 Country</button>
-    <button class="fbtn" onclick="filterGenre('R&B',this)">🎹 R&B / Soul</button>
-  </div>
-  <div id="emerging-cards"></div>
-</div>
-
-<!-- TRENDING THIS WEEK -->
-<div id="view-trends" class="view" style="display:none">
-  <div class="section-head">
-    <h2>🔥 Trending This Week</h2>
-    <span class="badge" id="trend-week">Loading...</span>
-  </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:6px">What artists and events are trending RIGHT NOW across Google Trends, Twitter, and web search. Refreshed weekly.</p>
-  <p style="color:var(--text5);font-size:11px;margin-bottom:12px">Score 0-100: Google Trends rank (40) + multi-source confirmation (30) + in our database (20) + ticket context (10)</p>
-  <div style="display:flex;gap:6px;margin-bottom:16px">
-    <button class="tab-btn active" onclick="filterTrends('all',this)" style="padding:4px 12px;font-size:11px">All</button>
-    <button class="tab-btn" onclick="filterTrends('music',this)" style="padding:4px 12px;font-size:11px">🎵 Music</button>
-    <button class="tab-btn" onclick="filterTrends('comedy',this)" style="padding:4px 12px;font-size:11px">🎤 Comedy</button>
-    <button class="tab-btn" onclick="filterTrends('festival',this)" style="padding:4px 12px;font-size:11px">🎪 Festivals</button>
-  </div>
-  <div id="trends-list" class="trends-grid"></div>
-</div>
-
-<!-- NEWSFEED (Sold-Out + New Shows) -->
-<div id="view-alerts" class="view" style="display:none">
-  <div class="section-head">
-    <h2>📰 Newsfeed</h2>
-    <span class="badge" id="feed-count">Loading...</span>
-  </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:12px">Verified sold-out announcements and new show additions. Each event confirmed by 2+ sources.</p>
-  
-  <div style="display:flex;gap:6px;margin-bottom:16px">
-    <button class="tab-btn active" onclick="filterFeed('all',this)" style="padding:4px 12px;font-size:11px">All</button>
-    <button class="tab-btn" onclick="filterFeed('sold_out',this)" style="padding:4px 12px;font-size:11px">🔴 Sold Out</button>
-    <button class="tab-btn" onclick="filterFeed('new_show',this)" style="padding:4px 12px;font-size:11px">🆕 New Shows</button>
-    <button class="tab-btn" onclick="filterFeed('new_tour',this)" style="padding:4px 12px;font-size:11px">🎉 New Tours</button>
-  </div>
-  
-  <div id="feed-list" style="display:flex;flex-direction:column;gap:8px"></div>
-</div>
-
-<!-- SUBMIT ARTIST -->
-<div id="view-submit" class="view" style="display:none">
-  <div class="section-head">
-    <h2>➕ Submit an Artist or Tour</h2>
-    <span class="badge">Add to tracking</span>
-  </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Submit artists or tours you want Blackbeard to track. Our scanners will start monitoring within 24 hours — checking Bandsintown, SeatGeek, Twitter, and Brave Search for tour dates, presale codes, and sold-out signals.</p>
-  
-  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:20px">
-    <div style="font-size:10px;font-weight:700;color:var(--text4);letter-spacing:1px;margin-bottom:12px">ARTIST / TOUR NAME</div>
-    <input type="text" id="submit-name" placeholder="e.g. Chappell Roan, Tyler Childers, Nate Bargatze..." style="width:100%;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:14px;margin-bottom:12px">
-    
-    <div style="font-size:10px;font-weight:700;color:var(--text4);letter-spacing:1px;margin-bottom:12px">GENRE (optional)</div>
-    <select id="submit-genre" style="width:100%;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:13px;margin-bottom:12px">
-      <option value="">Select genre...</option>
-      <option value="Pop">Pop</option>
-      <option value="Indie">Indie / Alt</option>
-      <option value="Electronic">Electronic / DJ</option>
-      <option value="Comedy">Comedy</option>
-      <option value="Country">Country / Americana</option>
-      <option value="Hip-Hop">Hip-Hop / R&B</option>
-      <option value="Rock">Rock / Punk / Metal</option>
-      <option value="Jam">Jam / Live</option>
-      <option value="Latin">Latin / Regional Mexican</option>
-      <option value="Other">Other</option>
-    </select>
-    
-    <div style="font-size:10px;font-weight:700;color:var(--text4);letter-spacing:1px;margin-bottom:12px">NOTES (optional)</div>
-    <textarea id="submit-notes" placeholder="Any context: tour URL, venue you spotted, why you think it's hot..." style="width:100%;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:13px;height:80px;resize:vertical;margin-bottom:16px"></textarea>
-    
-    <button onclick="submitArtist()" style="background:var(--yellow);color:#000;border:none;padding:10px 24px;border-radius:6px;font-weight:700;font-size:13px;cursor:pointer;width:100%">🏴‍☠️ Submit for Tracking</button>
-    <div id="submit-result" style="margin-top:12px;font-size:13px;display:none"></div>
-  </div>
-  
-  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 20px;margin-bottom:20px">
-    <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:8px">📋 Your Submissions</div>
-    <div id="submission-history" style="font-size:12px;color:var(--text4)">No submissions yet.</div>
-  </div>
-  
-  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px 20px">
-    <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:8px">⚡ Bulk Submit</div>
-    <p style="font-size:12px;color:var(--text4);margin-bottom:10px">Paste a list of artists (one per line) to submit multiple at once.</p>
-    <textarea id="bulk-submit" placeholder="Artist 1&#10;Artist 2&#10;Artist 3" style="width:100%;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:13px;height:100px;resize:vertical;margin-bottom:10px"></textarea>
-    <button onclick="bulkSubmit()" style="background:var(--surface2);color:var(--text2);border:1px solid var(--border2);padding:8px 20px;border-radius:6px;font-weight:600;font-size:12px;cursor:pointer">Submit All</button>
-    <div id="bulk-result" style="margin-top:8px;font-size:12px;display:none"></div>
-  </div>
-</div>
-
-<!-- MY ALERTS / EMAIL SIGNUP -->
-<div id="view-myalerts" class="view" style="display:none">
-  <div class="section-head">
-    <h2>📧 My Alerts</h2>
-    <span class="badge">Personalized notifications</span>
-  </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Get personalized email alerts when your tracked artists add shows, sell out, or drop presale codes. Choose what matters to you.</p>
-  
-  <!-- Email Signup -->
-  <div style="background:linear-gradient(135deg,rgba(251,191,36,0.06),rgba(167,139,250,0.06));border:1px solid rgba(251,191,36,0.15);border-radius:var(--radius-lg);padding:24px;margin-bottom:20px">
-    <div style="font-size:16px;font-weight:700;color:var(--text);margin-bottom:6px">🔔 Set Up Email Alerts</div>
-    <p style="font-size:13px;color:var(--text3);margin-bottom:16px">Enter your email to receive instant alerts. We'll only email you about artists you're tracking.</p>
-    
-    <div style="display:flex;gap:10px;margin-bottom:12px">
-      <input type="email" id="alert-email" placeholder="your@email.com" style="flex:1;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:14px">
-      <button onclick="saveEmail()" style="background:var(--yellow);color:#000;border:none;padding:10px 20px;border-radius:6px;font-weight:700;font-size:13px;cursor:pointer;white-space:nowrap">Save</button>
+  <!-- THIS WEEK'S ONSALES -->
+  <div id="tab-onsales">
+    <div class="section-header">
+      <h2>📅 This Week's Presales & Onsales</h2>
+      <span class="count" id="onsaleCount">0</span>
     </div>
-    <div id="email-status" style="font-size:12px;color:var(--green);display:none"></div>
-    
-    <div style="border-top:1px solid rgba(255,255,255,0.06);margin-top:16px;padding-top:16px">
-      <div style="font-size:13px;color:var(--text2);margin-bottom:8px">📱 <strong>SMS Alerts</strong> <span style="font-size:11px;color:var(--text5)">(get texts for urgent alerts)</span></div>
-      <div style="display:flex;gap:10px">
-        <input type="tel" id="alert-phone" placeholder="+1 (555) 123-4567" style="flex:1;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:14px">
-        <button onclick="savePhone()" style="background:var(--surface2);color:var(--text2);border:1px solid var(--border2);padding:10px 20px;border-radius:6px;font-weight:700;font-size:13px;cursor:pointer;white-space:nowrap">Save</button>
+    <div class="card-grid" id="onsaleGrid"></div>
+  </div>
+
+  <!-- HOT NOW -->
+  <div id="tab-hot" style="display:none">
+    <div class="section-header">
+      <h2>🔥 Hot Right Now</h2>
+      <span class="count">Biggest movers this week</span>
+    </div>
+    <div class="card-grid" id="hotGrid"></div>
+  </div>
+
+  <!-- WATCHLIST -->
+  <div id="tab-watchlist" style="display:none">
+    <div class="section-header">
+      <h2>👁️ VIP Watchlist</h2>
+      <span class="count">Confirmed sellers</span>
+    </div>
+    <div class="card-grid" id="watchlistGrid"></div>
+  </div>
+
+  <!-- EARLY SIGNALS -->
+  <div id="tab-signals" style="display:none">
+    <div class="section-header">
+      <h2>🔮 Early Signals</h2>
+      <span class="count">Pre-onsale opportunities</span>
+    </div>
+    <div class="card-grid" id="signalGrid"></div>
+  </div>
+</main>
+
+<!-- FLOATING CHAT BUTTON -->
+<button class="chat-toggle" id="chatToggle" onclick="toggleChat()">💬</button>
+
+<!-- CHAT PANEL -->
+<div class="chat-panel" id="chatPanel">
+  <div class="chat-header">
+    <span class="title">🎯 BrokerBeacon AI</span>
+    <button class="close-btn" onclick="toggleChat()">✕</button>
+  </div>
+  <div class="chat-messages" id="chatMessages">
+    <div class="chat-welcome" id="chatWelcome">
+      <div class="icon">🎯</div>
+      <p><strong>Ask anything about tickets.</strong> Scan an artist, compare tours, find presale codes.</p>
+      <div class="chat-quick-btns">
+        <button class="chat-quick-btn" onclick="chatQuery(this.textContent)">Who has presales this week?</button>
+        <button class="chat-quick-btn" onclick="chatQuery(this.textContent)">Best buys right now</button>
+        <button class="chat-quick-btn" onclick="chatQuery(this.textContent)">UK breakout artists</button>
       </div>
-      <div id="phone-status" style="font-size:12px;color:var(--green);display:none;margin-top:8px"></div>
-      <div style="font-size:11px;color:var(--text5);margin-top:6px">SMS alerts for: sold-out warnings, presale codes dropping, $100+ price spikes. Max 5 texts/day.</div>
     </div>
   </div>
-  
-  <!-- Alert Preferences -->
-  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:20px">
-    <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:14px">📋 Alert Preferences</div>
-    <div style="display:flex;flex-direction:column;gap:10px">
-      <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2);cursor:pointer">
-        <input type="checkbox" id="pref-newshows" checked onchange="savePrefs()" style="accent-color:var(--yellow)">
-        🆕 New shows added by tracked artists
-      </label>
-      <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2);cursor:pointer">
-        <input type="checkbox" id="pref-soldout" checked onchange="savePrefs()" style="accent-color:var(--yellow)">
-        🔥 Sold-out alerts (confirmed via Bandsintown)
-      </label>
-      <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2);cursor:pointer">
-        <input type="checkbox" id="pref-presale" checked onchange="savePrefs()" style="accent-color:var(--yellow)">
-        🔑 Presale codes detected
-      </label>
-      <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2);cursor:pointer">
-        <input type="checkbox" id="pref-price" checked onchange="savePrefs()" style="accent-color:var(--yellow)">
-        💰 Price alerts ($100+ resale detected)
-      </label>
-      <label style="display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text2);cursor:pointer">
-        <input type="checkbox" id="pref-digest" onchange="savePrefs()" style="accent-color:var(--yellow)">
-        📊 Daily digest (summary of all changes, sent 8 AM ET)
-      </label>
-    </div>
+  <div class="chat-input-area">
+    <textarea id="chatInput" placeholder="Ask about any artist or tour..."
+      onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendChat()}"
+      oninput="this.style.height='auto';this.style.height=Math.min(this.scrollHeight,100)+'px'"></textarea>
+    <button class="chat-send" id="chatSendBtn" onclick="sendChat()">
+      <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+    </button>
   </div>
-  
-  <!-- My Tracked Artists -->
-  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:20px">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
-      <div style="font-size:12px;font-weight:700;color:var(--text)">🎯 My Tracked Artists</div>
-      <button onclick="trackAll()" style="background:var(--surface2);color:var(--text3);border:1px solid var(--border2);padding:4px 12px;border-radius:4px;font-size:11px;cursor:pointer">Track All 303</button>
-    </div>
-    <div style="font-size:12px;color:var(--text4);margin-bottom:10px">Select which artists you want alerts for. Or click "Track All" to monitor everything.</div>
-    <input type="text" id="track-search" placeholder="Search artists to track..." oninput="filterTrackList()" style="width:100%;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:8px 12px;border-radius:6px;font-size:13px;margin-bottom:10px">
-    <div id="track-list" style="max-height:300px;overflow-y:auto;display:flex;flex-direction:column;gap:4px"></div>
-    <div style="margin-top:10px;font-size:11px;color:var(--text5)" id="track-count">0 artists tracked</div>
-  </div>
-  
-  <!-- Alert History -->
-  <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px">
-    <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:10px">📬 Recent Alerts Sent</div>
-    <div id="alert-history" style="font-size:12px;color:var(--text4)">
-      <div style="padding:8px 0;border-bottom:1px solid var(--border)">🆕 <strong>LEVEL UP</strong> added 1 new show — <span style="color:var(--text5)">Sun Mar 8, 7:00 AM</span></div>
-      <div style="padding:8px 0;border-bottom:1px solid var(--border)">🆕 <strong>Ella Langley</strong> added 1 new show — <span style="color:var(--text5)">Sun Mar 8, 7:00 AM</span></div>
-      <div style="padding:8px 0;border-bottom:1px solid var(--border)">🆕 <strong>Ernest</strong> added 2 new shows — <span style="color:var(--text5)">Sun Mar 8, 7:00 AM</span></div>
-      <div style="padding:8px 0;border-bottom:1px solid var(--border)">🔥 <strong>Sara Landry</strong> SOLD OUT at SILO Dallas — <span style="color:var(--text5)">Sat Mar 7, 4:00 AM</span></div>
-      <div style="padding:8px 0">🔑 <strong>Josh Johnson</strong> presale code THISONETIME — <span style="color:var(--text5)">Thu Mar 6, 11:00 PM</span></div>
-    </div>
-  </div>
-</div>
-
-<!-- TO DO -->
-<div id="view-todo" class="view" style="display:none">
-  <div class="section-head">
-    <h2>📋 To Do</h2>
-    <span class="badge">Internal</span>
-  </div>
-  <p style="color:var(--text4);font-size:13px;margin-bottom:20px">Tasks to complete for Blackbeard. Check off when done.</p>
-  
-  <div id="todo-list" style="display:flex;flex-direction:column;gap:8px"></div>
-  
-  <div style="margin-top:20px;display:flex;gap:8px">
-    <input type="text" id="todo-input" placeholder="Add a task..." style="flex:1;background:var(--bg);border:1px solid var(--border2);color:var(--text);padding:10px 14px;border-radius:6px;font-size:13px" onkeydown="if(event.key==='Enter')addTodo()">
-    <button onclick="addTodo()" style="background:var(--yellow);color:#000;border:none;padding:10px 16px;border-radius:6px;font-weight:700;font-size:13px;cursor:pointer">Add</button>
-  </div>
-</div>
-
-</div><!-- main -->
-</div><!-- app -->
-
-<div class="footer">
-  🏴‍☠️ Blackbeard v6.2 — Presale Intelligence for Ticket Brokers<br>
-  Multi-Source Verification • Bandsintown • Twitter/X • Brave Search • SeatGeek • SerpAPI • Reddit • Google Trends<br>
-  <em>Data reflects observed signals and may not be complete. Verify all presale times and codes before purchasing.</em>
 </div>
 
 <script>
-/* ── Presale Data (inline, updated by scanners) ── */
-const PRESALE_DATA = {
-  thisWeek: [
-    {
-      name: "fakemink", score: 84, tier: "A", imageUrl: "",
-      genre: "Indie / Electronic", venueSize: "Theater (1000-3000 cap)",
-      saleStatus: "🔴 PRESALE WED MAR 25 — GENERAL ONSALE THU MAR 26 10AM",
-      saleDetails: "Artist presale Wed Mar 25. General onsale Thu Mar 26 10am local. Coachella + Lollapalooza + 15 US headline dates. Vivid performer ID 445427.",
-      streams: "8.4M monthly Spotify listeners. Coachella + Lolla bookings confirm momentum. 15 US headline dates across theaters.",
-      lastTour: "Festival circuit 2025",
-      scarcity: "Theater routing (1000-3000 cap) = tight supply. Festival bookings (Coachella, Lolla) drive awareness to headline dates. Spec pricing was $184 last week — real market settling at $57-89 after primary drop.",
-      reasoning: "Festival-to-headline pipeline in action. Coachella + Lolla = massive exposure → headline shows in 1000-3000 cap theaters = scarcity. 8.4M Spotify is legit. Post-onsale get-in prices $57-89 are the real market — spec pricing at $184 was inflated.",
-      action: "🔴 HIT PRESALE WED MAR 25. Get-in prices settling $57-89. Target NYC Terminal 5 and DC 9:30 Club.",
-      ticketLink: "https://www.vividseats.com/performer/fakemink-tickets/445427",
-      artistLink: "",
-      presales: [
-        {type:"Artist Presale", code:"Check Ticketmaster", date:"Wed Mar 25"},
-        {type:"General Onsale", code:"N/A", date:"Thu Mar 26 10am local"},
-      ],
-      targetCities: [
-        {emoji:"🌵",city:"Phoenix, AZ",venue:"Van Buren (1800 cap)",why:"Get-in ~$57-89. Desert market."},
-        {emoji:"🤠",city:"Austin, TX",venue:"Emo's (1700 cap)",why:"Get-in ~$57-89. Austin indie crowd."},
-        {emoji:"🗽",city:"New York, NY",venue:"Terminal 5 (3000 cap)",why:"Biggest headline room. High demand market."},
-        {emoji:"🏛️",city:"Washington, DC",venue:"9:30 Club (1200 cap)",why:"Iconic room. Tight cap = scarcity."},
-        {emoji:"🔔",city:"Philadelphia, PA",venue:"Union Transfer (1000 cap)",why:"Smallest cap on the run. Will move fast."},
-      ]
-    },
-    {
-      name: "Angine de Poitrine — HIDDEN GEM 💎", score: 78, tier: "B+", imageUrl: "",
-      genre: "Mathrock", venueSize: "Club/Theater (250-1200 cap)",
-      saleStatus: "🔴 NYC SOLD OUT — SECONDARY MARKET $136-$495",
-      saleDetails: "Onsale happened Mar 20. NYC Le Poisson Rouge (250 cap) SOLD OUT. Secondary active across 12 shows: Teragram Ballroom LA $136-153, Independent SF $207, DC Atlantis $232, Toronto Mod Club $188-495.",
-      streams: "French Canadian mathrock duo. Viral breakout. Small venue routing = extreme scarcity at every stop.",
-      lastTour: "First major US run",
-      scarcity: "HIDDEN GEM ALERT. 250 cap NYC show already gone. Club/theater routing means every date is scarce. Viral momentum + tiny venues = secondary premium across the board.",
-      reasoning: "This is the kind of breakout that brokers miss. French Canadian mathrock duo going viral, routed through 250-1200 cap rooms. NYC sold out instantly at Le Poisson Rouge (250 cap). Secondary already $136-495 across 12 dates. When the rooms are this small, even modest demand creates massive scarcity.",
-      action: "💎 HIDDEN GEM — NYC gone. Buy remaining markets NOW. Toronto Mod Club has highest ceiling ($188-495).",
-      ticketLink: "",
-      artistLink: "",
-      presales: [
-        {type:"General Onsale", code:"N/A", date:"Already happened Mar 20"},
-      ],
-      targetCities: [
-        {emoji:"🎬",city:"Los Angeles, CA",venue:"Teragram Ballroom",why:"Secondary $136-153. Largest remaining room."},
-        {emoji:"🌉",city:"San Francisco, CA",venue:"The Independent",why:"Secondary $207. Small room."},
-        {emoji:"🏛️",city:"Washington, DC",venue:"Atlantis",why:"Secondary $232. East coast demand."},
-        {emoji:"🍁",city:"Toronto, ON",venue:"Mod Club",why:"Secondary $188-495. Highest ceiling. Home country advantage."},
-      ]
-    },
-    {
-      name: "Placebo — RE:CREATED Tour", score: 75, tier: "B+", imageUrl: "",
-      genre: "Alternative Rock", venueSize: "Theater/Arena (2-10K cap)",
-      saleStatus: "🔴 ARTIST PRESALE TUE MAR 24 — GENERAL ONSALE FRI MAR 27",
-      saleDetails: "Artist presale Tue Mar 24. General onsale Fri Mar 27 10am local. UK alt-rock legends. RE:CREATED album promo tour.",
-      streams: "UK alt-rock institution. 'Every You Every Me,' 'Pure Morning,' 'Running Up That Hill' cover. RE:CREATED album driving new cycle.",
-      lastTour: "2024 EU/UK",
-      scarcity: "Cult following with deep loyalty. Theater routing in US = tight supply. UK acts often underrouted in US.",
-      reasoning: "Placebo has a devoted cult following that will pay premium. RE:CREATED album promo means fresh material + catalog favorites. Theater routing in US = limited supply. UK alt-rock demo is 30-50, high income.",
-      action: "🔴 ARTIST PRESALE TUE MAR 24. Target major metros where UK alt-rock demos are strong.",
-      ticketLink: "https://www.ticketmaster.com/placebo-tickets/artist/768498",
-      artistLink: "https://www.placeboworld.co.uk",
-      presales: [
-        {type:"Artist Presale", code:"Check Ticketmaster", date:"Tue Mar 24"},
-        {type:"General Onsale", code:"N/A", date:"Fri Mar 27 10am local"},
-      ]
-    },
-    {
-      name: "Disney Worlds Collide Concert Tour", score: 76, tier: "A", imageUrl: "",
-      genre: "Pop / Family / Disney", venueSize: "Arena (10-20K cap)",
-      saleStatus: "🔴 GENERAL ONSALE FRI MAR 27 10AM",
-      saleDetails: "General onsale Fri Mar 27 10am local. 48 arena dates. Descendants, Zombies, Camp Rock properties. Arena scale but family/kid show = family premium pricing.",
-      streams: "Disney franchise power. Descendants franchise has billions of streams across soundtracks. Multi-generational family audience.",
-      lastTour: "N/A — new concert tour format",
-      scarcity: "48 arenas is wide routing BUT kid shows = family premium. Parents buy 3-4 tickets per transaction at full price. Disney brand commands trust premium on secondary.",
-      reasoning: "Disney concerts are a different animal. Parents don't haggle — they buy 3-4 tickets at whatever price to make their kids happy. Arena scale means decent supply, but Disney brand + family premium = strong margins. 48 dates is a lot of inventory to work.",
-      action: "🔴 ONSALE FRI MAR 27 10AM. Target major family markets. Buy in groups of 4 (family buying pattern).",
-      ticketLink: "https://www.ticketmaster.com/disney-worlds-collide-tickets",
-      artistLink: "",
-      presales: [
-        {type:"General Onsale", code:"N/A", date:"Fri Mar 27 10am local"},
-      ]
-    },
-    {
-      name: "Jesse Welles — Under The Powerlines Tour", score: 77, tier: "B+", imageUrl: "",
-      genre: "Americana / Country / Folk", venueSize: "Theater (1000-2500 cap)",
-      saleStatus: "🔴 PRESALE WED MAR 25 — GENERAL ONSALE FRI MAR 27",
-      saleDetails: "Presale Wed Mar 25. General onsale Fri Mar 27 10am local. Farm Aid 40 with Willie Nelson. Under The Powerlines headline tour. Headline prices $6-90 (early tour). Mountain festival dates $237-472.",
-      streams: "Rising Americana act. Farm Aid 40 with Willie Nelson = massive co-sign. Mountain festival bookings show upward trajectory.",
-      lastTour: "2025 (club dates)",
-      scarcity: "Theater routing (1000-2500 cap). Farm Aid 40 with Willie Nelson = awareness spike. Headline prices still low ($6-90) but mountain festival dates already $237-472 = arbitrage opportunity.",
-      reasoning: "The gap between headline prices ($6-90) and festival dates ($237-472) tells the whole story. Farm Aid 40 with Willie Nelson is a massive co-sign that will drive awareness to headline dates. Buy headline shows cheap now, sell after Farm Aid exposure.",
-      action: "🔴 PRESALE WED MAR 25. Headline dates are CHEAP ($6-90). Buy now before Farm Aid exposure spikes demand.",
-      ticketLink: "",
-      artistLink: "",
-      presales: [
-        {type:"Presale", code:"Check Ticketmaster", date:"Wed Mar 25"},
-        {type:"General Onsale", code:"N/A", date:"Fri Mar 27 10am local"},
-      ],
-      targetCities: [
-        {emoji:"🌵",city:"Phoenix, AZ",venue:"Van Buren",why:"Headline date. Get-in $6-90. Cheap."},
-        {emoji:"🤠",city:"Austin, TX",venue:"Stubb's",why:"Headline date. Austin Americana crowd."},
-        {emoji:"🏔️",city:"Vancouver, BC",venue:"Commodore Ballroom",why:"Headline date. Canadian market."},
-      ]
-    },
-  ],
-  nextWeek: []
-};
-
-/* ── Tier Colors (matching Optimus) ── */
-const TIERS = {
-  'S+': {bg:'#ef4444',glow:'rgba(239,68,68,0.1)'},
-  'S':  {bg:'#ef4444',glow:'rgba(239,68,68,0.1)'},
-  'A':  {bg:'#fbbf24',glow:'rgba(251,191,36,0.1)'},
-  'B+': {bg:'#a78bfa',glow:'rgba(167,139,250,0.1)'},
-  'B':  {bg:'#60a5fa',glow:'rgba(96,165,250,0.1)'},
-  'C':  {bg:'#71717a',glow:'rgba(113,113,122,0.1)'},
-};
-
-function getTier(t) { return TIERS[t] || TIERS.C; }
-
-/* ── Build Optimus-style card HTML ── */
-function buildCard(a, id) {
-  const tc = getTier(a.tier);
-  const isLive = a.saleStatus && (a.saleStatus.includes('🔴') || a.saleStatus.includes('LIVE') || a.saleStatus.includes('TODAY'));
-  const isSoon = a.saleStatus && a.saleStatus.includes('🟡');
-
-  let html = `<div class="card" id="${id}" onclick="toggleCard('${id}')">`;
-  html += `<div class="card-accent" style="background:linear-gradient(90deg,${tc.bg},${tc.bg}88)"></div>`;
-  html += `<div class="card-header">`;
-
-  // Thumbnail + Tier Badge
-  const isEmerging = a._isEmerging;
-  const tierEmoji = isEmerging ? (a.score || '') : a.score; // emerging cards use emoji tier, presale cards use numeric
-  if (a.imageUrl) {
-    if (isEmerging) {
-      html += `<div class="card-thumb-wrap"><img class="card-thumb" src="${a.imageUrl}" alt="" loading="lazy"><div class="card-score"><div class="num" style="font-size:16px;color:${tc.bg};border-color:${tc.bg}">${tierEmoji}</div></div></div>`;
-    } else {
-      html += `<div class="card-thumb-wrap"><img class="card-thumb" src="${a.imageUrl}" alt="" loading="lazy"><div class="card-score"><div class="num" style="color:${tc.bg};border-color:${tc.bg}">${a.score}</div></div></div>`;
-    }
-  } else {
-    if (isEmerging) {
-      html += `<div class="card-score" style="position:relative"><div class="num" style="font-size:18px;color:${tc.bg}">${tierEmoji}</div><div class="tier" style="color:${tc.bg};background:${tc.glow}">${a.tier}</div></div>`;
-    } else {
-      html += `<div class="card-score" style="position:relative"><div class="num" style="color:${tc.bg}">${a.score}</div><div class="tier" style="color:${tc.bg};background:${tc.glow}">${a.tier}</div></div>`;
-    }
+// ============================================================
+// DATA — This will eventually be auto-populated by cron scans
+// For now it's curated demo data showing the format
+// ============================================================
+const ONSALE_DATA = [
+  {
+    artist: "Ca7riel & Paco Amoroso",
+    genre: "LATAM / Alt-Rap",
+    signal: "warm",
+    presaleDate: "Mar 25",
+    onsaleDate: "Mar 28",
+    presaleCode: "Citi: 412800",
+    venues: "Theater routing (1-3K cap)",
+    getIn: null,
+    listings: null,
+    oneLiner: "Argentine alt-rap duo. Theater LATAM play. General sale Friday — watch post-onsale pricing.",
+    spotifyListeners: "12.4M"
+  },
+  {
+    artist: "Naomi Scott",
+    genre: "Pop",
+    signal: "warm",
+    presaleDate: "Mar 25",
+    onsaleDate: "Mar 28",
+    presaleCode: "Citi: 412800",
+    venues: "300-600 cap (tiny)",
+    getIn: null,
+    listings: null,
+    oneLiner: "Aladdin actress debut album. 3.9M Spotify. 9,750x listener-to-venue ratio. Speculative.",
+    spotifyListeners: "3.9M"
+  },
+  {
+    artist: "Sunset Rollercoaster",
+    genre: "Indie / Dream Pop",
+    signal: "watch",
+    presaleDate: "Mar 24",
+    onsaleDate: "Mar 28",
+    presaleCode: "Citi: 412800",
+    venues: "1-2K cap theaters",
+    getIn: "$65-95",
+    listings: "Thin (<10)",
+    oneLiner: "Taiwanese dream pop. Niche but loyal following. Monitor for post-onsale movement.",
+    spotifyListeners: "2.1M"
+  },
+  {
+    artist: "Watchhouse",
+    genre: "Americana / Folk",
+    signal: "warm",
+    presaleDate: "Mar 25",
+    onsaleDate: "Mar 28",
+    presaleCode: "Citi: 412800",
+    venues: "1.5-3K cap",
+    getIn: "$193-300",
+    listings: "12-25",
+    oneLiner: "Strong Americana following. DC $300 = premium market confirmed. NE/Mid-Atlantic focus.",
+    spotifyListeners: "1.2M"
   }
+];
 
-  // Info
-  html += `<div class="card-info"><div class="card-name">${a.name}</div><div class="card-tags">`;
-  if (a.genre) html += `<span class="tag tag-genre">${a.genre}</span>`;
-  if (a.venueSize) html += `<span class="tag tag-venue">${a.venueSize}</span>`;
-  if (a.codes && a.codes.length) html += `<span class="tag tag-new">🔑 CODE AVAILABLE</span>`;
-  if (a.confirmedSoldOut) html += `<span class="tag tag-hot">🔥 CONFIRMED HOT</span>`;
-  else if (a.hasHotShows) html += `<span class="tag tag-hot">💰 HIGH DEMAND</span>`;
-  else if (a.soldOutMentions >= 3) html += `<span class="tag tag-hot">🔥 SELLING OUT</span>`;
-  html += `</div>`;
-  if (a.saleStatus) html += `<div class="sale-status ${isLive?'sale-live':isSoon?'sale-soon':'sale-info'}">${a.saleStatus}</div>`;
-  html += `</div>`;
-
-  // Arrow
-  html += `<div class="card-arrow">▾</div>`;
-  html += `</div>`; // end header
-
-  // Body
-  html += `<div class="card-body">`;
-
-  // Sale info
-  if (a.saleDetails) {
-    html += `<div class="sale-box"><div class="label" style="color:${isLive?'var(--red)':'var(--yellow)'}">SALE INFO</div>${a.saleDetails}</div>`;
+const HOT_DATA = [
+  {
+    artist: "Feid",
+    genre: "Reggaeton",
+    signal: "hot",
+    getIn: "$381",
+    venue: "Brooklyn Paramount",
+    cap: "3,000",
+    trend: "↑ $25/day",
+    oneLiner: "Theater LATAM = money. Brooklyn climbing daily. 36.6M Spotify in 1-2K Fillmores.",
+    spotifyListeners: "36.6M"
+  },
+  {
+    artist: "Naïka",
+    genre: "R&B",
+    signal: "hot",
+    getIn: "$356",
+    venue: "Miami Beach Bandshell",
+    cap: "600",
+    trend: "5 venue upgrades",
+    oneLiner: "Haitian diaspora demand. Miami $356, only 6 tix left. DC $181, 6 tix. Nearly gone everywhere.",
+    spotifyListeners: "850K"
+  },
+  {
+    artist: "Zara Larsson",
+    genre: "Pop",
+    signal: "hot",
+    getIn: "$470",
+    venue: "House of Blues Orlando",
+    cap: "1,000",
+    trend: "Nashville 11 tix left",
+    oneLiner: "Orlando $470 = tour high. Nashville about to sell out (11 tix). Brooklyn $410. NE corridor premium.",
+    spotifyListeners: "24M"
+  },
+  {
+    artist: "Don West",
+    genre: "UK R&B",
+    signal: "hot",
+    getIn: "$178",
+    venue: "The Sinclair, Boston",
+    cap: "525",
+    trend: "🇬🇧 First US tour",
+    oneLiner: "3.2M Spotify. Sold out Australia. Only 2 US dates. 6,095x listener-to-venue ratio. UK breakout pattern.",
+    spotifyListeners: "3.2M"
+  },
+  {
+    artist: "Angine de Poitrine",
+    genre: "Math Rock",
+    signal: "hot",
+    getIn: "$207",
+    venue: "The Independent, SF",
+    cap: "500",
+    trend: "NYC SOLD OUT x2",
+    oneLiner: "643K Spotify, 28+ headline sellouts. First US tour, 350-600 cap. Hidden gem template.",
+    spotifyListeners: "643K"
+  },
+  {
+    artist: "Stephen Wilson Jr",
+    genre: "Country Rock",
+    signal: "hot",
+    getIn: "$111",
+    venue: "Salt Shed, Chicago",
+    cap: "3,600",
+    trend: "Leg 1 ALL sold out",
+    oneLiner: "Every single Leg 1 date sold out. Opening for Brandi Carlile + Dave Matthews. Leg 2 = auto-buy.",
+    spotifyListeners: "2.8M"
   }
+];
 
-  // Presale codes section
-  if ((a.codes && a.codes.length) || (a.presales && a.presales.length)) {
-    html += '<div class="presale-section"><div class="label" style="color:var(--yellow)">🔑 PRESALE CODES</div>';
-    html += '<div class="presale-grid">';
-    const allCodes = [...(a.codes||[]), ...(a.presales||[])].filter(c => !(c.type||'').toLowerCase().includes('general onsale'));
-    for (const c of allCodes) {
-      const typeLabel = c.type || c.note || 'General';
-      const hasCode = c.code && c.code !== 'UNKNOWN' && c.code !== 'TBD';
-      if (hasCode) {
-        html += `<div class="presale-row"><span class="presale-type">${typeLabel}</span><span class="code-box" onclick="event.stopPropagation();navigator.clipboard.writeText('${c.code}');this.innerHTML='✅ Copied!';setTimeout(()=>this.innerHTML='${c.code}',2000)">${c.code}</span>`;
-        if (c.date) html += `<span class="presale-date">${c.date}</span>`;
-        html += '</div>';
-      } else {
-        html += `<div class="presale-row"><span class="presale-type">${typeLabel}</span><span class="presale-unknown">Code not yet available</span>`;
-        if (c.date) html += `<span class="presale-date">${c.date}</span>`;
-        html += '</div>';
-      }
-    }
-    html += '</div></div>';
+const WATCHLIST_DATA = [
+  { artist: "Zara Larsson", tier: "S", genre: "Pop", topPrice: "$470", pattern: "NE/Canada 2-3x Southwest" },
+  { artist: "Josiah Queen", tier: "S", genre: "Christian/Folk", topPrice: "$372", pattern: "PNW strongest. Spokane $372." },
+  { artist: "Stephen Wilson Jr", tier: "S", genre: "Country Rock", topPrice: "SOLD OUT", pattern: "All Leg 1 sold out" },
+  { artist: "Naïka", tier: "S", genre: "R&B", topPrice: "$356", pattern: "Haitian diaspora 3-5x premium" },
+  { artist: "Feid", tier: "A", genre: "Reggaeton", topPrice: "$381", pattern: "Theater LATAM = money" },
+  { artist: "Don West", tier: "A", genre: "UK R&B", topPrice: "$182", pattern: "🇬🇧 UK breakout, first US tour" },
+  { artist: "Maisie Peters", tier: "A", genre: "Pop", topPrice: "$328", pattern: "UK breakout, Ed Sheeran label" },
+  { artist: "Masayoshi Takanaka", tier: "A", genre: "Japanese Funk", topPrice: "$425", pattern: "Only 4 US dates. Extreme scarcity." },
+  { artist: "Mariah the Scientist", tier: "A", genre: "R&B", topPrice: "$287", pattern: "Young Thug's label. SF/Austin/ATL" },
+  { artist: "Hayley Williams", tier: "A", genre: "Alt Rock", topPrice: "$228", pattern: "Paramore solo. ATL premium." },
+  { artist: "fakemink", tier: "A", genre: "Electronic", topPrice: "$207", pattern: "$184 uniform floor. Broker-controlled." },
+  { artist: "Mon Laferte", tier: "A", genre: "Chilean Pop", topPrice: "$223", pattern: "Theater routing. LATAM diaspora." },
+  { artist: "Gavin Adcock", tier: "A", genre: "Country", topPrice: "$184", pattern: "Southeast strongest" },
+  { artist: "Angine de Poitrine", tier: "A", genre: "Math Rock", topPrice: "$232", pattern: "28+ sellouts. First US tour." },
+];
+
+const SIGNAL_DATA = [
+  {
+    artist: "Myles Smith",
+    genre: "UK Pop",
+    signal: "hot",
+    oneLiner: "UK breakout. No album yet — when it drops, expect US tour announcement. Pre-position on any dates.",
+    spotifyListeners: "45M",
+    reason: "🇬🇧 UK breakout pattern — album announcement will trigger US tour"
+  },
+  {
+    artist: "The xx",
+    genre: "Indie",
+    signal: "warm",
+    oneLiner: "Reunion confirmed. No US headline dates yet. When announced, small-venue scarcity guaranteed.",
+    spotifyListeners: "18M",
+    reason: "Reunion after 5+ year hiatus → pent-up demand"
+  },
+  {
+    artist: "DJO",
+    genre: "Indie Pop",
+    signal: "warm",
+    oneLiner: "Tame Impala support sold out. Only 5 headline shows. If fall dates added, buy immediately.",
+    spotifyListeners: "6.2M",
+    reason: "Support-act spike signal → headline scarcity"
   }
+];
 
-  // Social metrics (platform icons + numbers)
-  const sm = a.socialMetrics;
-  if (sm && (sm.spotify || sm.youtube || sm.tiktok || sm.instagram || sm.x)) {
-    html += '<div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px;padding:10px 14px;background:#0f0f11;border:1px solid #1a1a1e;border-radius:var(--radius)">';
-    if (sm.spotify) html += `<div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text3)"><svg width="16" height="16" viewBox="0 0 24 24" fill="#1DB954"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.42 1.56-.299.421-1.02.599-1.559.3z"/></svg><span>~${sm.spotify} listeners</span></div>`;
-    if (sm.youtube) html += `<div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text3)"><svg width="16" height="16" viewBox="0 0 24 24" fill="#FF0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg><span>${sm.youtube} subs</span></div>`;
-    if (sm.tiktok) html += `<div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text3)"><svg width="16" height="16" viewBox="0 0 24 24" fill="#fff"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.1a8.16 8.16 0 0 0 4.76 1.52v-3.4a4.85 4.85 0 0 1-1-.07z"/></svg><span>${sm.tiktok}</span></div>`;
-    if (sm.instagram) html += `<div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text3)"><svg width="16" height="16" viewBox="0 0 24 24" fill="#E4405F"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg><span>${sm.instagram}</span></div>`;
-    if (sm.x) html += `<div style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text3)"><svg width="14" height="14" viewBox="0 0 24 24" fill="#fff"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>${sm.x}</span></div>`;
-    html += '</div>';
-  }
+// ============================================================
+// RENDER FUNCTIONS
+// ============================================================
 
-  // Additional stats (data for presale cards, last tour, insights)
-  const stats = [
-    ...(!a.socialMetrics && a.streams ? [{l:'DATA', v:a.streams}] : []),
-    {l:'LAST TOUR', v:a.lastTour},
-    {l:'INSIGHTS', v:a.scarcity},
-  ].filter(s => s.v);
-  if (stats.length) {
-    html += '<div class="stat-grid">';
-    for (const s of stats) {
-      html += `<div class="stat-box"><div class="sl">${s.l}</div><div class="sv">${s.v}</div></div>`;
-    }
-    html += '</div>';
-  }
-
-  // Analysis
-  if (a.reasoning) {
-    html += `<div class="analysis"><span class="al" style="color:${tc.bg}">ANALYSIS </span>${a.reasoning}</div>`;
-  }
-
-  // Target cities
-  if (a.targetCities && a.targetCities.length) {
-    html += '<div class="targets"><div class="tl">🎯 TARGET CITIES</div>';
-    for (const c of a.targetCities) {
-      html += `<div class="target-row"><span>${c.emoji||'📍'}</span><div><span class="tc">${c.city}</span>`;
-      if (c.venue) html += ` <span class="tv">— ${c.venue}</span>`;
-      if (c.date) html += ` <span class="td">(${c.date})</span>`;
-      if (c.why) html += `<div class="tw">${c.why}</div>`;
-      html += '</div></div>';
-    }
-    html += '</div>';
-  }
-
-  // Sold-out signals (for emerging artists)
-  if (a.soldOutSnippets && a.soldOutSnippets.length) {
-    html += '<div class="so-box"><div class="sol">🔥 SOLD-OUT SIGNALS</div>';
-    for (const s of a.soldOutSnippets.slice(0, 3)) {
-      html += `<div class="so-item">${s.title || ''}${s.snippet ? ' — ' + s.snippet : ''}</div>`;
-    }
-    html += '</div>';
-  }
-
-  // Tour dates (for emerging artists)
-  if (a.tourDates && a.tourDates.length) {
-    html += '<div class="tour-dates"><div class="tdl">UPCOMING SHOWS';
-    if (a.confirmedSoldOut || a.hasHotShows) html += ' <span class="artist-hot-flag">🔥 ' + (a.confirmedSoldOut ? 'SOLD OUT SHOWS' : 'HOT') + '</span>';
-    html += '</div>';
-    for (const t of a.tourDates.slice(0, 8)) {
-      const price = t.hotPrice ? `$${t.hotPrice}+` : (t.avgPrice ? `$${t.avgPrice} avg` : '');
-      const hotClass = t.hot ? ' hot-show' : '';
-      const badge = t.hotSoldOut ? '<span class="soldout-badge">SOLD OUT</span>' : (t.hot ? '<span class="hot-badge">$100+</span>' : '');
-      html += `<div class="tour-row${hotClass}"><span class="tdate">${t.date||'TBA'}</span><span class="tvenue">${t.venue||''}, ${t.city||''}${badge}</span><span class="tprice">${price}</span></div>`;
-    }
-    if (a.tourDates.length > 8) html += `<div style="font-size:11px;color:var(--text5);padding:4px 0">+ ${a.tourDates.length - 8} more shows</div>`;
-    html += '</div>';
-  }
-
-  // Signup links (from intel scraper)
-  const rawSignups = a._raw?.signupLinks || a.signupLinks || [];
-  if (rawSignups.length) {
-    html += '<div style="padding:10px 14px;background:rgba(251,191,36,0.04);border:1px solid rgba(251,191,36,0.12);border-radius:var(--radius);margin-bottom:14px">';
-    html += '<div style="font-size:9px;font-weight:700;letter-spacing:1.5px;color:var(--yellow);margin-bottom:8px">🔗 PRESALE SIGNUP LINKS</div>';
-    for (const s of rawSignups) {
-      const icon = s.platform === 'seated' ? '🎫' : s.platform === 'laylo' ? '📱' : s.platform === 'newsletter' ? '📧' : s.platform === 'bandsintown' ? '🎵' : '🔗';
-      html += `<div style="margin-bottom:6px"><a href="${s.url}" target="_blank" onclick="event.stopPropagation()" style="color:var(--yellow);font-size:12px;font-weight:600;text-decoration:none">${icon} ${s.type}</a></div>`;
-    }
-    html += '</div>';
-  }
-
-  // Action
-  if (a.action) {
-    html += `<div class="action-box">⚡ ${a.action}</div>`;
-  }
-
-  // Buttons
-  html += '<div class="card-buttons">';
-  if (a.artistLink) html += `<a href="${a.artistLink}" target="_blank" class="btn-sg" onclick="event.stopPropagation()">🌐 Artist Site</a>`;
-  if (a.ticketLink) html += `<a href="${a.ticketLink}" target="_blank" class="btn-tickets" onclick="event.stopPropagation()">🎟️ Get Tickets</a>`;
-  const nameEnc = encodeURIComponent(a.name.split(' — ')[0].split(' – ')[0]);
-  if (!a.ticketLink) html += `<a href="https://seatgeek.com/search?q=${nameEnc}" target="_blank" class="btn-tickets" onclick="event.stopPropagation()">🎟️ SeatGeek</a>`;
-  html += `<a href="https://www.vividseats.com/search?searchTerm=${nameEnc}" target="_blank" class="btn-sg" onclick="event.stopPropagation()">🎟️ Vivid Seats</a>`;
-  const artistClean = a.name.split(' — ')[0].split(' – ')[0].replace(/'/g, "\\'");
-  const isNotified = (JSON.parse(localStorage.getItem('bb-notify') || '[]')).includes(artistClean);
-  html += `<button class="btn-notify ${isNotified?'notified':''}" onclick="event.stopPropagation();toggleNotify('${artistClean}',this)">${isNotified?'🔔 Notifying':'🔕 Notify Me'}</button>`;
-  html += '</div>';
-
-  html += '</div>'; // body
-  html += '</div>'; // card
-
-  return html;
+function renderOnsaleCard(d) {
+  const signalClass = d.signal === 'hot' ? 'signal-hot' : d.signal === 'warm' ? 'signal-warm' : 'signal-watch';
+  const signalLabel = d.signal === 'hot' ? '🔴 HOT' : d.signal === 'warm' ? '🟡 WARM' : '⚪ WATCH';
+  return `
+    <div class="onsale-card" onclick="chatQuery('Scan ${d.artist}')">
+      <div class="signal ${signalClass}">${signalLabel}</div>
+      <div class="artist-name">${d.artist}</div>
+      <div class="genre-tag">${d.genre}</div>
+      <div class="meta-row">
+        <span>🎵 ${d.spotifyListeners || '?'}</span>
+        <span>🏟️ ${d.venues || '?'}</span>
+      </div>
+      ${d.getIn ? `<div class="price-row">
+        <span class="get-in ${priceClass(d.getIn)}">${d.getIn}</span>
+        <span class="price-label">get-in</span>
+        <span class="listings-badge">${d.listings || '?'} listings</span>
+      </div>` : ''}
+      <div class="presale-date">🗓️ Presale: ${d.presaleDate || '?'} → Onsale: ${d.onsaleDate || '?'}</div>
+      ${d.presaleCode ? `<div class="presale-date">🔑 ${d.presaleCode}</div>` : ''}
+      <div class="one-liner">${d.oneLiner}</div>
+    </div>`;
 }
 
-function toggleCard(id) {
-  const el = document.getElementById(id);
-  el.classList.toggle('expanded');
+function renderHotCard(d) {
+  return `
+    <div class="onsale-card" onclick="chatQuery('Deep dive on ${d.artist}')">
+      <div class="signal signal-hot">🔴 HOT</div>
+      <div class="artist-name">${d.artist}</div>
+      <div class="genre-tag">${d.genre}</div>
+      <div class="meta-row">
+        <span>🎵 ${d.spotifyListeners}</span>
+        <span>🏟️ ${d.cap} cap</span>
+      </div>
+      <div class="price-row">
+        <span class="get-in ${priceClass(d.getIn)}">${d.getIn}</span>
+        <span class="price-label">get-in @ ${d.venue}</span>
+      </div>
+      <div class="presale-date">📈 ${d.trend}</div>
+      <div class="one-liner">${d.oneLiner}</div>
+    </div>`;
 }
 
-/* ── Build Emerging Artist Card from JSON data ── */
-function buildEmerging(a, id) {
-  // Signal-based tier (no numeric score)
-  const vt = a.verificationTier || '';
-  let tier;
-  if (vt === 'RED_HOT' || a.confirmedSoldOut) tier = 'S';
-  else if (vt === 'WARM' || a.hasHotShows || (a.soldOutMentions || 0) >= 2) tier = 'A';
-  else if ((a.soldOutMentions || 0) >= 1 || (a.peakPrice || 0) >= 50) tier = 'B+';
-  else if (a.upcomingShows > 0) tier = 'B';
-  else tier = 'C';
-
-  const ml = a.monthlyListeners ? (a.monthlyListeners >= 1000000 ? (a.monthlyListeners/1000000).toFixed(1)+'M' : Math.round(a.monthlyListeners/1000)+'K') : null;
-  const ig = a.instagramFollowers ? (a.instagramFollowers >= 1000000 ? (a.instagramFollowers/1000000).toFixed(1)+'M' : Math.round(a.instagramFollowers/1000)+'K') : null;
-  const tt = a.tiktokFollowers ? (a.tiktokFollowers >= 1000000 ? (a.tiktokFollowers/1000000).toFixed(1)+'M' : Math.round(a.tiktokFollowers/1000)+'K') : null;
-
-  const yt = a.youtubeSubscribers ? (a.youtubeSubscribers >= 1000000 ? (a.youtubeSubscribers/1000000).toFixed(1)+'M' : Math.round(a.youtubeSubscribers/1000)+'K') : null;
-  const xFollowers = a.twitterFollowers ? (a.twitterFollowers >= 1000000 ? (a.twitterFollowers/1000000).toFixed(1)+'M' : Math.round(a.twitterFollowers/1000)+'K') : null;
-
-  // Scarcity string with source count
-  let scarcityStr = '';
-  if (a.soldOutMentions) {
-    scarcityStr = `${a.soldOutMentions} sold-out signal${a.soldOutMentions>1?'s':''}`;
-    if (a.soldOutSourceCount >= 2) scarcityStr += ` (verified by ${a.soldOutSourceCount} sources)`;
-    else if (a.soldOutSources?.length) scarcityStr += ` via ${a.soldOutSources.join(', ')}`;
-  }
-  if (a.peakPrice >= 50) {
-    scarcityStr += (scarcityStr ? ' • ' : '') + `Peak secondary: $${a.peakPrice}`;
-  }
-
-  // Tier label for display (replaces numeric score)
-  const tierLabel = vt === 'RED_HOT' ? '🔴' : vt === 'WARM' ? '🟡' : (a.soldOutMentions || a.peakPrice >= 50) ? '⚪' : '—';
-
-  const card = {
-    name: a.name,
-    score: tierLabel,
-    tier: tier,
-    genre: a.genre || null,
-    venueSize: a.upcomingShows ? `${a.upcomingShows} upcoming shows` : null,
-    streams: null, // replaced by socialMetrics
-    socialMetrics: { spotify: ml, youtube: yt, tiktok: tt, instagram: ig, x: xFollowers },
-    scarcity: scarcityStr || null,
-    lastTour: a.albumCount ? `${a.albumCount} album${a.albumCount>1?'s':''}` : null,
-    tourDates: a.tourDates,
-    soldOutMentions: a.soldOutMentions || 0,
-    soldOutSnippets: a.soldOutSnippets || [],
-    confirmedSoldOut: a.confirmedSoldOut,
-    hasHotShows: a.hasHotShows,
-    peakPrice: a.peakPrice,
-    ticketLink: `https://seatgeek.com/search?q=${encodeURIComponent(a.name)}`,
-    artistLink: a.artistWebsite || `https://open.spotify.com/search/${encodeURIComponent(a.name)}`,
-    imageUrl: a.imageUrl || null,
-    _raw: a,
-    _isEmerging: true,
-  };
-
-  return buildCard(card, id);
+function renderWatchlistCard(d) {
+  const tierColor = d.tier === 'S' ? 'signal-hot' : d.tier === 'A' ? 'signal-warm' : 'signal-watch';
+  return `
+    <div class="onsale-card" onclick="chatQuery('Scan ${d.artist}')">
+      <div class="signal ${tierColor}">${d.tier}-TIER</div>
+      <div class="artist-name">${d.artist}</div>
+      <div class="genre-tag">${d.genre}</div>
+      <div class="price-row">
+        <span class="get-in ${priceClass(d.topPrice)}">${d.topPrice}</span>
+        <span class="price-label">top get-in</span>
+      </div>
+      <div class="one-liner">${d.pattern}</div>
+    </div>`;
 }
 
-/* ── View Switching ── */
-function showView(id, btn) {
-  document.querySelectorAll('.view').forEach(v => v.style.display = 'none');
-  document.getElementById('view-' + id).style.display = 'block';
-  document.querySelectorAll('.tab-btn').forEach(n => n.classList.remove('active'));
-  if (btn) btn.classList.add('active');
-  else if (event && event.target) {
-    const tab = event.target.closest('.tab-btn');
-    if (tab) tab.classList.add('active');
-  }
+function renderSignalCard(d) {
+  const signalClass = d.signal === 'hot' ? 'signal-hot' : 'signal-warm';
+  return `
+    <div class="onsale-card" onclick="chatQuery('Deep dive on ${d.artist}')">
+      <div class="signal ${signalClass}">🔮 EARLY</div>
+      <div class="artist-name">${d.artist}</div>
+      <div class="genre-tag">${d.genre}</div>
+      <div class="meta-row"><span>🎵 ${d.spotifyListeners}</span></div>
+      <div class="presale-date">💡 ${d.reason}</div>
+      <div class="one-liner">${d.oneLiner}</div>
+    </div>`;
 }
 
-/* ── Render Presale Cards ── */
-function renderPresales() {
-  const tw = document.getElementById('thisweek-cards');
-  tw.innerHTML = PRESALE_DATA.thisWeek.map((a, i) => buildCard(a, 'tw-' + i)).join('');
-
-  const nw = document.getElementById('nextweek-cards');
-  if (PRESALE_DATA.nextWeek.length) {
-    nw.innerHTML = PRESALE_DATA.nextWeek.map((a, i) => buildCard(a, 'nw-' + i)).join('');
-  } else {
-    nw.innerHTML = '<div class="empty">📡 Scanners monitoring for next week\'s presale announcements. Most tours announce on Tuesdays.</div>';
-  }
+function priceClass(p) {
+  if (!p || p === 'SOLD OUT') return 'hot';
+  const n = parseInt(String(p).replace(/[$,]/g, ''));
+  if (n >= 300) return 'hot';
+  if (n >= 200) return 'warm';
+  if (n >= 100) return 'mid';
+  return 'low';
 }
 
-/* ── Emerging Artists ── */
-let allArtists = [];
-let activeScoreFilter = 'all';
-let activeGenreFilter = 'all';
-
-function renderEmerging(artists) {
-  const container = document.getElementById('emerging-cards');
-  if (!artists.length) { container.innerHTML = '<div class="empty">No artists match this filter.</div>'; return; }
-
-  let html = '';
-  let lastGroup = '';
-
-  for (let i = 0; i < artists.length; i++) {
-    const a = artists[i];
-    const vt = a.verificationTier || '';
-    let group;
-    if (vt === 'RED_HOT' || a.confirmedSoldOut) group = '🔴 Red Hot';
-    else if (vt === 'WARM' || a.hasHotShows || (a.soldOutMentions||0) >= 2) group = '🟡 Warm';
-    else group = '⚪ Watch';
-
-    if (group !== lastGroup) {
-      html += `<div class="section-head"><h2 style="font-size:14px">${group}</h2><span class="badge">${artists.filter(x => {
-        const xvt = x.verificationTier || '';
-        if (group === '🔴 Red Hot') return xvt === 'RED_HOT' || x.confirmedSoldOut;
-        if (group === '🟡 Warm') return (xvt === 'WARM' || x.hasHotShows || (x.soldOutMentions||0) >= 2) && xvt !== 'RED_HOT' && !x.confirmedSoldOut;
-        return true;
-      }).length} artists</span></div>`;
-      lastGroup = group;
-    }
-    html += buildEmerging(a, 'em-' + i);
-  }
-
-  container.innerHTML = html;
+function renderAll() {
+  document.getElementById('onsaleGrid').innerHTML = ONSALE_DATA.map(renderOnsaleCard).join('');
+  document.getElementById('onsaleCount').textContent = ONSALE_DATA.length + ' events';
+  document.getElementById('hotGrid').innerHTML = HOT_DATA.map(renderHotCard).join('');
+  document.getElementById('watchlistGrid').innerHTML = WATCHLIST_DATA.map(renderWatchlistCard).join('');
+  document.getElementById('signalGrid').innerHTML = SIGNAL_DATA.map(renderSignalCard).join('');
 }
 
-function applyFilters() {
-  let filtered = allArtists;
-
-  // Tier filter
-  if (activeScoreFilter === 'red_hot') filtered = filtered.filter(a => a.verificationTier === 'RED_HOT' || a.confirmedSoldOut);
-  else if (activeScoreFilter === 'warm') filtered = filtered.filter(a => a.verificationTier === 'WARM' || a.hasHotShows || (a.soldOutMentions||0) >= 2);
-  else if (activeScoreFilter === 'soldout') filtered = filtered.filter(a => (a.soldOutMentions||0) > 0);
-  else if (activeScoreFilter === 'highprice') filtered = filtered.filter(a => (a.peakPrice||0) >= 100);
-  else if (activeScoreFilter === 'touring') filtered = filtered.filter(a => (a.upcomingShows||0) > 0);
-
-  // Genre filter
-  if (activeGenreFilter !== 'all') {
-    filtered = filtered.filter(a => {
-      const g = (a.genre || '').toLowerCase();
-      const f = activeGenreFilter.toLowerCase();
-      return g.includes(f) || (f === 'rock' && (g.includes('rock') || g.includes('punk') || g.includes('metal'))) ||
-             (f === 'indie' && (g.includes('indie') || g.includes('folk') || g.includes('americana'))) ||
-             (f === 'r&b' && (g.includes('r&b') || g.includes('soul') || g.includes('afropop'))) ||
-             (f === 'pop' && g.includes('pop') && !g.includes('afropop'));
-    });
-  }
-
-  renderEmerging(filtered);
-}
-
-function filterArtists(type, btn) {
-  document.querySelectorAll('#score-filters .fbtn').forEach(b => b.classList.remove('active'));
-  if (btn) btn.classList.add('active');
-  activeScoreFilter = type;
-  applyFilters();
-}
-
-function filterGenre(type, btn) {
-  document.querySelectorAll('#genre-filters .fbtn').forEach(b => b.classList.remove('active'));
-  if (btn) btn.classList.add('active');
-  activeGenreFilter = type;
-  applyFilters();
-}
-
-/* ── Countdown Timers ── */
-function addCountdowns() {
-  document.querySelectorAll('[data-onsale-time]').forEach(el => {
-    const target = new Date(el.dataset.onsaleTime).getTime();
-    function update() {
-      const now = Date.now();
-      const diff = target - now;
-      if (diff <= 0) {
-        el.innerHTML = '<span class="cd-pulse"></span> LIVE NOW';
-        el.className = 'countdown';
-        return;
-      }
-      const h = Math.floor(diff / 3600000);
-      const m = Math.floor((diff % 3600000) / 60000);
-      const s = Math.floor((diff % 60000) / 1000);
-      el.innerHTML = `<span class="cd-pulse"></span> ${h > 0 ? h + 'h ' : ''}${m}m ${s}s`;
-      el.className = h > 2 ? 'countdown soon' : 'countdown';
-      setTimeout(update, 1000);
-    }
-    update();
+// ============================================================
+// TAB SWITCHING
+// ============================================================
+function showTab(tab) {
+  ['onsales', 'hot', 'watchlist', 'signals'].forEach(t => {
+    document.getElementById('tab-' + t).style.display = t === tab ? 'block' : 'none';
+  });
+  document.querySelectorAll('.nav-tab').forEach((el, i) => {
+    el.classList.toggle('active', ['onsales','hot','watchlist','signals'][i] === tab);
   });
 }
 
-/* ── Score Breakdown ── */
-function buildScoreBreakdown(a) {
-  const ml = a.monthlyListeners || 0;
-  let listScore = 0;
-  if (ml >= 500000 && ml <= 3000000) listScore = 20;
-  else if (ml >= 100000 && ml <= 5000000) listScore = 12;
-  else if (ml >= 50000 && ml <= 10000000) listScore = 5;
-  else if (ml > 0) listScore = 2;
+// ============================================================
+// CHAT
+// ============================================================
+const DEFAULT_API_URL = 'https://blackbeard-api.brokerbeacon.workers.dev';
+let chatHistory = [];
+let chatLoading = false;
 
-  const so = a.soldOutMentions || 0;
-  let soScore = so >= 4 ? 25 : so >= 2 ? 18 : so >= 1 ? 12 : 0;
-
-  const shows = a.upcomingShows || 0;
-  let showScore = (shows >= 1 && shows <= 5) ? 12 : shows === 0 ? 5 : shows <= 15 ? 3 : 0;
-
-  const socials = [a.instagramFollowers, a.tiktokFollowers, a.twitterFollowers, a.youtubeSubscribers].filter(Boolean).length;
-  let socScore = socials >= 3 ? 12 : socials >= 2 ? 8 : socials >= 1 ? 4 : 0;
-
-  const tierBonus = a.tier === 'A' ? 5 : 0;
-
-  return `<div class="score-breakdown">
-    <div style="font-size:10px;font-weight:700;color:var(--text);margin-bottom:4px;letter-spacing:1px">SCORE BREAKDOWN</div>
-    <div class="sb-row"><span class="sb-label">Listeners</span><span class="sb-val" style="color:var(--purple)">+${listScore}</span></div>
-    <div class="sb-row"><span class="sb-label">Sold-out signals</span><span class="sb-val" style="color:var(--red)">+${soScore}</span></div>
-    <div class="sb-row"><span class="sb-label">Tour scarcity</span><span class="sb-val" style="color:var(--yellow)">+${showScore}</span></div>
-    <div class="sb-row"><span class="sb-label">Social presence</span><span class="sb-val" style="color:var(--blue)">+${socScore}</span></div>
-    ${tierBonus ? '<div class="sb-row"><span class="sb-label">Watchlist Tier A</span><span class="sb-val" style="color:var(--green)">+5</span></div>' : ''}
-  </div>`;
+function toggleChat() {
+  const panel = document.getElementById('chatPanel');
+  const toggle = document.getElementById('chatToggle');
+  const isOpen = panel.classList.toggle('open');
+  toggle.classList.toggle('open', isOpen);
+  if (isOpen) document.getElementById('chatInput').focus();
 }
 
-/* ── Push Notifications ── */
-async function enablePush() {
-  if (!('Notification' in window)) {
-    alert('Your browser doesn\'t support push notifications. Try Chrome or Firefox.');
-    return;
-  }
-  const perm = await Notification.requestPermission();
-  if (perm === 'granted') {
-    new Notification('🏴‍☠️ Blackbeard Alerts Enabled', {
-      body: 'You\'ll get instant alerts for presale codes and tour announcements.',
-      icon: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🏴‍☠️</text></svg>'
-    });
-    document.getElementById('push-banner').style.display = 'none';
-    localStorage.setItem('bb-push', 'enabled');
-  } else {
-    alert('Notifications blocked. Check your browser settings to enable them.');
-  }
-}
-if (localStorage.getItem('bb-push') === 'enabled') {
-  const pb = document.getElementById('push-banner');
-  if (pb) pb.style.display = 'none';
+function chatQuery(text) {
+  const panel = document.getElementById('chatPanel');
+  if (!panel.classList.contains('open')) toggleChat();
+  document.getElementById('chatInput').value = text;
+  sendChat();
 }
 
-/* ── Theme Toggle ── */
-function toggleTheme() {
-  const body = document.body;
-  const isLight = body.classList.toggle('light-theme');
-  document.getElementById('theme-label').textContent = isLight ? 'Light' : 'Dark';
-  localStorage.setItem('bb-theme', isLight ? 'light' : 'dark');
-}
-if (localStorage.getItem('bb-theme') === 'light') {
-  document.body.classList.add('light-theme');
-  document.getElementById('theme-label').textContent = 'Light';
-}
-
-/* ── Timestamps ── */
-function updateTimestamps() {
-  const now = new Date();
-  const fmt = d => d.toLocaleTimeString('en-US', {hour:'numeric',minute:'2-digit',hour12:true});
-  const el = document.getElementById('last-updated-time');
-  if (el) el.textContent = fmt(now) + ' ET — ' + now.toLocaleDateString('en-US', {month:'short',day:'numeric',year:'numeric'});
-}
-
-/* ── Live Pulse ── */
-function checkLivePresales() {
-  const now = new Date();
-  const day = now.getDay();
-  const hour = now.getHours();
-  // Presales typically live 10 AM - 10 PM on weekdays
-  const isLive = day >= 1 && day <= 5 && hour >= 10 && hour <= 22;
-  const pulse = document.getElementById('live-pulse');
-  if (pulse) pulse.style.display = isLive ? 'block' : 'none';
+function renderChatMd(text) {
+  return text
+    .replace(/^### (.*$)/gm, '<h3 style="color:var(--accent);font-size:11px;margin:8px 0 4px;text-transform:uppercase;letter-spacing:0.5px">$1</h3>')
+    .replace(/^## (.*$)/gm, '<h2 style="color:var(--accent);font-size:13px;font-weight:700;margin:10px 0 5px">$1</h2>')
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/`([^`]+)`/g, '<code style="background:var(--surface3);padding:1px 4px;border-radius:3px;font-size:11px;color:var(--cyan)">$1</code>')
+    .replace(/^\|(.+)\|$/gm, m => {
+      const cells = m.split('|').filter(c => c.trim());
+      if (cells.every(c => /^[\s\-:]+$/.test(c))) return '';
+      return '<tr>' + cells.map(c => `<td>${c.trim()}</td>`).join('') + '</tr>';
+    })
+    .replace(/((<tr>.*<\/tr>\n?)+)/g, '<table>$1</table>')
+    .replace(/<table><tr>(.*?)<\/tr>/g, (m, row) => `<table><tr>${row.replace(/<td>/g,'<th>').replace(/<\/td>/g,'</th>')}</tr>`)
+    .replace(/^- (.*$)/gm, '<li>$1</li>')
+    .replace(/((<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>')
+    .replace(/🔴\s*(BUY|ELEVATED DEMAND)/gi, '<span style="background:var(--red-dim);color:var(--red);padding:1px 5px;border-radius:3px;font-size:10px;font-weight:700">🔴 $1</span>')
+    .replace(/🟡\s*(WATCH|MONITOR)/gi, '<span style="background:var(--yellow-dim);color:var(--yellow);padding:1px 5px;border-radius:3px;font-size:10px;font-weight:700">🟡 $1</span>')
+    .replace(/⚪\s*(PASS|INSUFFICIENT)/gi, '<span style="background:rgba(100,100,120,0.2);color:var(--text-dim);padding:1px 5px;border-radius:3px;font-size:10px;font-weight:700">⚪ $1</span>')
+    .replace(/<td>(\$\d[\d,]*)<\/td>/g, (m, p) => {
+      const n = parseInt(p.replace(/[$,]/g,''));
+      const c = n>=300?'var(--red)':n>=200?'var(--orange)':n>=100?'var(--yellow)':n>=50?'var(--green)':'var(--text-dim)';
+      return `<td style="color:${c};font-weight:600">${p}</td>`;
+    })
+    .replace(/\n\n/g, '<br><br>')
+    .replace(/\n/g, '<br>');
 }
 
-/* ── Init ── */
-/* ── Submit Artist ── */
-function submitArtist() {
-  const name = document.getElementById('submit-name').value.trim();
-  const genre = document.getElementById('submit-genre').value;
-  const notes = document.getElementById('submit-notes').value.trim();
-  const el = document.getElementById('submit-result');
-  
-  if (!name) { el.style.display='block'; el.style.color='var(--red)'; el.innerHTML='Please enter an artist name.'; return; }
-  
-  // Save to localStorage
-  const submissions = JSON.parse(localStorage.getItem('bb-submissions') || '[]');
-  const entry = { name, genre, notes, date: new Date().toISOString(), status: 'pending' };
-  submissions.push(entry);
-  localStorage.setItem('bb-submissions', JSON.stringify(submissions));
-  
-  // Also try to send to our API endpoint
-  sendSubmission(entry);
-  
-  // Clear form
-  document.getElementById('submit-name').value = '';
-  document.getElementById('submit-notes').value = '';
-  el.style.display='block'; el.style.color='var(--green)';
-  el.innerHTML=`✅ <strong>${name}</strong> submitted! Our scanners will start tracking within 24 hours.`;
-  
-  renderSubmissionHistory();
-  setTimeout(() => { el.style.display='none'; }, 5000);
+function addChatMsg(role, content) {
+  const area = document.getElementById('chatMessages');
+  const welcome = document.getElementById('chatWelcome');
+  if (welcome) welcome.style.display = 'none';
+  const div = document.createElement('div');
+  div.className = 'chat-msg ' + role;
+  div.innerHTML = role === 'assistant' ? renderChatMd(content) : content;
+  area.appendChild(div);
+  area.scrollTop = area.scrollHeight;
 }
 
-function bulkSubmit() {
-  const text = document.getElementById('bulk-submit').value.trim();
-  const el = document.getElementById('bulk-result');
-  if (!text) return;
-  
-  const names = text.split('\n').map(n => n.trim()).filter(n => n.length >= 2);
-  const submissions = JSON.parse(localStorage.getItem('bb-submissions') || '[]');
-  
-  for (const name of names) {
-    const entry = { name, genre: '', notes: 'Bulk submit', date: new Date().toISOString(), status: 'pending' };
-    submissions.push(entry);
-    sendSubmission(entry);
-  }
-  
-  localStorage.setItem('bb-submissions', JSON.stringify(submissions));
-  document.getElementById('bulk-submit').value = '';
-  el.style.display='block'; el.style.color='var(--green)';
-  el.innerHTML=`✅ ${names.length} artists submitted!`;
-  renderSubmissionHistory();
-  setTimeout(() => { el.style.display='none'; }, 5000);
-}
-
-async function sendSubmission(entry) {
-  // Store in a submissions JSON that cron can pick up
-  try {
-    const pending = JSON.parse(localStorage.getItem('bb-pending-submissions') || '[]');
-    pending.push(entry);
-    localStorage.setItem('bb-pending-submissions', JSON.stringify(pending));
-  } catch {}
-}
-
-function renderSubmissionHistory() {
-  const submissions = JSON.parse(localStorage.getItem('bb-submissions') || '[]');
-  const el = document.getElementById('submission-history');
-  if (!submissions.length) { el.innerHTML = 'No submissions yet.'; return; }
-  
-  el.innerHTML = submissions.slice(-20).reverse().map(s => {
-    const d = new Date(s.date);
-    const time = d.toLocaleDateString('en-US', {month:'short',day:'numeric'}) + ' ' + d.toLocaleTimeString('en-US', {hour:'numeric',minute:'2-digit'});
-    const status = s.status === 'active' ? '<span style="color:var(--green)">● Tracking</span>' : '<span style="color:var(--yellow)">◐ Pending</span>';
-    return `<div style="padding:6px 0;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
-      <span><strong>${s.name}</strong>${s.genre ? ' <span style="color:var(--text5)">(' + s.genre + ')</span>' : ''}</span>
-      <span style="font-size:11px">${status} · ${time}</span>
-    </div>`;
-  }).join('');
-}
-
-/* ── Email Alerts ── */
-function saveEmail() {
-  const email = document.getElementById('alert-email').value.trim();
-  const el = document.getElementById('email-status');
-  
-  if (!email || !email.includes('@')) { el.style.display='block'; el.style.color='var(--red)'; el.innerHTML='Please enter a valid email.'; return; }
-  
-  localStorage.setItem('bb-email', email);
-  el.style.display='block'; el.style.color='var(--green)';
-  el.innerHTML=`✅ Email saved! Alerts will be sent to <strong>${email}</strong>`;
-  
-  // Save to pending registrations for cron pickup
-  const regs = JSON.parse(localStorage.getItem('bb-email-registrations') || '[]');
-  regs.push({ email, date: new Date().toISOString(), prefs: getPrefs() });
-  localStorage.setItem('bb-email-registrations', JSON.stringify(regs));
-}
-
-function savePrefs() {
-  const prefs = getPrefs();
-  localStorage.setItem('bb-prefs', JSON.stringify(prefs));
-}
-
-function getPrefs() {
-  return {
-    newShows: document.getElementById('pref-newshows')?.checked ?? true,
-    soldOut: document.getElementById('pref-soldout')?.checked ?? true,
-    presale: document.getElementById('pref-presale')?.checked ?? true,
-    price: document.getElementById('pref-price')?.checked ?? true,
-    digest: document.getElementById('pref-digest')?.checked ?? false,
-  };
-}
-
-function loadPrefs() {
-  try {
-    const prefs = JSON.parse(localStorage.getItem('bb-prefs'));
-    if (prefs) {
-      document.getElementById('pref-newshows').checked = prefs.newShows ?? true;
-      document.getElementById('pref-soldout').checked = prefs.soldOut ?? true;
-      document.getElementById('pref-presale').checked = prefs.presale ?? true;
-      document.getElementById('pref-price').checked = prefs.price ?? true;
-      document.getElementById('pref-digest').checked = prefs.digest ?? false;
-    }
-    const email = localStorage.getItem('bb-email');
-    if (email) {
-      document.getElementById('alert-email').value = email;
-      document.getElementById('email-status').style.display='block';
-      document.getElementById('email-status').innerHTML=`✅ Alerts active for <strong>${email}</strong>`;
-    }
-  } catch {}
-}
-
-/* ── Track List ── */
-function renderTrackList() {
-  const tracked = JSON.parse(localStorage.getItem('bb-tracked') || '[]');
-  const container = document.getElementById('track-list');
-  if (!allArtists.length) { container.innerHTML = '<div style="color:var(--text5)">Loading artists...</div>'; return; }
-  
-  const search = (document.getElementById('track-search')?.value || '').toLowerCase();
-  const filtered = allArtists.filter(a => !search || a.name.toLowerCase().includes(search));
-  
-  container.innerHTML = filtered.slice(0, 50).map(a => {
-    const isTracked = tracked.includes(a.name);
-    return `<label style="display:flex;align-items:center;gap:8px;padding:4px 8px;border-radius:4px;cursor:pointer;font-size:12px;color:var(--text2);background:${isTracked?'rgba(251,191,36,0.04)':'transparent'}">
-      <input type="checkbox" ${isTracked?'checked':''} onchange="toggleTrack('${a.name.replace(/'/g,"\\'")}')" style="accent-color:var(--yellow)">
-      ${a.imageUrl?'<img src="'+a.imageUrl+'" style="width:20px;height:20px;border-radius:50%;object-fit:cover">':''}
-      <strong>${a.name}</strong>
-      <span style="color:var(--text5);margin-left:auto">${a.genre||''}</span>
-    </label>`;
-  }).join('');
-  
-  document.getElementById('track-count').textContent = tracked.length + ' artists tracked';
-}
-
-function filterTrackList() { renderTrackList(); }
-
-function toggleTrack(name) {
-  let tracked = JSON.parse(localStorage.getItem('bb-tracked') || '[]');
-  if (tracked.includes(name)) {
-    tracked = tracked.filter(n => n !== name);
-  } else {
-    tracked.push(name);
-  }
-  localStorage.setItem('bb-tracked', JSON.stringify(tracked));
-  renderTrackList();
-}
-
-function trackAll() {
-  const tracked = allArtists.map(a => a.name);
-  localStorage.setItem('bb-tracked', JSON.stringify(tracked));
-  renderTrackList();
-}
-
-/* ── Notify Me ── */
-function toggleNotify(artist, btn) {
-  let list = JSON.parse(localStorage.getItem('bb-notify') || '[]');
-  if (list.includes(artist)) {
-    list = list.filter(a => a !== artist);
-    if (btn) { btn.classList.remove('notified'); btn.innerHTML = '🔕 Notify Me'; }
-  } else {
-    list.push(artist);
-    if (btn) { btn.classList.add('notified'); btn.innerHTML = '🔔 Notifying'; }
-  }
-  localStorage.setItem('bb-notify', JSON.stringify(list));
-}
-
-/* ── Newsfeed ── */
-let feedData = [];
-let activeFeedFilter = 'all';
-
-async function loadFeed() {
-  try {
-    const res = await fetch('data/feed.json');
-    const data = await res.json();
-    feedData = data.events || [];
-    document.getElementById('feed-count').textContent = feedData.length + ' events';
-    renderFeed();
-  } catch (e) {
-    document.getElementById('feed-list').innerHTML = '<div class="empty">Feed data not available yet.</div>';
-  }
-}
-
-function renderFeed() {
-  const el = document.getElementById('feed-list');
-  let filtered = feedData;
-  if (activeFeedFilter !== 'all') filtered = filtered.filter(e => e.type === activeFeedFilter);
-  
-  if (!filtered.length) { el.innerHTML = '<div class="empty">No events match this filter.</div>'; return; }
-  
-  el.innerHTML = filtered.slice(0, 50).map(e => {
-    const icon = e.type === 'sold_out' ? '🔴' : e.type === 'new_show' ? '🆕' : e.type === 'new_tour' ? '🎉' : '📢';
-    const label = e.type === 'sold_out' ? 'SOLD OUT' : e.type === 'new_show' ? 'NEW SHOW' : 'NEW TOUR';
-    const venue = e.venue ? `${e.venue}${e.city ? ', ' + e.city : ''}` : '';
-    const date = e.date || '';
-    const snippet = e.sourceSnippet ? `<div style="font-size:11px;color:var(--text4);margin-top:4px;font-style:italic">"${e.sourceSnippet}"</div>` : '';
-    const verified = e.verified ? '<span class="feed-verified">✅ Verified</span>' : '<span style="font-size:10px;color:var(--text5)">⚠️ Unverified</span>';
-    const sources = (e.sources || []).filter(s => s && !s.startsWith('http')).join(' + ');
-    const thumb = e.imageUrl ? `<img class="feed-thumb" src="${e.imageUrl}" alt="">` : '';
-    const notifyList = JSON.parse(localStorage.getItem('bb-notify') || '[]');
-    const isNotified = notifyList.includes(e.artist);
-    const notifyBtn = `<button class="btn-notify ${isNotified?'notified':''}" onclick="toggleNotify('${e.artist.replace(/'/g,"\\'")}',this)" style="padding:3px 10px;font-size:10px">${isNotified?'🔔':'🔕'}</button>`;
-    
-    return `<div class="feed-item">
-      ${thumb}
-      <div class="feed-icon">${icon}</div>
-      <div class="feed-body">
-        <div class="feed-artist">${e.artist} <span style="font-size:11px;font-weight:400;color:var(--text4)">${e.genre}</span></div>
-        <div class="feed-detail">${label}${venue ? ' — ' + venue : ''}${date ? ' (' + date + ')' : ''}</div>
-        ${snippet}
-        <div class="feed-meta">${verified} <span>${sources}</span> ${notifyBtn}</div>
-      </div>
-    </div>`;
-  }).join('');
-}
-
-function filterFeed(type, btn) {
-  activeFeedFilter = type;
-  document.querySelectorAll('#view-alerts .tab-btn').forEach(b => b.classList.remove('active'));
-  if (btn) btn.classList.add('active');
-  renderFeed();
-}
-
-/* ── To Do List ── */
-const TODO_KEY = 'bb-todos';
-const DEFAULT_TODOS = [
-  { id: 1, text: '✅ Sign up for Resend (email API) — DONE! API key wired in.', done: true, category: 'APIs' },
-  { id: 2, text: '🎟️ Sign up for TicketNetwork Mercury API — mercurywebservices.com (FREE for brokers)', done: false, category: 'APIs' },
-  { id: 3, text: '🎟️ Sign up for Vivid Seats Affiliate — vividseats.com/affiliates (free + commission)', done: false, category: 'APIs' },
-  { id: 4, text: '🎟️ Sign up for Ticket Evolution API — developer.ticketevolution.com', done: false, category: 'APIs' },
-  { id: 5, text: '📱 Set up SMS notifications (Twilio or similar)', done: false, category: 'Features' },
-  { id: 6, text: '🔍 Check Pollstar free account — any API access, RSS, or data exports?', done: false, category: 'Research' },
-  { id: 7, text: '🔄 Rotate GitHub token (exposed in Discord)', done: false, category: 'Security' },
-  { id: 8, text: '🌐 Buy a domain for Blackbeard (blackbeard.tickets, useblackbeard.com, etc.) — need custom URL before selling', done: false, category: 'Launch' },
-  { id: 9, text: '📧 Set up custom email domain on Resend — alerts@[yourdomain] instead of onboarding@resend.dev', done: false, category: 'Launch' },
-  { id: 10, text: '🚀 Move off GitHub Pages to custom domain — professional URL for paying customers', done: false, category: 'Launch' },
-];
-
-function loadTodos() {
-  try {
-    const saved = JSON.parse(localStorage.getItem(TODO_KEY));
-    if (saved && saved.length) return saved;
-  } catch {}
-  localStorage.setItem(TODO_KEY, JSON.stringify(DEFAULT_TODOS));
-  return DEFAULT_TODOS;
-}
-
-function saveTodos(todos) { localStorage.setItem(TODO_KEY, JSON.stringify(todos)); }
-
-function renderTodos() {
-  const todos = loadTodos();
-  const el = document.getElementById('todo-list');
-  if (!el) return;
-  
-  const pending = todos.filter(t => !t.done);
-  const done = todos.filter(t => t.done);
-  
-  el.innerHTML = pending.map(t => `
-    <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:12px 16px;display:flex;align-items:center;gap:12px">
-      <input type="checkbox" onchange="toggleTodo(${t.id})" style="accent-color:var(--yellow);width:18px;height:18px;cursor:pointer">
-      <span style="flex:1;font-size:13px;color:var(--text2)">${t.text}</span>
-      ${t.category ? '<span style="font-size:10px;color:var(--text5);background:var(--surface2);padding:2px 8px;border-radius:4px">' + t.category + '</span>' : ''}
-      <span onclick="deleteTodo(${t.id})" style="cursor:pointer;color:var(--text5);font-size:16px" title="Delete">×</span>
-    </div>
-  `).join('') + (done.length ? `
-    <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border)">
-      <div style="font-size:11px;color:var(--text5);margin-bottom:8px;letter-spacing:1px">COMPLETED (${done.length})</div>
-      ${done.map(t => `
-        <div style="display:flex;align-items:center;gap:12px;padding:6px 0;opacity:0.5">
-          <input type="checkbox" checked onchange="toggleTodo(${t.id})" style="accent-color:var(--green);width:16px;height:16px;cursor:pointer">
-          <span style="flex:1;font-size:12px;color:var(--text4);text-decoration:line-through">${t.text}</span>
-        </div>
-      `).join('')}
-    </div>
-  ` : '');
-}
-
-function toggleTodo(id) {
-  const todos = loadTodos();
-  const t = todos.find(x => x.id === id);
-  if (t) t.done = !t.done;
-  saveTodos(todos);
-  renderTodos();
-}
-
-function deleteTodo(id) {
-  const todos = loadTodos().filter(t => t.id !== id);
-  saveTodos(todos);
-  renderTodos();
-}
-
-function addTodo() {
-  const input = document.getElementById('todo-input');
+async function sendChat() {
+  if (chatLoading) return;
+  const apiUrl = localStorage.getItem('bb_api_url') || DEFAULT_API_URL;
+  const input = document.getElementById('chatInput');
   const text = input.value.trim();
   if (!text) return;
-  const todos = loadTodos();
-  todos.push({ id: Date.now(), text, done: false, category: '' });
-  saveTodos(todos);
-  input.value = '';
-  renderTodos();
-}
 
-/* ── SMS ── */
-function savePhone() {
-  const phone = document.getElementById('alert-phone').value.trim();
-  const el = document.getElementById('phone-status');
-  if (!phone || phone.length < 10) { el.style.display='block'; el.style.color='var(--red)'; el.innerHTML='Please enter a valid phone number.'; return; }
-  localStorage.setItem('bb-phone', phone);
-  el.style.display='block'; el.style.color='var(--green)';
-  el.innerHTML=`✅ SMS alerts saved for <strong>${phone}</strong>`;
-}
+  input.value = ''; input.style.height = 'auto';
+  addChatMsg('user', text);
 
-function loadPhone() {
-  const phone = localStorage.getItem('bb-phone');
-  if (phone) {
-    const el = document.getElementById('alert-phone');
-    if (el) el.value = phone;
-    const status = document.getElementById('phone-status');
-    if (status) { status.style.display='block'; status.innerHTML=`✅ SMS active for <strong>${phone}</strong>`; }
-  }
-}
+  chatLoading = true;
+  document.getElementById('chatSendBtn').disabled = true;
 
-/* ── Trending This Week ── */
-let allTrends = [];
-let activeTrendFilter = 'all';
+  // Loading indicator
+  const area = document.getElementById('chatMessages');
+  const loader = document.createElement('div');
+  loader.className = 'loading-dots'; loader.id = 'chatLoader';
+  loader.innerHTML = '<div class="dot"></div><div class="dot"></div><div class="dot"></div>';
+  area.appendChild(loader);
+  area.scrollTop = area.scrollHeight;
 
-async function loadTrends() {
   try {
-    const res = await fetch('data/trending.json');
-    const data = await res.json();
-    allTrends = data.trends || [];
-    document.getElementById('trend-week').textContent = 'Week of ' + (data.weekOf || '') + ' • Google Trends + Twitter + Brave';
-    renderTrends(allTrends);
-  } catch (e) {
-    document.getElementById('trends-list').innerHTML = '<div class="empty">Trending data not available yet. Next scan will populate this.</div>';
-  }
-}
-
-function renderTrends(trends) {
-  const container = document.getElementById('trends-list');
-  if (!trends.length) { container.innerHTML = '<div class="empty">No trending events match this filter.</div>'; return; }
-  const cats = { music: '🎵', sports: '🏆', comedy: '🎤', festival: '🎪' };
-  const colors = { music: 'var(--purple)', sports: 'var(--green)', comedy: 'var(--yellow)', festival: 'var(--orange)' };
-  container.innerHTML = trends.map(t => {
-    const icon = cats[t.category] || '📌';
-    const color = colors[t.category] || 'var(--text3)';
-    const scoreColor = t.trendScore >= 60 ? 'var(--red)' : t.trendScore >= 40 ? 'var(--orange)' : 'var(--green)';
-    const srcIcons = t.sources.map(s => s === 'google_trends' ? '📈' : s === 'twitter' ? '🐦' : '🔍').join(' ');
-    return `<div class="trend-card">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
-        <span style="font-size:16px">${icon}</span>
-        <div class="tn" style="flex:1">${t.name}</div>
-      </div>
-      <div style="display:flex;align-items:baseline;gap:8px">
-        <div class="ts" style="color:${scoreColor}">${t.trendScore}</div>
-        <span style="font-size:10px;color:var(--text5)">${srcIcons}</span>
-      </div>
-      <div class="tx">${t.context ? t.context.substring(0, 100) : ''}</div>
-      ${t.ticketUrl ? '<a href="' + t.ticketUrl + '" target="_blank" style="font-size:11px;color:var(--yellow);margin-top:6px;display:inline-block" onclick="event.stopPropagation()">🎟️ Get Tickets</a>' : ''}
-    </div>`;
-  }).join('');
-}
-
-function filterTrends(type, btn) {
-  document.querySelectorAll('#view-trends .tab-btn').forEach(b => b.classList.remove('active'));
-  if (btn) btn.classList.add('active');
-  activeTrendFilter = type;
-  const filtered = type === 'all' ? allTrends : allTrends.filter(t => t.category === type);
-  renderTrends(filtered);
-}
-
-loadTrends();
-
-renderPresales();
-updateTimestamps();
-checkLivePresales();
-setInterval(updateTimestamps, 60000);
-setInterval(checkLivePresales, 60000);
-
-// Update emerging artist badge
-(async function() {
-  try {
-    const res = await fetch('data/rising-stars.json');
-    const data = await res.json();
-    // Sort by verification tier, then signal count, then sold-out mentions
-    const tierOrder = { RED_HOT: 3, WARM: 2, WATCH: 1 };
-    allArtists = (data.artists || []).map(a => ({...a, score: a.score || a.risingStarScore || 0})).sort((a, b) => {
-      const ta = tierOrder[a.verificationTier] || (a.confirmedSoldOut ? 3 : a.hasHotShows ? 2 : 0);
-      const tb = tierOrder[b.verificationTier] || (b.confirmedSoldOut ? 3 : b.hasHotShows ? 2 : 0);
-      if (tb !== ta) return tb - ta;
-      if ((b.totalSignals||0) !== (a.totalSignals||0)) return (b.totalSignals||0) - (a.totalSignals||0);
-      return (b.soldOutMentions||0) - (a.soldOutMentions||0);
+    const secret = localStorage.getItem('bb_api_secret') || '';
+    const resp = await fetch(apiUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        ...(secret ? { 'Authorization': `Bearer ${secret}` } : {})
+      },
+      body: JSON.stringify({ message: text, history: chatHistory })
     });
-    document.getElementById('emerging-count').textContent = allArtists.length + ' artists • ' + (data.scanDate || data.lastVerification || '');
-    const hotCount = allArtists.filter(a => a.verificationTier === 'RED_HOT' || a.confirmedSoldOut).length;
-    const badgeEl = document.getElementById('badge-emerging');
-    if (badgeEl) badgeEl.textContent = hotCount > 0 ? hotCount + ' 🔴' : allArtists.length;
-    renderEmerging(allArtists);
-    renderTrackList();
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({ error: resp.statusText }));
+      throw new Error(err.error || `HTTP ${resp.status}`);
+    }
+    const data = await resp.json();
+    loader.remove();
+    if (data.toolLog?.length) {
+      const log = document.createElement('div');
+      log.className = 'chat-tool-log';
+      log.textContent = '⚡ ' + data.toolLog.map(l => l.replace('🔍 ', '')).join(' → ');
+      area.appendChild(log);
+    }
+    addChatMsg('assistant', data.response);
+    chatHistory.push({ role: 'user', content: text });
+    chatHistory.push({ role: 'assistant', content: data.response });
+    if (chatHistory.length > 20) chatHistory = chatHistory.slice(-20);
   } catch (e) {
-    console.log('Could not load rising-stars.json:', e);
-    document.getElementById('emerging-cards').innerHTML = '<div class="empty">Rising Stars data not available.</div>';
+    loader.remove();
+    addChatMsg('assistant', `⚠️ ${e.message}`);
   }
-})();
-renderSubmissionHistory();
-loadPrefs();
-loadPhone();
-renderTodos();
-loadFeed();
+
+  chatLoading = false;
+  document.getElementById('chatSendBtn').disabled = false;
+  document.getElementById('chatInput').focus();
+}
+
+// Check if API is configured
+window.addEventListener('load', () => {
+  renderAll();
+  const apiUrl = localStorage.getItem('bb_api_url') || DEFAULT_API_URL;
+  if (!apiUrl) {
+    const url = prompt('Enter BrokerBeacon API URL:', DEFAULT_API_URL);
+    if (url) localStorage.setItem('bb_api_url', url);
+  }
+  if (!localStorage.getItem('bb_api_secret')) {
+    // Will prompt on first chat attempt
+  }
+});
 </script>
 </body>
 </html>
