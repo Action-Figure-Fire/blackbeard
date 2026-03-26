@@ -149,6 +149,21 @@ body {
 .tag-buy { display: inline-block; background: var(--red-dim); color: var(--red); padding: 1px 6px; border-radius: 3px; font-size: 11px; font-weight: 700; }
 .tag-watch { display: inline-block; background: var(--yellow-dim); color: var(--yellow); padding: 1px 6px; border-radius: 3px; font-size: 11px; font-weight: 700; }
 .tag-pass { display: inline-block; background: rgba(100,100,120,0.2); color: var(--text-dim); padding: 1px 6px; border-radius: 3px; font-size: 11px; font-weight: 700; }
+
+/* Artist name colors — rotating palette */
+.artist-name { font-weight: 700; padding: 0 2px; }
+.artist-c0 { color: #818cf8; } /* indigo */
+.artist-c1 { color: #34d399; } /* emerald */
+.artist-c2 { color: #f472b6; } /* pink */
+.artist-c3 { color: #fb923c; } /* orange */
+.artist-c4 { color: #22d3ee; } /* cyan */
+.artist-c5 { color: #a78bfa; } /* violet */
+.artist-c6 { color: #fbbf24; } /* amber */
+.artist-c7 { color: #4ade80; } /* green */
+.artist-c8 { color: #f87171; } /* red */
+.artist-c9 { color: #38bdf8; } /* sky */
+.artist-c10 { color: #e879f9; } /* fuchsia */
+.artist-c11 { color: #2dd4bf; } /* teal */
 .listings-hot { color: var(--red); }
 .listings-thin { color: var(--text-muted); font-style: italic; }
 
@@ -333,9 +348,28 @@ function renderMarkdown(text) {
   });
 
   // Color-code verdict emojis
-  html = html.replace(/🔴\s*(BUY|STRONG BUY)/gi, '<span class="tag-buy">🔴 $1</span>');
+  html = html.replace(/🔴\s*(BUY|STRONG BUY|ELEVATED DEMAND)/gi, '<span class="tag-buy">🔴 $1</span>');
   html = html.replace(/🟡\s*(WATCH|MONITOR)/gi, '<span class="tag-watch">🟡 $1</span>');
-  html = html.replace(/⚪\s*(PASS)/gi, '<span class="tag-pass">⚪ $1</span>');
+  html = html.replace(/⚪\s*(PASS|INSUFFICIENT SIGNAL)/gi, '<span class="tag-pass">⚪ $1</span>');
+
+  // Artist name colorization — detect bold artist names and assign rotating colors
+  const artistColorMap = {};
+  let colorIdx = 0;
+  html = html.replace(/<strong>([^<]{2,40})<\/strong>/g, (match, name) => {
+    // Skip non-artist strings (numbers, short words, common terms)
+    if (/^\$|^\d|^(Date|Venue|City|Get-In|Listings|Capacity|Total|Average|Price|Risk|Note|Pattern|Key|Source|Verdict|Summary|Analysis|Bull|Bear|Tier|Genre|Tour|Album|Label)$/i.test(name.trim())) {
+      return match;
+    }
+    // Skip if it's all caps (likely a header/label)
+    if (name === name.toUpperCase() && name.length > 4) return match;
+    // Assign color to unique artist names
+    const key = name.toLowerCase().trim();
+    if (!(key in artistColorMap)) {
+      artistColorMap[key] = colorIdx % 12;
+      colorIdx++;
+    }
+    return `<strong class="artist-name artist-c${artistColorMap[key]}">${name}</strong>`;
+  });
 
   // First row of table becomes header
   html = html.replace(/<table><tr>(.*?)<\/tr>/g, (match, row) => {
