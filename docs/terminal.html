@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ApexTix — Ticket Intelligence</title>
+<title>BrokerBeacon — Ticket Intelligence</title>
 <meta name="description" content="AI-powered ticket intelligence for brokers. Real-time secondary market pricing, sellout analysis, and buy/pass/watch recommendations.">
-<meta property="og:title" content="ApexTix — Ticket Intelligence">
+<meta property="og:title" content="BrokerBeacon — Ticket Intelligence">
 <meta property="og:description" content="Ask any artist. Get a buy/pass/watch in 30 seconds with real-time secondary market data.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
@@ -178,7 +178,7 @@ body {
 </div>
 
 <div class="header">
-  <div class="logo">Apex<span>Tix</span></div>
+  <div class="logo">Broker<span>Beacon</span></div>
   <div class="badge">INTELLIGENCE</div>
   <div class="right">
     <div class="status"><span class="status-dot"></span> Live Data</div>
@@ -211,16 +211,17 @@ body {
     </button>
   </div>
 </div>
-<div class="footer">APEXTIX.IO — Ticket Intelligence Terminal</div>
+<div class="footer">BROKERBEACON.IO — Ticket Intelligence Terminal</div>
 
 <script>
-const API_URL = localStorage.getItem('bb_api_url') || '';
+const DEFAULT_API_URL = 'https://blackbeard-api.brokerbeacon.workers.dev';
+const API_URL = localStorage.getItem('bb_api_url') || DEFAULT_API_URL;
 const API_SECRET = localStorage.getItem('bb_api_secret') || '';
 let conversationHistory = [];
 let isLoading = false;
 
 function showConfig() {
-  const url = prompt('Enter your ApexTix API URL:', localStorage.getItem('bb_api_url') || '');
+  const url = prompt('Enter your BrokerBeacon API URL:', localStorage.getItem('bb_api_url') || DEFAULT_API_URL);
   if (url) {
     localStorage.setItem('bb_api_url', url.trim());
     const secret = prompt('API secret (optional):', localStorage.getItem('bb_api_secret') || '');
@@ -348,7 +349,8 @@ async function sendMessage() {
 }
 
 window.addEventListener('load', () => {
-  if (!localStorage.getItem('bb_api_url')) {
+  // Config banner only shows if user cleared the default
+  if (!localStorage.getItem('bb_api_url') && !DEFAULT_API_URL) {
     document.getElementById('configBanner').style.display = 'block';
   }
 });
