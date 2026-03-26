@@ -3,22 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blackbeard — Ticket Intelligence</title>
+<title>ApexTix — Ticket Intelligence</title>
+<meta name="description" content="AI-powered ticket intelligence for brokers. Real-time secondary market pricing, sellout analysis, and buy/pass/watch recommendations.">
+<meta property="og:title" content="ApexTix — Ticket Intelligence">
+<meta property="og:description" content="Ask any artist. Get a buy/pass/watch in 30 seconds with real-time secondary market data.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
-  --bg: #0a0a0f;
-  --surface: #12121a;
-  --surface2: #1a1a25;
-  --border: #2a2a3a;
-  --gold: #d4a843;
-  --gold-dim: #a07830;
-  --text: #e8e8f0;
-  --text-dim: #8888a0;
+  --bg: #09090b;
+  --surface: #111113;
+  --surface2: #18181b;
+  --border: #27272a;
+  --accent: #6366f1;
+  --accent-dim: #4f46e5;
+  --accent-glow: rgba(99,102,241,0.15);
+  --text: #fafafa;
+  --text-dim: #a1a1aa;
   --green: #4ade80;
   --red: #f87171;
   --yellow: #fbbf24;
-  --blue: #60a5fa;
 }
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -28,86 +33,108 @@ body {
   display: flex;
   flex-direction: column;
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
 .header {
-  padding: 16px 24px;
+  padding: 14px 24px;
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
   gap: 12px;
   background: var(--surface);
 }
-.header .logo { font-size: 24px; }
-.header h1 { font-size: 18px; font-weight: 700; color: var(--gold); letter-spacing: 1px; }
-.header .subtitle { font-size: 12px; color: var(--text-dim); margin-left: auto; font-weight: 500; }
-.header .status-dot {
-  width: 8px; height: 8px; background: var(--green); border-radius: 50%;
-  display: inline-block; margin-right: 6px; animation: pulse 2s infinite;
+.header .logo {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--accent);
+  letter-spacing: -0.5px;
 }
-@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+.header .logo span { color: var(--text); }
+.header .badge {
+  font-size: 10px;
+  background: var(--accent-glow);
+  color: var(--accent);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.header .right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+.header .status {
+  font-size: 11px; color: var(--text-dim); display: flex; align-items: center; gap: 6px;
+}
+.header .status-dot {
+  width: 6px; height: 6px; background: var(--green); border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 
 .chat-area {
   flex: 1; overflow-y: auto; padding: 24px;
-  display: flex; flex-direction: column; gap: 16px;
+  display: flex; flex-direction: column; gap: 12px;
+  max-width: 900px; width: 100%; margin: 0 auto;
 }
-.chat-area::-webkit-scrollbar { width: 6px; }
+.chat-area::-webkit-scrollbar { width: 5px; }
 .chat-area::-webkit-scrollbar-track { background: transparent; }
 .chat-area::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 
 .message {
-  max-width: 85%; padding: 14px 18px; border-radius: 12px;
+  max-width: 90%; padding: 14px 18px; border-radius: 12px;
   font-size: 14px; line-height: 1.7; word-wrap: break-word;
 }
 .message.user {
-  align-self: flex-end; background: var(--gold-dim); color: #fff;
-  border-bottom-right-radius: 4px;
+  align-self: flex-end; background: var(--accent); color: #fff;
+  border-bottom-right-radius: 4px; font-weight: 500;
 }
 .message.assistant {
   align-self: flex-start; background: var(--surface2);
   border: 1px solid var(--border); border-bottom-left-radius: 4px;
 }
-.message.assistant strong { color: var(--gold); font-weight: 600; }
+.message.assistant strong { color: #fff; font-weight: 600; }
 .message.assistant code {
   background: var(--bg); padding: 2px 6px; border-radius: 4px;
-  font-family: 'JetBrains Mono', monospace; font-size: 13px;
+  font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent);
 }
-.message.assistant h2 { color: var(--gold); margin: 16px 0 8px 0; font-size: 16px; }
-.message.assistant h3 { color: var(--gold); margin: 12px 0 6px 0; font-size: 14px; }
+.message.assistant h2 { color: #fff; margin: 16px 0 8px 0; font-size: 15px; font-weight: 700; }
+.message.assistant h3 { color: var(--text-dim); margin: 12px 0 6px 0; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
 .message.assistant table {
-  border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 13px;
+  border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 12px;
+  font-family: 'JetBrains Mono', monospace;
 }
 .message.assistant th, .message.assistant td {
-  border: 1px solid var(--border); padding: 6px 10px; text-align: left;
+  border: 1px solid var(--border); padding: 5px 8px; text-align: left;
 }
-.message.assistant th { background: var(--bg); color: var(--gold); font-weight: 600; }
+.message.assistant th { background: var(--bg); color: var(--accent); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.3px; }
 .message.assistant ul, .message.assistant ol { padding-left: 20px; margin: 6px 0; }
 .message.assistant li { margin: 3px 0; }
-.message.assistant hr { border: none; border-top: 1px solid var(--border); margin: 12px 0; }
+.message.assistant hr { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
 
 .tool-log {
   font-size: 11px; color: var(--text-dim); padding: 6px 12px;
-  background: var(--bg); border-radius: 6px; margin-bottom: 4px;
-  font-family: 'JetBrains Mono', monospace; align-self: flex-start;
+  background: var(--bg); border-radius: 6px; margin-bottom: 2px; border: 1px solid var(--border);
+  font-family: 'JetBrains Mono', monospace; align-self: flex-start; max-width: 90%;
 }
 
 .welcome {
   display: flex; flex-direction: column; align-items: center;
-  justify-content: center; flex: 1; gap: 16px; text-align: center; padding: 40px;
+  justify-content: center; flex: 1; gap: 20px; text-align: center; padding: 40px 20px;
 }
-.welcome .icon { font-size: 64px; }
-.welcome h2 { font-size: 24px; color: var(--gold); font-weight: 700; }
-.welcome p { color: var(--text-dim); max-width: 500px; line-height: 1.6; }
-.welcome .examples { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 12px; }
+.welcome .icon { font-size: 48px; }
+.welcome h2 { font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
+.welcome h2 span { color: var(--accent); }
+.welcome p { color: var(--text-dim); max-width: 480px; line-height: 1.6; font-size: 15px; }
+.welcome .examples {
+  display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 8px; max-width: 600px;
+}
 .welcome .example-btn {
-  background: var(--surface2); border: 1px solid var(--border); color: var(--text);
+  background: var(--surface2); border: 1px solid var(--border); color: var(--text-dim);
   padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 13px; transition: all 0.2s;
 }
-.welcome .example-btn:hover { border-color: var(--gold); background: var(--surface); }
+.welcome .example-btn:hover { border-color: var(--accent); color: var(--text); background: var(--accent-glow); }
 
 .loading { display: flex; gap: 6px; padding: 14px 18px; align-self: flex-start; }
 .loading .dot {
-  width: 8px; height: 8px; background: var(--gold-dim); border-radius: 50%;
+  width: 7px; height: 7px; background: var(--accent); border-radius: 50%;
   animation: bounce 1.4s infinite ease-in-out;
 }
 .loading .dot:nth-child(2) { animation-delay: 0.16s; }
@@ -115,61 +142,61 @@ body {
 @keyframes bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1); } }
 
 .input-area { padding: 16px 24px; border-top: 1px solid var(--border); background: var(--surface); }
-.input-wrapper { display: flex; gap: 12px; max-width: 900px; margin: 0 auto; }
+.input-wrapper { display: flex; gap: 10px; max-width: 900px; margin: 0 auto; }
 .input-wrapper textarea {
-  flex: 1; background: var(--surface2); border: 1px solid var(--border); border-radius: 12px;
+  flex: 1; background: var(--surface2); border: 1px solid var(--border); border-radius: 10px;
   color: var(--text); padding: 12px 16px; font-size: 14px; font-family: 'Inter', sans-serif;
-  resize: none; outline: none; min-height: 48px; max-height: 150px; transition: border-color 0.2s;
+  resize: none; outline: none; min-height: 46px; max-height: 150px; transition: border-color 0.2s;
 }
-.input-wrapper textarea:focus { border-color: var(--gold); }
+.input-wrapper textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
 .input-wrapper textarea::placeholder { color: var(--text-dim); }
 .send-btn {
-  background: var(--gold); border: none; border-radius: 12px; width: 48px; height: 48px;
+  background: var(--accent); border: none; border-radius: 10px; width: 46px; height: 46px;
   cursor: pointer; display: flex; align-items: center; justify-content: center;
-  transition: all 0.2s; flex-shrink: 0; align-self: flex-end;
+  transition: all 0.15s; flex-shrink: 0; align-self: flex-end;
 }
-.send-btn:hover { background: var(--gold-dim); transform: scale(1.05); }
-.send-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
-.send-btn svg { width: 20px; height: 20px; fill: var(--bg); }
+.send-btn:hover { background: var(--accent-dim); transform: scale(1.05); }
+.send-btn:disabled { opacity: 0.3; cursor: not-allowed; transform: none; }
+.send-btn svg { width: 18px; height: 18px; fill: #fff; }
 
-.powered { text-align: center; font-size: 11px; color: var(--text-dim); padding: 8px; opacity: 0.5; }
+.footer {
+  text-align: center; font-size: 10px; color: var(--text-dim); padding: 6px; opacity: 0.4;
+  letter-spacing: 0.3px;
+}
 
-/* Config banner */
 .config-banner {
   background: var(--surface2); border-bottom: 1px solid var(--border);
-  padding: 10px 24px; font-size: 12px; color: var(--yellow); display: none;
-  text-align: center;
+  padding: 10px 24px; font-size: 12px; color: var(--yellow); display: none; text-align: center;
 }
-.config-banner a { color: var(--gold); }
+.config-banner a { color: var(--accent); cursor: pointer; text-decoration: underline; }
 </style>
 </head>
 <body>
 
 <div class="config-banner" id="configBanner">
-  ⚠️ Backend not configured. Set your API URL below or <a href="#" onclick="showConfig()">configure now</a>.
+  ⚠️ Backend not connected. <a onclick="showConfig()">Configure API endpoint</a>
 </div>
 
 <div class="header">
-  <span class="logo">🏴‍☠️</span>
-  <h1>BLACKBEARD</h1>
-  <div class="subtitle">
-    <span class="status-dot"></span>
-    Ticket Intelligence Terminal
+  <div class="logo">Apex<span>Tix</span></div>
+  <div class="badge">INTELLIGENCE</div>
+  <div class="right">
+    <div class="status"><span class="status-dot"></span> Live Data</div>
   </div>
 </div>
 
 <div class="chat-area" id="chatArea">
   <div class="welcome" id="welcome">
-    <div class="icon">🏴‍☠️</div>
-    <h2>Blackbeard Intelligence</h2>
-    <p>Ask about any artist, tour, or event. Get real-time secondary market pricing, sellout analysis, and buy/pass/watch recommendations backed by live data.</p>
+    <div class="icon">🎯</div>
+    <h2>Ask <span>anything</span> about tickets.</h2>
+    <p>Real-time secondary market pricing, sellout analysis, and buy/pass/watch recommendations — powered by live data from multiple platforms.</p>
     <div class="examples">
       <button class="example-btn" onclick="sendExample(this)">Run the Feid tour</button>
       <button class="example-btn" onclick="sendExample(this)">Deep dive on Don West</button>
       <button class="example-btn" onclick="sendExample(this)">Best LATAM acts touring theaters</button>
-      <button class="example-btn" onclick="sendExample(this)">UK breakout artists with first US tours</button>
-      <button class="example-btn" onclick="sendExample(this)">What's hot under 3K cap this week?</button>
-      <button class="example-btn" onclick="sendExample(this)">Run Angine de Poitrine</button>
+      <button class="example-btn" onclick="sendExample(this)">UK breakout artists on first US tours</button>
+      <button class="example-btn" onclick="sendExample(this)">What's hot under 3K cap?</button>
+      <button class="example-btn" onclick="sendExample(this)">Should I buy Banda MS arena dates?</button>
     </div>
   </div>
 </div>
@@ -184,26 +211,19 @@ body {
     </button>
   </div>
 </div>
-<div class="powered">Powered by Blackbeard Intelligence Engine · v1.0</div>
+<div class="footer">APEXTIX.IO — Ticket Intelligence Terminal</div>
 
 <script>
-// ============================================================
-// BLACKBEARD TERMINAL — FRONTEND
-// Talks to Cloudflare Worker backend. No API keys in browser.
-// ============================================================
-
-// CONFIGURE THIS: Your Cloudflare Worker URL
 const API_URL = localStorage.getItem('bb_api_url') || '';
 const API_SECRET = localStorage.getItem('bb_api_secret') || '';
-
 let conversationHistory = [];
 let isLoading = false;
 
 function showConfig() {
-  const url = prompt('Enter your Blackbeard API URL (Cloudflare Worker):', API_URL);
+  const url = prompt('Enter your ApexTix API URL:', localStorage.getItem('bb_api_url') || '');
   if (url) {
     localStorage.setItem('bb_api_url', url.trim());
-    const secret = prompt('Enter your API secret (optional, for auth):', API_SECRET);
+    const secret = prompt('API secret (optional):', localStorage.getItem('bb_api_secret') || '');
     if (secret !== null) localStorage.setItem('bb_api_secret', secret.trim());
     location.reload();
   }
@@ -221,28 +241,19 @@ function sendExample(btn) {
 
 function renderMarkdown(text) {
   return text
-    // Headers
     .replace(/^### (.*$)/gm, '<h3>$1</h3>')
     .replace(/^## (.*$)/gm, '<h2>$1</h2>')
-    // Bold
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    // Code
     .replace(/`([^`]+)`/g, '<code>$1</code>')
-    // Horizontal rules
     .replace(/^---$/gm, '<hr>')
-    // Tables
     .replace(/^\|(.+)\|$/gm, (match) => {
       const cells = match.split('|').filter(c => c.trim());
-      if (cells.every(c => /^[\s-:]+$/.test(c))) return ''; // separator row
-      const tag = match.includes('---') ? 'td' : 'td';
-      return '<tr>' + cells.map(c => `<${tag}>${c.trim()}</${tag}>`).join('') + '</tr>';
+      if (cells.every(c => /^[\s\-:]+$/.test(c))) return '';
+      return '<tr>' + cells.map(c => `<td>${c.trim()}</td>`).join('') + '</tr>';
     })
-    // Wrap consecutive tr in table
     .replace(/((<tr>.*<\/tr>\n?)+)/g, '<table>$1</table>')
-    // Unordered lists
     .replace(/^- (.*$)/gm, '<li>$1</li>')
     .replace(/((<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>')
-    // Line breaks (preserve double newlines as paragraphs)
     .replace(/\n\n/g, '<br><br>')
     .replace(/\n/g, '<br>');
 }
@@ -251,7 +262,6 @@ function addMessage(role, content) {
   const chatArea = document.getElementById('chatArea');
   const welcome = document.getElementById('welcome');
   if (welcome) welcome.style.display = 'none';
-
   const div = document.createElement('div');
   div.className = 'message ' + role;
   if (role === 'assistant') {
@@ -276,8 +286,7 @@ function addToolLog(logs) {
 function showLoading() {
   const chatArea = document.getElementById('chatArea');
   const div = document.createElement('div');
-  div.className = 'loading';
-  div.id = 'loadingIndicator';
+  div.className = 'loading'; div.id = 'loadingIndicator';
   div.innerHTML = '<div class="dot"></div><div class="dot"></div><div class="dot"></div>';
   chatArea.appendChild(div);
   chatArea.scrollTop = chatArea.scrollHeight;
@@ -290,19 +299,14 @@ function hideLoading() {
 
 async function sendMessage() {
   if (isLoading) return;
-
   const apiUrl = localStorage.getItem('bb_api_url');
-  if (!apiUrl) {
-    showConfig();
-    return;
-  }
+  if (!apiUrl) { showConfig(); return; }
 
   const input = document.getElementById('userInput');
   const text = input.value.trim();
   if (!text) return;
 
-  input.value = '';
-  input.style.height = 'auto';
+  input.value = ''; input.style.height = 'auto';
   addMessage('user', text);
 
   isLoading = true;
@@ -317,10 +321,7 @@ async function sendMessage() {
         'Content-Type': 'application/json',
         ...(secret ? { 'Authorization': `Bearer ${secret}` } : {})
       },
-      body: JSON.stringify({
-        message: text,
-        history: conversationHistory
-      })
+      body: JSON.stringify({ message: text, history: conversationHistory })
     });
 
     if (!resp.ok) {
@@ -329,23 +330,16 @@ async function sendMessage() {
     }
 
     const data = await resp.json();
-
     hideLoading();
     addToolLog(data.toolLog);
     addMessage('assistant', data.response);
-
-    // Update conversation history
     conversationHistory.push({ role: 'user', content: text });
     conversationHistory.push({ role: 'assistant', content: data.response });
-
-    // Keep history manageable (last 10 exchanges)
-    if (conversationHistory.length > 20) {
-      conversationHistory = conversationHistory.slice(-20);
-    }
+    if (conversationHistory.length > 20) conversationHistory = conversationHistory.slice(-20);
 
   } catch (e) {
     hideLoading();
-    addMessage('assistant', `⚠️ Error: ${e.message}`);
+    addMessage('assistant', `⚠️ ${e.message}`);
   }
 
   isLoading = false;
@@ -353,7 +347,6 @@ async function sendMessage() {
   document.getElementById('userInput').focus();
 }
 
-// Check config on load
 window.addEventListener('load', () => {
   if (!localStorage.getItem('bb_api_url')) {
     document.getElementById('configBanner').style.display = 'block';
