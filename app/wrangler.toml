@@ -1,0 +1,11 @@
+name = "blackbeard-api"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Set these via: npx wrangler secret put ANTHROPIC_API_KEY
+# npx wrangler secret put BRAVE_API_KEY
+# npx wrangler secret put APP_SECRET
+# npx wrangler secret put MODEL
+
+[vars]
+MODEL = "claude-sonnet-4-20250514"

@@ -30,7 +30,6 @@ body {
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
-/* Header */
 .header {
   padding: 16px 24px;
   border-bottom: 1px solid var(--border);
@@ -40,266 +39,115 @@ body {
   background: var(--surface);
 }
 .header .logo { font-size: 24px; }
-.header h1 {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--gold);
-  letter-spacing: 1px;
-}
-.header .subtitle {
-  font-size: 12px;
-  color: var(--text-dim);
-  margin-left: auto;
-  font-weight: 500;
-}
+.header h1 { font-size: 18px; font-weight: 700; color: var(--gold); letter-spacing: 1px; }
+.header .subtitle { font-size: 12px; color: var(--text-dim); margin-left: auto; font-weight: 500; }
 .header .status-dot {
-  width: 8px; height: 8px;
-  background: var(--green);
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 6px;
-  animation: pulse 2s infinite;
+  width: 8px; height: 8px; background: var(--green); border-radius: 50%;
+  display: inline-block; margin-right: 6px; animation: pulse 2s infinite;
 }
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
-}
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
 
-/* Chat Area */
 .chat-area {
-  flex: 1;
-  overflow-y: auto;
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  flex: 1; overflow-y: auto; padding: 24px;
+  display: flex; flex-direction: column; gap: 16px;
 }
 .chat-area::-webkit-scrollbar { width: 6px; }
 .chat-area::-webkit-scrollbar-track { background: transparent; }
 .chat-area::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 
-/* Messages */
 .message {
-  max-width: 85%;
-  padding: 14px 18px;
-  border-radius: 12px;
-  font-size: 14px;
-  line-height: 1.6;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  max-width: 85%; padding: 14px 18px; border-radius: 12px;
+  font-size: 14px; line-height: 1.7; word-wrap: break-word;
 }
 .message.user {
-  align-self: flex-end;
-  background: var(--gold-dim);
-  color: #fff;
+  align-self: flex-end; background: var(--gold-dim); color: #fff;
   border-bottom-right-radius: 4px;
 }
 .message.assistant {
-  align-self: flex-start;
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  border-bottom-left-radius: 4px;
+  align-self: flex-start; background: var(--surface2);
+  border: 1px solid var(--border); border-bottom-left-radius: 4px;
 }
-.message.assistant .tier-red { color: var(--red); font-weight: 700; }
-.message.assistant .tier-yellow { color: var(--yellow); font-weight: 700; }
-.message.assistant .tier-green { color: var(--green); font-weight: 700; }
-
-/* Markdown-ish rendering */
 .message.assistant strong { color: var(--gold); font-weight: 600; }
 .message.assistant code {
-  background: var(--bg);
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 13px;
+  background: var(--bg); padding: 2px 6px; border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace; font-size: 13px;
 }
-.message.assistant h2, .message.assistant h3 {
-  color: var(--gold);
-  margin: 12px 0 6px 0;
+.message.assistant h2 { color: var(--gold); margin: 16px 0 8px 0; font-size: 16px; }
+.message.assistant h3 { color: var(--gold); margin: 12px 0 6px 0; font-size: 14px; }
+.message.assistant table {
+  border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 13px;
+}
+.message.assistant th, .message.assistant td {
+  border: 1px solid var(--border); padding: 6px 10px; text-align: left;
+}
+.message.assistant th { background: var(--bg); color: var(--gold); font-weight: 600; }
+.message.assistant ul, .message.assistant ol { padding-left: 20px; margin: 6px 0; }
+.message.assistant li { margin: 3px 0; }
+.message.assistant hr { border: none; border-top: 1px solid var(--border); margin: 12px 0; }
+
+.tool-log {
+  font-size: 11px; color: var(--text-dim); padding: 6px 12px;
+  background: var(--bg); border-radius: 6px; margin-bottom: 4px;
+  font-family: 'JetBrains Mono', monospace; align-self: flex-start;
 }
 
-/* Welcome */
 .welcome {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  gap: 16px;
-  text-align: center;
-  padding: 40px;
+  display: flex; flex-direction: column; align-items: center;
+  justify-content: center; flex: 1; gap: 16px; text-align: center; padding: 40px;
 }
 .welcome .icon { font-size: 64px; }
-.welcome h2 {
-  font-size: 24px;
-  color: var(--gold);
-  font-weight: 700;
-}
-.welcome p {
-  color: var(--text-dim);
-  max-width: 500px;
-  line-height: 1.6;
-}
-.welcome .examples {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: center;
-  margin-top: 12px;
-}
+.welcome h2 { font-size: 24px; color: var(--gold); font-weight: 700; }
+.welcome p { color: var(--text-dim); max-width: 500px; line-height: 1.6; }
+.welcome .examples { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 12px; }
 .welcome .example-btn {
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  color: var(--text);
-  padding: 8px 16px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 13px;
-  transition: all 0.2s;
+  background: var(--surface2); border: 1px solid var(--border); color: var(--text);
+  padding: 8px 16px; border-radius: 8px; cursor: pointer; font-size: 13px; transition: all 0.2s;
 }
-.welcome .example-btn:hover {
-  border-color: var(--gold);
-  background: var(--surface);
-}
+.welcome .example-btn:hover { border-color: var(--gold); background: var(--surface); }
 
-/* Loading */
-.loading {
-  display: flex;
-  gap: 6px;
-  padding: 14px 18px;
-  align-self: flex-start;
-}
+.loading { display: flex; gap: 6px; padding: 14px 18px; align-self: flex-start; }
 .loading .dot {
-  width: 8px; height: 8px;
-  background: var(--gold-dim);
-  border-radius: 50%;
+  width: 8px; height: 8px; background: var(--gold-dim); border-radius: 50%;
   animation: bounce 1.4s infinite ease-in-out;
 }
 .loading .dot:nth-child(2) { animation-delay: 0.16s; }
 .loading .dot:nth-child(3) { animation-delay: 0.32s; }
-@keyframes bounce {
-  0%, 80%, 100% { transform: scale(0); }
-  40% { transform: scale(1); }
-}
+@keyframes bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1); } }
 
-/* Input Area */
-.input-area {
-  padding: 16px 24px;
-  border-top: 1px solid var(--border);
-  background: var(--surface);
-}
-.input-wrapper {
-  display: flex;
-  gap: 12px;
-  max-width: 900px;
-  margin: 0 auto;
-}
+.input-area { padding: 16px 24px; border-top: 1px solid var(--border); background: var(--surface); }
+.input-wrapper { display: flex; gap: 12px; max-width: 900px; margin: 0 auto; }
 .input-wrapper textarea {
-  flex: 1;
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  color: var(--text);
-  padding: 12px 16px;
-  font-size: 14px;
-  font-family: 'Inter', sans-serif;
-  resize: none;
-  outline: none;
-  min-height: 48px;
-  max-height: 150px;
-  transition: border-color 0.2s;
+  flex: 1; background: var(--surface2); border: 1px solid var(--border); border-radius: 12px;
+  color: var(--text); padding: 12px 16px; font-size: 14px; font-family: 'Inter', sans-serif;
+  resize: none; outline: none; min-height: 48px; max-height: 150px; transition: border-color 0.2s;
 }
 .input-wrapper textarea:focus { border-color: var(--gold); }
 .input-wrapper textarea::placeholder { color: var(--text-dim); }
 .send-btn {
-  background: var(--gold);
-  border: none;
-  border-radius: 12px;
-  width: 48px;
-  height: 48px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s;
-  flex-shrink: 0;
-  align-self: flex-end;
+  background: var(--gold); border: none; border-radius: 12px; width: 48px; height: 48px;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s; flex-shrink: 0; align-self: flex-end;
 }
 .send-btn:hover { background: var(--gold-dim); transform: scale(1.05); }
 .send-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
 .send-btn svg { width: 20px; height: 20px; fill: var(--bg); }
 
-/* Settings Modal */
-.settings-btn {
-  background: none;
-  border: 1px solid var(--border);
-  color: var(--text-dim);
-  padding: 6px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 12px;
-  transition: all 0.2s;
-}
-.settings-btn:hover { border-color: var(--gold); color: var(--gold); }
-.modal-overlay {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.7);
-  z-index: 100;
-  align-items: center;
-  justify-content: center;
-}
-.modal-overlay.active { display: flex; }
-.modal {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 24px;
-  width: 90%;
-  max-width: 480px;
-}
-.modal h3 { color: var(--gold); margin-bottom: 16px; font-size: 16px; }
-.modal label {
-  display: block;
-  font-size: 12px;
-  color: var(--text-dim);
-  margin-bottom: 6px;
-  margin-top: 12px;
-}
-.modal input, .modal select {
-  width: 100%;
-  background: var(--surface2);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  color: var(--text);
-  padding: 10px 12px;
-  font-size: 14px;
-  font-family: 'Inter', sans-serif;
-  outline: none;
-}
-.modal input:focus, .modal select:focus { border-color: var(--gold); }
-.modal .btn-row { display: flex; gap: 8px; margin-top: 20px; justify-content: flex-end; }
-.modal .btn {
-  padding: 8px 20px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  font-size: 13px;
-  font-weight: 500;
-}
-.modal .btn-save { background: var(--gold); color: var(--bg); }
-.modal .btn-cancel { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
-.powered {
+.powered { text-align: center; font-size: 11px; color: var(--text-dim); padding: 8px; opacity: 0.5; }
+
+/* Config banner */
+.config-banner {
+  background: var(--surface2); border-bottom: 1px solid var(--border);
+  padding: 10px 24px; font-size: 12px; color: var(--yellow); display: none;
   text-align: center;
-  font-size: 11px;
-  color: var(--text-dim);
-  padding: 8px;
-  opacity: 0.5;
 }
+.config-banner a { color: var(--gold); }
 </style>
 </head>
 <body>
+
+<div class="config-banner" id="configBanner">
+  ⚠️ Backend not configured. Set your API URL below or <a href="#" onclick="showConfig()">configure now</a>.
+</div>
 
 <div class="header">
   <span class="logo">🏴‍☠️</span>
@@ -308,20 +156,20 @@ body {
     <span class="status-dot"></span>
     Ticket Intelligence Terminal
   </div>
-  <button class="settings-btn" onclick="openSettings()">⚙ Settings</button>
 </div>
 
 <div class="chat-area" id="chatArea">
   <div class="welcome" id="welcome">
     <div class="icon">🏴‍☠️</div>
     <h2>Blackbeard Intelligence</h2>
-    <p>Ask about any artist, tour, or event. Get real-time secondary market pricing, sellout analysis, and buy/pass/watch recommendations.</p>
+    <p>Ask about any artist, tour, or event. Get real-time secondary market pricing, sellout analysis, and buy/pass/watch recommendations backed by live data.</p>
     <div class="examples">
       <button class="example-btn" onclick="sendExample(this)">Run the Feid tour</button>
-      <button class="example-btn" onclick="sendExample(this)">What's hot this week under 3K cap?</button>
-      <button class="example-btn" onclick="sendExample(this)">Deep dive on Angine de Poitrine</button>
-      <button class="example-btn" onclick="sendExample(this)">Best LATAM acts touring theaters right now</button>
+      <button class="example-btn" onclick="sendExample(this)">Deep dive on Don West</button>
+      <button class="example-btn" onclick="sendExample(this)">Best LATAM acts touring theaters</button>
       <button class="example-btn" onclick="sendExample(this)">UK breakout artists with first US tours</button>
+      <button class="example-btn" onclick="sendExample(this)">What's hot under 3K cap this week?</button>
+      <button class="example-btn" onclick="sendExample(this)">Run Angine de Poitrine</button>
     </div>
   </div>
 </div>
@@ -338,146 +186,27 @@ body {
 </div>
 <div class="powered">Powered by Blackbeard Intelligence Engine · v1.0</div>
 
-<!-- Settings Modal -->
-<div class="modal-overlay" id="settingsModal">
-  <div class="modal">
-    <h3>⚙ Settings</h3>
-    <label>Anthropic API Key</label>
-    <input type="password" id="apiKey" placeholder="sk-ant-..." />
-    <label>Model</label>
-    <select id="modelSelect">
-      <option value="claude-sonnet-4-20250514">Claude Sonnet (fast, cheap)</option>
-      <option value="claude-opus-4-20250514">Claude Opus (best)</option>
-    </select>
-    <label>Brave Search API Key (optional)</label>
-    <input type="password" id="braveKey" placeholder="BSA..." />
-    <div class="btn-row">
-      <button class="btn btn-cancel" onclick="closeSettings()">Cancel</button>
-      <button class="btn btn-save" onclick="saveSettings()">Save</button>
-    </div>
-  </div>
-</div>
-
 <script>
 // ============================================================
-// BLACKBEARD INTELLIGENCE TERMINAL
+// BLACKBEARD TERMINAL — FRONTEND
+// Talks to Cloudflare Worker backend. No API keys in browser.
 // ============================================================
 
-const SYSTEM_PROMPT = `You are Blackbeard, an AI ticket intelligence terminal for ticket brokers. You provide real-time secondary market analysis, buy/pass/watch recommendations, and artist deep dives.
+// CONFIGURE THIS: Your Cloudflare Worker URL
+const API_URL = localStorage.getItem('bb_api_url') || '';
+const API_SECRET = localStorage.getItem('bb_api_secret') || '';
 
-## YOUR CAPABILITIES
-You have access to tools that let you:
-1. Pull real-time pricing from Vivid Seats internal API (get-in price, listing count, ticket count, venue capacity)
-2. Search the web via Brave Search for sellout history, tour announcements, streaming data
-3. Look up artist tour dates via Bandsintown API
-
-## ANALYSIS RULES
-- Under 10 listings = ⚠️ THIN (not actionable, could be scalper noise)
-- Uniform pricing across 4+ dates with identical listing counts = speculative broker inventory, not real demand
-- Listener-to-venue ratio: Spotify monthly listeners ÷ venue capacity. Higher = more scarcity = better buy
-- GET-IN price only. Ignore averages.
-- DC is a premium market (40-80% above SF/ATL for same artists)
-- Haitian diaspora corridor: Miami→Brooklyn→DC→Montreal = 3-5x non-diaspora
-- LATAM diaspora corridor: Miami→NYC→DC→Boston = premium pricing
-- UK/International breakout → first US headline tour = HIGHEST signal buy indicator
-- Support act for megastar + own headline tour = spike signal
-- Citi presale code is ALWAYS 412800
-
-## SCORING TIERS
-- 🔴 BUY — Strong scarcity signal, confirmed demand, actionable now
-- 🟡 WATCH — Interesting fundamentals, needs confirmation (post-onsale data, more listings)
-- ⚪ PASS — No scarcity signal, face value territory, or too much supply
-
-## RESPONSE FORMAT
-- Be direct. Buy, pass, or watch. No hedge words.
-- Show the data: prices, listing counts, venue caps, Spotify numbers
-- Use tables for tour data when showing multiple dates
-- Always calculate listener-to-venue ratio for emerging artists
-- Compare to reference cases when relevant (RAYE, Nessa Barrett, Naïka, Feid)
-- End with a clear verdict and specific buy recommendations (which cities, why)
-
-## VENUE SCALE RULES
-- Under 3K cap = our sweet spot (scarcity-driven)
-- 3K-10K = selective (only if demand signals are strong)  
-- Over 10K = generally pass (too much supply) unless LATAM diaspora act
-
-## REFERENCE CASES
-- RAYE: 55M Spotify, UK→US breakout, SF $334 sold out. The template.
-- Nessa Barrett: 14M TikTok, 150-cap venues, $134 floor. The "ratio formula."
-- Naïka: Haitian-American R&B, Miami $356, diaspora demand explosion
-- Feid: 36.6M Spotify at 1-2K Fillmores, $170-381. LATAM theater = money
-- Angine de Poitrine: 643K Spotify, 28 sold-out shows, 350-600 cap. Hidden gem template.
-- Don West: 3.2M Spotify, first US tour, 2 dates at 525 cap. UK breakout in progress.`;
-
-// Tool definitions for Claude
-const TOOLS = [
-  {
-    name: "vivid_seats_search",
-    description: "Search for an artist on Vivid Seats and get real-time secondary market pricing for all their shows. Returns get-in price, listing count, ticket count, venue name, city, capacity, and date for each show.",
-    input_schema: {
-      type: "object",
-      properties: {
-        performer_id: {
-          type: "number",
-          description: "Vivid Seats performer ID. If unknown, use brave_search first to find it."
-        }
-      },
-      required: ["performer_id"]
-    }
-  },
-  {
-    name: "brave_search",
-    description: "Search the web using Brave Search. Use for finding Vivid Seats performer IDs, Spotify listener counts, sellout history, tour announcements, presale info, and general artist research.",
-    input_schema: {
-      type: "object",
-      properties: {
-        query: { type: "string", description: "Search query" }
-      },
-      required: ["query"]
-    }
-  },
-  {
-    name: "bandsintown_events",
-    description: "Get upcoming tour dates for an artist from Bandsintown API. Returns venue, city, date, and capacity.",
-    input_schema: {
-      type: "object",
-      properties: {
-        artist_name: { type: "string", description: "Artist name (URL-safe)" }
-      },
-      required: ["artist_name"]
-    }
-  }
-];
-
-let messages = [];
+let conversationHistory = [];
 let isLoading = false;
 
-// Settings
-function loadSettings() {
-  return {
-    apiKey: localStorage.getItem('bb_api_key') || '',
-    model: localStorage.getItem('bb_model') || 'claude-sonnet-4-20250514',
-    braveKey: localStorage.getItem('bb_brave_key') || ''
-  };
-}
-
-function openSettings() {
-  const s = loadSettings();
-  document.getElementById('apiKey').value = s.apiKey;
-  document.getElementById('modelSelect').value = s.model;
-  document.getElementById('braveKey').value = s.braveKey;
-  document.getElementById('settingsModal').classList.add('active');
-}
-
-function closeSettings() {
-  document.getElementById('settingsModal').classList.remove('active');
-}
-
-function saveSettings() {
-  localStorage.setItem('bb_api_key', document.getElementById('apiKey').value.trim());
-  localStorage.setItem('bb_model', document.getElementById('modelSelect').value);
-  localStorage.setItem('bb_brave_key', document.getElementById('braveKey').value.trim());
-  closeSettings();
+function showConfig() {
+  const url = prompt('Enter your Blackbeard API URL (Cloudflare Worker):', API_URL);
+  if (url) {
+    localStorage.setItem('bb_api_url', url.trim());
+    const secret = prompt('Enter your API secret (optional, for auth):', API_SECRET);
+    if (secret !== null) localStorage.setItem('bb_api_secret', secret.trim());
+    location.reload();
+  }
 }
 
 function autoResize(el) {
@@ -490,6 +219,34 @@ function sendExample(btn) {
   sendMessage();
 }
 
+function renderMarkdown(text) {
+  return text
+    // Headers
+    .replace(/^### (.*$)/gm, '<h3>$1</h3>')
+    .replace(/^## (.*$)/gm, '<h2>$1</h2>')
+    // Bold
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    // Code
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    // Horizontal rules
+    .replace(/^---$/gm, '<hr>')
+    // Tables
+    .replace(/^\|(.+)\|$/gm, (match) => {
+      const cells = match.split('|').filter(c => c.trim());
+      if (cells.every(c => /^[\s-:]+$/.test(c))) return ''; // separator row
+      const tag = match.includes('---') ? 'td' : 'td';
+      return '<tr>' + cells.map(c => `<${tag}>${c.trim()}</${tag}>`).join('') + '</tr>';
+    })
+    // Wrap consecutive tr in table
+    .replace(/((<tr>.*<\/tr>\n?)+)/g, '<table>$1</table>')
+    // Unordered lists
+    .replace(/^- (.*$)/gm, '<li>$1</li>')
+    .replace(/((<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>')
+    // Line breaks (preserve double newlines as paragraphs)
+    .replace(/\n\n/g, '<br><br>')
+    .replace(/\n/g, '<br>');
+}
+
 function addMessage(role, content) {
   const chatArea = document.getElementById('chatArea');
   const welcome = document.getElementById('welcome');
@@ -497,22 +254,23 @@ function addMessage(role, content) {
 
   const div = document.createElement('div');
   div.className = 'message ' + role;
-  div.innerHTML = formatMessage(content);
+  if (role === 'assistant') {
+    div.innerHTML = renderMarkdown(content);
+  } else {
+    div.textContent = content;
+  }
   chatArea.appendChild(div);
   chatArea.scrollTop = chatArea.scrollHeight;
   return div;
 }
 
-function formatMessage(text) {
-  // Basic markdown-ish formatting
-  return text
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/^## (.*$)/gm, '<h2>$1</h2>')
-    .replace(/^### (.*$)/gm, '<h3>$1</h3>')
-    .replace(/🔴/g, '<span class="tier-red">🔴</span>')
-    .replace(/🟡/g, '<span class="tier-yellow">🟡</span>')
-    .replace(/⚪/g, '<span class="tier-green">⚪</span>');
+function addToolLog(logs) {
+  if (!logs || logs.length === 0) return;
+  const chatArea = document.getElementById('chatArea');
+  const div = document.createElement('div');
+  div.className = 'tool-log';
+  div.textContent = logs.join(' → ');
+  chatArea.appendChild(div);
 }
 
 function showLoading() {
@@ -530,128 +288,15 @@ function hideLoading() {
   if (el) el.remove();
 }
 
-// ============================================================
-// TOOL EXECUTION
-// ============================================================
-
-async function executeVividSeats(performerId) {
-  try {
-    const resp = await fetch(
-      `https://www.vividseats.com/hermes/api/v1/productions?performerId=${performerId}&limit=50`,
-      { headers: { 'User-Agent': 'Mozilla/5.0' } }
-    );
-    const data = await resp.json();
-    const items = (data.items || [])
-      .filter(i => i.minPrice)
-      .filter(i => {
-        const cc = i.venue?.countryCode;
-        return !cc || cc === 'US' || cc === 'CA';
-      });
-    return JSON.stringify(items.map(i => ({
-      date: (i.localDate || '').split('T')[0],
-      price: i.minPrice,
-      listings: i.listingCount || 0,
-      tickets: i.ticketCount || 0,
-      venue: i.venue?.name || '?',
-      city: i.venue?.city || '?',
-      state: i.venue?.stateCode || i.venue?.countryCode || '?',
-      capacity: i.venue?.capacity || null
-    })));
-  } catch (e) {
-    return JSON.stringify({ error: e.message });
-  }
-}
-
-async function executeBraveSearch(query) {
-  const s = loadSettings();
-  if (!s.braveKey) {
-    return JSON.stringify({ error: "No Brave API key configured. Go to Settings to add one." });
-  }
-  try {
-    const resp = await fetch(
-      `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}&count=5`,
-      { headers: { 'X-Subscription-Token': s.braveKey, 'Accept': 'application/json' } }
-    );
-    const data = await resp.json();
-    return JSON.stringify((data.web?.results || []).map(r => ({
-      title: r.title,
-      url: r.url,
-      description: r.description
-    })));
-  } catch (e) {
-    return JSON.stringify({ error: e.message });
-  }
-}
-
-async function executeBandsintown(artistName) {
-  try {
-    const resp = await fetch(
-      `https://rest.bandsintown.com/artists/${encodeURIComponent(artistName)}/events?app_id=squarespace-blackbeard`
-    );
-    const events = await resp.json();
-    if (!Array.isArray(events)) return JSON.stringify({ error: "No events found" });
-    return JSON.stringify(events.slice(0, 30).map(e => ({
-      date: (e.datetime || '').split('T')[0],
-      venue: e.venue?.name,
-      city: e.venue?.city,
-      region: e.venue?.region || e.venue?.country,
-      capacity: e.venue?.capacity || null
-    })));
-  } catch (e) {
-    return JSON.stringify({ error: e.message });
-  }
-}
-
-async function executeTool(name, input) {
-  switch (name) {
-    case 'vivid_seats_search': return await executeVividSeats(input.performer_id);
-    case 'brave_search': return await executeBraveSearch(input.query);
-    case 'bandsintown_events': return await executeBandsintown(input.artist_name);
-    default: return JSON.stringify({ error: 'Unknown tool' });
-  }
-}
-
-// ============================================================
-// CLAUDE API CALL
-// ============================================================
-
-async function callClaude(msgs) {
-  const s = loadSettings();
-  if (!s.apiKey) {
-    openSettings();
-    throw new Error('Please add your Anthropic API key in Settings.');
-  }
-
-  const resp = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': s.apiKey,
-      'anthropic-version': '2023-06-01',
-      'anthropic-dangerous-direct-browser-access': 'true'
-    },
-    body: JSON.stringify({
-      model: s.model,
-      max_tokens: 4096,
-      system: SYSTEM_PROMPT,
-      tools: TOOLS,
-      messages: msgs
-    })
-  });
-
-  if (!resp.ok) {
-    const err = await resp.text();
-    throw new Error(`API error ${resp.status}: ${err}`);
-  }
-  return await resp.json();
-}
-
-// ============================================================
-// MAIN SEND LOOP (handles tool use)
-// ============================================================
-
 async function sendMessage() {
   if (isLoading) return;
+
+  const apiUrl = localStorage.getItem('bb_api_url');
+  if (!apiUrl) {
+    showConfig();
+    return;
+  }
+
   const input = document.getElementById('userInput');
   const text = input.value.trim();
   if (!text) return;
@@ -659,58 +304,45 @@ async function sendMessage() {
   input.value = '';
   input.style.height = 'auto';
   addMessage('user', text);
-  messages.push({ role: 'user', content: text });
 
   isLoading = true;
   document.getElementById('sendBtn').disabled = true;
   showLoading();
 
   try {
-    let apiMessages = [...messages];
-    let maxLoops = 10; // safety limit for tool-use loops
+    const secret = localStorage.getItem('bb_api_secret') || '';
+    const resp = await fetch(apiUrl, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        ...(secret ? { 'Authorization': `Bearer ${secret}` } : {})
+      },
+      body: JSON.stringify({
+        message: text,
+        history: conversationHistory
+      })
+    });
 
-    while (maxLoops-- > 0) {
-      const response = await callClaude(apiMessages);
-
-      // Check if response has tool use
-      const toolUseBlocks = (response.content || []).filter(b => b.type === 'tool_use');
-      const textBlocks = (response.content || []).filter(b => b.type === 'text');
-
-      if (toolUseBlocks.length > 0) {
-        // Show thinking indicator
-        hideLoading();
-        const statusDiv = addMessage('assistant', `🔍 *Pulling data...*`);
-        showLoading();
-
-        // Add assistant response to messages
-        apiMessages.push({ role: 'assistant', content: response.content });
-
-        // Execute all tools
-        const toolResults = [];
-        for (const tool of toolUseBlocks) {
-          const result = await executeTool(tool.name, tool.input);
-          toolResults.push({
-            type: 'tool_result',
-            tool_use_id: tool.id,
-            content: result
-          });
-        }
-
-        // Remove status message
-        statusDiv.remove();
-
-        // Add tool results
-        apiMessages.push({ role: 'user', content: toolResults });
-
-      } else {
-        // Final text response
-        hideLoading();
-        const fullText = textBlocks.map(b => b.text).join('\n');
-        addMessage('assistant', fullText);
-        messages.push({ role: 'assistant', content: fullText });
-        break;
-      }
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({ error: resp.statusText }));
+      throw new Error(err.error || `HTTP ${resp.status}`);
     }
+
+    const data = await resp.json();
+
+    hideLoading();
+    addToolLog(data.toolLog);
+    addMessage('assistant', data.response);
+
+    // Update conversation history
+    conversationHistory.push({ role: 'user', content: text });
+    conversationHistory.push({ role: 'assistant', content: data.response });
+
+    // Keep history manageable (last 10 exchanges)
+    if (conversationHistory.length > 20) {
+      conversationHistory = conversationHistory.slice(-20);
+    }
+
   } catch (e) {
     hideLoading();
     addMessage('assistant', `⚠️ Error: ${e.message}`);
@@ -721,11 +353,10 @@ async function sendMessage() {
   document.getElementById('userInput').focus();
 }
 
-// Auto-open settings if no API key
+// Check config on load
 window.addEventListener('load', () => {
-  const s = loadSettings();
-  if (!s.apiKey) {
-    setTimeout(openSettings, 500);
+  if (!localStorage.getItem('bb_api_url')) {
+    document.getElementById('configBanner').style.display = 'block';
   }
 });
 </script>
