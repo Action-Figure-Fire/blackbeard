@@ -227,6 +227,18 @@ const TOOLS = [
       },
       required: ["artist_name"]
     }
+  },
+  {
+    name: "serpapi_search",
+    description: "Search Google via SerpAPI. Use for Google Trends data, Reddit discussions (site:reddit.com), TikTok mentions, and detailed search results. More comprehensive than Brave for certain queries.",
+    input_schema: {
+      type: "object",
+      properties: {
+        query: { type: "string", description: "Google search query" },
+        engine: { type: "string", description: "SerpAPI engine: 'google' (default), 'google_trends', 'youtube'" }
+      },
+      required: ["query"]
+    }
   }
 ];
 
@@ -400,6 +412,32 @@ function executePerformerLookup(artistName) {
   return JSON.stringify({ artist: artistName, performer_id: null, message: "Not in lookup table. Use brave_search to find: site:vividseats.com [artist] performer" });
 }
 
+async function executeSerpApi(query, engine, serpApiKey) {
+  try {
+    if (!serpApiKey) return JSON.stringify({ error: "SerpAPI not configured" });
+    const eng = engine || 'google';
+    const url = `https://serpapi.com/search.json?engine=${eng}&q=${encodeURIComponent(query)}&api_key=${serpApiKey}&num=8`;
+    const resp = await fetch(url);
+    const data = await resp.json();
+    if (eng === 'google') {
+      return JSON.stringify((data.organic_results || []).slice(0, 8).map(r => ({
+        title: r.title, url: r.link, snippet: r.snippet
+      })));
+    }
+    if (eng === 'google_trends') {
+      return JSON.stringify(data.interest_over_time?.timeline_data?.slice(-10) || []);
+    }
+    if (eng === 'youtube') {
+      return JSON.stringify((data.video_results || []).slice(0, 8).map(r => ({
+        title: r.title, views: r.views, date: r.published_date, channel: r.channel?.name
+      })));
+    }
+    return JSON.stringify(data);
+  } catch (e) {
+    return JSON.stringify({ error: e.message });
+  }
+}
+
 async function executeTool(name, input, env) {
   switch (name) {
     case 'vivid_seats_search': return await executeVividSeats(input.performer_id);
@@ -408,6 +446,7 @@ async function executeTool(name, input, env) {
     case 'twitter_search': return await executeTwitterSearch(input.query, env.TWITTER_BEARER);
     case 'stubhub_venue': return await executeStubHubVenue(input.venue_id, env.SCRAPINGBEE_KEY);
     case 'performer_lookup': return executePerformerLookup(input.artist_name);
+    case 'serpapi_search': return await executeSerpApi(input.query, input.engine, env.SERPAPI_KEY);
     default: return JSON.stringify({ error: 'Unknown tool' });
   }
 }
@@ -493,7 +532,7 @@ export default {
       return new Response(JSON.stringify({
         status: 'ok',
         version: '2.0',
-        tools: ['vivid_seats', 'brave_search', 'bandsintown', 'twitter', 'stubhub', 'performer_lookup'],
+        tools: ['vivid_seats', 'brave_search', 'bandsintown', 'twitter', 'stubhub', 'serpapi', 'performer_lookup'],
         performers_cached: Object.keys(PERFORMER_IDS).length
       }), {
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }
