@@ -2,10 +2,14 @@ name = "blackbeard-api"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
-# Set these via: npx wrangler secret put ANTHROPIC_API_KEY
-# npx wrangler secret put BRAVE_API_KEY
-# npx wrangler secret put APP_SECRET
-# npx wrangler secret put MODEL
+# Required secrets (set via: npx wrangler secret put <NAME>):
+# ANTHROPIC_API_KEY  — Claude API key (required)
+# BRAVE_API_KEY      — Brave Search API key (required)
+# APP_SECRET         — Bearer token for auth (required)
+#
+# Optional secrets:
+# TWITTER_BEARER     — X/Twitter API Bearer token
+# SCRAPINGBEE_KEY    — ScrapingBee API key (for StubHub scraping)
 
 [vars]
 MODEL = "claude-sonnet-4-20250514"
