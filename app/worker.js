@@ -513,7 +513,7 @@ async function runConversation(userMessage, conversationHistory, env) {
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: env.MODEL || 'claude-opus-4-20250514',
+        model: env.MODEL || 'claude-sonnet-4-20250514',
         max_tokens: 4096,
         system: SYSTEM_PROMPT,
         tools: TOOLS,
@@ -568,7 +568,7 @@ export default {
         status: 'ok', version: '3.0',
         tools: ['vivid_seats', 'brave_search', 'bandsintown', 'twitter', 'stubhub', 'serpapi', 'performer_lookup'],
         performers_cached: Object.keys(PERFORMER_IDS).length,
-        model: env.MODEL || 'claude-opus-4-20250514'
+        model: env.MODEL || 'claude-sonnet-4-20250514'
       }), { headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
     }
 

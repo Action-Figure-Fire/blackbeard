@@ -12,4 +12,4 @@ compatibility_date = "2024-01-01"
 # SCRAPINGBEE_KEY    — ScrapingBee API key (for StubHub scraping)
 
 [vars]
-MODEL = "claude-opus-4-20250514"
+MODEL = "claude-sonnet-4-20250514"
