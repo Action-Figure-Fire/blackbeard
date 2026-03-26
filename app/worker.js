@@ -8,7 +8,7 @@
 // PERFORMER ID LOOKUP TABLE
 // ============================================================
 const PERFORMER_IDS = {
-  "feid": 158537, "naika": 505181, "naïka": 505181,
+  "feid": 134573, "ferxxo": 134573, "naika": 505181, "naïka": 505181,
   "don west": 431356, "angine de poitrine": 505490,
   "zara larsson": 7849, "josiah queen": 388784,
   "stephen wilson jr": 143678, "gavin adcock": 396498,
