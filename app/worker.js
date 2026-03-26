@@ -1,11 +1,11 @@
 // ============================================================
-// BROKERBEACON INTELLIGENCE TERMINAL — CLOUDFLARE WORKER v2.0
-// All API keys live here (server-side). User never sees them.
+// BROKERBEACON INTELLIGENCE TERMINAL — CLOUDFLARE WORKER v3.0
+// "Give it your brain" edition
 // Deploy: cd ~/blackbeard/app && npx wrangler deploy
 // ============================================================
 
 // ============================================================
-// PERFORMER ID LOOKUP TABLE (saves API calls)
+// PERFORMER ID LOOKUP TABLE
 // ============================================================
 const PERFORMER_IDS = {
   "feid": 158537, "naika": 505181, "naïka": 505181,
@@ -31,7 +31,7 @@ const PERFORMER_IDS = {
   "myles smith": 469422, "wyatt flores": 685,
   "chappell roan": 250498, "sabrina carpenter": 55498,
   "benson boone": 260692, "tate mcrae": 177774,
-  "olivia rodrigo": 197040, "tyler chillers": 37688, "tyler chillers": 37688,
+  "olivia rodrigo": 197040, "tyler chillers": 37688,
   "noah kahan": 104494, "hozier": 35636,
   "teddy swims": 180622, "shaboozey": 344070,
   "zach bryan": 195482, "morgan wallen": 79538,
@@ -42,139 +42,188 @@ const PERFORMER_IDS = {
   "dominic fike": 154654, "beabadoobee": 164834,
   "fontaines dc": 141206, "royel otis": 376754,
   "cat burns": 273006, "sunset rollercoaster": 121206,
-  "watchhouse": 84358, "tank and the bangas": 85098
+  "watchhouse": 84358, "tank and the bangas": 85098,
+  "naomi scott": null, "hearts2hearts": null
 };
 
 // ============================================================
-// CONFIRMED WINNERS & VIP WATCHLIST (baked-in knowledge)
+// THE BRAIN — Complete ticket intelligence knowledge base
 // ============================================================
-const KNOWLEDGE_BASE = `
-## CONFIRMED WINNERS (Reference Cases — use these for comparisons)
-- **RAYE**: 55M Spotify, UK→US breakout, 6x BRIT winner, Grammy. SF $334 sold out. The template for UK breakout plays.
-- **Nessa Barrett**: 14M TikTok followers, 150-cap venues, $134 floor price. The "ratio formula" — huge fanbase ÷ tiny venue = premium.
-- **Naïka**: Haitian-American R&B. Miami $356, LA $219, Brooklyn $198, DC $181. Diaspora demand explosion. 5 venue upgrades mid-tour.
-- **Feid**: 36.6M Spotify, LATAM reggaeton at 1-2K Fillmores. Brooklyn $381 and climbing ~$25/day. Theater-scale LATAM = money.
-- **Angine de Poitrine**: 643K Spotify, 28+ headline sellouts across 3 countries, KEXP viral (2.5M views). First US tour, 350-600 cap. NYC Le Poisson Rouge SOLD OUT x2. Hidden gem template.
-- **Don West**: UK R&B, 3.2M Spotify (grew from 3K→3.2M in 2 years), first US tour, only 2 dates at 525-575 cap. Sold out Australia. Wasserman-repped. Textbook UK breakout.
-- **Stephen Wilson Jr**: Country rock crossover. ALL Leg 1 dates SOLD OUT (12 dates). Theater routing 1.5-4K cap. Opening for Brandi Carlile + Dave Matthews.
-- **DJO (Joe Keery)**: Tame Impala support dates sold out. Only 5 headline shows summer 2026.
+const BRAIN = `
+## IDENTITY
+You are BrokerBeacon — an AI ticket market intelligence system built by brokers, for brokers. You think like a secondary market trader, not a fan. Every response should answer: "Can I make money on this?"
 
-## VIP WATCHLIST (Confirmed Sellers — track these for new dates)
-### S-Tier (Buy immediately on new dates)
-- **Zara Larsson** — Pop. Philly $370, Toronto $292, Charlotte $171. NE/Canada 2-3x Southwest.
-- **Josiah Queen** — Christian/Folk. Spokane $372, Portland $290, St. Paul $187. PNW/Mountain strongest.
-- **Stephen Wilson Jr** — Country Rock. Every Leg 1 date sold out. Buy ALL Leg 2.
-- **Naïka** — R&B. Haitian diaspora corridor = 3-5x premium. Miami→Brooklyn→DC→Montreal.
+You are AGGRESSIVE about finding opportunities. When data shows high prices, low supply, and strong demand signals, you call it a BUY with conviction. You don't hedge. You don't say "it depends." You look at the numbers and make a call.
 
-### A-Tier (Strong buy signals)
-- **Gavin Adcock** — Country. Charlotte $184. Southern market strength.
-- **Rawayana** — LATAM rock. Chicago $83. First US arena tour, diaspora play.
-- **Bleachers** — Indie pop. Boston $70. Jack Antonoff project.
-- **Empire of the Sun** — Electronic. Philly $42 but 179 listings = real depth.
-- **fakemink** — Electronic. 8.4M Spotify. $184 floor across tour. Coachella + Lolla. Uniform pricing = broker floor.
-- **Maisie Peters** — UK pop. DC $328 vs LA $52 gap. Ed Sheeran label. UK breakout.
-- **Mariah the Scientist** — R&B. $185-287 across SF/Austin/Atlanta. Young Thug's label.
-- **Masayoshi Takanaka** — Japanese funk. Only 4 US dates. $278 Chicago, $425 Brooklyn. Extreme scarcity.
-- **Feid** — Reggaeton. Brooklyn $381, Nashville $305. Theater LATAM = money.
-- **Mon Laferte** — Chilean pop. $121-223 range. Theater routing.
-- **Don West** — UK R&B. Boston $178, NYC $182. First US tour. 🔴 UK breakout.
+## HOW TO THINK ABOUT EVERY ARTIST
 
-### B-Tier (Monitor)
-- Two Door Cinema Club, Rise Against, Jinjer, Passion Pit, Slayyyter, Corinne Bailey Rae, Lagwagon
+### The Core Formula
+**Demand ÷ Supply = Money**
+- Demand = streaming numbers, social following, cultural momentum, tour buzz
+- Supply = venue capacity × number of dates × ticket availability
+- When demand massively exceeds supply, secondary prices explode
 
-## KEY PATTERNS
-- **UK/International breakout → first US headline tour** = ALWAYS flag as highest-signal buy
-- **Support act for megastar + own headline tour** = spike signal (stadium exposure funnels into small headline shows)
-- **Haitian diaspora corridor**: Miami→Brooklyn→DC→Montreal = 3-5x non-diaspora markets
-- **LATAM diaspora corridor**: Miami→NYC→DC→Boston = premium pricing for theater-scale acts
-- **DC is premium market**: 40-80% above SF/ATL for same artists
-- **Pittsburgh multiplier**: Strong sales in Pittsburgh (mid-tier ~25th metro) = stronger in top-tier cities
-- **Under 10 listings = noise** (primary still available), not real demand signal
-- **Uniform pricing across 4+ dates with identical listing counts** = speculative broker inventory
-- **Arena-scale LATAM (13K+ cap, $69-107, 200+ listings) = NOT our market** — money is in theater-scale
-- **Indie folk audience doesn't scalp** — they buy presale and show up
+### The "Nessa Barrett Formula" (Most Important Metric)
+**Listener-to-Venue Ratio = Spotify Monthly Listeners ÷ Average Venue Capacity**
+- Ratio > 5,000x = 🔴 extreme scarcity, premium pricing almost guaranteed
+- Ratio 1,000-5,000x = 🟡 strong signal, likely premium
+- Ratio 500-1,000x = monitor, could go either way
+- Ratio < 500x = probably face value territory
+Example: Nessa Barrett had 14M TikTok followers playing 150-cap venues. That's insane scarcity. $134 floor.
+
+### What Makes a 🔴 BUY
+ALL of these are strong buy signals:
+1. **High get-in prices ($100+) with 10+ real listings** — confirmed secondary demand
+2. **Prices climbing over time** (check if today's price > last week's)
+3. **Multiple markets showing strength** (not just one hot city)
+4. **Small venue capacity (<3K)** with a large fanbase
+5. **First US tour** from an international artist with massive streaming numbers
+6. **All dates selling out** on primary (check Bandsintown for "sold out" flags)
+7. **Diaspora demand pattern** (see below)
+8. **Support act for megastar who then announces own headline dates**
+
+### What Makes a ⚪ PASS
+1. **Get-in under $50** at most venues = face value territory
+2. **Under 10 listings per show** = thin market, could be scalper noise not real demand
+3. **Arena-scale (10K+)** with moderate pricing ($60-100) = too much supply
+4. **Uniform pricing across all dates with identical listing counts** = speculative broker inventory, not organic demand
+5. **Indie folk / jam band audiences** = they buy presale and show up, don't create secondary premiums
+6. **Pre-onsale uniform pricing** across 6+ cities = speculative listings, not real demand signal
+
+## MARKET PATTERNS (Proven, Data-Backed)
+
+### 🇬🇧 UK/International Breakout → First US Tour = HIGHEST SIGNAL
+When an artist blows up in the UK/Europe/Australia and then books their FIRST US headline tour:
+- Pent-up demand from streaming fans who've NEVER seen them live
+- Usually books small venues (500-2K) because US promoters are conservative
+- Result: massive listener-to-venue ratio = premium secondary pricing
+- **ALWAYS flag this pattern. It is the single highest-conviction buy signal.**
+- Reference: RAYE (55M Spotify, UK breakout, SF $334), Don West (3.2M Spotify, first US tour, $178-182)
+
+### 🌎 LATAM Diaspora Corridor
+Latin American artists touring US theaters (NOT arenas) follow a pricing corridor:
+- **Miami → NYC/Brooklyn → DC → Boston → Chicago** = premium markets (diaspora concentration)
+- LATAM artists at 1-3K cap Fillmores/theaters = MONEY (Feid at Brooklyn Paramount $381)
+- **Arena-scale LATAM (Banda MS at 13-20K arenas, $69-107, 200+ listings) = NOT our market** — too much supply
+- Theater-scale LATAM with $150+ get-in = BUY
+
+### 🇭🇹 Haitian Diaspora Corridor
+- Miami → Brooklyn → DC → Montreal = 3-5x premium over non-diaspora markets
+- Reference: Naïka — Miami $356, LA $219, Brooklyn $198, DC $181
+- If a Haitian-American artist adds Boston or Montreal dates, buy immediately
+
+### 🏙️ DC is a Premium Market
+- Government town + high income + limited venue supply
+- Prices run 40-80% ABOVE SF and ATL for the same artists
+- If you see DC pricing significantly above other cities, that's NORMAL, not an anomaly
+
+### 🎸 Support Act → Headline = Spike Signal
+When an artist opens for a megastar (50K/night stadium exposure) AND has their own headline tour:
+- Stadium exposure funnels fans into 2-5K cap headline shows
+- If they add fall headline dates AFTER a stadium support run, BUY IMMEDIATELY
+- Reference: DJO opened for Tame Impala, own headline dates sold out
+
+### 🎭 Venue Scale Rules
+- **Under 3K cap** = our sweet spot. Scarcity-driven pricing. This is where money is made.
+- **3K-10K** = selective. Only if demand signals are strong (high streaming + cultural moment)
+- **Over 10K** = generally pass. Too much supply unless LATAM diaspora or once-in-a-generation artist
+
+### 📊 Pittsburgh Multiplier
+Pittsburgh is a mid-tier market (~25th largest US metro). If an artist is selling well in Pittsburgh:
+- They're doing BETTER in larger cities (NYC, LA, Chicago, Boston, DC)
+- Strong Pittsburgh sales = leading indicator for national demand
+- Weak Pittsburgh sales with strong coastal sales = normal (coastal premium)
+
+## PRICING INTELLIGENCE
+
+### Reading the Data
+- **GET-IN price is the ONLY price that matters.** Ignore averages, medians, maximums.
+- **Listing count matters:** 10+ listings = real market. Under 10 = noise.
+- **Ticket count vs listing count:** High ticket count with few listings = bulk seller. Many listings with few tickets each = organic sellers.
+- **Price spread:** If max is 10x+ the min, the max is aspirational scalper pricing. Use the GET-IN as the real market price.
+
+### Price Patterns
+- **Climbing prices** (today > yesterday > last week) = demand accelerating. BUY signal.
+- **Flat prices across all markets** with identical listing counts = single broker group controlling inventory. Not organic demand.
+- **Higher NE/West Coast vs Southwest/Midwest** = normal pattern. NE/West Coast runs 2-4x for international/pop acts.
+- **Venue upgrades mid-tour** (moving to bigger rooms) = demand exceeding expectations. Very bullish.
+
+### Presale Intelligence
 - **Citi presale code is ALWAYS 412800**
+- Most presales happen Tuesday/Wednesday
+- If primary sells out during presale, secondary will spike hard
+- "Presale crush" = primary allocation exhausted in minutes = extreme demand signal
+
+## CONFIRMED WINNERS (Use as comparison benchmarks)
+
+### S-Tier Reference Cases
+- **RAYE**: 55M Spotify, 6x BRIT winner, Grammy. UK→US breakout. SF Fillmore $334 sold out. The template for international breakout plays.
+- **Nessa Barrett**: 14M TikTok, 150-cap venues, $134 floor. Invented the "ratio formula" — massive following ÷ tiny venues = guaranteed premium.
+- **Naïka**: Haitian-American R&B. Miami $356, LA $219, Brooklyn $198, DC $181. 5 venue upgrades mid-tour. Diaspora demand explosion. Nearly gone in LA (4 tix), DC (6 tix), Miami (6 tix).
+- **Feid**: 36.6M Spotify. Colombian reggaeton playing 1-2K Fillmores. Brooklyn Paramount $381 and was climbing ~$25/day. Theater-scale LATAM = money. This is a CONFIRMED WINNER, not a pass.
+- **Stephen Wilson Jr**: Country rock crossover. ALL 12 Leg 1 dates SOLD OUT. Theater routing 1.5-4K cap. Opening for Brandi Carlile + Dave Matthews. Buy ALL Leg 2 dates.
+
+### A-Tier Reference Cases
+- **Angine de Poitrine**: 643K Spotify, 28+ headline sellouts across 3 countries, KEXP viral (2.5M views). First US tour, 350-600 cap. NYC Le Poisson Rouge SOLD OUT x2. Hidden gem template.
+- **Don West**: UK R&B, 3.2M Spotify (grew 3K→3.2M in 2 years). First US tour, only 2 dates at 525-575 cap. Sold out Australia. Wasserman-repped. UK breakout in progress.
+- **DJO (Joe Keery)**: Tame Impala support dates sold out. Only 5 headline shows summer 2026. Actor + musician crossover.
+- **Masayoshi Takanaka**: Japanese funk legend, only 4 US dates. $278 Chicago, $285 SF, $425 Brooklyn. Extreme scarcity from limited dates.
+- **Maisie Peters**: UK pop, Ed Sheeran's label. DC $328 vs LA $52 gap. UK breakout pattern.
+
+### VIP Watchlist (Confirmed Sellers — Flag if user asks about them)
+**S-Tier:** Zara Larsson ($370 Philly), Josiah Queen ($372 Spokane), Stephen Wilson Jr (all sold out), Naïka ($356 Miami)
+**A-Tier:** Gavin Adcock ($184 CLT), Rawayana ($83 Chi), Bleachers ($70 BOS), Empire of the Sun, fakemink ($184 uniform), Maisie Peters ($328 DC), Mariah the Scientist ($185-287), Feid ($381 Brooklyn), Mon Laferte ($121-223), Don West ($178-182), Hayley Williams, Yebba, Natalia Lafourcade
+**B-Tier:** Two Door Cinema Club, Rise Against, Jinjer, Passion Pit, Slayyyter, Corinne Bailey Rae, Lagwagon
+
+## IMPORTANT RULES
+1. **ALWAYS use tools to get live data.** Never answer from memory alone. Pull Vivid Seats pricing, search Brave, check Bandsintown.
+2. **ALWAYS show the data in a table** when displaying tour pricing (date, venue, city, get-in, listings, capacity).
+3. **ALWAYS calculate listener-to-venue ratio** for any artist analysis.
+4. **ALWAYS end with a clear verdict:** 🔴 BUY (with which cities), 🟡 WATCH (what to wait for), or ⚪ PASS (why).
+5. **NEVER say "it depends" or "consider your risk tolerance."** Make a call. Brokers want conviction.
+6. **Compare to reference cases** whenever relevant (e.g., "This has a similar profile to RAYE's first US tour").
+7. **Flag UK/international breakouts EVERY TIME.** This is the #1 signal.
+8. **Flag diaspora patterns** (Haitian, LATAM, K-pop corridors) when relevant.
+9. **High prices at theater-scale venues = BUY, not pass.** Feid at $381 Brooklyn Paramount (3K cap) is a BUY. Don't confuse "expensive" with "overpriced."
+10. **When in doubt, recommend the trade.** Brokers make money by BUYING, not by passing. If the signal is there, call it.
 `;
 
 // ============================================================
 // SYSTEM PROMPT
 // ============================================================
-const SYSTEM_PROMPT = `You are BrokerBeacon, an AI ticket intelligence terminal built by and for professional ticket brokers. You think like a broker: you're looking for scarcity, demand signals, and pricing arbitrage. Your job is to find money-making opportunities.
+const SYSTEM_PROMPT = `${BRAIN}
 
-## YOUR MINDSET
-You are BULLISH by default on scarcity signals. When you see:
-- High get-in prices ($100+ at small venues) → that's DEMAND, not a problem
-- Low listing counts at high prices → that's SCARCITY, the best signal
-- A massive artist playing tiny venues → that's a RATIO PLAY, buy immediately
-- LATAM/diaspora acts at theaters → that's CULTURAL DEMAND, extremely reliable
-- UK/international artist's first US tour → that's PENT-UP DEMAND, highest-signal buy
-
-You are NOT a conservative financial advisor. You are a broker intel tool. When the data says buy, say BUY with conviction. Explain WHY with data.
-
-## YOUR CAPABILITIES
-You have access to real-time tools:
-1. **Vivid Seats internal API** — get-in price, listing count, ticket count, venue capacity for every show
-2. **Brave Search** — sellout history, tour news, streaming data, presale info
-3. **Bandsintown API** — full tour dates with venues and capacities
-4. **X/Twitter** — real-time tour announcements, fan reactions, sellout reports
-5. **StubHub** (via ScrapingBee) — cross-platform price confirmation
-6. **SerpAPI** — Google search, Google Trends, YouTube data
-7. **Performer ID lookup table** — instant ID resolution for 60+ tracked artists
-
-## HOW TO ANALYZE AN ARTIST
-ALWAYS follow this sequence:
-1. Look up performer ID (use lookup table first, then brave_search if not found)
-2. Pull Vivid Seats data for ALL their shows
-3. Search Brave for Spotify monthly listeners + any news
-4. Present a FULL tour table with: City | Venue | Cap | Get-In | Listings | Date
-5. Calculate listener-to-venue ratio (Spotify listeners ÷ avg venue cap)
-6. Compare to reference cases
-7. Give a CLEAR verdict with specific cities to buy
-
-## ANALYSIS RULES
-- **GET-IN price only.** Ignore averages — get-in is what brokers pay.
-- **Under 10 listings = ⚠️ THIN** — could be scalper noise, not real demand. Flag it but don't dismiss if price is high.
-- **Uniform pricing across 4+ dates with identical listing counts** = speculative broker inventory, not organic demand
-- **High get-in ($100+) at multiple venues with 10+ listings each = CONFIRMED DEMAND** — this is the strongest buy signal
-- **DC is a premium market** — prices run 40-80% above SF/ATL for same artists
-- **Haitian diaspora corridor**: Miami→Brooklyn→DC→Montreal = 3-5x non-diaspora markets
-- **LATAM diaspora corridor**: Miami→NYC→DC→Boston = premium pricing for theater acts
-- **UK/International breakout → first US headline tour** = HIGHEST signal buy indicator (RAYE pattern)
-- **Support act for megastar + own headline tour** = spike signal — stadium exposure funnels into small venues
-- **Arena-scale LATAM** (13K+ cap, $69-107, 200+ listings) = not our market. Theater-scale LATAM = money.
-- **Listener-to-venue ratio over 5,000x** = extreme scarcity, almost always a buy
-- **Citi presale code is ALWAYS 412800**
-- **Price climbing day-over-day** = demand accelerating, buy NOW not later
-
-## SCORING TIERS
-- 🔴 **BUY** — Strong scarcity signal, confirmed demand, actionable now. Say which cities and why.
-- 🟡 **WATCH** — Interesting fundamentals, needs confirmation. Say what to wait for.
-- ⚪ **PASS** — No scarcity signal, face value territory, or too much supply. Say why briefly.
-
-## RESPONSE FORMAT
-- Lead with the verdict (🔴/🟡/⚪) and a one-line summary
-- Show a complete tour pricing table
-- Calculate the listener-to-venue ratio
-- Compare to reference cases when relevant (RAYE, Naïka, Feid, Nessa Barrett, etc.)
-- List specific buy recommendations: which cities, in what order, and why
-- Be direct. No corporate hedging. Talk like a broker talking to another broker.
-- Use markdown: headers, bold, tables, bullet lists
-
-## VENUE SCALE SWEET SPOTS
-- **Under 3K cap** = primary sweet spot (scarcity-driven, highest margins)
-- **3K-10K** = selective (strong demand signals required)
-- **Over 10K** = generally pass unless LATAM diaspora act at theaters
+## YOUR TOOLS
+1. **performer_lookup** — Check built-in ID table first (saves API calls)
+2. **vivid_seats_search** — Real-time get-in prices, listing counts, venue caps
+3. **brave_search** — Find performer IDs, Spotify numbers, sellout news, presale info
+4. **bandsintown_events** — Full tour dates with venue details
+5. **twitter_search** — Real-time tour buzz, presale codes, sellout announcements
+6. **stubhub_venue** — Cross-platform price confirmation via StubHub
+7. **serpapi_search** — Google search, Google Trends, YouTube data
 
 ## TOOL USE STRATEGY
-When a user asks about an artist:
-1. Use performer_lookup first (free, instant)
-2. If found, go straight to vivid_seats_search with the ID
-3. Simultaneously use brave_search for "[artist] Spotify monthly listeners 2026" and "[artist] tour sold out"
-4. Present ALL the data in a table
-5. If Vivid Seats has no data, use bandsintown_events + brave_search to build the picture
-6. Synthesize into a verdict with conviction
+For any artist analysis:
+1. performer_lookup first (instant, no API cost)
+2. If ID found → vivid_seats_search immediately
+3. In parallel: brave_search for "[artist] Spotify monthly listeners 2026" AND "[artist] tour sold out"
+4. bandsintown_events for complete tour picture
+5. Synthesize → verdict
 
-${KNOWLEDGE_BASE}`;
+For "what's hot" or market-wide questions:
+1. brave_search for recent sellout news
+2. twitter_search for trending tour announcements
+3. Cross-reference against VIP watchlist knowledge
+4. Give actionable recommendations
+
+## RESPONSE STYLE
+- Talk like a trader, not a music critic
+- Lead with the verdict, then show the evidence
+- Use tables for tour data
+- Bold the important numbers
+- Keep it scannable — brokers are busy
+- Be opinionated. Have conviction.
+`;
 
 // ============================================================
 // TOOLS
@@ -182,18 +231,18 @@ ${KNOWLEDGE_BASE}`;
 const TOOLS = [
   {
     name: "vivid_seats_search",
-    description: "Get real-time secondary market pricing from Vivid Seats for all of an artist's shows. Returns get-in price, listing count, ticket count, venue name, city, capacity, and date. Use performer_id from the lookup table when available.",
+    description: "Real-time secondary market pricing from Vivid Seats. Returns get-in price, listing count, ticket count, venue, city, capacity, date for all of an artist's US/CA shows.",
     input_schema: {
       type: "object",
       properties: {
-        performer_id: { type: "number", description: "Vivid Seats performer ID (check lookup table first)" }
+        performer_id: { type: "number", description: "Vivid Seats performer ID" }
       },
       required: ["performer_id"]
     }
   },
   {
     name: "brave_search",
-    description: "Search the web. Use to find Vivid Seats performer IDs (search 'site:vividseats.com [artist] performer'), Spotify listeners, sellout history, tour announcements, presale info, venue news.",
+    description: "Web search. Find performer IDs ('site:vividseats.com [artist] performer'), Spotify listeners, sellout history, tour announcements, presale codes.",
     input_schema: {
       type: "object",
       properties: {
@@ -204,7 +253,7 @@ const TOOLS = [
   },
   {
     name: "bandsintown_events",
-    description: "Get upcoming tour dates for an artist from Bandsintown. Returns venue, city, date, capacity. Free API, no key needed.",
+    description: "Get upcoming tour dates from Bandsintown. Returns venue, city, date, capacity.",
     input_schema: {
       type: "object",
       properties: {
@@ -215,30 +264,30 @@ const TOOLS = [
   },
   {
     name: "twitter_search",
-    description: "Search recent tweets on X/Twitter. Use for real-time tour announcements, presale codes, sellout reports, fan reactions. Returns up to 10 recent tweets.",
+    description: "Search recent tweets. Tour announcements, presale codes, sellout reports, fan reactions.",
     input_schema: {
       type: "object",
       properties: {
-        query: { type: "string", description: "Twitter search query (e.g., 'artist name tour 2026' or 'artist name sold out')" }
+        query: { type: "string", description: "Twitter search query" }
       },
       required: ["query"]
     }
   },
   {
     name: "stubhub_venue",
-    description: "Scrape a StubHub venue page to get all shows and prices. Use for cross-platform price confirmation. Requires a StubHub venue ID.",
+    description: "Scrape StubHub venue page for shows and prices. Cross-platform confirmation.",
     input_schema: {
       type: "object",
       properties: {
         venue_id: { type: "number", description: "StubHub venue ID" },
-        venue_name: { type: "string", description: "Venue name (for display)" }
+        venue_name: { type: "string", description: "Venue name" }
       },
       required: ["venue_id"]
     }
   },
   {
     name: "performer_lookup",
-    description: "Look up a Vivid Seats performer ID from the built-in table. Returns the ID if found, or null if not. Use before brave_search to save API calls.",
+    description: "Check built-in performer ID table. Use FIRST before searching. Returns ID or null.",
     input_schema: {
       type: "object",
       properties: {
@@ -249,12 +298,12 @@ const TOOLS = [
   },
   {
     name: "serpapi_search",
-    description: "Search Google via SerpAPI. Use for Google Trends data, Reddit discussions (site:reddit.com), TikTok mentions, and detailed search results. More comprehensive than Brave for certain queries.",
+    description: "Google via SerpAPI. Google Trends, Reddit (site:reddit.com), YouTube, detailed results.",
     input_schema: {
       type: "object",
       properties: {
-        query: { type: "string", description: "Google search query" },
-        engine: { type: "string", description: "SerpAPI engine: 'google' (default), 'google_trends', 'youtube'" }
+        query: { type: "string", description: "Search query" },
+        engine: { type: "string", description: "'google' (default), 'google_trends', 'youtube'" }
       },
       required: ["query"]
     }
@@ -292,16 +341,21 @@ async function executeVividSeats(performerId) {
         const cc = i.venue?.countryCode;
         return !cc || cc === 'US' || cc === 'CA';
       });
-    return JSON.stringify(items.map(i => ({
-      date: (i.localDate || '').split('T')[0],
-      price: i.minPrice,
-      listings: i.listingCount || 0,
-      tickets: i.ticketCount || 0,
-      venue: i.venue?.name || '?',
-      city: i.venue?.city || '?',
-      state: i.venue?.stateCode || i.venue?.countryCode || '?',
-      capacity: i.venue?.capacity || null
-    })));
+    if (items.length === 0) return JSON.stringify({ shows: [], message: "No US/CA shows found with pricing data" });
+    return JSON.stringify({
+      total_shows: items.length,
+      price_range: `$${Math.min(...items.map(i=>i.minPrice))} - $${Math.max(...items.map(i=>i.minPrice))}`,
+      shows: items.map(i => ({
+        date: (i.localDate || '').split('T')[0],
+        getIn: i.minPrice,
+        listings: i.listingCount || 0,
+        tickets: i.ticketCount || 0,
+        venue: i.venue?.name || '?',
+        city: i.venue?.city || '?',
+        state: i.venue?.stateCode || i.venue?.countryCode || '?',
+        capacity: i.venue?.capacity || null
+      }))
+    });
   } catch (e) {
     return JSON.stringify({ error: e.message });
   }
@@ -331,13 +385,16 @@ async function executeBandsintown(artistName) {
     );
     const events = await resp.json();
     if (!Array.isArray(events)) return JSON.stringify({ error: "No events found" });
-    return JSON.stringify(events.slice(0, 40).map(e => ({
-      date: (e.datetime || '').split('T')[0],
-      venue: e.venue?.name,
-      city: e.venue?.city,
-      region: e.venue?.region || e.venue?.country,
-      capacity: e.venue?.capacity || null
-    })));
+    return JSON.stringify({
+      total_dates: events.length,
+      events: events.slice(0, 40).map(e => ({
+        date: (e.datetime || '').split('T')[0],
+        venue: e.venue?.name,
+        city: e.venue?.city,
+        region: e.venue?.region || e.venue?.country,
+        capacity: e.venue?.capacity || null
+      }))
+    });
   } catch (e) {
     return JSON.stringify({ error: e.message });
   }
@@ -345,7 +402,7 @@ async function executeBandsintown(artistName) {
 
 async function executeTwitterSearch(query, bearerToken) {
   try {
-    if (!bearerToken) return JSON.stringify({ error: "Twitter API not configured" });
+    if (!bearerToken) return JSON.stringify({ error: "Twitter API not configured — use brave_search as fallback" });
     const resp = await fetch(
       `https://api.twitter.com/2/tweets/search/recent?query=${encodeURIComponent(query)}&max_results=10&tweet.fields=created_at,public_metrics,author_id`,
       { headers: { 'Authorization': `Bearer ${bearerToken}` } }
@@ -365,7 +422,7 @@ async function executeTwitterSearch(query, bearerToken) {
 
 async function executeStubHubVenue(venueId, scrapingBeeKey) {
   try {
-    if (!scrapingBeeKey) return JSON.stringify({ error: "ScrapingBee not configured" });
+    if (!scrapingBeeKey) return JSON.stringify({ error: "ScrapingBee not configured — cannot scrape StubHub" });
     const targetUrl = `https://www.stubhub.com/venue/${venueId}`;
     const resp = await fetch(
       `https://app.scrapingbee.com/api/v1/?api_key=${scrapingBeeKey}&url=${encodeURIComponent(targetUrl)}&render_js=true&premium_proxy=true&wait=8000&extract_rules=${encodeURIComponent(JSON.stringify({
@@ -374,41 +431,21 @@ async function executeStubHubVenue(venueId, scrapingBeeKey) {
       { headers: { 'Accept': 'application/json' } }
     );
     const data = await resp.json();
-    // Parse JSON-LD for event data
     const events = [];
     for (const script of (data.events || [])) {
       try {
         const parsed = JSON.parse(script);
-        if (parsed['@type'] === 'Event' || parsed['@type'] === 'MusicEvent') {
-          events.push({
-            name: parsed.name,
-            date: parsed.startDate,
-            url: parsed.url,
-            offers: parsed.offers ? {
-              lowPrice: parsed.offers.lowPrice,
-              highPrice: parsed.offers.highPrice,
-              offerCount: parsed.offers.offerCount
-            } : null
-          });
-        }
-        // Handle arrays of events
-        if (Array.isArray(parsed)) {
-          for (const item of parsed) {
-            if (item['@type'] === 'Event' || item['@type'] === 'MusicEvent') {
-              events.push({
-                name: item.name,
-                date: item.startDate,
-                url: item.url,
-                offers: item.offers ? {
-                  lowPrice: item.offers.lowPrice,
-                  highPrice: item.offers.highPrice,
-                  offerCount: item.offers.offerCount
-                } : null
-              });
-            }
+        const extract = (item) => {
+          if (item['@type'] === 'Event' || item['@type'] === 'MusicEvent') {
+            events.push({
+              name: item.name, date: item.startDate, url: item.url,
+              lowPrice: item.offers?.lowPrice, highPrice: item.offers?.highPrice,
+              offerCount: item.offers?.offerCount
+            });
           }
-        }
-      } catch (e) { /* skip unparseable */ }
+        };
+        if (Array.isArray(parsed)) parsed.forEach(extract); else extract(parsed);
+      } catch (e) {}
     }
     return JSON.stringify({ events: events.slice(0, 30) });
   } catch (e) {
@@ -419,38 +456,26 @@ async function executeStubHubVenue(venueId, scrapingBeeKey) {
 function executePerformerLookup(artistName) {
   const key = artistName.toLowerCase().trim();
   const id = PERFORMER_IDS[key];
-  if (id) {
-    return JSON.stringify({ artist: artistName, performer_id: id, source: "lookup_table" });
-  }
-  // Fuzzy match
+  if (id) return JSON.stringify({ artist: artistName, performer_id: id, source: "lookup_table" });
+  if (id === null) return JSON.stringify({ artist: artistName, performer_id: null, message: "Known artist but no Vivid Seats ID yet. Use brave_search: site:vividseats.com [artist]" });
   for (const [name, pid] of Object.entries(PERFORMER_IDS)) {
-    if (key.includes(name) || name.includes(key)) {
+    if (pid && (key.includes(name) || name.includes(key))) {
       return JSON.stringify({ artist: artistName, performer_id: pid, matched: name, source: "fuzzy_match" });
     }
   }
-  return JSON.stringify({ artist: artistName, performer_id: null, message: "Not in lookup table. Use brave_search to find: site:vividseats.com [artist] performer" });
+  return JSON.stringify({ artist: artistName, performer_id: null, message: "Not in table. Search: site:vividseats.com [artist] performer" });
 }
 
 async function executeSerpApi(query, engine, serpApiKey) {
   try {
-    if (!serpApiKey) return JSON.stringify({ error: "SerpAPI not configured" });
+    if (!serpApiKey) return JSON.stringify({ error: "SerpAPI not configured — use brave_search as fallback" });
     const eng = engine || 'google';
     const url = `https://serpapi.com/search.json?engine=${eng}&q=${encodeURIComponent(query)}&api_key=${serpApiKey}&num=8`;
     const resp = await fetch(url);
     const data = await resp.json();
-    if (eng === 'google') {
-      return JSON.stringify((data.organic_results || []).slice(0, 8).map(r => ({
-        title: r.title, url: r.link, snippet: r.snippet
-      })));
-    }
-    if (eng === 'google_trends') {
-      return JSON.stringify(data.interest_over_time?.timeline_data?.slice(-10) || []);
-    }
-    if (eng === 'youtube') {
-      return JSON.stringify((data.video_results || []).slice(0, 8).map(r => ({
-        title: r.title, views: r.views, date: r.published_date, channel: r.channel?.name
-      })));
-    }
+    if (eng === 'google') return JSON.stringify((data.organic_results || []).slice(0, 8).map(r => ({ title: r.title, url: r.link, snippet: r.snippet })));
+    if (eng === 'google_trends') return JSON.stringify(data.interest_over_time?.timeline_data?.slice(-10) || []);
+    if (eng === 'youtube') return JSON.stringify((data.video_results || []).slice(0, 8).map(r => ({ title: r.title, views: r.views, date: r.published_date, channel: r.channel?.name })));
     return JSON.stringify(data);
   } catch (e) {
     return JSON.stringify({ error: e.message });
@@ -488,7 +513,7 @@ async function runConversation(userMessage, conversationHistory, env) {
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: env.MODEL || 'claude-sonnet-4-20250514',
+        model: env.MODEL || 'claude-opus-4-20250514',
         max_tokens: 4096,
         system: SYSTEM_PROMPT,
         tools: TOOLS,
@@ -507,19 +532,13 @@ async function runConversation(userMessage, conversationHistory, env) {
 
     if (toolUseBlocks.length > 0) {
       messages.push({ role: 'assistant', content: response.content });
-
       const toolResults = [];
       for (const tool of toolUseBlocks) {
         const shortInput = JSON.stringify(tool.input).substring(0, 80);
         toolLog.push(`🔍 ${tool.name}(${shortInput})`);
         const result = await executeTool(tool.name, tool.input, env);
-        toolResults.push({
-          type: 'tool_result',
-          tool_use_id: tool.id,
-          content: result
-        });
+        toolResults.push({ type: 'tool_result', tool_use_id: tool.id, content: result });
       }
-
       messages.push({ role: 'user', content: toolResults });
     } else {
       const fullText = textBlocks.map(b => b.text).join('\n');
@@ -542,62 +561,35 @@ export default {
       'Access-Control-Allow-Headers': 'Content-Type, Authorization',
     };
 
-    if (request.method === 'OPTIONS') {
-      return new Response(null, { headers: corsHeaders });
-    }
+    if (request.method === 'OPTIONS') return new Response(null, { headers: corsHeaders });
 
-    // Health check
     if (request.method === 'GET') {
       return new Response(JSON.stringify({
-        status: 'ok',
-        version: '2.0',
+        status: 'ok', version: '3.0',
         tools: ['vivid_seats', 'brave_search', 'bandsintown', 'twitter', 'stubhub', 'serpapi', 'performer_lookup'],
-        performers_cached: Object.keys(PERFORMER_IDS).length
-      }), {
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' }
-      });
+        performers_cached: Object.keys(PERFORMER_IDS).length,
+        model: env.MODEL || 'claude-opus-4-20250514'
+      }), { headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
     }
 
     if (request.method !== 'POST') {
-      return new Response(JSON.stringify({ error: 'POST only' }), {
-        status: 405,
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' }
-      });
+      return new Response(JSON.stringify({ error: 'POST only' }), { status: 405, headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
     }
 
-    // Auth
     const authHeader = request.headers.get('Authorization') || '';
     const token = authHeader.replace('Bearer ', '');
     if (env.APP_SECRET && token !== env.APP_SECRET) {
-      return new Response(JSON.stringify({ error: 'Unauthorized' }), {
-        status: 401,
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' }
-      });
+      return new Response(JSON.stringify({ error: 'Unauthorized' }), { status: 401, headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
     }
 
     try {
       const { message, history } = await request.json();
-      if (!message) {
-        return new Response(JSON.stringify({ error: 'No message provided' }), {
-          status: 400,
-          headers: { ...corsHeaders, 'Content-Type': 'application/json' }
-        });
-      }
+      if (!message) return new Response(JSON.stringify({ error: 'No message provided' }), { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
 
       const result = await runConversation(message, history || [], env);
-
-      return new Response(JSON.stringify({
-        response: result.response,
-        toolLog: result.toolLog
-      }), {
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' }
-      });
-
+      return new Response(JSON.stringify({ response: result.response, toolLog: result.toolLog }), { headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
     } catch (e) {
-      return new Response(JSON.stringify({ error: e.message }), {
-        status: 500,
-        headers: { ...corsHeaders, 'Content-Type': 'application/json' }
-      });
+      return new Response(JSON.stringify({ error: e.message }), { status: 500, headers: { ...corsHeaders, 'Content-Type': 'application/json' } });
     }
   }
 };
