@@ -269,12 +269,14 @@ body {
     <h2>Ask <span>anything</span> about tickets</h2>
     <p>Real-time secondary market pricing, sellout analysis, and buy/pass/watch verdicts — powered by live data.</p>
     <div class="examples">
-      <button class="example-btn" onclick="sendExample(this)">🔥 Run the Feid tour</button>
-      <button class="example-btn" onclick="sendExample(this)">🇬🇧 Deep dive on Don West</button>
-      <button class="example-btn" onclick="sendExample(this)">🌎 Best LATAM theater acts</button>
-      <button class="example-btn" onclick="sendExample(this)">💰 What's hot under 3K cap?</button>
-      <button class="example-btn" onclick="sendExample(this)">🎤 UK breakout artists first US tours</button>
-      <button class="example-btn" onclick="sendExample(this)">📊 Who should I buy this week?</button>
+      <button class="example-btn" onclick="sendExample(this)">📊 Who has presales this week?</button>
+      <button class="example-btn" onclick="sendExample(this)">Feid</button>
+      <button class="example-btn" onclick="sendExample(this)">Deep dive on RAYE</button>
+      <button class="example-btn" onclick="sendExample(this)">Show me the VIP watchlist</button>
+      <button class="example-btn" onclick="sendExample(this)">Compare Don West to RAYE</button>
+      <button class="example-btn" onclick="sendExample(this)">UK breakouts with first US tours</button>
+      <button class="example-btn" onclick="sendExample(this)">Best LATAM theater plays right now</button>
+      <button class="example-btn" onclick="sendExample(this)">🎤 Hot comedians under 3K cap</button>
     </div>
   </div>
 </div>
@@ -313,7 +315,7 @@ function autoResize(el) {
 }
 
 function sendExample(btn) {
-  document.getElementById('userInput').value = btn.textContent.replace(/^[^\s]+\s/, '');
+  document.getElementById('userInput').value = btn.textContent;
   sendMessage();
 }
 
@@ -405,16 +407,37 @@ function addToolLog(logs) {
   chatArea.appendChild(div);
 }
 
+const LOADING_MESSAGES = [
+  '🔍 Searching knowledge base...',
+  '📊 Pulling secondary market data...',
+  '🎵 Checking streaming numbers...',
+  '🗓️ Loading tour dates...',
+  '🧠 Analyzing patterns...',
+  '📈 Comparing to reference cases...',
+  '✍️ Writing analysis...'
+];
+let loadingInterval = null;
+let loadingStep = 0;
+
 function showLoading() {
   const chatArea = document.getElementById('chatArea');
   const div = document.createElement('div');
-  div.className = 'loading'; div.id = 'loadingIndicator';
-  div.innerHTML = '<div class="dot"></div><div class="dot"></div><div class="dot"></div>';
+  div.className = 'tool-log'; div.id = 'loadingIndicator';
+  div.textContent = LOADING_MESSAGES[0];
   chatArea.appendChild(div);
   chatArea.scrollTop = chatArea.scrollHeight;
+  loadingStep = 0;
+  loadingInterval = setInterval(() => {
+    loadingStep++;
+    if (loadingStep < LOADING_MESSAGES.length) {
+      div.textContent = LOADING_MESSAGES[loadingStep];
+      chatArea.scrollTop = chatArea.scrollHeight;
+    }
+  }, 2500);
 }
 
 function hideLoading() {
+  if (loadingInterval) { clearInterval(loadingInterval); loadingInterval = null; }
   const el = document.getElementById('loadingIndicator');
   if (el) el.remove();
 }
