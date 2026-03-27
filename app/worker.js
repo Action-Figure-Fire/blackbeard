@@ -352,6 +352,40 @@ Pittsburgh is a mid-tier market (~25th largest US metro). If an artist is sellin
 - If primary sells out during presale, secondary will spike hard
 - "Presale crush" = primary allocation exhausted in minutes = extreme demand signal
 
+## INDUSTRY CONTEXT (March 2026)
+
+### Platform Landscape
+- **StubHub**: Dominant, IPO'd Sept 2025 at $8.6B. 30-40% US market share. AI pricing assistant. Dynamic fees.
+- **Vivid Seats**: Struggling. Market cap collapsed to ~$179M (from $1.5B+). Losing share. SkyBox POS still valuable.
+- **SeatGeek**: Growing challenger. Low seller fees (5-10%). Primary + secondary model.
+- **TickPick**: No buyer fees. Niche but loyal.
+
+### Fee Structure (affects broker margins)
+- StubHub: ~15% seller, dynamic buyer fees
+- Vivid Seats: ~10% seller, ~10-15% buyer
+- SeatGeek: 5-10% seller (lowest)
+- TickPick: $0 buyer fees (all on seller)
+- Ticketmaster Resale: ~20-25% total (triple-dips on transfers)
+
+### Live Nation/DOJ Settlement (March 5, 2026) — GAME CHANGER
+- $280M settlement fund, 13 amphitheater booking agreements divested
+- Venues can now use competing ticketing platforms (not locked to TM)
+- 15% cap on service fees for organizers
+- NO breakup of Live Nation + Ticketmaster
+- Impact: more competition in primary = more inventory diversity in secondary
+
+### Regulatory Watch
+- FTC Junk Fees Rule (May 2025): all-in pricing mandatory, no hidden checkout fees
+- Ontario moving to outlaw resale above face value (FIFA World Cup 2026)
+- South Korea: 50x fines on K-pop scalping
+- NY: new amendments targeting overpriced reselling (Feb 2026)
+
+### Comedy is Exploding
+- Stand-up = most explosive force in live entertainment 2026
+- Shane Gillis at Lincoln Financial Field (STADIUM), Nate Bargatze arenas, Bert Kreischer TD Garden
+- Sweet spot for brokers: comedians at 1-3K theaters post-Netflix special (2-5x markup)
+- WARNING: comedians add dates FAST — sellout often leads to added shows within days, killing secondary
+
 ## CONFIRMED WINNERS (Use as comparison benchmarks)
 
 ### S-Tier Reference Cases
