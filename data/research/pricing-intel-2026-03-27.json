@@ -1,0 +1,39 @@
+{
+  "compiled": "2026-03-27T02:40:00Z",
+  "source": "Brave Search scraping of Vivid Seats/StubHub/Gametime/EventTicketCenter listings",
+  "confirmedPricing": [
+    {
+      "artist": "Waxahatchee + MJ Lenderman",
+      "venue": "Beacon Theatre NYC",
+      "date": "2026-04-20",
+      "getIn": "$231-250",
+      "source": "Vivid Seats / Rolling Stone",
+      "note": "Rolling Stone published article about finding tickets. Philly ~$150. This is real demand.",
+      "signal": "🔴 CONFIRMED — $250 get-in at 2,800 cap theater"
+    },
+    {
+      "artist": "Qveen Herby",
+      "venue": "Fillmore Minneapolis + 27 others",
+      "avgPrice": "$120",
+      "priceRange": "$58-$1,462",
+      "source": "Vivid Seats (Brave cache)",
+      "note": "Entire tour sold out primary. Venue upgrades. 28 US dates. Avg secondary $120.",
+      "signal": "🔴 CONFIRMED — full sellout + $120 avg secondary"
+    },
+    {
+      "artist": "Ari Lennox",
+      "venue": "Multiple (Brooklyn, Charlotte, Houston, Oakland)",
+      "getIn": "Resale exceeding face value per Ticketmaster",
+      "source": "Ticketmaster (verified resale)",
+      "note": "Multiple dates showing 'resale prices may exceed face value' — primary moving fast",
+      "signal": "🟡 WARM — primary still available but moving, resale building"
+    }
+  ],
+  "noListingsYet": [
+    {"artist": "Lambrini Girls", "vsId": 183803, "reason": "Tour starts April 21, presale may not have happened yet"},
+    {"artist": "After", "vsId": null, "reason": "Tour starts April 3, very emerging"},
+    {"artist": "Dijon", "vsId": 104083, "reason": "Mostly festival dates, limited headline"},
+    {"artist": "Skye Newman", "vsId": null, "reason": "Only 1 US date (Lolla Chicago), no headline tour yet"},
+    {"artist": "Jalen Ngonda", "vsId": null, "reason": "No US dates announced yet — 45 dates all UK/EU"}
+  ]
+}
