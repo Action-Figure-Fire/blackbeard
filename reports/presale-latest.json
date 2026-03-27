@@ -1,8 +1,23 @@
 {
-  "timestamp": "2026-03-22T13:00:04.591Z",
+  "timestamp": "2026-03-26T21:00:04.225Z",
   "braveCallsUsed": 25,
-  "alertCount": 0,
-  "alerts": [],
+  "alertCount": 1,
+  "alerts": [
+    {
+      "artist": "Noah Kahan",
+      "tier": "A",
+      "urgency": "CODE FOUND",
+      "emoji": "🔑",
+      "priority": 2,
+      "title": "Presale Codes Archives - Grimy Goods — discover new music, concerts, culture",
+      "description": "Here’s How To Get J. Cole 2026 Tour Tickets at the Best Price · Fuerza Regida Announce First-Ever U.S. Stadium Tour — Presale / Preventa Begins Feb. 17 · Noah Kahan at the Rose Bowl: Grab the Presale Code To Access Tickets Now",
+      "url": "https://www.grimygoods.com/los-angeles-concerts/pre-sale-passwords-tickets-los-angeles-concerts/",
+      "age": "19 hours ago",
+      "codes": [],
+      "dates": [],
+      "time": null
+    }
+  ],
   "allTrackedCodes": {
     "Jade LeMac-TICKETS": {
       "artist": "Jade LeMac",

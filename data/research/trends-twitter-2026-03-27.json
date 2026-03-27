@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Don Toliver",
+    "genre": "Hip-Hop / R&B",
+    "why_trending": "Octane album driving massive TikTok trends (E85 friendship compilations, Call Back dance choreography). Arena tour announced with MSG and Crypto.com Arena dates.",
+    "source": ["Google", "TikTok"],
+    "touring_us": true,
+    "venue_sizes": "Arenas (15K-20K) — MSG, BOK Center, Crypto.com Arena"
+  },
+  {
+    "name": "Benson Boone",
+    "genre": "Pop",
+    "why_trending": "Went from club shows to arena headlining in 2-3 years. Gen Z breakout star with massive social media growth. Grammy Best New Artist nominee.",
+    "source": ["Google", "TikTok"],
+    "touring_us": true,
+    "venue_sizes": "Arenas (10K-20K)"
+  },
+  {
+    "name": "Sabrina Carpenter",
+    "genre": "Pop",
+    "why_trending": "Coachella 2026 Friday headliner. Short n' Sweet Tour playing arenas (PPG Paints Arena etc). Massive cultural moment.",
+    "source": ["Google", "Twitter"],
+    "touring_us": true,
+    "venue_sizes": "Arenas/Stadiums (15K-60K) — Coachella headliner"
+  },
+  {
+    "name": "KATSEYE",
+    "genre": "K-Pop / Pop",
+    "why_trending": "Global girl group formed from 120K+ applicants. Grammy Best New Artist nominee. Festival circuit (Coachella, Gov Ball, Iowa State Fair).",
+    "source": ["Google", "Twitter"],
+    "touring_us": true,
+    "venue_sizes": "Festivals & mid-size venues (5K-15K)"
+  },
+  {
+    "name": "Zhamira",
+    "genre": "Latin Pop / Urbano",
+    "why_trending": "Sold out entire debut headlining tour across US and Latin America. Curita Para el Corazón album driving demand.",
+    "source": ["Twitter", "Google"],
+    "touring_us": true,
+    "venue_sizes": "Theaters/Clubs (1K-3K) — selling out, upgrade potential"
+  },
+  {
+    "name": "Hilary Duff",
+    "genre": "Pop",
+    "why_trending": "Added 2nd MSG show after first sold out. Lucky Me World Tour — first global run in almost 20 years. Las Vegas residency dates sold out.",
+    "source": ["Twitter", "Google"],
+    "touring_us": true,
+    "venue_sizes": "Arenas (15K-20K) — MSG, Voltaire at Venetian"
+  },
+  {
+    "name": "Rosalía",
+    "genre": "Latin / Flamenco Pop",
+    "why_trending": "LUX Tour pre-sale sold out in under an hour. Massive global demand.",
+    "source": ["Twitter", "Google"],
+    "touring_us": true,
+    "venue_sizes": "Arenas/Stadiums (15K-40K)"
+  },
+  {
+    "name": "BTS",
+    "genre": "K-Pop",
+    "why_trending": "World tour announced — Goyang concerts sold out across all presale dates. Every venue selling out instantly. Reunion tour after military service.",
+    "source": ["Twitter", "Google"],
+    "touring_us": true,
+    "venue_sizes": "Stadiums (40K-80K)"
+  },
+  {
+    "name": "Megan Moroney",
+    "genre": "Country",
+    "why_trending": "Upgraded to arenas (KFC Yum! Center, Target Center). Radio City Music Hall and Greek Theatre debut. TikTok viral in Nashville scene.",
+    "source": ["Google", "TikTok"],
+    "touring_us": true,
+    "venue_sizes": "Arenas (10K-20K) — KFC Yum! Center, Target Center"
+  },
+  {
+    "name": "Caamp",
+    "genre": "Indie Folk",
+    "why_trending": "2025 tour sold out 200K+ tickets. 2026 headlining tour announced. Played Radio City Music Hall, Greek Theatre, Salt Shed.",
+    "source": ["Twitter", "Google"],
+    "touring_us": true,
+    "venue_sizes": "Amphitheaters/Arenas (5K-15K)"
+  },
+  {
+    "name": "Kesha",
+    "genre": "Pop / Dance",
+    "why_trending": "The Freedom Tour 2026 announced — headlining summer North American tour. Comeback momentum after label dispute resolution.",
+    "source": ["Twitter", "Google"],
+    "touring_us": true,
+    "venue_sizes": "Theaters/Amphitheaters (3K-10K)"
+  },
+  {
+    "name": "Doja Cat",
+    "genre": "Pop / Hip-Hop",
+    "why_trending": "Tour Ma Vie coming to US in 2026. TikTok hype massive. Major arena/stadium potential.",
+    "source": ["TikTok", "Google"],
+    "touring_us": true,
+    "venue_sizes": "Arenas (15K-20K)"
+  },
+  {
+    "name": "adore",
+    "genre": "Electronic Pop / Hyperpop",
+    "why_trending": "Breakout single 'did i tell u that i miss u' — hundreds of millions of streams. Y2K aesthetic viral on TikTok. OnesToWatch and Spotify pick.",
+    "source": ["Google", "TikTok"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-2K) — rapid growth trajectory"
+  },
+  {
+    "name": "Absolutely",
+    "genre": "Alt-R&B",
+    "why_trending": "Raye's sister breaking out independently. Touring with Reneé Rapp, festival slots globally. OnesToWatch 2026 pick.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-2K)"
+  },
+  {
+    "name": "fakemink",
+    "genre": "UK Rap / Drill",
+    "why_trending": "Drake co-sign (brought out at Wireless). Viral hits constantly. Spotify Artists to Watch 2026. Featured on EsDeeKid's massive track.",
+    "source": ["Google", "Twitter"],
+    "touring_us": false,
+    "venue_sizes": "Theaters (1K-5K) — UK-based, US dates possible"
+  },
+  {
+    "name": "EsDeeKid",
+    "genre": "UK Rap / Drill / Jerk",
+    "why_trending": "Liverpool rapper — debut project Rebel went viral track by track. OnesToWatch 2026. Timothée Chalamet lookalike theory drove extra search interest.",
+    "source": ["Google", "TikTok"],
+    "touring_us": false,
+    "venue_sizes": "Theaters (1K-3K) — UK-based, US crossover potential"
+  },
+  {
+    "name": "YK Niece",
+    "genre": "Hip-Hop / R&B",
+    "why_trending": "EBONY Power 100 Generation Next honoree. Energetic performances gaining major attention. Breakout 2026 pick.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-2K)"
+  },
+  {
+    "name": "Audrey Hobert",
+    "genre": "Indie Pop / Bedroom Pop",
+    "why_trending": "Debut album Who's The Clown? — no skips. Best friend/collaborator of Gracie Abrams. Ex-Nickelodeon writer. OnesToWatch 2026.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-2K)"
+  },
+  {
+    "name": "Vincent Mason",
+    "genre": "Country",
+    "why_trending": "Spotify Artists to Watch 2026. 'Damned If I Do' gaining major playlist traction.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-2K)"
+  },
+  {
+    "name": "Hurricane Wisdom",
+    "genre": "Hip-Hop",
+    "why_trending": "Spotify Artists to Watch 2026. 'Drugs Callin' breakout track. Rising fast in hip-hop playlists.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-3K)"
+  },
+  {
+    "name": "KETTAMA",
+    "genre": "Dance / House",
+    "why_trending": "Spotify Artists to Watch 2026. Mixmag Breakthrough DJ 2025. Festival circuit momentum.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Festivals (1K-5K)"
+  },
+  {
+    "name": "Lenny Pearce",
+    "genre": "Beatbox / Viral Music",
+    "why_trending": "+517% YoY Google search growth (22,200 searches). Viral beatbox musician with family-friendly content reaching broad audiences.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Theaters (1K-5K)"
+  },
+  {
+    "name": "AKRIILA",
+    "genre": "Latin / Neoperreo / Experimental",
+    "why_trending": "Chilean artist pushing neoperreo beyond Latin America. Debut album epistolares critically acclaimed. OnesToWatch trailblazer pick.",
+    "source": ["Google"],
+    "touring_us": false,
+    "venue_sizes": "Clubs/Festivals (500-3K) — Latin America based, US crossover potential"
+  },
+  {
+    "name": "New Constellations",
+    "genre": "Indie Rock",
+    "why_trending": "Reddit popheads consensus breakout pick. 'Hot Blooded' organic viral growth. Debut full-length dropping 2026.",
+    "source": ["Google", "TikTok"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-2K)"
+  },
+  {
+    "name": "Yves",
+    "genre": "Pop / PC Music",
+    "why_trending": "Viral hit 'DIM'. Mini album Soft Error with PinkPantheress and Bratty features. Luna Collective 2026 artist to watch.",
+    "source": ["Google", "TikTok"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-3K)"
+  },
+  {
+    "name": "Moody Joody",
+    "genre": "Synth-Pop",
+    "why_trending": "Nashville trio. Toured with ARIZONA, Austin City Limits debut. Dream Girl EP on major playlists. Full US tour 2026.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-2K)"
+  },
+  {
+    "name": "After",
+    "genre": "Trip-Pop / Indie",
+    "why_trending": "Two EPs in 2025. Y2K nostalgia aesthetic viral. Spotify Artists to Watch 2026. OnesToWatch pick. '300 dreams' breakout track.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-2K)"
+  },
+  {
+    "name": "MOLIY",
+    "genre": "Afrobeats",
+    "why_trending": "Spotify Artists to Watch 2026 (Afrobeats pick). 'Shake It To the Max' remix gaining traction.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Festivals (500-3K)"
+  },
+  {
+    "name": "Lily Allen",
+    "genre": "Pop / Alt-Pop",
+    "why_trending": "Just announced US headlining tour for fall 2026. Presale starting April 1. Comeback momentum.",
+    "source": ["Twitter", "Google"],
+    "touring_us": true,
+    "venue_sizes": "Theaters (2K-5K)"
+  },
+  {
+    "name": "Prospa",
+    "genre": "Dance / Electronic",
+    "why_trending": "Spotify Artists to Watch 2026. 'Love Songs' breakout. UK dance duo crossing over.",
+    "source": ["Google"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Festivals (1K-5K)"
+  },
+  {
+    "name": "Eli",
+    "genre": "Pop",
+    "why_trending": "Debut album Stage Girl. Internet's favorite niche popstar. Live debuts in LA and NYC. Theatrical pop rising fast.",
+    "source": ["Google", "TikTok"],
+    "touring_us": true,
+    "venue_sizes": "Clubs/Theaters (500-2K)"
+  }
+]

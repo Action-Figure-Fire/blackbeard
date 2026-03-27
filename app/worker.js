@@ -43,7 +43,17 @@ const PERFORMER_IDS = {
   "fontaines dc": 141206, "royel otis": 376754,
   "cat burns": 273006, "sunset rollercoaster": 121206,
   "watchhouse": 84358, "tank and the bangas": 85098,
-  "naomi scott": null, "hearts2hearts": null
+  "naomi scott": null, "hearts2hearts": null,
+  "lambrini girls": 183803, "ari lennox": 105364,
+  "mj lenderman": 148557, "waxahatchee": 35041,
+  "qveen herby": 169959, "dijon": 104083,
+  "american football": null, "jalen ngonda": null,
+  "skye newman": null, "after": null,
+  "belle and sebastian": null, "alabama shakes": null,
+  "speed": null, "kettama": null, "prospa": null,
+  "geese": null, "sombr": null, "dry cleaning": null,
+  "black country new road": null, "the beths": null,
+  "vincent mason": null, "karri": null
 };
 
 // ============================================================

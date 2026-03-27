@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Sombr",
+    "genre": "Indie Pop / Bedroom Pop",
+    "spotify_monthly_listeners_approx": 15000000,
+    "why_buzzing": "Breakout hit 'back to friends' went mega-viral, wrote/produced in bedroom. Grammy Best New Artist nominee 2026. Performed at Spotify Best New Artist party.",
+    "touring_us": true,
+    "venue_sizes": "Festival circuit (Coachella, BottleRock Napa). Headlining mid-size venues 2000-4000 cap expected later 2026.",
+    "source": "Spotify BNA nominee, multiple publications"
+  },
+  {
+    "name": "Djo (Joe Keery)",
+    "genre": "Indie Rock / Psych Pop",
+    "spotify_monthly_listeners_approx": 12000000,
+    "why_buzzing": "Hit #1 on Spotify in Jan 2026 tied to Stranger Things finale. New album 'The Crux' dropping April 4. 'End of Beginning' was a massive sleeper hit.",
+    "touring_us": true,
+    "venue_sizes": "Summer 2026 tour supporting Tame Impala + headlining dates at 2000-5000 cap venues (Allianz Amphitheater Richmond, Artpark).",
+    "source": "Hounslow Herald, Ticketmaster, Vice"
+  },
+  {
+    "name": "Audrey Hobert",
+    "genre": "Alt-Pop / Bedroom Pop",
+    "spotify_monthly_listeners_approx": 3000000,
+    "why_buzzing": "Debut album 'Who's the Clown?' got widespread acclaim. Forbes 30 Under 30. Wrote songs for Gracie Abrams. Vevo DSCVR pick. First tour sold out in minutes at small venues.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap venues, scaling up. 'The Staircase to Stardom Tour' expanding to larger rooms.",
+    "source": "Ones to Watch, Melodic Mag, Reddit popheads"
+  },
+  {
+    "name": "Gigi Perez",
+    "genre": "Indie Pop / Singer-Songwriter",
+    "spotify_monthly_listeners_approx": 8000000,
+    "why_buzzing": "Vevo DSCVR Artist of the Year 2026. Hit 'Fable' viral across platforms. Bold storytelling and stage presence.",
+    "touring_us": true,
+    "venue_sizes": "1500-3000 cap theaters expected.",
+    "source": "Vevo DSCVR, Digital Music News"
+  },
+  {
+    "name": "Alessi Rose",
+    "genre": "Pop / Singer-Songwriter",
+    "spotify_monthly_listeners_approx": 2000000,
+    "why_buzzing": "Named on both Vevo DSCVR and Shazam Fast Forward 2026 lists. Strong Shazam discovery data trending upward.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap rooms.",
+    "source": "Shazam Fast Forward, Vevo DSCVR"
+  },
+  {
+    "name": "KATSEYE",
+    "genre": "K-Pop / Pop",
+    "spotify_monthly_listeners_approx": 5000000,
+    "why_buzzing": "EP gained huge traction, performed 'Gabriela' at Spotify BNA party. Strong Reddit buzz for full album in 2026.",
+    "touring_us": true,
+    "venue_sizes": "1500-3000 cap venues.",
+    "source": "Spotify BNA, Reddit popheads"
+  },
+  {
+    "name": "Eli",
+    "genre": "Pop / Theatrical Pop",
+    "spotify_monthly_listeners_approx": 1500000,
+    "why_buzzing": "Internet's favorite niche popstar. Debut album 'Stage Girl' in 2025. Live debuts in LA and NY. Theatrical performances building cult following.",
+    "touring_us": true,
+    "venue_sizes": "500-1000 cap venues.",
+    "source": "Ones to Watch"
+  },
+  {
+    "name": "After",
+    "genre": "Trip-Pop / Y2K Pop",
+    "spotify_monthly_listeners_approx": 1200000,
+    "why_buzzing": "Duo making nostalgic early-2000s trip-pop. Two EPs in 2025 gained major indie/music press attention. Unique Y2K visual aesthetic.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap.",
+    "source": "Ones to Watch, Consequence of Sound"
+  },
+  {
+    "name": "EsDeeKid",
+    "genre": "Rap / Drill / Jerk",
+    "spotify_monthly_listeners_approx": 2500000,
+    "why_buzzing": "Liverpool rapper went viral multiple times in 2025. Debut project 'Rebel' had nearly every track go viral. Unique rage-drill-jerk fusion.",
+    "touring_us": false,
+    "venue_sizes": "UK focused, 500-2000 cap. US dates possible 2026.",
+    "source": "Ones to Watch"
+  },
+  {
+    "name": "Fakemink",
+    "genre": "UK Rap / Grime",
+    "spotify_monthly_listeners_approx": 2000000,
+    "why_buzzing": "Drake brought him out at Wireless festival. Featured on EsDeeKid's viral 'LV Sandals'. Rapid ascent from UK underground.",
+    "touring_us": false,
+    "venue_sizes": "UK 1000-2000 cap. US festival appearances likely.",
+    "source": "Ones to Watch"
+  },
+  {
+    "name": "Absolutely",
+    "genre": "Alt-R&B",
+    "spotify_monthly_listeners_approx": 1800000,
+    "why_buzzing": "South London singer, Raye's sister. Toured with Reneé Rapp, collab with Jonas Brothers. Ethereal vocal style gaining massive attention.",
+    "touring_us": true,
+    "venue_sizes": "800-2000 cap.",
+    "source": "Ones to Watch"
+  },
+  {
+    "name": "adore",
+    "genre": "Electronic Pop / Hyperpop",
+    "spotify_monthly_listeners_approx": 4000000,
+    "why_buzzing": "Breakout single 'did i tell u that i miss u' racked up hundreds of millions of streams. Y2K avatar aesthetic, internet phenomenon.",
+    "touring_us": false,
+    "venue_sizes": "Primarily digital act, live dates TBA.",
+    "source": "Ones to Watch"
+  },
+  {
+    "name": "AKRIILA",
+    "genre": "Neoperreo / Experimental Latin",
+    "spotify_monthly_listeners_approx": 1000000,
+    "why_buzzing": "Chilean rapper/singer pushing neoperreo movement globally. Debut 'epistolares' praised as groundbreaking. Experimental reggaeton meets club energy.",
+    "touring_us": false,
+    "venue_sizes": "500-1500 cap Latin American circuit. US festival potential.",
+    "source": "Ones to Watch"
+  },
+  {
+    "name": "Vincent Mason",
+    "genre": "Country",
+    "spotify_monthly_listeners_approx": 2000000,
+    "why_buzzing": "Spotify Artists to Watch 2026. Essential track 'Damned If I Do' gaining playlist traction.",
+    "touring_us": true,
+    "venue_sizes": "500-2000 cap honky tonks and theaters.",
+    "source": "Spotify Artists to Watch 2026"
+  },
+  {
+    "name": "Laci Kaye Booth",
+    "genre": "Country",
+    "spotify_monthly_listeners_approx": 1500000,
+    "why_buzzing": "Spotify Artists to Watch 2026. 'Luck Of The Draw' building momentum on country playlists.",
+    "touring_us": true,
+    "venue_sizes": "500-2000 cap.",
+    "source": "Spotify Artists to Watch 2026"
+  },
+  {
+    "name": "Hurricane Wisdom",
+    "genre": "Hip-Hop",
+    "spotify_monthly_listeners_approx": 3000000,
+    "why_buzzing": "Spotify Artists to Watch 2026 (Hip-Hop pick). 'Drugs Callin' gaining streams rapidly.",
+    "touring_us": true,
+    "venue_sizes": "1000-3000 cap.",
+    "source": "Spotify Artists to Watch 2026"
+  },
+  {
+    "name": "KETTAMA",
+    "genre": "Dance / House",
+    "spotify_monthly_listeners_approx": 1200000,
+    "why_buzzing": "Spotify Artists to Watch 2026 (Dance pick). Irish DJ/producer bridging house and Irish trad influences. Festival favorite.",
+    "touring_us": true,
+    "venue_sizes": "Club shows 500-2000 cap.",
+    "source": "Spotify Artists to Watch 2026"
+  },
+  {
+    "name": "Prospa",
+    "genre": "Dance / Rave",
+    "spotify_monthly_listeners_approx": 1500000,
+    "why_buzzing": "Spotify Artists to Watch 2026. 'Love Songs' gaining traction. UK rave duo crossing over.",
+    "touring_us": true,
+    "venue_sizes": "Club/festival 1000-3000 cap.",
+    "source": "Spotify Artists to Watch 2026"
+  },
+  {
+    "name": "Hudson Freeman",
+    "genre": "Indie / Folk",
+    "spotify_monthly_listeners_approx": 800000,
+    "why_buzzing": "Spotify Artists to Watch 2026 (Indie/Folk pick). 'If You Know Me' resonating with indie listeners.",
+    "touring_us": true,
+    "venue_sizes": "300-1000 cap.",
+    "source": "Spotify Artists to Watch 2026"
+  },
+  {
+    "name": "Dove Ellis",
+    "genre": "Indie / Folk",
+    "spotify_monthly_listeners_approx": 600000,
+    "why_buzzing": "Spotify Artists to Watch 2026. 'Pale Song' ethereal folk gaining editorial playlist placement.",
+    "touring_us": true,
+    "venue_sizes": "300-800 cap.",
+    "source": "Spotify Artists to Watch 2026"
+  },
+  {
+    "name": "MOLIY",
+    "genre": "Afrobeats",
+    "spotify_monthly_listeners_approx": 2500000,
+    "why_buzzing": "Spotify Artists to Watch 2026 (Afrobeats). 'Shake It To the Max' remix viral. Afrobeats crossover momentum.",
+    "touring_us": true,
+    "venue_sizes": "800-2000 cap.",
+    "source": "Spotify Artists to Watch 2026"
+  },
+  {
+    "name": "Ovrkast.",
+    "genre": "Hip-Hop / Conscious Rap",
+    "spotify_monthly_listeners_approx": 500000,
+    "why_buzzing": "Spotify Artists to Watch 2026. Underground hip-hop gaining editorial support. 'Small Talk' building buzz.",
+    "touring_us": true,
+    "venue_sizes": "300-1000 cap.",
+    "source": "Spotify Artists to Watch 2026"
+  },
+  {
+    "name": "Liim",
+    "genre": "Pop / R&B",
+    "spotify_monthly_listeners_approx": 1000000,
+    "why_buzzing": "Shazam Fast Forward 2026 pick. Strong discovery data showing rapid growth in Shazam identifications.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap.",
+    "source": "Shazam Fast Forward 2026"
+  },
+  {
+    "name": "Florence Road",
+    "genre": "Indie Rock",
+    "spotify_monthly_listeners_approx": 800000,
+    "why_buzzing": "Shazam Fast Forward 2026. Predictive data showing massive upward trend in discoveries.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap.",
+    "source": "Shazam Fast Forward 2026"
+  },
+  {
+    "name": "Kashus Culpepper",
+    "genre": "Hip-Hop / R&B",
+    "spotify_monthly_listeners_approx": 700000,
+    "why_buzzing": "Shazam Fast Forward 2026. Rapid Shazam discovery growth, strong organic buzz.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap.",
+    "source": "Shazam Fast Forward 2026"
+  },
+  {
+    "name": "Kidd Carder",
+    "genre": "Country / Americana",
+    "spotify_monthly_listeners_approx": 600000,
+    "why_buzzing": "Shazam Fast Forward 2026. Part of country's next wave of breakout artists.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap.",
+    "source": "Shazam Fast Forward 2026"
+  },
+  {
+    "name": "Tash Blake",
+    "genre": "Dance-Pop",
+    "spotify_monthly_listeners_approx": 500000,
+    "why_buzzing": "LA-born, NYC-based. Multiple sold-out shows in NYC, LA, Paris. 'Die In Your Arms' latest single. Madonna/Gaga energy with grunge-glam fusion.",
+    "touring_us": true,
+    "venue_sizes": "300-800 cap, sold out shows scaling up.",
+    "source": "EARMILK"
+  },
+  {
+    "name": "Joey Myron",
+    "genre": "Country / Urban Cowboy",
+    "spotify_monthly_listeners_approx": 2000000,
+    "why_buzzing": "'Chills' surpassed 100M streams. Nashville-based, redefining country with urban cowboy aesthetic. Collab with Mickey Valen.",
+    "touring_us": true,
+    "venue_sizes": "500-2000 cap.",
+    "source": "EARMILK"
+  },
+  {
+    "name": "Emmy Adelle",
+    "genre": "Pop / Dance-Pop",
+    "spotify_monthly_listeners_approx": 1500000,
+    "why_buzzing": "Viral single 'About U'. Latest single 'Running' is pop-dance crossover. Poised for breakout 2026.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap.",
+    "source": "EARMILK"
+  },
+  {
+    "name": "Sienna Spiro",
+    "genre": "Pop / Singer-Songwriter",
+    "spotify_monthly_listeners_approx": 1000000,
+    "why_buzzing": "Vevo DSCVR 2026. Exclusive performances of 'Die On This Hill' and 'Sooner or Later'. Strong editorial support.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap.",
+    "source": "Vevo DSCVR 2026"
+  },
+  {
+    "name": "The Marías",
+    "genre": "Indie Pop / Psychedelic Pop",
+    "spotify_monthly_listeners_approx": 8000000,
+    "why_buzzing": "Spotify Best New Artist nominee 2026. Debut album CINEMA earned 2 Grammy noms + Billboard chart-topper. Collabs with Bad Bunny and Tainy.",
+    "touring_us": true,
+    "venue_sizes": "2000-4000 cap theaters, scaling up fast.",
+    "source": "Spotify BNA 2026"
+  },
+  {
+    "name": "Jalen Ngonda",
+    "genre": "Soul / R&B",
+    "spotify_monthly_listeners_approx": 1500000,
+    "why_buzzing": "Classic soul revival gaining massive attention. Named in Consequence emerging artists 2026. Bewildering authentic soul voice.",
+    "touring_us": true,
+    "venue_sizes": "800-2000 cap.",
+    "source": "Consequence of Sound"
+  },
+  {
+    "name": "Mon Rovîa",
+    "genre": "Country / Americana",
+    "spotify_monthly_listeners_approx": 500000,
+    "why_buzzing": "Tennessee singer-songwriter. Consequence emerging artist pick. Timeless songwriting tradition meeting modern production.",
+    "touring_us": true,
+    "venue_sizes": "300-1000 cap.",
+    "source": "Consequence of Sound"
+  },
+  {
+    "name": "Tyler Ballgame",
+    "genre": "Indie Rock / Alt-Rock",
+    "spotify_monthly_listeners_approx": 400000,
+    "why_buzzing": "Charismatic live performer. Consequence emerging artist pick for 2026. Building grassroots following.",
+    "touring_us": true,
+    "venue_sizes": "300-800 cap.",
+    "source": "Consequence of Sound"
+  },
+  {
+    "name": "Violet Grohl",
+    "genre": "Indie / Singer-Songwriter",
+    "spotify_monthly_listeners_approx": 800000,
+    "why_buzzing": "Consequence emerging artist 2026. Stepping out as solo artist with strong songwriting pedigree. Name recognition + genuine talent.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap.",
+    "source": "Consequence of Sound"
+  },
+  {
+    "name": "Royel Otis",
+    "genre": "Indie Rock / Surf Rock",
+    "spotify_monthly_listeners_approx": 4000000,
+    "why_buzzing": "Vevo DSCVR 2026 pick. Australian duo with infectious indie rock. Streaming numbers surging globally.",
+    "touring_us": true,
+    "venue_sizes": "1500-3000 cap, selling out quickly.",
+    "source": "Vevo DSCVR 2026"
+  },
+  {
+    "name": "El Malilla",
+    "genre": "Reggaeton / Latin Urban",
+    "spotify_monthly_listeners_approx": 5000000,
+    "why_buzzing": "Part of reggaeton's generational renewal wave. Latin trap/reggaeton fastest growing genres on Spotify (+29% and +24% respectively).",
+    "touring_us": true,
+    "venue_sizes": "1000-3000 cap.",
+    "source": "Remezcla"
+  },
+  {
+    "name": "Cortis",
+    "genre": "Pop / Electronic",
+    "spotify_monthly_listeners_approx": 500000,
+    "why_buzzing": "Shazam Fast Forward 2026 highlighted pick. Strong predictive data showing rapid organic discovery growth.",
+    "touring_us": false,
+    "venue_sizes": "TBA - early stage.",
+    "source": "Shazam Fast Forward 2026"
+  },
+  {
+    "name": "Clarent",
+    "genre": "Alt-Pop / Electronic",
+    "spotify_monthly_listeners_approx": 400000,
+    "why_buzzing": "Shazam Fast Forward 2026 highlighted pick. Emerging from Shazam's predictive algorithm as high-growth artist.",
+    "touring_us": false,
+    "venue_sizes": "TBA - early stage.",
+    "source": "Shazam Fast Forward 2026"
+  },
+  {
+    "name": "Jackie Hollander",
+    "genre": "Dance / Electronic",
+    "spotify_monthly_listeners_approx": 800000,
+    "why_buzzing": "Spotify Artists to Watch 2026 (Dance). 'You Go I Go' gaining editorial playlist placement.",
+    "touring_us": true,
+    "venue_sizes": "500-1500 cap club shows.",
+    "source": "Spotify Artists to Watch 2026"
+  }
+]

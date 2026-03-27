@@ -1,0 +1,126 @@
+{
+  "compiled": "2026-03-27T02:35:00Z",
+  "totalNewArtists": 120,
+  "sources": ["Spotify ATW 2026", "NME 100", "Pitchfork Spring 66", "Consequence Emerging", "Yardbarker 21", "BBC Sound of 2026", "Rolling Stone", "Billboard", "Google Trends", "Twitter/X"],
+  "highestPriority": [
+    {
+      "name": "Qveen Herby",
+      "genre": "Hip-Hop/Pop",
+      "signal": "🔴 CONFIRMED SELLOUT",
+      "vsId": 169959,
+      "evidence": "ENTIRE tour sold out. Venue upgrade Denver. 28 US dates at 1500-3500 cap (Fillmore Minneapolis, HOB Chicago, Pageant STL, Royal Oak Music Theatre)",
+      "action": "SCAN VIVID SEATS FOR PRICING IMMEDIATELY"
+    },
+    {
+      "name": "Jalen Ngonda",
+      "genre": "Soul/R&B (Daptone Records)",
+      "signal": "🔴 UK BREAKOUT",
+      "vsId": null,
+      "evidence": "Elton John: 'he is going to be a huge star.' Sold-out US/UK/EU tours. Second album June 2026. Club → arena trajectory. 45 total tour dates but NO US dates currently = first US headline tour may be incoming",
+      "action": "MONITOR FOR US TOUR ANNOUNCEMENT — highest conviction new buy when announced"
+    },
+    {
+      "name": "Lambrini Girls",
+      "genre": "Punk (Brighton UK)",
+      "signal": "🔴 UK BREAKOUT + TRIPLE-LISTED",
+      "vsId": 183803,
+      "evidence": "NME 100 + Pitchfork + Consequence ROTY. Coachella 2026. First NA headline: 12 US/CA dates at 500-1000 cap (Warsaw Brooklyn, Paradise Rock Club Boston, Variety Playhouse Atlanta)",
+      "action": "SCAN VIVID SEATS — first NA headlining tour at small venues = scarcity play"
+    },
+    {
+      "name": "After",
+      "genre": "Trip-Pop/Y2K Pop",
+      "signal": "🔴 TRIPLE-LISTED",
+      "vsId": null,
+      "evidence": "Spotify ATW + NME 100 + Consequence. 13 US dates including The Anthem DC (3,000 cap!) + Saturn Birmingham + Paper Tiger San Antonio",
+      "action": "FIND VIVID SEATS ID — Anthem DC at 3K cap for an emerging act is bold booking"
+    },
+    {
+      "name": "Dijon",
+      "genre": "Alt-R&B/Indie",
+      "signal": "🔴 SUPPORT-ACT SPIKE",
+      "vsId": 104083,
+      "evidence": "Opening for Zach Bryan (stadium dates: Davis Wade, Huntington Bank). Shows historically sell out. Coachella 2026. Own headline run = spike signal pattern",
+      "action": "SCAN PRICING — Zach Bryan exposure will funnel 50K/night into Dijon's headline shows"
+    },
+    {
+      "name": "Skye Newman",
+      "genre": "R&B/Soul",
+      "signal": "🔴 BBC SOUND OF 2026 WINNER",
+      "vsId": null,
+      "evidence": "Won BBC Sound of 2026. Only 1 US date (Lollapalooza Chicago). 19 total dates mostly UK/EU. First US headline tour hasn't been announced yet",
+      "action": "HIGHEST WATCH — when US tour is announced, this is the #1 buy. BBC Sound winners: Adele, Sam Smith, Celeste, PinkPantheress"
+    },
+    {
+      "name": "MJ Lenderman & Waxahatchee",
+      "genre": "Alt-Country/Indie",
+      "signal": "🔴 INDIE ROYALTY CO-HEADLINE",
+      "vsIds": {"mj_lenderman": 148557, "waxahatchee": 35041},
+      "evidence": "Co-headlining at Beacon Theatre NYC, Auditorium Theatre Chicago. MJ Lenderman also opening for Zach Bryan. Pitchfork + Rolling Stone featured",
+      "action": "SCAN PRICING — Beacon Theatre + Zach Bryan support = massive demand funnel"
+    },
+    {
+      "name": "Ari Lennox",
+      "genre": "R&B",
+      "signal": "🟡 PENT-UP DEMAND",
+      "vsId": 105364,
+      "evidence": "Left Dreamville, Vacancy album, first tour since 2022 (3+ year gap). Seattle → Brooklyn theater routing. Pitchfork featured",
+      "action": "SCAN PRICING — 3-year touring gap for established R&B artist = pent-up demand"
+    },
+    {
+      "name": "American Football",
+      "genre": "Midwest Emo",
+      "signal": "🟡 REUNION/NOSTALGIA",
+      "vsId": null,
+      "evidence": "LP4 announced. 20+ year international fanbase. Midwest emo originators. Extensive tour. Pitchfork featured",
+      "action": "SCAN — emo nostalgia wave still strong, original band = premium"
+    },
+    {
+      "name": "Hearts2Hearts",
+      "genre": "K-pop/Pop",
+      "signal": "🔴 CONFIRMED PRICING",
+      "vsId": null,
+      "evidence": "Already on BB VIP: $198-218 Brooklyn+LA. Now NME 100 confirmed. K-pop audiences pay extreme premiums",
+      "action": "CONTINUE MONITORING — already VIP"
+    },
+    {
+      "name": "fakemink",
+      "genre": "UK Underground/R&B",
+      "signal": "🔴 TRIPLE-LISTED + VIP",
+      "vsId": null,
+      "evidence": "Spotify ATW + NME 100 + Pitchfork. Frank Ocean cosign, Gucci, Coachella. Already BB VIP at $184 uniform. Dante's Inferno album 'Terrified'",
+      "action": "CONTINUE MONITORING — already VIP, re-scan post-Coachella"
+    }
+  ],
+  "mediumPriority": [
+    {"name": "KETTAMA", "genre": "Dance", "vsId": null, "note": "Irish DJ, Spotify ATW, 17 US dates inc Club Space Miami"},
+    {"name": "Vincent Mason", "genre": "Country", "vsId": null, "note": "Spotify ATW country pick"},
+    {"name": "Karri", "genre": "Hip-Hop", "vsId": null, "note": "Drake PFL label, double-listed"},
+    {"name": "JayDon", "genre": "R&B", "vsId": null, "note": "Usher's Gamma label, double-listed"},
+    {"name": "Hermanos Espinoza", "genre": "Latin", "vsId": null, "note": "Spotify ATW Latin pick — LATAM diaspora potential"},
+    {"name": "Young Cister", "genre": "Latin", "vsId": null, "note": "Chilean, Spotify ATW"},
+    {"name": "Prospa", "genre": "Dance", "vsId": null, "note": "UK dance duo, Spotify ATW"},
+    {"name": "PRYVT", "genre": "Indie Rock", "vsId": null, "note": "English/Korean lyrics, 20M+ streams, Asia-Pacific + NA tour"},
+    {"name": "Alabama Shakes", "genre": "Southern Rock", "vsId": null, "note": "Reunion after 7+ years, Red Rocks x2, Zach Bryan support"},
+    {"name": "Belle and Sebastian", "genre": "Indie Pop", "vsId": null, "note": "30th anniversary, 2-night format limits supply"},
+    {"name": "Geese", "genre": "Post-Punk", "vsId": null, "note": "BBC Sound longlist, Gov Ball, Bonnaroo"},
+    {"name": "Sombr", "genre": "Pop-Rock", "vsId": null, "note": "BBC Sound longlist, Billboard featured"},
+    {"name": "Alessi Rose", "genre": "Pop", "vsId": null, "note": "BBC Sound longlist + Rolling Stone UK"},
+    {"name": "Sasha Keable", "genre": "R&B", "vsId": null, "note": "BBC Sound longlist + NME 100"},
+    {"name": "Black Country New Road", "genre": "Post-Rock", "vsId": null, "note": "Pitchfork, Horsegirl opening, devoted fanbase"}
+  ],
+  "genreTrends2026": {
+    "hottest": "Brazilian funk (fastest growing to $100M+ on Spotify)",
+    "rising": ["K-pop boyband reunions (BTS)", "Country breakouts", "UK post-punk wave 3", "LATAM urban theater tours"],
+    "watch": ["Amapiano live tours", "Japanese rap crossover (Yuki Chiba)", "Indonesian indie soul (Thee Marloes)"],
+    "note": "3x more artists achieved Chartmetric 'Superstar' status in 2025 — the breakout pipeline is accelerating"
+  },
+  "newDataSources": {
+    "stubhub_affiliate_api": "Apply via affiliates@stubhub.com through Partnerize network — gets full listing/pricing API",
+    "seatgeek_stats": "GET /events?client_id=X returns stats.lowest_price, stats.listing_count — WE ALREADY HAVE THIS",
+    "tickpick_affiliate": "https://www.tickpick.com/affiliates/ — no-fee marketplace, affiliate API available",
+    "ticketmaster_discovery": "https://developer.ticketmaster.com — FREE, 5000 req/day, event search + presale dates + venue data",
+    "ticket_evolution_api": "https://ticketevolution.com — B2B broker API, real-time inventory + pricing",
+    "ticket_network_api": "https://developer.ticketnetwork.com — broker exchange API"
+  }
+}

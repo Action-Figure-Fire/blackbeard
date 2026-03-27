@@ -1,0 +1,208 @@
+{
+  "compiled": "2026-03-27",
+  "methodology": "Cross-referenced 6 major 'Artists to Watch 2026' lists. Artists appearing on 2+ lists = highest breakout probability.",
+  "sources": [
+    "Spotify Artists to Watch 2026 (Jan 12)",
+    "NME 100 of 2026 (Feb 11)",
+    "Consequence Emerging Artists 2026 (Jan 12)",
+    "Pitchfork 66 Most Anticipated Tours Spring 2026 (Mar 24)",
+    "Yardbarker 21 Emerging Artists 2026 (Dec 2025)",
+    "BBC Sound of 2026 (search pending)"
+  ],
+  "multiListArtists": [
+    {
+      "name": "fakemink",
+      "lists": ["Spotify ATW", "NME 100", "Pitchfork"],
+      "listCount": 3,
+      "genre": "UK Underground/R&B",
+      "note": "Frank Ocean cosign, Gucci runway, Coachella 2026. Already on BB VIP watchlist at $184 uniform pricing. Dante's Inferno-inspired album 'Terrified'. Pitchfork called him 'UK underground crown prince'.",
+      "signal": "🔴 RED — triple-listed + already confirmed secondary pricing"
+    },
+    {
+      "name": "After",
+      "lists": ["Spotify ATW", "NME 100", "Consequence"],
+      "listCount": 3,
+      "genre": "Indie/Dream Pop",
+      "note": "Y2K-era sparkle aesthetic. Triple-listed across all major publications.",
+      "signal": "🔴 RED — triple-listed, needs VS/pricing investigation"
+    },
+    {
+      "name": "Fcukers",
+      "lists": ["Spotify ATW", "Pitchfork"],
+      "listCount": 2,
+      "genre": "Art-Punk/NYC Downtown",
+      "note": "NYC duo, Governor's Ball, debut album Ö. Spotify Essential track: 'Bon Bon'.",
+      "signal": "🟡 WARM — double-listed but very small venues (300-600 cap)"
+    },
+    {
+      "name": "ADÉLA",
+      "lists": ["Spotify ATW", "NME 100"],
+      "listCount": 2,
+      "genre": "Pop",
+      "note": "Pop provocateur. Spotify Essential track: 'Superscar'.",
+      "signal": "🟡 WARM — double-listed, needs tour/pricing data"
+    },
+    {
+      "name": "Moliy",
+      "lists": ["Spotify ATW", "NME 100"],
+      "listCount": 2,
+      "genre": "Afrobeats",
+      "note": "'Shake It To The Max (FLY)' hitmaker.",
+      "signal": "🟡 WARM — Afrobeats touring market is growing"
+    },
+    {
+      "name": "Jai'Len Josey",
+      "lists": ["Spotify ATW", "NME 100"],
+      "listCount": 2,
+      "genre": "R&B",
+      "note": "Spotify Essential: 'Won't Force You'.",
+      "signal": "⚪ WATCH — early stage"
+    },
+    {
+      "name": "JayDon",
+      "lists": ["Spotify ATW", "Yardbarker"],
+      "listCount": 2,
+      "genre": "R&B/Pop",
+      "note": "Signed to Usher's Gamma label. Childish Gambino collab. Lion King actor.",
+      "signal": "🟡 WARM — major label backing + famous collaborators"
+    },
+    {
+      "name": "Karri",
+      "lists": ["Consequence", "Yardbarker"],
+      "listCount": 2,
+      "genre": "Hip-Hop",
+      "note": "Signed to Drake's PFL label. '3AM in Oakland' viral. Kehlani feature.",
+      "signal": "🟡 WARM — Drake cosign is significant"
+    },
+    {
+      "name": "Gabriel Jacoby",
+      "lists": ["NME 100", "Yardbarker"],
+      "listCount": 2,
+      "genre": "R&B/Soul/Funk",
+      "note": "Toured with Khamari. Debut EP 'gutta child'.",
+      "signal": "⚪ WATCH — early stage"
+    },
+    {
+      "name": "Hearts2Hearts",
+      "lists": ["NME 100", "BB VIP Watchlist"],
+      "listCount": 2,
+      "genre": "K-pop/Pop",
+      "note": "Already on BB watchlist — $198-218 Brooklyn+LA. NME 100 confirms hype.",
+      "signal": "🔴 RED — confirmed secondary pricing + publication buzz"
+    },
+    {
+      "name": "Lambrini Girls",
+      "lists": ["NME 100 adjacent", "Pitchfork", "Consequence ROY 2025"],
+      "listCount": 3,
+      "genre": "Punk",
+      "note": "Brighton UK punks. VS ID: 183803. Coachella 2026. First NA headline tour. Paradise Rock Club Boston.",
+      "signal": "🔴 RED — triple-listed UK breakout + Coachella"
+    }
+  ],
+  "singleListHighPotential": [
+    {
+      "name": "Jalen Ngonda",
+      "list": "Consequence",
+      "genre": "Soul",
+      "note": "Daptone Records, Elton John cosign, sold out US/UK/EU tours, 2nd album June 2026. Growing from clubs to arenas.",
+      "signal": "🔴 RED — confirmed sellout history + major cosigns"
+    },
+    {
+      "name": "Qveen Herby",
+      "list": "Facebook viral",
+      "genre": "Hip-Hop/Pop",
+      "note": "ENTIRE tour sold out. Venue upgrade Denver. Hollywood Palladium. VS ID: 169959.",
+      "signal": "🔴 RED — confirmed full sellout + venue upgrades"
+    },
+    {
+      "name": "Dijon",
+      "list": "Pitchfork",
+      "genre": "Alt-R&B",
+      "note": "Zach Bryan support slot + own headline theaters. Shows sell out. VS ID: 104083.",
+      "signal": "🔴 RED — support-act spike signal"
+    },
+    {
+      "name": "Speed",
+      "list": "Spotify ATW",
+      "genre": "Hardcore/Punk",
+      "note": "Australian hardcore. 'PEACE' is essential track. Hardcore scene is blowing up.",
+      "signal": "🟡 WARM — hardcore has passionate niche following"
+    },
+    {
+      "name": "Ecca Vandal",
+      "list": "Spotify ATW",
+      "genre": "Rock/Alternative",
+      "note": "Australian. 'CRUISING TO SELF SOOTHE'.",
+      "signal": "⚪ WATCH"
+    },
+    {
+      "name": "Die Spitz",
+      "list": "Spotify ATW",
+      "genre": "Rock",
+      "note": "'Throw Yourself to the Sword'.",
+      "signal": "⚪ WATCH"
+    },
+    {
+      "name": "Hermanos Espinoza",
+      "list": "Spotify ATW",
+      "genre": "Latin",
+      "note": "'DIOS POR DELANTE'. LATAM act — check for diaspora potential.",
+      "signal": "🟡 WARM — LATAM could have diaspora demand"
+    },
+    {
+      "name": "Young Cister",
+      "list": "Spotify ATW",
+      "genre": "Latin",
+      "note": "Chilean. 'QLOO*'. Latin genre on Spotify ATW = significant streaming.",
+      "signal": "🟡 WARM — LATAM market"
+    },
+    {
+      "name": "rusowsky",
+      "list": "Spotify ATW",
+      "genre": "Latin/Indie",
+      "note": "Spanish indie. 'malibU'.",
+      "signal": "⚪ WATCH"
+    },
+    {
+      "name": "Vincent Mason",
+      "list": "Spotify ATW",
+      "genre": "Country",
+      "note": "'Damned If I Do'. Country is hot market for secondary.",
+      "signal": "🟡 WARM — country breakouts command premiums"
+    },
+    {
+      "name": "Max McNown",
+      "list": "Spotify ATW",
+      "genre": "Country",
+      "note": "'Better Me For You (Brown Eyes)'. Country Spotify pick.",
+      "signal": "🟡 WARM"
+    },
+    {
+      "name": "Laci Kaye Booth",
+      "list": "Spotify ATW",
+      "genre": "Country",
+      "note": "'Luck Of The Draw'. American Idol alum, country.",
+      "signal": "🟡 WARM"
+    },
+    {
+      "name": "KETTAMA",
+      "list": "Spotify ATW",
+      "genre": "Dance/Electronic",
+      "note": "Irish DJ/producer. 'Man With a Second Face'. Dance acts have strong live demand.",
+      "signal": "🟡 WARM"
+    },
+    {
+      "name": "Prospa",
+      "list": "Spotify ATW",
+      "genre": "Dance/Electronic",
+      "note": "UK dance duo. 'Love Songs'.",
+      "signal": "🟡 WARM"
+    }
+  ],
+  "spotifyGenreTrends": {
+    "fastestGrowingGenre2025": "Brazilian funk ($100M+ on Spotify)",
+    "emergingTrend": "3x more artists achieved 'Superstar' status in 2025 vs prior years",
+    "internationalBreakouts": ["Yuki Chiba (Japanese rapper)", "Thee Marloes (Indonesian indie soul)"],
+    "freshFindsImpact": "1 in 10 artists generating >$100K/year on Spotify were first playlisted via Fresh Finds"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "source": "Pitchfork 66 Most Anticipated Tours of Spring 2026 (Mar 24, 2026)",
+  "crossRef": "NME 100, Consequence Emerging Artists, Rolling Stone, Billboard",
+  "dateCompiled": "2026-03-27",
+  "artists": [
+    {
+      "name": "MJ Lenderman & Waxahatchee",
+      "genre": "Alt-Country/Indie",
+      "note": "Co-headlining run. MJ Lenderman is Pitchfork darling, Waxahatchee is indie royalty. Playing Beacon Theatre NYC, Auditorium Theatre Chicago.",
+      "vsIds": { "mj_lenderman": 148557, "waxahatchee": 35041 },
+      "venueScale": "1500-2800 cap theaters",
+      "signal": "HIGH — indie crossover, opening for Zach Bryan",
+      "multiList": ["Pitchfork", "Rolling Stone"]
+    },
+    {
+      "name": "Ari Lennox",
+      "genre": "R&B",
+      "note": "Left Dreamville, Vacancy album, first tour since 2022. Seattle to Brooklyn.",
+      "vsId": 105364,
+      "venueScale": "2000-3500 cap theaters",
+      "signal": "HIGH — major R&B, 3+ year touring gap = pent-up demand",
+      "multiList": ["Pitchfork"]
+    },
+    {
+      "name": "Lambrini Girls",
+      "genre": "Punk",
+      "note": "Brighton UK punks. NME 100 2026, Coachella, first NA headlining tour. Consequence Rookie of Year 2025.",
+      "vsId": 183803,
+      "venueScale": "300-800 cap clubs (Paradise Rock Club Boston)",
+      "signal": "HIGH — UK breakout + NME + Coachella + punk hype cycle",
+      "multiList": ["Pitchfork", "NME 100", "Consequence"]
+    },
+    {
+      "name": "fakemink",
+      "genre": "UK Underground/R&B",
+      "note": "Frank Ocean cosign, Gucci runway, Dante's Inferno-inspired album. Coachella to CLOUT Festival. Pitchfork called him 'UK underground crown prince.'",
+      "vsId": null,
+      "venueScale": "500-2000 cap",
+      "signal": "VERY HIGH — we already track this artist, $184 uniform pricing, A-tier VIP",
+      "multiList": ["Pitchfork", "NME 100"]
+    },
+    {
+      "name": "Black Country, New Road",
+      "genre": "Post-Rock/Experimental",
+      "note": "Post-Isaac Wood era, Forever Howlong album, Horsegirl opening. Second NA run.",
+      "vsId": null,
+      "venueScale": "1000-2500 cap theaters",
+      "signal": "MEDIUM — dedicated fanbase but niche experimental",
+      "multiList": ["Pitchfork"]
+    },
+    {
+      "name": "Qveen Herby",
+      "genre": "Hip-Hop/Pop",
+      "note": "ENTIRE tour sold out. Venue upgrade in Denver. Hollywood Palladium, Fillmore Minneapolis.",
+      "vsId": 169959,
+      "venueScale": "1500-3500 cap (Palladium, Fillmore)",
+      "signal": "VERY HIGH — full sellout + venue upgrades = confirmed demand",
+      "multiList": ["Facebook viral"]
+    },
+    {
+      "name": "Dijon",
+      "genre": "Alt-R&B/Indie",
+      "note": "Dedicated fanbase, shows sell out. Opening for Zach Bryan on stadium dates. Own headline run at theaters.",
+      "vsId": 104083,
+      "venueScale": "1500-3000 cap theaters",
+      "signal": "HIGH — Zach Bryan support + own headline = spike signal",
+      "multiList": ["Pitchfork", "Rolling Stone"]
+    },
+    {
+      "name": "Jalen Ngonda",
+      "genre": "Soul/R&B",
+      "note": "Daptone Records. Elton John said 'he will be a huge star.' Sold-out US/UK/EU tours. Second album Doctrine of Love (June 2026). Club stages → arenas trajectory.",
+      "vsId": null,
+      "venueScale": "800-2500 cap (growing fast)",
+      "signal": "VERY HIGH — UK breakout pattern + Daptone pedigree + critical acclaim",
+      "multiList": ["Consequence", "NME 100 adjacent"]
+    },
+    {
+      "name": "Alabama Shakes",
+      "genre": "Southern Rock/Blues",
+      "note": "Reunion after 7+ years. No new music since 2015. 2025 comeback + 2026 Red Rocks x2. Also supporting Zach Bryan.",
+      "vsId": null,
+      "venueScale": "3000-10000 cap amphitheaters + Red Rocks",
+      "signal": "HIGH — reunion premium, Sound & Color nostalgia",
+      "multiList": ["Pitchfork", "Rolling Stone", "USA Today"]
+    },
+    {
+      "name": "Dry Cleaning",
+      "genre": "Post-Punk",
+      "note": "UK post-punk, Cate Le Bon-produced Secret Love album.",
+      "vsId": null,
+      "venueScale": "800-1500 cap",
+      "signal": "MEDIUM — niche but dedicated",
+      "multiList": ["Pitchfork"]
+    },
+    {
+      "name": "Fcukers",
+      "genre": "Art-Punk/NYC Downtown",
+      "note": "Governor's Ball 2026, debut album Ö, no NYC headline dates on purpose.",
+      "vsId": null,
+      "venueScale": "300-600 cap clubs",
+      "signal": "WATCH — too small/niche for secondary market currently",
+      "multiList": ["Pitchfork"]
+    },
+    {
+      "name": "Florence and the Machine",
+      "genre": "Indie Rock/Pop",
+      "note": "15+ year career, big production, arena-scale",
+      "vsId": null,
+      "venueScale": "Arena (too big for us)",
+      "signal": "SKIP — arena scale",
+      "multiList": ["Pitchfork"]
+    },
+    {
+      "name": "The Beths",
+      "genre": "Indie Pop",
+      "note": "New Zealand. Straight Line Was a Lie tour. Gov Ball → East Coast → Midwest.",
+      "vsId": null,
+      "venueScale": "800-2000 cap",
+      "signal": "MEDIUM — dedicated indie pop fanbase",
+      "multiList": ["Pitchfork"]
+    },
+    {
+      "name": "American Football",
+      "genre": "Midwest Emo",
+      "note": "LP4 announcement, extensive tour, 20+ year international fanbase. Midwest emo originators.",
+      "vsId": null,
+      "venueScale": "1000-3000 cap",
+      "signal": "HIGH — reunion/legacy + LP4 hype + emo nostalgia wave",
+      "multiList": ["Pitchfork"]
+    },
+    {
+      "name": "Belle and Sebastian",
+      "genre": "Indie Pop",
+      "note": "30th anniversary of Tigermilk + If You're Feeling Sinister. Two nights per city.",
+      "vsId": null,
+      "venueScale": "1500-3000 cap theaters",
+      "signal": "MEDIUM-HIGH — anniversary premium, 2-night format limits supply",
+      "multiList": ["Pitchfork"]
+    },
+    {
+      "name": "Band of Horses",
+      "genre": "Indie Rock",
+      "note": "20th anniversary Everything All the Time. 'The Funeral' nostalgia.",
+      "vsId": null,
+      "venueScale": "1500-3000 cap",
+      "signal": "MEDIUM — anniversary tour but limited secondary demand historically",
+      "multiList": ["Pitchfork"]
+    }
+  ],
+  "consequenceEmergingArtists2026": [
+    "After", "Mon Rovîa", "Karri", "Jalen Ngonda", "Violet Grohl",
+    "Tyler Ballgame", "Omerta", "Racing Mount Pleasant"
+  ],
+  "nme100Highlights": [
+    "Florence Road", "XCOMM", "Sasha Keable", "Effie", "Hearts2Hearts",
+    "After", "Lambrini Girls", "Omerta", "ADÉLA", "EJ Jones", "Moliy",
+    "She's Green", "The Paradox", "Femtanyl", "Cruush", "Chuwi"
+  ],
+  "highestPriorityForBB": [
+    "Qveen Herby (CONFIRMED SELLOUT + upgrades)",
+    "Jalen Ngonda (UK breakout + Daptone + Elton cosign)",
+    "Lambrini Girls (UK punk breakout + NME + Coachella)",
+    "Dijon (Zach Bryan support + own headline = spike signal)",
+    "MJ Lenderman & Waxahatchee (indie royalty co-headline)",
+    "Ari Lennox (R&B, 3-year gap, Dreamville pedigree)",
+    "American Football (LP4 + midwest emo nostalgia)",
+    "fakemink (already VIP, Pitchfork featured, Coachella)"
+  ]
+}

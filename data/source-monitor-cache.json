@@ -2,7 +2,7 @@
   "artists": {
     "Djo (Joe Keery)": {
       "eventIds": [],
-      "lastChecked": "2026-03-22T11:02:22.265Z"
+      "lastChecked": "2026-03-26T11:02:33.023Z"
     },
     "La Roux": {
       "eventIds": [
@@ -51,7 +51,7 @@
         "108026067",
         "107945075"
       ],
-      "lastChecked": "2026-03-22T11:02:22.653Z"
+      "lastChecked": "2026-03-26T11:02:33.304Z"
     },
     "Subtronics": {
       "eventIds": [
@@ -76,7 +76,7 @@
         "108094616",
         "107971585"
       ],
-      "lastChecked": "2026-03-22T11:02:22.966Z"
+      "lastChecked": "2026-03-26T11:02:33.564Z"
     },
     "Fisher": {
       "eventIds": [
@@ -86,14 +86,13 @@
         "107967959",
         "107967964",
         "107839828",
+        "1038413080",
         "107656160",
-        "1037468981",
-        "1037467312",
         "1037822470",
         "108110997",
         "1038175198"
       ],
-      "lastChecked": "2026-03-22T11:02:23.258Z"
+      "lastChecked": "2026-03-26T11:02:33.812Z"
     },
     "Rezz": {
       "eventIds": [
@@ -103,7 +102,7 @@
         "107838209",
         "107993012"
       ],
-      "lastChecked": "2026-03-22T11:02:23.534Z"
+      "lastChecked": "2026-03-26T11:02:34.066Z"
     },
     "Sara Landry": {
       "eventIds": [
@@ -120,10 +119,12 @@
         "108028145",
         "1037159752",
         "108046685",
+        "108129594",
         "1038193250",
         "108028502",
         "1037434455",
         "108064132",
+        "108127453",
         "107650303",
         "108028671",
         "1038214694",
@@ -140,7 +141,7 @@
         "1037839272",
         "108069315"
       ],
-      "lastChecked": "2026-03-22T11:02:23.862Z"
+      "lastChecked": "2026-03-26T11:02:34.333Z"
     },
     "Knock2": {
       "eventIds": [
@@ -153,7 +154,7 @@
         "1037785929",
         "1037787118"
       ],
-      "lastChecked": "2026-03-22T11:02:24.153Z"
+      "lastChecked": "2026-03-26T11:02:34.593Z"
     },
     "Seven Lions": {
       "eventIds": [
@@ -172,9 +173,10 @@
         "108054469",
         "107872879",
         "108110929",
+        "108135658",
         "107872862"
       ],
-      "lastChecked": "2026-03-22T11:02:24.455Z"
+      "lastChecked": "2026-03-26T11:02:34.848Z"
     },
     "Treaty Oak Revival": {
       "eventIds": [
@@ -190,6 +192,7 @@
         "107662002",
         "107662005",
         "107662008",
+        "1038481716",
         "1035466369",
         "107662004",
         "107785807",
@@ -204,10 +207,11 @@
         "107661996",
         "1037328128",
         "107661999",
+        "1038452302",
         "107463368",
         "107785870"
       ],
-      "lastChecked": "2026-03-22T11:02:24.760Z"
+      "lastChecked": "2026-03-26T11:02:35.091Z"
     },
     "Mt. Joy": {
       "eventIds": [
@@ -256,7 +260,7 @@
         "1037892075",
         "1037295103"
       ],
-      "lastChecked": "2026-03-22T11:02:25.154Z"
+      "lastChecked": "2026-03-26T11:02:35.346Z"
     },
     "Goose": {
       "eventIds": [
@@ -265,14 +269,14 @@
         "107987103",
         "107987105"
       ],
-      "lastChecked": "2026-03-22T11:02:25.450Z"
+      "lastChecked": "2026-03-26T11:02:35.594Z"
     },
     "Jon Bellion": {
       "eventIds": [
         "107802045",
         "107994448"
       ],
-      "lastChecked": "2026-03-22T11:02:25.739Z"
+      "lastChecked": "2026-03-26T11:02:35.841Z"
     },
     "Lord Huron": {
       "eventIds": [
@@ -299,9 +303,15 @@
         "107684425",
         "1037750951",
         "1037748545",
+        "1038475112",
+        "1038468260",
+        "1038469226",
+        "1038473718",
+        "1038467876",
+        "1038468104",
         "1037723880"
       ],
-      "lastChecked": "2026-03-22T11:02:26.061Z"
+      "lastChecked": "2026-03-26T11:02:36.093Z"
     },
     "Alex Warren": {
       "eventIds": [
@@ -369,7 +379,7 @@
         "108092157",
         "108092162"
       ],
-      "lastChecked": "2026-03-22T11:02:26.468Z"
+      "lastChecked": "2026-03-26T11:02:36.349Z"
     },
     "Hilary Duff": {
       "eventIds": [
@@ -432,7 +442,7 @@
         "107944159",
         "107972328"
       ],
-      "lastChecked": "2026-03-22T11:02:26.839Z"
+      "lastChecked": "2026-03-26T11:02:36.609Z"
     },
     "Michael Blaustein": {
       "eventIds": [
@@ -445,7 +455,7 @@
         "107971041",
         "107981589"
       ],
-      "lastChecked": "2026-03-22T11:02:27.119Z"
+      "lastChecked": "2026-03-26T11:02:36.864Z"
     },
     "Stavros Halkias": {
       "eventIds": [
@@ -460,7 +470,7 @@
         "1037828495",
         "1037752308"
       ],
-      "lastChecked": "2026-03-22T11:02:27.410Z"
+      "lastChecked": "2026-03-26T11:02:37.116Z"
     },
     "Jordan Jensen": {
       "eventIds": [
@@ -479,7 +489,7 @@
         "1037907766",
         "1038244700"
       ],
-      "lastChecked": "2026-03-22T11:02:27.721Z"
+      "lastChecked": "2026-03-26T11:02:37.375Z"
     },
     "Josh Johnson": {
       "eventIds": [
@@ -534,11 +544,11 @@
         "1038250153",
         "1038209071"
       ],
-      "lastChecked": "2026-03-22T11:02:28.089Z"
+      "lastChecked": "2026-03-26T11:02:37.716Z"
     },
     "Druski": {
       "eventIds": [],
-      "lastChecked": "2026-03-22T11:02:28.365Z"
+      "lastChecked": "2026-03-26T11:02:37.960Z"
     },
     "Matt Rife": {
       "eventIds": [
@@ -591,11 +601,10 @@
         "1037109609",
         "1037109231"
       ],
-      "lastChecked": "2026-03-22T11:02:28.725Z"
+      "lastChecked": "2026-03-26T11:02:38.211Z"
     },
     "KETTAMA": {
       "eventIds": [
-        "1037682819",
         "107933032",
         "1038286961",
         "1038009803",
@@ -614,16 +623,16 @@
         "108111904",
         "1038091870",
         "1038135005",
+        "1038485869",
         "1037304998",
         "1037304843",
         "1037938279",
         "1037953287"
       ],
-      "lastChecked": "2026-03-22T11:02:29.036Z"
+      "lastChecked": "2026-03-26T11:02:38.483Z"
     },
     "Mau P": {
       "eventIds": [
-        "107920778",
         "1036546679",
         "1037413428",
         "107714677",
@@ -665,7 +674,7 @@
         "108058124",
         "108058125"
       ],
-      "lastChecked": "2026-03-22T11:02:29.384Z"
+      "lastChecked": "2026-03-26T11:02:38.736Z"
     },
     "Florence Road": {
       "eventIds": [
@@ -677,6 +686,7 @@
         "1036869856",
         "1036873229",
         "1036869630",
+        "1038481809",
         "1036869760",
         "1036905728",
         "1036870203",
@@ -703,7 +713,7 @@
         "1037790373",
         "1038248514"
       ],
-      "lastChecked": "2026-03-22T11:02:29.746Z"
+      "lastChecked": "2026-03-26T11:02:38.989Z"
     },
     "Jutes": {
       "eventIds": [
@@ -725,7 +735,7 @@
         "107709107",
         "1037709583"
       ],
-      "lastChecked": "2026-03-22T11:02:30.076Z"
+      "lastChecked": "2026-03-26T11:02:39.248Z"
     },
     "Freya Skye": {
       "eventIds": [
@@ -769,7 +779,7 @@
         "1038083408",
         "1038082024"
       ],
-      "lastChecked": "2026-03-22T11:02:30.432Z"
+      "lastChecked": "2026-03-26T11:02:39.503Z"
     },
     "Teddy Swims": {
       "eventIds": [
@@ -807,7 +817,7 @@
         "107432439",
         "107543807"
       ],
-      "lastChecked": "2026-03-22T11:02:30.743Z"
+      "lastChecked": "2026-03-26T11:02:39.764Z"
     },
     "Tyler Childers": {
       "eventIds": [
@@ -828,12 +838,12 @@
         "107644403",
         "107644408"
       ],
-      "lastChecked": "2026-03-22T11:02:31.038Z",
+      "lastChecked": "2026-03-26T11:02:40.008Z",
       "websiteUrls": [
         "https://tylerchildersmusic.com/pages/tour-dates",
         "https://tylerchildersmusic.com/pages/uk-eu-sept-04-2025-artist-presale-signup",
-        "https://tylerchildersmusic.com/pages/on-the-road-lnd-sign-up",
         "https://tylerchildersmusic.com/",
+        "https://tylerchildersmusic.com/pages/on-the-road-lnd-sign-up",
         "https://tylerchildersmusic.com/collections/all"
       ]
     },
@@ -875,7 +885,7 @@
         "1037248008",
         "1037361085"
       ],
-      "lastChecked": "2026-03-22T11:02:32.101Z"
+      "lastChecked": "2026-03-26T11:02:43.403Z"
     },
     "Noah Kahan": {
       "eventIds": [
@@ -911,13 +921,13 @@
         "107892070",
         "107946011"
       ],
-      "lastChecked": "2026-03-22T11:02:32.424Z",
+      "lastChecked": "2026-03-26T11:02:43.657Z",
       "websiteUrls": [
         "https://noahkahan.com/pages/tour",
-        "https://noahkahan.com/busyhead-album-tour-announce/",
         "https://noahkahan.com/noah-joins-james-bays-spring-tour/",
-        "https://noahkahan.com/",
-        "https://noahkahan.com/busyhead-album-preorder-tour-sale-now-0/"
+        "https://storede.noahkahan.com/",
+        "https://noahkahan.com/busyhead-album-tour-announce/",
+        "https://store.noahkahan.com/collections/tour"
       ]
     },
     "Post Malone": {
@@ -945,7 +955,7 @@
         "1037954122",
         "1037886527"
       ],
-      "lastChecked": "2026-03-22T11:02:33.186Z"
+      "lastChecked": "2026-03-26T11:02:44.345Z"
     },
     "Morgan Wallen": {
       "eventIds": [
@@ -973,13 +983,13 @@
         "1037007337",
         "1037005550"
       ],
-      "lastChecked": "2026-03-22T11:02:33.502Z",
+      "lastChecked": "2026-03-26T11:02:44.595Z",
       "websiteUrls": [
         "https://morganwallen.com/",
         "https://morganwallen.com/morgan-wallen-announces-2023-one-night-at-a-time-world-tour/",
         "https://morganwallen.com/morgan-wallen-supersizes-2023s-one-night-at-a-time-tour-with-14-additional-shows/",
         "https://morganwallen.com/morgan-wallen-one-night-at-a-time-world-tour-stadium-load-in-begins/",
-        "https://morganwallen.com/morgan-wallen-set-for-headlining-up-down-tour-presented-by-shiner-light-blonde/"
+        "https://morganwallen.com/sign-up/"
       ]
     },
     "Chris Stapleton": {
@@ -1022,7 +1032,7 @@
         "1037627019",
         "1037720091"
       ],
-      "lastChecked": "2026-03-22T11:02:34.346Z"
+      "lastChecked": "2026-03-26T11:02:45.287Z"
     },
     "Jelly Roll": {
       "eventIds": [
@@ -1062,13 +1072,13 @@
         "1037954137",
         "107891213"
       ],
-      "lastChecked": "2026-03-22T11:02:34.809Z",
+      "lastChecked": "2026-03-26T11:02:45.551Z",
       "websiteUrls": [
         "https://jellyroll615.com/pages/tour-dates",
         "https://jellyroll615.com/pages/upcoming-shows",
-        "https://jellyroll615.com/collections/backroad-baptism",
         "https://jellyroll615.com/cart",
-        "https://jellyroll615.com/pages/resources"
+        "https://jellyroll615.com/collections/backroad-baptism",
+        "https://jellyroll615.com/pages/jellys-trailer"
       ]
     },
     "Bailey Zimmerman": {
@@ -1105,6 +1115,7 @@
         "1036597522",
         "1037463247",
         "1037377735",
+        "1038481233",
         "1036894793",
         "107597858",
         "1037745427",
@@ -1121,7 +1132,7 @@
         "107982826",
         "107982833"
       ],
-      "lastChecked": "2026-03-22T11:02:35.835Z",
+      "lastChecked": "2026-03-26T11:02:46.170Z",
       "websiteUrls": [
         "https://www.baileyzimmermanmusic.com/news/bailey-zimmerman-announces-2024-international-headlining-dates-religiously-tour-741",
         "https://www.baileyzimmermanmusic.com/",
@@ -1152,7 +1163,7 @@
         "107544654",
         "107771696"
       ],
-      "lastChecked": "2026-03-22T11:02:36.521Z"
+      "lastChecked": "2026-03-26T11:02:46.810Z"
     },
     "Tommy Richman": {
       "eventIds": [
@@ -1194,7 +1205,7 @@
         "1038159413",
         "1038160471"
       ],
-      "lastChecked": "2026-03-22T11:02:36.864Z"
+      "lastChecked": "2026-03-26T11:02:47.072Z"
     },
     "Doja Cat": {
       "eventIds": [
@@ -1243,7 +1254,7 @@
         "107412217",
         "107412205"
       ],
-      "lastChecked": "2026-03-22T11:02:37.224Z"
+      "lastChecked": "2026-03-26T11:02:47.328Z"
     },
     "Tame Impala": {
       "eventIds": [
@@ -1315,7 +1326,7 @@
         "1038117808",
         "1038149265"
       ],
-      "lastChecked": "2026-03-22T11:02:37.629Z"
+      "lastChecked": "2026-03-26T11:02:47.586Z"
     },
     "Japanese Breakfast": {
       "eventIds": [
@@ -1329,10 +1340,9 @@
         "107849033",
         "107849046",
         "107998712",
-        "107992320",
         "108006788"
       ],
-      "lastChecked": "2026-03-22T11:02:37.939Z"
+      "lastChecked": "2026-03-26T11:02:47.834Z"
     },
     "Mannequin Pussy": {
       "eventIds": [
@@ -1340,10 +1350,14 @@
         "107510426",
         "107510430",
         "107510433",
+        "108130721",
         "107510448",
         "107510451",
+        "108130739",
+        "108130750",
         "107506677",
         "107506685",
+        "108130756",
         "107506690",
         "107506696",
         "107506702",
@@ -1354,11 +1368,13 @@
         "107656262",
         "107872712",
         "107624929",
+        "108130768",
         "107506742",
+        "108130776",
         "107506749",
         "107506756"
       ],
-      "lastChecked": "2026-03-22T11:02:38.258Z"
+      "lastChecked": "2026-03-26T11:02:48.079Z"
     },
     "Snail Mail": {
       "eventIds": [
@@ -1401,7 +1417,7 @@
         "107878416",
         "107982855"
       ],
-      "lastChecked": "2026-03-22T11:02:38.602Z"
+      "lastChecked": "2026-03-26T11:02:48.341Z"
     },
     "Alex G": {
       "eventIds": [
@@ -1417,7 +1433,7 @@
         "107688858",
         "107999974"
       ],
-      "lastChecked": "2026-03-22T11:02:38.884Z"
+      "lastChecked": "2026-03-26T11:02:48.599Z"
     },
     "MJ Lenderman": {
       "eventIds": [
@@ -1432,6 +1448,7 @@
         "1037177515",
         "1037177579",
         "1037179628",
+        "1038485340",
         "1037181847",
         "1037176973",
         "1037177442",
@@ -1444,7 +1461,7 @@
         "1037245136",
         "1037245423"
       ],
-      "lastChecked": "2026-03-22T11:02:39.199Z"
+      "lastChecked": "2026-03-26T11:02:48.844Z"
     },
     "Black Country New Road": {
       "eventIds": [
@@ -1485,7 +1502,7 @@
         "1038209032",
         "107915122"
       ],
-      "lastChecked": "2026-03-22T11:02:39.543Z"
+      "lastChecked": "2026-03-26T11:02:49.095Z"
     },
     "Dry Cleaning": {
       "eventIds": [
@@ -1521,12 +1538,15 @@
         "107676432",
         "107676435",
         "107676439",
+        "108128271",
         "108068299",
         "108068312",
         "108068317",
         "108068320",
+        "108128292",
         "108068327",
         "107981038",
+        "108142822",
         "108009652",
         "107548074",
         "1037790457",
@@ -1536,7 +1556,7 @@
         "108032532",
         "1037848316"
       ],
-      "lastChecked": "2026-03-22T11:02:39.905Z"
+      "lastChecked": "2026-03-26T11:02:49.354Z"
     },
     "PinkPantheress": {
       "eventIds": [
@@ -1570,7 +1590,7 @@
         "1038134275",
         "1037174902"
       ],
-      "lastChecked": "2026-03-22T11:02:40.224Z"
+      "lastChecked": "2026-03-26T11:02:49.603Z"
     },
     "Raye": {
       "eventIds": [
@@ -1632,8 +1652,6 @@
     },
     "FKA twigs": {
       "eventIds": [
-        "1037307310",
-        "1037135427",
         "1037302112",
         "1037307468",
         "1037307677",
@@ -1648,7 +1666,7 @@
         "1037304398",
         "1037467125"
       ],
-      "lastChecked": "2026-03-22T11:02:40.514Z"
+      "lastChecked": "2026-03-26T11:02:49.848Z"
     },
     "Waxahatchee": {
       "eventIds": [
@@ -1668,7 +1686,7 @@
         "1037177355",
         "1037176779"
       ],
-      "lastChecked": "2026-03-22T11:02:40.809Z"
+      "lastChecked": "2026-03-26T11:02:50.100Z"
     },
     "Cat Power": {
       "eventIds": [
@@ -1722,9 +1740,9 @@
         "107694332",
         "1037963702"
       ],
-      "lastChecked": "2026-03-22T11:02:41.183Z"
+      "lastChecked": "2026-03-26T11:02:50.354Z"
     }
   },
-  "lastRun": "2026-03-22T11:02:41.390Z",
+  "lastRun": "2026-03-26T11:02:50.555Z",
   "braveCallsUsed": 5
 }

@@ -1,0 +1,17 @@
+{
+  "discovered": "2026-03-27",
+  "source": "Brave Search + Vivid Seats URL scraping",
+  "performers": {
+    "lambrini girls": { "id": 183803, "genre": "punk", "note": "Brighton UK punks, NME 100, Coachella 2026, first NA headlining tour" },
+    "ari lennox": { "id": 105364, "genre": "r&b", "note": "Dreamville alum, Vacancy tour spring 2026, theaters" },
+    "mj lenderman": { "id": 148557, "genre": "alt-country/indie", "note": "Co-headlining with Waxahatchee, Pitchfork darling, Beacon Theatre" },
+    "waxahatchee": { "id": 35041, "genre": "indie/alt-country", "note": "Co-headlining with MJ Lenderman, indie royalty" },
+    "qveen herby": { "id": 169959, "genre": "hip-hop/pop", "note": "ENTIRE tour sold out, venue upgrade in Denver, Hollywood Palladium, Fillmore Minneapolis" },
+    "dijon": { "id": 104083, "genre": "alt-r&b", "note": "Dedicated fanbase, shows sell out, Zach Bryan support slot 2026" },
+    "fakemink": { "id": null, "note": "Known VS performer, ID from earlier research. Frank Ocean cosign, Coachella 2026, Pitchfork featured" },
+    "black country new road": { "id": null, "genre": "post-rock/experimental", "note": "Pitchfork featured, Horsegirl opening, Forever Howlong tour" },
+    "grace ives": { "id": null, "genre": "indie pop/electronic", "note": "Pitchfork top 66 spring 2026" },
+    "dry cleaning": { "id": null, "genre": "post-punk", "note": "UK post-punk, Secret Love album, Pitchfork featured" },
+    "fcukers": { "id": null, "genre": "downtown NYC art-punk", "note": "Governor's Ball, debut album, Pitchfork featured" }
+  }
+}

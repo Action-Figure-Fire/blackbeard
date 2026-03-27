@@ -1,0 +1,97 @@
+{
+  "flagged": [
+    {
+      "artist": "Zara Larsson",
+      "venueCount": 2,
+      "avgGetIn": 159,
+      "totalListings": 53,
+      "totalTickets": 148,
+      "appearances": [
+        {
+          "venue": "House of Blues Boston",
+          "city": "Boston",
+          "minPrice": 185.22,
+          "avgPrice": 2015,
+          "listingCount": 28,
+          "ticketCount": 64,
+          "date": "2026-03-28"
+        },
+        {
+          "venue": "Bomb Factory",
+          "city": "Dallas",
+          "minPrice": 133.28,
+          "avgPrice": 173,
+          "listingCount": 25,
+          "ticketCount": 84,
+          "date": "2026-04-11"
+        }
+      ]
+    },
+    {
+      "artist": "Hayley Williams",
+      "venueCount": 3,
+      "avgGetIn": 141,
+      "totalListings": 101,
+      "totalTickets": 279,
+      "appearances": [
+        {
+          "venue": "House of Blues Boston",
+          "city": "Boston",
+          "minPrice": 137.2,
+          "avgPrice": 888,
+          "listingCount": 51,
+          "ticketCount": 129,
+          "date": "2026-04-03"
+        },
+        {
+          "venue": "House of Blues Boston",
+          "city": "Boston",
+          "minPrice": 158.76,
+          "avgPrice": 253,
+          "listingCount": 38,
+          "ticketCount": 106,
+          "date": "2026-04-04"
+        },
+        {
+          "venue": "Franklin Music Hall",
+          "city": "Philly",
+          "minPrice": 128,
+          "avgPrice": 217,
+          "listingCount": 12,
+          "ticketCount": 44,
+          "date": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "artist": "kwn",
+      "venueCount": 2,
+      "avgGetIn": 112,
+      "totalListings": 29,
+      "totalTickets": 69,
+      "appearances": [
+        {
+          "venue": "Webster Hall",
+          "city": "NYC",
+          "minPrice": 109.76,
+          "avgPrice": 152,
+          "listingCount": 10,
+          "ticketCount": 27,
+          "date": "2026-04-09"
+        },
+        {
+          "venue": "Fillmore Charlotte",
+          "city": "Charlotte",
+          "minPrice": 115,
+          "avgPrice": 184,
+          "listingCount": 19,
+          "ticketCount": 42,
+          "date": "2026-03-29"
+        }
+      ]
+    }
+  ],
+  "scanned": 372,
+  "venuesChecked": 16,
+  "timestamp": "2026-03-24T15:04:52.192Z"
+}
