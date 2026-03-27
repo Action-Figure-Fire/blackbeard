@@ -1,0 +1,62 @@
+{
+  "compiled": "2026-03-27",
+  "source": "TicketLodge, Brave Search, SeatGeek, Vivid Seats",
+  "comedyMarketOverview": {
+    "trend": "Stand-up is the MOST explosive force in live entertainment in 2026",
+    "arenaActs": ["Shane Gillis (Lincoln Financial Field stadium!)", "Bert Kreischer (TD Garden residency)", "Nate Bargatze (Big Dumb Eyes World Tour, arenas)", "Sebastian Maniscalco (4-night Wynn LV sellout)", "Theo Von (Return of the Rat, theaters→arenas)"],
+    "keyInsight": "Comedy has transcended to stadium level. Shane Gillis at Lincoln Financial Field = $30 floor because of massive capacity. The MONEY is in theater-level comedians who are about to scale up.",
+    "pricingNote": "Comedy ticket prices dip 2-3 hours before showtime as resellers offload. Friday afternoons = deal window."
+  },
+  "breakoutComedians2026": [
+    {
+      "name": "Robby Hoffman",
+      "vsId": 122743,
+      "signal": "🔴 VIRAL BREAKOUT",
+      "evidence": "Seth Meyers viral moment → ENTIRE tour sold out. Playing Town Hall NYC (1,500), Fillmore Philly (2,500), 9:30 Club DC (1,200), Wilbur Boston, Danforth Toronto. No secondary pricing yet = EARLY.",
+      "routing": "NE corridor + West Coast + Canada. Theater-level (1,200-2,500 cap).",
+      "action": "MONITOR — when secondary listings appear, buy NE corridor markets"
+    },
+    {
+      "name": "Stavros Halkias",
+      "vsId": null,
+      "signal": "🔴 CONFIRMED HOT",
+      "evidence": "Netflix Fat Rascal special. A24 Bourdain biopic. Dreamboat Tour 40+ cities. Already in BB database.",
+      "routing": "40+ cities, theater scale"
+    },
+    {
+      "name": "Michael Blaustein",
+      "vsId": null,
+      "signal": "🟡 RISING",
+      "evidence": "3.5M TikTok, 164M likes. Stiff Socks podcast. 25+ city tour.",
+      "routing": "Club-to-theater transition"
+    },
+    {
+      "name": "Matt Rife",
+      "vsId": null,
+      "signal": "🔴 LAST CHANCE AT THEATER",
+      "evidence": "19M TikTok. Stay Golden World Tour. Moving to arenas. Phoenix Dec 2026 already selling.",
+      "routing": "Arena-bound — last theater dates are premium"
+    },
+    {
+      "name": "Jordan Jensen",
+      "vsId": null,
+      "signal": "🟡 RISING FAST",
+      "evidence": "Bradley Cooper film debut. Billboard Critics Pick. Already in BB database.",
+      "routing": "Early stage"
+    },
+    {
+      "name": "Druski",
+      "vsId": null,
+      "signal": "🟡 MASSIVE POTENTIAL",
+      "evidence": "10M+ Instagram. Forbes Top Creator. Live tour potential enormous but hasn't fully committed to touring yet.",
+      "routing": "When he tours theaters, it'll be instant sellouts"
+    }
+  ],
+  "comedyPricingPattern": {
+    "arenaActs": "Face value $30-80, secondary premium low (1.2-1.5x) due to massive supply",
+    "theaterActs": "Face value $35-75, secondary premium HIGH (2-5x) when sold out",
+    "clubActs": "Face value $20-40, secondary market usually nonexistent",
+    "sweetSpot": "Comedian at 1,000-3,000 cap theaters who just went viral or got a Netflix special. 2-4 week window after special drops = peak secondary demand.",
+    "riskFactor": "Comedians add shows FAST — a sellout often leads to added dates within days, which kills secondary pricing"
+  }
+}

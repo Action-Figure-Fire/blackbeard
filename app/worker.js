@@ -53,7 +53,10 @@ const PERFORMER_IDS = {
   "speed": null, "kettama": null, "prospa": null,
   "geese": null, "sombr": null, "dry cleaning": null,
   "black country new road": null, "the beths": null,
-  "vincent mason": null, "karri": null
+  "vincent mason": null, "karri": null,
+  "robby hoffman": 122743, "alabama shakes": null,
+  "band of horses": null, "american football": null,
+  "belle and sebastian": null, "jalen ngonda": null
 };
 
 // ============================================================
