@@ -1,0 +1,688 @@
+{
+  "artist": "Rawayana",
+  "totalUSShows": 97,
+  "dateRange": "2014-2025",
+  "tours": [
+    {
+      "date": "2014-04-12",
+      "venue": "La Scala de Brickell",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2015-06-04",
+      "venue": "Grand Central",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2016-03-04",
+      "venue": "Twelve Miami",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-14",
+      "venue": "Tiger Lake Road",
+      "city": "Lake Wales",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-21",
+      "venue": "The Wynwood Warehouse Project",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2016-08-13",
+      "venue": "Parque Ecológico",
+      "city": "Dorado",
+      "state": "PR",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-09",
+      "venue": "Mod Club",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-11",
+      "venue": "S.O.B.'s",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-12",
+      "venue": "Middle East Bar",
+      "city": "Cambridge",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-14",
+      "venue": "Trocadero Balcony",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-16",
+      "venue": "Howard Theatre",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-17",
+      "venue": "ARMANDO RECORDS",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-18",
+      "venue": "Ember",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-19",
+      "venue": "ARMANDO RECORDS  (New Date)",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-08",
+      "venue": "Corona Sunset Festival",
+      "city": "Rio Grande",
+      "state": "PR",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-11",
+      "venue": "LAMC 2017",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-09",
+      "venue": "Curtain Club",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-10",
+      "venue": "Fitzgerald's",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-11",
+      "venue": "Ember ",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-12",
+      "venue": "House of Creatives",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-16",
+      "venue": "Latin Grammy Awards",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2018-03-14",
+      "venue": "SXSW",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2018-03-16",
+      "venue": "MANA - WYNWOOD ",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2018-05-06",
+      "venue": "Music Hall of Williamsburg",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2019-04-27",
+      "venue": "RC Cola Plant",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-19",
+      "venue": "San Diego Bahia Fest ",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-01-29",
+      "venue": "Central Florida Fair.",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2022-02-26",
+      "venue": "Rawayana + Alvaro Diaz",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-28",
+      "venue": "Lollapalooza 2022",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2022-09-28",
+      "venue": "The Opera House",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2022-09-29",
+      "venue": "L'Olympia",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2022-09-30",
+      "venue": "Calgary Chinese Cultural Centre",
+      "city": "Calgary",
+      "state": "AB",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-01",
+      "venue": "Rickshaw Theatre",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-21",
+      "venue": "III Points 2022",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-22",
+      "venue": "III Points 2022",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-23",
+      "venue": "Webster Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-11",
+      "venue": "Jannus Live",
+      "city": "St Petersburg",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-13",
+      "venue": "Underbelly",
+      "city": "Jacksonville",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-15",
+      "venue": "Variety Playhouse",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-16",
+      "venue": "The Underground",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-19",
+      "venue": "Brighton Music Hall",
+      "city": "Allston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-20",
+      "venue": "Palladium Times Square",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-21",
+      "venue": "The Fillmore Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-22",
+      "venue": "The Opera House",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-24",
+      "venue": "Thalia Hall",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-26",
+      "venue": "Slowdown",
+      "city": "Omaha",
+      "state": "NE",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-28",
+      "venue": "Bluebird Theater",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-29",
+      "venue": "Soundwell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-01",
+      "venue": "Fortune Sound Club",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-02",
+      "venue": "Mississippi Studios",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-04",
+      "venue": "Harlow's",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-05",
+      "venue": "The Independent",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-07",
+      "venue": "The Catalyst",
+      "city": "Santa Cruz",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-08",
+      "venue": "Ventura Music Hall",
+      "city": "Ventura",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-09",
+      "venue": "24 Oxford",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-10",
+      "venue": "El Rey Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-11",
+      "venue": "Music Box",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-12",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-14",
+      "venue": "Lowbrow Palace",
+      "city": "El Paso",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-16",
+      "venue": "The Studio at the Factory",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-17",
+      "venue": "White Oak Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-18",
+      "venue": "Empire Control Room & Garage",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-19",
+      "venue": "Paper Tiger",
+      "city": "San Antonio",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-24",
+      "venue": "Mana Wynwood Convention Center",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-14",
+      "venue": "Vinoy Park",
+      "city": "St. Petersburg",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-21",
+      "venue": "Brooklyn Bowl Nashville",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-23",
+      "venue": "The Orange Peel",
+      "city": "Asheville",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-24",
+      "venue": "Music Farm",
+      "city": "Charleston",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-22",
+      "venue": "Observatory",
+      "city": "Santa Ana",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-24",
+      "venue": "The UC Theatre",
+      "city": "Berkeley",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-26",
+      "venue": "The Glass House",
+      "city": "Pomona",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-13",
+      "venue": "The Concert Hall - Masonic Temple",
+      "city": "North Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-14",
+      "venue": "Théâtre Beanfield",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-16",
+      "venue": "Concord Music Hall",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-18",
+      "venue": "Varsity Theater",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-20",
+      "venue": "The Shelter",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-22",
+      "venue": "Concord Music Hall",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-29",
+      "venue": "FPL Solar Amphitheater at Bayfront Park",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-01",
+      "venue": "Hard Rock Live Orlando",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-11",
+      "venue": "Coachella Valley Music and Arts Festival 2025",
+      "city": "Indio",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-25",
+      "venue": "Queen Elizabeth Theatre",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-28",
+      "venue": "The Anthem",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-29",
+      "venue": "The Foundry at The Fillmore Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-31",
+      "venue": "Brooklyn Paramount",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-01",
+      "venue": "SummerStage in Central Park",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-03",
+      "venue": "The Salt Shed",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-23",
+      "venue": "Seminole Hard Rock Hotel & Casino - Hollywood, FL",
+      "city": "Hollywood",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-24",
+      "venue": "The BayCare Sound",
+      "city": "Tampa",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-27",
+      "venue": "Coca-Cola Roxy",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-29",
+      "venue": "The Bomb Factory",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-30",
+      "venue": "White Oak Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-31",
+      "venue": "The Espee",
+      "city": "San Antonio",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-03",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-04",
+      "venue": "Petco Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-09",
+      "venue": "Astropical - Amoeba Records (Vinyl Signing)",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-10",
+      "venue": "Brooklyn Bowl LV",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-12",
+      "venue": "The Greek Theatre at UC Berkeley",
+      "city": "Berkeley",
+      "state": "CA",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

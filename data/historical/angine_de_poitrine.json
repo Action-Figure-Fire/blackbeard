@@ -1,0 +1,247 @@
+{
+  "artist": "Angine de Poitrine",
+  "totalUSShows": 34,
+  "dateRange": "2024-2025",
+  "tours": [
+    {
+      "date": "2024-03-22",
+      "venue": "Mononc Serge, MR82 et Angine De Poitrine au Zaricot",
+      "city": "Saint-Hyacinthe",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-14",
+      "venue": "ANGINE DE POITRINE - LANCEMENT CASSETTE ",
+      "city": "Québec",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-15",
+      "venue": "ANGINE DE POITRINE LIVE @ SEA SHACK",
+      "city": "Sainte-Anne-des-Monts",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-16",
+      "venue": "ANGINE DE POITRINE LIVE @ COOP PARADIS",
+      "city": "Rimouski",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-25",
+      "venue": "Café-Bar Zénob",
+      "city": "Trois-Rivières",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-20",
+      "venue": "Le purgatoire - After de La Quête | Angine de poitrine au Café du clocher",
+      "city": "Alma",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-08",
+      "venue": "Les Enfants du Rock",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-16",
+      "venue": "Le Pantoum",
+      "city": "Québec",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-07",
+      "venue": "Le Zaricot",
+      "city": "Saint-Hyacinthe",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-21",
+      "venue": "Angine de Poitrine au RAC",
+      "city": "Rivière-à-Claude",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-22",
+      "venue": "Garage à Simon",
+      "city": "Lavaltrie",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-25",
+      "venue": "Théâtre Palace Arvida - Angine de Poitrine en première partie de Klo Pelgag ",
+      "city": "Saguenay",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-26",
+      "venue": "Angine de poitrine (première partie de Klô Pelgag) - Impérial Bell",
+      "city": "Quebec",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-01",
+      "venue": "MTELUS",
+      "city": "Montreal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-13",
+      "venue": "Angine de poitrine - Courant Alternatif C.A.",
+      "city": "Amos",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-14",
+      "venue": "Angine de Poitrine - QG",
+      "city": "Rouyn-Noranda",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-20",
+      "venue": "Angine de Poitrine - Festival la Commission B  2025",
+      "city": "Saint-Casimir",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-21",
+      "venue": "Fête de la musique de Québec 2025",
+      "city": "Québec",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-27",
+      "venue": "Virage 2025",
+      "city": "Petit-Saguenay",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-29",
+      "venue": "Angine de poitrine au Festival International de Jazz de Montréal ",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-02",
+      "venue": "Angine de poitrine - Festivoix 2025",
+      "city": "Trois-Rivières",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-03",
+      "venue": "Angine de poitrine - Sherblues & Folk Festival  2025",
+      "city": "Sherbrooke",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-08",
+      "venue": "Angine au FEQ - Gratuit",
+      "city": "Québec",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-18",
+      "venue": "Angine de Poitrine au Festif! de Baie Saint-Paul",
+      "city": "Baie-Saint-Paul",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-01",
+      "venue": "La Baie's Harbor Village Agora",
+      "city": "Saguenay",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-13",
+      "venue": "Centre Touristique Vauvert",
+      "city": "Dolbeau-Mistassini",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-14",
+      "venue": " Anigne de poitrine - Le Festival à deux têtes 2025",
+      "city": "Sainte-Brigitte-de-Laval",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-16",
+      "venue": "L'Internationale Périphérique 2025",
+      "city": "L'Anse-Saint-Jean",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-19",
+      "venue": "Angine de poitrine - Pub Air Salin",
+      "city": "Percé",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-20",
+      "venue": "Microbrasserie Le Naufrageur",
+      "city": "Carleton-sur-Mer",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-22",
+      "venue": "Bains Publics - Cabaret culturel, coop de solidarité",
+      "city": "Rimouski",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-23",
+      "venue": "NanoFest 2025",
+      "city": "Lingwick",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-11",
+      "venue": "Angine de poitrine et GALAXIE",
+      "city": "Gatineau",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-28",
+      "venue": "Festival Kaléidoscope 2025",
+      "city": "Québec",
+      "state": "QC",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

@@ -1,0 +1,30 @@
+{
+  "artist": "fakemink",
+  "totalUSShows": 3,
+  "dateRange": "2025-2025",
+  "tours": [
+    {
+      "date": "2025-09-04",
+      "venue": "The Mod Club",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-08",
+      "venue": "Bowery Ballroom",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-15",
+      "venue": "The Roxy Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "single burst",
+  "venueScaleProgression": "mixed venues"
+}

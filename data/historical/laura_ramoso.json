@@ -1,0 +1,163 @@
+{
+  "artist": "Laura Ramoso",
+  "totalUSShows": 22,
+  "dateRange": "2024-2024",
+  "tours": [
+    {
+      "date": "2024-05-07",
+      "venue": "Wilshire Ebell Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-05",
+      "venue": "Algonquin Commons Theatre",
+      "city": "Nepean",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-06",
+      "venue": "Algonquin Commons Theatre",
+      "city": "Nepean",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-07",
+      "venue": "The Danforth Music Hall",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-18",
+      "venue": "The Wilbur",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-19",
+      "venue": "The Wilbur",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-20",
+      "venue": "The Town Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-21",
+      "venue": "The Town Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-22",
+      "venue": "Lincoln Theatre",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-05",
+      "venue": "Bella Concert Hall",
+      "city": "Calgary",
+      "state": "AB",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-06",
+      "venue": "Bella Concert Hall",
+      "city": "Calgary",
+      "state": "AB",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-09",
+      "venue": "Commodore Ballroom",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-10",
+      "venue": "Queen Elizabeth Theatre",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-17",
+      "venue": "Palace Of Fine Arts Theatre",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-18",
+      "venue": "Palace Of Fine Arts Theatre",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-19",
+      "venue": "Balboa Theatre",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-23",
+      "venue": "Paramount Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-03",
+      "venue": "Moore Theatre",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-07",
+      "venue": "Théâtre Beanfield",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-08",
+      "venue": "Théâtre Beanfield",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-14",
+      "venue": "Lillian S. Wells Hall at The Parker",
+      "city": "Ft Lauderdale",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-28",
+      "venue": "Club Regent Event Centre",
+      "city": "Winnipeg",
+      "state": "MB",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "multiple shows per month",
+  "venueScaleProgression": "mixed venues"
+}

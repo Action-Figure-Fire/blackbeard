@@ -10,6 +10,8 @@ compatibility_date = "2024-01-01"
 # Optional secrets:
 # TWITTER_BEARER     — X/Twitter API Bearer token
 # SCRAPINGBEE_KEY    — ScrapingBee API key (for StubHub scraping)
+# SERPAPI_KEY         — SerpAPI key (Google, Trends, YouTube)
+# SEATGEEK_CLIENT_ID — SeatGeek API client ID (FREE secondary market pricing!)
 
 [vars]
 MODEL = "claude-sonnet-4-20250514"

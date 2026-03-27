@@ -1,0 +1,30 @@
+{
+  "artist": "Hearts2Hearts",
+  "totalUSShows": 3,
+  "dateRange": "2025-2026",
+  "tours": [
+    {
+      "date": "2025-05-10",
+      "venue": "Huntington City Beach",
+      "city": "Huntington Beach",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-19",
+      "venue": "Brooklyn Paramount",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-22",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every few months",
+  "venueScaleProgression": "mixed venues"
+}

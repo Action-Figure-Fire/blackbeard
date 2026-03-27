@@ -1,0 +1,744 @@
+{
+  "artist": "Feid",
+  "totalUSShows": 105,
+  "dateRange": "2019-2025",
+  "tours": [
+    {
+      "date": "2019-02-23",
+      "venue": "Mana Wynwood Convention Center",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-10",
+      "venue": "Candela Bar Brickell",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2019-06-14",
+      "venue": "EVE Orlando",
+      "city": "Orlando",
+      "state": "Florida",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-21",
+      "venue": "Dallas Farmers Market",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-21",
+      "venue": "Wynwood Factory",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2021-11-05",
+      "venue": "Toyota Arena",
+      "city": "Ontario",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2021-11-06",
+      "venue": "Virgin Hotel & Casino Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2021-11-17",
+      "venue": "Franklin Music Hall",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2021-12-18",
+      "venue": "Miami-Dade County Fair & Exposition, Inc.",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-30",
+      "venue": "Las Vegas Festival Grounds",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2022-06-11",
+      "venue": "Central Florida Fair.",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-13",
+      "venue": "Buckhead Theatre",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-16",
+      "venue": "The Underground",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-20",
+      "venue": "House of Blues Orlando",
+      "city": "Lake Buena Vista",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-25",
+      "venue": "Howard Theatre",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-26",
+      "venue": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-27",
+      "venue": "Theatre of Living Arts",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-30",
+      "venue": "House of Blues Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-01",
+      "venue": "House of Blues Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-08",
+      "venue": "House of Blues Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-10",
+      "venue": "Aztec Theatre",
+      "city": "San Antonio",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-13",
+      "venue": "House of Blues San Diego",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-14",
+      "venue": "House of Blues Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-20",
+      "venue": "The Fillmore",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-25",
+      "venue": "The Belasco Theater",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-12-10",
+      "venue": "Miami-Dade County Fair & Exposition, Inc.",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-01-22",
+      "venue": "Crypto.com Arena",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-17",
+      "venue": "Moody Amphitheater",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-08",
+      "venue": "El Club",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-20",
+      "venue": "WAMU Theater",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-21",
+      "venue": "Arlene Schnitzer Concert Hall",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-23",
+      "venue": "The Masonic",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-25",
+      "venue": "San Jose Civic",
+      "city": "San Jose",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-27",
+      "venue": "YouTube Theater",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-28",
+      "venue": "Something In The Water 2023",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-28",
+      "venue": "YouTube Theater",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-03",
+      "venue": "Cal Coast Credit Union Open Air Theatre",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-04",
+      "venue": "Hard Rock Live Sacramento",
+      "city": "Wheatland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-06",
+      "venue": "The Cosmopolitan of Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-07",
+      "venue": "Arizona Financial Theatre",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-09",
+      "venue": "El Paso County Coliseum",
+      "city": "El Paso",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-10",
+      "venue": "El Paso County Coliseum",
+      "city": "El Paso",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-13",
+      "venue": "Smart Financial Centre at Sugar Land",
+      "city": "Sugar Land",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-14",
+      "venue": "Payne Arena Hidalgo",
+      "city": "Hidalgo",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-17",
+      "venue": "The Pavilion At Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-18",
+      "venue": "The Pavilion At Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-20",
+      "venue": "The Criterion",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-21",
+      "venue": "Bass Concert Hall",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-24",
+      "venue": "Old National Centre",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-26",
+      "venue": "HISTORY",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-27",
+      "venue": "FUEGO FUEGO 2023",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-27",
+      "venue": "Grant Park",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-31",
+      "venue": "MGM Music Hall at Fenway",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-02",
+      "venue": "Hartford HealthCare Amphitheater",
+      "city": "Bridgeport",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-03",
+      "venue": "The Theater at MGM National Harbor",
+      "city": "Oxon Hill",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-04",
+      "venue": "The Met",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-07",
+      "venue": "The Theater at MSG",
+      "city": "New York City",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-08",
+      "venue": "The Theater at MSG",
+      "city": "New York City",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-09",
+      "venue": "Ryman Auditorium",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-10",
+      "venue": "Coca-Cola Roxy",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-14",
+      "venue": "Belk Theater",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-16",
+      "venue": "Kaseya Center",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-17",
+      "venue": "Hard Rock Live Orlando",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-18",
+      "venue": "Kaseya Center",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-26",
+      "venue": "Dos Equis Pavilion",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-09-16",
+      "venue": "Kaseya Center",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-02",
+      "venue": "Faena Forum",
+      "city": "Miami Beach",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-01-12",
+      "venue": "Crypto.com Arena",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-24",
+      "venue": "Golden 1 Center",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-27",
+      "venue": "Kia Forum",
+      "city": "Inglewood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-01",
+      "venue": "SAP Center At San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-03",
+      "venue": "Acrisure Arena",
+      "city": "Palm Desert",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-04",
+      "venue": "Pechanga Arena",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-10",
+      "venue": "Michelob ULTRA Arena",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-11",
+      "venue": "Footprint Center",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-15",
+      "venue": "Delta Center",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-18",
+      "venue": "BOK Center",
+      "city": "Tulsa",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-19",
+      "venue": "Dickies Arena",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-22",
+      "venue": "Bert Ogden Arena",
+      "city": "Edinburg",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-24",
+      "venue": "Toyota Center",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-25",
+      "venue": "Moody Center",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-27",
+      "venue": "Bridgestone Arena",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-30",
+      "venue": "United Center",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-01",
+      "venue": "Bell Centre",
+      "city": "Montreal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-02",
+      "venue": "Scotiabank Arena",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-06",
+      "venue": "NOTO Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-07",
+      "venue": "Prudential Center",
+      "city": "Newark",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-09",
+      "venue": "XL Center",
+      "city": "Hartford",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-13",
+      "venue": "TD Garden",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-16",
+      "venue": "Madison Square Garden",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-20",
+      "venue": "Capital One Arena",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-21",
+      "venue": "Greensboro Coliseum Complex",
+      "city": "Greensboro",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-23",
+      "venue": "Gas South Arena",
+      "city": "Duluth",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-28",
+      "venue": "Kia Center",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-06",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-26",
+      "venue": "Kaseya Center",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-01",
+      "venue": "Ultra Club",
+      "city": "Southampton",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-07",
+      "venue": "The Governors Ball 2025",
+      "city": "Queens",
+      "state": "New York",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-14",
+      "venue": "The Rave / Eagles Club",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-02",
+      "venue": "HARD Summer Music Festival 2025",
+      "city": "Inglewood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-19",
+      "venue": "iHeartRadio Music Festival 2025",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-05",
+      "venue": "Austin City Limits Music Festival 2025",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-12",
+      "venue": "Austin City Limits Music Festival 2025",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-05",
+      "venue": "Intuit Dome",
+      "city": "Inglewood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-20",
+      "venue": "Kaseya Center",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

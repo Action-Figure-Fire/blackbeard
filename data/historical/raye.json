@@ -1,0 +1,548 @@
+{
+  "artist": "Raye",
+  "totalUSShows": 77,
+  "dateRange": "2018-2025",
+  "tours": [
+    {
+      "date": "2018-07-20",
+      "venue": "Stone Pony",
+      "city": "Asbury Park",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2018-07-24",
+      "venue": "Murat Theatre at Old National Centre",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2018-07-27",
+      "venue": "Red Hot Amphitheater",
+      "city": "Raleigh",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2018-07-28",
+      "venue": "Chastain Park Amphitheatre",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-03",
+      "venue": "Neptune Theatre",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2022-06-03",
+      "venue": "Stage AE",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-10",
+      "venue": "The Sun Rose",
+      "city": "Westwood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-11",
+      "venue": "The Sun Rose",
+      "city": "Westwood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-14",
+      "venue": "Popscene",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-15",
+      "venue": "Troubadour",
+      "city": "West Hollywood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-17",
+      "venue": "Velvet Underground",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-19",
+      "venue": "Lincoln Hall",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-21",
+      "venue": "Music Hall of Williamsburg",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-25",
+      "venue": "Moody Amphitheater",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-26",
+      "venue": "713 Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-27",
+      "venue": "The Pavilion At Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-30",
+      "venue": "FPL Solar Amphitheater at Bayfront Park",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-01",
+      "venue": "Hard Rock Live Orlando",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-02",
+      "venue": "Coca-Cola Roxy",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-04",
+      "venue": "Radio City Music Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-05",
+      "venue": "Radio City Music Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-07",
+      "venue": "The Met",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-09",
+      "venue": "The Anthem",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-10",
+      "venue": "MGM Music Hall at Fenway",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-12",
+      "venue": "Coca-Cola Coliseum",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-14",
+      "venue": "The Fillmore Detroit",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-15",
+      "venue": "Byline Bank Aragon Ballroom",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-16",
+      "venue": "Byline Bank Aragon Ballroom",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-18",
+      "venue": "Fillmore Auditorium",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-21",
+      "venue": "Keller Auditorium",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-23",
+      "venue": "Doug Mitchell Thunderbird Sports Centre",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-24",
+      "venue": "WAMU Theater",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-26",
+      "venue": "Bill Graham Civic Auditorium",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-09-11",
+      "venue": "GRAMMY Museum at L.A. LIVE",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-09-22",
+      "venue": "Life is Beautiful Festival 2023",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2023-09-29",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2023-09-30",
+      "venue": "All Things Go",
+      "city": "Columbia",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-01",
+      "venue": "The Fillmore Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-03",
+      "venue": "Terminal 5",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-04",
+      "venue": "House Of Blues Boston",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-06",
+      "venue": "MTELUS",
+      "city": "Montreal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-07",
+      "venue": "HISTORY",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-09",
+      "venue": "The Majestic Theatre",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-10",
+      "venue": "Riviera Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-11",
+      "venue": "The Factory at The District",
+      "city": "St. Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-13",
+      "venue": "Zilker Metropolitan Park",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-14",
+      "venue": "House of Blues Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-15",
+      "venue": "Joy Theater",
+      "city": "New Orleans",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-17",
+      "venue": "Brooklyn Bowl Nashville",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-18",
+      "venue": "The Eastern",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-19",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-20",
+      "venue": "Riviera Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-21",
+      "venue": "MegaCorp Pavilion",
+      "city": "Newport",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-22",
+      "venue": "KEMBA Live!",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-24",
+      "venue": "The Rave / Eagles Club",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-25",
+      "venue": "First Avenue",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-27",
+      "venue": "Gothic Theatre",
+      "city": "Englewood",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-28",
+      "venue": "The Complex",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-30",
+      "venue": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-31",
+      "venue": "Commodore Ballroom",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-01",
+      "venue": "McMenamins Crystal Ballroom",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-03",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-06",
+      "venue": "The Fox Theater Pomona",
+      "city": "Pomona",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-07",
+      "venue": "The Novo",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-13",
+      "venue": "Coachella Valley Music and Arts Festival 2024",
+      "city": "Indio",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-20",
+      "venue": "Coachella Valley Music and Arts Festival 2024",
+      "city": "Indio",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-01",
+      "venue": "Lollapalooza Chicago 2024",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-01",
+      "venue": "Lollapalooza Aftershow",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-02",
+      "venue": "Osheaga Music and Arts Festival 2024",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-26",
+      "venue": "The Sheen Center for Thought & Culture",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-03",
+      "venue": "Blue Note Jazz Club",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-04",
+      "venue": "Blue Note Jazz Club",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-17",
+      "venue": "Camp Flog Gnaw Carnival 2024",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-06",
+      "venue": "World Pride 2025",
+      "city": "Washington, D.C.",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-08",
+      "venue": "The Governors Ball 2025",
+      "city": "Queens",
+      "state": "New York",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-12",
+      "venue": "Bonnaroo 2025",
+      "city": "Manchester",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-01",
+      "venue": "Newport Jazz Festival 2025",
+      "city": "Newport",
+      "state": "RI",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

@@ -1,0 +1,492 @@
+{
+  "artist": "Myles Smith",
+  "totalUSShows": 69,
+  "dateRange": "2024-2026",
+  "tours": [
+    {
+      "date": "2024-03-06",
+      "venue": "The Moroccan Lounge",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-08",
+      "venue": "Schubas Tavern",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-12",
+      "venue": "Drake Underground",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-13",
+      "venue": "Mercury Lounge",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-30",
+      "venue": "Freedom Mortgage Pavilion",
+      "city": "Camden",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-02",
+      "venue": "Northwell Health at Jones Beach Theater",
+      "city": "Wantagh",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-04",
+      "venue": "PNC Bank Arts Center",
+      "city": "Holmdel",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-06",
+      "venue": "Xfinity Center",
+      "city": "Mansfield",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-18",
+      "venue": "The Crocodile",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-19",
+      "venue": "Fortune Sound Club",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-20",
+      "venue": "Wonder Ballroom",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-22",
+      "venue": "Goldfield Trading Post Sacramento",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-23",
+      "venue": "The Independent",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-24",
+      "venue": "The Independent",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-26",
+      "venue": "Troubadour",
+      "city": "West Hollywood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-27",
+      "venue": "Troubadour",
+      "city": "West Hollywood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-28",
+      "venue": "The Park at Harlinsdale Farm",
+      "city": "Franklin",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-30",
+      "venue": "Valley Bar",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-03",
+      "venue": "Soundwell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-04",
+      "venue": "Zilker Metropolitan Park",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-09",
+      "venue": "Delmar Hall",
+      "city": "St. Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-10",
+      "venue": "recordBar",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-11",
+      "venue": "Zilker Metropolitan Park",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-16",
+      "venue": "Smith's Olde Bar",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-17",
+      "venue": "The Underground",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-18",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-19",
+      "venue": "A&R Music Bar",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-21",
+      "venue": "Stage AE",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-22",
+      "venue": "Brooklyn Bowl Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-24",
+      "venue": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-25",
+      "venue": "Brighton Music Hall",
+      "city": "Allston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-26",
+      "venue": "Théâtre Beanfield",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-27",
+      "venue": "The Opera House",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-29",
+      "venue": "El Club",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-30",
+      "venue": "Fine Line",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-01",
+      "venue": "Lincoln Hall",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-02",
+      "venue": "Lincoln Hall",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-04",
+      "venue": "The Opera House",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-06",
+      "venue": "Théâtre Beanfield",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-07",
+      "venue": "The Opera House",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-19",
+      "venue": "State Farm Arena",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-22",
+      "venue": "Brooklyn Paramount",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-31",
+      "venue": "The Orpheum",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-01",
+      "venue": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-02",
+      "venue": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-04",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-06",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-07",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-09",
+      "venue": "Mission Ballroom",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-12",
+      "venue": "The Salt Shed",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-16",
+      "venue": "HISTORY",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-17",
+      "venue": "HISTORY",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-18",
+      "venue": "MTELUS",
+      "city": "Montreal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-20",
+      "venue": "MTELUS",
+      "city": "Montreal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-22",
+      "venue": "Citizens House of Blues",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-23",
+      "venue": "Citizens House of Blues",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-25",
+      "venue": "The Fillmore Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-28",
+      "venue": "The Anthem",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-11",
+      "venue": "Bourbon & Beyond 2025",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-12",
+      "venue": "London International Airport",
+      "city": "London",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-14",
+      "venue": "Bourbon & Beyond 2025",
+      "city": "Louisville",
+      "state": "Kentucky",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-16",
+      "venue": "Ryman Auditorium",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-10",
+      "venue": "Byline Bank Aragon Ballroom",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-12",
+      "venue": "Madison Square Garden",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-14",
+      "venue": "TD Garden",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-15",
+      "venue": "Xfinity Mobile Arena ",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-16",
+      "venue": "Capital One Arena",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2026-01-17",
+      "venue": "Kia Forum",
+      "city": "Inglewood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-20",
+      "venue": "Innings Festival",
+      "city": "Tempe",
+      "state": "AZ",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "multiple shows per month",
+  "venueScaleProgression": "mixed venues"
+}

@@ -1,0 +1,1101 @@
+{
+  "artist": "Grupo Bronco",
+  "totalUSShows": 156,
+  "dateRange": "2015-2026",
+  "tours": [
+    {
+      "date": "2015-07-05",
+      "venue": "Roccapulco Night Club",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-04-09",
+      "venue": "Coyote Manco",
+      "city": "Tulsa",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2016-04-10",
+      "venue": "Rancho El Paraiso",
+      "city": "Rosharon",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-04-15",
+      "venue": "Salón Tropicana",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2016-04-15",
+      "venue": "The Arena",
+      "city": "Elkhart",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2016-04-16",
+      "venue": "Broncos Discoteque",
+      "city": "Lafayette",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2016-04-17",
+      "venue": "El Centenario",
+      "city": "Fairfield",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-20",
+      "venue": " Area 516 Nigth Club",
+      "city": "Hempstead",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-21",
+      "venue": "Salón Romance",
+      "city": "Staten Island",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-22",
+      "venue": "Camelot Stables",
+      "city": "Cranbury Township",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-22",
+      "venue": "Caballeros de Colon",
+      "city": "Union City",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-27",
+      "venue": "Wonderland Ballroom",
+      "city": "Revere",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-28",
+      "venue": "Club Patron",
+      "city": "Bronx",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-29",
+      "venue": "THE PALACE",
+      "city": "Woodbridge",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-29",
+      "venue": "Miller Farm",
+      "city": "Berlin",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-17",
+      "venue": "The Ranch",
+      "city": "Fort Myers",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-18",
+      "venue": " Club Fenix",
+      "city": "Ocoee",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-19",
+      "venue": "El Torito ",
+      "city": "Lake Worth",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-19",
+      "venue": "Rancho Bejucal",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-08",
+      "venue": "Titanic Event Center ",
+      "city": "Charleston",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-09",
+      "venue": "El Potrero",
+      "city": "Alma",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-10",
+      "venue": "Pickens Speedway",
+      "city": "Easley",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-15",
+      "venue": "Myth",
+      "city": "St Paul",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-16",
+      "venue": "Mac Mid America Center",
+      "city": "Council Bluffs",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-17",
+      "venue": "Val Air Ballroom",
+      "city": "Des Moines",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-17",
+      "venue": "Danceland Ballroom ",
+      "city": "Davenport",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-07",
+      "venue": "Escapade 2001",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-08",
+      "venue": "Majic Fest",
+      "city": "Victoria",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-08",
+      "venue": "El Fuerte",
+      "city": "San Antonio",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-09",
+      "venue": "EL COLISEO",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-21",
+      "venue": "Graton Casino",
+      "city": "Rohnert Park",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-22",
+      "venue": "Movida Night Club",
+      "city": "Bakersfield",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-23",
+      "venue": "Palladium Night Club",
+      "city": "Modesto",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-28",
+      "venue": "La Brea",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-28",
+      "venue": "La Sierra ",
+      "city": "Panorama City",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-29",
+      "venue": "Panamerican Ball Room",
+      "city": "Porterville",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-30",
+      "venue": "Rodeo El Nuevo Potrillo",
+      "city": "Huron",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-04",
+      "venue": "El Gran Patron",
+      "city": "Chula Vista",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-05",
+      "venue": "Club Caliente",
+      "city": "Redwood City",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-05",
+      "venue": "El Rancho de Concord",
+      "city": "Concord",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-06",
+      "venue": "XALOS NIGHT CLUB",
+      "city": "Anaheim",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-11",
+      "venue": "The Rave Eagles Club",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-11",
+      "venue": "Estrellas Del Millenium",
+      "city": "Elgin",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-12",
+      "venue": "Aragon Ballroom",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-12",
+      "venue": "C-club",
+      "city": "Aurora",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-13",
+      "venue": "Azteca De Oro",
+      "city": "Joliet",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-13",
+      "venue": "Lakehurst Events",
+      "city": "Waukegan",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-18",
+      "venue": "Buckanas",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-19",
+      "venue": "El Sol Club",
+      "city": "Birmingham",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-20",
+      "venue": "Hotel And Conference Center",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-23",
+      "venue": "La Espiguita Hall",
+      "city": "Brentwood",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-24",
+      "venue": "Salón La Sensación ",
+      "city": "Norristown",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-25",
+      "venue": "Halcon Del Oriente Nightlife",
+      "city": "Providence",
+      "state": "RI",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-26",
+      "venue": "Caballeros de Colon",
+      "city": "Union City",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-27",
+      "venue": "Faraones nigth club",
+      "city": "Plainfield",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2016-12-02",
+      "venue": "Disco Rodeo",
+      "city": "Winston Salem",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2016-12-02",
+      "venue": "Twisters Nightclub",
+      "city": "Smithfield",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2016-12-03",
+      "venue": "Carolina Ballroom",
+      "city": "Greenville",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2016-12-03",
+      "venue": "Atlanta Coliseum",
+      "city": "Duluth",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-03",
+      "venue": "Indianapolis",
+      "city": "Indiana",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-10",
+      "venue": "Woodbridge",
+      "city": "Woodbridge",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-11",
+      "venue": "Sterling",
+      "city": "Sterling",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-12",
+      "venue": "Woodside",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-07",
+      "venue": "Wonderland Ballroom",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-08",
+      "venue": "Salón Romance",
+      "city": "Staten Island",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-09",
+      "venue": "2017 Manassas Latino Festival",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-14",
+      "venue": "LakeTerrace",
+      "city": "Lakewood",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-15",
+      "venue": "Xcandalo",
+      "city": "Newburgh",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-16",
+      "venue": "Sport Haven",
+      "city": "New Haven",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2017-08-11",
+      "venue": "Pizzando Lobo Center",
+      "city": "Fort Myers",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-08-12",
+      "venue": "2151 Ocoee Apopka Rd",
+      "city": "Ocoee",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-08-12",
+      "venue": "Florida Orange Event Center",
+      "city": "Lakeland",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-08-13",
+      "venue": "El Torito Night Club",
+      "city": "Lake Worth",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-17",
+      "venue": "Lancaster",
+      "city": "Lancaster",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-18",
+      "venue": "San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-18",
+      "venue": "Concord",
+      "city": "Concord",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-22",
+      "venue": "San Bernardino",
+      "city": "San Bernardino",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-24",
+      "venue": "Visalia",
+      "city": "Visalia",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-25",
+      "venue": "Phoenix",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-09",
+      "venue": "Silver Nugget",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-10",
+      "venue": "Anaheim Convention Center",
+      "city": "Anaheim",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-11",
+      "venue": "Watsonville Fairground",
+      "city": "Watsonville",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-16",
+      "venue": "Millenium Convention Center",
+      "city": "Reno",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-17",
+      "venue": "801 Event Center",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-18",
+      "venue": "Ford Idaho Center",
+      "city": "Nampa",
+      "state": "ID",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-23",
+      "venue": "The Rave Hall",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-24",
+      "venue": "Aragon Ballroom",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-25",
+      "venue": "El Volcan Night Club",
+      "city": "Saint Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2018-03-01",
+      "venue": "Ace of  Spades",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-03-02",
+      "venue": "Rainbow Ballroom",
+      "city": "Fresno",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-03-03",
+      "venue": "Freemont Theater",
+      "city": "San Luis Obispo",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-03-30",
+      "venue": "Rabobank Arena",
+      "city": "Bakersfield",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-01",
+      "venue": "The Pavilion at Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-02",
+      "venue": "Aztec Theatre",
+      "city": "San Antonio",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-03",
+      "venue": "El Paso County Coliseum",
+      "city": "El Paso",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-08",
+      "venue": "Arena Theatre",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-09",
+      "venue": "State Farm Arena",
+      "city": "Hidalgo",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-10",
+      "venue": "Sames Auto Arena",
+      "city": "Laredo",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-11",
+      "venue": "The Coliseum",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-16",
+      "venue": "San Jose Civic Center",
+      "city": "San Jose",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-17",
+      "venue": "Microsoft Theater",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-30",
+      "venue": "Rodeo Event Center",
+      "city": "Memphis",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-31",
+      "venue": "Springdale Civic Center",
+      "city": "Springdale",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-01",
+      "venue": "Seward County Activity Center",
+      "city": "Liberal",
+      "state": "KS",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-06",
+      "venue": "The Rave / Eagles Club",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-07",
+      "venue": "Rosemont Theatre",
+      "city": "Rosemont",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2019-11-01",
+      "venue": "Versalles Palace Event Center",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2019-11-02",
+      "venue": "Desert Diamond Casino",
+      "city": "Tuczon",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2019-11-08",
+      "venue": "Stampede Nightclub",
+      "city": "Aurora",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2019-11-09",
+      "venue": "Ocho Segundos",
+      "city": "Amarillo",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2020-02-28",
+      "venue": "Cal Expo",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2020-02-29",
+      "venue": "Luther Burbank Center for the Arts",
+      "city": "Santa Rosa",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2020-03-01",
+      "venue": "Santa Cruz County Fairgrounds",
+      "city": "Watsonville",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2020-03-06",
+      "venue": "The Magnolia",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2020-03-07",
+      "venue": "Rainbow Ballroom",
+      "city": "Fresno",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2020-03-08",
+      "venue": "RODEO EL NUEVO POTRILLO",
+      "city": "Huron",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2021-06-11",
+      "venue": "Bronco en Concierto",
+      "city": "Sparks",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2021-06-12",
+      "venue": "Bronco en Concierto",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2022-02-27",
+      "venue": "Oxnard Performing Arts Center",
+      "city": "Oxnard",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-15",
+      "venue": "Texas Trust CU Theatre",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-20",
+      "venue": "Texas Trust CU Theatre",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-04",
+      "venue": "Vina Robles Amphitheatre",
+      "city": "Paso Robles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-05",
+      "venue": "Hard Rock Live Sacramento",
+      "city": "Wheatland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-11",
+      "venue": "Mechanics Bank Arena, Theater and Convention Center",
+      "city": "Bakersfield",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-12",
+      "venue": "YouTube Theater",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-13",
+      "venue": "Pala Casino - Events Center",
+      "city": "Pala",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-24",
+      "venue": "T-Mobile Arena",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-05",
+      "venue": "Circuit of the Americas",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-11",
+      "venue": "Tour Dejando Huella",
+      "city": "Rancho Mirage",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-12",
+      "venue": "Tour Dejando Huella",
+      "city": "Primm",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-13",
+      "venue": "Harrah's Resort SoCal - The Events Center",
+      "city": "Valley Center",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-18",
+      "venue": "Silver Legacy Resort Casino",
+      "city": "Reno",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-19",
+      "venue": "San Jose Civic",
+      "city": "San Jose",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-01",
+      "venue": "New Jersey Performing Arts Center",
+      "city": "Newark",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-02",
+      "venue": "EagleBank Arena",
+      "city": "Fairfax",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-03",
+      "venue": "Total Mortgage Arena",
+      "city": "Bridgeport",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-15",
+      "venue": "Kiva Auditorium at the Albuquerque Convention Center",
+      "city": "Albuquerque",
+      "state": "NM",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-16",
+      "venue": "El Paso County Coliseum",
+      "city": "El Paso",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-22",
+      "venue": "The Midland Theatre",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-23",
+      "venue": "Springdale Civic Center",
+      "city": "Springdale",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-29",
+      "venue": "Texas Trust CU Theatre",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-30",
+      "venue": "Payne Arena",
+      "city": "Hidalgo",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-31",
+      "venue": "Tour ''Dejando Huella''",
+      "city": "Sugar Land",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-24",
+      "venue": "Graton Resort & Casino",
+      "city": "Rohnert Park",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-25",
+      "venue": "Vina Robles Amphitheatre",
+      "city": "Paso Robles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-30",
+      "venue": "Harrah's Ak-Chin Hotel & Casino",
+      "city": "Maricopa",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-01",
+      "venue": "Harrah's Laughlin Casino & Hotel",
+      "city": "Laughlin",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-07",
+      "venue": "YouTube Theater",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-08",
+      "venue": "Cal Coast Credit Union Open Air Theatre",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-09",
+      "venue": "Hard Rock Live Sacramento",
+      "city": "Wheatland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-15",
+      "venue": "Rosemont Theatre",
+      "city": "Rosemont",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-16",
+      "venue": "Hard Rock Cafe Rockford",
+      "city": "Rockford",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-20",
+      "venue": "FRESNO - EL GRAN BAILE TOUR",
+      "city": "Fresno",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-21",
+      "venue": "PRIMM - EL GRAN BAILE TOUR",
+      "city": "Primm",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-27",
+      "venue": "TOPPENISH - EL GRAN BAILE TOUR",
+      "city": "Toppenish",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-28",
+      "venue": "AUBURN - EL GRAN BAILE TOUR",
+      "city": "Auburn",
+      "state": "WA",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

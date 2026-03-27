@@ -1,0 +1,786 @@
+{
+  "artist": "Slayyyter",
+  "totalUSShows": 111,
+  "dateRange": "2019-2025",
+  "tours": [
+    {
+      "date": "2019-06-24",
+      "venue": "Elsewhere",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2019-06-25",
+      "venue": "Elsewhere",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2019-06-26",
+      "venue": "Schubas Tavern",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2019-06-27",
+      "venue": "Rickshaw Stop",
+      "city": "SF",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-06-29",
+      "venue": "The Echo",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-14",
+      "venue": "San Diego Pride 2019",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-18",
+      "venue": "Brighton Music Hall",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-20",
+      "venue": "U Street Music Hall",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-23",
+      "venue": "Stubb's BBQ",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-24",
+      "venue": "The Satellite",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-26",
+      "venue": "El Rey Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-27",
+      "venue": "The Ready Room",
+      "city": "St Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-14",
+      "venue": "Rebel Toronto",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-18",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2021-06-10",
+      "venue": "Elsewhere - Rooftop",
+      "city": "New York City",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2021-10-09",
+      "venue": "Las Vegas Pride 2021",
+      "city": "North Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2021-11-05",
+      "venue": "PRI PRI",
+      "city": "Palm Springs",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-02-11",
+      "venue": "The Studio at Webster Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-04",
+      "venue": "El Rey Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-05",
+      "venue": "El Rey Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-07",
+      "venue": "August Hall",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-09",
+      "venue": "Hawthorne Theatre",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-10",
+      "venue": "Fox Cabaret",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-11",
+      "venue": "Neumos",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-13",
+      "venue": "Soundwell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-14",
+      "venue": "Marquis Theater",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-16",
+      "venue": "Turf Club",
+      "city": "St Paul",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-17",
+      "venue": "Lincoln Hall",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-19",
+      "venue": "Mod Club Theatre",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-20",
+      "venue": "El Club",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-21",
+      "venue": "A&R Music Bar",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-22",
+      "venue": "Thunderbird Cafe",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-24",
+      "venue": "Union Stage",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-25",
+      "venue": "The Fillmore Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-26",
+      "venue": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2022-06-03",
+      "venue": "OUTLOUD Raising Voices",
+      "city": "West Hollywood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-06-10",
+      "venue": "Roadrunner",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2022-08-10",
+      "venue": "El Rey Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-09-25",
+      "venue": "Portola Festival 2022",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-07",
+      "venue": "Austin City Limits Music Festival 2022",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-29",
+      "venue": "Webster Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2022-12-08",
+      "venue": "Heart Weho",
+      "city": "West Hollywood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-06",
+      "venue": "Ryman Auditorium",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-08",
+      "venue": "The National",
+      "city": "Richmond",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-09",
+      "venue": "The Fillmore Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-10",
+      "venue": "Knockdown Center",
+      "city": "Maspeth",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-13",
+      "venue": "MTELUS",
+      "city": "Montreal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-14",
+      "venue": "HISTORY",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-15",
+      "venue": "Royal Oak Music Theatre",
+      "city": "Royal Oak",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-17",
+      "venue": "The Salt Shed",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-18",
+      "venue": "Palace Theatre",
+      "city": "Saint Paul",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-20",
+      "venue": "Mission Ballroom",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-23",
+      "venue": "Paramount Theatre",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-24",
+      "venue": "Commodore Ballroom",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-25",
+      "venue": "Roseland Theater",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-27",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-02",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-03",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-10",
+      "venue": "The Anthem",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-16",
+      "venue": "Miami Beach Bandshell",
+      "city": "Miami Beach",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-17",
+      "venue": "House of Blues Orlando",
+      "city": "Lake Buena Vista",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-21",
+      "venue": "Stubb's Waller Creek Amphitheater",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-22",
+      "venue": "South Side Ballroom",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-29",
+      "venue": "Commodore Ballroom",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-15",
+      "venue": "Avant Gardner",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-09-22",
+      "venue": "Life is Beautiful Festival 2023",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-25",
+      "venue": "Royale",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-26",
+      "venue": "Brooklyn Steel",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-27",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-28",
+      "venue": "Theatre of Living Arts",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-31",
+      "venue": "The Opera House",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-02",
+      "venue": "Newport Music Hall",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-03",
+      "venue": "Saint Andrew's Hall",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-04",
+      "venue": "House of Blues Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-06",
+      "venue": "Summit Music Hall",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-07",
+      "venue": "Soundwell",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-10",
+      "venue": "The Regency Ballroom",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-11",
+      "venue": "The Novo",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-12",
+      "venue": "The Observatory North Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-01-26",
+      "venue": "The Ground Miami",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-02",
+      "venue": "Stage AE",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-08",
+      "venue": "Echostage",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-14",
+      "venue": "KINK Pride 2024",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-28",
+      "venue": "Under the K Bridge Park",
+      "city": "Downtown Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-29",
+      "venue": "Pride Fest  2024",
+      "city": "St. Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-17",
+      "venue": "Charlotte Pride Festival 2024",
+      "city": "North Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-24",
+      "venue": "lavender wild  2024",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-07",
+      "venue": "Area 15 2024",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-13",
+      "venue": "Rifflandia 2024",
+      "city": "Victoria",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-14",
+      "venue": "Boiler Room DC",
+      "city": "Washington, D.C.",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-19",
+      "venue": "Elsewhere",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-09",
+      "venue": "The Greek Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-19",
+      "venue": "Phoenix Pride Festival 2024",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-25",
+      "venue": "Escape 2024",
+      "city": "San Bernardino",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-15",
+      "venue": "Desert Air 2024",
+      "city": "Palm Springs",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-06",
+      "venue": "World Pride 2025",
+      "city": "Washington, D.C.",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-14",
+      "venue": "Gay Bash'd Boston Pride",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-28",
+      "venue": "All Of Us: A Pride Weekender 2025",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-01",
+      "venue": "Utah First Credit Union Amphitheatre",
+      "city": "West Valley City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-03",
+      "venue": "Shoreline Amphitheatre",
+      "city": "Mountain View",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-05",
+      "venue": "Kia Forum",
+      "city": "Inglewood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-06",
+      "venue": "Talking Stick Resort Amphitheatre",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-08",
+      "venue": "Dos Equis Pavilion",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-10",
+      "venue": "The Cynthia Woods Mitchell Pavilion",
+      "city": "The Woodlands",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-12",
+      "venue": "Credit Union 1 Amphitheatre",
+      "city": "Tinley Park",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-13",
+      "venue": "Hollywood Casino Amphitheatre",
+      "city": "Maryland Heights",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-15",
+      "venue": "Ascend Amphitheater",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-16",
+      "venue": "Riverbend Music Center",
+      "city": "Cincinnati",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-18",
+      "venue": "Ruoff Music Center",
+      "city": "Noblesville",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-19",
+      "venue": "Capitol Hill Block Party 2025",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-26",
+      "venue": "Tracks Nightclub 45th Anniversary Party",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

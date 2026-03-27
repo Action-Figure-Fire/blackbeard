@@ -1,0 +1,23 @@
+{
+  "artist": "Masayoshi Takanaka",
+  "totalUSShows": 2,
+  "dateRange": "2025-2025",
+  "tours": [
+    {
+      "date": "2025-03-09",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-10",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "single burst",
+  "venueScaleProgression": "mixed venues"
+}

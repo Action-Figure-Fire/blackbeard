@@ -1,0 +1,450 @@
+{
+  "artist": "DJO",
+  "totalUSShows": 63,
+  "dateRange": "2019-2025",
+  "tours": [
+    {
+      "date": "2019-09-27",
+      "venue": "The Moroccan Lounge",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-28",
+      "venue": "The Moroccan Lounge",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-16",
+      "venue": "Sleeping Village",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-18",
+      "venue": "Sleeping Village",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-20",
+      "venue": "Elsewhere - Zone One",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2019-12-11",
+      "venue": "Music Hall of Williamsburg",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2020-10-17",
+      "venue": "Central Park",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-28",
+      "venue": "Saturn",
+      "city": "Birmingham",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-29",
+      "venue": "Shaky Knees Late Night @ Vinyl",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-30",
+      "venue": "Shaky Knees Festival 2022",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-24",
+      "venue": "Belly Up Tavern",
+      "city": "Solana Beach",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-25",
+      "venue": "The Glass House",
+      "city": "Pomona",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-26",
+      "venue": "SLO Brew",
+      "city": "San Luis Obispo",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-27",
+      "venue": "BottleRock Napa Valley 2022",
+      "city": "Napa County",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-29",
+      "venue": "Boston Calling Festival 2022",
+      "city": "Allston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-30",
+      "venue": "Bottom Lounge",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-31",
+      "venue": "Lollapalooza 2022",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-03",
+      "venue": "Back On You Tour 2025",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-04",
+      "venue": "Back On You Tour 2025",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-05",
+      "venue": "Back On You Tour 2025",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-07",
+      "venue": "Back On You Tour 2025",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-08",
+      "venue": "Back On You Tour 2025",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-10",
+      "venue": "Back On You Tour 2025",
+      "city": "Oakland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-11",
+      "venue": "Coachella 2025",
+      "city": "Indio",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-15",
+      "venue": "The Fox Theater Pomona",
+      "city": "Pomona",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-16",
+      "venue": "The Sound",
+      "city": "Del Mar",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-18",
+      "venue": "Coachella 2025",
+      "city": "Indio",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-19",
+      "venue": "Back On You Tour 2025",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-21",
+      "venue": "Back On You Tour 2025",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-23",
+      "venue": "Back On You Tour 2025",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-25",
+      "venue": "Back On You Tour 2025",
+      "city": "Madison",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-26",
+      "venue": "Back On You Tour 2025",
+      "city": "Saint Paul",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-28",
+      "venue": "NEW VENUE: Back On You Tour 2025",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-29",
+      "venue": "Back On You Tour 2025",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-01",
+      "venue": "Back On You Tour 2025",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-02",
+      "venue": "Back On You Tour 2025",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-03",
+      "venue": "Back On You Tour 2025",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-05",
+      "venue": "Back On You Tour 2025",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-06",
+      "venue": "Back On You Tour 2025",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-07",
+      "venue": "Back On You Tour 2025",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-23",
+      "venue": "TD Garden",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-24",
+      "venue": "TD Garden",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-26",
+      "venue": "Budweiser Stage",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-31",
+      "venue": "Djo: Official Lolla Aftershow",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-01",
+      "venue": "Lollapalooza Chicago 2025",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-24",
+      "venue": "Rochester Institute of Technology",
+      "city": "Rochester",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-26",
+      "venue": "All Things Go",
+      "city": "Forest Hills",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-27",
+      "venue": "Another Bite Tour",
+      "city": "New Haven",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-28",
+      "venue": "All Things Go",
+      "city": "Columbia",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-30",
+      "venue": "Another Bite Tour",
+      "city": "Asheville",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-01",
+      "venue": "Another Bite Tour",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-02",
+      "venue": "Another Bite Tour",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-04",
+      "venue": "Austin City Limits Music Festival 2025",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-05",
+      "venue": "White Oak Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-07",
+      "venue": "Another Bite Tour",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-09",
+      "venue": "The Pavilion At Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-11",
+      "venue": "Austin City Limits Music Festival 2025",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-13",
+      "venue": "Another Bite Tour",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-15",
+      "venue": "Another Bite Tour",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-17",
+      "venue": "Another Bite Tour",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-18",
+      "venue": "Another Bite Tour",
+      "city": "Berkeley",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-20",
+      "venue": "Another Bite Tour",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-21",
+      "venue": "The Greek Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

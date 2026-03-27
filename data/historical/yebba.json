@@ -1,0 +1,226 @@
+{
+  "artist": "Yebba",
+  "totalUSShows": 31,
+  "dateRange": "2016-2024",
+  "tours": [
+    {
+      "date": "2016-05-24",
+      "venue": "S.O.B.'s",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-25",
+      "venue": "Rockwood Music Hall Stage 3",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-08",
+      "venue": "Rockwood Music Hall Stage 3",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2017-03-09",
+      "venue": "The Bowery Ballroom",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-07",
+      "venue": "Mercury Lounge",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2022-03-13",
+      "venue": "The Forum",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-03-15",
+      "venue": "The Forum",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-03-16",
+      "venue": "The Forum",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-03-18",
+      "venue": "Chase Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-03-19",
+      "venue": "Chase Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-03-22",
+      "venue": "Climate Pledge Arena ",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2022-03-23",
+      "venue": "Climate Pledge Arena ",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2022-03-25",
+      "venue": "Vivint Arena",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2022-03-27",
+      "venue": "Ball Arena",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-02",
+      "venue": "FLA Live Arena",
+      "city": "Sunrise",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-05",
+      "venue": "Amalie Arena",
+      "city": "Tampa",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-08",
+      "venue": "State Farm Arena",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-09",
+      "venue": "State Farm Arena",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-11",
+      "venue": "Spectrum Center",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-13",
+      "venue": "Bridgestone Arena",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-20",
+      "venue": "Moody Center",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-21",
+      "venue": "Moody Center",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-24",
+      "venue": "American Airlines Center",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-28",
+      "venue": "United Center",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-29",
+      "venue": "United Center",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-17",
+      "venue": "Russell Industrial Center",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-25",
+      "venue": "Empire Control Room & Garage",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-27",
+      "venue": "Orpheum Theater",
+      "city": "New Orleans",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-01",
+      "venue": "Roots Picnic 2024",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-21",
+      "venue": "The Aretha Franklin Amphitheatre",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-01",
+      "venue": "Capital One City Parks Foundation SummerStage",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every few months",
+  "venueScaleProgression": "mixed venues"
+}

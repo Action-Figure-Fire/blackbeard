@@ -1,0 +1,898 @@
+{
+  "artist": "Zara Larsson",
+  "totalUSShows": 127,
+  "dateRange": "2013-2026",
+  "tours": [
+    {
+      "date": "2013-09-13",
+      "venue": "The Phoenix Concert Theatre",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-14",
+      "venue": "House of Blues Cleveland",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-18",
+      "venue": "Ogden Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-23",
+      "venue": "Club Nokia",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-17",
+      "venue": "Red, White & Boom",
+      "city": "Independence",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2016-08-25",
+      "venue": "Elvis Duran End of Summer Bash",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2016-08-27",
+      "venue": "Arthur Ashe Kids' Day",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-06",
+      "venue": "House of Horror @ Miami International Mall",
+      "city": "Doral",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-07",
+      "venue": "Ellsworth Avenue ",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-20",
+      "venue": "CMT Artist of the Year 2016",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2016-12-03",
+      "venue": "99.7 NOW! Triple Ho Show @ San Jose",
+      "city": "San Jose",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-12-09",
+      "venue": "95.7 The Vibe Elfmas 2016",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-03",
+      "venue": "The Fillmore",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-05",
+      "venue": "Fonda Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-07",
+      "venue": "Observatory North Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-10",
+      "venue": "Gothic Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-12",
+      "venue": "Trees",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-13",
+      "venue": "Emo's",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-14",
+      "venue": "Numbers",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-17",
+      "venue": "Terminal West",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-19",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-21",
+      "venue": "Webster Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-22",
+      "venue": "Union Transfer",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-24",
+      "venue": "Phoenix Concert Theatre",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-26",
+      "venue": "Paradise Rock Club",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2017-04-27",
+      "venue": "UWG Coliseum",
+      "city": "Carrollton",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2017-05-01",
+      "venue": "Saint Andrews Hall",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2017-05-02",
+      "venue": "House of Blues Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2017-05-07",
+      "venue": "Shrine Auditorium",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-22",
+      "venue": "OZY Fest 2017",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2017-08-03",
+      "venue": "Grant Park",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2017-08-05",
+      "venue": "Grant Park",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2017-08-06",
+      "venue": "Osheaga 2017",
+      "city": "Montreal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2017-09-16",
+      "venue": "Music Midtown Festival",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2019-04-29",
+      "venue": "The Fillmore",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-04-30",
+      "venue": "The Fonda Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-02",
+      "venue": "The Observatory OC",
+      "city": "Santa Ana",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-06",
+      "venue": "House of Blues Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-08",
+      "venue": "Paradise Rock Club",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-09",
+      "venue": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-11",
+      "venue": "The 9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-12",
+      "venue": "Union Transfer",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2019-06-09",
+      "venue": "Capital Pride Concert",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-17",
+      "venue": "Neptune Theatre",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-18",
+      "venue": "Wonder Ballroom",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-20",
+      "venue": "The Depot",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-21",
+      "venue": "Las Vegas Festival Grounds",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-24",
+      "venue": "Gothic Theatre",
+      "city": "Englewood",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-26",
+      "venue": "House of Blues Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-05",
+      "venue": "Big Fresno Fair",
+      "city": "Fresno",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-12-18",
+      "venue": "Allstate Arena",
+      "city": "Rosemont",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2019-12-20",
+      "venue": "State Farm Arena",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2019-12-22",
+      "venue": "BB&T Center",
+      "city": "Sunrise",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-03",
+      "venue": "The Great Northern",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-26",
+      "venue": "Amalie Arena",
+      "city": "Tampa",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-25",
+      "venue": "Huntington Bank Pavilion at Northerly Island",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-26",
+      "venue": "Huntington Bank Pavilion at Northerly Island",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-28",
+      "venue": "Germania Insurance Amphitheater",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-04",
+      "venue": "Chase Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-09",
+      "venue": "Climate Pledge Arena ",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-10",
+      "venue": "Rogers Arena",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-17",
+      "venue": "Hollywood Bowl",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-27",
+      "venue": "House of Blues Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-29",
+      "venue": "Center Stage",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-30",
+      "venue": "House of Blues Orlando",
+      "city": "Lake Buena Vista",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-01",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-03",
+      "venue": "Phoenix Concert Theatre",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-05",
+      "venue": "Royale",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-06",
+      "venue": "Webster Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-07",
+      "venue": "Webster Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-03",
+      "venue": "Addition Financial Arena",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-04",
+      "venue": "Rogers Arena",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-05",
+      "venue": "Rogers Arena",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-07",
+      "venue": "Rogers Place",
+      "city": "Edmonton",
+      "state": "AB",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-09",
+      "venue": "Canada Life Centre",
+      "city": "Winnipeg",
+      "state": "MB",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-13",
+      "venue": "Xcel Energy Center",
+      "city": "Saint Paul",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-15",
+      "venue": "United Center",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-16",
+      "venue": "Little Caesars Arena",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-19",
+      "venue": "Scotiabank Arena",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-20",
+      "venue": "Scotiabank Arena",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-22",
+      "venue": "Canadian Tire Centre",
+      "city": "Ottawa",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-24",
+      "venue": "Bell Centre",
+      "city": "Montreal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-26",
+      "venue": "TD Garden",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-27",
+      "venue": "TD Garden",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-29",
+      "venue": "Rocket Arena",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-31",
+      "venue": "CFG Bank Arena",
+      "city": "Baltimore",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-03",
+      "venue": "Madison Square Garden",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-04",
+      "venue": "Madison Square Garden",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-06",
+      "venue": "Xfinity Mobile Arena ",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-09",
+      "venue": "State Farm Arena",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-11",
+      "venue": "Bridgestone Arena",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-13",
+      "venue": "Kia Center",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-14",
+      "venue": "Kia Center",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-16",
+      "venue": "Moody Center",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-18",
+      "venue": "American Airlines Center",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-20",
+      "venue": "Ball Arena",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-24",
+      "venue": "Chase Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-26",
+      "venue": "Kia Forum",
+      "city": "Inglewood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-27",
+      "venue": "Kia Forum",
+      "city": "Inglewood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-02",
+      "venue": "Dickies Arena",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-05",
+      "venue": "Intuit Dome",
+      "city": "Inglewood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-08",
+      "venue": "Allstate Arena",
+      "city": "Rosemont",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-09",
+      "venue": "Little Caesars Arena",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-12",
+      "venue": "Madison Square Garden",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-14",
+      "venue": "TD Garden",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-15",
+      "venue": "Xfinity Mobile Arena ",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-16",
+      "venue": "Capital One Arena",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-20",
+      "venue": "Kaseya Center",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-28",
+      "venue": "McMenamins Crystal Ballroom",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-01",
+      "venue": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-03",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-04",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-05",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-07",
+      "venue": "House of Blues Anaheim",
+      "city": "Anaheim",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-08",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-10",
+      "venue": "The Union Event Center",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-11",
+      "venue": "Fillmore Auditorium",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-13",
+      "venue": "The Fillmore Minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-14",
+      "venue": "The Rave / Eagles Club",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-15",
+      "venue": "Riviera Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-17",
+      "venue": "Royal Oak Music Theatre",
+      "city": "Royal Oak",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-18",
+      "venue": "Egyptian Room at Old National Centre",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-20",
+      "venue": "Agora Theater & Ballroom",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-21",
+      "venue": "KEMBA Live!",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-22",
+      "venue": "Stage AE",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-24",
+      "venue": "HISTORY",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-26",
+      "venue": "Brooklyn Paramount",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

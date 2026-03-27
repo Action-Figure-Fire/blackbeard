@@ -1,0 +1,541 @@
+{
+  "artist": "Nessa Barrett",
+  "totalUSShows": 76,
+  "dateRange": "2021-2025",
+  "tours": [
+    {
+      "date": "2021-12-19",
+      "venue": "South Side Ballroom",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-16",
+      "venue": "Rough Trade NYC",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-22",
+      "venue": "Las Vegas Festival Grounds",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-25",
+      "venue": "El Rey Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-22",
+      "venue": "Crescent Ballroom",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-23",
+      "venue": "Crescent Ballroom",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-25",
+      "venue": "RISE Rooftop",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-26",
+      "venue": "House of Blues Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-28",
+      "venue": "The Masquerade - Heaven",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-02",
+      "venue": "The Fillmore Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-03",
+      "venue": "The Anthem",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-05",
+      "venue": "Terminal 5",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-06",
+      "venue": "Roadrunner",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-08",
+      "venue": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-09",
+      "venue": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-11",
+      "venue": "Phoenix Concert Theatre",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-13",
+      "venue": "Byline Bank Aragon Ballroom",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-14",
+      "venue": "Palace Theatre",
+      "city": "Saint Paul",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-16",
+      "venue": "Mission Ballroom",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-17",
+      "venue": "The Great Saltair",
+      "city": "Magna Manors",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-19",
+      "venue": "The Masonic",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-21",
+      "venue": "The Fonda Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-22",
+      "venue": "The Fonda Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-25",
+      "venue": "Hollywood Palladium",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-27",
+      "venue": "Below at The Belasco",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-06",
+      "venue": "Zilker Metropolitan Park",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-09",
+      "venue": "House of Blues Orlando",
+      "city": "Lake Buena Vista",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-12",
+      "venue": "Tannahill's Tavern & Music Hall",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-13",
+      "venue": "Zilker Metropolitan Park",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-14",
+      "venue": "Emo's Austin",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-16",
+      "venue": "Marathon Music Works",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-18",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-19",
+      "venue": "The NorVa",
+      "city": "Norfolk",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-20",
+      "venue": "Toyota Oakdale Theatre",
+      "city": "Wallingford",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-23",
+      "venue": "Starland Ballroom",
+      "city": "Sayreville",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-24",
+      "venue": "Rams Head Live!",
+      "city": "Baltimore",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-27",
+      "venue": "Stage AE",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-28",
+      "venue": "MegaCorp Pavilion",
+      "city": "Newport",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-29",
+      "venue": "KEMBA Live!",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-31",
+      "venue": "The Rave / Eagles Club",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-01",
+      "venue": "The Pageant",
+      "city": "St Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-03",
+      "venue": "Aggie Theatre",
+      "city": "Fort Collins",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-04",
+      "venue": "Boulder Theater",
+      "city": "Boulder",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-07",
+      "venue": "House of Blues Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-08",
+      "venue": "The Observatory North Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-10",
+      "venue": "House of Blues Anaheim",
+      "city": "Anaheim",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-13",
+      "venue": "San Jose Civic",
+      "city": "San Jose",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-15",
+      "venue": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-16",
+      "venue": "McMenamins Crystal Ballroom",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-04",
+      "venue": "The Fillmore Minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-06",
+      "venue": "The Salt Shed",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-07",
+      "venue": "Bogart's",
+      "city": "Cincinnati",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-08",
+      "venue": "The Fillmore Detroit",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-11",
+      "venue": "The Met",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-13",
+      "venue": "HISTORY",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-14",
+      "venue": "Théâtre Beanfield",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-17",
+      "venue": "Brooklyn Paramount",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-18",
+      "venue": "Brooklyn Paramount",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-20",
+      "venue": "Roadrunner",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-21",
+      "venue": "The Fillmore",
+      "city": "Silver Spring",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-23",
+      "venue": "Tabernacle",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-24",
+      "venue": "House of Blues Orlando",
+      "city": "Lake Buena Vista",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-26",
+      "venue": "Marathon Music Works",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-28",
+      "venue": "House of Blues Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-01",
+      "venue": "House of Blues Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-03",
+      "venue": "Fillmore Auditorium",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-06",
+      "venue": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-07",
+      "venue": "Auditorium Shores",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-08",
+      "venue": "Sips & Sounds Music Festival 2025",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-10",
+      "venue": "Ace Of Spades",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-11",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-13",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-15",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-16",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-26",
+      "venue": "Summerfest 2025",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-09",
+      "venue": "Up In The Sky Music Festival 2025",
+      "city": "Aspen",
+      "state": "CO",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

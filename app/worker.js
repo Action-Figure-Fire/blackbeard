@@ -758,6 +758,17 @@ const TOOLS = [
       },
       required: ["query"]
     }
+  },
+  {
+    name: "seatgeek_events",
+    description: "Search SeatGeek for events with SECONDARY MARKET pricing (lowest_price, avg_price, highest_price, listing_count). FREE and fast. Use this alongside vivid_seats for price comparison. Also returns tour dates even without secondary pricing.",
+    input_schema: {
+      type: "object",
+      properties: {
+        query: { type: "string", description: "Artist name to search" }
+      },
+      required: ["query"]
+    }
   }
 ];
 
@@ -904,6 +915,52 @@ async function executeStubHubVenue(venueId, scrapingBeeKey) {
   }
 }
 
+// SeatGeek pricing tool — FREE secondary market pricing data
+async function executeSeatGeekSearch(query, clientId) {
+  try {
+    if (!clientId) return JSON.stringify({ error: "SeatGeek not configured" });
+    const resp = await fetch(
+      `https://api.seatgeek.com/2/events?q=${encodeURIComponent(query)}&per_page=15&client_id=${clientId}`
+    );
+    const data = await resp.json();
+    const events = (data.events || []).map(e => ({
+      name: e.short_title || e.title,
+      date: e.datetime_local?.substring(0, 10),
+      venue: e.venue?.name,
+      city: e.venue?.city,
+      state: e.venue?.state,
+      capacity: e.venue?.capacity || null,
+      lowestPrice: e.stats?.lowest_price,
+      avgPrice: e.stats?.average_price,
+      highestPrice: e.stats?.highest_price,
+      listingCount: e.stats?.listing_count,
+      score: e.score,
+      url: e.url
+    })).filter(e => e.lowestPrice !== null && e.lowestPrice !== undefined);
+    
+    // Also return events without pricing for tour date context
+    const noPricing = (data.events || [])
+      .filter(e => !e.stats?.lowest_price)
+      .map(e => ({
+        name: e.short_title || e.title,
+        date: e.datetime_local?.substring(0, 10),
+        venue: e.venue?.name,
+        city: e.venue?.city,
+        state: e.venue?.state,
+        capacity: e.venue?.capacity || null,
+        note: "No secondary pricing yet"
+      }));
+    
+    return JSON.stringify({ 
+      withPricing: events, 
+      noPricing: noPricing.slice(0, 10),
+      total: data.meta?.total || 0 
+    });
+  } catch (e) {
+    return JSON.stringify({ error: e.message });
+  }
+}
+
 function executePerformerLookup(artistName) {
   const key = artistName.toLowerCase().trim();
   const id = PERFORMER_IDS[key];
@@ -945,6 +1002,7 @@ async function executeTool(name, input, env) {
     case 'get_vip_list': return JSON.stringify(getVIPList());
     case 'get_breakout_comparisons': return JSON.stringify(getBreakoutComparisons());
     case 'serpapi_search': return await executeSerpApi(input.query, input.engine, env.SERPAPI_KEY);
+    case 'seatgeek_events': return await executeSeatGeekSearch(input.query, env.SEATGEEK_CLIENT_ID);
     default: return JSON.stringify({ error: 'Unknown tool' });
   }
 }
@@ -1021,8 +1079,8 @@ export default {
 
     if (request.method === 'GET') {
       return new Response(JSON.stringify({
-        status: 'ok', version: '3.0',
-        tools: ['knowledge_query', 'vivid_seats', 'brave_search', 'bandsintown', 'twitter', 'stubhub', 'serpapi', 'performer_lookup', 'vip_list', 'breakout_refs'],
+        status: 'ok', version: '6.0',
+        tools: ['knowledge_query', 'vivid_seats', 'brave_search', 'bandsintown', 'twitter', 'stubhub', 'serpapi', 'seatgeek', 'performer_lookup', 'vip_list', 'breakout_refs'],
         performers_cached: Object.keys(PERFORMER_IDS).length,
         model: env.MODEL || 'claude-sonnet-4-20250514'
       }), { headers: { ...corsHeaders, 'Content-Type': 'application/json' } });

@@ -1,0 +1,1325 @@
+{
+  "artist": "Gavin Adcock",
+  "totalUSShows": 188,
+  "dateRange": "2023-2026",
+  "tours": [
+    {
+      "date": "2023-11-17",
+      "venue": "Brewsky's",
+      "city": "Hattiesburg",
+      "state": "MS",
+      "capacity": null
+    },
+    {
+      "date": "2024-01-19",
+      "venue": "Rick's Cafe",
+      "city": "Starkville",
+      "state": "MS",
+      "capacity": null
+    },
+    {
+      "date": "2024-01-26",
+      "venue": "Capitol Theatre",
+      "city": "Macon",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-01-27",
+      "venue": "Broadway Saloon",
+      "city": "Columbus",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-01-28",
+      "venue": "Eddie's Attic",
+      "city": "Decatur",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-02-01",
+      "venue": "Exit/In",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-02-02",
+      "venue": "The Barrelhouse Ballroom",
+      "city": "Chattanooga",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-02-15",
+      "venue": "Antone's",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-02-16",
+      "venue": "Blaine's Pub Co",
+      "city": "San Angelo",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-02-17",
+      "venue": "John T. Floore Country Store",
+      "city": "Helotes",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-01",
+      "venue": "The Blue Room",
+      "city": "Statesboro",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-02",
+      "venue": "Jacksonville Equestrian Center",
+      "city": "Jacksonville",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-20",
+      "venue": "Grand Ole Opry House",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-29",
+      "venue": "Jolly Fox Club",
+      "city": "Huntsville",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-30",
+      "venue": "A.V. 'Bull' Sallas Park",
+      "city": "New Caney",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-06",
+      "venue": "Rock The Country 2024",
+      "city": "Gonzales",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-12",
+      "venue": "Georgia Rodeo",
+      "city": "Athens",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-18",
+      "venue": "Zanzabar",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-19",
+      "venue": "MegaCorp Pavilion",
+      "city": "Newport",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-20",
+      "venue": "Rock The Country",
+      "city": "Ashland",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-25",
+      "venue": "Newport Music Hall",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-26",
+      "venue": "Crusens Farmington Road",
+      "city": "Peoria",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-27",
+      "venue": "The Dusty Armadillo",
+      "city": "Rootstown",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-10",
+      "venue": "Rock The Country 2024",
+      "city": "Rome",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-04",
+      "venue": "Barstool Nashville",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-06",
+      "venue": "Carolina Country Music Festival 2024",
+      "city": "Myrtle Beach",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-07",
+      "venue": "Rock The Country 2024",
+      "city": "Reddick",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-13",
+      "venue": "Tulips FTW",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-14",
+      "venue": "50th annual holland corn fest",
+      "city": "Holland",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-15",
+      "venue": "Hochatown Saloon",
+      "city": "Broken Bow",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-20",
+      "venue": "Barefoot Country Music Fest 2024",
+      "city": "Wildwood",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-21",
+      "venue": "Rock The Country 2024",
+      "city": "Mobile",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-27",
+      "venue": "The Hall",
+      "city": "Little Rock",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-28",
+      "venue": "Rock The Country",
+      "city": "Poplar Bluff",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-19",
+      "venue": "Rock the South",
+      "city": "Cullman",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-25",
+      "venue": "The Windjammer",
+      "city": "Isle of Palms",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-26",
+      "venue": "Rock the Country 2024",
+      "city": "Anderson Village",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-27",
+      "venue": "The Orange Peel",
+      "city": "Asheville",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-03",
+      "venue": "Rapides Parish Coliseum",
+      "city": "Alexandria",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-06",
+      "venue": "Grand Ole Opry House",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-10",
+      "venue": "XRoads41",
+      "city": "Oshkosh",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-11",
+      "venue": "Voices of America Country Music Fest  2024",
+      "city": "West Chester",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-17",
+      "venue": "Illinois State Fair Campground",
+      "city": "Springfield",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-23",
+      "venue": "Georgia Theatre",
+      "city": "Athens",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-24",
+      "venue": "Georgia Theatre",
+      "city": "Athens",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-29",
+      "venue": "Vivid Music Hall",
+      "city": "Gainesville",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-30",
+      "venue": "The Plant",
+      "city": "Dothan",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-31",
+      "venue": "Tuffy's Music Box",
+      "city": "Sanford",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-07",
+      "venue": "Billy Bob's",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-13",
+      "venue": "Texas Club",
+      "city": "Baton Rouge",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-14",
+      "venue": "Soul Kitchen Music Hall",
+      "city": "Mobile",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-18",
+      "venue": "The Lyric Oxford",
+      "city": "Oxford",
+      "state": "MS",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-19",
+      "venue": "Majestic Fort Smith",
+      "city": "Fort Smith",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-20",
+      "venue": "The Hat",
+      "city": "Manhattan",
+      "state": "KS",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-21",
+      "venue": "The Truman",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-26",
+      "venue": "Hal & Mal's",
+      "city": "Jackson",
+      "state": "MS",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-27",
+      "venue": "Druid City Music Hall",
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-28",
+      "venue": "Mars Music Hall",
+      "city": "Huntsville",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-05",
+      "venue": "RedWest Fest 2024",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-09",
+      "venue": "Brick Street",
+      "city": "Oxford",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-10",
+      "venue": "Manchester Music Hall",
+      "city": "Lexington",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-11",
+      "venue": "The Hawthorn",
+      "city": "St. Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-12",
+      "venue": "Old National Centre",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-17",
+      "venue": "The Rave / Eagles Club",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-18",
+      "venue": "Joe's Bar on Weed St.",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-19",
+      "venue": "The Intersection",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-24",
+      "venue": "The Senate",
+      "city": "Columbia",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-25",
+      "venue": "Coyote Joe's",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-26",
+      "venue": "The Foundry at Judson Mill",
+      "city": "Greenville",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-31",
+      "venue": "Cotton Eyed Joe",
+      "city": "Knoxville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-01",
+      "venue": "The Signal",
+      "city": "Chattanooga",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-07",
+      "venue": "White Oak Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-08",
+      "venue": "The Backyard Bar Stage and Grill",
+      "city": "Waco",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-09",
+      "venue": "Banita Creek Hall",
+      "city": "Nacogdoches",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-14",
+      "venue": "House of Blues Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-15",
+      "venue": "John T. Floore Country Store",
+      "city": "Helotes",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-16",
+      "venue": "Twisted J Live",
+      "city": "Stephenville",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-25",
+      "venue": "Grand Ole Opry House",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-05",
+      "venue": "The Ramkat & Gas Hill Drinking Room",
+      "city": "Winston-Salem",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-06",
+      "venue": "Jefferson Theater",
+      "city": "Charlottesville",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-07",
+      "venue": "Stage AE",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-12",
+      "venue": "Zouk Nightclub",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-11",
+      "venue": "Ford Center",
+      "city": "Evansville",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-17",
+      "venue": "The National",
+      "city": "Richmond",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-18",
+      "venue": "Marshall Health Network Arena",
+      "city": "Huntington",
+      "state": "WV",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-23",
+      "venue": "The Ranch Concert Hall & Saloon",
+      "city": "Fort Myers",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-24",
+      "venue": "Dallas Bull",
+      "city": "Tampa",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-25",
+      "venue": "Bulls, Bands, & Barrels 2025",
+      "city": "Duluth",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-06",
+      "venue": "Minglewood Hall",
+      "city": "Memphis",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-07",
+      "venue": "JJ's LIVE",
+      "city": "Fayetteville",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-08",
+      "venue": "Bulls, Bands, & Barrels 2025",
+      "city": "Bossier City",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-12",
+      "venue": "Rialto Theatre",
+      "city": "Tucson",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-13",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-14",
+      "venue": "House of Blues Anaheim",
+      "city": "Anaheim",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-15",
+      "venue": "The Observatory North Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-17",
+      "venue": "Ace Of Spades",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-21",
+      "venue": "Spokane Live",
+      "city": "Airway Heights",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-22",
+      "venue": "The Showbox",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-23",
+      "venue": "McMenamins Crystal Ballroom",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-24",
+      "venue": "Revolution Concert House",
+      "city": "Garden City",
+      "state": "ID",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-27",
+      "venue": "Fillmore Auditorium",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-28",
+      "venue": "Steelhouse Omaha",
+      "city": "Omaha",
+      "state": "NE",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-01",
+      "venue": "Val Air Ballroom",
+      "city": "West Des Moines",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-02",
+      "venue": "The Fillmore Minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-20",
+      "venue": "The Fillmore",
+      "city": "Silver Spring",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-21",
+      "venue": "Starland Ballroom",
+      "city": "Sayreville",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-22",
+      "venue": "Citizens House of Blues",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-23",
+      "venue": "The Fillmore Philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-27",
+      "venue": "The NorVa",
+      "city": "Norfolk",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-28",
+      "venue": "House of Blues Myrtle Beach",
+      "city": "North Myrtle Beach",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-29",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-30",
+      "venue": "The Ritz",
+      "city": "Raleigh",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-04",
+      "venue": "Rock the Country - Livingston, LA 2025",
+      "city": "Livingston",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-05",
+      "venue": "Two Step Inn 2025",
+      "city": "Georgetown",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-10",
+      "venue": "Agora Theater & Ballroom",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-11",
+      "venue": "The Fillmore Detroit",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-12",
+      "venue": "The Bluestone",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-13",
+      "venue": "The Bluestone",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-25",
+      "venue": "Mississippi Coast Coliseum",
+      "city": "Biloxi",
+      "state": "MS",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-26",
+      "venue": "Rock the Country - Knoxville, TN 2025",
+      "city": "Greenback",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-02",
+      "venue": "Brandon Amphitheater",
+      "city": "Brandon",
+      "state": "MS",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-03",
+      "venue": "Rock the Country 2025",
+      "city": "Poplar Bluff",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-09",
+      "venue": "Rock the Country - Ocala, FL 2025",
+      "city": "Ocala",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-10",
+      "venue": "Firefly Distillery",
+      "city": "North Charleston",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-16",
+      "venue": "The Pinnacle",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-17",
+      "venue": "The Pinnacle",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-24",
+      "venue": "Stage 271 - Choctaw Casino",
+      "city": "Grant",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-31",
+      "venue": "Rock the Country - York, PA 2025",
+      "city": "York",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-01",
+      "venue": "Railbird Music Festival 2025",
+      "city": "Lexington Manor",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-05",
+      "venue": "CMA Fest - Chevy Riverfront Stage",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-06",
+      "venue": "Centennial Terrace",
+      "city": "Sylvania",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-07",
+      "venue": "Tailgate N' Tallboys - Clinton",
+      "city": "Clinton",
+      "state": "Iowa",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-12",
+      "venue": "Tailgate N' Tallboys - Bloomington",
+      "city": "Bloomington",
+      "state": "Illinois",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-13",
+      "venue": "Rock the Country - Hastings, MI 2025",
+      "city": "Hastings",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-14",
+      "venue": "Rock the Country",
+      "city": "Kalamazoo",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-19",
+      "venue": "Brandon Amphitheater",
+      "city": "Brandon",
+      "state": "MS",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-20",
+      "venue": "Rock the Country - Little Rock, AR 2025",
+      "city": "Little Rock",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-21",
+      "venue": "Rock the South - Cullman, AL 2025",
+      "city": "Cullman",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-26",
+      "venue": "Summerfest 2025",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-27",
+      "venue": "Hoofbeat Country Fest 2025",
+      "city": "Cadott",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-28",
+      "venue": "Clearwater Celebration",
+      "city": "Clearwater",
+      "state": "NE",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-10",
+      "venue": "Country Concert 2025",
+      "city": "Fort Loramie",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-11",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-12",
+      "venue": "Hard Rock Stadium",
+      "city": "Miami Gardens",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-17",
+      "venue": "Country Thunder Wisconsin",
+      "city": "Twin Lakes",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-18",
+      "venue": "Gem City Summer Concert Series",
+      "city": "Quincy",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-19",
+      "venue": "Rock the Country - Sioux Falls, SD 2025",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-23",
+      "venue": "Delaware State Fairgrounds",
+      "city": "Harrington",
+      "state": "DE",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-24",
+      "venue": "The Clarksburg Amphitheater",
+      "city": "Clarksburg",
+      "state": "WV",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-25",
+      "venue": "Rock Coshocton Motor & Music Festival 2025",
+      "city": "Coshocton",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-26",
+      "venue": "Rock the Country - Anderson, SC 2025",
+      "city": "Anderson",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-08",
+      "venue": "WE Fest 2025",
+      "city": "Detroit Lakes",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-09",
+      "venue": "Humboldt County Dragway",
+      "city": "Humboldt",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-21",
+      "venue": "WAVE",
+      "city": "Wichita",
+      "state": "KS",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-22",
+      "venue": "Ford Amphitheater",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-23",
+      "venue": "The Complex",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-28",
+      "venue": "Allianz Amphitheater at Riverfront",
+      "city": "Richmond",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-29",
+      "venue": "Salem Civic Center",
+      "city": "Salem",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-30",
+      "venue": "Appalachian Wireless Arena",
+      "city": "Pikeville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-04",
+      "venue": "Rogers Centre",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-05",
+      "venue": "Rogers Centre",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-11",
+      "venue": "Cable Dahmer Arena",
+      "city": "Independence",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-12",
+      "venue": "The Pavilion At Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-13",
+      "venue": "Born & Raised 2025",
+      "city": "Pryor",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-14",
+      "venue": "The Factory at The District",
+      "city": "St. Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-25",
+      "venue": "Hartford HealthCare Amphitheater",
+      "city": "Bridgeport",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-26",
+      "venue": "Stage AE",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-27",
+      "venue": "Outer Harbor Buffalo",
+      "city": "Buffalo",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-03",
+      "venue": "Live Oak Bank Pavilion",
+      "city": "Wilmington",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-04",
+      "venue": "St. Augustine Amphitheatre",
+      "city": "St. Augustine",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-05",
+      "venue": "Country Calling 2025",
+      "city": "Ocean City",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-16",
+      "venue": "The Blue Room",
+      "city": "Statesboro",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-17",
+      "venue": "The Classic Center",
+      "city": "Athens",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-23",
+      "venue": "Théâtre Beanfield",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-24",
+      "venue": "Bronson Centre",
+      "city": "Ottawa",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-25",
+      "venue": "London Music Hall",
+      "city": "London",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-26",
+      "venue": "HISTORY",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-29",
+      "venue": "Burton Cummings Theatre",
+      "city": "Winnipeg",
+      "state": "MB",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-30",
+      "venue": "Coors Event Centre",
+      "city": "Saskatoon",
+      "state": "SK",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-31",
+      "venue": "Midway",
+      "city": "Edmonton",
+      "state": "AB",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-01",
+      "venue": "Grey Eagle Drive-In",
+      "city": "Calgary",
+      "state": "AB",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-10",
+      "venue": "Cheatham Street Warehouse",
+      "city": "San Marcos",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-13",
+      "venue": "Ovens Auditorium",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-07",
+      "venue": "K92.3 Jingle Jam 2025",
+      "city": "Apopka",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-11",
+      "venue": "Virgin Theatre",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-11",
+      "venue": "Grand Ole Opry House",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-20",
+      "venue": "Ballpark Village",
+      "city": "Saint Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-28",
+      "venue": "Bulls, Bands, & Barrels - Madison 2026",
+      "city": "Madison",
+      "state": "WI",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "multiple shows per month",
+  "venueScaleProgression": "mixed venues"
+}

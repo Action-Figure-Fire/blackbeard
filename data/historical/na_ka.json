@@ -1,0 +1,86 @@
+{
+  "artist": "Naïka",
+  "totalUSShows": 11,
+  "dateRange": "2019-2026",
+  "tours": [
+    {
+      "date": "2019-02-15",
+      "venue": "S.O.B.'s",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-13",
+      "venue": "The Peppermint Club",
+      "city": "West Hollywood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-12",
+      "venue": "The Ground - FL",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-08",
+      "venue": "Great American Music Hall",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-15",
+      "venue": "The Roxy Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-09-05",
+      "venue": "The Sinclair",
+      "city": "Cambridge",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-29",
+      "venue": "The Roxy Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-05",
+      "venue": "The Drake Hotel",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-29",
+      "venue": "Parterre du Quartier des spectacles",
+      "city": "Montréal",
+      "state": "Québec",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-11",
+      "venue": "Troubadour",
+      "city": "West Hollywood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-26",
+      "venue": "The Fonda Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 6+ months",
+  "venueScaleProgression": "mixed venues"
+}

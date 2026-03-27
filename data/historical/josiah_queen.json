@@ -1,0 +1,779 @@
+{
+  "artist": "Josiah Queen",
+  "totalUSShows": 110,
+  "dateRange": "2024-2026",
+  "tours": [
+    {
+      "date": "2024-05-03",
+      "venue": "Parkway Fellowship Church",
+      "city": "Richmond",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-05",
+      "venue": "Waco Hippodrome Theatre",
+      "city": "Waco",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-02",
+      "venue": "Grand Ole Opry House",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-20",
+      "venue": "Alive Music Festival 2024",
+      "city": "Mineral City",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-31",
+      "venue": "The Fillmore Charlotte",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-02",
+      "venue": "Marathon Music Works",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-08",
+      "venue": "713 Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-09",
+      "venue": "Austin City Limits Live at The Moody Theater",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-10",
+      "venue": "The Factory In Deep Ellum",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-15",
+      "venue": "Palace Theatre",
+      "city": "Saint Paul",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-16",
+      "venue": "Byline Bank Aragon Ballroom",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-17",
+      "venue": "Masonic Temple Theatre",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-19",
+      "venue": "Terminal 5",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-21",
+      "venue": "Roadrunner",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-22",
+      "venue": "Franklin Music Hall",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-25",
+      "venue": "The Fillmore",
+      "city": "Silver Spring",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-05",
+      "venue": "Shrine Auditorium and Expo Hall",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-09",
+      "venue": "The Van Buren",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-03",
+      "venue": "Druid City Music Hall",
+      "city": "Tuscaloosa",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-06",
+      "venue": "Aetos Center For The Performing Arts",
+      "city": "Nixa",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-08",
+      "venue": "Tree of Life Church",
+      "city": "New Braunfels",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-09",
+      "venue": "Harral Memorial Auditorium & Fine Arts Complex",
+      "city": "Plainview",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-11",
+      "venue": "Mountain Park Church",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-12",
+      "venue": "Mountain Park Church",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-13",
+      "venue": "Skyline Church",
+      "city": "La Mesa",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-14",
+      "venue": "Ventura Music Hall",
+      "city": "Ventura",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-15",
+      "venue": "Valley Vegas Church",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-17",
+      "venue": "Creekside Christian Church",
+      "city": "Elk Grove",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-18",
+      "venue": "Journey Church",
+      "city": "Bend",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-19",
+      "venue": "Cascade Community Church",
+      "city": "Monroe North",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-20",
+      "venue": "Awaken Church",
+      "city": "Wenatchee",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-22",
+      "venue": "Zootown Church",
+      "city": "Missoula",
+      "state": "MT",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-24",
+      "venue": "Thrive Church",
+      "city": "Lone Tree",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-28",
+      "venue": "Center Stage",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-08",
+      "venue": "Stephens Auditorium",
+      "city": "Ames",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-09",
+      "venue": "Bethel University",
+      "city": "Saint Paul",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-15",
+      "venue": "Campus Nights Tour",
+      "city": "Lexington",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-16",
+      "venue": "Reardon Auditorium - Anderson University",
+      "city": "Anderson",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-17",
+      "venue": "Mershon Auditorium",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-18",
+      "venue": "Campus Nights Tour",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-18",
+      "venue": "Hot Hearts 2025",
+      "city": "Beaumont",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-25",
+      "venue": "Rock The Universe 2025",
+      "city": "Orlando",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-21",
+      "venue": "Liberty University CFAW",
+      "city": "Lynchburg",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-22",
+      "venue": "Truett McConnell University Friends and Family Weekend",
+      "city": "Cleveland",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-26",
+      "venue": "Bogart's",
+      "city": "Cincinnati",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-27",
+      "venue": "Theatre of Living Arts",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-28",
+      "venue": "Gramercy Theatre",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-30",
+      "venue": "Royal Oak Music Theatre",
+      "city": "Royal Oak",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-31",
+      "venue": "House of Blues Cleveland",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-01",
+      "venue": "House of Blues Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-03",
+      "venue": "The Fillmore",
+      "city": "Silver Spring",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-04",
+      "venue": "The Fillmore Charlotte",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-05",
+      "venue": "The Signal",
+      "city": "Chattanooga",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-07",
+      "venue": "The Truman",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-08",
+      "venue": "The Hall",
+      "city": "Little Rock",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-09",
+      "venue": "House of Blues Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-11",
+      "venue": "The Factory In Deep Ellum",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-12",
+      "venue": "Emo's Austin",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-17",
+      "venue": "WJTL Fest 2025",
+      "city": "Ronks",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-06",
+      "venue": "NightVision 2025",
+      "city": "Grand Junction",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-12",
+      "venue": "Lifest 2025",
+      "city": "Oshkosh",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-17",
+      "venue": "Summer Worship Nights ",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-18",
+      "venue": "Summer Worship Nights ",
+      "city": "Hershey",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-19",
+      "venue": "Summer Worship Nights",
+      "city": "Cincinnati",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-20",
+      "venue": "Summer Worship Nights",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-24",
+      "venue": "Summer Worship Nights",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-25",
+      "venue": "Summer Worship Nights",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-26",
+      "venue": "Summer Worship Nights",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-27",
+      "venue": "American Airlines Center",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-28",
+      "venue": "Ohio State Fair 2025",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-31",
+      "venue": "Summer Worship Nights",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-01",
+      "venue": "Summer Worship Nights",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-02",
+      "venue": "Summer Worship Nights",
+      "city": "Fresno",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-03",
+      "venue": "Summer Worship Nights",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-04",
+      "venue": "Wisconsin State Fair 2025",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-16",
+      "venue": "Soulfest",
+      "city": "Greenfield",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-10",
+      "venue": "State Fairgrounds",
+      "city": "Hutchinson",
+      "state": "KS",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-12",
+      "venue": "FaithFest Wilkesboro 2025",
+      "city": "Wilkesboro",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-13",
+      "venue": "Light The Way Music Festival 2025",
+      "city": "Ridgedale",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-20",
+      "venue": "Shine FM Event",
+      "city": "Bourbonnais",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-21",
+      "venue": "Shine FM Event",
+      "city": "Bourbonnais",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-29",
+      "venue": "Tulsa State Fair 2025",
+      "city": "Tulsa",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-07",
+      "venue": "Bridgestone Arena",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-27",
+      "venue": "Josiah Queen Mt. Zion Album Release Show",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-01",
+      "venue": "Josiah Queen Mt. Zion Album Release Show",
+      "city": "Tampa",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-06",
+      "venue": "Campus Nights",
+      "city": "Arlington",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-07",
+      "venue": "Campus Nights ",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-09",
+      "venue": "Campus Nights Tour",
+      "city": "College Station",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-10",
+      "venue": "Campus Nights",
+      "city": "Lubbock",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-12",
+      "venue": "Campus Nights",
+      "city": "Birmingham",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-14",
+      "venue": "Campus Nights ",
+      "city": "Knoxville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-15",
+      "venue": "Campus Nights",
+      "city": "Auburn University",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-16",
+      "venue": "Campus Nights",
+      "city": "Athens",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-18",
+      "venue": "Campus Nights",
+      "city": "Greenville",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-19",
+      "venue": "Campus Nights",
+      "city": "Tallahassee",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-20",
+      "venue": "Campus Nights",
+      "city": "Columbia",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-22",
+      "venue": "Campus Nights",
+      "city": "Norfolk",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-07",
+      "venue": "The Mt. Zion Tour",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-08",
+      "venue": "The Mt. Zion Tour",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-09",
+      "venue": "The Mt. Zion Tour",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-11",
+      "venue": "The Mt. Zion Tour ",
+      "city": "Memphis",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-12",
+      "venue": "The Mt. Zion Tour",
+      "city": "St Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-14",
+      "venue": "The Mt. Zion Tour",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-15",
+      "venue": "The Mt. Zion Tour",
+      "city": "West Des Moines",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-16",
+      "venue": "The Mt. Zion Tour",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-17",
+      "venue": "The Mt. Zion Tour",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-19",
+      "venue": "The Mt. Zion Tour",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-20",
+      "venue": "The Mt. Zion Tour",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-21",
+      "venue": "The Mt. Zion Tour",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-22",
+      "venue": "Old National Centre",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "multiple shows per month",
+  "venueScaleProgression": "mixed venues"
+}

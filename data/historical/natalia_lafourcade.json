@@ -1,0 +1,919 @@
+{
+  "artist": "Natalia Lafourcade",
+  "totalUSShows": 130,
+  "dateRange": "2013-2025",
+  "tours": [
+    {
+      "date": "2013-06-07",
+      "venue": "The Neighborhood Theatre",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2013-07-11",
+      "venue": "Gramercy Theatre",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-23",
+      "venue": "House of Blues Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2013-11-21",
+      "venue": "14a. Entrega Anual del Latin GRAMMY",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2013-12-04",
+      "venue": "Bariloche",
+      "city": "Brownsville",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2013-12-05",
+      "venue": "Opera Teatro Bar",
+      "city": "Mcallen",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2013-12-06",
+      "venue": "Bar Río",
+      "city": "San Antonio",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2013-12-08",
+      "venue": "Joe's on Weed Street",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2013-12-11",
+      "venue": "Rock & Roll Hotel",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2013-12-12",
+      "venue": "S.O.B.'s",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2014-08-02",
+      "venue": "Yerbabuena Center for the arts.",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2014-11-01",
+      "venue": "The Long Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2015-06-29",
+      "venue": "The Regent Theater Downtown",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2015-07-21",
+      "venue": "The Regent Theater DTLA",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2015-07-23",
+      "venue": "SFJAZZ Center",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-25",
+      "venue": "Social Hall SF",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-26",
+      "venue": "The Observatory",
+      "city": "Santa Ana",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-20",
+      "venue": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-23",
+      "venue": "Gusman Concert Hall",
+      "city": "Coral Gables",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2015-11-18",
+      "venue": "Hard Rock Live Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2016-03-16",
+      "venue": "The Regency Ballroom",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-03-18",
+      "venue": "Fantasy Springs Resort & Casino",
+      "city": "Indio",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-03-19",
+      "venue": "The Observatory",
+      "city": "Santa Ana",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-03-20",
+      "venue": "The Observatory North Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-03-23",
+      "venue": "ACL Live at the Moody Theater",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-03-24",
+      "venue": "Trees",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-03-25",
+      "venue": "Scout Bar",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-03-26",
+      "venue": "The Portage Theater",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2016-04-28",
+      "venue": "Arizona Latino Arts and Cultural Center",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2016-04-29",
+      "venue": "Herberger Theater Center",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2016-04-30",
+      "venue": "Ogden Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-01",
+      "venue": "The Rialto Theatre",
+      "city": "Tucson",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2016-05-29",
+      "venue": "Cleveland Square Park",
+      "city": "El Paso",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-06",
+      "venue": "Longwood Gardens",
+      "city": "Kennett Square",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-07",
+      "venue": "Playstation Theater",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-08",
+      "venue": "Addams/Medill Park",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-09",
+      "venue": "Addams/Medill Park",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2016-08-02",
+      "venue": "House of Blues San Diego",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-08-03",
+      "venue": "The Observatory",
+      "city": "Santa Ana",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-08-04",
+      "venue": "Santa Monica Pier",
+      "city": "Santa Monica",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-08-05",
+      "venue": "Ventura Theater",
+      "city": "Ventura",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-08-06",
+      "venue": "Golden Gate Park",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-09-18",
+      "venue": "The Bomb Factory",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-09-20",
+      "venue": "ACL Live",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-09-21",
+      "venue": "White Oak's Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-09-22",
+      "venue": "The Bomb Factory",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2016-09-24",
+      "venue": "Galaxy Theatre",
+      "city": "Santa Ana",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-09-25",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-15",
+      "venue": "Cross Border Xpress",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-26",
+      "venue": "The Portage Theater",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2016-11-27",
+      "venue": "The Portage Theater",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2017-06-16",
+      "venue": "Olympia Theater",
+      "city": "Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-29",
+      "venue": "Annenberg Space for Photography",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-08-08",
+      "venue": "Copernicus Center",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2017-08-09",
+      "venue": "Sixth & I",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2017-08-11",
+      "venue": "Lincoln Center",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2017-09-23",
+      "venue": "Observatory North Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-09-24",
+      "venue": "Rialto Theatre-Tucson",
+      "city": "Tucson",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2017-09-27",
+      "venue": "Aztec Theatre",
+      "city": "San Antonio",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-09-28",
+      "venue": "House of Blues Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-10-01",
+      "venue": "House of Blues Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-10-03",
+      "venue": "Emo's Austin",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-10-05",
+      "venue": "The Plaza Theatre Performing Arts Center",
+      "city": "El Paso",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-10-07",
+      "venue": "ASU Gammage",
+      "city": "Tempe",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2017-10-12",
+      "venue": "Walt Disney Concert Hall",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-11-14",
+      "venue": "House of Blues Anaheim",
+      "city": "Anaheim",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-03-04",
+      "venue": "Ogden Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2018-04-19",
+      "venue": "Queen Elizabeth Theatre",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2018-05-26",
+      "venue": "BottleRock Music Festival",
+      "city": "Napa",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-05-27",
+      "venue": "Chapman University - Musco Center for the Arts",
+      "city": "Orange",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-06-01",
+      "venue": "Revolution Hall",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2018-06-02",
+      "venue": "Neptune Theatre",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2018-11-02",
+      "venue": "The Fox Theater Pomona",
+      "city": "Pomona",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-11-03",
+      "venue": "The Queen Mary",
+      "city": "Long Beach",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-11-04",
+      "venue": "The Masonic",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-04-12",
+      "venue": "La Flor de Calabaza",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-16",
+      "venue": "Uruapan Bar And Grill",
+      "city": "Baldwin Park",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-14",
+      "venue": "Mountain Winery",
+      "city": "Saratoga",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-18",
+      "venue": "California Center for the Arts",
+      "city": "Escondido",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-07-21",
+      "venue": "Hollywood Bowl",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-08-31",
+      "venue": "Woodside Festival Grounds",
+      "city": "Mauston",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-03",
+      "venue": "The Rooftop at Pier 17",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-05",
+      "venue": "Warner Theatre",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2019-09-08",
+      "venue": "The Mission Ballroom",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-03",
+      "venue": "The Plaza Theatre",
+      "city": "El Paso",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-05",
+      "venue": "Zilker Metropolitan Park",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-08",
+      "venue": "The Pavilion at Toyota Music Factory",
+      "city": "Irving",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-09",
+      "venue": "Revention Music Center",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-11",
+      "venue": "State Farm Arena",
+      "city": "Hidalgo",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-12",
+      "venue": "Zilker Metropolitan Park",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-10-13",
+      "venue": "Aztec Theatre",
+      "city": "San Antonio",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2019-11-09",
+      "venue": "Fairplex",
+      "city": "Pomona",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-11-10",
+      "venue": "Fairplex",
+      "city": "Pomona",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-11-11",
+      "venue": "The UC Theatre Taube Family Music Hall",
+      "city": "Berkeley",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-11-12",
+      "venue": "The UC Theatre Taube Family Music Hall",
+      "city": "Berkeley",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-27",
+      "venue": "Stern Auditorium / Perelman Stage at Carnegie Hall",
+      "city": "New York City",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-28",
+      "venue": "Place des Arts - Maison Symphonique",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-29",
+      "venue": "Place des Arts - Maison Symphonique",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-20",
+      "venue": "Filene Center at Wolf Trap",
+      "city": "Vienna",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-22",
+      "venue": "Ravinia",
+      "city": "Highland Park",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-26",
+      "venue": "Ellie Caulkins Opera House at Denver Performing Arts Complex",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-29",
+      "venue": "Majestic Theatre",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-03",
+      "venue": "The Greek Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-04",
+      "venue": "The Greek Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-26",
+      "venue": "Backstage at the Fillmore Miami Beach",
+      "city": "Miami Beach",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-30",
+      "venue": "Fantasy Springs Resort Casino",
+      "city": "Indio",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-02",
+      "venue": "Besame Mucho 2023",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-05",
+      "venue": "San Jose Civic",
+      "city": "San Jose",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-06",
+      "venue": "San Jose Civic",
+      "city": "San Jose",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-08",
+      "venue": "WAMU Theater",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-06",
+      "venue": "Hollywood Bowl",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-07",
+      "venue": "Hollywood Bowl",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-06",
+      "venue": "Una Tarde con Natalia Lafourcade ",
+      "city": "Princeton",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-10",
+      "venue": "Stern Auditorium / Perelman Stage at Carnegie Hall",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-29",
+      "venue": "Winspear Opera House",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-30",
+      "venue": "Winspear Opera House",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-03",
+      "venue": "McAllen Performing Arts Center",
+      "city": "McAllen",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-05",
+      "venue": "Austin City Limits Live at The Moody Theater",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-07",
+      "venue": "The Hobby Center for the Performing Arts",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-08",
+      "venue": "The Hobby Center for the Performing Arts",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-10",
+      "venue": "Paramount Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-12",
+      "venue": "Kauffman Center for the Performing Arts",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-14",
+      "venue": "The Chicago Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-15",
+      "venue": "The Chicago Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-19",
+      "venue": "NJPAC - North to Shore Festival",
+      "city": "Newark",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-21",
+      "venue": "Boch Center - Shubert Theatre",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-22",
+      "venue": "Boch Center - Shubert Theatre",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-24",
+      "venue": "The Met",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-26",
+      "venue": "Montreal International Jazz Festival",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-27",
+      "venue": "Festival International De Jazz, Montréal 2025",
+      "city": "Montréal",
+      "state": "QC",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

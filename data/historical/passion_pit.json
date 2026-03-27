@@ -1,0 +1,1661 @@
+{
+  "artist": "Passion Pit",
+  "totalUSShows": 236,
+  "dateRange": "2013-2026",
+  "tours": [
+    {
+      "date": "2013-04-11",
+      "venue": "Club Nokia",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2013-04-12",
+      "venue": "Coachella",
+      "city": "Indio",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2013-04-14",
+      "venue": "Pozo Saloon",
+      "city": "Pozo",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2013-04-19",
+      "venue": "Coachella",
+      "city": "Indio",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2013-05-11",
+      "venue": "Merriweather Post Pavilion (Sweetlife Festival)",
+      "city": "Columbia",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2013-05-12",
+      "venue": "Susquehanna Bank Center",
+      "city": "Pennsauken Township",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2013-05-13",
+      "venue": "Masonic Auditorium",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2013-05-17",
+      "venue": "Hangout Music Fest",
+      "city": "Gulf Shores",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2013-05-18",
+      "venue": "Party In The Park Atlanta",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2013-05-19",
+      "venue": "Shoreline Amphitheatre (Live 105's BFD 2013)",
+      "city": "Mountain View",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-01",
+      "venue": "Free Press Summer Festival",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-03",
+      "venue": "Cain's Ballroom",
+      "city": "Tulsa",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-05",
+      "venue": "Madison Theater",
+      "city": "Covington",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-06",
+      "venue": "Stage AE",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-07",
+      "venue": "Express Live!",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-09",
+      "venue": "The National",
+      "city": "Richmond",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-10",
+      "venue": "The National",
+      "city": "Richmond",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-11",
+      "venue": "Koka Booth Amphitheatre",
+      "city": "Cary",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-13",
+      "venue": "The Fillmore",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-15",
+      "venue": "Bonnaroo",
+      "city": "Manchester",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-21",
+      "venue": "FIREFLY ",
+      "city": "Dover",
+      "state": "DE",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-28",
+      "venue": "Electric Forest Festival",
+      "city": "Rothbury",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2013-06-29",
+      "venue": "Kanrocksas (CANCELLED)",
+      "city": "Kansas City",
+      "state": "KS",
+      "capacity": null
+    },
+    {
+      "date": "2013-07-09",
+      "venue": "Festival d'été de Québec: Plains of Abraham ",
+      "city": "Quebec",
+      "state": "Unknown",
+      "capacity": null
+    },
+    {
+      "date": "2013-07-10",
+      "venue": "Bluesfest",
+      "city": "Ottawa",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2013-07-12",
+      "venue": "Downsview Park",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2013-07-13",
+      "venue": "Camp Bisco",
+      "city": "Albany",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2013-08-10",
+      "venue": "Summer Set Festival",
+      "city": "Somerset",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2013-08-24",
+      "venue": "First City Festival (Monterey County Fair and Event Center) ",
+      "city": "Monterey",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2013-08-30",
+      "venue": "North Coast Music Festival",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2013-08-31",
+      "venue": "X-Fest",
+      "city": "Calgary",
+      "state": "AB",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-01",
+      "venue": "Sonic Boom Festival",
+      "city": "Edmonton",
+      "state": "AB",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-06",
+      "venue": "Pier 6",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-07",
+      "venue": "Pier 6",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-08",
+      "venue": "Boston Calling",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-11",
+      "venue": "Wilfrid Laurier University",
+      "city": "Waterloo",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-12",
+      "venue": "Student Commons Lawn (Algonquin College)",
+      "city": "Ottawa",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-14",
+      "venue": "Supercrawl",
+      "city": "Hamilton",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-27",
+      "venue": "TCF Bank Stadium",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2013-09-29",
+      "venue": "nTelos Wireless Pavilion",
+      "city": "Charlottesville",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-01",
+      "venue": "Orange Peel",
+      "city": "Asheville",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-02",
+      "venue": "Ziggys",
+      "city": "Winston Salem",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-03",
+      "venue": "Iron City",
+      "city": "Birmingham",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-05",
+      "venue": "Austin City Limits Festival",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-08",
+      "venue": "Greenfield Lake Amphitheater (Cancelled due to weather)",
+      "city": "Wilmington",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-10",
+      "venue": "Masquerade Music Park",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-11",
+      "venue": "The Civic Theatre",
+      "city": "New Orleans",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-12",
+      "venue": "Austin City Limits",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-15",
+      "venue": "Boulder Theater",
+      "city": "Boulder",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-16",
+      "venue": "The Complex",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-18",
+      "venue": "Knitting Factor",
+      "city": "Spokane",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-19",
+      "venue": "Theater of the Clouds (cancelled)",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-21",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-22",
+      "venue": "Open Air Theatre",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-25",
+      "venue": "The Greek Theatre",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-26",
+      "venue": "Santa Barbara Bowl",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-27",
+      "venue": "Life Is Beautiful",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-29",
+      "venue": "Midland Theater By AMC",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2013-10-31",
+      "venue": "Echostage",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2013-11-01",
+      "venue": "House of Blues @ Showboat",
+      "city": "Atlantic City",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2013-11-03",
+      "venue": "NorVa",
+      "city": "Norfolk",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2013-11-04",
+      "venue": "Virginia Tech - Burruss Auditorium",
+      "city": "Blacksburg",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2013-11-08",
+      "venue": "St. Augustin Amphitheatre",
+      "city": "St Augustine",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2013-11-09",
+      "venue": "Coastlines Festival (Live Nation Amphitheater)",
+      "city": "Tampa",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2013-11-10",
+      "venue": "Coastline Festival (Cruzan Amphitheater)",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2015-03-14",
+      "venue": "BUKU Music+Art Project",
+      "city": "New Orleans",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2015-03-27",
+      "venue": "McDowell Mountain Music Festival",
+      "city": "Phoenix",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2015-04-04",
+      "venue": "March Madness Music Festival",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2015-04-26",
+      "venue": "The NorVa",
+      "city": "Norfolk",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2015-04-28",
+      "venue": "Converse Rubber Tracks Live",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2015-04-29",
+      "venue": "Danforth Music Hall",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-01",
+      "venue": "Movin' On",
+      "city": "State College",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-02",
+      "venue": "XL 102 Big Field Day",
+      "city": "Richmond",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-05",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-06",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-08",
+      "venue": "Big Guava Festival",
+      "city": "Tampa",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-10",
+      "venue": "Radio 104.5 Birthday Show",
+      "city": "Camden",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-11",
+      "venue": "Kings Theatre",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-13",
+      "venue": "Thaila Hall",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-14",
+      "venue": "DJ set at The MID",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-17",
+      "venue": "North Park Theatre",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-19",
+      "venue": "Showbox at the Market",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-20",
+      "venue": "Showbox at the Market",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-22",
+      "venue": "Red Butte Garden Amphitheatre",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-24",
+      "venue": "Neon Desert Music Festival",
+      "city": "El Paso",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-26",
+      "venue": "Ogden Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-27",
+      "venue": "Boulder Theater",
+      "city": "Boulder",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-29",
+      "venue": "Grand Sierra Resort & Casino - Silver State",
+      "city": "Reno",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2015-05-30",
+      "venue": "BottleRock Festival",
+      "city": "Napa",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2015-07-11",
+      "venue": "Oakwood Beach",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2015-07-12",
+      "venue": "Mamby On The Beach Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2015-07-17",
+      "venue": "Pemberton Music Festival",
+      "city": "Pemberton",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2015-07-19",
+      "venue": "Project Pabst",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2015-07-23",
+      "venue": "Bijou (DJ Set)",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2015-07-25",
+      "venue": "WayHome Music & Arts Festival",
+      "city": "Oro-Medonte",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2015-07-26",
+      "venue": "Mo Pop Festival",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-03",
+      "venue": "Mercedes-Benz Evolution Tour",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-06",
+      "venue": "House of Blues Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-08",
+      "venue": "House of Blues Houston",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-09",
+      "venue": "The Joy Theater",
+      "city": "New Orleans",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-11",
+      "venue": "Live On The Green",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-12",
+      "venue": "1065 The End Weenie Roast @ PNC Music Pavilion",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-13",
+      "venue": "Walnut Creek Amphitheatre",
+      "city": "Raleigh",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-15",
+      "venue": "State Theatre",
+      "city": "Portland",
+      "state": "ME",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-16",
+      "venue": "The Lawn on D",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2015-09-16",
+      "venue": "ICON - DJ Set",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-09",
+      "venue": "Wine Amplified Festival",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-14",
+      "venue": "University of Rhode Island",
+      "city": "South Kingstown",
+      "state": "RI",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-16",
+      "venue": "Newport Music Hall",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-17",
+      "venue": "The Rave / Eagles Club",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-19",
+      "venue": "The Pageant",
+      "city": "St Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-20",
+      "venue": "Arvest Bank Theatre at The Midland",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-24",
+      "venue": "Be More Tea Festival",
+      "city": "North Charleston",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-28",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-29",
+      "venue": "The Observatory",
+      "city": "Santa Ana",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2015-10-30",
+      "venue": "Live 105 - Scream Scene 2015",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-24",
+      "venue": "Bogart's",
+      "city": "Cincinnati",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-25",
+      "venue": "World's Largest Block Party",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-26",
+      "venue": "House of Blues",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-28",
+      "venue": "The Mill & Mine",
+      "city": "Knoxville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-29",
+      "venue": "mercury ballroom",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2016-06-30",
+      "venue": "Summerfest",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2016-07-23",
+      "venue": "Divide Music Festival",
+      "city": "Winter Park",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2016-08-20",
+      "venue": "Maha Music Festival",
+      "city": "Omaha",
+      "state": "NE",
+      "capacity": null
+    },
+    {
+      "date": "2016-09-03",
+      "venue": "Fashion Meets Music Festival",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2016-09-04",
+      "venue": "Fashion Meets Music Festival",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-08",
+      "venue": "All Things Go Fall Classic",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2016-10-14",
+      "venue": "Gator Growl UF Pep Rally",
+      "city": "Gainesville",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2017-06-23",
+      "venue": "NXNE @ Port Lands Toronto",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-01",
+      "venue": "Sharon Meadow - Golden Gate Park",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-08",
+      "venue": "Taste Of Chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-22",
+      "venue": "Float Fest",
+      "city": "Martindale",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2017-07-23",
+      "venue": "Float Fest",
+      "city": "Martindale",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-09",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-09",
+      "venue": "9:30 Club - VIP",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-10",
+      "venue": "9:30 Club",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-10",
+      "venue": "9:30 Club - VIP",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-12",
+      "venue": "House of Blues",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-12",
+      "venue": "House of Blues - VIP",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-13",
+      "venue": "Terminal 5",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-13",
+      "venue": "Terminal 5 - VIP",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-14",
+      "venue": "The Fillmore",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-14",
+      "venue": "The Fillmore - VIP",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-16",
+      "venue": "Royal Oak Music Theatre",
+      "city": "Royal Oak",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-16",
+      "venue": "Royal Oak Music Theatre - VIP",
+      "city": "Royal Oak",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-17",
+      "venue": "Riviera Theater",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-17",
+      "venue": "Riviera Theater - VIP",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-18",
+      "venue": "First Avenue",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-18",
+      "venue": "First Avenue - VIP",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-20",
+      "venue": "Belly Up Aspen",
+      "city": "Aspen",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-20",
+      "venue": "Belly Up Aspen - VIP",
+      "city": "Aspen",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-22",
+      "venue": "Ogden Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-22",
+      "venue": "Ogden Theatre - VIP",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-23",
+      "venue": "The Depot",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-23",
+      "venue": "The Depot - VIP",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-25",
+      "venue": "Roseland Theater",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-25",
+      "venue": "Roseland Theater - VIP",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-26",
+      "venue": "Commodore Ballroom",
+      "city": "North Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-26",
+      "venue": "Commodore Ballroom - VIP",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-27",
+      "venue": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-27",
+      "venue": "Showbox SoDo - VIP",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-29",
+      "venue": "Fox Theater",
+      "city": "Oakland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-29",
+      "venue": "Fox Theater - VIP",
+      "city": "Oakland",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-30",
+      "venue": "The Observatory",
+      "city": "Santa Ana",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-01-30",
+      "venue": "The Observatory - VIP",
+      "city": "Santa Ana",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-01",
+      "venue": "The Observatory North Park",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-01",
+      "venue": "The Observatory North Park - VIP",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-02",
+      "venue": "Marquee Theater",
+      "city": "Tempe",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-02",
+      "venue": "Marquee Theater - VIP",
+      "city": "Tempe",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-03",
+      "venue": "Belasco Theater",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2018-02-03",
+      "venue": "Belasco Theater - VIP",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-04-30",
+      "venue": "Marquee Theater",
+      "city": "Tempe",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-01",
+      "venue": "Observatory NP",
+      "city": "San Diego",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-03",
+      "venue": "Just Like Heaven Festival",
+      "city": "Long Beach",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-04",
+      "venue": "Just Like Heaven Festival",
+      "city": "Long Beach",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-05",
+      "venue": "The Masonic",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-07",
+      "venue": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-08",
+      "venue": "The Commodore Ballroom",
+      "city": "Vancouver",
+      "state": "BC",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-09",
+      "venue": "Roseland Theater",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-11",
+      "venue": "The Complex",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-12",
+      "venue": "Ogden Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-14",
+      "venue": "Palace Theatre",
+      "city": "St Paul",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-15",
+      "venue": "The Riviera Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-16",
+      "venue": "Royal Oak Music Theatre",
+      "city": "Royal Oak",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-17",
+      "venue": "Danforth Music Hall",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-19",
+      "venue": "Pier 17",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-20",
+      "venue": "The Rapids Theatre",
+      "city": "Niagara Falls",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-21",
+      "venue": "Pier 17",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-23",
+      "venue": "House Of Blues",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-24",
+      "venue": "The Fillmore",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2019-05-25",
+      "venue": "The Anthem",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2019-06-22",
+      "venue": "Firefly Music Festival",
+      "city": "Dover",
+      "state": "DE",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-04",
+      "venue": "OUTLOUD at WeHo Pride 2023",
+      "city": "West Hollywood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-18",
+      "venue": "Just Like Heaven 2024",
+      "city": "Pasadena",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-20",
+      "venue": "August Hall",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-21",
+      "venue": "August Hall",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-24",
+      "venue": "The Vic Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-25",
+      "venue": "The Vic Theatre",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-28",
+      "venue": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-29",
+      "venue": "Irving Plaza",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-31",
+      "venue": "Warsaw",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-01",
+      "venue": "Warsaw",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-07",
+      "venue": "Passion Pit Immersive Live Experience",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-29",
+      "venue": "Michael Angelakos is Passion Pit // Deluxx Fluxx Residency ",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-30",
+      "venue": "Michael Angelakos is Passion Pit // Deluxx Fluxx Residency ",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-06",
+      "venue": "Michael Angelakos is Passion Pit // Deluxx Fluxx Residency ",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-07",
+      "venue": "Michael Angelakos is Passion Pit // Deluxx Fluxx Residency ",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-13",
+      "venue": "Michael Angelakos is Passion Pit // Deluxx Fluxx Residency",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-14",
+      "venue": "Michael Angelakos is Passion Pit // Deluxx Fluxx Residency",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-20",
+      "venue": "Michael Angelakos is Passion Pit // Deluxx Fluxx Residency",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-21",
+      "venue": "Michael Angelakos is Passion Pit // Deluxx Fluxx Residency",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-04",
+      "venue": "Michael Angelakos is Passion Pit // Deluxx Fluxx Residency",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-05",
+      "venue": "Michael Angelakos is Passion Pit // Deluxx Fluxx Residency",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-17",
+      "venue": "Michael Angelakos is Passion Pit // Brighton Music Hall",
+      "city": "Allston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-18",
+      "venue": "Michael Angelakos is Passion Pit // Brighton Music Hall",
+      "city": "Allston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-24",
+      "venue": "Michael Angelakos is Passion Pit // Brighton Music Hall",
+      "city": "Allston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-25",
+      "venue": "Michael Angelakos is Passion Pit // Brighton Music Hall",
+      "city": "Allston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-27",
+      "venue": "Passion Pit // All Your Friends: The Indie Party Launch Event",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-12",
+      "venue": "Michael Angelakos is Passion Pit // Illinois State Fair",
+      "city": "Springfield",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-19",
+      "venue": "Michael Angelakos is Passion Pit // Moroccan Lounge",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-20",
+      "venue": "Michael Angelakos is Passion Pit // Moroccan Lounge",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-26",
+      "venue": "Michael Angelakos is Passion Pit // Moroccan Lounge",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-27",
+      "venue": "Michael Angelakos is Passion Pit // Moroccan Lounge",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-12",
+      "venue": "Moroccan Lounge",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-19",
+      "venue": "Cascade Equinox Festival 2025",
+      "city": "Redmond",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-27",
+      "venue": "Michael Angelakos is Passion Pit // Farm-to-Fork Festival",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-29",
+      "venue": "The Complex",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-30",
+      "venue": "Ogden Theatre",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-02",
+      "venue": "Tower Theatre",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-03",
+      "venue": "White Oak Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-05",
+      "venue": "Austin City Limits Music Festival 2025",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-06",
+      "venue": "Emo's Austin",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-08",
+      "venue": "Party for the Parks",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-09",
+      "venue": "House of Blues Dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-12",
+      "venue": "Austin City Limits Music Festival 2025",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-21",
+      "venue": "Wild Honey Pie",
+      "city": "West Los Angeles",
+      "state": "CA",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "every 1-2 months",
+  "venueScaleProgression": "mixed venues"
+}

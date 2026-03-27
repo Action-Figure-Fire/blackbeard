@@ -1,0 +1,2060 @@
+{
+  "artist": "Stephen Wilson Jr",
+  "totalUSShows": 293,
+  "dateRange": "2021-2026",
+  "tours": [
+    {
+      "date": "2021-05-20",
+      "venue": "Clay Walker & Tracy Lawrence",
+      "city": "Dubuque",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2021-05-21",
+      "venue": "Clay Walker & Tracy Lawrence",
+      "city": "Ralston",
+      "state": "NE",
+      "capacity": null
+    },
+    {
+      "date": "2021-05-22",
+      "venue": "Clay Walker & Tracy Lawrence",
+      "city": "Jefferson City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2021-05-23",
+      "venue": "Clay Walker & Tracy Lawrence",
+      "city": "Shawnee",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2021-06-04",
+      "venue": "Bre Kennedy w/ Special Guest Stephen Wilson Jr",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2021-08-28",
+      "venue": "B100 Songwriters in the Round",
+      "city": "South Bend",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2021-09-15",
+      "venue": "The End",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2021-10-26",
+      "venue": "Lighting 100 Presents Stephen Wilson Jr",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2021-12-06",
+      "venue": "The End",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2022-02-08",
+      "venue": "Rachel Loy's Sh*tlist Show",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2022-02-19",
+      "venue": "In The House Welcomes Stephen Wilson Jr",
+      "city": "Crossville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2022-03-11",
+      "venue": "Stephen Wilson Jr.",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-01",
+      "venue": "Jukebox Luke",
+      "city": "Bloomington",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-21",
+      "venue": "Wooly's",
+      "city": "Des Moines",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-22",
+      "venue": "Midnight Rodeo",
+      "city": "Springfield",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2022-04-23",
+      "venue": "The Cadillac Three",
+      "city": "Columbia",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2022-05-20",
+      "venue": "9th Stree Summerfest",
+      "city": "Columbia",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2022-06-03",
+      "venue": "USO Experience Weekend  2022",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2022-06-05",
+      "venue": "Let's Go Music Festival  2022",
+      "city": "Crownsville",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2022-06-11",
+      "venue": "CMA Fest 2022",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2022-06-24",
+      "venue": "Ozarks Amphitheater",
+      "city": "Camdenton",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2022-06-26",
+      "venue": "Lightning 100 Nashville Sunday Night",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-14",
+      "venue": "The Last Resort Tour",
+      "city": "Idaho Falls",
+      "state": "ID",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-15",
+      "venue": "The Last Resort Tour",
+      "city": "Billings",
+      "state": "MT",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-16",
+      "venue": "The Last Resort Tour",
+      "city": "Emigrant",
+      "state": "MT",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-17",
+      "venue": "Under the Big Sky Festival 2022",
+      "city": "Whitefish",
+      "state": "MT",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-19",
+      "venue": "The Olympic Venue",
+      "city": "Boise",
+      "state": "ID",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-21",
+      "venue": "THE SHOW ROOM",
+      "city": "Missoula",
+      "state": "MT",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-22",
+      "venue": "Live at The Colonel",
+      "city": "Cody",
+      "state": "WY",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-23",
+      "venue": "Oyster Ridge Music Festival 2022",
+      "city": "Kemmerer",
+      "state": "WY",
+      "capacity": null
+    },
+    {
+      "date": "2022-07-27",
+      "venue": "Brothers Osborne We're Not For Everyone Tour",
+      "city": "Interlochen",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2022-09-16",
+      "venue": "Deadwood Jam",
+      "city": "Deadwood",
+      "state": "SD",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-21",
+      "venue": "Marshall Tucker Band",
+      "city": "Brown County",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2022-10-22",
+      "venue": "Marshall Tucker Band",
+      "city": "Munhall",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-01",
+      "venue": "The Bluebird Cafe",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2022-11-25",
+      "venue": "Boy Named Banjo w/ Special Guest Stephen Wilson Jr.",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2022-12-14",
+      "venue": "The Bluebird Cafe",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-01-15",
+      "venue": "Read Southall Band Out N' About Tour",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2023-01-17",
+      "venue": "Read Southall Band Out N' About Tour",
+      "city": "Cincinnati",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2023-01-19",
+      "venue": "Read Southall Band Out N' About Tour",
+      "city": "Warrendale",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-01-20",
+      "venue": "Read Southall Band Out N' About Tour",
+      "city": "Winchester",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-23",
+      "venue": "Hailey Whitters Raised Tour",
+      "city": "Bloomington",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2023-02-24",
+      "venue": "Hailey Whitters Raised Tour",
+      "city": "Lexington",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-03",
+      "venue": "Hailey Whitters Raised Tour",
+      "city": "Lincoln",
+      "state": "NE",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-04",
+      "venue": "Hailey Whitters Raised Tour",
+      "city": "Lawrence",
+      "state": "KS",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-05",
+      "venue": "Hailey Whitters Raised Tour",
+      "city": "Columbia",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-07",
+      "venue": "The End",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-30",
+      "venue": "Hailey Whitters Raised Tour",
+      "city": "Iowa City",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2023-03-31",
+      "venue": "Hailey Whitters Raised Tour",
+      "city": "Peoria",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-01",
+      "venue": "Hailey Whitters Raised Tour",
+      "city": "Des Moines",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-05",
+      "venue": "Grand Ole Opry",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-12",
+      "venue": "The Riviera Theater",
+      "city": "Charleston",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-13",
+      "venue": "Haw River Ballroom",
+      "city": "Saxapahaw",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-14",
+      "venue": "The Spinning Jenny",
+      "city": "Greer",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-15",
+      "venue": "Ponte Vedra Concert Hall",
+      "city": "Ponte Vedra",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-04-16",
+      "venue": "Bilheimer Capitol Theatre",
+      "city": "Clearwater",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-04",
+      "venue": "Grinder House Coffee Shop, LLC",
+      "city": "Crossville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-10",
+      "venue": "Higher Ground Ballroom",
+      "city": "South Burlington",
+      "state": "VT",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-12",
+      "venue": "Tarrytown Music Hall",
+      "city": "Tarrytown",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-13",
+      "venue": "Jane Pickens Theater & Event Center",
+      "city": "Newport",
+      "state": "RI",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-14",
+      "venue": "Capitol Center for the Arts",
+      "city": "Concord",
+      "state": "NH",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-16",
+      "venue": "Levon Helm Studios",
+      "city": "Woodstock",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-05-17",
+      "venue": "Infinity Hall Hartford",
+      "city": "Hartford",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-02",
+      "venue": "Riverbend Festival 2023",
+      "city": "Chattanooga",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-06",
+      "venue": "Kendall Marvel's Honky Tonk Experience",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-09",
+      "venue": "CMA Music Festival 2023",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-06-11",
+      "venue": "Marcus King",
+      "city": "Fargo",
+      "state": "ND",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-01",
+      "venue": "The Clyde theater",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-04",
+      "venue": "The Danforth Music Hall",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-05",
+      "venue": "The Danforth Music Hall",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-18",
+      "venue": "Outriders present 49 Winchester with Stephen Wilson Jr at The Rialto",
+      "city": "Bozeman",
+      "state": "MT",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-21",
+      "venue": "Oyster Ridge Music Festival 2023",
+      "city": "Kemmerer",
+      "state": "WY",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-22",
+      "venue": "FairWell Festival 2023",
+      "city": "Redmond",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-24",
+      "venue": "Washington County Fair",
+      "city": "Hillsboro",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-27",
+      "venue": "Larry Fleet Live",
+      "city": "Tulsa",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2023-07-29",
+      "venue": "Larry Fleet Live",
+      "city": "Lincoln",
+      "state": "NE",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-19",
+      "venue": "Joss Stone 20 Years of Soul Tour",
+      "city": "Des Plaines",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-20",
+      "venue": "Joss Stone 20 Years of Soul Tour",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-22",
+      "venue": "Cain Park Evans Amphitheater",
+      "city": "Cleveland Heights",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-23",
+      "venue": "The Palace Theatre",
+      "city": "Greensburg",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-25",
+      "venue": "Warner Theatre",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-26",
+      "venue": "OLG Stage at Fallsview Casino",
+      "city": "Niagara Falls",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-28",
+      "venue": "The Ridgefield Playhouse",
+      "city": "Ridgefield",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-29",
+      "venue": "House Of Blues Boston",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2023-08-31",
+      "venue": "Hampton Beach Casino Ballroom",
+      "city": "Hampton Beach",
+      "state": "NH",
+      "capacity": null
+    },
+    {
+      "date": "2023-09-01",
+      "venue": "Wind Creek Event Center",
+      "city": "Bethlehem",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-09-03",
+      "venue": "Georgia Country Music Fest",
+      "city": "Marietta",
+      "state": "Georgia",
+      "capacity": null
+    },
+    {
+      "date": "2023-09-14",
+      "venue": "Bourbon & Beyond 2023",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-13",
+      "venue": "Sandy Amphitheater",
+      "city": "Sandy",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-14",
+      "venue": "Red Rocks Amphitheatre",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2023-10-31",
+      "venue": "Grand Ole Opry House",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-03",
+      "venue": "Dreamy Draw 2023",
+      "city": "Scottsdale Trailer Corral",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-26",
+      "venue": "The Lone Bellow - 10th Anniversary Tour",
+      "city": "Vienna",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-29",
+      "venue": "The Lone Bellow - 10th Anniversary Tour",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-11-30",
+      "venue": "The Lone Bellow - 10th Anniversary Tour",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-01",
+      "venue": "The Lone Bellow - 10th Anniversary Tour",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-02",
+      "venue": "The Lone Bellow - 10th Anniversary Tour",
+      "city": "Cambridge",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-05",
+      "venue": "The Lone Bellow - 10th Anniversary Tour",
+      "city": "Rochester",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-06",
+      "venue": "The Lone Bellow - 10th Anniversary Tour",
+      "city": "Fairfield",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-08",
+      "venue": "The Lone Bellow - 10th Anniversary Tour",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-09",
+      "venue": "The Lone Bellow - 10th Anniversary Tour",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2023-12-10",
+      "venue": "The Lone Bellow - 10th Anniversary Tour",
+      "city": "Richmond",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2024-01-19",
+      "venue": "Stephen Wilson Jr. - Live in Nashville",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-01-23",
+      "venue": "Mile 0 Fest 2024",
+      "city": "Key West",
+      "state": "Florida",
+      "capacity": null
+    },
+    {
+      "date": "2024-02-22",
+      "venue": "Highlander Mountain House Salon Series ",
+      "city": "Highlands",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-14",
+      "venue": "Schubas",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-15",
+      "venue": "Icehouse",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-22",
+      "venue": "Alliant Energy PowerHouse",
+      "city": "Cedar Rapids",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-23",
+      "venue": "Zanzabar",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-28",
+      "venue": "Brothers Osborne - Might As Well Be Us Tour 2024",
+      "city": "Milwaukee",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-29",
+      "venue": "Brothers Osborne - Might As Well Be Us Tour 2024",
+      "city": "Omaha",
+      "state": "NE",
+      "capacity": null
+    },
+    {
+      "date": "2024-03-30",
+      "venue": "Brothers Osborne - Might As Well Be Us Tour 2024",
+      "city": "Waukee",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-01",
+      "venue": "Midland: The Last Resort Cruise",
+      "city": "Downtown Miami",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-07",
+      "venue": "Tortuga Music Festival 2024",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-11",
+      "venue": "Country Thunder Arizona 2024",
+      "city": "Florence Gardens Mobile Home Park",
+      "state": "AZ",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-17",
+      "venue": "Open Chord Music",
+      "city": "Knoxville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-18",
+      "venue": "Eddie's Attic",
+      "city": "Decatur",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-19",
+      "venue": "The Nick",
+      "city": "Birmingham",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-20",
+      "venue": "Mississippi Coast Coliseum",
+      "city": "Biloxi",
+      "state": "MS",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-24",
+      "venue": "Belly Up",
+      "city": "Solana Beach",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-04-26",
+      "venue": "Stagecoach 2024",
+      "city": "Indio",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-21",
+      "venue": "High Dive",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-22",
+      "venue": "McMenamins Mission Theater",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-24",
+      "venue": "Los Angeles County Fair",
+      "city": "Pomona",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-30",
+      "venue": "Hardy - Quit!! tour",
+      "city": "Rogers",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2024-05-31",
+      "venue": "Hardy - Quit!! tour",
+      "city": "Maryland Heights,",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-01",
+      "venue": "Hardy - Quit!! tour",
+      "city": "Noblesville",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-02",
+      "venue": "Railbird Music Festival 2024",
+      "city": "Lexington",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-06",
+      "venue": "Hardy - Quit!! tour",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-07",
+      "venue": "Hardy - Quit!! tour",
+      "city": "Saratoga Springs",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-08",
+      "venue": "Hard Quit!! tour",
+      "city": "Darien Center",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-11",
+      "venue": "Mercury Lounge",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-13",
+      "venue": "Brothers Osborne - Might As Well Be Us Tour 2024",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-14",
+      "venue": "Brothers Osborne - Might As Well Be Us Tour 2024",
+      "city": "Buffalo",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-15",
+      "venue": "Brothers Osborne - Might As Well Be Us Tour 2024",
+      "city": "Sterling Heights",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-20",
+      "venue": "Country Jam 2024",
+      "city": "Mack",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-21",
+      "venue": "Live from Black Sheep",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-22",
+      "venue": "Live from Aggie Theater",
+      "city": "Fort Collins",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-27",
+      "venue": "Brothers Osborne - Might As Well Be Us Tour 2024",
+      "city": "LaFayette",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-28",
+      "venue": "Brothers Osborne - Might As Well Be Us Tour 2024",
+      "city": "Newark",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2024-06-29",
+      "venue": "Brothers Osborne - Might As Well Be Us Tour 2024",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-06",
+      "venue": "Roostertail Music Festival  2024",
+      "city": "Madison",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-18",
+      "venue": "Country Thunder Wisconsin 2024",
+      "city": "Twin Lakes",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-20",
+      "venue": "Stephen Wilson Jr. Live in Grand Rapids",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-21",
+      "venue": "Faster Horses Festival 2024",
+      "city": "Brooklyn",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-26",
+      "venue": "Headwaters Country Jam 2024",
+      "city": "Three Forks",
+      "state": "MT",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-27",
+      "venue": "Country Fan Fest 2024",
+      "city": "Tooele",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2024-07-31",
+      "venue": "Grand Ole Opry House",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-02",
+      "venue": "WE Fest 2024",
+      "city": "Detroit Lakes",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-11",
+      "venue": "Voices of America Country Music Fest  2024",
+      "city": "West Chester",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-08-15",
+      "venue": "The Run For A Million",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-01",
+      "venue": "Caveman Music Festival 2024",
+      "city": "Weston",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-05",
+      "venue": "SØN OF DAD TOUR USA 2024",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-06",
+      "venue": "SØN OF DAD TOUR 2024 USA",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-14",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-15",
+      "venue": "Born & Raised 2024",
+      "city": "Pryor",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-28",
+      "venue": "Supporting Miranda Lambert ",
+      "city": "Memphis",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-09-29",
+      "venue": "Pilgrimage Music & Cultural Festival 2024",
+      "city": "Franklin",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-03",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Denver",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-04",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Grand Junction",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-05",
+      "venue": "Red West Music Festival 2024",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-10",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "St. Louis",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-11",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Columbia",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-12",
+      "venue": "Peacemaker Festival 2024",
+      "city": "Fort Smith",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-17",
+      "venue": "SØN OF DAD TOUR 2024 USA",
+      "city": "Madison",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-18",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Des Moines",
+      "state": "IA",
+      "capacity": null
+    },
+    {
+      "date": "2024-10-19",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Minneapolis",
+      "state": "MN",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-21",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Birmingham",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-22",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-23",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Charlotte",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2024-11-30",
+      "venue": "SØN OF DAD TOUR US 2024",
+      "city": "Indianapolis",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-04",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-05",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Lexington",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-06",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-08",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Allston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-10",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-12",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Charlottesville",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-13",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-14",
+      "venue": "SØN OF DAD TOUR 2024 US",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-27",
+      "venue": "Supporting Koe Wetzel",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2024-12-28",
+      "venue": "Supporting Koe Wetzel",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-21",
+      "venue": "Mile 0 Fest 2025",
+      "city": "Key West",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-01-26",
+      "venue": "Culture Center Theater",
+      "city": "Charleston",
+      "state": "WV",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-20",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Glasgow",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-21",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Huntington",
+      "state": "WV",
+      "capacity": null
+    },
+    {
+      "date": "2025-02-22",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-06",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Cincinnati",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-07",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-08",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Lansing",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-13",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-14",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-15",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Buffalo",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-27",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Wichita",
+      "state": "KS",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-28",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Fayetteville",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-29",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-03-30",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-04",
+      "venue": "Hogs for the Cause 2025",
+      "city": "New Orleans",
+      "state": "LA",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-05",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-06",
+      "venue": "Two Step Inn 2025",
+      "city": "Georgetown",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-10",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Carrboro",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-11",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Greensboro",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-12",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "Knoxville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-25",
+      "venue": "MerleFest 2025",
+      "city": "Wilkesboro",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-26",
+      "venue": "SØN OF DAD TOUR 2025",
+      "city": "North Myrtle Beach",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2025-04-29",
+      "venue": "Grand Ole Opry House",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-03",
+      "venue": "Riverbeat Festival 2025",
+      "city": "Memphis",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-22",
+      "venue": "JIM BOB TOUR",
+      "city": "Chula Vista",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-23",
+      "venue": "JIM BOB TOUR",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-24",
+      "venue": "JIM BOB TOUR",
+      "city": "San Bernardino",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-29",
+      "venue": "JIM BOB TOUR",
+      "city": "West Valley City",
+      "state": "UT",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-30",
+      "venue": "JIM BOB TOUR",
+      "city": "Nampa",
+      "state": "ID",
+      "capacity": null
+    },
+    {
+      "date": "2025-05-31",
+      "venue": "JIM BOB TOUR",
+      "city": "Ridgefield",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-01",
+      "venue": "Søn of Dad Tour 2025",
+      "city": "Medford",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-03",
+      "venue": "Søn of Dad Tour 2025",
+      "city": "Redding",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-05",
+      "venue": "JIM BOB TOUR",
+      "city": "Fresno",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-06",
+      "venue": "JIM BOB TOUR",
+      "city": "Inglewood",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-06-07",
+      "venue": "JIM BOB TOUR",
+      "city": "Mountain View",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-11",
+      "venue": "Cavendish Beach Music Festival",
+      "city": "Green Gables",
+      "state": "PE",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-14",
+      "venue": "Supporting Eric Church",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-15",
+      "venue": "Supporting Eric Church",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-16",
+      "venue": "Supporting Eric Church",
+      "city": "Morrison",
+      "state": "CO",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-18",
+      "venue": "BIG SKY PBR",
+      "city": "Big Sky",
+      "state": "MT",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-19",
+      "venue": "Søn of Dad Tour 2025",
+      "city": "Pocatello",
+      "state": "ID",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-20",
+      "venue": "Søn of Dad Tour 2025 ",
+      "city": "Garden City",
+      "state": "ID",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-22",
+      "venue": "Søn of Dad Tour 2025",
+      "city": "Spokane",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-24",
+      "venue": "Søn of Dad Tour 2025",
+      "city": "Billings",
+      "state": "MT",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-25",
+      "venue": "Red Ants Pants 2025",
+      "city": "White Sulphur Springs",
+      "state": "MT",
+      "capacity": null
+    },
+    {
+      "date": "2025-07-27",
+      "venue": "Newport Folk  2025",
+      "city": "Newport",
+      "state": "RI",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-02",
+      "venue": "Rock the Rind 2025",
+      "city": "Brownstown",
+      "state": "IN",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-08",
+      "venue": "Edmonton Folk Music Festival 2025",
+      "city": "Edmonton",
+      "state": "AB",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-10",
+      "venue": "Boots and Hearts Music Festival 2025",
+      "city": "Oro Station",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-12",
+      "venue": "Illinois State Fair 2025",
+      "city": "Springfield",
+      "state": "IL",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-14",
+      "venue": "JIM BOB TOUR",
+      "city": "Kansas City",
+      "state": "MO",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-15",
+      "venue": "JIM BOB TOUR",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-16",
+      "venue": "JIM BOB TOUR",
+      "city": "Somerset",
+      "state": "WI",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-21",
+      "venue": "JIM BOB TOUR",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-22",
+      "venue": "JIM BOB TOUR",
+      "city": "Clarkston",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-23",
+      "venue": "JIM BOB TOUR",
+      "city": "Clarkston",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-24",
+      "venue": "Marcus King Family Reunion",
+      "city": "North Charleston",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-24",
+      "venue": "Marcus King Band Family Reunion 2025",
+      "city": "North Charleston",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-28",
+      "venue": "Live in Hampton Beach, NH",
+      "city": "Hampton Beach",
+      "state": "NH",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-29",
+      "venue": "JIM BOB TOUR",
+      "city": "Bangor",
+      "state": "ME",
+      "capacity": null
+    },
+    {
+      "date": "2025-08-30",
+      "venue": "JIM BOB TOUR",
+      "city": "Hartford",
+      "state": "CT",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-04",
+      "venue": "JIM BOB TOUR",
+      "city": "Syracuse",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-05",
+      "venue": "JIM BOB TOUR",
+      "city": "Burgettstown",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-06",
+      "venue": "JIM BOB TOUR",
+      "city": "Hershey",
+      "state": "PA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-09",
+      "venue": "AMERICANAFEST 2025",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-11",
+      "venue": "JIM BOB TOUR",
+      "city": "Brandon",
+      "state": "MS",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-12",
+      "venue": "JIM BOB TOUR",
+      "city": "Birmingham",
+      "state": "AL",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-13",
+      "venue": "JIM BOB TOUR",
+      "city": "Simpsonville",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-18",
+      "venue": "JIM BOB TOUR",
+      "city": "Atlanta",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-19",
+      "venue": "JIM BOB TOUR",
+      "city": "Tampa",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-20",
+      "venue": "JIM BOB TOUR",
+      "city": "West Palm Beach",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-24",
+      "venue": "JIM BOB TOUR",
+      "city": "New York",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-26",
+      "venue": "Søn of Dad Tour 2025",
+      "city": "Providence",
+      "state": "RI",
+      "capacity": null
+    },
+    {
+      "date": "2025-09-27",
+      "venue": "Søn of Dad Tour 2025",
+      "city": "Sayreville",
+      "state": "NJ",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-02",
+      "venue": "Søn of Dad Tour 2025",
+      "city": "Richmond",
+      "state": "VA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-04",
+      "venue": "Søn of Dad Tour 2025",
+      "city": "Clarksburg",
+      "state": "WV",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-05",
+      "venue": "Country Calling 2025",
+      "city": "Ocean City",
+      "state": "MD",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-10",
+      "venue": "Peacemaker Festival 2025",
+      "city": "Fort Smith",
+      "state": "AR",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-12",
+      "venue": "Live Oak Bank Pavilion",
+      "city": "Wilmington",
+      "state": "NC",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-22",
+      "venue": "The Showbox",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-23",
+      "venue": "Showbox SoDo",
+      "city": "Seattle",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-25",
+      "venue": "Toyota Center",
+      "city": "Kennewick",
+      "state": "WA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-26",
+      "venue": "McMenamins Crystal Ballroom",
+      "city": "Portland",
+      "state": "OR",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-28",
+      "venue": "The Warfield",
+      "city": "San Francisco",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-10-29",
+      "venue": "Channel 24",
+      "city": "Sacramento",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-01",
+      "venue": "The Wiltern",
+      "city": "Los Angeles",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-02",
+      "venue": "The Sound",
+      "city": "Del Mar",
+      "state": "CA",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-07",
+      "venue": "Georgia theater",
+      "city": "Athens",
+      "state": "GA",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-08",
+      "venue": "Florida Theatre",
+      "city": "Jacksonville",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-09",
+      "venue": "Whiskey Moon 2025",
+      "city": "Miramar Beach",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-14",
+      "venue": "Graceland Soundstage",
+      "city": "Memphis",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-15",
+      "venue": "The Louisville Palace",
+      "city": "Louisville",
+      "state": "KY",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-20",
+      "venue": "Township Auditorium",
+      "city": "Columbia",
+      "state": "SC",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-23",
+      "venue": "Ryman Auditorium",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-11-24",
+      "venue": "Ryman Auditorium",
+      "city": "Nashville",
+      "state": "TN",
+      "capacity": null
+    },
+    {
+      "date": "2025-12-11",
+      "venue": "Live in Las Vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "capacity": null
+    },
+    {
+      "date": "2026-01-27",
+      "venue": "Mile 0 Festival  2026",
+      "city": "Key West",
+      "state": "FL",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-17",
+      "venue": "White Oak Music Hall",
+      "city": "Houston",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-26",
+      "venue": "Free The Machine Tour with Eric Church",
+      "city": "Tulsa",
+      "state": "OK",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-27",
+      "venue": "Free The Machine Tour with Eric Church",
+      "city": "Fort Worth",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2026-02-28",
+      "venue": "Free The Machine Tour with Eric Church",
+      "city": "Austin",
+      "state": "TX",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-06",
+      "venue": "Gary The Torch 2026",
+      "city": "Columbus",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-07",
+      "venue": "Gary The Torch 2026",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-10",
+      "venue": "Gary The Torch 2026",
+      "city": "Cleveland",
+      "state": "OH",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-11",
+      "venue": "Gary The Torch 2026",
+      "city": "Detroit",
+      "state": "MI",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-13",
+      "venue": "Gary The Torch 2026 ",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-14",
+      "venue": "Gary The Torch 2026",
+      "city": "Toronto",
+      "state": "ON",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-18",
+      "venue": "Gary The Torch 2026",
+      "city": "Boston",
+      "state": "MA",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-21",
+      "venue": "Gary The Torch 2026",
+      "city": "Brooklyn",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-22",
+      "venue": "Gary The Torch 2026",
+      "city": "Port Chester",
+      "state": "NY",
+      "capacity": null
+    },
+    {
+      "date": "2026-03-25",
+      "venue": "Gary The Torch 2026",
+      "city": "Philadelphia",
+      "state": "PA",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "multiple shows per month",
+  "venueScaleProgression": "mixed venues"
+}

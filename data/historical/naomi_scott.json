@@ -1,0 +1,16 @@
+{
+  "artist": "Naomi Scott",
+  "totalUSShows": 1,
+  "dateRange": "2025-2025",
+  "tours": [
+    {
+      "date": "2025-08-02",
+      "venue": "Lollapalooza Chicago 2025",
+      "city": "Chicago",
+      "state": "IL",
+      "capacity": null
+    }
+  ],
+  "tourFrequency": "insufficient data",
+  "venueScaleProgression": "mixed venues"
+}
