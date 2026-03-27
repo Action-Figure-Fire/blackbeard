@@ -167,6 +167,20 @@ body {
 .listings-hot { color: var(--red); }
 .listings-thin { color: var(--text-muted); font-style: italic; }
 
+/* Feedback buttons */
+.feedback-row {
+  display: flex; gap: 6px; margin-top: 6px; padding-top: 6px;
+  border-top: 1px solid var(--border);
+}
+.feedback-btn {
+  background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted);
+  padding: 3px 10px; border-radius: 12px; font-size: 11px; cursor: pointer;
+  transition: all 0.15s; font-family: 'Inter', sans-serif;
+}
+.feedback-btn:hover { border-color: var(--accent); color: var(--text); }
+.feedback-btn.selected { border-color: var(--green); color: var(--green); background: var(--green-dim); }
+.feedback-btn.selected.bad { border-color: var(--red); color: var(--red); background: var(--red-dim); }
+
 /* Tool log */
 .tool-log {
   font-size: 10px; color: var(--text-muted); padding: 4px 10px;
@@ -382,6 +396,8 @@ function renderMarkdown(text) {
   return html;
 }
 
+let feedbackLog = JSON.parse(localStorage.getItem('bb_feedback') || '[]');
+
 function addMessage(role, content) {
   const chatArea = document.getElementById('chatArea');
   const welcome = document.getElementById('welcome');
@@ -390,12 +406,30 @@ function addMessage(role, content) {
   div.className = 'message ' + role;
   if (role === 'assistant') {
     div.innerHTML = renderMarkdown(content);
+    // Add feedback buttons
+    const fbRow = document.createElement('div');
+    fbRow.className = 'feedback-row';
+    const msgId = Date.now();
+    fbRow.innerHTML = `
+      <button class="feedback-btn" onclick="giveFeedback(${msgId},'good',this)">👍 Useful</button>
+      <button class="feedback-btn" onclick="giveFeedback(${msgId},'bad',this)">👎 Not helpful</button>
+    `;
+    div.appendChild(fbRow);
   } else {
     div.textContent = content;
   }
   chatArea.appendChild(div);
   chatArea.scrollTop = chatArea.scrollHeight;
   return div;
+}
+
+function giveFeedback(msgId, type, btn) {
+  const row = btn.parentElement;
+  row.querySelectorAll('.feedback-btn').forEach(b => b.classList.remove('selected','bad'));
+  btn.classList.add('selected');
+  if (type === 'bad') btn.classList.add('bad');
+  feedbackLog.push({ id: msgId, type, timestamp: new Date().toISOString() });
+  localStorage.setItem('bb_feedback', JSON.stringify(feedbackLog));
 }
 
 function addToolLog(logs) {

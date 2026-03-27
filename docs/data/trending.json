@@ -1,81 +1,70 @@
 {
-  "weekOf": "2026-03-08",
-  "scannedAt": "2026-03-10T17:01:30.931Z",
+  "weekOf": "2026-03-22",
+  "scannedAt": "2026-03-23T12:01:12.198Z",
   "sourceCount": {
-    "google": 438,
-    "twitter": 20,
-    "brave": 16
+    "google": 491,
+    "twitter": 0,
+    "brave": 14
   },
   "trends": [
     {
-      "name": "Hilary Duff",
+      "name": "Cody Johnson",
       "category": "music",
-      "trendScore": 40,
+      "trendScore": 25,
       "sources": [
-        "google_trends",
-        "brave"
+        "google_trends"
       ],
-      "sourceCount": 2,
-      "context": "Monday 07:00 PMMon7:00 PMOpen additional information for West Palm Beach, FL, iTHINK Financial Amphitheatre , Hilary Duff: the lucky me tour6/22/26, 7:00 PMWest Palm Beach, FLiTHINK F",
-      "ticketUrl": "https://www.ticketmaster.com/hilary-duff-tickets/artist/882305",
+      "sourceCount": 1,
+      "context": "Win tickets to see Cody Johnson live March 28, 2026 at Simmons Bank Arena in North Little Rock, Arkansas. Call KWCK 99.9 mornings or register at Riser Harness Ford to win.",
+      "ticketUrl": null,
+      "volume": 2000
+    },
+    {
+      "name": "Wet Leg",
+      "category": "music",
+      "trendScore": 25,
+      "sources": [
+        "google_trends"
+      ],
+      "sourceCount": 1,
+      "context": "Find tickets for Wet Leg concerts near you on JamBase. Browse all 2026 tour dates, past setlists, news & articles, concert videos, and more.",
+      "ticketUrl": null,
+      "volume": 2000
+    },
+    {
+      "name": "Aryna Sabalenka",
+      "category": "music",
+      "trendScore": 20,
+      "sources": [
+        "google_trends"
+      ],
+      "sourceCount": 1,
+      "context": "When asked why she was shocked, Sabalenka replied, &quot;I just like I think I never like deal with something like that. So I think it's like a first experience. I don't remember anything li",
+      "ticketUrl": null,
       "volume": 10000
     },
     {
-      "name": "2026 Tours: Zach Bryan, Bruno Mars, Rush, More",
+      "name": "Jaden Hardy",
       "category": "music",
-      "trendScore": 25,
+      "trendScore": 20,
       "sources": [
-        "brave"
+        "google_trends"
       ],
       "sourceCount": 1,
-      "context": "In 2026, major artists like Ariana Grande, Rush, Rosalia, and more are going on tour",
-      "ticketUrl": null
+      "context": "",
+      "ticketUrl": null,
+      "volume": 1000
     },
     {
-      "name": "Lily Allen Kicks Off West End Girl Tour With World-First Setlist",
-      "category": "music",
-      "trendScore": 25,
-      "sources": [
-        "google_trends",
-        "brave"
-      ],
-      "sourceCount": 2,
-      "context": "Throughout this week and the rest ... be finishing off the small tour with three nights at the London Palladium on March 20, 21 and 22, 2026. And the star's first setlist didn&#x",
-      "ticketUrl": null
-    },
-    {
-      "name": "Gorillaz Announce North America Tour: Kong Card Holders Get First Access to Presale Tickets",
-      "category": "music",
-      "trendScore": 25,
-      "sources": [
-        "google_trends",
-        "brave"
-      ],
-      "sourceCount": 2,
-      "context": "A Gorillaz artist presale will begin Friday, March 6, at 10am local time. Fans must sign up before 10am ET on Thursday, March 5, to access the artist presale.",
-      "ticketUrl": null
-    },
-    {
-      "name": "Mia Asano's First Sold Out Concert: a Night of Pure Joy",
+      "name": "Top MontréAl Concerts and Live-Music Events in 2026 | Tourisme MontréAl",
       "category": "music",
       "trendScore": 10,
       "sources": [
         "brave"
       ],
       "sourceCount": 1,
-      "context": "In this tough economy, they still ... that made it a SOLD OUT show. Some fans went out the extra mile and purchased VIP/Meet and Greet tickets....",
+      "context": "Montréal’s 2026 concert calendar is packed with superstar tours, legacy acts and homegrown icons performing at the city’s top venues, such as the downtown Bell Centre, Place des Arts in the Qu",
       "ticketUrl": null
-    },
-    {
-      "name": "Jo Koy and Fluffy's Sold-Out Sofi Show Marks a Turning Point for Stand-Up Comedy",
-      "category": "comedy",
-      "trendScore": 10,
-      "sources": [
-        "brave"
-      ],
-      "sourceCount": 1,
-      "context": "Whenever they stand together, the duo’s dynamic is like a modern-day Laurel and Hardy. Nearly 70% of tickets for Koy and Iglesias’ SoFi show sold within days, making this the largest stadium s",
-      "ticketUrl": "https://www.ticketmaster.com/jo-koy-tickets/artist/1179917"
     }
   ]
 }

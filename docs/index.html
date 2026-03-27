@@ -225,6 +225,14 @@ main { max-width: 1200px; margin: 0 auto; padding: 20px 24px; }
 }
 .chat-msg.assistant ul { padding-left: 14px; }
 .chat-msg.assistant li { margin: 1px 0; }
+.chat-feedback { display: flex; gap: 4px; margin-top: 5px; padding-top: 5px; border-top: 1px solid var(--border); }
+.chat-fb-btn {
+  background: var(--surface2); border: 1px solid var(--border); color: var(--text-muted);
+  padding: 2px 8px; border-radius: 10px; font-size: 10px; cursor: pointer; font-family: 'Inter', sans-serif;
+}
+.chat-fb-btn:hover { border-color: var(--accent); color: var(--text); }
+.chat-fb-btn.sel { border-color: var(--green); color: var(--green); }
+.chat-fb-btn.sel.neg { border-color: var(--red); color: var(--red); }
 
 .chat-tool-log {
   font-size: 9px; color: var(--text-muted); padding: 2px 8px;
@@ -722,6 +730,12 @@ function addChatMsg(role, content) {
   const div = document.createElement('div');
   div.className = 'chat-msg ' + role;
   div.innerHTML = role === 'assistant' ? renderChatMd(content) : content;
+  if (role === 'assistant') {
+    const fb = document.createElement('div');
+    fb.className = 'chat-feedback';
+    fb.innerHTML = '<button class="chat-fb-btn" onclick="this.classList.add(\'sel\')">👍</button><button class="chat-fb-btn" onclick="this.classList.add(\'sel\',\'neg\')">👎</button>';
+    div.appendChild(fb);
+  }
   area.appendChild(div);
   area.scrollTop = area.scrollHeight;
 }
